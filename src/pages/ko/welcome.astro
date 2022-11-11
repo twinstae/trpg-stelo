@@ -1,0 +1,28 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+
+const posts = await Astro.glob('./**/*.md');
+
+const published = posts.filter((post) => post.frontmatter.publish);
+---
+
+<MainLayout
+  frontmatter={{
+    title: '스텔로의 토끼굴',
+    description: 'test',
+    layout: '../../layouts/MainLayout.astro',
+  }}
+  headings={[]}
+>
+  {
+    published.map((post) => (
+      <li class="w-fit p-4 rounded-lg border-2 border-orange-300 list-none shadow-xl hover:shadow-2xl transition-shadow duration-300">
+        <a href={post.url} class="">
+          <h3 class="mt-0">{post.frontmatter.title}</h3>
+          <p>{new Date(post.frontmatter.createdAt).toLocaleString()}</p>
+          <p>{post.frontmatter.description}</p>
+        </a>
+      </li>
+    ))
+  }
+</MainLayout>

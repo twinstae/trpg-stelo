@@ -55,11 +55,6 @@ h6 {
 	line-height: 1;
 }
 
-h1,
-h2 {
-	max-width: 40ch;
-}
-
 :is(h2, h3):not(:first-child) {
 	margin-top: 3rem;
 }
@@ -69,24 +64,20 @@ h2 {
 }
 
 h1 {
-	font-size: 3.25rem;
+	font-size: 2.5rem;
 	font-weight: 800;
 }
 
 h2 {
-	font-size: 2.5rem;
+	font-size: 1.8rem;
 }
 
 h3 {
-	font-size: 1.75rem;
+	font-size: 1.5rem;
 }
 
 h4 {
-	font-size: 1.3rem;
-}
-
-h5 {
-	font-size: 1rem;
+	font-size: 1.2rem;
 }
 
 p {
@@ -113,6 +104,10 @@ a {
 	text-underline-offset: 0.08em;
 	align-items: center;
 	gap: 0.5rem;
+}
+
+em {
+	color: var(--theme-text-accent);
 }
 
 article > section :is(ul, ol) > * + * {
@@ -211,45 +206,6 @@ pre > code {
 	font-size: 1em;
 }
 
-table,
-pre {
-	position: relative;
-	--padding-block: 1rem;
-	--padding-inline: 2rem;
-	padding: var(--padding-block) var(--padding-inline);
-	padding-right: calc(var(--padding-inline) * 2);
-	margin-left: calc(var(--padding-inline) * -1);
-	margin-right: calc(var(--padding-inline) * -1);
-	font-family: var(--font-mono);
-
-	line-height: 1.5;
-	font-size: 0.85em;
-	overflow-y: hidden;
-	overflow-x: auto;
-}
-
-table {
-	width: 100%;
-	padding: var(--padding-block) 0;
-	margin: 0;
-	border-collapse: collapse;
-}
-
-/* Zebra striping */
-tr:nth-of-type(odd) {
-	background: var(--theme-bg-hover);
-}
-th {
-	background: var(--color-black);
-	color: var(--theme-color);
-	font-weight: bold;
-}
-td,
-th {
-	padding: 6px;
-	text-align: left;
-}
-
 pre {
 	background-color: var(--theme-code-bg);
 	color: var(--theme-code-text);
@@ -271,10 +227,11 @@ blockquote code {
 blockquote {
 	margin: 2rem 0;
 	padding: 1.25em 1.5rem;
-	border-left: 3px solid var(--theme-text-light);
-	background-color: var(--theme-bg-offset);
+	border-left: 3px solid var(--theme-accent);
+	background-color: var(--theme-bg-accent);
 	border-radius: 0 0.25rem 0.25rem 0;
 	line-height: 1.7;
+	font-family: var(--font-serif);
 }
 
 img {
@@ -379,4 +336,13 @@ h2.heading {
 
 :target {
 	scroll-margin: calc(var(--theme-sidebar-offset, 5rem) + 2rem) 0 2rem;
+}
+
+input[type="checkbox"] {
+	width: 1rem;
+	height: 1rem;
+}
+
+input[type="checkbox"]:checked {
+	color: red;
 }

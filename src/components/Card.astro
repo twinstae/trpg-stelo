@@ -1,0 +1,57 @@
+---
+
+---
+
+<div class="flip-card">
+  <div class="flip-card-inner rounded-lg w-80 h-36 border-2 shadow-xl text-center  border-yellow-400">
+    <div class="front flex flex-col justify-center">
+      <p class="m-auto text-3xl font-bold">
+        <slot />
+      </p>
+    </div>
+    <div class="back numenera-card-background bg-cover rounded-lg flex flex-col justify-center">
+      <img src="http://numenera.com/devsite/wp-content/uploads/2012/08/LogoWhiteSmall-e1344230267560.png" class="m-auto" alt="Numenera">
+      <p class="absolute right-2 bottom-2 text-white">TM and © 2022 Monte Cook Games, LLC.</p>
+    </div>
+  </div>
+</div>
+
+<style>
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-inner {
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .back, .front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+
+  .front {
+    transform: rotateY(180deg);
+  }
+
+
+  .flip-card img {
+    transition: opacity 0.8s;
+  }
+
+  .flip-card:hover img {
+    opacity: 0;
+  }
+
+  .flip-card:nth-child(even) .numenera-card-background {
+    background-image: url("http://numenera.com/wp-content/uploads/2017/08/Into-the-Night-1-Lee-Smith.jpg");
+  }
+
+  .flip-card:nth-child(odd) .numenera-card-background {
+    background-image: url("http://numenera.com/wp-content/uploads/2017/08/Slideshow-FoundationStones.jpg");
+  }
+</style>

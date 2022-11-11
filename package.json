@@ -1,5 +1,5 @@
 {
-  "name": "@example/docs",
+  "name": "trpg-stelo",
   "type": "module",
   "version": "0.0.1",
   "private": true,
@@ -12,18 +12,16 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@algolia/client-search": "^4.13.1",
     "@astrojs/preact": "^1.2.0",
-    "@astrojs/react": "^1.2.0",
-    "@docsearch/css": "^3.1.0",
-    "@docsearch/react": "^3.1.0",
+    "@astrojs/tailwind": "^2.1.0",
     "@types/node": "^18.0.0",
-    "@types/react": "^17.0.45",
-    "@types/react-dom": "^18.0.0",
-    "astro": "^1.4.7",
+    "astro": "^1.6.3",
+    "autoprefixer": "^10.4.12",
+    "daisyui": "^2.31.0",
+    "postcss": "^8.4.18",
     "preact": "^10.7.3",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "tailwindcss": "^3.0.24",
+    "vite": "^3.1.8"
   },
-  "packageManager": "yarn@3.2.4"
+  "packageManager": "yarn@1.22.19"
 }
