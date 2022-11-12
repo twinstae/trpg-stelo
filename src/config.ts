@@ -38,15 +38,17 @@ export type Sidebar = Record<
 >;
 export const SIDEBAR: Sidebar = {
 	ko: Language('ko', [
-	
-		Topic('누메네라', '/numenera', [
-			{ text: '지도', link: '/introduction' },
-			{ text: '조화: 확장 규칙', link: '/harmony' },
-			{ text: '일레인: 공동체', link: '/elaine-community' },
-			{ text: '기록', link: '/record' },
-			// { text: '죽은 새들의 언어: 시나리오', link: '/dead-birds-language' },
-			// { text: '아키펠라고', link: '/archipelago' },
-		]),
+		Topic('사이퍼 SRD', '/cypher-open', [
+			{ text: '플레이 하는 법', link: '/how-to-play' },
+		])
+		// Topic('누메네라', '/numenera', [
+		// 	{ text: '지도', link: '/introduction' },
+		// 	{ text: '조화: 확장 규칙', link: '/harmony' },
+		// 	{ text: '일레인: 공동체', link: '/elaine-community' },
+		// 	{ text: '기록', link: '/record' },
+		// 	// { text: '죽은 새들의 언어: 시나리오', link: '/dead-birds-language' },
+		// 	// { text: '아키펠라고', link: '/archipelago' },
+		// ]),
 		// Topic('약을 전하는 여행', '/fellowship-of-the-medicine', [
 		// 	{ text: '소개', link: '/introduction' },
 		// 	{ text: '겁스 경량판 어댑터', link: '/gurps-light' },
@@ -60,14 +62,14 @@ export const SIDEBAR: Sidebar = {
 		// Topic('리플레이', '/replay', [
 		// 	{ text: '소개', link: '/numenera-01' }
 		// ]),
-		Topic('노트', '/note', [
-			{ text: '이야기 속 현실과 논리', link: '/reality-and-logic' },
-			{ text: '이야기 속 현실 사전', link: '/realistic-story-dict' },
-			// { text: '불가능 부수기', link: '/breaking-impossible' },
-			// { text: 'TRPG에서 폭력과 힘', link: '/power-in-trpg' },
-			// { text: '음유시인의 후예', link: '/descendants-of-bard' },
-			// { text: '구경 책임제', link: '/diameter-responsibility-rule' }
-		]),
+		// Topic('노트', '/note', [
+		// 	{ text: '이야기 속 현실과 논리', link: '/reality-and-logic' },
+		// 	{ text: '이야기 속 현실 사전', link: '/realistic-story-dict' },
+		// 	// { text: '불가능 부수기', link: '/breaking-impossible' },
+		// 	// { text: 'TRPG에서 폭력과 힘', link: '/power-in-trpg' },
+		// 	// { text: '음유시인의 후예', link: '/descendants-of-bard' },
+		// 	// { text: '구경 책임제', link: '/diameter-responsibility-rule' }
+		// ]),
 		// Topic('프랙탈', '/fractal', [
 		// 	{ text: '잿불 퀵스타트', link: '/quickstart' }
 		// ]),
