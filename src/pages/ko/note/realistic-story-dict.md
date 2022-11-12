@@ -3,7 +3,7 @@ title: 이야기 속 현실 사전
 description: 이야기 속 현실과 논리로 TRPG 플레이를 해나갈 때 고민해볼만한 지점들을 이야기해봅니다.
 layout: ../../../layouts/MainLayout.astro
 createdAt: "2022-11-08T07:34:17.231Z"
-publish: true
+publish: false
 ---
 
 ## 전투
