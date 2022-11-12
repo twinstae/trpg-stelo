@@ -1,3 +1,5 @@
+/** @jsxImportSource preact */
+
 import type { FunctionalComponent } from "preact";
 import { useEffect, useState } from "preact/hooks";
 import "./ThemeToggleButton.css";
@@ -52,8 +54,10 @@ const ThemeToggle: FunctionalComponent = () => {
     const root = document.documentElement;
     if (theme === "light") {
       root.classList.remove("theme-dark");
+      root.setAttribute('data-theme', "garden")
     } else {
       root.classList.add("theme-dark");
+      root.setAttribute('data-theme', "forest")
     }
   }, [theme]);
 
