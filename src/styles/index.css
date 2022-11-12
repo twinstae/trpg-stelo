@@ -101,6 +101,7 @@ small,
 a {
 	color: var(--theme-text-accent);
 	font-weight: 400;
+	text-decoration: underline;
 	text-underline-offset: 0.08em;
 	align-items: center;
 	gap: 0.5rem;
@@ -166,11 +167,6 @@ a > code::before {
 	border-radius: var(--border-radius);
 }
 
-a:hover,
-a:focus {
-	text-decoration: underline;
-}
-
 a:focus {
 	outline: 2px solid currentColor;
 	outline-offset: 0.25em;
@@ -231,7 +227,6 @@ blockquote {
 	background-color: var(--theme-bg-accent);
 	border-radius: 0 0.25rem 0.25rem 0;
 	line-height: 1.7;
-	font-family: var(--font-serif);
 }
 
 img {
@@ -306,7 +301,6 @@ h2.heading {
 .heading-link a {
 	font: inherit;
 	color: inherit;
-	text-decoration: none;
 }
 
 /* Screenreader Only Text */

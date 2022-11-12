@@ -1,3 +1,5 @@
+/** @jsxImportSource preact */
+
 import type { FunctionalComponent } from 'preact';
 import { useState, useEffect, useRef } from 'preact/hooks';
 import type { MarkdownHeading } from 'astro';
@@ -35,7 +37,7 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 			<h2 className="heading">목차</h2>
 			<ul>
 				<li className={`heading-link depth-2 ${activeId === 'overview' ? 'active' : ''}`.trim()}>
-					<a href="#overview">도입</a>
+					<a href="#overview" className="no-underline">도입</a>
 				</li>
 				{headings
 					.filter(({ depth }) => depth > 1 && depth < 4)
@@ -45,7 +47,7 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 								activeId === heading.slug ? 'active' : ''
 							}`.trim()}
 						>
-							<a href={`#${heading.slug}`}>{heading.text}</a>
+							<a href={`#${heading.slug}`} className="no-underline">{heading.text}</a>
 						</li>
 					))}
 			</ul>

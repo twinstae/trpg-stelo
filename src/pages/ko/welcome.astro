@@ -17,7 +17,7 @@ const published = posts.filter((post) => post.frontmatter.publish);
   {
     published.map((post) => (
       <li class="w-fit p-4 rounded-lg border-2 border-orange-300 list-none shadow-xl hover:shadow-2xl transition-shadow duration-300">
-        <a href={post.url} class="">
+        <a href={post.url} class="no-underline">
           <h3 class="mt-0">{post.frontmatter.title}</h3>
           <p>{new Date(post.frontmatter.createdAt).toLocaleString()}</p>
           <p>{post.frontmatter.description}</p>
