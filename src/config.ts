@@ -30,7 +30,7 @@ export const KNOWN_LANGUAGES = {
 } as const;
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
-export const GITHUB_EDIT_URL = `https://github.com/twinstae/trpg-stelo/tree/main/`;
+export const GITHUB_EDIT_URL = 'https://github.com/twinstae/trpg-stelo/tree/master';
 
 export type Sidebar = Record<
 	typeof KNOWN_LANGUAGE_CODES[number],
@@ -39,7 +39,19 @@ export type Sidebar = Record<
 export const SIDEBAR: Sidebar = {
 	ko: Language('ko', [
 		Topic('사이퍼 SRD', '/cypher-open', [
+			{ text: '소개', link: '/introduction' },
 			{ text: '플레이 하는 법', link: '/how-to-play' },
+			{ text: '캐릭터 만들기', link: '/creating-your-character' },
+			{ text: '캐릭터 유형', link: '/character-types' },
+			{ text: '캐릭터 수식어', link: '/character-descriptors' },
+			{ text: '캐릭터 특징', link: '/character-focus' },
+			{ text: '캐릭터 특수 능력', link: '/character-abilities' },
+			{ text: '장비', link: '/equipment' },
+			{ text: '게임의 룰', link: '/rules-of-the-game' },
+			{ text: '장르', link: '/genres' },
+			{ text: '생물', link: '/creatures' },
+			{ text: '사이퍼', link: '/cyphers' },
+			{ text: '사이퍼 시스템을 운영하는 법', link: '/running-the-cypher-system' },
 		])
 		// Topic('누메네라', '/numenera', [
 		// 	{ text: '지도', link: '/introduction' },
