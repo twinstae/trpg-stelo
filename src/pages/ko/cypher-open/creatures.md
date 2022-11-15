@@ -6,11 +6,10 @@ createdAt: "2022-11-11T20:34:17.231Z"
 publish: false
 ---
 
-Creatures
 This chapter describes many common and uncommon creatures that the characters might meet—and fight—in a Cypher System game and gives their stats. The variety of creatures that populate the possible settings and genres is so great that this chapter only scratches the surface. It does, however, provide examples of kinds of inhabitants—bestial and civilized, living and undead, organic and inorganic—so that you can easily extrapolate and create your own.
 
 
-UNDERSTANDING THE LISTINGS
+## UNDERSTANDING THE LISTINGS
 Every creature is presented by name, followed by a standard template that includes the following categories.
 
 Level: Like the difficulty of a task, each creature and NPC has a level attached to it. You use the level to determine the target number a PC must reach to attack or defend against the opponent. In each entry, the difficulty number for the creature or NPC is listed in parentheses after its level. As shown on the following table, the target number is three times the level.
@@ -64,7 +63,7 @@ Target Number
 - **GM Intrusion:** This optional entry in the stats suggests a way to use GM intrusion in an encounter with the creature. It’s just one possible idea of many, and the GM is encouraged to come up with their own uses of the game mechanic.
 
 
-NORMAL ANIMALS
+### NORMAL ANIMALS
 Unlike many creatures in this chapter, normal animals are simple and understandable enough to be encapsulated by just their level and maybe one or two other stats.
 - **Bear, black: level 3,** attacks as level 4
 - **Bear, grizzly: level 5;** health 20; Armor 1

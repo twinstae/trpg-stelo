@@ -6,11 +6,9 @@ createdAt: "2022-11-11T20:34:17.231Z"
 publish: false
 ---
 
-Genres
-
 The Cypher System can be used to play in many settings. This chapter provides additional information and rules for fantasy, modern, science fiction, horror, romance, superheroes, post-apocalyptic, fairy tale, and historical genres.
 
-Fantasy
+## Fantasy
 
 For our purposes, fantasy is any genre that has magic, or something so inexplicable it might as well be magic. The sort of core default of this type is Tolkienesque fantasy, also known as second-world fantasy because it includes a completely new world not our own. Big fantasy epics like those penned by J. R. R. Tolkien (hence the name), C. S. Lewis, George R. R. Martin, Stephen R. Donaldson, David Eddings, Ursula K. Le Guin, and others are indicative of this genre. It usually involves swords, sorcery, nonhuman species (such as elves, dwarves, helborn, and half-giants), and epic struggles.
 Of course, fantasy might also involve the modern world, with creatures of myth and sorcerers dwelling among us. It might involve mythic traditions of any number of cultures (elves, dwarves, and the like, usually being decidedly European) or bear little resemblance to anything on Earth, past or present. It might even involve some of the trappings of science fiction, with spaceships and laser guns amid the wizardry and swords (this is often called science fantasy).
@@ -18,7 +16,7 @@ Fantasy can also be defined by the amount of fantasy elements within it. A secon
 The point is, there are many, many types of fantasy.
 
 
-SUGGESTED TYPES FOR A FANTASY GAME
+### SUGGESTED TYPES FOR A FANTASY GAME
 Role
 Character Type
 Warrior
@@ -43,7 +41,7 @@ Bard
 Speaker
 
 
-Basic CREATURES AND NPCs FOR A FANTASY GAME
+### Basic CREATURES AND NPCs FOR A FANTASY GAME
 Bat: level 1
 Dog: level 2, perception as level 3
 Dog, guard: level 3, attacks and perception as level 4
@@ -59,7 +57,7 @@ Merchant: level 2, haggling and assessment tasks as level 3
 Villager: level 2
 
 
-ADDITIONAL FANTASY EQUIPMENT
+### ADDITIONAL FANTASY EQUIPMENT
 In the default Medieval Europe-style fantasy setting, the following items (and anything else appropriate to that time period) are usually available.
 
 INEXPENSIVE ITEMS
@@ -247,7 +245,7 @@ Sailing ship (small)
 
 
 
-FANTASY ARTIFACTS
+### FANTASY ARTIFACTS
 In many ways, fantasy is the genre for artifacts. All magic items—wands that shoot lightning, magic carpets, singing swords, rings that make the wearer invisible, and so on—are artifacts. Below are a few sample artifacts to give a template for GMs to follow. Those running a fantasy campaign will likely want to create many magic artifacts.
 
 ANGELIC WARD
@@ -284,7 +282,7 @@ Depletion: 1 in 1d20
 
  
 
-FANTASY SPECIES DESCRIPTORS
+### FANTASY SPECIES DESCRIPTORS
 In a high fantasy setting, some GMs may want dwarves and elves to be mechanically different from humans. Below are some possibilities for how this might work.
 
 DWARF
@@ -350,7 +348,7 @@ Initial Link to the Starting Adventure: From the following list of options, choo
 
 
 
-OPTIONAL RULE: SPELLCASTING
+### OPTIONAL RULE: SPELLCASTING
 Fantasy settings prioritize magic as an essential ingredient. But why restrict that magic to just wizards and similar characters? It’s not uncommon in fantasy literature for a thief or warrior to learn a few spells as they steal or brawl through their adventures. Leiber’s Gray Mouser knew some spells, Moorcock’s Elric knew a lot, pretty much everyone in Anthony’s Xanth books knew at least one, and so on. Of course, wizards and sorcerers specialize in spellcasting, which gives them clear superiority in magic use. But whether a character is a fireball-flinging wizard or a belligerent barbarian, anyone can learn some spellcasting under this optional rule.
 Under the spellcasting rule, any character, no matter their role or type, can choose to learn a spell as a long-term benefit. After they learn one spell, they may learn more later if they wish, or just stick with the one.
 
@@ -377,7 +375,7 @@ Optionally, specialized casters who record their arcane knowledge in a spellbook
 For instance, if a wizard exchanges Ward (an ability gained from their type) with Telekinesis (an ability gained from the optional spellcasting rule), from now on the character can cast Ward only by spending time or using a recovery roll (as well as spending Pool points). On the other hand, they can use Telekinesis normally, because now it’s prepared. Later, the wizard could spend the time studying to change out their prepared spells with others they’ve learned using the optional spellcasting rule.
 (A PC might choose the 4 XP character advancement option to select a new type-based ability from their tier or alower tier. If so, the ability gained doesn’t count as a spell, and the spellcasting rule limitations do not apply to the ability so gained. If the PC is a wizard and uses the 4 XP character advancement option, treat the ability as one more prepared spell.)
 
-Modern
+## Modern
 The modern setting is easy because it’s just the real world, right? Well, yes and no. It’s easy for players to understand the context of a modern setting. They know the default assumptions—cities, cars, cell phones, the internet, and so on. It’s also easier for some players to get into character, because their character could be someone they might very well pass on the street. It can be easier to wrap your mind around a history professor than a thousand-year-old elf wizard. These things make it easier on the GM as well. 
 But for the same reason, it’s not easy. The setting is the real world we all know, so it’s easy to get facts wrong or let them bog you down. What happens when you pull the fire alarm on the thirty-fifth floor of a major hotel in a large city? How fast do the authorities arrive? In truth, the facts aren’t as important as the story you’re creating, but some verisimilitude is nice.
 
@@ -387,7 +385,7 @@ Similarly, the technology flavor is probably too high-tech for a modern game. Fo
 Sometimes, the types might be more physical than is always desirable for a modern game, but that’s because the least physical type, the Adept, is often inappropriate for other reasons. The Calm descriptor is very good for such characters, not only granting them a great deal of skill and knowledge, but also reducing their physical capabilities.
 Last, don’t forget foci such as Doesn’t Do Much or Would Rather Be Reading for “normal” characters who have useful skills but not much in the way of flashy abilities.
 
-SUGGESTED TYPES FOR A MODERN GAME
+### SUGGESTED TYPES FOR A MODERN GAME
 Role
 Type
 Police officer
@@ -423,7 +421,7 @@ Adept
 
 
 
-Basic CREATURES AND NPCs FOR A Modern GAME
+### Basic CREATURES AND NPCs FOR A Modern GAME
 Businessperson: level 2, business tasks as level 3
 Cat: level 1, Speed defense as level 3
 Clerk: level 2
@@ -434,7 +432,7 @@ Rat: level 1
 Worker: level 2; health 8
 
 
-ADDITIONAL MODERN EQUIPMENT
+### ADDITIONAL MODERN EQUIPMENT
 In a modern setting, the following items (and anything else appropriate to the real world) are usually available.
 
 INEXPENSIVE ITEMS
@@ -624,7 +622,7 @@ Level 6
 
 
 
-OPTIONAL RULE: HANDLING PCs AS CHILDREN
+### OPTIONAL RULE: HANDLING PCs AS CHILDREN
 The regular character creation process makes fully competent, adult characters. To account for playing children, the GM could adopt this optional rule. First, the players make their characters normally, and then they apply the following adjustments to their PCs, as appropriate to their age category. You might also consider applying a tier cap of 3 to childhood adventure games with kids of up to thirteen years old, and a tier cap of 4 for childhood adventure games featuring PCs who are aged fourteen to seventeen.
 
 AGE 9 TO 13
@@ -638,12 +636,12 @@ Youthful: –2 to your Might Pool.
 Inability: Tasks involving knowledge are hindered.
 
 
-Science Fiction
+## Science Fiction
 Science fiction is an incredibly broad category. It covers UFOs, space opera, near-future dystopias, otherworldly epics, hard science fiction, and everything in between. Even when compared to fantasy, science fiction is so wide that it almost isn’t a single genre at all. Truthfully, there’s not all that much to tie, say, The Time Machine by H. G. Wells with a dark cyberpunk story except for the technology involved, which is at a higher level than we possess or understand today. But even that part of science fiction is contentious. Should the science be purely that which obeys the laws of physics as we understand them today (often called hard science fiction), or is it more of an “anything goes” proposition? Is science we can’t explain really just magic?
 For our purposes, we’ll treat fantastic science fiction as the default: aliens, spaceships that allow travel to other stars, energy weapons and shields, and so on. It’s a familiar setting to almost everyone interested in science fiction. That said, we’ve also got some additional guidance for hard science fiction, where what’s possible is more grounded in what we currently scientifically extrapolate. But your science fiction setting can be anything you can imagine.
 
 
-SUGGESTED TYPES FOR A SCIENCE FICTION GAME
+### SUGGESTED TYPES FOR A SCIENCE FICTION GAME
 
 Role
 Type
@@ -667,7 +665,7 @@ Psychic knight
 Warrior with magic flavor
 
 
-Basic CREATURES AND NPCs FOR A SCIENCE FICTION GAME
+### Basic CREATURES AND NPCs FOR A SCIENCE FICTION GAME
 
 
 Innocuous rodent: level 1
@@ -676,7 +674,7 @@ Corporate drone: level 2
 Physical laborer: level 2; health 8
 
 
-ADDITIONAL SCIENCE FICTION EQUIPMENT
+### ADDITIONAL SCIENCE FICTION EQUIPMENT
 In a science fiction setting, the following items (and anything else appropriate to the setting) are usually available.
 
 INEXPENSIVE ITEMS
@@ -878,7 +876,7 @@ Level 4
 
 
 
-SCIENCE FICTION ARTIFACTS
+### SCIENCE FICTION ARTIFACTS
 Artifacts in a science fiction game can be strange relics from an unknown alien source or tech items that aren’t yet widely available. In a galactic setting, for example, it’s easy to imagine that innovations or specialized items might not have spread everywhere. 
 
 AMBER CASEMENT
@@ -913,7 +911,7 @@ Depletion: 1 in 1d100
 
 
 
-STARSHIPS
+### STARSHIPS
 Here are a few sample starship types:
 
 Starship
@@ -951,7 +949,7 @@ Battleship
 (Since it’s frighteningly easy to die in a space battle if your ship is destroyed, most ships have escape pods. Even fighter craft have ejection systems that put the pilot out into space in an environment suit. In other words, GMs should try to give PCs a way out of immediately dying if they get on the wrong end of a space battle.)
 
 
-EFFECTS OF GRAVITY
+### EFFECTS OF GRAVITY
 In a hard science fiction game, variable effects of gravity can’t be waved away by tech that simulates normal gravity on spacecraft, space stations, and other worlds. Instead, it’s an issue people must overcome. 
 Short-Term Microgravity Exposure: People new to low gravity might get space sickness. Newcomers must succeed on a difficulty 3 Might task or suffer mild nausea for about two to four days, during which time all their tasks are hindered. A few unlucky travelers (usually those who roll a 1 or otherwise face a GM intrusion) are almost completely incapacitated, and find all tasks hindered by three steps.
 Long-Term Microgravity Exposure: Long-term exposure to microgravity environments without medical interventions degrades health. How long one spends in such conditions is directly relevant. The GM may assign long-term penalties to PCs if the situation warrants it, though the use of advanced space medicine, proper exercise, and recommended steroids and other hormones can avoid these complications.
@@ -960,13 +958,12 @@ High Gravity: It’s hard to make effective attacks when the pull of gravity is 
 short-range weapons reach only to immediate range). Characters trained in high-gravity maneuvering ignore the change in difficulty but not the range decreases.
 Zero Gravity: It’s hard to maneuver in an environment without gravity. Attacks (and all physical actions) made in zero gravity are hindered. Short-range weapons can reach to long range, and long-range weapons can reach to very-long range.
 
-EFFECTS OF VACUUM
+### EFFECTS OF VACUUM
 Vacuum is lethal. There’s no air to breathe, and the lack of pressure causes havoc on an organic body. An unprotected character moves one step down the damage track each round. However, at the point where they should die, they instead fall unconscious and remain so for about a minute. If they are rescued during that time, they can be revived. If not, they die.
 
 
 
-TRAVELING THE SOLAR SYSTEM
-AND ORBITAL MECHANICS
+### TRAVELING THE SOLAR SYSTEM AND ORBITAL MECHANICS
 In a hard science fiction setting, you might be interested in evoking the reality of travel times between colonies on planets and moons in the solar system. Even so, plotting a course between locations in the solar system isn’t simple, because everything is always moving with respect to everything else. You could determine exactly how long a trip would take with some internet research. Or you could just evoke the effect of orbital mechanics and varying accelerations on interplanetary travel. Use the Interplanetary Travel Table to do so. For a trip between locations not directly compared, add up the destinations in between. The travel times assume a nuclear plasma engine of a kind already being tested today (but better), a steady thrust toward the destination, and an equally long and steady braking thrust over the last half of the trip before orbit insertion. Such propulsion systems can change velocity and sustain thrust for days at a time, which reduces bone loss, muscle atrophy, and other long-term effects of low gravity.
 Regardless, the travel times between distant locations bring home one thing: space is big and lonely.
 
@@ -994,7 +991,7 @@ Uranus
 
 
 
-SCIENCE FICTION SPECIES DESCRIPTORS
+### SCIENCE FICTION SPECIES DESCRIPTORS
 In a science fiction setting, some GMs may want to offer alien species or androids, who are mechanically different from humans, as options for player characters. This can be accomplished by using descriptors. Two examples are below.
 
 ARTIFICIALLY INTELLIGENT
@@ -1022,20 +1019,20 @@ Skill: Quintar fascination with human behavior eases all interaction rolls (plea
 Difficult Rest: Quintar subtract 2 from all recovery rolls (minimum 1).
 
 
-Horror
+## Horror
 Although it’s very likely a subset of the modern genre, horror as a genre gets special treatment. Unlike the other genres, horror doesn’t necessarily suggest a setting. Any setting can be horrific. Horror is more of a style. An approach. A mood.
 You could easily have horror in other times and settings, but for our purposes, we’ll deal with a default setting in the modern day. The PCs are probably normal people, not secret agents or special investigators (although being a part of a secret agency that deals with monsters in the shadows could make for a fine horror game).
 Suggested types and additional equipment for a horror setting are the same as in a modern setting.
 
 
 
-CONSENT
+### CONSENT
 Horror games allow us to explore some pretty dark topics from the safety of our own game tables. But before you do that, make sure everyone around your table is okay with that. Find out what your players will find “good uncomfortable,” which is something that makes us squirm in our seats in a great horror movie, and “bad uncomfortable,” which is something that actually makes a player feel nauseated, unsafe, or offended. Being scared can be fun, but being sickened isn’t.
 Consider the age and maturity of everyone in the game, perhaps in terms of the movie rating system. Tell the players what you think the game you’re running would be rated. If everyone’s okay with an R rating, then fine. You can have a spooky game that’s on the level of a kids’ movie rated G—more like Scooby-Doo than Saw, in other words. A PG rating might be right for a game that’s more creepy than horrific, with ghosts and spooky noises but not axe-wielding maniacs.
 The different ratings suggest different kinds of content for your game. Finding a dead body is horrible, but watching someone get decapitated is something else entirely. Getting chased around by an alien that wants to eat you is one thing, but having it gestate and burst out of your own intestines is another. You need to know where the line is for everyone participating, and you need to know it right from the beginning.
 For more information and advice on safe ways to address consent issues in your game, read the free Consent in Gaming PDF at myMCG.info/consent 
 
-Basic CREATURES AND NPCs FOR A HORROR GAME
+### Basic CREATURES AND NPCs FOR A HORROR GAME
 
 Businessperson: level 2
 Cat: level 1, Speed defense as level 3
@@ -1047,7 +1044,7 @@ Man in Black: level 4; carries weird weapons, including those with long range
 Rat: level 1 
 Tarantula: level 1
 
-HORROR ARTIFACTS
+### HORROR ARTIFACTS
 Most of the time, a horror artifact will be something really weird—an ancient tome of forbidden necromancy, an alien device that humans can barely understand, and so forth. They are often unique items rather than one of a type. Horror artifacts should probably come with a risk, such as a built-in cost, a drawback, or something else that makes using them another way to heighten the tension of the game. Several examples are below.
 
 BOOK OF INVERSION
@@ -1069,7 +1066,7 @@ Effect: Possibly one of a number of identical alien artifacts recovered in remot
 Depletion: 1–3 in 1d6
 
 
-OPTIONAL RULE: SHOCK
+### OPTIONAL RULE: SHOCK
 When the PCs encounter something shocking, many times the most realistic response is to scream, stand in abject horror, or run. That might not be the smartest thing to do in the situation, but it’s genuine. What would your accountant do if they saw an axe-wielding maniac coming at them? Let’s face it, unless they truly steeled themselves with all their will, they’d probably scream and run.
 When a PC encounters something horrific, utterly disgusting, dreadful, impossible, or otherwise shocking, call for an Intellect defense roll based on the level of the creature involved, or simply an appropriate level as decided by the GM (see the Shock Levels table). Failure might mean that for one round, the player loses control of the character, and the GM decides what the PC does next. This usually means that the character runs, screams, gibbers, stares slack-jawed, or just does nothing. However, GMs should welcome player input into this situation. The point is to portray that when we’re shocked, we don’t always react in the best way, the smartest way, or even the way we want to. Fear is a powerful thing.
 Alternatively, failure on the Intellect defense roll might mean that the character suffers Intellect damage equal to the level of the defense task. This indicates an overall toll that numerous shocks and horrors can have on a person. You might have a situation where a character literally dies of fright.
@@ -1101,7 +1098,7 @@ Seeing something mind-bending (like an impossible, multidimensional demigod coal
 
 
 
-OPTIONAL RULE: HORROR MODE
+### OPTIONAL RULE: HORROR MODE
 For horror games, GMs can implement a rule called Horror Mode. The idea is to create a feeling of escalating dread and menace by changing one die roll mechanic. In the game, things begin as normal. The PCs interact with each other and the NPCs, investigate, research, travel, and so on. But when they enter the haunted house, the serial killer gets close, the elder things beneath the earth awaken, or whatever horrific situation planned by the GM begins, things change. At this time, the GM announces that the game has gone into Horror Mode.
 This is a key for the players (not the characters) to recognize that things are getting bad. It’s the RPG equivalent of spooky music beginning to play in a horror film. While in Horror Mode, the rules for GM intrusions governed by die rolls change. Normally this happens only on a roll of 1, but when Horror Mode starts, it becomes a roll of 1 or 2. And then it escalates. As time passes, GM intrusions happen on a roll of 1 to 3, then a roll of 1 to 4, and so on. This potentially means that a die roll in Horror Mode can indicate success in a task and still trigger a GM intrusion.
 As the intrusion range changes with each escalation, the GM should announce this to the players. The feeling of rising tension should be dramatic and overt.
@@ -1123,7 +1120,7 @@ When the GM announces that Horror Mode has ended, the GM intrusion rate goes bac
 (Horror Mode is a very “meta” rule. It gives players knowledge that their characters don’t have. This is similar to how the viewers of a horror movie or readers of a horror story often know more than the characters on the screen or page. It heightens the tension. Players can express the start of Horror Mode by having their characters talk about goosebumps or a feeling of being watched, but this is not necessary.)
 
 
-USING GM INTRUSIONS IN HORROR MODE
+#### USING GM INTRUSIONS IN HORROR MODE
 With the GM intrusions coming fast and furious toward the end of Horror Mode, it’s easy to run out of ideas. In combat, intrusions might just mean that the monster or villain gets a surprise extra attack or inflicts more damage. Perhaps a PC is thrown to the ground or nearer to the edge of a cliff. If the characters are running away, one might trip and fall. If the PCs are exploring, a bookcase topples, potentially hitting someone. Think of all the similar moments you’ve seen in horror films.
 Sometimes, if the GM prefers, the GM intrusion can simply be something frightening, like a moan or a whisper. These aren’t dangerous to the PCs, but they escalate the tension and indicate that something bad is getting closer.
 In fact, while in Horror Mode, GMs should mostly refrain from doing anything bad, ominous, or dangerous unless it’s an intrusion (either from a die roll or through the awarding of XP). In a horror game, GM intrusions are an indication that things are bad and getting worse, and whenever possible, the GM should allow the Horror Mode escalation to drive the action. This makes the GM more of a slave to the dice than in other Cypher System situations, but that’s okay.
@@ -1132,7 +1129,7 @@ In some ways, the status quo doesn’t change until an intrusion happens. This c
 (GMs may want to limit the number of intrusions to no more than one per round, no matter what the dice indicate, but that should be based on the situation.)
 
 
-OPTIONAL RULE: MADNESS
+### OPTIONAL RULE: MADNESS
 Having characters descend into madness is an interesting facet of some kinds of horror and can make long-term horror campaigns more interesting. The easiest way to portray blows to a character’s sanity is through Intellect damage. When PCs encounter something shocking, as described above, they always take Intellect damage. If they would normally move one step down the damage track due to the damage, they instead immediately regain points (equal to 1d6 + their tier) in their Intellect Pools but lose 1 point from their maximums in that Pool. Characters whose Intellect Pools reach 0 go insane. They lose their current descriptor and adopt the Mad descriptor, regain 1d6 + tier points to their Intellect Pools, and gain +1 to their Intellect Edge. If they ever reach a permanent Intellect Pool maximum of 0 again, they go stark raving mad and are no longer playable.
 Intellect Edge offers an interesting means to portray a character who is knowledgeable (and perhaps even powerful in terms of mental abilities) yet mentally fragile. A character with a low Intellect Pool but a high Intellect Edge can perform Intellect actions well (since Edge is very helpful) but is still vulnerable to Intellect damage (where Edge is of no help).
 Since Cypher System games are meant to be story based, players should recognize that the degrading sanity of their character is part of the story. A player who feels that their character is going mad can talk to the GM, and the two of them can work out the means to portray that—perhaps by using the Mad descriptor, permanently trading up to 4 points from their Intellect Pool to gain +1 to their Intellect Edge, or anything else that seems appropriate. Mental disorders, manias, psychopathy, schizophrenia, or simple phobias can be added to a character’s traits, but they don’t need to be quantified in game statistics or die rolls. They’re simply part of the character.
@@ -1142,23 +1139,23 @@ As another way to represent madness, the GM could hinder Intellect-based tasks t
 
 
 
-Romance
+## Romance
 Like horror, romance doesn’t automatically suggest a setting. It is more of a mood, or more specifically an approach, to how the game is played. It suggests an emphasis, at least somewhat, on relationships, interactions, and connections.
 Suggested types and additional equipment for a romance setting are the same as in a modern setting.
 
 
 
-CONSENT AND BOUNDARIES
+### CONSENT AND BOUNDARIES
 You must get consent to cover these topics in a game ahead of time—you don’t want to make people uncomfortable. Everyone involved also needs to learn everyone else’s boundaries. Someone might not want any part of a romance scene, while others are okay talking about emotional connections but not anything sexual.
 Obviously, all of this is doubly important if age is a consideration. If there are younger players involved, romance probably shouldn’t go beyond a fairly chaste kiss. (You’ll find that kids are sometimes more open to romance in their games than adults, but only because their understanding of the topic is understandably pretty shallow. A kid player might declare that a character is their boyfriend, but it doesn’t mean much. And for some adults, that may be the way they want to approach the subject as well.)
 Lastly, recognize that there needs to be a clear boundary between the story and real life. Two characters having a relationship has no impact on real-life feelings of the players. Two characters in a game might be in a relationship while each player is in a relationship in the real world with someone else. And maybe they’re gaming at the same table! If a player can’t distinguish between in-game flirtation or words of endearment and real-world feelings, they shouldn’t be in a romance-focused game.
 For more information and advice on safe ways to address consent issues in your game, read the free Consent in Gaming PDF at myMCG.info/consent 
 
 
-THE CHECK-IN
+### THE CHECK-IN
 It’s vital that the GM and the players all check in with each other to make sure everyone’s still comfortable with what’s going on in the game. This is particularly important to maintain the boundary between emotions expressed in the story and how people feel in real life.
 
-Basic CREATURES AND NPCs FOR A ROMANCE GAME
+### Basic CREATURES AND NPCs FOR A ROMANCE GAME
 Distrustful relative: level 2
 Jealous ex: level 2, attacks as level 3
 Nosy neighbor: level 2, perception as level 3
@@ -1167,13 +1164,13 @@ The unattainable: level 3, interactions as level 7, resistance to all interactio
 
 
 
-OPTIONAL RULE: INFATUATION
+### OPTIONAL RULE: INFATUATION
 When a PC is near someone they are infatuated with, particularly in the early stages of that infatuation, they must make an Intellect defense roll with a difficulty determined by the GM based on the situation (not on the level of the subject of the infatuation). Failure might mean that the character does or says something awkward or embarrassing either in an attempt to impress or when trying to hide the infatuation. Or it could mean that for one round, the player loses control of the character, and the GM decides what the PC does next, such as risk their own safety to help an endangered character. However, GMs should welcome player input into this situation. The point is to portray that when we’re distracted by the powerful feelings (and hormones) related to infatuation, we don’t always react in the best way, the smartest way, or even the way we want to.
 Infatuation can happen whether the PC is attracted to an NPC or a PC.
 
 
 
-OPTIONAL RULE: RELATIONSHIP LEVELS
+### OPTIONAL RULE: RELATIONSHIP LEVELS
 When a PC first establishes a relationship with a character (PC or NPC), the GM should assign the relationship a level. If there’s no connection at all, there is no relationship (level 0). Otherwise, the starting relationship is probably level 1. In certain circumstances, a relationship might start at level 2, indicating a far stronger initial connection than usual.
 As play progresses, the PC can attempt to improve the level of the relationship, indicating a strengthening of the bond between the two characters. The requirements to improve the relationship are twofold. First, some story-based action needs to be taken. This can be dates, gifts, a meaningful speech, a pledge of commitment, some amount of self-sacrifice, or whatever the GM and the player feel is appropriate to the story and the level of the relationship. This action might require the PC to succeed at specific tasks (with appropriate rolls). For example, writing a love poem will require an Intellect-based task, while helping to retrieve a loved one’s cat from a tree might require a Speed-based task.
 Second, the player must make an Intellect-based
@@ -1239,7 +1236,7 @@ A bond that transcends time and space.
 
 
 
-Superheroes
+## Superheroes
 Like horror, the superhero genre is really a subset of the modern genre with extensive special considerations. In many ways, it might appear that the Cypher System is a strange fit for superheroes. But if you think about it, with foci like Bears a Halo of Fire and Wears a Sheen of Ice, the Cypher System makes all genres a little bit “superhero-ish.” Character sentences might look like the following:
 Firebrand is a Brash energy projector (Adept) who Bears a Halo of Fire.
 King Brick is a Tough Warrior who Performs Feats of Strength.
@@ -1248,7 +1245,7 @@ Dark Ronin is a Mysterious crimefighter (Explorer) who Solves Mysteries.
 Speedburst is a Fast crimefighter (Explorer) who Moves Like the Wind.
 And so on.
 
-SUGGESTED TYPES FOR A SUPERHERO GAME
+### SUGGESTED TYPES FOR A SUPERHERO GAME
 Role
 Type
 Strong hero
@@ -1277,7 +1274,7 @@ Psychic ninja
 Warrior with magic flavor
 
 
-Basic CREATURES AND NPCs FOR A SUPERHERO GAME
+### Basic CREATURES AND NPCs FOR A SUPERHERO GAME
 Dog, guard: level 3, attacks and perception as level 4
 Genetically enhanced bruiser: level 3, attacks as level 4; health 15; 5 points of melee damage
 Ninja: level 3, stealth as level 6
@@ -1287,11 +1284,11 @@ Scientist: level 2, science-related tasks as level 4
 Worker: level 2; health 8
 
  
-ADDITIONAL SUPERHERO EQUIPMENT
+### ADDITIONAL SUPERHERO EQUIPMENT
 Suggested additional equipment is the same as in a modern setting. Keep in mind, however, that for many heroes, “equipment” can be superfluous. Where do you stash the flashlight and rope when all you’re wearing is spandex tights?
 
 
-OPTIONAL RULE: POWER SHIFTS
+### OPTIONAL RULE: POWER SHIFTS
 Superheroes can do things that other people cannot. They throw cars, blast through brick walls, leap onto speeding trains, and cobble together interdimensional gateways in a few hours. It’s tempting to say that such characters are stronger, faster, or smarter, so they should have higher Might, Speed, or Intellect Pools. However, simply bumping up stat Pools or Edge doesn’t fully represent this dramatic increase in power. Instead, consider using an optional rule called power shifts.
 Under this rule, all superhero characters get five power shifts. Power shifts are like permanent levels of Effort that are always active. They don’t count toward a character’s maximum Effort use (nor do they count as skills or assets). They simply ease tasks that fall into specific categories, which include (but are not necessarily limited to) the following.
 Accuracy: All attack rolls
@@ -1309,19 +1306,19 @@ For example, a superstrong character might put three of their shifts into streng
 Some GMs will want to allow PCs to increase their power shifts. Having a character spend 10 XP to do so would probably be appropriate. Other GMs will want to run superhero games with PCs of greater or lesser power (cosmic-level heroes or street-level heroes, perhaps). In such cases, more or fewer power shifts should be granted to the PCs at the game’s start.
 
 
-SUPERPOWERED NPCs AND POWER SHIFTS
+### SUPERPOWERED NPCs AND POWER SHIFTS
 NPC superheroes and villains get power shifts, too. Most of the time, this adds to their level. For example, Blast Star is a level 5 fiery villain who has three power shifts. When she blasts through a level 7 iron security door, she does so easily because in this circumstance, she’s actually level 8.
 Sometimes, NPC power shifts make things harder for the PCs. For example, Fleetfoot the level 4 speedster puts all three of her shifts in dexterity. When she runs past a character who tries to grab her, the difficulty to do so is increased by three steps to 7.
 Typical NPC supers get three power shifts. Exceptional ones usually have five.
 
 
-REALLY IMPOSSIBLE TASKS
+### REALLY IMPOSSIBLE TASKS
 In superhero games, due to conventions of the genre, difficulty caps at 15 instead of 10. Difficulty 10 is labeled “impossible,” but that label is for regular folks. For superpowered characters, “impossible” means something different, thanks to power shifts.
 Think of each difficulty above 10 as being one more step beyond impossible. Although a GM in another genre would say there’s no chance that a character could leap 100 feet (30 m) from one rooftop to another, in a superhero game, that might just be difficulty 11. Picking up a city bus isn’t something normal characters could do, but for a strong superhero, it might be difficulty 12.
 In theory, NPCs in such a game can go up to level 15 as well. Levels above 10 represent opponents that only a superhero would consider taking on: a robot that’s 1,000 feet (300 m) tall (level 11); Galashal, Empress of Twelve Dimensions (level 14); or a space monster the size of the moon (level 15).
 
 
-SUPERHERO ARTIFACTS
+### SUPERHERO ARTIFACTS
 Supervillains build doomsday devices. Ancient artifacts present a threat to all humanity if in the wrong hands. Weird machines from alien dimensions offer solutions to unsolvable problems. Artifacts are an important part of superhero stories. A few examples are below.
 
 DOCTOR DREAD’S TIME PORTAL
@@ -1349,11 +1346,11 @@ Depletion: 1–3 in 1d10
 
 
 
-POST-APOCALYPTIC
+## POST-APOCALYPTIC
 Post-apocalyptic literature, movies, and games are a subgenre of science fiction that focuses on the dystopia that follows the fall of civilization. Strictly speaking, post-apocalyptic stories take place after the end of the world. At least, the end of the world for most people. Players take the role of the survivors (or their descendants) trying to persevere in the face of immense hardship. Popular post-apocalyptic scenarios include those set after nuclear war, in the aftermath of a zombie plague, in the months and years following an alien invasion, or after the environment collapses in the face of human overpopulation. Other ways the world could end include a massive meteorite strike, the long-awaited robot uprising, a powerful solar flare that burns out the world’s power grids and communications, or even something as prosaic as a global disease pandemic.
 
 
-SUGGESTED TYPES FOR A POST-APOCALYPTIC GAME
+### SUGGESTED TYPES FOR A POST-APOCALYPTIC GAME
 Role
 Type
 Survivor
@@ -1371,7 +1368,7 @@ Adept
 
 
 
-Basic CREATURES AND NPCs FOR A POST-APOCALYPTIC GAME
+### Basic CREATURES AND NPCs FOR A POST-APOCALYPTIC GAME
 Crazy loner: level 3, deception and attacks as level 5
 Gamma snake: level 4; bite inflicts 5 points of Speed damage (ignores Armor)
 Innocuous rodent: level 1
@@ -1380,7 +1377,7 @@ Survivor, sickened: level 3, interaction and knowledge tasks as level 1; carries
 Survivor, typical: level 3
 
 
-ADDITIONAL POST-APOCALYPTIC EQUIPMENT
+### ADDITIONAL POST-APOCALYPTIC EQUIPMENT
 In a post-apocalyptic setting, the items on the Additional Modern Equipment table as well as the following items might be available in trade from other survivors, or in the rare trade town.
 
 INEXPENSIVE ITEMS
@@ -1461,7 +1458,7 @@ Asset for defense tasks against radiation effects for twelve hours
 
 
 
-SCAVENGING
+### SCAVENGING
 Characters in a post-apocalyptic setting must usually spend part of each day scavenging for supplies or a place of safety.
 Food and Shelter: Generally speaking, characters must spend two to four hours searching through the rubble and ruins before succeeding. Finding enough food for a group of characters to eat for one day is a difficulty 5 Intellect task. Finding a place of relative safety to regroup and rest is also difficulty 5. Characters who succeed on either one of these also get to roll up to once each day on the Useful Stuff table and three times on the Junk table. 
 Found food often takes the form of canned, processed, dried, or otherwise preserved goods from before the apocalypse, but sometimes it includes fresh fruits and vegetables found growing wild or cultivated by other survivors. Safe places to hole up include homes, RVs, offices, apartments, or any location that can be secured and defended and isn’t radioactive, poisoned, or overrun with hostile creatures.
@@ -1534,7 +1531,7 @@ Textile junk (coats, pants, shirts, bathing suits, blankets, rugs, etc.)
 
 
 
-POST-APOCALYPTIC ARTIFACTS
+### POST-APOCALYPTIC ARTIFACTS
 Artifacts in a post-apocalyptic game include still-working technology from before the disaster that is not widely available, as well as cobbled-together pieces of tech that can weaponize previously prosaic items. If the apocalypse was related to some kind of alien invasion, artifacts would include even stranger items.
 
 AUTODOC
@@ -1574,7 +1571,7 @@ Effect: By emitting terahertz and long-range infrared light, this device allows 
 Depletion: 1 in 1d20
 
 
-POST-APOCALYPTIC SPECIES DESCRIPTORS
+### POST-APOCALYPTIC SPECIES DESCRIPTORS
 In a post-apocalyptic setting, some GMs may want to offer species affected by the disaster.
 
 MORLOCK
@@ -1613,7 +1610,7 @@ Initial Link to the Starting Adventure: From the following list of options, choo
 
 
 
-Fairy Tale
+## Fairy Tale
 The genre of fairy tales is a wide one, crossing into almost every culture and encompassing everything from early oral stories passed down from generation to generation to the more modern literary fairy tale. What makes something a fairy tale? While there’s a great deal of discussion around that question, most have a number of things in common: a series of
 far-fetched events; fantastical beings such as talking animals, elves, goblins, mermaids, witches, and dragons; and objects that have magical elements.
 One of the powers of a fairy tale—or a game set in a fairy tale-inspired setting—is its ability to create a sense of wonder and to evoke players’ imaginations while still allowing them to keep one foot in the known. The very settings themselves are both enchanted and somehow familiar, whether the characters are entering a magical woods, falling down a rabbit hole, or embarking on a voyage to Neverland. Those beasts and beings who stalk such places are equally wondrous, and offer fantastic starting points for any number of adventures. 
@@ -1624,13 +1621,13 @@ To heighten the sense of wonder in a fairy tale adventure or campaign, a GM migh
 
 
 
-NATURE OF FAERIE
+### NATURE OF FAERIE
 Faerie (also called by many other names) is a dimension of magic separate from but closely parallel to the mundane world. It doesn’t matter whether Faerie is just a collective term for thousands of separate curled-up dimensions hidden in corners, in closets, or at the center of forests, or it’s one continuous realm that overlaps the real world where it’s thinnest. It’s a place those with open hearts can find by following a way between tall trees (or looming library shelves) to a realm where everything is different. Where elves walk, nymphs dance, unicorns gallop, and both natural growths and built structures become vast and enchanting.
 Humans don’t tend to do well in such a world if they stay too long, as the sensory input is hard on the nervous system. But fey creatures depend on it, like plants to the light. A fey creature too long cut off from its land of origin (or its stream, hill, or burrow) slowly becomes mortal and then dies.
 When a fey creature is cut by silvered or cold iron weapons, they temporarily lose the sustaining benefit of their connection to Faerie. This severed connection usually disrupts a fey creature’s ability to heal. A silvered weapon is one that contains silver as part of an alloying process, has silver inlay, or has been coated in a dusting of silver powder (which usually lasts only through a single fight). In truth, many items in the modern era are cold-forged, while many others are not. We suggest that any hand-forged item containing iron could be considered a cold-forged weapon for harming fey creatures. Thus, most bullets and other modern items wouldn’t be treated as cold iron by this definition, but some would fit the bill.
 
 
-Basic CREATURES AND NPCs FOR A FAIRY TALE GAME
+### Basic CREATURES AND NPCs FOR A FAIRY TALE GAME
 Most fey creatures of level 2 or higher regain 1 point of health per round, unless wounded by silvered or cold iron weapons.
 Angry ants: swarm as a level 1 creature; constantly whisper insults, slurs, and obscenities; those physically attacked must also succeed on a difficulty 3 Might defense task or be stunned and lose their next turn
 Erlking: level 6, stealth as level 7; health 27; Armor 4; short-range whisper attack enthralls target for one hour or until attacked; root tendril attacks on up to three separate targets in immediate range; silvered and cold iron weapons ignore the erlking’s Armor
@@ -1645,7 +1642,7 @@ Troll: level 6; claws inflict 7 points of damage and grab victim until they esca
 
  
 
-FAIRY TALE ARTIFACTS
+### FAIRY TALE ARTIFACTS
 Artifacts in a fantasy setting and magic items in other games focused on fantasy would also be suitable for a fairy tale setting. However, every fairy tale artifact should come with a quirk that sets it apart from a simple “wand of fire” or similar item. Come up with your own or roll a quirk on the table below.
 
 d10
@@ -1676,10 +1673,10 @@ Causes flowers to grow wherever it is stored or set down.
 
 
 
-Historical
+## Historical
 Setting your campaign in World War 2, the Renaissance, or the 1930s can be fun and interesting. However, setting it in ancient Greece or feudal Japan, for example, probably makes it more like fantasy without all the orcs and magic (although a game set in feudal Japan with orcs and magic could be fascinating).
 
-SUGGESTED TYPES FOR A HISTORICAL GAME
+### SUGGESTED TYPES FOR A HISTORICAL GAME
 Role
 Type
 Constable (or night watchman)
@@ -1708,7 +1705,7 @@ Speaker
 
 
 
-Basic CREATURES AND NPCs FOR A HISTORICAL GAME
+### Basic CREATURES AND NPCs FOR A HISTORICAL GAME
 Cat: level 1, Speed defense as level 3
 Dodo: level 1
 Dog: level 2, perception as level 3
@@ -1734,12 +1731,12 @@ Don’t create more than you need to. Be ready to tell the PCs what they see and
 Be wary about stereotypes and cultural misappropriation. History, as they say, is written by the victors. The ancient Greeks wrote that other cultures were all barbaric, and the European settlers called the natives in North America savages, but that doesn’t mean it’s true. If all you know about a time period is a movie set in that period, you’ll have a skewed version of events and culture. Be willing to go deeper than Braveheart or The Last Samurai, or maybe choose a different genre.
 
 
-RUNNING A HISTORICAL GAME
+### RUNNING A HISTORICAL GAME
 Preparation is important in a historical game, and most of that entails choosing a historical period—or a specific historical event—as the setting. Given that all of history can serve, you won’t lack for resources. Below are a few possibilities. Of course, the farther back you set your game, the less information on specific events is available. On the other hand, that frees you up to get creative.
 Once you choose the historical period and any special events you want to include in your adventure or campaign, direct your players to an appropriate set of foci. Alternately, you can have your players play as historically significant figures, but if you do this, you may want to create their characters ahead of time. Most GMs will probably want to save historically significant individuals for use as NPCs.
 The players will need some kind of grounding in what to expect in the time period you’ve chosen. Just like they need an idea of what magic can do in a fantasy game, they will need a general idea of what kind of technology is available, the broad strokes of what their characters might know and not know, and so on. Maybe have them read a Wikipedia entry, at the very least.
 If you’re looking for inspiration for time periods in which to set your historical game, here are some possible ideas: prehistory, classical antiquity, ancient Egypt, the American revolution, ancient China, World War II, Edo Period Japan, Medieval Europe, and the American Old West.
 
 
-HISTORICAL ARTIFACTS
+### HISTORICAL ARTIFACTS
 The concept of artifacts is probably inappropriate for a historical setting without some kind of supernatural, fantastical, or science fiction element. That said, objects of mystery such as the Antikythera mechanism (an ancient analog computer and orrery used to predict eclipses and other astronomical positions) reveal that the ancient world—and by extension more recent historical periods—contained fascinating and useful objects that were anachronistic for their period. Most such artifacts were likely the creations of philosophers, lone geniuses, and similar figures.
