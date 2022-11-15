@@ -21,8 +21,9 @@ const { headings, githubEditUrl } = Astro.props as Props;
 <style>
 	.sidebar-nav {
 		width: 100%;
-		position: sticky;
+  	position: fixed;
 		top: 0;
+		z-index: 12;
 	}
 
 	.sidebar-nav-inner {

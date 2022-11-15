@@ -33,7 +33,7 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 	}, []);
 
 	return (
-		<>
+		<div className="overflow-y-scroll h-screen">
 			<h2 className="heading">목차</h2>
 			<ul>
 				<li className={`heading-link depth-2 ${activeId === 'overview' ? 'active' : ''}`.trim()}>
@@ -51,7 +51,7 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 						</li>
 					))}
 			</ul>
-		</>
+		</div>
 	);
 };
 
