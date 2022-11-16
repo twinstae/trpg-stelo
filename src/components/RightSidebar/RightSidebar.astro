@@ -14,7 +14,7 @@ const { headings, githubEditUrl } = Astro.props as Props;
 <nav class="sidebar-nav">
 	<div class="sidebar-nav-inner">
 		<TableOfContents client:media="(min-width: 50em)" headings={headings} />
-		<MoreMenu editHref={githubEditUrl} />
+		<MoreMenu editHref={githubEditUrl} />		
 	</div>
 </nav>
 
@@ -27,7 +27,7 @@ const { headings, githubEditUrl } = Astro.props as Props;
 	}
 
 	.sidebar-nav-inner {
-		height: 100%;
+		max-height: 100vh;
 		padding: 0;
 		padding-top: var(--doc-padding);
 		overflow: auto;
