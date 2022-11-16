@@ -21,7 +21,7 @@ These categories have some overlap with the categories in the Focus chapter. For
 ### ATTACK SKILL
 Gives you training or specialization in a specific physical attack (like swords or unarmed combat), a category of physical attacks (light bladed, heavy bashing, and so on), or another physical skill primarily used to inflict harm (such as breaking objects).
 
-LOW TIER:
+#### LOW TIER:
 Heads-Up Display
 Practiced With Guns
 
@@ -31,7 +31,7 @@ Practiced With Swords
 Quarry
 Unarmed Fighting Style
 
-MID TIER:
+#### MID TIER:
 Blood Fever
 Cognizant Offense
 Greater Skill With Defense
@@ -43,7 +43,7 @@ Skill With Attacks
 Sniper’s Aim
 Specialized Throwing
 
-HIGH TIER:
+#### HIGH TIER:
 As Foretold in Prophecy
 Duel to the Death
 Greater Skill With Attacks
@@ -56,7 +56,7 @@ Specialized Basher
 ### COMPANION
 Gives you a follower, modifies a follower, or gives you an additional benefit when interacting with or near your follower. This category includes humanoid followers, beast companions, and temporary companions like summoned swarms, conjured spirits, and so on.
 
-LOW TIER:
+#### LOW TIER:
 Basic Follower
 Beast Companion
 Bound Magic Creature
@@ -71,7 +71,7 @@ Robot Assistant
 Serv-0
 Spirit Accomplice
 
-MID TIER:
+#### MID TIER:
 Beast Eyes
 Call Swarm
 Expert Follower
@@ -91,7 +91,7 @@ Superior Duplicate
 Time Doppelganger
 Time Loop
 
-HIGH TIER:
+#### HIGH TIER:
 As If One Creature
 Band of Desperados
 Band of Followers
@@ -123,7 +123,7 @@ True Necromancy
 ### CONTROL
 Controls or influences minds in ways outside of what could be done with conventional intimidation and persuasion, such as using psychic mind control, fear gas, and so on.
 
-LOW TIER:
+#### LOW TIER:
 Calm Stranger
 Charm Machine
 Cloud Personal Memories
@@ -135,7 +135,7 @@ Robot Control
 Soothe the Savage
 Terrifying Presence
 
-MID TIER:
+#### MID TIER:
 Calm
 Captivate or Inspire
 Captivate With Starshine
@@ -149,7 +149,7 @@ Interruption
 Mind Control
 Psychic Suggestion
 
-HIGH TIER:
+#### HIGH TIER:
 Advanced Command
 Assume Control
 Brainwashing
@@ -167,7 +167,7 @@ Word of Command
 ### CRAFT
 Creates useful physical things, such as mundane tools (hammers, crowbars), limited-use devices (manifest cyphers, artifacts), or independent beings (robots, elementals, zombies). Includes blueprints, plans, and effects that aid or speed crafting.
 
-LOW TIER:
+#### LOW TIER:
 Create Deadly Poison
 Fortification Builder
 Junkmonger
@@ -179,7 +179,7 @@ Robot Builder
 Trapster
 Weapon Crafter
 
-MID TIER:
+#### MID TIER:
 Dream Becomes Reality
 Expert Crafter
 Ice Creation
@@ -187,7 +187,7 @@ Poison Crafter
 Robot Upgrade
 Sculpt Light
 
-HIGH TIER:
+#### HIGH TIER:
 Create
 Dark Matter Structure
 Improved Sculpt Light
@@ -199,7 +199,7 @@ Reshape
 ### CURE
 Cures damage, adds or improves recovery rolls, or negates, cures, suspends, or otherwise gives immunity to a harmful effect or condition, such as poison, disease, mental attacks, moving down on the damage track, or dying.
 
-LOW TIER:
+#### LOW TIER:
 Alleviate
 Crystalline Body
 Destined for Greatness
@@ -224,7 +224,7 @@ Totally Chill
 Water Adaptation
 Will of Legend
 
-MID TIER:
+#### MID TIER:
 Aquatic Combatant
 Biomorphic Healing
 Damage Transference
@@ -249,7 +249,7 @@ Unraveling Consumption
 Wilderness Encouragement
 Willing Sacrifice
 
-HIGH TIER:
+#### HIGH TIER:
 Deep Reserves
 Final Defiance
 Free to Move
@@ -275,7 +275,7 @@ Vigilant
 ### ENVIRONMENT
 Manipulates the environment or things in the environment, such as with telekinesis, weather control, gravity control, illusions, and so on.
 
-LOW TIER:
+#### LOW TIER:
 Create Water
 Dreamcraft
 Fetch
@@ -293,7 +293,7 @@ Slip Into Shadow
 Telekinesis
 Wilderness Explorer
 
-MID TIER:
+#### MID TIER:
 Daydream
 Define Down
 Field of Gravity
@@ -307,7 +307,7 @@ Projection
 Storm Seed
 Sunlight
 
-HIGH TIER:
+#### HIGH TIER:
 Adaptation
 Control Weather
 Diamagnetism
@@ -327,7 +327,7 @@ The Wild Is on Your Side
 ### INFORMATION
 Gives the ability to learn information about something, whether chosen by the GM like Scan, by asking a question and the GM giving the answer, or by learning a language.
 
-LOW TIER:
+#### LOW TIER:
 Babel
 Communication
 Community Knowledge
@@ -349,7 +349,7 @@ See History
 Speaker for the Dead
 Telepathic
 
-MID TIER:
+#### MID TIER:
 Creature Insight
 Device Insight
 Draw Conclusion
@@ -365,7 +365,7 @@ Soul Interrogation
 Spot Weakness
 Wilderness Awareness
 
-HIGH TIER:
+#### HIGH TIER:
 Deep Consideration
 Drawing on Life’s
 Experiences
@@ -378,7 +378,7 @@ Telepathic Network
 ### META
 Modifies an existing ability or character trait’s effects or parameters, such as increasing range or, damage, easing the difficulty, giving you additional noncombat actions each turn, rerolling a failed attempt, or treating a number on the die as something different than normal.
 
-LOW TIER:
+#### LOW TIER:
 A Smile and a Word
 Arcane Flare
 Artifact Tinkerer
@@ -427,7 +427,7 @@ Tinker
 Weapon Master
 Wreck
 
-MID TIER:
+#### MID TIER:
 Amazing Effort
 Betrayal
 Better Living Through Chemistry
@@ -513,7 +513,7 @@ Weaponization
 Willing Sacrifice
 Wrest From Chance
 
-HIGH TIER:
+#### HIGH TIER:
 Adroit Cypher Use
 Again and Again
 Agile Wit
@@ -585,7 +585,7 @@ Winter Gauntlets
 ### MOVEMENT
 Increases your movement (such as increasing your basic movement speed from short to long) or adds a new type of movement (such as flight, wallcrawling, phasing, or teleporting).
 
-LOW TIER:
+#### LOW TIER:
 Bolt Rider
 Contortionist
 Danger Instinct
@@ -596,7 +596,7 @@ Phase Sprint
 Void Wings
 Walk Through Walls
 
-MID TIER:
+#### MID TIER:
 Apportation
 Blink of an Eye
 Bypass Barrier
@@ -613,7 +613,7 @@ Windrider
 Wings of Fire
 Wormhole
 
-HIGH TIER:
+#### HIGH TIER:
 Alley Rat
 Blurring Speed
 Chamber of Dreams
@@ -641,7 +641,7 @@ Windwracked Traveler
 ### PROTECTION
 Gives training or specialization in one or more types of combat defenses (Might, Speed, or Intellect), provides or increases Armor, or otherwise helps prevent damage.
 
-LOW TIER:
+#### LOW TIER:
 Absorb Kinetic Energy
 Block
 Closed Mind
@@ -694,7 +694,7 @@ Weapon Defense
 Weather the Vicissitudes
 Wind Armor
 
-MID TIER:
+#### MID TIER:
 Absorb Pure Energy
 Anticipate Attack
 Blood Fever
@@ -743,7 +743,7 @@ Versatile Mind
 Vigilance
 Wraith Cloak
 
-HIGH TIER:
+#### HIGH TIER:
 Defense Master
 Defensive Augmentation
 Defensive Field
@@ -774,7 +774,7 @@ Wear It Well
 ### SENSES
 Enhances your senses (seeing in the dark, seeing underwater or through mist, sensing danger, finding optimal places to stand in combat, and so on), but doesn’t provide direct answers to questions like an information ability does.
 
-LOW TIER:
+#### LOW TIER:
 Eyes Adjusted
 Familiarize
 Find an Opening
@@ -788,7 +788,7 @@ Sense Ambush
 Share Senses
 Third Eye
 
-MID TIER: 
+#### MID TIER: 
 Animal Senses and Sensibilities
 Awareness
 Beast Eyes
@@ -805,7 +805,7 @@ Serv-0 Spy
 Trapfinder
 Use Senses of Others
 
-HIGH TIER:
+#### HIGH TIER:
 Amplify Sounds
 Battlefield Tactician
 Dark Explorer
@@ -818,7 +818,7 @@ True Senses
 ### SOCIAL
 Gives you an indirect social benefit, such as providing a useful contact in a city or letting you take advantage of your social status.
 
-LOW TIER:
+#### LOW TIER:
 Connected
 Debate
 Demeanor of Command
@@ -831,20 +831,20 @@ Privileged Nobility
 Underworld Contacts
 Unexpected Betrayal
 
-MID TIER:
+#### MID TIER:
 Betrayal
 Flamboyant Boast
 Informer
 Oratory
 Perfect Stranger
 
-HIGH TIER:
+#### HIGH TIER:
 Group Friendship
 
 ### SPECIAL ATTACK
 Gives the ability to make a special melee or ranged attack (weapon, energy blast, psychic, and so on). The attack might do damage, have a special effect (disarm, hinder, move the target, and so on), or both. This also includes abilities like Spray that let you attack multiple targets as your action.
 
-LOW TIER:
+#### LOW TIER:
 Advantage to Disadvantage
 Aggression
 Arcane Flare
@@ -894,7 +894,7 @@ Thrust
 Thunder Beam
 Weighty
 
-MID TIER:
+#### MID TIER:
 Acrobatic Attack
 Ambusher
 Answering Attack
@@ -959,7 +959,7 @@ Throw
 Throw Force Shield
 Trick Shot
 
-HIGH TIER:
+#### HIGH TIER:
 Absorb Energy
 Arc Spray
 Assassin Strike
@@ -1027,7 +1027,7 @@ Word of Death
 ### SUPPORT
 Gives some sort of benefit to an ally rather than yourself, such as an extra action or an asset on their roll.
 
-LOW TIER:
+#### LOW TIER:
 Advice From a Friend
 Anecdote
 Attack Flourish
@@ -1047,7 +1047,7 @@ Reveal
 Sculpt Flesh
 Teamwork
 
-MID TIER:
+#### MID TIER:
 Accelerate
 Applying Your Knowledge
 Buddy System
@@ -1063,7 +1063,7 @@ Spur Effort
 Take Command
 True Guardian
 
-HIGH TIER:
+#### HIGH TIER:
 Able Assistance
 Battle Management
 Block for Another
@@ -1086,7 +1086,7 @@ Work the Friendship
 ### TASK
 Gives training, specialization, or an asset in one or more noncombat skills (climbing, healing, computers, initiative, and so on).
 
-LOW TIER:
+#### LOW TIER:
 Advantages of Being Big
 Anticipation
 Assassin Skills
@@ -1203,7 +1203,7 @@ Wilderness Lore
 Wound Tender
 Zero Dark Eyes
 
-MID TIER:
+#### MID TIER:
 Action Processor
 Agent Provocateur
 Animal Senses and Sensibilities
@@ -1252,7 +1252,7 @@ Trained Slayer
 Verbal Misdirection
 You Studied
 
-HIGH TIER:
+#### HIGH TIER:
 Amplify Sounds
 As Foretold in Prophecy
 Coordinated Effort
@@ -1277,7 +1277,7 @@ Using the Environment
 ### TRANSFORM
 A significant change that temporarily enhances you, such as growing bigger, turning into a werewolf, and so on. Also includes apparent transformations like disguises and invisibility.
 
-LOW TIER:
+#### LOW TIER:
 Beast Form
 Bigger
 Controlled Change
@@ -1289,7 +1289,7 @@ Phased Pocket
 Spin Identity
 Vanish
 
-MID TIER:
+#### MID TIER:
 Bigger Beast Form
 Blend In
 Evanesce
@@ -1299,7 +1299,7 @@ Huge
 Invisible Phasing
 Moon Shape
 
-HIGH TIER:
+#### HIGH TIER:
 Colossal
 Command Metal
 Disappear

@@ -6,11 +6,34 @@ createdAt: "2022-11-11T20:34:17.231Z"
 publish: false
 ---
 
-WARRIOR
-Fantasy/Fairy tale: Warrior, fighter, swordsman, knight, barbarian, soldier, myrmidon, valkyrie
-Modern/Horror/Romance: police officer, soldier, watchman, detective, guard, brawler, tough, athlete
-Science fiction: security officer, warrior, trooper, soldier, merc
-Superhero/Post-Apocalyptic: hero, brick, bruiser
+## 유형
+
+Character type is the core of your character. Your type helps determine your character’s place in the world and relationship with other people in the setting. It’s the noun of the sentence “I am an adjective noun who verbs.”
+
+(In some roleplaying games, your character type might be called your character class.)
+
+You can choose from four character types: Warrior, Adept, Explorer, and Speaker. However, you may not want to use these generic names for them. This chapter offers a few more specific names for each type that might be more appropriate to various genres. You’ll find that names like “Warrior” or “Explorer” don’t always feel right, particularly in games set in modern times. As always, you’re free to do as you wish. (Your type is who your character is. You should use whatever name you want for your type, as long as it fits both your character and the setting.)
+
+Since the type is the basis upon which your whole character is built, it’s important to consider how the type relates to the chosen setting. To help with this, types are actually general archetypes. A Warrior, for example, might be anyone from a knight in shining armor to a cop on the streets to a grizzled cybernetic veteran of a thousand futuristic wars. 
+
+To further massage the four types for better use in various settings, different methods called flavors are presented in Flavors to help slightly tailor the types toward fantasy, science fiction, or other genres (or to address different character concepts).
+
+Finally, more fundamental options for further customization are provided at the end of this chapter.
+
+## 플레이어 개입
+A player intrusion is the player choosing to alter something in the campaign, making things easier for a player character. Conceptually, it is the reverse of a GM intrusion: instead of the GM giving the player XP and introducing an unexpected complication for a character, the player spends 1 XP and presents a solution to a problem or complication. What a player intrusion can do usually introduces a change to the world or current circumstances rather than directly changing the character. For instance, an intrusion indicating that the cypher just used still has an additional use would be appropriate, but an intrusion that heals the character would not. If a player has no XP to spend, they can’t use a player intrusion.
+
+A few player intrusion examples are provided under each type. That said, not every player intrusion listed there is appropriate for all situations. The GM may allow players to come up with other player intrusion suggestions, but the GM is the final arbiter of whether the suggested intrusion is appropriate for the character’s type and suitable for the situation. If the GM refuses the intrusion, the player doesn’t spend the 1 XP, and the intrusion doesn’t occur.
+
+Using an intrusion does not require a character to use an action to trigger it. A player intrusion just happens.
+
+(Player intrusions should be limited to no more than one per player per session.)
+
+## WARRIOR
+- **Fantasy/Fairy tale**: Warrior, fighter, swordsman, knight, barbarian, soldier, myrmidon, valkyrie
+- **Modern/Horror/Romance**: police officer, soldier, watchman, detective, guard, brawler, tough, athlete
+- **Science fiction**: security officer, warrior, trooper, soldier, merc
+- **Superhero/Post-Apocalyptic**: hero, brick, bruiser
 
 You’re a good ally to have in a fight. You know how to use weapons and defend yourself. Depending on the genre and setting in question, this might mean wielding a sword and shield in the gladiatorial arena, an AK-47 and a bandolier of grenades in a savage firefight, or a blaster rifle and powered armor when exploring an alien planet.
 Individual Role: Warriors are physical,
@@ -19,76 +42,51 @@ Group Role: Warriors usually take and deal the most punishment in a dangerous si
 Societal Role: Warriors aren’t always soldiers or mercenaries. Anyone who is ready for violence, or even potential violence, might be a Warrior in the general sense. This includes guards, watchmen, police officers, sailors, or people in other roles or professions who know how to defend themselves with skill. 
 Advanced Warriors: As warriors advance, their skill in battle—whether defending themselves or dishing out damage—increases to impressive levels. At higher tiers, they can often take on groups of foes by themselves or stand toe to toe with anyone.
 
-Warrior Background Connection
+### Warrior Background Connection
 Your type helps determine the connection you have to the setting. Roll a d20 or choose from the following list to determine a specific fact about your background that provides a connection to the rest of the world. You can also create your own fact.
 
-d20
-Background
-1
-You were in the military and have friends who still serve. Your former commander remembers you well.
-2
-You were the bodyguard of a wealthy woman who accused you of theft. You left her service in disgrace.
-3
-You were the bouncer in a local bar for a while, and the patrons there remember you.
-4
-You trained with a highly respected mentor. They regard you well, but they have many enemies.
-5
-You trained in an isolated monastery. The monks think of you as a brother, but you’re a stranger to all others.
-6
-You have no formal training. Your abilities come to you naturally (or unnaturally).
-7
-You spent time on the streets and were in prison for a while.
-8
-You were conscripted into military service, but you deserted before long.
-9
-You served as a bodyguard to a powerful criminal who now owes you their life.
-10
-You worked as a police officer or constable of some kind. Everyone knows you, but their opinions of you vary.
-11
-Your older sibling is an infamous character who has been disgraced.
-12
-You served as a guard for someone who traveled extensively. You know a smattering of people in many locations.
-13
-Your best friend is a teacher or scholar. They are a great source of knowledge.
-14
-You and a friend both smoke the same kind of rare, expensive tobacco. The two of you get together weekly to chat and smoke.
-15
-Your uncle runs a theater in town. You know all the actors and watch all the shows for free.
-16
-Your craftsman friend sometimes calls on you for help. However, they pay you well.
-17
-Your mentor wrote a book on martial arts. Sometimes people seek you out to ask about its stranger passages.
-18
-Someone you fought alongside in the military is now the mayor of a nearby town.
-19
-You saved the lives of a family when their house burned down. They’re indebted to you, and their neighbors regard you as a hero.
-20
-Your old trainer still expects you to come back and clean up after their classes; when you do, they occasionally share interesting rumors.
+| d20 | Background                                                                                                                                       |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | You were in the military and have friends who still serve. <br /> Your former commander remembers you well.                                      |  |
+| 2   | You were the bodyguard of a wealthy woman who accused you of theft. <br />You left her service in disgrace.                                      |
+| 3   | You were the bouncer in a local bar for a while, <br />and the patrons there remember you.                                                       |
+| 4   | You trained with a highly respected mentor.<br /> They regard you well, but they have many enemies.                                              |
+| 5   | You trained in an isolated monastery. <br />The monks think of you as a brother, but you’re a stranger to all others.                            |
+| 6   | You have no formal training. Your abilities come to you naturally (or unnaturally).                                                              |
+| 7   | You spent time on the streets and were in prison for a while.                                                                                    |
+| 8   | You were conscripted into military service, but you deserted before long.                                                                        |
+| 9   | You served as a bodyguard to a powerful criminal who now owes you their life.                                                                    |
+| 10  | You worked as a police officer or constable of some kind. <br />Everyone knows you, but their opinions of you vary.                              |
+| 11  | Your older sibling is an infamous character who has been disgraced.                                                                              |
+| 12  | You served as a guard for someone who traveled extensively. <br />You know a smattering of people in many locations.                             |
+| 13  | Your best friend is a teacher or scholar. <br />They are a great source of knowledge.                                                            |
+| 14  | You and a friend both smoke the same kind of rare, expensive tobacco. <br />The two of you get together weekly to chat and smoke.                |
+| 15  | Your uncle runs a theater in town. <br />You know all the actors and watch all the shows for free.                                               |
+| 16  | Your craftsman friend sometimes calls on you for help. <br />However, they pay you well.                                                         |
+| 17  | Your mentor wrote a book on martial arts. <br />Sometimes people seek you out to ask about its stranger passages.                                |
+| 18  | Someone you fought alongside in the military is now the mayor of a nearby town.                                                                  |
+| 19  | You saved the lives of a family when their house burned down. <br />They’re indebted to you, and their neighbors regard you as a hero.           |
+| 20  | Your old trainer still expects you to come back and clean up after their classes; <br />when you do, they occasionally share interesting rumors. |
 
 
 
 
-WARRIOR PLAYER INTRUSIONS
+### WARRIOR PLAYER INTRUSIONS
 You can spend 1 XP to use one of the following player intrusions, provided the situation is appropriate and the GM agrees.
 Perfect Setup: You’re fighting at least three foes and each one is standing in exactly the right spot for you to use a move you trained in long ago, allowing you to attack all three as a single action. Make a separate attack roll for each foe. You remain limited by the amount of Effort you can apply on one action.
 Old Friend: A comrade in arms from your past shows up unexpectedly and provides aid in whatever you’re doing. They are on a mission of their own and can’t stay longer than it takes to help out, chat for a while after, and perhaps share a quick meal.
 Weapon Break: Your foe’s weapon has a weak spot. In the course of the combat, it quickly becomes damaged and moves two steps down the object damage track.
 
-WARRIOR STAT POOLS
-Stat
-Pool Starting Value
-Might
-10
-Speed
-10
-Intellect
-8
-
-
+### WARRIOR STAT POOLS
+| Stat Pool | Starting Value |
+| --------- | -------------- |
+| Might     | 10             |
+| Speed     | 10             |
+| Intellect | 8              |
 
 You get 6 additional points to divide among your stat Pools however you wish.
 
-FIRST-TIER WARRIOR
+#### FIRST-TIER WARRIOR
 First-tier warriors have the following abilities:
 Effort: Your Effort is 1.
 Physical Nature: You have a Might Edge of 1 and a Speed Edge of 0, or you have a Might Edge of 0 and a Speed Edge of 1. Either way, you have an Intellect Edge of 0.
@@ -108,7 +106,7 @@ Quick Throw
 Swipe
 Trained Without Armor
 
-SECOND-TIER WARRIOR
+#### SECOND-TIER WARRIOR
 Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Crushing Blow
 Hemorrhage
@@ -117,7 +115,7 @@ Skill With Attacks
 Skill With Defense
 Successive Attack
 
-THIRD-TIER WARRIOR
+#### THIRD-TIER WARRIOR
 Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Deadly Aim
 Energy Resistance
@@ -132,7 +130,7 @@ Spray
 Trick Shot
 Vigilance
 
-FOURTH-TIER WARRIOR
+#### FOURTH-TIER WARRIOR
 Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Amazing Effort
 Capable Warrior
@@ -144,7 +142,7 @@ Pry Open
 Snipe
 Tough As Nails
 
-FIFTH-TIER WARRIOR
+#### FIFTH-TIER WARRIOR
 Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Adroit Cypher Use
 Arc Spray
@@ -156,7 +154,7 @@ Mastery With Defense
 Parry
 (Remember that at higher tiers, you can choose special abilities from lower tiers. This is sometimes the best way to ensure that you have exactly the character you want. This is particularly true with abilities that grant skills, which can usually be taken multiple times.)
 
-SIXTH-TIER WARRIOR
+#### SIXTH-TIER WARRIOR
 Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Again and Again
 Finishing Blow
@@ -165,24 +163,33 @@ Murderer
 Spin Attack
 Weapon and Body
 
-Boxed text:
+<div class="shadow-xl">
 
-WARRIOR EXAMPLE
+### WARRIOR EXAMPLE
+
 Ray wants to create a Warrior character for a modern campaign. He decides that the character is an ex-military fellow who is fast and strong. He puts 3 of his additional points into his Might Pool and 3 into his Speed Pool; his stat Pools are now Might 13, Speed 13, and Intellect 8. As a first-tier character, his Effort is 1, his Might Edge is 1, and his Speed Edge and Intellect Edge are both 0. His character is not particularly smart or charismatic.
+
 He wants to use a large combat knife (a medium weapon that inflicts 4 points of damage) and a .357 Magnum (a heavy pistol that inflicts 6 points of damage but requires the use of both hands). Ray decides not to wear armor, as it’s not really appropriate to the setting, so for his first ability, he chooses Trained Without Armor so he eases Speed defense actions. For his second ability, he chooses Combat Prowess so he can inflict extra damage with his big knife. 
+
 Ray wants to be fast as well as tough, so he selects Improved Edge. This gives him a Speed Edge of 1. He rounds out his character with Physical Skills and chooses swimming and running.
+
 The Warrior can bear two cyphers. The GM decides that Ray’s first cypher is a pill that restores 6 points of Might when swallowed, and his second is a small, easily concealed grenade that explodes like a firebomb when thrown, inflicting 3 points of damage to all within immediate range. 
+
 Ray still needs to choose a descriptor and a focus. Looking ahead to the descriptor rules, Ray chooses Strong, which increases his Might Pool to 17. He also becomes trained in jumping and breaking inanimate objects. (If he had chosen jumping as one of his physical skills, the Strong descriptor would have made him specialized in jumping instead of trained.) Being Strong also gives Ray an extra medium or heavy weapon. He chooses a baseball bat that he’ll use in a pinch. He keeps it in the trunk of his car.
+
 For his focus, Ray chooses Masters Weaponry. This gives him yet another weapon of high quality. He chooses another combat knife and asks the GM if he could use it in his left hand—not to make attacks, but as a shield. This will ease his Speed defense rolls if he has both knives out (the “shield” counts as an asset). The GM agrees. During the game, Ray’s Warrior will be hard to hit—he is trained in Speed defense rolls, and his extra knife eases his defense rolls by another step.
+
 Thanks to his focus, he also inflicts 1 additional point of damage with his chosen weapon. Now he inflicts 6 points of damage with his blade. Ray’s character is a deadly combatant, likely starting the game with a reputation as a knife fighter.
+
 For his character arc, Ray chooses Defeat a Foe. That foe, he decides, is none other than someone in his company who was once a friend but went rogue.
 
+</div>
 
-ADEPT
-Fantasy/Fairy tale: wizard, mage, sorcerer, cleric, druid, seer, diabolist, fey-touched
-Modern/Horror/Romance: psychic, occultist, witch, practitioner, medium, fringe scientist
-Science fiction: psion, psionicist, telepath, seeker, master, scanner, ESPer, abomination
-Superhero/Post-Apocalyptic: mage, sorcerer, power-wielder, master, psion, telepath
+## ADEPT
+- **Fantasy/Fairy tale**: wizard, mage, sorcerer, cleric, druid, seer, diabolist, fey-touched
+- **Modern/Horror/Romance**: psychic, occultist, witch, practitioner, medium, fringe scientist
+- **Science fiction**: psion, psionicist, telepath, seeker, master, scanner, ESPer, abomination
+- **Superhero/Post-Apocalyptic**: mage, sorcerer, power-wielder, master, psion, telepath
 
 You master powers or abilities outside the experience, understanding, and sometimes belief of others. They might be magic, psychic powers, mutant abilities, or just a wide variety of intricate devices, depending on the setting. (“Magic” here is a term used very loosely. It’s a catch-all for the kinds of wondrous, possibly supernatural things that your character can do that others cannot. It might actually be an expression of technological devices, channeling spirits, mutations, psionics, nanotechnology, or any number of other sources.)
 Individual Role: Adepts are usually thoughtful, intelligent types. They often think carefully before acting and rely heavily on their supernatural abilities.
@@ -191,13 +198,13 @@ Societal Role: In settings where the supernatural is rare, strange, or feared, A
 Advanced Adepts: Even at low tiers, Adept powers are impressive. Higher-tier Adepts can accomplish amazing deeds that can reshape matter and the environment around them.
 (Adepts are almost always emblematic of the paranormal or superhuman in some way—wizards, psychics, or something similar. If the game you’re playing has none of that, an Adept could be a charlatan mimicking such abilities with tricks and hidden devices, or a gadgeteer character with a “utility belt” full of oddments. Or a game like that might not have Adepts. That’s okay too.)
 
-ADEPT PLAYER INTRUSIONS
+### ADEPT PLAYER INTRUSIONS
 When playing an Adept, you can spend 1 XP to use one of the following player intrusions, provided the situation is appropriate and the GM agrees.
 Advantageous Malfunction: A device being used against you malfunctions. It might harm the user or one of their allies for a round, or activate a dramatic and distracting side effect for a few rounds.
 Convenient Idea: A flash of insight provides you with a clear answer or suggests a course of action with regard to an urgent question, problem, or obstacle you’re facing.
 Inexplicably Unbroken: An inactive, ruined, or presumed-destroyed device temporarily activates and performs a useful function relevant to the situation. This is enough to buy you some time for a better solution, alleviate a complication that was interfering with your abilities, or just get you one more use out of a depleted cypher or artifact.
 
-ADEPT STAT POOLS
+### ADEPT STAT POOLS
 Stat
 Pool Starting Value
 Might
@@ -211,55 +218,35 @@ Intellect
 
 You get 6 additional points to divide among your stat Pools however you wish.
 
-Adept Background Connection
+### Adept Background Connection
 Your type helps determine the connection you have to the setting. Roll a d20 or choose from the following list to determine a specific fact about your background that provides a connection to the rest of the world. You can also create your own fact.
 
-d20
-Background
-1
-You served as an apprentice for an Adept respected and feared by many people. Now you bear their mark.
-2
-You studied in a school infamous for its dark, brooding instructors and graduates.
-3
-You learned your abilities in the temple of an obscure god. Its priests and worshippers, although small in number, respect and admire your talents and potential.
-4
-While traveling alone, you saved the life of a powerful person. They remain indebted to you.
-5
-Your mother was a powerful Adept while she lived, helpful to many locals. They look upon you kindly, but they also expect much from you.
-6
-You owe money to a number of people and don’t have the funds to pay your debts.
-7
-You failed disgracefully at your initial studies with your teacher and now proceed on your own.
-8
-You learned your skills faster than your teachers had ever seen before. The powers that be took notice and are paying close attention.
-9
-You killed a well-known criminal in self-defense, earning the respect of many and the enmity of a dangerous few.
-10
-You trained as a Warrior, but your Adept predilections eventually led you down a different path. Your former comrades don’t understand you, but they respect you.
-11
-While studying to be an Adept, you worked as an assistant for a bank, making friends with the owner and the clientele.
-12
-Your family owns a large vineyard nearby known to all for its fine wine and fair business dealings.
-13
-You trained for a time with a group of influential Adepts, and they still look upon you with fondness.
-14
-You worked the gardens in the palace of an influential noble or person of wealth. They wouldn’t remember you, but you made friends with their young daughter.
-15
-An experiment you conducted in the past went horribly awry. The locals remember you as a dangerous and foolhardy individual.
-16
-You hail from a distant place where you were well known and regarded, but people here treat you with suspicion.
-17
-People you meet seem put off by the strange birthmark on your face.
-18
-Your best friend is also an Adept. You and your friend share discoveries and secrets readily.
-19
-You know a local merchant very well. Since you give them so much business, they offer you discounts and special treatment.
-20
-You belong to a secretive social club that gathers monthly to drink and talk.
+| d20 | Background                                                                                                                                                        |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | You served as an apprentice for an Adept respected and feared by many people.<br /> Now you bear their mark.                                                            |
+| 2   | You studied in a school infamous for its dark, brooding instructors and graduates.                                                                                |
+| 3   | You learned your abilities in the temple of an obscure god. <br />Its priests and worshippers, although small in number, <br />respect and admire your talents and potential. |
+| 4   | While traveling alone, you saved the life of a powerful person. <br />They remain indebted to you.                                                                      |
+| 5   | Your mother was a powerful Adept while she lived, helpful to many locals. <br />They look upon you kindly, but they also expect much from you.                          |
+| 6   | You owe money to a number of people and don’t have the funds to pay your debts.                                                                                   |
+| 7   | You failed disgracefully at your initial studies <br />with your teacher and now proceed on your own.                                                                   |
+| 8   | You learned your skills faster than your teachers had ever seen before. <br />The powers that be took notice and are paying close attention.                            |
+| 9   | You killed a well-known criminal in self-defense, <br />earning the respect of many and the enmity of a dangerous few.                                                  |
+| 10  | You trained as a Warrior, <br />but your Adept predilections eventually led you down a different path. <br />Your former comrades don’t understand you, but they respect you. |
+| 11  | While studying to be an Adept, you worked as an assistant for a bank, <br />making friends with the owner and the clientele.                                            |
+| 12  | Your family owns a large vineyard nearby known to all <br />for its fine wine and fair business dealings.                                                               |
+| 13  | You trained for a time with a group of influential Adepts, <br />and they still look upon you with fondness.                                                            |
+| 14  | You worked the gardens in the palace of an influential noble or person of wealth. <br />They wouldn’t remember you, but you made friends with their young daughter.     |
+| 15  | An experiment you conducted in the past went horribly awry. <br />The locals remember you as a dangerous and foolhardy individual.                                      |
+| 16  | You hail from a distant place where you were well known and regarded, <br />but people here treat you with suspicion.                                                   |
+| 17  | People you meet seem put off by the strange birthmark on your face.                                                                                               |
+| 18  | Your best friend is also an Adept. <br />You and your friend share discoveries and secrets readily.                                                                     |
+| 19  | You know a local merchant very well. Since you give them so much business, <br />they offer you discounts and special treatment.                                        |
+| 20  | You belong to a secretive social club that gathers monthly to drink and talk.                                                                                     |
 
 
 
-FIRST-TIER ADEPT
+#### FIRST-TIER ADEPT
 First-tier Adepts have the following abilities:
 Effort: Your Effort is 1. 
 Genius: You have an Intellect Edge of 1, a Might Edge of 0, and a Speed Edge of 0. 
@@ -279,7 +266,7 @@ Scan
 Shatter
 Ward
 
-SECOND-TIER ADEPT
+#### SECOND-TIER ADEPT
 Choose one of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Adaptation
 Cutting Light
@@ -289,7 +276,7 @@ Retrieve Memories
 Reveal
 Stasis
 
-THIRD-TIER ADEPT
+#### THIRD-TIER ADEPT
 Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Adroit Cypher Use
 Countermeasures
@@ -299,7 +286,7 @@ Force Field Barrier
 Sensor
 Targeting Eye
 
-FOURTH-TIER ADEPT
+#### FOURTH-TIER ADEPT
 Choose one of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Death Touch
 Exile
@@ -312,7 +299,7 @@ Regeneration
 Reshape
 Wormhole
 
-FIFTH-TIER ADEPT
+#### FIFTH-TIER ADEPT
 Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Absorb Energy
 Concussion
@@ -324,7 +311,7 @@ Master Cypher Use
 Teleportation
 True Senses
 
-SIXTH-TIER ADEPT
+#### SIXTH-TIER ADEPT
 Choose one of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Control Weather
 Earthquake
@@ -332,21 +319,30 @@ Move Mountains
 Traverse the Worlds
 Usurp Cypher
 
-ADEPT EXAMPLE
+<div class="shadow-xl">
+
+### ADEPT EXAMPLE
+
 Jen wants to create an Adept—a sorcerer for a fantasy campaign. She decides to be somewhat well rounded, so she puts 2 of her additional points into each stat Pool, giving her a Might Pool of 9, a Speed Pool of 11, and an Intellect Pool of 14. Her Adept is smart and quick. She has an Intellect Edge of 1, a Might Edge of 0, and a Speed Edge of 0. As a first-tier character, her Effort is 1. As her initial abilities, she chooses Onslaught and Ward, giving her a strong offense and defense. She also chooses Magic Training and rounds out her character with Scan, which she hopes will be useful in gaining insight and information. For this character, Onslaught, Ward, and Scan are all spells she has mastered through years of training and study.
+
 She can bear three cyphers. The GM gives her a potion that acts as a short-range teleporter, a small charm that restores 5 points to her Intellect Pool, and a fluid-filled flask that explodes like a fiery bomb. Jen’s sorcerer is skilled with light weapons, so she chooses a dagger. 
+
 For her descriptor, Jen chooses Graceful, which adds 2 points to her Speed Pool, bringing it to 13. That descriptor means she is trained in balancing and anything requiring careful movements, physical performing arts, and Speed defense tasks. Perhaps she is a dancer. In fact, she begins to develop a backstory that involves graceful, lithe movements that she incorporates into her spells.
+
 For her focus, she chooses Leads. This gives her training in social interactions, which again helps round her out—she’s good in all kinds of situations. Moreover, she has the Good Advice ability, which enables her to be a focal point of her group.
+
 Her spells and focus abilities cost Intellect points to activate, so she’s glad to have a lot of points in her Intellect Pool. In addition, her Intellect Edge will help reduce those costs. If she uses her Onslaught force blast without applying Effort, it costs 0 Intellect points and deals 4 points of damage. Her Intellect Edge will allow her to save points to devote toward applying Effort for other purposes, perhaps to boost the accuracy of Onslaught.
+
 For her character arc, Jen chooses Aid a Friend. She decides that when her sorcerer character was young, she had a magical mentor. That mentor was later taken prisoner by a demon, so her character is always looking for clues on how to find the demon and release her friend from bondage.
+
 (GMs are always free to pre-select a type’s special abilities at a given tier to reinforce the setting. In the fantasy setting of Jen’s sorcerer, the GM might have said that all sorcerers (Adepts) start with Magic Training as one of their tier 1 abilities. This doesn’t make the character any less powerful or special, but it says something about her role in the world and expectations in the game.)
+</div>
 
-
-EXPLORER
-Fantasy/Fairy tale: Explorer, adventurer, delver, mystery seeker
-Modern/Horror/Romance: athlete, explorer, adventurer, drifter, detective, scholar, spelunker, trailblazer, investigative reporter
-Science fiction: Explorer, adventurer, wanderer, planetary specialist, xenobiologist
-Superhero/Post-Apocalyptic: adventurer, crimefighter
+## EXPLORER
+- **Fantasy/Fairy tale**: Explorer, adventurer, delver, mystery seeker
+- **Modern/Horror/Romance**: athlete, explorer, adventurer, drifter, detective, scholar, spelunker, trailblazer, investigative reporter
+- **Science fiction**: Explorer, adventurer, wanderer, planetary specialist, xenobiologist
+- **Superhero/Post-Apocalyptic**: adventurer, crimefighter
 
 You are a person of action and physical ability, fearlessly facing the unknown. You travel to strange, exotic, and dangerous places, and discover new things. This means you’re physical but also probably knowledgeable.
 Individual Role: Although Explorers can be academics or well studied, they are first and foremost interested in action. They face grave dangers and terrible obstacles as a routine part of life. 
@@ -355,13 +351,13 @@ Societal Role: Not all Explorers are out traipsing through the wilderness or pok
 Advanced Explorers: Higher-tier Explorers gain more skills, some combat abilities, and a number of abilities that allow them to deal with danger. In short, they become more and more well-rounded, able to deal with any challenge.
 
 
-EXPLORER PLAYER INTRUSIONS
+### EXPLORER PLAYER INTRUSIONS
 When playing an Explorer, you can spend 1 XP to use one of the following player intrusions, provided the situation is appropriate and the GM agrees.
 Fortuitous Malfunction: A trap or a dangerous device malfunctions before it can affect you.
 Serendipitous Landmark: Just when it seems like the path is lost (or you are), a trail marker, a landmark, or simply the way the terrain or corridor bends, rises, or falls away suggests to you the best path forward, at least from this point.
 Weak Strain: The poison or disease turns out not to be as debilitating or deadly as it first seemed, and inflicts only half the damage that it would have otherwise.
 
-EXPLORER STAT POOLS
+### EXPLORER STAT POOLS
 Stat
 Pool Starting Value
 Might
@@ -375,7 +371,7 @@ Intellect
 
 You get 6 additional points to divide among your stat Pools however you wish.
 
-Explorer Background Connection
+### Explorer Background Connection
 Your type helps determine the connection you have to the setting. Roll a d20 or choose from the following list to determine a specific fact about your background that provides a connection to the rest of the world. You can also create your own fact.
 
 d20
@@ -424,7 +420,7 @@ Your father is a high-ranking officer in the military with many connections.
 
 
 
-FIRST-TIER EXPLORER
+#### FIRST-TIER EXPLORER
 First-tier Explorers have the following abilities:
 Effort: Your Effort is 1.
 Physical Nature: You have a Might Edge of 1, a Speed Edge of 0, and an Intellect Edge of 0.
@@ -448,7 +444,7 @@ Practiced With All Weapons
 Surging Confidence
 Trained Without Armor
 
-SECOND-TIER EXPLORER
+#### SECOND-TIER EXPLORER
 Choose four of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Curious
 Danger Instinct
@@ -465,7 +461,7 @@ Stand Watch
 Travel Skills
 Wreck
 
-THIRD-TIER EXPLORER
+#### THIRD-TIER EXPLORER
 Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Controlled Fall
 Experienced in Armor
@@ -481,7 +477,7 @@ Think Your Way Out
 Trapfinder
 Wrest From Chance
 
-FOURTH-TIER EXPLORER
+#### FOURTH-TIER EXPLORER
 Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Capable Warrior
 Expert Skill
@@ -491,7 +487,7 @@ Runner
 Subtle Steps
 Tough As Nails
 
-FIFTH-TIER EXPLORER
+#### FIFTH-TIER EXPLORER
 Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Adroit Cypher Use
 Free to Move
@@ -504,7 +500,7 @@ Physically Gifted
 Take Command
 Vigilant
 
-SIXTH-TIER EXPLORER
+#### SIXTH-TIER EXPLORER
 Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Again and Again
 Inspire Coordinated Actions
@@ -515,21 +511,30 @@ Share Defense
 Spin Attack
 Wild Vitality
 
-EXPLORER EXAMPLE
+<div class="shadow-xl">
+
+### EXPLORER EXAMPLE
 Sam decides to create an Explorer character for a science fiction campaign. This character will be a hardy soul who explores alien worlds. They put 3 additional points into their Might Pool, 2 into their Speed Pool, and 1 into their Intellect Pool; their stat Pools are now Might 13, Speed 11, and Intellect 10. As a first-tier character, their Effort is 1, their Might Edge is 1, and their Speed Edge and Intellect Edge are 0. Their character is fairly well-rounded so far.
+
 Sam immediately leaps in and starts choosing abilities. They pick Danger Sense and Surging Confidence, thinking those abilities will be generally useful. They also choose Practiced in Armor, reasoning that the character wears high-tech medium armor when exploring. Last, they choose Knowledge Skills and select geology and biology to help during interplanetary explorations. 
+
 Sam’s Explorer can bear two cyphers, which in this setting involve nanotechnology. The GM decides that one is a nanite injector that grants a +1 bonus to Might Edge when used, and the other is a device that can create one simple handheld object the user wishes. 
+
 Sam’s Explorer is not really geared toward fighting, but sometimes the universe is a dangerous place, so they note that they’re carrying a medium blaster as well.
+
 Sam still needs a descriptor and a focus. Looking to the Descriptor chapter, they choose Hardy, which increases their Might Pool to 17. They also heal more quickly and can operate better when injured. They’re trained in Might defense but have an inability with initiative; however, it’s effectively canceled out by their Danger Sense (and vice versa). Sam could go back and select something else instead of Danger Sense, but they like it and decide to keep it. Overall, the descriptor ends up making the character tough but a little slow.
+
 For their focus, Sam chooses Explores Dark Places (in this case, weird ruins of alien civilizations). This gives the character a bunch of additional skills: searching, listening, climbing, balancing, and jumping. They’re quite the capable Explorer.
+
 For their character arc, Sam chooses Enterprise. Exploring alien places sometimes turns up strange relics, and Sam figures they might be able to set up a service to reliably transport these items to responsible third parties, rather than allow them to fall into the hands of pirates and rich private collectors. For a small fee, of course.
 
+</div>
 
-SPEAKER
-Fantasy/Fairy tale: bard, speaker, skald, emissary, priest, advocate
-Modern/Horror/Romance: diplomat, charmer, face, spinner, manipulator, minister, mediator, lawyer
-Science fiction: diplomat, empath, glam, consul, legate
-Superhero/Post-Apocalyptic: charmer, mesmerist, puppet master
+## SPEAKER
+- **Fantasy/Fairy tale**: bard, speaker, skald, emissary, priest, advocate
+- **Modern/Horror/Romance**: diplomat, charmer, face, spinner, manipulator, minister, mediator, lawyer
+- **Science fiction**: diplomat, empath, glam, consul, legate
+- **Superhero/Post-Apocalyptic**: charmer, mesmerist, puppet master
 
 You’re good with words and good with people. You talk your way past challenges and out of jams, and you get people to do what you want.
 Individual Role: Speakers are smart and charismatic. They like people and, more important, they understand them. This helps speakers get others to do what needs to be done. 
@@ -537,13 +542,13 @@ Group Role: The Speaker is often the face of the group, serving as the person wh
 Societal Role: Speakers are frequently political or religious leaders. Just as often, however, they are con artists or criminals. 
 Advanced Speakers: Higher-tier speakers use their abilities to control and manipulate people as well as aid and nurture their friends. They can talk their way out of danger and even use their words as weapons.
 
-SPEAKER PLAYER INTRUSIONS
+### SPEAKER PLAYER INTRUSIONS
 When playing a Speaker, you can spend 1 XP to use one of the following player intrusions, provided the situation is appropriate and the GM agrees.
 Friendly NPC: An NPC you don’t know, someone you don’t know that well, or someone you know but who hasn’t been particularly friendly in the past chooses to help you, though doesn’t necessarily explain why. Maybe they’ll ask you for a favor in return afterward, depending on how much trouble they go to.
 Perfect Suggestion: A follower or other already-friendly NPC suggests a course of action with regard to an urgent question, problem, or obstacle you’re facing.
 Unexpected Gift: An NPC hands you a physical gift you were not expecting, one that helps put the situation at ease if things seem strained, or provides you with a new insight for understanding the context of the situation if there’s something you’re failing to understand or grasp.
 
-SPEAKER STAT POOLS
+### SPEAKER STAT POOLS
 Stat
 Pool Starting Value
 Might
@@ -557,7 +562,7 @@ Intellect
 
 You get 6 additional points to divide among your stat Pools however you wish. 
 
-speaker Background Connection
+### Speaker Background Connection
 Your type helps determine the connection you have to the setting. Roll a d20 or choose from the following list to determine a specific fact about your background that provides a connection to the rest of the world. You can also create your own fact.
 
 d20
@@ -606,7 +611,7 @@ Someone out there tries to pose as you, using your identity, often for nefarious
 
 
 
-FIRST-TIER SPEAKER
+#### FIRST-TIER SPEAKER
 First-tier speakers have the following abilities:
 Effort: Your Effort is 1.
 Genius: You have an Intellect Edge of 1, a Might Edge of 0, and a Speed Edge of 0.
@@ -628,7 +633,7 @@ Spin Identity
 Terrifying Presence
 Understanding
 
-SECOND-TIER SPEAKER
+#### SECOND-TIER SPEAKER
 Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Basic Follower
 Calm Stranger
@@ -642,7 +647,7 @@ Skill With Defense
 Speedy Recovery
 Unexpected Betrayal
 
-THIRD-TIER SPEAKER
+#### THIRD-TIER SPEAKER
 Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Accelerate
 Blend In
@@ -657,7 +662,7 @@ Perfect Stranger
 Quick Wits
 Telling
 
-FOURTH-TIER SPEAKER
+#### FOURTH-TIER SPEAKER
 Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Anticipate Attack
 Confounding Banter
@@ -669,7 +674,7 @@ Spur Effort
 Strategize
 Suggestion
 
-FIFTH-TIER SPEAKER
+#### FIFTH-TIER SPEAKER
 Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Adroit Cypher Use
 Discipline of Watchfulness
@@ -681,7 +686,7 @@ Regeneration
 Skill With Attacks
 Stimulate
 
-SIXTH-TIER SPEAKER
+#### SIXTH-TIER SPEAKER
 Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Assume Control
 Battle Management
@@ -702,22 +707,23 @@ For her focus, Mary chooses Moves Like a Cat, granting her a final Speed Pool of
 For her character arc, Mary chooses Fall From Grace. She decides she’s had an obsession with a strange tome that’s been in her family for generations, and her character is drawn to its strange languages and rituals.
 
 
-FURTHER CUSTOMIZATION
+## FURTHER CUSTOMIZATION
 The rules in this section are more advanced and always involve the GM. They can be used by the GM to tailor a type to better fit the genre or setting, or by a player and a GM to tweak a character to fit a concept.
 
-MODIFYING TYPE ASPECTS
+### MODIFYING TYPE ASPECTS
 The following aspects of the four character types can be modified at character creation. Other abilities should not be changed.
 Stat Pools: Each character type has a starting stat Pool value. A player can exchange points between their Pools on a one-for-one basis. For example, they can trade 2 points of Might for 2 points of Speed. However, no starting stat Pool should be higher than 20.
 Edge: A player can start with an Edge of 1 in whichever stat they wish.
 Cypher Use: If a character gives up the ability to bear one cypher, they gain an additional skill of their choice.
 Weapons: Some types have static first-tier abilities that let them use light, medium, and/or heavy weapons without a penalty. Warriors can use all weapons, Explorers can use light and medium weapons, and Adepts and Speakers can use light weapons. Any one of these weapon abilities can be sacrificed to gain training in a different skill of the player’s choice.
 
-DRAWBACKS AND PENALTIES
+### DRAWBACKS AND PENALTIES
 In addition to other customization options, a player can choose to take drawbacks or penalties to gain further advantages.
 Weakness: A weakness is, essentially, the opposite of Edge. If you have a weakness of 1 in Speed, all Speed actions that require you to spend points cost 1 additional point from your Pool. At any time, a player can give their character a weakness in one stat and, in exchange, gain +1 to their Edge in one of the other two stats. So a PC can take a weakness of 1 in Speed to gain +1 to their Might Edge.
 Normally, you can have a weakness only in a stat in which you have an Edge of 0. Further, you can’t have more than one weakness, and you can’t have a weakness greater than 1 unless the additional weakness comes from another source (such as a disease or disability arising from actions or conditions in the game).
 Inabilities: Inabilities are like negative skills. They make one type of task harder by hindering it. If a character chooses to take an inability, they gain a skill of their choice. Normally, a character can have only one inability unless the additional inability comes from another source (such as a descriptor or a disease or disability arising from actions or conditions in the game).
-Flavor
+
+## Flavor
 
 Flavors are groups of special abilities the GM and players can use to alter a character type to make it more to their liking or more appropriate to the genre or setting. For example, if a player wants to create a magic-using thief character, she could play an Adept with stealth flavoring. In a science fiction setting, a Warrior might also have knowledge of machinery, so the character could be flavored with technology.
 At a given tier, abilities from a flavor are traded one for one with standard abilities from a type. So to add the Danger Sense stealth flavor ability to a Warrior, something else—perhaps Bash—must be sacrificed. Now that character can choose Danger Sense as they would any other first-tier warrior ability, but they can never choose Bash.
@@ -727,24 +733,24 @@ The flavors available are stealth, technology, magic, combat, and skills and kno
 The full description for each listed ability can be found in the Abilities chapter, which also contains descriptions for type and focus abilities in a single vast catalog.
 
 
-STEALTH FLAVOR
+### STEALTH FLAVOR
 Characters with the stealth flavor are good at sneaking around, infiltrating places they don’t belong, and deceiving others. They use these abilities in a variety of ways, including combat. An Explorer with stealth flavor might be a thief, while a Warrior with stealth flavor might be an assassin. An Explorer with stealth flavor in a superhero setting might be a crimefighter who stalks the streets at night.
 
-FIRST-TIER STEALTH ABILITIES
+#### FIRST-TIER STEALTH ABILITIES
 Danger Sense
 Goad
 Legerdemain
 Opportunist
 Stealth Skills
 
-SECOND-TIER STEALTH ABILITIES
+#### SECOND-TIER STEALTH ABILITIES
 Contortionist
 Find an Opening
 Get Away
 Sense Ambush
 Surprise Attack
 
-THIRD-TIER STEALTH ABILITIES
+#### THIRD-TIER STEALTH ABILITIES
 Evanesce
 From the Shadows
 Gambler
@@ -753,32 +759,32 @@ Misdirect
 Run and Fight
 Seize the Moment
 
-FOURTH-TIER STEALTH ABILITIES
+#### FOURTH-TIER STEALTH ABILITIES
 Ambusher
 Debilitating Strike
 Outwit
 Preternatural Senses
 Tumbling Moves
 
-FIFTH-TIER STEALTH ABILITIES
+#### FIFTH-TIER STEALTH ABILITIES
 Assassin Strike
 Mask
 Return to Sender
 Uncanny Luck
 
-SIXTH-TIER STEALTH ABILITIES
+#### SIXTH-TIER STEALTH ABILITIES
 Exploit Advantage
 Spring Away
 Thief’s Luck
 Twist of Fate
 
 
-TECHNOLOGY FLAVOR
+### TECHNOLOGY FLAVOR
 Characters with a flavor of technology typically are from science fiction or at least modern-day
 settings (although anything is possible). They excel at using, dealing with, and building machines. An Explorer with technology flavor might be a starship pilot, and a Speaker flavored with technology could be a techno-priest.
 Some of the less computer-oriented abilities might be appropriate for a steampunk character, while a modern-day character could use some of the abilities that don’t involve starships or ultratech.
 
-FIRST-TIER TECHNOLOGY ABILITIES
+#### FIRST-TIER TECHNOLOGY ABILITIES
 Datajack
 Hacker
 Machine Interface
@@ -786,7 +792,7 @@ Scramble Machine
 Tech Skills
 Tinker
 
-SECOND-TIER TECHNOLOGY ABILITIES
+#### SECOND-TIER TECHNOLOGY ABILITIES
 Distant Interface
 Machine Efficiency
 Overload Machine
@@ -795,35 +801,35 @@ Serv-0 Defender
 Serv-0 Repair
 Tool Mastery
 
-THIRD-TIER TECHNOLOGY ABILITIES
+#### THIRD-TIER TECHNOLOGY ABILITIES
 Mechanical Telepathy
 Serv-0 Scanner
 Ship Footing
 Shipspeak
 Spray
 
-FOURTH-TIER TECHNOLOGY ABILITIES
+#### FOURTH-TIER TECHNOLOGY ABILITIES
 Machine Bond
 Robot Fighter
 Serv-0 Aim
 Serv-0 Brawler
 Serv-0 Spy
 
-FIFTH-TIER TECHNOLOGY ABILITIES
+#### FIFTH-TIER TECHNOLOGY ABILITIES
 Control Machine
 Jury-Rig
 Machine Companion 
 
-SIXTH-TIER TECHNOLOGY ABILITIES
+#### SIXTH-TIER TECHNOLOGY ABILITIES
 Information Gathering
 Master Machine
 
 
-MAGIC FLAVOR
+### MAGIC FLAVOR
 You know a little about magic. You might not be a wizard, but you know the basics—how it works, and how to accomplish a few wondrous things. Of course, in your setting, “magic” might actually mean psychic powers, mutant abilities, weird alien tech, or anything else that produces interesting and useful effects. 
 An Explorer flavored with magic might be a wizard-hunter, and a Speaker with magical flavor might be a sorcerer-bard. Although an Adept flavored with magic is still an Adept, you might find that swapping some of the type’s basic abilities with those given here tailors the character in desirable ways.
 
-FIRST-TIER MAGIC ABILITIES
+#### FIRST-TIER MAGIC ABILITIES
 Blessing of the Gods
 Closed Mind
 Entangling Force
@@ -832,71 +838,71 @@ Magic Training
 Mental Link
 Premonition
 
-SECOND-TIER MAGIC ABILITIES
+#### SECOND-TIER MAGIC ABILITIES
 Concussive Blast
 Fetch
 Force Field 
 Lock
 Repair Flesh
 
-THIRD-TIER MAGIC ABILITIES
+#### THIRD-TIER MAGIC ABILITIES
 Distance Viewing
 Fire Bloom
 Fling
 Force at Distance
 Summon Giant Spider
 
-FOURTH-TIER MAGIC ABILITIES
+#### FOURTH-TIER MAGIC ABILITIES
 Elemental Protection
 Ignition
 Pry Open
 
-FIFTH-TIER MAGIC ABILITIES
+#### FIFTH-TIER MAGIC ABILITIES
 Create
 Divine Intervention
 Dragon’s Maw
 Fast Travel
 True Senses
 
-SIXTH-TIER MAGIC ABILITIES
+#### SIXTH-TIER MAGIC ABILITIES
 Relocate
 Summon Demon
 Traverse the Worlds
 Word of Death
 
 
-COMBAT FLAVOR
+### COMBAT FLAVOR
 Combat flavor makes a character more martial. A Speaker with combat flavor in a fantasy setting would be a battle bard. An Explorer with combat flavor in a historical game might be a pirate. An Adept flavored with combat in a science fiction setting could be a veteran of a thousand psychic wars.
 
-FIRST-TIER COMBAT ABILITIES
+#### FIRST-TIER COMBAT ABILITIES
 Danger Sense
 Practiced in Armor
 Practiced With Medium Weapons
 
-SECOND-TIER COMBAT ABILITIES
+#### SECOND-TIER COMBAT ABILITIES
 Bloodlust
 Combat Prowess
 Trained Without Armor
 
-THIRD-TIER COMBAT ABILITIES
+#### THIRD-TIER COMBAT ABILITIES
 Practiced With All Weapons
 Skill With Attacks
 Skill With Defense
 Successive Attack
 
-FOURTH-TIER COMBAT ABILITIES
+#### FOURTH-TIER COMBAT ABILITIES
 Capable Warrior
 Deadly Aim
 Fury
 Misdirect
 Spray
 
-FIFTH-TIER COMBAT ABILITIES
+#### FIFTH-TIER COMBAT ABILITIES
 Experienced Defender
 Hard Target
 Parry
 
-SIXTH-TIER COMBAT ABILITIES
+#### SIXTH-TIER COMBAT ABILITIES
 Greater Skill With Attacks
 Mastery in Armor
 Mastery With Defense
@@ -904,13 +910,13 @@ Mastery With Defense
 
 
 
-SKILLS AND KNOWLEDGE FLAVOR
+### SKILLS AND KNOWLEDGE FLAVOR
 This flavor is for characters in roles that call for more knowledge and more real-world application of talent. It’s less flashy and dramatic than supernatural powers or the ability to hack apart multiple foes, but sometimes expertise or
 know-how is the real solution to a problem.
 A Warrior flavored with skills and knowledge might be a military engineer. An Explorer flavored with skills and knowledge could be a field scientist. A Speaker with this flavor might be a teacher.
 
 
-FIRST-TIER SKILLS AND KNOWLEDGE ABILITIES 
+#### FIRST-TIER SKILLS AND KNOWLEDGE ABILITIES 
 Interaction Skills
 Investigative Skills 
 Knowledge Skills
@@ -918,35 +924,28 @@ Physical Skills
 Travel Skills
 
 
-SECOND-TIER SKILLS AND KNOWLEDGE ABILITIES 
+#### SECOND-TIER SKILLS AND KNOWLEDGE ABILITIES 
 Extra Skill
 Tool Mastery
 Understanding
 
 
-THIRD-TIER SKILLS ANDKNOWLEDGE ABILITIES 
+#### THIRD-TIER SKILLS ANDKNOWLEDGE ABILITIES 
 Flex Skill
 Improvise
 
 
-FOURTH-TIER SKILLS AND KNOWLEDGE ABILITIES 
+#### FOURTH-TIER SKILLS AND KNOWLEDGE ABILITIES 
 Multiple Skills
 Quick Wits
 Task Specialization
 
 
-FIFTH-TIER SKILLS ANd KNOWLEDGE ABILITIES
+#### FIFTH-TIER SKILLS ANd KNOWLEDGE ABILITIES
 Practiced With Medium Weapons
 Read the Signs
 
 
-SIXTH-TIER SKILLS AND KNOWLEDGE ABILITIES
+#### SIXTH-TIER SKILLS AND KNOWLEDGE ABILITIES
 Skill With Attacks
 Skill With Defense
-Descriptor
-
-Your descriptor defines your character—it flavors everything you do. The differences between a Charming Explorer and a Vicious Explorer are considerable. The descriptor changes the way those characters go about every action. Your descriptor places your character in the situation (the first adventure, which starts the campaign) and helps provide motivation. It is the adjective of the sentence “I am an adjective noun who verbs.”
-Descriptors offer a one-time package of extra abilities, skills, or modifications to your stat Pools. Not all of a descriptor’s offerings are positive character modifications. For example, some descriptors have inabilities—tasks that a character isn’t good at. You can think of inabilities as negative skills—instead of being one step better at that kind of task, you’re one step worse. If you become skilled at a task that you have an inability with, they cancel out. Remember that characters are defined as much by what they’re not good at as by what they are good at.
-Descriptors also offer a few brief suggestions for how your character got involved with the rest of the group on their first adventure. You can use these, or not, as you wish.
-This section details fifty descriptors. Choose one of them for your character. You can pick any descriptor you wish regardless of your type. At the end of this chapter, a few options are provided for Customizing Descriptors, including making a character’s species their descriptor.
-(Your descriptor matters most when you are a beginning character. The benefits (and perhaps drawbacks) that come from your descriptor will eventually be overshadowed by the growing importance of your type and focus. However, the influence of your descriptor will remain at least somewhat important throughout your character’s life.)
