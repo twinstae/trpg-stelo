@@ -18,10 +18,11 @@ const { editHref } = Astro.props as Props;
 			</a>
 		</li>
 	)}
+	<div class="w-48 text-center flex justify-end mt-2">
+		<ThemeToggleButton client:visible />
+	</div>
 </ul>
-<div style="margin: 2rem 0; text-align: center;">
-	<ThemeToggleButton client:visible />
-</div>
+
 
 <style>
 	.edit-on-github {
