@@ -6,6 +6,7 @@ import type { MarkdownHeading } from 'astro';
 
 type ItemOffsets = {
 	id: string;
+	text: string;
 	topOffset: number;
 };
 
@@ -14,21 +15,32 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 }) => {
 	const itemOffsets = useRef<ItemOffsets[]>([]);
 	// FIXME: Not sure what this state is doing. It was never set to anything truthy.
-	const [activeId] = useState<string>('');
+	const [activeId, setActiveId] = useState<string>('');
 	useEffect(() => {
 		const getItemOffsets = () => {
-			const titles = document.querySelectorAll('article :is(h1, h2, h3, h4)');
-			itemOffsets.current = Array.from(titles).map((title) => ({
+			const titles = document.querySelectorAll('article :is(h2, h3, h4)');
+			const base = titles[1]?.getBoundingClientRect().top || 0
+			itemOffsets.current = Array.from(titles).slice(1).map((title) => ({
 				id: title.id,
-				topOffset: title.getBoundingClientRect().top + window.scrollY,
+				text: title.textContent ?? '',
+				topOffset: title.getBoundingClientRect().top - base,
 			}));
 		};
 
+		const onScroll = () => {
+			const id = itemOffsets.current.find(item => item.topOffset > window.scrollY)?.id || 'overview';
+			setActiveId(id);
+		};
+
 		getItemOffsets();
+
+		window.addEventListener("scroll", onScroll)
+
 		window.addEventListener('resize', getItemOffsets);
 
 		return () => {
 			window.removeEventListener('resize', getItemOffsets);
+			window.removeEventListener("scroll", onScroll)
 		};
 	}, []);
 
