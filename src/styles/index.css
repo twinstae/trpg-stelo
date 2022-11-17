@@ -1,6 +1,7 @@
 * {
 	box-sizing: border-box;
 	margin: 0;
+	word-break: keep-all;
 }
 
 /* Global focus outline reset */
@@ -276,9 +277,11 @@ h2.heading {
 }
 
 .heading-link:hover,
-.heading-link:focus {
+.heading-link:focus,
+.heading-link.active {
 	border-left-color: var(--theme-accent);
 	color: var(--theme-accent);
+	background-color: var(--theme-bg-accent);
 }
 .heading-link:focus-within {
 	color: var(--theme-text-light);
@@ -349,4 +352,8 @@ input[type="checkbox"]:checked {
 
 table {
 	@apply table;
+}
+
+.numenera-box {
+	@apply bg-base-100 p-4 border-2 border-primary
 }
