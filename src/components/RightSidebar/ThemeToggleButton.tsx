@@ -54,10 +54,10 @@ const ThemeToggle: FunctionalComponent = () => {
     const root = document.documentElement;
     if (theme === "light") {
       root.classList.remove("theme-dark");
-      root.setAttribute('data-theme', "garden")
+      root.setAttribute('data-theme', "bumblebee")
     } else {
       root.classList.add("theme-dark");
-      root.setAttribute('data-theme', "forest")
+      root.setAttribute('data-theme', "halloween")
     }
   }, [theme]);
 
