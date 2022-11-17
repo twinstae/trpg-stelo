@@ -355,5 +355,5 @@ table {
 }
 
 .numenera-box {
-	@apply bg-base-100 p-4 border-2 border-primary
+	@apply p-4 border-2 border-primary
 }

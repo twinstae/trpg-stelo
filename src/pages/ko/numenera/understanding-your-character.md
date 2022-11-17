@@ -4,6 +4,7 @@ description: 각 캐릭터는 자신을 묘사하는 간단한 문구를 가지�
 layout: ../../../layouts/MainLayout.astro
 createdAt: "2022-11-17T07:31:02.290Z"
 ---
+
 ## CHARACTER DESCRIPTOR, TYPE, AND FOCUS
 Each character has a simple statement that
 describes them, like: “I am a [adjective here]
@@ -62,7 +63,8 @@ represents knowing how to use what you have. A
 third element ties into this concept: Effort. When
 your character really needs to accomplish a task,
 apply Effort.
-POOL
+
+### POOL
 A Pool is the most basic measurement of a stat.
 Comparing the Pools of two creatures gives a
 general sense of which is superior. For example,
@@ -80,7 +82,8 @@ Speed Pool, and a psionic blast reduces your
 Intellect Pool. You can rest to regain lost points
 from a stat Pool (see Recovering Points in a
 Pool, page 28).
-EDGE
+
+### EDGE
 Pool is the basic measurement of a stat, but
 Edge is also important. When something
 requires you to spend points from a stat Pool,
@@ -92,7 +95,8 @@ Intellect Pool. Subtract his 1 Intellect Edge from
 the activation cost, and the result is how many
 points he must spend. Since the result is 0, the
 ability is free.
-EFFORT
+
+### EFFORT
 When your character really needs to accomplish
 a task, apply Effort. Applying Effort requires
 spending 3 points from the stat Pool appropriate
@@ -119,7 +123,8 @@ only costs 2 points from your Speed Pool.
 Skills, equipment and special abilities can
 ease a task and can be used in conjunction with
 Effort.
-EFFORT AND DAMAGE
+
+### EFFORT AND DAMAGE
 Instead of applying Effort to ease your attack,
 you can apply Effort to increase the amount of
 damage you inflict for any kind of attack. For
@@ -132,7 +137,8 @@ of damage instead of 3 points. But those points
 are dealt to all targets in the area. Even if one or
 more of the targets in the area resists, you still
 inflict 1 point of damage to them.
-SKILLS (AND INABILITIES)
+
+## SKILLS (AND INABILITIES)
 Your character has training in a handful of specific
 skills. For example, you might be trained in sneaking,
 climbing and jumping, or social interactions. A
@@ -151,7 +157,8 @@ Some characters have inabilities. If a character
 has an inability in a task, the difficulty of that task
 is one step more difficult for that character. This
 is called hindering a task.
-SPECIAL ABILITIES
+
+## SPECIAL ABILITIES
 Character types and foci grant PCs special
 abilities. Using these abilities usually
 costs points from your stat Pools (listed in
@@ -189,7 +196,8 @@ as adding fire damage to your weapon damage,
 which happens as part of your attack). If a special
 ability is an enabler, the end of the ability’s
 description says “Enabler” to remind you.
-CYPHERS AND ODDITIES
+
+## CYPHERS AND ODDITIES
 Cyphers are a type of numenera that have a
 single use. They might allow you to fly or become
 temporarily invisible. You can’t bear many
@@ -209,7 +217,8 @@ much (apparent) practical purpose. They aren’t
 weapons or tools or wondrous things that grant
 powers. But they at least have some barter value
 if you need to do some trading.
-ARTIFACTS
+
+## ARTIFACTS
 Artifacts are technological devices like cyphers,
 but you can use them more than once. They
 also have a rate of power depletion, like “1 in
@@ -221,7 +230,8 @@ use. A depletion entry of “—” means that
 the artifact never depletes, and an entry of
 “automatic” means that it can be used only
 once.
-EQUIPMENT AND SHINS
+
+## EQUIPMENT AND SHINS
 Each character has normal equipment they can
 use, including backpacks, ropes, torches, and so
 on. In the Ninth World, a few special items are

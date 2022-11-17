@@ -7,7 +7,7 @@ createdAt: "2022-11-17T07:31:02.290Z"
 
 누메네라 퀵스타트에 나오는 생물들을 모았습니다.
 
-### BLACKTUSK 4 (12)
+## BLACKTUSK 4 (12)
 A cry that reverberates with what sounds like anguish typifies the hunting yowl of a distant pride of
 blacktusks. Those familiar with the noise know to find shelter, lest they become the pride’s target.
 A blacktusk is a catlike mammal over 7 feet (2 m) long with massive tusks. The creature’s pelt is
@@ -59,7 +59,7 @@ of damage each round
 the PC spends an action
 bandaging the wound.
 
-### CHALIK 2 (6)
+## CHALIK 2 (6)
 Chaliks are 1-foot (30 cm) long insects protected by elaborate yellow carapaces. They attack larger
 prey in small groups by sacrificing some of their number to catch and immobilize targets, allowing
 the remaining chaliks to freely attack and feed. They produce a surprisingly sticky secretion when
@@ -103,7 +103,7 @@ is attacked as if by a
 chalik sacrificing itself to
 immobilize a target.
 
-### 감시자 Gazer 1 (3)
+## 감시자 Gazer 1 (3)
 ![](/gazer2.png)
 
 A gazer is a levitating metallic spherical automaton, about 1.5 feet (0.5 m) in diameter. Various bits
@@ -156,7 +156,7 @@ range. Other gazers
 in immediate range
 spin away to safety.
 
-### ICE WEAVER 3 (9)
+## ICE WEAVER 3 (9)
 Delicate, lattice-like ice structures created by ice weavers are often mistaken as some kind of
 manifestation of the prior worlds. But these structures usually last only a few days or months before
 cracking, breaking, and melting away.
@@ -189,3 +189,192 @@ back off or move away from an area.
 Use: Characters hear about a “prior-world ruin” that appeared without warning. When they
 investigate, they find no ruin, but the small village nearby is vacated and empty. The only
 clue about what happened is a muddy trail leading north.
+
+## CRAGWORM 6 (18)
+A cragworm is a spined serpent that can grow up to 50 feet (15 m) long. Its mouth opens
+horizontally and has many rows of teeth. Dwelling in abandoned or isolated areas, it preys
+on whatever it can find. The creature has many red, glistening eyes and is known for its
+terrible, mournful howl. It has the intelligence of an animal and the outlook of a predator.
+Motive: Hungers for flesh
+Environment: Dwells alone in rocky wastes, hills, and deserts.
+Health: 36
+Damage Inflicted: 8 points
+Armor: 2
+Movement: Short
+Modifications: Hides in rocky terrain as level 7. Speed defense as level 5 due to size.
+Perception as level 4. Resists trickery as level 3.
+Combat: A cragworm hides amid rocks and ruins. While hiding, it howls, and the subsonic
+nature of the sound paralyzes anyone within long range. Victims who fail Intellect
+defense rolls are paralyzed for two rounds.
+When the cragworm emerges from its hiding place to attack, its envenomed bite inflicts
+terrible damage. Victims who fail Might defense rolls move one step down the damage
+track.
+Once a cragworm enters combat, it fights to the death.
+Interaction: Cragworms can’t be reasoned with. They can be intimidated or tricked, but
+the latter is far easier than the former. They resist being tricked as level 3 and are
+particularly easy to fool if food is involved.
+Use: Cragworm attacks are seemingly random wilderness encounters that usually befall
+unsuspecting travelers. In many ways, they are the archetypal wasteland beasts of the
+Ninth World, giving rise to sayings such as “fierce as a cragworm,” “temperamental as a
+cragworm,” and so on.
+
+GM Intrusion: While
+biting a PC, the
+cragworm grabs the
+character in its mouth.
+The PC must make
+a Might-based roll to
+avoid being swallowed.
+Swallowed PCs can
+attack the beast from the
+inside, but they suffer 6
+points of damage each
+round they remain there
+
+## CYCLIC RAIDER 5 (15)
+Cyclic raiders are humanoid automatons powered by sound. A flat, blank silver disc is
+displayed where their face should be. They appear at intervals that seem completely
+random, though some students of the numenera claim their schedule can be determined
+ahead of time with enough calculation. However, those who are too successful at
+discovering that secret tend to become the latest targets of the raiders.
+Cyclic raiders usually appear suddenly, as if they’d stepped out of an invisible door. They
+disappear just as precipitously, exactly three minutes later, often with a captive or two.
+Motive: Capture test subjects (usually humans)
+Environment: Almost anywhere, alone or in groups of three
+Health: 20
+Damage Inflicted: 4 points
+Movement: Short; long when jumping
+Armor: 2
+Modifications: Speed defense as level 6; knowledge of other worlds and galaxies as level 7.
+Combat: Cyclic raiders use a device they call a Melu box to render human targets unconscious.
+Raiders avoid direct engagement and are expert at dodging incoming attacks (reflected in their level 6 Speed defense). If forced to defend
+themselves, they fire a sound blast that inflicts 4
+points of Intellect damage (ignores Armor) on a
+failed Intellect defense task.
+In areas with ambient sound, these automatons
+require no sustenance and operate indefinitely. But
+in completely soundless areas, such as the void
+beyond the sky, they collapse and can be restored to
+function only when exposed to sound.
+Interaction: Cyclic raiders enact a bizarre agenda. They
+ambush, incapacitate, and somehow transport
+humans to another world in the void of space for an
+unknown purpose. They speak several languages,
+which seem to be composed of voice recordings of
+various humans sewn together to make complete
+new sentences.
+Use: The PCs arrive to consult with someone who has
+information or an item they want, but that person is
+being attacked by cyclic raiders.
+Loot: A fallen cyclic raider can be salvaged for a couple
+of cyphers. Any group of raiders will probably have
+one Melu box.
+
+> GM Intrusion: A defeated cyclic raider goes through sudden convulsions, its limbs shifting and locking into strange shapes as a second raider leaps on it. They both snap together to create a much larger level 7 creature.
+
+MELU BOX (ARTIFACT)
+Level: 1d6 + 3
+Form: Small silver box
+Effect: When activated, every living
+creature in short range that can
+hear must succeed on an Intellect
+defense task or fall unconscious.
+Unconscious creatures can attempt
+an Intellect task each round to rouse
+themselves.
+Depletion: 1 in 1d10
+
+## NULL-CAT 7 (21)
+The null-cat is a quadruped predator, approximately 1,000 pounds (450 kg) in weight and a
+deep grey in color. When not moving, the null-cat’s crystalline fur seems to make it vanish
+into its natural surroundings. Its face is a star-shaped slit filled with motile teeth, flanked by
+five eyes laid out in a circle around the front of its head.
+Null-cats are drawn to and drain items that use stored energy, though they supplement
+their energy requirement with the flesh of living prey. They kill, drag off, and store their
+victims, burying them to feed later.
+Motive: Hungers for energy and flesh
+Environment: Anywhere empty or on the fringes of civilization
+Health: 42
+Damage Inflicted: 7 points
+Movement: Long; short when climbing
+Modifications: Stealth and hiding as level 9; Speed defense as level 6 due to size.
+Combat: A null-cat relies on its energy-draining field during combat. All characters within
+immediate range who have an artifact must roll normally for depletion each round.
+Anyone who is attacked by the null-cat and suffers damage “burns out” a cypher in their
+possession (if any) on a failed Intellect defense
+task. The null-cat gains 5 points of health
+for each artifact charge and cypher it
+consumes in this fashion.
+Simultaneously with its energy-draining
+effect, a null-cat can bite a target,
+inflicting 7 points of damage.
+The null-cat stalks victims passing through
+its territory, preferring to wait until night
+to attack. If possible, it waits to attack
+sleeping victims.
+Interaction: Null-cats are clever predators
+but ultimately have the intelligence of
+animals.
+Use: A group of Aeon Priests is
+surrounded by a small pack of nullcats and can’t hold out much longer.
+Loot: Null-cats drag off and bury their
+prey in small graves. If a PC can
+locate a null-cat’s pit, it is often filled
+with equipment and gear of victims,
+though the cyphers are burned out
+and the artifacts are dead.
+
+> GM Intrusion: A null-cat leaps out into the middle of a group of adventurers, distracting them. Meanwhile, two other null-cats circle around behind the group.
+
+## PUPPET TREE 8 (24)
+A puppet tree is a 25-foot (8 m) tall, spiky, orange and blue tree surrounded by a large area
+of red reeds that tremble and wave enticingly even when no wind is present. Humanoid
+figures are often gathered around it, but these rotted, overgrown corpses are the tree’s
+victims, dead but serving as fleshy puppets to the tree’s will.
+Victims drained of knowledge and life are used as lures to draw in yet more victims, at
+least until the bodies rot away. When not used as lures, the corpse puppets are set to the
+task of using bits of the numenera to build or further modify an inexplicable machine set at
+the tree’s base.
+Motive: Hungers for fresh bodies
+Environment: On hilltops, isolated from other plant life
+Health: 33
+Damage Inflicted: 10 points
+Armor: 3
+Movement: None
+Modifications: Speed defense as level 5 due to size and immobility; deception and disguise
+(puppeteering corpses to act in a lifelike manner) as level 6.
+Combat: Some of the red reeds surrounding a puppet tree end in a hard, sharp crystal
+spike. When a living creature comes within short range of the tree, the reeds rise behind
+the target and try to skewer them through the head or neck with the spike. If a target is
+killed by these attacks, the puppet tree controls the body as
+a corpse puppet, using it to enact its plans. Over time
+these humanoids rot and are overgrown by the biology
+of the plant, losing utility for the tree.
+Most trees have about five corpse puppets active, which
+can be simultaneously animated to attack foes.
+A puppet tree is vulnerable to fire. All fire attacks
+against the tree inflict 2 additional
+points of damage and ignore
+Armor. The puppet tree will
+always attempt to stop a fire,
+or target the source of flame
+during combat.
+Interaction: Puppet trees are highly
+intelligent, but malevolent. Even if
+communication can be opened via telepathy or
+some other means, the tree will always attempt
+to double-cross the PCs.
+Use: An agent of the Convergence, hoping to watch
+a puppet tree in action, lures the PCs to one
+and waits while they approach to talk with his
+“friend”—one of the long-dead corpse puppets.
+Loot: Possessions of former victims can be found
+in the red reeds, usually including
+4d10 shins and various bits of
+gear. The cyphers, artifacts, and
+oddities of victims are collected by
+the corpse puppets and cobbled
+together into a strange
+device. It is always the same
+machine, but its purpose is
+inexplicable.
