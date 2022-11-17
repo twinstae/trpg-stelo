@@ -18,9 +18,9 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 	const [activeId, setActiveId] = useState<string>('');
 	useEffect(() => {
 		const getItemOffsets = () => {
-			const titles = document.querySelectorAll('article :is(h2, h3, h4)');
-			const base = titles[1]?.getBoundingClientRect().top || 0
-			itemOffsets.current = Array.from(titles).slice(1).map((title) => ({
+			const titles = document.querySelectorAll('article :is(h1, h2, h3, h4)');
+			const base = titles[0]?.getBoundingClientRect().top || 0
+			itemOffsets.current = Array.from(titles).slice(2).map((title) => ({
 				id: title.id,
 				text: title.textContent ?? '',
 				topOffset: title.getBoundingClientRect().top - base,
