@@ -5,214 +5,88 @@ layout: ../../../layouts/MainLayout.astro
 createdAt: "2022-11-17T07:31:02.290Z"
 ---
 
-## CHARACTER DESCRIPTOR, TYPE, AND FOCUS
-Each character has a simple statement that describes them, like: “I am a [adjective here] [noun here] who [verb here].” For example, Naveed is a Heroic Glaive who Thunders and Lobin is a Clever Nano who Focuses Mind Over Matter. In this sentence, the adjective is called your descriptor.
+## 캐릭터 수식어, 유형, 특징
 
-The noun is your character type.
+각 캐릭터는 자신을 묘사하는 간단한 문구를 가지고 있는데 다음과 같습니다. "나는 [형용사]한 [명사]이며 [동사]한다." 예를 들어 나비드는 용감한 글레이브이며 번개를 부른다든가 로빈은 영리한 나노이며 정신으로 물질을 조종한다는 식입니다. 이 문장에서
 
-The verb is called your focus.
+형용사는 *수식어*(descriptor)라 합니다.
 
-In some games, character type might be called your character class. It’s the noun of the sentence “I am an adjective noun who verbs.” You can choose from six character types: Arkus, Delve, Glaive, Jack, Nano, and Wright.
+명사는 캐릭터의 *유형*(type)입니다.
 
-Your descriptor places your character in the situation and helps provide motivation. It’s the adjective of the sentence “I am an adjective noun who verbs.”
+동사는 *특징*(focus)이라 합니다.
 
-Focus is what your character does best. It’s the verb of the sentence “I am an adjective noun who verbs.”
+어떤 게임에서는, 캐릭터 유형을 캐릭터의 클래스라 부를지도 모르겠습니다. 이는 문장 "나는 형용사한 명사이며 동사한다"에서 명사에 해당합니다. 여러분은 여섯 가지 캐릭터 유형 중에 하나를 고를 수 있습니다: 아르쿠스(Arkus), 델브(Delve), 글레이브(Glave), 잭(Jack), 나노(Nano), 그리고 라이트(Wright)입니다.
 
-## CHARACTER STATS
-Every character has three defining characteristics, called “statistics” or “stats.” Might, Speed, and Intellect.
+수식어는 특정한 상황 속에 캐릭터를 위치하게 해주고, 동기를 제공하도록 돕습니다. "나는 형용사한 명사이며 동사한다"라는 문장에서 형용사에 해당합니다.
 
-Might: The concepts of strength, endurance, constitution, hardiness, and physical prowess are all folded into Might. Might governs actions from forcing doors open to resisting disease. It’s also the primary means of determining how much damage your character can sustain. Characters interested in fighting focus on Might.
+특징은 당신의 캐릭터가 가장 잘하는 것입니다. 이는 "나는 형용사한 명사이며 동사한다"라는 문장에서 동사에 해당합니다.
 
-Speed: Speed embodies quickness, movement, dexterity, and reflexes. Speed governs dodging attacks, sneaking around, or throwing a ball accurately. Nimble, fast, or sneaky characters have good Speed stats.
+## 캐릭터 특성
+모든 캐릭터는 3가지 구분되는 *"특성치"*(statistics), 혹은 "특성"(stats)을 가지고 있습니다. *힘, 속력, 지성*입니다.
 
-Intellect: Intellect encompasses intelligence, wisdom, charisma, education, reasoning, wit, willpower, and charm. Intellect governs solving puzzles, remembering facts, telling convincing lies, and using mental powers. Characters good at communicating effectively or wielding the numenera stress their Intellect stat.
+**힘 Might:** 근력, 지구력, 끈질김, 강인함, 체력, 물리적 힘은 모두 힘 역량으로 수렴합니다. 힘은 문을 억지로 여는 것부터 음식 없이 며칠 동안 걷거나, 질병에 저항하는 것까지 관할합니다. 이는 또한 위험한 상황에서 어느 정도 피해를 견딜 수 있는지 결정하는 주된 요인입니다. 몸을 쓰는 캐릭터나 끈질긴(tough) 캐릭터, 그리고 싸움에 흥미가 있는 캐릭터는 힘에 집중해야 합니다.
 
-## POOL, EDGE, AND EFFORT
-Each of these stats has two components: Pool and Edge. Your Pool is raw ability, and your Edge represents knowing how to use what you have. A third element ties into this concept: Effort. When your character really needs to accomplish a task, apply Effort.
+**속력 Speed:** 속력은 캐릭터가 얼마나 빠르고 물리적 균형 감각이 좋은지, 빠름, 움직임, 손재주, 반사신경을 포함합니다. 속력은 공격을 피하거나, 조용히 숨어서 걷거나, 공을 정확하게 던지는 것과 같은 다양한 행동을 관할합니다. 이는 차례에 더 멀리 움직일 수 있는지도 결정합니다. 날쌔고, 빠르거나, 음밀한 캐릭터라면 속력 특성을 원할 것이며, 원거리 전투에 관심 있는 경우도 마찬가지입니다.
 
-### POOL
-A Pool is the most basic measurement of a stat.
-Comparing the Pools of two creatures gives a
-general sense of which is superior. For example,
-Naveed has a Might Pool of 16, and thus is
-stronger than Chaury, who has a Might Pool of
-12. Most average characters have a Pool of 9 to
-12 in most stats.
-When your character is injured, sickened,
-or attacked, you temporarily lose points from
-one of your stat Pools. The nature of the attack
-determines which Pool loses points. Physical
-damage from a sword reduces your Might Pool,
-a poison that makes you clumsy reduces your
-Speed Pool, and a psionic blast reduces your
-Intellect Pool. You can rest to regain lost points
-from a stat Pool (see Recovering Points in a
-Pool, page 28).
+**지성 Intellect:** 지성은 지능, 지혜, 카리스마, 교육, 추론, 재치, 의지력, 그리고 매력을 포함합니다. 지성은 퍼즐을 풀거나, 사실을 기억하거나, 믿을만한 거짓말을 하거나, 정신력을 쓰는 것을 관할합니다. 효과적으로 소통하거나, 누메네라를 잘 사용하고 싶다면 지성 특성을 강조하는 게 좋습니다.
 
-### EDGE
-Pool is the basic measurement of a stat, but
-Edge is also important. When something
-requires you to spend points from a stat Pool,
-Edge reduces the cost. It also reduces the cost of
-applying Effort to a roll.
-For example, Lobin wants to use the
-Onslaught ability, which costs 1 point from his
-Intellect Pool. Subtract his 1 Intellect Edge from
-the activation cost, and the result is how many
-points he must spend. Since the result is 0, the
-ability is free.
 
-### EFFORT
-When your character really needs to accomplish
-a task, apply Effort. Applying Effort requires
-spending 3 points from the stat Pool appropriate
-to the action. Thus, if your character tries to
-dodge (a Speed roll) and wants to increase
-the chance for success, you can apply Effort by
-spending 3 points from your Speed Pool. The
-game master determines the difficulty of the task
-(1 to 10). Effort lowers the difficulty of the task by
-one step. This is called easing the difficulty. So,
-if the difficulty is 5, using Effort makes it 4. This
-must be done before you attempt a roll.
-Every character has an Effort score, which
-indicates the maximum number of levels of
-Effort that can be applied.
-When you apply Effort, subtract your relevant
-Edge from the total cost of applying Effort. For
-example, let’s say you need to make a Speed roll.
-You apply one level of Effort, which will ease the
-task by one step. Normally, that would cost 3 points
-from your Speed Pool. However, you have a Speed
-Edge of 1, so you subtract that from the cost. So, it
-only costs 2 points from your Speed Pool.
-Skills, equipment and special abilities can
-ease a task and can be used in conjunction with
-Effort.
+## 역량, 재능, 분발
 
-### EFFORT AND DAMAGE
-Instead of applying Effort to ease your attack,
-you can apply Effort to increase the amount of
-damage you inflict for any kind of attack. For
-each level of Effort, you inflict 3 additional points
-of damage.
-When using Effort to increase the damage of
-an area attack, such as the explosion created by a
-detonation cypher, you inflict 2 additional points
-of damage instead of 3 points. But those points
-are dealt to all targets in the area. Even if one or
-more of the targets in the area resists, you still
-inflict 1 point of damage to them.
+세 가지 각 특성치는 두 가지 요소를 가지고 있습니다: 역량(Pool)과 재능(Edge)입니다. 역량은 날 것의, 내적인 능력을 나타내며, 재능은 당신이 가진 것을 어떻게 쓸지 아는 걸 나타냅니다. 세 번째 요소는 다음 개념과 연관이 있습니다: 분발(Effort). 캐릭터가 정말로 일을 해내야만 할 때, 분발을 합니다.
 
-## SKILLS (AND INABILITIES)
-Your character has training in a handful of specific
-skills. For example, you might be trained in sneaking,
-climbing and jumping, or social interactions. A
-character’s level of skill is either trained (reasonably
-skilled) or specialized (very skilled).
-If you are trained in a skill relating to a task,
-ease that task by one step. If you are specialized,
-ease it by two steps. A skill can never ease a task
-by more than two steps, but you can use a skill
-and Effort together.
-You can always attempt any action—you do
-not need a related skill. In other words, having
-training in climbing doesn’t let you climb, it just
-makes you good at it. Anyone can still try to climb.
-Some characters have inabilities. If a character
-has an inability in a task, the difficulty of that task
-is one step more difficult for that character. This
-is called hindering a task.
+### 역량
+역량은 특성치를 측정하는 가장 기본적인 단위입니다. 두 생물의 역량을 비교한다면 그 특성치에서 어떤 생물이 더 우위에 있는지 전반적으로 감을 잡을 수 있을 겁니다. 예를 들어 한 캐릭터의 힘 역량이 16이라면 힘 역량이 12인 캐릭터보다 (전반적으로는) 더 강합니다. 대부분의 캐릭터는 각 특성치마다 평균적으로 9에서 12 사이의 역량을 가지고 시작합니다.
 
-## SPECIAL ABILITIES
-Character types and foci grant PCs special
-abilities. Using these abilities usually
-costs points from your stat Pools (listed in
-parentheses after the ability name). Your Edge
-in the appropriate stat can reduce the cost, but
-you can only apply Edge once per action. For
-example, let’s say a Nano with an Intellect Edge
-of 2 wants to use their Onslaught ability, which
-costs 1 Intellect point. They also want to increase
-the damage by using a level of Effort, which costs
-3 Intellect points. The total cost for the action is
-2 points from their Intellect Pool (1 point for the
-Onslaught plus 3 points for using Effort minus 2
-points from their Edge).
-Sometimes the point cost for an ability has
-a + sign after the number. That means you can
-spend more points or more levels of Effort to
-improve the ability.
-Many special abilities grant a character the
-option of performing an action that they couldn’t
-normally do, such as projecting rays of cold or
-attacking multiple foes at once. Using one of these
-abilities is an action unto itself, and the end of the
-ability’s description says “Action” to remind you.
-Some special abilities allow you to perform a
-familiar action—one that you can already do—in
-a different way. For example, an ability might
-let you wear heavy armor or add 2 points of fire
-damage to your weapon damage. These are
-called enablers. Using one of these abilities is not
-considered an action. Enablers either function
-constantly (such as being able to wear heavy
-armor) or happen as part of another action (such
-as adding fire damage to your weapon damage,
-which happens as part of your attack). If a special
-ability is an enabler, the end of the ability’s
-description says “Enabler” to remind you.
+여러분의 캐릭터가 다치거나, 아프거나, 공격을 받거나 하면, 일시적으로 특성치의 역량 중 하나에서 점수를 잃습니다. 어떤 영량을 잃는지는 공격의 특성에 따라 정해집니다. 예를 들어, 검으로 물리적 피해를 입었다면 힘 역량을 떨어트리고, 캐릭터를 위축시키는 독은 속력 역량을 떨어트리고, 사이오닉 블래스트는 지성 역량을 떨어트립니다. 쉬면 특성치 역량에서 잃은 점수를 회복할 수 있습니다. (잃어버린 역량 회복하기 를 읽어보세요.)
 
-## CYPHERS AND ODDITIES
-Cyphers are a type of numenera that have a
-single use. They might allow you to fly or become
-temporarily invisible. You can’t bear many
-cyphers at a time because these weird items
-emit radiation or dangerous chemicals that don’t
-mix well. Thus, each character has a cypher limit
-indicating how many cyphers they can carry.
-You can use your cyphers to activate their
-abilities as your action, just as you would a
-special ability. The only difference is, once you’ve
-used a cypher, it’s gone.
-Characters will find new cyphers frequently
-during the game, so players shouldn’t hesitate to
-use their cypher abilities.
-Oddities are numenera devices that don’t have
-much (apparent) practical purpose. They aren’t
-weapons or tools or wondrous things that grant
-powers. But they at least have some barter value
-if you need to do some trading.
+### 재능
 
-## ARTIFACTS
-Artifacts are technological devices like cyphers,
-but you can use them more than once. They
-also have a rate of power depletion, like “1 in
-1d10.” When an artifact is used or activated,
-the player rolls the designated die (1d6, 1d10,
-1d20, or 1d100). If the die shows the depletion
-number(s), the item works, but that is its last
-use. A depletion entry of “—” means that
-the artifact never depletes, and an entry of
-“automatic” means that it can be used only
-once.
+비록 역량이 특성치의 기본 단위이긴 하지만, 재능 역시 중요합니다. 무언가 특성치 역량에서 점수를 소비하길 요구할 때, 그 특성치의 재능은 비용을 낮춰줍니다. 이는 굴림에 분발을 할 때 드는 비용도 낮춥니다.
 
-## EQUIPMENT AND SHINS
-Each character has normal equipment they can
-use, including backpacks, ropes, torches, and so
-on. In the Ninth World, a few special items are
-considered equipment as well. These include
-glowglobes and even stranger things, but if need
-be, such things are explained on your character
-sheet.
-Shins are currency in the Ninth World—or
-the closest thing they have to currency. Shins
-represent a common unit of barter. When coins
-are needed, shins take the form of various
-bits and parts of numenera devices, usually
-scavenged from large machines—buttons, gears,
-or diodes.
-A shin is enough to buy a hefty drink or a light
-meal. It will get you a bed to sleep in for a night,
-or allow you to buy a small, simple object like a
-knife.
+예를 들어 정신 블래스트 능력이 있는데, 이를 발동시키려면 지성 역량에서 1점을 소비해야 한다고 합시다. 비용에서 지성 역량을 빼고, 그 결과가 정신 블래스트를 사용하는데 써야 하는 점수가 됩니다. 만약에 재능이 비용을 0으로 낮춘다면, 그 능력을 공짜로 쓸 수 있습니다.
+
+### 분발
+여러분의 캐릭터가 정말 해내야 하는 일이 있을 때, 분발을 할 수 있습니다. 시작하는 캐릭터에게는, 분발하려면 그 행동에 적절한 특성치 역량에서 3점을 써야 합니다. 그래서, 공격을 피하려 한다면(속력 굴림) 그리고 성공할 확률을 높이고 싶다면, 속력 역량에서 3점을 써서 분발을 할 수 있습니다. 게임 마스터는 일의 난이도를 정합니다. (1에서 10까지) 분발은 일의 난이도를 한 단계 낮춥니다. 이를 한 단계 분발을 한다고 부릅니다. 그래서 난이도가 4였다면, 분발은 난이도를 4로 만듭니다. 분발을 하려면 주사위를 굴리기 전에 해야 합니다.
+
+모든 캐릭터는 분발 점수가 있는데, 이는 분발을 최대 몇 단계까지 할 수 있는지를 나타냅니다.
+
+분발을 할 때, 관련된 재능을 분발의 전체 비용에서 뺍니다. 예를 들어 속력 굴림을 해야 한다고 합시다. 한 단계 분발을 해서 일의 난이도를 한 단계 낮춥니다. 보통은, 이는 속력 역량에서 3점의 비용이 듭니다. 하지만 속력 재능이 1점 있다면, 그 비용에서 재능 만큼을 뺍니다. 그래서, 속력 역량에서 2점의 비용만 필요합니다. 기능, 장비 그리고 특수 능력은 분발과 함께 일의 난이도를 낮추는데 사용할 수 있습니다.
+
+### 분발과 피해
+분발해서 공격의 난이도를 낮추는 대신, 분발으로 어떤 종류의 공격이라도 가하는 피해의 양을 증가시킬 수 있습니다. 분발하는 각 단계마다, 3점의 피해를 추가로 가합니다.
+
+폭발 사이퍼 등으로 만들어진 폭발 등으로 인한 범위 공격의 피해를 증가 시키기 위해서 분발을 쓰는 경우, 3점 대신 2점의 피해를 추가로 가합니다. 대신 이 추가 피해는 범위에 있는 모든 대상에게 가해집니다. 그 영역의 하나 혹은 그 이상의 대상이 저항하더라도, 여전히 1점의 피해를 가합니다.
+
+## 기능 (그리고 무능)
+캐릭터는 한 줌의 특정한 기능들에 익숙합니다. 예를 들어 잠입, 등반 그리고 도액 혹은 사회적 상호작용에 익숙할 수 있습니다. 기능의 수준은 익숙하거나 능숙하거나 둘 중 하나입니다.
+
+만약 일과 관련된 기능에 익숙하다면 일의 난이도를 한 단계 낮춥니다. 만약에 능숙하다면 두 단계 낮춥니다. 기능은 일의 난이도를 두 단계보다 많이 낮출 수 없지만, 분발이랑 같이 쓸 수는 있습니다.
+
+기능이 필요하지 않은 일은 무엇이라도 시도할 수 있습니다. 다르게 말하면 등반에 익숙하다는 건 등반을 할 수 있게 해주는 게 아니라, 더 잘하게 해주는 것입니다. 누구라도 여전히 등반을 시도할 수 있습니다. 어떤 캐릭터들은 무능이 있습니다. 만약 캐릭터가 어떤 일에 무능하다면, 그 일의 난이도는 그 캐릭터에게만 한 단계 더 어려워집니다. 이는 일을 방해한다고 부릅니다.
+
+## 특수 능력
+캐릭터 유형과 특징은 PC들에게 특수 능력을 줍니다. 이런 능력을 사용하는데는 보통 특성 역량에서 점수를 비용으로 써야 합니다. (이는 능력의 이름 뒤의 괄호 안에 적혀 있습니다.) 적절한 특성에 재능은 비용을 낮춰주지만, 행동마다 재능을 한 번만 쓸 수 있습니다. 예를 들어 지성 재능이 2점 있는 나노가 지성 1점이 비용인 쇄도 능력을 사용하고 싶다고 해봅시다. 동시에 비용으로 지성 3점이 필요한 한 단계 분발을 해서 피해를 증가시키고 싶다고 해봅시다. 이 행동의 총 비용은 지성 역량 2점입니다. (쇄도의 1점에 분발의 3점을 더하고 재능에서 2점을 뺀 것입니다.)
+
+가끔 능력의 비용 점수에 숫자 뒤에 + 기호가 있을 때가 있습니다. 이는 능력을 향상 시키기 위해서 분발로 더 많은 점수를 쓸 수 있다는 뜻입니다.
+
+많은 특수 능력은 캐릭터에게 냉동 광선을 쏘거나 여러 적을 한 번에 공격하는 등 일반적으로는 할 수 없는 행동을 할 수 있는 선택지를 줍니다. 이런 능력을 하나 사용하는 것은 그 자체로 행동이며, 능력의 설명 끝에 "행동"이라고 적어서 다시 한 번 알려줍니다.
+
+어떤 특수 능력은 친숙한 행동을 -이미 할 줄 아는- 행동을 다른 방시긍로 하게 해줍니다. 예를 들어 한 능력은 무거운 갑옷을 입을 수 있게 해주거나, 무기 피해에 2점의 불 피해를 더해줍니다. 이를 강화(enabler)라고 부릅니다. 이런 능력 중에 하나를 쓰는 건 행동으로 치지 않습니다. 강화는 지속적으로 작용하기도 하고 (무거운 갑옷을 입을 수 있는 것 같은) 다른 행동의 일부로 치기도 합니다. (무기 피해에 불 피해를 더하는 건 공격의 일부로 일어납니다) 만약 특수 능력이 강화라면, 능력 설명의 끝에 "강화"라고 적어서 다시 한 번 알려줍니다.
+
+## 사이퍼와 신기품
+사이퍼는 일회용 누메네라 입니다. 사이퍼를 쓰면 하늘을 날거나, 잠시 동안 보이지 않게 되는 것 같은 일이 가능합니다. 동시에 여러 사이퍼를 들고 다닐 수는 없는데 이 기이한 물건들은 방사선이나 잘 섞이지 않는 위험한 화학 물질을 내뿜습니다. 그래서, 각 캐릭터는 사이퍼 제한이 있고 이는 가지고 다닐 수 있는 사이퍼의 개수를 나타냅니다. 사이퍼를 사용해서 능력을 발동시키려면, 특수 능력을 쓸 때와 마찬가지로 행동을 하나 써야 합니다. 유일한 차이점은, 사이퍼는 한 번 사용하면, 사라진다는 겁니다.
+
+캐릭터는 게임 도중에 사이퍼를 자주 발견하기 때문에 사이퍼 능력을 쓸지 말지 망설이지 않아도 됩니다.
+
+신기품은 (뻔한) 실용적 쓸모는 없는 누메네라 장치입니다. 무기나 도구 혹은 놀라운 힘을 주는 물건은 아닙니다. 하지만 최소한 거래를 해야하는 상황에서 적어도 교환 가치는 있습니다.
+
+## 아티팩트
+아티팩트는 사이파 같은 기술적 장치이지만, 한 번 이상 사용할 수 있습니다. 소진 확률이 "1d10 에서 1이 나오면" 같은 식으로 주어집니다. 아티팩트를 사용하거나 작동시키면 플레이어는 소진 굴림을 합니다. (1d6, 1d10, 1d20 또는 1d100) 만약에 소진 숫자가 나오면, 아이템이 작동하긴 하지만, 그게 마지막일 것입니다. 만약에 소진에 "-" 처럼 비어 있으면, 소진되지 않는다는 뜻입니다. 그리고 "자동"은 딱 한 번만 쓸 수 있다는 뜻입니다.
+
+## 장비와 쉰
+각 캐릭터는 사용할 수 있는 가방, 밧줄, 횃불 등등과 같은 일반적인 장비를 가지고 있습니다. 제 9세계에서는, 몇몇 특수한 물건들도 장비로 취급됩니다. 이는 발광구나 더 신기한 것들을 포함하지만, 하지만 필요하다면, 그런 것들은 캐릭터 시트에 적혀 있을 겁니다.
+
+쉰은 제 9세계의 화폐 혹은 화폐에 가까운 무언가입니다. 쉰은 교환의 공통 단위입니다. 동전이 필요할 때, 쉰은 보통 거대한 기계에서 뜯어온 버튼이나, 톱니, 다이오드 같은 다양한 누메네라 기계 조각이나 부품의 모양을 하고 있을 때가 많습니다.
+
+쉰 하나로는 간단한 식사나 음료를 살 수 있습니다. 하룻밤을 보낼 잠자리나 칼 같은 단순한 물건을 살 수도 있을 겁니다.

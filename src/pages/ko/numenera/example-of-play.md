@@ -1,5 +1,5 @@
 ---
-title: 사이퍼 튜토리얼
+title: 누메네라 플레이의 예
 description: 글도 좋지만... 실제 맥락 속에서 사이퍼 시스템의 규칙을 배워봅니다.
 layout: ../../../layouts/MainLayout.astro
 createdAt: "2022-11-11T07:34:17.231Z"
