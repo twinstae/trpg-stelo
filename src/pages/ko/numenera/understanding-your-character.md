@@ -6,63 +6,29 @@ createdAt: "2022-11-17T07:31:02.290Z"
 ---
 
 ## CHARACTER DESCRIPTOR, TYPE, AND FOCUS
-Each character has a simple statement that
-describes them, like: “I am a [adjective here]
-[noun here] who [verb here].”
-For example, Naveed is a Heroic Glaive who
-Thunders and Lobin is a Clever Nano who
-Focuses Mind Over Matter.
-In this sentence, the adjective is called your
-descriptor.
+Each character has a simple statement that describes them, like: “I am a [adjective here] [noun here] who [verb here].” For example, Naveed is a Heroic Glaive who Thunders and Lobin is a Clever Nano who Focuses Mind Over Matter. In this sentence, the adjective is called your descriptor.
+
 The noun is your character type.
+
 The verb is called your focus.
-In some games, character type might be
-called your character class. It’s the noun of the
-sentence “I am an adjective noun who verbs.”
-You can choose from six character types: Arkus,
-Delve, Glaive, Jack, Nano, and Wright.
-Your descriptor places your character in the
-situation and helps provide motivation. It’s the
-adjective of the sentence “I am an adjective noun
-who verbs.”
-Focus is what your character does best. It’s the
-verb of the sentence “I am an adjective noun who
-verbs.”
+
+In some games, character type might be called your character class. It’s the noun of the sentence “I am an adjective noun who verbs.” You can choose from six character types: Arkus, Delve, Glaive, Jack, Nano, and Wright.
+
+Your descriptor places your character in the situation and helps provide motivation. It’s the adjective of the sentence “I am an adjective noun who verbs.”
+
+Focus is what your character does best. It’s the verb of the sentence “I am an adjective noun who verbs.”
 
 ## CHARACTER STATS
-Every character has three defining characteris
+Every character has three defining characteristics, called “statistics” or “stats.” Might, Speed, and Intellect.
 
-tics, called
-“statistics” or “stats.” Might, Speed, and Intellect.
-Might: The concepts of strength, endurance,
-constitution, hardiness, and physical prowess
-are all folded into Might.
-Might governs actions from forcing doors
-open to resisting disease. It’s also the primary
-means of determining how much damage your
-character can sustain. Characters interested in
-fighting focus on Might.
-Speed: Speed embodies quickness, movement,
-dexterity, and reflexes. Speed governs dodging
-attacks, sneaking around, or throwing a ball
-accurately. Nimble, fast, or sneaky characters
-have good Speed stats.
+Might: The concepts of strength, endurance, constitution, hardiness, and physical prowess are all folded into Might. Might governs actions from forcing doors open to resisting disease. It’s also the primary means of determining how much damage your character can sustain. Characters interested in fighting focus on Might.
 
-Intellect: Intellect encompasses intelligence,
-wisdom, charisma, education, reasoning, wit,
-willpower, and charm. Intellect governs solving
-puzzles, remembering facts, telling convincing
-lies, and using mental powers. Characters good
-at communicating effectively or wielding the
-numenera stress their Intellect stat.
+Speed: Speed embodies quickness, movement, dexterity, and reflexes. Speed governs dodging attacks, sneaking around, or throwing a ball accurately. Nimble, fast, or sneaky characters have good Speed stats.
+
+Intellect: Intellect encompasses intelligence, wisdom, charisma, education, reasoning, wit, willpower, and charm. Intellect governs solving puzzles, remembering facts, telling convincing lies, and using mental powers. Characters good at communicating effectively or wielding the numenera stress their Intellect stat.
 
 ## POOL, EDGE, AND EFFORT
-Each of these stats has two components: Pool
-and Edge. Your Pool is raw ability, and your Edge
-represents knowing how to use what you have. A
-third element ties into this concept: Effort. When
-your character really needs to accomplish a task,
-apply Effort.
+Each of these stats has two components: Pool and Edge. Your Pool is raw ability, and your Edge represents knowing how to use what you have. A third element ties into this concept: Effort. When your character really needs to accomplish a task, apply Effort.
 
 ### POOL
 A Pool is the most basic measurement of a stat.

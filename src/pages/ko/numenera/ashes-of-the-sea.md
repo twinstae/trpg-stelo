@@ -218,7 +218,7 @@ table
 The valley pylons are powerful numenera
 devices that maintain the valley’s temperature
 and weather, and discourage large creatures
-(such as blacktusks) from entering the valley.
+(such as [blacktusks](/ko/numenera/mini-bestiary#검은-엄니-black-tusk-4-12)) from entering the valley.
 When necessary, they automatically create a
 short-term force field dome to shelter the valley
 from large threats like meteors, avalanches, and
@@ -548,7 +548,7 @@ reduces this time by about 3 hours.
 • Meat and Hides: The valley provides all
 the food the villagers need, but people still
 have a taste for exotic foods, especially for
-celebrations. Packs of blacktusks sometimes
+celebrations. Packs of [blacktusks](/ko/numenera/mini-bestiary#검은-엄니-black-tusk-4-12) sometimes
 roam outside the pylons. Blacktusk fur is very
 warm, and the villagers have a special recipe
 for blacktusk steaks. The PCs would need to

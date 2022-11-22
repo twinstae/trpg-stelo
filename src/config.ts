@@ -51,14 +51,14 @@ export const SIDEBAR: Sidebar = {
 			{ text: '장르', link: '/genres' },
 			{ text: '생물', link: '/creatures' },
 			{ text: '사이퍼', link: '/cyphers' },
-			{ text: '사이퍼 시스템을 운영하는 법', link: '/running-the-cypher-system' },
+			{ text: '사이퍼 시스템을 운영하는 법', link: '/running-the-cypher-system' }
 		]),
 		Topic('누메네라', '/numenera', [
 			{ text: '바다의 재: 퀵스타트', link: '/ashes-of-the-sea' },
 			{ text: '작은 박물지', link: '/mini-bestiary' },
 			{ text: '캐릭터 이해하기', link: '/understanding-your-character' },
 			{ text: '누메네라를 플레이하는 법', link: '/how-to-play-numenera' },
-			
+			{ text: '플레이의 예', link: '/example-of-play' },			
 			// { text: '사냥하는 소리의 첨탑: 퀵스타트', link: '/the-spire-of-the-hunting-sound' },
 		// 	{ text: '지도', link: '/introduction' },
 		// 	{ text: '조화: 확장 규칙', link: '/harmony' },

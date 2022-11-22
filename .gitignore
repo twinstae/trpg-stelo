@@ -19,3 +19,5 @@ pnpm-debug.log*
 .DS_Store
 .yarn
 crawler
+
+src/pages/ko/numenera/tales-from-ninth-worlds.md

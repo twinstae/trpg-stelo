@@ -105,7 +105,7 @@ An asset is anything that helps a character with a task, such as having a really
 
 (The important thing to remember is that a skill can reduce the difficulty by no more than two steps, and assets can reduce the difficulty by no more than two steps, regardless of the situation. Thus, no task’s difficulty will ever be reduced by more than four steps without using Effort.)
 
-## EFFORT
+## 분발 Effort
 
 A player can apply Effort to ease a task. To do this, the player spends points from the stat Pool that’s most appropriate to the task. For example, applying Effort to push a heavy rock off a cliff requires a player to spend points from the character’s Might Pool; applying Effort to activate an unusual machine interface requires them to spend points from the character’s Intellect Pool. For every level of Effort spent on a task, the task is eased. It costs 3 points from a stat Pool to apply one level of Effort, and it costs 2 additional points for every level thereafter (so it costs 5 points for two levels of Effort, 7 points for three levels of Effort, and so on). A character must spend points from the same stat Pool as the type of task or roll—Might points for a Might roll, Speed points for a Speed roll, or Intellect points for an Intellect roll.
 
@@ -131,7 +131,7 @@ In the Cypher System, players always drive the action. That means they make all 
 As shown by the last two examples, the PC rolls whether they are attacking or defending. Thus, something that improves defenses might ease or hinder their rolls. For example, if a PC uses a low wall to gain cover from attacks, the wall eases the player’s defense rolls. If a foe uses the wall to gain cover from the PC’s attacks, it hinders the player’s attack rolls.
 
 
-## SPECIAL ROLLS
+## 특수 효과 SPECIAL ROLLS
 
 If a character rolls a natural 1, 17, 18, 19, or 20 (meaning the d20 shows that number), special rules come into play. These are explained in more detail in the following sections.
 

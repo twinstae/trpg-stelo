@@ -34,21 +34,23 @@ publish: false
 (특성치 역량은, 분발과 재능과 마찬가지로, 여러분이 고른 캐릭터 유형과 수식어, 특징에 따라 정해집니다. 이 지침 안에는, 하지만, 여러분의 캐릭터를 발전시켜 나가는데 유연한 여지도 많이 남겨두었습니다.)
 
 ### 역량
-Your Pool is the most basic measurement of a stat. Comparing the Pools of two creatures will give you a general sense of which creature is superior in that stat. For example, a character who has a Might Pool of 16 is stronger (in a basic sense) than a character who has a Might Pool of 12. Most characters start with a Pool of 9 to 12 in most stats—that’s the average range.
+역량은 특성치를 측정하는 가장 기본적인 단위입니다. 두 생물의 역량을 비교한다면 그 특성치에서 어떤 생물이 더 우위에 있는지 전반적으로 감을 잡을 수 있을 겁니다. 예를 들어 한 캐릭터의 힘 역량이 16이라면 힘 역량이 12인 캐릭터보다 (전반적으로는) 더 강합니다. 대부분의 캐릭터는 각 특성치마다 평균적으로 9에서 12 사이의 역량을 가지고 시작합니다.
 
-When your character is injured, sickened, or attacked, you temporarily lose points from one of your stat Pools. The nature of the attack determines which Pool loses points. For example, physical damage from a sword reduces your Might Pool, a poison that makes you clumsy reduces your Speed Pool, and a psionic blast reduces your Intellect Pool. You can also spend points from one of your stat Pools to decrease a task’s difficulty (see Effort, below). You can rest to recover lost points from a stat Pool, and some special abilities or cyphers might allow you to recover lost points quickly.
+여러분의 캐릭터가 다치거나, 아프거나, 공격을 받거나 하면, 일시적으로 특성치의 역량 중 하나에서 점수를 잃습니다. 예를 들어, 검으로 물리적 피해를 입었다면 힘 역량을 떨어트리고, 캐릭터를 위축시키는 독은 속력 역량을 떨어트리고, 사이오닉 블래스트는 지성 역량을 떨어트립니다. 또한 특성치 역량 중에 하나에서 점수를 써서 일의 난이도를 낮출 수도 있습니다. (아래에 있는 분발을 보십시오) 특성치 역량에서 잃은 점수를 회복하려면 쉴 수 있고, 몇몇 특수 능력이나 사이퍼는 잃어버린 점수를 빠르게 회복하게 해주기도 합니다.
 
 ### 재능
-Although your Pool is the basic measurement of a stat, your Edge is also important. When something requires you to spend points from a stat Pool, your Edge for that stat reduces the cost. It also reduces the cost of applying Effort to a roll.
 
-For example, let’s say you have a mental blast ability, and activating it costs 1 point from your Intellect Pool. Subtract your Intellect Edge from the activation cost, and the result is how many points you must spend to use the mental blast. If using your Edge reduces the cost to 0, you can use the ability for free.
+비록 역량이 특성치의 기본 단위이긴 하지만, 재능 역시 중요합니다. 무언가 특성치 역량에서 점수를 소비하길 요구할 때, 그 특성치의 재능은 비용을 낮춰줍니다. 이는 굴림에 분발을 할 때 드는 비용도 낮춥니다.
 
-Your Edge can be different for each stat. For example, you could have a Might Edge of 1, a Speed Edge of 1, and an Intellect Edge of 0. You’ll always have an Edge of at least 1 in one stat. Your Edge for a stat reduces the cost of spending points from that stat Pool, but not from other Pools. Your Might Edge reduces the cost of spending points from your Might Pool, but it doesn’t affect your Speed Pool or Intellect Pool. Once a stat’s Edge reaches 3, you can apply one level of Effort for free.
+예를 들어 정신 블래스트 능력이 있는데, 이를 발동시키려면 지성 역량에서 1점을 소비해야 한다고 합시다. 비용에서 지성 역량을 빼고, 그 결과가 정신 블래스트를 사용하는데 써야 하는 점수가 됩니다. 만약에 재능이 비용을 0으로 낮춘다면, 그 능력을 공짜로 쓸 수 있습니다.
 
-A character who has a low Might Pool but a high Might Edge has the potential to perform Might actions consistently better than a character who has a Might Edge of 0. The high Edge will let them reduce the cost of spending points from the Pool, which means they’ll have more points available to spend on applying Effort.
+재능은 특성치마다 다를 수 있습니다. 예를 들어 힘 재능을 1, 속력 재능도 1이고, 지성 재능은 0일 수 있습니다. 적어도 하나의 특성치에는 재능이 최소 1점은 항상 가지고 있을 겁니다. 특성치의 재능이 있다면 그 특성치 역량에서 점수를 쓰는 비용을 낮출 수 있지만, 다른 역량에서는 안 됩니다. 힘 재능은 힘 역량에서 점수를 쓰는 비용은 낮춰주지만, 속력이나 지성 역량에는 영향이 없습니다. 한 특성치의 재능이 3이 되면 1단계 분발을 공짜로 쓸 수 있습니다.
+
+한 캐릭터가 적은 힘 역량을 가지고 있지만 힘 재능은 높은 경우 힘 재능이 0인 캐릭터보다 힘 행동을 지속적으로 잘 해낼 것입니다. 높은 재능은 역량에서 사용하는 점수의 비용을 낮춰주고, 이는 분발을 하는데 쓸 점수를 더 많이 가지고 있다는 뜻이기 때문입니다.
 
 ### 분발
-When your character really needs to accomplish a task, you can apply Effort. For a beginning character, applying Effort requires spending 3 points from the stat Pool appropriate to the action. Thus, if your character tries to dodge an attack (a Speed roll) and wants to increase the chance for success, you can apply Effort by spending 3 points from your Speed Pool. Effort eases the task by one step. This is called applying one level of Effort.
+
+여러분의 캐릭터가 정말 해내야 하는 일이 있을 때, 분발을 할 수 있습니다. 시작하는 캐릭터에게는, 분발하려면 그 행동에 적절한 특성치 역량에서 3점을 써야 합니다. 그래서, 공격을 피하려 한다면(속력 굴림) 그리고 성공할 확률을 높이고 싶다면, 속력 역량에서 3점을 써서 분발을 할 수 있습니다. 분발은 일의 난이도를 한 단계 낮춥니다. 이를 한 단계 분발을 한다고 부릅니다.
 
 You don’t have to apply Effort if you don’t want to. If you choose to apply Effort to a task, you must do it before you attempt the roll—you can’t roll first and then decide to apply Effort if you rolled poorly.
 
@@ -152,8 +154,9 @@ Some abilities specify a duration, but you can always end one of your own abilit
 
 
 ## 기능(Skills)
-Sometimes your character gains training in a specific skill or task. For example, your focus might mean that you’re trained in sneaking, in climbing and jumping, or in social interactions. Other times, your character can choose a skill to become trained in, and you can pick a skill that relates to any task you think you might face.
-The Cypher System has no definitive list of skills. However, the following list offers ideas:
+이따금 캐릭터가 특정한 기능이나 일에 대한 훈련(training)을 받을 수 있습니다. 예를 들어 여러분이 고른 특징이 잠입, 등반이나 도약, 혹은 사회적 상호작용에 익숙(trained)하다는 뜻일 수 있습니다. 어떤 때에는 캐릭터가 익숙해지고 싶은 기능을 선택할 수 있는데, 여러분이 마주치게될 거라 생각하는 어떤 일이라도 연관된 기능을 고를 수 있습니다.
+
+사이퍼 시스템은 기능 목록을 한정하고 있진 않습니다. 하지만, 다음 목록에서 영감을 얻어보세요.
 
 |           |        |           |        |           |        |
 | --------- | ------ | --------- | ------ | --------- | ------ |
@@ -164,7 +167,8 @@ The Cypher System has no definitive list of skills. However, the following list 
 | 잠입      | 지리   | 지질학    | 천문학 | 철학      | 치유   |
 | 컴퓨터    | 타기   | 탈출      | 파일럿 | 판별      | 훔치기 |
 
-You could choose a skill that incorporates more than one of these areas (interacting might include deceiving, intimidation, and persuasion) or that is a more specific version of one (hiding might be sneaking when you’re not moving). You could also make up more general professional skills, such as baker, sailor, or lumberjack. If you want to choose a skill that’s not on this list, it’s probably best to run it past the GM first, but in general, the most important thing is to choose skills that are appropriate to your character.
+이런 영역 중에 한 가지 이상에 걸쳐있는 기능을 고를 수도 있고 (*사회적 상호작용*은 아마 *속임수*, *위협*, *설득*을 포함할 수 있습니다) 또는 더 구체적으로 할 수도 있습니다. (*숨기*는 아마 움직이지 않는 *잠입*이라 할 수도 있을 겁니다) 
+You could also make up more general professional skills, such as baker, sailor, or lumberjack. If you want to choose a skill that’s not on this list, it’s probably best to run it past the GM first, but in general, the most important thing is to choose skills that are appropriate to your character.
 
 Remember that if you gain a skill that you’re already trained in, you become specialized in that skill. Because skill descriptions can be nebulous, determining whether you’re trained or specialized might take some thinking. For example, if you’re trained in lying and later gain an ability that grants you skill with all social interactions, you become specialized in lying and trained in all other types of interactions. Being trained three times in a skill is no better than being trained twice (in other words, specialized is as good as it gets).
 
