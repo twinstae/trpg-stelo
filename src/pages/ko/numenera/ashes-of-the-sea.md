@@ -56,54 +56,22 @@ createdAt: "2022-11-17T07:31:02.290Z"
 ## 순간이동 사고
 PC들은 고대 문명의 알 수 없는 존재에게 버려진 기지를 탐험하고 있었습니다. 목표는 *누메네라*(numenera)-기계나 기계 부품으로 놀라운 효과를 만들어내는데 쓰일 수 있습니다-라고 부르는 유용한 기술을 찾는 것이었고, 적당히 성공적이어서, *사이퍼*(cyphers)라 부르는 유용한 물건들과(salvaging), *아이오툼*(iotum)이라 가치있는 기술들의 구성 성분, 사람들이 *쉰*(shins)이라고 부르며 돈으로 쓰는 신기하게 생긴 조각들도 찾아냈습니다. 그 뒤에 무슨 일이 벌어지는지는 플레이어들이 누메네라에 얼마나 익숙하고 경험이 있는지에 달려 있습니다.
 
-**New/Inexperienced Players:** If the players are new to Numenera, the GM should explain the gist of the setting, and then let the players have a few simple encounters in a prior-world ruin so they can learn how the system works (such as searching a big room for objects of the numenera, salvaging a broken numenera device for shins, and fighting a pair of [*감시자*](/ko/numenera/mini-bestiary#감시자-gazer-1-3) that activate to stop them from damaging anything). Once the players are comfortable with the game rules, have them find a sealed room that appears to have been untouched by previous explorers, let them activate the weird device they find in that room—or have it activate automatically— and teleport them to the start of the written part of this adventure (see “Arrival”).
+**새로운/경험이 없는 플레이어들:** 만약 플레이어들이 누메네라가 처음이거나, 마스터가 세팅의 일부를 설명해야겠다고 느낀다면, 플레이어들이 이전 세계의 폐허에서 간단한 장면을 몇 개 만들도록 해서, 시스템이 어떻게 작동하는지 배울 수 있게 해주세요. (큰 방에서 누메네라 물건들을 찾는다든가, 부서진 누메네라 기계에서 쉰을 찾는다든가, 유적을 파괴하는 걸 막기 위해 작동된 한 쌍의 [감시자 Gazer](/ko/numenera/mini-bestiary#감시자-gazer-1-3)들과 싸운다든가.) 플레이어들이 게임의 규칙이 편안하다고 느낄 쯤이면, 이전 탐험가들이 건드리지 않은 것처럼 보이는 봉인된 방을 찾게 하고, 그 방에서 찾은 수상한 기계를 작동시키게 하거나 - 아니면 자동으로 작동하게 해서- 이 시나리오에 쓰여진 부분의 시작으로 순간이동하게 하세요. (아래의 ["도착"](#도착)을 참고하세요.)
 
-**Experienced/Advanced Players:** If the players
-are familiar with Numenera, or the GM feels the
-players can handle jumping into a new world and
-system with both feet, the teleportation room
-can be part of the back story to the adventure,
-and play begins with the PCs arriving at the
-teleport destination
+**경험이 있는/숙련된 플레이어들:** 플레이어들이 누메네라에 친숙하거나, 마스터가 플레이어들이 새로운 세계와 시스템에 뛰어들어도 잘 해낼 수 있을 거라 느낀다면, 순간이동의 방은 시나리오에 뒷 이야기 중 한 부분으로 하고, PC들이 순간이동 목적지에 도착한 시점부터 플레이를 시작해도 됩니다.
 
 ## 도착
-After unsealing a room that hadn’t been looted
-by previous explorers, the PCs accidentally
-activate a machine that traps them in a force
-field bubble and bathes them in weird lights.
-The entire room vibrates with an increasing
-frequency, panels burst open and emit smoke,
-and finally there is a bright flash and the PCs are
-teleported somewhere…else.
-As the spots from the bright flash fade, and
-the sensation of being stretched impossibly
-thin ends with a snap, the PCs realize they are
-in a new location. Instead of the small, pristine,
-well-illuminated chamber they were just in, they
-are now in a hangar-like domed building of
+이전 탐험가들에의해 약탈되지 않았던 방을 열고 나면, PC들은 우연히 기계를 작동시키고, 역장 거품에 갇혀 기이한 빛을 맞게 됩니다. 온 방이 점점 더 높은 빈도로 진동하고, 패널이 터지고 연기를 내뿜으며, 마침내 큰 빛과 함께 PC들은 어딘가... 다른 곳으로 순간이동합니다.
 
-bronze-colored metal. It is cold, nearly freezing,
-and the only faint light comes from the large
-open doorway. A light layer of snow covers most
-of the floor, especially near the large doorway.
-Where the snow is absent, the PCs can see a
-series of unidentifiable symbols painted on the
-floor, marking the perimeter of a circle that takes
-up most of this room, its lines and dots heavily
-faded and scuffed. Metal panels have been pried
-loose from the walls, revealing wires, cables, and
-evidence that anything interesting or valuable
-was looted from this place long ago.
-There are no resources in this location that the
-PCs can make use of—if they want to survive,
-they need to find food, shelter, and weatherappropriate clothing. If they search the building,
-all they find is a few pieces of useless metal or
-synth debris (the equivalent of a few screws,
-twist-ties, and so on) and a lot of snow. A cold
-wind blows, and a layer of snow over the ground
-makes this place look stark and unwelcoming.
+번쩍이는 빛이 옅어지면서, 누군가 PC들을 확 잡아채서 불가능할 정도로 얇게 늘이는 것 같은 기분이 들고, PC들은 새로운 장소에 있다는 걸 알아차리게 됩니다. 작고 소박하고, 빛이 잘 드는 방에 있었는데, 이제는 청동색 금속으로 만든 돔으로 덮인 격납고 같은 곳에 있는 것입니다. 그곳은 얼어붙을듯이 차갑고, 크고 열린 문에서 희미한 빛만이 들어오고 있습니다. 얕은 층의 눈이 바닥의 대부분을 덮고 있는데, 특히 큰 문 근처로 갈 수록 심합니다.
 
-## 산
+눈이 없는 곳에는, 식별하기 어려운 일련의 기호들이 바닥에 그려진 것을 PC들은 볼 수 있는데, 이 방의 대부분을 차지하는 원의 둘레를 따라가고 있습니다, 그 선과 점들은 거의 바래지고 닳아져 있습니다. 금속 패널은 벽에서 삐져나와 헐거워져 있고, 드러난 선과 케이블, 그리고 흥미롭거나 값어치 있는 건 모두 오래 전에 쓸어갔다는 걸 보여주는 단서들이 명백합니다.
+
+이 장소에는 PC들이 쓸만한 자원이 전혀 없습니다. —살아남고 싶다면, 음식도 필요하고 몸을 피할 곳도 있어야 하고, 그리고 날씨에 맞는 옷도 찾아야 합니다, 건물을 뒤진다면, 찾는 것은 전부 다 합쳐도 쓸모 없는 금속과 *신스*[^신스] 조각들 (나사나 꼬인 끈, 등등) 그리고 많은 눈 뿐입니다. 찬 바람이 불어오고, 땅에 쌓인 눈들은 이 곳을 황량하고 불편하게 보이게 합니다.[^역주1]
+
+> Because of the extreme cold, PCs take 1 point of damage every ten minutes they spend here. This damage ignores armor (but not cyphers or character abilities that protect against cold damage). If they’re wearing cold-weather clothing, they take this damage only once per hour.
+
+### 산
 
 The building seems to be on a high slope of a
 tall mountain range extending north and south.
@@ -114,18 +82,31 @@ To the west, the mountain slopes downward
 toward a green valley surrounded by a white
 distortion in the air. It looks like there are about
 two hours of daylight left.
+
+> 플레이어들이 누메네라를 전에 해보지 않았거나, 전투를 매우 하고 싶어한다면 몇 마리의 [검은 엄니](/ko/numenera/mini-bestiary#검은-엄니-black-tusk-4-12)와 조우하게 해서 전투를 어떻게 하는지 보여주고, 캐릭터 능력을 써볼 수 있게 해주는 것도 고려해보세요.
+
 The “snow” is tiny flakes of a hard, white
 material resembling seashell, with most pieces
 about the size of a grain of sand. The shellsnow
 acts very much like real snow—the wind blows
 it about, it is slippery and crunchy to walk on,
 and so on—except it isn’t made of water (which
-means the PCs can’t melt and drink it). There are
-
-no clouds, just a haze in some parts of the sky.
-This shellsnow doesn’t seem to be falling from
+means the PCs can’t melt and drink it). There are no clouds, just a haze in some parts of the sky. This shellsnow doesn’t seem to be falling from
 the sky except for the small amounts stirred up
 by the wind.
+
+> Because the PCs take
+cold damage every ten
+minutes, those with
+low Might scores may
+want to pause their
+hike for a 1-action
+recovery roll so the cold
+doesn’t reduce them
+to 0 Might and move
+them one step down
+on the damage track.
+
 If the PCs spend at least ten minutes
 examining, searching, or trying to salvage the
 technological components in the walls, they can
@@ -139,23 +120,26 @@ find an oddity that previous looters overlooked:
 a finger-sized piece of metal and glass that emits
 a puff of air (about as strong as a person can
 blow) when squeezed.
+
 A PC skilled in crafting numenera, salvaging
 numenera, or understanding numenera can tell
 that there are a few sockets in the walls that look
 like specific devices could be plugged into, but
 what those items would do or how to activate
 them is unknown.
+
 Once the PCs are through with this area, they
 need to decide where to go next. There’s nothing
 noteworthy they can see to the north or south
 along the face of the mountain. The upward
 climb to the east seems difficult and dangerous.
+
 If the PCs follow the downhill slope toward the
 green valley, they should get there in about an
 hour and a half (by sundown, assuming they
 haven’t spent a lot of time in this area).
 
-## THE VALLEY
+## 골짜기
 
 As the PCs approach the green valley, they realize
 the distortion they saw around it is a cloud of
@@ -166,7 +150,7 @@ wind—intermittent gusts don’t have any effect
 on the moving flakes, even if the wind is blowing
 in the opposite direction of the flurries.
 
-### THE PYLONS
+### 철탑
 
 The perimeter of the valley has a series of
 vertical, bronze-colored metal pylons, each as
@@ -183,7 +167,7 @@ circuitry, but are indecipherable to the PCs.
 
 <div class="numenera-box">
 
-## SALVAGING NUMENERA
+### SALVAGING NUMENERA
 Attempting to salvage an object or structure for valuable numenera requires a set of light tools
 and takes anywhere from fifteen minutes to an hour. The difficulty of the task is equal to the level
 of the item being salvaged (the structures in the Icon’s cave are level 5). Training in the salvaging
@@ -1273,3 +1257,65 @@ Roll Iotum Minimum Cypher Level
 66–79 1 bio-circuitry 4
 80–89 1d2 quantium 4
 90–00 1 pliable metal 4
+
+[^신스]: *신스 1* : 신스는 오늘날의 플라스틱과 비슷한 물질입니다.
+[^역주1]: *역주 2* : PC들이 주사위를 굴리려 하거나 하면, 판정 없이 이 모든 걸 정확하게 전달해서 괜히 시간 낭비하게 하지 말고, 밖으로 나가게 하라는 뜻으로 풀이됩니다.
+
+
+## 광고
+
+바다의 재를 재미있게 즐기셨다면 [누메네라 코어북]과 서플리먼트도 구매해보세요. 플레이어 분들에게도 소개해주시길 바랍니다. 한국에서는 도서출판 초여명에서 번역하고 출판하고 있습니다. 초여명의 자매 온라인 상점인 [알피지 스토어](https://www.rpgstore.kr/front/product/product_list.php?pinid=24201)를 비롯해 시중의 오프라인 / 온라인 서점에서도 구매할 수 있습니다. 영어판도 몬티 쿡 게임즈의 [자체 온라인 스토어](https://www.montecookgames.com/store/) 등에서 구매하실 수 있습니다.
+
+번역을 허락해주신 도서출판 초여명 출판사 분들께 다시 한 번 감사드립니다. (광고의 내용은 역자가 임의로 알피지 스토어와 초여명 사이트의 소개 문구를 토대로 가져왔습니다.)
+
+### 누메네라 코어북
+<a href="https://www.rpgstore.kr/front/product/product_detail.php?seq=11630&pinid=24201" target="_blank">
+  <img src="https://www.rpgstore.kr/upload/product/img4/6_261.jpeg?t=1642991229" alt="누메네라 코어북 표지. 주황색 호박석 거탑을 배경으로 기계 장치를 쓴 사람과 파충류, 하늘을 나는 칼날과 비룡을 탄 사람들이 보인다." style="float: center;"/>
+  알피지 스토어에서 한국어판 구매하기.
+
+  정가 46,000원.
+</a>
+- ISBN 9788988060278 93690
+- 213mm * 276mm * 416페이지
+- 컬러양장 표지 + 컬러 내지
+- 몬티 쿡 저, 김성일 역
+
+누메네라는 머나먼 미래를 무대로, 전통적인 판타지에 새로운 감각을 더해 RPG의 상상력에 다시 활기를 불어 넣은 작품입니다. 플레이어 캐릭터들은 수수께끼와 위험이 가득찬 세계에서 과거의 유산들을 발견합니다. 보이지 않는 나노테크, 아직도 궤도를 도는 위성들이 자아내는 데이터스피어, 생명공학으로 만들어진 생물들, 이해 불가능한 원리로 움직이는 온갖 기이하고 신비로운 장치들입니다.
+
+누메네라는 RPG계에서 손꼽히는 거장 몬티 쿡의 작품입니다. 정제되고 직관적인 구조로 몇 분이면 캐릭터를 만들 수 있고, 까다로운 룰보다 이야기에 집중하는 것이 특징입니다.
+
+### 악마의 등뼈 : 연작 시나리오집
+<a href="https://www.rpgstore.kr/front/product/product_detail.php?seq=11656&pinid=24201" target="_blank">
+  <img src="https://www.rpgstore.kr/upload/product/img4/6_293.jpeg?t=1642991229" alt="악마의 등뼈 표지. 검은 배경에 벌거벗은 사람의 등뼈에 벌레 같은 것이 융합되어 있다." style="float: center;"/>
+  알피지 스토어에서 한국어판 구매하기.
+
+  정가 17,000원
+</a>
+
+- ISBN 9788988060292 93690
+- 213mm * 276mm * 96페이지
+- 컬러 표지 + 컬러 내지
+- 몬티 쿡 저, 김성일 역
+
+악마의 등뼈는 네 편의 독특한 시나리오를 극적으로 이은 연작 시나리오입니다. 악마의 등뼈가 붙은 사람에게 남은 시간은 얼마 없습니다. 그것을 제거하기 위해, 주인공들은 잊혀진 고대의 기계 왕릉으로, 바이러스의 부름 속으로, 그리고 코어북의 지도 저편에 있는 소용돌이치는 바다로 떠납니다.
+
+이 세 편의 시나리오는 아무 순서로나 플레이해서 미니 캠페인으로 쓸 수도 있고, 틀이 되는 시나리오인 고귀한 과업을 무시하고 각각 독자적으로 사용할 수도 있습니다. 악마의 등뼈를 통해, 팀은 누메네라의 환상적인 설정과 흥미로운 이야기 구조를 맛보게 될 것입니다.
+
+### 누메네라2 디스커버리 & 데스티니 영어판
+
+<a href="https://www.montecookgames.com/store/product/numenera-discovery-and-destiny/" target="_blank">
+  <img src="https://www.montecookgames.com/store/wp-content/uploads/2018/04/N2-Slipcase-Set-Tags-2-1.jpg" alt="누메네라 데스티니와 디스커버리가 슬립 케이스 안에 담겨 있는 사진" style="float: center;"/>
+  몬티 쿡 게임즈 스토어에서 영어판 구매하기
+
+  PDF는 각각 19.99$ 실물 책 케이스 세트는 총 119.99$.
+</a>
+
+누메네라2는 디스커버리와 데스티니, 두 권의 책으로 이루어져 있습니다.
+
+누메네라 디스커버리는 기존 코어북의 내용을 토대로 새로운 3편의 시나리오와 개정된 룰, 내용을 담고 있습니다.
+
+누메네라 데스티니는 완전히 새로운 유형의 캐릭터 아르쿠스, 델브, 라이트를 비롯해 밝은 미래를 만들어가기 위해 누메네라 탐색(salvaging)과 아이오툼을 이용한 누메네라 제작, 커뮤니티를 만들어 갈 수 있는 새로운 규칙과 조언, 시나리오들이 실려 있습니다.
+
+한국에는 아직 번역되지 않았지만, 누메네라를 더 많은 분들이 구매하고 즐겨주신다면 정발될 수 있지 않을까 싶습니다. (역자의 개인적인 바람입니다.) 영어판은 위 이미지를 클릭하시면 몬티 쿡 게임즈의 스토어에서 구매하실 수 있습니다.
+
+이 퀵스타트 [바다의 재] 역시 누메네라 2에 기반하고 있습니다. 누메네라2는 기존 누메네라 코어북의 컨텐츠와 완전히 호환됩니다. 개정된 갑옷 규칙이나, 플레이어 개입, 캐릭터 아크에 대해서는 공개된 사이퍼 SRD의 내용을 참고하셔도 좋습니다.
