@@ -95,6 +95,10 @@ p {
 	line-height: 1.1em;
 }
 
+.content ol {
+	list-style-type:decimal;
+}
+
 p,
 .content ul {
 	color: var(--theme-text-light);

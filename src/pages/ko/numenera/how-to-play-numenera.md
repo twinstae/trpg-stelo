@@ -5,90 +5,26 @@ layout: ../../../layouts/MainLayout.astro
 createdAt: "2022-11-17T07:31:02.290Z"
 ---
 
-Numenera is played in the joint imagination of
-all the players, including the GM. The GM sets
-the scene, the players state what their characters
-attempt to do, and the GM determines what
-happens next. One scene logically flows to the
-next—you might start in a town, travel across the
-wilderness, and eventually end up at the site of a
-prior-world ruin—and before you know it, you’ve
-got a story as compelling as any you’ve read
-or watched. The rules and the dice help make
-the game run smoothly, but it’s the people, not
-the rules or the dice, that direct the action and
-determine the story—and the fun. If a rule gets
-in the way or detracts from the game, the players
-and the GM should work together to change it.
-Numenera uses a twenty-sided die (d20) to
-determine the results of most actions. Whenever
-a roll of any kind is called for and no die is
-specified, roll a d20.
-This is how you play Numenera:
-1. The player tells the GM what they want to
-do. This is a character action.
-2. The GM determines if that action is routine
-(and therefore works without needing a roll) or if
-there’s a chance of failure.
-3. If there is a chance of failure, the GM
-determines which stat the task uses (Might,
-Speed, or Intellect) and the task’s difficulty—how
-hard it will be on a scale from 1 (really easy) to 10
-(basically impossible).
-4. The player and the GM determine if
-anything about the character—such as training,
-equipment, special abilities, or various actions—
-can modify the difficulty up or down by one or
-more steps. Decreasing the difficulty is called
-easing, increasing the difficulty is called hindering.
-If these modifications reduce the difficulty to less
-than 1, the action is routine (and therefore works
-with no roll needed).
-5. If the action still isn’t routine, the GM uses
-its difficulty to determine the target number—
-how high the player must roll to succeed at the
-action (see the Task Difficulty table, page 24).
-The target number is always three times the
-task’s difficulty, so a difficulty 4 task has a target
-number of 12. To succeed at the task, you must
-roll the target number or higher. The GM doesn’t
-have to tell the player what the target number
-is, but can offer hints, especially if the character
-would reasonably know if the action was easy,
-average, difficult, or impossible.
-6. The player rolls a d20. If the roll is equal to
-or higher than the target number, the character
-succeeds.
-That’s it. That’s how to do anything, whether
-it’s identifying a strange device, calming a raging
-drunk, climbing a treacherous cliff, or battling
-a savage cragworm. Even if you ignored all the
-other rules, you could still play Numenera with
-just this information.
-The key features here are: character actions,
-determining task difficulty, and determining
-modifications (easing or hindering).
+누메네라는 모든 (마스터를 포함한) 플레이어들의 상상을 하나로 모아서 플레이합니다. 마스터는 장면을 설정하고, 플레이어는 캐릭터가 무엇을 하려 하는지 선언하며, 그리고 마스터는 무슨 일이 벌어지는지 정합니다. 한 장면은 논리적으로 다음으로 흐르고-한 마을에서 시작해서, 황야를 여행하고, 결국 이전 세계의 유적에 도착할 수 있을 겁니다- 알아차리기도 전에, 지금까지 읽거나 봐왔던 것보다 매력적인 이야기를 얻게 될 것입니다. 규칙과 주사위는 게엠이 부드럽게 흐르도록 도와주지만, 행동과 이야기 무엇보다 재미를 결정하는 건 결국 사람입니다. 룰이 게임에 방해가 된다면, 플레이어와 마스터는 함께 룰을 바꿔야 합니다.
+
+누메네라는 20면체 주사위(d20)를 행동의 결과를 정하는데 사용합니다. 주사위를 굴려야 하는데 어떤 특정한 주사위를 굴리라고 특정하지 않으면, d20을 굴리십시오.
+
+다음은 누메네라를 플레이하는 방법입니다:
+
+1. 플레이어는 마스터에게 하고 싶은 일을 말합니다. 이게 캐릭터 행동입니다.
+1. 마스터는 이 행동이 일상적인지 (그래서 주사위를 굴리지 않아도 되는지) 아니면 실패할 가능성이 있는지 정합니다.
+1. 만약 실패할 가능성이 있다면, 마스터는 이 일이 어떤 특성(힘, 속력, 또는 지성)을 사용하는지 정하고 1(매우 쉬움)부터 10(보통 불가능)의 척도 사이에서 얼마나 어려운지 정합니다.
+1. 플레이어와 마스터는 캐릭터의 무엇이던-익숙함, 장비, 특수 능력, 혹은 다양한 행동- 난이도를 한 단계 혹은 그 이상을 높이거나 낮추도록 조정할 수 있는지 정합니다. 난이도를 한 단계 낮추는 건 완화한다 하고, 난이도를 한 단계 높이는 건 방해한다 합니다. 만약 조정으로 난이도를 1보다 낮게 낮춘다면, 그 행동은 일상적인 일이 됩니다. (그렇기 때문에 주사위를 굴릴 필요가 없습니다.)
+1. 만약 여전히 행동이 일상적이지 않다면, 마스터는 난이도를 가지고 목표치-플레이어가 성공하기 위해서 굴려서 얼마가 나와야 하는지-가 얼마나 높은지를 정합니다. ([일의 난이도 표](#일의-난이도)를 보십시오.) 목표치는 언제나 그 일의 난이도의 3배라서, 난이도 4인 일은 목표치가 12입니다. 성공하려면 주사위를 굴려서 목표치보다 같거나 더 높은 숫자가 나와야 합니다. 마스터는 플레이어에게 목표치가 얼마인지 말해줄 필요는 없지만, 힌트를 줄 수는 있습니다, 특히 캐릭터가 그 행동이 쉬운지 평균적인지, 어려운지 혹은 불가능한지 아는 것이 말이 되는 경우에는 그렇습니다.
+1. 플레이어는 d20을 굴립니다. 만약 굴려서 목표치와 같거나 더 높게 나오면, 그 캐릭터는 성공합니다.
+
+이게 전부입니다. 이게 신기한 기계를 알아보는 것이든, 술 취한 난동꾼을 진정시키는 것이든, 믿을 수 없는 절벽을 등반하던, 사나운 바위벌레와 싸우는 일이든, 무엇이든 하는 방법입니다. 다른 모든 규칙을 무시하더라도, 이것만 가지고도 누메네라를 플레이할 수 있습니다.
+
+여기서 핵심만 정리하면: 캐릭터의 행동, 난이도 정하기, 조정하기(완화와 방해)입니다.
 
 ## 행동하기
 
-Each character gets one turn each round. On a
-character’s turn, they can do one thing—an action.
-All actions fall into one of three categories: Might,
-Speed, or Intellect (just like the three stats). Many
-actions require die rolls (rolling a d20).
-Every action performs a task, and every task
-has a difficulty that determines what number a
-character must reach or surpass with a die roll to
-succeed. Most tasks have a difficulty of 0, which
-means the character succeeds automatically. For
-example, walking across a room, opening a door,
-picking something off the floor, and throwing a
-stone into a nearby bucket are all actions, but
-none of them requires a roll. Actions that are
-usually difficult or that become difficult due to
-the situation (such as shooting at a target in a
-blizzard) have a higher difficulty. These actions
-usually require a roll.
+각 캐릭터는 각 *라운드*마다 한 차례를 받습니다. 캐릭터의 차례가 되면, 한 가지- *행동* 하나를 할 수 있습니다. 모든 행동은 세 가지 범주로 나눠집니다. 힘, 속력, 그리고 지성 (세 가지 특성과 마찬가지) 입니다.  많은 행동은 주사위를 굴려야 합니다. (d20을 굴립니다) 모든 행동은 *일*을 하는 것이고, 모든 일은 캐릭터가 성공하기 위해서 주사위를 굴려서 몇얼마를 넘어야 하는지 결정하는 *난이도*를 가지고 있습니다. 대부분의 일은 난이도가 0이며, 이는 캐릭터가 자동으로 성공한다는 뜻입니다. 예를 들어, 방을 가로질러 걸어가거나, 문을 열거나, 무언가를 바닥에서 집거나, 돌을 근처의 바구니에 집어 던지는 것은 모두 행동이지만, 무엇도 굴림을 요구하지 않습니다. 보통 상황 (눈보라 속에서 목표를 쏘는 것 같은) 때문에 어렵거나 어려워지는 행동은 높은 난이도를 가집니다. 이런 행동은 보통 굴림이 필요합니다.
 
 ### 언제 주사위를 굴리나?
 Any time your character attempts a task, the GM
@@ -123,6 +59,7 @@ failure. However, there’s also no chance for
 remarkable success (in Numenera, that usually
 means rolling a 19 or 20; see Special Rolls,
 page 28).
+
 ### 일의 특성치 정하기
 Every task relates to one of a character’s three
 stats: Might, Speed, or Intellect. Physical
@@ -348,7 +285,7 @@ When a debilitated PC takes enough damage to reduce a stat Pool to 0, they are d
 
 </div>
 
-### AMBIENT DAMAGE
+### 주변 피해
 Some kinds of damage aren’t direct attacks
 against a creature, but they indirectly affect
 everything in the area. Most of these are
@@ -360,7 +297,7 @@ damage. Physical armor usually doesn’t protect
 against ambient damage, though a well-insulated
 suit of armor can protect against cold weather.
 
-#### THE EFFECTS OF TAKING DAMAGE
+#### 피해의 효과
 When an NPC reaches 0 health, it is either
 dead or (if the attacker wishes it) incapacitated,
 meaning unconscious or beaten into submission.
@@ -417,7 +354,7 @@ unconsciousness, paralysis, and so on.
 
 <div class="numenera-box">
 
-### OBJECT DAMAGE TRACK
+### 사물 부상 트랙
 
 Intact is the default state for an object.
 Minor damage is a slightly damaged state.
@@ -439,7 +376,7 @@ three steps down the object damage track.
 
 </div>
 
-### RECOVERING POINTS IN A POOL
+### 역량 점수 회복하기
 After losing or spending points in a Pool, you
 recover those points by resting. You can’t
 increase a Pool past its maximum by resting—
@@ -505,7 +442,7 @@ track instead of recovering points. For example,
 a Jack who is debilitated from a hit with a celldisrupting numenera device can rest and move up
 to impaired rather than recover points in a Pool.
 
-### SPECIAL ROLLS
+### 특수 효과
 When you roll a natural 19 (the d20 shows
 “19”) and the roll is a success, you also have a
 minor effect. In combat, a minor effect inflicts 3
@@ -565,7 +502,7 @@ Pool on the action, the point cost for the action
 decreases to 0, meaning the character regains
 those points as if they had not been spent at all.
 
-## GM INTRUSION
+## 마스터 개입
 GM intrusion reflects when something in the
 story occurs to complicate the character’s life.
 The character hasn’t necessarily fumbled or
@@ -576,7 +513,7 @@ affects the current situation.
 
 <div class="numenera-box">
 
-## HELPING
+## 협동
 If you use your action to help someone with a task, you ease the task. If you have an inability in a task, your help has no
 effect. If you use your action to help someone with a task that you are trained or specialized in, the task is eased by two
 steps. Help is considered an asset, and someone receiving help usually can’t gain more than two assets on a single task if
@@ -643,7 +580,7 @@ intrude without giving the character any XP. This
 kind of intrusion happens immediately or very
 soon thereafter.
 
-## RANGE AND SPEED
+## 거리와 속도
 Distance is simplified into three categories:
 immediate, short, and long.
 IMMEDIATE DISTANCE from a character is
@@ -702,7 +639,8 @@ considered short distance. It does matter if
 the abhuman is more than 50 feet (15 m) away
 because that distance would require a long
 move.
-## ENCOUNTERS, ROUNDS, AND INITIATIVE
+
+## 초점 장면, 라운드, 행동 순서
 Sometimes in the course of the game, the GM
 or players will refer to an encounter. Encounters
 are not so much measurements of time as they
@@ -774,7 +712,8 @@ that lasts for a round ends where it started in the
 cycle. If Valleris the Nano uses an esotery on an
 opponent that hinders its defenses for one round,
 the effect lasts until Valleris acts on his next turn.
-## INTERACTION
+
+## 상호작용
 Obviously, players can talk to each other all they
 want, and at least some of that conversation
 represents what the characters are saying to each
@@ -806,7 +745,8 @@ have inspired techniques.
 come in might be normal. Skills like persuasion
 or deception might help, and of course Effort can
 be used (usually Intellect).
-## EXPLORATION AND DISCOVERY
+
+## 탐험과 발견
 Although fighting dangerous beasts or other
 foes can be interesting and exciting, much of
 gameplay in Numenera probably involves other
@@ -856,7 +796,7 @@ these are all discoveries.
 The GM should award between 1 and 4 XP at
 the end of a session if the characters made any
 significant discoveries.
-## EXPERIENCE POINTS
+## 경험치
 Experience points (XP) are rewards given to
 players when the GM intrudes on the story
 (this is called GM intrusion) with a new and
