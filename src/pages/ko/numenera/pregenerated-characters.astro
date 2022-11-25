@@ -1,0 +1,1104 @@
+---
+import CharacterSheet from '../../../components/CharacterSheet.astro';
+import SheetLayout from '../../../layouts/SheetLayout.astro';
+
+const frontmatter = {
+  title: '사전 제작 캐릭터 : 누메네라 퀵스타트',
+  description: '',
+  layout: '../../../layouts/MainLayout.astro',
+  createdAt: '2022-11-17T07:31:02.290Z',
+};
+const ARKUS = {
+  name: '렐리스',
+  statement: {
+    descriptor: '명랑한',
+    type: '아르쿠스',
+    focus: '얼음을 두르고 있다',
+  },
+  stats: {
+    tier: 1,
+    effort: 1,
+    xp: 0,
+    might: {
+      current: 11,
+      pool: 11,
+      edge: 0,
+    },
+    speed: {
+      current: 12,
+      pool: 12,
+      edge: 0,
+    },
+    intellect: {
+      current: 15,
+      pool: 15,
+      edge: 1,
+    },
+    armor: {
+      value: 0,
+      cost: 0,
+    },
+    recoveryBonus: 1,
+    recoveryRolls: {
+      oneAction: false,
+      tenMintues: false,
+      oneHour: false,
+      tenHour: false,
+    },
+  },
+  advancements: {
+    increaseCapabilities: false,
+    extraEffort: false,
+    moveTowardPerfection: false,
+    skillTraining: false,
+    other: false
+  },
+  attacks: [
+    {
+      title: '다트 발사기',
+      modifier: -1,
+      damage: 2,
+      description: '소형 무기. 장거리.',
+    },
+    {
+      title: '단검',
+      modifier: -1,
+      damage: 2,
+      description: '소형 무기. 지근거리.',
+    },
+  ],
+  skills: [
+    {
+      title: '갈등을 끝내기',
+      level: 'trained',
+    },
+    {
+      title: '긍정적인 첫인상 남기기',
+      level: 'trained',
+    },
+    {
+      title: '친구 만들기',
+      level: 'trained',
+    },
+    {
+      title: '협상',
+      level: 'trained',
+    },
+    {
+      title: '설득',
+      level: 'trained',
+    },
+    {
+      title: '목공',
+      level: 'trained',
+    },
+    {
+      title: '위장을 간파하기',
+      level: 'inability',
+    },
+    {
+      title: '거짓말 알아차리기',
+      level: 'inability',
+    },
+    {
+      title: '누메네라 탐색',
+      level: 'inability',
+    },
+    {
+      title: '누메네라 제작',
+      level: 'inability',
+    },
+    {
+      title: '누메네라 이해',
+      level: 'inability',
+    },
+  ],
+  specialAbilities: [
+    {
+      title: '무기',
+      description:
+        '소형 무기를 사용합니다. 중형이나 대형 무기는 난이도가 올라갑니다.',
+    },
+    {
+      title: '이야기 (지성 2점)',
+      description:
+        '분위기를 띄우거나 초점이 있는 이야기를 합니다. 다음 1시간 동안, 이야기를 들은 사람들은 그 이야기에 관련된 기능에 익숙해지고, 공격이나 방어에 관련된 일은 제외합니다. 최소 1분이 필요합니다.',
+    },
+    {
+      title: '지휘하는 태도 (지성 2점)',
+      description:
+        '다음 1시간 동안, 당신을 보는 사람은 누구나 당신이 중요한 사람임을 이해합니다. 말을 할 때, 당신을 공격 중이지 않은 낯선 이는 적어도 한 라운드 동안은 당신의 말을 들어보려 합니다. 집단에게 말을 하는 경우 당신이 그들의 지휘권을 맡도록 시도할 수 있습니다. 이 기간 동안 설득에 쓸 수 있는 공짜 분발을 받습니다. 발동하려면 행동 하나를 써야 합니다.',
+    },
+    {
+      title: '얼음 갑옷 (지성 1점)',
+      description:
+        '10분 동안 몸을 살얼음으로 덮습니다. 장갑에 +1을 줍니다. 얼음 갑옷을 두른 동안 냉기 피해에 +2 장갑을 추가로 받습니다. 강화.',
+    },
+    {
+      title: '갑옷이 없는 게 익숙',
+      description:
+        '갑옷을 입고 있지 않을 때 속력 방어에 익숙해집니다. (얼음 갑옷을 두루는 건 괜찮습니다)',
+    },
+  ],
+  cypherLimit: 2,
+  cyphers: [
+    {
+      title: '폭발통 (전기)',
+      level: 3,
+      description:
+        '기계. 지근거리의 영역에 있는 모든 것에세 3점의 불 피해를 줍니다. 단거리까지 던질 수도 있습니다.',
+      used: false,
+    },
+    {
+      title: '중력 무효화 장치',
+      level: 6,
+      description:
+        '벨트. 1시간 동안 위 아래로 단거리(15m이내)를 부양해서 움직일 수 있습니다. 옆으로 움직이려면 벽이나 천장을 밀어야 합니다. 110kg 전후까지 버팁니다.',
+      used: false,
+    },
+  ],
+  equipments: [
+    {
+      title: '다트 발사기와 다트 12개',
+      description: '(소형 원거리 무기)',
+    },
+    {
+      title: '얼음처럼 보이는 센유리 단검',
+      description: '(소형 근접 무기)',
+    },
+    {
+      title: '신기품: 손가락 만한 초록 물고기의 홀로그램을 만드는 반지',
+      description: '',
+    },
+    {
+      title: '맵시 있는 옷',
+      description: '',
+    },
+    {
+      title: '목공용 공구와 주먹만한 나무 조각들',
+      description: '',
+    },
+  ],
+  shins: 9,
+  artifacts: [],
+  oddities: [],
+  background: `당신은 항상 사람들을 다루는 방법이 있었고, 이 특별한 재능은 당신을 안전하게 지켜주고 여러 흥미롭고 이상한 일을 찾고 함께하게 해줬습니다.
+        목공은 당신의 취미이고, 동물이나 얼굴 그리고 다른 기념품으로 조각할만한 멋진 나무 조각을 모으곤 합니다.
+        당신과 야말은 오래 알고 지내왔고, 상황을 어떻게 해결하면 좋을지 거의 항상 의견이 달랐지만, 뭔가 만드는 건 정말 잘하기 때문에, 당신은 그냥 내버려두곤 합니다.
+        나비드는 자기 능력이 만들어내는 천둥 같은 소음 너머로도 당신의 목소리가 항상 들린다고 합니다. 당신의 목소리가 그러면 항상 들리는 건지 궁금합니다.
+        지금의 동료들과 함께 하게 된 것은 한 무리의 깡패들을 만나서 노상 강도를 당할 뻔했을 때였습니다. 그래도 깡패들에게 말을 잘 해서 그 사람들이 지금 탐험 중인 유적에 대해 알려줬습니다.`,
+  notes: '',
+  image: '',
+};
+
+const DELVE = {
+  name: '허본',
+  statement: {
+    descriptor: '강한 의지를 가진',
+    type: '델브',
+    focus: '세상의 벽을 찢는다',
+  },
+  stats: {
+    tier: 1,
+    effort: 1,
+    xp: 0,
+    might: {
+      current: 12,
+      pool: 12,
+      edge: 0,
+    },
+    speed: {
+      current: 12,
+      pool: 12,
+      edge: 1,
+    },
+    intellect: {
+      current: 14,
+      pool: 14,
+      edge: 1,
+    },
+    armor: {
+      value: 0,
+      cost: 0,
+    },
+    recoveryBonus: 1,
+    recoveryRolls: {
+      oneAction: false,
+      tenMintues: false,
+      oneHour: false,
+      tenHour: false,
+    },
+  },
+  advancements: {
+    increaseCapabilities: false,
+    extraEffort: false,
+    moveTowardPerfection: false,
+    skillTraining: false,
+    other: false
+  },
+  attacks: [
+    {
+      title: '활',
+      modifier: 0,
+      damage: 4,
+      description: '중형 무기. 장거리',
+    },
+    {
+      title: '단검',
+      modifier: -1,
+      damage: 2,
+      description: '소형 무기. 지근거리',
+    },
+    {
+      title: '파열의 손길',
+      modifier: -1,
+      damage: 2,
+      description: '소형 무기. 지근거리',
+    },
+  ],
+  skills: [
+    {
+      title: '행동 순서',
+      level: 'trained',
+    },
+    {
+      title: '지각',
+      level: 'trained',
+    },
+    {
+      title: '정신 효과 저항',
+      level: 'trained',
+    },
+    {
+      title: '누메네라 탐색',
+      level: 'trained',
+    },
+    {
+      title: '위험 감지',
+      level: 'trained',
+    },
+    {
+      title: '집중이 필요한 일',
+      level: 'trained',
+    },
+    {
+      title: '퍼즐이나 문제를 풀기',
+      level: 'inability',
+    },
+    {
+      title: '기억',
+      level: 'inability',
+    },
+    {
+      title: '누메네라 제작',
+      level: 'inability',
+    },
+    {
+      title: '누메네라 이해',
+      level: 'inability',
+    },
+  ],
+  specialAbilities: [
+    {
+      title: '위상 질주 (속력 1+ 점)',
+      description:
+        '다른 행동을 하지 않으면 장거리를 달릴 수 있습니다. 행동하는 동안 그리고 다음 당신의 차례까지 부분적으로 위상이 변하고, 당신에 대한 몇몇 공격은 해가 없게 됩니다. 위상이 변한 동안 속력 방어에 보탬을 받습니다.',
+    },
+    {
+      title: '파열의 손길 (힘 1+ 점)',
+      description:
+        '위상 질주를 하는 동안, 스치는 적에게 에너지를 방출해 목표에게 (장갑을 무시하는) 2점의 피해를 줄 수 있습니다. 맞건 빚나가건, 당신의 움직임과 차례는 바로 끝나버리고 목표의 지근거리에 위치하게 됩니다. 분발을 써서 피해를 증가시키면, 분발한 단계마다 2점의 피해를 더 줄 수 있고 (3점이 아닙니다), 공격 굴림에 실패하더라도 목표는 1점의 피해를 받습니다. 강화.'
+    },
+    {
+      title: '갑옷이 없는 게 익숙',
+      description:
+        '갑옷을 입고 있지 않을 때 속력 방어에 익숙해집니다.',
+    },
+    {
+      title: '무기',
+      description:
+        '소형과 중형 무기를 씁니다. 대형 무기는 난이도가 한 단계 올라갑니다.',
+    },
+  ],
+  cypherLimit: 2,
+  cyphers: [
+    {
+      title: '고양이 눈',
+      level: 3,
+      description:
+        '인공눈물. 어둠 속에서도 볼 수 있는 능력을 15시간 동안 줍니다.',
+      used: false,
+    },
+    {
+      title: '폭발 (거미줄)',
+      level: 4,
+      description:
+        '팔찌형 발사기. 장거리에 공을 하나 발사하고, 터지면 지근거리에 1시간 동안 지속되는 끈쩍하고 달라붙는 실을 만듭니다. 그 영역 안의 PC들은 탈출하려면 힘 굴림을 해야 합니다. (난이도는 레벨과 같음) NPC나 생물은 레벨이 4 이상이면 부수고 빠져나올 수 있습니다.',
+      used: false,
+    },
+  ],
+  equipments: [
+    {
+      title: '작은 공구 주머니',
+      description: '(작은 집게, 펜치, 드라이버, 작은 망치, 작은 쇠지레, 자물쇠 따는 도구, 끈 3m, 철사 1미터, 자잘한 못과 나사)',
+    },
+    {
+      title: '활과 화살 12발',
+      description: '(중형 원거리 무기)',
+    },
+    {
+      title: '탐험가의 배낭',
+      description: '(밧줄 30미터 보존식 5일치, 대못 3개, 작은 망치, 튼튼한 장화, 횃불 3개, 하급 발광구 2개)',
+    },
+    {
+      title: '옷가지',
+      description: '',
+    },
+    {
+      title: '신기품 보라색 크리스탈. 움켜쥐면 기분 좋은 노랫 소리가 난다.',
+      description: '',
+    },
+    {
+      title: '단검',
+      description: '(소형 근접 무기)',
+    },
+  ],
+  shins: 3,
+  artifacts: [],
+  oddities: [],
+  background: `당신은 작은 마을에서 자라, 항상 밖에 나가 세상을 보고 싶어 했습니다. 당신의 재능은 스파이로 일하며 사람을 감시하는 것부터 작은 강도짓까지 무엇이든 하게 만들었습니다.
+이제 당신은 돈을 벌기 위해 옛 누메네라 조각들을 챙기는(looting) 법을 좀 압니다. 더럽고 가난한 농부로 사는 부모님을 진짜 도시로 이사 시켜드리고 싶어서, 누메네라 탐색(salvaging)이 요즘 당신의 주된 관심사입니다.
+로빈은 당신과 같은 마을에서 왔고, 서로 꼬마일 때부터 알았지만, 한 달 전 합류하기 전까지는 몇 년간 못 보고 지냈습니다.
+야말의 무언가가 당신의 능력을 방해합니다. 야말이 당신 옆에 서 있으면, 특수 능력의 비용이 1점 올라갑니다.`,
+  notes: '',
+  image: '',
+};
+
+
+const GLAVE = {
+  name: '나비드',
+  statement: {
+    descriptor: '영웅적인',
+    type: '글레이브',
+    focus: '천둥 친다',
+  },
+  stats: {
+    tier: 1,
+    effort: 1,
+    xp: 0,
+    might: {
+      current: 16,
+      pool: 16,
+      edge: 1,
+    },
+    speed: {
+      current: 12,
+      pool: 12,
+      edge: 1,
+    },
+    intellect: {
+      current: 8,
+      pool: 8,
+      edge: 0,
+    },
+    armor: {
+      value: 1,
+      cost: 0,
+    },
+    recoveryBonus: 1,
+    recoveryRolls: {
+      oneAction: false,
+      tenMintues: false,
+      oneHour: false,
+      tenHour: false,
+    },
+  },
+  advancements: {
+    increaseCapabilities: false,
+    extraEffort: false,
+    moveTowardPerfection: false,
+    skillTraining: false,
+    other: false
+  },
+  attacks: [
+    {
+      title: '활',
+      modifier: 0,
+      damage: 4,
+      description: '중형 무기. 장거리',
+    },
+    {
+      title: '망치',
+      modifier: 0,
+      damage: 5,
+      description: '중형 무기. 지근거리',
+    },
+    {
+      title: '천둥',
+      modifier: 0,
+      damage: 2,
+      description: '특수 능력, 그 이상도 가능',
+    },
+  ],
+  skills: [
+    {
+      title: '숨겨진 것 찾기',
+      level: 'trained',
+    },
+    {
+      title: '지각',
+      level: 'trained',
+    },
+    {
+      title: '도약',
+      level: 'trained',
+    },
+    {
+      title: '긍정적인 사회적 상호작용',
+      level: 'trained',
+    },
+    {
+      title: '거짓말을 알아차리기',
+      level: 'trained',
+    },
+    {
+      title: '누메네라 탐색',
+      level: 'inability',
+    },
+    {
+      title: '누메네라 제작',
+      level: 'inability',
+    },
+    {
+      title: '누메네라 이해',
+      level: 'inability',
+    },
+  ],
+  specialAbilities: [
+    {
+      title: '싸움의 솜씨.',
+      description: '근접 공격에 +1 피해를 추가합니다. (망치의 피해에 이미 추가해두었습니다).'
+    },
+    {
+      title: '재빠른 발(속력 1+ 점)',
+      description:
+        '단거리를 다른 행동의 일부로 이동하거나, 장거리를 그 차례의 행동 전체를 써서 움직일 수 있습니다. 한 단계 분발하면, 장거리를 이동하고 공격도 행동으로 할 수 있지만, 그 공격은 난이도가 한 단계 올라갑니다. 강화.',
+    },
+    {
+      title: '영웅의 문제',
+      description:
+        '당신의 영웅적인 본성은 위험을 끌어들입니다. 마스터는 경험치를 주지 않고도 마스터 개입을 할 수 있고, 하지만 그 개입에서 어떤 이득을 볼 수도 있습니다. 어떤 이득을 보는지는 마스터와 상의해서 함께 결정하십시오.',
+    },
+    {
+      title: '인상적인 과시(힘 2점)',
+      description:
+        '당신의 힘, 속력, 싸움 능력을 보이면, 주위 사람들에게 인상을 남깁니다. 다음 1분 동안 당신이 이 능력을 쓰는 걸 본 모든 이와의 상호작용에 보탬을 받습니다. 행동.',
+    },
+    {
+      title: '천둥 (힘 2점)',
+      description:
+        '집중된 소리의 빔을 장거리 내의 목표에게 겨눠서, 2점의 피해를 주고 공명하는 파괴적인 파동을 몸에 남길 수 있습니다. 이 첫 공격 이후 매 라운드마다, 주사위를 굴려서 이 파괴적인 파동이 11점의 피해를 더 주는지 봅니다.(이 추가 피해는 장갑을 무시합니다.) 실패하면 파괴 파동이 끝납니다. 대신에, 근접 무기를 1분동안 강화해서 1점의 피해를 더 주게 할 수도 있습니다. 발동시키려면 행동',
+    },
+    {
+      title: '갑옷 숙련',
+      description:
+        '오랫동안 갑옷을 입고 있어도 지치지 않습니다. 그리고 갑옷을 입을 때 느려지는 반응을 상쇄할 수 있습니다. (원래 가죽 조끼는 속력에 제한을 주지만, 이 능력은 그 제한을 무효화합니다.) 강화.',
+    },
+    {
+      title: '무기',
+      description:
+        '소형과 중형 무기를 씁니다. 대형 무기는 난이도가 한 단계 올라갑니다.',
+    },
+  ],
+  cypherLimit: 2,
+  cyphers: [
+    {
+      title: '근력 복구제',
+      level: 5,
+      description:
+        '알약. 먹으면 힘 역량 5점을 회복합니다.',
+      used: false,
+    },
+    {
+      title: '동작 감지기',
+      level: 6,
+      description:
+        '척추 주사. 단거리에서 어떤 움직임이로도 있거나, 혹은 큰 생물이나 물체가 장거리에서 움직이는 것도 알아차릴 수 있습니다. 움직이는 생물이나 물체의 숫자나 크기를 알 수 있습니다. 6시간 정도 지속됩니다.',
+      used: false,
+    },
+  ],
+  equipments: [
+    {
+      title: '활과 화살 12발',
+      description: '(중형 원거리 무기)',
+    },
+    {
+      title: '탐험가의 배낭',
+      description: '(밧줄 30미터 보존식 5일치, 대못 3개, 작은 망치, 튼튼한 장화, 횃불 3개, 하급 발광구 2개)',
+    },
+    {
+      title: '옷가지',
+      description: '',
+    },
+    {
+      title: '신기품 금속 구슬. 던지면 등 뒤로 돌아온다.',
+      description: '',
+    },
+    {
+      title: '망치',
+      description: '(중형 근접 무기)',
+    },
+    {
+      title: '가죽 조끼',
+      description: '(+1 장갑)',
+    },
+  ],
+  shins: 5,
+  artifacts: [],
+  oddities: [],
+  background: `당신은 영웅과 탐험가들의 이야기를 사랑하며 자랐고, 당신의 타고난 재능 덕분에 원하는 직업을 고를 수 있어, 제 발로 누메네라 유적을 탐험하기로 결정하기 전까지는 호위로 일하며 여행을 했습니다.
+  운명은 당신을 지금의 동료들에게 이끌었고, 좋은 친구들, 좋은 보물, 그리고 좋은 싸움으로 가득할 나날들을 기대하고 있습니다.
+  어떤 이유로, 귀를 기울이기만 하면, 렐리스가 말하는 게 들리는데, 심지어 당신의 능력이 만드는 소리에 다른 모두가 잠겨 있을 때에도 그렇습니다.
+  당신이 쵸리를 만난 건, 숲에서 쵸리가 파놓은 함정에 당신이 걸렸을 때였습니다. 당신은 다치진 않았고, 다들 당신을 발견해서, 어쨌든 당신은 이게 떠들고 다닐 만한 재미있는 이야기라 생각하고 있습니다.`,
+  notes: '',
+  image: '',
+};
+
+
+const NANO = {
+  name: '로빈',
+  statement: {
+    descriptor: '영리한',
+    type: '나노',
+    focus: '정신으로 물질을 지배한다',
+  },
+  stats: {
+    tier: 1,
+    effort: 1,
+    xp: 0,
+    might: {
+      current: 9,
+      pool: 9,
+      edge: 0,
+    },
+    speed: {
+      current: 11,
+      pool: 11,
+      edge: 0,
+    },
+    intellect: {
+      current: 14,
+      pool: 14,
+      edge: 1,
+    },
+    armor: {
+      value: 0,
+      cost: 0,
+    },
+    recoveryBonus: 1,
+    recoveryRolls: {
+      oneAction: false,
+      tenMintues: false,
+      oneHour: false,
+      tenHour: false,
+    },
+  },
+  advancements: {
+    increaseCapabilities: false,
+    extraEffort: false,
+    moveTowardPerfection: false,
+    skillTraining: false,
+    other: false
+  },
+  attacks: [
+    {
+      title: '다트 발사기',
+      modifier: -1,
+      damage: 2,
+      description: '소형 무기. 장거리.',
+    },
+    {
+      title: '쇄도',
+      modifier: 0,
+      damage: 4,
+      description: '특수 능력, 지성 피해는 2점',
+    },
+  ],
+  skills: [
+    {
+      title: '위험, 거짓말, 중요함, 기능, 세력을 알아차리기',
+      level: 'trained',
+    },
+    {
+      title: '거짓말',
+      level: 'trained',
+    },
+    {
+      title: '정신 효과에 저항',
+      level: 'trained',
+    },
+    {
+      title: '사기',
+      level: 'trained',
+    },
+    {
+      title: '누메네라 이해',
+      level: 'trained',
+    },
+    {
+      title: '일반 상식',
+      level: 'inability',
+    },
+    {
+      title: '구전되는 전통',
+      level: 'inability',
+    },
+    {
+      title: '누메네라 탐색',
+      level: 'inability',
+    },
+    {
+      title: '누메네라 제작',
+      level: 'inability',
+    },
+  ],
+  specialAbilities: [
+    {
+      title: '공격 굴절(지성 1점)',
+      description: '정신력으로 공격에서 스스로를 보호합니다. 다음 10분 동안 속력 방어에 익숙해집니다. 발동시키려면 행동'
+    },
+    {
+      title: '쇄도 (지성 1점)',
+      description:
+        '정신적 힘이 담긴 폭발을 이용해서 단거리 내에 볼 수 있는 목표를 공격합니다. 공격이 물리적이면 4점의 피해를 주는 힘의 광선을 방출합니다. 공격이 정신적이면 당신의 정신 에너지를 집중해서 다른 생물의 정신에 폭발시키고, 2점의 지성 피해를 줍니다. (장갑을 무시하지만, 보통 기계인형 같은 생물들은 아마 면역일 겁니다) 행동.',
+    },
+    {
+      title: '밀기 (지성 2점)',
+      description:
+        '지근거리에 있는 생물이나 물건을 원하는 방향으로 밀어냅니다. 당신은 그 대상을 볼 수 있는 상태여야 하고, 당신의 크기와 같거나 작아야 하고, 어딘가에 붙어 있지 않아야 하고, 단거리(15m 정도) 내에 있어야 합니다. 이 밀기는 빠르고, 힘이 조작하기에는 너무 거칩니다. 예를 들어 이 힘으로 레버를 움직이거나 문을 닫을 수는 없습니다. 행동.',
+    },
+    {
+      title: '무기',
+      description:
+        '소형 무기를 씁니다. 중형과 대형 무기는 난이도가 한 단계 올라갑니다.',
+    },
+  ],
+  cypherLimit: 3,
+  cyphers: [
+    {
+      title: '지성 복구제',
+      level: 4,
+      description:
+        '붙이는 패치. 지성에서 4점을 회복해줍니다.',
+      used: false,
+    },
+    {
+      title: '광선 방출기(마비)',
+      level: 5,
+      description:
+        '벨트에 장착하는 기계. 에너지 광선을 장거리까지 투사해서 목표를 1분 동안 마비시킬 수 있습니다.',
+      used: false,
+    },
+    {
+      title: '자극제',
+      level: 6,
+      description:
+        '주사. 다음 행동의 난이도를 3단계 낮춰줍니다.',
+      used: false,
+    },
+  ],
+  equipments: [
+    {
+      title: '누메네라에 대한 책',
+      description: '조사에 30분 이상을 들이면 누메네라에 관련된 일에 보탬이 됩니다.',
+    },
+    {
+      title: '다트 발사기와 다트 12개',
+      description: '(소형 원거리 무기)',
+    },
+    {
+      title: '신기품: 살에 자석처럼 달라붙는 크리스탈 렌즈',
+      description: '',
+    },
+    {
+      title: '옷가지',
+      description: '',
+    },
+  ],
+  shins: 14,
+  artifacts: [],
+  oddities: [],
+  background: `당신은 언제나 할 수 있는 일을 과장하는 습관이 있었고, 사람들은 믿었습니다. 보통 당신은 사람들이 거짓말을 눈치채기 전에 마을을 빠져나갔고, 선물 같은 염력 덕분에 일이 너무 나빠지면 문제에서 빠져나올 수도 있었습니다.
+  이제 당신은 이 모험가 무리에 끼워달라 했고, 동료들은 자기들이 뭘 하고 있는지도 알고, 당신의 실제 능력도 분명 가치가 있습니다.
+  현재 당신의 계획은 붙어 다니면서 동료들이 돈을 얼마나 버는지 보고 싶습니다. 일이 잘 안 풀리면 언제든지 떠나면 되니까요. 
+  쵸리의 마음을 읽을 수 있다고 농담을 한 적이 있습니다. 동료들은 이게 불안한 가능성인 것처럼 반응했고, 그후 당신 주변에서는 다들 신중해졌습니다.
+  당신은 허본과 같은 마을에서 자랐습니다. 허본과 그다지 교류한 적은 없지만, 몇 달 전 우연히 만났을 때 바로 알아봤습니다.`,
+  notes: '',
+  image: '',
+};
+
+
+const WRIGHT = {
+  name: '야말',
+  statement: {
+    descriptor: '호기심 많은',
+    type: '라이트',
+    focus: '어제를 탐험한다',
+  },
+  stats: {
+    tier: 1,
+    effort: 1,
+    xp: 0,
+    might: {
+      current: 11,
+      pool: 11,
+      edge: 1,
+    },
+    speed: {
+      current: 10,
+      pool: 10,
+      edge: 1,
+    },
+    intellect: {
+      current: 15,
+      pool: 15,
+      edge: 0,
+    },
+    armor: {
+      value: 1,
+      cost: 0,
+    },
+    recoveryBonus: 1,
+    recoveryRolls: {
+      oneAction: false,
+      tenMintues: false,
+      oneHour: false,
+      tenHour: false,
+    },
+  },
+  advancements: {
+    increaseCapabilities: false,
+    extraEffort: false,
+    moveTowardPerfection: false,
+    skillTraining: false,
+    other: false
+  },
+  attacks: [
+    {
+      title: '다트 발사기',
+      modifier: -1,
+      damage: 2,
+      description: '소형 무기. 장거리.',
+    },
+  ],
+  skills: [
+    {
+      title: '등반',
+      level: 'trained',
+    },
+    {
+      title: '환상이나 위장을 간파하기',
+      level: 'trained',
+    },
+    {
+      title: '과거의 이면을 보기',
+      level: 'trained',
+    },
+    {
+      title: '거짓말을 알아차리기',
+      level: 'trained',
+    },
+    {
+      title: '누메네라 탐색',
+      level: 'trained',
+    },
+    {
+      title: '누메네라 제작',
+      level: 'trained',
+    },
+    {
+      title: '누메네라 이해',
+      level: 'inability',
+    },
+  ],
+  specialAbilities: [
+    {
+      title: '싸움의 솜씨.',
+      description: '근접 공격에 +1 피해를 추가합니다. (망치의 피해에 이미 추가해두었습니다).'
+    },
+    
+    {
+      title: '갑옷 숙련',
+      description:
+        '오랫동안 갑옷을 입고 있어도 지치지 않습니다. 그리고 갑옷을 입을 때 느려지는 반응을 상쇄할 수 있습니다. (원래 가죽 조끼는 속력에 제한을 주지만, 이 능력은 그 제한을 무효화합니다.) 강화.',
+    },
+    {
+      title: '무기',
+      description:
+        '소형 무기를 씁니다. 중형과 대형 무기는 난이도가 한 단계 올라갑니다.',
+    },
+  ],
+  cypherLimit: 3,
+  cyphers: [
+    {
+      title: '근력 복구제',
+      level: 5,
+      description:
+        '보라색 가루를 뭉쳐놓은 알약. 먹으면 힘 역량 5점을 회복합니다.',
+      used: false,
+    },
+    {
+      title: '동작 감지기',
+      level: 6,
+      description:
+        '척추 주사. 단거리에서 어떤 움직임이로도 있거나, 혹은 큰 생물이나 물체가 장거리에서 움직이는 것도 알아차릴 수 있습니다. 움직이는 생물이나 물체의 숫자나 크기를 알 수 있습니다. 6시간 정도 지속됩니다.',
+      used: false,
+    },
+  ],
+  equipments: [
+    {
+      title: '활과 화살 12발',
+      description: '(중형 원거리 무기)',
+    },
+    {
+      title: '탐험가의 배낭',
+      description: '(밧줄 30미터 보존식 5일치, 대못 3개, 작은 망치, 튼튼한 장화, 횃불 3개, 하급 발광구 2개)',
+    },
+    {
+      title: '옷가지',
+      description: '',
+    },
+    {
+      title: '신기품 금속 구슬. 던지면 등 뒤로 돌아온다.',
+      description: '',
+    },
+    {
+      title: '망치',
+      description: '(중형 근접 무기)',
+    },
+    {
+      title: '가죽 조끼',
+      description: '(+1 장갑)',
+    },
+  ],
+  shins: 5,
+  artifacts: [],
+  oddities: [],
+  background: `당신은 뭔가 만드는 걸 좋아했지만, 그러려면 누메네라에서 발굴한 아이오툼이 필요했기에, 그걸 얻는 가장 저렴한 방법은 오랜 유적을 파고드는 것이라, 당신은 모험가가 되었습니다. 이건 위험일 일이고, 당신과 함께 하는 동료들은 이런 위험을 잘 다루기에, 당신에게도 잘 맞는 조합이었습니다.
+  당신의 다음 멋진 제작 계획을 시작할 지금 하는 일이 잘 되면 멋진 재료들을 당신에게 안겨줄 가능성이 높아서 기대하고 있습니다.
+  허본은 자꾸 당신 옆에 오길 피하는데, 이유는 잘 모르겠습니다.
+  렐리스와 이제 몇 년 째 같이 탐험을 해왔는데, 많은 부분에서 의견이 정말 안 맞았지만, 일감을 찾아오는 건 정말 잘 하기 때문에, 받아들이고 있습니다.`,
+  notes: '',
+  image: '',
+};
+
+
+const JACK = {
+  name: '쵸리',
+  statement: {
+    descriptor: '자연의',
+    type: '잭',
+    focus: '사냥한다',
+  },
+  stats: {
+    tier: 1,
+    effort: 1,
+    xp: 0,
+    might: {
+      current: 12,
+      pool: 12,
+      edge: 0,
+    },
+    speed: {
+      current: 11,
+      pool: 11,
+      edge: 0,
+    },
+    intellect: {
+      current: 13,
+      pool: 13,
+      edge: 1,
+    },
+    armor: {
+      value: 1,
+      cost: 1,
+    },
+    recoveryBonus: 1,
+    recoveryRolls: {
+      oneAction: false,
+      tenMintues: false,
+      oneHour: false,
+      tenHour: false,
+    },
+  },
+  advancements: {
+    increaseCapabilities: false,
+    extraEffort: false,
+    moveTowardPerfection: false,
+    skillTraining: false,
+    other: false
+  },
+  attacks: [
+    {
+      title: '활',
+      modifier: 0,
+      damage: 4,
+      description: '중형 무기. 장거리',
+    },
+    {
+      title: '대검',
+      modifier: 0,
+      damage: 4,
+      description: '중형 무기. 지근거리',
+    },
+    {
+      title: '창',
+      modifier: 0,
+      damage: 4,
+      description: '중형 무기, 장거리 투척도 가능',
+    },
+  ],
+  skills: [
+    {
+      title: '지각',
+      level: 'trained',
+    },
+    {
+      title: '등반, 수영, 도약, 균형잡기 등',
+      level: 'trained',
+    },
+    {
+      title: '흔적을 알아보고 추적',
+      level: 'trained',
+    },
+    {
+      title: '야생 식물을 알아보고 사용',
+      level: 'trained',
+    },
+
+    {
+      title: '동물을 길들이고, 타고, 달래기',
+      level: 'trained',
+    },
+    {
+      title: '매일 원하는 기능 하나',
+      level: 'trained',
+    },
+    {
+      title: '매력, 설득, 예절, 거짓말',
+      level: 'inability',
+    },
+    {
+      title: '누메네라 탐색',
+      level: 'inability',
+    },
+    {
+      title: '누메네라 제작',
+      level: 'inability',
+    },
+    {
+      title: '누메네라 이해',
+      level: 'inability',
+    },
+  ],
+  specialAbilities: [
+    {
+      title: '치명적인 독 제조(지성 3+ 점)',
+      description: '레벨1이나 2인 생물에게 5점 피해를 주는 독을 만듭니다. 이 독을 무기나, 음식, 또는 음료에 적용하는 것도 제조하는 행동의 일부로 할 수 있습니다. 한 단계 분발을 하면, 독은 레벨3인 생물에게도 통합니다. 사용하지 않으면, 독은 1시간 뒤에 효과를 잃습니다. 행동.'
+    },
+    {
+      title: '얼굴 바꾸기(지성 2+점)',
+      description:
+        '1시간 동안 외관과 색을 바꿔서, 당신의 정체를 숨기고 다른 사람 흉내를 낼 수 있습니다. 이는 얼굴만 영향을 주고, 몸의 다른 부분에는 영향이 없습니다. 다른 사람의 얼굴을 완벽히 복사할 수는 없지만, 그 사람을 가볍게 알고 있는 사람을 속일 정도는 됩니다. 변장과 관련한 모든 행동에 보탬을 하나 받습니다. 다른 종을 흉내내려면 한 단계 분발을 해야 합니다. 행동.',
+    },
+    {
+      title: '가변 기능',
+      description:
+        '매일 하루가 시작할 때, (공격이나 방어가 아닌) 하나의 일을 골라서 집중하게 됩니다. 그 하루 동안, 그 일에 익숙해집니다. 이미 익숙한 기능에는 쓸 수 없습니다.',
+    },
+    {
+      title: '추적자',
+      description: '모든 종류의 움직임에 보탬을 한 단계 받습니다. (등반, 수영, 도약, 균형 잡기 등) 강화.',
+    },
+    {
+      title: '무기',
+      description:
+        '소형과 중형 무기를 씁니다. 대형 무기는 난이도가 한 단계 올라갑니다.',
+    },
+  ],
+  cypherLimit: 2,
+  cyphers: [
+    {
+      title: '정신 전달기',
+      level: 5,
+      description:
+        '금속 원반. 작동시키면, 당신이 아는 누구에게나 거리의 제한 없이 단방향으로 텔레파시를 보낼 수 있습니다. 이는 50단어를 넘을 수 없습니다.',
+      used: false,
+    },
+    {
+      title: '원격 감시기',
+      level: 4,
+      description:
+        '두 부분으로 나눠진 기계. 하나는 유리 화면입니다. 4시간 동안 유리 화면은 다른 한 부분의 근처에 있는 모든 걸 보여주고, 둘 사이의 거리는 제한이 없습니다.',
+      used: false,
+    },
+  ],
+  equipments: [
+    {
+      title: '작은 공구 주머니',
+      description: '(작은 집게, 펜치, 드라이버, 작은 망치, 작은 쇠지레, 자물쇠 따는 도구, 끈 3m, 철사 1미터, 자잘한 못과 나사)',
+    },
+    {
+      title: '활과 화살 12발',
+      description: '(중형 원거리 무기)',
+    },
+    {
+      title: '대검',
+      description: '(중형 근접 무기)',
+    },
+    {
+      title: '창',
+      description: '(중형 근접 무기)',
+    },
+    {
+      title: '탐험가의 배낭',
+      description: '(밧줄 30미터 보존식 5일치, 대못 3개, 작은 망치, 튼튼한 장화, 횃불 3개, 하급 발광구 2개)',
+    },
+    {
+      title: '옷가지',
+      description: '',
+    },
+    {
+      title: '털가죽',
+      description: '(+1 장갑)',
+    },
+    {
+      title: '조용한 신발',
+      description: '(비밀스러운 움직임과 관련된 굴림에 항상 보탬을 받습니다)',
+    },
+    {
+      title: '신기품: 안에 초록 거품이 움직이는 단단하고 투명한 신스 정육면체',
+      description: '(+1 장갑)',
+    },
+  ],
+  shins: 5,
+  artifacts: [],
+  oddities: [],
+  background: `당신은 자주 고독하다고 느꼈습니다, 큰 도시보다 야생이 더 편안했습니다. 추적과 변장 기술은 현상금 사냥꾼으로 일감을 찾기 쉽게 해주었고, 도적이나 다른 범죄자들을 잡아 보수를 받았습니다. 이제는 이 모험가 무리와 함께 하고 있는데, 살면서 처음으로 자신이 아닌 누군가에게 의지해도 될 것 같다는 기분을 느꼈습니다. 이게 여러분이 친구라는 뜻일까요?
+  당신은 우연히 나비드를 위험하진 않은 함정으로 사로 잡았는데-이 사람들과 함께 다니기 시작한 계기였습니다- 자유롭게 풀어줬습니다. 나비드는 이게 꽤 웃기다고 생각했는지, 당신에게 그때 일로 농담을 하곤 합니다.
+  로빈은 마음을 읽을 수 있다고 농담을 한 적이 있습니다. 그게 순전히 농담이라고 확신할 수는 없어서, 로빈 근처에 갈 때에는 생각조차 지키려고 노력하긴 합니다.`,
+  notes: '',
+  image: '',
+};
+---
+
+<SheetLayout frontmatter={frontmatter} headings={[]}>
+  <main class="flex flex-col w-full max-w-6xl mx-auto gap-16">
+    <CharacterSheet character={ARKUS} />
+    <CharacterSheet character={DELVE} />
+    <CharacterSheet character={GLAVE} />
+    <CharacterSheet character={NANO} />
+    <CharacterSheet character={WRIGHT} />
+    <CharacterSheet character={JACK} />
+  </main>
+</SheetLayout>

@@ -15,11 +15,11 @@ const published = posts.filter((post) => post.frontmatter.publish);
   headings={[]}
 >
   {
-    published.map((post) => (
+    published.sort((a,b) => Number(new Date(b.frontmatter.createdAt)) - Number(new Date(a.frontmatter.createdAt))).map((post) => (
       <li class="w-fit p-4 rounded-lg border-2 border-orange-300 list-none shadow-xl hover:shadow-2xl transition-shadow duration-300">
         <a href={post.url} class="no-underline">
           <h3 class="mt-0">{post.frontmatter.title}</h3>
-          <p>{new Date(post.frontmatter.createdAt).toLocaleString()}</p>
+          <p>{new Date(post.frontmatter.createdAt).toLocaleDateString()}</p>
           <p>{post.frontmatter.description}</p>
         </a>
       </li>

@@ -713,6 +713,16 @@ cycle. If Valleris the Nano uses an esotery on an
 opponent that hinders its defenses for one round,
 the effect lasts until Valleris acts on his next turn.
 
+> Special abilities you get
+from being a Glaive are
+called fighting moves.
+Nanos have esoteries,
+Jacks have tricks of
+the trade, Arkai have
+precepts, Delves have
+Delve lores, and Wrights
+have inspired techniques.
+
 ## 상호작용
 Obviously, players can talk to each other all they
 want, and at least some of that conversation

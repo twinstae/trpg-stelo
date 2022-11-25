@@ -62,11 +62,11 @@ h6 {
 	line-height: 1;
 }
 
-:is(h2, h3):not(:first-child) {
+.layout :is(h2, h3):not(:first-child) {
 	margin-top: 3rem;
 }
 
-:is(h4, h5, h6):not(:first-child) {
+.layout :is(h4, h5, h6):not(:first-child) {
 	margin-top: 2rem;
 }
 
