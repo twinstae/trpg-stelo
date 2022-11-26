@@ -1186,32 +1186,31 @@ in the Ninth World the GM wants the next
 session to take place). If there is a secondary
 effect, roll on the following table or tables to see
 what happens.
-MINOR SECONDARY EFFECTS
-1–4 The PCs feel uncomfortably hot
-during the teleport
-5–8 The PCs feel uncomfortably cold
-during the teleport
-9–12 The PCs arrive with discolored flesh,
-lasting 1d6 days
-13–16 The PCs have strange nightmares for
-1d6 days
-17–20 The PCs’ hair thins or falls out for
-1d6 days
-MAJOR SECONDARY EFFECTS
-1–4 Inflicts 4 points of Might damage
-from flawed cell reassembly
-5–8 Triggers a random cypher held by
-each PC
-9–12 Radiation damage to eyes hinders
-sight-based tasks for 1d6 days
-13–16 Violently shakes the ground
-17–20 Hinders Might tasks for 1d6 days
 
-## WRAPPING THINGS UP
-Congratulate the players on a job well done!
-If the PCs patched together a teleporter and used it, award each player 1 XP.
+### 약한 부작용
 
-### RANDOM CYPHERS
+|       |                                                        |
+| ----- | ------------------------------------------------------ |
+| 1–4   | The PCs feel uncomfortably hot during the teleport     |
+| 5–8   | The PCs feel uncomfortably cold during the teleport    |
+| 9–12  | The PCs arrive with discolored flesh, lasting 1d6 days |
+| 13–16 | The PCs have strange nightmares for 1d6 days           |
+| 17–20 | The PCs’ hair thins or falls out for 1d6 days          |
+
+### 강한 부작용
+
+|       |                                                                 |
+| ----- | --------------------------------------------------------------- |
+| 1–4   | Inflicts 4 points of Might damage from flawed cell reassembly   |
+| 5–8   | Triggers a random cypher held by each PC                        |
+| 9–12  | Radiation damage to eyes hinders sight-based tasks for 1d6 days |
+| 13–16 | Violently shakes the ground                                     |
+| 17–20 | Hinders Might tasks for 1d6 days                                |
+
+## 정리하기
+플레이어들이 멋지게 해낸 걸 축하합시다! 순간이동기를 고치고 사용한 PC 각각에게 경험치 1점을 줍니다.
+
+## 무작위 사이퍼
 The PCs have several opportunities to acquire new cyphers in this adventure. Choose cyphers from
 this list or roll randomly to determine what the PCs get.
 1 Density Nodule: A level 3 yellow crystal surrounded by thick metal wires. When attached
@@ -1246,7 +1245,7 @@ the cypher’s level.
 touched to the user’s skin, it forms an articulated carapace-like protective barrier for 28
 hours that provides Armor equal to the cypher’s level against cold damage.
 
-### RANDOM IOTUM
+## 무작위 아이오툼
 If the PCs salvage a cypher, roll once on this table. Reroll if the level of the cypher the PCs are
 salvaging is less than the minimum level of the iotum on the table.
 Roll Iotum Minimum Cypher Level

@@ -1,9 +1,5 @@
 ---
 import MainLayout from '../../layouts/MainLayout.astro';
-
-const posts = await Astro.glob('./**/*.md');
-
-const published = posts.filter((post) => post.frontmatter.publish);
 ---
 
 <MainLayout
@@ -14,15 +10,46 @@ const published = posts.filter((post) => post.frontmatter.publish);
   }}
   headings={[]}
 >
-  {
-    published.sort((a,b) => Number(new Date(b.frontmatter.createdAt)) - Number(new Date(a.frontmatter.createdAt))).map((post) => (
-      <li class="w-fit p-4 rounded-lg border-2 border-orange-300 list-none shadow-xl hover:shadow-2xl transition-shadow duration-300">
-        <a href={post.url} class="no-underline">
-          <h3 class="mt-0">{post.frontmatter.title}</h3>
-          <p>{new Date(post.frontmatter.createdAt).toLocaleDateString()}</p>
-          <p>{post.frontmatter.description}</p>
-        </a>
-      </li>
-    ))
-  }
+  <article class="card w-96 bg-base-100 border-2 border-base-300 shadow-2xl m-auto">
+    <figure>
+      <img
+        src="http://numenera.com/wp-content/uploads/2017/08/Into-the-Night-1-Lee-Smith.jpg"
+      />
+    </figure>
+    <div class="card-body">
+      <img
+        src="https://cdn.masto.host/dicecamp/accounts/avatars/109/299/937/813/993/787/original/532f575e5afc147e.jpg"
+        class="w-32 rounded-full absolute top-40"
+      />
+      <h2 style="margin-top: 1rem !important;">스텔로</h2>
+      <p>
+        서로 다른 이들이 갈등을 풀어나가고, 신기한 걸 발견하는 이야기를
+        좋아합니다. 던전월드로 시작해서, 지금은 <span
+        class="tooltip hover:tooltip-open tooltip-top"
+        data-tip="Destiny is, in a way, a light at the end of a long, dark tunnel. The Ninth World is a dark, dangerous place, but those brave enough and capable enough can overcome the challenges that come and move the world—or at least their little corner of it—into a brighter future.- Numenera : Destiny"
+      >
+        <em>누메네라</em>
+      </span>를 주로 하고
+        있습니다.
+        <div
+          class="tooltip hover:tooltip-open tooltip-top"
+          data-tip="여성, 흑인, 장애인, 이주민, 동성애자, 트랜스젠더, 비건, 동물 등 약자, 소수자를 차별하거나 혐오하는 분은 뒤로가기를 눌러주세요."
+        >
+          <p class="underline">모든 불평등에 반대합니다.</p>
+        </div>
+      </p>
+      <div class="flex flex-wrap gap-2 justify-end">
+        <li class="badge badge-outline">누메네라</li>
+        <li class="badge badge-outline">크툴루 컨피덴셜</li>
+        <div
+          class="tooltip hover:tooltip-open tooltip-top"
+          data-tip="13시대, 페이트 코어, 아포칼립스 월드, 던전월드, 밤의 마녀들, 크툴루의 부름, 겁스, 포도원의 파수견"
+        >
+          <li class="badge badge-outline">등등...</li>
+        </div>
+        <li class="badge badge-outline">마스터 / 플레이어</li>
+        <li class="badge badge-outline">롤20 텍스트</li>
+      </div>
+    </div>
+  </article>
 </MainLayout>

@@ -40,7 +40,7 @@ publish: false
 
 ### 재능
 
-비록 역량이 특성치의 기본 단위이긴 하지만, 재능 역시 중요합니다. 무언가 특성치 역량에서 점수를 소비하길 요구할 때, 그 특성치의 재능은 비용을 낮춰줍니다. 이는 굴림에 분발을 할 때 드는 비용도 낮춥니다.
+비록 역량이 특성치의 기본 단위이긴 하지만, 재능 역시 중요합니다. 무언가 특성치 역량에서 점수를 소비하길 요구할 때, 그 특성치의 재능은 비용을 낮춰줍니다. 이는 판정에 분발을 할 때 드는 비용도 낮춥니다.
 
 예를 들어 정신 블래스트 능력이 있는데, 이를 발동시키려면 지성 역량에서 1점을 소비해야 한다고 합시다. 비용에서 지성 역량을 빼고, 그 결과가 정신 블래스트를 사용하는데 써야 하는 점수가 됩니다. 만약에 재능이 비용을 0으로 낮춘다면, 그 능력을 공짜로 쓸 수 있습니다.
 
@@ -50,13 +50,13 @@ publish: false
 
 ### 분발
 
-여러분의 캐릭터가 정말 해내야 하는 일이 있을 때, 분발을 할 수 있습니다. 시작하는 캐릭터에게는, 분발하려면 그 행동에 적절한 특성치 역량에서 3점을 써야 합니다. 그래서, 공격을 피하려 한다면(속력 굴림) 그리고 성공할 확률을 높이고 싶다면, 속력 역량에서 3점을 써서 분발을 할 수 있습니다. 분발은 일의 난이도를 한 단계 낮춥니다. 이를 한 단계 분발을 한다고 부릅니다.
+여러분의 캐릭터가 정말 해내야 하는 일이 있을 때, 분발을 할 수 있습니다. 시작하는 캐릭터에게는, 분발하려면 그 행동에 적절한 특성치 역량에서 3점을 써야 합니다. 그래서, 공격을 피하려 한다면(속력 판정) 그리고 성공할 확률을 높이고 싶다면, 속력 역량에서 3점을 써서 분발을 할 수 있습니다. 분발은 일의 난이도를 한 단계 낮춥니다. 이를 한 단계 분발을 한다고 부릅니다.
 
-You don’t have to apply Effort if you don’t want to. If you choose to apply Effort to a task, you must do it before you attempt the roll—you can’t roll first and then decide to apply Effort if you rolled poorly.
+원하지 않으면 꼭 분발을 하지 않아도 됩니다. 일에 분발을 쓰기로 선택하면, 판정을 하기 전에 해야 합니다-먼저 판정을 하고 주사위가 안 좋게 나왔다고 분발을 쓰겠다고 결정할 수는 없습니다.
 
-Applying more Effort can lower a task’s difficulty further: each additional level of Effort eases the task by another step. Applying one level of Effort eases the task by one step, applying two levels eases the task by two steps, and so on. However, each level of Effort after the first costs only 2 points from the stat Pool instead of 3. So applying two levels of Effort costs 5 points (3 for the first level plus 2 for the second level), applying three levels costs 7 points (3 plus 2 plus 2), and so on.
+분발을 더 하면 일의 난이도를 더 낮출 수도 있습니다: 분발을 한 단계 더 할 때마다 일의 난이도도 한 단계씩 낮아집니다. 한 단계의 분발을 하면 일의 난이도는 한 단계 낮아지고, 두 단계 분발을 하면 두 단계 낮아지고, 그런 식으로 이어집니다. 하지만, 첫 분째 분발 이후에는 각 단계마다 특성치 역량에서 3점이 아니라 2점의 비용만 듭니다. 그래서 분발을 두 단계 하면 5점의 비용이 들고(첫 단계에 3, 두 번째 단계에 2), 3단계 분발을 하면 7점의 비용이 들고(3 더하기 2 더하기 2), 그런 식으로 이어집니다.
 
-Every character has an Effort score, which indicates the maximum number of levels of Effort that can be applied to a roll. A beginning (first-tier) character has an Effort of 1, meaning you can apply only one level of Effort to a roll. A more experienced character has a higher Effort score and can apply more levels of Effort to a roll. For example, a character who has an Effort of 3 can apply up to three levels of Effort to reduce a task’s difficulty.
+모든 캐릭터는 분발 점수가 있고, 한 판정에 최대 몇 단계 분발을 할 수 있는지를 나타냅니다. 시작하는 (1 등급) 캐릭터는 분발이 1이고, 한 판정에 한 단계 분발을 할 수 있다는 뜻입니다. 더 경험이 많은 캐릭터는 더 높은 분발 점수를 가지고 있고 한 판정에 더 많은 단계의 분발을 할 수 있습니다. 예를 들어, 분발이 3인 캐릭터는 일의 난이도를 낮추기 위해 3단계의 분발을 할 수 있습니다.
 
 When you apply Effort, subtract your relevant Edge from the total cost of applying Effort. For example, let’s say you need to make a Speed roll. To increase your chance for success, you decide to apply one level of Effort, which will ease the task. Normally, that would cost 3 points from your Speed Pool. However, you have a Speed Edge of 2, so you subtract that from the cost. Thus, applying Effort to the roll costs only 1 point from your Speed Pool.
 
@@ -178,13 +178,13 @@ If you gain a special ability through your type, your focus, or some other aspec
 
 In most campaigns, fluency in a language is considered a skill. So if you want to speak French, that’s the same as being trained in biology or swimming.
 
-## 방어 행동
-Defense tasks are when a player makes a roll to keep something undesirable from happening to their PC. The type of defense task matters when using Effort.
+## 방어
+방어는 뭔가 PC에게 바라지 않는 일이 일어나지 않도록 판정을 하는 것입니다. 방어의 유형은 어떤 분발을 할지와 관련 있습니다.
 
-**Might defense**: Used for resisting poison, disease, and anything else that can be overcome with strength and health.
+**힘 방어**: 독이나 질병 그리고 힘이나 건강으로 저항하는 모든 다른 것에 쓰입니다.
 
-**Speed defense**: Used for dodging attacks and escaping danger. This is by far the most commonly used defense task.
+**속력 방어**: 공격을 피하거나 위험에서 벗어나는데 쓰입니다. 가장 많이 쓰이는 방어입니다.
 
-**Intellect defense**: Used for fending off mental attacks or anything that might affect or influence one’s mind.
+**지성 방어**: 정신 공격이나 누군가의 정신에 영향을 줄 수 있는 모든 것에 쓰입니다.
 
 [^역주1]: 역주1. 예를 들어 코끼리와 자그마한 생쥐가 있다면. 똑같이 힘이 10일 수는 없습니다. 힘이 상대적인 수치라면 힘이 10인 쥐보다 힘이 10인 코끼리가 훨씬 강할 겁니다. 하지만 힘은 절대적이기 때문에, 코끼리랑 같은 힘을 가진 쥐는 존재하지 않을 겁니다. (물론 물리법칙을 무시하는 마법과 유전자 조작이 없다면...)

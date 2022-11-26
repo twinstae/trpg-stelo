@@ -15,7 +15,7 @@ createdAt: "2022-11-17T07:31:02.290Z"
 1. 마스터는 이 행동이 일상적인지 (그래서 주사위를 굴리지 않아도 되는지) 아니면 실패할 가능성이 있는지 정합니다.
 1. 만약 실패할 가능성이 있다면, 마스터는 이 일이 어떤 특성(힘, 속력, 또는 지성)을 사용하는지 정하고 1(매우 쉬움)부터 10(보통 불가능)의 척도 사이에서 얼마나 어려운지 정합니다.
 1. 플레이어와 마스터는 캐릭터의 무엇이던-익숙함, 장비, 특수 능력, 혹은 다양한 행동- 난이도를 한 단계 혹은 그 이상을 높이거나 낮추도록 조정할 수 있는지 정합니다. 난이도를 한 단계 낮추는 건 완화한다 하고, 난이도를 한 단계 높이는 건 방해한다 합니다. 만약 조정으로 난이도를 1보다 낮게 낮춘다면, 그 행동은 일상적인 일이 됩니다. (그렇기 때문에 주사위를 굴릴 필요가 없습니다.)
-1. 만약 여전히 행동이 일상적이지 않다면, 마스터는 난이도를 가지고 목표치-플레이어가 성공하기 위해서 굴려서 얼마가 나와야 하는지-가 얼마나 높은지를 정합니다. ([일의 난이도 표](#일의-난이도)를 보십시오.) 목표치는 언제나 그 일의 난이도의 3배라서, 난이도 4인 일은 목표치가 12입니다. 성공하려면 주사위를 굴려서 목표치보다 같거나 더 높은 숫자가 나와야 합니다. 마스터는 플레이어에게 목표치가 얼마인지 말해줄 필요는 없지만, 힌트를 줄 수는 있습니다, 특히 캐릭터가 그 행동이 쉬운지 평균적인지, 어려운지 혹은 불가능한지 아는 것이 말이 되는 경우에는 그렇습니다.
+1. 만약 여전히 행동이 일상적이지 않다면, 마스터는 난이도를 가지고 목표치-플레이어가 성공하기 위해서 굴려서 얼마가 나와야 하는지-가 얼마나 높은지를 정합니다. ([일 난이도 표](#일-난이도-표)를 보십시오.) 목표치는 언제나 그 일의 난이도의 3배라서, 난이도 4인 일은 목표치가 12입니다. 성공하려면 주사위를 굴려서 목표치보다 같거나 더 높은 숫자가 나와야 합니다. 마스터는 플레이어에게 목표치가 얼마인지 말해줄 필요는 없지만, 힌트를 줄 수는 있습니다, 특히 캐릭터가 그 행동이 쉬운지 평균적인지, 어려운지 혹은 불가능한지 아는 것이 말이 되는 경우에는 그렇습니다.
 1. 플레이어는 d20을 굴립니다. 만약 굴려서 목표치와 같거나 더 높게 나오면, 그 캐릭터는 성공합니다.
 
 이게 전부입니다. 이게 신기한 기계를 알아보는 것이든, 술 취한 난동꾼을 진정시키는 것이든, 믿을 수 없는 절벽을 등반하던, 사나운 바위벌레와 싸우는 일이든, 무엇이든 하는 방법입니다. 다른 모든 규칙을 무시하더라도, 이것만 가지고도 누메네라를 플레이할 수 있습니다.
@@ -24,61 +24,29 @@ createdAt: "2022-11-17T07:31:02.290Z"
 
 ## 행동하기
 
-각 캐릭터는 각 *라운드*마다 한 차례를 받습니다. 캐릭터의 차례가 되면, 한 가지- *행동* 하나를 할 수 있습니다. 모든 행동은 세 가지 범주로 나눠집니다. 힘, 속력, 그리고 지성 (세 가지 특성과 마찬가지) 입니다.  많은 행동은 주사위를 굴려야 합니다. (d20을 굴립니다) 모든 행동은 *일*을 하는 것이고, 모든 일은 캐릭터가 성공하기 위해서 주사위를 굴려서 몇얼마를 넘어야 하는지 결정하는 *난이도*를 가지고 있습니다. 대부분의 일은 난이도가 0이며, 이는 캐릭터가 자동으로 성공한다는 뜻입니다. 예를 들어, 방을 가로질러 걸어가거나, 문을 열거나, 무언가를 바닥에서 집거나, 돌을 근처의 바구니에 집어 던지는 것은 모두 행동이지만, 무엇도 굴림을 요구하지 않습니다. 보통 상황 (눈보라 속에서 목표를 쏘는 것 같은) 때문에 어렵거나 어려워지는 행동은 높은 난이도를 가집니다. 이런 행동은 보통 굴림이 필요합니다.
+각 캐릭터는 각 *라운드*마다 한 차례를 받습니다. 캐릭터의 차례가 되면, 한 가지- *행동* 하나를 할 수 있습니다. 모든 행동은 세 가지 범주로 나눠집니다. 힘, 속력, 그리고 지성 (세 가지 특성과 마찬가지) 입니다.  많은 행동은 주사위를 굴려야 합니다. (d20을 굴립니다) 모든 행동은 *일*을 하는 것이고, 모든 일은 캐릭터가 성공하기 위해서 주사위를 굴려서 몇얼마를 넘어야 하는지 결정하는 *난이도*를 가지고 있습니다. 대부분의 일은 난이도가 0이며, 이는 캐릭터가 자동으로 성공한다는 뜻입니다. 예를 들어, 방을 가로질러 걸어가거나, 문을 열거나, 무언가를 바닥에서 집거나, 돌을 근처의 바구니에 집어 던지는 것은 모두 행동이지만, 무엇도 판정을 요구하지 않습니다. 보통 상황 (눈보라 속에서 목표를 쏘는 것 같은) 때문에 어렵거나 어려워지는 행동은 높은 난이도를 가집니다. 이런 행동은 보통 판정이 필요합니다.
 
 ### 언제 주사위를 굴리나?
-Any time your character attempts a task, the GM
-assigns a difficulty to that task, and you roll a d20
-against the associated target number.
-When you jump from a burning vehicle, swing
-a battleaxe at a mutant beast, swim across a
-raging river, identify a strange device, convince
-a merchant to give you a lower price, craft an
-object, use a power to control a foe’s mind, or
-use a heat-beam emitter to carve a hole in a wall,
-you make a d20 roll.
-However, if you attempt something that
-has a difficulty of 0, no roll is needed—you
-automatically succeed. Many actions have a
-difficulty of 0. Examples include walking across
-the room and opening a door, using a special
-ability to negate gravity so you can fly, using an
-ability to protect your friend from radiation, or
-activating a device (that you already understand)
-to erect a force field. These are all routine actions
-and don’t require rolls.
-Using skill, assets, and Effort, you can
-decrease the difficulty of potentially any task to
-0 and thus negate the need for a roll. Walking
-across a narrow wooden beam is tricky for most
-people, but for an experienced gymnast, it’s
-routine. You can even decrease the difficulty
-of an attack on a foe to 0 and succeed without
-rolling. If there’s no roll, there’s no chance for
-failure. However, there’s also no chance for
-remarkable success (in Numenera, that usually
-means rolling a 19 or 20; see Special Rolls,
-page 28).
+캐릭터가 언제든 일을 시도할 때마다, 마스터는 그 일에 난이도를 정하고, d20을 굴려서 해당하는 목표치를 넘는지 봅니다. 불타는 탈것에서 뛰어내릴 때, 전투도끼를 돌연변이 짐승에게 휘두를 때, 맹렬하게 흐르는 강을 가로질러 수영할 때, 이상한 기계를 판별할 때, 상인에게 가격을 깎아달라고 할 때, 물건을 만들 때, 적의 정신을 지배하는 힘을 쓸 때, 열 광선 방출기로 벽에 구멍을 뚫을 때, 20면체를 굴려야 합니다.
+
+하지만 난이도가 이미 0인 걸 시도한다면, 판정이 필요 없고-자동으로 성공합니다. 많은 행동은 난이도가 0입니다.  예를 들어 방을 가로질러 걷거나, 문을 열거나, 특수 능력을 이용해 중력을 무효화시켜 날거나, 능력을 써서 방사선으로부터 친구를 지키거나, (이미 이해하고 있는) 기계를 작동시키거나, 역장을 세우는 등입니다. 이들은 모두 일상적인 행동이고 판정을 요구하지 않습니다.
+
+기능, 보탬, 그리고 분발을 사용해서, 어떤 일의 난이도라도 0으로 떨어트릴 수 있고 주사위 판정의 필요성을 무효화시킬 수 있습니다. 얇은 나무 들보 위를 걷는 건 대부분의 사람들에게 까다롭겠지만, 경험 많은 체조 선수에게는, 일상입니다. 심지어 적에 대한 공격의 난이도 역시 0으로 만들어서 판정 없이 성공할 수 있습니다. 판정이 없으면, 실패의 가능성도 없습니다. 하지만 마찬가지로 눈에 띄는 성공의 기회도 없습니다. (누메네라에서 이는 보통 굴려서 19나 20이 나오는 걸 뜻합니다. [특수 효과](#특수-효과)를 보십시오.)
 
 ### 일의 특성치 정하기
-Every task relates to one of a character’s three
-stats: Might, Speed, or Intellect. Physical
-activities that require strength, power, or
-endurance relate to Might. Physical activities
-that require agility, flexibility, or fast reflexes
-relate to Speed. Mental activities that require
-force of will, memory, or mental power relate to
-Intellect. This means you can generalize tasks
-into three categories: Might tasks, Speed tasks,
-and Intellect tasks. You can also generalize rolls
-into three categories: Might rolls, Speed rolls,
-and Intellect rolls. The category of the task or roll
-determines what kind of Effort you can apply to
-the roll.
+모든 일은 캐릭터의 세 가지 특성 중 하나에 연관됩니다: 힘, 속력, 혹은 지성입니다.
+
+근력이나 힘, 혹은 지구력을 요하는 물리적 활동은 힘과 연관됩니다.
+
+기민함, 유연함, 혹은 빠른 반응을 요하는 일은 속력과 연관됩니다.
+
+의지력이나 기억, 정신력을 요하는 정신적 활동은 지성과 연관됩니다.
+
+이는 일을 세 가지 범주로 일반화할 수 있다는 뜻입니다: 힘 행동, 속력 행동, 그리고 지성 행동입니다. 마찬가지로 판정 역시 세 가지 범주로 일반화할 수 있습니다: 힘 판정, 속력 판정, 그리고 지성 판정입니다. 일이나 판정의 범주는 그 판정에 어떤 분발을 해야 하는지 결정합니다.
 
 <div class="difficulty-table card">
   
-  ### 일의 난이도
+  ### 일 난이도 표
 
   <table
     class="table table-compact table-zebra"
@@ -125,77 +93,29 @@ the roll.
 </div>
 
 ### 일의 난이도 정하기
-The most frequent thing a GM does during
-the game—and probably the most important
-thing—is setting a task’s difficulty. To make the
-job easier, use the Task Difficulty table, which
-associates difficulty rating with a descriptive
-name, a target number, and general guidance
-about the difficulty.
-Every difficulty from 1 to 10 has a target
-number associated with it. The target number
-is easy to remember: it’s always three times the
-difficulty. The target number is the minimum
-number a player needs to roll on a d20 to
-succeed at the task. Moving up or down on the
-table is called hindering or easing the difficulty,
-which is measured in steps. For example,
-reducing a difficulty 5 task to a difficulty 4 task is
-“easing the task by one step.”
-Modifiers affect the difficulty rather than the
-player’s roll. This has two consequences:
-1. Low target numbers such as 3 or 6, which
-would be boring in most games that use a d20,
-are not boring in Numenera. For example, if you
-need to roll a 6 or higher, you still have a 25%
-chance to fail.
-2. The upper levels of difficulty (7, 8, 9, and 10) are all but impossible because the target
-numbers are 21 or higher, which you can’t roll on a d20. However, it’s common for PCs to have
-abilities or equipment that ease a task and thus
-lower the target number to something they can
-roll on a d20.
-When setting the difficulty of a task, the GM
-should rate the task on its own merits, not on
-the power of the characters. Difficulty is not
-relative. A level 4 locked door is the same no
-matter who tries to open it.
+게임을 하는 동안 마스터가 가장 자주 하는 일은-그리고 아마도 가장 중요한 일은- 일의 난이도를 정하는 것입니다. 이 일을 쉽게 하기 위해, 난이도 점수를 해당하는 설명적인 이름과 목표치, 그리고 난이도에 대한 일반적인 조언과 연결해주는 [일 난이도 표](#일-난이도-표)를 사용하십시오.
+
+모든 난이도는 1부터 10까지이며 해당하는목표치가 있습니다. 목표치는 외우기 쉽습니다: 항상 난이도에 3을 곱한 값입니다. 목표치는 일에서 성공하기 위해 d20을 굴려서 나와야 하는 최솟값입니다. 표 위에서 위나 아래로 움직이는 걸 난이도를 올리거나 낮춘다고 하고, 이는 단계로 측정합니다. 예를 들어 난이도 5짜리 일을 난이도 4짜리 일로 떨어트리는 것은 "난이도를 한 단계 낮춘다"고 합니다.
+
+수정치는 캐릭터의 굴림이 아니라 난이도에 영향을 줍니다. 이는 두 가지 귀결로 이어집니다.
+
+1. 3이나 6 같은 낮은 목표치는 d20을 쓰는 게임에서 보통 지루하지만, 누메네라에서는 아닙니다. 예를 들어, 6이나 그 이상을 굴려야 한다면, 실패할 가능성이 여전히 25%나 됩니다.
+2. 높은 단계의 난이도들 (7, 8, 9, 그리고 10)은 목표치가 21이나 그 이상이라 d20을 굴려서 나올 수 없어 불가능합니다. 하지만, PC가 능력이나 장비로 일의 난이도를 낮춰서 목표치를 d20으로 굴려서 나올 수 있는 값으로 낮추는 일은 흔합니다.
+
+난이도를 정할 때에는 캐릭터의 능력보다는 일 자체로 얻는 이득을 따라서 정해야 합니다. 난이도는 상대적이지 않습니다. 레벨4 짜리 잠긴 문은 누가 열려고 시도하더라도 여전히 똑같습니다.
 
 ### 난이도 조정하기
-Character skills, favorable circumstances, or
-excellent equipment can decrease the difficulty
-of a task. For example, if a character is trained
-in climbing, they turn a difficulty 6 climb into a
-difficulty 5 climb. This is called “easing the task
-by one step.” If they’re specialized in climbing,
-they turn a difficulty 6 climb into a difficulty 4
-climb. This is called “easing the task by two
-steps.”
-A skill is a category of knowledge, ability, or
-activity relating to a task, such as climbing,
-geography, or persuasiveness. A character who
-has a skill is better at completing related tasks
-than a character who lacks the skill. A character’s
-level of skill is either trained (reasonably skilled)
-or specialized (very skilled).
-If you are trained in a skill relating to a
-task, you ease that task by one step. If you are
-specialized, you ease it by two steps. A skill can
-never decrease a task’s difficulty by more than
-two steps.
-Anything else that eases a task (help from an
-ally, a particular piece of equipment, or some
-other advantage) is referred to as an asset. Assets
-can never ease a task by more than two steps.
-You can also ease a given task by applying
-Effort. This costs 3 points from the relevant stat
-Pool, minus any Edge. Using Effort eases a task
-by one step.
+캐릭터의 기능들, 우호적인 상황, 혹은 탁월한 장비는 일의 난이도를 낮출 수 있습니다.
 
+Character skills, favorable circumstances, or excellent equipment can decrease the difficulty of a task. For example, if a character is trained in climbing, they turn a difficulty 6 climb into a difficulty 5 climb. This is called “easing the task by one step.” If they’re specialized in climbing, they turn a difficulty 6 climb into a difficulty 4 climb. This is called “easing the task by two steps.”
 
-To sum up, three things can ease a task’s
-difficulty: skills, assets, and Effort. If you can
-decrease a task’s difficulty to 0, you automatically
-succeed and don’t need to make a roll.
+A skill is a category of knowledge, ability, or activity relating to a task, such as climbing, geography, or persuasiveness. A character who has a skill is better at completing related tasks than a character who lacks the skill. A character’s level of skill is either trained (reasonably skilled) or specialized (very skilled).
+
+If you are trained in a skill relating to a task, you ease that task by one step. If you are specialized, you ease it by two steps. A skill can never decrease a task’s difficulty by more than two steps.
+
+Anything else that eases a task (help from an ally, a particular piece of equipment, or some other advantage) is referred to as an asset. Assets can never ease a task by more than two steps. You can also ease a given task by applying Effort. This costs 3 points from the relevant stat Pool, minus any Edge. Using Effort eases a task by one step.
+
+To sum up, three things can ease a task’s difficulty: skills, assets, and Effort. If you can decrease a task’s difficulty to 0, you automatically succeed and don’t need to make a roll.
 
 ## 전투
 Making an attack in combat works the same way as any other roll: the GM assigns a difficulty to the task, and you roll a d20 against the associated target number.
