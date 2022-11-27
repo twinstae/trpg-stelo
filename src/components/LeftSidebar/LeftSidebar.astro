@@ -12,20 +12,37 @@ const langCode = getLanguageFromURL(currentPage);
 const sidebar = SIDEBAR[langCode];
 ---
 
-<nav aria-labelledby="grid-left">
+<nav aria-labelledby="grid-left" class="fixed top-10 max-w-fit">
   <ul class="nav-groups">
     <NavLink link="ko/welcome" text="입구" />
     <br />
     {
       Object.entries(sidebar).map(([header, children], index) => (
-        <li>
+        <li class="focus-within:border-2 border-primary rounded-lg m-0">
           <div class="nav-group">
-            <h2 id={'nav-group-header-'+index}>{header}</h2>
-            <ul aria-labelledby={'nav-group-header-'+index}>
-              {children.map((child) => (
-                <NavLink {...child} />
-              ))}
-            </ul>
+            <div class="collapse collapse-arrow">
+              <input id={'nav-group-checkbox-'+index} type="checkbox" onchange={`
+                const links = document.getElementById('nav-group-list-' + ${index})
+                  .getElementsByTagName('a');
+
+                const tabindex = event.target.checked ? 0 : -1;
+                Array.from(links).forEach(link => {
+                  link.setAttribute('tabindex', tabindex);
+                });
+              `} checked={index === 1} />
+              <div class="collapse-title">
+                <label for={'nav-group-checkbox-'+index} class="w-full cursor-pointer">
+                  <h2 id={'nav-group-header-' + index} class="mb-0">{header}</h2>
+                </label>
+              </div>
+              <div class="collapse-content">
+                <ul id={'nav-group-list-' + index} aria-labelledby={'nav-group-header-' + index}>
+                  {children.map((child) => (
+                    <NavLink {...child} />
+                  ))}
+                </ul>
+              </div>
+            </div>
           </div>
         </li>
       ))
@@ -81,5 +98,9 @@ const sidebar = SIDEBAR[langCode];
     .nav-groups {
       padding: 0;
     }
+  }
+
+  li {
+    padding-bottom: 0 !important;
   }
 </style>

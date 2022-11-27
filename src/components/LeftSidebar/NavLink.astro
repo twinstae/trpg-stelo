@@ -15,7 +15,7 @@ const url = Astro.site?.pathname + props.link;
 ---
 
 <li class="nav-link">
-  <a href={url} aria-current={currentPageMatch === props.link ? 'page' : false}>
+  <a href={url} aria-current={currentPageMatch === props.link ? 'page' : false} tabindex="-1">
     {props.text}
   </a>
 </li>
