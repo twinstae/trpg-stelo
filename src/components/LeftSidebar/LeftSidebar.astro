@@ -29,7 +29,7 @@ const sidebar = SIDEBAR[langCode];
                 Array.from(links).forEach(link => {
                   link.setAttribute('tabindex', tabindex);
                 });
-              `} checked={index === 1} />
+              `} checked={!children.every(child => '/'+child.link !== Astro.url.pathname)}/>
               <div class="collapse-title">
                 <label for={'nav-group-checkbox-'+index} class="w-full cursor-pointer">
                   <h2 id={'nav-group-header-' + index} class="mb-0">{header}</h2>
