@@ -12,7 +12,7 @@ createdAt: "2022-11-17T07:31:02.290Z"
   ## 크레딧
   <br>
   <div class="flex flex-row">
-    <ul class="w-1/2 text-right font-bold list-none">
+    <ul class="w-1/2 text-right font-bold">
       <li>디자이너</li>
       <li>크리에이티브 디렉터</li>
       <li>매니징 에디터</li>
@@ -21,7 +21,7 @@ createdAt: "2022-11-17T07:31:02.290Z"
       <li>그래픽 디자이너</li>
       <li>한국어 번역</li>
     </ul>
-    <ul class="w-1/2 text-left list-none">
+    <ul class="w-1/2 text-left">
       <li><a href="https://www.montecookgames.com/author/sean-k-reynolds/">Sean K. Reynolds</a></li>
       <li><a href="https://www.montecookgames.com/author/monte-cook/">Monte Cook</a></li>
       <li><a href="https://www.montecookgames.com/author/shanna-germain/">Shanna Germain</a></li>

@@ -377,6 +377,10 @@ table tr td {
   list-style: disc;
 }
 
+.content blockquote ul {
+	list-style: none;
+}
+
 .highlight-box {
 	@apply border-primary p-4 border-y-2;
 	background-image: linear-gradient(0.25turn, hsl(var(--b1)), hsl(var(--p) / 0.3), hsl(var(--p) / 0.3), hsl(var(--p) / 0.3), hsl(var(--b1)));
