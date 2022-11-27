@@ -23,12 +23,12 @@ createdAt: "2022-11-17T07:31:02.290Z"
     </ul>
     <ul class="w-1/2 text-left">
       <li><a href="https://www.montecookgames.com/author/sean-k-reynolds/">Sean K. Reynolds</a></li>
-      <li><a herf="https://www.montecookgames.com/author/monte-cook/">Monte Cook</a></li>
-      <li><a herf="https://www.montecookgames.com/author/shanna-germain/">Shanna Germain</a></li>
-      <li><a herf="https://www.montecookgames.com/author/tammie-ryan/">Tammie Webb Ryan</a></li>
+      <li><a href="https://www.montecookgames.com/author/monte-cook/">Monte Cook</a></li>
+      <li><a href="https://www.montecookgames.com/author/shanna-germain/">Shanna Germain</a></li>
+      <li><a href="https://www.montecookgames.com/author/tammie-ryan/">Tammie Webb Ryan</a></li>
       <li><a href="https://fedemusettiart.artstation.com/">Federico Musetti</a></li>
-      <li><a herf="https://www.montecookgames.com/author/bear-weiter/">Bear Weiter</a></li>
-      <li><a href="https://twitter.com/stelo_trpg">Taehee Kim</a></li>
+      <li><a href="https://www.montecookgames.com/author/bear-weiter/">Bear Weiter</a></li>
+      <li><a href="https://dice.camp/@stelo">Taehee Kim</a></li>
     </ul>
   </div>
 
