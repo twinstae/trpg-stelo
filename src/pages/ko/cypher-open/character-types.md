@@ -45,28 +45,28 @@ Advanced Warriors: As warriors advance, their skill in battle—whether defendin
 ### Warrior Background Connection
 Your type helps determine the connection you have to the setting. Roll a d20 or choose from the following list to determine a specific fact about your background that provides a connection to the rest of the world. You can also create your own fact.
 
-| d20 | Background                                                                                                                                       |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1   | You were in the military and have friends who still serve. <br /> Your former commander remembers you well.                                      |  |
-| 2   | You were the bodyguard of a wealthy woman who accused you of theft. <br />You left her service in disgrace.                                      |
-| 3   | You were the bouncer in a local bar for a while, <br />and the patrons there remember you.                                                       |
-| 4   | You trained with a highly respected mentor.<br /> They regard you well, but they have many enemies.                                              |
-| 5   | You trained in an isolated monastery. <br />The monks think of you as a brother, but you’re a stranger to all others.                            |
-| 6   | You have no formal training. Your abilities come to you naturally (or unnaturally).                                                              |
-| 7   | You spent time on the streets and were in prison for a while.                                                                                    |
-| 8   | You were conscripted into military service, but you deserted before long.                                                                        |
-| 9   | You served as a bodyguard to a powerful criminal who now owes you their life.                                                                    |
-| 10  | You worked as a police officer or constable of some kind. <br />Everyone knows you, but their opinions of you vary.                              |
-| 11  | Your older sibling is an infamous character who has been disgraced.                                                                              |
-| 12  | You served as a guard for someone who traveled extensively. <br />You know a smattering of people in many locations.                             |
-| 13  | Your best friend is a teacher or scholar. <br />They are a great source of knowledge.                                                            |
-| 14  | You and a friend both smoke the same kind of rare, expensive tobacco. <br />The two of you get together weekly to chat and smoke.                |
-| 15  | Your uncle runs a theater in town. <br />You know all the actors and watch all the shows for free.                                               |
-| 16  | Your craftsman friend sometimes calls on you for help. <br />However, they pay you well.                                                         |
-| 17  | Your mentor wrote a book on martial arts. <br />Sometimes people seek you out to ask about its stranger passages.                                |
-| 18  | Someone you fought alongside in the military is now the mayor of a nearby town.                                                                  |
-| 19  | You saved the lives of a family when their house burned down. <br />They’re indebted to you, and their neighbors regard you as a hero.           |
-| 20  | Your old trainer still expects you to come back and clean up after their classes; <br />when you do, they occasionally share interesting rumors. |
+| d20 | Background                                                                                                                                 |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | You were in the military and have friends who still serve.  Your former commander remembers you well.                                      |  |
+| 2   | You were the bodyguard of a wealthy woman who accused you of theft. You left her service in disgrace.                                      |
+| 3   | You were the bouncer in a local bar for a while, and the patrons there remember you.                                                       |
+| 4   | You trained with a highly respected mentor  They regard you well, but they have many enemies.                                              |
+| 5   | You trained in an isolated monastery. The monks think of you as a brother, but you’re a stranger to all others.                            |
+| 6   | You have no formal training. Your abilities come to you naturally (or unnaturally).                                                        |
+| 7   | You spent time on the streets and were in prison for a while.                                                                              |
+| 8   | You were conscripted into military service, but you deserted before long.                                                                  |
+| 9   | You served as a bodyguard to a powerful criminal who now owes you their life.                                                              |
+| 10  | You worked as a police officer or constable of some kind. Everyone knows you, but their opinions of you vary.                              |
+| 11  | Your older sibling is an infamous character who has been disgraced.                                                                        |
+| 12  | You served as a guard for someone who traveled extensively. You know a smattering of people in many locations.                             |
+| 13  | Your best friend is a teacher or scholar. They are a great source of knowledge.                                                            |
+| 14  | You and a friend both smoke the same kind of rare, expensive tobacco. The two of you get together weekly to chat and smoke.                |
+| 15  | Your uncle runs a theater in town. You know all the actors and watch all the shows for free.                                               |
+| 16  | Your craftsman friend sometimes calls on you for help. However, they pay you well.                                                         |
+| 17  | Your mentor wrote a book on martial arts. Sometimes people seek you out to ask about its stranger passages.                                |
+| 18  | Someone you fought alongside in the military is now the mayor of a nearby town.                                                            |
+| 19  | You saved the lives of a family when their house burned down. They’re indebted to you, and their neighbors regard you as a hero.           |
+| 20  | Your old trainer still expects you to come back and clean up after their classes; when you do, they occasionally share interesting rumors. |
 
 
 
@@ -223,25 +223,25 @@ Your type helps determine the connection you have to the setting. Roll a d20 or 
 
 | d20 | Background                                                                                                                                                        |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | You served as an apprentice for an Adept respected and feared by many people.<br /> Now you bear their mark.                                                            |
+| 1   | You served as an apprentice for an Adept respected and feared by many people  Now you bear their mark.                                                            |
 | 2   | You studied in a school infamous for its dark, brooding instructors and graduates.                                                                                |
-| 3   | You learned your abilities in the temple of an obscure god. <br />Its priests and worshippers, although small in number, <br />respect and admire your talents and potential. |
-| 4   | While traveling alone, you saved the life of a powerful person. <br />They remain indebted to you.                                                                      |
-| 5   | Your mother was a powerful Adept while she lived, helpful to many locals. <br />They look upon you kindly, but they also expect much from you.                          |
+| 3   | You learned your abilities in the temple of an obscure god. Its priests and worshippers, although small in number, respect and admire your talents and potential. |
+| 4   | While traveling alone, you saved the life of a powerful person. They remain indebted to you.                                                                      |
+| 5   | Your mother was a powerful Adept while she lived, helpful to many locals. They look upon you kindly, but they also expect much from you.                          |
 | 6   | You owe money to a number of people and don’t have the funds to pay your debts.                                                                                   |
-| 7   | You failed disgracefully at your initial studies <br />with your teacher and now proceed on your own.                                                                   |
-| 8   | You learned your skills faster than your teachers had ever seen before. <br />The powers that be took notice and are paying close attention.                            |
-| 9   | You killed a well-known criminal in self-defense, <br />earning the respect of many and the enmity of a dangerous few.                                                  |
-| 10  | You trained as a Warrior, <br />but your Adept predilections eventually led you down a different path. <br />Your former comrades don’t understand you, but they respect you. |
-| 11  | While studying to be an Adept, you worked as an assistant for a bank, <br />making friends with the owner and the clientele.                                            |
-| 12  | Your family owns a large vineyard nearby known to all <br />for its fine wine and fair business dealings.                                                               |
-| 13  | You trained for a time with a group of influential Adepts, <br />and they still look upon you with fondness.                                                            |
-| 14  | You worked the gardens in the palace of an influential noble or person of wealth. <br />They wouldn’t remember you, but you made friends with their young daughter.     |
-| 15  | An experiment you conducted in the past went horribly awry. <br />The locals remember you as a dangerous and foolhardy individual.                                      |
-| 16  | You hail from a distant place where you were well known and regarded, <br />but people here treat you with suspicion.                                                   |
+| 7   | You failed disgracefully at your initial studies with your teacher and now proceed on your own.                                                                   |
+| 8   | You learned your skills faster than your teachers had ever seen before. The powers that be took notice and are paying close attention.                            |
+| 9   | You killed a well-known criminal in self-defense, earning the respect of many and the enmity of a dangerous few.                                                  |
+| 10  | You trained as a Warrior, but your Adept predilections eventually led you down a different path. Your former comrades don’t understand you, but they respect you. |
+| 11  | While studying to be an Adept, you worked as an assistant for a bank, making friends with the owner and the clientele.                                            |
+| 12  | Your family owns a large vineyard nearby known to all for its fine wine and fair business dealings.                                                               |
+| 13  | You trained for a time with a group of influential Adepts, and they still look upon you with fondness.                                                            |
+| 14  | You worked the gardens in the palace of an influential noble or person of wealth. They wouldn’t remember you, but you made friends with their young daughter.     |
+| 15  | An experiment you conducted in the past went horribly awry. The locals remember you as a dangerous and foolhardy individual.                                      |
+| 16  | You hail from a distant place where you were well known and regarded, but people here treat you with suspicion.                                                   |
 | 17  | People you meet seem put off by the strange birthmark on your face.                                                                                               |
-| 18  | Your best friend is also an Adept. <br />You and your friend share discoveries and secrets readily.                                                                     |
-| 19  | You know a local merchant very well. Since you give them so much business, <br />they offer you discounts and special treatment.                                        |
+| 18  | Your best friend is also an Adept. You and your friend share discoveries and secrets readily.                                                                     |
+| 19  | You know a local merchant very well. Since you give them so much business, they offer you discounts and special treatment.                                        |
 | 20  | You belong to a secretive social club that gathers monthly to drink and talk.                                                                                     |
 
 

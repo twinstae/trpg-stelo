@@ -63,81 +63,32 @@ PC들은 고대 문명의 알 수 없는 존재에게 버려진 기지를 탐험
 ## 도착
 이전 탐험가들에의해 약탈되지 않았던 방을 열고 나면, PC들은 우연히 기계를 작동시키고, 역장 거품에 갇혀 기이한 빛을 맞게 됩니다. 온 방이 점점 더 높은 빈도로 진동하고, 패널이 터지고 연기를 내뿜으며, 마침내 큰 빛과 함께 PC들은 어딘가... 다른 곳으로 순간이동합니다.
 
-번쩍이는 빛이 옅어지면서, 누군가 PC들을 확 잡아채서 불가능할 정도로 얇게 늘이는 것 같은 기분이 들고, PC들은 새로운 장소에 있다는 걸 알아차리게 됩니다. 작고 소박하고, 빛이 잘 드는 방에 있었는데, 이제는 청동색 금속으로 만든 돔으로 덮인 격납고 같은 곳에 있는 것입니다. 그곳은 얼어붙을듯이 차갑고, 크고 열린 문에서 희미한 빛만이 들어오고 있습니다. 얕은 층의 눈이 바닥의 대부분을 덮고 있는데, 특히 큰 문 근처로 갈 수록 심합니다.
+번쩍이는 빛이 옅어지면서, 누군가 PC들을 확 잡아채서 불가능할 정도로 얇게 늘이는 것 같은 기분이 들고, PC들은 새로운 장소에 있다는 걸 알아차리게 됩니다. 작고 소박하고, 빛이 잘 드는 방에 있었는데, 이제는 청동색 금속으로 만든 돔으로 덮인 격납고 같은 곳에 있는 것입니다. 그곳은 얼어붙을듯이 *차갑고*, 크고 열린 문에서 희미한 빛만이 들어오고 있습니다. 얕은 층의 눈이 바닥의 대부분을 덮고 있는데, 특히 큰 문 근처로 갈 수록 심합니다.
+
+> 극심한 추위 때문에, PC들은 이곳에서 10분을 보낼 때마다 1점의 피해를 입습니다. 이 피해는 장갑을 무시합니다. (하지만 추위에서 지켜주는 사이퍼나 캐릭터 능력은 아닙니다) 추운 계절에 맞는 옷을 입고 있으면 1시간에 한 번 씩만 피해를 입습니다.
 
 눈이 없는 곳에는, 식별하기 어려운 일련의 기호들이 바닥에 그려진 것을 PC들은 볼 수 있는데, 이 방의 대부분을 차지하는 원의 둘레를 따라가고 있습니다, 그 선과 점들은 거의 바래지고 닳아져 있습니다. 금속 패널은 벽에서 삐져나와 헐거워져 있고, 드러난 선과 케이블, 그리고 흥미롭거나 값어치 있는 건 모두 오래 전에 쓸어갔다는 걸 보여주는 단서들이 명백합니다.
 
-이 장소에는 PC들이 쓸만한 자원이 전혀 없습니다. —살아남고 싶다면, 음식도 필요하고 몸을 피할 곳도 있어야 하고, 그리고 날씨에 맞는 옷도 찾아야 합니다, 건물을 뒤진다면, 찾는 것은 전부 다 합쳐도 쓸모 없는 금속과 *신스*[^신스] 조각들 (나사나 꼬인 끈, 등등) 그리고 많은 눈 뿐입니다. 찬 바람이 불어오고, 땅에 쌓인 눈들은 이 곳을 황량하고 불편하게 보이게 합니다.[^역주1]
+이 장소에는 PC들이 쓸만한 자원이 전혀 없습니다. —살아남고 싶다면, 음식도 필요하고 몸을 피할 곳도 있어야 하고, 그리고 날씨에 맞는 옷도 찾아야 합니다, 건물을 뒤진다면, 찾는 것은 전부 다 합쳐도 쓸모 없는 금속과 *신스* 조각들 (나사나 꼬인 끈, 등등) 그리고 많은 눈 뿐입니다. 찬 바람이 불어오고, 땅에 쌓인 눈들은 이 곳을 황량하고 불편하게 보이게 합니다.
 
-> Because of the extreme cold, PCs take 1 point of damage every ten minutes they spend here. This damage ignores armor (but not cyphers or character abilities that protect against cold damage). If they’re wearing cold-weather clothing, they take this damage only once per hour.
+> 신스는 오늘날의 플라스틱과 비슷한 물질입니다.
 
 ### 산
-
-The building seems to be on a high slope of a
-tall mountain range extending north and south.
-A few gnarled trees jut out of the snow here and
-there. To the east, the mountain extends upward
-in a sharp incline toward some forbidding peaks.
-To the west, the mountain slopes downward
-toward a green valley surrounded by a white
-distortion in the air. It looks like there are about
-two hours of daylight left.
+이 건물은 높은 산의 북쪽과 남쪽에 걸쳐 있는 비탈 위에 있는 듯합니다. 옹이 투성이인 나무 몇몇이 이곳저곳에 삐져나와 있습니다. 동쪽에는 험악한 봉우리들을 향해 날카롭게 위로 솟은 오르막이 있습니다. 서쪽으로는 대기 중에 새하얗게 비틀린 공간으로 둘러 쌓인 초록 골짜기를 향해 내려가고 있습니다. 해가 지기까지는 2시간 정도 남은 듯합니다.
 
 > 플레이어들이 누메네라를 전에 해보지 않았거나, 전투를 매우 하고 싶어한다면 몇 마리의 [검은 엄니](/ko/numenera/mini-bestiary#검은-엄니-black-tusk-4-12)와 조우하게 해서 전투를 어떻게 하는지 보여주고, 캐릭터 능력을 써볼 수 있게 해주는 것도 고려해보세요.
 
-The “snow” is tiny flakes of a hard, white
-material resembling seashell, with most pieces
-about the size of a grain of sand. The shellsnow
-acts very much like real snow—the wind blows
-it about, it is slippery and crunchy to walk on,
-and so on—except it isn’t made of water (which
-means the PCs can’t melt and drink it). There are no clouds, just a haze in some parts of the sky. This shellsnow doesn’t seem to be falling from
-the sky except for the small amounts stirred up
-by the wind.
+이 "눈"은 대부분의 입자는 모래알 정도의 크기인, 조개 껍데기를 닮은 새하얗고 단단한 물질의 자그마한 부스러기들입니다. 이 껍질눈(shellsnow)은 꽤 진짜 눈처럼 움직이지만-바람에 흩날리고, 미끄럽고 위로 걸으면 퍼석퍼석 거리는 등등- 물로 되어 있진 않습니다. (즉 녹여서 마실 수 없다는 뜻입니다) 구름도 없고, 하늘에 아지랑이가 조금 있을 뿐입니다. 이 껍질눈은 하늘에서 떨어지는 건 아닌듯하고 적은 양이 바람에 흩날릴 뿐인 것 같습니다.
 
-> Because the PCs take
-cold damage every ten
-minutes, those with
-low Might scores may
-want to pause their
-hike for a 1-action
-recovery roll so the cold
-doesn’t reduce them
-to 0 Might and move
-them one step down
-on the damage track.
+> PC들이 10분마다 추위로 피해를 입기 때문에, 힘 점수가 낮은 캐릭터는 잠시 등산을 멈추고 행동 하나짜리 회복 판정을 해서 추위가 힘을 0으로 떨어트려서 부상 트랙을 한 단계 밀지 못하게 하길 원할지도 모릅니다.
 
-If the PCs spend at least ten minutes
-examining, searching, or trying to salvage the
-technological components in the walls, they can
-attempt a level 6 task. If they fail, they realize
-that anything that could have been taken is
-already gone, and anything that remains is either
-valueless or is so large and integrated into the
-walls that it can’t be removed without rendering
-it useless and valueless. If they succeed, they
-find an oddity that previous looters overlooked:
-a finger-sized piece of metal and glass that emits
-a puff of air (about as strong as a person can
-blow) when squeezed.
+시험하거나, 탐색하거나, 벽에서 기계 부품을 탐색하려고 시도하면서 최소 10분 이상을 보내면, 난이도 6의 일을 시도할 수 있습니다. 실패하면 뭔가 가져갈만한 건 이미 다 가져갔으며, 그리고 남아 있는 건 값어치가 없거나, 너무 크거나 벽에 결합되어 있어서  쓸모 없게 되거나 가치 없게 만들지 않고서는 떼어낼 수가 없다는 걸 깨닫습니다. 성공한다면 전에 온 도굴꾼들이 놓치고 간 신기품을 발견합니다: 손가락만한 금속과 유리조각인데 꽉 쥐면 (거의 사람이 날아갈 정도로 강한) 공기를 방출합니다.
 
-A PC skilled in crafting numenera, salvaging
-numenera, or understanding numenera can tell
-that there are a few sockets in the walls that look
-like specific devices could be plugged into, but
-what those items would do or how to activate
-them is unknown.
+누메네라 제작이나 탐색, 이해에 익숙한 PC는 벽에 특정한 기계를 꽂을 수 있을듯한 소켓들이 있다는 걸 말해줄 수 있지만, 이게 뭘 하는 것이고 어떻게 작동시키는지는 알지 못합니다.
 
-Once the PCs are through with this area, they
-need to decide where to go next. There’s nothing
-noteworthy they can see to the north or south
-along the face of the mountain. The upward
-climb to the east seems difficult and dangerous.
+PC들이 이 공간을 빠져나가면, 이제 다음으로 어디를 갈지 정해야 합니다. 북쪽이나 서쪽에는 산 빼고는 특별한 게 없어보이고, 동쪽으로 등반해 올라가는 건 어려울 뿐만 아니라 위험해보입니다.
 
-If the PCs follow the downhill slope toward the
-green valley, they should get there in about an
-hour and a half (by sundown, assuming they
-haven’t spent a lot of time in this area).
+만약 PC들이 초록 골짜기로 이어지는 내리막길을 따라가면, 1시간 반 정도가 지나면 도착할 겁니다. (해가 질 때 즈음, 이곳에서 너무 많은 시간을 쓰지 않았다고 가정했을 때)
 
 ## 골짜기
 
@@ -167,7 +118,7 @@ circuitry, but are indecipherable to the PCs.
 
 <div class="numenera-box">
 
-### SALVAGING NUMENERA
+### 누메네라 탐색
 Attempting to salvage an object or structure for valuable numenera requires a set of light tools
 and takes anywhere from fifteen minutes to an hour. The difficulty of the task is equal to the level
 of the item being salvaged (the structures in the Icon’s cave are level 5). Training in the salvaging
@@ -249,7 +200,8 @@ face should be. There isn’t a road or path from
 the PCs’ current position to the village, but from
 here they can tell that there is such a thing closer
 to the orchards.
-### THE ORCHARDS
+
+### 과수원
 There are several kinds of trees around the
 village, ranging from short to tall and pale green
 to a dark olive color. Many of them produce fruit
@@ -271,7 +223,8 @@ and the paths between the trees become. This
 is obviously a cultivated area that was set up by
 intelligent creatures—presumably those in the
 nearby village.
-### WELCOMING PARTY
+
+### 일행을 맞이하기
 Unless the PCs chose to sneak into the orchards,
 someone from the village spots them, and the
 villagers send out a trio of people to meet them,
@@ -307,7 +260,7 @@ invitation and motives are genuine. If asked,
 they’ll answer basic questions about the village
 (see the bullet point topics in the next section)
 
-### THE VILLAGE OF BARDAK
+### 바르닥 마을
 The people of Bardak are happy to relate their
 history to the PCs, which is only history as they
 understand it, since the written records were
@@ -344,7 +297,7 @@ but generally benign. They leave offerings of
 
 <div class="numenera-box">
 
-### BARDAK HISTORY
+### 바르닥 역사
 Bardak is a very tiny isolated village
 with only about 100 people, all of them
 descendants of a group of travelers who
@@ -411,7 +364,7 @@ appearance to talk with the PCs. Likewise, if the
 PCs cause trouble, the Great Elders show up and
 try to put a stop to it before any villagers get hurt.
 
-### THE GREAT ELDERS
+### 위대한 장로들
 Augrom, Okeyay, and Thoak are the three Great
 Elders of Bardak. Each of them reached old
 age eighty to ninety years ago, but were able
@@ -486,7 +439,8 @@ similar arguments from superstitious people
 many times before, all of it rumors and lies to
 keep people away from valuable and powerful
 numenera…
-## CONVINCING THE TRIBE
+
+## 일족을 설득하기
 If the PCs want to leave, the villagers prepare
 satchels with about three days worth of food
 for each PC and give them each a warm cloak
@@ -556,7 +510,7 @@ right out of a person’s body, and they travel
 in packs. The ice weavers have two cyphers
 embedded in the walls of their lair.
 
-### PERMISSION TO EXPLORE
+### 탐험을 허락 받기
 If the PCs convince the Great Elders to allow
 them to visit the Icon, one of the elders insists
 on cautiously seeing them off as they leave the
@@ -573,7 +527,7 @@ Elders to allow them to visit the Icon. Proceed
 to the Approaching the Icon section of this
 adventure.
 
-### SNEAKING OUT
+### 몰래 잠입하기
 The PCs might try to sneak out of the village and
 over to the Icon without anyone noticing them.
 Fortunately, this is fairly easy to do, especially
@@ -584,7 +538,7 @@ orchards—go to the Exploration Refused section.
 If they succeed at sneaking out, proceed to the
 Approaching the Icon section.
 
-### EXPLORATION REFUSED
+### 모험의 거부
 If the PCs fail to convince the elders to allow
 them to explore the Icon, and are obvious in
 their plans to explore it anyway, the elders have
@@ -628,7 +582,8 @@ If the PCs chose not to kill the elder, the crucible
 keeps them alive, but it can no longer levitate
 (the villagers will have to build a mobility cart for
 that elder).
-### APPROACHING THE ICON
+
+### 우상에 접근하기
 The path leading to the Icon winds back
 and forth to the north, sometimes making a
 switchback to reach a higher elevation. Along
@@ -691,7 +646,7 @@ mechanisms on the surface of the Icon; even the
 glowing crystals appear to be seamlessly fused
 with the metal. The only way in is the groundlevel cave entrance.
 
-## BENEATH THE ICON
+## 우상 아래에서
 
 The cave entrance is about 15 feet (4.5 m) high
 and diamond-shaped in cross section. The
@@ -718,7 +673,7 @@ within a short distance of the entryway
 
 > The PCs don’t have to salvage these three devices in the adventure (they can opt to salvage them as cyphers and shins instead of fully-functional machines), but not doing so means they won’t be able to teleport home, and will have to leave the village on foot and figure out where in the world they are. Numenera is all about discovery and exploration!
 
-### THE ICON’S CAVE
+### 우상의 동굴
 The stairs continue downward a short distance
 and open up into a larger cave (with the PCs
 arriving at the south end), the floor of which
@@ -738,7 +693,7 @@ numenera and walls on the inside are only level
 they are opened (the inner side of the door has a
 touchpad like the outside).
 
-### FLYING DEFENDERS
+### 날아다니는 수호자들
 When the PCs first leave the steps and enter the
 cave, ten gazers fly out of concealed niches and
 create a spherical formation about half as tall as
@@ -753,7 +708,7 @@ stairs, the gazers stop attacking and do not follow,
 but if the PCs return, the gazers recognize them
 by sight and resume their attack.
 
-### RECYCLING TECHNOLOGY
+### 기술 재활용하기
 The PCs don’t know it yet, but by carefully
 salvaging numenera from these structures,
 they can gather iotum and devices that, if
@@ -779,7 +734,7 @@ arrival dome, allow the PCs to make a one-use
 teleportation device that should send them back
 to where they came from.
 
-### INCONVENIENT WORM ENCOUNTER
+### 불편한 벌레와의 조우
 A swarm of twelve chaliks lives in this cave,
 feeding on ceiling-flyers and whatever else
 stumbles into this area. These big insects
@@ -799,7 +754,7 @@ they approach by burrowing under the layer of
 shellsnow, hindering by two steps any chances to
 notice them approaching.
 
-### 1. NAVIGATION
+### 1. 방향 잡기
 This dome is located in the southeast part of the
 cave. When its door is opened, small blue lights
 activate in the interior, and a blue hologramlike screen appears with diagrams and strange
@@ -821,7 +776,7 @@ many directions. If they don’t care about keeping
 the navigational device functional, they can
 disassemble it for another random cypher.
 
-### 2. GEOTHERMAL POWER
+### 2. 지열 발전
 This dome is larger than the other by half and
 is located on the northwest part of the cave.
 The air around this dome is noticeably warmer
@@ -909,7 +864,7 @@ keeping the power battery functional, they can
 disassemble it for 1d2 responsive synth and 5 io
 and a random cypher.
 
-### 3. HISTORICAL ARCHIVE
+### 3. 역사 기록
 This dome is slightly smaller than the others and
 is located in the southwest part of the cave, near
 the wall. Its doorway is open and there doesn’t
@@ -957,7 +912,7 @@ endangering the villagers. With a successful
 salvaging roll, the PCs can acquire a random
 cypher and 1d10 shins.
 
-### 4. DIMENSIONAL FIELD REGULATOR
+### 4. 차원 장 조절기
 This dome is located near the center of the cave,
 and is surrounded by several clusters of vertical
 bronze-metal pipes, similar to the valley pylons,
@@ -1016,7 +971,7 @@ care about keeping the dimensional interface
 functional, they can disassemble it for 1d2 pliable
 metal and 2 io and a random cypher.
 
-### ADDITIONAL DOMES
+### 더 많은 돔
 The other domes in this cave are left for the GM
 to expand this area with additional encounters
 for an ongoing campaign. (For an even larger
@@ -1031,7 +986,7 @@ touch-pad doesn’t respond to any activity, or
 perhaps it makes curt noises or flashes a light to
 indicate an unauthorized attempt.
 
-## BACK TO THE VILLAGE
+## 마을로 돌아가기
 Once the PCs have taken what they want from
 the Icon’s cave, they can return to the village
 of Bardak, or skip interacting with the villagers
@@ -1043,7 +998,7 @@ the ancient structures underneath the Icon. If they
 salvaged all three items they need to rebuild the
 teleporter, give each PC an additional 1 XP.
 
-### PYLON ACTIVATED
+### 철탑을 작동시키기
 If the PCs return to the village and they have
 reactivated the unpowered pylon, the whole
 village knows about it. (Even if the PCs caused an
@@ -1077,7 +1032,7 @@ and half the elder hoping that these annoying
 visitors get the hint that they are a disruption to
 the status quo and should go).
 
-### PYLON TROUBLES
+### 철탑의 문제
 If the PCs return to the village and they have
 deactivated or otherwise hampered the functions
 of the pylons (and especially if there was an
@@ -1095,7 +1050,7 @@ together can overwhelm the PCs, functioning
 as four level 4 mobs, which doesn’t include the
 Great Elders attacking.
 
-### TIME TO WALK AWAY
+### 걸어 나갈 시간
 If the PCs leave Bardak as heroes, the entire
 village gathers to see them off. The elders speak
 a blessing for them, the villagers give them
@@ -1122,7 +1077,7 @@ along the cold mountain for other places to
 explore, or even crest the ridge to the east and
 see what lies beyond.
 
-### REBUILDING THE TELEPORTER
+### 순간이동기를 다시 만들기
 This ending is similar to the previous one
 (including the farewell reactions of the villagers),
 except instead of heading downhill toward the
@@ -1213,54 +1168,33 @@ what happens.
 ## 무작위 사이퍼
 The PCs have several opportunities to acquire new cyphers in this adventure. Choose cyphers from
 this list or roll randomly to determine what the PCs get.
-1 Density Nodule: A level 3 yellow crystal surrounded by thick metal wires. When attached
-to a weapon, for the next 28 hours it increases the weapon’s density at the instant of
-impact, increasing its damage by 2 points.
-2 Electricity Detonation: A level 4 metal disc with multiple blue crystals. It explodes in an
-immediate radius, inflicting electrical damage equal to the cypher’s level. You can throw it
-up to a short distance.
-3 Emotion Poison Injector: A level 4 synth syringe-like device with no needle. A person
-injected with it feels happy for one hour, easing all interaction tasks to affect them while it
-lasts.
-4 Force Cube Projector: A level 3 segmented synth cube with a faint green glow coming
-from the gaps between the segments. It creates an immobile cube composed of six walls
-of solid force centered on you, each 30 feet (9.1 m) to a side, for one hour. The walls
-conform to the space available.
-5 Gravity Nullifier: A level 5 belt attachment. It lets the user float into the air for one hour,
-moving vertically up to a short distance per round. This doesn’t allow the user to move
-horizontally (but they can push away from a wall or use other methods to go sideways).
-The user must weigh less than 50 pounds (22 kg) per cypher level.
-6 Instant Shelter: A level 2 cylindrical lattice made of synth. It absorbs water and air to
-create a simple cubical building 10 feet (3 m) on a side with a door and window. It is
-made of hard foam and is permanent and immobile once created.
-7 Magnetic Attack Drill: A level 5 small sphere with a screw-like protrusion. If thrown at
-an opponent, it drills into them and inflicts damage equal to the cypher’s level. If the
-opponent is metal or wearing metal, the attack roll is eased.
-8 Might Rejuvenator: A level 6 handheld apparatus. It injects one creature with chemicals
-that restore a number of points equal to the cypher’s level to the creature’s Might pool.
-9 Ray Emitter: A level 5 synth headband with metal knobs. The wearer can create a ray of
-energy that strikes a target up to a long distance away and inflicts heat damage equal to
-the cypher’s level.
-10 Warmth Projector: A level 3 metal container filled with nanofluid. When the fluid is
-touched to the user’s skin, it forms an articulated carapace-like protective barrier for 28
-hours that provides Armor equal to the cypher’s level against cold damage.
+|        |                                                                                                                                                                                                                                                                                                                                                      |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1**  | **Density Nodule**: A level 3 yellow crystal surrounded by thick metal wires. When attached to a weapon, for the next 28 hours it increases the weapon’s density at the instant of impact, increasing its damage by 2 points.                                                                                                                        |
+| **2**  | **Electricity Detonation**: A level 4 metal disc with multiple blue crystals. It explodes in an immediate radius,  inflicting electrical damage equal to the cypher’s level. You can throw it up to a short distance.                                                                                                                                |
+| **3**  | **Emotion Poison Injector**: A level 4 synth syringe-like device with no needle. A person injected with it feels happy for one hour, easing all interaction tasks to affect them while it lasts.                                                                                                                                                     |
+| **4**  | **Force Cube Projector**: A level 3 segmented synth cube with a faint green glow coming from the gaps between the segments. It creates an immobile cube composed of six walls of solid force centered on you, each 30 feet (9.1 m) to a side, for one hour. The walls conform to the space available.                                                |
+| **5**  | **Gravity Nullifier**: A level 5 belt attachment. It lets the user float into the air for one hour, moving vertically up to a short distance per round. This doesn’t allow the user to move horizontally (but they can push away from a wall or use other methods to go sideways). The user must weigh less than 50 pounds (22 kg) per cypher level. |
+| **6**  | **Instant Shelter**: A level 2 cylindrical lattice made of synth. It absorbs water and air to create a simple cubical building 10 feet (3 m) on a side with a door and window. It is made of hard foam and is permanent and immobile once created.                                                                                                   |
+| **7**  | **Magnetic Attack Drill**: A level 5 small sphere with a screw-like protrusion. If thrown at an opponent, it drills into them and inflicts damage equal to the cypher’s level. If the opponent is metal or wearing metal, the attack roll is eased.                                                                                                  |
+| **8**  | **Might Rejuvenator**: A level 6 handheld apparatus. It injects one creature with chemicals that restore a number of points equal to the cypher’s level to the creature’s Might pool.                                                                                                                                                                |
+| **9**  | **Ray Emitter**: A level 5 synth headband with metal knobs. The wearer can create a ray of energy that strikes a target up to a long distance away and inflicts heat damage equal to the cypher’s level.                                                                                                                                             |
+| **10** | **Warmth Projector**: A level 3 metal container filled with nanofluid. When the fluid is touched to the user’s skin, it forms an articulated carapace-like protective barrier for 28 hours that provides Armor equal to the cypher’s level against cold damage.                                                                                      |
 
 ## 무작위 아이오툼
 If the PCs salvage a cypher, roll once on this table. Reroll if the level of the cypher the PCs are
 salvaging is less than the minimum level of the iotum on the table.
-Roll Iotum Minimum Cypher Level
-01–12 1d3 io 1
-13–24 1d6 io 1
-26–49 1d2 responsive synth 2
-50–65 1 apt clay 3
-66–79 1 bio-circuitry 4
-80–89 1d2 quantium 4
-90–00 1 pliable metal 4
+| Roll  | Iotum                | Minimum Cypher Level |
+| ----- | -------------------- | -------------------- |
+| 01–12 | 1d3 io               | 1                    |
+| 13–24 | 1d6 io               | 1                    |
+| 26–49 | 1d2 responsive synth | 2                    |
+| 50–65 | 1   apt clay         | 3                    |
+| 66–79 | 1   bio-circuitry    | 4                    |
+| 80–89 | 1d2 quantium         | 4                    |
+| 90–00 | 1   pliable metal    | 4                    |
 
 [^역주1]: *역주 1* : 번역본에서는 따로 링크로 제공합니다.
-[^신스2]: *신스 2* : 신스는 오늘날의 플라스틱과 비슷한 물질입니다.
-[^역주3]: *역주 3* : PC들이 주사위를 굴리려 하거나 하면, 판정 없이 이 모든 걸 정확하게 전달해서 괜히 시간 낭비하게 하지 말고, 밖으로 나가게 하라는 뜻으로 풀이됩니다.
-
 
 ## 광고
 
