@@ -9,7 +9,7 @@ createdAt: "2022-11-17T07:31:02.290Z"
 
 ## 검은 엄니 Black Tusk 4 (12)
 
-<img src="/blacktusk.png" alt="" class="float-left m-4 w-80"/>
+<img src="/blacktusk.webp" alt="" class="float-left m-4 w-80"/>
 
 A cry that reverberates with what sounds like anguish typifies the hunting yowl of a distant pride of blacktusks. Those familiar with the noise know to find shelter, lest they become the pride’s target. A blacktusk is a catlike mammal over 7 feet (2 m) long with massive tusks. The creature’s pelt is snow white, while its tusks are black as cloudy night in the Frozen South. A few populations of these savage hunters exist here and there across the world, but almost exclusively in areas of extreme cold. When humans venture into such areas, blacktusk prides might run them down as fresh food, or leave the newcomers alone and focus on prey they’re more familiar with.
 
@@ -37,7 +37,7 @@ Blacktusks work together when hunting to increase their chances of bringing down
 
 **GM Intrusion**: The character injured by the blacktusk begins to bleed from the tusk wound, taking 2 points of damage each round (ignores Armor) until the PC spends an action bandaging the wound.
 
-## CHALIK 2 (6)
+## 챌릭 Chalik 2 (6)
 Chaliks are 1-foot (30 cm) long insects protected by elaborate yellow carapaces. They attack larger prey in small groups by sacrificing some of their number to catch and immobilize targets, allowing the remaining chaliks to freely attack and feed. They produce a surprisingly sticky secretion when killed or when they sacrifice themselves. They’re found in warm wastelands, caverns, ruins, and sometimes run-down parts of human communities. Because chaliks can produce such a powerful bonding agent, craftspeople and others sometimes collect them for their fluid.
 
 **Motive**: Hungers for flesh
@@ -66,7 +66,7 @@ Chalik carapaces slough off their own secretions so they don’t become stuck in
 **GM Intrusion**: When the chalik is killed, it explodes. A character within immediate range is attacked as if by a chalik sacrificing itself to immobilize a target.
 
 ## 감시자 Gazer 1 (3)
-![](/gazer2.png)
+![](/gazer2.webp)
 
 A gazer is a levitating metallic spherical automaton, about 1.5 feet (0.5 m) in diameter. Various bits of equipment and blinking cyphers festoon a gazer’s battered alloy body. A concavity on one side of the sphere incessantly emits a beam of scarlet light. Blinding at best, the red beam can intensify in a moment, creating a ray capable of burning through nearly anything.
 
@@ -100,7 +100,8 @@ The intensity of a gazer’s beam is level 5 (as measured against the level of m
  
 **GM Intrusion**: A gazer destroyed by an attack explodes, dealing 5 points of damage to every creature in short range. Other gazers in immediate range spin away to safety.
 
-## ICE WEAVER 3 (9)
+## 얼음 치개 Ice Weaver 3 (9)
+
 Delicate, lattice-like ice structures created by ice weavers are often mistaken as some kind of manifestation of the prior worlds. But these structures usually last only a few days or months before cracking, breaking, and melting away.
 
 When a pack of ice weaver hunters moves into a new area, they first construct a redoubt of woven ice.
