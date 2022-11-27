@@ -359,7 +359,13 @@ input[type="checkbox"]:checked {
 }
 
 table {
-	@apply table;
+	@apply table table-zebra;
+	width: 75ch;
+}
+
+table tr td {
+	white-space: inherit;
+	max-width: 70ch;
 }
 
 .numenera-box {
