@@ -17,25 +17,37 @@ import MainLayout from '../../layouts/MainLayout.astro';
       />
     </figure>
     <div class="card-body">
-      <img
-        src="https://cdn.masto.host/dicecamp/accounts/avatars/109/299/937/813/993/787/original/532f575e5afc147e.jpg"
-        class="w-32 rounded-full absolute top-40"
-      />
+      <label class="swap swap-flip rounded-full absolute top-40">
+  
+        <!-- this hidden checkbox controls the state -->
+        <input type="checkbox" />
+        
+        <div class="swap-on">
+          <img
+            src="https://cdn.masto.host/dicecamp/accounts/avatars/109/299/937/813/993/787/original/532f575e5afc147e.jpg"
+            class="w-32 rounded-full"
+          />
+        </div>
+        <div class="swap-off">
+          <img
+            src="https://cdn.masto.host/dicecamp/media_attachments/files/109/420/420/627/707/860/original/b66368942d22f863.png"
+            class="w-32 h-32 rounded-full object-center"
+          />
+        </div>
+      </label>
       <h2 style="margin-top: 1rem !important;">스텔로</h2>
       <p>
-        서로 다른 이들이 갈등을 풀어나가고, 신기한 걸 발견하는 이야기를
-        좋아합니다. 던전월드로 시작해서, 지금은 <span
-        class="tooltip hover:tooltip-open tooltip-top"
-        data-tip="Destiny is, in a way, a light at the end of a long, dark tunnel. The Ninth World is a dark, dangerous place, but those brave enough and capable enough can overcome the challenges that come and move the world—or at least their little corner of it—into a brighter future.- Numenera : Destiny"
-      >
-        <em>누메네라</em>
-      </span>를 주로 하고
-        있습니다.
+        서로 다른 이들이 갈등을 풀어나가고, 신기한 걸 발견하는 이야기를 좋아합니다. 던전월드로 시작해서, 지금은<span
+          class="tooltip hover:tooltip-open tooltip-top"
+          data-tip="Destiny is, in a way, a light at the end of a long, dark tunnel. The Ninth World is a dark, dangerous place, but those brave enough and capable enough can overcome the challenges that come and move the world—or at least their little corner of it—into a brighter future.- Numenera : Destiny"
+        >
+          <em>누메네라</em>
+        </span>를 주로 하고 있습니다.
         <div
           class="tooltip hover:tooltip-open tooltip-top"
-          data-tip="여성, 흑인, 장애인, 이주민, 동성애자, 트랜스젠더, 비건, 동물 등 약자, 소수자를 차별하거나 혐오하는 분은 뒤로가기를 눌러주세요."
+          data-tip="노동자, 여성, 흑인, 장애인, 이주민, 동성애자, 트랜스젠더, 비인간동물, 체형과 신경다양인 등 약자, 소수자를 차별하거나, 혹은 연대하지 않는 분은 뒤로가기를 눌러주세요."
         >
-          <p class="underline">모든 불평등에 반대합니다.</p>
+          <p class="underline">모든 불평등과 압제에 반대합니다.</p>
         </div>
       </p>
       <div class="flex flex-wrap gap-2 justify-end">
@@ -43,7 +55,7 @@ import MainLayout from '../../layouts/MainLayout.astro';
         <li class="badge badge-outline">크툴루 컨피덴셜</li>
         <div
           class="tooltip hover:tooltip-open tooltip-top"
-          data-tip="13시대, 페이트 코어, 아포칼립스 월드, 던전월드, 밤의 마녀들, 크툴루의 부름, 겁스, 포도원의 파수견"
+          data-tip="13시대, 페이트 코어, 아포칼립스 월드, 던전월드, 밤의 마녀들, 크툴루의 부름, 겁스, 포도원의 파수견, Follow"
         >
           <li class="badge badge-outline">등등...</li>
         </div>

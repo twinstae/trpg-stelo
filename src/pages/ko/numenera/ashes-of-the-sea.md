@@ -86,7 +86,7 @@ PC들은 고대 문명의 알 수 없는 존재에게 버려진 기지를 탐험
 
 <img class="mx-auto w-96" src="/blacktusk.webp"/>
 
-이 "눈"은 대부분의 입자는 모래알 정도의 크기인, 조개 껍데기를 닮은 새하얗고 단단한 물질의 자그마한 부스러기들입니다. 이 껍질눈(shellsnow)은 꽤 진짜 눈처럼 움직이지만-바람에 흩날리고, 미끄럽고 위로 걸으면 퍼석퍼석 거리는 등등- 물로 되어 있진 않습니다. (즉 녹여서 마실 수 없다는 뜻입니다) 구름도 없고, 하늘에 아지랑이가 조금 있을 뿐입니다. 이 껍질눈은 하늘에서 떨어지는 건 아닌듯하고 적은 양이 바람에 흩날릴 뿐인 것 같습니다.
+이 "눈"은 대부분의 입자가 모래알 정도의 크기인, 조개 껍데기를 닮은 새하얗고 단단한 물질의 자그마한 부스러기들입니다. 이 껍질눈(shellsnow)은 꽤 진짜 눈처럼 움직이지만-바람에 흩날리고, 미끄럽고 위로 걸으면 퍼석퍼석 거리는 등등- 물로 되어 있진 않습니다. (즉 녹여서 마실 수 없다는 뜻입니다) 구름도 없고, 하늘에 아지랑이가 조금 있을 뿐입니다. 이 껍질눈은 하늘에서 떨어지는 건 아닌듯하고 적은 양이 바람에 흩날릴 뿐인 것 같습니다.
 
 > PC들이 10분마다 추위로 피해를 입기 때문에, 힘 점수가 낮은 캐릭터는 잠시 등산을 멈추고 행동 하나짜리 [회복 판정](/ko/numenera/how-to-play-numenera#역량-점수-회복하기)을 해서 추위가 힘을 0으로 떨어트려서 [부상 트랙](/ko/numenera/how-to-play-numenera#부상-트랙)을 한 단계 밀지 못하게 하길 원할지도 모릅니다.
 
@@ -116,49 +116,49 @@ PC들이 초록 계곡에 다가가면, 마을 주변에서 보았던 왜곡은 
 
 **부품:** 부품은 재사용 가능한 잡다한 조각들입니다. (나사, 너트, 볼트, 회로 기판, 등등) 부품은 단위로 관리하는데, 어떤 종류의 부품인지는 그리 중요하지 않습니다. 탐색에 성공하면 PC들은 항상 탐색되는 사물의 레벨과 같은 단위의 부품을 줍니다.
 
-**탐색 결과:** If the salvage attempt is successful, the PCs get something for their work. Any later attempts to salvage that location are hindered by two steps. If the initial salvage attempt fails, the item the PCs are attempting to salvage has nothing of value, or the useful pieces are too difficult to remove without destroying them. Like any task the PCs repeat after a failure, all later attempts require applying Effort.
+**탐색 결과:** 만약 탐색 시도가 성공적이면, PC들은 작업에 맞는 것을 얻습니다. 그 후에 해당 장소에서 탐색을 시도하면 난이도가 항상 두 단계 높아집니다. 첫 탐색 시도에 실패했다면, PC가 탐색하려 한 물건은 가치가 없거나, 쓸만한 부분을 망가트리지 않고 떼어나기가 너무 어려운 것입니다. 다른 모든 일처럼 PC가 실패한 후에 재시도하려면, 분발을 해야 합니다.
 
-**추가 탐색 시도:** Each time characters locate a potential source for salvage, a subsequent attempt to search the same specific area again is hindered by one additional step. Once a building in the Icon’s cave is salvaged, it can’t be salvaged again for numenera, although a successful salvaging roll gets the PCs another 5 units of parts.
+**추가 탐색 시도:** 캐릭터가 탐색 후보가 될만한 출처를 찾으려 할 때마다, 같은 특정 구역을 이어지는 다시 찾아보려할 때마다 한 단계 씩 난이도가 더 올라갑니다. 한 번 우상의 동굴에 있는 건물들을 탐색하고 나면, 누메네라를 찾아서 다시 탐색할 수는 없고, 탐색 판정에 성공하면 5단위의 부품을 추가로 얻게 해줍니다.
 
-**사이퍼 탐색:** Unused cyphers can be salvaged for shins, iotum, and parts. The difficulty of the salvage roll is equal to the cypher’s level. Success means the cypher is destroyed and the PC gains 1d10 shins, units of parts equal to the cypher’s level, and one roll on the [무작위 아이오툼 표](/ko/numenera/ashes-of-the-sea#무작위-아이오툼)
+**사이퍼 탐색:** 사용하지 않은 사이퍼를 분해해서 쉰이나 아이오툼, 그리고 부품을 얻을 수 있습니다. 판정의 난이도는 사이퍼의 레벨과 같습니다. 성공하면 사이퍼는 파괴되지만 1d10 쉰, 사이퍼의 레벨 단위 만큼의 부품, 그리고 [무작위 아이오툼 표](/ko/numenera/ashes-of-the-sea#무작위-아이오툼)에서 굴려서 하나를 얻습니다.
 
 </div>
 
-*계곡의 철탑*들은 강력한 누매네라 기계로 계곡의 온도와 날씨를 유지하고, 거대 생물들이([검은 엄니](/ko/numenera/mini-bestiary#검은-엄니-black-tusk-4-12) 같은) 계곡에 들어오지 못하게 막습니다.
+*계곡의 철탑*들은 강력한 누메네라 기계로 계곡의 온도와 날씨를 유지하고, 거대 생물들이([검은 엄니](/ko/numenera/mini-bestiary#검은-엄니-black-tusk-4-12) 같은) 계곡에 들어오지 못하게 막습니다.
 
 > 계곡의 철탑, 레벨 8
 
 필요할 때에는, 철탑들이 자동으로 단기적인 역장 돔을 만들어 운석, 눈사태, 그리고 고속 충돌(로켓 추진 미사일부터 날아오는 화살 같은 무엇이던) 같은 거대한 위협에서 계곡을 지키고, 이 모든 위협은 돔에 의해 비껴갑니다. 역장은 더 느린 사물에는 작동하지 않습니다. (투척 무기나 달리는 생물 같은) 철탑은 대부분의 껍질눈이 계곡에 들어오지 못하게 막고, 이 방어막의 부작용으로 느리고 시계처럼 정확하게 회전하는 눈발의 폭풍을 일으킵니다.
 
-The pylons look like metallic bronze but are made of a much stronger metal, and are essentially invulnerable to any force the PCs can produce. Attempting to damage or open a pylon results in a small electrical shock that inflicts 2 points of Might damage. The columns are very slightly flexible, and a determined PC can shake one hard enough to cause the top of the unit to sway a little bit, but this doesn’t seem to interfere with its abilities and doesn’t trigger the electrical shock.
+이 철탑은 금속제 청동 같이 보이지만 더 강한 금속으로 이루어져 있고, PC가 만들어내는 어떤 힘에도 본질적으로 손상되지 않습니다. 철탑을 열거나 피해 입히려는 시도는 작은 전기 충격으로 이어져 힘 피해 2점을 가합니다. 기둥은 매우 약간 유연하고, 결의에 찬 PC는 하나를 강하게 흔들어서 꼭대기가 약간 흔들리게 할 수는 있겠지만, 그 기능에는 아무런 방해가 되지 않는 모양이고, 전기 충격을 발생시키지도 않습니다.
 
 > 마스터 개입: 한 PC가 껍질눈에 미끄러져서 철탑에 세계 부딪히고, 전기 충격 방호를 발동시킵니다.
 
-This is a great time to introduce PCs to GM intrusions. The affected PC gets 2 XP, one of which the PC must give to a friend. Tell the PCs they can spend the XP to improve their characters if they use 4 XP, keep it to re-roll rolls they are not happy with, or to refuse a future GM intrusion.
+PC에게 마스터 개입을 소개하기 딱 좋은 시간입니다. 영향을 받는 PC는 경험치 2점을 받고, 그 중 하나는 동료에게 줘야 합니다. PC들에게 경험치 4점을 소모해서 캐릭터를 성장시키거나, 마음에 안 드는 판정을 다시 굴리거나, 미래의 마스터 개입을 거부하는데 쓰기 위해 남겨둘 수도 있다고 말해주세요.
 
-Beyond the pylons, the air is clear, the foliage is green, and the air is noticeably warmer but still cool, like a brisk autumn day. The valley is about 2 miles (3.2 km) across at its longest axis and about half that distance wide. Trees are plentiful and (for the most part) are planted in rows. In the middle of these groves of trees, near the center of the valley, is a tiny village with two different kinds of buildings—bronze metal domes and square stone cottages with sod roofs. To the north, near the edge of the valley border, is a huge bronze statue of a multi-armed humanoid creature with a glowing blue crystal where its face should be. There isn’t a road or path from the PCs’ current position to the village, but from here they can tell that there is such a thing closer to the orchards.
+철탑 너머는, 공기는 청명하고, 나뭇잎은 초록빛이고, 공기는 눈에 띄게 더 따뜻하지만 여전히 시원해서, 마치 화창한 가을날과 같습니다. 계곡은 세로 폭은 대략 3키로미터 정도 되고, 가로 폭은 그 절반 정도 거리입니다. 나무들은 풍요롭고 (대부분은) 열을 맞춰 심어져 있습니다. 이 나무 숲 한 가운데, 계곡의 중심부 근처에는, 작은 마을이 서로 다른 두 종류의 건물들로 이루어져 있는데-청동빛 금속 돔들과 잔디 지붕에 네모난 돌로 지은 시골집들입니다. 북쪽, 계곡의 경계 근처에는, 얼굴 자리에 파란 수정이 빛나고 있는 팔이 여러개인 인간형 생물의 거대한 청동빛 동상이 있습니다. 당장 여기서 마을로 가는 도로나 길은 딱히 보이지 않지만, 과수원에 가까이 가면 비슷한 게 있긴 합니다.
 
 > 한 번 계곡 안으로 들어오면, PC들은 더 이상 추위 피해를 입지 않습니다.
 
 ### 과수원
 
-There are several kinds of trees around the village, ranging from short to tall and pale green to a dark olive color. Many of them produce fruit (red, yellow, and blue, all of it safe and tasty for humans) or nuts, and some have a loose kind of bark that looks like it peels away from the trunk in book-sized sheets. The PCs often see small wooden ladders and step stools resting near or against the taller trees.
+마을 주변에는 여러 종류의 나무들이 있는데, 짧은 것부터 긴 것 까지 그리고 연초록빛 부터 어두운 올리브 색까지 다양합니다. 그 중 대부분은 과일이나(빨강, 노랑 그리고 파랑, 모두 다 사람이 먹어도 안전하고 맛있습니다), 견과류, 그리고 책 정도의 크기로 줄기에서 벗겨지는 것 같은 껍질이 있습니다. 키가 큰 나무 근처에는 작은 나무 사다리나 발판이 세워져 있습니다.
 
-Plump short-legged birds nest in the gaps between roots or in small wooden houses with removable roofs. The birds chase bugs, scratch at the ground for worms, and generally ignore the PCs (but casually strut away if anyone tries to touch them).
+포동포동한 짧은 다리 새들의 둥지가 뿌리 사이나 작은 나무집의 바꿔낄 수 있는 지붕에 있습니다. 이 새들은 벌레를 쫓고, 바닥에서 애벌레를 쪼고, PC들을 대개 무시합니다. (하지만 만지려 하면 훌쩍 멀리 걸어가버립니다.)
 
-A well-trod path leads toward the village, and the closer they get to the village, the clearer it and the paths between the trees become. This is obviously a cultivated area that was set up by intelligent creatures—presumably those in the nearby village.
+잘 밟힌 오솔길이 마을로 이어지고, 마을에 가까워질 수록 나무들 사이에 난 길이 점점 선명해집니다. 분명히 지성이 있는 생물-짐작건대 근처 마을에 사는 이들-에 의해 경작되는 지역 같습니다.
 
 ### 일행을 맞이하기
 
-Unless the PCs chose to *잠입* into the orchards, someone from the village spots them, and the villagers send out a trio of people to meet them, either in the orchard or at the border between the trees and the village. If the PCs sneak into the orchard and into the village itself, skip this initial encounter and allow the PCs to decide when they show themselves (strangers suddenly appearing in their village is very alarming to the locals, and all interactions with them will be hindered until the PCs prove that they mean no harm).
+PC들이 몰래 과수원에 *잠입*하지 않는 이상, 마을에서 온 누군가가 발견할 것이고, 마을 사람들은 일행을 만나기 위해 삼인조를 보내는데, 과수원에서 일 수도 있고 나무들과 마을 사이의 경계일 수도 있습니다. 만약 PC들이 과수원과 마을 자체에 잠입하려 하면, 이 첫 조우를 생략하고 PC들이 언제 모습을 보일지 결정할 수 있게 허락해주세요. (마을에 갑자기 나타난 낯선 이들은 현지인들에게 매우 경보를 울릴만하고, PC들이 해를 끼칠 의도가 없다는 걸 입증하기 전까지 모든 상호작용의 난이도가 한 단계 올라갑니다.)
 
 > 과수원에 몰래 *잠입*하는 건 난이도 3짜리 일입니다.
 
-The three villagers sent to meet the PCs are cautious but curious. All three—two men and one woman—are between 20 and 40 years old, dressed in simple warm garments of woven fibers under fur-lined capes. They adorn their clothing and hair with bronze-metal bits and what appear to be several kinds of brightly-colored seashells (the people use these decorations for aesthetics and currency, with each piece used as one shin). Each is carrying a staff with a sharp curve on the end (like a shepherd’s crook), a tool they use to pick fruit, as a walking stick, and (if threatened) a weapon.
+PC들을 만나러 보내진 세 마을 사람들은 조심스럽지만 궁금해합니다. 세 사람은 모두-남자 둘에 여자 하나- 나이가 20에서 40대 사이이며, 털로 덮인 망토아래 섬유를 엮어 만든 단순하고 따뜻한 옷을 입고 있습니다. 청동색 금속 조각과 다양한 종류의 밝은 색 조개껍질처럼 보이는 것으로 (이곳 사람들은 이 장식을 멋을 위해서도 화폐로도 쓰고, 각 조각은 쉰 하나로 쓰입니다) 옷과 머리를 장식했습니다. 각자 끝에 날카로운 곡선을 가진 (양치기의 지팡이처럼) 지팡이을 들고 있는데, 과일을 따거나, 걸을 때 짚거나, (위협을 받으면) 무기로 쓰는 도구입니다.
 
 > **전형적인 마을 사람:** 레벨 2, 체력 6, 농사는 레벨 3
 
-The villagers hail the PCs in an accented version of *진실어* and introduce themselves as Ayil, Rieo, and Yoma from the village of Bardak. They say they haven’t had a visitor to their part of the world in a generation, and if the PCs promise to cause no trouble, they are welcome to come to the village for food, shelter, and warm clothes. The villagers are neither hostile nor lying—their invitation and motives are genuine. If asked, they’ll answer basic questions about the village (see the bullet point topics in the next section)
+이 마을 사람들은 PC들에게 억양이 있는 형태의 *진실어*로 소리치고는, 자기들을 바르닥 마을에서 온 아일, 리에오, 그리고 요마라고 소개합니다. 우리 지역에 한 세대가 넘도록 방문한 이가 없었다고 말하고, PC들이 문제를 일으키지만 않겠다고 약속하면, 여러분을 환영하며 마을로 와서 음식과, 잘 곳, 그리고 따뜻한 옷을 내주겠다고 합니다. 마을 사람들은 적대적이거나 거짓말을 하는 것처럼 보이진 않습니다-그 초대와 동기는 아마 사실일 것입니다. 물으면, 그들은 마을에 대한 간단한 질문에 답을 해줍니다. (다음 절의 상자를 보십시오.)
 
 > 진실어(The Truth)는 제 9세계에서 문명화된 지역의 공용어입니다.
 
@@ -196,7 +196,7 @@ have entered the valley.
 
 </div>
 
-The Icon is the large statue to the north. The villagers speak of it as if it were a sleeping protector god, dangerous if woken unexpectedly, but generally benign. They leave offerings of food and carved wooden figurines at the base of the path leading up to the Icon, but never step past that point, as they believe the Icon is prone to having nightmares and causes earthquakes when it is startled or the religious rites are not performed correctly. The Icon sleeps on top of a doorway to the underworld, protecting the valley from dangerous nano-spirits imprisoned there. Nobody in the village alive today has gotten close to the Icon or looked into the doorway— doing so is forbidden by the Great Elders, and the punishment is banishment from the village.
+The Icon is the large statue to the north. The villagers speak of it as if it were a sleeping protector god, dangerous if woken unexpectedly, but generally benign. They leave offerings of food and carved wooden figurines at the base of the path leading up to the Icon, but never step past that point, as they believe the Icon is prone to having nightmares and causes earthquakes when it is startled or the religious rites are not performed correctly. The Icon sleeps on top of a doorway to the underworld, protecting the valley from dangerous nano-spirits imprisoned there. Nobody in the village alive today has gotten close to the Icon or looked into the doorway— doing so is forbidden by the 대장로들, and the punishment is banishment from the village.
 
 Forty years ago, a small group of strangers
 came to the village, saying they came from a
@@ -213,143 +213,60 @@ then decided to head west down the mountain
 and were never seen again.
 
 The villagers explain that Bardak is guided by
-three Great Elders—people who are well over a
+three 대장로들—people who are well over a
 hundred years old, kept alive by blessings from
 the numenera, and are very wise. Any decisions
 that affect the entire tribe (such as religious
 matters or inviting the PCs to stay more than a
 couple of days) must have the input of all three
-Great Elders. If the PCs want to discuss important
+대장로들. If the PCs want to discuss important
 issues, or if they want to know more about
 or investigate the Icon, some of the villagers
-inform the Great Elders, who personally make an
+inform the 대장로들, who personally make an
 appearance to talk with the PCs. Likewise, if the
-PCs cause trouble, the Great Elders show up and
+PCs cause trouble, the 대장로들 show up and
 try to put a stop to it before any villagers get hurt.
 
-### 위대한 장로들
+### 대장로들
 
-> **위대한 장로들:** 레벨 3; 상호작용과 정신 영향에 저항하는 건 레벨 4; 체력 9; 장갑 3; 매 라운드 체력 1점을 회복합니다; 질병, 독, 노화에 면역;
+> **대장로들:** 레벨 3; 상호작용과 정신 영향에 저항하는 건 레벨 4; 체력 9; 장갑 3; 매 라운드 체력 1점을 회복합니다; 질병, 독, 노화에 면역;
 
-Augrom, Okeyay, and Thoak are the three Great
-Elders of Bardak. Each of them reached old
-age eighty to ninety years ago, but were able
-to bond with one of three life crucibles—lifesustaining artifacts left behind by the founders.
-The crucibles fused with their flesh, fortified
-them against disease and poison, and have been
-keeping them alive ever since. Each of the Great
-Elders is now at least 140 years old, but their
-crucibles keep them strong and healthy. Decades
-of associating with each other, compounded
-by their shared experience of forced evolution,
-has made the three Great Elders very similar in
-personality and temperament.
+Augrom, Okeyay, and Thoak are the three 대장로들 of Bardak. Each of them reached old age eighty to ninety years ago, but were able to bond with one of three life crucibles—lifesustaining artifacts left behind by the founders. The crucibles fused with their flesh, fortified them against disease and poison, and have been keeping them alive ever since. Each of the 대장로들 is now at least 140 years old, but their crucibles keep them strong and healthy. Decades of associating with each other, compounded by their shared experience of forced evolution, has made the three 대장로들 very similar in personality and temperament.
 
-A life crucible is a levitating one-person
-vehicle made of metal (the bronze-like stuff used
-elsewhere in the village), shell-like growths, and
-glass, looking much like a spherical chair that
-can envelop an entire person (legs and all), with
-a vertical metal pole extending out of the bottom
-that doesn’t quite reach the ground. There
-are two drawbacks to bonding with a crucible:
-removing a person from the crucible is fatal, and
-the crucible seems to be evolving or mutating
-the elders into something other than human. The
-Great Elders have swollen, distorted bodies and
-faces, somewhat like a caterpillar, except instead
-of transforming into a butterfly or moth, they
-appear to be something in between the shape
-of a human and a lobster, with carapace-like
-growths on the chest and stomach, and several
-pairs of little secondary limbs.
+A life crucible is a levitating one-person vehicle made of metal (the bronze-like stuff used elsewhere in the village), shell-like growths, and glass, looking much like a spherical chair that can envelop an entire person (legs and all), with a vertical metal pole extending out of the bottom that doesn’t quite reach the ground. There are two drawbacks to bonding with a crucible: removing a person from the crucible is fatal, and the crucible seems to be evolving or mutating the elders into something other than human. The 대장로들 have swollen, distorted bodies and faces, somewhat like a caterpillar, except instead of transforming into a butterfly or moth, they appear to be something in between the shape of a human and a lobster, with carapace-like growths on the chest and stomach, and several pairs of little secondary limbs.
 
-> The life crucibles aren’t deliberately making the Great Elders into lobster-like creatures.
+> The life crucibles aren’t deliberately making the 대장로들 into lobster-like creatures.
 
 Like most of the numenera, humans have
 adapted existing technology in ways that weren’t
 intended. The crucibles weren’t designed to
-keep humans alive, so the Great Elders’ physical
+keep humans alive, so the 대장로들’ physical
 changes are probably a side effect of whatever
 unknown function the crucibles were built to do.
 
-The villagers are very respectful and
-deferential toward the elders. Most of them
-bow when an elder approaches, and many of
-them unconsciously repeat certain things the
-elders say, like they are responding to a sermon.
-None of the villagers will go against the word
-of an elder. The villagers do not understand the
-technology that keeps the elders alive, or why it
-has changed the elders’ bodies, but the elders
-wisdom has kept the valley safe for a long time,
-and that is reason enough to heed their words.
+The villagers are very respectful and deferential toward the elders. Most of them bow when an elder approaches, and many of them unconsciously repeat certain things the elders say, like they are responding to a sermon. None of the villagers will go against the word of an elder. The villagers do not understand the technology that keeps the elders alive, or why it has changed the elders’ bodies, but the elders wisdom has kept the valley safe for a long time, and that is reason enough to heed their words.
 
-The Great Elders reiterate and clarify anything
-the other villagers told the PCs. If the PCs seem
-like people who would be useful to the survival
-of the tribe, the Great Elders are likely to invite
-them to settle down in the village.
+The 대장로들 reiterate and clarify anything the other villagers told the PCs. If the PCs seem like people who would be useful to the survival of the tribe, the 대장로들 are likely to invite them to settle down in the village.
 
-The one thing the Great Elders are absolutely
-insistent about is that nobody should go to
-the Icon or enter the doorway at its base. This
-was forbidden by the elders’ grandparents,
-the founders of Bardak, who said that the Icon
-watches over the valley in exchange for keeping
-its sacred space untouched by mortal hands.
-The Great Elders try different methods to deter
-the PCs’ interest in that place—the underworld
-nano-spirits beneath it will kill them, it has
-powerful guardians to keep out trespassers,
-there is a spirit creature that will eat the soul of
-anyone who dares go there, interfering with the
-Icon will destroy the wards placed on the valley,
-the last people to try it were never seen again
-and the valley had an earthquake the day they
-tried, and so on. Of course, the PCs have heard
-similar arguments from superstitious people
-many times before, all of it rumors and lies to
-keep people away from valuable and powerful
-numenera…
+The one thing the 대장로들 are absolutely insistent about is that nobody should go to the Icon or enter the doorway at its base. This was forbidden by the elders’ grandparents, the founders of Bardak, who said that the Icon watches over the valley in exchange for keeping its sacred space untouched by mortal hands. The 대장로들 try different methods to deter the PCs’ interest in that place—the underworld nano-spirits beneath it will kill them, it has powerful guardians to keep out trespassers, there is a spirit creature that will eat the soul of anyone who dares go there, interfering with the Icon will destroy the wards placed on the valley, the last people to try it were never seen again and the valley had an earthquake the day they tried, and so on. Of course, the PCs have heard similar arguments from superstitious people many times before, all of it rumors and lies to keep people away from valuable and powerful numenera…
 
 ## 일족을 설득하기
 
-If the PCs want to leave, the villagers prepare
-satchels with about three days worth of food
-for each PC and give them each a warm cloak
-to protect against the weather. A small group
-of villagers gathers to watch the PCs leave, but
-there is no ceremony or sentimentality to it.
+If the PCs want to leave, the villagers prepare satchels with about three days worth of food for each PC and give them each a warm cloak to protect against the weather. A small group of villagers gathers to watch the PCs leave, but there is no ceremony or sentimentality to it.
 
-If the PCs want permission to approach the
-Icon, they need to convince two or more of the
-Great Elders to vote in their favor. Because they
-reinforce each others’ attitudes, these attempts
-to persuade them must be done one at a time
-when the other two Great Elders are not present.
-Because the elders have been enforcing these
-traditions for over a century, they are stuck in
-their ways, and attempts to influence them are
+If the PCs want permission to approach the Icon, they need to convince two or more of the 대장로들 to vote in their favor. Because they reinforce each others’ attitudes, these attempts to persuade them must be done one at a time when the other two 대장로들 are not present. Because the elders have been enforcing these traditions for over a century, they are stuck in their ways, and attempts to influence them are
 [난이도가 높아집니다.](/ko/numenera/how-to-play-numenera#overview)
 
-> 보통, 위대한 장로를 설득하는 건 레벨 4짜리 일이지만, 이 일은 난이도가 높아져서 레벨 5가 됩니다.
+> 보통, 대장로를 설득하는 건 레벨 4짜리 일이지만, 이 일은 난이도가 높아져서 레벨 5가 됩니다.
 
-If all the PCs spend at least a day using their
-skills and abilities to help the village (even
-hard physical labor will do, although it is not
-as impressive as some character abilities,
-and takes a few days to “count for as much”
-as a significant effort), the task to influence a
-Great Elder is [난이도가 낮아집니다.](/ko/numenera/how-to-play-numenera#overview) (which cancels out being
+If all the PCs spend at least a day using their skills and abilities to help the village (even hard physical labor will do, although it is not as impressive as some character abilities, and takes a few days to “count for as much” as a significant effort), the task to influence a 대장로 is [난이도가 낮아집니다.](/ko/numenera/how-to-play-numenera#overview) (which cancels out being
 hindered).
 
 > 우상이 무력화된 남쪽 철탑을 재가동시킬 방법을 가지고 있을지도 모른다고 제안하는 건 장로를 설득하는데 좋은 전술입니다.
 
 The GM should let the players get creative
 with how they might use their abilities to help the
-village. If they can’t think of anything, feel free to
-make the following suggestions:
+village. If they can’t think of anything, feel free to make the following 제안s:
 
 - **Gather Stone:** Some of the homes are
 crowded, and younger couples are planning
@@ -393,114 +310,36 @@ in packs. The ice weavers have two cyphers
 embedded in the walls of their lair.
 
 ### 탐험 허가
-If the PCs convince the Great Elders to allow
-them to visit the Icon, one of the elders insists
-on cautiously seeing them off as they leave the
-village. This is more of a show for the benefit of
-the other villagers—depending on their attitude
-toward the PCs, they might warn the villagers
-that the foolish PCs are marching to their deaths
-and that no wise people should ever do this, or
-say that the PCs have the blessing of the elders
-and are seeking new wisdom from the Icon, and
-so on.
+If the PCs convince the 대장로들 to allow them to visit the Icon, one of the elders insists on cautiously seeing them off as they leave the village. This is more of a show for the benefit of the other villagers—depending on their attitude toward the PCs, they might warn the villagers that the foolish PCs are marching to their deaths and that no wise people should ever do this, or say that the PCs have the blessing of the elders and are seeking new wisdom from the Icon, and so on.
 
-Award each PC 1 XP for convincing the Great
-Elders to allow them to visit the Icon. Proceed
-to the Approaching the Icon section of this
-adventure.
+Award each PC 1 XP for convincing the 대장로들 to allow them to visit the Icon. Proceed to the Approaching the Icon section of this adventure.
 
 ### 몰래 빠져나가기
-The PCs might try to sneak out of the village and
-over to the Icon without anyone noticing them.
-Fortunately, this is fairly easy to do, especially
-if they have special abilities that conceal their
-activities. If they fail, they are spotted, and the
-elders and some villagers confront them in the
-orchards—go to the Exploration Refused section.
-If they succeed at sneaking out, proceed to the
-Approaching the Icon section.
+The PCs might try to sneak out of the village and over to the Icon without anyone noticing them. Fortunately, this is fairly easy to do, especially if they have special abilities that conceal their activities. If they fail, they are spotted, and the elders and some villagers confront them in the orchards—go to the Exploration Refused section. If they succeed at sneaking out, proceed to the Approaching the Icon section.
 
 > 마을을 몰래 빠져나가는 건 레벨 3짜리 일입니다. PC가 밖이 어두울 때 시도하면 난이도가 낮아집니다.
 
 ### 모험의 거부
-If the PCs fail to convince the elders to allow
-them to explore the Icon, and are obvious in
-their plans to explore it anyway, the elders have
-the PCs watched, and when the PCs start to
-make their way toward the Icon, the elders (and
-ten villagers armed with staves) get in their path
-as they pass through the orchards, insisting
-that they leave the valley immediately. If the
-PCs refuse to turn back, the elders and villagers
-attack and attempt to subdue the PCs.
+If the PCs fail to convince the elders to allow them to explore the Icon, and are obvious in their plans to explore it anyway, the elders have the PCs watched, and when the PCs start to make their way toward the Icon, the elders (and ten villagers armed with staves) get in their path as they pass through the orchards, insisting that they leave the valley immediately. If the PCs refuse to turn back, the elders and villagers attack and attempt to subdue the PCs.
 
 
-> **위대한 장로들:** 레벨 3; 상호작용과 정신 영향에 저항하는 건 레벨 4; 체력 9; 장갑 3; 매 라운드 체력 1점을 회복합니다; 질병, 독, 노화에 면역;
+> **대장로들:** 레벨 3; 상호작용과 정신 영향에 저항하는 건 레벨 4; 체력 9; 장갑 3; 매 라운드 체력 1점을 회복합니다; 질병, 독, 노화에 면역;
 >
 > **전형적인 마을 사람:** 레벨 2, 체력 6, 농사는 레벨 3
 
-If the PCs lose this fight, they are tied up,
-given warm cloaks and some food, taken outside
-the western pylons, and told never to return to
-the valley. Of course, even if they’re exiled this
-way, there’s no reason the PCs can’t travel along
-the pylons to the north and approach the Icon
-from a different direction (the only drawback
-to this is that once they’re outside the pylon
-boundary, they’ll be out in the cold again and
-taking damage every ten minutes, or every hour
-if they wear the warm cloaks).
+If the PCs lose this fight, they are tied up, given warm cloaks and some food, taken outside the western pylons, and told never to return to the valley. Of course, even if they’re exiled this way, there’s no reason the PCs can’t travel along the pylons to the north and approach the Icon from a different direction (the only drawback to this is that once they’re outside the pylon boundary, they’ll be out in the cold again and taking damage every ten minutes, or every hour if they wear the warm cloaks).
 
-If the PCs defeat most of the villagers and
-at least one of the elders, the remaining elders
-call for a truce, stating that the PCs clearly
-outmatch them and it is pointless to throw away
-lives trying to stop them, at which point the
-elders and villagers retreat into their homes and
-barricade their doors in case the PCs unleash
-some doom upon the valley.
+If the PCs defeat most of the villagers and at least one of the elders, the remaining elders call for a truce, stating that the PCs clearly outmatch them and it is pointless to throw away lives trying to stop them, at which point the elders and villagers retreat into their homes and barricade their doors in case the PCs unleash some doom upon the valley.
 
-If the PCs fought the villagers (regardless
-of who wins), thereafter all interactions with
-the villagers or the elders are hindered by
-three steps, because the PCs are considered
-dangerous, reckless, and disrespectful toward
-the beliefs of the tribe.
+If the PCs fought the villagers (regardless of who wins), thereafter all interactions with the villagers or the elders are hindered by three steps, because the PCs are considered dangerous, reckless, and disrespectful toward the beliefs of the tribe.
 
-> GM intrusion suggestion: In response to a physical threat, a crucible transforms into a cyborg battle suit for a Great Elder, making it level 5 for attack and defense tasks.
+> **마스터 개입 제안:** In response to a physical threat, a crucible transforms into a cyborg battle suit for a 대장로, making it level 5 for attack and defense tasks.
 
 Defeated villagers have 1d10 shins each.
-A defeated elder’s crucible can be looted for
-a [무작위 사이퍼](/ko/numenera/ashes-of-the-sea#무작위-사이퍼): equal chances of a gravity
-nullifier, Might rejuvenator, or warmth projector.
-If the PCs chose not to kill the elder, the crucible
-keeps them alive, but it can no longer levitate
-(the villagers will have to build a mobility cart for
-that elder).
+A defeated elder’s crucible can be looted for a [무작위 사이퍼](/ko/numenera/ashes-of-the-sea#무작위-사이퍼): equal chances of a gravity nullifier, Might rejuvenator, or warmth projector. If the PCs chose not to kill the elder, the crucible keeps them alive, but it can no longer levitate (the villagers will have to build a mobility cart for that elder).
 
 ### 우상에 접근하기
-The path leading to the Icon winds back
-and forth to the north, sometimes making a
-switchback to reach a higher elevation. Along
-the sides of the path are the remnants of old
-offerings of food and wooden carvings from
-villagers too afraid or too respectful to approach
-any closer. Just before the path becomes jagged
-and precarious is a small pile of flat stones, each
-with a warning inscribed upon it in the Truth
-to come no closer. The path near the stones is
-covered in more offerings, most of which are at
-least a week old. Beyond the stone markers, the
-path continues along the top of a low ridge for
-about a long distance, then smoothes out again
-as it covers another zig-zagging long distance in
-the final approach to the Icon itself. The statue is
-near the pylon boundary, but at least a bowshot
-away from the nearest pylon. Flurries of snow or
-shellsnow blow about in the wind, and the air is
-much colder at this altitude compared to the rest
-of the valley.
+The path leading to the Icon winds back and forth to the north, sometimes making a switchback to reach a higher elevation. Along the sides of the path are the remnants of old offerings of food and wooden carvings from villagers too afraid or too respectful to approach any closer. Just before the path becomes jagged and precarious is a small pile of flat stones, each with a warning inscribed upon it in the Truth to come no closer. The path near the stones is covered in more offerings, most of which are at least a week old. Beyond the stone markers, the path continues along the top of a low ridge for about a long distance, then smoothes out again as it covers another zig-zagging long distance in the final approach to the Icon itself. The statue is near the pylon boundary, but at least a bowshot away from the nearest pylon. Flurries of snow or shellsnow blow about in the wind, and the air is much colder at this altitude compared to the rest of the valley.
 
 > The Icon, level 8, health 50, Armor 3, immune to electricity
 
@@ -672,8 +511,7 @@ they approach by burrowing under the layer of
 shellsnow, hindering by two steps any chances to
 notice them approaching.
 
-> GM intrusion
-suggestion: A PC
+> **마스터 개입 제안:** A PC
 moving during combat
 with the swarm trips
 on something buried
@@ -848,8 +686,7 @@ and the narrative is weird and disjointed.
 
 *Huge pale animals resembling hard-shelled sea creatures, harnessed with bands and implants of bronze. A sea of black spots against a red background, whorled with umber. A sensation of time passing. A blue sphere appearing in the red. Pain. Cold. The great sea creatures struggling against an invisible weight. They die. Smaller sea creatures dismantle their metal and flesh, leaving tiny fragments everywhere. A blue light in darkness. Bronze domes scattered like pebbles. Time. Weariness. Sleep.*
 
-> GM intrusion
-suggestion: One PC
+> **마스터 개입 제안:** One PC
 has an adverse reaction
 to this psychic message,
 and must succeed at a
@@ -922,8 +759,7 @@ Reattaching the removed cypher is a level 5
 crafting numenera task; success means the
 pylons start working normally again.
 
-> GM intrusion
-suggestion: Removing
+> **마스터 개입 제안:** Removing
 the dimensional interface
 causes a short circuit,
 inflicting 5 points of
@@ -987,7 +823,7 @@ speak many prayers and blessings for the PCs,
 thanking them for helping protect their village
 and valley, and insisting they stay a few days to
 enjoy a celebratory feast in their honor. Even the
-Great Elders are impressed and praise the PCs
+대장로들 are impressed and praise the PCs
 (although because of their somewhat-inhuman
 features it is difficult to tell how they really feel
 about the situation).
@@ -1010,27 +846,13 @@ and half the elder hoping that these annoying
 visitors get the hint that they are a disruption to
 the status quo and should go).
 
-> Typical villager:
-Level 2, health 6,
-level 3 for farming
+> **Typical villager:** Level 2, health 6, level 3 for farming
 >
-> Village mob: Level 4,
-health 12, damage 4;
-can grab one PC and
-restrain them unless
-they succeed at a Might
-roll to free themselves
+> **Village mob:** Level 4, health 12, damage 4; can grab one PC and restrain them unless they succeed at a Might roll to free themselves
 >
->Great Elder: Level 3;
-level 4 for interaction
-tasks and resisting
-mental influence;
-health 9; Armor 3; heals
-1 health per round;
-immune to diseases,
-poisons, and aging
+> **대장로:** Level 3; level 4 for interaction tasks and resisting mental influence; health 9; Armor 3; heals 1 health per round; immune to diseases, poisons, and aging
 
-### 철탑의 문제
+### 철탑 고장
 If the PCs return to the village and they have
 deactivated or otherwise hampered the functions
 of the pylons (and especially if there was an
@@ -1046,7 +868,7 @@ numbers, the villagers are not a threat, but
 all sixty or so healthy adult villagers working
 together can overwhelm the PCs, functioning
 as four level 4 mobs, which doesn’t include the
-Great Elders attacking.
+대장로들 attacking.
 
 ### 걸어 나갈 시간
 If the PCs leave Bardak as heroes, the entire
@@ -1180,21 +1002,20 @@ what happens.
 플레이어들이 멋지게 해낸 걸 축하합시다! 순간이동기를 고치고 사용한 PC 각각에게 경험치 1점을 줍니다.
 
 ## 무작위 사이퍼
-The PCs have several opportunities to acquire new cyphers in this adventure. Choose cyphers from
-this list or roll randomly to determine what the PCs get.
+PC들은 이 모험에서 새로운 사이퍼를 얻을 기회가 몇몇 있습니다. 이 목록에서 사이퍼를 고르거나 무작위로 굴려서 PC가 무엇을 얻는지 정하십시오.
 
 |        |                                                                                                                                                                                                                                                                                                                                                      |
 | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1**  | **Density Nodule**: A level 3 yellow crystal surrounded by thick metal wires. When attached to a weapon, for the next 28 hours it increases the weapon’s density at the instant of impact, increasing its damage by 2 points.                                                                                                                        |
-| **2**  | **Electricity Detonation**: A level 4 metal disc with multiple blue crystals. It explodes in an immediate radius,  inflicting electrical damage equal to the cypher’s level. You can throw it up to a short distance.                                                                                                                                |
-| **3**  | **Emotion Poison Injector**: A level 4 synth syringe-like device with no needle. A person injected with it feels happy for one hour, easing all interaction tasks to affect them while it lasts.                                                                                                                                                     |
-| **4**  | **Force Cube Projector**: A level 3 segmented synth cube with a faint green glow coming from the gaps between the segments. It creates an immobile cube composed of six walls of solid force centered on you, each 30 feet (9.1 m) to a side, for one hour. The walls conform to the space available.                                                |
-| **5**  | **Gravity Nullifier**: A level 5 belt attachment. It lets the user float into the air for one hour, moving vertically up to a short distance per round. This doesn’t allow the user to move horizontally (but they can push away from a wall or use other methods to go sideways). The user must weigh less than 50 pounds (22 kg) per cypher level. |
-| **6**  | **Instant Shelter**: A level 2 cylindrical lattice made of synth. It absorbs water and air to create a simple cubical building 10 feet (3 m) on a side with a door and window. It is made of hard foam and is permanent and immobile once created.                                                                                                   |
-| **7**  | **Magnetic Attack Drill**: A level 5 small sphere with a screw-like protrusion. If thrown at an opponent, it drills into them and inflicts damage equal to the cypher’s level. If the opponent is metal or wearing metal, the attack roll is eased.                                                                                                  |
-| **8**  | **Might Rejuvenator**: A level 6 handheld apparatus. It injects one creature with chemicals that restore a number of points equal to the cypher’s level to the creature’s Might pool.                                                                                                                                                                |
-| **9**  | **Ray Emitter**: A level 5 synth headband with metal knobs. The wearer can create a ray of energy that strikes a target up to a long distance away and inflicts heat damage equal to the cypher’s level.                                                                                                                                             |
-| **10** | **Warmth Projector**: A level 3 metal container filled with nanofluid. When the fluid is touched to the user’s skin, it forms an articulated carapace-like protective barrier for 28 hours that provides Armor equal to the cypher’s level against cold damage.                                                                                      |
+| **1**  | **운명 결절**: 레벨 3 두꺼운 금속 끈으로 둘러 쌓인 노란 수정. When attached to a weapon, for the next 28 hours it increases the weapon’s density at the instant of impact, increasing its damage by 2 points.                                                                                                                        |
+| **2**  | **전기 폭발**: 레벨 4 여러 푸른 수정이 붙은 금속 원반. It explodes in an immediate radius,  inflicting electrical damage equal to the cypher’s level. You can throw it up to a short distance.                                                                                                                                |
+| **3**  | **감정 독 주사기**: 레벨 4 바늘이 없는 기계처럼 생긴 신스 주사기. A person injected with it feels happy for one hour, easing all interaction tasks to affect them while it lasts.                                                                                                                                                     |
+| **4**  | **역장 상자 투영기**: 레벨 3 조각 사이의 틈에서 희미한 초록 빛이 새어나오는 조각난 신스 상자. It creates an immobile cube composed of six walls of solid force centered on you, each 30 feet (9.1 m) to a side, for one hour. The walls conform to the space available.                                                |
+| **5**  | **중력 무효화 장치**: 레벨 5 벨트에 부착하는 장치. It lets the user float into the air for one hour, moving vertically up to a short distance per round. This doesn’t allow the user to move horizontally (but they can push away from a wall or use other methods to go sideways). The user must weigh less than 50 pounds (22 kg) per cypher level. |
+| **6**  | **즉석 쉼터**: 레벨 2 신스로 만든 원통형 격자. It absorbs water and air to create a simple cubical building 10 feet (3 m) on a side with a door and window. It is made of hard foam and is permanent and immobile once created.                                                                                                   |
+| **7**  | **자기 공격용 드릴**: 레벨 5 나사 같은 돌출부가 있는 작은 공. If thrown at an opponent, it drills into them and inflicts damage equal to the cypher’s level. If the opponent is metal or wearing metal, the attack roll is eased.                                                                                                  |
+| **8**  | **힘 회복제**: 레벨 6 손에 드는 장치. It injects one creature with chemicals that restore a number of points equal to the cypher’s level to the creature’s Might pool.                                                                                                                                                                |
+| **9**  | **광선 방출기**: 레벨 5 금속 손잡이가 달린 신스로 된 머리띠. The wearer can create a ray of energy that strikes a target up to a long distance away and inflicts heat damage equal to the cypher’s level.                                                                                                                                             |
+| **10** | **온기 투영기**: 레벨 3 나노 액체로 채워진 금속 용기. When the fluid is touched to the user’s skin, it forms an articulated carapace-like protective barrier for 28 hours that provides Armor equal to the cypher’s level against cold damage.                                                                                      |
 
 > Remember that each
 PC has a [cypher limit](/ko/numenera/understanding-your-character#사이퍼와-신기품)
@@ -1218,30 +1039,17 @@ choose another cypher.
 ## 무작위 아이오툼
 If the PCs salvage a cypher, roll once on this table. Reroll if the level of the cypher the PCs are
 salvaging is less than the minimum level of the iotum on the table.
-| Roll  | Iotum                | Minimum Cypher Level |
-| ----- | -------------------- | -------------------- |
-| 01–12 | 1d3 io               | 1                    |
-| 13–24 | 1d6 io               | 1                    |
-| 26–49 | 1d2 responsive synth | 2                    |
-| 50–65 | 1   apt clay         | 3                    |
-| 66–79 | 1   bio-circuitry    | 4                    |
-| 80–89 | 1d2 quantium         | 4                    |
-| 90–00 | 1   pliable metal    | 4                    |
+| 결과  | 아이오툼                          | 최소 사이퍼 레벨 |
+| ----- | --------------------------------- | ---------------- |
+| 01–12 | 1d3 아이오(io)                    | 1                |
+| 13–24 | 1d6 아이오(io)                    | 1                |
+| 26–49 | 1d2 반응형 신스(responsive synth) | 2                |
+| 50–65 | 1   적합 점토(apt clay)           | 3                |
+| 66–79 | 1   생물-회로(bio-circutary)      | 4                |
+| 80–89 | 1d2 퀀티움(quantium)              | 4                |
+| 90–00 | 1   유연 금속(pliable metal)      | 4                |
 
-> Apt clay is a blue-grey
-clay with a metallic
-sheen.
-> 
-> Quantium is
-an opaque synth box
-containing glittering
-points of light. Apt clay
-and quantium are not
-used this adventure,
-but they are useful for
-building many objects
-of the numenera—for
-future adventures!
+> **Apt clay** is a blue-grey clay with a metallic sheen. **Quantium** is an opaque synth box containing glittering points of light. Apt clay and quantium are not used this adventure, but they are useful for building many objects of the numenera—for future adventures!
 
 [^역주1]: *역주 1* : 번역본에서는 따로 링크로 제공합니다.
 
