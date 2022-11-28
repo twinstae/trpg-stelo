@@ -370,7 +370,7 @@ table tr td {
 
 .numenera-box {
 	@apply p-4 border-2 border-primary;
-	background-color: hsl(var(--p) / 0.3);
+	background-color: hsl(var(--p) / 0.25);
 }
 
 .content ul {

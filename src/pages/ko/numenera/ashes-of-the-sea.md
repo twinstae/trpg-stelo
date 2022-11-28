@@ -164,111 +164,56 @@ PC들을 만나러 보내진 세 마을 사람들은 조심스럽지만 궁금�
 
 ### 바르닥 마을
 
-The people of Bardak are happy to relate their history to the PCs, which is only history as they understand it, since the written records were destroyed and they have only verbal stories that have been repeated over the generations.
+바르닥 사람들은 PC들에게 자기네 역사를 이야기할 수 있어서 기뻐합니다. 이는 딱 마을 사람들이 이해한 정도의 역사이며, 글로 쓰여진 기록은 소실되었고 세대에 걸쳐 반복해서 구전되어온 이야기 밖에 없기 때문입니다.
 
-The village has twenty-five homes and a few other buildings. Of these, six are metal domes made of the same bronze-looking metal as the pylons, and (like the pylons) they are basically impervious to any attempts by the PCs to harm them. Each dome has one door with a circular pad that if touched opens or closes the door. The remaining buildings are square and made of mortared stone, with sod roofs. Each home (regardless of its materials) houses several generations of one family (married partners, their children, and the children’s grandparents). Food from the orchards is plentiful and the egg-birds thrive in the temperate valley, so the people don’t have to work too hard to survive, giving them a lot of idle time for telling stories and praying. Their greatest threat is inbreeding due to a small gene pool, but it is not a serious risk yet, and in any case, there is little they can do about that except ask their rare visitors to join their village and start families. The villagers don’t know where the founders came from or where any other communities are nearby— they have been isolated here a long, long time.
+마을에는 스물 다섯 채의 집과 몇몇 다른 건물들이 있습니다. 이중에 여섯은 철탑과 똑같이 청동처럼 보이는 금속으로 된 돔이고, 그리고 (철탑과 마찬가지로) 기본적으로 손상시키려는 PC의 어떤 시도도 통하지 않습니다. 각 돔은 하나의 문이 있는데 동그란 패드가 달려 있어서 만지면 문을 열거나 닫을 수 있습니다. 나머지 건물들은 네모나고 돌로 만들어졌고, 잔디 지붕이 있습니다. 각 집은 (그 소재와는 무관하게) 한 가족의 몇 세대가 삽니다. (결혼한 배우자와 자식, 그리고 자녀들의 조부모) 과수원에서 가져온 식량은 풍요롭고 알을 낳는 새들이 따뜻한 계곡에 많이 살고 있어서, 사람들은 살아 남기 위해 너무 열심히 살 필요는 없고, 이야기하고 기도할 수 있는 충분한 여가시간이 있습니다. 가장 큰 위협은 작은 유전자 풀 때문에 생기는 근친인데, 아직은 심각한 위협은 아니지만, 이렇든저렇든, 마을 사람들이 할 수 있는 거라곤 드문 방문자들에게 마을에서 가족을 꾸리고 함께 살자고 권유하는 정도입니다. 마을 사람들은 창립자들이 어디에서 왔는지, 다른 근처의 공동체들은 어디에 있는지 모릅니다- 길고 긴 시간 동안 이곳에 고립되어 살아왔습니다.
 
 <div class="numenera-box">
 
 ### 바르닥 역사
-Bardak is a very tiny isolated village
-with only about 100 people, all of them
-descendants of a group of travelers who
-were brought here about 200 years ago
-by the numenera. The founders used the
-numenera to create the pylons that keep
-away the bad weather, build the metal
-homes at the center of the village, plant the
-orchards that fill the valley, and establish
-the wards and rituals that keep the Icon
-sleeping and happy. The numenera told
-the founders to live here, watch over the
-valley, and protect the Icon from those who
-would wake or harm it, and that is what
-they have done, passing on these traditions
-to their children like it was a religion. They
-understand (and are somewhat ashamed)
-that their efforts and faith have not been
-perfect, and as punishment in recent years
-one of the pylons has stopped singing, and
-from time to time dangerous creatures
-have entered the valley.
+바르닥은 매우 작은 고립된 마을으로 겨우 100명 정도의 사람들이 있으며, 모두 200년 전에 누메네라로 인해 이곳에 옮겨온 한 무리의 여행자들의 후손입니다. 창시자들은 누메네라를 써서 첨탑을 만들어 열악한 기후에서 보호하고, 마을 중앙에 금속으로 집을 짓고, 계곡을 가득 채운 과일 나무를 심고, 교구과 의식을 만들어 우상을 잠든 채로 행복하게 유지하도록 했습니다. 그 누메네라는 창시자들에게 여기 살며, 계곡을 살피고, 우상을 깨우거나 해하려는 이들로부터 지키라고 말했고, 이게 그들이 해온 일이며, 이 전통을 그들의 자녀에게 마치 종교인 것처럼 물려주었습니다. 그들은 노력과 믿음이 완벽하지 못했던 것을 이해하고 (또 어떤 면에서는 부끄러워하며) 그 벌로서 최근 몇 년 사이에 첨탑 중에 하나는 노래하기를 멈췄고, 때때로 위험한 생물들이 계곡에 들어오기도 했습니다.
 
 </div>
 
-The Icon is the large statue to the north. The villagers speak of it as if it were a sleeping protector god, dangerous if woken unexpectedly, but generally benign. They leave offerings of food and carved wooden figurines at the base of the path leading up to the Icon, but never step past that point, as they believe the Icon is prone to having nightmares and causes earthquakes when it is startled or the religious rites are not performed correctly. The Icon sleeps on top of a doorway to the underworld, protecting the valley from dangerous nano-spirits imprisoned there. Nobody in the village alive today has gotten close to the Icon or looked into the doorway— doing so is forbidden by the 대장로들, and the punishment is banishment from the village.
+우상은 북쪽을 보고 있는 거대한 동상입니다. 마을 사람들은 이를 마치 예상치 못하게 깨어나면 위험하지만, 기본적으로는 인자한, 잠들어 있는 수호신처럼 이야기합니다. 우상으로 가는 길의 바닥에 음식과 깎은 나무 조각상을 바치지만, 절대 그 이상으로 들어가진 않으며, 우상이 악몽을 꾸고 있고  놀라거나 종교 의식이 제대로 이뤄지지 않으면 지진을 일으킨다고 믿습니다. 우상은 지하세계로 가는 문의 꼭대기에서 잠을 자고 있고 그곳에 갇힌 위험한 나노 정령들로부터 계곡을 지켜주고 있습니다. 마을에 지금 살아 있는 그 누구도 우상에 가까이 다가가거나 문 안을 들여다보지 않았고- 이는 대장로들에 의해 금지되었으며, 그에 따른 처벌은 마을에서 추방되는 것이었기 때문입니다.
 
-Forty years ago, a small group of strangers
-came to the village, saying they came from a
-place far away. They did not heed the elders’
-warnings about the Icon and chose to look upon
-the underworld with their own eyes. They were
-never seen again, and shortly after they went
-through the door, an earthquake shook the valley
-and one of the southern pylons stopped singing.
-The elders tell a story of another group of visitors
-who came to the village long, long ago (before
-the elders were even born), stayed for six days,
-then decided to head west down the mountain
-and were never seen again.
+40년 전, 작은 무리의 낯선 이들이 마을에 찾아와서, 머나먼 곳에서 왔다고 말했습니다. 그들은 우상에 대한 장로들의 경고를 무시하고 지하세계를 자기 눈으로 보고 오기로 결정했습니다. 그들은 다시는 보이지 않았고, 그들이 문 안으로 들어간지 얼마 되지 않아, 지진이 계곡을 강타하고 남쪽의 첨탑 하나가 노래를 멈추었습니다. 장로들은 또 다른 방문자들도 멀고 먼 옜날 (장로들이 태어나기도 전에) 이 마을에 왔었지만, 6일을 머물고, 산의 서쪽으로 내려가기로 했지만 다신 보이지 않았다는 이야기도 해줍니다.
 
-The villagers explain that Bardak is guided by
-three 대장로들—people who are well over a
-hundred years old, kept alive by blessings from
-the numenera, and are very wise. Any decisions
-that affect the entire tribe (such as religious
-matters or inviting the PCs to stay more than a
-couple of days) must have the input of all three
-대장로들. If the PCs want to discuss important
-issues, or if they want to know more about
-or investigate the Icon, some of the villagers
-inform the 대장로들, who personally make an
-appearance to talk with the PCs. Likewise, if the
-PCs cause trouble, the 대장로들 show up and
-try to put a stop to it before any villagers get hurt.
+마을 사람들은 바르닥을 세 대장로님들이 이끌고 계시며 100살이 넘도록 건강하며, 누메네라의 축복으로 계속 살아 있고, 매우 현명하시다고 설명합니다. 일족 전체에 영향을 주는 그 어떤 결정도 (종교적 문제나 PC들을 며칠 이상 머무르도록 초대하는 것 같은) 이 세 대장로님들의 의견이 있어야 합니다. 만약 PC가 중요한 문제를 상의하길 원하거나, 더 많은 걸 알고 싶거나, 우상을 조사하고 싶어 한다면, 몇몇 마을 사람들이 대장로님들에게 알리고, 개인적으로 PC들과 이야기를 하러 모습을 밝힙니다. 마찬가지로, PC들이 문제를 일으킨다면, 대장로들이 나타나 마을 사람 누구도 다치기 전에 멈추려고 할 것입니다.
 
 ### 대장로들
 
 > **대장로들:** 레벨 3; 상호작용과 정신 영향에 저항하는 건 레벨 4; 체력 9; 장갑 3; 매 라운드 체력 1점을 회복합니다; 질병, 독, 노화에 면역;
 
-Augrom, Okeyay, and Thoak are the three 대장로들 of Bardak. Each of them reached old age eighty to ninety years ago, but were able to bond with one of three life crucibles—lifesustaining artifacts left behind by the founders. The crucibles fused with their flesh, fortified them against disease and poison, and have been keeping them alive ever since. Each of the 대장로들 is now at least 140 years old, but their crucibles keep them strong and healthy. Decades of associating with each other, compounded by their shared experience of forced evolution, has made the three 대장로들 very similar in personality and temperament.
+오그롬, 오우키에이, 그리고 토크는 바르닥의 세 대장로입니다. 모두 팔 구십년 전에 이미 늙었지만, 생명의 도가니-창시자들이 남긴 생명을 지속시켜주는 아티팩트- 중 하나와 결합될 수 있었습니다. 도가니는 삶에 녹아들어, 질병과 독으로부터 지켜주고, 그 후로 계속 살아있게 해주었습니다. 대장로들 각각은 이제 최소 140살 이상이지만, 도가니는 여전히 강하고 건강하게 해줍니다. 1세기가 넘도록 서로 함께 해왔고, 강요된 진화의 경험을 공유했기에, 세 장로들은 성격도 기질도 매우 비슷하게 되었습니다.
 
-A life crucible is a levitating one-person vehicle made of metal (the bronze-like stuff used elsewhere in the village), shell-like growths, and glass, looking much like a spherical chair that can envelop an entire person (legs and all), with a vertical metal pole extending out of the bottom that doesn’t quite reach the ground. There are two drawbacks to bonding with a crucible: removing a person from the crucible is fatal, and the crucible seems to be evolving or mutating the elders into something other than human. The 대장로들 have swollen, distorted bodies and faces, somewhat like a caterpillar, except instead of transforming into a butterfly or moth, they appear to be something in between the shape of a human and a lobster, with carapace-like growths on the chest and stomach, and several pairs of little secondary limbs.
+생명의 도가니는 공중에 뜨는 일인용 운송수단으로 (마을의 다른 곳에서도 볼 수 있는 청동 같은) 금속과, 껍질처럼 자라는 무언가, 그리고 유리로 되어 있으며, 사람(의 다리와 모든 것을)을 감싸는 구형 의자처럼 생겨서, 수직의 금속 봉이 바닥에 닿을듯이 뻗어 있습니다. 도가니와 결합되는 데에는 두 가지 단점이 있는데: 도가니에서 사람을 떼어내는 것은 치명적이고, 도가니는 장로들은 인간이 아닌 무언가로 진화시키거나 변이시키는듯 합니다. 대장로들은 부풀고 왜곡된 몸과 얼굴으로, 어떻게는 애벌래 같은데, 나비나 나방으로 변하는 대신, 사람과 바닷가재 사이의 무언가처럼 보이며, 가슴과 배 쪽에 배껍질 같은 게 자라고 있고, 몇 쌍의 작은 다리 같은 것도 생겼습니다.
 
-> The life crucibles aren’t deliberately making the 대장로들 into lobster-like creatures.
+> 생명 도가니는 의도적으로 대장로들을 바닷가재 같은 생물로 변화시키는 게 아닙니다.
 
-Like most of the numenera, humans have
-adapted existing technology in ways that weren’t
-intended. The crucibles weren’t designed to
-keep humans alive, so the 대장로들’ physical
-changes are probably a side effect of whatever
-unknown function the crucibles were built to do.
+다른 대부분의 누메네라와 마찬가지로, 인간은 기존의 기술에 의도되지 않은 방식으로 적응했습니다. 도가니는 사람을 살아 있게 유지하려는 목적으로 설계되지 않았기에, 대장로들의 신체적 변화는 아마도 도가니가 만들어진 알 수 없는 어떤 기능의 부작용일 것입니다.
 
-The villagers are very respectful and deferential toward the elders. Most of them bow when an elder approaches, and many of them unconsciously repeat certain things the elders say, like they are responding to a sermon. None of the villagers will go against the word of an elder. The villagers do not understand the technology that keeps the elders alive, or why it has changed the elders’ bodies, but the elders wisdom has kept the valley safe for a long time, and that is reason enough to heed their words.
+마을 사람들은 장로들을 매우 존경하고 공손하게 대합니다. 대부분은 장로가 다가오면 인사를 하고, 대부분은 의식하지 못한 채로 마치 설법에 반응하듯이 장로가 한 어떤 말을 반복합니다. 마을 사람 중 누구도 장로들이 하는 말에 반기를 들지 않고, 마을 사람들은 장로들을 살아있게 해주는 기술도, 왜 장로들의 몸을 변화시키는지도 이해하지 못하지만, 장로들의 지혜는 계곡을 오랫동안 안전하게 지켜왔고, 이것만으로도 장로의 말에 따를 충분한 이유가 됩니다.
 
-The 대장로들 reiterate and clarify anything the other villagers told the PCs. If the PCs seem like people who would be useful to the survival of the tribe, the 대장로들 are likely to invite them to settle down in the village.
+대장로들은 다른 마을 사람들이 PC에게 했던 어떤 말도 반복하고 명확하게 해줍니다. PC들이 일종의 생존에 쓸모 있는 사람처럼 보인다면, 장로들은 마을에 정착하기를 권유합니다.
 
-The one thing the 대장로들 are absolutely insistent about is that nobody should go to the Icon or enter the doorway at its base. This was forbidden by the elders’ grandparents, the founders of Bardak, who said that the Icon watches over the valley in exchange for keeping its sacred space untouched by mortal hands. The 대장로들 try different methods to deter the PCs’ interest in that place—the underworld nano-spirits beneath it will kill them, it has powerful guardians to keep out trespassers, there is a spirit creature that will eat the soul of anyone who dares go there, interfering with the Icon will destroy the wards placed on the valley, the last people to try it were never seen again and the valley had an earthquake the day they tried, and so on. Of course, the PCs have heard similar arguments from superstitious people many times before, all of it rumors and lies to keep people away from valuable and powerful numenera…
+대장로들이 절대적으로 주장하는 한 가지는 누구도 우상으로 가거나 그 토대에 있는 문에 들어가서는 안된다는 것입니다. 이는 장로들의 할아버지-바르닥의 창시자들-에 의해 금지되었으며, 필멸자의 손이 신성한 공간을 건드리지 않도록 지키는 대가로 우상께서 계곡을 살펴주신다고 말했습니다. 대장로들은 그 장소에 대한 PC들의 관심을 여러 방법으로 돌리려 하는데-그 아래 지하세계의 나노 영혼들이 그들을 죽일 것이라느니, 침입자를 쫓아내는 강력한 수호자가 있다느니, 감히 이곳에 들어오려는 영혼을 먹어치우는 원령 생물이 있다느니, 우상을 방해하면 계곡에 위치한 교구를 파괴할 것이라느니, 마지막으로 도전했던 사람은 다시는 보이지 않았고 그 날 지진이 일어났다느니, 등등입니다. 물론, PC들은 비슷한 주장을 전부터 미신적인 사람들에게 수 없이 들어왔는데, 그건 전부 값 나가고 강력한 누메네라로부터 사람들을 떼어놓으려는 헛소문이고 거짓말이었습니다.
 
 ## 일족을 설득하기
 
-If the PCs want to leave, the villagers prepare satchels with about three days worth of food for each PC and give them each a warm cloak to protect against the weather. A small group of villagers gathers to watch the PCs leave, but there is no ceremony or sentimentality to it.
+PC들이 떠나길 원하면, 마을 사람들은 작은 행낭에 각 PC가 3일 정도 먹을 수 있을 정도의 음식을 챙겨주고 이 날씨로부터 보호해줄 따뜻한 망토도 하나씩 줍니다. 작은 무리의 마을 사람들이 모여 PC들이 떠나는 걸 보려 하지만, 여기에 의식이나 특별한 감정은 없습니다.
 
-If the PCs want permission to approach the Icon, they need to convince two or more of the 대장로들 to vote in their favor. Because they reinforce each others’ attitudes, these attempts to persuade them must be done one at a time when the other two 대장로들 are not present. Because the elders have been enforcing these traditions for over a century, they are stuck in their ways, and attempts to influence them are
-[난이도가 높아집니다.](/ko/numenera/how-to-play-numenera#overview)
+PC들이 우상에 가는 걸 허락 받길 원하면, 대장로들 중에 두 명 이상이 일행의 편을 들도록 납득시켜야 합니다. 모여 있으면 서로의 태도를 강화하기 때문에, 다른 두 대장로가 없을 때 한 명씩 설득을 시도해야 합니다. 장로들은 이 전통을 한 세기 넘게 강요해왔고, 이런 방식에 꽉 막혀 있기 때문에, [영향을 주려는 시도는 난이도가 한 단계 높아집니다.](/ko/numenera/how-to-play-numenera#overview)
 
 > 보통, 대장로를 설득하는 건 레벨 4짜리 일이지만, 이 일은 난이도가 높아져서 레벨 5가 됩니다.
 
-If all the PCs spend at least a day using their skills and abilities to help the village (even hard physical labor will do, although it is not as impressive as some character abilities, and takes a few days to “count for as much” as a significant effort), the task to influence a 대장로 is [난이도가 낮아집니다.](/ko/numenera/how-to-play-numenera#overview) (which cancels out being
-hindered).
+모든 PC들이 최소 하루 동안 자기 기능과 능력을 마을을 돕는데 쓴다면 (하물며 강도 높은 육체 노동도, 물론 캐릭터의 능력만큼 인상적이진 않겠지만, "이건 좀 많다"싶을 정도로 며칠 동안 일을 하면 의미있는 노력으로 칩니다), 대장로에게 영향을 주는 일은 [난이도가 한 단계 낮아집니다.](/ko/numenera/how-to-play-numenera#overview) (앞서 높아진 난이도도 취소합니다).
 
-> 우상이 무력화된 남쪽 철탑을 재가동시킬 방법을 가지고 있을지도 모른다고 제안하는 건 장로를 설득하는데 좋은 전술입니다.
+> 우상이 무력화된 남쪽 철탑을 재가동시킬 방법을 가지고 있을지도 모른다고 제안하는 건 장로를 설득하기에 좋은 전술입니다.
 
-The GM should let the players get creative
-with how they might use their abilities to help the
-village. If they can’t think of anything, feel free to make the following 제안s:
+마스터는 플레이어들이 어떻게 마을을 돕는데 자기 능력을 쓸지 창의적이게 허용해줘야 합니다. 아무 것도 생각해내지 못하면, 자유롭게 다음과 같이 제안을 해보십시오:
 
-- **Gather Stone:** Some of the homes are
+- **돌 모으기:** Some of the homes are
 crowded, and younger couples are planning
 on building new cottages to give their
 families room to grow. This requires a lot of
@@ -276,13 +221,13 @@ stone, and gathering enough for one cottage
 takes about 30 person-hours worth of labor
 (so 6 hours of five people working, 15 hours
 of two people working, and so on).
-- **Build a Cottage:** If there is enough stone on
+- **작은 집 짓기:** If there is enough stone on
 hand, building the walls of a simple stone
 cottage takes about 18 hours of hard labor
 (usually spread out over three days instead
 of all in one go). Every two people helping
 reduces this time by about 3 hours.
-- **Meat and Hides:** The valley provides all
+- **고기와 가죽:** The valley provides all
 the food the villagers need, but people still
 have a taste for exotic foods, especially for
 celebrations. Packs of [blacktusks](/ko/numenera/mini-bestiary#검은-엄니-black-tusk-4-12) sometimes
@@ -294,7 +239,7 @@ hunt in packs of three) or find a lair. One
 dead blacktusk would be appreciated, and
 two would be cause for a feast. The blacktusk
 lair has one [무작위 사이퍼](/ko/numenera/ashes-of-the-sea#무작위-사이퍼)가 하나 있습니다.
-- **Dangerous Interlopers:** A cave near the
+- **위험한 침입자:** A cave near the
 “quiet” southern pylon has become
 overgrown with icy growths over the past
 few days, resembling a castle. The elders say
@@ -309,7 +254,7 @@ right out of a person’s body, and they travel
 in packs. The ice weavers have two cyphers
 embedded in the walls of their lair.
 
-### 탐험 허가
+### 탐험 허락
 If the PCs convince the 대장로들 to allow them to visit the Icon, one of the elders insists on cautiously seeing them off as they leave the village. This is more of a show for the benefit of the other villagers—depending on their attitude toward the PCs, they might warn the villagers that the foolish PCs are marching to their deaths and that no wise people should ever do this, or say that the PCs have the blessing of the elders and are seeking new wisdom from the Icon, and so on.
 
 Award each PC 1 XP for convincing the 대장로들 to allow them to visit the Icon. Proceed to the Approaching the Icon section of this adventure.
@@ -319,7 +264,7 @@ The PCs might try to sneak out of the village and over to the Icon without anyon
 
 > 마을을 몰래 빠져나가는 건 레벨 3짜리 일입니다. PC가 밖이 어두울 때 시도하면 난이도가 낮아집니다.
 
-### 모험의 거부
+### 탐험 거부
 If the PCs fail to convince the elders to allow them to explore the Icon, and are obvious in their plans to explore it anyway, the elders have the PCs watched, and when the PCs start to make their way toward the Icon, the elders (and ten villagers armed with staves) get in their path as they pass through the orchards, insisting that they leave the valley immediately. If the PCs refuse to turn back, the elders and villagers attack and attempt to subdue the PCs.
 
 
