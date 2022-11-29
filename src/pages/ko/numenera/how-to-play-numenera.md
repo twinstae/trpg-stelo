@@ -105,17 +105,15 @@ createdAt: "2022-11-17T07:31:02.290Z"
 난이도를 정할 때에는 캐릭터의 능력보다는 일 자체로 얻는 이득을 따라서 정해야 합니다. 난이도는 상대적이지 않습니다. 레벨4 짜리 잠긴 문은 누가 열려고 시도하더라도 여전히 똑같습니다.
 
 ### 난이도 조정하기
-캐릭터의 기능들, 우호적인 상황, 혹은 탁월한 장비는 일의 난이도를 낮출 수 있습니다.
+캐릭터의 기능들, 우호적인 상황, 혹은 탁월한 장비는 일의 난이도를 낮출 수 있습니다. 예를 들어, 캐릭터가 등반에 익숙하다면 난이도 6짜리 등반을 난이도 5인 등반으로 바꿀 수 있습니다. 이는 "일을 난이도를 한 단계 낮춘다."고 부릅니다. 등반에 능숙하다면, 난이도 6짜리 등반을 난이도 4짜리 등반으로 만들 수 있습니다. 이는 "일의 난이도를 두 단계 낮춘다"고 부릅니다.
 
-Character skills, favorable circumstances, or excellent equipment can decrease the difficulty of a task. For example, if a character is trained in climbing, they turn a difficulty 6 climb into a difficulty 5 climb. This is called “easing the task by one step.” If they’re specialized in climbing, they turn a difficulty 6 climb into a difficulty 4 climb. This is called “easing the task by two steps.”
+기능은 등반이나 지리, 혹은 설득과 같은 일과 관련된 지식, 능력, 활동의 한 범주입니다. 기능을 가진 캐릭터는 그 기능이 없는 캐릭터보다 관련된 일을 더 잘 해낼 수 있습니다. 캐릭터가 가진 기능의 수준은 익숙(적당한 숙련)이거나 능숙(매우 숙련) 중 하나입니다.
 
-A skill is a category of knowledge, ability, or activity relating to a task, such as climbing, geography, or persuasiveness. A character who has a skill is better at completing related tasks than a character who lacks the skill. A character’s level of skill is either trained (reasonably skilled) or specialized (very skilled).
+그 일과 관련된 기능에 익숙하다면, 그 일의 난이도를 한 단계 낮출 수 있습니다. 능숙하다면, 두 단계 낮출 수 있습니다. 기능은 일의 난이도를 두 단계 이상 낮출 수 없습니다.
 
-If you are trained in a skill relating to a task, you ease that task by one step. If you are specialized, you ease it by two steps. A skill can never decrease a task’s difficulty by more than two steps.
+일의 난이도를 낮춰주는 다른 것들(동료의 도움, 특정한 장비, 혹은 다른 이득)은 보탬이라 합니다. 보탬은 일의 난이도를 두 단계보다 많이 낮출 수 없습니다. 일의 난이도를 낮추려면 분발을 할 수도 있습니다. 관련된 특성치 역량에서 3점에서 재능을 뺀만큼의 비용이 듭니다. 분발을 하면 일의 난이도를 한 단계 낮춰줍니다.
 
-Anything else that eases a task (help from an ally, a particular piece of equipment, or some other advantage) is referred to as an asset. Assets can never ease a task by more than two steps. You can also ease a given task by applying Effort. This costs 3 points from the relevant stat Pool, minus any Edge. Using Effort eases a task by one step.
-
-To sum up, three things can ease a task’s difficulty: skills, assets, and Effort. If you can decrease a task’s difficulty to 0, you automatically succeed and don’t need to make a roll.
+정리하면, 세 가지로 일의 난이도를 낮출 수 있습니다: 기능, 보탬, 그리고 분발입니다. 일의 난이도를 0으로 떨어트릴 수 있다면, 자동으로 성공하고, 주사위를 굴리지 않아도 됩니다.
 
 ## 전투
 Making an attack in combat works the same way as any other roll: the GM assigns a difficulty to the task, and you roll a d20 against the associated target number.
@@ -363,64 +361,21 @@ a Jack who is debilitated from a hit with a celldisrupting numenera device can r
 to impaired rather than recover points in a Pool.
 
 ### 특수 효과
-When you roll a natural 19 (the d20 shows
-“19”) and the roll is a success, you also have a
-minor effect. In combat, a minor effect inflicts 3
-additional points of damage with your attack, or,
-if you’d prefer a special result, you could decide
-instead that you knock the foe back, distract
-them, or something similar. When not in combat,
-a minor effect could mean that you perform the
-action with particular grace. For example, when
-jumping down from a ledge, you land smoothly
-on your feet, or when trying to persuade
-someone, you convince them that you’re smarter
-than you really are. In other words, you not only
-succeed but also go a bit further.
-When you roll a natural 20 (the d20 shows
-“20”) and the roll is a success, you also have
-a major effect. This is similar to a minor effect,
-but the results are more remarkable. In combat,
-a major effect inflicts 4 additional points of
-damage with your attack, but again, you can
-choose instead to introduce a dramatic event
-such as knocking down your foe, stunning them,
-or taking an extra action. Outside of combat, a
-major effect means that something beneficial
-happens based on the circumstance. For
-example, when climbing up a cliff wall, you make
-the ascent twice as fast. When a roll grants you
-a major effect, you can choose to use a minor
-effect instead if you prefer.
-In combat (and only in combat), if you roll a
-natural 17 or 18 on your attack roll, you add 1 or
-2 points of damage, respectively. Neither roll
-has any special effect options—just the extra
-damage.
-Rolling a natural 1 is always bad. It means that
-the GM introduces a new complication into the
-encounter. This is called a GM intrusion.
+주사위를 굴려서 순수 19(natural 19)가 나오고(d20 주사위에서 19가 보일 때) 그리고 판정이 성공이면, 작은 이득(minor effect)을 받습니다. 전투에서, 작은 이득은 3점의 피해를 공격에 더하거나, 특별한 결과를 원하면, 적을 뒤로 밀어내거나, 교란시키거나, 비슷한 걸 할 수 있습니다. 전투가 아니라면 작은 이득은 우아하게 어떤 일을 해낸 것이 됩니다. 예를 들어 절벽 끝에서 뛰어내렸다면, 두 다리로 부드럽게 착지한 것이고, 또 누군가를 설득하려 했다면, 그들은 당신이 실제보다 더 똑똑하게 보인 겁니다. 다르게 말하면 성공했을 뿐만 아니라 그 이상으로 조금 더 나아간 것입니다.
 
-1: Intrusion. The GM makes a free intrusion
-(see below) and doesn’t award experience points
-(XP) for it.
-17: Damage Bonus. If the roll was an attack, it
-deals 1 additional point of damage.
-18: Damage Bonus. If the roll was an attack, it
-deals 2 additional points of damage.
-19: Minor Effect. If the roll was an attack, it
-deals 3 additional points of damage. If the roll
-was something other than an attack, the PC gets
-a minor effect in addition to the normal results
-of the task.
-20: Major Effect. If the roll was an attack, it
-deals 4 additional points of damage. If the roll
-was something other than an attack, the PC gets
-a major effect in addition to the normal results
-of the task. If the PC spent points from a stat
-Pool on the action, the point cost for the action
-decreases to 0, meaning the character regains
-those points as if they had not been spent at all.
+주사위를 굴려서 순수 20이 나온다면(d20 주사위에서 20이 보일 때) 그리고 판정이 성공했다면, 마찬가지로 큰 이득(major effect)을 받습니다. 이는 작은 이득과 비슷합니다만, 결과는 더 놀랍습니다. 전투에서, 큰 이득은 4점의 피해를 더 가하거나, 또 마찬가지로, 적을 넘어트리거나, 멍하게 만들거나, 추가 행동을 하는 등 극적인 상황을 만들 수도 있습니다. 전투 외에는, 큰 이득은 상황에 따라 뭔가 유익한 일을 뜻합니다. 예를 들어 절벽을 등반하고 있다면, 2배는 빠르게 올라가게 됩니다. 판정으로 큰 이득이 나왔을 때, 원한다면 작은 이득의 효과를 대신 사용할 수도 있습니다.
+
+전투에서 (오직 전투에서만) 공격 판정에 순수 17이나 18이 나오면, 각각 1점이나 2점의 데미지를 더합니다. 둘 중 어느 경우에도 특수한 효과를 고를 수는 없고 - 그저 추가 피해를 줄 뿐입니다.
+
+판정에 순수 1이 나오는 건 항상 나쁩니다. 이는 마스터가 새로운 난관을 더한다는 뜻입니다. 이를 마스터 개입이라 합니다.
+
+|     |                                                              |
+| --- | ------------------------------------------------------------ |
+| 1   | Intrusion. The GM makes a free intrusion (see below) and doesn’t award experience points (XP) for it.
+| 17  | Damage Bonus. If the roll was an attack, it deals 1 additional point of damage.                      
+| 18  | Damage Bonus. If the roll was an attack, it deals 2 additional points of damage.                     
+| 19  | Minor Effect. If the roll was an attack, it deals 3 additional points of damage. If the roll was something other than an attack, the PC gets a minor effect in addition to the normal results of the task. |
+| 20  | Major Effect. If the roll was an attack, it deals 4 additional points of damage. If the roll was something other than an attack, the PC gets a major effect in addition to the normal results of the task. If the PC spent points from a stat Pool on the action, the point cost for the action decreases to 0, meaning the character regains those points as if they had not been spent at all. |
 
 ## 마스터 개입
 GM intrusion reflects when something in the
