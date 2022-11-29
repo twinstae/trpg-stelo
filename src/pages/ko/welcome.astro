@@ -10,18 +10,23 @@ import MainLayout from '../../layouts/MainLayout.astro';
   }}
   headings={[]}
 >
-  <article class="card w-96 bg-base-100 border-2 border-base-300 shadow-2xl m-auto">
-    <figure>
+  <article
+    class="card w-full max-w-xl bg-base-100 border-2 border-base-300 shadow-2xl m-auto"
+  >
+    <figure class="relative">
       <img
+        class="w-full h-64 object-cover"
         src="http://numenera.com/wp-content/uploads/2017/08/Into-the-Night-1-Lee-Smith.jpg"
       />
+      <p class="text-white text-xs absolute bottom-2 right-2">
+        누메네라 Into the Night. TM and © 2022 Monte Cook Games, LLC.
+      </p>
     </figure>
     <div class="card-body">
       <label class="swap swap-flip rounded-full absolute top-40">
-  
         <!-- this hidden checkbox controls the state -->
-        <input type="checkbox" />
-        
+        <input type="checkbox" checked="true" />
+
         <div class="swap-on">
           <img
             src="https://cdn.masto.host/dicecamp/accounts/avatars/109/299/937/813/993/787/original/532f575e5afc147e.jpg"
@@ -37,30 +42,41 @@ import MainLayout from '../../layouts/MainLayout.astro';
       </label>
       <h2 style="margin-top: 1rem !important;">스텔로</h2>
       <p>
-        서로 다른 이들이 갈등을 풀어나가고, 신기한 걸 발견하는 이야기를 좋아합니다. 던전월드로 시작해서, 지금은<span
-          class="tooltip hover:tooltip-open tooltip-top"
-          data-tip="Destiny is, in a way, a light at the end of a long, dark tunnel. The Ninth World is a dark, dangerous place, but those brave enough and capable enough can overcome the challenges that come and move the world—or at least their little corner of it—into a brighter future.- Numenera : Destiny"
-        >
-          <em>누메네라</em>
-        </span>를 주로 하고 있습니다.
-        <div
-          class="tooltip hover:tooltip-open tooltip-top"
-          data-tip="노동자, 여성, 흑인, 장애인, 이주민, 동성애자, 트랜스젠더, 비인간동물, 체형과 신경다양인 등 약자, 소수자를 차별하거나, 혹은 연대하지 않는 분은 뒤로가기를 눌러주세요."
-        >
-          <p class="underline">모든 불평등과 압제에 반대합니다.</p>
-        </div>
+        서로 다른 이들이 갈등을 풀어나가고, 신기한 걸 만나고 발견하는 이야기를
+        좋아합니다. 일단 괴물을 죽이고 보기 보다는, 창의적으로 문제를 해결하는
+        방법을 찾고, 주어지고, 제안할 수 있는 플레이를 합니다.
       </p>
-      <div class="flex flex-wrap gap-2 justify-end">
+      지금은 누메네라를 주로 하면서, 관련 자료를 번역하고 있습니다.
+      <blockquote>
+        "데스티니는 어떻게 보면, 길고 어두운 터널 끝의 빛과 같습니다. 제9세계는
+        어둡고 위험한 곳이지만, 이 충분히 용기 있고 유능한 이들은 닥쳐올 난관을
+        극복하고 세상을 - 최소한 구석의 작은 부분이라해도 - 더 밝은 미래로
+        이끄는 것입니다."<br /> - [누메네라 : 데스티니] 몬티 쿡
+      </blockquote>
+      <div class="flex flex-wrap gap-2">
+        <li class="badge badge-outline">누메네라</li>
         <li class="badge badge-outline">사이퍼 시스템</li>
         <li class="badge badge-outline">크툴루 컨피덴셜</li>
-        <div
-          class="tooltip hover:tooltip-open tooltip-top"
-          data-tip="13시대, 페이트 코어, 아포칼립스 월드, 던전월드, 밤의 마녀들, 크툴루의 부름, 겁스, 포도원의 파수견, Follow"
-        >
-          <li class="badge badge-outline">등등...</li>
-        </div>
-        <li class="badge badge-outline">마스터 / 플레이어</li>
-        <li class="badge badge-outline">롤20 텍스트</li>
+        {
+          `아포칼립스 월드, 던전월드, 밤의 마녀들, 목마른 레즈비언 검객들, 크툴루의 부름, 겁스, 13시대, 페이트 코어, 포도원의 파수견`
+            .split(', ')
+            .map((rule) => <li class="badge badge-outline">{rule}</li>)
+        }
+        <li class="badge badge-outline">등등...</li>
+      </div>
+      <ul>
+        <li>마스터링과 플레이어를 모두 합니다.</li>
+        <li>
+          주로 롤20에서 텍스트 채팅으로 플레이를 하지만, 보이스도 가능하고,
+          오프라인에서도 종종 플레이합니다.
+        </li>
+      </ul>
+
+      <div
+        class="tooltip hover:tooltip-open tooltip-bottom"
+        data-tip="노동자, 여성, 흑인, 장애인, 이주민, 동성애자, 트랜스젠더, 비인간동물, 체형과 신경다양인 등 약자, 소수자를 차별하거나, 혹은 연대하지 않는 분은 뒤로가기를 눌러주세요."
+      >
+        <p class="underline">모든 불평등과 압제에 반대합니다.</p>
       </div>
     </div>
   </article>
