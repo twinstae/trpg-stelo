@@ -821,12 +821,23 @@ const WRIGHT = {
       level: 'inability',
     },
   ],
-  specialAbilities: [
+  specialAbilities: [ 
     {
-      title: '싸움의 솜씨.',
-      description: '근접 공격에 +1 피해를 추가합니다. (망치의 피해에 이미 추가해두었습니다).'
+      title: '항상 땜질',
+      description:
+        `제한보다 적은 사이퍼를 가지고 있으면, 1시간 동안
+        도구와 부서진 누메네라 조각을 써서 무작위로 변덕스러운 사이퍼를 만들어낼 수 있습니다.
+        (마스터가 무작위 사이퍼 표에서 굴립니다) 사이퍼는 항상 정상보다 2 레벨 낮습니다. (최소1)
+        변덕스러운 사이퍼는 다른 사람에게 쓰라고 주면 부서져서 쓸모가 없어집니다. 아이오툼을 하나 쓰면, 변덕스러운 사이퍼의 레벨은 평범해지지만,
+        여전히 다른 사람은 작동시키지 못합니다.`,
     },
-    
+    {
+      title: '일에 맞는 도구 (지성 1 점 + 아이오툼).',
+      description:
+        `적어도 한 단위의 아이오툼을 가지고 있으면, 하고 싶은 전투가 아닌 물리적인 일에 보탬이 되는 임시 기계를 만들 수 있습니다.
+        예를 들어 벽을 등반하고 싶으면, 일종의 등반 보조 기계를 만들 수 있습니다.
+        이 기계는 1분이나 의도된 목적으로 쓰일 때까지 유지되고, 그 뒤에 아이오툼은 파괴됩니다. 아이오툼을 준비하는데 행동 하나, 발동시키는데 행동 하나`,
+    },
     {
       title: '갑옷 숙련',
       description:
@@ -839,47 +850,92 @@ const WRIGHT = {
     },
   ],
   cypherLimit: 3,
-  cyphers: [
-    {
-      title: '근력 복구제',
-      level: 5,
+  cyphers: [    {
+      title: '폭발 (화염)',
+      level: 4,
       description:
-        '보라색 가루를 뭉쳐놓은 알약. 먹으면 힘 역량 5점을 회복합니다.',
+        '기계. 폭발하면 지근거리 영역에 있는 모두에게 4점의 불 피해를 줍니다. 던져서 단거리까지 던질 수도 있습니다.',
       used: false,
     },
     {
-      title: '동작 감지기',
-      level: 6,
+      title: '단분자칼',
+      level: 4,
       description:
-        '척추 주사. 단거리에서 어떤 움직임이로도 있거나, 혹은 큰 생물이나 물체가 장거리에서 움직이는 것도 알아차릴 수 있습니다. 움직이는 생물이나 물체의 숫자나 크기를 알 수 있습니다. 6시간 정도 지속됩니다.',
+        '장갑. 15cm의 검을 생성해서 10분 동안 레벨3 이하인 어떤 물건도 자를 수 있습니다. 무기로 쓰면 장갑을 3점 무시하는 소형 무기로 칩니다.',
+      used: false,
+    },
+    {
+      title: '보복의 혹 (전기)',
+      level: 3,
+      description:
+        '기계. 갑옷에 붙이고 작동시키면 갑옷을 전기로 충전합니다. 다음 28시간 동안 당신을 공격하는 생물은 1점의 전기 피해를 입습니다.',
       used: false,
     },
   ],
   equipments: [
     {
-      title: '활과 화살 12발',
-      description: '(중형 원거리 무기)',
+      title: '채굴 도구 가방',
+      description: '(곡괭이와 작은 삽)',
     },
     {
-      title: '탐험가의 배낭',
-      description: '(밧줄 30미터 보존식 5일치, 대못 3개, 작은 망치, 튼튼한 장화, 횃불 3개, 하급 발광구 2개)',
+      title: '흔한 짐승과, 지리, 석조, 그리고 날씨에 관한 책들 (30분을 연구에 보내면 관련된 일에 보탬을 줍니다)',
+      description: '',
+    },
+    {
+      title: '제작 도구들과 부서진 누메네라 조각',
+      description: '',
     },
     {
       title: '옷가지',
       description: '',
     },
     {
-      title: '신기품 금속 구슬. 던지면 등 뒤로 돌아온다.',
+      title: '다트 발사기와 다트 12개',
+      description: '(소형 원거리 무기)',
+    },
+    {
+      title: '탐험가의 배낭',
+      description: '(밧줄 30미터 보존식 5일치, 대못 3개, 작은 망치, 튼튼한 장화, 횃불 3개, 하급 발광구 2개)',
+    },
+    {
+      title: '가죽 재킷',
+      description: '(+1 장갑)',
+    },
+    {
+      title: '신기품: 손가락으로 쓸 수 있는 신스 한 장. (1분 뒤에 저절로 지워집니다.)',
       description: '',
     },
     {
-      title: '망치',
-      description: '(중형 근접 무기)',
+      title: '아이오',
+      description: '(제작 도구, 4 단위)',
     },
     {
-      title: '가죽 조끼',
-      description: '(+1 장갑)',
+      title: '부품',
+      description: '(제작 도구, 12 단위)',
     },
+    {
+      title: '반응형 신스',
+      description: '(제작 도구, 4 단위)',
+    },
+// Detonation (fire) plan (level 4): Io (4 units);
+// responsive synth (5 units); apt clay (2 units);
+// quantium (2 units), parts (8 units)
+// Monoblade plan (level 4): Io (3 units); responsive
+// synth (4 units); apt clay (1 unit); quantium (2 units),
+// parts (8 units)
+// Crafting either kind of cypher requires 4 successful
+// crafting numenera tasks (the first is difficulty 1, then
+// 2, then 3, and finally 4). Each task takes two to three
+// hours. If you fail, you lose that time spent and have to
+// use Effort when you try again. When you succeed at the
+// difficulty 4 task, you’re done and have a new cypher of
+// that kind.
+// If you don’t have the crafting materials you need,
+// you or other PCs can salvage them from numenera
+// devices you find in the world, such as cyphers you
+// don’t want to keep, automatons
+// you’ve defeated, and machines
+// in prior-world ruins
   ],
   shins: 5,
   artifacts: [],
