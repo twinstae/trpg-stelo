@@ -60,7 +60,7 @@ PC들은 고대 문명의 알 수 없는 존재에게 버려진 기지를 탐험
 
 **새로운/경험이 없는 플레이어들:** 만약 플레이어들이 누메네라가 처음이거나, 마스터가 세팅의 일부를 설명해야겠다고 느낀다면, 플레이어들이 이전 세계의 폐허에서 간단한 장면을 몇 개 만들도록 해서, 시스템이 어떻게 작동하는지 배울 수 있게 해주세요. (큰 방에서 누메네라 물건들을 찾는다든가, 부서진 누메네라 기계에서 쉰을 찾는다든가, 유적을 파괴하는 걸 막기 위해 작동된 한 쌍의 [감시자 Gazer](/ko/numenera/mini-bestiary#감시자-gazer-1-3)들과 싸운다든가.) 플레이어들이 게임의 규칙이 편안하다고 느낄 쯤이면, 이전 탐험가들이 건드리지 않은 것처럼 보이는 봉인된 방을 찾게 하고, 그 방에서 찾은 수상한 기계를 작동시키게 하거나 - 아니면 자동으로 작동하게 해서- 이 시나리오에 쓰여진 부분의 시작으로 순간이동하게 하세요. (아래의 ["도착"](#도착)을 참고하세요.)
 
-<img class="mx-auto h-80" src="/gazer2.webp"/>
+<img class="mx-auto w-full max-w-lg" src="/gazer2.webp"/>
 
 **경험이 있는/숙련된 플레이어들:** 플레이어들이 누메네라에 친숙하거나, 마스터가 플레이어들이 새로운 세계와 시스템에 뛰어들어도 잘 해낼 수 있을 거라 느낀다면, 순간이동의 방은 시나리오에 뒷 이야기 중 한 부분으로 하고, PC들이 순간이동 목적지에 도착한 시점부터 플레이를 시작해도 됩니다.
 
@@ -1065,7 +1065,7 @@ salvaging is less than the minimum level of the iotum on the table.
 ### 누메네라2 디스커버리 & 데스티니
 
 <a href="https://www.montecookgames.com/store/product/numenera-discovery-and-destiny/" target="_blank">
-  <img src="https://www.montecookgames.com/store/wp-content/uploads/2018/04/N2-Slipcase-Set-Tags-2-1.jpg" alt="누메네라 데스티니와 디스커버리가 슬립 케이스 안에 담겨 있는 사진" style="float: center;"/>
+  <img class="max-w-lg" src="https://www.montecookgames.com/store/wp-content/uploads/2018/04/N2-Slipcase-Set-Tags-2-1.jpg" alt="누메네라 데스티니와 디스커버리가 슬립 케이스 안에 담겨 있는 사진" style="float: center;"/>
   몬티 쿡 게임즈 스토어에서 영어판 구매하기
 
   PDF는 각각 19.99$ 실물 책 케이스 세트는 총 119.99$.

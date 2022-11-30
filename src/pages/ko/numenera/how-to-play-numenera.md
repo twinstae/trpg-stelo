@@ -116,64 +116,42 @@ createdAt: "2022-11-17T07:31:02.290Z"
 정리하면, 세 가지로 일의 난이도를 낮출 수 있습니다: 기능, 보탬, 그리고 분발입니다. 일의 난이도를 0으로 떨어트릴 수 있다면, 자동으로 성공하고, 주사위를 굴리지 않아도 됩니다.
 
 ## 전투
-Making an attack in combat works the same way as any other roll: the GM assigns a difficulty to the task, and you roll a d20 against the associated target number.
+전투에서 공격을 하는 것은 다른 판정이랑 똑같이 작동합니다: 마스터는 그 일에 난이도를 지정하고, d20을 하나 굴려서 해당하는 목표치를 넘는지 봅니다.
 
-The difficulty of your attack roll depends on how powerful your opponent is. Just as tasks have a difficulty from 1 to 10, creatures have a level from 1 to 10. Most of the time, the difficulty of your attack roll is the same as the creature’s level. For example, if you attack a level 2 bandit, it’s a level 2 task, so your target number is 6.
+공격 판정의 난이도는 적이 얼마나 강한지에 달려 있습니다. 일이 1부터 10까지의 난이도가 있는 것처럼, 생물은 1부터 10까지 레벨이 있습니다. 대부분의 경우, 공격의 난이도는 생물의 레벨과 같습니다. 예를 들어 레벨 2짜리 도적을 공격하면, 난이도 2짜리 일이고, 목표치는 6입니다.
 
-Players make all die rolls. If a character attacks a creature, the player makes an attack roll. If a creature attacks a character, the player makes a defense roll.
+플레이어가 모든 주사위를 굴립니다. 만약 캐릭터가 생물을 공격하면, 플레이어는 공격 판정을 합니다. 만약 생물이 캐릭터를 공격하면, 플레이어는 방어 판정을 합니다.
 
-The damage dealt by an attack is a flat number based on the weapon or attack used. For example, a spear always does 4 points of damage.
+공격이 가하는 피해는 무기나 사용한 공격에 따라 정해지는 평범한 숫자입니다. 예를 들어 창은 항상 4점의 피해를 줍니다.
 
-Your Armor characteristic reduces the damage you take from attacks directed at you. You get Armor from wearing physical armor (such as a sturdy leather jerkin or chainmail) or from special abilities. Like weapon damage, Armor is a flat number, not a roll. If you’re attacked, subtract your Armor from the damage you take. For example, a leather jerkin gives you 1 point of Armor, meaning that you take 1 less point of damage from attacks. If a bandit hits you with a knife for 2 points of damage while you’re wearing a leather jerkin, you take only 1 point of damage. If your Armor reduces the damage from an attack to 0, you take no damage from that attack.
+장갑 능력치는 당신을 향한 공격에서 입는 피해를 줄여줍니다. 장갑은 물리적 갑옷이나 (튼튼한 가죽 조끼나 사슬갑옷 같은) 특수 능력으로 얻습니다. 무기의 피해와 마찬가지로, 장갑은 평범한 숫자이고, 주사위를 굴리지 않습니다. 공격을 받으면, 입는 피해에서 장갑 만큼을 뺍니다. 예를 들어 가죽 조끼는 1점의 장갑을 주는데, 이는 공격에서 1점의 피해를 덜 입는다는 뜻입니다. 만약에 도적이 나이프로 2점의 피해를 주었는데, 가죽 조끼를 입고 있다면, 1점의 피해를 입습니다. 만약 장갑이 공격에서 오는 피해를 0으로 줄여주면, 그 공격에서는 피해를 입지 않습니다. 
 
-When you see the word “Armor” capitalized in the game rules (other than as the name of a special ability), it refers to your Armor characteristic—the number you subtract from incoming damage. When you see the word “armor” with a lowercase “a,” it refers to any physical armor you might wear.
+장갑(Armor)이라는 단어를 게임 규칙에서 보면 (특수 능력의 이름을 제외하고), 이는 캐릭터의 장갑 능력치-들어오는 피해에서 빼는 숫자-를 가리킵니다. 갑옷(armor)이라는 단어를 보면, 몸에 걸치는 물리적 갑옷을 가리킵니다.
 
-Typical physical weapons come in three categories: light, medium and heavy.
+전형적인 물리적 무기는 세 가지 범주로 나눠집니다:
+소형, 중형, 그리고 대형입니다.
 
-**LIGHT WEAPONS** inflict only 2 points of damage, but they ease the attack roll by one step because they are fast and easy to use. Light weapons are punches, kicks, clubs, knives, handaxes, rapiers, and so on. Weapons that are particularly small are light weapons.
+**소형 무기** 2점의 피해만 가하지만, 빠르고 사용하기 쉽기 때문에 공격 판정의 난이도를 한 단계 낮춰줍니다. but they ease the attack roll by one step because they are fast and easy to use. 소형무기는 주먹질, 발차기, 몽둥이, 단검, 손도끼, 레이피어 등등 입니다. 특별히 작은 무기는 소형 무기입니다.
 
-**MEDIUM WEAPONS** inflict 4 points of damage. Medium weapons include swords, battleaxes, maces, crossbows, spears, and so on. Most weapons are medium. Anything that could be used in one hand (even if it’s often used in two hands, such as a quarterstaff or spear) is a medium weapon.
+**중형 무기** 4점의 피해를 가합니다. 중형 무기는 대검, 전투도끼, 메이스, 쇠뇌, 창, 등등입니다. 대부분의 무기는 중형입니다. 한 손으로 쓸 수 있는 무기는 (육척봉이나 창처럼 보통 한 손으로 쓰는 무기라 해도) 중형 무기입니다.
 
-**HEAVY WEAPONS** inflict 6 points of damage, and you must use two hands to attack with them. Heavy weapons are huge swords, great hammers, massive axes, halberds, heavy crossbows, and so on. Anything that must be used in two hands is a heavy weapon.
+**대형 무기** 6점의 피해를 가하고, 공격하려면 무조건 두 손을 다 써야 합니다. 대형 무기는 양손검, 대형 망치, 대형 도끼, 할버드, 거대 쇠뇌, 등등입니다. 두 손으로 써야 하는 무기는 대형 무기입니다.
 
-### 공격 수정치와 특수한 상황
-In combat situations, many modifiers might come into play. The GM is at liberty to assess whatever modifiers they think are appropriate to the situation (that’s their role in the game). Often the modifier is applied as a step in difficulty. So if a situation hinders attacks, that means if a PC attacks a nonplayer character (NPC), the difficulty for the attack roll is increased by one step, and if an NPC attacks a PC, the difficulty of the defense roll is decreased by one step. This is because players make all rolls, whether they are attacking or defending— NPCs never make attack or defense rolls. When in doubt, if it seems like it should be harder to attack in a situation, the attack rolls are hindered by one step. If it seems like attacks should gain an advantage or be easier in some way, the defense rolls are eased by one step.
+### 공격 수정치와 특수 상황
+전투 상황에서 많은 수정치가 플레이 속으로 끼어듭니다. 마스터는 상황에 적합하다고 생각하는 수정치라면 무엇이든 적용할 수 있는 자유가 있습니다. (이는 게임에서 마스터의 역할입니다) 수정치는 자주 난이도의 단계로 적용됩니다. 그래서 만약 상황이 공격을 방해한다면, PC가 NPC를 공격할 때에는, 공격 판정의 난이도가 한 단계 올라간다는 뜻이고, NPC가 PC를 공격 할 때에는, 방어 판정의 난이도가 한 단계 낮아진다는 뜻입니다. 이는 플레이어가 모든 판정을 하기 때문에, 공격이던 방어든- NPC는 공격이나 방어 판정을 하지 않기 때문입니다. 의심이 갈 때에는, 어떤 상황에서 공격이 어려워야 할 것 같다면, 공격 판정은 한 단계 난이도가 높아집니다. 공격이 이득을 얻거나 어떤 식으로든 쉬워진다면, 방어 판정은 한 단계 난이도가 높아집니다.
+
+> 원문에는 방어 판정이 쉬워진다고 잘못 쓰여 있는데, 출판된 사이퍼 시스템 룰 북을 보면 방해(hinder)가 된다고 적혀 있어서 정정했습니다.
 
 ### 피해를 주고 받기
-When an attack strikes a character, it usually means the character takes damage.
-An attack against a PC subtracts points from one of the character’s stat Pools—usually the Might Pool. Whenever an attack simply says it deals “damage” without specifying the type, it means Might damage, which is by far the most
+캐릭터가 공격에 맞으면, 이는 보통 캐릭터가 피해를 입는다는 뜻입니다. PC에 대한 공격은 캐릭터의 특성치 역량-보통은 힘 역량-에서 점수를 뺍니다. 언제든 공격이 유형을 특정하지 않고 "피해를 준다"고만 말하면, 이는 가장 흔한 유형인 힘 피해를 의미합니다.
 
-common type. Intellect damage, which is usually
-the result of a mental attack, is always labeled
-as Intellect damage. Speed damage is often
-a physical attack, but attacks that deal Speed
-damage are fairly rare.
-NPCs don’t have stat Pools. Instead, they
-have a characteristic called health. When an
-NPC takes damage of any kind, the amount is
-subtracted from its health. Unless described
-otherwise, an NPC’s health is always equal to its
-target number. Some NPCs might have special
-reactions to or defenses against attacks that
-would normally deal Speed damage or Intellect
-damage, but unless the NPC’s description
-specifically explains this, assume that all damage
-is subtracted from the NPC’s health.
-Objects have a damage track that works like
-the damage track for PCs. Attacking an object
-with a melee weapon is a Might action against
-the object’s level.
-As mentioned previously, damage is always a
-specific amount determined by the attack. For
-example, a slash with a broadsword inflicts 4
-points of damage. A Nano’s Onslaught force
-inflicts deals 4 points of damage. Often, there
-are ways for the attacker to increase the damage.
-For example, a PC can apply Effort to deal 3
-additional points of damage, and rolling a
-natural 17 on the attack roll inflicts 1 additional
-point of damage.
+보통 정신 공격의 결과인 정신 피해는 항상 정신 피해라고 적혀 있습니다. 속력 피해는 보통 물리적 공격인데, 하지만 속력 피해를 주는 공격은 꽤 드뭅니다.
 
+NPC는 특성치 역량이 없습니다. 대신 체력(health)이라 부르는 능력치가 있습니다. NPC가 어떤 종류라도 피해를 입으면, 그 분량만큼 체력에서 뺍니다. 따로 말하지 않으면, NPC의 체력은 항상 목표치와 같습니다. 어떤 NPC는 속력 피해나 지성 피해를 줄만한 공격에 대해 특별한 반응이나 방어를 가지고 있을지 모르지만, NPC의 설명에서 특별히 이를 설명하지 않는 한, 모든 피해는 체력에서 뺀다고 간주하십시오.
+
+물체는 PC의 부상트랙과 유사하게 작동하는 부상 트랙을 이 있습니다. 물체를 근접 무기로 공격하는 건 물체의 레벨에 대한 힘 행동입니다.
+
+앞서 말했듯이 피해는 항상 공격에 의해 정해지는 특정한 양입니다. 예를 들어 대검으로 베는 것은 4점의 피해를 가합니다. 나노의 쇄도는 4점의 피해를 줍니다. 자주, 공격자가 피해를 증가시키는 방법이 있습니다. 예를 들어 PC가 분발해서 3점의 피해를 더 주거나, 공격 판정에 순수 17이 나와도 1점의 추가 피해를 줍니다.
 
 <div class="numenera-box">
 

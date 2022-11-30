@@ -58,20 +58,21 @@ publish: false
 
 모든 캐릭터는 분발 점수가 있고, 한 판정에 최대 몇 단계 분발을 할 수 있는지를 나타냅니다. 시작하는 (1 등급) 캐릭터는 분발이 1이고, 한 판정에 한 단계 분발을 할 수 있다는 뜻입니다. 더 경험이 많은 캐릭터는 더 높은 분발 점수를 가지고 있고 한 판정에 더 많은 단계의 분발을 할 수 있습니다. 예를 들어, 분발이 3인 캐릭터는 일의 난이도를 낮추기 위해 3단계의 분발을 할 수 있습니다.
 
-When you apply Effort, subtract your relevant Edge from the total cost of applying Effort. For example, let’s say you need to make a Speed roll. To increase your chance for success, you decide to apply one level of Effort, which will ease the task. Normally, that would cost 3 points from your Speed Pool. However, you have a Speed Edge of 2, so you subtract that from the cost. Thus, applying Effort to the roll costs only 1 point from your Speed Pool.
+분발을 하면, 분발에 드는 전체 비용에서 그에 맞는 재능 만큼을 뺍니다. 예를 들어 속력 판정을 해야 한다고 합시다. 성공할 가능성을 높이기 위해서, 일의 난이도를 한 단계 낮춰주는 분발을 하기로 결정합니다. 보통은, 속력 역량에서 3점의 비용이 들지만. 속력 재능이 2점 있으면, 이를 비용에서 뺍니다. 그래서 판정에 분발을 하는데 속력 역량에서 1점의 비용 밖에 들지 않습니다.
 
-What if you applied two levels of Effort to the Speed roll instead of just one? That would ease the task by two steps. Normally, it would cost 5 points from your Speed Pool, but after subtracting your Speed Edge of 2, it costs only 3 points.
+만약 딱 한 단계 대신에 두 단계 분발을 하면 어떻게 될까요? 일의 난이도를 두 단계 낮춰줍니다. 보통은 속력 역량에서 5점의 비용이 들지만, 속력 재능 2점을 빼면 3점의 비용 밖에 들지 않습니다.
 
-Once a stat’s Edge reaches 3, you can apply one level of Effort for free. For example, if you have a Speed Edge of 3 and you apply one level of Effort to a Speed roll, it costs you 0 points from your Speed Pool. (Normally, applying one level of Effort would cost 3 points, but you subtract your Speed Edge from that cost, reducing it to 0.)
+한 번 특성의 역량이 3점이 되면, 한 단계 분발을 공짜로 할 수 있습니다. 예를 들어 속력 재능이 3점 있다면, 속력 판정에 분발을 한 단계 한다면, 속력 역량에서 비용이 0점이 듭니다. (보통은, 한 단계 분발은 3점이 들지만, 속력 재능을 비용에서 빼면, 0으로 줄여주는 것입니다.)
 
-Skills and other advantages also ease a task, and you can use them in conjunction with Effort. In addition, your character might have special abilities or equipment that allow you to apply Effort to accomplish a special effect, such as knocking down a foe with an attack or affecting multiple targets with a power that normally affects only one.
 
-(When applying Effort to melee attacks, you have the option of spending points from either your Might Pool or your Speed Pool. When making ranged attacks, you may spend points only from your Speed Pool. This reflects that with melee you sometimes use brute force and sometimes use finesse, but with ranged attacks, it’s always about careful targeting.)
+기능과 다른 이득도 일의 난이도를 낮춰주고, 이를 분발과 함께 쓸 수 있습니다. 게다가 캐릭터들은 적을 넘어트리거나 보통은 한 명에게만 영향을 주는 능력을 여러 대상에게 영향을 주는 등, 특수한 효과를 위해 분발을 할 수 있게 허용해주는 특수 능력이나 장비를 가지고 있을 수도 있습니다.
+
+근접 공격에 분발을 할 때, 힘 역량이나 속력 역량 중에 하나를 골라서 점수를 소모할 수 있습니다. 원거리 공격을 할 때에는 속력 역량에서만 점수를 소모할 겁니다. 이는 근거리 공격은 거친 힘을 쓸 때도 있지만 때로는 정밀하게 할 때도 있고, 원거리 공격은 항상 주의 깊게 조준하는 것임을 반영합니다.
 
 ### 분발과 피해
-Instead of applying Effort to ease your attack, you can apply Effort to increase the amount of damage you inflict with an attack. For each level of Effort you apply in this way, you inflict 3 additional points of damage. This works for any kind of attack that inflicts damage, whether a sword, a crossbow, a mind blast, or something else.
+분발을 해서 공격의 난이도를 낮추는 대신, 분발을 해서 공격으로 가하는 피해의 양을 증가시킬 수도 있습니다. 이렇게 한 단계 분발을 할 때마다, 3점의 추가 피해를 줍니다. 이는 피해를 가하는 공격이라면 칼이든, 쇠뇌든, 정신 블래스트든, 다른 것이든 모두 통합니다.
 
-When using Effort to increase the damage of an area attack, such as the explosion created by an Adept’s Concussion ability, you inflict 2 additional points of damage instead of 3 points. However, the additional points are dealt to all targets in the area. Further, even if one or more of the targets resist the attack, they still take 1 point of damage.
+Adept의 Concussion 능력처럼, 범위 공격의 피해를 증가시키기 위해 분발을 할 때에는 3점이 아니라 2점의 추가 피해를 줍니다. 하지만 추가 피해는 그 영역의 모든 대상에게 적용됩니다. 더 나아가, 하나 혹은 더 많은 적이 공격에 저항했더라도, 여전히 1점의 피해를 입습니다.
 
 ### 분발과 재능을 함께 쓰기
 If your Effort is 2 or higher, you can apply Effort to multiple aspects of a single action. For example, if you make an attack, you can apply Effort to your attack roll and apply Effort to increase the damage.
