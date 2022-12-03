@@ -213,172 +213,71 @@ PC들이 우상에 가는 걸 허락 받길 원하면, 대장로들 중에 두 �
 
 마스터는 플레이어들이 어떻게 마을을 돕는데 자기 능력을 쓸지 창의적이게 허용해줘야 합니다. 아무 것도 생각해내지 못하면, 자유롭게 다음과 같이 제안을 해보십시오:
 
-- **돌 모으기:** Some of the homes are
-crowded, and younger couples are planning
-on building new cottages to give their
-families room to grow. This requires a lot of
-stone, and gathering enough for one cottage
-takes about 30 person-hours worth of labor
-(so 6 hours of five people working, 15 hours
-of two people working, and so on).
-- **작은 집 짓기:** If there is enough stone on
-hand, building the walls of a simple stone
-cottage takes about 18 hours of hard labor
-(usually spread out over three days instead
-of all in one go). Every two people helping
-reduces this time by about 3 hours.
-- **고기와 가죽:** The valley provides all
-the food the villagers need, but people still
-have a taste for exotic foods, especially for
-celebrations. Packs of [blacktusks](/ko/numenera/mini-bestiary#검은-엄니-black-tusk-4-12) sometimes
-roam outside the pylons. Blacktusk fur is very
-warm, and the villagers have a special recipe
-for blacktusk steaks. The PCs would need to
-track down the wandering predators (which
-hunt in packs of three) or find a lair. One
-dead blacktusk would be appreciated, and
-two would be cause for a feast. The blacktusk
-lair has one [무작위 사이퍼](/ko/numenera/ashes-of-the-sea#무작위-사이퍼)가 하나 있습니다.
-- **위험한 침입자:** A cave near the
-“quiet” southern pylon has become
-overgrown with icy growths over the past
-few days, resembling a castle. The elders say
-the last time such a thing appeared near the
-village it meant that dangerous creatures
-called [얼음 치개](/ko/numenera/mini-bestiary#얼음-치개-ice-weaver-3-9) had moved into the area,
-and they soon started attacking the villagers.
-The PCs could investigate this structure and
-kill or drive away the ice weavers, but the
-elders warn that the beasts can suck the heat
-right out of a person’s body, and they travel
-in packs. The ice weavers have two cyphers
-embedded in the walls of their lair.
+- **돌 모으기:** 몇몇 집이 붐비는데, 젊은이 연인들이 새 집을 지어 가족들이 커갈 방을 주려고 계획을 하고 있습니다. 돌이 많이 필요하고, 집 하나를 짓는데 충분한 양을 모으려면 30인시 어치의 노동이 필요합니다. (즉 5사람이 6시간 동안 일하거나, 두 사람이 15시간 동안 일하거나, 그런 식입니다)
+
+- **작은 집 짓기:** 충분한 돌이 손에 들어오면, 간단한 돌 집의 벽을 짓는 건 18시간 정도의 고된 노동이 필요합니다. (보통 한 번에 가진 않고 3일에 걸쳐 분산됩니다) 두 사람이 일을 도울 때마다 이 시간은 3시간 씩 줄어듭니다.
+
+- **고기와 가죽:** 계곡은 마을 사람들에게 필요한 식량을 모두 제공해주지만, 사람들은 여전히 특별한 음식을 먹고 싶어하고, 특히 축하할 일이 있으면 그렇습니다. 한 무리의 [검은 엄니](/ko/numenera/mini-bestiary#검은-엄니-black-tusk-4-12)들이 가끔 철탑 밖을 어슬렁 거립니다. 검은 엄니의 털가죽은 매우 따뜻하고, 마을 사람들은 검은 엄니 스테이크를 위한 특별한 요리법도 가지고 있습니다. PC들은 배회하는 포식자들을 쫓아야 할 수도 있고 (셋 정도의 무리로 사냥하는) 소굴을 찾아야 할 수도 있습니다. 죽은 검은 엄니 한 마리도 고마워할 것이고, 둘은 아마 잔치를 열만한 이유가 될 겁니다. 검은 엄니 소굴에는 [무작위 사이퍼](/ko/numenera/ashes-of-the-sea#무작위-사이퍼)가 하나 있습니다.
+
+- **위험한 침입자:** 남쪽의 "조용한" 철탑 근처 동굴이 지난 며칠 사이에 얼음이 더 자라나, 성을 닯게 되었습니다. 장로들은 전에도 이런 일이 일어났을 때에는 [얼음 치개](/ko/numenera/mini-bestiary#얼음-치개-ice-weaver-3-9)라는 위험한 생물이 이 구역으로 이주해 왔다는 뜻이었고, 곧 마을 사람들을 공격하기 시작할 거라 말합니다. PC들이 이 구조물을 조사해서 얼음 치개를 죽이거나 쫓아줄 수 있지만, 장로들은 이 짐승은 사람 몸에서 곧장 열을 빨아들일 수 있으며, 무리지어 돌아다닌다고도 경고합니다. 얼음 치개는 둥지의 벽 안에 사이퍼를 두 개 박아놓습니다.
 
 ### 탐험 허락
-If the PCs convince the 대장로들 to allow them to visit the Icon, one of the elders insists on cautiously seeing them off as they leave the village. This is more of a show for the benefit of the other villagers—depending on their attitude toward the PCs, they might warn the villagers that the foolish PCs are marching to their deaths and that no wise people should ever do this, or say that the PCs have the blessing of the elders and are seeking new wisdom from the Icon, and so on.
+PC들이 대장로들을 설득해 우상을 방문해도 된다고 허락을 받으면, 장로 중에 한 명은 일행이 마을을 떠날 때 주의 깊게 살펴봐야 한다고 주장합니다. 이는 다른 마을 사람들을 고려한 연극입니다. PC들에 대한 태도에 따라, 마을 사람들에게 멍청한 PC들이 죽음을 향해 걸어가고 있으며, 현명한 사람은 전혀 하면 안 될 짓이라 하거나, PC들이 장로들의 축복을 받아 우상에서 새로운 지혜를 찾으러 간다고 하거나, 등등입니다.
 
-Award each PC 1 XP for convincing the 대장로들 to allow them to visit the Icon. Proceed to the Approaching the Icon section of this adventure.
+대장로가 우상을 방문하도록 설득한 각 PC들에게 경험치를 1점씩 줍니다. 이제 이 시나리오에서 [우상에 다가가기](/ko/numenera/ashes-of-the-sea#우상에-다가가기) 절로 건너뛰면 됩니다.
 
 ### 몰래 빠져나가기
-The PCs might try to sneak out of the village and over to the Icon without anyone noticing them. Fortunately, this is fairly easy to do, especially if they have special abilities that conceal their activities. If they fail, they are spotted, and the elders and some villagers confront them in the orchards—go to the Exploration Refused section. If they succeed at sneaking out, proceed to the Approaching the Icon section.
+PC들은 마을을 몰래 빠져나가, 누구도 알아채지 못한 사이에 우상으로 향하려 할 수 있습니다. 운 좋게도, 이는 꽤 쉬운 일인데, 특히 행동을 숨길만한 특수 능력을 가지고 있다면 그렇습니다. 실패한다면, 일행은 들키게 되고, 장로와 몇몇 마을 사람들이 과수원에서 들이닥치게 되며- [탐험 거부](/ko/numenera/ashes-of-the-sea#탐험-거부) 절로 가면 됩니다. 만약 몰래 빠져나가는데 성공한다면, [우상에 다가가기](/ko/numenera/ashes-of-the-sea#우상에-다가가기) 절로 건너 뜁니다.
 
 > 마을을 몰래 빠져나가는 건 레벨 3짜리 일입니다. PC가 밖이 어두울 때 시도하면 난이도가 낮아집니다.
 
 ### 탐험 거부
-If the PCs fail to convince the elders to allow them to explore the Icon, and are obvious in their plans to explore it anyway, the elders have the PCs watched, and when the PCs start to make their way toward the Icon, the elders (and ten villagers armed with staves) get in their path as they pass through the orchards, insisting that they leave the valley immediately. If the PCs refuse to turn back, the elders and villagers attack and attempt to subdue the PCs.
-
+만약 PC들이 장로들에게 우상을 탐험하게 해달라고 허락해달라며 설득하는데 실패한다면, 어떻게든 탐험을 하려고 계획을 할 게 분명한데, 장로들은 PC들을 지켜봐왔으며, PC들이 우상으로 떠나려고 시작하면, 장로들 (그리고 막대기를 든 열 명 정도의 마을 사람들이) 과수원을 통해 나가려 할 때 길을 막아서고, 당장 계곡을 떠나라고 요구합니다. PC들이 돌아서지 않으면, 장로와 마을 사람들은 공격해서 PC들을 진압하려 합니다.
 
 > **대장로들:** 레벨 3; 상호작용과 정신 영향에 저항하는 건 레벨 4; 체력 9; 장갑 3; 매 라운드 체력 1점을 회복합니다; 질병, 독, 노화에 면역;
 >
 > **전형적인 마을 사람:** 레벨 2, 체력 6, 농사는 레벨 3
 
-If the PCs lose this fight, they are tied up, given warm cloaks and some food, taken outside the western pylons, and told never to return to the valley. Of course, even if they’re exiled this way, there’s no reason the PCs can’t travel along the pylons to the north and approach the Icon from a different direction (the only drawback to this is that once they’re outside the pylon boundary, they’ll be out in the cold again and taking damage every ten minutes, or every hour if they wear the warm cloaks).
+만약 PC들이 싸움에서 진다면, 꽁꽁 묶여서, 따뜻한 망토와 음식 약간을 받고, 서쪽 철탑 바깥으로 끌고가, 마을에 다시는 돌아오지 말라는 말을 듣습니다. 물론 이렇게 추방되었다고 해도, PC들이 철탑을 따라 북쪽으로 가서 다른 방향으로 우상에 다가가는 건 아무 문제도 없습니다. (유일한 단점은 한 번 철탑의 경계 밖으로 나가면, 추위에 노출되어 10분마다 피해를 입거나, 따뜻한 망토를 입고 있으면 1시간마다 피해를 입습니다.)
 
-If the PCs defeat most of the villagers and at least one of the elders, the remaining elders call for a truce, stating that the PCs clearly outmatch them and it is pointless to throw away lives trying to stop them, at which point the elders and villagers retreat into their homes and barricade their doors in case the PCs unleash some doom upon the valley.
+만약 PC들이 대부분의 마을 사람들을 쓰러트리면 적어도 한 명의 장로는, 남은 장로들은 휴전을 요청합니다, PC들이 분명히 그들을 압도했으며 그들을 멈추기 위해 목숨을 버리는 건 의미가 없고, 이 시점에서 장로와 마을 사람들은 집으로 돌아가고 PC들이 이 계곡 마을을 심판할지도 모른다는 생각에 문을 걸어 잠가 바리케이드를 쌓습니다.
 
-If the PCs fought the villagers (regardless of who wins), thereafter all interactions with the villagers or the elders are hindered by three steps, because the PCs are considered dangerous, reckless, and disrespectful toward the beliefs of the tribe.
+만약 PC들이 마을 사람들과 싸우면 (누가 이기는지와는 무관하게), 마을 사람들이나 장로들과의 모든 상호작용은 난이도가 3단계 어려워지는데, PC들이 일족의 믿음에 대해 위험하고, 무모하며, 무례하다고 여겨지기 때문입니다.
 
-> **마스터 개입 제안:** In response to a physical threat, a crucible transforms into a cyborg battle suit for a 대장로, making it level 5 for attack and defense tasks.
+> **마스터 개입 제안:** 물리적인 위협에 대한 반응으로, 도가니가 대장로들을 위한 사이보그 전투복으로 변형되어, 공격과 방어 행동의 레벨을 5로 만듭니다.
 
-Defeated villagers have 1d10 shins each.
-A defeated elder’s crucible can be looted for a [무작위 사이퍼](/ko/numenera/ashes-of-the-sea#무작위-사이퍼): equal chances of a gravity nullifier, Might rejuvenator, or warmth projector. If the PCs chose not to kill the elder, the crucible keeps them alive, but it can no longer levitate (the villagers will have to build a mobility cart for that elder).
+패배한 마을 사람들은 각각 1d10 쉰을 가지고 있습니다.
 
-### 우상에 접근하기
-The path leading to the Icon winds back and forth to the north, sometimes making a switchback to reach a higher elevation. Along the sides of the path are the remnants of old offerings of food and wooden carvings from villagers too afraid or too respectful to approach any closer. Just before the path becomes jagged and precarious is a small pile of flat stones, each with a warning inscribed upon it in the Truth to come no closer. The path near the stones is covered in more offerings, most of which are at least a week old. Beyond the stone markers, the path continues along the top of a low ridge for about a long distance, then smoothes out again as it covers another zig-zagging long distance in the final approach to the Icon itself. The statue is near the pylon boundary, but at least a bowshot away from the nearest pylon. Flurries of snow or shellsnow blow about in the wind, and the air is much colder at this altitude compared to the rest of the valley.
+패배한 장로들의 도가니에서 [무작위 사이퍼](/ko/numenera/ashes-of-the-sea#무작위-사이퍼)를 얻을 수 있습니다: 중력 무효화 장치, 힘 회복제, 온기 방출기를 똑같은 확률로 얻습니다. PC들이 장로들을 죽이지 않기로 하면, 도가니가 생명을 유지해주지만, 더 이상 공중에 뜨진 않습니다. (마을 사람들은 장로들을 위해 움직일 수레를 만들어야 할 겁니다.)
 
-> The Icon, level 8, health 50, Armor 3, immune to electricity
+### 우상에 다가가기
 
-The Icon is a roughly-humanoid metal statue
-with a thin torso, broad shoulders, at least six
-arms (with the lower pairs smaller than the
-uppermost one), a glowing blue crystal where
-its face should be, and long horizontal horns
-jutting from the sides of its head. Its lower half
-merges with a stone peak, making it hard to
-tell if it has legs or some other alien body parts.
-A vertical line of blue crystal extends from its
-chest toward its midsection and downward to a
-cave-like opening beneath it, all of which has the
-same glow, pulsing in a downward pattern like
-a river of light trickling from the statue’s face.
-From the path approaching its base to the top of
-its angular head, it is easily 40 feet (12 m) tall. At
-this distance, it is easy to see that the Icon was
-probably made by the same beings who built the
-pylons. It is made of the same bronze-like metal,
-has similar blue crystals, and features several
-levitating metal rings. There is a sensation of
-powerful energy in the air, and the Icon is faintly
-making the same singing sound as the pylons.
+우상으로 이어지는 길은 북쪽을 향해 앞뒤로 굽이치며, 더 높은 곳으로 가기 위해서 돌아가야 할 때도 가끔 있습니다. 길가에는 마을 사람들이 두렵거나 존경하는 마음에 더 가까이 다가오지 못하고 남긴 오래 전에 공양한 음식과 나무 조각들의 잔해가 있습니다. 길이 들쭉날쭉하고 위태로워지기 직전에 작고 납작한 돌무더기가 있는데, 각 돌무더기에는 가까이 오지 말라는 경고문도 새겨져 있습니다. 돌 근처의 길은 더 많은 공양으로 덮여 있고, 대부분은 적어도 1주일은 된 것입니다. 돌 표지들을 넘어서면, 길은 낮은 능선을 따라 긴 거리를 이어지며, 다시 부드러워지고 이리저리 우상 자체에 마침내 다다를 때까지 또 긴 거리를 가야 합니다. 이 동상은 철탑의 경계 근처에 있지만, 적어도 가장 가까운 철탑에서 활을 쏴야 닿는 거리에 있습니다. 눈이나 껍질눈이 바람에 날리고, 공기는 이 고도에서는 계곡의 다른 곳들보다 더 춥습니다.
 
-The path leads into the glowing cave at
-the base of the Icon. There are no paths or
-handholds to indicate there is an easy way to
-climb onto the statue itself. Climbing onto the
-Icon is a difficulty 4 task. Touching the Icon
-triggers its defenses, and anyone touching it
-must make a level 8 Might defense roll or take 1
-point of electricity damage (this damage ignores
-armor). This repeats each round someone is
-still touching it, with the damage increasing by
-1 point each time. The electrical defense stops if
-nobody touches the Icon for a full minute. When
-inspected at a close distance, it is apparent that
-there are no doors, hatches, panels, or other
-mechanisms on the surface of the Icon; even the
-glowing crystals appear to be seamlessly fused
-with the metal. The only way in is the groundlevel cave entrance.
+> 우상 레벨8, 체력50, 장갑3, 전기에 면역
+
+우상은 대강 인간형의 금속 동상으로 얇은 몸통과, 넓은 어깨, 최소 6개는 되는 팔(아랫쪽 쌍이 윗쪽의 것보다 작은), 빛나는 푸른 수정이 얼굴이 있어야 할 자리에 있고, 길고 머리 양 옆에서 수평으로 긴 뿔이 뻗어 있습니다. 낮은 반신은 봉우리의 돌과 결합되어 있어서, 다리가 있다던가 다른 똑같은 외계 신체 부위가 있다고 하기는 어렵습니다.
+
+푸른 수정으로 된 수직의 선이 가슴에서 나와 중앙 그리고 동굴과 같이 열려 있는 아래로 뻗어있는데, 이 모두는 같은 밝기에, 동상의 얼굴에서부터 뚝뚝 떨어지면서 아래를 향하는 빛의 강과 같은 형태로 진동합니다.
+
+토대로 향하는 길에서 모난 머리까지는 12m는 가볍게 넘길 높이입니다. 이 거리에서는, 우상이 아마 첨탑을 만든 똑같은 존재에 의해 만들어졌을 가능성이 높다는 건 쉽게 알아볼 수 있습니다. 똑같은 청동 같은 금속으로 만들어졌고, 비슷한 푸른 수정이 있고, 그리고 회전하는 금속 고리들도 있습니다. 공기 중에는 강력한 에너지의 감각이 느껴지고, 우상은 희미하게 철탑과 비슷하게 노래하는 소리를 만들고 있습니다.
+
+길은 우상의 기반에 있는 빛나는 동굴로 이어집니다. 여기 동상 자체에 등반해서 올라갈 쉬울 것 같은 길이나 손잡이 같은 것은 전혀 없습니다. 우상에 오르는 건 난이도 4짜리 일인데, 우상을 만지면 방어를 발동시키고, 만지는 이는 누구라도 8레벨의 힘 방어 판정을 하거나 1점의 전기 피해를 입습니다. (피해는 방어를 무시합니다.) 여전히 만지고 있으면 각 라운드마다 반복되며, 피해는 1점씩 매번 증가합니다. 이 전기 방어는 누구도 1분 동안 우상을 만지지 않으면 멈춥니다. 가까이에서 면밀히 살피면, 표면에는 문이나 출입구, 패널, 혹은 다른 기계 장치가 전혀 없다는 건 분명합니다; 비록 빛나는 수정은 금속과 빈틈없이 녹아들어 있습니다. 들어갈 유일한 방법은 땅바닥에 있는 동굴 입구 뿐입니다.
 
 ## 우상 아래에서
 
-The cave entrance is about 15 feet (4.5 m) high
-and diamond-shaped in cross section. The
-blue crystal from the Icon extends to the cave
-entrance and along the ceiling, illuminating the
-area with a glow nearly as bright as daylight.
-The floor of the cave has been carved (with
-remarkable precision) into a smooth set of stairs
-leading downward. A small amount of shellsnow,
-dirt, and other debris has accumulated in the
-corners of the stairs, but otherwise it looks
-like no people have been here in quite a while.
-The blue ceiling light becomes less intense the
-deeper the stairs go.
+동굴 입구는 4.5미터 정도의 높이이고 단면은 다이아몬드 모양입니다. 푸른 수정은 우상에서 동굴 입구로, 천장을 따라, 거의 대낯처럼 밝게 이곳을 밝힙니다. 동굴의 바닥은 아래 쪽으로 이어지는 부드러운 계단이 (눈에 띄게 정밀하게) 조각되어 있습니다. 약간의 껍질눈, 흙, 그리고 다른 잔해들이 계단 구석에 쌓여 있지만, 다른 곳만 보면 마치 누구도 여기에 오지 않은지 꽤 지난 것 같습니다. 계단으로 더 깊이 내려갈 수록 푸른 천장의 빛의 강도가 점점 희미해집니다.
 
-One round after anything about the size of a
-human steps through the doorway, the ceiling
-light begins to quickly strobe in an irregular
-pattern. Anyone within a short distance of the
-entrance who can see the light must make an
-Intellect defense roll (level 8) or become stunned
-for one round, losing their action. This flashing
-repeats once per minute as long as someone is
-within a short distance of the entryway
+사란 크기만한 것이 문을 통과하고 한 라운드(10초 정도)가 지나면, 천장의 불빛이 불규칙한 패턴으로 빠르게 꺼지기 시작합니다. 입구에서 단거리 내에서 불빛을 볼 수 있는 누구라도 지성 방어 판정(레벨8)을 하거나 한 라운드 동안 멍해져셔, 행동을 잃습니다. 이 깜빡임은 입구에서 단거리 내에 누구 하나라도 있으면 1분마다 반복됩니다.
 
 <div class="highlight-box">
 
-The PCs don’t have to salvage these three devices in the adventure (they can opt to salvage them as cyphers and shins instead of fully-functional machines), but not doing so means they won’t be able to teleport home, and will have to leave the village on foot and figure out where in the world they are. Numenera is all about discovery and exploration!
+PC들은 이 시나리오에서 다음 3가지 기계를 꼭 탐색(salvage)해야 하는 건 아닙니다. (온전히-작동하는 기계 대신에 사이퍼랑 쉰을 탐색해도 됩니다.), 하지만 이는 집으로 순간이동 할 수 없고, 마을을 제 발로 떠나서 여기가 도대체 세상의 어디에 있는지 가늠해야 한다는 뜻입니다. 누메네라는 발견과 탐험이 전부입니다!
 
 </div>
 
 ### 우상의 동굴
-The stairs continue downward a short distance
-and open up into a larger cave (with the PCs
-arriving at the south end), the floor of which
-is covered in a lumpy layer of shellsnow and
-spattered with waste from harmless ceilingdwelling flying animals. The cave is roughly
-circular and about a long distance in diameter.
-The ceiling light ends just past the stairs, giving
-off enough light to reveal seven bronze-metal
-buildings built inside the cave. The buildings
-are all approximately the same size. One of the
-domes doesn’t have a door, but all the others
-have a metal door with a large circular pad on it,
-just like the dome houses in Bardak.
-The dome exteriors are level 8, but the
-numenera and walls on the inside are only level 5. The doors automatically shut one minute after
-they are opened (the inner side of the door has a
-touchpad like the outside).
+이 계단은 밑으로 단거리(15m 이내)에 걸쳐 계속되며 더 큰 동굴로 열려 있으며 (PC들이 남쪽 끝에 도착하면), 그 바닥은 지금 껍질눈이 층층이 쌓여 있고 무해한 천장에 사는 비행 동물들의 배설물이 흩뿌려져 있습니다. 이 동굴은 대략 원형이고 지름은 장거리(30m 이내)입니다. 천장의 불빛은 계단을 지나는 순간 끝나며, 동굴안에 지어진 청동빛-금속으로 된 일곱 건물들이 있다는 걸 알 정도의 불빛만 남습니다. 이 건물들은 모두 거의 비슷한 크기입니다. 돔 중에 하나는 문이 없고, 나머지는 모두 금속 문에 커다란 동그란 패드가 있어서, 마치 바르닥 마을에 있는 돔으로 된 집들 같습니다. 돔의 외관은 레벨8이지만, 내부의 누메네라와 벽은 레벨5입니다. 문은 열리고 나서 1분이 지나면 자동으로 닫힙니다. (문의 내부에는 외부처럼 터치패드가 있습니다)
 
 ### 날아다니는 수호자들
 When the PCs first leave the steps and enter the
@@ -396,42 +295,11 @@ but if the PCs return, the gazers recognize them
 by sight and resume their attack.
 
 ### 기술 재활용하기
-The PCs don’t know it yet, but by carefully
-salvaging numenera from these structures,
-they can gather iotum and devices that, if
-connected to the high-altitude dome the PCs
-arrived in at the start of this adventure, can be
-used to teleport them back to the part of the
-world they’re from. If the PCs attempt to salvage
-anything from any of the domes here, they
-realize that the physical connectors between
-devices (sockets, plugs, and so on) match those
-they saw in the arrival dome, and they might be
+PC들은 아직 모르지만, 자세히 이 구조물에서 누메네라를 탐색하면, 아이오툼과 기계를 모아서, PC들이 시나리오의 시작에서 도착했던 높은 곳의 돔에 연결하면, 그들이 왔던 세상의 어딘가로 다시 순간이동해서 돌아가는데 쓸 수 있습니다. 만약 PC가 이 돔에서 무엇이라도 탐색하려 하면, 기계 간에 물리적인 연결부들이 (소켓, 플러그, 등등) 도착했던 돔에서 봤던 것과 일치하고, 이 동굴의 누메네라를 가져다가 복구하거나 혹은 작동하는 순간이동기를 만들어서 집으로 보내줄 수 있습니다. PC가 필요한 물건들은 영역 1에서 가져온 항법 시스템, 영역 2에서 가져온 동력 배터리, 영역 3에서 가져온 차원 인터페이스와 3 *이오* 그리고 *생물-회로* 입니다. 이 물건들과 몇몇 잡다한 부품들 그리고 노하우가 있으면, 올바른 포트를 도착한 돔에 연결했을 때, PC들은 일회용 순간이동 기계를 만들어서 왔던 곳으로 돌려보내줄 수 있읍십니다.
 
-able to use numenera from this cave to repair
-or build a functional teleporter there and send
-themselves home.
-The items the PCs need are a navigational
-system from area 1, a power battery from
-area 2, a dimensional interface from area 3,
-and 3 *io* and 1 *bio-circuitry*. Those items, plus
-some miscellaneous parts and know-how,
-when plugged into the proper ports in the
-arrival dome, allow the PCs to make a one-use
-teleportation device that should send them back
-to where they came from.
+> 아이오는 일종의 배터리입니다. 마치 빛나는 수정, 문양이 새겨진 금속 상자, 정전기로 탁탁 소리가 나는 신스 튜브, 등등처럼 생겼습니다.
 
-> Io is a kind of battery. It
-might look like glowing
-crystals, metallic boxes
-etched with symbols,
-a synth tube crackling
-with static, and so on.
-
-> Bio-circuitry is a quasiliving circuit board.
-It looks like a mesh
-of veins and nerves
-in a skin-like gel.
+> 생물-회로는 준생물 회로 기판입니다. 피부 같은 젤 안에 혈관과 신경 그물처럼 보입니다.
 
 ### 불편한 벌레와의 조우
 
@@ -469,62 +337,18 @@ teleported here. It has
 piece of commonplace
 gear (such as a knife).
 
-### 1. 길찾기
-This dome is located in the southeast part of the
-cave. When its door is opened, small blue lights
-activate in the interior, and a *blue hologramlike screen* appears with diagrams and strange
-writing. A successful understanding numenera
-roll takes ten minutes and means the PC thinks
-this device is some sort of mapping tool, or a
-tracking system, or a navigational aid, but none
-of the details or landmarks are anything they
-recognize (or even seem to be related to points
-on Earth that the PCs are familiar with).
-Salvage: With a successful salvaging roll, the
-PCs can acquire a functional navigational device,
-a random cypher, 1d2 *responsive synth* and 3
-io, and 1d10 shins. The navigational device is
-about the size of a briefcase and looks like a
-series of bronze-metal spheres and thin pipes,
-each with needle-like projections sticking in
-many directions. If they don’t care about keeping
-the navigational device functional, they can
-disassemble it for another random cypher.
+### 1. 항법
+이 돔은 동굴의 가장 남쪽에 있습니다. 이 문이 열리면, 작은 푸른 빛이 내부를 작동시키고, *푸른 홀로그램 같은 화면*이 도표와 이상한 글씨와 함께 나타납니다. 누메네라 이해 판정에 성공하면 10분이 걸리고 PC들은 이 기계가 일종의 지도 이거나 추적 시스템이거나 항법 보조 장치 이거나, 하지만 세부사항이나 지점들은 알아볼 수가 없습니다. (심지어 PC들이 익숙한 지구의 지점들과 관련이 있어 보이지도 않습니다.)
 
-> Once a PC has
-successfully used a
-holographic interface
-in one of these domes,
-tasks to use the
-holograms in the other
-domes are eased.
+탐색(Salvage): 탐색 판정에 성공하면, PC는 작동하는 항법 장치나 무작위 사이퍼, 1d2 *반응형 신스* 그리고 3 아이오, 그리고 1d10 쉰을 얻습니다. 항법 장치는 서류 가방 정도 크기에 일련의 청동빛 공과 얇은 파이프, 각각이 많은 방향으로 바늘 같은 투영을 합니다. 항법 장치를 작동 가능한 상태로 유지하고 싶지 않으면, 다른 무작위 사이퍼로 분해할 수 있습니다.
 
-> Responsive synth is a
-flexible kind of synth
-that can be etched
-like a circuit board.
+> 한 번 PC가 이 돔 중 한 곳의 홀로그램 인터페이스를 다루는 일에 성공하면, 다른 돔에 있는 홀로그램을 사용하는 일도 한 단계 쉬워집니다.
+
+> 반응형 신스는 회로기판처럼 새길 수 있는 가변적인 신스입니다.
 
 ### 2. 지열 발전
-This dome is larger than the other by half and
-is located on the northwest part of the cave.
-The air around this dome is noticeably warmer
-than the rest of the cave, comparable to holding
-your hand near a lit torch. Touching the dome
-or the door inflicts 1 point of damage from heat
-(this damage ignores armor). Using a tool (even
-something like a knife) to touch the pad opens
-the door without inflicting any damage. The air
-inside the dome is hot like a sauna and pours
-out into the main room as long as the door is
-open. The heat is uncomfortable enough that a
-human inside this building takes 1 point of heat
-damage every ten minutes they spend there.
-The far half of the room is filled with hundreds
-of vertical metal pipes topped with flat or round
-caps. The near half of the room is open, and a blue
-hologram-like screen appears with diagrams and
-strange writing. The pipes sometimes make gurgling
-noises like liquid is moving around in them.
+이 돔은 다른 것보다 절반 정도 더 크고 동굴에서 가장 북서쪽 부분에 있습니다. 이 돔 주위의 공기는 눈에 띄게 다른 동굴보다 따뜻하고, 
+This dome is larger than the other by half and is located on the northwest part of the cave. The air around this dome is noticeably warmer than the rest of the cave, comparable to holding your hand near a lit torch. Touching the dome or the door inflicts 1 point of damage from heat (this damage ignores armor). Using a tool (even something like a knife) to touch the pad opens the door without inflicting any damage. The air inside the dome is hot like a sauna and pours out into the main room as long as the door is open. The heat is uncomfortable enough that a human inside this building takes 1 point of heat damage every ten minutes they spend there. The far half of the room is filled with hundreds of vertical metal pipes topped with flat or round caps. The near half of the room is open, and a blue hologram-like screen appears with diagrams and strange writing. The pipes sometimes make gurgling noises like liquid is moving around in them.
 
 A PC skilled in understanding numenera
 can successfully interact with the hologram

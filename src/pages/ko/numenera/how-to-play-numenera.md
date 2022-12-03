@@ -153,100 +153,45 @@ NPC는 특성치 역량이 없습니다. 대신 체력(health)이라 부르는 �
 
 앞서 말했듯이 피해는 항상 공격에 의해 정해지는 특정한 양입니다. 예를 들어 대검으로 베는 것은 4점의 피해를 가합니다. 나노의 쇄도는 4점의 피해를 줍니다. 자주, 공격자가 피해를 증가시키는 방법이 있습니다. 예를 들어 PC가 분발해서 3점의 피해를 더 주거나, 공격 판정에 순수 17이 나와도 1점의 추가 피해를 줍니다.
 
+### 주변 피해
+어떤 종류의 피해는 생물에 대한 직접적인 공격이 아니라, 간접적으로 영역 내에 있는 모두에게 영향을 줍니다. 대부분은 겨울의 추위, 고온, 배경 복사와 같은 환경 효과입니다. 이런 원천에서 오는 피해는 주변 피해라 부릅니다. 물리적 장겁은 보통 주변 피해로부터 보호해주지 못하지만, 잘 단열된 옷은 추운 날씨로부터 보호해줄지도 모릅니다.
+
+### 피해의 효과
+NPC가 체력 0에 이르면, 죽거나 (공격자가 바란다면) 무력화되거나, 의식을 잃거나 패배시켜 항복하게 만든다는 뜻일 수도 있습니다. 앞에서 말했듯이, 대부분의 원천에서 오는 피해는 캐릭터의 힘 역량에 적용합니다. 한편 특성 피해는 항상 영향을 받는 특성의 역량을 줄입니다. 만약 피해가 캐릭터의 특성치 역량을 0으로 만들면 그 역량에 들어가는 피해는 그 이후로 (특성치 역량을 0으로 만드는 공격에서 오는 초과 피해를 포함해) 다른 특성치 역량에 적용합니다. 피해는 역량에 다음과 같은 순서로 적용합니다.
+
+1. 힘 역량 (이 역량이 0이 아니라면)
+2. 속력 역량 (이 역량이 0이 아니라면)
+3. 지성 역량
+
+비록 피해가 다른 특성치 역량에 적용되더라도, 이는 여전히 장갑이나 피해에 영향을 주는 특수 능력을 위해 쓸 때에는 원래 유형으로 칩니다. 예를 들어 한 글레이브가 장갑 2를 가지고 있는데 괴물의 발톱이 3점의 피해를 줘서 힘 역량이 0으로 떨어지면, 이는 여전히 힘 피해로 치고, 장갑 2가 피해를 2점으로 줄여주고, 이는 속력 역량에 적용합니다. 다르게 말하면 글레이브는 피해를 속력 역량에서 받긴 하지만, 속력 피해가 보통 그러는 것처럼 장갑을 무시하진 않습니다.
+
+
 <div class="numenera-box">
 
 ### 부상 트랙
-**Hale** is the normal state for a character: all three stat Pools are at 1 or higher, and the PC has no penalties from harmful
-conditions. When a hale PC takes enough damage to reduce one of their stat Pools to 0, they become impaired. Note that
-a character whose stat Pools are much lower than normal can still be hale.
+**건강**은 캐릭터에게 기본 상태입니다: 모든 세 특성치 역량이 최소 1 이상이고, PC는 해로운 상태에서 제한을 받는 것도 없습니다. 만약 건강한 PC가 특성치 역량 중에 하나를 0으로 줄이기에 충분한 피해를 입게 되면, 중상을 입습니다. 캐릭터의 특성치 역량이 기본 상태보다 아무리 낮아져도, 여전히 건강할 수 있다는 걸 유의하십시오.
 
 <br/>
 
-**Impaired** is a wounded or injured state. When an impaired character applies Effort, it costs 1 extra point per level applied.
-For example, applying one level of Effort costs 4 points instead of 3, and applying two levels of Effort costs 7 points instead
-of 5.
-An impaired character ignores minor and major effect results on their rolls, and they don’t deal as much extra damage
-in combat with a special roll. In combat, a roll of 17 or higher deals only 1 additional point of damage.
-When an impaired PC takes enough damage to reduce one of their stat Pools to 0, they become debilitated.
+**중상**은 상처입거나 다친 상태입니다. 중상을 입은 캐릭터는 분발을 할 때, 단계마다 1점의 추가 비용이 듭니다. 예를 들어 한 단계 분발하는 건 3점이 아니라 4점이 들고, 두 단계 분발하는 건 5점이 아니라 7점이 듭니다.
+
+중상을 입은 캐릭터는 작은 그리고 큰 이득을 판정에서 무시하고, 특수 효과로 전투에서 많은 추가 피해를 입히지도 못합니다. 전투에서, 17 이상인 판정은 오직 1점의 추가 피해만 줍니다.
+
+중상인 PC가 특성치 역량 중에 하나를 0으로 줄이기에 충분한 피해를 입게 되면 치명상이 됩니다.
 
 <br/>
 
-**Debilitated** is a critically injured state. A debilitated character can’t take any actions other than to move (probably crawl) no
-more than an immediate distance. If a debilitated character’s Speed Pool is 0, they can’t move at all.
-When a debilitated PC takes enough damage to reduce a stat Pool to 0, they are dead.
+**치명상**은 치명적으로 다친 상태입니다. 치명상인 캐릭터는 (아마도 기는) 움직임 이외에는 어떤 행동도 하지 못합니다. 만약 치명상인 캐릭터의 속력 역량이 0이면, 전혀 움직이지도 못합니다. 치명상인 캐릭터가 특성치 역량 중에 하나를 0으로 줄이기에 충분한 피해를 입게 되면 죽습니다.
 
 <br/>
 
-**Dead** is dead.
+**사망**은 죽은 것입니다.
 
 </div>
 
-### 주변 피해
-Some kinds of damage aren’t direct attacks
-against a creature, but they indirectly affect
-everything in the area. Most of these are
-environmental effects such as winter cold, high
-temperatures, or background radiation. Damage
-from these kinds of sources is called ambient
-damage. Physical armor usually doesn’t protect
+힘 역량, 속력 역량, 혹은 지성 역량에서 피해를 받는 것에 더해서, PC들은 부상 트랙도 가지고 있습니다. 부상 트랙은 네 가지 상태를 가지고 있습니다. (최상에서 최악까지): 건강, 중상, 치명상, 사망. PC의 특성치 역량 중에 하나가 0이 되면, 그 캐릭터는 부상 트랙을 한 단계 내립니다. 그래서 건강하다면, 중상이 됩니다. 이미 중상이라면 치명상이 됩니다. 이미 치명상이라면 사망합니다.
 
-against ambient damage, though a well-insulated
-suit of armor can protect against cold weather.
-
-#### 피해의 효과
-When an NPC reaches 0 health, it is either
-dead or (if the attacker wishes it) incapacitated,
-meaning unconscious or beaten into submission.
-As previously mentioned, damage from most
-sources is applied to a character’s Might Pool.
-Otherwise, stat damage always reduces the Pool
-of the stat it affects.
-If damage reduces a character’s stat Pool to 0,
-any further damage to that stat (including excess
-damage from the attack that reduced the stat
-to 0) is applied to another stat Pool. Damage is
-applied to Pools in this order:
-
-1. Might Pool (unless the Pool is 0)
-2. Speed Pool (unless the Pool is 0)
-3. Intellect Pool
-
-
-Even if the damage is applied to another
-stat Pool, it still counts as its original type for
-the purpose of Armor and special abilities that
-affect damage. For example, if a Glaive with 2
-Armor is reduced to 0 Might and then is hit
-by a monster’s claw for 3 points of damage, it
-still counts as Might damage, so their 2 Armor
-reduces the damage to 1 point, which then is
-applied to their Speed Pool. In other words, even
-though the Glaive takes the damage from their
-Speed Pool, it doesn’t ignore Armor like Speed
-damage normally would.
-In addition to taking damage from their Might
-Pool, Speed Pool, or Intellect Pool, PCs also have
-a damage track. The damage track has four states
-(from best to worst): hale, impaired, debilitated,
-and dead. When one of a PC’s stat Pools
-reaches 0, the character moves one step down
-the damage track. Thus, if they are hale, they
-
-become impaired. If they are already impaired,
-they become debilitated. If they are already
-debilitated, they become dead.
-Some effects can immediately shift a PC
-one or more steps on the damage track. These
-include rare poisons, cellular disruption attacks,
-and massive traumas (such as falls from very
-great heights, being run over by a speeding
-vehicle, and so on, as determined by the GM).
-Some attacks, like venom from a serpent’s
-bite, a hibernation device or the explosive
-secretions of a chalik, have effects other than
-damage to a stat Pool or shifting the PC on
-the damage track. These attacks can cause
-unconsciousness, paralysis, and so on.
+몇몇 효과는 즉시 PC의 부상 트랙을 한 단계나 그 이상을 밀 수 있습니다. 이는 희귀한 독이나, 세포 파괴 공격, 그리고 막중한 트라우마 (매우 높은 곳에서 떨어지거나, 달리는 운송 수단에 깔리거나, 등등, 마스터가 결정합니다)등을 포함합니다. 뱀이 물 때의 독, 동명 기계나 폭발하는 챌릭의 분비물 같은 몇몇 공격은 특성치 역량이나 PC의 부상 트랙을 미는 것과는 다른 효과를 가집니다. 이런 공격은 의식 불명이나 마비, 기타 등등을 일으킵니다.
 
 <div class="numenera-box">
 
