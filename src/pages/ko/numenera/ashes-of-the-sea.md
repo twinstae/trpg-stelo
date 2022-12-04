@@ -280,19 +280,7 @@ PC들은 이 시나리오에서 다음 3가지 기계를 꼭 탐색(salvage)해�
 이 계단은 밑으로 단거리(15m 이내)에 걸쳐 계속되며 더 큰 동굴로 열려 있으며 (PC들이 남쪽 끝에 도착하면), 그 바닥은 지금 껍질눈이 층층이 쌓여 있고 무해한 천장에 사는 비행 동물들의 배설물이 흩뿌려져 있습니다. 이 동굴은 대략 원형이고 지름은 장거리(30m 이내)입니다. 천장의 불빛은 계단을 지나는 순간 끝나며, 동굴안에 지어진 청동빛-금속으로 된 일곱 건물들이 있다는 걸 알 정도의 불빛만 남습니다. 이 건물들은 모두 거의 비슷한 크기입니다. 돔 중에 하나는 문이 없고, 나머지는 모두 금속 문에 커다란 동그란 패드가 있어서, 마치 바르닥 마을에 있는 돔으로 된 집들 같습니다. 돔의 외관은 레벨8이지만, 내부의 누메네라와 벽은 레벨5입니다. 문은 열리고 나서 1분이 지나면 자동으로 닫힙니다. (문의 내부에는 외부처럼 터치패드가 있습니다)
 
 ### 날아다니는 수호자들
-When the PCs first leave the steps and enter the
-cave, ten [감시자 Gazer](/ko/numenera/mini-bestiary#감시자-gazer-1-3) fly out of concealed niches and
-create a spherical formation about half as tall as
-a human. They pivot their red beam-generating
-crystals toward the closest PC and blink warningly.
-This is an attempt at deterrence rather than a
-prelude to a surprise attack. If the PCs move
-farther into the cave, or act like they’re going to
-attack the gazers, the machines shoot first, acting
-as two level 3 swarms. If the PCs retreat up the
-stairs, the gazers stop attacking and do not follow,
-but if the PCs return, the gazers recognize them
-by sight and resume their attack.
+PC들이 첫 발을 떼고 동굴로 들어가면 10마리의 [감시자 Gazer](/ko/numenera/mini-bestiary#감시자-gazer-1-3))들이 숨겨진 틈새에서 날아와 사람 키의 절반 정도 되는 원형진을 만듭니다. 가까운 PC를 향해 붉은 빔을 생성하는 수정을 회전시키고는 위협적으로 깜빡입니다. 이는 기습 공격의 전조보다는 제압 시도입니다. PC들이 동굴로 더 들어오거나, 감시자를 공격하는듯한 행동을 하면, 이 기계들은 먼저 발포하고, 3레벨 짜리 무리 둘로 칩니다. PC들이 계단을 다시 올라가면, 감시자들은 공격을 멈추고 쫓아오지 않지만, PC들이 돌아온다면, 감시자들은 시야로 알아채고 공격을 재개합니다.
 
 ### 기술 재활용하기
 PC들은 아직 모르지만, 자세히 이 구조물에서 누메네라를 탐색하면, 아이오툼과 기계를 모아서, PC들이 시나리오의 시작에서 도착했던 높은 곳의 돔에 연결하면, 그들이 왔던 세상의 어딘가로 다시 순간이동해서 돌아가는데 쓸 수 있습니다. 만약 PC가 이 돔에서 무엇이라도 탐색하려 하면, 기계 간에 물리적인 연결부들이 (소켓, 플러그, 등등) 도착했던 돔에서 봤던 것과 일치하고, 이 동굴의 누메네라를 가져다가 복구하거나 혹은 작동하는 순간이동기를 만들어서 집으로 보내줄 수 있습니다. PC가 필요한 물건들은 영역 1에서 가져온 항법 시스템, 영역 2에서 가져온 동력 배터리, 영역 3에서 가져온 차원 인터페이스와 3 *이오* 그리고 *생물-회로* 입니다. 이 물건들과 몇몇 잡다한 부품들 그리고 노하우가 있으면, 올바른 포트를 도착한 돔에 연결했을 때, PC들은 일회용 순간이동 기계를 만들어서 왔던 곳으로 돌려보내줄 수 있읍십니다.
@@ -303,39 +291,11 @@ PC들은 아직 모르지만, 자세히 이 구조물에서 누메네라를 탐�
 
 ### 불편한 벌레와의 조우
 
-> Although normally not present in cold climates, these chaliks have adapted (or have been biologically engineered) to thrive in the cooler temperatures of this region.
+> 비록 일반적으로는 추운 날씨에 살지 않지만, 이 챌릭들은 이 지역에 추운 기온에서도 번성할 수 있도록 적응했습니다. (혹은 생물학적으로 조작되었습니다)
 
-A swarm of twelve [챌릭](/ko/numenera/mini-bestiary#챌릭-chalik-2-6) lives in this cave,
-feeding on ceiling-flyers and whatever else
-stumbles into this area. These big insects
-can propel themselves across or through the
-shellsnow like they are swimming or burrowing,
-leaving odd wandering trails everywhere in this
-area. As the PCs move around in the cave and
-make noise, they’ll hear an unsettling scratching
-and scrabbling noise as the chaliks circle around
-and assess their prey. The chaliks prefer to
-attack an isolated PC (perhaps one standing
-guard outside a dome while the others search or
-salvage), or make their move at an inopportune
-time for the PCs, such as while they are resting
-or sleeping. When the chaliks decide to attack,
-they approach by burrowing under the layer of
-shellsnow, hindering by two steps any chances to
-notice them approaching.
+열 두 마리의 [챌릭](/ko/numenera/mini-bestiary#챌릭-chalik-2-6) 무리가 이 동굴에 살면서 천장에 사는 비행동물이나 이 영역에 우연히 들어온 무엇이든 잡아먹습니다. 이 거대한 벌레들은 마치 헤엄치거나 굴을 파듯이 껍질눈 안을 통과해서 움직일 수도 있고, 이 지역에 이상한 돌아다닌 흔적을 이 영역의 곳곳에 남겼습니다. PC들이 이 동굴 안에서 어슬렁거리면서 소음을 만들면, 불안한 긁는 소음이 들리며 챌릭들이 주위를 빙글빙글 돌면서 적에게 다가옵니다. 챌릭들은 혼자 떨어져 있는 PC를 공격하길 선호하고 (다른 PC들이 탐색하는 동안 밖에 서 있는 호위 한 명이라던가), 아니면 PC들이 쉬거나 자고 있을 때와 같이 부적절한 시간에 움직이려 합니다. 챌릭이 공격하기로 결정하면, 껍질눈 층 아래에 굴을 파며 접근해오기 때문에, 접근하는 걸 알아차리는 기회는 무엇이든 두 단계 어려워집니다.
 
-> **마스터 개입 제안:** A PC
-moving during combat
-with the swarm trips
-on something buried
-in the shellsnow—the
-skeletal remains of a
-human, perhaps one of
-the previous explorers
-teleported here. It has
-4 shins and perhaps a
-piece of commonplace
-gear (such as a knife).
+> **마스터 개입 제안:** PC 하나가 벌레 무리와 전투 중에 움직이다가 껍질눈에 묻혀 있던 것에 걸려 넘어집니다-뼈만 남은 인간 하나의 잔해이며, 아마 이곳에 순간이동 되어 왔던 지난 탐험가 중에 하나일지도 모릅니다. 4쉰과 (단검 같은) 평범한 장비도 몇몇 가지고 있을 수도 있습니다.
 
 ### 1. 항법
 이 돔은 동굴의 가장 남쪽에 있습니다. 이 문이 열리면, 작은 푸른 빛이 내부를 작동시키고, *푸른 홀로그램 같은 화면*이 도표와 이상한 글씨와 함께 나타납니다. 누메네라 이해 판정에 성공하면 10분이 걸리고 PC들은 이 기계가 일종의 지도 이거나 추적 시스템이거나 항법 보조 장치 이거나, 하지만 세부사항이나 지점들은 알아볼 수가 없습니다. (심지어 PC들이 익숙한 지구의 지점들과 관련이 있어 보이지도 않습니다.)
@@ -348,6 +308,7 @@ gear (such as a knife).
 
 ### 2. 지열 발전
 이 돔은 다른 것보다 절반 정도 더 크고 동굴에서 가장 북서쪽 부분에 있습니다. 이 돔 주위의 공기는 눈에 띄게 다른 동굴보다 따뜻하고, 
+
 This dome is larger than the other by half and is located on the northwest part of the cave. The air around this dome is noticeably warmer than the rest of the cave, comparable to holding your hand near a lit torch. Touching the dome or the door inflicts 1 point of damage from heat (this damage ignores armor). Using a tool (even something like a knife) to touch the pad opens the door without inflicting any damage. The air inside the dome is hot like a sauna and pours out into the main room as long as the door is open. The heat is uncomfortable enough that a human inside this building takes 1 point of heat damage every ten minutes they spend there. The far half of the room is filled with hundreds of vertical metal pipes topped with flat or round caps. The near half of the room is open, and a blue hologram-like screen appears with diagrams and strange writing. The pipes sometimes make gurgling noises like liquid is moving around in them.
 
 A PC skilled in understanding numenera
@@ -423,60 +384,21 @@ Effort on any attempts
 after the first one.
 
 ### 3. 역사 기록
-This dome is slightly smaller than the others and
-is located in the southwest part of the cave, near
-the wall. Its doorway is open and there doesn’t
-seem to be a door built into it. The shellsnow
-covers the floor inside just like it does in the
-cave, except there are no animals living here, so
-all of it is uniformly pale off-white. There are no
-grooves in the shellsnow (a device built into this
-structure keeps animals away despite having an
-open door) and its surface is smooth (whatever
-human tracks might have been here have been
-erased by a thousand years of earthquakes in this
-region).
-As soon as anyone enters the room, subtle
-blue crystal lights come to life on the inner
-surface of the dome, shining dozens of harmless
-laser-like beams into the room, forming relaxing
-wavelike patterns. If someone sits or stands in
-the center of the room and makes large gestures
-that interrupt the beams, the crystals adjust in
-response to the PC’s movements. If someone
-can create the proper activation gestures
-(requiring several minutes and a successful level
-5 understanding numenera roll), a telepathic
-sequence begins playing into the minds of
-anyone in the dome.
-The message feels like a memory, but is clearly
-not something the PCs personally experienced,
-and the narrative is weird and disjointed.
+이 돔은 다른 것들보다 약간 작고 동굴의 남서쪽 벽 근처에 위치해 있습니다. 문은 열려 있고 문 같은 것이 있지도 않은 것 같습니다. 껍질눈이 동굴에서처럼 내부의 바닥을 덮고 있지만, 동물이 사는 것 같진 않으며, 그래서인지 한결같이 창백합니다. 지금은 껍질눈에 흠 하나 없고 (이 구조물에 설치된 기계가 문이 열려 있는데도 동물들을 멀리 쫓아냅니다) 그 표면도 부드럽습니다.  (여기 왔던 인간의 흔적은 아마도 이 지역의 지진으로 수 천년에 걸쳐 지워졌을 겁니다)
+
+누구라도 방에 들어오면, 돔의 내부 표면에 있던 은은한 푸른 수정 빛이 살아나며, 무해한 광선 같은 것이 방을 비추며, 편안한 파도 같은 패턴을 형성합니다. 누군가 이 방의 가운데에 앉거나 서서 빔을 방해하는 큰 몸짓을 취하면, 크리스탈은 PC의 움직임에 반응하며 조정됩니다. 만약 누군가 적절하게 작동시키는 몸짓을 하면 (몇 분이 걸리고 레벨 5짜리 누메네라 이해 판정에 성공해야 합니다), 텔레파시와 같은 장면들이 돔 안에 있는 모두의 마음 속에 재생되기 시작합니다.
+
+이 메세지는 기억인 것처럼 느껴지지만, PC가 개인적으로 경험한 것은 분명히 아니고, 이야기는 기이하고 분열되어 있습니다.
+
+*껍질이 단단한 바다 생물을 닯은 거대하고 창백한 동물들이 청동색 띠와 임플란트로 장식되어 있습니다. 검은 점들의 바다가 붉은 배경 아래 암갈색으로 소용돌이칩니다. 시간이 흐르는 감각. 푸른 구가 빨강 안에 나타납니다. 고통. 추위. 거대한 바다 생물은 보이지 않는 무게를 견디며 분투합니다. 죽습니다. 작은 바다 생물들이 그 금속과 살을 파먹고, 작은 조각을 곳곳에 남깁니다. 어둠 속에 푸른 빛. 청동빛 돔들이 조약돌처럼 흩어져 있습니다. 시간. 피곤함. 잠.*
 
 *Huge pale animals resembling hard-shelled sea creatures, harnessed with bands and implants of bronze. A sea of black spots against a red background, whorled with umber. A sensation of time passing. A blue sphere appearing in the red. Pain. Cold. The great sea creatures struggling against an invisible weight. They die. Smaller sea creatures dismantle their metal and flesh, leaving tiny fragments everywhere. A blue light in darkness. Bronze domes scattered like pebbles. Time. Weariness. Sleep.*
 
-> **마스터 개입 제안:** One PC
-has an adverse reaction
-to this psychic message,
-and must succeed at a
-level 5 Intellect defense
-roll or have all Intellectbased tasks hindered for
-the next ten minutes.
+> **마스터 개입 제안:** One PC has an adverse reaction to this psychic message, and must succeed at a level 5 Intellect defense roll or have all Intellectbased tasks hindered for the next ten minutes.
 
-The PCs can repeat this message as often
-as they want, and some details change slightly
-each time it is played, but the overall story is
-basically the same. They can’t make this building
-do anything else. If nobody is in the Historical
-Archive for ten minutes or more, the beams stop
-and the crystal lights go dark.
-Salvage: There is no numenera in this dome
-that is essential to the functioning of the Icon
-or the pylons, so the PCs can salvage things to
-their hearts’ content without worrying about
-endangering the villagers. With a successful
-salvaging roll, the PCs can acquire a random
-cypher and 1d10 shins.
+The PCs can repeat this message as often as they want, and some details change slightly each time it is played, but the overall story is basically the same. They can’t make this building do anything else. If nobody is in the Historical Archive for ten minutes or more, the beams stop and the crystal lights go dark.
+
+Salvage: There is no numenera in this dome that is essential to the functioning of the Icon or the pylons, so the PCs can salvage things to their hearts’ content without worrying about endangering the villagers. With a successful salvaging roll, the PCs can acquire a random cypher and 1d10 shins.
 
 ### 4. 차원 장 조절기
 This dome is located near the center of the cave,
@@ -773,18 +695,18 @@ what happens.
 ## 무작위 사이퍼
 PC들은 이 모험에서 새로운 사이퍼를 얻을 기회가 몇몇 있습니다. 이 목록에서 사이퍼를 고르거나 무작위로 굴려서 PC가 무엇을 얻는지 정하십시오.
 
-|        |                                                                                                                                                                                                                                                                                                                                                      |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1**  | **운명 결절**: 레벨 3 두꺼운 금속 끈으로 둘러 쌓인 노란 수정. When attached to a weapon, for the next 28 hours it increases the weapon’s density at the instant of impact, increasing its damage by 2 points.                                                                                                                        |
-| **2**  | **전기 폭발**: 레벨 4 여러 푸른 수정이 붙은 금속 원반. It explodes in an immediate radius,  inflicting electrical damage equal to the cypher’s level. You can throw it up to a short distance.                                                                                                                                |
-| **3**  | **감정 독 주사기**: 레벨 4 바늘이 없는 기계처럼 생긴 신스 주사기. A person injected with it feels happy for one hour, easing all interaction tasks to affect them while it lasts.                                                                                                                                                     |
-| **4**  | **역장 상자 투영기**: 레벨 3 조각 사이의 틈에서 희미한 초록 빛이 새어나오는 조각난 신스 상자. It creates an immobile cube composed of six walls of solid force centered on you, each 30 feet (9.1 m) to a side, for one hour. The walls conform to the space available.                                                |
+|        |                                                                                                                                                                                                                                                                                                                                                       |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1**  | **운명 결절**: 레벨 3 두꺼운 금속 끈으로 둘러 쌓인 노란 수정. 무기에 붙이면, 다음 28시간 동안 부딪히는 순간 일시적으로 무기의 밀도를 증가시켜 피해를 2점 높입니다.                                                                                                                                                                                    |
+| **2**  | **전기 폭발**: 레벨 4 여러 푸른 수정이 붙은 금속 원반. 지근거리에서 폭발하여 사이퍼의 레벨 만큼 전기 피해를 줍니다. 단거리까지 던질 수도 있습니다.                                                                                                                                                                                                    |
+| **3**  | **감정 독 주사기**: 레벨 4 바늘이 없는 기계처럼 생긴 신스 주사기. 주사된 사람은 행복을 1시간 동안 느끼게 되고 그 사람에에 경향을 주는 모든 상호작용에 관련된 일은 지속 시간 동안 난이도가 한 단계 쉬워집니다.                                                                                                                                         |
+| **4**  | **역장 큐브 투영기**: 레벨 3 조각 사이의 틈에서 희미한 초록 빛이 새어나오는 조각난 신스 상자. 당신을 중심으로 단단한 역장의 여섯 벽으로 이루어진 움직이지 않는 큐브를 만듭니다. 각 모서리는 9미터 정도이고, 1시간 동안 지속됩니다. 벽은 이용 가능한 공간에 맞춰 조정됩니다.                                                                            |
 | **5**  | **중력 무효화 장치**: 레벨 5 벨트에 부착하는 장치. It lets the user float into the air for one hour, moving vertically up to a short distance per round. This doesn’t allow the user to move horizontally (but they can push away from a wall or use other methods to go sideways). The user must weigh less than 50 pounds (22 kg) per cypher level. |
-| **6**  | **즉석 쉼터**: 레벨 2 신스로 만든 원통형 격자. It absorbs water and air to create a simple cubical building 10 feet (3 m) on a side with a door and window. It is made of hard foam and is permanent and immobile once created.                                                                                                   |
-| **7**  | **자기 공격용 드릴**: 레벨 5 나사 같은 돌출부가 있는 작은 공. If thrown at an opponent, it drills into them and inflicts damage equal to the cypher’s level. If the opponent is metal or wearing metal, the attack roll is eased.                                                                                                  |
-| **8**  | **힘 회복제**: 레벨 6 손에 드는 장치. It injects one creature with chemicals that restore a number of points equal to the cypher’s level to the creature’s Might pool.                                                                                                                                                                |
+| **6**  | **즉석 쉼터**: 레벨 2 신스로 만든 원통형 격자. It absorbs water and air to create a simple cubical building 10 feet (3 m) on a side with a door and window. It is made of hard foam and is permanent and immobile once created.                                                                                                                       |
+| **7**  | **자기 공격용 드릴**: 레벨 5 나사 같은 돌출부가 있는 작은 공. If thrown at an opponent, it drills into them and inflicts damage equal to the cypher’s level. If the opponent is metal or wearing metal, the attack roll is eased.                                                                                                                     |
+| **8**  | **힘 회복제**: 레벨 6 손에 드는 장치. It injects one creature with chemicals that restore a number of points equal to the cypher’s level to the creature’s Might pool.                                                                                                                                                                                |
 | **9**  | **광선 방출기**: 레벨 5 금속 손잡이가 달린 신스로 된 머리띠. The wearer can create a ray of energy that strikes a target up to a long distance away and inflicts heat damage equal to the cypher’s level.                                                                                                                                             |
-| **10** | **온기 투영기**: 레벨 3 나노 액체로 채워진 금속 용기. When the fluid is touched to the user’s skin, it forms an articulated carapace-like protective barrier for 28 hours that provides Armor equal to the cypher’s level against cold damage.                                                                                      |
+| **10** | **온기 투영기**: 레벨 3 나노 액체로 채워진 금속 용기. When the fluid is touched to the user’s skin, it forms an articulated carapace-like protective barrier for 28 hours that provides Armor equal to the cypher’s level against cold damage.                                                                                                        |
 
 > Remember that each
 PC has a [cypher limit](/ko/numenera/understanding-your-character#사이퍼와-신기품)
