@@ -53,29 +53,37 @@ export const SIDEBAR: Sidebar = {
 			{ text: '사이퍼', link: '/cyphers' },
 			{ text: '사이퍼 시스템을 운영하는 법', link: '/running-the-cypher-system' }
 		]),
-		Topic('누메네라', '/numenera', [
-			{ text: '바다의 재: 퀵스타트', link: '/ashes-of-the-sea' },
+		Topic('누메네라: 퀵스타트', '/numenera', [
+			{ text: '바다의 재', link: '/ashes-of-the-sea' },
 			{ text: '작은 박물지', link: '/mini-bestiary' },
 			{ text: '사전 제작 캐릭터', link: '/pregenerated-characters' },
 			{ text: '캐릭터 이해하기', link: '/understanding-your-character' },
 			{ text: '누메네라를 플레이하는 법', link: '/how-to-play-numenera' },
 			{ text: '플레이의 예', link: '/example-of-play' },
-			// { text: '사냥하는 소리의 첨탑: 퀵스타트', link: '/the-spire-of-the-hunting-sound' },
-			// 	{ text: '조화: 확장 규칙', link: '/harmony' },
+			//  { text: '사냥하는 소리의 첨탑: 퀵스타트', link: '/the-spire-of-the-hunting-sound' },
+		]),
+		Topic('자작 자료', '/numenera', [
+				{ text: '조화: 확장 규칙', link: '/harmony' },
 			// 	{ text: '일레인: 공동체', link: '/elaine-community' },
-			// 	{ text: '기록', link: '/record' },
-			// 	// { text: '죽은 새들의 언어: 시나리오', link: '/dead-birds-language' },
-			// 	// { text: '아키펠라고', link: '/archipelago' },
+			// 	{ text: '죽은 새들의 언어: 시나리오', link: '/dead-birds-language' },
+		]),
+		// Topic('리뷰', '/numenera/reviews', [
+		// 	{ text: '구매 안내서', link: '/buy-guide' },
+		// 	{ text: '누메네라 코어북', link: '/core-book' },
+		// ]),
+		Topic('기록', '/numenera/records', [
+			{ text: '2022년 4분기', link: '/2022-4q' },
+			{ text: '1년 간의 제9세계 일주', link: '/around-the-ninth-world-in-one-year' },
 		]),
 		// Topic('약을 전하는 여행', '/fellowship-of-the-medicine', [
 		// 	{ text: '소개', link: '/introduction' },
 		// 	{ text: '겁스 경량판 어댑터', link: '/gurps-light' },
-		// 	// { text: '누메네라 어댑터', link: '/numenera' },
-		// 	// { text: '던전월드 어댑터', link: '/dungeon-world' },
+		// 	{ text: '누메네라 어댑터', link: '/numenera' },
+		// 	{ text: '던전월드 어댑터', link: '/dungeon-world' },
 		// ]),
 		// Topic('크툴루 컨피덴셜', '/cthulhu-confidential', [
 		// 	{ text: '지도', link: '/map' },
-		// 	// { text: '푸른 그림자: 시나리오', link: '/blue-shadow' }
+		// 	{ text: '푸른 그림자: 시나리오', link: '/blue-shadow' }
 		// ]),
 		// Topic('리플레이', '/replay', [
 		// 	{ text: '소개', link: '/numenera-01' }

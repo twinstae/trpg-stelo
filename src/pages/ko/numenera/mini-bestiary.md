@@ -9,9 +9,9 @@ createdAt: "2022-11-17T07:31:02.290Z"
 
 ## 검은 엄니 Black Tusk 4 (12)
 
-<img src="/blacktusk.webp" alt="" class="float-left m-4 w-80"/>
+<img src="/blacktusk.webp" alt="" class="mx-auto lg:float-left lg:m-4 w-80"/>
 
-괴로운듯 들리며 울려퍼지는 비명소리는 멀리서 사냥하며 울부짖는 검은 엄니 무리의 상징입니다. 이 잡음에 익숙한 이들은 무리의 목표이 되지 않으려면 피할 곳을 찾아야 한다는 걸 압니다. 검은 엄니는 고양이과 포유류로 길이는 2미터가 넘고 육중한 엄니를 지녔습니다. 이 생물의 가죽은 눈처럼 하얗지만, 엄니는 얼어붙은 남쪽의 구름낀 밤처럼 검습니다. 이 야만적인 사냥꾼들 중에 일부는 세계 곳곳에, 하지만 거의 대부분은 매우 추운 지역에만 있습니다. 인간이 이런 지역을 모험할 때, 검은 엄니 무리는 그들을 신선한 음식으로 취급할 수도 있고, 신참들을 내버려두고 더 익숙한 먹이에 집중할 수도 있습니다.
+괴로운듯 들리며 울려퍼지는 비명소리는 멀리서 사냥하며 울부짖는 검은 엄니 무리의 상징입니다. 이 소란에 익숙한 이들은 검은엄니 무리의 목표가 되지 않으려면 어서 피할 곳을 찾아야 한다는 걸 압니다. 검은 엄니는 고양이과 포유류로 길이는 2미터가 넘고 육중한 엄니를 지녔습니다. 이 생물의 가죽은 눈처럼 하얗지만, 엄니는 얼어붙은 남쪽의 구름 낀 밤처럼 검습니다. 이 야만적인 사냥꾼들 중에 일부는 세계 곳곳에, 하지만 거의 대부분은 매우 추운 지역에만 있습니다. 인간이 이런 지역을 모험할 때, 검은 엄니 무리는 그들을 신선한 음식으로 취급할 수도 있고, 신참들을 내버려두고 더 익숙한 먹이에 집중할 수도 있습니다.
 
 본터전에서 멀리 떨어진 땅에 사는 사냥꾼들은 가끔 훈련한 검은 엄니를 데리고 다니기도 하는데, 새끼일 무렵부터 사냥에 동반자로 길러진 이들입니다. 이런 검은 엄니는 목에 목걸이처럼 감싸진 삼베 같은 물질로 된 빛나는 끈으로 야생에 사는 친척들과 구분할 수 있습니다.
 
@@ -39,6 +39,9 @@ createdAt: "2022-11-17T07:31:02.290Z"
 **마스터 개입**: 검은 엄니에게 부상을 입은 캐릭터가, 엄니에 찔린 상처에서 피가 흐르기 시작하고, 상처를 동여매기 위해 행동 하기 전까지, 매 라운드마다 (장갑을 무시하는) 2점의 피해를 입습니다.
 
 ## 챌릭 Chalik 2 (6)
+
+<img src="/chaelik.webp" alt="" class="mx-auto lg:float-left lg:m-4 w-80"/>
+
 챌릭은 30cm 정도 길이의 곤충으로 정교환 노란 껍질로 보호를 받습니다. 더 큰 먹이를 작은 무리를 이뤄서 사냥하며 자기들 중 몇몇을 희생해서 목표를 붙잡고 움직이지 못하게 하여, 나머지 챌릭이 자유롭게 공격하고 잡아먹습니다. 놀랍도록 끈적이는 분비물을 죽거나 자신을 희생했을 때 생산합니다. 따뜻한 불모지나, 동굴, 폐허, 그리고 가끔 인간 거주지의 황폐화된 곳에서도 발견됩니다. 챌릭은 강력한 접착제를 생산할 수 있기 때문에, 장인들이나 다른 사람들은 가끔 이들의 액체를 얻기 위해 채집하기도 합니다.
 
 **동기**: 고기에 굶주려 있습니다
@@ -68,11 +71,11 @@ createdAt: "2022-11-17T07:31:02.290Z"
 ## 감시자 Gazer 1 (3)
 ![](/gazer2.webp)
 
-A gazer is a levitating metallic spherical automaton, about 1.5 feet (0.5 m) in diameter. Various bits of equipment and blinking cyphers festoon a gazer’s battered alloy body. A concavity on one side of the sphere incessantly emits a beam of scarlet light. Blinding at best, the red beam can intensify in a moment, creating a ray capable of burning through nearly anything.
+감시자들은 공중 부양하는 금속 구형 기계인형으로 지름은 50cm 정도입니다. 다양한 장비 조각과 반짝이는 사이퍼들이 감시자의 낡은 합금 몸체를 장식하고 있다. 구의 한 오목한 면은 끊임없이 붉은 광선을 방출합니다. 눈이 멀면 다행이고, 이 붉은 빔은 순식간에 강해져, 거의 무엇이든 태울 수 있는 광선이 됩니다.
 
-**동기**: Defense
+**동기**: 방어
 
-**환경**: Formations of six to twelve gazers might be found defending ancient ruined installations. Sometimes lone gazers are encountered as companions of jacks or nanos who reprogrammed it to act as a servitor.
+**환경**: 감시자들은 여섯에서 열 둘 정도가 진형을 갖추어서 고대의 폐허가 된 구조물을 지키고 있는 모습이 발견됩니다. Formations of six to twelve gazers might be found defending ancient ruined installations. Sometimes lone gazers are encountered as companions of jacks or nanos who reprogrammed it to act as a servitor.
 
 **체력**: 3
 
@@ -80,9 +83,9 @@ A gazer is a levitating metallic spherical automaton, about 1.5 feet (0.5 m) in 
 
 **장갑**: 1
 
-**움직임**: Long while flying
+**움직임**: 날고 있는 동안 장거리
 
-**조정**: Perception as level 5; Speed defense as level 2 due to size.
+**조정**: 지각은 5 레벨; 크기 때문에 속력 방어는 2레벨
 
 **전투**: Groups of gazers fly in a spherical formation, which allows them to present the maximum possible perception and threat surface.
 
@@ -101,6 +104,7 @@ The intensity of a gazer’s beam is level 5 (as measured against the level of m
 **마스터 개입**: A gazer destroyed by an attack explodes, dealing 5점의 피해 to every creature in short range. Other gazers in immediate range spin away to safety.
 
 ## 얼음 치개 Ice Weaver 3 (9)
+![](/ice-weaver.webp)
 
 Delicate, lattice-like ice structures created by ice weavers are often mistaken as some kind of manifestation of the prior worlds. But these structures usually last only a few days or months before cracking, breaking, and melting away.
 

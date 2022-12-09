@@ -23,7 +23,7 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 			itemOffsets.current = Array.from(titles).slice(2).map((title) => ({
 				id: title.id,
 				text: title.textContent ?? '',
-				topOffset: title.getBoundingClientRect().top - base,
+				topOffset: title.getBoundingClientRect().top - base + 150,
 			}));
 		};
 
@@ -35,7 +35,6 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 		getItemOffsets();
 
 		window.addEventListener("scroll", onScroll)
-
 		window.addEventListener('resize', getItemOffsets);
 
 		return () => {

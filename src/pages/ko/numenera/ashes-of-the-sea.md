@@ -60,8 +60,6 @@ PC들은 고대 문명의 알 수 없는 존재에게 버려진 기지를 탐험
 
 **새로운/경험이 없는 플레이어들:** 만약 플레이어들이 누메네라가 처음이거나, 마스터가 세팅의 일부를 설명해야겠다고 느낀다면, 플레이어들이 이전 세계의 폐허에서 간단한 장면을 몇 개 만들도록 해서, 시스템이 어떻게 작동하는지 배울 수 있게 해주세요. (큰 방에서 누메네라 물건들을 찾는다든가, 부서진 누메네라 기계에서 쉰을 찾는다든가, 유적을 파괴하는 걸 막기 위해 작동된 한 쌍의 [감시자 Gazer](/ko/numenera/mini-bestiary#감시자-gazer-1-3)들과 싸운다든가.) 플레이어들이 게임의 규칙이 편안하다고 느낄 쯤이면, 이전 탐험가들이 건드리지 않은 것처럼 보이는 봉인된 방을 찾게 하고, 그 방에서 찾은 수상한 기계를 작동시키게 하거나 - 아니면 자동으로 작동하게 해서- 이 시나리오에 쓰여진 부분의 시작으로 순간이동하게 하세요. (아래의 ["도착"](#도착)을 참고하세요.)
 
-<img class="mx-auto w-full max-w-lg" src="/gazer2.webp"/>
-
 **경험이 있는/숙련된 플레이어들:** 플레이어들이 누메네라에 친숙하거나, 마스터가 플레이어들이 새로운 세계와 시스템에 뛰어들어도 잘 해낼 수 있을 거라 느낀다면, 순간이동의 방은 시나리오에 뒷 이야기 중 한 부분으로 하고, PC들이 순간이동 목적지에 도착한 시점부터 플레이를 시작해도 됩니다.
 
 ## 도착
@@ -280,6 +278,9 @@ PC들은 이 시나리오에서 다음 3가지 기계를 꼭 탐색(salvage)해�
 이 계단은 밑으로 단거리(15m 이내)에 걸쳐 계속되며 더 큰 동굴로 열려 있으며 (PC들이 남쪽 끝에 도착하면), 그 바닥은 지금 껍질눈이 층층이 쌓여 있고 무해한 천장에 사는 비행 동물들의 배설물이 흩뿌려져 있습니다. 이 동굴은 대략 원형이고 지름은 장거리(30m 이내)입니다. 천장의 불빛은 계단을 지나는 순간 끝나며, 동굴안에 지어진 청동빛-금속으로 된 일곱 건물들이 있다는 걸 알 정도의 불빛만 남습니다. 이 건물들은 모두 거의 비슷한 크기입니다. 돔 중에 하나는 문이 없고, 나머지는 모두 금속 문에 커다란 동그란 패드가 있어서, 마치 바르닥 마을에 있는 돔으로 된 집들 같습니다. 돔의 외관은 레벨8이지만, 내부의 누메네라와 벽은 레벨5입니다. 문은 열리고 나서 1분이 지나면 자동으로 닫힙니다. (문의 내부에는 외부처럼 터치패드가 있습니다)
 
 ### 날아다니는 수호자들
+
+<img class="mx-auto w-full max-w-lg" src="/gazer2.webp"/>
+
 PC들이 첫 발을 떼고 동굴로 들어가면 10마리의 [감시자 Gazer](/ko/numenera/mini-bestiary#감시자-gazer-1-3))들이 숨겨진 틈새에서 날아와 사람 키의 절반 정도 되는 원형진을 만듭니다. 가까운 PC를 향해 붉은 빔을 생성하는 수정을 회전시키고는 위협적으로 깜빡입니다. 이는 기습 공격의 전조보다는 제압 시도입니다. PC들이 동굴로 더 들어오거나, 감시자를 공격하는듯한 행동을 하면, 이 기계들은 먼저 발포하고, 3레벨 짜리 무리 둘로 칩니다. PC들이 계단을 다시 올라가면, 감시자들은 공격을 멈추고 쫓아오지 않지만, PC들이 돌아온다면, 감시자들은 시야로 알아채고 공격을 재개합니다.
 
 ### 기술 재활용하기
@@ -290,6 +291,8 @@ PC들은 아직 모르지만, 자세히 이 구조물에서 누메네라를 탐�
 > 생물-회로는 준생물 회로 기판입니다. 피부 같은 젤 안에 혈관과 신경 그물처럼 보입니다.
 
 ### 불편한 벌레와의 조우
+
+<img src="/chaelik.webp" alt="" class="mx-auto my-4 w-80"/>
 
 > 비록 일반적으로는 추운 날씨에 살지 않지만, 이 챌릭들은 이 지역에 추운 기온에서도 번성할 수 있도록 적응했습니다. (혹은 생물학적으로 조작되었습니다)
 
@@ -307,37 +310,10 @@ PC들은 아직 모르지만, 자세히 이 구조물에서 누메네라를 탐�
 > 반응형 신스는 회로기판처럼 새길 수 있는 가변적인 신스입니다.
 
 ### 2. 지열 발전
-이 돔은 다른 것보다 절반 정도 더 크고 동굴에서 가장 북서쪽 부분에 있습니다. 이 돔 주위의 공기는 눈에 띄게 다른 동굴보다 따뜻하고, 
+이 돔은 다른 것보다 절반 정도 더 크고 동굴에서 가장 북서쪽 부분에 있습니다. 이 돔 주위의 공기는 다른 동굴보다 눈에 띄게 따뜻하고, 횃불 근처에서 손을 잡는 것과 비슷한 느낌입니다. 돔이나 그 문을 만지면 열 때문에 1점의 피해를 입습니다. (이 피해는 장갑을 무시합니다) 도구를 써서 (심지어 단도 같은 거라도) 패드를 만지면 피해를 전혀 입지 않고 문을 열 수 있습니다. 돔 안의 공기는 사우나처럼 뜨겁고 문이 열려 있는 한 중앙실로 쏟아져 나옵니다. 이 열은 10분을 보낼 때마다 안에 있는 사람이 1점의 열 피해를 입을 정도로 불쾌합니다. 방의 절반 정도는 수 백 개의 평평하거나 둥근 뚜껑을 가진 수직 금속 파이프들로 채워져 있습니다. 나머지 절반 정도는 열려 있고, 푸른 홀로그램 같은 화면에 도표와 이상한 글자가 떠 있습니다. 파이프들은 안에서 액체가 움직이는 것처럼 콸콸 거리는 소리가 나기도 합니다.
 
-This dome is larger than the other by half and is located on the northwest part of the cave. The air around this dome is noticeably warmer than the rest of the cave, comparable to holding your hand near a lit torch. Touching the dome or the door inflicts 1 point of damage from heat (this damage ignores armor). Using a tool (even something like a knife) to touch the pad opens the door without inflicting any damage. The air inside the dome is hot like a sauna and pours out into the main room as long as the door is open. The heat is uncomfortable enough that a human inside this building takes 1 point of heat damage every ten minutes they spend there. The far half of the room is filled with hundreds of vertical metal pipes topped with flat or round caps. The near half of the room is open, and a blue hologram-like screen appears with diagrams and strange writing. The pipes sometimes make gurgling noises like liquid is moving around in them.
+누메네라 이해에 익숙한 PC가 10분 정도 홀로그램과 상호작용하며 시행착오를 하면 레벨 5짜리 누메네라 이해하기 판정을 할 수 있습니다. 한 번 연결이 만들어지면, PC는 또 다시 10분을 들여서 이곳에 저장된 일종의 정보에 접근할 수 있고, 이는 깊은 땅 속에 있는 힘의 원천을 통제하고 어디로 보낼지에 대한 것으로 보입니다. 이 중 한 홀로그램 도표는 대강 이 계곡의 지형도와 유사하며, 지도 위에 철탑들을 나타내는 50개의 기호들이 있습니다. 계곡의 남쪽 끝에 있는 철탑 하나는 다른 것과 매운 다른 기호를 가지고 있습니다; 이 기호가 무엇을 뜻하는지 PC들은 매우 초보적인 수준으로만 이해하지만, 마을 사람들과 장로들이 남쪽 철탑이 "노래를 멈췄다"고 이야기했었다면, 이 유일한 기호가 동작하지 않는 철탑을 나타낸다고 생각하는 건 타당한 추측입니다. 이 홀로그램 인터페이스를 이해하는 PC는 10분을 들여서 작동을 멈춘 철탑으로 동력을 재연결하기를 시도해볼 수 있습니다. 만약 레벨 5의 누메네라 이해하기 판정을 하고, 성공한다면, 기호는 다른 철탑과 같이 변합니다. (비슷한 방식으로 작동 중인 철탑을 꺼버릴 수도 있습니다.)
 
-A PC skilled in understanding numenera
-can successfully interact with the hologram
-by experimenting with it for ten minutes and
-making a level 5 understanding numenera roll.
-Once this connection is made, the PCs can
-spend another ten minutes to access some of
-the information stored here, which seems to be
-about regulating and channeling a power source
-deep underground
-One holographic diagram vaguely resembles
-a topographical map of the valley, with about 50
-symbols representing the pylons marked on the
-map. One pylon on the south end of the valley
-has a very different symbol than the others;
-the PCs’ understanding of what the symbols
-mean is very rudimentary, but given that the
-villagers and elders spoke of a southern pylon
-that “stopped singing,” it’s a reasonable bet
-to think that this unique symbol indicates the
-pylon isn’t functioning. A PC who understands
-the holographic interface can spend ten minutes
-trying to reroute power to the nonfunctional
-pylon. If they make a level 5 understanding
-numenera roll, they are successful, and the
-symbol changes to match that of the other
-pylons. (They could use a similar technique to
-turn off an active pylon.)
 If the PCs have salvaged the navigation dome
 (area 1) or the dimensional interface dome (area
 4), they might briefly see a holographic warning
