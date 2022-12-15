@@ -6,8 +6,6 @@ createdAt: "2022-11-11T20:34:17.231Z"
 publish: false
 ---
 
-## 유형
-
 Character type is the core of your character. Your type helps determine your character’s place in the world and relationship with other people in the setting. It’s the noun of the sentence “I am an adjective noun who verbs.”
 
 (In some roleplaying games, your character type might be called your character class.)
@@ -86,8 +84,8 @@ Weapon Break: Your foe’s weapon has a weak spot. In the course of the combat, 
 
 You get 6 additional points to divide among your stat Pools however you wish.
 
-#### FIRST-TIER WARRIOR
-First-tier warriors have the following abilities:
+#### 1등급 WARRIOR
+1등급 warriors have the following abilities:
 Effort: Your Effort is 1.
 Physical Nature: You have a Might Edge of 1 and a Speed Edge of 0, or you have a Might Edge of 0 and a Speed Edge of 1. Either way, you have an Intellect Edge of 0.
 Cypher Use: You can bear two cyphers at a time.
@@ -106,7 +104,7 @@ Quick Throw
 Swipe
 Trained Without Armor
 
-#### SECOND-TIER WARRIOR
+#### 2등급 WARRIOR
 Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Crushing Blow
 Hemorrhage
@@ -115,7 +113,7 @@ Skill With Attacks
 Skill With Defense
 Successive Attack
 
-#### THIRD-TIER WARRIOR
+#### 3등급 WARRIOR
 Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Deadly Aim
 Energy Resistance
@@ -130,7 +128,7 @@ Spray
 Trick Shot
 Vigilance
 
-#### FOURTH-TIER WARRIOR
+#### 4등급 WARRIOR
 Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Amazing Effort
 Capable Warrior
@@ -142,7 +140,7 @@ Pry Open
 Snipe
 Tough As Nails
 
-#### FIFTH-TIER WARRIOR
+#### 5등급 WARRIOR
 Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Adroit Cypher Use
 Arc Spray
@@ -154,7 +152,7 @@ Mastery With Defense
 Parry
 (Remember that at higher tiers, you can choose special abilities from lower tiers. This is sometimes the best way to ensure that you have exactly the character you want. This is particularly true with abilities that grant skills, which can usually be taken multiple times.)
 
-#### SIXTH-TIER WARRIOR
+#### 6등급 WARRIOR
 Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Again and Again
 Finishing Blow
@@ -167,7 +165,7 @@ Weapon and Body
 
 ### WARRIOR EXAMPLE
 
-Ray wants to create a Warrior character for a modern campaign. He decides that the character is an ex-military fellow who is fast and strong. He puts 3 of his additional points into his Might Pool and 3 into his Speed Pool; his stat Pools are now Might 13, Speed 13, and Intellect 8. As a first-tier character, his Effort is 1, his Might Edge is 1, and his Speed Edge and Intellect Edge are both 0. His character is not particularly smart or charismatic.
+Ray wants to create a Warrior character for a modern campaign. He decides that the character is an ex-military fellow who is fast and strong. He puts 3 of his additional points into his Might Pool and 3 into his Speed Pool; his stat Pools are now Might 13, Speed 13, and Intellect 8. As a 1등급 character, his Effort is 1, his Might Edge is 1, and his Speed Edge and Intellect Edge are both 0. His character is not particularly smart or charismatic.
 
 He wants to use a large combat knife (a medium weapon that inflicts 4 points of damage) and a .357 Magnum (a heavy pistol that inflicts 6 points of damage but requires the use of both hands). Ray decides not to wear armor, as it’s not really appropriate to the setting, so for his first ability, he chooses Trained Without Armor so he eases Speed defense actions. For his second ability, he chooses Combat Prowess so he can inflict extra damage with his big knife. 
 
@@ -185,7 +183,7 @@ For his character arc, Ray chooses Defeat a Foe. That foe, he decides, is none o
 
 </div>
 
-## ADEPT
+## 어뎁트(ADEPT)
 - **Fantasy/Fairy tale**: wizard, mage, sorcerer, cleric, druid, seer, diabolist, fey-touched
 - **Modern/Horror/Romance**: psychic, occultist, witch, practitioner, medium, fringe scientist
 - **Science fiction**: psion, psionicist, telepath, seeker, master, scanner, ESPer, abomination
@@ -246,8 +244,8 @@ Your type helps determine the connection you have to the setting. Roll a d20 or 
 
 
 
-#### FIRST-TIER ADEPT
-First-tier Adepts have the following abilities:
+#### 1등급 ADEPT
+1등급 Adepts have the following abilities:
 Effort: Your Effort is 1. 
 Genius: You have an Intellect Edge of 1, a Might Edge of 0, and a Speed Edge of 0. 
 Expert Cypher Use: You can bear three cyphers at a time. 
@@ -266,7 +264,7 @@ Scan
 Shatter
 Ward
 
-#### SECOND-TIER ADEPT
+#### 2등급 ADEPT
 Choose one of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Adaptation
 Cutting Light
@@ -276,7 +274,7 @@ Retrieve Memories
 Reveal
 Stasis
 
-#### THIRD-TIER ADEPT
+#### 3등급 ADEPT
 Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Adroit Cypher Use
 Countermeasures
@@ -286,7 +284,7 @@ Force Field Barrier
 Sensor
 Targeting Eye
 
-#### FOURTH-TIER ADEPT
+#### 4등급 ADEPT
 Choose one of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Death Touch
 Exile
@@ -299,7 +297,7 @@ Regeneration
 Reshape
 Wormhole
 
-#### FIFTH-TIER ADEPT
+#### 5등급 ADEPT
 Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Absorb Energy
 Concussion
@@ -311,7 +309,7 @@ Master Cypher Use
 Teleportation
 True Senses
 
-#### SIXTH-TIER ADEPT
+#### 6등급 ADEPT
 Choose one of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Control Weather
 Earthquake
@@ -323,7 +321,7 @@ Usurp Cypher
 
 ### ADEPT EXAMPLE
 
-Jen wants to create an Adept—a sorcerer for a fantasy campaign. She decides to be somewhat well rounded, so she puts 2 of her additional points into each stat Pool, giving her a Might Pool of 9, a Speed Pool of 11, and an Intellect Pool of 14. Her Adept is smart and quick. She has an Intellect Edge of 1, a Might Edge of 0, and a Speed Edge of 0. As a first-tier character, her Effort is 1. As her initial abilities, she chooses Onslaught and Ward, giving her a strong offense and defense. She also chooses Magic Training and rounds out her character with Scan, which she hopes will be useful in gaining insight and information. For this character, Onslaught, Ward, and Scan are all spells she has mastered through years of training and study.
+Jen wants to create an Adept—a sorcerer for a fantasy campaign. She decides to be somewhat well rounded, so she puts 2 of her additional points into each stat Pool, giving her a Might Pool of 9, a Speed Pool of 11, and an Intellect Pool of 14. Her Adept is smart and quick. She has an Intellect Edge of 1, a Might Edge of 0, and a Speed Edge of 0. As a 1등급 character, her Effort is 1. As her initial abilities, she chooses Onslaught and Ward, giving her a strong offense and defense. She also chooses Magic Training and rounds out her character with Scan, which she hopes will be useful in gaining insight and information. For this character, Onslaught, Ward, and Scan are all spells she has mastered through years of training and study.
 
 She can bear three cyphers. The GM gives her a potion that acts as a short-range teleporter, a small charm that restores 5 points to her Intellect Pool, and a fluid-filled flask that explodes like a fiery bomb. Jen’s sorcerer is skilled with light weapons, so she chooses a dagger. 
 
@@ -420,8 +418,8 @@ Your father is a high-ranking officer in the military with many connections.
 
 
 
-#### FIRST-TIER EXPLORER
-First-tier Explorers have the following abilities:
+#### 1등급 EXPLORER
+1등급 Explorers have the following abilities:
 Effort: Your Effort is 1.
 Physical Nature: You have a Might Edge of 1, a Speed Edge of 0, and an Intellect Edge of 0.
 Cypher Use: You can bear two cyphers at a time.
@@ -444,7 +442,7 @@ Practiced With All Weapons
 Surging Confidence
 Trained Without Armor
 
-#### SECOND-TIER EXPLORER
+#### 2등급 EXPLORER
 Choose four of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Curious
 Danger Instinct
@@ -461,7 +459,7 @@ Stand Watch
 Travel Skills
 Wreck
 
-#### THIRD-TIER EXPLORER
+#### 3등급 EXPLORER
 Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Controlled Fall
 Experienced in Armor
@@ -477,7 +475,7 @@ Think Your Way Out
 Trapfinder
 Wrest From Chance
 
-#### FOURTH-TIER EXPLORER
+#### 4등급 EXPLORER
 Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Capable Warrior
 Expert Skill
@@ -487,7 +485,7 @@ Runner
 Subtle Steps
 Tough As Nails
 
-#### FIFTH-TIER EXPLORER
+#### 5등급 EXPLORER
 Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Adroit Cypher Use
 Free to Move
@@ -500,7 +498,7 @@ Physically Gifted
 Take Command
 Vigilant
 
-#### SIXTH-TIER EXPLORER
+#### 6등급 EXPLORER
 Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Again and Again
 Inspire Coordinated Actions
@@ -514,7 +512,7 @@ Wild Vitality
 <div class="shadow-xl">
 
 ### EXPLORER EXAMPLE
-Sam decides to create an Explorer character for a science fiction campaign. This character will be a hardy soul who explores alien worlds. They put 3 additional points into their Might Pool, 2 into their Speed Pool, and 1 into their Intellect Pool; their stat Pools are now Might 13, Speed 11, and Intellect 10. As a first-tier character, their Effort is 1, their Might Edge is 1, and their Speed Edge and Intellect Edge are 0. Their character is fairly well-rounded so far.
+Sam decides to create an Explorer character for a science fiction campaign. This character will be a hardy soul who explores alien worlds. They put 3 additional points into their Might Pool, 2 into their Speed Pool, and 1 into their Intellect Pool; their stat Pools are now Might 13, Speed 11, and Intellect 10. As a 1등급 character, their Effort is 1, their Might Edge is 1, and their Speed Edge and Intellect Edge are 0. Their character is fairly well-rounded so far.
 
 Sam immediately leaps in and starts choosing abilities. They pick Danger Sense and Surging Confidence, thinking those abilities will be generally useful. They also choose Practiced in Armor, reasoning that the character wears high-tech medium armor when exploring. Last, they choose Knowledge Skills and select geology and biology to help during interplanetary explorations. 
 
@@ -611,8 +609,8 @@ Someone out there tries to pose as you, using your identity, often for nefarious
 
 
 
-#### FIRST-TIER SPEAKER
-First-tier speakers have the following abilities:
+#### 1등급 SPEAKER
+1등급 speakers have the following abilities:
 Effort: Your Effort is 1.
 Genius: You have an Intellect Edge of 1, a Might Edge of 0, and a Speed Edge of 0.
 Cypher Use: You can bear two cyphers at a time.
@@ -633,7 +631,7 @@ Spin Identity
 Terrifying Presence
 Understanding
 
-#### SECOND-TIER SPEAKER
+#### 2등급 SPEAKER
 Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Basic Follower
 Calm Stranger
@@ -647,7 +645,7 @@ Skill With Defense
 Speedy Recovery
 Unexpected Betrayal
 
-#### THIRD-TIER SPEAKER
+#### 3등급 SPEAKER
 Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Accelerate
 Blend In
@@ -662,7 +660,7 @@ Perfect Stranger
 Quick Wits
 Telling
 
-#### FOURTH-TIER SPEAKER
+#### 4등급 SPEAKER
 Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Anticipate Attack
 Confounding Banter
@@ -674,7 +672,7 @@ Spur Effort
 Strategize
 Suggestion
 
-#### FIFTH-TIER SPEAKER
+#### 5등급 SPEAKER
 Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Adroit Cypher Use
 Discipline of Watchfulness
@@ -686,7 +684,7 @@ Regeneration
 Skill With Attacks
 Stimulate
 
-#### SIXTH-TIER SPEAKER
+#### 6등급 SPEAKER
 Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
 Assume Control
 Battle Management
@@ -698,8 +696,8 @@ True Senses
 Word of Command
 
 SPEAKER EXAMPLE
-Mary wants to create a Speaker for a Lovecraftian horror campaign. She puts 3 of her additional stat points into her Intellect Pool and 3 into her Speed Pool; her stat Pools are now Might 8, Speed 12, and Intellect 14. As a first-tier character, her Effort is 1, her Might Edge and Speed Edge are 0, and her Intellect Edge is 1. She’s smart and charismatic but not particularly tough.
-Mary chooses Fast Talk and Spin Identity to help get into places and learn things she wants to know. She’s a bit of a con artist. She’s good to her friends, however, and chooses Encouragement as well. Mary rounds out her first-tier abilities with Interaction Skills (deceiving and persuasion).
+Mary wants to create a Speaker for a Lovecraftian horror campaign. She puts 3 of her additional stat points into her Intellect Pool and 3 into her Speed Pool; her stat Pools are now Might 8, Speed 12, and Intellect 14. As a 1등급 character, her Effort is 1, her Might Edge and Speed Edge are 0, and her Intellect Edge is 1. She’s smart and charismatic but not particularly tough.
+Mary chooses Fast Talk and Spin Identity to help get into places and learn things she wants to know. She’s a bit of a con artist. She’s good to her friends, however, and chooses Encouragement as well. Mary rounds out her 1등급 abilities with Interaction Skills (deceiving and persuasion).
 A Speaker normally starts with two cyphers, but the GM rules that characters in this campaign start with only one—something creepy relating to their background. Mary’s cypher is an odd pocket watch given to her by her grandfather. She doesn’t know how or why, but when activated, the watch allows her to take twice as many actions for three rounds.
 Mary’s character carries a small knife hidden in her bag in case of trouble. As a light weapon, it inflicts 2 points of damage, but attacks with it are eased.
 Mary chooses Resilient for her descriptor and decides that she can probably learn the truth behind some of the strange things that she’s heard about without feeling too much trauma if it’s horrible. Resilient increases her Might Pool to 10 and her Intellect Pool to 16. She’s trained in Might and Intellect defense actions and gains an extra recovery roll each day. At first, Mary is sad that her descriptor gives her an inability in knowledge and puzzle tasks, but then she realizes that the flaw fits her character well—she’s better at getting people to tell her what she needs to know than at figuring out the information herself.
@@ -715,237 +713,10 @@ The following aspects of the four character types can be modified at character c
 Stat Pools: Each character type has a starting stat Pool value. A player can exchange points between their Pools on a one-for-one basis. For example, they can trade 2 points of Might for 2 points of Speed. However, no starting stat Pool should be higher than 20.
 Edge: A player can start with an Edge of 1 in whichever stat they wish.
 Cypher Use: If a character gives up the ability to bear one cypher, they gain an additional skill of their choice.
-Weapons: Some types have static first-tier abilities that let them use light, medium, and/or heavy weapons without a penalty. Warriors can use all weapons, Explorers can use light and medium weapons, and Adepts and Speakers can use light weapons. Any one of these weapon abilities can be sacrificed to gain training in a different skill of the player’s choice.
+Weapons: Some types have static 1등급 abilities that let them use light, medium, and/or heavy weapons without a penalty. Warriors can use all weapons, Explorers can use light and medium weapons, and Adepts and Speakers can use light weapons. Any one of these weapon abilities can be sacrificed to gain training in a different skill of the player’s choice.
 
 ### DRAWBACKS AND PENALTIES
 In addition to other customization options, a player can choose to take drawbacks or penalties to gain further advantages.
 Weakness: A weakness is, essentially, the opposite of Edge. If you have a weakness of 1 in Speed, all Speed actions that require you to spend points cost 1 additional point from your Pool. At any time, a player can give their character a weakness in one stat and, in exchange, gain +1 to their Edge in one of the other two stats. So a PC can take a weakness of 1 in Speed to gain +1 to their Might Edge.
 Normally, you can have a weakness only in a stat in which you have an Edge of 0. Further, you can’t have more than one weakness, and you can’t have a weakness greater than 1 unless the additional weakness comes from another source (such as a disease or disability arising from actions or conditions in the game).
 Inabilities: Inabilities are like negative skills. They make one type of task harder by hindering it. If a character chooses to take an inability, they gain a skill of their choice. Normally, a character can have only one inability unless the additional inability comes from another source (such as a descriptor or a disease or disability arising from actions or conditions in the game).
-
-## Flavor
-
-Flavors are groups of special abilities the GM and players can use to alter a character type to make it more to their liking or more appropriate to the genre or setting. For example, if a player wants to create a magic-using thief character, she could play an Adept with stealth flavoring. In a science fiction setting, a Warrior might also have knowledge of machinery, so the character could be flavored with technology.
-At a given tier, abilities from a flavor are traded one for one with standard abilities from a type. So to add the Danger Sense stealth flavor ability to a Warrior, something else—perhaps Bash—must be sacrificed. Now that character can choose Danger Sense as they would any other first-tier warrior ability, but they can never choose Bash.
-The GM should always be involved in flavoring a type. For example, they might know that for their science fiction game, they want a type called a “Glam,” which is a Speaker flavored with certain technology abilities—specifically those that make the character a flamboyant starship pilot. Thus, they exchange the first-tier abilities Spin Identity and Inspire Aggression for the technology flavor abilities Datajack and Tech Skills so the character can plug into the ship directly and can take piloting and computers as skills.
-In the end, flavor is mostly a tool for the GM to easily create campaign-specific types by making a few slight alterations to the four base types. Although players may wish to use flavors to get the characters they want, remember that they can also shape their PCs with descriptors and foci very nicely.
-The flavors available are stealth, technology, magic, combat, and skills and knowledge. 
-The full description for each listed ability can be found in the Abilities chapter, which also contains descriptions for type and focus abilities in a single vast catalog.
-
-
-### STEALTH FLAVOR
-Characters with the stealth flavor are good at sneaking around, infiltrating places they don’t belong, and deceiving others. They use these abilities in a variety of ways, including combat. An Explorer with stealth flavor might be a thief, while a Warrior with stealth flavor might be an assassin. An Explorer with stealth flavor in a superhero setting might be a crimefighter who stalks the streets at night.
-
-#### FIRST-TIER STEALTH ABILITIES
-Danger Sense
-Goad
-Legerdemain
-Opportunist
-Stealth Skills
-
-#### SECOND-TIER STEALTH ABILITIES
-Contortionist
-Find an Opening
-Get Away
-Sense Ambush
-Surprise Attack
-
-#### THIRD-TIER STEALTH ABILITIES
-Evanesce
-From the Shadows
-Gambler
-Inner Defense
-Misdirect
-Run and Fight
-Seize the Moment
-
-#### FOURTH-TIER STEALTH ABILITIES
-Ambusher
-Debilitating Strike
-Outwit
-Preternatural Senses
-Tumbling Moves
-
-#### FIFTH-TIER STEALTH ABILITIES
-Assassin Strike
-Mask
-Return to Sender
-Uncanny Luck
-
-#### SIXTH-TIER STEALTH ABILITIES
-Exploit Advantage
-Spring Away
-Thief’s Luck
-Twist of Fate
-
-
-### TECHNOLOGY FLAVOR
-Characters with a flavor of technology typically are from science fiction or at least modern-day
-settings (although anything is possible). They excel at using, dealing with, and building machines. An Explorer with technology flavor might be a starship pilot, and a Speaker flavored with technology could be a techno-priest.
-Some of the less computer-oriented abilities might be appropriate for a steampunk character, while a modern-day character could use some of the abilities that don’t involve starships or ultratech.
-
-#### FIRST-TIER TECHNOLOGY ABILITIES
-Datajack
-Hacker
-Machine Interface
-Scramble Machine
-Tech Skills
-Tinker
-
-#### SECOND-TIER TECHNOLOGY ABILITIES
-Distant Interface
-Machine Efficiency
-Overload Machine
-Serv-0
-Serv-0 Defender
-Serv-0 Repair
-Tool Mastery
-
-#### THIRD-TIER TECHNOLOGY ABILITIES
-Mechanical Telepathy
-Serv-0 Scanner
-Ship Footing
-Shipspeak
-Spray
-
-#### FOURTH-TIER TECHNOLOGY ABILITIES
-Machine Bond
-Robot Fighter
-Serv-0 Aim
-Serv-0 Brawler
-Serv-0 Spy
-
-#### FIFTH-TIER TECHNOLOGY ABILITIES
-Control Machine
-Jury-Rig
-Machine Companion 
-
-#### SIXTH-TIER TECHNOLOGY ABILITIES
-Information Gathering
-Master Machine
-
-
-### MAGIC FLAVOR
-You know a little about magic. You might not be a wizard, but you know the basics—how it works, and how to accomplish a few wondrous things. Of course, in your setting, “magic” might actually mean psychic powers, mutant abilities, weird alien tech, or anything else that produces interesting and useful effects. 
-An Explorer flavored with magic might be a wizard-hunter, and a Speaker with magical flavor might be a sorcerer-bard. Although an Adept flavored with magic is still an Adept, you might find that swapping some of the type’s basic abilities with those given here tailors the character in desirable ways.
-
-#### FIRST-TIER MAGIC ABILITIES
-Blessing of the Gods
-Closed Mind
-Entangling Force
-Hedge Magic
-Magic Training
-Mental Link
-Premonition
-
-#### SECOND-TIER MAGIC ABILITIES
-Concussive Blast
-Fetch
-Force Field 
-Lock
-Repair Flesh
-
-#### THIRD-TIER MAGIC ABILITIES
-Distance Viewing
-Fire Bloom
-Fling
-Force at Distance
-Summon Giant Spider
-
-#### FOURTH-TIER MAGIC ABILITIES
-Elemental Protection
-Ignition
-Pry Open
-
-#### FIFTH-TIER MAGIC ABILITIES
-Create
-Divine Intervention
-Dragon’s Maw
-Fast Travel
-True Senses
-
-#### SIXTH-TIER MAGIC ABILITIES
-Relocate
-Summon Demon
-Traverse the Worlds
-Word of Death
-
-
-### COMBAT FLAVOR
-Combat flavor makes a character more martial. A Speaker with combat flavor in a fantasy setting would be a battle bard. An Explorer with combat flavor in a historical game might be a pirate. An Adept flavored with combat in a science fiction setting could be a veteran of a thousand psychic wars.
-
-#### FIRST-TIER COMBAT ABILITIES
-Danger Sense
-Practiced in Armor
-Practiced With Medium Weapons
-
-#### SECOND-TIER COMBAT ABILITIES
-Bloodlust
-Combat Prowess
-Trained Without Armor
-
-#### THIRD-TIER COMBAT ABILITIES
-Practiced With All Weapons
-Skill With Attacks
-Skill With Defense
-Successive Attack
-
-#### FOURTH-TIER COMBAT ABILITIES
-Capable Warrior
-Deadly Aim
-Fury
-Misdirect
-Spray
-
-#### FIFTH-TIER COMBAT ABILITIES
-Experienced Defender
-Hard Target
-Parry
-
-#### SIXTH-TIER COMBAT ABILITIES
-Greater Skill With Attacks
-Mastery in Armor
-Mastery With Defense
-
-
-
-
-### SKILLS AND KNOWLEDGE FLAVOR
-This flavor is for characters in roles that call for more knowledge and more real-world application of talent. It’s less flashy and dramatic than supernatural powers or the ability to hack apart multiple foes, but sometimes expertise or
-know-how is the real solution to a problem.
-A Warrior flavored with skills and knowledge might be a military engineer. An Explorer flavored with skills and knowledge could be a field scientist. A Speaker with this flavor might be a teacher.
-
-
-#### FIRST-TIER SKILLS AND KNOWLEDGE ABILITIES 
-Interaction Skills
-Investigative Skills 
-Knowledge Skills
-Physical Skills
-Travel Skills
-
-
-#### SECOND-TIER SKILLS AND KNOWLEDGE ABILITIES 
-Extra Skill
-Tool Mastery
-Understanding
-
-
-#### THIRD-TIER SKILLS ANDKNOWLEDGE ABILITIES 
-Flex Skill
-Improvise
-
-
-#### FOURTH-TIER SKILLS AND KNOWLEDGE ABILITIES 
-Multiple Skills
-Quick Wits
-Task Specialization
-
-
-#### FIFTH-TIER SKILLS ANd KNOWLEDGE ABILITIES
-Practiced With Medium Weapons
-Read the Signs
-
-
-#### SIXTH-TIER SKILLS AND KNOWLEDGE ABILITIES
-Skill With Attacks
-Skill With Defense

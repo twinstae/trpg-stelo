@@ -6,7 +6,7 @@ createdAt: "2022-11-11T20:34:17.231Z"
 publish: false
 ---
 
-이 섹션에서는 사이퍼 시스템 게임에서 플레이할 캐릭터를 어떻게 만들지 설명하겠습니다. 캐릭터를 조형하기 위해 일련의 결정을 내려야 하기 때문에, 여러분이 플레이하고 싶은 캐릭터가 어떤 종류인지 더 잘 이해할 수록, 캐릭터 만들기는 더 쉬워질 겁니다. 이 과정에서 세 가지 게임의 가 어떤 가치를 가지는지 이해하고 여러분의 캐릭터의 특성치(statistics)를 결정하는 세 가지 면모를 선택해야 합니다.
+이 장에서는 사이퍼 시스템 게임에서 플레이할 캐릭터를 어떻게 만드는지 설명하겠습니다. 캐릭터를 조형하기 위해 일련의 결정을 내려야 하기 때문에, 여러분이 플레이하고 싶은 캐릭터가 어떤 종류인지 더 잘 이해할 수록, 캐릭터 만들기는 더 쉬워질 겁니다. 이 과정에서 세 가지 게임의 가 어떤 가치를 가지는지 이해하고 여러분의 캐릭터의 특성치(statistics)를 결정하는 세 가지 면모를 선택해야 합니다.
 
 ## 캐릭터 특성치
 모든 PC는 세 가지 특성으로 정의하며, 이를 보통 *특성치*(“statistics”) 혹은 줄여서 *스탯*(stat)이라고 부릅니다. 특성치는 *힘*(Might), *속력*(Speed), *지성*(Intellect) 이 있습니다. 이 셋은 넓은 범주라서 다양하지만 연관된 캐릭터의 여러 면모들을 포괄합니다.
@@ -36,13 +36,13 @@ publish: false
 ### 역량
 역량은 특성치를 측정하는 가장 기본적인 단위입니다. 두 생물의 역량을 비교한다면 그 특성치에서 어떤 생물이 더 우위에 있는지 전반적으로 감을 잡을 수 있을 겁니다. 예를 들어 한 캐릭터의 힘 역량이 16이라면 힘 역량이 12인 캐릭터보다 (전반적으로는) 더 강합니다. 대부분의 캐릭터는 각 특성치마다 평균적으로 9에서 12 사이의 역량을 가지고 시작합니다.
 
-여러분의 캐릭터가 다치거나, 아프거나, 공격을 받거나 하면, 일시적으로 특성치의 역량 중 하나에서 점수를 잃습니다. 예를 들어, 검으로 물리적 피해를 입었다면 힘 역량을 떨어트리고, 캐릭터를 위축시키는 독은 속력 역량을 떨어트리고, 사이오닉 블래스트는 지성 역량을 떨어트립니다. 또한 특성치 역량 중에 하나에서 점수를 써서 일의 난이도를 낮출 수도 있습니다. (아래에 있는 분발을 보십시오) 특성치 역량에서 잃은 점수를 회복하려면 쉴 수 있고, 몇몇 특수 능력이나 사이퍼는 잃어버린 점수를 빠르게 회복하게 해주기도 합니다.
+여러분의 캐릭터가 다치거나, 아프거나, 공격을 받거나 하면, 일시적으로 특성치의 역량 중 하나에서 점수를 잃습니다. 예를 들어, 검으로 물리적 피해를 입었다면 힘 역량을 떨어트리고, 캐릭터를 위축시키는 독은 속력 역량을 떨어트리고, [정신 쇄도](/ko/cypher-open/character-abilities#쇄도onslaught-지성-1점)는 지성 역량을 떨어트립니다. 또한 특성치 역량 중에 하나에서 점수를 써서 일의 난이도를 낮출 수도 있습니다. (아래에 있는 분발을 보십시오) 특성치 역량에서 잃은 점수를 회복하려면 쉴 수 있고, 몇몇 특수 능력이나 사이퍼는 잃어버린 점수를 빠르게 회복하게 해주기도 합니다.
 
 ### 재능
 
 비록 역량이 특성치의 기본 단위이긴 하지만, 재능 역시 중요합니다. 무언가 특성치 역량에서 점수를 소비하길 요구할 때, 그 특성치의 재능은 비용을 낮춰줍니다. 이는 판정에 분발을 할 때 드는 비용도 낮춥니다.
 
-예를 들어 정신 블래스트 능력이 있는데, 이를 발동시키려면 지성 역량에서 1점을 소비해야 한다고 합시다. 비용에서 지성 역량을 빼고, 그 결과가 정신 블래스트를 사용하는데 써야 하는 점수가 됩니다. 만약에 재능이 비용을 0으로 낮춘다면, 그 능력을 공짜로 쓸 수 있습니다.
+예를 들어 정신 쇄도 능력이 있는데, 이를 발동시키려면 지성 역량에서 1점을 소비해야 한다고 합시다. 비용에서 지성 역량을 빼고, 그 결과가 정신 쇄도를 사용하는데 써야 하는 점수가 됩니다. 만약에 재능이 비용을 0으로 낮춘다면, 그 능력을 공짜로 쓸 수 있습니다.
 
 재능은 특성치마다 다를 수 있습니다. 예를 들어 힘 재능을 1, 속력 재능도 1이고, 지성 재능은 0일 수 있습니다. 적어도 하나의 특성치에는 재능이 최소 1점은 항상 가지고 있을 겁니다. 특성치의 재능이 있다면 그 특성치 역량에서 점수를 쓰는 비용을 낮출 수 있지만, 다른 역량에서는 안 됩니다. 힘 재능은 힘 역량에서 점수를 쓰는 비용은 낮춰주지만, 속력이나 지성 역량에는 영향이 없습니다. 한 특성치의 재능이 3이 되면 1단계 분발을 공짜로 쓸 수 있습니다.
 
@@ -70,21 +70,21 @@ publish: false
 근접 공격에 분발을 할 때, 힘 역량이나 속력 역량 중에 하나를 골라서 점수를 소모할 수 있습니다. 원거리 공격을 할 때에는 속력 역량에서만 점수를 소모할 겁니다. 이는 근거리 공격은 거친 힘을 쓸 때도 있지만 때로는 정밀하게 할 때도 있고, 원거리 공격은 항상 주의 깊게 조준하는 것임을 반영합니다.
 
 ### 분발과 피해
-분발을 해서 공격의 난이도를 낮추는 대신, 분발을 해서 공격으로 가하는 피해의 양을 증가시킬 수도 있습니다. 이렇게 한 단계 분발을 할 때마다, 3점의 추가 피해를 줍니다. 이는 피해를 가하는 공격이라면 칼이든, 쇠뇌든, 정신 블래스트든, 다른 것이든 모두 통합니다.
+분발을 해서 공격의 난이도를 낮추는 대신, 분발을 해서 공격으로 가하는 피해의 양을 증가시킬 수도 있습니다. 이렇게 한 단계 분발을 할 때마다, 3점의 추가 피해를 줍니다. 이는 피해를 가하는 공격이라면 칼이든, 쇠뇌든, 정신 쇄도이든, 다른 것이든 모두 통합니다.
 
-Adept의 Concussion 능력처럼, 범위 공격의 피해를 증가시키기 위해 분발을 할 때에는 3점이 아니라 2점의 추가 피해를 줍니다. 하지만 추가 피해는 그 영역의 모든 대상에게 적용됩니다. 더 나아가, 하나 혹은 더 많은 적이 공격에 저항했더라도, 여전히 1점의 피해를 입습니다.
+[어뎁트](/ko/cypher-open/character-types#어뎁트adept)의 [진탕(concussion)](/ko/cypher-open/character-abilities#진탕concussion-지성-7-점) 능력처럼, 범위 공격의 피해를 증가시키기 위해 분발을 할 때에는 3점이 아니라 2점의 추가 피해를 줍니다. 하지만 추가 피해는 그 영역의 모든 대상에게 적용됩니다. 더 나아가, 하나 혹은 더 많은 적이 공격에 저항했더라도, 여전히 1점의 피해를 입습니다.
 
 ### 분발과 재능을 함께 쓰기
-If your Effort is 2 or higher, you can apply Effort to multiple aspects of a single action. For example, if you make an attack, you can apply Effort to your attack roll and apply Effort to increase the damage.
+만약 분발이 2 이상이면, 한 행동에 여러 방식으로 분발을 할 수 있습니다. 예를 들어, 공격을 한다면, 공격 판정에 분발을 하고 피해를 높이는데 분발을 할 수 있습니다.
 
-The total amount of Effort you apply can’t be higher than your Effort score. For example, if your Effort is 2, you can apply up to two levels of Effort. You could apply one level to an attack roll and one level to its damage, two levels to the attack and no levels to the damage, or no levels to the attack and two levels to the damage.
+분발의 총량은 캐릭터의 분발 점수보다 높을 수 없습니다. 예를 들어 분발이 2점이라면, 최대 두 단계까지 분발을 할 수 있습니다. 한 단계 공격에 분발을 하고 피해에도 한 단계 분발을 할 수도 있고, 공격에만 두 단계 분발을 하고 피해에는 하지 않을 수도 있고, 공격에는 하지 않고 피해에만 두 단계 분발을 할 수도 있습니다.
 
-You can use Edge for a particular stat only once per action. For example, if you apply Effort to a Might attack roll and to your damage, you can use your Might Edge to reduce the cost of one of those uses of Effort, not both. If you spend 1 Intellect point to activate your mind blast and one level of Effort to ease the attack roll, you can use your Intellect Edge to reduce the cost of one of those things, not both.
+행동마다 특정 특성치의 재능은 한 번만 쓸 수 있습니다. 예를 들어 힘 공격에 분발을 하고 피해에도 분발을 하면, 힘 재능은 두 분발 중에 하나의 비용만 낮출 수 있고, 둘 다는 안 됩니다. 만약 지성 1점을 써서 정신 쇄도를 발동 시키고, 공격 판정에 분발을 한 단계 해서 난이도를 낮추면, 지성 재능은 둘 중 하나의 비용만 낮출 수 있고, 둘 다는 안 됩니다.
 
 ## 특성치 예시
-A beginning character is fighting a giant rat. The PC stabs their spear at the rat, which is a level 2 creature and thus has a target number of 6. The character stands atop a boulder and strikes downward at the beast, and the GM rules that this helpful tactic is an asset that eases the attack by one step (to difficulty 1). That lowers the target number to 3. Attacking with a spear is a Might action; the character has a Might Pool of 11 and a Might Edge of 0. Before making the roll, they decide to apply a level of Effort to ease the attack. That costs 3 points from their Might Pool, reducing the Pool to 8. But the points are well spent. Applying the Effort lowers the difficulty from 1 to 0, so no roll is needed—the attack automatically succeeds.
+시작하는 캐릭터가 거대 쥐랑 싸우고 있습니다. PC는 쥐에게 창을 찌르는데, 쥐는 2레벨 생물이라 목표치는 6입니다. 캐릭터는 높은 곳에 서서 아래로 생물을 찌르고 있기 때문에, 마스터는 이는 도움이 되는 전술이라 보탬으로 치고 공격의 난이도를 한 단계 낮춥니다. (난이도 1이 됩니다) 목표치는 3으로 낮아집니다. 창으로 공격하는 건 힘 행동입니다. 캐릭터는 힘 역량이 11이고 힘 재능은 0입니다. 판정을 하기 전에 한 단계 분발을 해서 공격의 난이도를 낮추기로 합니다. 이는 힘 역량에서 3점이 들고, 역량은 8으로 떨어집니다. 하지만 점수를 잘 썼습니다. 분발이 난이도를 1에서 0으로 낮추고, 따라서 판정은 필요 없습니다-공격은 자동으로 성공합니다.
 
-Another character is attempting to convince a guard to let them into a private office to speak to an influential noble. The GM rules that this is an Intellect action. The character is third tier and has an Effort of 3, an Intellect Pool of 13, and an Intellect Edge of 1. Before making the roll, they must decide whether to apply Effort. They can choose to apply one, two, or three levels of Effort, or apply none at all. This action is important to them, so they decide to apply two levels of Effort, easing the task by two steps. Thanks to their Intellect Edge, applying the Effort costs only 4 points from their Intellect Pool (3 points for the first level of Effort plus 2 points for the second level minus 1 point for their Edge). Spending those points reduces their Intellect Pool to 9. The GM decides that convincing the guard is a difficulty 3 (demanding) task with a target number of 9; applying two levels of Effort reduces the difficulty to 1 (simple) and the target number to 3. The player rolls a d20 and gets an 8. Because this result is at least equal to the target number of the task, they succeed. However, if they had not applied some Effort, they would have failed because their roll (8) would have been less than the task’s original target number (9).
+다른 캐릭터는 영향력 있는 귀족과 이야기하기 위해 경비를 설득해서 개인 사무실로 들어가게 해달라고 합니다. 마스터는 이게 지성 행동이라 판단합니다. 캐릭터는 3등급이고 분발이 3이며, 지성 역량은 13, 그리고 지성 재능은 1입니다. 판정을 하기 전에, 분발을 할지 말지 정해야 합니다. 분발을 한 단계, 두 단계, 세 단계 하거나, 분발하지 않는 것 중에 골라야 합니다. 이 행동은 중요하기 때문에, 분발을 두 단계해서, 일의 난이도를 두 단계 낮추기로 합니다. 지성 재능 덕분에 분발에는 지성 역량에서 4점만 듭니다. (첫 분발에 3점, 두 번째 분발에 2점이고 여기서 재능으로 1점을 뺍니다) 점수를 소모해서 지성 역량은 9로 줄어듭니다. 마스터는 경비를 설득하는 게 난이도 3(까다로움)짜리 일이고 목표치는 9라고 정합니다. 분발을 두 단계 했으니 난이도는 1(간단)으로 떨어지며 목표치는 3이 됩니다. 플레이어는 20을 굴리고 8이 나옵니다. 이 결과는 목표치 이상이기 때문에, 성공합니다. 하지만 분발을 하지 않았다면 굴림(8)이 원래 목표치(9)보다 낮기 때문에 실패했을 겁니다.
 
 
 ## 캐릭터 등급(Tier)

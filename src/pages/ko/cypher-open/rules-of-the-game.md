@@ -5,7 +5,10 @@ layout: ../../../layouts/MainLayout.astro
 createdAt: "2022-11-12T05:31:33.648Z"
 publish: false
 ---
-players and the GM should work together to change it.
+
+
+
+Cypher System games are played in the joint imagination of all the players, including the GM. The GM sets the scene, the players state what their characters attempt to do, and the GM determines what happens next. The rules and the dice help make the game run smoothly, but it’s the people, not the rules or the dice, that direct the action and determine the story—and the fun. If a rule gets in the way or detracts from the game, the players and the GM should work together to change it.
 
 This is how you play the Cypher System:
 1. The player tells the GM what they want to do. This is a character action.
@@ -237,7 +240,7 @@ Interdimensional: Anywhere.
 Generally, keep time the same way that you normally would, using minutes, hours, days, and weeks. Thus, if the characters walk overland for 15 miles (24 km), about eight hours pass, even though the journey can be described in only a few seconds at the game table. Precision timekeeping is rarely important. Most of the time, saying things like “That takes about an hour” works fine.
 This is true even when a special ability has a specific duration. In an encounter, a duration of “one minute” is mostly the same as saying “the rest of the encounter.” You don’t have to track each round that ticks by if you don’t want to. Likewise, an ability that lasts for ten minutes can safely be considered the length of an in-depth conversation, the time it takes to quickly explore a small area, or the time it takes to rest after a strenuous activity.
 
-### TIMEKEEPING
+#### TIMEKEEPING
 | Action                                                          | Time Usually Required                         |
 | --------------------------------------------------------------- | --------------------------------------------- |
 | Walking a mile over easy terrain                                | About fifteen minutes                         |
@@ -873,27 +876,26 @@ Example 2: During a fight, a PC swings their axe and damages a foe with a slice 
 (For much more on GM intrusions, see the Running the Cypher System chapter.)
 
 
-### CHARACTER ARCS
-Character arcs are the means by which players can invest themselves more in great stories and character depth and development.
+### 캐릭터 아크
+캐릭터 아크는 플레이어가 더 멋진 이야기나 캐릭터의 깊이나 성장을 위해 투자할 수 있게 해주는 수단입니다.
 
-Just like in a book or a television show, characters progress through their own personal story and change over time. A PC with a character arc decides for themselves what they do and why. Character arcs are like stated goals for a character, and by progressing toward that goal, the character advances. The key word there is progressing. A PC doesn’t have to succeed at achieving the goal to earn advancement—it’s not an all-or-nothing prospect. Each arc is keyed to a single character, but just like in a book or show, characters can take part in the larger story arc that the whole group participates in, while also progressing in their own personal arc.
+책이나 텔레비전 쇼에서처럼, 캐릭터들은 각자의 개인적인 이야기를 통해 전진하고 시간이 지나며 변합니다. 캐릭터 아크를 가진 PC는 자기 자신을 위해 무엇을 왜 할지 결정합니다. 캐릭터 아크는 캐릭터가 선언한 목표와 비슷하며, 목표를 향해 전진함으로서, 캐릭터도 발전합니다. 여기서 열쇠가 되는 말은 전진입니다. PC는 발전하기 위해서 목표를 이루는데 성공할 필요가 없습니다-이는 전부 아니면 전무식의 관점이 아닙니다. 각 아크는 하나의 캐릭터에게 맞춰져 있지만, 책이나 쇼에서 그렇듯이, 캐릭터들은 일행 전체가 참가하는 더 큰 이야기 아크에서 한 부분을 맡을 수도 있고, 도중에 각자의 개인적 아크에서도 전진합니다.
 
-Character arcs have different steps that mark the character’s progress through the arc. Each arc eventually reaches a climax, and then finishes with a step that is a final resolution. Each step reached earns the character 2 XP. Character arcs are the most straightforward way that a character earns XP. (Typically, PCs will earn about half their total experience points from arcs or other GM awards.)
+캐릭터 아크들마다 캐릭터들이 아크를 따라가는 전진하는 지점들을 표시하는 서로 다른 단계들이 있습니다. 아크들은 결국 절정에 도달하고, 마지막 결말이라는 단계로 끝나게 됩니다. 각 단계에 도달할 때마다 캐릭터는 경험치 2점을 얻습니다. 캐릭터 아크는 캐릭터들이 경험치를 벌 수 있는 가장 직관적인 방법입니다. (일반적으로 PC들은 경험치의 절반을 아크나 다른 마스터의 보상으로 얻습니다.)
 
-At character creation, a player can choose one character arc for their PC at no cost. Players have the option to not choose one, but it’s probably a good idea to do so. First and foremost, it is a character-defining factor. If they begin the campaign with a desire to find the woman who killed their brother, that says a lot about the character: they had a brother, he was likely close to them, he had been in at least one dangerous situation, and the character is probably motivated by anger and hate, at least somewhat. Even after the character finishes this first arc, they’ll undoubtedly have (at least one) more because they can gain new arcs as the campaign progresses. 
+캐릭터를 만들기에서, 플레이어는 하나의 캐릭터 아크를 어떤 비용 없이도 고를 수 있습니다. 물론 고르지 않는 선택지도 있겠지만, 고르는 편이 좋을 겁니다. 무엇보다도, 이는 캐릭터를 정의해주는 요인입니다. 만약 형제를 죽인 여자를 찾으려는 열망으로 캠페인을 시작한다면, 이는 그 캐릭터에 대해 많은 걸 말해줄 겁니다: 형제가 있고, 가까운 사이였을테고, 적어도 한 번은 위험한 상황이 있었고, 그 캐릭터는 분노나 혐오, 적어도 비슷한 무언가에 따라 움직이고 있을 겁니다. 심지어 캐릭터가 이 첫 아크를 끝낸 후에도, 캠페인이 전진하면서 의심의 여지 없이 (적어도 하나의) 새로운 아크를 얻을 수 있을 겁니다.
 
-Once play begins, players can take on a new arc whenever they wish, as fits the character’s ongoing story. Taking a new arc has a cost of 1 XP. While there’s no hard limit on how many arcs a character can have at one time, realistically most PCs couldn’t reasonably have more than three or four.
+한 번 플레이가 시작하면, 플레이어들은 원한다면 언제나 새로운 아크를 얻을 수 있고, 이는 캐릭터의 진행 중인 이야기에 맞아야 합니다. 새로운 아크를 얻으려면 경험치 1점의 비용이 듭니다. 한 번에 한 캐릭터가 몇 개의 아크를 가질 수 있는지 강한 제약은 없지만, 현실적으로 대부분의 PC는 이유 없이 셋이나 넷 이상을 가지진 못합니다.
 
-However, as mentioned above, arcs have a beginning cost that must be paid, reflecting the character’s devotion to the goal. The character will earn this investment back (probably many times over) if the arc is completed. 
+하지만, 위에서 말했듯이, 아크는 시작할 때 비용을 지불해야 하며, 이는 캐릭터가 목표에 대해 헌신하는 것을 반영합니다. 캐릭터는 아크를 완료하게 되면 이 투자한 경험치를 (아마 몇 번이고 더) 돌려 받을 것입니다.
 
-Character arcs are always player-driven. A GM cannot force one on a character. That said, the events in the narrative often present story arc opportunities and inspire character arcs for the PCs. It’s certainly in the GM’s purview to suggest possible arcs related to the events going on. For example, if the GM presents an encounter in which an NPC wishes to learn from the PC, it might make sense to suggest taking the Instruction arc. Whether or not the PC takes on the student, the player doesn’t have to adopt the Instruction arc unless they want to.
+캐릭터 아크는 항상 플레이어 주도적입니다. 마스터는 캐릭터에게 아크를 강요할 수 없습니다. 다시 말해, 서사 속의 사건들이 자주 이야기 아크의 기회를 제시할 것이고 PC에게 캐릭터 아크에 대한 영감을 줄 것입니다. 진행 중인 사건과 관련해서 가능한 아크들을 제한하는 건 확실히 마스터가 할 수 있는 범위 안에 있습니다. 예를 들어, 마스터가 NPC가 PC에게서 배움을 청하는 상황을 제시하면, 여기서 [가르친다](#가르친다) 아크를 제안하는 것도 말이 될 겁니다. PC가 제자를 받던, 받지 않던 플레이어가 원하지 않으면 가르친다 아크를 받아들이지 않아도 됩니다.
 
-At the end of a session, review the actions you took and describe how they might equate to the completion of a step (or possibly more than one step) in their character arc. If the GM agrees, the character gets their reward.
+세션이 끝나면, 이번에 한 행동들을 돌아보고 캐릭터 아크의 한 단계를 (어쩌면 한 단계 이상을) 완료할 만한지 묘사합니다. 마스터가 동의하면, 캐릭터는 보상을 받습니다.
 
-(When in doubt, if one character accomplishes a step in their arc but another character does not, the first character should get the 2 XP reward, but the other character should probably still get, at minimum, 1 XP for the session.)
- 
-This chapter presents many sample character arcs (see below).
+(의구심이 들 때, 한 캐릭터가 아크에서 단계를 하나 완료했지만 다른 캐릭터는 그러지 못했다면, 첫 캐릭터는 2점의 경험치를 보상으로 받아야 하고, 하지만 다른 캐릭터도 여전히, 적어도, 1점의 경험치를 세션마다 받게 합니다.)
 
+이 장에서 많은 캐릭터 아크 예시를 제시합니다. (아래를 보십시오.)
 
 ### GM AWARDS
 Sometimes, a group will have an adventure that doesn’t deal primarily with a PC’s character arc. In this case, it’s a good idea for the GM to award XP to that character for accomplishing other tasks. First and foremost, awards should be based on discovery. Discovery can include finding a significant new location, such as a hidden chamber, a secret fortress, a lost land, a new planet, or an unexplored dimension. In this fashion, PCs are explorers. Discovery can also include a new significant aspect of a setting, such as a secret organization, a new religion, and so on.
@@ -974,331 +976,332 @@ The general idea is that most characters will spend half their XP on tier advanc
 medium-term benefits (gameplay uses), and XP awarded between sessions for discoveries is to be spent on character advancement (long-term uses).
 Ultimately, the idea is to make experience points into tools that the players and the GM can use to shape the story and the characters, not just a bookkeeping hassle.
 
+## 캐릭터 아크의 예
+이 장의 나머지 부분에서는 PC들을 위한 캐릭터 아크 예시를 소개합니다. 각 아크에 대한 설명마다 아크를 따라 전개되어가는 각 부분을 묘사합니다:
 
-## SAMPLE CHARACTER ARCS
-The rest of this chapter presents sample character arcs for PCs. The writeup of each arc describes the parts involved in progressing through the arc:
-- **Opening**: This sets the stage for the rest of the arc. It involves some action, although that might just be the PC agreeing to do the task or undertake the mission. It usually has no reward.
-- **Step(s)**: This is the action required to move toward the climax. In story terms, this is the movement through the bulk of the arc. It’s the journey. The rising tension. Although there might be just one step, there might also be many, depending on the story told. Each results in a reward of 2 XP.
-- **Climax**: This is the finale—the point at which the PC likely succeeds or fails at what they’ve set out to do. Not every arc ends with victory. If the character is successful, they earn a reward of 4 XP. If they fail, they still earn a reward of 2 XP. If a character fails the climax, they very likely ignore the resolution.
-- **Resolution**: This is the wrap-up or denouement. It’s a time for the character to reflect on what happened, tie up any loose ends, and figure out what happens next. When things are more or less resolved, the character earns a
-1 XP reward.
+- **발단**: 이는 아크의 나머지 부분을 위한 무대를 설정합니다. 여기에는 약간의 행동이 들어갈텐데, 그저 PC가 일을 하기로 동의하거나 임무를 받는 것이라도 그렇습니다. 보통 보상이 없습니다.
+- **단계(들)**: 이는 절정을 향해 움직이기 위해 필요한 행동들입니다. 이야기 용어로는, 이를 아크의 큰 부분을 지나는 이동입니다. 여정입니다. 긴장감은 고조됩니다. 단계가 딱 하나 뿐일 수도 있지만, 단계가 많을 수도 있고, 이는 이야기에 달려 있습니다. 각 단계마다 경험치 2점을 보상으로 받습니다.
+- **절정**: 이는 피날레입니다- PC가 하기로 한 일에 성공하거나 실패하는 지점입니다. 모든 아크가 승리로 끝나진 않습니다. 캐릭터가 성공한다면 4점의 경험치를 얻습니다. 실패한다고 해도 2점의 경험치를 보상으로 받습니다. 절정에서 실패한다면, 결말을 무시하게될 가능성이 매우 높습니다.
+- **결말**: 이는 마무리 혹은 대단원입니다. 캐릭터가 일어난 일을 회고하고, 느슨한 부분을 매듭짓고, 다음에 무엇이 일어날지 가늠하는 시간입니다. 일이 어느 정도 해결되면, 캐릭터는 경험치 1점을 보상으로 받습니다.
 
-Within the arc, most of the time a part is probably optional, depending on the situation—although it’s hard to envision most arcs without some kind of opening, climax, or resolution. Steps other than the opening, the climax, and the resolution can be done in any order.
-Character arcs should always take at least weeks in game time, and no more than two parts in an arc should be accomplished in a game session (and most of the time, it should be one part, if any). If neither of these two things is true, then it’s not really a character arc. You can’t, for example, use the Creation arc to guide you through something you can make in an hour or two.
-The following are common character arcs that you can choose for your character. If you and the GM want to make a new one, it should be fairly easy after looking through these models.
-(This chapter has a selection of sample character arcs, but you can create your own too. The arcs are intentionally broad to encompass many different characters and stories. For example, Revenge is a very simple and straightforward character arc. The player who chooses this arc for their character decides who they want revenge on, and why. It’s up to the players and the GM to make the details fit.)
-(Some players might not want to use character arcs. The GM, however, can still use them as a benchmark for awarding XP. If the PCs are going off to explore a strange planet, the GM can essentially give them the Explore arc.)
+아크 안에서, 대부분의 시간은 상황에 따라 선택적일 수도 있지만-대부분의 아크는 어떤 종류의 도입, 절정, 혹은 결말이 없이 상상하기 어렵습니다. 도입, 절정, 그리고 결말을 제외한 단계들은 어떤 순서여도 상관 없습니다.
 
-### AID A FRIEND
-Someone needs your help.
+캐릭터 아크는 게임 시간으로 적어도 1주일은 걸려야 하고, 한 세션 안에서는 아크에서 두 부분보다 많이 완수할 수는 없어야 합니다. (그리고 대부분의 경우는, 한 부분이어야 합니다) 만약 이 둘 중에 하나라도 사실이 아니라면, 이는 캐릭터 아크가 아닙니다. 그럴 수 없는 경우, 예를 들자면, [창조한다](#창조한다) 아크를 통해 한 두 시간 안에 만들 수 있는 무언가로 안내를 해보십시오.
 
-When a PC friend takes a character arc, you can select this arc to help them with whatever their arc is (if appropriate). The steps and climax depend entirely on their chosen arc. If the friend is an NPC, the steps and climax are lifted from another arc appropriate to whatever they seek to do.
+다음은 흔한 캐릭터 아크들로서 여러분의 캐릭터를 위해 선택할 수 있습니다. 마스터와 함께 새로 하나를 만들고 싶을 때에도, 이 모델들을 살펴보고 나면 꽤 쉬울 겁니다.
 
-It’s difficult, but possible, to aid a friend with an arc even if that friend is unwilling to accept (or is ignorant of) your help.
+(이 장은 예시 캐릭터 아크 중에 고른 것이지만, 여러분만의 것을 만들 수도 있습니다. 이 아크들은 의도적으로 다양한 캐릭터와 이야기를 포괄하게 되어 있습니다. 예를 들어 [복수한다](#복수한다)는 단순한고 직설적인 캐릭터 아크입니다. 캐릭터에게 이 아크를 골라준 플레이어는 누구에게 그리고 왜 복수할지 정합니다. 세부를 맞추는 건 플레이어와 마스터에게 달려 있습니다.)
+(어떤 플레이어들은 캐릭터 아크를 쓰고 싶어 하지 않을 수도 있습니다. 마스터는, 하지만, 여전히 이를 경험치를 주기 위한 기준으로 쓸 수 있습니다. 만약 PC들이 이상한 행성을 탐험하러 갔다면, 마스터는 [탐험한다](#탐험한다) 아크를 줄 수 있습니다.)
 
-The cost and rewards for a character with this arc are the same as those described in the original character arc.
+### 친구를 돕는다
+누군가 당신의 도움이 필요합니다.
 
-**Opening**: Answering the Call. Offering to help (or responding to a request for help).
+PC의 친구가 캐릭터 아크를 받으면, 이 아크를 선택해서 친구의 아크가 무엇이든 (적절하다면) 도울 수 있습니다. 단계들과 절정은 친구가 고른 아크에 달려 있습니다. 친구가 NPC라면, 각 단계와 절정은 그 친구가 추구하는 무언가에 적합한 다른 아크에서 가져옵니다.
 
-**Step(s) and Climax**: Depends on the friend’s arc. Rewards are the same for you as for the friend.
+친구가 당신의 도움을 받고 싶어하지 않거나 (혹은 모른다고 해도) 친구를 지원하는 것도 어렵지만, 가능하긴 합니다.
 
-**Resolution**: You speak with your friend and learn if they are satisfied. Together, you share what you’ve learned (if anything) and where you will go from here.
+이 아크의 비용과 보상은 원래 캐릭터의 아크에 서술된 것과 같습니다.
 
-### ASSIST AN ORGANIZATION
-You set out to accomplish something that will further an organization. You’re probably allied with them or they are rewarding you for your help in some fashion.
-- **Opening**: Responding to the Call. You work out all the details of what’s expected of you, and what rewards (if any) you might get. You also get the specifics of what’s required to join and advance.
-- **Step**: Sizing up the Task. This requires some action. A reconnaissance mission. An investigation. 
-- **Step(s)**: Undertaking the Task. Because this arc can vary so widely based on the task involved, there might be multiple steps like this one. 
-- **Climax**: Completing the Task. 
-- **Resolution**: Collecting your reward (if any) and conferring with the people in the organization that you spoke to. Perhaps getting access to higher-ranking people in the organization. You can choose to have your connection to the organization increase rather than take the standard reward.
+- **발단**: 부름에 답합니다. 도움을 제공합니다. (혹은 도움 요청에 응합니다).
+- **단계(들) 그리고 절정**: 친구의 아크에 따릅니다. 보상은 친구와 같습니다.
+- **결말**: 친구와 대화를 하고 만족스러운지 배웁니다. 함께, 배운 내용(뭐라도 있다면) 그리고 앞으로 나아갈 방향을 공유합니다.
 
-### AVENGE
+### 조직에 힘을 보탠다
+조직을 발전시킬 무언가를 성취하기로 결심했습니다. 아마 여러분은 그 조직의 동료였거나, 아니라도 어떤 식으로든 도움에 보상을 해줄 것입니다.
+- **발단**: 부름에 응합니다. 여러분에게 기대하는 게 뭔지 그리고 보상(있다면)으로 뭘 얻게 될지 세부사항을 파악합니다. 또 합류하고(join) 나아가기(advance) 위해 무엇이 요구되는지도 자세하게 알게 됩니다.
+- **단계**: 일을 키웁니다. 행동이 좀 필요합니다. 정찰 임무. 조사.
+- **단계(들)**: 일을 수행합니다. 이 아크는 관련된 일에 따라 매우 다양할 수 있기에, 비슷한 단계가 여럿일 수 있습니다.
+- **절정**: 일을 완수합니다. 
+- **결말**: 보상을 모으고 (있다면) 이야기했던 조직의 사람들과 상의합니다. 아마 조직 내의 더 높은 사람과 만나게 될 겁니다. 또 표준적인 보상을 받기보다는 이 조직과의 인연(connection)을 증가시킬 수도 있습니다.
+
+### 복수한다
 Someone close to you or important to you in some way has been wronged. The most overt version of this arc would be to avenge someone’s death. Avenging is different than revenge, as revenge is personal—you are the wronged party. But in the Avenge character arc, you are avenging a wrong done to someone else.
-- **Opening**: Declaration. You publicly declare that you are going to avenge the victim(s). This is optional.
-- **Step(s)**: Tracking the Guilty. You track down the guilty party. This might not be physically finding them if you already know where they are. Instead, it might be discovering a way to get at them if they are distant, difficult to reach, or well protected. This step might be repeated multiple times, if applicable.
-- **Step**: Finding the Guilty. You finally find the guilty party, or find a path or make a plan to reach them. Now all that’s left is to confront them.
-- **Climax**: Confrontation. You confront the guilty party. This might be a public accusation and demonstration of guilt, a trial, or an attack to kill, wound, or apprehend them—whatever you choose to be appropriate. 
-- **Resolution**: You resolve the outcome and the ramifications of the confrontation and decide what to do next.
+- **발단**: Declaration. You publicly declare that you are going to avenge the victim(s). This is optional.
+- **단계(들)**: Tracking the Guilty. You track down the guilty party. This might not be physically finding them if you already know where they are. Instead, it might be discovering a way to get at them if they are distant, difficult to reach, or well protected. This step might be repeated multiple times, if applicable.
+- **단계**: Finding the Guilty. You finally find the guilty party, or find a path or make a plan to reach them. Now all that’s left is to confront them.
+- **절정**: Confrontation. You confront the guilty party. This might be a public accusation and demonstration of guilt, a trial, or an attack to kill, wound, or apprehend them—whatever you choose to be appropriate. 
+- **결말**: You resolve the outcome and the ramifications of the confrontation and decide what to do next.
 
-### BIRTH
+### 탄생한다
 You are becoming a parent.
 The Birth character arc assumes you already have a partner or a surrogate. If you want your character to find a romantic partner or spouse, you can use the Romance arc. And of course, nonhuman characters might reproduce in other ways.
 This arc is usually followed by the Raise a Child arc.
-- **Opening**: Impregnation.
-- **Step**: Finding a Caretaker. This might be a physician, midwife, doula, or similar person. This is optional.
-- **Step**: Complication. A complication arises that threatens the pregnancy, the birth parent, or both.
-- **Step**: Preparation. You prepare a place for the delivery as well as a safe place for the infant to live once born.
-- **Climax**: Delivery. The baby is born. Success means the child survives.
-- **Resolution**: You get the baby to the place you have prepared and settle in, deciding what to do next.
+- **발단**: Impregnation.
+- **단계**: Finding a Caretaker. This might be a physician, midwife, doula, or similar person. This is optional.
+- **단계**: Complication. A complication arises that threatens the pregnancy, the birth parent, or both.
+- **단계**: Preparation. You prepare a place for the delivery as well as a safe place for the infant to live once born.
+- **절정**: Delivery. The baby is born. Success means the child survives.
+- **결말**: You get the baby to the place you have prepared and settle in, deciding what to do next.
 
-### BUILD
+### 건설한다
 You are going to build a physical structure—a house, a fortress, a workshop, a defensive wall, and so on. This arc would also cover renovating an existing structure or substantially adding to one. Of course, this doesn’t have to be physical construction. You might build something with spells or other supernatural abilities.
-- **Opening**: Make a Plan. This almost certainly involves literally drawing up blueprints or plans.
-- **Step(s)**: Find a Site. This might be extremely straightforward—a simple examination of the site—or it might be an entire exploratory adventure. (If the latter, it might involve multiple such steps.)
-- **Step(s)**: Gather Materials. Depending on what you are building and what it is made out of, this could involve multiple steps. There probably are substantial costs involved as well.
-- **Step(s)**: Construction. Depending on what you are building, this could involve multiple steps. It might also take a considerable amount of time and work.
-- **Climax**: Completion. The structure is finished. 
-- **Resolution**: You put the structure to its desired use and see if it holds up.
+- **발단**: Make a Plan. This almost certainly involves literally drawing up blueprints or plans.
+- **단계(들)**: Find a Site. This might be extremely straightforward—a simple examination of the site—or it might be an entire exploratory adventure. (If the latter, it might involve multiple such steps.)
+- **단계(들)**: Gather Materials. Depending on what you are building and what it is made out of, this could involve multiple steps. There probably are substantial costs involved as well.
+- **단계(들)**: Construction. Depending on what you are building, this could involve multiple steps. It might also take a considerable amount of time and work.
+- **절정**: Completion. The structure is finished. 
+- **결말**: You put the structure to its desired use and see if it holds up.
 
-### CLEANSE
+### 정화한다
 Someone or something has been contaminated, probably by evil spirits, radiation, a deadly virus, foul magic, or the like, and you want to rid them of such influences or contaminants. This could also be a curse, a possession, an infestation, or something else.
-- **Opening**: Analyzing the Threat. You determine the nature of the contamination.
-- **Step**: Find the Solution. Almost every contamination has its own particular solution, and this likely involves research and consultation.
-- **Step**: Getting Ready. The solution probably involves materials, spells, or other things that you must gather and prepare.
-- **Climax**: The Cleansing. You confront the contamination. 
-- **Resolution**: You reflect on the events that have transpired and what effects they might have on the future. How can you keep this from happening again?
+- **발단**: Analyzing the Threat. You determine the nature of the contamination.
+- **단계**: Find the Solution. Almost every contamination has its own particular solution, and this likely involves research and consultation.
+- **단계**: Getting Ready. The solution probably involves materials, spells, or other things that you must gather and prepare.
+- **절정**: The Cleansing. You confront the contamination. 
+- **결말**: You reflect on the events that have transpired and what effects they might have on the future. How can you keep this from happening again?
 
-### CREATION
+### 창조한다
 You want to make something. This might be a magic item, a painting, a novel, or a machine. 
-- **Opening**: Make a Plan. You figure out what you need, what you’re going to do, and how you’re going to do it.
-- **Step(s)**: Gather Materials. Depending on what you are creating and what it is made out of, this could involve multiple steps. There probably are substantial costs involved as well.
-- **Step(s)**: Progress. Depending on what you are creating, this could involve multiple steps. It might also take a considerable amount of time and work.
-- **Climax**: Completion. It’s finished! Is it what you wanted? Does it work? 
-- **Resolution**: You think about what you have learned from the process and use or enjoy the fruits of your labor.
+- **발단**: Make a Plan. You figure out what you need, what you’re going to do, and how you’re going to do it.
+- **단계(들)**: Gather Materials. Depending on what you are creating and what it is made out of, this could involve multiple steps. There probably are substantial costs involved as well.
+- **단계(들)**: Progress. Depending on what you are creating, this could involve multiple steps. It might also take a considerable amount of time and work.
+- **절정**: Completion. It’s finished! Is it what you wanted? Does it work? 
+- **결말**: You think about what you have learned from the process and use or enjoy the fruits of your labor.
 
-### DEFEAT A FOE
+### 적을 쓰러트린다
 Someone stands in your way or is threatening you. You must overcome the challenge they represent. Defeat doesn’t always mean kill or even fight. Defeating a foe could mean beating them in a chess match or in competition for a desired mentor.
-- **Opening**: Sizing up the Competition. This requires some action. A reconnaissance mission. An investigation.
-- **Step**: Investigation. This requires some action. A reconnaissance mission. An investigation.
-- **Step(s)**: Diving In. You travel toward your opponent, overcome their lackeys, or take steps to reach them so you can confront them. This step can take many forms, and there might be more than one such step. This step is always active.
-- **Climax**: Confrontation. The contest, challenge, fight, or confrontation occurs. 
-- **Resolution**: You reflect on what you’ve learned and what the consequences of your actions might be.
+- **발단**: Sizing up the Competition. This requires some action. A reconnaissance mission. An investigation.
+- **단계**: Investigation. This requires some action. A reconnaissance mission. An investigation.
+- **단계(들)**: Diving In. You travel toward your opponent, overcome their lackeys, or take steps to reach them so you can confront them. This step can take many forms, and there might be more than one such step. This step is always active.
+- **절정**: Confrontation. The contest, challenge, fight, or confrontation occurs. 
+- **결말**: You reflect on what you’ve learned and what the consequences of your actions might be.
 
-### DEFENSE
+### 방어한다
 A person, place, or thing is threatened, and you want to protect it.
-- **Opening**: Analyze the Situation. What are you defending, and what threats are involved?
-- **Step**: Account for Your Resources. How are you going to defend?
-- **Step(s)**: Fend Off Danger. The forces threatening what you are protecting probably make an initial threat that you’ll have to defeat. It’s not the main threat, though. There might be multiple such initial threats.
-- **Climax**: Protect. The true threat reveals itself and you confront it. 
-- **Resolution**: A time for reflection on everything that occurred, and an assessment of the person, place, or thing’s safety going forward.
+- **발단**: Analyze the Situation. What are you defending, and what threats are involved?
+- **단계**: Account for Your Resources. How are you going to defend?
+- **단계(들)**: Fend Off Danger. The forces threatening what you are protecting probably make an initial threat that you’ll have to defeat. It’s not the main threat, though. There might be multiple such initial threats.
+- **절정**: Protect. The true threat reveals itself and you confront it. 
+- **결말**: A time for reflection on everything that occurred, and an assessment of the person, place, or thing’s safety going forward.
 
-### DEVELOP A BOND
+### 결속을 다진다
 You want to get closer to another character. This might be to make a friend, find a mentor, or establish a contact in a position of power. It might be to turn a friend into a much closer friend. The character might be an NPC or a PC.
-- **Opening**: Getting to Know You. You learn what you can about the other character.
-- **Step**: Initial Attempt. You attempt to make contact. This might involve sending messages or gifts through a courier, using an intermediary, or just going up and saying hello, depending on the situation.
-- **Step(s)**: Building a Relationship. There might be many such steps as you develop the relationship.
-- **Climax**: Bond. You succeed or fail at forging the bond. 
-- **Resolution**: You enjoy the fruits of your new relationship.
+- **발단**: Getting to Know You. You learn what you can about the other character.
+- **단계**: Initial Attempt. You attempt to make contact. This might involve sending messages or gifts through a courier, using an intermediary, or just going up and saying hello, depending on the situation.
+- **단계(들)**: Building a Relationship. There might be many such steps as you develop the relationship.
+- **절정**: Bond. You succeed or fail at forging the bond. 
+- **결말**: You enjoy the fruits of your new relationship.
 
-### ENTERPRISE
+### 사업을 한다
 You want to create and run a business or start an organization. Maybe you’re a craftsperson who wants to sell your creations. Maybe you like baking and you want to start a catering service. Or maybe you want to start a secret society or found a school to teach young mutants how to use their powers. You’ll almost certainly have to make new connections, find (and somehow pay for) a location, and deal with all manner of administrative duties.
-- **Opening**: Drawing up a Plan. What’s your goal, and how are you going to achieve it?
-- **Step**: Account for Your Resources. How much financing does the enterprise need compared to what you’ve got? If you need more, how will you get it? How many people other than yourself are needed to begin, and how many will you need to sustain things once they are up and running?
-- **Step**: Finding a Location. You probably need a place to run your enterprise—a store, a workshop, a base of operations, and so on. You find a location and look into what it will take to buy or rent it.
-- **Step(s)**: Building the Enterprise. You procure the needed equipment or personnel. You make the connections and deals to get things started. You obtain important permits or other legal documents. You test new products. You actually start the business. Each of these developments (and likely others) can be counted as a separate step, so there will be many steps.
-- **Climax**: Profit and Loss. You determine whether your enterprise will take off and carry on into the future, or fall apart before it gets a chance to blossom. This occurs in a single dramatic moment—your first major client, your organization’s first big meeting or mission, or whatever else is appropriate. 
-- **Resolution**: A time for reflection on everything that occurred, and how you’re going to move forward.
+- **발단**: Drawing up a Plan. What’s your goal, and how are you going to achieve it?
+- **단계**: Account for Your Resources. How much financing does the enterprise need compared to what you’ve got? If you need more, how will you get it? How many people other than yourself are needed to begin, and how many will you need to sustain things once they are up and running?
+- **단계**: Finding a Location. You probably need a place to run your enterprise—a store, a workshop, a base of operations, and so on. You find a location and look into what it will take to buy or rent it.
+- **단계(들)**: Building the Enterprise. You procure the needed equipment or personnel. You make the connections and deals to get things started. You obtain important permits or other legal documents. You test new products. You actually start the business. Each of these developments (and likely others) can be counted as a separate step, so there will be many steps.
+- **절정**: Profit and Loss. You determine whether your enterprise will take off and carry on into the future, or fall apart before it gets a chance to blossom. This occurs in a single dramatic moment—your first major client, your organization’s first big meeting or mission, or whatever else is appropriate. 
+- **결말**: A time for reflection on everything that occurred, and how you’re going to move forward.
 
-### ESTABLISHMENT 
+### 창립한다 
 You want to prove yourself as someone of importance. This can take many forms—socially, within your order, financially, or even romantically.
-- **Opening**: Assessment. You assess yourself as well as who you need to prove yourself to.
-- **Step(s)**: Appearances Matter. You improve your look. Enhance your wardrobe. Spruce up your house. Whatever it takes to get attention from the right people. There might be many such steps.
-- **Step(s)**: Self-Aggrandizement. You need to get the word out to get people talking about you. There might be many such steps.
-- **Climax**: Grabbing Attention. You do something big, like host a party for influential people or produce a play that you wrote. You make a big splash or a big crash. 
-- **Resolution**: You reflect on what you did and where you go from here.
+- **발단**: Assessment. You assess yourself as well as who you need to prove yourself to.
+- **단계(들)**: Appearances Matter. You improve your look. Enhance your wardrobe. Spruce up your house. Whatever it takes to get attention from the right people. There might be many such steps.
+- **단계(들)**: Self-Aggrandizement. You need to get the word out to get people talking about you. There might be many such steps.
+- **절정**: Grabbing Attention. You do something big, like host a party for influential people or produce a play that you wrote. You make a big splash or a big crash. 
+- **결말**: You reflect on what you did and where you go from here.
 
-### EXPLORE
+### 탐험한다
 Something out there is unknown and you want to explore its secrets. This is most likely an area of wilderness, a new planet, an otherworldly dimension, or something similar.
-- **Opening**: Make a Plan. Not only do you draw up a plan for your exploration, but if appropriate, you also make a formal declaration to relevant parties of what you’re going to do.
-- **Step(s)**: Gather Resources. You get the supplies, vehicles, and help you need. Depending on where you are going and what is required, this could involve multiple steps. There probably are substantial costs involved as well.
-- **Step(s)**: Travel. You go where you wish to explore. There might be many such steps, depending on how long it takes to get there.
-- **Step(s)**: Exploration. This is the meat of the arc, but it’s probably a series of small moves and minor victories. There might be many such steps.
-- **Climax**: Conquest. You make the big discovery or truly master the area. You might not have explored every inch of the place, but if you are successful, you can claim to be done. 
-- **Resolution**: You return home and possibly share your findings.
+- **발단**: Make a Plan. Not only do you draw up a plan for your exploration, but if appropriate, you also make a formal declaration to relevant parties of what you’re going to do.
+- **단계(들)**: Gather Resources. You get the supplies, vehicles, and help you need. Depending on where you are going and what is required, this could involve multiple steps. There probably are substantial costs involved as well.
+- **단계(들)**: Travel. You go where you wish to explore. There might be many such steps, depending on how long it takes to get there.
+- **단계(들)**: Exploration. This is the meat of the arc, but it’s probably a series of small moves and minor victories. There might be many such steps.
+- **절정**: Conquest. You make the big discovery or truly master the area. You might not have explored every inch of the place, but if you are successful, you can claim to be done. 
+- **결말**: You return home and possibly share your findings.
 
-### FALL FROM GRACE
+### 명예가 실추된다
 This is an odd character arc in that it’s (presumably) not something that a character would want. It is something that a player selects on a meta level for the character because it makes for an interesting story. It also sets up the potential for future arcs, such as Redemption. It’s important that this involve actions you take. For example, you fall into substance abuse. You treat people badly. You make mistakes that endanger others. In other words, the fall isn’t orchestrated by someone else—it’s all your own doing.
-- **Opening**: The Descent. Things go bad.
-- **Step(s)**: Further Descent. Things get worse. Depending on the situation, this might involve many steps.
-- **Step**: Lashing Out. You treat others poorly as you descend.
-- **Climax**: Rock Bottom. There is no chance for success here. Only failure.
-- **Resolution**: You wallow in your own misery.
+- **발단**: The Descent. Things go bad.
+- **단계(들)**: Further Descent. Things get worse. Depending on the situation, this might involve many steps.
+- **단계**: Lashing Out. You treat others poorly as you descend.
+- **절정**: Rock Bottom. There is no chance for success here. Only failure.
+- **결말**: You wallow in your own misery.
 
-### FINISH A GREAT WORK
+### 위대한 과업을 완수한다
 Something that was begun in the past must now be completed. This might involve destroying an evil artifact, finishing the construction of a monument, developing the final steps of a cure for a disease, or uncovering a lost temple forgotten to the ages.
-- **Opening**: Assessing the Past. You look at what has come before and where it still needs to go. This almost certainly involves some real research.
-- **Step**: Conceive a Plan. You make a plan on how to move forward.
-- **Step(s)**: Progress. You make significant progress or overcome a barrier to completion. This may involve multiple such steps.
-- **Climax**: Completion. This involves the big finish to the past work. 
-- **Resolution**: You reflect on what you did and where you go from here.
+- **발단**: Assessing the Past. You look at what has come before and where it still needs to go. This almost certainly involves some real research.
+- **단계**: Conceive a Plan. You make a plan on how to move forward.
+- **단계(들)**: Progress. You make significant progress or overcome a barrier to completion. This may involve multiple such steps.
+- **절정**: Completion. This involves the big finish to the past work. 
+- **결말**: You reflect on what you did and where you go from here.
 
-### GROWTH
+### 성장한다
 Willingly or unwillingly, you are going to change. This is another meta arc. It’s less about a goal and more about character development. While it’s possible that the growth involved is intentional, in most people’s lives and stories, it is emergent. A character might become less selfish, braver, a better leader, or experience some other form of growth.
-- **Opening**: The Beginning. Change usually begins slowly, in a small, almost imperceptible way.
-- **Step(s)**: Change. Growth involves many small steps. 
-- **Step**: Overcoming an Obstacle. The temptation to resort to your old ways is always present. 
-- **Climax**: Self-Evident Change. This is a dramatic about-face. This is the moment where you do something the “old you” would never have done, and it has a profound effect on you and those around you. With either success or failure, growth is possible.
-- **Resolution**: You recognize the change in yourself and move forward.
+- **발단**: The Beginning. Change usually begins slowly, in a small, almost imperceptible way.
+- **단계(들)**: Change. Growth involves many small steps. 
+- **단계**: Overcoming an Obstacle. The temptation to resort to your old ways is always present. 
+- **절정**: Self-Evident Change. This is a dramatic about-face. This is the moment where you do something the “old you” would never have done, and it has a profound effect on you and those around you. With either success or failure, growth is possible.
+- **결말**: You recognize the change in yourself and move forward.
 
-### INSTRUCTION
+### 가르친다
 You teach a pupil. You have knowledge on a topic and are willing to share. This can be a skill, an area of lore, a combat style, or the use of a special ability. This is usually a fairly long-term arc. Sometimes teaching a pupil is a side matter, and sometimes the pupil takes on more of an apprentice role and spends a great deal of time with you, traveling with you and perhaps even living in your house (or you living in theirs).
-- **Opening**: Taking on the Student.
-- **Step**: Getting to Know Them. You assess your pupil’s strengths and weaknesses and try to get an idea of what they need to learn and how you can teach it to them.
-- **Step(s)**: The Lessons. Teaching is often a slow, gradual process.
-- **Step**: Breakdown. Many times, a student needs to have a moment of crisis to really learn something. Maybe they get dejected, or maybe they rebel against your teaching techniques. 
-- **Climax**: Graduation. This is when you recognize that the pupil has learned what they need. It usually comes at a dramatic moment. 
-- **Resolution**: You and the pupil say your goodbyes, and you look toward the future.
+- **발단**: Taking on the Student.
+- **단계**: Getting to Know Them. You assess your pupil’s strengths and weaknesses and try to get an idea of what they need to learn and how you can teach it to them.
+- **단계(들)**: The Lessons. Teaching is often a slow, gradual process.
+- **단계**: Breakdown. Many times, a student needs to have a moment of crisis to really learn something. Maybe they get dejected, or maybe they rebel against your teaching techniques. 
+- **절정**: Graduation. This is when you recognize that the pupil has learned what they need. It usually comes at a dramatic moment. 
+- **결말**: You and the pupil say your goodbyes, and you look toward the future.
 
-### JOIN AN ORGANIZATION
+### 조직에 들어간다
 You want to join an organization. This might be a military organization, a corporation, a secret society, a religion, or something else.
-- **Opening**: Getting the Details. You learn all you can about the organization and how one becomes a member.
-- **Step(s)**: Making a Contact. Friends on the inside are always important.
-- **Step(s)**: Performing a Deed. The organization might want to test your worth, or this might be a ceremony you must take part in. It might include paying some sort of dues or fee. Or all of these things.
-- **Climax**: Proving Your Worth. This is the point at which you attempt to show the organization that they would be better off with you as a member.
-- **Resolution**: You consider your efforts and assess what your membership gets you.
+- **발단**: Getting the Details. You learn all you can about the organization and how one becomes a member.
+- **단계(들)**: Making a Contact. Friends on the inside are always important.
+- **단계(들)**: Performing a Deed. The organization might want to test your worth, or this might be a ceremony you must take part in. It might include paying some sort of dues or fee. Or all of these things.
+- **절정**: Proving Your Worth. This is the point at which you attempt to show the organization that they would be better off with you as a member.
+- **결말**: You consider your efforts and assess what your membership gets you.
 
-### JUSTICE
+### 정의를 세운다
 You try to right a wrong or bring a wrongdoer to justice. 
-- **Opening**: Declaration. You publicly declare that you are going to bring justice in this situation. This is optional.
-- **Step(s)**: Tracking the Guilty. You track down the guilty party, assuming there is one. This might not be physically finding them if you already know where they are. Instead, it might be discovering a way to get at them if they are distant, difficult to reach, or well protected. This step might be repeated multiple times, if applicable.
-- **Step**: Helping the Victim. Righting a wrong does not always involve confronting a wrongdoer. Part of it might be about helping those who were wronged.
-- **Climax**: Confrontation. You confront the guilty party. This might be a public accusation and demonstration of guilt, a trial, or an attack to kill, wound, or apprehend them—whatever you choose to be appropriate. 
-- **Resolution**: You resolve the outcome and ramifications of the confrontation and decide what to do next.
+- **발단**: Declaration. You publicly declare that you are going to bring justice in this situation. This is optional.
+- **단계(들)**: Tracking the Guilty. You track down the guilty party, assuming there is one. This might not be physically finding them if you already know where they are. Instead, it might be discovering a way to get at them if they are distant, difficult to reach, or well protected. This step might be repeated multiple times, if applicable.
+- **단계**: Helping the Victim. Righting a wrong does not always involve confronting a wrongdoer. Part of it might be about helping those who were wronged.
+- **절정**: Confrontation. You confront the guilty party. This might be a public accusation and demonstration of guilt, a trial, or an attack to kill, wound, or apprehend them—whatever you choose to be appropriate. 
+- **결말**: You resolve the outcome and ramifications of the confrontation and decide what to do next.
 
-### LEARN
+### 배운다
 You want to learn something. This isn’t the same as the Uncover a Secret arc, in which you’re looking for a bit of information. This is a skill or whole area of knowledge you want to gain proficiency with. This is learning a new language, how to play an instrument, or how to be a good cook. Thus, it’s not about gaining a level or rank in climbing, but learning to be an experienced mountaineer.
-- **Opening**: Focusing on the Problem. 
-- **Step**: Finding a Teacher or a Way to Teach Yourself. Now you can truly begin.
-- **Step(s)**: Learn. Depending on what you’re learning, this could involve one step or quite a few.
-- **Climax**: The Test. You put your new knowledge to the test in a real situation.
-- **Resolution**: You relax a bit and decide what to do next.
+- **발단**: Focusing on the Problem. 
+- **단계**: Finding a Teacher or a Way to Teach Yourself. Now you can truly begin.
+- **단계(들)**: Learn. Depending on what you’re learning, this could involve one step or quite a few.
+- **절정**: The Test. You put your new knowledge to the test in a real situation.
+- **결말**: You relax a bit and decide what to do next.
 
-### MASTER A SKILL
+### 기술에 통달한다
 You’re skilled, but you want to become the best. This arc might logically follow the Learn arc. As with the Learn arc, this can involve any kind of training at all, not just a skill. 
-- **Opening**: Finding the Path. You’ve learned the basics. Now it’s time for the advanced material.
-- **Step**: Discovering a Master. You find a master to help you become a master.
-- **Step(s)**: Learn. Depending on what you’re mastering, this could involve one step or quite a few.
-- **Step**: The Last Step. Eventually, you realize that even a master cannot teach you the last step. You must learn it on your own.
-- **Climax**: The Test. You put your mastery to the test in a real situation—and considering your goal, it’s probably a very important situation.
-- **Resolution**: You relax a bit and decide what to do next.
+- **발단**: Finding the Path. You’ve learned the basics. Now it’s time for the advanced material.
+- **단계**: Discovering a Master. You find a master to help you become a master.
+- **단계(들)**: Learn. Depending on what you’re mastering, this could involve one step or quite a few.
+- **단계**: The Last Step. Eventually, you realize that even a master cannot teach you the last step. You must learn it on your own.
+- **절정**: The Test. You put your mastery to the test in a real situation—and considering your goal, it’s probably a very important situation.
+- **결말**: You relax a bit and decide what to do next.
 
-### MYSTERIOUS BACKGROUND
-You don’t know who your parents were, but you want to find out. The mystery might be something other than your parentage, but that’s a common theme in this kind of arc. You want to know where you come from—there’s some kind of mystery in your past. 
-- **Opening**: Beginning the Search.
-- **Step**: Research. You look into your own family background, if possible.
-- **Step(s)**: Investigation. You talk to people who might know. You follow clues.
-- **Climax**: Discovery. You discover the secret of your own background. You determine if what you learn is good or bad, but either way discovery means success.
-- **Resolution**: You contemplate how this new knowledge sits with you.
+### 출생의 비밀을 알아낸다
+당신은 부모가 누구인지 모르지만, 찾아내길 바랍니다. 이 비밀은 부모가 아닌 무언가일 수도 있지만, 이 역시 이 아크에서 흔한 주제이기도 합니다. 당신이 어디에서 왔는지 알고 싶습니다-당신의 과거에는 무언가 비밀이 있습니다.
 
-### NEW DISCOVERY
+- **발단**: 탐색을 시작합니다.
+- **단계**: 연구합니다. 가능하다면, 가족의 배경을 알아봅니다.
+- **단계(들)**: 조사합니다. 알고 있을 것 같은 사람들과 대화합니다. 단서를 따라갑니다.
+- **절정**: 발견. 당신의 배경에 대한 비밀을 발견합니다. 당신이 배운 것이 좋은지 나쁜지 정하지만, 어느 쪽이라도 성공을 의미합니다.
+- **결말**: 이 새로운 지식이 당신에게 어떤 영향을 주는지 숙고합니다.
+
+### 새로운 것을 발견한다
 You want to invent a new device, process, spell, or something similar. A cure for a heretofore unknown disease? An invocation with a result you’ve never heard of before? A method for getting into an impregnable vault? Any of these and more could be your discovery. While similar to the Creation arc and the Learn arc, the New Discovery arc involves blazing a new trail. No one can teach you what you want to know. You’ve got to do it on your own.
-- **Opening**: The Idea. You draw up plans for the thing you want to invent or discover.
-- **Step**: Research. You learn what people have done before and recognize where they fell short.
-- **Step(s)**: Trial and Error. You test your hypothesis. This often ends in many failures before you get a success.
-- **Climax**: Eureka! It’s time to put the discovery to the true test. 
-- **Resolution**: You reflect on your discovery and probably compile your notes and write it all down, for posterity’s sake if nothing else.
+- **발단**: The Idea. You draw up plans for the thing you want to invent or discover.
+- **단계**: Research. You learn what people have done before and recognize where they fell short.
+- **단계(들)**: Trial and Error. You test your hypothesis. This often ends in many failures before you get a success.
+- **절정**: Eureka! It’s time to put the discovery to the true test. 
+- **결말**: You reflect on your discovery and probably compile your notes and write it all down, for posterity’s sake if nothing else.
 
-### RAISE A CHILD
+### 아이를 기른다
 You raise a child to adulthood. It can be your biological child or one you adopt. It can even be a child taken under your wing, more a young protégé than a son or daughter. This is obviously a very long-term arc. 
-- **Opening**: Sharing Your Home. The child now lives with you.
-- **Step**: Care and Feeding. You learn to meet the child’s basic needs.
-- **Step(s)**: Basic Instruction. You teach them to walk, talk, and read. You teach them to care for themselves.
-- **Step(s)**: The Rewards Are Many. The child loves you. Relies on you. Trusts you. Eventually, helps you.
-- **Step(s)**: Ethical Instruction. You instill your basic ethics in the child, hoping that they will mature into an adult you can be proud of.
-- **Climax**: Adulthood. At some point the child leaves the proverbial nest. You determine, at this point, your own success or failure.
-- **Resolution**: You reflect on the memories you have made.
+- **발단**: Sharing Your Home. The child now lives with you.
+- **단계**: Care and Feeding. You learn to meet the child’s basic needs.
+- **단계(들)**: Basic Instruction. You teach them to walk, talk, and read. You teach them to care for themselves.
+- **단계(들)**: The Rewards Are Many. The child loves you. Relies on you. Trusts you. Eventually, helps you.
+- **단계(들)**: Ethical Instruction. You instill your basic ethics in the child, hoping that they will mature into an adult you can be proud of.
+- **절정**: Adulthood. At some point the child leaves the proverbial nest. You determine, at this point, your own success or failure.
+- **결말**: You reflect on the memories you have made.
 
-### RECOVER FROM A WOUND (OR TRAUMA) 
+### 상처(또는 트라우마)에서 회복한다
 You need to heal. This isn’t just for healing simple damage. This involves recovering from a major debilitating injury, illness, or shock. Severe damage, the loss of a body part, and emotional trauma all fall into this category. 
-- **Opening**: Rest. The first thing you need to do is rest.
-- **Step**: Self Care. You take care of your own needs.
-- **Step**: Getting Aid. Someone helps.
-- **Step**: Medicine. Some kind of drug, cure, poultice, potion, or remedy aids your recovery.
-- **Step**: Therapy. With the help of someone else, you exercise your injury or cope with your trauma.
-- **Climax**: Acceptance or Recovery. You try to move on and use what has been damaged (or learn how to function without it). 
-- **Resolution**: You get on with your life.
+- **발단**: Rest. The first thing you need to do is rest.
+- **단계**: Self Care. You take care of your own needs.
+- **단계**: Getting Aid. Someone helps.
+- **단계**: Medicine. Some kind of drug, cure, poultice, potion, or remedy aids your recovery.
+- **단계**: Therapy. With the help of someone else, you exercise your injury or cope with your trauma.
+- **절정**: Acceptance or Recovery. You try to move on and use what has been damaged (or learn how to function without it). 
+- **결말**: You get on with your life.
 
-### REDEMPTION
+### 속죄한다
 You’ve done something very wrong, but you want to atone and make it right again. This is like the Justice arc or the Undo a Wrong arc, except you are the wrongdoer. This could be a follow-up to the Fall From Grace arc.
-- **Opening**: Regret. You are determined to rebuild, recover, and restore.
-- **Step**: Forgiveness. You apologize and ask for forgiveness.
-- **Step**: Identifying the Needs. You determine what needs to be done to atone for your transgression.
-- **Climax**: Making Good. You perform an act that you hope will redeem your past misdeed.
-- **Resolution**: You reflect on what has happened but now look to the future.
+- **발단**: Regret. You are determined to rebuild, recover, and restore.
+- **단계**: Forgiveness. You apologize and ask for forgiveness.
+- **단계**: Identifying the Needs. You determine what needs to be done to atone for your transgression.
+- **절정**: Making Good. You perform an act that you hope will redeem your past misdeed.
+- **결말**: You reflect on what has happened but now look to the future.
 
-### REPAY A DEBT
+### 빚을 갚는다
 You owe someone something, and it’s time to make good.
-- **Opening**: Debts Come Due. You determine to do what is needed to make good on the debt. It might involve repaying money, but more appropriately it’s performing a deed or a series of deeds.
-- **Step**: Talking It Over. You discuss the matter with the person you owe, if possible. You ensure that what you’re doing is what they want.
-- **Climax**: Repayment. Either you do something to earn the money or goods you owe, or you undertake a major task that will compensate the other person. 
-- **Resolution**: You relax knowing that your debt is repaid, and you look to the future.
+- **발단**: Debts Come Due. You determine to do what is needed to make good on the debt. It might involve repaying money, but more appropriately it’s performing a deed or a series of deeds.
+- **단계**: Talking It Over. You discuss the matter with the person you owe, if possible. You ensure that what you’re doing is what they want.
+- **절정**: Repayment. Either you do something to earn the money or goods you owe, or you undertake a major task that will compensate the other person. 
+- **결말**: You relax knowing that your debt is repaid, and you look to the future.
 
-### RESCUE
+### 구조한다
 Someone or something of great importance has been taken, and you want to get them or it back.
-- **Opening**: Heeding the Call. You determine what has happened, and who or what is missing.
-- **Step**: Tracking. You discover who has taken them, and where.
-- **Step**: Travel. You go to where they are being held and get information on the location and who is involved. Maybe make a plan.
-- **Climax**: Rescue Operation. You go in and get them. 
-- **Resolution**: You return them home.
+- **발단**: Heeding the Call. You determine what has happened, and who or what is missing.
+- **단계**: Tracking. You discover who has taken them, and where.
+- **단계**: Travel. You go to where they are being held and get information on the location and who is involved. Maybe make a plan.
+- **절정**: Rescue Operation. You go in and get them. 
+- **결말**: You return them home.
 
-### RESTORATION
+### 복구한다
 You’re down but not out. You want to restore your good name. Recover what you’ve lost. Rebuild what has been destroyed. You’ve fallen down or have been knocked down, but either way you want to pick yourself up. This is a possible follow-up to the Fall From Grace arc.
-- **Opening**: Vow to Yourself. You are determined to rebuild, recover, and restore.
-- **Step(s)**: Work. You rebuild, recover, and restore. If all your money was stolen, you make more. If your house was destroyed, you rebuild it. If your reputation was tarnished, you perform deeds that restore your good name.
-- **Climax**: The Final Act. You undertake one last major task that will bring things back to where they were (or close to it). A lot is riding on this moment. 
-- **Resolution**: You enjoy a return to things the way they were before.
+- **발단**: Vow to Yourself. You are determined to rebuild, recover, and restore.
+- **단계(들)**: Work. You rebuild, recover, and restore. If all your money was stolen, you make more. If your house was destroyed, you rebuild it. If your reputation was tarnished, you perform deeds that restore your good name.
+- **절정**: The Final Act. You undertake one last major task that will bring things back to where they were (or close to it). A lot is riding on this moment. 
+- **결말**: You enjoy a return to things the way they were before.
 
-### REVENGE
+### 보복한다
 Someone did something that harmed you. Unlike the Avenge arc, this arc probably isn’t about tracking down a murderer, but it might involve pursuing someone who stole from you, hurt you, or otherwise brought you grief. The key is that it’s personal. Otherwise, use the Justice arc. 
-- **Opening**: Vow. You swear revenge.
-- **Step(s)**: Finding a Clue. You find a clue to tracking down the culprit.
-- **Climax**: Confrontation. You confront the culprit. 
-- **Resolution**: You deal with the aftermath of the confrontation and move on. You think about whether you are satisfied by gaining your revenge.
+- **발단**: Vow. You swear revenge.
+- **단계(들)**: Finding a Clue. You find a clue to tracking down the culprit.
+- **절정**: Confrontation. You confront the culprit. 
+- **결말**: You deal with the aftermath of the confrontation and move on. You think about whether you are satisfied by gaining your revenge.
 
-### ROMANCE
+### 사랑한다
 You want to strike up a relationship with a romantic partner. Perhaps you have a specific person in mind, or maybe you’re just interested in a relationship in general.
 Opening(s): Caught Someone’s Eye. You meet someone you are interested in. (Since this can be short-lived, it’s possible to have this opening occur more than once.)
-- **Step(s)**: Courtship. You begin seeing the person regularly. Although not every “date” is a step in the arc, significant moments are, and there may be a few of them.
-- **Climax**: Commitment. You may or may not be interested in a monogamous relationship. Regardless, you and your love have made some kind of commitment to each other. 
-- **Resolution**: You think about the future. Marriage? Children? These are only some of the possibilities. 
+- **단계(들)**: Courtship. You begin seeing the person regularly. Although not every “date” is a step in the arc, significant moments are, and there may be a few of them.
+- **절정**: Commitment. You may or may not be interested in a monogamous relationship. Regardless, you and your love have made some kind of commitment to each other. 
+- **결말**: You think about the future. Marriage? Children? These are only some of the possibilities. 
 
-### SOLVE A MYSTERY
+### 수수께끼를 푼다
 Different from the Learn arc and the Uncover a Secret arc, this arc is about solving a crime or a similar action committed in the fairly recent past. It’s not about practice or study, but about questions and answers. In theory, the mystery doesn’t have to be a crime. It might be “Why is this strange caustic substance leaking into my basement?”
-- **Opening**: Pledging to Solve the Mystery. 
-- **Step**: Research. You get some background.
-- **Step(s)**: Investigation. You ask questions. You look for clues. You cast divinations. This likely encompasses many such steps.
-- **Climax**: Discovery. You come upon what you believe to be the solution to the mystery. 
-- **Resolution**: In this step, which is far more active than most resolutions, you confront the people involved in the mystery with what you’ve discovered, or you use the information in some way (such as taking it to the proper authorities).
+- **발단**: Pledging to Solve the Mystery. 
+- **단계**: Research. You get some background.
+- **단계(들)**: Investigation. You ask questions. You look for clues. You cast divinations. This likely encompasses many such steps.
+- **절정**: Discovery. You come upon what you believe to be the solution to the mystery. 
+- **결말**: In this step, which is far more active than most resolutions, you confront the people involved in the mystery with what you’ve discovered, or you use the information in some way (such as taking it to the proper authorities).
 
-### THEFT
+### 훔친다
 Someone else has something you want.
-- **Opening**: Setting Your Sights. You make a plan. 
-- **Step**: Casing the Joint. You scout out the location of the thing (or learn its location).
-- **Step(s)**: Getting to the Object. Sometimes, many steps are involved before you reach the object you wish to take. For example, if, in order to steal something from a vault, you need to approach one of the guards while they are off duty and bribe them to look the other way when you break in, that is covered in this step.
-- **Climax**: The Attempt. You make your heist. 
-- **Resolution**: You decide what to do with the thing you’ve stolen and contemplate the repercussions you might face for stealing it.
+- **발단**: Setting Your Sights. You make a plan. 
+- **단계**: Casing the Joint. You scout out the location of the thing (or learn its location).
+- **단계(들)**: Getting to the Object. Sometimes, many steps are involved before you reach the object you wish to take. For example, if, in order to steal something from a vault, you need to approach one of the guards while they are off duty and bribe them to look the other way when you break in, that is covered in this step.
+- **절정**: The Attempt. You make your heist. 
+- **결말**: You decide what to do with the thing you’ve stolen and contemplate the repercussions you might face for stealing it.
 
-### TRAIN A CREATURE
+### 동물을 길들인다
 You want to domesticate and train an animal or other creature. While the beast doesn’t need to be wild, it must not already be domesticated and trained.
-- **Opening**: Getting Acquainted. You get to know the creature a bit, and it gets to know you.
-- **Step**: Research. You get information on the type of creature or advice from others who have trained one.
-- **Step**: Domestication. After some work, the creature is no longer a threat to you or anyone else, and it can live peacefully in your home or wherever you wish.
-- **Step(s)**: Training. Each time you use this step, you teach the creature a new, significant command that it will obey regularly and immediately.
-- **Climax**: Completion. Believing the creature’s training to be complete, you put it in a situation where that is put to the test. 
-- **Resolution**: You reflect on the experience.
+- **발단**: Getting Acquainted. You get to know the creature a bit, and it gets to know you.
+- **단계**: Research. You get information on the type of creature or advice from others who have trained one.
+- **단계**: Domestication. After some work, the creature is no longer a threat to you or anyone else, and it can live peacefully in your home or wherever you wish.
+- **단계(들)**: Training. Each time you use this step, you teach the creature a new, significant command that it will obey regularly and immediately.
+- **절정**: Completion. Believing the creature’s training to be complete, you put it in a situation where that is put to the test. 
+- **결말**: You reflect on the experience.
 
-### TRANSFORMATION
+### 변화한다
 You want to be different in a specific way. Because the Growth arc covers internal change, this one focuses primarily on external change. This could take many forms, and probably varies greatly by genre. In some settings, it could even be death, which might turn you into a ghost. For the change to be an arc, it should be difficult and perhaps risky. 
-- **Opening**: Deciding on the Transformation.
-- **Step**: Research. You look into how the change can be made and what it entails.
-- **Step(s)**: Investigation. This is an active step toward making the change. It might involve getting more information, materials or ingredients, or something else.
-- **Climax**: Change. You make the change, with some risk of failure or disaster. 
-- **Resolution**: You contemplate how this change affects you going forward.
+- **발단**: Deciding on the Transformation.
+- **단계**: Research. You look into how the change can be made and what it entails.
+- **단계(들)**: Investigation. This is an active step toward making the change. It might involve getting more information, materials or ingredients, or something else.
+- **절정**: Change. You make the change, with some risk of failure or disaster. 
+- **결말**: You contemplate how this change affects you going forward.
 
-### UNCOVER A SECRET
+### 비밀을 밝힌다
 There is knowledge out there that you want. It could be an attempt to find and learn a specific special ability. This could also be a hunt for a lost password or a key that will open a sealed door, the true name of a devil, the secret background of an important person, or how the ancients constructed that strange monolith.
-- **Opening**: Naming the Secret. You give your goal a name. “I am seeking the lost martial art of the Khendrix, who could slice steel with their bare hands.” 
-- **Step(s)**: Research. You scour libraries and old tomes for clues and information.
-- **Step(s)**: Investigation. You talk to people to gain clues and information.
-- **Step(s)**: Tracking. You track down the source of the secret information and travel to it.
-- **Climax**: Revelation. You find and attempt to use the secret, whatever that entails. 
-- **Resolution**: You contemplate how this secret affects you and the world.
+- **발단**: Naming the Secret. You give your goal a name. “I am seeking the lost martial art of the Khendrix, who could slice steel with their bare hands.” 
+- **단계(들)**: Research. You scour libraries and old tomes for clues and information.
+- **단계(들)**: Investigation. You talk to people to gain clues and information.
+- **단계(들)**: Tracking. You track down the source of the secret information and travel to it.
+- **절정**: Revelation. You find and attempt to use the secret, whatever that entails. 
+- **결말**: You contemplate how this secret affects you and the world.
 
-### UNDO A WRONG
+### 잘못된 것을 되돌린다
 Someone did something horrible, and its ramifications are still felt, even if it happened long ago. You seek to undo the damage, or at least stop it from continuing.
 This is different from the Justice arc because this isn’t about justice (or even revenge)—it’s about literally undoing something bad that happened in the past, such as a great library being burned to the ground, a sovereign people being driven from their land, and so on.
-- **Opening**: Vowing to Put Right What Once Went Wrong.
-- **Step**: Make a Plan. You learn all you can about the situation and then make a plan to put things right.
-- **Step(s)**: Progress. This is an active step toward undoing the wrong. It might involve finding something, defeating someone, destroying something, building something, or almost anything else, depending on the circumstances.
-- **Climax**: Change. You face the challenge of the former wrong, and either overcome it or fail.
-- **Resolution**: You reflect on what you’ve accomplished and think about the future.
+- **발단**: Vowing to Put Right What Once Went Wrong.
+- **단계**: Make a Plan. You learn all you can about the situation and then make a plan to put things right.
+- **단계(들)**: Progress. This is an active step toward undoing the wrong. It might involve finding something, defeating someone, destroying something, building something, or almost anything else, depending on the circumstances.
+- **절정**: Change. You face the challenge of the former wrong, and either overcome it or fail.
+- **결말**: You reflect on what you’ve accomplished and think about the future.

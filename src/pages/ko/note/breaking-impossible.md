@@ -2,6 +2,8 @@
 title: 불가능 부수기
 description: 강제로 주어진 딜레마는 깊은 철학적 고민 따위를 담고 있지 않습니다. TRPG를 재미있게 만드는 창의적 선택과 자유의 의미를 고민합니다.
 layout: ../../../layouts/MainLayout.astro
+createdAt: "2022-11-11T20:34:17.231Z"
+publish: false
 ---
 
 ## 강제로 주어진 딜레마, 혹은 비극

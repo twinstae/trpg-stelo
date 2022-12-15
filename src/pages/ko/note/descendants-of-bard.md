@@ -2,6 +2,8 @@
 title: 음유시인의 후예
 description: TRPG의 태초부터 음유시인은 매력적인 협상가였습니다. 
 layout: ../../../layouts/MainLayout.astro
+createdAt: "2022-11-11T20:34:17.231Z"
+publish: false
 ---
 
 ## 음유시인은 버프 직군인가
