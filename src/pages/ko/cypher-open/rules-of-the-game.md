@@ -895,7 +895,7 @@ Example 2: During a fight, a PC swings their axe and damages a foe with a slice 
 
 (의구심이 들 때, 한 캐릭터가 아크에서 단계를 하나 완료했지만 다른 캐릭터는 그러지 못했다면, 첫 캐릭터는 2점의 경험치를 보상으로 받아야 하고, 하지만 다른 캐릭터도 여전히, 적어도, 1점의 경험치를 세션마다 받게 합니다.)
 
-이 장에서 많은 캐릭터 아크 예시를 제시합니다. (아래를 보십시오.)
+이 장에서 많은 [캐릭터 아크 예시](https://zesty-blancmange-c6d6b3.netlify.app/ko/cypher-open/rules-of-the-game#캐릭터-아크의-예)를 제시합니다. (아래를 보십시오.)
 
 ### GM AWARDS
 Sometimes, a group will have an adventure that doesn’t deal primarily with a PC’s character arc. In this case, it’s a good idea for the GM to award XP to that character for accomplishing other tasks. First and foremost, awards should be based on discovery. Discovery can include finding a significant new location, such as a hidden chamber, a secret fortress, a lost land, a new planet, or an unexplored dimension. In this fashion, PCs are explorers. Discovery can also include a new significant aspect of a setting, such as a secret organization, a new religion, and so on.

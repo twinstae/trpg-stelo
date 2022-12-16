@@ -102,6 +102,10 @@ export const SIDEBAR: Sidebar = {
 		// Topic('프랙탈', '/fractal', [
 		// 	{ text: '잿불 퀵스타트', link: '/quickstart' }
 		// ]),
+		Topic('페이트 코어', '/fate-core', [
+			{ text: '소개', link: '/introduction' },
+			{ text: '1장 기초', link: '/1-basics' },
+		]),
 	])
 };
 
