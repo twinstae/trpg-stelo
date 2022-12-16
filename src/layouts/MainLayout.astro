@@ -142,5 +142,21 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`;
 			</main>
 			<Footer />
 		</div>
+		<script>
+			[...document.getElementById('article')?.querySelectorAll(':is(h1,h2,h3)' ?? [])]
+				.forEach((heading) => {
+					heading.classList.add('group')
+					const anchor = document.createElement('A');
+					anchor.innerText = '#';
+					anchor.setAttribute('href', '#' + heading.id);
+					anchor.setAttribute('class', 'hidden group-hover:inline');
+					anchor.onclick = () => {
+						navigator.clipboard.writeText(location.origin + location.pathname  + anchor.getAttribute('href'))
+							.then(() => { alert('링크를 복사했습니다.\n'+location.origin + location.pathname + anchor.getAttribute('href')) });
+					}
+					heading.appendChild(anchor)
+					
+				})
+		</script>
 	</body>
 </html>
