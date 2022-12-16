@@ -58,7 +58,7 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 								activeId === heading.slug ? 'active' : ''
 							}`.trim()}
 						>
-							<a href={`#${heading.slug}`} className="no-underline">{heading.text}</a>
+							<a href={`#${heading.slug}`} className="no-underline break-words max-w-xs">{heading.text}</a>
 						</li>
 					))}
 			</ul>
