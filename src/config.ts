@@ -105,6 +105,8 @@ export const SIDEBAR: Sidebar = {
 		Topic('페이트 코어', '/fate-core', [
 			{ text: '소개', link: '/introduction' },
 			{ text: '1장 기초', link: '/1-basics' },
+			{ text: '2장 플레이 설정', link: '/2-game-creation' },
+			{ text: '3장 캐릭터 제작', link: '/3-character-creation' },
 		]),
 	])
 };
