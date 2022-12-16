@@ -141,7 +141,7 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`;
 			<Footer />
 		</div>
 		<script>
-			[...document.getElementById('article')?.querySelectorAll(':is(h1,h2,h3)' ?? [])]
+			[...document.getElementById('article')?.querySelectorAll(':is(h1,h2,h3)') ?? []]
 				.forEach((heading) => {
 					heading.classList.add('group')
 					const anchor = document.createElement('A');
