@@ -36,12 +36,11 @@ const url = Astro.site?.pathname + props.link;
 
 	.nav-link a:hover,
 	.nav-link a:focus {
-		background-color: var(--theme-bg-hover);
+		@apply bg-base-200 text-primary-focus;
 	}
 
 	.nav-link a[aria-current='page'] {
-		color: var(--theme-text-accent);
-		background-color: var(--theme-bg-accent);
+		@apply bg-base-200 text-primary-focus;
 		font-weight: 600;
 	}
 
