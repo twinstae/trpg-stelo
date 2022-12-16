@@ -1,12 +1,21 @@
 ---
 
+const isCypher = Astro.url.pathname.includes('cypher-open')
+const isFate = Astro.url.pathname.includes('fate-core')
+const isNumenera = Astro.url.pathname.includes('numenera')
 ---
 
 <footer class="w-full h-fit p-4 text-xs xl:text-sm 2xl:text-base bg-base-200 border-t-2 border-base-300">
-	<div class="w-fit m-auto">
+	{isCypher && <div class="w-fit m-auto">
 		<p>이는 독립적인 자료이며  Monte Cook Games, LLC 와 제휴를 맺지 않았습니다. 이는 Cypher System Open License 하에 공개되었으며, 자세한 내용은 <a href="http://csol.montecookgames.com">http://csol.montecookgames.com</a> 에서 찾아보실 수 있습니다.</p>
 		<p>CYPHER SYSTEM과 Numenera 그 로고는 Monte Cook Games, LLC의 미국과 다른 나라에서 인정 받는 상표입니다. 모든 Monte Cook Games의 캐릭터와 캐릭터 이름, 그리고 그 외견상 특징 역시 Monte Cook Games, LLC의 상표입니다.</p>
-	</div>
+	</div>}
+	{isFate && <div class="w-fit m-auto">
+		<p>페이트 코어 한국어 공개판은 Leonard Balsera, Brian Engard, Jeremy Keller, Ryan Macklin, Mike Olson, Clark Valentine, Amanda Valentine, Fred Hicks, Rob Donoghue가 개발, 저술, 편집한 Evil Hat Productions, LLC 제품 Fate Core System을 크리에이티브 커먼즈 저작자표시 3.0 Unported 라이선스에 의거하여 도서출판 초여명의 김성일이 번역한 작품입니다.</p>
+	</div>}
+	{isNumenera && <div class="w-fit m-auto">
+		<p>© 2022 Monte Cook Games, LLC. 누메네라와 그 로고는 몬티 쿡 게임즈, LLC의 미국과 다른 나라의 상표(trademarks)입니다. 모든 Monte Cook Games, LLC의 캐릭터와 캐릭터 이름, 그리고 구분 가능한 유사성 역시, Monte Cook Games, LLC의 상표입니다. 한국에서는 도서출판 초여명이 허락하에 사용하고 있습니다.</p>
+	</div>}
 </footer>
 
 <style>
