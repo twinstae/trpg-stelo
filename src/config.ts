@@ -107,6 +107,7 @@ export const SIDEBAR: Sidebar = {
 			{ text: '1장 기초', link: '/1-basics' },
 			{ text: '2장 플레이 설정', link: '/2-game-creation' },
 			{ text: '3장 캐릭터 제작', link: '/3-character-creation' },
+			{ text: '4장 면모와 운명점', link: '/4-aspects-and-fate-points' },
 		]),
 	])
 };

@@ -237,6 +237,10 @@ blockquote {
 	line-height: 1.7;
 }
 
+html.theme-dark blockquote {
+	@apply border-2;
+}
+
 img {
 	max-width: 100%;
 }
@@ -365,7 +369,7 @@ table tr td {
 }
 
 .content blockquote ul {
-	list-style: none;
+  list-style: disc;
 }
 
 .highlight-box {
