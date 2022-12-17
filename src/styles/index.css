@@ -121,6 +121,11 @@ em {
 	@apply text-primary;
 }
 
+a.focus,
+a.hover {
+	@apply text-primary-focus;
+}
+
 article > section nav :is(ul, ol) > * + * {
 	margin-top: inherit;
 }
@@ -266,7 +271,7 @@ h2.heading {
 .heading-link {
 	font-size: 1rem;
 	padding: 0.1rem 0 0.1rem 1rem;
-	@apply border-l-4 border-base-300;
+	@apply border-l-4 border-base-200;
 }
 
 .heading-link:hover,
@@ -275,7 +280,7 @@ h2.heading {
 	@apply border-l-4 border-primary bg-base-200 text-primary-focus;
 }
 .heading-link:focus-within {
-	@apply text-primary-focus border-base-300;
+	@apply text-primary-focus border-base-200;
 }
 .heading-link svg {
 	opacity: 0.6;

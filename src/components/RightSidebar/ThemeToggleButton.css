@@ -4,7 +4,7 @@
 	gap: 0.25em;
 	padding: 0.33em 0.67em;
 	border-radius: 99em;
-	@apply bg-base-300;
+	@apply bg-base-200;
 }
 
 .theme-toggle > label:focus-within {
