@@ -36,18 +36,20 @@ const url = Astro.site?.pathname + props.link;
 
 	.nav-link a:hover,
 	.nav-link a:focus {
-		@apply bg-base-200 text-primary-focus;
+		@apply text-primary-focus;
+		--tw-bg-opacity: 1;
+		background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity));
 	}
 
 	.nav-link a[aria-current='page'] {
-		@apply bg-base-200 text-primary-focus;
+		@apply text-primary-focus;
+		--tw-bg-opacity: 0.5;
+		background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity));
 		font-weight: 600;
 	}
 
-</style>
-
-<style is:global>
-	:root.theme-dark .nav-link a[aria-current='page'] {
-		color: hsla(var(--color-base-white), 100%, 1);
+	html.theme-dark .nav-link a[aria-current='page'] {
+		background-color: hsl(var(--b3) / var(--tw-bg-opacity));
 	}
+
 </style>

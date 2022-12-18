@@ -7,7 +7,7 @@ publish: false
 ---
 
 ## 능력의 범주와 상대적인 힘(power)
-능력 can be divided into several categories based on the kinds of things they do—improve your physical 공격s, assist allies, provide defense, give you a special 공격 form, and so on. Under each of the following category descriptions is a list of 능력 that fit that category, sorted into low-, medium-, and high-tier 능력.
+하는 일의 종류에 따라 능력은 몇 가지 범주로 나눌 수 있습니다- 물리적 공격 향상, 동료를 돕기, 방어, 특수 공격, 등등. 아래에서 각 범주들을 설명하고, 이 범주에 맞는 능력의 목록을 저-, 중-, 고-등급 능력 순으로 정렬해두었습니다.
 
 The categories are mainly used by GMs when designing new foci for a campaign, allowing them to search a short list of 능력 instead of trying to find something appropriate among the thousand or so 능력 in this chapter. For example, the GM might have a custom focus in their campaign called “Is Born of the Swamp” and want a defensive ability for tier 5, so they can look at the high-tier 능력 in the protection category and quickly narrow down what options are available.
 

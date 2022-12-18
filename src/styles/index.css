@@ -233,7 +233,9 @@ pre {
 blockquote {
 	margin: 2rem 0;
 	padding: 1.25em 1.5rem;
-	@apply bg-base-200 rounded-2xl;
+	@apply rounded-2xl;
+	--tw-bg-opacity: 0.5;
+	background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity));
 	line-height: 1.7;
 }
 
@@ -281,10 +283,12 @@ h2.heading {
 .heading-link:hover,
 .heading-link:focus,
 .heading-link.active {
-	@apply border-l-4 border-primary bg-base-200 text-primary-focus;
+	@apply border-l-4 border-primary text-primary;
+	--tw-bg-opacity: 0.5;
+	background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity));
 }
 .heading-link:focus-within {
-	@apply text-primary-focus border-base-200;
+	@apply text-primary border-base-200;
 }
 .heading-link svg {
 	opacity: 0.6;
@@ -361,15 +365,19 @@ table tr td {
 
 .numenera-box {
 	@apply p-4 border-2 border-primary;
-	background-color: hsl(var(--p) / 0.25);
+	--tw-bg-opacity: 0.4;
+  background-color: hsl(var(--p) / var(--tw-bg-opacity));
+}
+
+.books img {
+	aspect-ratio: 31 / 40;
 }
 
 .content ul {
-  list-style: disc;
+  list-style-type: disc;
 }
-
-.content blockquote ul {
-  list-style: disc;
+.content ul.list-none {
+  list-style-type: none;
 }
 
 .highlight-box {
