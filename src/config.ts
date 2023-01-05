@@ -53,7 +53,7 @@ export const SIDEBAR: Sidebar = {
 			{ text: '사이퍼', link: '/cyphers' },
 			{ text: '사이퍼 시스템을 운영하는 법', link: '/running-the-cypher-system' }
 		]),
-		Topic('누메네라: 퀵스타트', '/numenera', [
+		Topic('누메네라 퀵스타트', '/numenera', [
 			{ text: '바다의 재', link: '/ashes-of-the-sea' },
 			{ text: '작은 박물지', link: '/mini-bestiary' },
 			{ text: '사전 제작 캐릭터', link: '/pregenerated-characters' },
@@ -61,6 +61,17 @@ export const SIDEBAR: Sidebar = {
 			{ text: '누메네라를 플레이하는 법', link: '/how-to-play-numenera' },
 			{ text: '플레이의 예', link: '/example-of-play' },
 			//  { text: '사냥하는 소리의 첨탑: 퀵스타트', link: '/the-spire-of-the-hunting-sound' },
+		]),
+		Topic('페이트 코어', '/fate-core', [
+			{ text: '소개', link: '/introduction' },
+			{ text: '1장 기초', link: '/1-basics' },
+			{ text: '2장 플레이 설정', link: '/2-game-creation' },
+			{ text: '3장 캐릭터 제작', link: '/3-character-creation' },
+			{ text: '4장 면모와 운명점', link: '/4-aspects-and-fate-points' },
+		]),
+		Topic('철의 맹세', '/ironsworn', [
+			// { text: '소개', link: '/introduction' },
+			{ text: '1장 기초', link: '/1-the-basics' },
 		]),
 		Topic('자작 자료', '/numenera', [
 				{ text: '조화: 확장 규칙', link: '/harmony' },
@@ -102,13 +113,7 @@ export const SIDEBAR: Sidebar = {
 		// Topic('프랙탈', '/fractal', [
 		// 	{ text: '잿불 퀵스타트', link: '/quickstart' }
 		// ]),
-		Topic('페이트 코어', '/fate-core', [
-			{ text: '소개', link: '/introduction' },
-			{ text: '1장 기초', link: '/1-basics' },
-			{ text: '2장 플레이 설정', link: '/2-game-creation' },
-			{ text: '3장 캐릭터 제작', link: '/3-character-creation' },
-			{ text: '4장 면모와 운명점', link: '/4-aspects-and-fate-points' },
-		]),
+	
 	])
 };
 

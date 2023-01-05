@@ -167,6 +167,8 @@ NPC가 체력 0에 이르면, 죽거나 (공격자가 바란다면) 무력화되
 
 
 <div class="numenera-box">
+<div>
+<div>
 
 ### 부상 트랙
 **건강**은 캐릭터에게 기본 상태입니다: 모든 세 특성치 역량이 최소 1 이상이고, PC는 해로운 상태에서 제한을 받는 것도 없습니다. 만약 건강한 PC가 특성치 역량 중에 하나를 0으로 줄이기에 충분한 피해를 입게 되면, 중상을 입습니다. 캐릭터의 특성치 역량이 기본 상태보다 아무리 낮아져도, 여전히 건강할 수 있다는 걸 유의하십시오.
@@ -187,6 +189,9 @@ NPC가 체력 0에 이르면, 죽거나 (공격자가 바란다면) 무력화되
 
 **사망**은 죽은 것입니다.
 
+
+</div>
+</div>
 </div>
 
 힘 역량, 속력 역량, 혹은 지성 역량에서 피해를 받는 것에 더해서, PC들은 부상 트랙도 가지고 있습니다. 부상 트랙은 네 가지 상태를 가지고 있습니다. (최상에서 최악까지): 건강, 중상, 치명상, 사망. PC의 특성치 역량 중에 하나가 0이 되면, 그 캐릭터는 부상 트랙을 한 단계 내립니다. 그래서 건강하다면, 중상이 됩니다. 이미 중상이라면 치명상이 됩니다. 이미 치명상이라면 사망합니다.
@@ -194,6 +199,8 @@ NPC가 체력 0에 이르면, 죽거나 (공격자가 바란다면) 무력화되
 몇몇 효과는 즉시 PC의 부상 트랙을 한 단계나 그 이상을 밀 수 있습니다. 이는 희귀한 독이나, 세포 파괴 공격, 그리고 막중한 트라우마 (매우 높은 곳에서 떨어지거나, 달리는 운송 수단에 깔리거나, 등등, 마스터가 결정합니다)등을 포함합니다. 뱀이 물 때의 독, 동명 기계나 폭발하는 챌릭의 분비물 같은 몇몇 공격은 특성치 역량이나 PC의 부상 트랙을 미는 것과는 다른 효과를 가집니다. 이런 공격은 의식 불명이나 마비, 기타 등등을 일으킵니다.
 
 <div class="numenera-box">
+<div>
+<div>
 
 ### 사물 부상 트랙
 
@@ -215,6 +222,8 @@ damage track. If the Might roll exceeded the
 difficulty by 4 levels, the object instead moves
 three steps down the object damage track.
 
+</div>
+</div>
 </div>
 
 ### 역량 점수 회복하기
@@ -310,6 +319,8 @@ unexpected difficulty or something unrelated
 affects the current situation.
 
 <div class="numenera-box">
+<div>
+<div>
 
 ## 협동
 If you use your action to help someone with a task, you ease the task. If you have an inability in a task, your help has no
@@ -319,6 +330,8 @@ that help is provided by another character.
 For example, if Veterian the Glaive is trying to climb a steep incline and Jethua the Jack (who is trained in climbing)
 spends her turn helping him, Veterian can decrease the difficulty of the task by two steps.
 
+</div>
+</div>
 </div>
 
 > Help is considered an asset, and someone receiving help usually can’t gain more than two assets on a single task if that help is provided by another character. 

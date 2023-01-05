@@ -207,6 +207,8 @@ In areas with ambient sound, these automatons require no sustenance and operate 
 
 
 <div class="numenera-box">
+<div>
+<div>
 
 ### MELU BOX (ARTIFACT)
 
@@ -224,6 +226,8 @@ themselves.
 
 **Depletion**: 1 in 1d10
 
+</div>
+</div>
 </div>
 
 ## NULL-CAT 7 (21)

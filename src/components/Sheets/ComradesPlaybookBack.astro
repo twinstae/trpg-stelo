@@ -1,0 +1,71 @@
+---
+
+const { title } = Astro.props;
+---
+
+<article class="comrades-sheet paper-a4 border-2 mx-auto grid grid-cols-2 p-16" style="width: 1248px; height:882px;">
+  <div>
+    <h3>이름:</h3>
+  </div>
+  <div class="flex flex-col gap-4">
+    <div>
+      <header class="text-center">
+        <h3>{title} 무브</h3>
+        <p class="mt-1"><em>Medium과 함께 하나를 고릅니다.</em></p>
+      </header>
+      <div class="columns-2 w-full">
+        <h4>● MEDIUM</h4>
+        Choose your medium. When taking a risk, add 1
+        to the roll if the situation calls for…
+        <ul>
+          <li class="list-none">❍ Theater: Deception</li>
+          <li class="list-none">❍ Dance: Dexterity</li>
+          <li class="list-none">❍ Poetry: Grace</li>
+          <li class="list-none">❍ Sculpture: Strength</li>
+          <li class="list-none">❍ Painting: Perception</li>
+          <li class="list-none">❍FIGHT SONG</li>
+        </ul>
+        When you use your art to inspire a comrade in a
+        dangerous situation, roll with bond. On a 10+,
+        they pick two from this list and carry the bonuses
+        until the danger is done. On a 7-9, they pick one.
+        • They deal more harm
+        • They take less harm
+        • They gain speed
+        <h4>❍ ART THERAPY</h4>
+        Roll with spirit to soothe an injured comrade. On
+        a 10+, they heal 1 harm. On a 7-9, they heal 1
+        harm, but you expose yourself to danger.
+        <h4>❍ ARTISTIC LICENSE</h4>
+        When asking, “what’s going on here?”, you
+        may make up your own questions instead of
+        choosing from the list.
+        <h4>❍ NEVER PLAY IT SAFE</h4>
+        Before making a move, you may ask the GM what
+        you could do to make the situation more risky. If
+        you do what they say, add 1 to the roll.
+        <h4>❍ MIXED MEDIA</h4>
+        Expand your oeuvre. Take another of the medium
+        moves.
+        <h4>❍ LIKE ONE OF YOUR FRENCH GIRLS</h4>
+        When you lean on your artistic sensibility while
+        attempting to seduce, charm or sway, carry 1
+        forward.
+      </div>
+    </div>
+    <div>
+      <header class="text-center">
+        <h3>다른 무브</h3>
+      </header>
+    </div>
+  </div>
+</article>
+
+<style>
+  .comrades-sheet .break-column {
+    break-before: column;
+  }
+  .comrades-sheet h3:first-child {
+    margin-top: 0;
+  }
+</style>

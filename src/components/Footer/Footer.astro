@@ -15,6 +15,11 @@ const isBase = (base: string) => Astro.url.pathname.includes(base);
 			<p>페이트 코어 한국어 공개판은 Leonard Balsera, Brian Engard, Jeremy Keller, Ryan Macklin, Mike Olson, Clark Valentine, Amanda Valentine, Fred Hicks, Rob Donoghue가 개발, 저술, 편집한 Evil Hat Productions, LLC 제품 Fate Core System을 크리에이티브 커먼즈 저작자표시 3.0 Unported 라이선스에 의거하여 도서출판 초여명의 김성일이 번역한 작품입니다.</p>
 		</div>
 	)
+	: isBase('ironsworn') ? (
+		<div class="w-fit m-auto">
+			<p>This work is based on <a href="www.ironswornrpg.com">Ironsworn</a>, created by Shawn Tomkin, and licensed for our use under the <a href="creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license</a>.</p>
+		</div>
+	) 
 	: isBase('numenera') ? (
 		<div class="w-fit m-auto">
 			<p>© 2022 Monte Cook Games, LLC. 누메네라와 그 로고는 몬티 쿡 게임즈, LLC의 미국과 다른 나라의 상표(trademarks)입니다. 모든 Monte Cook Games, LLC의 캐릭터와 캐릭터 이름, 그리고 구분 가능한 유사성 역시, Monte Cook Games, LLC의 상표입니다. 한국에서는 도서출판 초여명이 허락하에 사용하고 있습니다.</p>

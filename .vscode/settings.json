@@ -2,4 +2,5 @@
   "deno.lint": true,
   "deno.fmt": true,
   "deno.enablePaths": ["./src/deno_script"],
+  "eslint.runtime": "node"
 }

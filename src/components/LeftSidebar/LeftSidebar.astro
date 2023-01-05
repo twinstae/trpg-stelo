@@ -17,9 +17,9 @@ const sidebar = SIDEBAR[langCode];
     <NavLink link="ko/welcome" text="입구" />
     <br />
     {
-      Object.entries(sidebar).map(([header, children], index) => (
-        <li class="focus-within:border-2 border-primary rounded-lg m-0">
-          <div class="nav-group">
+      Object.entries(sidebar).map(([groupTitle, children], index) => (
+        <li class="border-2 focus-within:border-primary border-base-100 rounded-lg m-0">
+          <div class="nav-group" aria-labelledby={'nav-group-header-' + index}>
             <div class="collapse collapse-arrow">
               <input id={'nav-group-checkbox-'+index} type="checkbox" onchange={`
                 const links = document.getElementById('nav-group-list-' + ${index})
@@ -29,12 +29,10 @@ const sidebar = SIDEBAR[langCode];
                 Array.from(links).forEach(link => {
                   link.setAttribute('tabindex', tabindex);
                 });
-              `} checked={!children.every(child => '/'+child.link !== Astro.url.pathname)}/>
-              <div class="collapse-title">
-                <label for={'nav-group-checkbox-'+index} class="w-full cursor-pointer">
-                  <h2 id={'nav-group-header-' + index} class="mb-0">{header}</h2>
-                </label>
-              </div>
+              `} checked={!children.every(child => '/' + child.link !== Astro.url.pathname)}/>
+              <label for={'nav-group-checkbox-'+index} class="collapse-title cursor-pointer">
+                <header id={'nav-group-header-' + index} class="mb-0 text-3xl font-bold">{groupTitle}</header>
+              </label>
               <div class="collapse-content">
                 <ul id={'nav-group-list-' + index} aria-labelledby={'nav-group-header-' + index}>
                   {children.map((child) => (
@@ -49,15 +47,6 @@ const sidebar = SIDEBAR[langCode];
     }
   </ul>
 </nav>
-
-<script is:inline>
-  window.addEventListener('DOMContentLoaded', () => {
-    var target = document.querySelector('[aria-current="page"]');
-    if (target && target.offsetTop > window.innerHeight - 100) {
-      document.querySelector('.nav-groups').scrollTop = target.offsetTop;
-    }
-  });
-</script>
 
 <style>
   nav {

@@ -8,7 +8,7 @@ interface Props {
 const { character } = Astro.props;
 ---
 
-<div class="flex flex-col md:flex-row w-full text-center gap-1">
+<div class="flex flex-col md:flex-row w-full text-center gap-1 py-4" style="aspect-ratio: 297 / 210">
   <div class="column">
     <div class="p-2 overflow-auto">
       <h3>특수 능력</h3>
@@ -297,7 +297,7 @@ const { character } = Astro.props;
 <style>
   .column {
     width: 100%;
-    height: 40rem;
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
@@ -312,7 +312,6 @@ const { character } = Astro.props;
     .column {
       width: 33.333333%;
       max-width: 100%;
-      height: 44rem;
     }
   }
 </style>

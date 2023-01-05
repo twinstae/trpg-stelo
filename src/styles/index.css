@@ -62,7 +62,8 @@ h3,
 h4,
 h5,
 h6 {
-	margin-bottom: 1rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 	line-height: 1;
 }
 
@@ -92,7 +93,8 @@ h4 {
 }
 
 p {
-	line-height: 1.65em;
+	line-height: 1.4em;
+	margin-bottom: 0.5rem;
 }
 
 /* .content ul {
@@ -179,9 +181,20 @@ a > code::before {
 	display: block;
 }
 
+.paper-a4 {
+	width: 1248px;
+	height:882px;
+	break-before: page;
+}
+
 a:focus {
 	outline: 2px solid currentColor;
 	outline-offset: 0.25em;
+}
+
+.collapse-arrow .collapse-title:after {
+	width: 0.75rem;
+	height: 0.75rem;
 }
 
 strong {
@@ -364,9 +377,28 @@ table tr td {
 }
 
 .numenera-box {
-	@apply p-4 border-2 border-primary;
-	--tw-bg-opacity: 0.4;
-  background-color: hsl(var(--p) / var(--tw-bg-opacity));
+	@apply bg-primary p-1;
+	--tw-bg-opacity: 0.8;
+}
+.numenera-box > div {
+	@apply border-8 border-primary bg-base-100;
+	--tw-border-opacity: 0.2;
+	clip-path: polygon(
+    0 16px,
+    16px 0,
+    calc(100% - 16px) 0,
+    100% 16px,
+    100% calc(100% - 16px),
+    calc(100% - 16px) 100%,
+    16px 100%,
+    0% calc(100% - 16px),
+    0% 16px
+  )
+}
+.numenera-box > div > div{
+	@apply bg-primary;
+	padding: 0.5rem;
+	--tw-bg-opacity: 0.2;
 }
 
 .books img {
@@ -381,7 +413,8 @@ table tr td {
 }
 
 .highlight-box {
-	@apply border-primary p-4 border-y-2;
+	@apply border-primary p-4;
+	border-block-width: 2px;
 	background-image: linear-gradient(0.25turn, hsl(var(--b1)), hsl(var(--p) / 0.3), hsl(var(--p) / 0.3), hsl(var(--p) / 0.3), hsl(var(--b1)));
 }
 

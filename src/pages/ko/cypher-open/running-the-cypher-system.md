@@ -5,7 +5,8 @@ layout: ../../../layouts/MainLayout.astro
 createdAt: "2022-11-11T20:34:17.231Z"
 publish: false
 ---
-## Setting Difficulty Ratings
+
+## 난이도 정하기
 
 The GM’s most important overall tasks are setting the stage and guiding the story created by the group (not the one created by the GM ahead of time). But setting difficulty is the most important mechanical task the GM has in the game. Although there are suggestions throughout this chapter for various difficulty ratings for certain actions, there is no master list of the difficulty for every action a PC can take. Instead, the Cypher System is designed with the “teach a person to fish” style of good game mastering in mind. (If you don’t know what that means, it comes from the old adage “Give a person a fish and they’ll eat for a day. Teach a person to fish and they’ll eat for a lifetime.” The idea is not to give GMs a ton of rules to memorize or reference, but to teach them how to make their own logical judgment calls.) Of course, most of the time, it’s not a matter of exact precision. If you say the difficulty is 3 and it “should” have been 4, the world’s not over.
 

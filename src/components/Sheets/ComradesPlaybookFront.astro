@@ -1,0 +1,57 @@
+---
+
+const { title, description, playing, names, appearance } = Astro.props;
+---
+
+<article class="comrades-sheet paper-a4 border-2 mx-auto flex flex-col" style="width: 1248px; height:882px;">
+  <div class="w-full flex-1 grid grid-cols-2 pl-16 pt-8 pr-8">
+    <div class="grid grid-cols-2 pr-16">
+      <div>
+        <h3>{title} 플레이하기</h3>
+        {playing.split('\n').map((paragraph: string) => <p class="mt-4">{paragraph}</p>)}
+        
+      </div>
+      <label>
+        <h3>노트</h3>
+        <textarea class="w-full h-3/4" />
+      </label>
+    </div>
+    <div>
+      <img class="w-3/4 float-right" src="/THE ARTIST.webp" />
+    </div>
+  </div>
+  <header class="w-full h-18 text-white bg-red-700 p-1 grid grid-cols-2">
+    <div></div>
+    <div class="text-center flex flex-col">
+      <h2 class="text-4xl font-bold mb-0">{title}</h2>
+      <p>{description}</p>
+    </div>
+  </header>
+  <div class="w-full flex-1 grid grid-cols-2 px-16 py-8">
+    <label class="pr-16 pb-8">
+      <h3>혁명 행동의 역사</h3>
+      <textarea class="w-full h-full" />
+    </label>
+    <div class="flex flex-col justify-between">
+      <label class="w-full">
+        <h3>이름:</h3>
+        <p><em>하나를 고르거나, 직접 쓰세요. {names}</em></p>
+        <input type="text" class="w-full" />
+      </label>
+      <label class="w-full">
+        <h3>외모:</h3>
+        <p><em>하나를 고르거나, 직접 쓰세요. {appearance}</em></p>
+        <input type="text" class="w-full" />
+      </label>
+      <label class="w-full">
+        <h3>성격:</h3>
+        <p><em>하나를 고르거나, 직접 쓰세요. 충격적, 터무니 없는, 침울한, 음침한, 도발적인, 로맨틱.</em></p>
+        <input type="text" class="w-full" />
+      </label>
+      <label class="w-full">
+        <h3>플레이어 이름:</h3>
+        <input type="text" class="w-full" />
+      </label>
+    </div>
+  </div>
+</article>

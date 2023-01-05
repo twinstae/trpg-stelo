@@ -81,14 +81,14 @@ publish: false
 
 행동마다 특정 특성치의 재능은 한 번만 쓸 수 있습니다. 예를 들어 힘 공격에 분발을 하고 피해에도 분발을 하면, 힘 재능은 두 분발 중에 하나의 비용만 낮출 수 있고, 둘 다는 안 됩니다. 만약 지성 1점을 써서 정신 쇄도를 발동 시키고, 공격 판정에 분발을 한 단계 해서 난이도를 낮추면, 지성 재능은 둘 중 하나의 비용만 낮출 수 있고, 둘 다는 안 됩니다.
 
-## 특성치 예시
+### 특성치 예시
 시작하는 캐릭터가 거대 쥐랑 싸우고 있습니다. PC는 쥐에게 창을 찌르는데, 쥐는 2레벨 생물이라 목표치는 6입니다. 캐릭터는 높은 곳에 서서 아래로 생물을 찌르고 있기 때문에, 마스터는 이는 도움이 되는 전술이라 보탬으로 치고 공격의 난이도를 한 단계 낮춥니다. (난이도 1이 됩니다) 목표치는 3으로 낮아집니다. 창으로 공격하는 건 힘 행동입니다. 캐릭터는 힘 역량이 11이고 힘 재능은 0입니다. 판정을 하기 전에 한 단계 분발을 해서 공격의 난이도를 낮추기로 합니다. 이는 힘 역량에서 3점이 들고, 역량은 8으로 떨어집니다. 하지만 점수를 잘 썼습니다. 분발이 난이도를 1에서 0으로 낮추고, 따라서 판정은 필요 없습니다-공격은 자동으로 성공합니다.
 
 다른 캐릭터는 영향력 있는 귀족과 이야기하기 위해 경비를 설득해서 개인 사무실로 들어가게 해달라고 합니다. 마스터는 이게 지성 행동이라 판단합니다. 캐릭터는 3등급이고 분발이 3이며, 지성 역량은 13, 그리고 지성 재능은 1입니다. 판정을 하기 전에, 분발을 할지 말지 정해야 합니다. 분발을 한 단계, 두 단계, 세 단계 하거나, 분발하지 않는 것 중에 골라야 합니다. 이 행동은 중요하기 때문에, 분발을 두 단계해서, 일의 난이도를 두 단계 낮추기로 합니다. 지성 재능 덕분에 분발에는 지성 역량에서 4점만 듭니다. (첫 분발에 3점, 두 번째 분발에 2점이고 여기서 재능으로 1점을 뺍니다) 점수를 소모해서 지성 역량은 9로 줄어듭니다. 마스터는 경비를 설득하는 게 난이도 3(까다로움)짜리 일이고 목표치는 9라고 정합니다. 분발을 두 단계 했으니 난이도는 1(간단)으로 떨어지며 목표치는 3이 됩니다. 플레이어는 20을 굴리고 8이 나옵니다. 이 결과는 목표치 이상이기 때문에, 성공합니다. 하지만 분발을 하지 않았다면 굴림(8)이 원래 목표치(9)보다 낮기 때문에 실패했을 겁니다.
 
 
-## 캐릭터 등급(Tier)
-Every character starts the game at the first tier. Tier is a measurement of power, toughness, and ability. Characters can advance up to the sixth tier. As your character advances to higher tiers, you gain more abilities, increase your Effort, and can improve a stat’s Edge or increase a stat. Generally speaking, even first-tier characters are already quite capable. It’s safe to assume that they’ve already got some experience under their belt. This is not a “zero to hero” progression, but rather an instance of competent people refining and honing their capabilities and knowledge. Advancing to higher tiers is not really the goal of Cypher System characters, but rather a representation of how characters progress in a story.
+## 캐릭터 등급
+모든 캐릭터는 1등급으로 게임을 시작합니다. 등급은 힘, 끈질김, 그리고 능력의 단위입니다. 캐릭터는 6등급까지 올라갈 수 있습니다. 캐릭터가 더 높은 등급으로 올라갈 수록, 더 많은 능력을 얻고, 분발 단계를 높이고, 특성치의 재능이나 역량을 향상시킬 수도 있습니다. 일반적으로 말하자면, 1등급 캐릭터도 이미 꽤 유능합니다. 이미 어느 정도 경험이 쌓였다고 가정해도 좋습니다. "밑바닥에서 영웅으로" 나아가는 것이 아니라, 유능한 사람들이 역량과 지식을 정련하고 갈고 닦는 것에 가깝습니다. 더 높은 등급으로 올라가는 것은 사이퍼 시스템 캐릭터의 진정한 목표는 아니며, 그보다는 이야기 속에서 캐릭터가 어떻게 성장했는지를 나타내는 것입니다.
 
 To progress to the next tier, characters earn experience points (XP) by pursuing character arcs, going on adventures, and discovering new things—the system is about both discovery and exploration, as well as achieving personal goals. Experience points have many uses, and one use is to purchase character benefits. After your character purchases four character benefits, they advance to the next tier. Each benefit costs 4 XP, and you can purchase them in any order, but you must purchase one of each kind of benefit (and then advance to the next tier) before you can purchase the same benefit again. The four character benefits are as follows.
 
