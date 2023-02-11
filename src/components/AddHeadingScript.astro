@@ -7,7 +7,7 @@
       anchor.setAttribute('href', '#' + heading.id);
       anchor.setAttribute('class', 'hidden group-hover:inline');
       anchor.onclick = () => {
-        navigator.clipboard.writeText(location.origin + location.pathname  + anchor.getAttribute('href'))
+        navigator.clipboard.writeText(encodeURI(location.origin + location.pathname  + anchor.getAttribute('href')))
           .then(() => { alert('링크를 복사했습니다.\n'+location.origin + location.pathname + anchor.getAttribute('href')) });
       }
       heading.appendChild(anchor)

@@ -1,0 +1,41 @@
+---
+type Z_TO_N = '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9';
+type ZZ_TO_NN = `${Z_TO_N}${Z_TO_N}`;
+type RangeT = `${ZZ_TO_NN}-${ZZ_TO_NN}`;
+
+type Left = RangeT | ZZ_TO_NN;
+
+export type Props = {
+	cols: number;
+	table: Record<Left, string>;
+}
+
+const {cols, table} = Astro.props;
+
+const data = Object.entries(table).sort((a,b) => a[0].localeCompare(b[0]));
+const rowsCount = Math.ceil(data.length / cols);
+---
+
+<div class="p-8 flex flex-col gap-4">
+  <table class="table table-compact w-fit shadow-md">
+    <!-- head -->
+    <thead>
+      <tr>
+				{Array.from({ length: cols }, () => (
+					<th>값</th>
+					<th>결과</th>
+				))}
+      </tr>
+    </thead>
+    <tbody>
+      {data.slice(0, rowsCount).map((_, i)=> (
+				<tr>
+					{Array.from({ length: cols }, (__, j) => (
+						<th>{data[i + rowsCount*j]?.[0]}</th>
+						<td>{data[i + rowsCount*j]?.[1]}</td>
+					))}
+				</tr>
+			))}
+    </tbody>
+  </table>
+</div>

@@ -323,50 +323,11 @@ PC들은 아직 모르지만, 자세히 이 구조물에서 누메네라를 탐�
 
 누메네라 이해에 익숙한 PC가 10분 정도 홀로그램과 상호작용하며 시행착오를 하면 레벨 5짜리 누메네라 이해하기 판정을 할 수 있습니다. 한 번 연결이 만들어지면, PC는 또 다시 10분을 들여서 이곳에 저장된 일종의 정보에 접근할 수 있고, 이는 깊은 땅 속에 있는 힘의 원천을 통제하고 어디로 보낼지에 대한 것으로 보입니다. 이 중 한 홀로그램 도표는 대강 이 계곡의 지형도와 유사하며, 지도 위에 철탑들을 나타내는 50개의 기호들이 있습니다. 계곡의 남쪽 끝에 있는 철탑 하나는 다른 것과 매운 다른 기호를 가지고 있습니다; 이 기호가 무엇을 뜻하는지 PC들은 매우 초보적인 수준으로만 이해하지만, 마을 사람들과 장로들이 남쪽 철탑이 "노래를 멈췄다"고 이야기했었다면, 이 유일한 기호가 동작하지 않는 철탑을 나타낸다고 생각하는 건 타당한 추측입니다. 이 홀로그램 인터페이스를 이해하는 PC는 10분을 들여서 작동을 멈춘 철탑으로 동력을 재연결하기를 시도해볼 수 있습니다. 만약 레벨 5의 누메네라 이해하기 판정을 하고, 성공한다면, 기호는 다른 철탑과 같이 변합니다. (비슷한 방식으로 작동 중인 철탑을 꺼버릴 수도 있습니다.)
 
-If the PCs have salvaged the navigation dome
-(area 1) or the dimensional interface dome (area
-4), they might briefly see a holographic warning
-image here showing a dome with a flashing
-diagram of the missing device or devices (which
-they recognize as the object they claimed or
-disassembled from that dome).
-Salvage: The systems controlled in this dome
-are delicately connected to the functioning of
-the pylons, and reckless salvage here means
-about one-third of the pylons shut down. With
-a successful salvaging roll, the PCs can acquire
-a functional power battery and 1d10 shins; they
-also recognize there are two other devices here
-that they could remove and use as cyphers, but
-trying to loosen them triggers warnings on the
-holographic interface. If the PCs stop salvaging
-those two devices and push them back into
-place, the warnings stop. If the PCs decide to loot
-those two cyphers anyway, 20 of the pylons shut
-down. The PCs can reactivate five of those pylons
-by using the holographic interface to reroute
-power (a level 5 understanding numenera task),
-but the loss of so many active pylons greatly
-reduces the system’s ability to protect the valley,
-with dangerous long-term consequences for the
-villagers. Reattaching a removed device is a level 5
-crafting numenera task; if both are reattached, the
-pylons regain power after 1d10 minutes.
-The salvaged power battery is a squared-off
-cylinder the length of a human forearm, with
-rows of blue crystal lights along the length,
-apertures at both ends, and a tendency to heat
-up for a few seconds before returning to room
-temperature again. If the PCs don’t care about
-keeping the power battery functional, they can
-disassemble it for 1d2 responsive synth and 5 io
-and a random cypher.
+PC가 항법 돔(구역1)이나 차원 인터페이스 돔(구역4)을 탐색했다면, 여기에 홀로그램 경고 이미지가 나타나면서 돔에서 사라진 장치(해당 돔에서 분실 또는 분해한 것으로 인식되는 장치)를 나타내는 도표가 깜빡이는 걸 잠시 보게 됩니다.
 
-> A PC who fails a task
-can usually try again,
-but they must apply
-Effort on any attempts
-after the first one.
+탐색: 이 돔에서 제어하는 시스템은 철탑의 기능과 섬세하게 연결되어 있으며, 무모하게 탐색하면 철탑의 약 3분의 1이 정지하게 될 수도 있습니다. 탐색에 성공하면 PC는 작동하는 배터리와 1D10 쉰을 획득할 수 있으며, 여기에 사이퍼로 사용할 수 있는 다른 장치 두 개가 있다는 것도 알아채지만 떼어내려고 하면 홀로그램 인터페이스에 경고가 표시됩니다. PC가 이 두 장치를 도굴하는 걸 그만두고 다시 제자리에 밀어 넣으면 경고가 멈춥니다. 그럼에도 불구하고 PC가 두 개의 사이퍼를 도굴하기로 결정하면 20개의 철탑이 모두 꺼집니다. PC는 홀로그램 인터페이스를 사용하여 전원을 다시 중개하여 5개의 철탑을 다시 활성화할 수 있지만(누메네라 이해 5 레벨 일), 활성된 철탑이 너무 많이 사라지면 계곡을 보호하는 시스템의 능력이 크게 떨어져서 마을 주민들에게 장기적으로 위험한 결과를 초래할지도 모릅니다. 제거된 장치를 다시 부착하는 것은 5레벨 누메네라 제작 일이며, 두 장치를 모두 다시 돌려놓으면 철탑은 1d10분 후에 전력을 회복합니다. 탐색한 배터리는 사람 팔뚝 길이의 정사각형 원통형이며, 선을 따라 파란색 수정 빛이 줄지어 있고 양쪽 끝에 구멍이 있으며 몇 초 동안 뜨거워졌다가 다시 상온으로 돌아가고는 합니다. PC가 배터리의 기능을 유지할 생각이 없다면, 이를 분해하여 1d2 반응형 신스와 5개의 아이오 및 무작위 사이퍼를 얻을 수 있습니다.
+
+> PC가 일에 실패해도 보통 다시 시도할 수 있지만, 첫 시도 뒤에는 꼭 분발을 해야 합니다.
 
 ### 3. 역사 기록
 이 돔은 다른 것들보다 약간 작고 동굴의 남서쪽 벽 근처에 위치해 있습니다. 문은 열려 있고 문 같은 것이 있지도 않은 것 같습니다. 껍질눈이 동굴에서처럼 내부의 바닥을 덮고 있지만, 동물이 사는 것 같진 않으며, 그래서인지 한결같이 창백합니다. 지금은 껍질눈에 흠 하나 없고 (이 구조물에 설치된 기계가 문이 열려 있는데도 동물들을 멀리 쫓아냅니다) 그 표면도 부드럽습니다.  (여기 왔던 인간의 흔적은 아마도 이 지역의 지진으로 수 천년에 걸쳐 지워졌을 겁니다)
@@ -375,305 +336,87 @@ after the first one.
 
 이 메세지는 기억인 것처럼 느껴지지만, PC가 개인적으로 경험한 것은 분명히 아니고, 이야기는 기이하고 분열되어 있습니다.
 
-*껍질이 단단한 바다 생물을 닯은 거대하고 창백한 동물들이 청동색 띠와 임플란트로 장식되어 있습니다. 검은 점들의 바다가 붉은 배경 아래 암갈색으로 소용돌이칩니다. 시간이 흐르는 감각. 푸른 구가 빨강 안에 나타납니다. 고통. 추위. 거대한 바다 생물은 보이지 않는 무게를 견디며 분투합니다. 죽습니다. 작은 바다 생물들이 그 금속과 살을 파먹고, 작은 조각을 곳곳에 남깁니다. 어둠 속에 푸른 빛. 청동빛 돔들이 조약돌처럼 흩어져 있습니다. 시간. 피곤함. 잠.*
+*껍질이 단단한 바다 생물을 닯은 거대하고 창백한 동물들이 청동색 띠와 임플란트로 장식되어 있습니다. 붉은 배경에 검은 반점들이 소용돌이치는 바다. 시간이 흐르는 감각. 푸른 구가 빨강 안에 나타납니다. 고통. 추위. 보이지 않는 무게에 맞서 몸부림치는 거대한 바다 생물들. 죽습니다. 작은 바다 생물들이 그 금속과 살을 파먹고, 작은 조각을 곳곳에 남깁니다. 어둠 속 푸른 빛. 조약돌처럼 흩어진 청동 돔. 시간. 피로. 잠.*
 
-*Huge pale animals resembling hard-shelled sea creatures, harnessed with bands and implants of bronze. A sea of black spots against a red background, whorled with umber. A sensation of time passing. A blue sphere appearing in the red. Pain. Cold. The great sea creatures struggling against an invisible weight. They die. Smaller sea creatures dismantle their metal and flesh, leaving tiny fragments everywhere. A blue light in darkness. Bronze domes scattered like pebbles. Time. Weariness. Sleep.*
+> **마스터 개입 제안:** 한 대의 PC가 이 정신 메시지에 부정적인 반응을 보이며, 지성 방어 판정 5 레벨을 성공하지 못하면 다음 10분 동안 모든 지성 기반 일의 난이도가 한 단계 높아집니다.
+> 
+PC는 이 메시지를 원하는 만큼 반복할 수 있으며, 재생할 때마다 일부 세부 사항은 약간씩 변경되지만 전체적인 이야기는 기본적으로 동일합니다. 이 건물이 다른 일을 하게 만들 수는 없습니다. 역사 기록 보관소에 10분 이상 아무도 없으면 광선이 멈추고 수정의 빛도 어둠으로 돌아갑니다.
 
-> **마스터 개입 제안:** One PC has an adverse reaction to this psychic message, and must succeed at a level 5 Intellect defense roll or have all Intellectbased tasks hindered for the next ten minutes.
-
-The PCs can repeat this message as often as they want, and some details change slightly each time it is played, but the overall story is basically the same. They can’t make this building do anything else. If nobody is in the Historical Archive for ten minutes or more, the beams stop and the crystal lights go dark.
-
-Salvage: There is no numenera in this dome that is essential to the functioning of the Icon or the pylons, so the PCs can salvage things to their hearts’ content without worrying about endangering the villagers. With a successful salvaging roll, the PCs can acquire a random cypher and 1d10 shins.
+탐색: 이 돔에는 우상이나 철탑의 기능에 필수적인 누메네라가 없으므로, 플레이어는 마을 주민을 위험에 빠뜨릴 염려 없이 마음껏 물건을 탐색할 수 있습니다. 탐색에 성공하면 플레이어는 무작위 사이퍼와 1d10 쉰을 획득할 수 있습니다.
 
 ### 4. 차원 장 조절기
-This dome is located near the center of the cave,
-and is surrounded by several clusters of vertical
-bronze-metal pipes, similar to the valley pylons,
-but only twice as tall as a human. When the
-door to this dome opens, the first thing the PCs
-notice is a human figure on the floor, dressed in
-explorer’s clothing, its flesh withered away in the
-dry air so that it almost looks mummified.
-A few seconds after the door opens, a
-holographic interface appears in the air, gently
-illuminating the interior of the dome and
-revealing that one of the wall panels has been
-pried open, revealing some of the numenera
-built into the dome. There is no obvious cause
-of death for the dead explorer (no wounds or
-obvious trauma), but the body has been here so
-many years that something subtle might have
-killed this person and the signs of it faded over
-the years. The body has a set of small tools and
-several knives.
 
-Interacting with the holographic interface takes
-ten minutes and a successful understanding
-numenera roll. The machines appear to create,
-contain, and adjust exotic energy fields that
-resonate at different frequencies. Each of those
-frequencies corresponds to one entry in a long
-list, but what those entries mean is something
-the PCs can’t decipher.
+이 돔은 동굴 중앙 근처에 위치하고 있으며 계곡 철탑과 비슷하지만 사람 키의 두 배에 불과한 여러 개의 수직 청동 금속 파이프들로 둘러싸여 있습니다. 이 돔의 문이 열리면 PC가 가장 먼저 발견하는 것은 탐험가 복장을 한 채 바닥에 누워 있는 인간의 형상이며, 건조한 공기 속에서 살이 말라 미라처럼 보입니다. 문이 열리고 몇 초 후 홀로그램 인터페이스가 공중에 나타나 돔 내부를 은은하게 비추며, 벽 패널 중 하나가 열리고 돔에 내장된 누메네라가 일부 드러납니다. 죽은 탐험가의 사인은 분명하지 않지만(상처나 명백한 외상은 없음), 시신이 오랫동안 이곳에 있었기 때문에 미묘한 무언가가 이 사람을 죽였을 수 있고 그 흔적은 수년에 걸쳐 희미해졌습니다. 시신에는 작은 도구 세트와 칼 몇 개가 있었습니다.
 
-Salvage: The systems controlled in this dome
-help regulate the functions built into the pylons,
-and careless salvage here means the pylons
-become much less effective at protecting the
-valley. With a successful salvaging roll, the PCs
-can acquire a functional dimensional interface
-and 1d10 shins; they also recognize that there
-is another device they could remove and use
-as a cypher, but loosening it creates a weird
-spinning sensation in the cave and causes a
-minor earthquake. If the PCs decide to loot the
-cypher anyway, the hologram shows several
-alarm symbols over a map of the pylons, and the
-pylons can no longer deflect attacks or creatures
-(they can only mitigate the weather in the valley).
-Reattaching the removed cypher is a level 5
-crafting numenera task; success means the
-pylons start working normally again.
+홀로그램 인터페이스와 상호 작용하는 데 10분이 걸리고, 누메네라 이해 판정에 성공해야 합니다. 이 기계는 서로 다른 주파수로 공명하는 기이한 에너지장을 생성하고, 포함하고, 조정하는 것처럼 보입니다. 각각의 주파수는 긴 목록에서 하나의 항목에 해당합니다. 목록의 한 항목에 해당하지만 그 항목이 의미하는 바는 PC가 해독할 수 없습니다.
 
-> **마스터 개입 제안:** Removing
-the dimensional interface
-causes a short circuit,
-inflicting 5 points of
-Might damage to
-the PC (this ignores
-armor) and causing a
-minor earthquake.
+탐색: 이 돔이 제어하는 시스템은 철탑의 기능을 조절하는 걸 돕고 있습니다. 여기서 부주의하게 탐색하면 철탑이 계곡을 보호하는 기능을 매우 약화시킬 수도 있습니다. 탐색에 성공하면 PC는 작동하는 차원 인터페이스와 1d10의 쉰을 획득할 수 있으며, 또한 뗴어내면 사이퍼로 사용할 수 있는 다른 장치가 있다는 것도 알아채지만, 이를 떼어내면 동굴에서 무언가 회전하는 감각을 느끼고 작은 지진이 발생합니다. 어쨌든 플레이어가 사이퍼를 도굴하기로 결정하면 홀로그램에 철탑 지도 위에 여러 가지 경보 기호가 표시되고, 철탑은 더 이상 공격하거나 생물을 막아낼 수 없습니다(계곡의 날씨만 완화할 수 있습니다). 제거된 사이퍼를 다시 돌려놓는 것은 5레벨 누메네라 제작 일이며, 성공하면 철탑이 다시 정상적으로 작동하기 시작합니다.
 
-The salvaged dimensional interface is a blue
-crystal about the size of a human head, with
-blinking blue lights swirling around inside it and
-multiple incomplete metal shells surrounding
-it like layers of an onion. There is a complex
-aperture at one end, and the whole thing feels
-almost weightless, like a balloon. If the PCs don’t
-care about keeping the dimensional interface
-functional, they can disassemble it for 1d2 pliable
-metal and 2 io and a random cypher.
+> **마스터 개입 제안:** 차원 인터페이스를 제거하면 합선이 발생하여 PC에 힘 피해 5점(장갑 무시)을 입히고 경미한 지진을 일으킵니다.
 
-> Pliable metal is as strong
-and durable as steel,
-but flexible enough
-to make bags, books,
-hinges, and so on.
+탐색한 차원 인터페이스는 사람 머리만한 크기의 파란색 수정으로, 내부에서 깜빡이는 파란색 불빛이 소용돌이치고 불완전한 금속 껍질이 양파 껍질처럼 여러 겹 둘러싸고 있습니다. 한쪽 끝에는 복잡한 구멍이 있고 전체가 풍선처럼 거의 무게가 없는 것처럼 느껴집니다. 차원 인터페이스의 기능 유지에 신경 쓰지 않는 PC는 이를 분해하여 1d2 유연 금속과 2 아이오 및 무작위 사이퍼를 얻을 수 있습니다.
+
+> **유연 금속**은 강철만큼 강하고 내구성이 뛰어나지만 가방, 책, 경첩 등을 만들 수 있을 만큼 유연합니다.
 
 ### 더 많은 돔
-The other domes in this cave are left for the GM
-to expand this area with additional encounters
-for an ongoing campaign. (For an even larger
-expansion, one of them could have a ramp or
-elevator to a lower level that opens onto an even
-larger cave with more domes and other devices.)
-If you’re using this adventure as a one-shot or
-introduction to Numenera and you don’t want
-to add additional material here, their doors are
-sealed and cannot be opened by the PCs—the
-touch-pad doesn’t respond to any activity, or
-perhaps it makes curt noises or flashes a light to
-indicate an unauthorized attempt.
+이 동굴의 다른 돔은 GM이 진행 중인 캠페인에 새로운 장면을 추가해서 이 지역을 확장할 수 있도록 남겨둡니다. (더 크게 확장하고 싶다면 동굴 중 하나에 더 많은 돔과 다른 장치가 있는 더 큰 동굴로 연결되는 낮은 층으로 가는 경사로나 엘리베이터가 있을 수 있습니다.) 이 시나리오를 단편 또는 누메네라 소개용으로 사용하고 여기에 다른 걸 추가하고 싶지 않다면, 문이 봉인되어 있어 PC들은 열 수 없으며, 패드가 어떻게 해도 반응하지 않거나 삐걱거리는 소리가 나거나 불빛이 깜박이며 무단 침입을 경고합니다.
 
 ## 마을로 돌아가기
-Once the PCs have taken what they want from
-the Icon’s cave, they can return to the village
-of Bardak, or skip interacting with the villagers
-again and move on to their next destination
-(whether that is down the mountain, up to the
-arrival dome, or elsewhere).
-Award each PC 1 XP for exploring and salvaging
-the ancient structures underneath the Icon. If they
-salvaged all three items they need to rebuild the
-teleporter, give each PC an additional 1 XP.
+우상의 동굴에서 원하는 것을 가져온 플레이어는 바르닥 마을로 돌아가거나, 마을 주민과의 상호작용을 건너뛰고 다음 목적지(산 아래, 도착 돔 위, 또는 다른 곳)로 이동할 수 있습니다.
+
+우상 아래에 있는 고대 구조물을 탐험하고 복구하면 각 플레이어에게 1 경험치를 지급합니다. 순간이동기를 다시 만드는 데 필요한 세 가지 아이템을 모두 회수했다면, 각 PC에게 추가로 1경험치를 지급합니다.
 
 ### 철탑을 작동시키기
-If the PCs return to the village and they have
-reactivated the unpowered pylon, the whole
-village knows about it. (Even if the PCs caused an
-earthquake, if all the pylons are fully functional,
-the villagers accept this as a necessary
-consequence of fixing the problem.) The villagers
-speak many prayers and blessings for the PCs,
-thanking them for helping protect their village
-and valley, and insisting they stay a few days to
-enjoy a celebratory feast in their honor. Even the
-대장로들 are impressed and praise the PCs
-(although because of their somewhat-inhuman
-features it is difficult to tell how they really feel
-about the situation).
-The feast takes place at sundown around a
-large bonfire, with all the villagers singing and
-dancing some of their traditional songs and
-reciting the names of the PCs as part of the
-lyrics. A large amount of food is served, as well
-as a small amount of fruit wine. One of the
-elders formally invites the PCs to live in Bardak,
-for their actions have proven that they are true
-guardians of the Icon, worthy additions to the
-tribe, and blessed by the spirits of the founders.
-The elder also says that they understand if the
-heroes must leave, for there are other villages
-and holy sites of the Icon that might need their
-help (this is half the elder trying to make the
-villagers accept that the PCs may need to leave,
-and half the elder hoping that these annoying
-visitors get the hint that they are a disruption to
-the status quo and should go).
+PC가 마을로 돌아왔을 때, 전원이 꺼진 철탑을 재가동한 상태라면 마을 전체가 이 사실을 알게 됩니다. (PC가 지진을 일으켰더라도 모든 철탑이 정상적으로 작동하면 마을 주민들은 이를 문제 해결을 위한 당연한 결과로 받아들입니다.) 마을 주민들은 마을과 계곡을 보호해 준 것에 대해 감사하며 며칠 동안 머물면서 축하 잔치를 열어달라고 요청하는 등 PC들을 위해 많은 기도와 축복을 전합니다. 심지어 대장로들조차도 PC들에게 감명을 받고 칭찬을 아끼지 않습니다(다소 비인간적인 생김새 때문에 그들이 이 상황에 대해 실제로 어떻게 느끼는지 말하기는 어렵지만).
 
-> **Typical villager:** Level 2, health 6, level 3 for farming
+축제는 해질녘에 큰 모닥불 주위에서 열리며, 모든 마을 사람들이 전통 노래를 부르고 춤을 추며 가사의 일부로 PC의 이름을 찬송합니다. 많은 음식과 소량의 과일주도 갖다줍니다. 장로 중 한 명은 PC의 행동이 그들이 우상의 진정한 수호자이며 부족에 함께할 가치가 있으며 창립자의 영혼의 축복을 받았다는 것을 증명했기 때문에 공식적으로 바르닥에 살지 않겠냐고 초대합니다. 또한 장로는 영웅들의 도움이 필요한 다른 마을과 우상의 성지가 있기 때문에 영웅들이 떠나더라도 이해한다고 말합니다(이는 마을 사람들이 PC들이 떠나야 할 수도 있다는 것을 받아들이게 하려는 장로의 의도와, 이 성가신 방문객들이 자기들의 현 상황을 방해하는 존재라는 것을 깨닫고 떠나기를 바라는 장로의 의도가 반반씩 섞여 있습니다).
+
+> **평범한 마을 주빈:** 레벨 2, 체력 6, 농사는 레벨 3
 >
-> **Village mob:** Level 4, health 12, damage 4; can grab one PC and restrain them unless they succeed at a Might roll to free themselves
+> **주민 무리:** 레벨 4, 체력 12, 피해 4; 한 PC를 붙잡을 수 있고 힘 저항 판정으로 탈출하기 전까지 구속할 수 있습니다.
 >
-> **대장로:** Level 3; level 4 for interaction tasks and resisting mental influence; health 9; Armor 3; heals 1 health per round; immune to diseases, poisons, and aging
+> **대장로:** 레벨 3; 상호작용이나 정신 저항은 레벨 4; 체력 9; 장갑 3; 라운드마다 1 체력 회복; 질병, 독, 노화에 면역
 
 ### 철탑 고장
-If the PCs return to the village and they have
-deactivated or otherwise hampered the functions
-of the pylons (and especially if there was an
-earthquake), the villagers can already tell that
-something is amiss, are worried about the future
-of the valley and their duties, and are angry at
-the PCs for bringing harm to the village. If the
-PCs aren’t very, very careful, the villagers form
-a mob and attack the PCs, pelting them with
-fruit, pushing them out of Bardak, and shouting
-at them to never return. Individually or in small
-numbers, the villagers are not a threat, but
-all sixty or so healthy adult villagers working
-together can overwhelm the PCs, functioning
-as four level 4 mobs, which doesn’t include the
-대장로들 attacking.
+PC가 마을로 돌아왔는데, 철탑을 비활성화 시켰거나 망가트린 경우(특히 지진이 발생한 경우), 마을 주민들은 이미 뭔가 잘못되었다는 것을 알아차리고 계곡의 미래와 자기들의 임무를 걱정하며 마을에 해를 끼친 PC들에게 화를 냅니다. PC가 아주 아주 조심하지 않으면 마을 주민들은 무리를 지어 PC를 공격하고 과일을 던지며 바르닥 밖으로 쫓아내고 다시는 돌아오지 말라고 소리칩니다. 각각의 또는 소수의 마을 주민은 위협이 되지 않지만, 60명 정도의 건강한 성인 마을 주민이 모두 힘을 합치면 PC를 압도할 수 있으며, 공격하는 장로들을 제외하더라도 4레벨 생물 넷으로 칠 수 있습니다.
 
 ### 걸어 나갈 시간
-If the PCs leave Bardak as heroes, the entire
-village gathers to see them off. The elders speak
-a blessing for them, the villagers give them
-food and warm clothing (if they haven’t done so
-already), and one villager (if the PCs befriended
-any villagers, it should be one of those) presents
-them with a carved wooden box containing 50
-shins—all donated by the adult villagers as
-a thank-you for their holy efforts to serve the
-Icon. The PCs can then head out into the world,
-looking for more wonders to discover and a
-way to get back to the part of the world they’re
-familiar with.
-If the villagers are now hostile to the PCs or
-the PCs otherwise want to slip away unnoticed,
-there is no fanfare as they depart. At best, a few
-villagers and one elder watch to make sure they
-leave. At worst, some villagers may shout insults
-at the PCs as they leave, though none curse,
-threaten, or attack them as they go. In any case,
-the PCs can make their way down the mountain
-in search of civilization, travel north or south
-along the cold mountain for other places to
-explore, or even crest the ridge to the east and
-see what lies beyond.
+PC가 영웅이 되어 바르닥을 떠나면, 마을 전체가 모여 배웅합니다. 원로들은 축복의 말을 전하고, 마을 주민들은 음식과 따뜻한 옷을 선물하며(아직 받지 못했다면), 마을 주민 중 한 명(PC가 마을 주민과 친구가 되었다면 그 중 한 명이어야 합니다)은 성물을 섬기는 거룩한 노력에 대한 감사의 표시로 마을 어른들이 기증한 50쉰이 들어 있는 조각된 나무 상자를 선물합니다. 그런 다음 PC들은 바깥 세상으로 향해, 경이로운 것들을 더 많이 발견하거나 익숙한 세계로 돌아갈 수 있는 방법을 찾아볼 수 있습니다.
+
+마을 주민이 PC에 적대적이거나 PC가 눈에 띄지 않게 몰래 빠져나가려는 경우, 떠날 때 축하는 없습니다. 기껏해야 마을 주민 몇 명과 장로 한 명이 그들이 떠나는지 지켜볼 뿐입니다. 최악의 경우 일부 마을 주민이 떠나는 PC를 향해 욕설을 퍼붓기도 하지만, 떠나는 PC를 욕하거나 위협하거나 공격하지는 않습니다. 어쨌든 PC는 문명을 찾아 산을 내려갈 수도 있고, 추운 산을 따라 북쪽이나 남쪽으로 이동하여 다른 곳을 탐험할 수도 있으며, 동쪽 능선을 넘어 그 너머에 무엇이 있는지 볼 수도 있습니다.
 
 ### 순간이동기를 다시 만들기
-This ending is similar to the previous one
-(including the farewell reactions of the villagers),
-except instead of heading downhill toward the
-flat land, the PCs climb back toward the arrival
-dome.
+이 결말은 이전 결말(마을 사람들의 작별 인사 포함)과 비슷하지만, PC가 평지를 향해 내려가는 대신 처음 도착했던 돔으로 다시 올라간다는 점이 다릅니다.
 
-To connect the devices they salvaged from
-the Icon’s cave to the arrival building, the PCs
-must use the crafting numenera skill to plug all
-the pieces together in the right way and the right
-order. This requires six crafting numenera rolls,
-each of which takes an hour. The first roll is level
-1, the second is level 2, and so on, all the way up
-to level 6 for the final roll. If the crafting PC fails
-a roll, they can try again (a failed roll costs them
-an hour of time, and [they have to use Effort on
-the reroll](/ko/numenera/how-to-play-numenera#난이도-조정하기)) . The GM should keep track of how
-many failures are rolled as part of this process (it
-has an impact on the PCs later). Because some
-of the last rolls are very difficult, the PCs might
-want to apply Effort to them to make the task
-easier and prevent multiple failures in a row.
-Another character trained in the crafting
-numenera skill can help the PC doing the repairs.
-This eases the difficulty by two steps—one
-for helping, one for being trained in the skill.
-A character with an inability in the crafting
-numenera skill, or no training in it at all, can’t
-help with these tasks.
+우상의 동굴에서 회수한 장치를 도착한 건물에 연결하려면 PC는 누메네라 제작 스킬을 사용해 모든 부품을 올바른 순서로 올바른 방법으로 연결해야 합니다. 이를 위해서는 6개의 누메네라 제작 판정이 필요하며, 각 판정에는 1시간이 걸립니다. 첫 번째 판정은 1레벨, 두 번째 판정은 2레벨, 그리고 마지막 판정은 6레벨까지 올라갑니다. 제작 PC가 주사위 굴림에 실패하면 다시 시도할 수 있습니다(실패하면 1시간의 시간이 소모되며, [재굴림 시 분발을 해야 합니다](/ko/numenera/how-to-play-numenera#난이도-조정하기)). 마스터는 이 과정의 일부로 몇 번이나 실패했는지를 추적해야 합니다(나중에 PC에 영향을 미칩니다). 마지막 굴림들은 매우 어렵기 때문에, PC는 작업을 더 쉽게 만들고 연속으로 여러 번 실패하는 것을 방지하기 위해 분발을 하는 것이 좋습니다. 누메네라 제작 스킬을 훈련받은 다른 캐릭터가 수리를 하는 PC를 도울 수 있습니다. 이렇게 하면 도와주는 캐릭터와 해당 기술을 훈련받은 캐릭터의 난이도가 두 단계 낮아집니다. 누메네라 제작 기술을 습득하지 못했거나 전혀 훈련하지 않은 캐릭터는 이 작업을 도울 수 없습니다.
 
-> Unless the PCs have coldweather clothing from
-the village, they take 1
-point of cold damage
-every ten minutes they
-are here. Building a
-large campfire inside
-the structure somewhat
-offsets the cold so that
-unprotected PCs take
-only 1 point of cold
-damage every hour.
+> PC가 마을에서 가져온 방한복이 없다면, 이곳에 있는 10분마다 냉기 피해를 1점씩 받습니다. 건물 안에 커다란 모닥불을 피우면 추위를 어느 정도 상쇄할 수 있어서, 옷을 입지 않은 PC도 1시간마다 냉기 피해 1점씩만 받습니다.
 
-If none of the PCs have the crafting numenera
-skill, they can try repairing the teleporter using
-the understanding numenera skill, but the
-difficulty of all the rolls are hindered.
+누메네라 제작 스킬을 가진 플레이어가 없는 경우, 누메네라 이해 기능을 사용해 순간이동기를 수리할 수 있지만 모든 판정의 난이도가 한 단계 높아집니다.
 
-Once the PCs have everything plugged in,
-they can tell that the pieces are drawing power
-and everything should work. However, the
-whole thing is a kit-bashed mess of different
-parts, and odds are it’ll work only once—like
-the teleportation to this place at the start of
-the adventure, this is a one-way trip. When
-they activate the teleporter, a familiar chain of
-events begins, all taking place in a matter of
-seconds: a force field bubble appears, preventing
-anything from moving in or out of the area.
-Weird lights flash. A deep vibration begins and
-increases in intensity. Some of the patchedtogether connections start to melt, and one
-part of the device shudders and starts emitting
-smoke. Finally, there is a bright flash and the
-teleportation occurs.
+PC에 모든 부품을 연결하면 부품에 전력이 공급되고 모든 것이 작동하는 것을 확인할 수 있습니다. 하지만 모든 것이 서로 다른 부품으로 엉망진창인 데다, 모험을 시작할 때 이곳으로 순간이동한 것처럼 한 번만 작동할 확률이 높으며, 편도 여행입니다. 순간이동기를 작동하면 익숙한 일련의 일들이 시작되고, 몇 초 안에 역장 거품이 나타나서 그 영역 안팎으로 아무것도 움직이지 못하게 됩니다. 이상한 불빛이 번쩍입니다. 깊은 진동이 시작되고 강도가 세집니다. 얼기설기 덧댄 연결부 중 일부가 녹기 시작하고 장치의 한 부분이 떨리고 연기가 나기 시작합니다. 마지막으로 밝은 섬광이 나타나고 순간이동을 하게 됩니다!
 
-What exactly happens to the PCs depends
-on how successful they were at crafting this
-improvised teleporter. If they failed no crafting
-rolls, everything works fine and everyone arrives
-perfectly healthy. If they failed one crafting roll,
-a minor secondary effect happens when they
-activate the teleporter. If they failed two crafting
-rolls, there is a major secondary effect. If they
-failed three or more crafting rolls, there is a
-minor secondary effect, a major secondary effect,
-and the PCs end up off-target (landing wherever
-in the Ninth World the GM wants the next
-session to take place). If there is a secondary
-effect, roll on the following table or tables to see
-what happens.
-
+PC에게 정확히 어떤 일이 일어나는지는 이 즉석 순간이동기를 제작하는데 얼마나 성공했는지에 따라 달라집니다. 제작에 한 번도 실패하지 않았다면 모든 것이 정상적으로 작동하고 모두 건강하게 도착합니다. 제작에 한 번 실패했다면 순간이동기를 활성화할 때 약한 부작용이 발생합니다. 제작 판정에 두 번 실패했다면, 강한 부작용이 발생합니다. 세 번 이상 제작 굴림에 실패하면 경미한 부작용, 강한 부작용이 각각 하나씩 발생하며, 플레이어는 목표물을 벗어나게 됩니다(GM이 다음 세션을 진행하고자 하는 아홉 번째 월드의 어느 곳에나 착륙). 부작용이 있는 경우, 다음 표를 굴려서 어떤 일이 일어나는지 확인하세요.
 ### 약한 부작용
 
 |       |                                                        |
 | ----- | ------------------------------------------------------ |
-| 1–4   | The PCs feel uncomfortably hot during the teleport     |
-| 5–8   | The PCs feel uncomfortably cold during the teleport    |
-| 9–12  | The PCs arrive with discolored flesh, lasting 1d6 days |
-| 13–16 | The PCs have strange nightmares for 1d6 days           |
-| 17–20 | The PCs’ hair thins or falls out for 1d6 days          |
+| 1–4   | 순간이동 중 PC들이 불쾌할 정도로 뜨겁습니다.     |
+| 5–8   | 순간이동 중 PC가 불편할 정도로 차갑습니다.    |
+| 9–12  | 피부가 변색된 상태로 도착하고 1d6일 동안 지속됩니다. |
+| 13–16 | 1d6일 동안 기이한 악몽을 꿉니다.           |
+| 17–20 | PC의 머리카락이 1일 6일 동안 가늘어지거나 빠집니다.         |
 
 
 ### 강한 부작용
 
 |       |                                                                 |
 | ----- | --------------------------------------------------------------- |
-| 1–4   | Inflicts 4 points of Might damage from flawed cell reassembly   |
-| 5–8   | Triggers a random cypher held by each PC                        |
-| 9–12  | Radiation damage to eyes hinders sight-based tasks for 1d6 days |
-| 13–16 | Violently shakes the ground                                     |
-| 17–20 | Hinders Might tasks for 1d6 days                                |
+| 1–4   | 새포 재조합에 결함이 생겨 4점의 힘 피해를 입습니다. |
+| 5–8   | PC가 들고 있는 사이퍼 중 하나가 무작위로 작동합니다. |
+| 9–12  | 방사선에 의한 눈 손상으로 1d6일 동안 시력이 필요한 작업의 난이도가 한 단계 올라갑니다. |
+| 13–16 | 심하게 땅이 흔들립니다 (지진)                                    |
+| 17–20 | 1d6일 동안 힘에 기반한 일의 난이도가 높아집니다.                               |
 
 ## 정리하기
 플레이어들이 멋지게 해낸 걸 축하합시다! 순간이동기를 고치고 사용한 PC 각각에게 경험치 1점을 줍니다.
@@ -687,35 +430,18 @@ PC들은 이 모험에서 새로운 사이퍼를 얻을 기회가 몇몇 있습�
 | **2**  | **전기 폭발**: 레벨 4 여러 푸른 수정이 붙은 금속 원반. 지근거리에서 폭발하여 사이퍼의 레벨 만큼 전기 피해를 줍니다. 단거리까지 던질 수도 있습니다.                                                                                                                                                                                                    |
 | **3**  | **감정 독 주사기**: 레벨 4 바늘이 없는 기계처럼 생긴 신스 주사기. 주사된 사람은 행복을 1시간 동안 느끼게 되고 그 사람에에 경향을 주는 모든 상호작용에 관련된 일은 지속 시간 동안 난이도가 한 단계 쉬워집니다.                                                                                                                                         |
 | **4**  | **역장 큐브 투영기**: 레벨 3 조각 사이의 틈에서 희미한 초록 빛이 새어나오는 조각난 신스 상자. 당신을 중심으로 단단한 역장의 여섯 벽으로 이루어진 움직이지 않는 큐브를 만듭니다. 각 모서리는 9미터 정도이고, 1시간 동안 지속됩니다. 벽은 이용 가능한 공간에 맞춰 조정됩니다.                                                                            |
-| **5**  | **중력 무효화 장치**: 레벨 5 벨트에 부착하는 장치. It lets the user float into the air for one hour, moving vertically up to a short distance per round. This doesn’t allow the user to move horizontally (but they can push away from a wall or use other methods to go sideways). The user must weigh less than 50 pounds (22 kg) per cypher level. |
-| **6**  | **즉석 쉼터**: 레벨 2 신스로 만든 원통형 격자. It absorbs water and air to create a simple cubical building 10 feet (3 m) on a side with a door and window. It is made of hard foam and is permanent and immobile once created.                                                                                                                       |
-| **7**  | **자기 공격용 드릴**: 레벨 5 나사 같은 돌출부가 있는 작은 공. If thrown at an opponent, it drills into them and inflicts damage equal to the cypher’s level. If the opponent is metal or wearing metal, the attack roll is eased.                                                                                                                     |
-| **8**  | **힘 회복제**: 레벨 6 손에 드는 장치. It injects one creature with chemicals that restore a number of points equal to the cypher’s level to the creature’s Might pool.                                                                                                                                                                                |
-| **9**  | **광선 방출기**: 레벨 5 금속 손잡이가 달린 신스로 된 머리띠. The wearer can create a ray of energy that strikes a target up to a long distance away and inflicts heat damage equal to the cypher’s level.                                                                                                                                             |
-| **10** | **온기 투영기**: 레벨 3 나노 액체로 채워진 금속 용기. When the fluid is touched to the user’s skin, it forms an articulated carapace-like protective barrier for 28 hours that provides Armor equal to the cypher’s level against cold damage.                                                                                                        |
+| **5**  | **중력 무효화 장치**: 레벨 5 벨트에 부착하는 장치. 사용자는 1시간 동안 공중에 떠서 한 라운드당 근거리를 수직으로 이동할 수 있습니다. 수평 이동은 불가능하지만 벽을 밀거나 다른 방법을 사용하여 옆으로 이동할 수 있습니다. 사용자의 몸무게는 사이퍼 레벨당 22kg 미만이어야 합니다. |
+| **6**  | **즉석 쉼터**: 레벨 2 신스로 만든 원통형 격자. 물과 공기를 흡수하여 문과 창문이 있는 한 변의 길이가 10피트(3m)인 단순한 정육면체 건물을 만듭니다. 단단한 거품으로 만들어져 한 번 만들어지면 영구적으로 움직이지 않습니다.                                                                                                                       |
+| **7**  | **자기 공격용 드릴**: 레벨 5 나사 같은 돌출부가 있는 작은 공. 상대에게 던지면 상대를 관통하여 사이퍼의 레벨과 같은 피해를 입힙니다. 상대가 금속이거나 금속을 착용하고 있으면 공격 판정의 난이도가 한 단계 낮아집니다.                                                                                                                     |
+| **8**  | **힘 회복제**: 레벨 6 손에 드는 장치.한 생물에게 화학물질을 주입하여 생물의 힘 역량을 사이퍼의 레벨과 같은 점수만큼 회복시킵니다.      |
+| **9**  | **광선 방출기**: 레벨 5 금속 손잡이가 달린 신스로 된 머리띠. 착용자는 에너지 광선을 만들어 멀리 떨어진 대상에게 사이퍼의 레벨과 동일한 열 피해를 입힐 수 있습니다.           |
+| **10** | **온기 투영기**: 레벨 3 나노 액체로 채워진 금속 용기. 이 액체가 사용자의 피부에 닿으면 28시간 동안 관절 모양의 갑각 같은 보호막을 형성하여 냉기 피해에 대해 사이퍼 레벨과 동일한 장갑을 제공합니다. |
 
-> Remember that each
-PC has a [cypher limit](/ko/numenera/understanding-your-character#사이퍼와-신기품)
-indicating how many
-cyphers they can carry at
-a time. If they’re at their
-limit and find a cypher
-they want to keep, they’ll
-have to leave one of their
-current cyphers behind
-or give it to another PC
-who isn’t at their limit.
-
-> It’s okay if the PC finds
-a cypher that’s like
-one they already have.
-The GM always has
-the option to reroll or
-choose another cypher.
+> PC에게는 한 번에 보유할 수 있는 사이퍼 수를 나타내는 [사이퍼 제한](/ko/numenera/understanding-your-character#사이퍼와-신기품)이 있습니다. 한도에 도달했는데 사이퍼를 찾아서 가져가고 싶다면 현재 보유하고 있는 사이퍼 중 하나를 버리거나 한도에 도달하지 않은 다른 PC에게 사이퍼를 넘겨줘야 합니다.
+> PC가 이미 가지고 있는 사이퍼와 비슷한 사이퍼를 발견해도 괜찮습니다. GM은 항상 다시 굴리거나 다른 사이퍼를 선택할 수 있습니다.
 
 ## 무작위 아이오툼
-If the PCs salvage a cypher, roll once on this table. Reroll if the level of the cypher the PCs are
-salvaging is less than the minimum level of the iotum on the table.
+PC가 사이퍼를 탐색하면 이 테이블에서 한 번 굴립니다. PC가 탐색하는 사이퍼의 레벨이 테이블의 최소 아이오툼 레벨보다 낮으면 다시 굴립니다.
 | 결과  | 아이오툼                          | 최소 사이퍼 레벨 |
 | ----- | --------------------------------- | ---------------- |
 | 01–12 | 1d3 아이오(io)                    | 1                |
@@ -726,7 +452,7 @@ salvaging is less than the minimum level of the iotum on the table.
 | 80–89 | 1d2 퀀티움(quantium)              | 4                |
 | 90–00 | 1   유연 금속(pliable metal)      | 4                |
 
-> **Apt clay** is a blue-grey clay with a metallic sheen. **Quantium** is an opaque synth box containing glittering points of light. Apt clay and quantium are not used this adventure, but they are useful for building many objects of the numenera—for future adventures!
+> **적합 점토** is a blue-grey clay with a metallic sheen. **퀀티움** is an opaque synth box containing glittering points of light. Apt clay and quantium are not used this adventure, but they are useful for building many objects of the numenera—for future adventures!
 
 [^역주1]: *역주 1* : 번역본에서는 따로 링크로 제공합니다.
 
