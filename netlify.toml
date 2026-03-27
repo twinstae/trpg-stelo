@@ -2,3 +2,6 @@
 command = "bun run build"
 publish = "dist"
 
+[build.environment]
+BUN_VERSION = "1.1.0"
+
