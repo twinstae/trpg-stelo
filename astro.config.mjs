@@ -8,11 +8,8 @@ import mdx from "@astrojs/mdx";
 // https://astro.build/config
 import image from "@astrojs/image";
 
-import netlify from "@astrojs/netlify";
-
 // https://astro.build/config
 export default defineConfig({
-  output: "server",
   integrations: [
     preact(),
     mdx(),
@@ -26,5 +23,4 @@ export default defineConfig({
   },
 
   site: `http://astro.build`,
-  adapter: netlify(),
 });
