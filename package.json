@@ -9,8 +9,7 @@
     "check": "astro check && tsc",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "prepare": "vp config"
+    "astro": "astro"
   },
   "dependencies": {
     "@astrojs/image": "^0.18.0",
