@@ -5,4 +5,5 @@ publish = "dist"
 [build.environment]
 BUN_VERSION = "1.1.0"
 BUN_INSTALL_FLAGS = "--ignore-scripts"
+NODE_VERSION = "22.12.0"
 
