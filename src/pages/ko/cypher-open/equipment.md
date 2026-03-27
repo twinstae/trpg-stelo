@@ -1,104 +1,112 @@
 ---
 title: 장비 [CSRD]
-description: 사이퍼 시스템 규칙의 핵심은 단도직입적이며, 게임 플레이는 모두가 핵심 개념 몇 가지에 기반하여 돌아갑니다.
+description: 사이퍼 시스템에서 장비는 보조적인 요소이며, 핵심은 캐릭터가 무엇을 할 수 있는지에 있습니다.
 layout: ../../../layouts/MainLayout.astro
 createdAt: "2022-11-11T20:34:17.231Z"
 publish: false
 ---
 
-Equipment in the Cypher System plays only a small role. It’s far more important to focus on what you can do than on what you have. Still, sometimes it’s important to know if you’ve got enough rope, or what kind of gun your space pilot has at their hip.
+사이퍼 시스템에서 장비가 차지하는 비중은 크지 않습니다. 무엇을 가지고 있는가보다, 무엇을 할 수 있는가에 집중하는 편이 훨씬 중요합니다. 그래도 때로는 밧줄이 충분한지, 우주 조종사가 허리에 어떤 총을 차고 있는지를 아는 일이 중요할 때가 있습니다.
 
+## 화폐와 가격
 
-## CURRENCY AND PRICES
-Dollars, pounds, euros, credits, gold pieces, Martian solval beads, Corso moons and stars, bottle caps—a lot of different currencies might be used in your game, depending on the setting and the genre. You should use whatever you like. In the Cypher System rules, we talk in generalities rather than specifics. Not unlike saying immediate or short distance rather than giving precise numbers, we talk about goods and services in terms of inexpensive, moderately priced, expensive, very expensive, or exorbitant.
+달러, 파운드, 유로, 크레디트, 금화, 화성 솔발 구슬, 코르소의 달과 별, 병뚜껑 등, 게임에 쓰일 수 있는 화폐는 배경과 장르에 따라 매우 다양합니다. 원하는 것을 사용하면 됩니다. 사이퍼 시스템 규칙에서는 구체적인 화폐 단위보다 일반적인 범주로 이야기합니다. 정확한 숫자 대신 지근거리나 단거리 같은 표현을 쓰는 것과 비슷하게, 물건과 서비스의 가격도 저렴, 보통, 고가, 매우 고가, 터무니없이 비쌈 같은 범주로 다룹니다.
 
-The GM can figure out what those things mean in their setting. In a fantasy setting, an inexpensive item might be 1 or 2 copper pennies, while an expensive item might require gold on the table. The exact amount can vary, and in many campaigns, the exact amount will matter. The GM will develop a detailed price list for their setting, and players will track their money on their character sheets to determine what they can afford, often ignoring the terms inexpensive, moderately priced, and so on.
+이 범주가 각 배경에서 무엇을 뜻하는지는 마스터가 정하면 됩니다. 판타지 배경에서는 저렴한 물건이 구리 동전 한두 닢일 수 있고, 고가 물건은 금화를 써야 할 수 있습니다. 정확한 금액은 달라질 수 있고, 많은 캠페인에서는 그 정확한 금액이 중요합니다. 마스터는 배경에 맞는 상세 가격표를 만들고, 플레이어는 캐릭터 시트에서 자금을 추적해 구매 가능 여부를 판단하게 되며, 이 경우 저렴/보통 같은 일반 범주는 자주 생략됩니다.
 
-But some GMs might want to keep things simple and use only the general terms, indicating currency just as flavor now and then. In a space opera game, where the PCs are the crew of a starship blazing about the galaxy in search of adventure and profit, fuel and upkeep for the ship might be expensive. Hauling a few passengers from Epsilon Eridani back to Earth might earn enough to purchase six expensive items but cost the equivalent of two expensive items, leaving the crew with the means to refuel and maintain the ship for two further voyages. In such a game, where money only means keeping the ship flying, no one has to talk in specific amounts. Characters might refer to “galactic credits” or something similar, but amounts might not be tracked on the character sheets.
+반면 일부 마스터는 단순하게 운영하기를 원해 일반 범주만 쓰고, 화폐 단위는 분위기용으로만 가끔 언급하기도 합니다. 예를 들어 우주 오페라 게임에서 PC들이 모험과 이익을 찾아 은하를 누비는 우주선 승무원이라면, 연료와 정비는 고가일 수 있습니다. 엡실론 에리다니에서 지구로 승객 몇 명을 태워 오면 고가 물품 여섯 개를 살 수 있는 수입을 얻지만, 그중 고가 물품 두 개에 해당하는 비용이 들어, 결국 두 번 더 항해할 연료와 정비비만 남을 수도 있습니다. 돈의 의미가 “우주선을 계속 띄워 두는 것”인 게임이라면, 구체적인 액수를 말할 필요가 없습니다. 캐릭터가 “은하 크레디트” 같은 표현을 쓰더라도, 캐릭터 시트에 금액을 따로 추적하지 않아도 됩니다.
 
+## 가격 범주
 
-## PRICE CATEGORIES
-There are five price categories for goods and services.
+물건과 서비스의 가격 범주는 다섯 가지입니다.
 
-An inexpensive item is something that common people buy. A simple meal or a drink in the bar. A pen and some paper. A book or magazine. 
+저렴한 물건은 평범한 사람들이 일상적으로 사는 것입니다. 간단한 식사나 술 한 잔, 펜과 종이, 책이나 잡지 같은 것들입니다.
 
-A moderately priced item is something that common people buy, but not too often and not in great quantities. A small piece of furniture. A major entertainment. An expensive meal. A new outfit.
+보통 가격의 물건은 평범한 사람들이 사긴 하지만 자주 많이 사지는 않는 것입니다. 작은 가구, 큰 오락거리, 값나가는 식사, 새 옷 한 벌 같은 것들입니다.
 
-An expensive item is something that would strain a common person’s finances. Rent on a simple apartment. A major piece of furniture. A very nice outfit. The cost to travel a long distance (if appropriate to the setting).
+고가 물건은 평범한 사람의 살림에 부담을 주는 수준입니다. 소박한 아파트 월세, 큰 가구, 아주 좋은 옷, (배경에 맞다면) 장거리 이동 비용 등이 여기에 해당합니다.
 
-A very expensive item is probably out of the reach of most people except in very special circumstances. Jewelry. Luxury furnishings. 
+매우 고가 물건은 대부분의 사람들이 아주 특별한 경우가 아니면 손대기 어려운 수준입니다. 보석, 고급 가구류 등이 그렇습니다.
 
-An exorbitant item is something only the very rich can afford. A very nice house. A ship. Extremely expensive jewelry or art.
+터무니없이 비싼 물건은 매우 부유한 사람만 감당할 수 있습니다. 아주 좋은 집, 배나 우주선, 극도로 값비싼 보석이나 예술품 등이 여기에 해당합니다.
 
-Think of the categories as powers of 10. That is to say, a moderately priced item is ten times more costly than an inexpensive item. An expensive item is ten times more costly than a moderately priced item, and thus 100 times the cost of something inexpensive. A very expensive item is ten times the cost of an expensive one, 100 times the cost of a moderate one, and 1,000 times the cost of an inexpensive one. An exorbitant item is priced ten times beyond that.
+이 범주를 10의 거듭제곱처럼 생각하면 편합니다. 즉, 보통 가격 물건은 저렴한 물건보다 10배 비쌉니다. 고가 물건은 보통 가격보다 10배, 즉 저렴한 물건보다 100배 비쌉니다. 매우 고가는 고가의 10배, 보통의 100배, 저렴의 1,000배입니다. 터무니없이 비쌈은 거기서 다시 10배입니다.
 
-(In some settings, even the generalization offered by the pricing categories might be too specific or cumbersome. In many superhero games, for example, prices are relatively moot. After saving the city, typical superheroes don’t worry about paying rent or how much dinner will cost. On the other hand, in a grittier superhero game, maybe that’s exactly what they worry about.)
+(일부 배경에서는 이 가격 범주조차 너무 구체적이거나 번거로울 수 있습니다. 예를 들어 많은 슈퍼히어로 게임에서는 가격 자체가 큰 의미가 없습니다. 도시를 구한 뒤, 전형적인 슈퍼히어로는 월세나 저녁값을 걱정하지 않으니까요. 반대로 더 거친 톤의 슈퍼히어로 게임이라면, 오히려 그런 걱정이 핵심일 수도 있습니다.)
 
+## 가격 범주 활용
 
-## USING THE PRICE CATEGORIES
-Regardless of how precise you want to be with prices and currency, you can use the price categories in a variety of ways.
-It’s easy for a GM to say to a player “You can afford two extra moderately priced things at the start of the game.” The player can look on the list and pick two moderately priced items without worrying about their cost. Plus, this approach makes it clear that they get two items, not twenty inexpensive items or one more expensive item that perhaps would not be appropriate for a starting character. The categories make it easy to lump similar items together.
-The GM can also say “You can have whatever inexpensive items you want, and don’t worry about the cost.” At higher tiers, when the PCs have more wealth, followers, and so on, the GM can do this with moderate or even expensive items. This allows the group to skip over playing through a shopping trip to get supplies, and players don’t have to track prices down to the last coin.
-Finally, the categories can be shorthand when evaluating loot, dividing up the spoils among the PCs, and resolving other story-based occurrences that crop up in the game without dealing in the minutiae of exact prices. This is of particular use in high-powered games where the PCs are rich and powerful.
+가격과 화폐를 얼마나 정밀하게 다루든, 가격 범주는 여러 방식으로 활용할 수 있습니다.
+마스터가 플레이어에게 “게임 시작 시 보통 가격 물건을 추가로 두 개까지 살 수 있다”고 말하기는 쉽습니다. 플레이어는 목록에서 보통 가격 물건 두 개를 골라 비용 계산 없이 시작할 수 있습니다. 이 방식은 “두 개의 물건”을 받는다는 점도 분명히 해줍니다. 저렴한 물건 스무 개나, 초보 캐릭터에게 어울리지 않을 수 있는 더 비싼 물건 하나로 바꾸는 식의 혼란을 막아줍니다. 범주는 비슷한 물건을 묶어 다루기에 편리합니다.
 
-Level of Equipment
-Mundane equipment is about level 4—less if of inferior quality or materials, more if of superior quality or materials. This means that in a setting based on the distant past, the default level might be 3, while in the future it might be 5 or 6. So an average serf ’s tool in the Dark Ages is level 3, easily broken, while an average tool on a space station is level 6, made of advanced polymers.
+마스터는 “저렴한 물건은 원하는 만큼 챙겨도 되고 비용은 신경 쓰지 마라”라고 말할 수도 있습니다. PC들이 더 높은 등급에서 더 많은 부, 추종자 등을 갖게 되면, 보통 가격이나 심지어 고가 물건에도 같은 방식을 적용할 수 있습니다. 이렇게 하면 보급품을 사러 가는 장면을 플레이에서 생략할 수 있고, 플레이어도 동전 한 닢까지 추적할 필요가 없어집니다.
 
+마지막으로 가격 범주는 전리품 가치 판단, PC 간 분배, 그리고 게임 중에 생기는 다른 이야기 기반 사건들을 처리할 때 유용한 축약 표현이 됩니다. 정확한 가격의 자질구레한 계산을 피할 수 있기 때문입니다. 특히 PC들이 부유하고 강력한 하이파워 게임에서 매우 유용합니다.
 
-## ARMOR
-Characters expecting danger frequently wear armor. Even the simplest protective covering helps against stabs and cuts, and more sophisticated or heavier armor protects against graver threats.
-You can wear only one type of armor at a time—you cannot wear chainmail hauberk and scale armor together, for example. However, Armor bonuses from multiple sources combine to provide a total Armor rating. For example, if you have subdermal implants that give you +1 to Armor, a force field that offers another +1 to Armor, and beastskin that grants +2 to Armor, you have a total of +4 to Armor.
-In general, light armor is a moderately priced item, medium armor is expensive, and heavy armor is very expensive. The Genre chapter offers more specific details on the kinds of armor available in a given setting. Keep in mind that in many genres, it’s quite odd, at best, to run around in armor tougher than a leather jacket.
+장비 레벨
+평범한 장비는 대체로 레벨 4입니다. 품질이나 재료가 나쁘면 그보다 낮고, 뛰어나면 그보다 높습니다. 따라서 먼 과거를 바탕으로 한 배경에서는 기본 레벨이 3일 수 있고, 미래 배경에서는 5나 6일 수 있습니다. 예를 들어 암흑시대 평균 농노의 도구는 레벨 3이라 쉽게 망가지지만, 우주 정거장의 평균 도구는 고급 폴리머로 만들어진 레벨 6일 수 있습니다.
 
-### USING ARMOR
-Anyone can wear any armor, but it can be taxing. Wearing armor increases the cost of using a level of Effort when attempting a Speed-based action. So if you’re wearing light armor and want to use two levels of Effort on a Speed-based roll to run across difficult terrain, it costs 7 points from your Speed Pool rather than 5 (3 for the first level of Effort, plus 2 for the second level of Effort, plus 1 per level for wearing light armor). Edge reduces the overall cost as normal. If you are not experienced with a certain type of armor but wear it anyway, this cost is further increased by 1. Having experience with a type of armor is called being practiced with the armor.
+## 방어구
 
-| Armor  | Speed Effort Additional Cost Per Level |
-| ------ | -------------------------------------- |
-| Light  | +1                                     |
-| Medium | +2                                     |
-| Heavy  | +3                                     |
+위험을 예상하는 캐릭터는 자주 방어구를 착용합니다. 가장 단순한 보호구도 찌르기와 베기에 도움이 되며, 더 정교하거나 무거운 방어구는 더 치명적인 위협까지 막아줍니다.
+한 번에 하나의 방어구 종류만 착용할 수 있습니다. 예를 들어 사슬 코트와 비늘갑옷을 동시에 입을 수는 없습니다. 다만 서로 다른 출처의 장갑 보너스는 합산됩니다. 예를 들어 피하 임플란트로 장갑 +1, 역장으로 장갑 +1, 야수 가죽으로 장갑 +2를 얻었다면, 총 장갑은 +4입니다.
+일반적으로 경방어구는 보통 가격, 중방어구는 고가, 중장방어구는 매우 고가입니다. 특정 배경에서 어떤 방어구를 쓸 수 있는지는 장르 장에서 더 자세히 다룹니다. 많은 장르에서는 가죽 재킷보다 더 튼튼한 방어구를 입고 돌아다니는 것 자체가, 좋게 봐도 꽤 이질적이라는 점을 기억하세요.
 
-## SHIELDS
-Shields provide an asset to Speed defense rolls. You must have one free hand to use a shield.
+### 방어구 사용하기
 
-## WEAPONS
-Not all characters are familiar with all weapons. Warriors know their way around most types, but Explorers prefer light or medium weapons, and Adepts and Speakers usually stick to light weapons. If you wield a weapon that you have no experience with, an attack with that weapon is hindered. Having experience with a weapon is called being practiced with the weapon.
-Light weapons inflict only 2 points of damage, but attacks with them are eased because they are fast and easy to use. Light weapons are punches, kicks, knives, handaxes, darts, very small pistols, and so on. Weapons that are particularly small are light weapons.
-Medium weapons inflict 4 points of damage. Medium weapons include broadswords, battleaxes, maces, crossbows, spears, typical handguns, light rifles, sawed-off shotguns, and so on. Most weapons are medium. Anything that could be used in one hand (even if it’s often used in two hands, such as a quarterstaff or spear) is a medium weapon.
-Heavy weapons inflict 6 points of damage, and you must use two hands to attack with them. Heavy weapons are huge swords, great hammers, massive axes, halberds, heavy crossbows, rifles, regular shotguns, assault rifles, and so on. Anything that must be used in two hands is a heavy weapon.
+누구나 어떤 방어구든 착용할 수 있지만, 부담이 될 수 있습니다. 방어구를 입으면 속력 기반 행동에서 분발 1단계를 사용할 때 드는 비용이 증가합니다. 예를 들어 경방어구를 입은 상태에서 험지를 가로지르기 위한 속력 굴림에 분발 2단계를 쓰려면, 속력 역량에서 5점이 아니라 7점이 듭니다(첫 단계 3점 + 두 번째 단계 2점 + 경방어구로 단계당 1점). 재능은 평소처럼 총비용을 줄여줍니다. 특정 방어구에 익숙하지 않은데도 착용하면 이 비용이 추가로 1점 더 늘어납니다. 특정 방어구에 대한 경험이 있는 상태를 그 방어구에 숙련되었다고 합니다.
 
-| Weapon | Damage                  |
-| ------ | ----------------------- |
-| Light  | 2 points (attack eased) |
-| Medium | 4 points                |
-| Heavy  | 6 points                |
+| 방어구     | 속력 분발 단계당 추가 비용 |
+| ---------- | -------------------------- |
+| 경방어구   | +1                         |
+| 중방어구   | +2                         |
+| 중장방어구 | +3                         |
 
-In general, light weapons are moderately priced items, medium weapons are expensive, and heavy weapons are very expensive. Ammunition for a ranged weapon is inexpensive. The Genre chapter offers more specific details on weapons available in a given setting. Keep in mind that in many genres, it’s not acceptable to run around carrying dangerous weapons.
+## 방패
 
-### EXPLOSIVE WEAPONS
-Bombs, grenades, missiles, and other explosives operate differently than other weapons. They affect all targets within an area (usually an immediate area) and inflict damage to all of them. A separate attack roll is required for each (or a Speed defense roll if the PCs are the targets of such an attack), although to simplify, the player can make one attack roll and compare it to the difficulty to attack each target. Usually, even if the attack roll fails (or the Speed defense roll succeeds), the targets still suffer a smaller amount of damage, often 1 point.
-Explosives like grenades can be thrown a short distance. Otherwise, another launcher weapon is needed to project them a long distance (or farther).
+방패는 속력 방어 굴림에 보탬을 제공합니다. 방패를 쓰려면 한 손이 비어 있어야 합니다.
 
-## MISCELLANEOUS ITEMS AND SERVICES
-Although the types of items for sale vary greatly based on the setting, a few things are always present, like food, lodging, and clothing. However, these goods and services can span the price categories. For example, you can get an inexpensive meal, a moderately priced meal, an expensive meal, and so on. An inexpensive meal is light and probably not very nutritious. An expensive meal is available only in nice restaurants in certain locations. An exorbitant meal is probably a feast for a crowd, with the finest foods and drink available.
-Nightly lodging is similar, although the bottom end starts out worse. An inexpensive night’s lodging is probably a flea-ridden mat on the floor of a room filled with other lodgers. Typical lodging (a private room with a decent bed) is probably in the moderately priced range. Very expensive lodging might be a suite of rooms with delicious meals and personal services (such as massages and grooming) included.
-Inexpensive clothing is just a step up from rags, but moderately priced clothing is decent enough. For a formal party, you’d want expensive clothing. The very rich likely wear very expensive clothing most of the time, and exorbitant clothing (and jewelry) when they go to their elite galas.
-Other sorts of miscellaneous items can be found in the Genre chapter.
+## 무기
 
+모든 캐릭터가 모든 무기에 익숙한 것은 아닙니다. 전사는 대부분의 무기를 다룰 줄 알지만, 탐험가는 경무기나 중형 무기를 선호하고, 어뎁트와 스피커는 보통 경무기에 머뭅니다. 익숙하지 않은 무기를 휘두르면 해당 무기 공격은 방해됩니다. 특정 무기에 대한 경험이 있는 상태를 그 무기에 숙련되었다고 합니다.
+경무기는 피해가 2점뿐이지만 빠르고 다루기 쉬워 공격이 완화됩니다. 주먹질, 발차기, 칼, 손도끼, 다트, 아주 작은 권총 등이 여기에 포함됩니다. 특히 작은 무기는 경무기입니다.
+중형 무기는 피해 4점을 줍니다. 브로드소드, 전투도끼, 메이스, 쇠뇌, 창, 일반 권총, 경소총, 단축 산탄총 등이 여기에 속합니다. 대부분의 무기는 중형입니다. 한 손으로 사용할 수 있는 무기(창이나 육척봉처럼 보통 두 손으로도 쓰는 무기 포함)는 중형 무기입니다.
+중무기는 피해 6점을 주며, 공격할 때 반드시 두 손을 써야 합니다. 대형 검, 대형 망치, 거대 도끼, 할버드, 중형 쇠뇌, 소총, 일반 산탄총, 돌격소총 등이 여기에 속합니다. 두 손이 반드시 필요한 무기는 중무기입니다.
 
-## CYPHERS
-Cyphers can sometimes be physical items like equipment, but they work very differently. To be entirely accurate, cyphers might have the veneer of equipment, but don’t fall into the trap of confusing the two. Cyphers are far more akin to PC special abilities than to gear. In a fantasy game, they might be potions, scrolls, or charms. In a science fiction game, cyphers might be interesting throwaway devices or alien crystals of unknown providence. In other games, they might just represent good fortune or sudden inspiration. See the Cyphers chapter for more details.
+| 무기      | 피해            |
+| --------- | --------------- |
+| 경무기    | 2점 (공격 완화) |
+| 중형 무기 | 4점             |
+| 중무기    | 6점             |
 
+일반적으로 경무기는 보통 가격, 중형 무기는 고가, 중무기는 매우 고가입니다. 원거리 무기의 탄약은 저렴합니다. 어떤 배경에서 어떤 무기를 쓸 수 있는지는 장르 장에 더 자세한 정보가 있습니다. 많은 장르에서는 위험한 무기를 들고 공공장소를 돌아다니는 일이 허용되지 않는다는 점도 기억하세요.
 
-## ARTIFACTS
-Artifacts are more powerful than equipment and can’t simply be purchased. The Genre chapter offers a few sample artifacts appropriate for various settings.
-Each artifact has a level and a rate of power depletion. When an artifact is used or activated, the player rolls the designated die (1d6, 1d10, 1d20, or 1d100). If the die shows the depletion number(s), the item works, but that is its last use. A depletion entry of “—” means that the artifact never depletes, and an entry of “automatic” means that it can be used only once.
-Depowered artifacts can sometimes be recharged using the repair rules, depending on the item’s nature. Other special abilities can also repower an expended item, but probably for only one use.
-For GM information on artifacts, see the Running the Cypher System chapter.
+### 폭발 무기
 
-## FINDING, IDENTIFYING, AND USING ARTIFACTS
-Characters can sometimes find artifacts while on adventures. They might be in ancient ruins, either intact or in need of manipulation to get them working. They could have been stolen from well-guarded military installations. They might be granted as rewards or taken from fallen foes. Sometimes they can even be purchased from a specialized source, but this occurs more rarely than most PCs would probably like.
-After the characters find an artifact, identifying it is a separate Intellect task. The GM sets the difficulty of the task, but it is usually equal to the artifact’s level. Identifying it takes fifteen minutes to three hours. If the PCs can’t identify an artifact, they can bring it to an expert to be identified or, if desired, traded or sold.
-Characters can attempt to use an artifact that has not been identified, which is usually an Intellect task equal to the artifact’s level + 2. Failure might mean that the PCs can’t figure out how to use the artifact or they use it incorrectly (GM’s discretion). Of course, even if characters use an unidentified artifact correctly the first time, they have no idea what the effect might be. 
-Once characters identify an artifact, using it for the first time requires an additional Intellect action; this process is far more complex than pushing a button. It can involve manipulating touchscreens, reciting the proper arcane words, or anything else that fits the setting. The GM sets the difficulty, but it is usually equal to the artifact’s level.
+폭탄, 수류탄, 미사일 등 폭발물은 다른 무기와 다르게 작동합니다. 이들은 일정 범위(보통 지근거리 범위) 안의 모든 대상에 영향을 주고 모두에게 피해를 줍니다. 각 대상마다 별도의 공격 굴림이 필요합니다(PC가 표적이면 속력 방어 굴림). 다만 단순화를 위해 하나의 공격 굴림을 굴린 뒤, 각 대상의 공격 난이도와 비교해 처리할 수 있습니다. 보통은 공격 굴림이 실패했거나(혹은 속력 방어 굴림이 성공했더라도) 대상이 더 적은 피해(대개 1점)를 받습니다.
+수류탄 같은 폭발물은 단거리로 던질 수 있습니다. 그보다 먼 거리로 보내려면 다른 발사 장비가 필요합니다(장거리 이상).
+
+## 기타 물품과 서비스
+
+판매되는 물품 종류는 배경에 따라 크게 달라지지만, 음식·숙소·의복처럼 항상 존재하는 것들이 있습니다. 다만 이런 재화와 서비스도 가격 범주를 가로지릅니다. 예를 들어 식사도 저렴한 식사, 보통 가격 식사, 고가 식사 등이 모두 있을 수 있습니다. 저렴한 식사는 양이 적고 영양도 부족할 가능성이 큽니다. 고가 식사는 일부 지역의 좋은 식당에서만 구할 수 있습니다. 터무니없이 비싼 식사는 최고의 음식과 술로 차린 대규모 연회일 가능성이 큽니다.
+숙박도 비슷하지만 최하위는 더 열악합니다. 저렴한 숙박은 벼룩이 들끓는 방바닥 깔개 하나에, 다른 투숙객들과 함께 자는 수준일 수 있습니다. 일반적인 숙박(적당한 침대가 있는 개인실)은 보통 가격 범주에 속합니다. 매우 고가 숙박은 맛있는 식사와 개인 서비스(마사지나 단장 서비스 등)가 포함된 스위트룸일 수 있습니다.
+저렴한 의복은 거의 누더기에서 겨우 벗어난 수준이지만, 보통 가격 의복은 충분히 단정합니다. 격식 있는 파티에는 고가 의복이 필요할 것입니다. 매우 부유한 사람은 평소에도 매우 고가 의복을 입고, 엘리트 행사에 갈 때는 터무니없이 비싼 의복(과 보석)을 착용할 가능성이 높습니다.
+다른 종류의 기타 물품은 장르 장에서 확인할 수 있습니다.
+
+## 사이퍼
+
+사이퍼는 때로 장비처럼 보이는 물리적 물건일 수 있지만, 작동 방식은 완전히 다릅니다. 엄밀히 말하면 사이퍼는 장비의 외형을 두를 수는 있어도, 장비와 같은 것으로 혼동하면 안 됩니다. 사이퍼는 일반 장비보다 PC의 특수 능력에 훨씬 가깝습니다. 판타지 게임에서는 물약·두루마리·부적일 수 있고, SF 게임에서는 정체를 알 수 없는 외계 수정이나 일회성 장치일 수 있습니다. 다른 게임에서는 행운이나 번뜩이는 영감 자체를 뜻할 수도 있습니다. 자세한 내용은 사이퍼 장을 참조하세요.
+
+## 아티팩트
+
+아티팩트는 장비보다 강력하며 단순 구매로 얻을 수 없습니다. 장르 장에는 여러 배경에 맞는 아티팩트 예시가 일부 제시되어 있습니다.
+각 아티팩트에는 레벨과 고갈률이 있습니다. 아티팩트를 사용하거나 활성화할 때 플레이어는 지정된 주사위(1d6, 1d10, 1d20, 1d100)를 굴립니다. 고갈 수치가 나오면 그 사용은 정상적으로 발동하지만, 그것이 마지막 사용입니다. 고갈 항목이 “—”이면 고갈되지 않음을 뜻하고, “자동”이면 한 번만 사용할 수 있음을 뜻합니다.
+고갈된 아티팩트는 물건의 성격에 따라 수리 규칙으로 재충전할 수 있는 경우가 있습니다. 다른 특수 능력으로 소모된 물건에 다시 동력을 넣을 수도 있지만, 대체로 1회 사용분 정도에 그칠 가능성이 큽니다.
+아티팩트에 대한 마스터용 정보는 `running-the-cypher-system` 장을 참고하세요.
+
+## 아티팩트 발견, 식별, 사용
+
+캐릭터는 모험 중 아티팩트를 발견할 때가 있습니다. 고대 유적에서 온전한 상태로 찾을 수도 있고, 작동시키기 위해 조작이 필요한 상태일 수도 있습니다. 경비가 삼엄한 군사 시설에서 훔쳐 온 물건일 수도 있고, 보상으로 받거나 쓰러진 적에게서 회수할 수도 있습니다. 때로는 특수한 공급처에서 구매하기도 하지만, 대부분의 PC가 바라는 것보다는 드문 편입니다.
+캐릭터가 아티팩트를 찾았다면, 식별은 별도의 지성 일입니다. 이 일의 난이도는 마스터가 정하지만 보통 아티팩트 레벨과 같습니다. 식별에는 15분에서 3시간이 걸립니다. PC가 식별에 실패하면 전문가에게 가져가 식별을 맡기거나, 원한다면 거래·판매할 수 있습니다.
+식별되지 않은 아티팩트를 사용하려고 시도할 수도 있습니다. 보통 아티팩트 레벨 +2의 지성 일입니다. 실패하면 사용법을 알아내지 못하거나, 잘못 사용해 원치 않는 결과가 생길 수 있습니다(마스터 재량). 물론 처음에 우연히 올바르게 사용했더라도, 식별 전에는 어떤 효과가 나올지 알 수 없습니다.
+아티팩트를 식별한 뒤에도 첫 사용에는 추가 지성 행동이 필요합니다. 이 과정은 단순히 버튼 하나 누르는 것보다 훨씬 복잡합니다. 터치스크린 조작, 올바른 비전 문구 암송, 혹은 배경에 맞는 다른 절차가 필요할 수 있습니다. 난이도는 마스터가 정하지만, 보통 아티팩트 레벨과 같습니다.

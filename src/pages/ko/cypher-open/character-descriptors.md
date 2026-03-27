@@ -6,721 +6,872 @@ createdAt: "2022-11-11T20:34:17.231Z"
 publish: false
 ---
 
-Your descriptor defines your character—it flavors everything you do. The differences between a Charming Explorer and a Vicious Explorer are considerable. The descriptor changes the way those characters go about every action. Your descriptor places your character in the situation (the first adventure, which starts the campaign) and helps provide motivation. It is the adjective of the sentence “I am an adjective noun who verbs.”
-Descriptors offer a one-time package of extra abilities, skills, or modifications to your stat Pools. Not all of a descriptor’s offerings are positive character modifications. For example, some descriptors have inabilities—tasks that a character isn’t good at. You can think of inabilities as negative skills—instead of being one step better at that kind of task, you’re one step worse. If you become skilled at a task that you have an inability with, they cancel out. Remember that characters are defined as much by what they’re not good at as by what they are good at.
-Descriptors also offer a few brief suggestions for how your character got involved with the rest of the group on their first adventure. You can use these, or not, as you wish.
+당신의 수식어는 캐릭터를 규정합니다. 즉, 당신이 하는 모든 일에 색채를 입힙니다. 매력적인 탐험가와 악랄한 탐험가의 차이는 상당합니다. 수식어는 그 캐릭터들이 모든 행동을 수행하는 방식을 바꿉니다. 당신의 수식어는 캐릭터를 상황(캠페인을 시작하는 첫 모험)에 놓아 주고, 동기를 마련하는 데에도 도움을 줍니다. 수식어는 “나는 동사를 하는 형용사 명사다”라는 문장에서 그 형용사에 해당합니다.
+수식어는 추가 역량, 재능, 혹은 능력 풀 수정으로 이루어진 일회성 패키지를 제공합니다. 수식어가 제공하는 내용이 모두 긍정적인 캐릭터 수정은 아닙니다. 예를 들어 어떤 수식어에는 무능, 즉 캐릭터가 잘하지 못하는 일가 있습니다. 무능은 부정적인 재능이라고 생각할 수 있습니다. 해당 종류의 일에서 한 단계 유리해지는 대신, 한 단계 불리해지는 것입니다. 무능이 있는 일에 익숙해지면, 둘은 서로 상쇄됩니다. 캐릭터는 잘하는 일만큼이나, 잘하지 못하는 일로도 규정된다는 점을 기억하세요.
+수식어는 또한 캐릭터가 첫 모험에서 어떻게 나머지 그룹과 엮이게 되었는지에 대한 짧은 제안도 몇 가지 제공합니다. 원한다면 이를 사용해도 되고, 사용하지 않아도 됩니다.
 
-This section details fifty descriptors. Choose one of them for your character. You can pick any descriptor you wish regardless of your type. At the end of this chapter, a few options are provided for Customizing Descriptors, including making a character’s species their descriptor.
+이 절에서는 수식어 50가지를 자세히 다룹니다. 그중 하나를 당신의 캐릭터를 위해 선택하세요. 유형과 무관하게 원하는 수식어를 아무거나 고를 수 있습니다. 이 장의 마지막에는 캐릭터의 종족을 수식어로 삼는 것을 포함해, 수식어 커스터마이징을 위한 몇 가지 선택지가 제시됩니다.
 
-(Your descriptor matters most when you are a beginning character. The benefits (and perhaps drawbacks) that come from your descriptor will eventually be overshadowed by the growing importance of your type and focus. However, the influence of your descriptor will remain at least somewhat important throughout your character’s life.)
+(수식어는 캐릭터가 초보일 때 가장 큰 의미를 지닙니다. 수식어에서 오는 이점(그리고 어쩌면 단점)은 결국 유형과 특징의 중요성이 커지면서 가려지게 됩니다. 하지만 수식어의 영향은 캐릭터의 생애 전반에 걸쳐 적어도 어느 정도는 계속 중요하게 남습니다.)
 
 ### APPEALING
-You’re attractive to others, but perhaps more important, you are likeable and charismatic. You’ve got that “special something” that draws others to you. You often know just the right thing to say to make someone laugh, put them at ease, or spur them to action. People like you, want to help you, and want to be your friend.
-You gain the following characteristics:
-Charismatic: +2 to your Intellect Pool.
-- **기능**: You are trained in pleasant social interactions.
-- **Resistant to Charms**: You’re aware of how others can manipulate and charm people, and you notice when those tactics are used on you. Because of this awareness, you are trained in resisting any kind of persuasion or seduction if you wish it.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You met a total stranger (one of the other PCs) and charmed them so much that they invited you along. 
-2. The PCs were looking for someone else, but you convinced them that you were perfect instead. 
-3. Pure happenstance—because you just go along with the flow of things and everything usually works out.
-4. Your charismatic ways helped get one of the PCs out of a difficult spot a long time ago, and they always ask you to join them on new adventures.
 
-### BENEFICENT
-Helping others is your calling. It’s why you’re here. Others delight in your outgoing and charitable nature, and you delight in their happiness. You’re at your best when you’re aiding people, either by explaining how they can best overcome a challenge or by demonstrating how to do so yourself.
-You gain the following characteristics:
-Generous: Allies who have spent the last day with you add +1 to their recovery rolls.
-Altruistic: If you’re standing next to a creature that takes damage, you can intercede and take 1 point of that damage yourself (reducing the damage inflicted on the creature by 1 point). If you have Armor, it does not provide a benefit when you use this ability.
-- **기능**: You’re trained in all tasks related to pleasant social interaction, putting other people at ease, and gaining trust.
-Helpful: Whenever you help another character, that character gains the benefit as if you were trained even if you are not trained or specialized in the attempted task.
-- **무능**: While you are alone, all Intellect and Speed tasks are hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. Even though you didn’t know most of the other PCs beforehand, you invited yourself along on their quest.
-2. You saw the PCs struggling to overcome a problem and selflessly joined them to help.
-3. You’re nearly certain the PCs will fail without you.
-4. The choice was between your tattered life and helping others. You haven’t looked back since.
+당신은 다른 이들에게 매력적으로 보이지만, 어쩌면 더 중요한 점은 사람들이 당신을 호감 가고 카리스마 있는 사람으로 느낀다는 것이다. 사람들을 끌어당기는 "특별한 무언가"를 당신은 지니고 있다. 누군가를 웃게 하거나, 마음을 편하게 해 주거나, 행동에 나서게 하려면 무슨 말을 해야 할지 당신은 흔히 정확히 안다. 사람들은 당신을 좋아하고, 당신을 돕고 싶어 하며, 당신과 친구가 되고 싶어 한다.
+당신은 다음과 같은 특성을 얻는다:
+카리스마 있음: 지능 풀에 +2.
 
-### BRASH
-You’re a self-assertive sort, confident in your abilities, energetic, and perhaps a bit irreverent toward ideas that you don’t agree with. Some people call you bold and brave, but those you’ve put in their place might call you puffed up and arrogant. Whatever. It’s not in your nature to care what other people think about you, unless those people are your friends or family. Even someone as brash as you knows that friends sometimes have to come first.
-You gain the following characteristics:
-Energetic: +2 to your Speed Pool.
-- **기능**: You are trained in initiative.
-Bold: You are trained in all actions that involve overcoming or ignoring the effects of fear or intimidation.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You noticed something weird going on, and without much thought, you jumped in with both feet.
-2. You showed up when and where you did on a dare because, hey, you don’t back down from dares.
-3. Someone called you out, but instead of walking into a fight, you walked into your current situation.
-4. You told your friend that nothing could scare you, and nothing you saw would change your mind. They brought you to your current point.
+- **기능** : 당신은 유쾌한 사회적 상호작용에 숙련되어 있다.
+- **매혹 저항** : 사람들을 조종하고 매혹하는 방법이 어떻게 쓰이는지 당신은 알고 있으며, 그런 수법이 자신에게 사용될 때도 알아차린다. 이러한 자각 덕분에, 원한다면 어떤 종류의 설득이나 유혹에도 저항하는 데 숙련되어 있다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 당신은 완전히 낯선 사람(다른 PC 중 한 명)을 만났고, 그를 아주 매료시켜 함께 가자고 초대받았다.
+2. PC들은 다른 사람을 찾고 있었지만, 당신은 자신이야말로 완벽한 사람이라고 그들을 설득했다.
+3. 순전한 우연—당신은 그저 흐름에 몸을 맡기며, 대개 모든 일이 잘 풀려 나가기 때문이다.
+4. 당신의 카리스마 넘치는 방식 덕분에 오래전에 PC 중 한 명이 곤란한 상황에서 벗어났고, 그래서 그들은 새 모험을 할 때마다 늘 당신에게 함께하자고 한다.
+
+### 선량한 자
+
+다른 이를 돕는 것이 당신의 소명이다. 그것이 당신이 여기 있는 이유다. 사람들은 당신의 외향적이고 자선적인 성품을 반기며, 당신도 그들의 행복을 기뻐한다. 당신은 사람들을 도울 때 가장 빛난다. 그들이 어떤 난관을 가장 잘 극복할 수 있는지 설명해 줄 때든, 직접 방법을 보여 줄 때든 마찬가지다.
+당신은 다음 특성을 얻는다:
+관대함: 지난 하루 동안 당신과 함께 지낸 아군은 회복 굴림에 +1을 더한다.
+이타적: 피해를 받는 생물 옆에 서 있다면, 당신이 끼어들어 그 피해 1점을 대신 받을 수 있다(그 생물이 받는 피해를 1점 줄인다). 당신에게 방어력이 있더라도, 이 능력을 사용할 때는 이점을 제공하지 않는다.
+
+- **기능** : 유쾌한 사회적 상호작용, 다른 사람을 편안하게 만들기, 신뢰 얻기와 관련된 모든 일에 숙련된다.
+  도움의 손길: 당신이 다른 캐릭터를 도울 때마다, 당신이 해당 일에 숙련 또는 특화되어 있지 않더라도 그 캐릭터는 당신이 숙련된 것처럼 도움의 이점을 얻는다.
+- **무능** : 혼자 있을 때는 모든 지성과 속력 일가 방해된다.
+- **첫 모험과의 인연** : 다음 선택지 중에서, 첫 번째 모험에 어떻게 참여하게 되었는지 고른다.
+
+1. 다른 PC 대부분을 미리 알지는 못했지만, 그들의 여정에 스스로 끼어들었다.
+2. PC들이 문제를 극복하려고 애쓰는 모습을 보고, 이타적으로 합류해 도왔다.
+3. 당신 없이 PC들이 실패할 것이라고 거의 확신한다.
+4. 너덜너덜한 삶을 이어 가느냐, 남을 돕느냐의 선택이었다. 그때 이후로 뒤돌아보지 않았다.
+
+### 저돌적인 자
+
+당신은 자기주장이 강하고, 자신의 능력에 자신감이 있으며, 활력이 넘치고, 어쩌면 자신이 동의하지 않는 생각에 다소 불손하기도 하다. 어떤 사람들은 당신을 대담하고 용감하다고 부르지만, 당신에게 한 번 눌려 본 이들은 거만하고 오만하다고 부를지도 모른다. 뭐 어때. 친구나 가족이 아닌 이상, 남들이 당신을 어떻게 생각하는지 신경 쓰는 건 당신 성미가 아니다. 당신처럼 저돌적인 사람도, 때로는 친구를 먼저 둬야 한다는 사실은 안다.
+당신은 다음 특성을 얻는다:
+활력 넘침: 당신의 속력 풀에 +2.
+
+- **기능** : 선제권에 숙련된다.
+  대담함: 공포나 위협의 효과를 극복하거나 무시하는 모든 행동에 숙련된다.
+- **첫 모험과의 인연** : 다음 선택지 중에서, 첫 번째 모험에 어떻게 참여하게 되었는지 고른다.
+
+1. 뭔가 이상한 일이 벌어지는 것을 보고, 깊이 생각하지도 않은 채 망설임 없이 뛰어들었다.
+2. 누가 내건 도전에 응해 그때 그곳에 나타났다. 당신은 도전에서 물러서는 법이 없으니까.
+3. 누군가가 당신을 도발했지만, 주먹다짐 대신 지금의 상황 속으로 걸어 들어왔다.
+4. 친구에게 아무것도 당신을 겁먹게 할 수 없고, 무엇을 봐도 마음이 바뀌지 않을 거라고 말했다. 그 친구가 당신을 지금 이 지점으로 데려왔다.
 
 ### CALM
-You’ve spent most of your life in sedentary pursuits—books, movies, hobbies, and so on—rather than active ones. You’re well versed in all manner of academia or other intellectual pursuits, but nothing physical. You’re not weak or feeble, necessarily (although this is a good descriptor for characters who are elderly), but you have no experience in more physical activities.
-(Calm is a great descriptor for characters who never intended to have adventures but were thrust into them, a trope that occurs often in modern games and particularly in horror games.)
-You gain the following characteristics:
-Bookish: +2 to your Intellect Pool.
-- **Skills**: You are trained in four nonphysical skills of your choice.
-Trivia: You can come up with a random fact pertinent to the current situation when you wish it. This is always a matter of fact, not conjecture or supposition, and must be something you could have logically read or seen in the past. You can do this one time, although the ability is renewed each time you make a recovery roll. 
-- **무능**: You’re just not a fighter. All physical attacks are hindered.
-- **무능**: You’re not the outdoorsy type. All climbing, running, jumping, and swimming tasks are hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You read about the current situation somewhere and decided to check it out for yourself.
-2. You were in the right (wrong?) place at the right (wrong?) time.
-3. While avoiding an entirely different situation, you walked into your current situation.
-4. One of the other PCs dragged you into it.
+
+당신은 삶의 대부분을 활동적인 일보다 정적인 일(책, 영화, 취미 등)에 써 왔습니다. 온갖 학문이나 지적 추구에는 해박하지만, 육체적인 일에는 해당하지 않습니다. 반드시 허약하거나 쇠약한 것은 아니지만(노년 캐릭터에게는 좋은 수식어가 될 수 있습니다), 보다 신체적인 활동에 대한 경험은 없습니다.
+(Calm은 원래 모험을 할 생각이 없었지만 휩쓸려 들어간 캐릭터에 잘 어울리는 훌륭한 수식어입니다. 이런 전형은 현대 게임, 특히 호러 게임에서 자주 나타납니다.)
+당신은 다음 특성을 얻습니다:
+책벌레: 지성 역량 +2.
+
+- **기능** : 당신이 선택한 비신체적 기술 당신의 가지에 익숙합니다.
+  잡학지식: 원할 때 현재 상황과 관련된 무작위 사실 하나를 떠올릴 수 있습니다. 이것은 언제나 사실이며, 추측이나 가정이 아니어야 하고, 과거에 당신이 논리적으로 읽었거나 보았을 법한 내용이어야 합니다. 이 능력은 한 번 사용할 수 있지만, 회복 굴림을 할 때마다 다시 사용 가능해집니다.
+- **무능** : 당신은 싸움꾼과는 거리가 멉니다. 모든 신체 공격이 방해됩니다.
+- **무능** : 당신은 야외 활동형이 아닙니다. 등반, 달리기, 점프, 수영과 관련된 모든 일이 방해됩니다.
+- **첫 모험과의 인연** : 다음 목록에서, 첫 번째 모험에 어떻게 휘말리게 되었는지 선택하십시오.
+
+1. 어딘가에서 현재 상황에 대해 읽고, 직접 확인해 보기로 했습니다.
+2. 적절한(혹은 부적절한?) 시간에 적절한(혹은 부적절한?) 장소에 있었습니다.
+3. 전혀 다른 상황을 피하다가, 지금의 상황으로 들어와 버렸습니다.
+4. 다른 PC 중 한 명이 당신을 끌어들였습니다.
 
 ### CHAOTIC
-Danger doesn’t mean much to you, mainly because you don’t think much about repercussions. In fact, you enjoy sowing surprises, just to see what will happen. The more unexpected the result, the happier you are. Sometimes you are particularly manic, and for the sake of your companions, you restrain yourself from taking actions that you know will lead to disaster.
-You gain the following characteristics: 
-Tumultuous: +4 to your Speed Pool. 
-- **기능**: You are trained in Intellect defense actions.
-Chaotic: Once after each ten-hour recovery roll, if you don’t like the first result, you can reroll a die roll of your choice. If you do, and regardless of the outcome, the GM presents you with a GM intrusion.
-- **무능**: Your body is a bit worn from occasional excesses. Might defense tasks are hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. Another PC recruited you while you were on your best behavior, before realizing how chaotic you were.
-2. You have reason to believe that being with the other PCs will help you gain control over your erratic behavior.
-3. Another PC released you from captivity, and to thank them, you volunteered to help.
-4. You have no idea how you joined the PCs. You’re just going along with it for now until answers present themselves.
+
+당신에게 위험은 큰 의미가 없습니다. 주된 이유는, 결과가 어떻게 될지 깊이 생각하지 않기 때문입니다. 사실 당신은 무슨 일이 벌어질지 보기 위해 일부러 놀라운 변수를 뿌리는 것을 즐깁니다. 결과가 예상 밖일수록 더 기뻐합니다. 때로는 특히 들떠서, 동료들을 위해 재앙으로 이어질 걸 알면서도 그런 행동을 자제합니다.
+당신은 다음 특성을 얻습니다:
+혼란스러운 기질: 속력 역량 +4.
+
+- **기능** : 지성 방어 행동에 익숙합니다.
+  혼돈성: 매 10시간 회복 굴림 이후 한 번, 첫 결과가 마음에 들지 않으면 원하는 주사위 굴림 하나를 다시 굴릴 수 있습니다. 그렇게 하면 결과와 상관없이 마스터가 당신에게 마스터 개입을 제시합니다.
+- **무능** : 가끔의 과한 생활로 몸이 조금 망가졌습니다. 힘 방어 일이 방해됩니다.
+- **첫 모험과의 인연** : 다음 목록에서, 첫 번째 모험에 어떻게 휘말리게 되었는지 선택하십시오.
+
+1. 다른 PC가 당신의 본모습(혼란스러움)을 알기 전에, 당신이 얌전한 상태일 때 영입했습니다.
+2. 다른 PC들과 함께하면 당신의 변덕스러운 행동을 통제하는 데 도움이 되리라 믿을 이유가 있습니다.
+3. 다른 PC가 당신을 감금에서 풀어 주었고, 보답으로 당신이 돕겠다고 자원했습니다.
+4. 어떻게 PC들과 합류했는지 당신도 모릅니다. 지금은 답이 드러날 때까지 그냥 따라가고 있습니다.
 
 ### CHARMING
-You’re a smooth talker and a charmer. Whether through seemingly supernatural means or just a way with words, you can convince others to do as you wish. Most likely, you’re physically attractive or at least highly charismatic, and others enjoy listening to your voice. You probably pay attention to your appearance, keeping yourself well groomed. You make friends easily. You play up the personality facet of your Intellect stat; intelligence is not your strong suit. You’re personable, but not necessarily studious or strong-willed.
-You gain the following characteristics:
-Personable: +2 to your Intellect Pool.
-- **기능**: You’re trained in all tasks involving positive or pleasant social interaction.
-- **기능**: You’re trained when using special abilities that influence the minds of others.
-Contact: You have an important contact who is in an influential position, such as a minor noble, the captain of the town guard/police, or the head of a large gang of thieves. You and the GM should work out the details together.
-- **무능**: You were never good at studying or retaining facts. Any task involving lore, knowledge, or understanding is hindered.
-- **무능**: Your willpower is not one of your strong points. Defense actions to resist mental attacks are hindered.
-Additional Equipment: You’ve managed to talk your way into some decent discounts and bonuses in recent weeks. As a result, you have enough cash jangling in your pocket to purchase a moderately priced item.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You convinced one of the other PCs to tell you what they were doing.
-2. You instigated the whole thing and convinced the others to join you.
-3. One of the other PCs did a favor for you, and now you’re repaying that obligation by helping them with the task at hand.
-4. There is a reward involved, and you need the money.
+
+당신은 말솜씨가 좋고 사람을 매혹시키는 타입입니다. 초자연적으로 보이는 수단이든 단순한 화술이든, 타인을 설득해 원하는 대로 움직이게 할 수 있습니다. 아마 외모가 매력적이거나 최소한 카리스마가 강하며, 사람들은 당신의 목소리를 듣는 것을 좋아합니다. 당신은 대체로 외모 관리에 신경 쓰고 단정한 몸가짐을 유지합니다. 친구를 쉽게 사귑니다. 당신은 지성 특성치의 성격적인 면을 살리는 쪽입니다. 순수한 지적 능력은 강점이 아닙니다. 사교적이지만 반드시 학구적이거나 의지가 강한 것은 아닙니다.
+당신은 다음 특성을 얻습니다:
+붙임성: 지성 역량 +2.
+
+- **기능** : 긍정적이거나 호의적인 사회적 상호작용이 필요한 모든 일에 익숙합니다.
+- **기능** : 타인의 정신에 영향을 주는 특수 능력을 사용할 때 익숙합니다.
+  연줄: 당신은 영향력 있는 위치에 있는 중요한 인맥을 하나 가지고 있습니다. 예를 들면 하급 귀족, 마을 경비대/경찰 대장, 대규모 도둑 조직의 우두머리 같은 인물입니다. 세부 사항은 당신과 마스터가 함께 정합니다.
+- **무능** : 당신은 공부하거나 사실을 기억하는 데 원래 서툴렀습니다. 전승, 지식, 이해와 관련된 모든 일이 방해됩니다.
+- **무능** : 의지력은 당신의 강점이 아닙니다. 정신 공격에 저항하는 방어 행동이 방해됩니다.
+  추가 장비: 최근 몇 주 동안 당신은 말솜씨로 괜찮은 할인과 보너스를 얻어 냈습니다. 그 결과 주머니에 중간 가격대 물품 하나를 살 만한 돈이 있습니다.
+- **첫 모험과의 인연** : 다음 목록에서, 첫 번째 모험에 어떻게 휘말리게 되었는지 선택하십시오.
+
+1. 당신은 다른 PC 중 한 명을 설득해 그들이 무엇을 하고 있는지 듣게 했습니다.
+2. 당신이 판을 벌였고, 다른 이들을 설득해 합류시켰습니다.
+3. 다른 PC 중 한 명이 당신에게 호의를 베풀었고, 이제 그 빚을 갚기 위해 현재 일을 도와주고 있습니다.
+4. 보상이 걸려 있고, 당신은 그 돈이 필요합니다.
 
 ### CLEVER
-You’re quick-witted, thinking well on your feet. You understand people, so you can fool them but are rarely fooled. Because you easily see things for what they are, you get the lay of the land swiftly, size up threats and allies, and assess situations with accuracy. Perhaps you’re physically attractive, or maybe you use your wit to overcome any physical or mental imperfections.
-You gain the following characteristics:
-Smart: +2 to your Intellect Pool.
-- **기능**: You’re trained in all interactions involving lies or trickery.
-- **기능**: You’re trained in defense rolls to resist mental effects.
-- **기능**: You’re trained in all tasks involving identifying or assessing danger, lies, quality, importance, function, or power.
-- **무능**: You were never good at studying or retaining trivial knowledge. Any task involving lore, knowledge, or understanding is hindered.
-Additional Equipment: You see through the schemes of others and occasionally convince them to believe you—even when, perhaps, they should not. Thanks to your clever behavior, you have an additional expensive item.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You convinced one of the other PCs to tell you what they were doing.
-2. From afar, you observed that something interesting was going on.
-3. You talked your way into the situation because you thought it might earn some money.
-4. You suspect that the other PCs won’t succeed without you.
+
+당신은 재치가 빨라 즉석에서 판단을 잘합니다. 사람을 잘 이해하기에 속일 수는 있어도 잘 속지는 않습니다. 사물을 있는 그대로 쉽게 파악하기 때문에, 상황의 판세를 빠르게 읽고 위협과 아군을 가늠하며 상황을 정확히 평가합니다. 외모가 매력적일 수도 있고, 혹은 재치로 신체적·정신적 결점을 극복할 수도 있습니다.
+당신은 다음 특성을 얻습니다:
+영리함: 지성 역량 +2.
+
+- **기능** : 거짓말이나 속임수가 개입되는 모든 상호작용에 익숙합니다.
+- **기능** : 정신 효과에 저항하는 방어 굴림에 익숙합니다.
+- **기능** : 위험, 거짓, 품질, 중요성, 기능, 힘을 식별하거나 평가하는 모든 일에 익숙합니다.
+- **무능** : 당신은 공부하거나 사소한 지식을 기억하는 데 원래 서툴렀습니다. 전승, 지식, 이해와 관련된 모든 일이 방해됩니다.
+  추가 장비: 당신은 타인의 계략을 간파하고, 때로는 그들이 믿지 말아야 할 때조차 당신을 믿게 만듭니다. 이런 영리한 처세 덕분에, 값비싼 물품 하나를 추가로 가집니다.
+- **첫 모험과의 인연** : 다음 목록에서, 첫 번째 모험에 어떻게 휘말리게 되었는지 선택하십시오.
+
+1. 당신은 다른 PC 중 한 명을 설득해 그들이 무엇을 하고 있는지 듣게 했습니다.
+2. 멀리서 지켜보다가 흥미로운 일이 벌어지고 있음을 알아챘습니다.
+3. 돈을 벌 수 있을 것 같아 말솜씨로 상황에 끼어들었습니다.
+4. 당신 없이는 다른 PC들이 성공하지 못할 거라고 의심합니다.
 
 ### CLUMSY
-Graceless and awkward, you were told that you’d grow out of it, but you never did. You often drop things, trip over your own feet, or knock things (or people) over. Some people get frustrated by this quality, but most find it funny and even a little charming.
-(Some players may not want to be defined by a “negative” quality like Clumsy, but in truth, even this kind of descriptor has enough advantages that it makes for capable and talented characters. What negative descriptors really do is make more interesting and complex characters that are often great fun to play.)
-You gain the following characteristics:
-Butterfingers: −2 to your Speed Pool.
-Thick-Muscled: +2 to your Might Pool.
-Inelegant: You have a certain lovable charm. You are trained in all pleasant social interactions when you express a lighthearted, self-deprecating manner.
-Dumb Luck: The GM can introduce a GM intrusion on you, based on your clumsiness, without awarding you any XP (as if you had rolled a 1 on a d20 roll). However, if this happens, 50% of the time, your clumsiness works to your advantage. Rather than hurting you (much), it helps you, or it hurts your enemies. You slip, but it’s just in time to duck an attack. You fall down, but you trip your enemies as you crash into their legs. You turn around too quickly, but you end up knocking the weapon from your foe’s hand. You and the GM should work together to determine the details. If the GM wishes, they can use GM intrusions based on your clumsiness normally (awarding XP).
-- **기능**: You’ve got a certain bull-like quality. You are trained in tasks involving breaking things.
-- **무능**: Any task that involves balance, grace, or hand-to-eye coordination is hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You were in the right place at the right time.
-2. You had a piece of information that the other PCs needed to make their plans.
-3. A sibling recommended you to the other PCs.
-4. You stumbled into the PCs as they were discussing their mission, and they took a liking to you.
+
+당신은 동작이 서툴고 어색합니다. 크면 나아질 거라는 말을 들었지만, 끝내 그렇지 않았습니다. 물건을 자주 떨어뜨리고, 제 발에 걸려 넘어지며, 물건(혹은 사람)을 쓰러뜨리곤 합니다. 어떤 이들은 이런 점을 답답해하지만, 대부분은 우습고 약간은 귀엽다고 여깁니다.
+(일부 플레이어는 Clumsy처럼 "부정적" 특성으로 규정되는 것을 원치 않을 수 있습니다. 하지만 사실 이런 종류의 수식어조차 장점이 충분하여 유능하고 재능 있는 캐릭터를 만듭니다. 부정적 수식어의 진짜 역할은 더 흥미롭고 복합적인 캐릭터를 만들고, 플레이 자체를 훨씬 재미있게 만드는 데 있습니다.)
+당신은 다음 특성을 얻습니다:
+곰손: 속력 역량 -2.
+우직한 근육: 힘 역량 +2.
+투박함: 당신에게는 묘하게 사랑스러운 매력이 있습니다. 가볍고 자기비하적인 태도를 보일 때, 호의적인 사회적 상호작용 전반에 익숙합니다.
+어설픈 행운: 마스터는 당신의 서투름에 근거한 마스터 개입을 XP 보상 없이 도입할 수 있습니다(d20 굴림에서 1이 나온 것처럼). 하지만 이 일이 생기면 50% 확률로, 당신의 서투름이 오히려 이득으로 작용합니다. 당신을 (크게) 해치기보다 돕거나, 적을 해칩니다. 미끄러졌지만 공격을 피하기에 딱 맞는 타이밍일 수 있습니다. 넘어졌지만 적의 다리에 걸려 적을 함께 넘어뜨릴 수 있습니다. 너무 급히 돌아섰지만, 그 동작으로 적의 손에서 무기를 쳐낼 수도 있습니다. 세부 사항은 당신과 마스터가 함께 정합니다. 마스터가 원한다면, 당신의 서투름에 근거한 일반적인 마스터 개입(XP 보상 포함)을 사용할 수도 있습니다.
+
+- **기능** : 당신은 황소 같은 면모가 있습니다. 물건을 부수는 일에 익숙합니다.
+- **무능** : 균형감, 우아함, 손-눈 협응이 필요한 모든 일이 방해됩니다.
+- **첫 모험과의 인연** : 다음 목록에서, 첫 번째 모험에 어떻게 휘말리게 되었는지 선택하십시오.
+
+1. 당신은 적절한 시간에 적절한 장소에 있었습니다.
+2. 다른 PC들이 계획을 세우는 데 필요한 정보를 당신이 하나 가지고 있었습니다.
+3. 형제자매가 당신을 다른 PC들에게 추천했습니다.
+4. PC들이 임무를 논의하던 중 당신이 비틀거리며 끼어들었고, 그들이 당신을 마음에 들어 했습니다.
 
 ### CRAVEN
-Courage fails you at every turn. You lack the willpower and resolve to stand fast in the face of danger. Fear gnaws at your heart, chewing away at your mind, driving you to distraction until you cannot bear it. Most times, you back down from confrontations. You flee from threats and vacillate when faced with difficult decisions.
-Yet for all that fear dogs you and possibly shames you, your cowardly nature proves to be a useful ally from time to time. Listening to your fears has helped you escape danger and avoid taking unnecessary risks. Others may have suffered in your place, and you might be the first to admit this fact, but secretly you feel intense relief from having avoided an unthinkable and terrible fate.
-(Descriptors like Craven, Cruel, and Dishonorable might not be appropriate for every group. These are villainous traits and some people want their PCs to be entirely heroic. But others don’t mind a little moral greyness thrown into the mix. Still others see things like Craven and Cruel as traits to overcome as their characters develop (probably earning them different descriptors).)
-You gain the following characteristics:
-Furtive: +2 to your Speed Pool.
-- **기능**: You’re trained in stealth-based tasks.
-- **기능**: You’re trained in running actions.
-- **기능**: You’re trained in any action taken to escape danger, flee from a dangerous situation, or wheedle your way out of trouble.
-- **무능**: You do not willingly enter dangerous situations. Any initiative actions (to determine who goes first in combat) are hindered.
-- **무능**: You fall to pieces when you have to undertake a potentially dangerous task alone. Any such task (such as attacking a creature by yourself) is hindered.
-Additional Equipment: You have a good luck charm or protective device to keep you out of harm’s way.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You believe that you’re being hunted, and you have hired one of the other PCs as your protector.
-2. You seek to escape your shame and take up with capable individuals in the hopes of repairing your reputation. 
-3. One of the other PCs bullied you into coming along.
-4. The group answered your cries for help when you were in trouble.
+
+당신의 용기는 매번 꺾입니다. 위험 앞에서 버틸 의지와 결단이 부족합니다. 두려움이 심장을 좀먹고 정신을 갉아, 견딜 수 없을 때까지 당신을 산만하게 만듭니다. 대부분의 경우 당신은 대립을 피합니다. 위협에서 달아나고, 어려운 결정을 앞두면 우유부단해집니다.
+그럼에도 두려움이 늘 당신을 따라다니고, 어쩌면 당신을 부끄럽게 만들더라도, 당신의 겁 많은 본성은 때때로 유용한 아군이 됩니다. 공포에 귀를 기울인 덕분에 위험에서 벗어나 불필요한 모험을 피할 수 있었습니다. 대신 다른 이들이 피해를 입었을 수도 있고, 당신도 그 사실을 가장 먼저 인정할지 모릅니다. 그러나 속으로는 상상하기도 끔찍한 운명을 피했다는 강한 안도감을 느낍니다.
+(Craven, Cruel, Dishonorable 같은 수식어는 모든 그룹에 적합하지 않을 수 있습니다. 이것들은 악역적인 성향이고, 어떤 사람들은 자신의 PC가 완전히 영웅적이길 원합니다. 반면 어떤 사람들은 약간의 도덕적 회색지대를 섞는 것을 개의치 않습니다. 또 어떤 사람들은 캐릭터가 성장하며 극복해야 할 성향(아마 다른 수식어를 얻게 될)으로 봅니다.)
+당신은 다음 특성을 얻습니다:
+은밀함: 속력 역량 +2.
+
+- **기능** : 은신 기반 일에 익숙합니다.
+- **기능** : 달리기 행동에 익숙합니다.
+- **기능** : 위험에서 벗어나기, 위험한 상황에서 도주하기, 또는 교묘히 문제를 빠져나가기 위한 모든 행동에 익숙합니다.
+- **무능** : 당신은 위험한 상황에 자발적으로 들어가지 않습니다. 모든 선제 행동(전투에서 누가 먼저 행동하는지 결정)은 방해됩니다.
+- **무능** : 잠재적으로 위험한 일을 혼자 해야 하면 무너집니다. 그런 종류의 모든 일(예: 생물을 혼자 공격하기)은 방해됩니다.
+  추가 장비: 당신에게 해가 닿지 않게 해 주는 행운 부적이나 보호 장치를 하나 가지고 있습니다.
+- **첫 모험과의 인연** : 다음 목록에서, 첫 번째 모험에 어떻게 휘말리게 되었는지 선택하십시오.
+
+1. 누군가가 당신을 쫓고 있다고 믿고 있으며, 다른 PC 중 한 명을 보호자로 고용했습니다.
+2. 치욕에서 벗어나고자, 평판을 회복하길 바라며 유능한 사람들과 함께하게 되었습니다.
+3. 다른 PC 중 한 명이 당신을 겁박해 동행하게 만들었습니다.
+4. 당신이 곤경에 빠졌을 때, 집단이 당신의 구조 요청에 응답했습니다.
 
 ### CREATIVE
-Maybe you have a notebook where you write down ideas so you can develop them later. Perhaps you email yourself ideas that strike you out of the blue so you can sort them in an electronic document. Or maybe you just sit down, stare at your screen and, by indomitable force of will, produce something from nothing. However your gift works, you’re creative—you code, write, compose, sculpt, design, direct, or otherwise create narratives that enthrall other people with your vision.
-You gain the following characteristics:
-Inventive: +2 to your Intellect Pool.
-Original: You’re always coming up with something new. You’re trained in any task related to creating a narrative (such as a story, play, or scenario). This includes deception, if the deception involves a narrative you’re able to tell.
-- **기능**: You are naturally inventive. You are trained in one specific creative skill of your choice: writing, computer coding, composing music, painting, drawing, and so on.
-- **기능**: You love solving riddles and the like. You are trained in puzzle-solving tasks.
-- **기능**: To be creative requires that you always be learning. You are trained in any task that involves finding out something new, such as when you’re digging through a library, data bank, news archive, or similar collection of knowledge.
-- **무능**: You’re inventive but not charming. All tasks related to pleasant social interaction are hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You were doing research for a project and convinced the PCs to bring you along.
-2. You’re looking for new markets for the results of your creative output.
-3. You fell in with the wrong crowd, but they grew on you.
-4. A creative life is often one beset with financial hurdles. You joined the PCs because you hoped it would be profitable.
+
+당신은 나중에 발전시킬 아이디어를 적어 두는 노트를 가지고 있을지도 모릅니다. 혹은 불현듯 떠오른 생각을 자신에게 이메일로 보내 전자 문서에 정리할 수도 있습니다. 아니면 그냥 화면 앞에 앉아, 꺾이지 않는 의지로 무에서 유를 만들어 냅니다. 당신의 재능이 어떤 방식으로 작동하든, 당신은 창조적인 사람입니다. 코드를 짜고, 글을 쓰고, 작곡하고, 조각하고, 디자인하고, 연출하거나, 그 밖의 방식으로 사람들을 매료시키는 서사를 만들어 냅니다.
+당신은 다음 특성을 얻습니다:
+창의성: 지성 역량 +2.
+독창성: 당신은 언제나 새로운 것을 떠올립니다. 서사 창작(이야기, 희곡, 시나리오 등)과 관련된 모든 일에 익숙합니다. 이에는, 당신이 이야기 형태로 풀어낼 수 있는 기만도 포함됩니다.
+
+- **기능** : 당신은 타고난 발명가입니다. 글쓰기, 컴퓨터 코딩, 작곡, 회화, 드로잉 등 당신이 선택한 특정 창작 기술 하나에 익숙합니다.
+- **기능** : 당신은 수수께끼 같은 문제를 푸는 것을 좋아합니다. 퍼즐 해결 일에 익숙합니다.
+- **기능** : 창의적이려면 늘 배워야 합니다. 도서관, 데이터 뱅크, 뉴스 아카이브 등 유사한 지식 집합을 뒤져 새로운 것을 알아내는 모든 일에 익숙합니다.
+- **무능** : 당신은 창의적이지만 매력적이지는 않습니다. 호의적인 사회적 상호작용과 관련된 모든 일이 방해됩니다.
+- **첫 모험과의 인연** : 다음 목록에서, 첫 번째 모험에 어떻게 휘말리게 되었는지 선택하십시오.
+
+1. 당신은 프로젝트 연구 중이었고, PC들을 설득해 자신을 동행시켰습니다.
+2. 당신의 창작 결과물을 팔 새로운 시장을 찾고 있습니다.
+3. 나쁜 무리와 어울리게 되었지만, 시간이 지나며 그들에게 정이 들었습니다.
+4. 창작자의 삶은 종종 재정적 난관에 시달립니다. 당신은 수익이 날 거라 기대하며 PC들과 합류했습니다.
 
 ### CRUEL
-Misfortune and suffering do not move you. When another endures hardship, you find it hard to care, and you may even enjoy the pain and difficulty the person experiences if they’ve done you wrong in the past. Your cruel streak may derive from bitterness brought about by your own struggles and disappointments. You might be a hard pragmatist, doing what you feel you must even if others are worse for it. Or you could be a sadist, delighting in the pain you inflict.
-Being cruel does not necessarily make you a villain. Your cruelty may be reserved for those who cross you or other people useful to you. You might have become cruel as the result of an intensely awful experience. Abuse and torture, for example, can strip away compassion for other living beings.
-As well, you need not be cruel in every situation. In fact, others might see you as personable, friendly, and even helpful. But when angered or frustrated, your dual nature reveals itself, and those who have earned your scorn are likely to suffer for it.
-You gain the following characteristics:
-Cunning: +2 to your Intellect Pool.
-Cruelty: When you use force, you can choose to maim or deliver painful injuries to draw out your foe’s suffering. Whenever you inflict damage, you can choose to inflict 2 fewer points of damage to ease your next attack against that foe.
-- **기능**: You’re trained in tasks related to deception, intimidation, and persuasion when you interact with characters experiencing physical or emotional pain.
-- **무능**: You have a hard time connecting with others, understanding their motives, or sharing their feelings. Any task to ascertain another character’s motives, feelings, or disposition is hindered.
-Additional Equipment: You have a valuable memento from the last person you destroyed. The memento is moderately priced, and you can sell it or trade it for an item of equal or lesser value.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You suspect that you might gain a long-term
-advantage from helping the other PCs and may be able to use that advantage against your enemies.
-2. By joining the PCs, you see an opportunity to grow your personal power and status at the expense of others.
-3. You hope to make another PC’s life more difficult by joining the group.
-4. Joining the PCs gives you an opportunity to escape justice for a crime you committed. 
+
+당신은 불운과 고통에 쉽게 마음이 움직이지 않습니다. 누군가가 고난을 겪어도 공감하기 어렵고, 과거에 당신에게 잘못한 사람이 겪는 고통과 어려움이라면 오히려 즐기기까지 합니다. 당신의 잔혹한 성향은, 스스로 겪은 고난과 실망에서 비롯된 쓰라림에서 나왔을 수 있습니다. 남들이 손해를 보더라도 해야 한다고 믿는 일을 하는 냉혹한 현실주의자일 수도 있습니다. 혹은 자신이 가하는 고통 자체를 즐기는 가학적 성향일 수도 있습니다.
+잔혹하다고 해서 반드시 악당인 것은 아닙니다. 당신의 잔혹함은 당신이나 당신에게 쓸모 있는 다른 이들을 거스르는 사람에게만 향할 수도 있습니다. 혹독한 경험의 결과로 잔혹해졌을 수도 있습니다. 예를 들어 학대와 고문은 다른 생명체에 대한 연민을 벗겨 낼 수 있습니다.
+또한 당신이 모든 상황에서 잔혹할 필요는 없습니다. 실제로 타인은 당신을 사교적이고 친절하며 심지어 도움이 되는 사람으로 볼 수도 있습니다. 그러나 분노하거나 좌절하면 이중적인 본성이 드러나고, 당신의 경멸을 산 이들은 그 대가를 치르게 됩니다.
+당신은 다음 특성을 얻습니다:
+교활함: 지성 역량 +2.
+잔혹성: 무력을 사용할 때, 적의 고통을 길게 끌기 위해 불구를 만들거나 고통스러운 부상을 입힐 수 있습니다. 당신이 피해를 줄 때마다, 그 적에 대한 다음 공격을 완화하기 위해 피해를 2점 덜 줄 수 있습니다.
+
+- **기능** : 신체적 또는 감정적 고통을 겪는 인물과 상호작용할 때, 기만·위협·설득과 관련된 일에 익숙합니다.
+- **무능** : 당신은 타인과 정서적으로 연결하고, 동기를 이해하고, 감정을 공유하는 데 어려움을 겪습니다. 다른 캐릭터의 동기, 감정, 태도를 파악하는 모든 일이 방해됩니다.
+  추가 장비: 당신이 마지막으로 파멸시킨 자에게서 얻은 값진 기념품이 하나 있습니다. 그 기념품은 중간 가격대이며, 같은 가치 또는 그보다 낮은 가치의 물품과 팔거나 교환할 수 있습니다.
+- **첫 모험과의 인연** : 다음 목록에서, 첫 번째 모험에 어떻게 휘말리게 되었는지 선택하십시오.
+
+1. 다른 PC들을 도우면 장기적 이득을 얻을 수 있고, 그 이득을 적에게 활용할 수 있다고 판단합니다.
+2. PC들과 함께하면 타인을 희생시키는 대가로 자신의 힘과 지위를 키울 기회라고 봅니다.
+3. 집단에 합류해 다른 PC 한 명의 삶을 더 어렵게 만들고 싶습니다.
+4. PC들과 합류하면 자신이 저지른 범죄에 대한 처벌을 피할 기회를 얻습니다.
 
 ### DISHONORABLE
-There is no honor among thieves—or betrayers, backstabbers, liars, or cheats. You are all of these things, and either you don’t lose any sleep over it, or you deny the truth to others or to yourself. Regardless, you are willing to do whatever it takes to get your own way. Honor, ethics, and principles are merely words. In your estimation, they have no place in the real world.
-You gain the following characteristics:
-Sneaky: +4 to your Speed Pool.
-Just Desserts: When the GM gives another player an experience point to award to someone for a GM intrusion, that player cannot give it to you.
-- **기능**: You are trained in deception.
-- **기능**: You are trained in stealth.
-- **기능**: You are trained in intimidation.
-- **무능**: People don’t like or trust you. Pleasant social interactions are hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You are interested in what the PCs are doing, so you lied to them to get into their group.
-2. While skulking about, you overheard the PCs’ plans and realized that you wanted in.
-3. One of the other PCs invited you, having no idea of what you’re truly like.
-4. You bullied your way in with intimidation and bluster.
+
+도둑들 사이에 명예란 없다. 배신자, 뒤통수치는 자, 거짓말쟁이, 사기꾼 사이에도 마찬가지다. 당신은 이 모든 부류에 속하며, 그 사실 때문에 양심의 가책을 느끼지 않거나, 혹은 타인이나 자기 자신에게 진실을 부정한다. 어쨌든 당신은 원하는 것을 얻기 위해서라면 뭐든 할 수 있다. 명예, 윤리, 원칙은 그저 단어에 불과하다. 당신의 판단으로는 그런 것들은 현실 세계에 설 자리가 없다.
+당신은 다음과 같은 특성을 얻는다:
+은밀함: 속력 풀에 +4.
+응분의 대가: GM이 GM 개입으로 인해 다른 플레이어에게 경험치 1점을 주어 누군가에게 나눠 주게 할 때, 그 플레이어는 그 경험치를 당신에게 줄 수 없다.
+
+- **기능** : 당신은 기만에 숙련되어 있다.
+- **기능** : 당신은 은신에 숙련되어 있다.
+- **기능** : 당신은 위협에 숙련되어 있다.
+- **무능** : 사람들은 당신을 좋아하지도 신뢰하지도 않는다. 우호적인 사회적 상호작용이 방해된다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 당신은 PC들이 하는 일에 관심이 있었고, 그들의 집단에 들어가기 위해 거짓말을 했다.
+2. 몰래 잠복하고 다니다가 PC들의 계획을 엿듣고, 자신도 끼고 싶어졌다는 걸 깨달았다.
+3. 다른 PC 중 한 명이 당신의 본모습을 전혀 모른 채 당신을 초대했다.
+4. 당신은 위협과 허세로 밀어붙여 자리를 차지했다.
 
 ### DOOMED
-You are quite certain that your fate is leading you, inextricably, toward a terrible end. This fate might be yours alone, or you might be dragging along the people closest to you.
-You gain the following characteristics:
-Jumpy: +2 to your Speed Pool.
-- **기능**: Always on the lookout for danger, you are trained in perception-related tasks.
-- **기능**: You are defense minded, so you are trained in Speed defense tasks.
-- **기능**: You are cynical and expect the worst. Thus, you are resistant to mental shocks. You are trained in Intellect defense tasks having to do with losing your sanity or equanimity.
-Doom: Every other time the GM uses GM intrusion on your character, you cannot refuse it and do not get an XP for it (you still get an XP to award to another player). This is because you are doomed. The universe is a cold, uncaring place, and your efforts are futile at best.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You attempted to avoid it, but events seemed to conspire to draw you to where you are.
-2. Why not? It doesn’t matter. You’re doomed no matter what you do.
-3. One of the other PCs saved your life, and now you’re repaying that obligation by helping them with the task at hand.
-4. You suspect that the only hope you have of avoiding your fate might lie on this path.
 
-### EMPATHIC
-Other people are open books to you. You may have a knack for reading a person’s tells, those subtle movements that convey an individual’s mood and disposition. Or you may receive information in a more direct way, feeling a person’s emotions as if they were tangible things, sensations that lightly brush against your mind. Your gift for empathy helps you navigate social situations and control them to avoid misunderstandings and prevent useless conflicts from erupting.
-The constant bombardment of emotions from those around you likely takes a toll. You might move with the prevailing mood, swinging from giddy happiness to bitter sorrow with little warning. Or you might close yourself off and remain inscrutable to others out of a sense of self-preservation or an unconscious fear that everyone else might learn how you truly feel. 
-You gain the following characteristics:
-Open Mind: +4 to your Intellect Pool.
-- **기능**: You’re trained in tasks involving sensing other emotions, discerning dispositions, and getting a hunch about people around you.
-- **기능**: You’re trained in all tasks involving social interaction, pleasant or otherwise.
-- **무능**: Being so receptive to others’ thoughts and moods makes you vulnerable to anything that attacks your mind. Intellect defense rolls are hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You sensed the commitment to the task the other PCs have and felt moved to help them.
-2. You established a close bond with another PC and can’t bear to be parted from them.
-3. You sensed something strange in one of the PCs and decided to join the group to see if you can sense it again and uncover the truth.
-4. You joined the PCs to escape an unpleasant relationship or negative environment.
+당신은 자신의 운명이 피할 수 없이 끔찍한 결말로 자신을 이끌고 있다고 굳게 확신한다. 이 운명은 당신 혼자만의 것일 수도 있고, 혹은 당신과 가장 가까운 사람들까지 함께 끌고 갈 수도 있다.
+당신은 다음과 같은 특성을 얻는다:
+신경질적 경계: 속력 풀에 +2.
 
-### EXILED
-You have walked a long and lonely road, leaving your home and your life behind. You might have committed a heinous crime, something so awful that your people forced you out, and if you dare return, you face death. You might have been accused of a crime you didn’t commit and now must pay the price for someone else’s wicked deed. Your exile might be the result of a social gaffe—perhaps you shamed your family or a friend, or you embarrassed yourself in front of your peers, an authority, or someone you respect. Whatever the reason, you have left your old life behind and now strive to make a new one.
-You gain the following characteristics:
-Self-Reliant: +2 to your Might Pool.
-Loner: You gain no benefit when you get help with a task from another character who is trained or specialized in that task.
-- **기능**: You’re trained in all tasks involving sneaking.
-- **기능**: You’re trained in all tasks involving foraging, hunting, and finding safe places to rest or hide.
-- **무능**: Living on your own for as long as you have makes you slow to trust others and awkward in social situations. Any task involving social interaction is hindered.
-Additional Equipment: You have a memento from your past—an old picture, a locket with a few strands of hair inside, or a lighter given to you by someone important. You keep the object close at hand and pull it out to help you remember better times.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. The other PCs earned your trust by helping you when you needed it. You accompany them to repay them.
-2. While exploring on your own, you discovered something strange. When you traveled to a settlement, the PCs were the only ones who believed you, and they have accompanied you to help you deal with the problem.
-3. One of the other PCs reminds you of someone you used to know.
-4. You have grown weary of your isolation. Joining the other PCs gives you a chance to belong.
+- **기능** : 당신은 늘 위험을 살피고 있으므로, 지각 관련 일에 숙련되어 있다.
+- **기능** : 당신은 방어를 중시하므로, 속력 방어 일에 숙련되어 있다.
+- **기능** : 당신은 냉소적이며 최악을 예상한다. 그래서 정신적 충격에 강하다. 제정신이나 평정심을 잃는 것과 관련된 지능 방어 일에 숙련되어 있다.
+  파멸: GM이 당신의 캐릭터에게 GM 개입을 사용할 때마다, 두 번 중 한 번은 당신은 그것을 거부할 수 없고 XP도 받지 못한다(다른 플레이어에게 줄 XP 1점은 여전히 받는다). 이는 당신이 파멸로 향하고 있기 때문이다. 우주는 차갑고 무심한 곳이며, 당신의 분발은 잘해 봐야 헛수고다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 당신은 그 일을 피하려 했지만, 사건들이 서로 짜기라도 한 듯 당신을 지금 이 자리에 끌어당겼다.
+2. 왜 안 되겠는가? 어차피 상관없다. 무엇을 하든 당신은 파멸할 테니까.
+3. 다른 PC 중 한 명이 당신의 목숨을 구해 주었고, 당신은 지금 그 의무를 갚기 위해 그들이 당면한 일을 돕고 있다.
+4. 당신은 자신의 운명을 피할 유일한 희망이 이 길 위에 있을지도 모른다고 의심한다.
+
+### 공감적인 자
+
+당신에게 다른 사람은 펼쳐진 책과도 같다. 상대의 기색, 즉 그 사람의 기분과 태도를 드러내는 미묘한 움직임을 읽어 내는 재능이 있을지도 모른다. 혹은 더 직접적인 방식으로 정보를 받아들여, 타인의 감정을 마치 실체가 있는 것처럼 느낄 수도 있다. 그것은 마음을 스치고 지나가는 감각처럼 다가온다. 이런 공감 능력 덕분에 당신은 사회적 상황을 능숙하게 헤쳐 나가고, 오해를 줄이며, 쓸데없는 충돌이 터지는 일을 막을 수 있다.
+주변 사람들의 감정이 끊임없이 밀려드는 일은 분명 당신에게 부담이 된다. 기분의 흐름에 휩쓸려, 별다른 전조도 없이 들뜬 행복에서 쓰디쓴 슬픔으로 흔들릴 수 있다. 혹은 자신을 지키려는 마음, 또는 타인이 당신의 진짜 감정을 알아챌지 모른다는 무의식적 두려움 때문에 스스로를 닫아걸고, 남들이 읽기 어려운 사람이 될 수도 있다.
+당신은 다음 특성을 얻는다:
+열린 마음: 지성 풀 +4.
+
+- **기능** : 타인의 감정을 감지하고, 성향을 파악하며, 주변 사람에 대한 직감을 얻는 일에 숙련된다.
+- **기능** : 좋든 나쁘든, 사회적 상호작용과 관련된 모든 일에 숙련된다.
+- **무능** : 타인의 생각과 기분에 지나치게 민감한 탓에 정신을 공격받기 쉽다. 지성 방어 굴림이 방해된다.
+- **첫 모험과의 인연** : 다음 선택지 중에서, 첫 번째 모험에 어떻게 참여하게 되었는지 고른다.
+
+1. 다른 PC들이 과업에 품은 헌신을 감지하고, 그들을 돕고 싶어졌다.
+2. 다른 PC 한 명과 깊은 유대를 맺었고, 그와 떨어져 지낼 수 없었다.
+3. 다른 PC 중 한 명에게서 이상한 기운을 감지했고, 다시 그 감각을 확인해 진실을 밝히기 위해 합류했다.
+4. 불편한 관계나 부정적인 환경에서 벗어나기 위해 PC들과 합류했다.
+
+### 추방당한 자
+
+당신은 고향과 옛 삶을 뒤로한 채, 길고 외로운 길을 걸어왔다. 끔찍한 죄를 저질러 공동체에서 쫓겨났을 수도 있고, 다시 돌아가면 죽음을 맞이할지도 모른다. 저지르지 않은 범죄를 뒤집어쓰고, 다른 누군가의 악행 대가를 대신 치르고 있을 수도 있다. 혹은 사회적 실수 때문에 추방당했을지도 모른다. 가족이나 친구를 망신시켰거나, 동료들 앞에서, 권위자 앞에서, 혹은 존경하는 사람 앞에서 스스로를 창피하게 만들었을 수도 있다. 이유가 무엇이든, 당신은 옛 삶을 떠났고 이제 새로운 삶을 세우려 애쓴다.
+당신은 다음 특성을 얻는다:
+자립심: 힘 풀 +2.
+외톨이: 다른 캐릭터가 해당 일에 숙련 또는 특화되어 있더라도, 그 도움으로 아무 이득도 얻지 못한다.
+
+- **기능** : 잠입과 관련된 모든 일에 숙련된다.
+- **기능** : 식량 채집, 사냥, 안전한 휴식처나 은신처 찾기와 관련된 모든 일에 숙련된다.
+- **무능** : 오랫동안 홀로 살아온 탓에 타인을 쉽게 신뢰하지 못하고, 사회적 상황에서도 서툴다. 사회적 상호작용과 관련된 모든 일가 방해된다.
+  추가 장비: 과거를 떠올리게 하는 기념품 하나를 지닌다. 오래된 사진, 머리카락 몇 가닥이 들어 있는 로켓, 혹은 중요한 사람이 건네준 라이터 같은 물건이다. 당신은 그 물건을 늘 가까이 두고, 더 좋았던 시절을 떠올리고 싶을 때 꺼내 본다.
+- **첫 모험과의 인연** : 다음 선택지 중에서, 첫 번째 모험에 어떻게 참여하게 되었는지 고른다.
+
+1. 당신이 필요할 때 다른 PC들이 도와 주며 신뢰를 얻었다. 그 은혜를 갚기 위해 동행한다.
+2. 혼자 탐험하던 중 이상한 것을 발견했다. 정착지로 가서 이야기했을 때 믿어 준 건 PC들뿐이었고, 문제를 해결하도록 그들이 동행해 주었다.
+3. 다른 PC 중 한 명이 예전에 알던 누군가를 떠올리게 한다.
+4. 고립된 삶에 지쳤다. 다른 PC들과 함께하면 소속감을 얻을 기회가 생긴다.
 
 ### FAST
-You’re fleet of foot. Because you’re quick, you can accomplish tasks more rapidly than others can. You’re not just quick on your feet, however—you’re quick with your hands, and you think and react quickly. You even talk quickly.
-You gain the following characteristics:
-Energetic: +2 to your Speed Pool.
-- **기능**: You are trained in running.
-Fast: You can move a short distance and still take another action in the same round, or you can move a long distance as your action without needing to make any kind of roll.
-- **무능**: You’re a sprinter, not a long-distance runner. You don’t have a lot of stamina. Might defense rolls are hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You jumped in to save one of the other PCs who was in dire need.
-2. One of the other PCs recruited you for your unique talents.
-3. You’re impulsive, and it seemed like a good idea at the time.
-4. This mission ties in with a personal goal of your own.
+
+당신은 발이 빠르다. 민첩하기 때문에 다른 이들보다 더 신속하게 과업을 해낸다. 단지 발놀림만 빠른 것이 아니다. 손도 빠르고, 생각과 반응도 빠르다. 심지어 말도 빠르다.
+당신은 다음 특성을 얻는다:
+활기참: 당신의 스피드 풀에 +2.
+
+- **기능** : 당신은 달리기에 숙련되었다.
+  빠름: 같은 라운드에서 짧은 거리를 이동한 뒤에도 다른 행동을 하나 더 할 수 있다. 또는 어떤 종류의 판정도 필요 없이, 행동으로 긴 거리를 이동할 수 있다.
+- **무능** : 당신은 장거리 주자가 아니라 단거리 주자다. 지구력이 그리 많지 않다. 마이트 방어 판정이 방해된다.
+- **첫 모험과의 인연** : 다음 선택지 중에서, 당신이 첫 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 절박한 상황에 처한 다른 PC 중 한 명을 구하기 위해 뛰어들었다.
+2. 다른 PC 중 한 명이 당신의 독특한 재능을 보고 당신을 영입했다.
+3. 당신은 충동적인 성격이고, 그때는 좋은 생각처럼 보였다.
+4. 이 임무는 당신 자신의 개인적인 목표와 맞닿아 있다.
 
 ### FOOLISH
-Not everyone can be brilliant. Oh, you don’t think of yourself as stupid, and you’re not. It’s just that others might have a bit more . . . wisdom. Insight. You prefer to barrel along headfirst through life and let other people worry about things. Worrying’s never helped you, so why bother? You take things at face value and don’t fret about what tomorrow might bring.
-People call you “idiot” or “numbskull,” but it doesn’t faze you much.
-(It can be liberating and really fun to play a foolish character. In some ways, the pressure to always do the right, smart thing is off. On the other hand, if you play such a character as a bumbling moron in every situation, that can become annoying to everyone else at the table. As with everything, moderation is the key.)
-You gain the following characteristics:
-Unwise: –4 to your Intellect Pool.
-Carefree: You succeed more on luck than anything. Every time you roll for a task, roll twice and take the higher result.
-Intellect Weakness: Any time you spend points from your Intellect Pool, it costs you 1 more point than usual.
-- **무능**: Any Intellect defense task is hindered.
-- **무능**: Any task that involves seeing through a deception, an illusion, or a trap is hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. Who knows? Seemed like a good idea at the time.
-2. Someone asked you to join up with the other PCs. They told you not to ask too many questions, and that seemed fine to you.
-3. Your parent (or a parental/mentor figure) got you involved to give you something to do and maybe “teach you some sense.”
-4. The other PCs needed some muscle who wouldn’t overthink things.
+
+모든 사람이 뛰어날 수는 없다. 물론 당신은 스스로를 멍청하다고 생각하지 않고, 실제로도 그렇지는 않다. 다만 다른 이들이 조금 더... 지혜가 있을지도 모른다. 통찰이라든가. 당신은 삶을 머리부터 들이받듯이 밀고 나가고, 세세한 걱정은 다른 사람들이 하게 두는 편이다. 걱정이 당신에게 도움 된 적은 없으니, 굳이 왜 하겠는가? 당신은 보이는 그대로 받아들이고, 내일 무슨 일이 닥칠지 전전긍긍하지 않는다.
+사람들은 당신을 "바보"나 "멍청이"라고 부르지만, 당신은 그다지 개의치 않는다.
+(어리석은 캐릭터를 플레이하는 것은 해방감이 있고 정말 재미있을 수 있다. 어떤 면에서는, 언제나 옳고 영리한 선택을 해야 한다는 부담에서 벗어난다. 반면, 그런 캐릭터를 모든 상황에서 허둥대는 얼간이처럼만 연기하면 같은 테이블의 다른 모두에게 성가시게 느껴질 수 있다. 모든 일과 마찬가지로, 핵심은 절제다.)
+당신은 다음 특성을 얻는다:
+분별 없음: 당신의 지성 풀에 -4.
+태평함: 당신은 무엇보다도 운으로 더 자주 성공한다. 과업 판정을 할 때마다 주사위를 두 번 굴려 더 높은 결과를 선택한다.
+지성 약점: 당신이 지성 풀에서 점수를 소모할 때마다, 평소보다 1점을 더 소모한다.
+
+- **무능** : 모든 지성 방어 과업이 방해된다.
+- **무능** : 속임수, 환영, 또는 함정을 꿰뚫어 보는 것과 관련된 모든 과업이 방해된다.
+- **첫 모험과의 인연** : 다음 선택지 중에서, 당신이 첫 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 누가 알겠는가? 그때는 좋은 생각처럼 보였다.
+2. 누군가가 당신에게 다른 PC들과 함께하자고 했다. 너무 많은 질문은 하지 말라고 했고, 당신은 그게 괜찮았다.
+3. 당신의 부모(또는 부모/멘토 역할의 인물)가 당신에게 할 일을 주고 어쩌면 "좀 철이 들게" 하려고 이 일에 끌어들였다.
+4. 다른 PC들에게는 너무 깊이 생각하지 않을 힘 좋은 사람이 필요했다.
 
 ### GRACEFUL
-You have a perfect sense of balance, moving and speaking with grace and beauty. You’re quick, lithe, flexible, and dexterous. Your body is perfectly suited to dance, and you use that advantage in combat to dodge blows. You might wear garments that enhance your agile movement and sense of style.
-You gain the following characteristics:
-Agile: +2 to your Speed Pool.
-- **기능**: You’re trained in all tasks involving balance and careful movement.
-- **기능**: You’re trained in all tasks involving physical performing arts.
-- **기능**: You’re trained in all Speed defense tasks.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. Against your better judgment, you joined the other PCs because you saw that they were in danger.
-2. One of the other PCs convinced you that joining the group would be in your best interests.
-3. You’re afraid of what might happen if the other PCs fail.
-4. There is reward involved, and you need the money.
+
+당신은 완벽한 균형 감각을 지녔고, 우아하고 아름답게 움직이며 말한다. 당신은 빠르고, 유연하며, 탄력 있고, 손재주가 뛰어나다. 당신의 몸은 춤추기에 더없이 알맞고, 전투에서도 그 이점을 활용해 공격을 피한다. 민첩한 움직임과 감각적인 스타일을 돋보이게 하는 복장을 입고 있을지도 모른다.
+당신은 다음 특성을 얻는다:
+민첩함: 당신의 스피드 풀에 +2.
+
+- **기능** : 당신은 균형 감각과 신중한 움직임이 필요한 모든 과업에 숙련되었다.
+- **기능** : 당신은 신체 공연 예술과 관련된 모든 과업에 숙련되었다.
+- **기능** : 당신은 모든 스피드 방어 과업에 숙련되었다.
+- **첫 모험과의 인연** : 다음 선택지 중에서, 당신이 첫 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 썩 내키지는 않았지만, 다른 PC들이 위험에 처한 것을 보고 그들과 합류했다.
+2. 다른 PC 중 한 명이, 집단에 합류하는 것이 당신에게 가장 이익이 된다고 당신을 설득했다.
+3. 다른 PC들이 실패했을 때 무슨 일이 벌어질지 두렵다.
+4. 보상이 걸려 있고, 당신은 돈이 필요하다.
 
 ### GUARDED
-You conceal your true nature behind a mask and are loath to let anyone see who you really are. Protecting yourself, physically and emotionally, is what you care about most, and you prefer to keep everyone else at a safe distance. You may be suspicious of everyone you meet, expecting the worst from people so you won’t be surprised when they prove you right. Or you might just be a bit reserved, careful about letting people through your gruff exterior to the person you really are.
-No one can be as reserved as you are and make many friends. Most likely, you have an abrasive personality and tend to be pessimistic in your outlook. You probably nurse an old hurt and find that the only way you can cope is to keep it and your personality locked down. 
-You gain the following characteristics:
-Suspicious: +2 to your Intellect Pool.
-- **기능**: You are trained in all Intellect defense tasks.
-- **기능**: You are trained in all tasks involving discerning the truth, piercing disguises, and recognizing falsehoods and other deceptions.
-- **무능**: Your suspicious nature makes you unlikeable. Any task involving deception or persuasion is hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. One of the PCs managed to overcome your defenses and befriend you. 
-2. You want to see what the PCs are up to, so you accompany them to catch them in the act of some wrongdoing. 
-3. You have made a few enemies and take up with the PCs for protection.
-4. The PCs are the only people who will put up with you.
+
+당신은 가면 뒤에 진짜 본모습을 숨기며, 누구에게도 자신의 진면목을 보여주려 하지 않는다. 신체적으로도 감정적으로도 스스로를 지키는 것이 당신에게 가장 중요하고, 그래서 다른 모든 사람을 안전한 거리 밖에 두려 한다. 당신은 만나는 모든 이를 의심하며 최악을 예상할 수도 있다. 그래야 그들이 결국 당신의 예상대로 행동해도 놀라지 않기 때문이다. 아니면 단지 조금 과묵하고 신중한 성격일 수도 있다. 거친 겉모습을 뚫고 진짜 당신에게 다가오게 하는 데 조심스러운 것이다.
+당신처럼 그렇게 경계심이 강하면서도 친구를 많이 사귀기는 어렵다. 아마 당신은 까칠한 성격이고, 세상을 비관적으로 바라보는 경향이 있을 것이다. 아마 오래된 상처를 품고 있고, 그것과 자기 성격을 단단히 봉인해 두는 것만이 버티는 유일한 방법이라고 느낄지도 모른다.
+당신은 다음 특성을 얻는다:
+의심 많음: 당신의 지성 풀에 +2.
+
+- **기능** : 당신은 모든 지성 방어 과업에 숙련되었다.
+- **기능** : 당신은 진실을 가려내고, 변장을 꿰뚫어 보며, 거짓과 기타 기만을 알아차리는 모든 과업에 숙련되었다.
+- **무능** : 당신의 의심 많은 성격은 호감이 가지 않는다. 속임수나 설득과 관련된 모든 과업이 방해된다.
+- **첫 모험과의 인연** : 다음 선택지 중에서, 당신이 첫 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. PC 중 한 명이 결국 당신의 방어를 뚫고 당신과 친구가 되었다.
+2. PC들이 무슨 일을 꾸미는지 보고 싶어서, 그들의 잘못을 현장에서 잡아내려고 동행한다.
+3. 당신은 몇몇 적을 만들어 버렸고, 보호를 위해 PC들과 함께한다.
+4. PC들만이 당신을 견뎌 준다.
 
 ### HARDY
-Your body was built to take abuse. Whether you’re pounding down stiff drinks while holding up a bar in your favorite watering hole or trading blows with a thug in a back alley, you keep going, shrugging off hurts and injuries that might slow or incapacitate a lesser person. Neither hunger nor thirst, cut flesh nor broken bone can stop you. You just press on through the pain and continue.
-As fit and healthy as you are, the signs of wear show in the myriad scars crisscrossing your body, your thrice-broken nose, your cauliflower ears, and any number of other disfigurements you wear with pride.
-You gain the following characteristics:
-Mighty: +4 to your Might Pool.
-Fast Healer: You halve the time it takes to make a recovery roll (minimum one action).
-Almost Unstoppable: While you are impaired on the damage track, you function as if you were hale. While you are debilitated, you function as if you were impaired. In other words, you don’t suffer the effects of being impaired until you become debilitated, and you never suffer the effects of being debilitated. You still die if all your stat Pools are 0.
-- **기능**: You are trained in Might defense actions.
-- **무능**: Your big, strong body is slow to react. Any task involving initiative is hindered.
-Ponderous: When you apply Effort when making a Speed roll, you must spend 1 extra point from your Speed Pool.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. The PCs recruited you after learning about your reputation as a survivor.
-2. You joined the PCs because you want or need the money.
-3. The PCs offered you a challenge equal to your physical power.
-4. You believe the only way the PCs will succeed is if you are along to protect them.
+
+당신의 몸은 혹독한 상황을 버텨 내도록 만들어졌다. 즐겨 찾는 술집에서 바를 붙들고 독한 술을 들이켜든, 뒷골목에서 불한당과 주먹을 주고받든, 당신은 멈추지 않는다. 보통 사람이라면 속도가 떨어지거나 쓰러질 만한 상처와 부상도 대수롭지 않게 넘긴다. 굶주림과 갈증도, 찢긴 살과 부러진 뼈도 당신을 막지 못한다. 당신은 고통을 밀어내며 계속 전진한다.
+당신이 아무리 튼튼하고 건강해도, 몸 곳곳을 가로지르는 수많은 흉터와 세 번이나 부러졌던 코, 만두귀, 그리고 자랑스럽게 드러내는 여러 흉한 자국은 그 세월을 말해 준다.
+당신은 다음 특성을 얻는다:
+강인함: 당신의 마이트 풀에 +4.
+빠른 회복: 회복 굴림에 걸리는 시간을 절반으로 줄인다(최소 1 행동).
+거의 멈출 수 없음: 당신이 피해 단계에서 저하 상태일 때는 멀쩡한 것처럼 행동한다. 무력 상태일 때는 저하 상태인 것처럼 행동한다. 즉, 무력 상태가 되기 전까지는 저하 상태의 페널티를 받지 않으며, 무력 상태의 페널티는 아예 받지 않는다. 단, 모든 능력치 풀이 0이 되면 여전히 죽는다.
+
+- **기능** : 당신은 마이트 방어 행동에 숙련되었다.
+- **무능** : 크고 강한 몸은 반응이 느리다. 주도권이 관련된 모든 과업이 방해된다.
+  둔중함: 스피드 판정에서 분발을 적용할 때, 스피드 풀에서 추가로 1점을 더 소모해야 한다.
+- **첫 모험과의 인연** : 다음 선택지 중에서, 당신이 첫 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 다른 플레이어 캐릭터들이 당신의 생존력에 대한 명성을 듣고 당신을 영입했다.
+2. 당신은 돈이 필요하거나 원해서 다른 플레이어 캐릭터들과 함께했다.
+3. 다른 플레이어 캐릭터들이 당신의 육체적 힘에 걸맞은 도전을 제시했다.
+4. 다른 플레이어 캐릭터들이 성공하려면 당신이 함께해 그들을 지켜야 한다고 믿는다.
 
 ### HIDEOUS
-You are physically repugnant by almost any human standard. You might have had a serious accident, a harmful mutation, or just poor genetic luck, but you are incontrovertibly ugly.
-You’ve more than made up for your appearance in other ways, however. Because you have to hide your appearance, you excel at sneaking about unnoticed or disguising yourself. But perhaps most important, being ostracized while others socialized, you took the time growing up to develop yourself as you saw fit—you grew strong or quick, or you honed your mind.
-You gain the following characteristics:
-Versatile: You get 4 additional points to divide among your stat Pools.
-- **기능**: You are trained in intimidation and any other fear-based interactions, if you show your true face.
-- **기능**: You are trained in disguise and stealth tasks.
-- **무능**: All tasks relating to pleasant social interaction are hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. One of the other PCs approached you while you were in disguise, recruiting you while believing you were someone else.
-2. While skulking about, you overheard the other PCs’ plans and realized you wanted in.
-3. One of the other PCs invited you, but you wonder if it was out of pity.
-4. You bullied your way in with intimidation and bluster.
+
+당신은 거의 모든 인간의 기준에서 신체적으로 혐오감을 주는 외모를 지녔다. 심각한 사고를 겪었거나, 해로운 돌연변이를 겪었거나, 단지 유전적으로 운이 나빴을 수도 있지만, 당신이 추하다는 사실만큼은 분명하다.
+하지만 당신은 외모의 불리함을 다른 방식으로 충분히 만회해 왔다. 외모를 숨겨야 했기에, 남의 눈에 띄지 않게 숨어 다니거나 변장하는 데 뛰어나다. 그리고 어쩌면 가장 중요한 점으로, 사람들이 어울려 지내는 동안 따돌림당했던 당신은 성장기에 자기 자신을 원하는 방향으로 단련할 시간을 얻었다. 그래서 당신은 더 강해졌거나 더 빨라졌고, 혹은 정신을 날카롭게 벼렸다.
+당신은 다음 특성을 얻는다:
+다재다능: 능력치 풀들에 나눠서 배분할 수 있는 추가 점수 4점을 얻는다.
+
+- **기능** : 진짜 얼굴을 드러낸다면, 당신은 협박과 그 밖의 공포 기반 상호작용에 숙련되었다.
+- **기능** : 당신은 변장과 은밀행동 과업에 숙련되었다.
+- **무능** : 호의적인 사회적 상호작용과 관련된 모든 과업이 방해된다.
+- **첫 모험과의 인연** : 다음 선택지 중에서, 당신이 첫 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 다른 플레이어 캐릭터 중 한 명이 당신이 변장한 상태일 때 접근해, 당신을 다른 사람으로 착각한 채 영입했다.
+2. 숨어 다니던 중 다른 플레이어 캐릭터들의 계획을 엿듣고, 당신도 끼어들고 싶어졌다.
+3. 다른 플레이어 캐릭터 중 한 명이 당신을 초대했지만, 당신은 그것이 동정 때문은 아닌지 의심한다.
+4. 당신은 협박과 허세로 밀어붙여 합류했다.
 
 ### HONORABLE
-You are trustworthy, fair, and forthright. You try to do what is right, to help others, and to treat them well. Lying and cheating are no way to get ahead—these things are for the weak, the lazy, or the despicable. You probably spend a lot of time thinking about your personal honor, how best to maintain it, and how to defend it if challenged. In combat, you are straightforward and offer quarter to any foe.
-You were likely instilled with this sense of honor by a parent or a mentor. Sometimes the distinction between what is and isn’t honorable varies with different schools of thought, but in broad strokes, honorable people can agree on most aspects of what honor means. 
-You gain the following characteristics:
-Stalwart: +2 to your Might Pool.
-- **기능**: You are trained in pleasant social interactions.
-- **기능**: You are trained in discerning people’s true motives or seeing through lies.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. The PCs’ goals appear to be honorable and commendable.
-2. You see that what the other PCs are about to do is dangerous, and you’d like to help protect them.
-3. One of the other PCs invited you, hearing of your trustworthiness.
-4. You asked politely if you could join the other PCs in their mission.
+
+당신은 신뢰할 수 있고, 공정하며, 정직하다. 당신은 옳은 일을 하려 하고, 다른 이를 도우려 하며, 그들을 올바르게 대하려 한다. 거짓말과 속임수로 앞서 나가려는 방식은 당신의 길이 아니다. 그런 것은 약한 자, 게으른 자, 혹은 비열한 자의 수단이다. 당신은 아마 개인적인 명예에 대해, 그것을 가장 잘 지키는 방법에 대해, 그리고 도전받았을 때 어떻게 수호할지에 대해 많은 시간을 들여 고민해 왔을 것이다. 전투에서도 당신은 정면으로 맞서며, 어떤 적에게도 항복의 기회를 준다.
+이러한 명예감은 부모나 멘토에게서 물려받았을 가능성이 크다. 무엇이 명예롭고 무엇이 그렇지 않은지에 대한 경계는 사상이나 학파에 따라 달라지기도 하지만, 큰 틀에서 보면 명예로운 사람들은 명예의 의미 대부분에 대해 서로 의견을 같이한다.
+당신은 다음 특성을 얻는다:
+굳건함: 당신의 마이트 풀에 +2.
+
+- **기능** : 당신은 호의적인 사회적 상호작용에 숙련되었다.
+- **기능** : 당신은 사람들의 진짜 의도를 가려내거나 거짓말을 꿰뚫어 보는 데 숙련되었다.
+- **첫 모험과의 인연** : 다음 선택지 중에서, 당신이 첫 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 다른 플레이어 캐릭터들의 목표가 명예롭고 칭찬할 만해 보인다.
+2. 다른 플레이어 캐릭터들이 하려는 일이 위험해 보였고, 당신은 그들을 지켜 주고 싶다.
+3. 다른 플레이어 캐릭터 중 한 명이 당신의 신뢰성을 듣고 당신을 초대했다.
+4. 당신은 다른 플레이어 캐릭터들의 임무에 함께해도 되는지 정중히 물었다.
 
 ### IMPULSIVE
-You have a hard time tamping down your enthusiasm. Why wait when you can just do it (whatever it is) and get it done? You deal with problems when they arise rather than plan ahead. Putting out the small fires now prevents them from becoming one big fire later. You are the first to take risks, to jump in and lend a hand, to step into dark passages, and to find danger.
-Your impulsiveness likely gets you into trouble. While others might take time to study the items they discover, you use such items without hesitation. After all, the best way to learn what something can do is to use it. When a cautious explorer might look around and check for danger nearby, you have to physically stop yourself from bulling on ahead. Why fuss around when the exciting thing is just ahead?
-(Impulsive characters get into trouble. That’s their thing, and that’s fine. But if you’re constantly dragging your fellow PCs into trouble (or worse, getting them seriously hurt or killed), that will be annoying, to say the least. A good rule of thumb is that impulsiveness doesn’t always mean a predilection for doing the wrong thing. Sometimes it’s the urge to do the right thing.)
-You gain the following characteristics:
-Reckless: +2 to your Speed Pool.
-- **기능**: You’re trained in initiative actions (to determine who goes first in combat). 
-- **기능**: You’re trained in Speed defense actions.
-- **무능**: You’ll try anything once, but quickly grow bored after that. Any task that involves patience, willpower, or discipline is hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You heard what the other PCs were up to and suddenly decided to join them. 
-2. You pulled everyone together after you heard rumors about something interesting you want to see or do.
-3. You blew all of your money and now find yourself strapped for cash.
-4. You’re in trouble for acting recklessly. You join the other PCs because they offer a way out of your problem.
+
+당신은 열정을 억누르기가 어렵다. 기다릴 이유가 무엇인가? 그냥 (그게 무엇이든) 바로 해치우면 되는데. 당신은 문제를 미리 계획하기보다, 생겨났을 때 처리한다. 지금 작은 불씨를 끄면 나중에 거대한 화재가 되는 일을 막을 수 있다. 위험을 감수하는 일, 뛰어들어 도움의 손길을 내미는 일, 어두운 통로로 먼저 발을 들이는 일, 위험을 찾아내는 일에서 당신은 언제나 선두다.
+당신의 충동성은 아마 당신을 곤경에 빠뜨리곤 할 것이다. 다른 이들이 발견한 물건을 시간을 들여 살펴볼 때, 당신은 망설임 없이 그것을 사용한다. 결국 무언가가 무엇을 할 수 있는지 배우는 가장 좋은 방법은 직접 써 보는 것이니까. 신중한 탐험가라면 주변을 둘러보고 근처의 위험을 확인하겠지만, 당신은 앞만 보고 밀고 나가려는 자신을 물리적으로 멈춰 세워야 할 때가 있다. 바로 앞에 흥미진진한 일이 있는데, 왜 꾸물거리겠는가?
+(충동적인 캐릭터는 곤경에 빠진다. 그게 이들의 개성이며, 그것 자체는 괜찮다. 하지만 당신이 계속해서 동료 PC들을 문제 속으로 끌고 들어가거나(혹은 더 나쁘게는 그들을 심각하게 다치게 하거나 죽게 만든다면), 그건 최소한 매우 성가신 일이 된다. 좋은 기준 하나는, 충동성이 언제나 잘못된 일을 하려는 성향을 뜻하는 것은 아니라는 점이다. 때로는 옳은 일을 당장 하고 싶다는 충동일 수도 있다.)
+당신은 다음과 같은 특성을 얻는다:
+무모함: 스피드 풀에 +2.
+
+- **기능** : 당신은 선제권 행동(전투에서 누가 먼저 행동하는지 결정하는 행동)에 숙련되어 있다.
+- **기능** : 당신은 스피드 방어 행동에 숙련되어 있다.
+- **무능** : 당신은 한 번쯤은 뭐든 시도하지만, 금세 싫증을 낸다. 인내심, 의지력, 또는 절제가 필요한 모든 일는 방해를 받는다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 다른 PC들이 뭘 하고 있는지 듣고, 갑자기 함께하기로 결심했다.
+2. 당신이 보고 싶거나 해 보고 싶은 흥미로운 일이 있다는 소문을 듣고, 모두를 한데 모았다.
+3. 돈을 전부 탕진해 버려서, 지금은 자금이 몹시 빠듯하다.
+4. 무모하게 행동한 탓에 곤란한 처지에 빠졌다. 다른 PC들이 문제에서 빠져나올 길을 제시했기에 그들과 합류했다.
 
 ### INQUISITIVE
-The world is vast and mysterious, with wonders and secrets to keep you amazed for several lifetimes. You feel the tugging on your heart, the call to explore the wreckage of past civilizations, to discover new peoples, new places, and whatever bizarre wonders you might find along the way. However, as strongly as you feel the pull to roam the world, you know there is danger aplenty, and you take precautions to ensure that you are prepared for any eventuality. Research, preparation, and readiness will help you live long enough to see everything you want to see and do everything you want to do.
-You probably have a dozen books and travelogues about the world on you at any time. When not hitting the road and looking around, you spend your time with your nose in a book, learning everything you can about the place you’re going so you know what to expect when you get there.
-You gain the following characteristics:
-Smart: +4 to your Intellect Pool.
-- **기능**: You are eager to learn. You are trained in any task that involves learning something new, whether you’re talking to a local to get information or digging through old books to find lore.
-- **기능**: You have made a study of the world. You are trained in any task involving geography or history.
-- **무능**: You tend to fixate on the details, making you somewhat oblivious to what’s going on around you. Any task to hear or notice dangers around you is hindered.
-- **무능**: When you see something interesting, you hesitate as you take in all the details. Initiative actions (to determine who goes first in combat) are hindered.
-Additional Equipment: You have three books on whatever subjects you choose.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. One of the PCs approached you to learn information related to the mission, having heard you were an expert.
-2. You have always wanted to see the place where the other PCs are going.
-3. You were interested in what the other PCs were up to and decided to go along with them.
-4. One of the PCs fascinates you, perhaps due to a special or weird ability they have.
+
+세상은 광대하고 신비로우며, 당신을 여러 생애 동안 놀라게 할 경이와 비밀로 가득하다. 당신은 마음을 끌어당기는 부름을 느낀다. 과거 문명의 잔해를 탐사하고, 새로운 사람들과 새로운 장소를 발견하며, 그 여정에서 마주칠 기이한 경이들을 찾아 나서라는 부름이다. 그러나 세상을 떠돌고자 하는 끌림이 아무리 강해도, 위험이 도처에 있다는 사실을 당신은 안다. 그래서 어떤 상황에도 대비할 수 있도록 예방책을 챙긴다. 조사, 준비, 대비야말로 당신이 보고 싶은 모든 것을 보고, 하고 싶은 모든 것을 해낼 만큼 오래 살아남게 해 준다.
+당신은 아마 언제나 세계에 관한 책과 여행기를 열 권쯤 지니고 다닐 것이다. 길 위에서 돌아다니며 둘러보지 않을 때면, 코를 책에 박고 지내며 가려는 장소에 대해 가능한 한 모든 것을 익힌다. 도착했을 때 무엇을 기대해야 하는지 알기 위해서다.
+당신은 다음과 같은 특성을 얻는다:
+영리함: 지능 풀에 +4.
+
+- **기능** : 당신은 배우는 데 열성적이다. 현지인에게 말을 걸어 정보를 얻든, 오래된 책을 뒤져 지식을 찾든, 새로운 것을 배우는 모든 일에 숙련되어 있다.
+- **기능** : 당신은 세계를 연구해 왔다. 지리나 역사와 관련된 모든 일에 숙련되어 있다.
+- **무능** : 당신은 세부 사항에 집착하는 경향이 있어, 주변에서 벌어지는 일에 다소 둔감하다. 주변의 위험을 듣거나 알아차리는 모든 일는 방해를 받는다.
+- **무능** : 흥미로운 것을 보면, 모든 세부를 받아들이느라 잠시 머뭇거린다. 선제권 행동(전투에서 누가 먼저 행동하는지 결정하는 행동)은 방해를 받는다.
+  추가 장비: 당신이 고른 주제의 책 3권을 가진다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 당신이 전문가라는 말을 듣고, PC 중 한 명이 임무와 관련된 정보를 배우기 위해 당신을 찾아왔다.
+2. 다른 PC들이 향하는 장소를 늘 직접 보고 싶었다.
+3. 다른 PC들이 무엇을 하는지 궁금했고, 그래서 그들과 동행하기로 했다.
+4. 다른 PC 중 한 명이 당신을 매료시킨다. 어쩌면 그가 지닌 특별하거나 기묘한 능력 때문일지도 모른다.
 
 ### INTELLIGENT
-You’re quite smart. Your memory is sharp, and you easily grasp concepts that others might struggle with. This aptitude doesn’t necessarily mean that you’ve had years of formal education, but you have learned a great deal in your life, primarily because you pick things up quickly and retain so much.
-You gain the following characteristics:
-Smart: +2 to your Intellect Pool.
-- **기능**: You’re trained in an area of knowledge of your choice.
-- **기능**: You’re trained in all actions that involve remembering or memorizing things you experience directly. For example, instead of being good at recalling details of geography that you read about in a book, you can remember a path through a set of tunnels that you’ve explored before.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. One of the other PCs asked your opinion of the mission, knowing that if you thought it was a good idea, it probably was.
-2. You saw value in what the other PCs were doing.
-3. You believed that the task might lead to important and interesting discoveries.
-4. A colleague requested that you take part in the mission as a favor.
+
+당신은 꽤 똑똑하다. 기억력은 날카롭고, 다른 이들이 어려워할 개념도 쉽게 이해한다. 이런 소질이 반드시 오랜 정규 교육을 받았다는 뜻은 아니지만, 당신은 인생에서 많은 것을 배워 왔다. 주된 이유는 당신이 사물을 빠르게 익히고, 그만큼 많이 기억해 내기 때문이다.
+당신은 다음과 같은 특성을 얻는다:
+영리함: 지능 풀에 +2.
+
+- **기능** : 당신이 선택한 한 가지 지식 분야에 숙련되어 있다.
+- **기능** : 당신은 직접 경험한 일을 기억하거나 암기하는 모든 행동에 숙련되어 있다. 예를 들어, 책에서 읽은 지리 정보를 떠올리는 데 뛰어난 대신, 예전에 직접 탐사했던 터널 지대의 경로를 기억해 낼 수 있다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 다른 PC 중 한 명이 임무에 대한 당신의 의견을 물었다. 당신이 좋다고 판단했다면, 대개 좋은 생각일 거라는 걸 알았기 때문이다.
+2. 다른 PC들이 하는 일에서 가치를 보았다.
+3. 그 일가 중요하고 흥미로운 발견으로 이어질 수 있다고 믿었다.
+4. 동료 한 명이 부탁으로 임무 참여를 요청했다.
 
 ### INTUITIVE
-You are often tickled by a sense of knowing what someone will say, how they will react, or how events might unfold. Maybe you have a mutant sense, maybe you can see just a few moments ahead through time, or maybe you’re just good at reading people and extrapolating a situation. Whatever the case, many who look into your eyes immediately glance away, as if afraid of what you might see in their expression.
-You gain the following characteristics:
-Innate: +2 to your Intellect Pool.
-- **기능**: You are trained in perception tasks.
-Know What to Do: You can act immediately, even if it’s not your turn. Afterward, on your next regular turn, any action you take is hindered. You can do this one time, although the ability is renewed each time you make a recovery roll.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You just knew you had to come along.
-2. You convinced one of the other PCs that your intuition is invaluable.
-3. You felt that something terrible would happen if you didn’t go.
-4. You’re confident the reason you arrived at this point will soon become clear.
+
+당신은 누군가가 무슨 말을 할지, 어떻게 반응할지, 사건이 어떻게 전개될지를 알고 있다는 감각에 자주 간질이듯 자극받는다. 돌연변이 감각 덕분일 수도 있고, 시간을 몇 순간 앞서 볼 수 있어서일 수도 있으며, 혹은 단지 사람을 읽고 상황을 추론하는 능력이 뛰어나서일 수도 있다. 어떤 경우이든, 당신의 눈을 들여다본 많은 이들은 곧바로 시선을 돌린다. 마치 당신이 자기 표정에서 무엇을 읽어낼지 두려워하는 것처럼.
+당신은 다음과 같은 특성을 얻는다:
+타고난 감각: 지능 풀에 +2.
+
+- **기능** : 당신은 지각 일에 숙련되어 있다.
+  무엇을 해야 할지 앎: 자신의 차례가 아니어도 즉시 행동할 수 있다. 이후 당신의 다음 정규 차례에 수행하는 모든 행동은 방해를 받는다. 이 능력은 한 번 사용할 수 있으며, 회복 굴림을 할 때마다 다시 충전된다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 당신은 그냥 함께 가야 한다는 걸 알았다.
+2. 다른 PC 중 한 명에게, 자신의 직감이 얼마나 값진지 당신이 설득했다.
+3. 가지 않으면 끔찍한 일이 벌어질 것 같았다.
+4. 당신은 자신이 이 지점에 도달한 이유가 곧 분명해질 것이라 확신한다.
 
 ### JOVIAL
-You’re cheerful, friendly, and outgoing. You put others at ease with a big smile and a joke, possibly one at your own expense, though lightly ribbing your companions who can take it is also one of your favorite pastimes. Sometimes people say you never take anything seriously. That’s not true, of course, but you have learned that to dwell on the bad too long quickly robs the world of joy. You’ve always got a new joke in your back pocket because you collect them like some people collect bottles of wine.
-You gain the following characteristics:
-Witty: +2 to your Intellect Pool.
-- **기능**: You’re convivial and set most people at ease with your attitude. You are trained in all tasks related to pleasant social interaction.
-- **기능**: You have an advantage in figuring out the punch lines of jokes you’ve never heard before. You are trained in all tasks related to solving puzzles and riddles.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You solved a riddle before realizing that answering it would launch you into the adventure.
-2. The other PCs thought you’d bring some much-needed levity to the team.
-3. You decided that all fun and no work was not the best way to get through life, so you joined up with the PCs.
-4. It was either go with the PCs or face up to a circumstance that was anything but jovial.
+
+당신은 명랑하고, 친근하며, 사교적이다. 환한 미소와 농담으로 다른 이들을 편안하게 만들며, 때로는 가볍게 자신을 놀리기도 한다. 물론 농담을 받아줄 수 있는 동료들을 가볍게 놀리는 것 또한 당신이 특히 좋아하는 일이다. 사람들은 가끔 당신이 아무 일도 진지하게 받아들이지 않는다고 말한다. 물론 사실은 아니다. 다만 당신은 나쁜 일에 너무 오래 매달리면 세상에서 기쁨이 빠르게 사라진다는 것을 배웠다. 당신은 언제나 새 농담 하나쯤은 품고 다닌다. 어떤 이들이 와인을 수집하듯, 당신은 농담을 모으기 때문이다.
+당신은 다음과 같은 특성을 얻는다:
+재치: 지능 풀에 +2.
+
+- **기능** : 당신은 쾌활하고, 태도로 대부분의 사람을 편안하게 만든다. 유쾌한 사회적 상호작용과 관련된 모든 일에 숙련되어 있다.
+- **기능** : 당신은 처음 듣는 농담의 펀치라인을 파악하는 데 강점이 있다. 퍼즐과 수수께끼를 푸는 모든 일에 숙련되어 있다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 수수께끼의 답을 맞혔고, 그 답이 당신을 모험으로 이끌 거라는 사실은 그제야 알았다.
+2. 다른 PC들은 팀에 꼭 필요했던 유쾌함을 당신이 가져다줄 것이라고 생각했다.
+3. 즐기기만 하고 일은 하지 않는 삶이 좋은 방식은 아니라는 결론에 이르러, PC들과 함께하기로 했다.
+4. PC들과 함께 가거나, 명랑함과는 거리가 먼 상황을 정면으로 마주하거나 둘 중 하나였다.
 
 ### KIND
-It’s always been easy for you to see things from the point of view of other people. That ability has made you sympathetic to what they really want or need. From your perspective, you’re just applying the old proverb that “it’s easier to catch flies with honey than with vinegar,” but others simply see your behavior as kindness. Of course, being kind takes time, and yours is limited. You’ve learned that a small fraction of people don’t deserve your time or kindness—true sadists, narcissists, and similar folk will only waste your energy. So you deal with them swiftly, saving your kindness for those who deserve it and can benefit from your attention.
-You gain the following characteristics:
-Emotionally Intuitive: +2 to your Intellect Pool.
-- **기능**: You know what it’s like to go a mile in someone else’s shoes. You’re trained in all tasks related to pleasant social interaction and discerning the dispositions of others.
-Karma: Sometimes, strangers just help you out. To gain the aid of a stranger, you must use a one action, ten-minute, or one-hour recovery roll (without gaining its healing benefit), and the GM determines the nature of the aid you gain. Usually, the act of kindness isn’t enough to turn a bad situation completely around, but it may moderate a bad situation and lead to new opportunities. For example, if you are captured, a guard loosens your bonds slightly, brings you water, or delivers a message.
-- **무능**: Being kind comes with a few risks. All tasks related to detecting falsehoods are hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. A PC needed your help, and you agreed to come along as a kindness.
-2. You gave the wrong person access to your money, and now you need to make some back.
-3. You’re ready to take your benevolence on the road and help more people than you could if you didn’t join the PCs.
-4. Your job, which seemed like it would be personally rewarding, is the opposite. You join the PCs to escape the drudgery.
+
+당신은 늘 다른 사람의 관점에서 사물을 바라보는 일이 쉬웠다. 그 능력 덕분에 상대가 진짜로 무엇을 원하고 무엇이 필요한지 공감할 수 있게 되었다. 당신 입장에서는 그저 "식초보다 꿀이 파리를 더 잘 끈다"는 옛 격언을 따를 뿐이지만, 다른 이들은 당신의 태도를 친절함으로 본다. 물론 친절에는 시간이 들고, 당신의 시간은 한정되어 있다. 당신은 모든 사람이 당신의 시간과 친절을 받을 자격이 있는 건 아니라는 사실을 배웠다. 진짜 가학적인 사람들, 나르시시스트들, 그와 비슷한 부류는 당신의 에너지만 소모시킬 뿐이다. 그래서 그런 이들은 신속히 정리하고, 당신의 관심으로 이득을 볼 자격 있는 사람들에게 친절을 아껴 둔다.
+당신은 다음과 같은 특성을 얻는다:
+감정적 직관: 지능 풀에 +2.
+
+- **기능** : 당신은 남의 처지를 몸소 겪어 본 듯이 이해한다. 당신은 호의적인 사회적 상호작용 및 다른 이들의 성향을 파악하는 모든 일에 숙련되어 있다.
+  카르마: 때때로 낯선 이들이 그냥 당신을 도와준다. 낯선 이의 도움을 받으려면 한 행동, 10분, 또는 1시간 회복 굴림 중 하나를 사용해야 하며(치유 효과는 얻지 못한다), GM이 어떤 종류의 도움을 받는지 정한다. 보통 그 친절만으로 나쁜 상황이 완전히 뒤집히지는 않지만, 상황을 누그러뜨리고 새로운 기회로 이어질 수는 있다. 예를 들어 당신이 사로잡혔다면, 경비가 결박을 조금 느슨하게 해 주거나, 물을 가져다주거나, 메시지를 전달해 줄 수 있다.
+- **무능** : 친절함에는 몇 가지 위험이 따른다. 거짓을 간파하는 모든 일는 방해를 받는다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 한 PC가 당신의 도움이 필요했고, 당신은 친절에서 그들과 동행하기로 했다.
+2. 당신은 잘못된 사람에게 돈을 맡겨 버렸고, 이제 그 돈을 다시 벌어야 한다.
+3. 당신은 자신의 선의를 길 위로 가져가, PC들과 함께함으로써 더 많은 사람을 돕기로 했다.
+4. 개인적으로 보람찰 줄 알았던 당신의 일이 정반대로 흘렀다. 당신은 단조로운 고됨에서 벗어나기 위해 PC들과 합류한다.
 
 ### LEARNED
-You have studied, either on your own or with an instructor. You know many things and are an expert on a few topics, such as history, biology, geography, mythology, nature, or any other area of study. Learned characters typically carry a few books around with them and spend their spare time reading.
-You gain the following characteristics:
-Smart: +2 to your Intellect Pool.
-- **기능**: You’re trained in three areas of knowledge of your choice.
-- **무능**: You have few social graces. Any task involving charm, persuasion, or etiquette is hindered.
-Additional Equipment: You have two additional books on topics of your choice.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. One of the other PCs asked you to come along because of your knowledge.
-2. You need money to fund your studies.
-3. You believed that the task might lead to important and interesting discoveries.
-4. A colleague requested that you take part in the mission as a favor.
+
+당신은 혼자서든 스승과 함께든 학문을 익혀 왔다. 당신은 많은 것을 알고 있으며, 역사, 생물학, 지리, 신화, 자연, 혹은 그 밖의 연구 분야 가운데 몇몇 주제에서는 전문가다. 학구적인 인물은 대개 책 몇 권을 늘 들고 다니고, 여가 시간에는 독서로 시간을 보낸다.
+당신은 다음과 같은 특성을 얻는다:
+영리함: 지능 풀에 +2.
+
+- **기능** : 당신이 선택한 지식 분야 세 가지에 숙련되어 있다.
+- **무능** : 당신은 사교적 예법이 서툴다. 매력, 설득, 예절이 관련된 모든 일는 방해를 받는다.
+  추가 장비: 당신이 고른 주제의 책 2권을 추가로 가진다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 다른 PC 중 한 명이 당신의 지식을 필요로 하여 동행을 요청했다.
+2. 연구를 계속하려면 자금이 필요해 돈을 벌어야 했다.
+3. 그 일가 중요하고 흥미로운 발견으로 이어질 수 있다고 믿었다.
+4. 동료 한 명이 부탁으로 임무 참여를 요청했다.
 
 ### LUCKY
-You rely on chance and timely good luck to get you through many situations. When people say that someone was born under a lucky star, they mean you. When you try your hand at something new, no matter how unfamiliar the task is, as often as not you find a measure of success. Even when disaster strikes, it’s rarely as bad as it could be. More often, small things seem to go your way, you win contests, and you’re often in the right place at the right time.
-You gain the following characteristics:
-Luck Pool: You have one additional Pool called Luck that begins with 3 points, and it has a maximum value of 3 points. When spending points from any other Pool, you can take one, some, or all of the points from your Luck Pool first. When you make a recovery roll to recover points to any other Pool, your Luck Pool is also refreshed by the same number of points. When your Luck Pool is at 0 points, it does not count against your damage track. Enabler.
-Advantage: When you use 1 XP to reroll a d20 for any roll that affects only you, add 3 to the reroll.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. Knowing that lucky people notice and take active advantage of opportunities, you became involved in your first adventure by choice.
-2. You literally bumped into someone else on this adventure through sheer luck.
-3. You found a briefcase lying alongside the road. It was battered, but inside you found a lot of strange documents that led you here.
-4. Your luck saved you when you avoided a speeding vehicle by a fortuitous fall through an opening in the ground (a manhole, if in a modern setting). Beneath the ground, you found something you couldn’t ignore.
+
+당신은 수많은 상황을 우연과 절묘한 행운에 기대어 헤쳐 나간다. 누군가를 두고 "행운의 별 아래서 태어났다"고 말한다면, 바로 당신을 두고 하는 말이다. 처음 해 보는 일이라도, 그 일가 아무리 낯설어도, 당신은 생각보다 자주 어느 정도 성공을 거둔다. 재난이 닥쳐도 최악으로 치닫는 일은 드물다. 오히려 사소한 일들이 당신에게 유리하게 흘러가고, 내기에서 이기며, 결정적인 순간에 꼭 맞는 장소에 있는 경우가 잦다.
+당신은 다음과 같은 특성을 얻는다:
+행운 풀: 당신은 행운이라는 추가 풀 하나를 가지며, 시작값은 3점이고 최대값도 3점이다. 다른 풀에서 점수를 소모할 때, 먼저 행운 풀에서 1점 이상(일부 또는 전부)을 대신 소모할 수 있다. 다른 풀의 점수를 회복하기 위해 회복 굴림을 하면, 행운 풀도 같은 수치만큼 함께 회복된다. 행운 풀이 0점일 때는 피해 트랙 판정에 불리하게 계산되지 않는다. 이네이블러.
+유리함: 자신에게만 영향을 미치는 굴림에서 XP 1점을 사용해 d20 재굴림을 할 때, 그 재굴림 결과에 +3을 더한다.
+
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 행운아는 기회를 알아보고 주도적으로 붙잡아야 한다는 걸 알았기에, 당신은 스스로 첫 모험에 뛰어들었다.
+2. 순전한 행운으로, 이번 모험에 참여한 다른 누군가와 길에서 우연히 부딪혔다.
+3. 길가에 떨어진 서류가방 하나를 발견했다. 겉은 낡고 닳아 있었지만, 안에는 당신을 여기까지 이끈 기묘한 문서들이 가득 들어 있었다.
+4. 과속 차량을 피하려다 운 좋게 땅의 틈(현대 배경이라면 맨홀)을 통해 아래로 떨어졌고, 그 덕분에 행운이 당신을 살렸다. 지하에서 당신은 결코 외면할 수 없는 무언가를 발견했다.
 
 ### MAD
-You have delved too deeply into subjects people were not meant to know. You are knowledgeable in things beyond the scope of most, but this knowledge has come at a terrible price. You are likely in questionable physical shape and occasionally shake with nervous tics. You sometimes mutter to yourself without realizing it.
-You gain the following characteristics:
-Knowledgeable: +4 to your Intellect Pool.
-Fits of Insight: Whenever such knowledge is appropriate, the GM feeds you information although there is no clear explanation as to how you could know such a thing. This is up to the GM’s discretion, but it should happen as often as once each session.
-Erratic Behavior: You are prone to acting erratically or irrationally. When you are in the presence of a major discovery or subjected to great stress (such as a serious physical threat), the GM can introduce a GM intrusion that directs your next action without awarding XP. You can still pay 1 XP to refuse the intrusion. The GM’s influence is the manifestation of your madness and thus is always something you would not likely do otherwise, but it is not directly, obviously harmful to you unless there are extenuating circumstances. (For example, if a foe suddenly leaps out of the darkness, you might spend the first round babbling incoherently or screaming the name of your first true love.)
-- **기능**: You are trained in one area of knowledge (probably something weird or esoteric).
-- **무능**: Your mind is quite fragile. Tasks to resist mental attacks are hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. Voices in your head told you to go.
-2. You instigated the whole thing and convinced the others to join you.
-3. One of the other PCs obtained a book of knowledge for you, and now you’re repaying that favor by helping them with the task at hand.
-4. You feel compelled by inexplicable intuition.
+
+당신은 사람들이 알지 말았어야 할 주제를 너무 깊이 파고들었다. 당신은 대부분의 사람이 다루는 범위를 넘어선 지식을 갖추었지만, 그 지식은 끔찍한 대가를 치르게 했다. 당신은 대체로 신체 상태가 좋지 않으며, 때때로 신경성 경련으로 몸을 떤다. 가끔은 스스로도 모르게 중얼거리기도 한다.
+당신은 다음과 같은 특성을 얻는다:
+박식함: 지능 풀에 +4.
+통찰의 발작: 그런 지식이 적절한 상황이면, 당신이 어떻게 그런 사실을 알 수 있는지 분명한 설명이 없더라도 GM이 정보를 제공한다. 빈도는 GM 재량이지만, 최소한 세션당 한 번 정도는 일어나야 한다.
+불안정한 행동: 당신은 돌발적이거나 비이성적으로 행동하기 쉽다. 중대한 발견을 목격하거나 극심한 스트레스(예: 심각한 신체적 위협)를 받는 상황에서, GM은 XP 보상 없이 당신의 다음 행동을 지시하는 GM 개입을 넣을 수 있다. 당신은 여전히 XP 1점을 지불해 그 개입을 거부할 수 있다. GM의 영향은 당신의 광기가 드러나는 방식이므로, 보통의 당신이라면 하지 않을 법한 행동으로 나타난다. 다만 특별한 사정이 없는 한, 그 행동이 직접적이고 명백하게 당신을 해치도록 하지는 않는다. (예를 들어 어둠 속에서 적이 갑자기 튀어나오면, 당신은 첫 라운드 동안 앞뒤 맞지 않게 중얼거리거나 첫사랑의 이름을 비명을 지르며 외칠 수 있다.)
+
+- **기능** : 당신은 한 가지 지식 분야(아마 기괴하거나 난해한 분야)에 숙련되어 있다.
+- **무능** : 당신의 정신은 꽤 취약하다. 정신 공격에 저항하는 일는 방해를 받는다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 머릿속 목소리들이 가라고 말했다.
+2. 당신이 일을 처음부터 벌였고, 다른 이들을 설득해 함께하게 했다.
+3. 다른 PC 중 한 명이 당신을 위해 지식이 담긴 책을 구해 주었고, 이제 당신은 그 빚을 갚기 위해 이번 일에서 그들을 돕고 있다.
+4. 설명할 수 없는 직감에 이끌린다.
 
 ### MECHANICAL
-You have a special talent with machines of all kinds, and you’re adept at understanding and, if need be, repairing them. Perhaps you’re a bit of an inventor, creating new machines from time to time. You get called “techie,” “tech,” “mech,” “gear-head,” “motor-head,” or any of a number of other nicknames. Mechanics usually wear practical work clothes and carry around a lot of tools. 
-You gain the following characteristics:
-Smart: +2 to your Intellect Pool. 
-- **기능**: You’re trained in all actions involving identifying or understanding machines.
-- **기능**: You’re trained in all actions involving using, repairing, or crafting machines.
-Additional Equipment: You start with a variety of machine tools.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. While repairing a nearby machine, you overheard the other PCs talking.
-2. You need money to buy tools and parts.
-3. It was clear that the mission couldn’t succeed without your skills and knowledge.
-4. Another PC asked you to join them.
+
+당신은 온갖 기계에 특별한 재능이 있으며, 기계를 이해하고 필요하다면 수리하는 데 능숙하다. 어쩌면 당신은 때때로 새로운 장치를 만들어 내는 발명가 기질도 있을지 모른다. 사람들은 당신을 "테키", "테크", "메크", "기어헤드", "모터헤드" 같은 별명으로 부르곤 한다. 기계 다루는 이들은 대개 실용적인 작업복을 입고, 많은 공구를 들고 다닌다.
+당신은 다음과 같은 특성을 얻는다:
+영리함: 지능 풀에 +2.
+
+- **기능** : 기계를 식별하거나 이해하는 모든 행동에 숙련되어 있다.
+- **기능** : 기계를 사용, 수리, 제작하는 모든 행동에 숙련되어 있다.
+  추가 장비: 다양한 기계 공구를 갖고 시작한다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 근처 기계를 수리하던 중, 다른 PC들이 이야기하는 것을 엿들었다.
+2. 공구와 부품을 사려면 돈이 필요하다.
+3. 당신의 기술과 지식 없이는 임무가 성공할 수 없다는 것이 분명했다.
+4. 다른 PC 한 명이 당신에게 함께하자고 요청했다.
 
 ### MYSTERIOUS
-The dark figure lurking silently in the corner? That’s you. No one really knows where you came from or what your motives are—you play things close to the vest. Your manner perplexes and confounds others, but that doesn’t make you a poor friend or ally. You’re just good at keeping things to yourself, moving about unseen, and concealing your presence and identity.
-You gain the following characteristics:
-- **기능**: You are trained in all stealth tasks.
-- **기능**: You are trained in resisting interrogation or tricks to get you to talk.
-Confounding: You pull talents and abilities seemingly out of nowhere. You can attempt one task in which you have no training as if you were trained, attempt a task that you are trained in as if specialized, or gain a free level of Effort with a task that you are specialized in. This ability refreshes every time you make a recovery roll, but the uses never accumulate.
-- **무능**: People never know where they stand with you. Any task involving getting people to believe or trust you is hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You just showed up one day.
-2. You convinced one of the other PCs that you had invaluable skills.
-3. Some equally mysterious figure told you where to be and when (but not why) to join the group.
-4. Something—a feeling, a dream—told you where to be and when to join the group.
+
+구석에서 말없이 웅크리고 있는 그 어두운 인물? 바로 당신이다. 당신이 어디서 왔는지, 무슨 의도를 품었는지 아무도 제대로 알지 못한다. 당신은 속내를 드러내지 않는다. 당신의 태도는 다른 사람을 혼란스럽고 당황하게 만들지만, 그렇다고 당신이 나쁜 친구나 동료라는 뜻은 아니다. 당신은 단지 비밀을 지키고, 눈에 띄지 않게 움직이며, 자신의 존재와 정체를 감추는 데 능할 뿐이다.
+당신은 다음과 같은 특성을 얻는다:
+
+- **기능** : 모든 은밀 행동 일에 숙련되어 있다.
+- **기능** : 심문이나 입을 열게 만들기 위한 속임수에 저항하는 일에 숙련되어 있다.
+  혼란 유발: 당신은 마치 허공에서 꺼내 온 듯한 재능과 능력을 발휘한다. 숙련이 없는 일 하나를 숙련된 것처럼 시도하거나, 숙련된 일 하나를 전문화된 것처럼 시도하거나, 전문화된 일에서 무료 분발 1단계를 얻을 수 있다. 이 능력은 회복 굴림을 할 때마다 새로워지지만, 사용 횟수는 누적되지 않는다.
+- **무능** : 사람들은 당신의 속내를 알기 어렵다. 사람들이 당신을 믿게 만들거나 신뢰를 얻는 모든 일는 방해를 받는다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 어느 날 당신은 그냥 나타났다.
+2. 다른 PC 중 한 명에게 당신의 기술이 대체 불가능하다고 설득했다.
+3. 당신만큼이나 수수께끼 같은 누군가가, 왜인지는 말하지 않은 채 어디에 언제 있어야 하는지만 알려 주었다.
+4. 어떤 것, 이를테면 느낌이나 꿈이 당신에게 어디에 언제 가야 할지 알려 주었다.
 
 ### MYSTICAL
-You think of yourself as mystical, attuned with the mysterious and the paranormal. Your true talents lie with the supernatural. You likely have experience with ancient lore, and you can sense and wield the supernatural—though whether that means “magic,” “psychic phenomena,” or something else is up to you (and probably up to those around you as well). Mystical characters often wear jewelry, such as a ring or an amulet, or have tattoos or other marks that show their interests. 
-You gain the following characteristics:
-Smart: +2 to your Intellect Pool. 
-- **기능**: You’re trained in all actions involving identifying or understanding the supernatural.
-Sense Magic: You can sense whether the supernatural is active in situations where its presence is not obvious. You must study an object or location closely for a minute to get a feel for whether a mystical touch is at work.
-Spell: You can perform Hedge Magic as a spell when you have a free hand and can pay the Intellect point cost.
-- **무능**: You have a manner or an aura that others find a bit unnerving. Any task involving charm, persuasion, or deception is hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. A dream guided you to this point.
-2. You need money to fund your studies.
-3. You believed the mission would be a great way to learn more about the supernatural.
-4. Various signs and portents led you here.
+
+당신은 자신을 신비주의자로 여긴다. 수수께끼와 초상 현상에 조율된 존재라고 생각한다. 당신의 진정한 재능은 초자연에 있다. 당신은 고대 전승에 대한 경험이 있을 가능성이 크며, 초자연을 감지하고 다룰 수 있다. 다만 그것이 "마법"인지, "초능력 현상"인지, 혹은 다른 무엇인지는 당신(그리고 아마 주변 사람들)의 해석에 달려 있다. 신비주의자들은 반지나 부적 같은 장신구를 차거나, 관심사를 드러내는 문신이나 표식을 지니는 경우가 많다.
+당신은 다음과 같은 특성을 얻는다:
+영리함: 지능 풀에 +2.
+
+- **기능** : 초자연을 식별하거나 이해하는 모든 행동에 숙련되어 있다.
+  마법 감지: 초자연의 존재가 겉으로 분명하지 않은 상황에서도, 당신은 그것이 작동 중인지 감지할 수 있다. 어떤 물체나 장소를 1분 동안 면밀히 살펴보면, 신비한 손길이 닿았는지 느낌을 얻는다.
+  주문: 한 손이 자유롭고 지능 점수 비용을 지불할 수 있다면, 헤지 매직을 주문으로 시전할 수 있다.
+- **무능** : 당신의 태도나 기운은 타인에게 다소 불안감을 준다. 매력, 설득, 기만이 관련된 모든 일는 방해를 받는다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 꿈이 당신을 이 지점으로 이끌었다.
+2. 연구를 계속하려면 자금이 필요하다.
+3. 이 임무가 초자연에 대해 더 배우는 훌륭한 기회가 될 것이라 믿었다.
+4. 여러 징조와 전조가 당신을 이곳으로 이끌었다.
 
 ### NAIVE
-You’ve lived a sheltered life. Your childhood was safe and secure, so you didn’t get a chance to learn much about the world—and even less chance to experience it. Whether you were training for something, had your nose in a book, or just were sequestered in a secluded place, you haven’t done much, met many people, or seen many interesting things so far. That’s probably going to change soon, but as you go forward into a larger world, you do so without some of the understanding that others possess about how it all works.
-You gain the following characteristics:
-Fresh: You add +1 to your recovery rolls.
-Incorruptible: You are trained in Intellect defense tasks and all tasks that involve resisting temptation.
-- **기능**: You’re wide-eyed. You are trained in perception tasks.
-- **무능**: Any task that involves seeing through deceptions or determining someone’s secret motive is hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. Someone told you that you should get involved.
-2. You needed money, and this seemed like a good way to earn some.
-3. You believed that you could learn a lot by joining the other PCs.
-4. Sounded like fun.
+
+당신은 보호받는 삶을 살아왔다. 어린 시절은 안전하고 안정적이었기에, 세상에 대해 많이 배울 기회가 없었고 실제로 세상을 겪어 볼 기회는 그보다도 더 적었다. 어떤 목표를 위해 훈련 중이었든, 책에만 파묻혀 있었든, 혹은 외딴곳에 격리되어 지냈든, 지금까지 당신은 많은 일을 해 보지도, 많은 사람을 만나지도, 많은 흥미로운 일을 보지도 못했다. 아마 이는 곧 바뀔 것이다. 하지만 더 넓은 세계로 나아가면서, 세상이 어떻게 돌아가는지에 대해 다른 이들이 가진 이해를 당신은 아직 일부 갖추지 못한 채 출발하게 된다.
+당신은 다음과 같은 특성을 얻는다:
+신선함: 회복 굴림에 +1을 더한다.
+타락하지 않음: 지성 방어 일과 유혹에 저항하는 모든 일에 익숙하다.
+
+- **기능** : 당신은 세상을 순수한 눈으로 본다. 지각 일에 익숙하다.
+- **무능** : 기만을 간파하거나 누군가의 숨은 동기를 알아내는 모든 일은 방해된다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 누군가가 당신에게 참여하라고 말했다.
+2. 당신에게는 돈이 필요했고, 이 일이 돈을 벌 좋은 방법처럼 보였다.
+3. 다른 PC들과 함께하면 많은 것을 배울 수 있다고 믿었다.
+4. 재미있어 보였다.
 
 ### PERCEPTIVE
-You miss little. You pick out the small details in the world around you and are skilled at making deductions from the information you find. Your talents make you an exceptional sleuth, a formidable scientist, or a talented scout.
-As adept as you are at finding clues, you have no skill at picking up on social cues. You overlook an offense that your deductions give or how uncomfortable your scrutiny can make the people around you. You tend to dismiss others as being intellectual dwarfs compared to you, which avails you little when you need a favor.
-You gain the following characteristics:
-Smart: +2 to your Intellect Pool.
-- **기능**: You have an eye for detail. You are trained in any task that involves finding or noticing small details.
-- **기능**: You know a little about everything. You are trained in any task that involves identifying objects or calling to mind a minor detail or bit of trivia.
-- **기능**: Your skill at making deductions can be imposing. You are trained in any task that involves intimidating another creature.
-- **무능**: Your confidence comes off as arrogance to people who don’t know you. Any task involving positive social interactions is hindered.
-Additional Equipment: You have a bag of light tools.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You overheard the other PCs discussing their mission and volunteered your services.
-2. One of the PCs asked you to come along, believing that your talents would be invaluable to the mission. 
-3. You believe that the PCs’ mission is somehow related to one of your investigations.
-4. A third party recruited you to follow the PCs and see what they were up to.
+
+당신은 놓치는 것이 거의 없다. 주변 세계의 작은 디테일을 잘 포착하며, 찾아낸 정보로부터 추론을 이끌어 내는 데 능하다. 이런 재능 덕분에 당신은 뛰어난 탐정, 만만치 않은 과학자, 혹은 유능한 정찰병이 될 수 있다.
+하지만 단서를 찾아내는 데 아무리 능숙해도, 사회적 신호를 읽는 솜씨는 없다. 당신의 추론이 상대에게 어떤 불쾌감을 줄 수 있는지, 혹은 당신의 집요한 관찰이 주변 사람들을 얼마나 불편하게 만드는지 자주 지나친다. 또한 자신을 타인보다 지적으로 우월하다고 여기는 경향이 있는데, 부탁이 필요할 때는 그런 태도가 별 도움이 되지 않는다.
+당신은 다음과 같은 특성을 얻는다:
+영민함: 지능 풀에 +2.
+
+- **기능** : 당신은 세부를 꿰뚫어 보는 눈을 지녔다. 작은 디테일을 찾거나 알아차리는 모든 일에 숙련되어 있다.
+- **기능** : 당신은 무엇이든 조금씩은 안다. 물체를 식별하거나, 사소한 세부사항 또는 잡학 지식을 떠올리는 모든 일에 숙련되어 있다.
+- **기능** : 추론 능력은 상대에게 위압감으로 다가갈 수 있다. 다른 생명체를 위협하는 모든 일에 숙련되어 있다.
+- **무능** : 당신의 자신감은 당신을 잘 모르는 사람들에게 오만함으로 비친다. 긍정적인 사회적 상호작용과 관련된 모든 일는 방해를 받는다.
+  추가 장비: 가벼운 도구가 담긴 가방 하나를 가진다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 다른 PC들이 임무를 논의하는 이야기를 엿듣고, 스스로 나서서 돕겠다고 했다.
+2. PC 중 한 명이 당신의 재능이 임무에 매우 중요하다고 믿고, 함께 가자고 제안했다.
+3. 당신은 PC들의 임무가 자신이 진행 중인 조사 가운데 하나와 어떤 식으로든 관련되어 있다고 믿는다.
+4. 제3자가 당신을 고용해 PC들을 뒤따르며 그들이 무엇을 하는지 살펴보게 했다.
 
 ### RESILIENT
-You can take a lot of punishment, both physically and mentally, and still come back for more. It takes a lot to put you down. Neither physical nor mental shocks or damage have a lasting effect. You’re tough to faze. Unflappable. Unstoppable.
-You gain the following characteristics:
-Resistant: +2 to your Might Pool, and +2 to your Intellect Pool.
-Recover: You can make an extra recovery roll each day. This roll is just one action. So you can make two recovery rolls that each take one action, one roll that takes ten minutes, a fourth roll that takes one hour, and a fifth roll that requires ten hours of rest.
-- **기능**: You are trained in Might defense tasks.
-- **기능**: You are trained in Intellect defense tasks.
-- **무능**: You’re hardy but not necessarily strong. Any task involving moving, bending, or breaking things is hindered.
-- **무능**: You have a lot of willpower and mental fortitude, but you’re not necessarily smart. Any task involving knowledge or figuring out problems or puzzles is hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You saw that the PCs clearly need someone like you to help them out.
-2. Someone asked you to watch over one of the PCs in particular, and you agreed.
-3. You are bored and desperately in need of a challenge.
-4. You lost a bet—unfairly, you think—and had to take someone’s place on this mission.
+
+당신은 육체적으로든 정신적으로든 큰 타격을 받아도 다시 일어설 수 있다. 당신을 쓰러뜨리려면 웬만한 것으로는 부족하다. 육체적 충격이든 정신적 충격이든, 또는 피해든 오래 남는 영향이 없다. 당신은 좀처럼 흔들리지 않는다. 침착하고, 멈출 수 없다.
+당신은 다음 특성을 얻는다:
+Resistant: 힘 역량 +2, 지성 역량 +2.
+Recover: 하루에 회복 굴림을 한 번 더 할 수 있다. 이 굴림은 행동 1회만 소모한다. 따라서 행동 1회가 드는 회복 굴림을 두 번, 10분이 드는 회복 굴림을 한 번, 1시간이 드는 당신의 번째 회복 굴림을 한 번, 그리고 10시간 휴식이 필요한 다섯 번째 회복 굴림을 한 번 할 수 있다.
+
+- **기능** : 당신은 힘 방어 일에 숙련된다.
+- **기능** : 당신은 지성 방어 일에 숙련된다.
+- **무능** : 당신은 질기지만 반드시 힘이 센 것은 아니다. 물건을 옮기거나, 굽히거나, 부수는 모든 일는 방해를 받는다.
+- **무능** : 당신은 의지력과 정신적 강인함은 크지만, 반드시 영리한 것은 아니다. 지식이 필요하거나 문제·퍼즐을 풀어내는 모든 일는 방해를 받는다.
+- **첫 모험과의 인연** : 다음 목록에서, 당신이 첫 번째 모험에 어떻게 참여하게 되었는지 고르시오.
+
+1. 당신은 다른 PC들에게 분명 당신 같은 사람이 필요하다고 보고, 그들을 돕기로 했다.
+2. 누군가가 당신에게 특정 PC 하나를 지켜봐 달라고 요청했고, 당신은 동의했다.
+3. 당신은 지루함을 느끼고 있었고, 간절히 도전이 필요했다.
+4. 당신은 내기에서 졌다. 당신 생각엔 불공정했지만, 이 임무에서 누군가의 자리를 대신해야 했다.
 
 ### RISK-TAKING
-It’s part of your nature to question what others think can’t or shouldn’t be done. You’re not insane, of course—you wouldn’t attempt to leap across a mile-wide chasm just because you were dared. There’s impossible and then there’s the just barely possible. You like to push the latter further than others, because it gives you a rush of satisfaction and pleasure when you succeed. The more you succeed, the more you find yourself looking for that next risky challenge to try yourself against.
-You gain the following characteristics:
-Nimble: +4 to your Speed Pool.
-- **기능**: You’re adept at leveraging risk, and you are trained in tasks that involve some element of chance, such as playing games or choosing between two or three apparently equal options.
-Pressing Your Luck: You can choose to automatically succeed on one task without rolling, as long as the task’s difficulty is no higher than 6. When you do so, however, you also trigger a GM intrusion as if you had rolled a 1. The intrusion doesn’t invalidate the success, but it probably qualifies it in some fashion. You can do this one time, although the ability renews each time you make a ten-hour recovery roll.
-- **무능**: You may be nimble, but you’re not sneaky. Tasks related to sneaking and staying quiet are hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. It seemed like there were equal odds that the other PCs wouldn’t succeed, which sounded good to you.
-2. You think the tasks ahead will present you with unique and fulfilling challenges.
-3. One of your biggest risks failed to go your way, and you need money to help pay that debt.
-4. You bragged that you never saw a risk you didn’t like, which is how you reached your current point.
+
+남들이 할 수 없거나 해선 안 된다고 여기는 일을 의심해 보는 것은 당신의 본성이다. 물론 당신이 미친 건 아니다. 누가 부추긴다고 해서 폭이 1마일이나 되는 협곡을 뛰어넘으려 하진 않는다. 불가능한 일이 있고, 간신히 가능한 일이 있다. 당신은 그중 후자를 남들보다 더 밀어붙이는 걸 좋아한다. 성공했을 때의 짜릿한 만족감과 쾌감이 있기 때문이다. 성공이 쌓일수록, 당신은 스스로를 시험할 다음 위험한 도전을 더 찾게 된다.
+당신은 다음 특성을 얻는다:
+Nimble: 속력 역량 +4.
+
+- **기능** : 당신은 위험을 활용하는 데 능숙하며, 게임을 하거나 겉보기엔 비슷한 둘 또는 셋의 선택지 중 하나를 고르는 것처럼 운 요소가 있는 일에 숙련된다.
+  Pressing Your Luck: 일 난이도가 6 이하라면, 굴림 없이 일 하나를 자동으로 성공하도록 선택할 수 있다. 하지만 그렇게 하면 주사위에서 1이 나온 것처럼 GM 개입도 함께 발생한다. 이 개입이 성공 자체를 무효로 만들지는 않지만, 대개 어떤 식으로든 조건이 붙는다. 이 능력은 한 번 사용할 수 있으며, 10시간 회복 굴림을 할 때마다 다시 충전된다.
+- **무능** : 당신은 민첩할 수는 있어도 은밀하진 않다. 은신하거나 조용히 움직이는 일는 방해를 받는다.
+- **첫 모험과의 인연** : 다음 목록에서, 당신이 첫 번째 모험에 어떻게 참여하게 되었는지 고르시오.
+
+1. 다른 PC들이 성공하지 못할 확률도 비슷해 보였고, 그 점이 당신 마음에 들었다.
+2. 당신은 앞으로의 일들이 당신에게 독특하고도 보람찬 도전을 안겨줄 거라 생각한다.
+3. 당신이 감수했던 가장 큰 위험 중 하나가 뜻대로 풀리지 않았고, 그 빚을 갚는 데 돈이 필요하다.
+4. 당신은 마음에 안 드는 위험은 본 적이 없다고 큰소리쳤고, 그래서 지금 이 상황에 이르게 되었다.
 
 ### RUGGED
-You’re a nature lover accustomed to living rough, pitting your wits against the elements. Most likely, you’re a skilled hunter, gatherer, or naturalist. Years of living in the wild have left their mark with a worn countenance, wild hair, or scars. Your clothing is probably much less refined than the garments worn by city dwellers.
-You gain the following characteristics:
-- **기능**: You’re trained in all tasks involving climbing, jumping, running, and swimming.
-- **기능**: You’re trained in all tasks involving training, riding, or placating natural animals.
-- **기능**: You’re trained in all tasks involving identifying or using natural plants.
-- **무능**: You have no social graces and prefer animals to people. Any task involving charm, persuasion, etiquette, or deception is hindered.
-Additional Equipment: You carry an explorer’s pack with rope, two days’ rations, a bedroll, and other tools needed for outdoor survival.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. Against your better judgment, you joined the other PCs because you saw that they were in danger.
-2. One of the other PCs convinced you that joining the group would be in your best interests.
-3. You’re afraid of what might happen if the other PCs fail.
-4. There is reward involved, and you need the money.
+
+당신은 험한 환경에서 살아가는 데 익숙한 자연 애호가로, 자신의 기지를 자연의 위협과 맞붙이며 살아왔다. 아마 당신은 노련한 사냥꾼이자 채집가, 혹은 자연학자일 것이다. 야생에서 보낸 오랜 세월은 닳아 보이는 인상, 헝클어진 머리카락, 혹은 흉터 같은 흔적을 남겼다. 당신의 옷차림은 도시 거주자들의 복장보다 훨씬 덜 세련되었을 가능성이 크다.
+당신은 다음 특성을 얻는다:
+
+- **기능** : 당신은 등반, 도약, 달리기, 수영과 관련된 모든 일에 숙련된다.
+- **기능** : 당신은 야생 동물을 길들이거나, 타거나, 달래는 모든 일에 숙련된다.
+- **기능** : 당신은 자연 식물을 식별하거나 활용하는 모든 일에 숙련된다.
+- **무능** : 당신은 사교성이 없고 사람보다 동물을 더 좋아한다. 매력, 설득, 예절, 기만과 관련된 모든 일는 방해를 받는다.
+  Additional Equipment: 당신은 밧줄, 이틀치 식량, 침낭, 그리고 야외 생존에 필요한 기타 도구가 들어 있는 탐험가 배낭을 지닌다.
+- **첫 모험과의 인연** : 다음 목록에서, 당신이 첫 번째 모험에 어떻게 참여하게 되었는지 고르시오.
+
+1. 당신은 내키지 않았지만, 다른 PC들이 위험에 처한 것을 보고 그들과 함께했다.
+2. 다른 PC 중 한 명이 집단에 합류하는 것이 당신에게 이득이라고 설득했다.
+3. 당신은 다른 PC들이 실패했을 때 어떤 일이 벌어질지 두렵다.
+4. 보상이 걸려 있고, 당신은 그 돈이 필요하다.
 
 ### SHARP-EYED
-You’re perceptive and well aware of your surroundings. You notice the little details and remember them. You can be difficult to surprise.
-You gain the following characteristics:
-- **기능**: You’re trained in initiative actions.
-- **기능**: You’re trained in perception actions.
-Find the Flaw: If an opponent has a straightforward weakness (takes extra damage from fire, can’t see out of their left eye, and so on), the GM will tell you what it is.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You heard about what was going on, saw a flaw in the other PCs’ plan, and joined up to help them out.
-2. You noticed that the PCs have a foe (or at least a tail) they weren’t aware of.
-3. You saw that the other PCs were up to something interesting and got involved.
-4. You’ve been noticing some strange things going on, and this all appears related.
+
+당신은 통찰력이 뛰어나고 주변 상황을 잘 파악합니다. 작은 세부 사항도 알아차리고 기억합니다. 그래서 당신을 기습으로 놀라게 하기는 어렵습니다.
+당신은 다음 특성을 얻습니다:
+
+- **기능** : 당신은 우선권 행동에 숙련됩니다.
+- **기능** : 당신은 지각 행동에 숙련됩니다.
+  약점 간파: 상대에게 명확한 약점(불에 추가 피해를 입는다, 왼쪽 눈으로는 볼 수 없다 등)이 있다면, GM이 그 내용을 알려줍니다.
+- **첫 모험과의 인연** : 다음 선택지 중에서, 당신이 첫 번째 모험에 어떻게 참여하게 되었는지 하나를 고르세요.
+
+1. 무슨 일이 벌어지고 있는지 듣고, 다른 PC들의 계획에서 허점을 발견해 그들을 돕기 위해 합류했습니다.
+2. PC들에게 적(혹은 최소한 미행자)이 있다는 사실을 그들이 눈치채지 못했다는 것을 알아차렸습니다.
+3. 다른 PC들이 흥미로운 일을 꾸미고 있다는 것을 보고 그 일에 끼어들었습니다.
+4. 최근 이상한 일들이 벌어지는 것을 눈여겨보고 있었고, 이 모든 일이 그것과 연관되어 보입니다.
 
 ### SKEPTICAL
-You possess a questioning attitude regarding claims that are often taken for granted by others. You’re not necessarily a “doubting Thomas” (a skeptic who refuses to believe anything without direct personal experience), but you’ve often benefited from questioning the statements, opinions, and received knowledge presented to you by others.
-You gain the following characteristics:
-Insightful: +2 to your Intellect Pool.
-- **기능**: You’re trained in identifying.
-- **기능**: You’re trained in all actions that involve seeing through a trick, an illusion, a rhetorical ruse designed to evade the issue, or a lie. For example, you’re better at keeping your eye on the cup containing the hidden ball, sensing an illusion, or realizing if someone is lying to you (but only if you specifically concentrate and use this skill).
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You overheard other PCs holding forth on a topic with an opinion you were quite skeptical about, so you decided to approach the group and ask for proof.
-2. You were following one of the other PCs because you were suspicious of him, which brought you into the action.
-3. Your theory about the nonexistence of the supernatural can be invalidated only by your own senses, so you came along.
-4. You need money to fund your research.
+
+당신은 다른 이들이 당연하게 받아들이는 주장에 대해 의문을 품는 태도를 지녔습니다. 반드시 "의심 많은 토마스"(직접 개인적으로 경험하지 않으면 아무것도 믿지 않는 회의주의자)인 것은 아니지만, 타인이 제시하는 진술, 의견, 전해 들은 지식에 의문을 제기함으로써 자주 이득을 보았습니다.
+당신은 다음 특성을 얻습니다:
+통찰력 있음: 당신의 지성 풀에 +2.
+
+- **기능** : 당신은 식별에 숙련됩니다.
+- **기능** : 당신은 속임수, 환영, 쟁점을 회피하기 위해 꾸민 수사적 술책, 혹은 거짓말을 간파하는 모든 행동에 숙련됩니다. 예를 들어, 숨겨진 공이 들어 있는 컵을 더 잘 추적하거나, 환영을 감지하거나, 누군가가 거짓말하는지 알아차리는 데 유리합니다(단, 이 능력은 당신이 의식적으로 집중하여 사용할 때만 적용됩니다).
+- **첫 모험과의 인연** : 다음 선택지 중에서, 당신이 첫 번째 모험에 어떻게 참여하게 되었는지 하나를 고르세요.
+
+1. 다른 PC들이 어떤 주제에 대해 당신이 매우 회의적으로 보던 의견을 장황하게 펼치는 것을 엿듣고, 증거를 요구하기 위해 그들에게 다가갔습니다.
+2. 의심스러워서 다른 PC 중 한 명을 미행하고 있었고, 그 과정에서 사건에 휘말렸습니다.
+3. 초자연 현상이 존재하지 않는다는 당신의 이론은 오직 당신 자신의 감각으로만 반증될 수 있었기에, 함께 나섰습니다.
+4. 연구 자금을 마련하려면 돈이 필요합니다.
 
 ### STEALTHY
-You’re sneaky, slippery, and fast. These talents help you hide, move quietly, and pull off tricks that require sleight of hand. Most likely, you’re wiry and small. However, you’re not much of a sprinter—you’re more dexterous than fleet of foot.
-You gain the following characteristics:
-Quick: +2 to your Speed Pool.
-- **기능**: You’re trained in all stealth tasks.
-- **기능**: You’re trained in all interactions involving lies or trickery.
-- **기능**: You’re trained in all special abilities involving illusions or trickery.
-- **무능**: You’re sneaky but not fast. All movement-related tasks are hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You attempted to steal from one of the other PCs. That character caught you and forced you to come along with them.
-2. You were tailing one of the other PCs for reasons of your own, which brought you into the action.
-3. An NPC employer secretly paid you to get involved.
-4. You overheard the other PCs talking about a topic that interested you, so you decided to approach the group.
+
+당신은 은밀하고, 미끄러지듯 빠져나가며, 재빠릅니다. 이런 재능 덕분에 숨고, 조용히 움직이며, 손재주가 필요한 속임수를 해낼 수 있습니다. 아마 당신은 가늘고 왜소한 체형일 가능성이 큽니다. 다만 단거리 질주에는 그다지 강하지 않습니다. 발이 빠르다기보다 손발이 민첩한 편입니다.
+당신은 다음 특성을 얻습니다:
+민첩함: 당신의 속도 풀에 +2.
+
+- **기능** : 당신은 모든 은신 일에 숙련됩니다.
+- **기능** : 당신은 거짓말이나 속임수가 개입된 모든 상호작용에 숙련됩니다.
+- **기능** : 당신은 환영이나 속임수와 관련된 모든 특수 능력 사용에 숙련됩니다.
+- **무능** : 당신은 은밀하지만 빠르지는 않습니다. 이동 관련 모든 일는 방해를 받습니다.
+- **첫 모험과의 인연** : 다음 선택지 중에서, 당신이 첫 번째 모험에 어떻게 참여하게 되었는지 하나를 고르세요.
+
+1. 다른 PC 중 한 명에게서 훔치려 했습니다. 그 인물이 당신을 붙잡았고, 함께 가도록 강요했습니다.
+2. 개인적인 이유로 다른 PC 중 한 명을 미행하고 있었고, 그 과정에서 사건에 휘말렸습니다.
+3. NPC 고용주가 당신에게 비밀리에 돈을 주고 이 일에 끼어들게 했습니다.
+4. 다른 PC들이 당신의 관심을 끄는 주제에 관해 이야기하는 것을 엿듣고, 그룹에 다가가기로 했습니다.
 
 ### STRONG
-You’re extremely strong and physically powerful, and you use these qualities well, whether through violence or feats of prowess. You likely have a brawny build and impressive muscles.
-You gain the following characteristics:
-Very Powerful: +4 to your Might Pool. 
-- **기능**: You’re trained in all actions involving breaking inanimate objects. 
-- **기능**: You’re trained in all jumping actions.
-Additional Equipment: You have an extra medium weapon or heavy weapon.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. Against your better judgment, you joined the other PCs because you saw that they were in danger.
-2. One of the other PCs convinced you that joining the group would be in your best interests.
-3. You’re afraid of what might happen if the other PCs fail.
-4. There is reward involved, and you need the money.
+
+당신은 엄청난 괴력과 신체적 힘을 지녔고, 폭력적인 방식이든 기량을 겨루는 방식이든 그 장점을 잘 활용합니다. 건장한 체격과 인상적인 근육을 지녔을 가능성이 큽니다.
+당신은 다음 특성을 얻습니다:
+매우 강인함: 당신의 완력 풀에 +4.
+
+- **기능** : 당신은 무생물을 부수는 모든 행동에 숙련됩니다.
+- **기능** : 당신은 모든 도약 행동에 숙련됩니다.
+  추가 장비: 중형 무기 하나 또는 중량 무기 하나를 추가로 가집니다.
+- **첫 모험과의 인연** : 다음 선택지 중에서, 당신이 첫 번째 모험에 어떻게 참여하게 되었는지 하나를 고르세요.
+
+1. 내키지는 않았지만, 다른 PC들이 위험에 처한 것을 보고 그들과 합류했습니다.
+2. 다른 PC 중 한 명이, 그룹에 합류하는 것이 당신에게 가장 이익이 된다고 설득했습니다.
+3. 다른 PC들이 실패했을 때 벌어질 일이 두렵습니다.
+4. 보상이 걸려 있고, 당신에게는 그 돈이 필요합니다.
 
 ### STRONG-WILLED
-You’re tough-minded, willful, and independent. No one can talk you into anything or change your mind when you don’t want it changed. This quality doesn’t necessarily make you smart, but it does make you a bastion of willpower and resolve. You likely dress and act with unique style and flair, not caring what others think.
-You gain the following characteristics:
-Willful: +4 to your Intellect Pool.
-- **기능**: You’re trained in resisting mental effects.
-- **기능**: You’re trained in tasks requiring incredible focus or concentration.
-- **무능**: Willful doesn’t mean brilliant. Any task that involves figuring out puzzles or problems, memorizing things, or using lore is hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. Against your better judgment, you joined the other PCs because you saw that they were in danger.
-2. One of the other PCs convinced you that joining the group would be in your best interests.
-3. You’re afraid of what might happen if the other PCs fail.
-4. There is reward involved, and you need the money.
+
+당신은 정신력이 강하고, 의지가 굳세며, 독립적입니다. 당신이 원하지 않으면 누구도 당신을 설득하거나 생각을 바꾸게 만들 수 없습니다. 이 성향이 반드시 똑똑함을 뜻하는 것은 아니지만, 의지력과 결단력 면에서는 당신을 든든한 보루로 만들어 줍니다. 타인의 시선을 개의치 않고, 개성 있는 스타일과 태도를 보일 가능성이 큽니다.
+당신은 다음 특성을 얻습니다:
+의지 강함: 당신의 지성 풀에 +4.
+
+- **기능** : 당신은 정신적 효과에 저항하는 데 숙련됩니다.
+- **기능** : 당신은 놀라운 집중력이나 몰입이 필요한 일에 숙련됩니다.
+- **무능** : 의지가 강하다고 천재인 것은 아닙니다. 퍼즐이나 문제를 해결하거나, 무언가를 암기하거나, 지식을 활용하는 모든 일는 방해를 받습니다.
+- **첫 모험과의 인연** : 다음 선택지 중에서, 당신이 첫 번째 모험에 어떻게 참여하게 되었는지 하나를 고르세요.
+
+1. 내키지는 않았지만, 다른 PC들이 위험에 처한 것을 보고 그들과 합류했습니다.
+2. 다른 PC 중 한 명이, 그룹에 합류하는 것이 당신에게 가장 이익이 된다고 설득했습니다.
+3. 다른 PC들이 실패했을 때 벌어질 일이 두렵습니다.
+4. 보상이 걸려 있고, 당신에게는 그 돈이 필요합니다.
 
 ### SWIFT
-You move quickly, able to sprint in short bursts and work with your hands with dexterity. You’re great at crossing distances quickly but not always smoothly. You are likely slim and muscular.
-You gain the following characteristics:
-Fast: +4 to your Speed Pool.
-- **기능**: You’re trained in initiative actions (to determine who goes first in combat).
-- **기능**: You’re trained in running actions.
-- **무능**: You’re fast but not necessarily graceful. Any task involving balance is hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. Against your better judgment, you joined the other PCs because you saw that they were in danger.
-2. One of the other PCs convinced you that joining the group would be in your best interests.
-3. You’re afraid of what might happen if the other PCs fail.
-4. There is reward involved, and you need the money.
 
-### TONGUE-TIED
-You’ve never been much of a talker. When forced to interact with others, you never think of the right thing to say—words fail you entirely, or they come out all wrong. You often end up saying precisely the wrong thing and insult someone unintentionally. Most of the time, you just keep mum. This makes you a listener instead—a careful observer. It also means that you’re better at doing things than talking about them. You’re quick to take action.
-You gain the following characteristics:
-Actions, Not Words: +2 to your Might Pool, and +2 to your Speed Pool.
-- **기능**: You are trained in perception.
-- **기능**: You are trained in initiative (unless it’s a social situation).
-- **무능**: All tasks relating to social interaction are hindered.
-- **무능**: All tasks involving verbal communication or relaying information are hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You just tagged along and no one told you to leave.
-2. You saw something important the other PCs did not and (with some effort) managed to relate it to them.
-3. You intervened to save one of the other PCs when they were in danger.
-4. One of the other PCs recruited you for your talents.
+당신은 빠르게 움직이며, 짧은 순간 폭발적으로 질주할 수 있고, 손을 써야 하는 일도 민첩하게 해냅니다. 거리를 재빨리 좁히는 데 뛰어나지만, 언제나 매끄럽게 움직이는 것은 아닙니다. 아마 당신은 날렵하면서도 근육질인 체형일 것입니다.
+당신은 다음 특성을 얻습니다:
+빠름: 당신의 속도 풀에 +4.
 
-### TOUGH
-You’re strong and can take a lot of physical punishment. You might have a large frame and a square jaw. Tough characters frequently have visible scars.
-You gain the following characteristics:
-Resilient: +1 to Armor.
-Healthy: Add 1 to the points you regain when you make a recovery roll.
-- **기능**: You’re trained in Might defense actions.
-Additional Equipment: You have an extra light weapon.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. You’re acting as a bodyguard for one of the other PCs.
-2. One of the PCs is your sibling, and you came along to watch out for them.
-3. You need money because your family is in debt.
-4. You stepped in to defend one of the PCs when that character was threatened. While talking to them afterward, you heard about the group’s task.
+- **기능** : 당신은 우선권 행동(전투에서 누가 먼저 행동하는지 결정하는 행동)에 숙련됩니다.
+- **기능** : 당신은 달리기 행동에 숙련됩니다.
+- **무능** : 당신은 빠르지만 반드시 우아한 것은 아닙니다. 균형이 필요한 모든 일는 방해를 받습니다.
+- **첫 모험과의 인연** : 다음 선택지 중에서, 당신이 첫 번째 모험에 어떻게 참여하게 되었는지 하나를 고르세요.
 
-### VICIOUS
-You try to hide what’s inside, fold it into yourself when everything inside you screams to let go, make them pay, make them hurt, and make them bleed. Sometimes you succeed for your friends—smiling like they smile, laughing when they laugh, and sometimes even having other emotions of your own. But it’s always there, that feeling of frantic glee mixed with hate that sometimes leaps out of you when you confront a foe. Violence your friends can tolerate, but you sometimes worry they will also learn that you are cruel.
-You gain the following characteristics:
-- **기능**: You are trained in tracking creatures. If a creature has wronged you, the tracking task is eased.
-Bloodthirsty: Once you begin fighting, you see only red. You inflict 2 additional points of damage with any attack.
-Berserk: Once you begin fighting, it’s hard for you to stop. In fact, it’s a difficulty 2 Intellect task to do so, even if your foe surrenders or you’ve run out of foes. If the latter occurs and you fail to stop, you attack the nearest ally within short range.
-Additional Equipment: You have a record that you use to list those who’ve wronged you.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. Another PC saw you take down a mean drunk in a tavern, not realizing you were the one who started the fight.
-2. You wanted to get away from a bad situation, so you went with the other PCs.
-3. You want to change, and you hope that being with the other PCs will help you calm yourself.
-4. One of the other PCs asked you to come along, believing that your viciousness could be harnessed for the benefit of the mission.
+1. 내키지는 않았지만, 다른 PC들이 위험에 처한 것을 보고 그들과 합류했습니다.
+2. 다른 PC 중 한 명이, 그룹에 합류하는 것이 당신에게 가장 이익이 된다고 설득했습니다.
+3. 다른 PC들이 실패했을 때 벌어질 일이 두렵습니다.
+4. 보상이 걸려 있고, 당신에게는 그 돈이 필요합니다.
 
-### VIRTUOUS
-Doing the right thing is a way of life. You live by a code, and that code is something you attend to every day. Whenever you slip, you reproach yourself for your weakness and then get right back on track. Your code probably includes moderation, respect for others, cleanliness, and other characteristics that most people would agree are virtues, while you eschew their opposites: sloth, greed, gluttony, and so on.
-You gain the following characteristics:
-Dauntless: +2 to your Might Pool.
-- **기능**: You are trained in discerning people’s true motives or seeing through lies.
-- **기능**: Your adherence to a strict moral code has hardened your mind against fear, doubt, and outside influence. You are trained in Intellect defense tasks.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. The PCs are doing something virtuous, and you’re all about that.
-2. The PCs are on the road to perdition, and you see it as your task to set them on the proper moral route.
-3. One of the other PCs invited you, hearing of your virtuous ways.
-4. You put virtue before sense and defended someone’s honor in the face of an organization or power far greater than you. You joined the PCs because they offered aid and friendship when, out of fear of reprisals, no one else would.
+### 말주변이 없는
 
-### WEIRD
-You aren’t like anyone else, and that’s fine with you. People don’t seem to understand you—they even seem put off by you—but who cares? You understand the world better than they do because you’re weird, and so is the world you live in. The concept of “the weird” is well known to you. Strange devices, ancient locales, bizarre creatures, storms that can transform you, living energy fields, conspiracies, aliens, and things most people can’t even name populate the world, and you thrive on them. You have a special attachment to it all, and the more you discover about the weirdness in the world, the more you might discover about yourself.
-Weird characters might be mutants or people born with strange qualities, but sometimes they started out “normal” and adopted the weird by choice.
-You gain the following characteristics:
-Inner Light: +2 to your Intellect Pool.
-Distinctive Physical Quirk: You have a unique physical aspect that is, well, bizarre. Depending on the setting, this can vary greatly. You might have purple hair or metal spikes on your head. Perhaps your hands don’t connect to your arms, although they move as if they do. Maybe a third eye stares out from the side of your head, or superfluous tendrils grow from your back. Whatever it is, your quirk might be a mutation, a supernatural trait (a blessing or curse), a feature with no explanation, or just a really wild tattoo that draws a lot of attention.
-A Sense for the Weird: Sometimes—at the GM’s discretion—weird things relating to the supernatural or its effects on the world seem to call out to you. You can sense them from afar, and if you get within long range of such a thing, you can sense whether it is overtly dangerous or not.
-- **기능**: You are trained in supernatural knowledge.
-- **무능**: People find you unnerving. All tasks relating to pleasant social interaction are hindered.
-- **첫 모험과의 인연**: From the following list of options, choose how you became involved in the first adventure.
-1. It seemed weird, so why not?
-2. Whether the other PCs realize it or not, their mission has to do with something weird that you know about, so you got involved.
-3. As an expert in the weird, you were specifically recruited by the other PCs.
-4. You felt drawn to join the other PCs, but you don’t know why.
+당신은 원래 말이 많은 편이 아니다. 다른 사람과 어쩔 수 없이 상호작용해야 할 때면, 무슨 말을 해야 할지 늘 제때 떠오르지 않는다. 아예 말문이 막혀 버리거나, 겨우 꺼낸 말이 엉뚱하게 나올 때가 많다. 종종 의도치 않게 정확히 하면 안 되는 말을 해 누군가의 기분을 상하게 만든다. 그래서 대부분의 시간에는 그저 입을 다문다. 그 덕분에 당신은 말하는 사람보다는 듣는 사람이 되었다. 즉, 주의 깊은 관찰자다. 또한 말로 설명하는 것보다 직접 해내는 데 더 능하다는 뜻이기도 하다. 당신은 행동으로 옮기는 것이 빠르다.
+당신은 다음과 같은 특성을 얻는다:
+행동이 먼저: 힘 역량 +2, 속력 역량 +2.
 
-## CUSTOMIZING DESCRIPTORS
-Under the normal rules, each descriptor is based on some modification of the following guidelines:
-- Some descriptors offer +4 to one stat Pool and either two narrow skills or one broad skill.
-- Other descriptors offer +2 to one stat Pool and either three narrow skills or one narrow skill and one broad skill.
-- A broad skill covers many areas (such as all interactions). A narrow skill covers fewer areas (such as deceptive interactions). Combat-related skills, such as defense or initiative, are considered broad skills in this sense.
-- Regardless, you can add an additional skill if it is balanced by an inability.
-- You can add other non-skill abilities by eyeballing them and trying to equate them to the value of a skill, if possible. If the descriptor seems lacking, add a moderately priced item as additional equipment to balance things out.
+- **기능** : 당신은 지각에 익숙하다.
+- **기능** : 당신은 선제(사회적 상황이 아닐 때)에 익숙하다.
+- **무능** : 사회적 상호작용과 관련된 모든 일는 방해를 받는다.
+- **무능** : 말로 의사소통하거나 정보를 전달하는 모든 일는 방해를 받는다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
 
-With this general information, you can customize a descriptor, but keep in mind that a heavily customized descriptor isn’t a descriptor if it no longer says one thing about a character. It’s better to use this information to create a new descriptor that fits exactly how the player wants to portray the character.
+1. 그냥 따라갔고, 아무도 당신에게 떠나라고 말하지 않았다.
+2. 다른 PC들이 보지 못한 중요한 것을 당신이 발견했고, (힘겹게나마) 그것을 그들에게 전달하는 데 성공했다.
+3. 다른 PC 중 한 명이 위험에 처했을 때 당신이 끼어들어 구해 냈다.
+4. 다른 PC 중 한 명이 당신의 재능 때문에 당신을 끌어들였다.
 
+### 강인한
 
-## SPECIES AS DESCRIPTOR
-Sometimes, in settings that have alien or fantasy species, players want to play a member of that species rather than the default (which is usually “human”). Most of the time, this choice is one of flavor rather than game mechanics. If you’re a 7-foot-tall furry Rigellian with three eyes, that’s great, but it doesn’t change your stats or skills (though it may have roleplaying challenges).
+당신은 튼튼하고, 육체적 고통을 많이 버틸 수 있다. 체격이 크고 턱선이 각진 편일지도 모른다. 강인한 인물에게는 눈에 띄는 흉터가 있는 경우가 많다.
+당신은 다음과 같은 특성을 얻는다:
+질김: 방어력 +1.
+건강함: 회복 굴림을 할 때 회복하는 점수에 1을 더한다.
 
-However, sometimes being a nonhuman results in more substantive changes. A PC ogre in a fantasy setting might have the Strong or Tough descriptor, or perhaps it has a descriptor simply called Ogre, which is similar to Strong or Tough but more pronounced (with greater Might but even greater drawbacks). This would mean that instead of being a Tough Warrior who Controls Beasts, the character is an Ogre Warrior who Controls Beasts.
+- **기능** : 당신은 힘 방어 행동에 익숙하다.
+  추가 장비: 추가 경량 무기 1개를 가진다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
 
-The Genre chapter offers a few species descriptors, but many GMs will want to create their own as suits their setting. It can’t be stressed enough, however, that nine times out of ten, in most genres, species differences aren’t significant enough to warrant this treatment. The differences between a Mysterious character and a Virtuous one are probably greater than those between an Alpha Centauran and an Earthling.
+1. 당신은 다른 PC 중 한 명의 경호원으로 행동하고 있다.
+2. 다른 PC 중 한 명이 당신의 형제자매라서, 그를 지켜보려고 함께 왔다.
+3. 가족이 빚을 지고 있어서 당신은 돈이 필요하다.
+4. 한 PC가 위협받았을 때 당신이 나서서 그를 지켰고, 이후 이야기를 나누다가 그 집단의 임무를 듣게 되었다.
+
+### 악랄한
+
+당신은 안에 든 것을 숨기려 애쓴다. 속에서 모든 것이 놓아 버리라고, 대가를 치르게 하라고, 고통을 주라고, 피를 보게 하라고 비명을 지를 때조차 그것을 자기 안으로 접어 넣는다. 때로는 친구들을 위해 그렇게 해내기도 한다. 그들이 웃으면 당신도 웃고, 그들이 웃을 때 당신도 따라 웃으며, 때로는 당신 자신의 다른 감정도 느낀다. 하지만 그 감정은 늘 거기 있다. 증오가 뒤섞인 광란의 환희, 적과 맞설 때면 가끔 당신 안에서 튀어나오는 바로 그 느낌 말이다. 친구들은 폭력성까지는 견딜 수 있지만, 당신은 그들이 언젠가 당신이 잔인하다는 사실까지 알게 될까 봐 걱정한다.
+당신은 다음과 같은 특성을 얻는다:
+
+- **기능** : 당신은 생물 추적에 익숙하다. 어떤 생물이 당신에게 해를 끼친 적이 있다면, 그 추적 일는 한 단계 완화된다.
+  피에 굶주림: 일단 싸움을 시작하면 눈앞이 붉게 물든다. 당신은 어떤 공격으로든 피해를 추가로 2점 더 입힌다.
+  광폭화: 일단 싸움을 시작하면 멈추기 어렵다. 실제로 적이 항복했거나 더 이상 적이 남아 있지 않더라도 멈추려면 난이도 2의 지성 일를 해야 한다. 후자의 경우에 멈추지 못하면, 당신은 근거리 안에 있는 가장 가까운 아군을 공격한다.
+  추가 장비: 당신에게 해를 끼친 자들의 이름을 적어 두는 기록물을 지니고 있다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. 다른 PC 하나가 술집에서 당신이 못된 주정뱅이를 쓰러뜨리는 모습을 봤지만, 싸움을 먼저 건 쪽이 당신이었다는 사실은 몰랐다.
+2. 좋지 않은 상황에서 벗어나고 싶어서, 당신은 다른 PC들과 함께 떠났다.
+3. 당신은 바뀌고 싶고, 다른 PC들과 함께 있으면 스스로를 가라앉히는 데 도움이 되리라 기대한다.
+4. 다른 PC 중 한 명이 당신의 악랄함을 임무에 유리하게 활용할 수 있다고 믿고 함께 가자고 했다.
+
+### 유덕한
+
+옳은 일을 하는 것은 삶의 방식이다. 당신은 규율에 따라 살며, 그 규율은 당신이 매일 의식적으로 지키는 것이다. 가끔 어긋날 때면 자신의 나약함을 꾸짖고, 곧바로 다시 바른 길로 돌아온다. 당신의 규율에는 절제, 타인에 대한 존중, 청결, 그리고 대부분의 사람이 미덕이라 동의할 만한 다른 가치들이 들어 있을 것이다. 반대로 당신은 게으름, 탐욕, 폭식 같은 그 반대편의 것들을 멀리한다.
+당신은 다음과 같은 특성을 얻는다:
+겁이 없음: 힘 역량 +2.
+
+- **기능** : 당신은 사람의 진짜 동기를 가려내거나 거짓말을 꿰뚫어 보는 데 익숙하다.
+- **기능** : 엄격한 도덕 규율을 지켜 온 탓에, 당신의 정신은 공포와 의심, 외부의 영향에 단련되어 있다. 당신은 지성 방어 일에 익숙하다.
+- **첫 모험과의 인연** : 다음 선택지 목록에서, 당신이 첫 번째 모험에 어떻게 휘말리게 되었는지 고르라.
+
+1. PC들이 덕 있는 일을 하고 있고, 그게 바로 당신이 추구하는 바다.
+2. PC들은 파멸로 향하는 길 위에 있고, 당신은 그들을 올바른 도덕의 길로 이끄는 일을 자신의 책무로 여긴다.
+3. 다른 PC 중 한 명이 당신의 유덕한 행실을 듣고 당신을 초대했다.
+4. 당신은 분별보다 미덕을 앞세워, 자신보다 훨씬 거대한 조직이나 권력 앞에서 누군가의 명예를 지켰다. 보복이 두려워 아무도 나서지 않던 때, PC들이 당신에게 도움과 우정을 내밀었고 그래서 당신은 그들과 함께하게 되었다.
+
+### 기이한
+
+당신은 다른 누구와도 다르며, 그 점이 마음에 든다. 사람들은 당신을 이해하지 못하는 듯하고, 심지어 당신을 불편해하는 것처럼 보이기도 한다. 하지만 그게 무슨 상관인가? 당신은 이상하기 때문에, 그리고 당신이 사는 세계 또한 이상하기 때문에, 그들보다 세상을 더 잘 이해한다. 당신에게 "기이함"이라는 개념은 아주 익숙하다. 기묘한 장치, 고대의 장소, 괴상한 생명체, 당신을 변화시킬 수 있는 폭풍, 살아 있는 에너지 장, 음모, 외계 존재, 그리고 대부분의 사람들이 이름조차 붙이지 못하는 것들이 세계를 가득 채우고 있으며, 당신은 그런 것들 속에서 번성한다. 당신은 그 모든 것에 특별한 애착을 가지고 있고, 세계의 기이함에 대해 더 많이 발견할수록 자신에 대해서도 더 많이 발견하게 될지 모른다.
+기이한 캐릭터는 돌연변이이거나 태어날 때부터 이상한 특성을 지닌 사람일 수도 있지만, 때로는 원래 "정상적"이었다가 스스로의 선택으로 기이함을 받아들인 경우도 있다.
+당신은 다음 특성을 얻는다:
+내면의 빛: 당신의 지성 풀에 +2.
+독특한 신체적 기이함: 당신은 말 그대로 기묘한, 유일무이한 신체적 특징을 지녔다. 설정에 따라 그 모습은 크게 달라질 수 있다. 보라색 머리카락일 수도 있고, 머리에 금속 가시가 솟아 있을 수도 있다. 어쩌면 손이 팔에 붙어 있지 않은데도 붙어 있는 것처럼 움직일지도 모른다. 혹은 머리 옆에서 세 번째 눈이 당신을 대신해 노려보거나, 등에 불필요한 촉수가 자라날 수도 있다. 무엇이든 간에, 당신의 기이함은 돌연변이일 수도 있고, 초자연적 특성(축복 또는 저주)일 수도 있으며, 설명할 수 없는 특징일 수도 있고, 아니면 지나치게 눈에 띄는 아주 과격한 문신일 수도 있다.
+기이함에 대한 감각: 때때로—게임 마스터의 재량에 따라—초자연적 현상이나 그것이 세계에 미치는 영향과 관련된 기이한 것들이 당신을 부르는 듯하다. 당신은 멀리서도 그것을 감지할 수 있으며, 그런 것의 장거리 범위 안으로 들어가면 그것이 노골적으로 위험한지 아닌지도 감지할 수 있다.
+
+- **기능** : 당신은 초자연적 지식에 대해 훈련되어 있다.
+- **무능** : 사람들은 당신을 불안하게 여긴다. 유쾌한 사회적 상호작용과 관련된 모든 일는 방해를 받는다.
+- **첫 모험과의 인연** : 다음 선택지 중 하나를 골라, 당신이 첫 번째 모험에 어떻게 연루되었는지 정한다.
+
+1. 기이해 보였으니까, 안 할 이유가 없었다.
+2. 다른 플레이어 캐릭터들이 알아차리든 아니든, 그들의 임무는 당신이 알고 있는 어떤 기이한 것과 관련되어 있었기에 당신은 합류했다.
+3. 기이함의 전문가인 당신은 다른 플레이어 캐릭터들에게 특별히 영입되었다.
+4. 당신은 다른 플레이어 캐릭터들과 함께해야 한다는 끌림을 느꼈지만, 그 이유는 알지 못한다.
+
+## 디스크립터 커스터마이징
+
+일반 규칙에서 각 디스크립터는 다음 지침을 일부 변형한 형태를 기반으로 합니다.
+
+- 일부 디스크립터는 하나의 능력치 풀에 +4를 제공하고, 좁은 기술 두 개 또는 넓은 기술 한 개를 제공합니다.
+- 다른 디스크립터는 하나의 능력치 풀에 +2를 제공하고, 좁은 기술 세 개 또는 좁은 기술 한 개와 넓은 기술 한 개를 제공합니다.
+- 넓은 기술은 많은 영역(예: 모든 상호작용)을 포괄합니다. 좁은 기술은 더 적은 영역(예: 기만적 상호작용)을 포괄합니다. 방어 또는 선제권처럼 전투와 관련된 기술은 이런 의미에서 넓은 기술로 간주됩니다.
+- 어느 경우든, 불능 하나로 균형을 맞춘다면 추가 기술 하나를 더할 수 있습니다.
+- 기술이 아닌 다른 능력도 가능하면 기술 하나의 가치와 맞먹도록 가늠해서 추가할 수 있습니다. 디스크립터가 부족해 보인다면, 균형을 맞추기 위해 가격이 중간 정도인 물품을 추가 장비로 더하세요.
+
+이런 일반 정보를 바탕으로 디스크립터를 커스터마이징할 수 있습니다. 다만 많이 커스터마이징해서 캐릭터에 대해 더 이상 한 가지 분명한 점을 말해 주지 못한다면, 그것은 더 이상 디스크립터가 아닙니다. 이 정보는 플레이어가 캐릭터를 어떻게 표현하고 싶은지에 정확히 맞는 새 디스크립터를 만드는 데 쓰는 편이 더 좋습니다.
+
+## 디스크립터로서의 종족
+
+외계 종족이나 판타지 종족이 존재하는 설정에서는, 플레이어가 기본값(대개 "인간") 대신 그 종족의 구성원으로 플레이하고 싶어 하는 경우가 있습니다. 대부분의 경우 이 선택은 게임 메커니즘보다 분위기의 문제입니다. 키 7피트에 털이 북슬북슬하고 눈이 세 개인 리겔리안이라면 멋지지만, 능력치나 기술이 바뀌지는 않습니다(역할연기상의 도전은 있을 수 있습니다).
+
+하지만 비인간이라는 점이 더 본질적인 변화를 낳는 경우도 있습니다. 판타지 설정의 PC 오우거는 Strong 또는 Tough 디스크립터를 가질 수 있고, 어쩌면 Ogre라는 이름의 디스크립터를 따로 가질 수도 있습니다. 이는 Strong이나 Tough와 비슷하지만 더 두드러진 형태(더 높은 Might와 그보다 더 큰 약점)입니다. 이런 경우 캐릭터는 짐승을 지배하는 Tough 워리어가 아니라, 짐승을 지배하는 Ogre 워리어가 됩니다.
+
+장르 챕터에는 몇 가지 종족 디스크립터가 제시되어 있지만, 많은 GM은 자신의 설정에 맞게 직접 만들고 싶어 할 것입니다. 다만 대부분의 장르에서는 열에 아홉은 종족 차이가 이와 같은 취급이 필요할 만큼 중요하지 않다는 점을 아무리 강조해도 지나치지 않습니다. Mysterious 캐릭터와 Virtuous 캐릭터의 차이가 Alpha Centauran과 지구인의 차이보다 더 클 가능성이 큽니다.

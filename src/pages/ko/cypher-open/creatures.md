@@ -6,15 +6,15 @@ createdAt: "2022-11-11T20:34:17.231Z"
 publish: false
 ---
 
-This chapter describes many common and uncommon creatures that the characters might meet—and fight—in a Cypher System game and gives their stats. The variety of creatures that populate the possible settings and genres is so great that this chapter only scratches the surface. It does, however, provide examples of kinds of inhabitants—bestial and civilized, living and undead, organic and inorganic—so that you can easily extrapolate and create your own.
+이 장에서는 캐릭터들이 사이퍼 시스템 게임에서 만나고, 또 싸우게 될 수도 있는 흔한 생물과 드문 생물들을 여럿 소개하고 그 스탯을 제공합니다. 가능한 배경과 장르를 채우는 생물의 종류는 너무나 방대해서, 이 장은 그중 극히 일부만 다룹니다. 그럼에도 불구하고 야수적이거나 문명화된 존재, 살아 있는 존재나 언데드, 유기체나 무기체 같은 여러 거주자 유형의 예시를 제공하므로, 이를 바탕으로 쉽게 확장해 자신만의 생물을 만들 수 있습니다.
 
+## 목록 읽는 법
 
-## UNDERSTANDING THE LISTINGS
-Every creature is presented by name, followed by a standard template that includes the following categories.
+모든 생물은 이름으로 제시되며, 그 뒤에 아래 범주를 포함한 표준 템플릿이 이어집니다.
 
-Level: Like the difficulty of a task, each creature and NPC has a level attached to it. You use the level to determine the target number a PC must reach to attack or defend against the opponent. In each entry, the difficulty number for the creature or NPC is listed in parentheses after its level. As shown on the following table, the target number is three times the level.
-Level
-Target Number
+레벨: 일의 난이도와 마찬가지로, 각 생물과 NPC에는 레벨이 붙어 있습니다. 이 레벨을 사용해 PC가 그 상대를 공격하거나 방어할 때 도달해야 하는 목표 수치를 정합니다. 각 항목에서는 생물 또는 NPC의 난이도 수치를 레벨 뒤 괄호 안에 함께 표기합니다. 아래 표에서 보듯, 목표 수치는 레벨의 세 배입니다.
+레벨
+목표 수치
 1
 3
 2
@@ -36,1294 +36,1289 @@ Target Number
 10
 30
 
+- **설명:** 생물 또는 NPC 이름 다음에는 외형, 본성, 지능, 배경에 대한 일반 설명이 나옵니다.
 
+- **동기:** 이 항목은 마스터가 그 생물이나 NPC가 무엇을 원하는지 이해하도록 돕는 장치입니다. 모든 생물과 인물은, 그저 내버려 두길 바라는 것뿐이라 해도, 무언가를 원합니다.
+- **환경:** 이 항목은 그 생물이 대체로 단독으로 다니는지, 무리를 이루는지, 그리고 어떤 지형에 서식하는지(예: "그들은 메마른 황무지와 온대 저지대를 무리 지어 이동한다")를 설명합니다.
+- **체력:** 생물의 목표 수치는 보통 체력이기도 하며, 이는 죽거나 행동 불능이 되기 전까지 버틸 수 있는 피해량입니다. 빠른 참조를 위해, 이 항목에는 해당 레벨 생물의 일반 수치일 때도 항상 체력을 명시합니다.
 
-- **Description:** Following the name of the creature or NPC is a general description of its appearance, nature, intelligence, or background.
+- **피해:** 일반적으로 생물은 전투에서 명중하면 공격 형태와 관계없이 자신의 레벨만큼 피해를 줍니다. 일부는 더 많거나 더 적은 피해를 주거나 피해에 특수 수정치를 가집니다. 지능적인 NPC는 종종 무기를 쓰지만, 이는 규칙적 차이보다 분위기상의 차이에 가깝습니다. 다시 말해, 레벨 3 적이 검을 쓰든 발톱을 쓰든, 명중하면 주는 피해는 같습니다. 이 항목에는 해당 레벨 생물의 일반 수치일 때도 항상 피해량을 명시합니다.
 
-- **동기:** This entry is a way to help the GM understand what a creature or NPC wants. Every creature or person wants something, even if it’s just to be left alone.
-- **환경:** This entry describes whether the creature tends to be solitary or travel in groups and what kind of terrain it inhabits (such as “They travel in packs through dry wastes and temperate lowlands”).
-- **체력:** A creature’s target number is usually also its health, which is the amount of damage it can sustain before it is dead or incapacitated. For easy reference, the entries always list a creature’s health, even when it’s the normal amount for a creature of its level.
+- **장갑:** 이것은 해당 생물의 장갑 값입니다. 때로는 물리 장갑을, 때로는 타고난 보호력을 나타냅니다. 장갑이 없는 생물은 게임 스탯에 이 항목이 나타나지 않습니다.
 
-- **피해:** Generally, when creatures hit in combat, they inflict their level in damage regardless of the form of attack. Some inflict more or less or have a special modifier to damage. Intelligent NPCs often use weapons, but this is more a flavor issue than a mechanical one. In other words, it doesn’t matter if a level 3 foe uses a sword or claws—it deals the same damage if it hits. The entries always specify the amount of damage inflicted, even if it’s the normal amount for a creature of its level.
+- **이동:** 이동은 생물이 한 턴에 얼마나 멀리 이동할 수 있는지를 결정합니다. 생물의 이동은 지근거리, 단거리, 장거리, 초장거리 중 하나이며, 같은 이름의 거리 단계와 대응됩니다. 대부분의 PC는 실질적으로 단거리 이동이므로, 지근거리 이동 생물을 추격하거나 그 생물에게 추격당할 때 PC의 스피드 일는 완화됩니다. 반대로 생물의 이동이 장거리 이상이면 PC의 스피드 일는 방해를 받습니다.
 
-- **장갑:** This is the creature’s Armor value. Sometimes the number represents physical armor, and other times it represents natural protection. This entry doesn’t appear in the game stats if a creature has no Armor.
+- **조정:** 생물 정보에서 다른 목표 수치를 사용하라고 할 때 이 기본 수치를 사용합니다. 예를 들어 레벨 4 생물에 "레벨 5로 방어한다"라고 되어 있다면, 그 생물을 공격하는 PC는 12(난이도 4) 대신 15(난이도 5)를 목표로 굴려야 합니다. 특수한 상황에서는 다른 수정이 붙는 생물도 있지만, 거의 항상 해당 생물의 레벨과 직접 관련된 경우입니다.
 
-- **이동:** Movement determines how far the creature can move in a single turn. Creatures have movements of immediate, short, long, or very long, which equate to the ranges of the same name. Most PCs have an effective movement of short, so if they are chasing (or being chased by) a creature with immediate movement, their Speed tasks are eased; if the creature’s movement is long or greater, the PCs’ Speed tasks are hindered.
+- **전투:** 이 항목은 "이 생물은 매복과 치고 빠지기 전술을 사용한다"처럼 전투에서 생물을 운용하는 조언을 제공합니다. 전투 항목의 끝부분에는 면역, 독, 치유 재능 같은 특수 규칙도 함께 제시됩니다. 마스터는 PC의 특정 행동이나 공격에 대한 생물의 반응을 논리적으로 판단해야 합니다. 예를 들어 기계로 만들어진 존재는 일반 질병에 면역이고, 에너지 존재는(적어도 통상적인 독으로는) 중독시킬 수 없다는 식입니다.
 
-- **조정:** Use these default numbers when a creature’s information says to use a different target number. For example, a level 4 creature might say “defends as level 5,” which means PCs attacking it must roll a target number of 15 (for difficulty 5) instead of 12 (for difficulty 4). In special circumstances, some creatures have other modifications, but these are almost always specific to their level.
+- **- ** 대화:\*\*\*\* 이 항목은 "이 생물들은 대화할 의향은 있지만 위협에는 좋지 않게 반응한다" 또는 "이 생물은 동물이며 동물답게 행동한다"처럼 상호작용에서 생물을 운용하는 조언을 제공합니다.
 
-- **전투:** This entry gives advice on using the creature in combat, such as “This creature uses ambushes and hit-and-run tactics.” At the end of the combat listing, you’ll also find any special abilities, such as immunities, poisons, and healing skills. GMs should be logical about a creature’s reaction to a particular action or attack by a PC. For example, a mechanical creation is immune to normal diseases, a character can’t poison a being of energy (at least, not with a conventional poison), and so on.
+- **용법:** 이 항목은 게임 세션에서 그 생물을 어떻게 활용할지에 대한 마스터용 제안을 제공합니다. 일반적인 메모일 수도 있고, 구체적인 모험 아이디어일 수도 있습니다.
 
-- **- **대화:**** This entry gives advice on using the creature in interactions, such as “These creatures are willing to talk but respond poorly to threats,” or “This creature is an animal and acts like an animal.”
+- **전리품:** 이 항목은 PC가 쓰러뜨린 적에게서 물건을 챙기거나(혹은 거래하거나 속여서) 무엇을 얻을 수 있는지를 나타냅니다. 전리품이 없는 생물은 게임 스탯에 이 항목이 나타나지 않습니다.
 
-- **용법:** This entry gives the GM suggestions for how to use the creature in a game session. It might provide general notes or specific adventure ideas.
+- **마스터 개입:** 스탯의 이 선택 항목은 그 생물과의 조우에서 마스터 개입을 사용하는 한 가지 방법을 제안합니다. 가능한 수많은 아이디어 중 하나일 뿐이며, 마스터는 이 게임 메커니즘을 자신만의 방식으로 활용하도록 권장됩니다.
 
-- **전리품:** This entry indicates what the PCs might gain if they take items from their fallen foes (or trade with or trick them). It doesn’t appear in the game stats if the creature has no loot.
+### 흉물\*\* (ABOMINATION) 5 (15)
 
-- **GM Intrusion:** This optional entry in the stats suggests a way to use GM intrusion in an encounter with the creature. It’s just one possible idea of many, and the GM is encouraged to come up with their own uses of the game mechanic.
+흉물은 짙게 두꺼워진 진홍빛 살판으로 뒤덮인, 흉측한 짐승형 휴머노이드다. 그들의 눈은 독성 폐기물 처리장의 고여 있는 빛처럼 번들거린다. 키가 최소 7피트(2m)는 되는 흉물은 움직임에 이끌린다. 늘 굶주린 상태인 이들은 살아 있는 먹잇감을 크게 찢어 물어뜯으며 먹어 치운다.
 
-
-### NORMAL ANIMALS
-Unlike many creatures in this chapter, normal animals are simple and understandable enough to be encapsulated by just their level and maybe one or two other stats.
-- **Bear, black: level 3,** attacks as level 4
-- **Bear, grizzly: level 5;** health 20; Armor 1
-- **Dog: level 2,** perception as level 3
-- **Dog, guard: level 3,** attacks and perception as level 4
-- **Hawk: level 2;** flies a long distance each round
-- **Horse: level 3;** moves a long distance each round
-- **Rat: level 1**
-- **Rattlesnake: level 2;** bite inflicts 3 points of Speed damage (ignores Armor)
-
-### **ABOMINATION**    5 (15)
-An abomination is a hideous bestial humanoid covered with thickened plates of scarlet flesh. Their eyes shine with the stagnant glow of toxic waste dumps. Standing at least 7 feet (2 m) tall, abominations are drawn to movement. Always famished, they consume living prey in great tearing bites.
-- **동기:** Hungers for flesh
-- **환경:** Almost anywhere, hunting alone or in pairs
+- **동기:** 살점을 갈망함
+- **환경:** 거의 어디서나, 홀로 또는 둘씩 사냥
 - **체력:** 22
-- **피해:** 6 points
+- **피해:** 6점
 - **장갑:** 2
-- **이동:** Short
-- **조정:** Might defense as level 6; sees through deception as level 3
-- **전투:** Abominations use scavenged weapons to attack prey at range, but probably switch to biting targets within immediate range. Targets damaged by a bite must also succeed on a Might defense task or descend one step on the damage track as the abomination tears off a big piece of flesh and gulps it down. Those who survive an attack must succeed on a Might defense task a day later when they come down with flu-like symptoms. Those who fail begin the process of transforming into a fresh abomination.
-Abominations regain 2 points of health per round and have +5 Armor against damage inflicted by energy (radiation, X-rays, gamma rays, and so on).
-- **대화:** Most abominations can speak and have vague memories of the people they were before transforming. However, those memories, motivations, and hopes are usually submerged in a hunger that can never be sated.
-- **용법:** Abominations hunt ravaged wastelands and bombed-out spacecraft hulks, lurk in basements where mad scientists have conducted illicit experiments, and haunt the dreams of children who’ve gotten in over their heads.
-- **마스터 개입:** The abomination isn’t dead; it stands up on the following round at full health.
+- **이동:** 근거리
+- **조정:** 근력 방어는 레벨 6으로 판정; 속임수를 간파하는 판정은 레벨 3으로 판정
+- **전투:** 흉물은 주워 온 무기를 사용해 원거리에서 먹잇감을 공격하지만, 목표가 즉시 거리 안으로 들어오면 물어뜯기로 전환하는 경우가 많다. 물어뜯기 피해를 입은 대상은 추가로 근력 방어 일에 성공해야 하며, 실패하면 흉물이 큰 살점을 뜯어 삼키기 때문에 피해 트랙에서 한 단계 내려간다. 공격에서 살아남은 자는 하루 뒤 독감과 비슷한 증상이 나타날 때 근력 방어 일에 성공해야 한다. 실패하면 새로운 흉물로 변이되는 과정이 시작된다.
+  흉물은 라운드마다 체력을 2점 회복하며, 에너지(방사선, 엑스선, 감마선 등)로 입는 피해에 대해서는 장갑 +5를 가진다.
+- **대화:** 대부분의 흉물은 말을 할 수 있으며 변이 이전의 자신에 대한 희미한 기억을 지닌다. 그러나 그 기억, 동기, 희망은 대개 결코 채워지지 않는 굶주림 아래 가라앉아 있다.
+- **용법:** 흉물은 황폐한 불모지와 폭격으로 파괴된 우주선 잔해를 사냥터로 삼고, 미친 과학자들이 불법 실험을 벌인 지하실에 숨어 있으며, 감당 못 할 일에 발을 들인 아이들의 꿈속을 배회한다.
+- **마스터 개입:** 흉물은 죽지 않았다. 다음 라운드에 체력을 완전히 회복한 상태로 다시 일어난다.
 
+### 아나테마 (ANATHEMA) 7 (21)
 
-### CHIMERA    6 (18)
-Chimeras are unsettling hybrids that combine the features of many different animals, often arranged in odd formations. The fusion of animal forms is the only thing that unifies these creatures—otherwise, different chimeras often look very different from each other. They include combinations of goat and lion, lizard and bat, dragon and spider, dinosaur and giant insect. A few even display human features, such as an improbably located face or hands instead of claws. Some chimeras can fly. Others slither across the ground. 
-A chimera typically has a dominant form to which other animal parts are grafted. The base form must be large enough to support the weight of the extra heads, so lions, bears, and horses are popular as the base form.
-Chimeras kill even when not hungry and throw their victims’ remains around a wide area in a wild rage. When not feeding or tormenting prey, a chimera that can fly takes to the air, beating its enormous leather wings to scour the landscape for new prey.
-- **동기:** Hungers for human flesh
-- **환경:** Anywhere, usually alone
+아나테마라 불리는 슈퍼빌런은 거대하고 새빨갛고, 이 행성이든 다른 행성이든 누구보다도 강하다(적어도 본인은 그렇게 주장한다). 그와 정면으로 맞붙은 슈퍼히어로들은 그가 거의 어떤 공격도 버텨 내고, 받은 것의 두 배로 되갚는다는 사실을 배우게 된다. 그는 주먹 한 방으로 건물을 무너뜨리고 대형 트럭을 멀리 던져 버릴 수 있다.
+아나테마가 되기 전, 그는 대형 소프트웨어 회사에서 일하던 신랄하고 앙심 깊은 코더 사미어 스톡스였다. 연애, 승진, 인간관계 유지에 모두 실패한 사미어는 온라인으로 숨어들었고, 사람들을 괴롭힐 때 자신에게 힘이 생긴다는 사실을 깨달았다. 그는 포럼과 소셜 미디어에서 타인에게 정서적 고통을 주는 일을 즐겼다. 사실상 그는 트롤이었다. 변이가 일어났을 때, 그는 문자 그대로 트롤이 되었다. (사미어는 변이와 그 직전 및 직후 며칠에 대한 기억을 떠올리지 못하며, 그 기억을 되찾기 위해 치료와 약물을 동원했음에도 마찬가지다.)
+(아나테마는 근력에 대한 파워 시프트 3단계와 회복력에 대한 파워 시프트 2단계를 지닌 것으로 간주한다. 이 시프트는 그의 조정치와 기타 능력치에 이미 반영되어 있다.)
+
+- **동기:** 부를 축적하고, 위험한 경계 위에서 살아감
+- **환경:** 막대한 부를 훔칠 수 있는 어디에서나
+- **체력:** 70
+- **피해:** 12점
+- **이동:** 근거리; 도약 한 번에 몇 마일(5km)
+- **조정:** 근력 관련 일는 레벨 10으로 판정; 근력 방어는 레벨 9으로 판정; 속력 방어는 체격 때문에 레벨 5로 판정
+- **전투:** 아나테마는 뼈를 뒤흔드는 힘으로 적을 강타한다. 그는 자동차나 대형 물체를 장거리 내의 목표에게 던질 수 있으며, 목표의 즉시 거리 안에 있는 모든 생물에게 피해를 준다.
+  아나테마는 의미 있는 수준으로 그를 다치게 하기 어렵게 만드는 치유 인자를 지닌다. 그는 라운드마다 체력을 10점 회복한다. 체력을 회복한 라운드에는 그의 공격이 추가로 3점 피해(총 15점)를 주며, 근육이 눈에 띄게 부풀어 오른다.
+- **대화:** 전투 중 아나테마가 흥분해 있을 때는 그와 이성적으로 대화하기 어렵다. 하지만 누군가가 부를 제시하거나 정신적 장벽을 깨는 데 도움이 될 귀중한 비밀을 알려 줄 수 있다고 설득하면 협상에 응할 의지가 있다. 아나테마는 자신이 이렇게 된 이유를 모르며, 잃어버린 기억을 되찾고 싶어 한다.
+- **용법:** 도시를 덮친 구르는 지진은 사실, 신참 슈퍼히어로 집단과 아나테마의 전투다. 그들은 붉은 산 같은 그와 정면으로 싸우는 것이 그를 내버려 두는 것보다 더 많은 사망자를 낳을 가능성이 크다는 사실을 아직 모른다. (아나테마와 싸울 때 첫 번째 원칙은 그를 인구 밀도가 낮은 곳으로 유인하거나 이동시키는 것이다.)
+- **전리품:** 아나테마는 보통 부나 기타 귀중품을 몸에 지니지 않는다. 그의 은신처에는 대개 값비싼 물건 3~5개, 사이퍼 1d6개, 그리고 경우에 따라 아티팩트가 있다.
+- **마스터 개입:** 아나테마의 공격에 맞은 캐릭터가 멀리 날아가며, 위험한 지형으로 떨어질 수도 있다.
+
+### 암살자 (ASSASSIN) 6 (18)
+
+암살자는 독으로, 먼 거리에서 쏘는 고속 탄환으로, 또는 불운한 사고를 꾸며서 살해한다. 암살자는 정부, 기업, 범죄 조직 두목, 원한을 품은 전 연인 등에게서 계약을 받으며, 어떤 암살자는 범죄자를 추적해 "생사 불문" 현상금을 받아 스스로 보수를 챙기기도 한다.
+
+- **동기:** 살인(대개 청부)
+- **체력:** 18
+- **피해:** 6점
+- **장갑:** 1
+- **이동:** 근거리
+- **조정:** 은신과 기만 일는 레벨 8으로 판정; 은신 상태에서 공격할 때 근접 및 원거리 공격은 레벨 7로 판정
+- **전투:** 암살자의 몸 곳곳에는 다양한 소형 무기가 숨겨져 있다. 또한 무기나 탄약에 레벨 6 독을 바를 수 있으며, 이 독에 맞은 대상이 근력 방어 굴림에 실패하면 피해 트랙에서 한 단계 내려간다.
+- **대화:** 일부 암살자는 자신의 일에 나름의 신념을 지니고 있어, 뇌물로는 계약 완수를 포기하게 만들 수 없다.
+- **용법:** 암살자는 강력하고 부유한 적을 둔 이들에게 큰 공포의 대상이다.
+- **전리품:** 무기와 독을 제외하면, 대부분의 암살자는 매우 비싼 물건 하나에 해당하는 화폐와 어쩌면 사이퍼 한두 개를 지니고 있다.
+- **마스터 개입:** 캐릭터는 암살자가 과거 자신에게 중요한 누군가를 죽인 바로 그 살인자였음을 알아차리고 충격을 받아, 다음 턴을 잃는다.
+
+### 키메라 (CHIMERA) 6 (18)
+
+키메라는 여러 동물의 특징이 섞여 있는 불쾌한 혼종으로, 그 특징들은 종종 기이한 형태로 배치되어 있다. 동물 형태가 융합되었다는 점만이 이 생물들을 하나로 묶어 주며, 그 외에는 키메라마다 모습이 서로 매우 다른 경우가 많다. 염소와 사자, 도마뱀과 박쥐, 용과 거미, 공룡과 거대 곤충의 조합 등이 여기에 포함된다. 몇몇은 믿기 어려운 위치에 있는 얼굴이나 발톱 대신 손처럼 인간의 특징을 보이기도 한다. 어떤 키메라는 날 수 있고, 어떤 키메라는 땅을 기어 다닌다.
+키메라는 보통 우세한 기본 형태 하나를 중심으로, 그 위에 다른 동물의 부위를 접붙인 모습을 하고 있다. 기본 형태는 추가된 머리들의 무게를 지탱할 만큼 충분히 커야 하므로, 사자, 곰, 말이 인기 있는 기본 형태다.
+키메라는 배가 고프지 않아도 죽이며, 희생자의 잔해를 광폭한 분노 속에서 넓은 지역에 흩뿌린다. 먹이를 먹거나 괴롭히지 않을 때, 날 수 있는 키메라는 하늘로 올라가 거대한 가죽 날개를 퍼덕이며 새로운 먹이를 찾기 위해 지형을 샅샅이 훑는다.
+
+- **동기:** 인간의 살을 갈망함
+- **환경:** 어디든, 보통 단독
 - **체력:** 21
-- **피해:** 4 points
-- **이동:** Short while on the ground; long while flying (if it can fly)
-- **조정:** Speed defense rolls as level 5 due to size
-- **전투:** All chimeras have a number of ways to kill. The exact methods vary, but most can bite, sting, and gore (three attacks) as a single action, either attacking the same opponent or attacking different foes within immediate range of each other. A chimera’s sting carries a powerful toxin, and a stung target must succeed on a Might defense roll or take 4 additional points of damage. Chimeras with spikes can project them at up to three targets within long range as a single action.
-- **대화:** Chimeras are a lot like wild animals with rabies. They’re confused and violent, and they behave erratically. Savage, ferocious beasts, they hate all other creatures and seize any opportunity to kill.
-- **용법:** While exploring an island, the PCs find carcasses that have been torn apart, the pieces scattered in all directions. A chimera lairs nearby, and if the characters draw attention to themselves, it hunts them down, too.
-- **마스터 개입:** The chimera grabs a character it bites and flies off with the victim
+- **피해:** 4점
+- **이동:** 지상에서는 근거리; 비행 가능하다면 비행 중에는 원거리
+- **조정:** 덩치가 커서 속력 방어 굴림은 레벨 5로 처리
+- **전투:** 모든 키메라는 여러 가지 살해 수단을 지닌다. 정확한 방법은 다양하지만, 대부분은 물기, 쏘기, 들이받기(세 번 공격)를 하나의 행동으로 수행할 수 있으며, 같은 상대를 공격하거나 서로 즉시 거리 내에 있는 다른 적들을 각각 공격할 수 있다. 키메라의 침에는 강력한 독소가 있어, 침에 찔린 대상은 힘 방어 굴림에 성공하지 못하면 추가로 4 피해를 받는다. 가시가 있는 키메라는 하나의 행동으로 원거리 내 최대 세 대상에게 가시를 발사할 수 있다.
+- **대화:** 키메라는 광견병에 걸린 야생 동물과 매우 비슷하다. 혼란스럽고 폭력적이며, 행동이 예측 불가능하다. 사납고 흉포한 야수인 이들은 다른 모든 생물을 증오하며, 죽일 기회가 생기면 놓치지 않는다.
+- **용법:** 섬을 탐험하던 PC들은 찢겨 나간 사체들을 발견하고, 그 조각들이 사방으로 흩어져 있는 것을 본다. 근처에는 키메라의 둥지가 있으며, 캐릭터들이 스스로 눈에 띄면 키메라는 그들까지 사냥한다.
+- **마스터 개입:** 키메라는 물어뜯은 캐릭터를 붙잡고 그대로 날아간다
 
-### CHRONOPHAGE    4 (12)
-These segmented, 6-foot (2 m) long creatures look partly like larvae that have grown gargantuan and vicious. They appear in places where time moves more slowly or more quickly than normal, where balls and liquids flow upslope, or where a time traveler has visited.
-- **동기:** Hungers for the flesh of those who create, or were created by, time anomalies
-- **환경:** Clutches of four to eight fade into existence within long range of - **space-time** fractures in almost any location.
+### 크로노페이지 (CHRONOPHAGE) 4 (12)
+
+이 마디진 6피트(2m) 길이의 생물은 부분적으로는 거대하고 사나워진 유충처럼 보인다. 시간의 흐름이 정상보다 느리거나 빠른 장소, 공이나 액체가 경사면을 거슬러 흐르는 장소, 혹은 시간 여행자가 다녀간 장소에 나타난다.
+
+- **동기:** 시간 이상 현상을 만들어 낸 자, 혹은 그 이상 현상에 의해 만들어진 자의 살을 갈망함
+- **환경:** 당신의 마리에서 여덟 마리의 무리가 거의 모든 장소에서 - **시공간** 균열로부터 원거리 내에 모습을 흐리며 출현한다.
 - **체력:**18
-- **피해:** 5 points
+- **피해:** 5점
 - **장갑:** 1
-Movement: Short; can phase into the dimension of time (and disappear) as a move. On its next action, it can phase back into the world up to 300 feet (90 m) from where it disappeared (as an action).
-- **조정:** Perception as level 5
-- **전투:** A chronophage attacks with its crushing mandibles.
-A chronophage can phase back and forth between its home dimension, and it uses this ability to great effect when hunting prey. For instance, it can close on prey otherwise protected by barriers or features of the landscape. It can also use the ability to draw a victim’s attention and then launch a surprise attack from behind after it has effectively teleported. However, it is an action for the creature to shift its phase between the dimension of time and normal reality.
-- **대화:** Chronophages are unswerving in their drive to find prey. Once one marks its target, only killing the creature can sway it from the prey.
-- **용법:** When the PCs happen upon a location where the rules of space-time are loose and malleable, or if the PCs trigger a cypher or other device that interferes with time’s regular flow, a clutch of chronophages may soon come calling.
-- **전리품:** The skin of a chronophage can be salvaged to create a silvery cloak that reflects its surroundings, but the reflection is one hour behind the present.
-- **마스터 개입:** If a chronophage’s prey fails its Speed defense roll, the attack ignores Armor, and the prey must make an Intellect defense roll (difficulty 4) or be phased into the chronophage’s home dimension of time. Victims automatically phase back into reality on their next turn but are displaced by 100 feet (30 m) straight up or to the closest open space. This usually results in a fall that potentially deals 10 points of damage, knocks victims prone, and dazes them, hindering all actions for a round.
+  이동: 근거리; 이동으로 시간 차원으로 위상 전이(사라짐)할 수 있다. 다음 행동에, 사라진 지점에서 최대 300피트(90m) 떨어진 곳으로 세계에 다시 위상 전이해 나타날 수 있다(행동으로).
+- **조정:** 지각은 레벨 5로 처리
+- **전투:** 크로노페이지는 짓뭉개는 큰턱으로 공격한다.
+  크로노페이지는 자신의 고향 차원과 현실 사이를 오가며 위상을 전환할 수 있고, 먹잇감을 사냥할 때 이 능력을 매우 효과적으로 활용한다. 예를 들어 장벽이나 지형지물로 보호받는 먹잇감에게도 접근할 수 있다. 또한 이 능력으로 피해자의 주의를 끈 뒤, 사실상 순간이동한 것처럼 뒤에서 기습을 가할 수도 있다. 다만 시간 차원과 정상 현실 사이에서 위상을 바꾸는 데에는 이 생물의 행동 하나가 필요하다.
+- **대화:** 크로노페이지는 먹잇감을 찾으려는 충동에서 결코 벗어나지 않는다. 일단 표적을 정하면, 그 생물을 죽이는 것만이 먹잇감으로부터 관심을 돌리게 할 수 있다.
+- **용법:** PC들이 시공간의 규칙이 느슨하고 가변적인 장소를 우연히 발견했거나, PC들이 시간의 정상 흐름을 교란하는 사이퍼나 기타 장치를 작동시켰다면, 머지않아 크로노페이지 무리가 찾아올 수 있다.
+- **전리품:** 크로노페이지의 가죽은 주변을 반사하는 은빛 망토로 가공할 수 있지만, 그 반사는 현재 시점보다 1시간 뒤처져 있다.
+- **마스터 개입:** 크로노페이지의 먹잇감이 속력 방어 굴림에 실패하면, 그 공격은 Armor를 무시하며, 먹잇감은 지성 방어 굴림(난이도 4)을 해야 한다. 실패하면 크로노페이지의 고향 시간 차원으로 위상 전이된다. 희생자는 다음 차례에 자동으로 현실로 돌아오지만, 위쪽으로 곧장 100피트(30m) 이동하거나 가장 가까운 빈 공간으로 밀려난다. 이는 보통 낙하를 일으켜 잠재적으로 10 피해를 주고, 희생자를 쓰러진 상태로 만들며, 한 라운드 동안 모든 행동을 방해할 정도로 멍하게 만든다.
 
+### 범죄 두목 (CRIME BOSS) 3 (9)
 
+범죄 두목은 보통 신체적으로 강력하지 않지만, 거짓말과 뇌물, 통제를 통해 권력을 휘두른다. 단독으로 마주치는 경우는 드물고, 경호원과 깡패, 기타 수단에 의존해 물리적 안전을 확보한다. 범죄 두목은 하찮은 귀족일 수도 있고, 마피아의 왕일 수도 있으며, 바다를 항해하거나 우주 항로를 미끄러지듯 달리는 해적선의 선장일 수도 있다.
 
+- **동기:** 돈과 권력
+- **체력:** 12
+- **피해:** 5점
+- **장갑:** 1
+- **이동:** 근거리
+- **조정:** 속임수, 설득, 협박, 우호적 상호작용 관련 일는 레벨 7로 처리
+- **전투:** 경호원, 깡패, 기타 추종자들은 범죄 두목이 그들을 보고 명령을 내릴 수 있을 때 피해를 추가로 1 준다. 가능하다면 범죄 두목은 탈것에 타거나 차량에 탑승한 채 싸우며, 모든 충돌의 후방에서 추종자들을 지휘하고, 우선적으로 명령을 내리는 데 집중한다.
+- **대화:** 범죄 두목은 그 계획이 무엇이든 간에 자신의 계획에 헌신한다. 대부분의 두목은 사람들과의 접촉을 대신하도록 부관이나 신뢰할 만한 깡패에게 의존한다.
+- **용법:** 범죄 두목과 그 추종자들이 보안이 엄중한 장소에서 강탈을 실행하다가 일이 꼬이면 인질을 잡는다. 상황을 완화하려면 누군가 안으로 들어가 범죄 두목과 대화해야 한다.
+- **전리품:** 범죄 두목은 무기, 중형 장갑, 잡다한 장비에 더해 매우 비싼 아이템 하나에 해당하는 화폐를 지닌다.
+- **마스터 개입:** 범죄 두목은 기발한 속임수나 사이퍼를 사용해 해당 전투 라운드에 들어오는 모든 공격을 막아낸다.
 
-### DEEP ONE    4 (12)
-Some deep ones dwell in coastal regions on land, usually in isolated villages where they might attempt to pass for human. They are able to breathe both air and water. Most, however, thrive in the ocean depths, in ancient underwater cities like “Cyclopean and many-columned Y’ha-nthlei.” Deep ones sometimes breed with insane humans to produce squamous offspring that eventually develop fully into deep ones well after maturity (or even middle age).
-- **동기:** Hungers for flesh
-- **환경:** Anywhere near a large body of salt water 
+### 딥 원 (DEEP ONE) 4 (12)
+
+일부 딥 원은 해안 지역의 육지, 대개는 외딴 마을에 거주하며 인간으로 가장하려 든다. 그들은 공기와 물속 모두에서 숨을 쉴 수 있다. 그러나 대부분은 바다 깊은 곳, 이를테면 "키클롭스 양식의 수많은 기둥이 늘어선 이아-느틀레이(Y’ha-nthlei)" 같은 고대 해저 도시에 번성한다. 딥 원은 때때로 광기에 사로잡힌 인간과 번식해 비늘 돋친 자손을 남기는데, 이 자손은 성인이 된 뒤 한참 지나서(심지어 중년이 되어서야) 완전한 딥 원으로 변모한다.
+
+- **동기:** 살점을 갈망함
+- **환경:** 바닷물이 있는 큰 수역 근처 어디에서나
 - **체력:** 15
-- **피해:** 5 points
+- **피해:** 5점
 - **장갑:** 2
-- **이동:** Short on land; long in the water
-- **조정:** Swims as level 6; perception as level 3
-- **전투:** Deep ones attack with tooth and claw most often, although occasionally one might use a weapon. They usually give no quarter, nor ask for it. Their skin is subject to drying, and they take 1 extra point of damage (ignores Armor) from any attack that deals fire or heat damage. Because of this weakness, deep ones sometimes retreat from fire and fire attacks.
-- **대화:** Deep ones are a strange mix of utter alienness and the vestiges of lost humanity. They are foul and degenerate creatures by human standards, however. Many still retain the ability to speak human languages, but all speak their own slurred, unearthly tongue.
-Deep ones spend a great deal of time in the sincere adoration of their gods, Mother Hydra, Father Dagon, and Cthulhu. Their religion demands frequent blood sacrifices.
-- **용법:** The PCs wander into a small coastal village where everyone seems standoffish and oddly distant. A few people appear to be sickly and malformed, perhaps from mutation or birth defects. Some of the villagers have squamous skin because they are transforming into deep ones. And, of course, true deep ones hide within the community as well.
-- **전리품:** A few deep ones will have a cypher.
-- **마스터 개입:** The deep one produces a net and throws it over the character. The only physical action the victim can take is to try to get free, as either a Might-based or a Speed-based action.
+- **이동:** 육지에서는 근거리, 물속에서는 원거리
+- **조정:** 수영은 레벨 6; 지각은 레벨 3
+- **전투:** 딥 원은 대개 이빨과 발톱으로 공격하지만, 가끔은 무기를 쓰기도 한다. 보통 자비를 베풀지도, 구하지도 않는다. 그들의 피부는 건조에 약해서, 화염이나 열 피해를 주는 공격을 받으면 추가로 1점 피해(장갑 무시)를 입는다. 이 약점 때문에 딥 원은 때때로 불이나 화염 공격 앞에서 물러난다.
+- **대화:** 딥 원은 완전히 이질적인 존재성과 잃어버린 인간성의 흔적이 뒤섞인 기묘한 존재다. 다만 인간 기준으로는 불결하고 타락한 괴물이다. 다수는 여전히 인간 언어를 말할 수 있지만, 모두가 끈적이고 비현실적인 자신들만의 혀짧은 언어를 구사한다.
+  딥 원은 자신들의 신인 어머니 히드라, 아버지 다곤, 그리고 크툴루를 진심으로 숭배하는 데 많은 시간을 바친다. 그들의 종교는 잦은 혈제(피의 제물)를 요구한다.
+- **용법:** PC들이 작은 해안 마을에 들어서자, 주민 모두가 냉담하고 어딘지 거리감 있게 보인다. 몇몇은 돌연변이나 선천적 결함처럼 보일 만큼 병약하고 기형적이다. 어떤 주민들은 딥 원으로 변해 가는 중이라 피부에 비늘이 돋아 있다. 물론 진짜 딥 원들도 공동체 안에 숨어 있다.
+- **전리품:** 일부 딥 원은 사이퍼를 하나 지닌다.
+- **마스터 개입:** 딥 원이 그물을 꺼내 캐릭터에게 던져 덮어씌운다. 피해자는 빠져나오려는 행동 외에는 물리적 행동을 할 수 없으며, 이는 힘 기반 또는 스피드 기반 행동으로 시도한다.
 
-### DEINONYCHUS    3 (9)
-Popularly known as the velociraptor, the dinosaur genus called deinonychus doesn’t care if its prey gets the proper terminology sorted. Meat tastes like meat. The “terrible claw” these carnivores are named after refers to their massive, sickle-shaped claws, which are unsheathed from their hind legs when attacking prey.
-Deinonychus are pack hunters, which means they work together as a unit, each taking on different roles to scare, flush, and direct even intelligent prey into the claws of an ambush.
-- **동기:** Hungers for flesh
-- **환경:** Wherever they can hunt food, in packs of three to seven 
+### 데이노니쿠스 (DEINONYCHUS) 3 (9)
+
+대중적으로는 벨로시랩터로 알려져 있지만, 데이노니쿠스라는 공룡 속은 먹잇감이 정확한 용어를 쓰는지에는 관심이 없다. 고기는 그저 고기 맛일 뿐이다. 이 육식종의 이름이 뜻하는 "무시무시한 발톱"은, 사냥감을 공격할 때 뒷다리에서 드러나는 거대한 낫 모양 발톱을 가리킨다.
+데이노니쿠스는 무리 사냥꾼으로, 서로 역할을 분담해 지능적인 먹잇감조차 겁주고 몰아붙여 매복 지점의 발톱으로 유도한다.
+
+- **동기:** 살점을 갈망함
+- **환경:** 먹이를 사냥할 수 있는 곳 어디든, 3~7마리 무리로
 - **체력:** 15
-- **피해:** 4 points
+- **피해:** 4점
 - **장갑:** 1
-- **이동:** Short
-- **조정:** Perception as level 5; attacks and Speed defense as level 4 due to quickness; overcoming obstacles and figuring out tricks as level 4
-- **전투:** When a deinonychus bites its prey, the victim takes damage and must make a Might defense roll. On a failure, the deinonychus holds the victim in place with its jaws while it slices them to ribbons with its terrible claws, automatically inflicting 6 points of damage each round in which they fail a Might-based task to break free (not attempting to break free counts as a failed attempt). For a human-sized or smaller victim held in the jaws, all other tasks are hindered by two steps.
-- **대화:** Vicious, cunning, and a little too smart to be classified as simple predators, these creatures are unlikely to negotiate, give quarter, or back off from a fight even if contact could be made.
-- **용법:** Some fool decided to build a Cretaceous-themed zoo. The only question is: How long before the dinosaurs get loose and take over the local mall?
-- **마스터 개입:** The fleeing deinonychus was actually leading the character over a cliff, into a deadfall trap, or into an ambush with more deinonychus.
+- **이동:** 근거리
+- **조정:** 지각은 레벨 5; 재빠름으로 인해 공격과 스피드 방어는 레벨 4; 장애물 극복 및 잔꾀 파악은 레벨 4
+- **전투:** 데이노니쿠스가 먹잇감을 물면 피해를 준 뒤, 대상은 힘 방어 굴림을 해야 한다. 실패하면 데이노니쿠스는 턱으로 대상을 붙잡아 둔 채 무시무시한 발톱으로 갈기갈기 찢는다. 이때 대상이 매 라운드 힘 기반 탈출 일에 실패할 때마다 자동으로 6점 피해를 입는다(탈출을 시도하지 않는 것도 실패로 간주). 턱에 물린 인간 크기 이하 대상은 다른 모든 일가 두 단계 방해된다.
+- **대화:** 사납고 교활하며 단순 포식자로 보기엔 지나치게 영리한 이 생물은, 접촉이 가능하더라도 협상하거나 자비를 베풀거나 전투에서 물러날 가능성이 거의 없다.
+- **용법:** 어떤 바보가 백악기 테마 동물원을 지었다. 문제는 단 하나다. 공룡들이 탈출해 지역 쇼핑몰을 장악하기까지 얼마나 걸릴까?
+- **마스터 개입:** 도망치던 데이노니쿠스는 사실 캐릭터를 절벽 가장자리, 함정 구덩이, 혹은 더 많은 데이노니쿠스가 기다리는 매복 지점으로 유인하고 있었다.
 
-### DEMIGOD    9 (27)
-Lesser gods, divine children of gods and mortals, and other beings bequeathed with partly divine power are called demigods. Their capacities so radically exceed those of regular people that they have transcended humanity. Demigods are so physically and mentally powerful that it’s difficult for them to hide their semi-divine appearance to mortal creatures—not that most would make the effort in the first place.
-- **동기:** Ineffable
-- **환경:** Anywhere other divine entities exist (or once existed)
+### 데미갓 (DEMIGOD) 9 (27)
+
+하위 신, 신과 필멸자의 자식, 그리고 신성한 힘을 부분적으로 물려받은 존재들을 데미갓이라 부른다. 그들의 능력은 보통 사람을 압도적으로 뛰어넘어, 사실상 인간성을 초월했다. 데미갓은 육체적·정신적으로 너무나 강력해 필멸자 앞에서 반신(半神)으로서의 외양을 숨기기 어렵다. 애초에 대부분은 숨길 생각조차 하지 않는다.
+
+- **동기:** 형언할 수 없음
+- **환경:** 다른 신성 존재가 있는(또는 있었던) 곳 어디에서나
 - **체력:** 99
-- **피해:** 12 points
+- **피해:** 12점
 - **장갑:** 5
-- **이동:** Short; long when flying
-- **전투:** Demigods can attack foes up to half a mile (1 km) away with bolts of divine energy (usually in the form of lightning). A demigod can dial up the level of destruction if it wishes, so that instead of affecting only one target, a bolt deals 9 points of damage to all targets within short range of the primary target. Targets caught in the conflagration who succeed on a Speed defense roll still suffer 5 points of damage.
-Demigods are just as scary in hand-to-hand combat and can attack all targets within immediate range as an action. They can also call on a variety of other abilities that seem like magic to lesser foes and mimic the effect of any cypher of level 5 or lower.
-A demigod doesn’t need to alter reality to heal itself, as it automatically regains 2 points of health per round.
-- **대화:** For all their power, demigods share most human traits and weaknesses. This means it’s possible to negotiate with one, though the consequences for angering a demigod in the process are dire.
-- **용법:** A demigod was banned from the higher realm of their birth for unknown reasons. Now they seek to show their worth by undertaking a great quest in the mortal world, and they are looking to assemble a group of mortal comrades (sycophants?) to aid them.
-- **전리품:** Demigods might carry an artifact related to some aspect of their domain (such as wind, messages, or death), if they have one, and 1d6 cyphers.
-- **마스터 개입:** The divine nature of the demigod allows it to act out of turn, take control of an object (such as an artifact or a cypher) that the PC is about to use against it, and either deactivate the object or turn it against the character.
+- **이동:** 근거리; 비행 시 원거리
+- **전투:** 데미갓은 최대 0.5마일(1km) 떨어진 적까지 신성한 에너지 화살(보통 번개 형태)로 공격할 수 있다. 원하면 파괴력을 높여 단일 대상 대신 주대상 근거리 내의 모든 대상에게 9점 피해를 줄 수 있다. 이 불길에 휘말린 대상이 스피드 방어 굴림에 성공해도 5점 피해는 받는다.
+  데미갓은 근접전에서도 똑같이 끔찍하며, 행동 하나로 즉시거리 내 모든 대상을 공격할 수 있다. 또한 하위 적에게는 마법처럼 보이는 다양한 능력을 호출해 레벨 5 이하 어떤 사이퍼의 효과든 모방할 수 있다.
+  데미갓은 스스로를 치유하기 위해 현실을 비틀 필요가 없으며, 매 라운드 체력을 자동으로 2점 회복한다.
+- **대화:** 강대한 힘과는 별개로, 데미갓도 대부분의 인간적 특성과 약점을 공유한다. 따라서 협상 자체는 가능하지만, 그 과정에서 데미갓의 분노를 사면 결과는 끔찍하다.
+- **용법:** 한 데미갓이 알 수 없는 이유로 자신이 태어난 상위 차원에서 추방되었다. 이제 필멸 세계에서 위대한 퀘스트를 수행해 자신의 가치를 증명하려 하며, 이를 도울 필멸자 동료(아첨꾼?) 무리를 모으고 있다.
+- **전리품:** 데미갓은 자신의 영역(바람, 전령, 죽음 등)과 관련된 아티팩트를 지닐 수 있으며, 1d6개의 사이퍼를 가진다.
+- **마스터 개입:** 데미갓의 신성 본성으로 인해 순서 밖 행동이 가능해진다. PC가 자신에게 쓰려는 물건(아티팩트나 사이퍼 등)을 빼앗아 비활성화하거나, 되레 캐릭터를 향해 돌려 쓴다.
 
+### 데몬\*\* (DEMON) 5 (15)
 
-### **DEMON**    5 (15)
-Demons are formless spirits of the dead tortured in nether realms until all that was good or caring in them was burned away, forging a being of spite and hate.
-A demon remembers only fragments of its former life—every good memory is cauterized, and every slight, misfortune, snub, and pain is amplified, motivating the creature to tempt others into the same state.
-Having no flesh to call its own, a demon is a shadowed, ephemeral horror able to possess others. A demon can cause great harm in a short time by forcing its host to lie, steal, and harm loved ones.
-- **동기:** Hungers for others’ pain and fear
-- **환경:** Anywhere
+데몬은 저승의 영역에서 고문받아, 선함과 배려심이 전부 불태워진 망자의 무형 영혼이다. 그렇게 원한과 증오의 존재로 벼려진다.
+데몬은 전생의 기억을 파편적으로만 간직한다. 모든 좋은 기억은 지져 없애지고, 모욕·불운·무시·고통은 과장되어, 타인도 같은 상태로 끌어들이려는 동기가 된다.
+자기 육체가 없는 데몬은 그림자 같은 덧없는 공포로서, 타인을 빙의할 수 있다. 데몬은 숙주에게 거짓말·절도·사랑하는 이에게 해를 가하게 강요해 짧은 시간에 큰 피해를 낸다.
+
+- **동기:** 타인의 고통과 공포를 갈망함
+- **환경:** 어디에서나
 - **체력:** 25
-- **피해:** 6 points
-- **이동:** Short; immediate while flying in immaterial form 
-- **조정:** All stealth tasks as level 7 in immaterial form; deception tasks as level 6
-- **전투:** The immaterial touch of a demon either inflicts 5 points of damage from rot, or allows the demon to attempt to possess the target. The target of an attempted possession must make an Intellect defense roll or become possessed, whereupon the demon’s immaterial form disappears into the target.
-The first round in which a character is possessed, they can act normally. In the second and all subsequent rounds, the possessing demon can control the actions of the host, but the
-character can attempt an Intellect defense roll to resist each suggested action. Successful resistance means that the character does nothing for one round. In other rounds, the character can act as they choose. A possessing demon’s actions are limited to attempts to control its host and leaving the host.
-A possessed target is allowed an Intellect defense roll to eject the demon once per day, barring any exorcism attempts. The defense roll is hindered by one additional step each day of possession after the first seven days. An ejected or cast-out demon is powerless for one or more days.
-A demon not possessing another creature is immaterial and can pass through solid objects whose level is lower than its own. While the demon is immaterial, it takes only 1 point of damage from mundane attacks, but it takes full damage from magical, energy, and psychic attacks. While it possesses another creature, the demon is immune to most attacks (though not so the host; killing the host will eject the demon).
-- **대화:** A demon allows a possessed host to act normally, as long as it doesn’t reveal the demon’s presence. If its presence is known, the demon might negotiate, but only after a tirade of lies and obscenity, and the demon likely betrays any deal reached.
-- **용법:** An ally of the PCs has begun acting differently, and not for the good.
-- **마스터 개입:** The character who attempts an exorcism of a possessed target is successful, but the demon moves directly from the former victim into the exorcist. The new host can make an Intellect-based roll to eject the demon, but only after the first round of possession.
+- **피해:** 6점
+- **이동:** 근거리; 비물질 형태로 비행 시 즉시거리
+- **조정:** 비물질 형태에서 모든 은신 일는 레벨 7; 기만 일는 레벨 6
+- **전투:** 데몬의 비물질 접촉은 썩음 피해 5점을 주거나, 대상을 빙의하려는 시도를 하게 한다. 빙의 시도의 대상은 지성 방어 굴림에 성공해야 하며, 실패하면 빙의된다. 그러면 데몬의 비물질 형태는 대상 안으로 사라진다.
+  캐릭터가 빙의된 첫 라운드에는 정상적으로 행동할 수 있다. 둘째 라운드부터는 빙의한 데몬이 숙주의 행동을 통제할 수 있지만, 캐릭터는 제안된 각 행동마다 지성 방어 굴림으로 저항을 시도할 수 있다. 저항에 성공하면 그 라운드에는 아무 행동도 하지 못한다. 그 외 라운드에는 캐릭터가 원하는 대로 행동한다. 빙의한 데몬의 행동은 숙주를 통제하려는 시도와 숙주를 떠나는 행동으로 제한된다.
+  빙의된 대상은(퇴마 시도를 제외하면) 하루에 한 번 데몬을 축출하기 위한 지성 방어 굴림을 할 수 있다. 이 방어 굴림은 빙의 7일째 이후부터 하루가 지날 때마다 추가로 한 단계씩 방해된다. 축출되거나 쫓겨난 데몬은 하루 이상 무력해진다.
+  다른 생물을 빙의하지 않은 데몬은 비물질 상태이며, 자신보다 낮은 레벨의 고체 물체를 통과할 수 있다. 비물질 상태의 데몬은 비마법적 공격으로는 1점 피해만 받지만, 마법·에너지·정신 공격에는 온전한 피해를 입는다. 다른 생물을 빙의한 동안 데몬은 대부분의 공격에 면역이다(숙주는 그렇지 않다. 숙주를 죽이면 데몬은 축출된다).
+- **대화:** 데몬은 자신의 존재가 드러나지 않는 한, 빙의한 숙주가 평소처럼 행동하도록 내버려 둔다. 존재가 탄로 나면 협상할 수도 있지만, 먼저 거짓말과 상스러운 폭언을 늘어놓고, 설령 합의해도 거의 반드시 배신한다.
+- **용법:** PC의 동맹 한 명이 이전과 다르게 행동하기 시작했는데, 결코 좋은 방향이 아니다.
+- **마스터 개입:** 빙의된 대상을 퇴마하려는 캐릭터의 시도는 성공하지만, 데몬이 기존 희생자에게서 바로 퇴마사에게 옮겨 붙는다. 새 숙주는 빙의 첫 라운드가 지난 뒤에야 지성 기반 굴림으로 데몬을 축출할 수 있다.
 
+### 데빌 (DEVIL) 4 (12)
 
-### DEVIL    4 (12)
-Devils are manifest evil. As “native fauna” of various tortuous nether realms, devils come in many forms, though most are iterations on a theme that includes a humanoid shape, large batwings, bestial faces, and twisting horns. Most stink of brimstone and sport tails that end in a fork. Devils fill the ranks of hellish armies, guard evil vaults, and appear at the magical summons of warlocks and sorcerers who are not afraid for the sanctity of their own souls.
-- **동기:** Collect souls
-- **환경:** Anywhere in various nether realms; sometimes called by mortal magic
+데빌은 악 그 자체가 구현된 존재다. 여러 뒤틀린 저승 차원의 "토착 생물"로서 데빌은 수많은 형태를 가지지만, 대개 인간형 몸체·큰 박쥐 날개·짐승 같은 얼굴·비틀린 뿔이라는 공통 주제를 반복한다. 대부분 유황 냄새를 풍기고, 갈라진 꼬리 끝을 지닌다. 데빌은 지옥 군대의 전열을 채우고, 사악한 금고를 지키며, 자기 영혼의 신성함을 두려워하지 않는 흑마술사와 마법사의 소환에 응해 나타난다.
+
+- **동기:** 영혼 수집
+- **환경:** 다양한 저승 영역 어디에서나; 때로는 필멸자의 마법으로 소환됨
 - **체력:** 12
-- **피해:** 5 points
+- **피해:** 5점
 - **장갑:** 3
-- **이동:** Short when walking or flying
-- **조정:** All tasks related to deception as level 7
-- **전투:** When possible, a devil attacks with surprise. If successful, it unfurls two great wings and claws at the ends of its fingers. It leaps into the air, flies up to a short distance toward the nearest foe, and attacks that creature as a single action.
-Some devils carry tridents. The weapon inflicts 5 points of damage, and the target must either move to a position within an immediate distance chosen by the devil or take 2 additional points of damage from being impaled (a total of 7 points of damage). Impaled foes automatically take 5 points of damage each round until they use an action to pull
-themselves free.
-- **대화:** Evil, cruel, and malevolent, devils are more than happy to talk, especially to those already caught and being readied for torture. Devils serve yet more powerful devils out of fear. If they find someone or something they fear more, they readily betray their master and become obsequious and cringing, though further betrayal is always on the table.
-- **용법:** A spate of violent murders grips a city in fear—a devil has escaped into the world of mortals without a leash. It spends nights hunting anyone it spots from its perches atop the city’s holy places.
-- **마스터 개입:** A devil anticipates the character’s melee attack and brings its wing down “just so” on the attacker’s weapon. If the character fails a Speed defense roll, the weapon breaks. Either way, the attack fails to hit the devil.
+- **이동:** 도보·비행 모두 근거리
+- **조정:** 기만 관련 모든 일는 레벨 7
+- **전투:** 가능하면 데빌은 기습으로 공격한다. 성공하면 거대한 날개 두 장을 펼치고 손가락 끝의 발톱으로 덮친다. 공중으로 뛰어올라 가장 가까운 적에게 근거리까지 날아가, 하나의 행동으로 그 대상을 공격한다.
+  일부 데빌은 삼지창을 든다. 이 무기는 5점 피해를 주며, 대상은 데빌이 정한 즉시거리 내 위치로 이동하거나, 꿰뚫림으로 인한 추가 2점 피해(총 7점)를 받아야 한다. 꿰뚫린 적은 행동을 써서 몸을 빼내기 전까지 매 라운드 자동으로 5점 피해를 입는다.
+- **대화:** 사악하고 잔혹하며 악의적인 데빌은, 특히 이미 붙잡혀 고문 준비가 된 이들과는 기꺼이 말을 섞는다. 데빌은 더 강한 데빌을 두려워해 섬긴다. 그러나 더 무서운 대상이나 사물을 발견하면 주인을 즉시 배신하고 비굴하게 굴복한다. 물론 또다시 배신할 가능성은 언제나 열려 있다.
+- **용법:** 잔혹한 연쇄 살인이 도시를 공포에 몰아넣는다. 목줄 없이 필멸 세계로 빠져나온 데빌 한 마리가, 도시의 성스러운 장소 꼭대기에서 사람을 발견하면 밤마다 사냥한다.
+- **마스터 개입:** 데빌은 캐릭터의 근접 공격을 예측하고, 공격자의 무기에 자기 날개를 "절묘하게" 내려쳐 받아낸다. 캐릭터가 스피드 방어 굴림에 실패하면 무기가 부러진다. 어느 쪽이든 그 공격은 데빌에게 적중하지 못한다.
 
+### 지니 (DJINNI) 7 (21)
 
-### DJINNI    7 (21)
-Djinn inhabit unseen dimensions beyond the visible universe. Just like normal creatures, djinn are individuals, and they can be good, evil, or unconcerned about the fates and doings of others.
-- **동기:** Unpredictable
-- **환경:** Almost anywhere 
+지니는 눈에 보이는 우주 너머의 보이지 않는 차원에 거주한다. 보통 생물들과 마찬가지로 지니도 개별 존재이며, 선할 수도 악할 수도, 타인의 운명과 행보에 무관심할 수도 있다.
+
+- **동기:** 예측 불가
+- **환경:** 거의 어디에서나
 - **체력:** 35
-- **피해:** 9 points
-- **이동:** Short; long when flying
-- **조정:** Knowledge of Arabian history as level 8
-- **전투:** With a touch, a djinni can warp a victim’s flesh, inflicting damage. Djinn can also use an action to send out a magitech “EMP burst” that renders all artifacts, machines, and lesser magic devices within short range inoperable for one minute. (If the item is part of a character’s equipment, they can prevent this outcome by succeeding on a Speed defense roll.) Instead of disabling all devices in range, a djinni can instead take control of one item within range for one minute, if applicable.
-A djinni can transform into a being of smoke and flame as its action. While in this form, it has +10 to Armor but can’t attack foes. It gains the ability to fly a long distance each round and retains the ability to communicate normally. The first time each day that a djinni returns to physical form after having become smoke, it regains 25 points of health.
-Some djinn have the ability to grant wishes, and a few are beholden to do so thanks to an ancient, unexplained agreement with other djinn. Those who grant wishes twist them against the asker, especially if a wish is poorly worded or there are multiple ways to interpret it. The level of the effect granted is no greater than level 7, as determined by the GM, who can modify the effect of the wish accordingly. (The larger the wish, the more likely the GM will limit its effect.) 
-- **대화:** When a djinni interacts with characters, it’s narcissistic, certain in its own immense power, and unlikely to let slights pass. That said, low-tier characters could negotiate with one peacefully because even djinn have needs and desires.
-- **용법:** Agents of a foreign power retrieved a magic lamp from an ancient Arabian ruin. The PCs’ job is to determine whether there is reason for alarm.
-- **전리품:** Most djinn carry a couple of cyphers, and some have a magic artifact useful in combat.
-- **마스터 개입:** When the character is touched by a djinni, instead of taking damage, the character is turned to smoke and fire and sent whirling off in a random direction. They lose their next turn and return to normal almost 300 feet (90 m) from where they started.
+- **피해:** 9점
+- **이동:** 근거리; 비행 시 원거리
+- **조정:** 아라비아 역사 지식은 레벨 8
+- **전투:** 지니는 접촉으로 대상의 살점을 뒤틀어 피해를 줄 수 있다. 또한 행동 하나로 마기테크 "EMP 버스트"를 방출해 근거리 내의 모든 아티팩트, 기계, 하위 마법 장치를 1분 동안 작동 불능으로 만든다. (해당 물건이 캐릭터 장비 일부라면 스피드 방어 굴림 성공으로 이 결과를 막을 수 있다.) 범위 내 장치 전체를 무력화하는 대신, 해당 가능할 경우 범위 내 물건 하나를 1분 동안 지배할 수도 있다.
+  지니는 행동으로 연기와 불꽃의 존재로 변신할 수 있다. 이 형태에서는 장갑에 +10을 얻지만 적을 공격할 수 없다. 대신 매 라운드 원거리 비행 능력을 얻고, 정상적으로 의사소통하는 능력은 유지한다. 지니가 연기 형태가 된 뒤 물리 형태로 돌아올 때, 하루 중 첫 번째 복귀 시 체력 25점을 회복한다.
+  일부 지니는 소원을 들어주는 능력이 있으며, 소수는 다른 지니와 맺은 설명되지 않은 고대 협약 때문에 그렇게 해야 한다. 소원을 들어주는 자들은 특히 소원 문구가 부정확하거나 해석 여지가 많을수록 요청자에게 불리하게 비튼다. 부여되는 효과의 레벨은 GM이 정하며 최대 7을 넘지 않는다. GM은 이에 맞춰 소원의 효과를 수정할 수 있다. (소원이 클수록 GM이 효과를 제한할 가능성이 커진다.)
+- **대화:** 지니는 캐릭터와 상호작용할 때 자기애적이며, 자신의 막대한 힘을 확신하고, 모욕을 쉽게 넘기지 않는다. 그래도 저티어 캐릭터라도 평화적 협상이 가능할 수 있는데, 지니에게도 욕구와 바람이 있기 때문이다.
+- **용법:** 외국 세력의 요원들이 고대 아라비아 유적에서 마법 램프를 회수했다. PC들의 임무는 경계해야 할 이유가 있는지 판단하는 것이다.
+- **전리품:** 대부분의 지니는 사이퍼 두어 개를 지니며, 일부는 전투에 유용한 마법 아티팩트를 보유한다.
+- **마스터 개입:** 캐릭터가 지니에게 닿았을 때 피해를 입는 대신, 연기와 불꽃으로 변해 무작위 방향으로 휘말려 날아간다. 다음 차례를 잃고, 시작 지점에서 약 300피트(90m) 떨어진 곳에서 정상으로 돌아온다.
 
+### 드래곤 (DRAGON) 7 (21)
 
-### DRAGON    7 (21)
-Dragons are exceptionally territorial, vain, and greedy. Apex predators, dragons must eat large meals on a regular basis. They prefer virgins, though they will settle for whoever, or whatever—such as horses or wild pigs—is available in a pinch. They love games of all sorts, especially when they get to consume the loser. Drawn to wealth and magic, dragons accumulate hoards of golden treasure. A dragon’s hoard is not only an end in itself, but part of a never-ending contest between dragons of a certain age to see which one can accumulate the largest trove. 
-- **동기:** Self-aggrandizement, hungers for flesh, treasure collection
-- **환경:** Dragons thrive where wilderness meets the civilized frontier.
+드래곤은 유난히 영역 의식이 강하고, 허영심이 크며, 탐욕스럽다. 정점 포식자인 드래곤은 정기적으로 많은 양의 식사를 해야 한다. 그들은 처녀를 선호하지만, 급하면 누구든 무엇이든(말이나 멧돼지 같은 것이라도) 먹는다. 모든 종류의 게임을 좋아하며, 특히 패자를 잡아먹을 수 있을 때 더 즐긴다. 부와 마법에 이끌린 드래곤은 황금 보물을 쌓아 올린다. 드래곤의 보물 더미는 그 자체로 목적일 뿐 아니라, 비슷한 나이대 드래곤끼리 누가 가장 큰 보물창고를 모으는지 겨루는 끝없는 경쟁의 일부이기도 하다.
+
+- **동기:** 자기 과시, 살점을 갈망함, 보물 수집
+- **환경:** 드래곤은 야생과 문명 개척 경계가 맞닿는 곳에서 번성한다.
 - **체력:** 45
-- **피해:** 10 points
+- **피해:** 10점
 - **장갑:** 3
-- **이동:** Short; long while flying
-- **조정:** Perception and riddles as level 8; Speed defense as level 6 due to size
-- **전투:** A dragon can bite one target or claw two opponents in immediate range as a single action. When bitten, targets are also immobilized until they succeed on a Might defense roll to break free (or the dragon drops them).
-Most dragons have one or more additional magical abilities they can bring to bear in combat, including the following.
-Captivate: A dragon with this ability can psychically mesmerize a nondragon target in immediate range who fails an Intellect defense roll. A captivated target does the dragon’s verbal bidding for one or more hours. Each time the target is confronted by a third party about its mental condition, the target is allowed another Intellect defense roll to break the effect.
-Change Shape: A dragon with this ability can take the form of a human or similar humanoid as its action, or return to its regular shape. When so changed, the dragon’s disguise is nearly impenetrable without special knowledge. As a human, the dragon is a level 5 creature.
-Fiery Breath: A dragon can breathe a stream of fire up to long range, doing 7 points of damage to all targets within immediate range of each other. Targets who succeed on a Speed defense roll to avoid the full effect of the fire still take 3 points of damage. This ability cannot be used in consecutive rounds.
-- **대화:** Like the many hues of dragon scales, dragon personalities run the gamut from beastly thug to refined connoisseur. Some dragons lie with every smoky breath, others consider the least bit of dishonesty a personal failing, and most fall somewhere in between. All of them can be flattered and even charmed by someone with courtly manners and grace.
-- **용법:** A dragon confronts the PCs, challenging them to a riddle game. If the characters win, they get a cypher. If the dragon wins, the PCs owe it a favor to be specified later . . . unless the dragon is hungry now.
-- **전리품:** A dragon’s hoard might contain 2d6 cyphers, hard currency equivalent to 1d6 exorbitant items, and possibly a few artifacts (but a hoard is usually well guarded).
-- **마스터 개입:** The dragon breathes fire while the character is caught in its mouth, which automatically inflicts maximum fire damage on them.
+- **이동:** 근거리; 비행 시 원거리
+- **조정:** 지각과 수수께끼는 레벨 8; 거대한 체구 때문에 스피드 방어는 레벨 6
+- **전투:** 드래곤은 행동 하나로 대상 하나를 물거나, 즉시거리 내 상대 둘을 발톱으로 공격할 수 있다. 물린 대상은 힘 방어 굴림에 성공해 벗어나기 전까지(또는 드래곤이 놓아주기 전까지) 이동 불가 상태가 된다.
+  대부분의 드래곤은 전투에서 사용할 추가 마법 능력을 하나 이상 지니며, 예시는 다음과 같다.
+  매혹(Captivate): 이 능력을 지닌 드래곤은 즉시거리 내 비드래곤 대상을 정신적으로 최면 걸 수 있다. 대상이 지성 방어 굴림에 실패하면, 한 시간 이상 드래곤의 언어 명령을 따른다. 대상의 정신 상태를 제3자가 지적할 때마다 효과를 깨기 위한 추가 지성 방어 굴림을 할 수 있다.
+  변신(Change Shape): 이 능력을 지닌 드래곤은 행동으로 인간 또는 유사 인간형으로 변하거나 원래 형태로 돌아올 수 있다. 이 상태의 변장은 특별한 지식 없이는 거의 간파할 수 없다. 인간 형태에서는 레벨 5 생물이다.
+  화염 숨결(Fiery Breath): 드래곤은 원거리까지 불줄기를 내뿜어, 서로 즉시거리 내에 있는 모든 대상에게 7점 피해를 준다. 불의 전체 효과를 피하기 위한 스피드 방어 굴림에 성공해도 3점 피해를 입는다. 이 능력은 연속 라운드로 사용할 수 없다.
+- **대화:** 드래곤 비늘 색만큼이나 성격도 폭넓다. 야수 같은 불한당에서 세련된 미식가까지 다양하다. 어떤 드래곤은 연기 섞인 숨결마다 거짓말을 내뱉고, 어떤 드래곤은 사소한 부정직도 개인적 결함으로 여긴다. 대부분은 그 중간 어딘가에 있다. 하지만 모두가 궁정식 예절과 우아함을 갖춘 이의 아첨과 매력에는 흔들릴 수 있다.
+- **용법:** 드래곤이 PC들 앞에 나타나 수수께끼 게임을 제안한다. 캐릭터들이 이기면 사이퍼를 얻고, 드래곤이 이기면 PC들은 나중에 지정될 부탁 하나를 져야 한다... 물론 드래곤이 당장 배고프지 않다면.
+- **전리품:** 드래곤의 보물창고에는 2d6 사이퍼, 1d6개의 값비싼 물품에 해당하는 경화, 그리고 몇몇 아티팩트가 있을 수 있다(다만 보물창고는 대개 엄중히 지켜진다).
+- **마스터 개입:** 캐릭터가 드래곤 입에 물린 상태에서 드래곤이 화염을 뿜어, 해당 캐릭터는 자동으로 최대 화염 피해를 입는다.
 
+### 닥터 드레드 (DOCTOR DREAD) 7 (21)
 
-### Fire ELEMENTAL    4 (12)
-Searing flame in a vaguely humanoid shape, a fire elemental exists only to burn that which is not already ash. They sometimes spin into being where great conflagrations burn. 
-- **동기:** Burn
-- **환경:** Anywhere fires can burn
-- **체력:** 24
-- **피해:** 4 to 7 points; see Combat
-- **이동:** Short
-- **조정:** See Combat for escalating attack level modification.
-- **전투:** A fire elemental attacks with a flaming limb. The more the elemental burns foes, the more powerful it grows. Its power increases according to the number of successful attacks (that dealt fire damage) it made on another creature during the previous minute.
-    0 successful attacks: deals 4 points of damage; attacks as level 4
-    1 successful attack: deals 5 points of damage; attacks as level 5
-    3 successful attacks: deals 6 points of damage; attacks as level 6
-    4+ successful attacks: deals 7 points of damage; attacks as level 7
-If a fire elemental hasn’t burned a foe within the last minute, its combat stats drop back to its level 4 baseline.
-A fire elemental is immune to fire attacks but vulnerable to cold; every time it takes 1 point of cold damage, it takes 1 additional point of damage.
-- **대화:** Fire elementals are barely sapient and usually respond only to those who know spells able to command them. However, there’s a chance (about 10%) that a fire elemental commanded to accomplish a particular task breaks free and instead burns whatever’s around until it exhausts all possible fuel sources.
-- **용법:** A rash of fires leads some people to suspect that an arsonist is on the loose, but the truth is worse.
-- **마스터 개입:** A character hit by the fire elemental’s attack catches on fire and takes 3 points of damage each round until they use an action patting, rolling, or smothering the flames.
+닥터 드레드는 천재적인 두뇌, 미디어 활용 능력, 그리고 본래 평범한 능력을 강화하는 로봇 장갑 덕분에 현실을 초월한 존재처럼 군림한다. 실제로 닥터 드레드는 지구에서 가장 두려운 테러리스트가 되었다. 그녀는 자신의 능력으로 개인, 정부, 기업, 슈퍼히어로를 가리지 않고 부유하고 강력한 이들을 협박해 돈, 영향력, 기술을 갈취한다.
+닥터 드레드의 비밀 정체는 앨리샤 콜리지다. 비교적 무명의 배경에서 태어난 그녀는 러셀 공과대학 전액 장학생으로 선발되어, 살아 있는 조직에 대한 방사성 물질의 영향을 연구했다. 실험실 돌발 사고로 약혼자가 목숨을 잃고 앨리샤는 크게 훼손되었으며, 그 충격으로 다소 광기에 빠져 닥터 드레드 장갑을 만들었다. 그녀는 테러로 축적한 막대한 부를 죽은 살점의 재생 연구에 쏟아붓는다. 냉동 보존 중인 연인의 시신을 언젠가 되살리길 바라기 때문이다.
+(닥터 드레드는 보통 로봇 하수인 몇 기를 대동한다.)
+(드레드의 로봇 하수인: 레벨 3; 장갑 1; 원거리 레이저 공격으로 피해 4점)
+(닥터 드레드에게 지능 파워 시프트 3단계, 회복력 파워 시프트 2단계가 있다고 가정한다. 이 시프트는 이미 그녀의 수정치 및 기타 능력치에 반영되어 있다.)
 
-### **EARTH ELEMENTAL**    5 (15)
-An excavation, a meteor fall, a still-shuddering earthquake—all these events can summon an earth elemental to take shape and expand the destruction further.
-- **동기:** Crumble and break, reduce things to earth
-- **환경:** Anywhere solid or earthen
-- **체력:** 30
-- **피해:** 6 points
-- **장갑:** 3
-- **이동:** Immediate; short when burrowing
-- **전투:** Earth elementals batter foes with heavy fists. They can also create earthquakes (no more than once every other round) that affect the ground within short range. Creatures standing in the area fall to the ground and take 5 points of damage on a failed Might defense roll. 
-An earth elemental is vulnerable to water. Any damage it takes while standing in or being doused in water ignores its Armor.
-- **대화:** Although brooding and slow to respond if encountered as immobile stone, earth elementals are intelligent. The ones that are summoned with a spell have about a 5% chance of breaking the geas and turning on their summoner.
-- **용법:** Oddly articulated monoliths were discovered high in the mountains around a shrine containing an ancient treasure. A merchant wants someone to investigate the monoliths in case they represent a trap. In fact, the monoliths are inactive earth elementals.
-- **마스터 개입:** A character within range of the earth elemental’s earthquake attack must succeed on a Speed defense roll or be covered in an avalanche from a collapsing structure or cliff face.
-
-### ENTHRALLER    6 (18)
-Hundreds of thousands of years ago, enthraller ancestors psychically dominated a group of interstellar spacefarers who had the misfortune to land on the enthraller homeworld. Leapfrogging technological prowess by mentally commandeering the know-how of every new species they encountered using their stolen space vessel, the aliens fashioned the Enthraller Dominion, which stretches across vast swaths of space, cemented by the psychic control.
-Individual enthrallers are scary, but enthraller overlords are even more powerful thanks to technological aids. These include cranial circlets that give a single enthraller governor the ability to dominate a small city, solar-system-sized ring relays that boost their control across interstellar distances, and more.
-Recently, a newly contacted species of aliens developed the technological means to resist the mental influence of the enthrallers. Now war bubbles across the Enthraller Dominion. Sometimes individual enthrallers, stripped of their technological enhancements as a consequence of this war, flee into virgin space, looking for new soldiers to dominate. 
-- **동기:** Domination of other creatures
-- **환경:** Almost anywhere, alone or in groups of three
-- **체력:** 18
-- **피해:** 4 points; see Combat
-- **장갑:** 1
-- **이동:** Short
-- **조정:** Speed defense as level 4; perception and ability to detect falsehoods as level 8
-- **전투:** An enthraller usually relies on dominated minions to make physical attacks on its behalf. An enthraller can
-make a psychic attack on a creature within short range. On a failed Intellect defense roll, the target acts as the enthraller mentally commands on its next action. If the same target is affected by this dominating attack a second time within a minute, the enthraller’s mental control lasts for one minute.
-Alternatively, as its action, an enthraller can emit a psychic burst that can target up to three creatures in short range. On a failed Intellect defense roll, a victim suffers 4 points of Intellect damage (ignores Armor) and is unable to
-take actions on their subsequent turn. If the victim is attacked while so stunned, their defense rolls are hindered by two steps.
-The enthraller’s attack is a form of mental feeding. If it moves a PC down the damage track, the creature regains 4 points of health.
-- **대화:** An enthraller can communicate telepathically with characters within short range. It tries to mentally dominate whoever it runs across and will negotiate only with characters who are strong enough to harm it. Even if an enthraller makes a deal, it eventually reneges if it senses any advantage for doing so because it implicitly believes that other creatures are cattle.
-- **용법:** A spacecraft (or perhaps an escape pod) crash lands. Inside, a hurt enthraller lies in suspended animation. Investigators are unlikely to realize the enthraller’s nature beforehand, but they certainly learn if they wake the alien.
-- **전리품:** Enthrallers wear light armor suited for their forms. They might have one or two cyphers and, rarely, an artifact that boosts their already-fearsome mental capabilities.
-- **마스터 개입:** The enthraller’s intrusion into the character’s mind stirs up forgotten memories. The character must deal with the contents of these memories and perhaps why they were repressed.
-
-
-### **FALLEN ANGEL**    5 (15)
-Angels are normally associated with virtue and service to higher moral beings. But just like people, sometimes angels are tempted into impure acts. Those who stray too far over the line may fall from higher realms and be forced to walk the Earth in penance. This experience drives most fallen angels insane.
-Fallen angel abilities wax and wane according to the position of the sun. During the day, a fallen angel seems almost sane (and is less dangerous), but at night, it is volatile and threatening to everyone.
-- **동기:** Revenge (but on whom and for what isn’t clear, even to the fallen angel)
-- **환경:** Anywhere, sometimes living alone in the wilderness, other times walking - **the hard** streets of large cities
-- **체력:**25
-- **피해:** 6 points by day, 8 points at night
-- **장갑:** 2
-Movement: Short; long when flying
-- **조정:** At night, perceptions and attacks as level 7
-- **전투:** At night, a fallen angel can attack other creatures by projecting a long-range beam of burning light. Against foes within immediate range, the fallen angel manifests burning wings. A fallen angel can choose to make its attacks ignore Armor, but for each attack so modified, it loses 4 points of health.
-On the rare occasion that a fallen angel is within immediate range of another of its kind, both regain 1 point of health per round.
-By day, a fallen angel cannot project
-long-range attacks and has no visible wings with which to make melee attacks, though it may carry a melee weapon.
-- **대화:** By day, fallen angels are not automatically hostile, and they can be negotiated and reasoned with. They can seem truly angelic, though they are often confused and forgetful of their origin. But when night descends, fallen angels lose control of their faculties as they swell with rage and power. Unless a character directs a fallen angel toward another creature on which it can vent its wrath, the character becomes the object of the fury.
-- **용법:** A star slips down from the sky and lands in the country. The next day, travelers come upon a farm in the area and find everyone dead and burned. A trail of scorched earth leads up into the hills.
-- **전리품:** Fallen angels collect cyphers and usually have a few.
-- **마스터 개입:** A fallen angel’s successful attack causes the character’s cypher to detonate (if a grenade) or otherwise activate in a
-less-than-ideal fashion.
-
-
-### FUSION HOUND    3 (9)
-In radiation-scoured wastelands, either creatures adapt to the deadly energies of their environment, or they die. Fusion hounds are mutant canines able to absorb unbelievable amounts of radiation and thrive on it. They roam in packs, killing and devouring everything they come upon.
-A fusion hound’s entire head appears to be a blast of flame, and gouts of dangerous radiation flare from its body.
-- **동기:** Hungers for flesh
-- **환경:** Packs of three to eight can be found almost anywhere.
-- **체력:** 10
-- **피해:** 5 points
-- **장갑:** 1
-- **이동:** Long
-- **조정:** Speed defense as level 4; stealth and climbing as level 2
-- **전투:** Fusion hounds move very fast and use that speed to their advantage in combat. A hound can move a long distance and still attack as a single action. It can also use its action to run about in random patterns, hindering attacks against it by two steps.
-A fusion hound’s head is completely haloed in a seething mass of radioactive energy, so unlike traditional canines, it has no bite attack. Instead, it pounces on prey with its clawed forelimbs, which causes a burst of radiation to flare from its body, burning whatever it touches.
-Anyone within close distance of a fusion hound for more than one round suffers 1 point of damage in each round after the first.
-- **대화:** Fusion hounds are animals. Creatures immune to radiation sometimes train the hounds to become guardians or hunting dogs, but such creatures are rare.
-- **용법:** An NPC delivering something the characters need never made it to the rendezvous. If they backtrack to where the NPC should have come from, the PCs are attacked by a pack of fusion hounds on the road. Clearly, the courier was attacked by the pack as well, and the characters must discover if the NPC is dead or merely injured, and where the package now lies.
-- **마스터 개입:** The hound flares with energy and the character must succeed on a Might defense task or go blind for ten minutes.
-
-
-### GHOST    4 (12)
-Sounds with no apparent origin, such as the tap of footsteps on the stair, knocking behind the walls, crying from empty rooms, and haunting music, might be signs of a ghost. If the sound is accompanied by a sudden temperature drop and the breath of living creatures begins to steam, it’s a certainty.
-Ghosts are the spectral remnants of humans, which persist either as fragments of memory or as full-fledged spirits. Though their appearance varies between individuals, many appear somewhat translucent, washed out, or physically warped from their time spent as a phantom.
-- **동기:** Unpredictable (but often seeking to complete unfinished business)
-- **환경:** Almost anywhere
-- **체력:** 12
-- **피해:** 5 points
-- **이동:** Short
-- **조정:** Stealth as level 7; tasks related to frightening others as level 6
-- **전투:** A ghost doesn’t take damage from mundane physical sources, but it takes half damage from spells and attacks that direct energy, and full damage from weapons designed to affect spirits, psychic attacks, and similar attacks.
-A ghost’s touch inflicts freezing damage. Some ghosts can kill victims with fear. A ghost with this ability can attack all creatures within short range with a psychic display so horrible that targets who fail an Intellect defense roll take 4 points of Intellect damage (ignores Armor) and become terrified, freezing in place. In each subsequent round, a terrified victim can attempt an Intellect-based task to push away the fright. Each failed attempt moves the victim one step down the damage track. Not attempting to clear one’s mind of fear counts as a failed attempt. Those killed by fear are marked by expressions of horror and hair that has turned white.
-A ghost can move through solid objects of up to level 7 at will, although it can choose to pick up and manipulate objects if it focuses on them. Ghosts can also go into a state of apparent
-non-existence for hours or days at a time.
-- **대화:** Some ghosts are talkative, some don’t know they’re dead, some want help for a task
-they failed to accomplish in life, and some only rage against the living and want to bring those who yet breathe into the same colorless existence they endure.
-- **용법:** A ghost (that at first appears fully human) wants help in eradicating a guild of ghost hunters that has targeted it and a few others haunting an abandoned structure. The ghost promises to tell secrets of the afterlife to any who accept its strange offer.
-- **전리품:** A ghost usually doesn’t carry objects, though some might have a keepsake (like an amulet showing the face of a loved one) or an artifact.
-- **마스터 개입:** The character must succeed on an Intellect defense roll or be possessed by the ghost until they succeed on an Intellect-based task to push it out. While possessed, the character acts just like the ghost did when it was alive.
-
-
-### GHOUL    4 (12)
-Ghouls spend almost as much time beneath the ground as corpses do, but ghouls are very much alive. Their bodies are hairless and so porcelain-smooth that their faces are sometimes mistaken for masks, albeit gore-smeared masks. Ghouls come to the surface at night to gather humanoid remains or steal those recently interred from their graves, though many prefer to eat from still-living victims.
-Most ghouls are orgiastic eaters of human flesh, but a rare few ghoul populations are more refined. These wear clothes, have language and sophisticated customs, live in grand subterranean cities of their own design, and fight with milk-white blades of bone. These civilized ghouls claim to hold dominion over the remains of all humans, according to ancient custom, even if they only sometimes assert that privilege. They eat the dead in order to absorb residual memories left in the corpses.
-- **동기:** Hunger for dead flesh; knowledge (in certain rare cases)
-- **환경:** Anywhere above ground at night, usually in groups of three or more, or in - **subterranean lairs**
-- **체력:** 12
-- **피해:** 5 points
-- **이동:** Short
-- **조정:** Two areas of knowledge as level 5
-- **전투:** Ghoul saliva contains a paralytic agent. Ghoul bites (and weapons used by ghouls) inflict damage and, on a failed Might defense roll, render the target paralyzed for one minute. A paralyzed target can attempt a Might-based task each round to regain mobility, but for the next minute, attacks, defenses, and movement tasks are hindered.
-Ghouls can see in the dark. They’re blind in full daylight, but civilized ghouls who travel to the surface carry lenses that cover their eyes, allowing them to see without penalty in full sunlight.
-- **대화:** Common ghouls can’t be negotiated with, though a rare civilized ghoul is an excellent linguist. These latter are willing to deal in return for the body of someone who was knowledgeable or who kept valuable secrets in life.
-- **용법:** If a PC needs a piece of information not otherwise obtainable, a trip down into a ghoul city might be worthwhile, for the creatures are rumored to keep lightless libraries below the earth that store knowledge once known by humans.
-- **전리품:** If the PCs defeat a group of civilized ghouls, they might find a cypher and a few sets of black goggles that allow the wearer to look directly at the sun and see it as a pale circle.
-- **마스터 개입:** The ghoul spits in the character’s eye, directly introducing the paralytic into the victim’s bloodstream. The victim’s Might defense roll to avoid becoming paralyzed is hindered.
-
-
-### GIANT    7 (21)
-Violent storms, earthquakes, typhoons, and other natural disasters draw giants. Standing 20 to 30 feet (6 to 9 m) tall, giants delight in rampaging through the middle of such calamities, creating even more destruction. Some giants grow so powerful that they can trigger natural disasters on their own.
-- **동기:** Destruction
-- **환경:** Underground, deserts, mountaintops, and similar desolate areas
+- **동기:** 부 축적; 죽은 살점 되살리기
+- **환경:** 돈을 갈취할 수 있는 곳 어디에서나
 - **체력:** 40
-- **피해:** 9 points
-- **장갑:** 1
-- **이동:** Short
-- **조정:** Speed defense as level 5 due to size; breaks and throws objects as level 8; sees through deceptions and tricks as level 3
-- **전투:** Giants smash foes with their fists, possibly catching up to three human-sized targets with the same attack if all the targets are in immediate range of each other.
-If a giant attacks a single target, they can choose to do regular damage or to grab hold of the victim, dealing 4 points of damage instead. On their turn, the victim can attempt a Might defense roll to struggle out of the grip, a Speed defense roll to slip out, or an Intellect-based task to distract the giant. If the victim fails, the giant throws the victim as high and as far as they can on their next turn. Damage on impact varies, depending on the environment, but a victim takes an average of 10 points of ambient damage.
-A few giants can generate storms, tidal waves, earthquakes, and similar phenomena that can lash an area up to 1,000 feet (300 m) across for up to a minute, inflicting 3 points of damage each round to all creatures and objects not protected by shelter designed to withstand a storm (though few shelters protect against an earthquake).
-- **대화:** Most giants are not very bright. When a giant is rampaging, someone could attempt to distract them by singing, juggling, or doing some other trick, which some giants will pause to watch for at least one or two rounds.
-- **용법:** A giant came down out of the mountains and laid waste to half the nearby village. Survivors will pay someone to venture into the giant’s mountain lair and destroy the creature.
-- **전리품:** Individual giants carry little, but giant lairs may contain currency equivalent to 1d6 expensive items, 1d6 cyphers, and a couple of artifacts.
-- **마스터 개입:** The giant’s blow sprains one of the character’s limbs, making it useless for ten minutes.
-
-### GIANT RAT    3 (9)
-Giant rats are as large as big attack dogs, just as vicious, and more wily. Some giant rats are the lone matriarchs of a pack of ordinary level 1 rats, and others are just one of several making up a colony of oversized rodents. Like their smaller cousins, giant rats are known for harboring virulent disease.
-- **동기:** Defense, reproduction
-- **환경:** Anywhere in ruins or sewers, in groups of one to seven 
-- **체력:** 18
-- **피해:** 4 points
-- **이동:** Short; long when jumping
-- **조정:** Perception as level 4; tasks related to overcoming obstacles and puzzles as level 5
-- **전투:** Victims damaged by a giant rat’s diseased teeth and claws take 4 points of damage and, on a failed Might defense roll, are infected with a level 5 disease. Within twelve hours, the victim’s lymph glands swell, creating visible buboes. Every twelve hours thereafter, the victim must succeed on a Might defense roll or take 5 points of ambient damage.
-- **대화:** Giant rats stubbornly pursue prey, but they flee if that prey proves to be too strong.
-- **용법:** A contact of the PCs dies of plague before they can deliver an important message. The PCs will have to backtrack the contact’s movements to discover what they wanted to say, which leads to a giant rat colony.
-- **마스터 개입:** A swarm of twelve ordinary rats—each level 1, but acting like a level 3 swarm—is summoned by the high-pitched squeaking of a giant rat.
-
-
-### GIANT SNAKE     4 (12)
-Those about to stumble into the presence of a giant snake at least 50 feet (15 m) long are warned by the skin it shed and discarded and by the cracked, slippery bones of digested victims. 
-- **동기:** Hungers for flesh
-- **환경:** Anywhere a giant snake can lurk, including jungles, sewers, caves, and - **spacecraft access** tubes
-- **체력:**18
-- **피해:** 5 points or more; see Combat
-- **장갑:** 2
-Movement: Short
-- **조정:** Perception and stealth as level 6; Speed defense as level 3 due to size
-- **전투:** A giant snake bites foes, preferably from ambush, hindering the target’s Speed defense by two steps. If it succeeds, the snake’s bite deals 8 points of damage for that attack. On a failed Might defense roll, a bite also inflicts 3 points of Speed damage (ignores Armor). A giant snake may coil around a sleeping, stunned, or debilitated victim. Caught victims automatically take 5 points of crushing damage each round until they break free.
-Giant snakes lose their perception and stealth modifications in cold climates and when attacked with abilities that reduce the temperature. Thus, the creatures retreat from cold.
-- **대화:** A giant snake is a predator that regards other creatures as food, though it ignores them when it is already busy digesting a meal.
-- **용법:** Characters note something amiss as they glimpse lambent eyes peering from the darkness, glaring as if seeking to pin victims in place with cold terror.
-- **전리품:** A giant snake’s droppings or gullet might hold a few cyphers and possibly an artifact that the creature could not digest.
-- **마스터 개입:** The snake’s venom affects the character more strongly. Instead of merely inflicting Speed damage, it also paralyzes the character for one minute, though after a couple of rounds, the victim can make another Might defense roll to throw off the effects of the poison early.
-
-
-### GIANT SPIDER    3 (9)
-Giant spiders result most commonly from radioactive accidents, magic, or genetic manipulation. Whatever their origin, they’re terrifying hunters large enough to predate people. The creatures range from the size of a large dog to the size of a large horse.
-- **동기:** Hungers for blood
-- **환경:** Anywhere webs can be spun in the dark
-- **체력:** 12
-- **피해:** 3 points
-- **이동:** Short; long when traveling on their webs
-- **조정:** Perception as level 5; Speed defense as level 4 due to quickness
-- **전투:** A giant spider’s envenomed fangs inflict 3 points of damage, plus 3 points of Speed damage (ignores Armor) if a victim fails a Might defense roll. Debilitated victims are not killed but instead cocooned and hung for later dining. Giant spider webs (level 4) can hold victims immobile and unable to take actions until they manage to break free.
-Giant spiders lose their perception and Speed defense modifications in bright light and thus often retreat from intense illumination.
-- **대화:** Most giant spiders are simple predators and react accordingly.
-- **용법:** Giant spider webs can infest unlit alleys, dungeon corridors, dark forests, and darkened hallways of decommissioned genetic labs.
-- **전리품:** Cocooned corpses of previous victims hanging in a giant spider’s web sometimes contain all manner of valuables, including cyphers.
-- **마스터 개입:** Giant spider eggs hatch, and a level 3 swarm of tiny spiders attacks the character.
-
-             
-
-
-
-### Goblin    1 (3)
-Goblins are wicked, grasping, and perversely resourceful. Usually no larger than children, they can seem like pesky rabble, but that illusion hides something altogether more cunning. Tribe members work together to accomplish their goals of murder, kidnapping, and theft.
-- **동기:** Greed and theft
-- **환경:** Tunnels and caves, usually in groups of ten or more
-- **체력:** 3
-- **피해:** 2 points
-- **이동:** Short
-- **조정:** Tasks related to perception, stealth, and setting traps as level 5
-- **전투:** Goblins attack from the shadows with ambushes and hit-and-run tactics. When they have surprise, they attack as level 4 creatures and deal 2 additional points of damage, and they attempt to draw larger prey into level 5 traps they’ve previously set. They often flee in the face of real danger.
-- **대화:** Goblins are lying tricksters but can be cowed into cooperating for short periods.
-- **용법:** Thieves and murderers, goblins are foes to all, even rival goblin tribes.
-- **전리품:** Aside from weapons, each goblin carries a personal stash, including bones, shiny rocks, sticks, and other bits of worthless trash, plus currency equivalent to an inexpensive item.
-- **마스터 개입:** The goblin poisoned its knife. If struck, the character must make a Might defense roll or immediately move one step down the damage track.
-
-
-### GOLEM    6 (18)
-Animate creatures of stone created by magic for a specific purpose, golems usually serve as guardians. However, they may also serve as soldiers, couriers, and banner-bearers. Golems that have accomplished their task may spend years without moving, like statuary posed in unexpected places—stained, eroded, and forlorn. But if disturbed, a golem rumbles back to movement and attempts to restart the last task assigned to it by its maker.
-- **동기:** Seeks to fulfill the commands of its creator
-- **환경:** Anywhere that needs a sturdy magical guardian
-- **체력:** 30
-- **피해:** 8 points
-- **장갑:** 5
-- **이동:** Short
-- **조정:** Intellect defense as level 2; Speed defense as level 4 due to slowness
-- **전투:** Skilled with large two-handed weapons, golems inflict 2 additional points of damage (total of 8 points) when using them. Golems cannot be stunned or dazed. They are immune to most poisons and disease, and 2 of their 5 points of Armor protect against ambient damage (environmental damage, heat, cold, falling, and so on).
-On the other hand, golems are activated by light, even light as dim as a candle. In complete darkness, a golem is blind and suffers penalties to attack and defend normally. A golem subject to complete darkness may choose to freeze in place like a statue. When one does so, its Armor increases to 10 (and Armor against ambient damage increases to 5), but it can take no actions, including purely mental actions. Unless something can damage the golem through its Armor, it remains frozen indefinitely or until light returns.
-Even if a golem is completely destroyed, the rubble of its form slowly reassembles over the course of three days, unless that rubble is ground to the finest gravel and spread widely.
-- **대화:** Most golems can’t speak. Those that can are mournful, and a few have become cruel in their isolation, but at heart, all are lonely. Many are also tired of their stone existence, in which they can move but not really feel, and they wish for some sort of final end.
-- **용법:** Powerful sorcerers sometimes create golems and press them into service with yet more spells. These golems prove to be tough bodyguards, but sometimes the futility of such service overcomes a golem and it turns on the sorcerer, breaking free of the binding spells in its rage over being denied the peace of death.
-- **마스터 개입:** The character hit by the golem is also grabbed and headbutted for 6 additional points of damage. The victim must break or slip free, or else they remain in the golem’s grip.
-
-### GREY    4 (12)
-Greys are enigmatic creatures born of alien stars (or dimensions) who have learned to move across the vast distances that bridge neighboring star systems. The creatures descend through the atmosphere under the cover of night to abduct specimens for study and return the victims later after a thorough examination. Returned abductees are usually befuddled and confused, and they retain little memory of what happened to them. Victims of the greys’ examination frequently sport strange marks on their flesh, oddly shaped wounds, gaps where teeth used to be, and strange or unknown metal lodged somewhere under the skin.
-A grey stands 3 feet (1 m) tall. It has a narrow body with skinny limbs and a large, bulbous head. Two large black eyes, almond shaped, dominate a face that has only a suggestion of a nose and a narrow mouth. Greys wear skintight uniforms, carry numerous instruments to study their environments, and keep a weapon or two for protection.
-- **동기:** Knowledge
-- **환경:** Greys land their spacecraft in remote areas, where they have minimal risk of discovery. 
-- **체력:** 12
-- **피해:** 6 points
-- **장갑:** 1
-Movement: Short
-- **조정:** All tasks related to knowledge as level 6; Speed defense as level 5 due to size and quickness
-- **전투:** A grey carries a powerful ray emitter that can burn holes through solid steel. The grey can use the emitter to attack targets within long range. Against dangerous opponents, a grey can use an action to activate a personal shield that encapsulates it in a bubble of force. The shield gives it +3 to Armor, but while the shield is active, the grey can’t fire its ray emitter.
-Greys are scientists, but cautious ones. Leaving a trail of corpses as evidence of their existence isn’t their preferred mode of operation. For this reason, one grey in every group has a memory eraser. When this grey activates the device, each target other than a grey within short range must succeed on an Intellect defense roll or become stunned for one minute, taking no action (unless attacked, which snaps the victim out of the condition). When the effect wears off naturally, the target has no recollection of encountering little grey creatures.
-- **대화:** Greys are curious about the places they visit but reluctant to move or act in the open. Secretive and mysterious, they prefer to observe creatures from afar and, on occasion, pick them up for closer inspection. Someone who offers a grey true knowledge might be treated as an equal rather than a lab animal.
-- **용법:** The PCs are called to investigate a series of disappearances of animals and people. One by one, the abductees return, usually in odd places, and always bearing physical markings that suggest they were subjected to invasive procedures. To protect others from a similar fate, the PCs must catch the abductors in the act.
-- **전리품:** A grey has one or two cyphers and might have a memory
-eraser that works as described under Combat (depletion roll
-of 1–2 on a 1d10).
-- **마스터 개입:** A grey’s ray emitter suffers a terrible mishap and explodes. The device kills the grey and destroys its body completely. For the next day, creatures that come within a short distance of where the grey died take 4 points of ambient damage from the psychic radiation each round they remain there.
-
-
-### KAIJU    10 (30)
-Kaiju come in a variety of shapes, but all share one difficult-to-ignore quality: mind-blowing size. Appearances of these colossal creatures are rare events that usually don’t last for more than a few days. In that sense, they’re akin to hundred-year storms and at least as destructive. When they emerge, they’re attracted by artificial structures, the more densely situated and elaborate the better, which they set to smashing with a vengeance. It’s hard to judge the size of things so far outside normal scale, but good estimates put most kaiju at over 300 feet (90 m) in height.
-Kaiju rely primarily on their strength and mass, but many have some additional trick or ability that sets them apart from their kin, which usually translates into even more devastation.
-The other quality all kaiju share is the talent of hiding after a rampage by diving into a nearby sea or burrowing deep into the earth. Sometimes the same kaiju will appear again days, months, years, or decades later, attacking the same location or someplace entirely new.
-- **동기:** Destruction
-- **환경:** Usually near communities containing many high structures
-- **체력:** 140
-- **피해:** 18 points
-- **장갑:** 5
-- **이동:** Short
-- **조정:** Speed defense as level 8 due to size
-- **전투:** A kaiju can punch, kick, or deliver a tail or tentacle lash at something within long range. Damage is inflicted on the target and everything within short range of the target, and even those that succeed on a Speed defense roll take 7 points of damage.
-Kaiju heal quickly, usually at a rate of 2 points per round.
-Kaiju are rare and devastating enough that most are dubbed with a unique identifier by survivors. The entry for each creature below notes only where it varies from the base creature described above.
-Rampagion: This kaiju has been estimated to be almost 1,000 feet (300 m) high. Once per day, it can make a charging trample attack, dealing its damage in a line 300 feet (90 m) wide and 2 miles (3 km) long. Rampagion has 10 Armor and deals 20 points of damage with a physical attack (or 8 points if a victim makes a successful Speed defense roll).
-Suneko: This kaiju’s body, which resembles a cross between a lion and a lizard, is so hot that its skin glows like red coals, its mane like the sun’s corona, and its eyes like beaming searchlights. Suneko automatically deals 10 points of damage to everyone within immediate range. The creature can emit twin rays of plasma from its eyes in a focused beam that can reach as far as the horizon, which from Suneko’s height above the ground is about 22 miles (35 km). When it makes its eyebeam attack, it stops emitting killing heat in immediate range for about one minute.
-- **대화:** Most PCs can’t directly interact with a kaiju unless they have some special device or association allowing them to get the attention of one of the massive creatures. Doing so could give the characters a chance to trick or lure the beast, or maybe even persuade one kaiju to fight another.
-- **용법:** After seeing the devastation caused by a kaiju, the PCs might decide (or be asked) to find a way to stop a projected future appearance by the same creature.
-- **마스터 개입:**
-The character gains the direct attention of the kaiju. If the kaiju attacks the character, They are awarded 5 XP, only 1 of which they have to give to a friend.
-
-
-### **KILLER CLOWN**    5 (15)
-A clown—whether it’s a doll or what seems to be a person wearing clown makeup—could be entirely benign. But if you see one sitting alone in a dark room, lying under your bed, or gazing up at you through the sewer grate in the street, it might be a killer clown. Killer clowns might be evil spirits possessing someone or an insane person living out a homicidal fantasy. Either way, they’re as dangerous as anything you’ll ever likely meet. If you see a clown, run. Because it might be a killer.
-- **동기:** Homicide
-- **환경:** Almost anywhere
-- **체력:** 25
-- **피해:** 5 points
-- **이동:** Short
-- **조정:** Detecting falsehoods, deception, and persuasion as level 7
-- **전투:** A killer clown attempts to deceive its victim into believing that the clown is a friend. In fact, the clown is setting up an ambush where the victim can be strangled to death in private. When a killer clown successfully attacks, it inflicts 5 points of damage and locks its hands around the victim’s neck. In each round that the victim does not escape, it suffers 5 points of damage from being strangled.
-Some killer clowns know tricks that border on the supernatural. Such a clown may do one of the following as its action during combat.
-
-d6
-Clown Trick
-1
-Reveal a secret that one character is keeping from
-one or more of their allies.
-2
-Poke target in the eyes as a level 6 attack, blinding
-target for one minute.
-3
-Activate a trapdoor beneath victim that drops them 20 feet (6 m)
-into a cellar or basement.
-4
-Disappear into secret door or hatch and reappear  somewhere
-hidden within short range.
-5
-Jab target in the throat as a level 6 attack; resulting coughing fit
-causes target to lose next action.
-6
-Down an elixir or energy drink that heals the killer clown of all
-damage sustained.
-
-
-- **대화:** A killer clown is all jokes, magic tricks, and juggling, until it decides it’s time to strike.
-- **용법:** The creepy circus that just pulled into town is guarded by a killer clown, as late-night investigators soon learn.
-- **전리품:** A killer clown might have one or two cyphers in the form of a joy buzzer, cards, and cheap trinkets.
-- **마스터 개입:** The clown snatches a weapon, cypher, or other object from the character’s hand as a level 6 attack, and if successful, immediately uses it on the character.
-
-
-### **KILLING WHITE LIGHT**    5 (15)
-A killing white light isn’t a subtle hunter. At a distance, the creature is an eye-watering point of brilliance. When it closes in, it is nothing less than blinding, though its emanation isn’t warm. Despite the blazing intensity, a killing white light is as cold as starlight on a December night, sapping heat and life from living things caught in its radiance.
-By day, a killing white light is usually inactive. During this period, the creature hibernates in darkened areas, as if unwilling or unable to compete against the sun. 
-- **동기:** Eliminate organic life
-- **환경:** Almost anywhere dark
-- **체력:** 15
-- **피해:** 5 points
-- **장갑:** 1
-- **이동:** Short when flying
-- **전투:** An active (glowing) killing white light can attack one target within immediate range each round with a pulse of its brilliant nimbus. A character who fails a Speed defense roll against the attack takes damage and experiences a cooling numbness. A victim killed by the creature is rendered into so much blowing ash, though their clothing and equipment are unharmed.
-As it attacks, a killing white light emits a blinding nimbus of illumination that affects all creatures within short range. Targets in the area must succeed on a Might defense roll each round or be blinded for one round. A character in the area can avert their eyes when fighting a killing white light to avoid being blinded, but attacks and defenses are hindered for those who do so. 
-A killing white light is vulnerable to strong sources of light other than its own. If exposed to daylight or caught in a high-intensity beam of light (such as a spotlight), the killing white light falters and takes no action for one round, after which it can act normally. However, if the competing light persists for more than three or four rounds, the creature usually retreats to a darkened place of safety.
-- **대화:** A killing white light is too alien for interaction and may not be intelligent in a way humans can understand.
-- **용법:** An inactive killing white light (which looks something like an albino lump of volcanic glass) is sometimes mistaken for a cypher whose properties can’t quite be identified—until the creature becomes active, at which point its true nature is revealed.
-- **마스터 개입:** Normally resistant to interaction, a killing white light uses its blazing nimbus to burn an alien glyph of uncertain meaning in the character’s flesh before the creature fades like a light bulb switched off.
-
-
-### MECHANICAL SOLDIER    4 (12)
-Clockwork automatons powered by steam, these mechanical men patrol about and guard locations of importance to their makers. Lanky and awkward in their movements, these quasi-humanoid automatons stand almost 8 feet (2 m) tall. In their three-fingered hands, they wield a variety of weapons.
-A few people have wondered if a gear-driven soldier could ever truly attain sentience. Most scoff at the suggestion, but is that a gleam in the glass lens of its eye?
-- **동기:** Incomprehensible
-- **환경:** Anywhere, usually in groups of three to eight
-- **체력:** 15
-- **피해:** 4 points
-- **장갑:** 3
-- **이동:** Short
-- **조정:** Perception as level 5; leaps, runs, and balances as level 3
-- **전투:** Mechanical soldiers attack in groups using well-organized tactics. Although they can speak, they transmit information to one another silently and instantly within a 100-mile (160 km) range via wireless radio transmissions.
-Soldiers armed with advanced weaponry typically carry rifle-like guns that can fire multiple rapid shots without reloading. The soldiers fire at up to three targets (all next to one another) at once. For each target after the first, defense rolls are eased.
-In addition, one in four soldiers carries a back-mounted device that hurls bombs at long range with deadly accuracy. They explode in immediate range for
-4 points of damage. Each device holds 1d6
-such bombs.
-A mechanical soldier that has lost its original weaponry scavenges whatever is available.
-Certain frequencies of sound confuse these clockwork soldiers, hindering all their actions by two steps, and other frequencies prevent them from acting at all for 1d6 + 1 rounds.
-- **대화:** On their own, mechanical
-soldiers act on prior orders. Otherwise, they listen to and obey their creator—and only their creator.
-- **용법:** An enterprising bandit has captured and repurposed a number of mechanical soldiers, probably using sound. These soldiers remember nothing of their former duties and work for their new master as high-tech brigands and pirates. The bandit has no idea how to repair them if they are damaged, much less make new soldiers.
-- **전리품:** A determined scientist might scavenge the body of one of these automatons to find a cypher.
-- **마스터 개입:** The destroyed soldier explodes in a gout of flame, black smoke, and steam, inflicting 6 points of damage to all within immediate range.
-
-
-### **MI-GO**    5 (15)
-These extraterrestrial creatures are known as the Fungi from Yuggoth or the Abominable Ones. They are a bizarre amalgam of insect and fungal entity, with many limbs and wings that can carry them aloft. They sometimes enslave humans to work for them in strange factories, mines, or other
-labor-intensive capacities.
-- **동기:** Knowledge and power
-- **환경:** Usually cold or temperate hills or mountains
-- **체력:** 19
-- **피해:** 5 points
-- **장갑:** 1
-- **이동:** Short; long when flying
-- **조정:** All knowledge tasks as level 6
-- **전투:** Mi-go defend themselves with pincers and claws but are more likely to use technological devices as weapons. Assume that a mi-go has one of the following abilities from a device:
-Project a blast of electricity at long range that inflicts 6 points of damage
-Emit poison gas in a cloud that fills to short range and inflicts 4 points of Intellect damage if the victim fails a Might defense roll (the mi-go is immune)
-Project a holographic image of itself to one side that hinders attacks aimed at the real mi-go by two steps
-Project a sonic field that provides +2 to Armor
-Mi-go have access to other devices as well, including translators, cylinders that can preserve a human’s brain without its body, sophisticated tools, collars that control the actions of their wearers, and weird vehicles. Mi-go suffer no damage from cold and do not need to breathe.
-- **대화:** Although very few mi-go speak human languages, peaceful interaction with these creatures is not impossible. It’s just very difficult (level 7), as they see most humans as little more than animals.
-- **용법:** The characters are attacked by mi-go intent on capturing and enslaving them. If caught, the PCs are sent to scavenge through primordial ruins for disturbing technological relics.
-- **전리품:** Mi-go always have 1d6 cyphers as well as many curious objects that have no obvious human function.
-- **마스터 개입:** Fungal spores from the mi-go’s body overcome the character, who must succeed at a Might defense roll or lose their next turn. The character faces this risk each round they are within immediate distance of the creature.
-
-### MOKUREN    3 (9)
-Mokuren are usually no larger than a cat, but they possess the ability to swell until they’re the size of a bus (if only briefly). That ability, combined with their flashy pyrokinetic tails, make these creatures a particular favorite with children, at least in stories and picture books. Given that mokuren can “burrow” into paintings and other two-dimensional art, it’s possible that some mokuren images are more than simple representations.
-- **동기:** Play
-- **환경:** Almost anywhere, usually as static images on walls or in storybooks
-- **체력:** 9
-- **피해:** 3 points, unless enlarged; see Combat
-- **이동:** Short; long if flying
-- **조정:** Defends as level 5 due to size, unless enlarged; see Combat
-- **전투:** A mokuren exists in three states: as an image, as a cat-sized creature, and as a bus-sized behemoth.
-As an image, a mokuren can’t be harmed. Even if the image is defaced, the mokuren merely “burrows” away and reappears like graffiti on a new flat space within a few miles.
-Alternatively, it could emerge from the image and become a physical cat-sized creature as a move. In this form, a mokuren can attack with its claws or bite. It can also direct a stream of fire from its glowing tail at a target within long range. (When a mokuren flies, it’s by using its tail to create a jet that rockets it skyward.)
-Finally, it can make an enlarged attack, in which it swells to the size of a bus and swipes at, bites, or lands on a target as part of the same action. When enlarged, the mokuren gains +5 to Armor and makes and defends against all attacks as a level 7 creature. On a hit, the enlarged mokuren deals 7 points of damage. However, a mokuren can remain enlarged for a total of only four rounds during any twenty-four-hour period, so it uses this ability sparingly or only when enraged.
-- **대화:** To see an active mokuren is considered good luck, unless you manage to get on the wrong side of one. Then an offering of sweets must be made to the offended creature. A mokuren can’t talk, but it can understand the languages where it lives about as well as a trained courser or hound can.
-- **용법:** A mokuren can lead characters into unexplored areas, helping them find places they may have overlooked or skipped. It can also lead PCs into danger, but it usually does so only to bring aid (the characters) to someone else in trouble.
-- **마스터 개입:** The character hit by the mokuren doesn’t take damage. Instead, they must succeed on a Might defense roll or be pulled into the nearest wall, floor, or book with the creature, becoming a two-dimensional image. In this state, the victim is in stasis until the mokuren pulls them free, another creature “pries” them loose, or a day passes and the effect ends naturally.
-
-
-
-
-
-### NUPPEPPO    2 (6)
-Nuppeppos are animated lumps of human flesh that walk on vaguely defined limbs. They smell of decay and death. They’re spotted in graveyards, battlefields, coroner’s offices, and other places where the dead are kept or interred. When witnessed in other places, nuppeppos seem to wander streets aimlessly, sometimes alone, sometimes in groups, and sometimes following a living person who’d rather be left alone.
-Information about these creatures is scarce. They might be the unintended consequence of a reanimation attempt, one that’s able to catalyze its animation in similarly dead tissue to form more nuppeppos. On the other hand, they could be particularly gruesome spirits of the dead.
-A nuppeppo sometimes follows a living individual around like a silent, smelly pet that shows no affection. No one knows why. 
-(If a nuppeppo begins to follow a character, interaction tasks by that character and their allies are hindered. Most other creatures are put off by a lump of animate human flesh hanging around nearby.)
-- **동기:** Wander, graze on dead flesh
-- **환경:** Near places of death at night, alone or in groups of up to eight 
-- **체력:** 12
-- **피해:** 4 points
-- **장갑:** 1
-- **이동:** Short
-- **전투:** A nuppeppo can smash a foe with one of its lumpy limbs. If a nuppeppo is touched or struck in melee, the attacker’s weapon (or hand) becomes stuck to the nuppeppo and can be pulled free only with a difficulty 5 Might roll.
-A victim of a nuppeppo’s attack (or someone who touches a nuppeppo) begins to decay at a rate of 1 point of Speed damage (ignores Armor) per round, starting in the round following contact. To stop the spread of the decay, the victim can cut off the layer of affected flesh, which deals 4 points of damage (ignores Armor).
-- **대화:** If approached, a nuppeppo turns to “face” its interlocutor, but it doesn’t respond to questions or orders. However, it may begin to follow its interlocutor from that point forward unless physically prevented—at which point the nuppeppo becomes violent.
-- **용법:** The PCs open a grave, a coffin, or a sealed research lab, and several nuppeppos spill out. Unless stopped, the creatures attempt to “adopt” their discoverers.
-- **마스터 개입:** The character who allowed the nuppeppo to follow them around like a pet (or who has been unable to prevent it) wakes to find that the creature has settled upon them in the night and is using its touch-decay abilities to feed. In fact, the character might already be incapacitated by the time they wake.
-
-### OGRE    4 (12)
-A bestial brute, the ogre is a sadistic, 8-foot (2 m) tall, cannibalistic fiend that preys upon other creatures in the woods, mountains, or other wilderness areas. This often pits them against sylvan beings like elves and fey. Ogres dwelling in more civilized lands are also the enemy of humans, but these ogres usually come no closer to civilization than its very fringes.
-Ogres typically dress in ragged, piecemeal clothing or nothing at all.
-- **동기:** Hungers for flesh, sadistic
-- **환경:** Anywhere, usually alone or (rarely) in a band of three or four
-- **체력:** 20
-- **피해:** 8 points
-- **장갑:** 1
-- **이동:** Short
-- **조정:** Feats of raw strength as level 6; Intellect defense and seeing through deception as level 3; Speed defense as level 3 due to size
-- **전투:** Ogres usually use clubs or large, two-handed weapons with great power. Since they are accustomed to fighting smaller creatures, they are adept at using their size and strength to their advantage. If an ogre strikes a foe smaller than itself, either the victim is knocked back up to 5 feet (1.5 m), or it is dazed, which hinders its next action.
-Ogres can also swing their huge weapons in wide arcs, attacking all foes within close range. Defending against this attack is hindered and the attack inflicts 5 points of damage.
-Ogres rarely flee from a fight, and only a foe of overwhelming power can force them to surrender.
-- **대화:** Ogres are stupid and cruel. They speak whatever language is most common in the area in which they live, but their vocabulary is extremely limited. They don’t like conversation, even with their own kind. Reasoning with them is difficult at best, but sometimes they can be fooled.
-- **용법:** A solitary ogre is an excellent encounter for a group of first-tier characters. A number of ogres, particularly well-equipped and well-trained warriors, make excellent troops or guards in the service of a powerful master. Evil wizards and warlords like to enslave ogres and place them at the forefront of their armies. In these cases, the ogres are typically bribed, ensorcelled, or intimidated by great force.
-- **전리품:** Some ogres hoard gold or other valuables in their lairs, but they rarely have use for magic or cyphers.
-- **마스터 개입:** The ogre’s mighty blow (whether it strikes a foe or not) hits the ground or the wall, causing major structural damage and a possible collapse, cave-in, or landslide. It might also expose a hidden underground cave or chamber.
-
-
-### ORC    2 (6)
-Born into squalor and fear, the orc species is composed of miserable, misbegotten humanoids that seem destined to serve as fodder for more powerful evil overlords. When left to their own devices, these loathsome creatures turn on each other, the strongest oppressing the next weakest (and so on down the line) with cruel barbs, gruesome jokes, and physical beatings. When these creatures have no masters to hate, they hate themselves.
-No two orcs look exactly alike, but all have a mean, ugly, and shambolic facade. Never clean and often spattered with the remains of recent meals, orcs have a mouthful of sharp, broken teeth that can develop into true fangs. Adults range in height from no larger than a human child to massive specimens larger than a strapping man. Whether big or small, nearly all orcs have stooped backs and crooked legs. The hue of their skin is hard to ascertain, because they are covered by the sediment of years, not to mention the iron armor every orc constantly wears from the moment it’s able to lift a weapon.
-- **동기:** Make others more miserable than itself
-- **환경:** Anywhere near, on, or under mountains, usually in groups of four to six, - **or in** tribes dozens to hundreds strong
-- **체력:**7
-- **피해:** 4 points
-- **장갑:** 2
-Movement: Short
-- **조정:** Speed defense as level 3 when carrying a shield; pleasant interactions as level 1
-- **전투:** Most orcs have bows able to target foes within long range. Some carry a shield and wield a medium axe, sword, or mace that inflicts 4 points of damage. Other orcs (usually those that are larger than their fellows) dispense with shields and wield heavy two-handed mauls and hammers that inflict 6 points of damage.
-Orcs live short, brutish lives. The few that survive for years do so because of some special advantage; they’re sneakier, stronger, tougher, or meaner than average. These have the following modifications, respectively:
-* Stealth tasks as level 5
-* Deal 2 additional points of damage with melee weapons
-* +10 health
-* Tasks related to trickery and deceit as level 5
-- **대화:** An orc would stab its own mother if it thought doing so would give it another hour of life in a desperate situation. That said, most orcs have been conditioned, through beatings and torture, to fear the evil master they serve (if any). Characters attempting to negotiate with an orc through intimidation find that short-term success is followed by medium-term betrayal.
-- **용법:** A band of orcs fires on the PCs from the edge of the forest. However, these orcs are crafty, and characters who rush directly into combat might fall victim to a hidden pit trap or other prepared ambush.
-- **전리품:** Orcs carry a lot of garbage. Amid this dross, a band of orcs might have currency equivalent to a moderately priced item among them.
-- **마스터 개입:** With a scream of savage glee, five more orcs rush to join the fight.
-
-
-### **PRINCE(SS) OF SUMMER**    5 (15)
-Fey nobility are as numberless as cottonwood seeds on the June breeze. But that doesn’t mean each isn’t unique, with a quirky personality and a specific role to play in the mysterious Court of Summer. Demonstrating life, vigor, predation, growth, and competition, the princesses and princes of summer are beings of warmth and generosity, usually. But catch them during the change of the season, and they can be deadly adversaries just as easily. Fey nobles dress in costly diaphanous and flowing garments, and often wear some sign of their noble lineage, such as a circlet or diadem.
-- **동기:** Unpredictable; defend fey territory and prerogatives
-- **환경:** Almost any wilderness region alone or commanding a small group of lesser - **faerie creatures** 
-- **체력:**22
-- **피해:** 5 points
-- **장갑:** 2
-Movement: Short; short when gliding on the wind
-- **조정:** Tasks related to deception, disguise, courtly manners, and positive interactions as level 7
-- **전투:** Most fey princesses and princes are armed with an elegant sword and possibly a bow carved of silverwood. Also, each knows one or more faerie spells. Faerie spells include the following.
-Brilliant Smile: Target must succeed on an Intellect defense task or do the fey creature’s will for up to one minute.
-Golden Mead: Allies who drink from the fey’s flask gain an asset to all defense tasks for ten hours.
-Night’s Reward: Target suffers 5 points of Intellect damage (ignores Armor) and must make an Intellect defense roll or fall asleep for up to one minute.
-Summer Confidence: Selected targets in short range have an asset on tasks related to resisting fear and acting boldly.
-Thorns: Target suffers 5 points of Speed damage (ignores Armor) and must succeed on a Might defense task or lose their next turn entangled in rapidly grown thorny vines.
-Princes and princesses of summer regain 2 points of health per round while their health is above 0 unless they’ve been damaged with a silvered or cold iron weapon.
-- **대화:** Most fey are willing to talk, and those of the Summer Court are especially eager to make deals. However, people who bargain with fey nobles should take care to avoid being tricked.
-- **용법:** The characters find a fey noble wounded and in need of aid.
-- **전리품:** In addition to fine clothing, fine equipment, and a considerable sum of currency, a prince or princess of summer might carry a few cyphers and even a faerie artifact.
-- **마스터 개입:** The character is blinded for up to one minute by a shaft of brilliant sunlight unless they succeed on a Might defense task. 
-
-
-### PUPPET TREE    6 (18)
-A puppet tree is a 25-foot (8 m) tall, spiky, orange and blue tree surrounded by a large area of red reeds that tremble and wave enticingly even when no wind is present. Humanoid figures are often gathered around it, but these rotted, overgrown corpses are the tree’s victims, dead but serving as fleshy puppets to the tree’s will.
-Victims drained of knowledge and life are used as lures to draw in yet more victims, at least until the bodies rot away. When not used as lures, the corpse puppets are sent to scout nearby areas.
-(Corpse puppet: level 2; struck targets must also succeed on a Might defense task or be grabbed until they can escape; all tasks attempted by the grabbed target are hindered; free-roaming puppets remain animate for one day)
-- **동기:** Hungers for fresh bodies
-- **환경:** On hilltops, isolated from other plant life
-- **체력:** 33
-- **피해:** 8 points
-- **장갑:** 3
-- **이동:** None
-- **조정:** Speed defense as level 5 due to size and immobility; deception and disguise (puppeteering corpses to act in a lifelike manner) as level 7
-- **전투:** Some of the red reeds surrounding a puppet tree end in a hard,
-sharp crystal spike. When a living creature comes within short
-range of the tree, the reeds rise behind the target and try to skewer them through the head or neck with the spike. If a target is killed by these attacks, the puppet tree controls the body as a corpse puppet, using it to enact its plans. Over time these humanoids rot and are overgrown by the biology of the plant, losing utility for the tree. Most trees have about five corpse puppets active, which can be simultaneously animated to attack foes.
-A puppet tree is vulnerable to fire. All fire attacks against the tree inflict 2 additional points of damage and ignore Armor. The puppet tree will always attempt to stop a fire, or target the source of flame during combat.
-A corpse puppet can be detached and sent roaming; however, it retains only about a day’s worth of animation, after which it collapses and molders like a normal corpse. Sometimes, however, a sapling puppet tree blooms from the remains.
-- **대화:** Puppet trees are highly intelligent, but malevolent. Even if communication can be opened via telepathy or some other means, the tree will always attempt to double-cross the PCs.
-- **용법:** The PCs spy a group of “people” having a picnic under a strange-looking tree in the middle of nowhere.
-- **전리품:** Possessions of former victims can be found in the red reeds, usually including a moderate amount of currency and various bits of gear. Devices of victims (if any) are collected by the corpse puppets and cobbled together into a strange machine, its purpose inexplicable.
-- **마스터 개입:** Two corpse puppets, unseen in the red reeds, rise and seize a character in an attempt to hold them still for a crystal spike attack. The character must make a difficulty 4 Speed or Might task to shake free.
-
-### RAVAGE BEAR    4 (12)
-A ravage bear is a hideous predator that hunts entirely by sense of smell. It is blind and nearly deaf, but it still tracks and senses prey easily. It is very protective of its young, and if hungry, it is extremely dangerous. Otherwise, it gives most creatures a wide berth.
-- **동기:** Hungers for flesh
-- **환경:** Alone or in pairs (usually with a few cubs) in wooded, rocky, or - **mountainous areas**, typically in cold or temperate climes
-- **체력:**20
-- **피해:** 7 points
-- **장갑:** 1
-Movement: Long
-- **조정:** Makes Might defense rolls as level 6; runs, climbs, and jumps as level 7
-- **전투:** A ravage bear grabs foes with its powerful arms, holds them fast, and then squeezes and tears at them until they are dead. It can hold only one creature at a time. While a ravage bear is holding a creature, it can attack only the held creature. In each round that a held creature does not escape, it suffers 4 points of damage in addition to damage from attacks made against it.
-A ravage bear can move very quickly in short sprints. In combat, it can go into an insane fury and will fight to the death. If it takes 10 or more points of damage, its defenses are hindered, but its attacks are eased.
-Ravage bears are immune to visual effects, such as illusions. However, olfactory effects can confuse and “blind” them temporarily.
-- **대화:** Ravage bears are animals and act like animals.
-- **용법:** Ravage bears are likely chance encounters in the wilderness for unlucky travelers.
-- **마스터 개입:** In its rage, the ravage bear makes an extra attack that does 2 additional points of damage.
-
-
-### **REPLICANT**    5 (15)
-Virtually identical to adult humans, these biosculpted androids are stronger, faster, and potentially smarter. However, because they are manufactured beings with grafted memories, replicants rarely feel true human emotion, be that love, sadness, or empathy, though those who live long enough to lay down their own memories can develop the capacity to do so. 
-However, few replicants gain the opportunity because they are created for a purpose, which could be to serve as police or guards, as soldiers in a distant war, or as impostors shaped to blend in with people so they can explore on behalf of an alien intelligence or a bootstrapped AI. In most of these cases, these purposes lead to a relatively short span of existence, which usually ends when the replicant chooses to detonate itself rather than be captured.
-- **동기:** Go unnoticed; stamp out (or replace) any who learn of their existence
-- **환경:** Anywhere
-- **체력:** 18
-- **피해:** 6 points
-- **이동:** Short
-- **조정:** Tasks related to pleasant social interaction, understanding human social norms, and deception as level 2
-- **전투:** Replicants blend in and prefer not to enter combat. Since destruction is not usually their principal goal, they avoid confrontation. If, however, something threatens their mission, they defend themselves to the best of their ability. Replicants might use weaponry but are adept in using their limbs to batter foes into submission.
-A replicant poses the greatest danger when its physical form begins to fail through violence or natural degradation (many seem to have a natural “life” span of just a few years). When reduced to 0 points of health, the replicant explodes, inflicting 10 points of damage to everything in long range.
-- **대화:** Replicants are designed to look human and, at least during a casual interaction, pass as human. But extended conversation trips up a replicant more often than not. Eventually, a replicant gets something wrong and says inappropriate things or exhibits strange mannerisms.
-- **용법:** A contact of one of the characters is secretly a replicant. It has survived longer than expected, and its connection to whatever created it has weakened enough that it has gained some independence and made strong emotional connections to the PC. It knows its time is running out and may turn to the character for help.
-- **마스터 개입:** The character struck by the replicant is smashed into the wall so hard that the surrounding structure begins to collapse on them.
-
-
-### SHADOW ELF    4 (12)
-Elves who faded from the surface to escape the justice of their fey cousins for crimes uncounted are sometimes called shadow elves, dark elves, or simply trow. It’s widely assumed that shadow elves fled to new realms deep below the ground, and indeed, the routes that lead to their true abodes are mostly subterranean and include many grand underground keeps. However, the heart of the shadow elf kingdom lies in the colorless dimension of Shadow itself, where all things exist as a dim reflection of the real world.
-Sometimes shadow elves appear on the surface, spilling from dark tunnels or, in some cases, from the shadows themselves. They raid for plunder, fresh slaves, and sacrifices. The sacrifices are made to their godqueen, a monstrously sized black widow spider that schemes in darkness.
-When a shadow elf returns to the world of light, it can choose to appear as a silhouette only: a slender humanoid outline lurking as if at the nadir of a well.
-- **동기:** Tortures for pleasure, serve the shadow elf godqueen
-- **환경:** Almost anywhere dimly lit, singly or in groups of up to four 
-- **체력:** 15
-- **피해:** 5 points
-- **장갑:** 1
-- **이동:** Short
-- **조정:** Stealth and perception as level 6; Speed defense as level 6 due to shadowy nature
-- **전투:** Shadow elves attack with short blades, knives, and crossbow quarrels of steel-hard shadow. They can see in dim light and absolute darkness as if it were daylight.
-Some shadow elves can cast spells, including the following. Each spell requires an action to cast.
-
-d6
-Shadow Elf Spell
-1
-Enchant weapon to inflict 3 additional points of damage (8 total)
-2
-Enchant weapon to inflict 1 additional point of Speed damage (poison, ignores Armor), plus 2 points of Speed damage each additional round until victim succeeds on a Might defense roll 
-3
-Fly a long range each round for ten minutes
-4
-Gain +2 to Armor (total of 3 Armor) for ten minutes
-5
-Long-range spell renders subject blind for ten minutes on failed Might defense roll
-6
-Long-range spell targets up to three creatures next to each other; holds them motionless in a shadow web for one minute on failed Speed defense rolls 
-
-
-If subject to full daylight, a shadow elf loses its modifications to stealth, perception, and Speed defense, and is likely to retreat.
-- **대화:** Shadow elves may negotiate and even ally with other creatures for a time. But they do so only until the best opportunity for a betrayal presents itself.
-- **용법:** Shadow elves have overrun an outlying keep, and even in broad daylight, the castle is shrouded in darkness and webs of shadow. The treasures said to lie in the keep’s coffers may already be in the hands of the dark fey.
-- **전리품:** A shadow elf carries currency equivalent to an expensive item, in addition to weapons, light armor, and a cypher or two. Shadow elf leaders may carry an artifact.
-- **마스터 개입:** The shadow elf casts a spell that charms a character on a failed Intellect defense roll. The character fights on the side of the shadow elf for up to one minute, though they can make another Intellect defense roll each round to try to break the influence.
-
-### SKELETON    2 (6)
-Skeletons are animated bones without much sense of self-preservation. They enjoy a crucial advantage over living creatures in one important and often exploited area: skeletons are dead shots with ranged weapons. They have no breath, no heartbeat, and no shaking hands to contend with as they release a shot, which means that skeletons armed with ranged weapons are something to be feared.
-- **동기:** Defense or offense
-- **환경:** Nearly anywhere, in formations of four to ten 
-- **체력:** 6
-- **피해:** 3 points (claw) or 5 points (ranged weapon)
-- **장갑:** 1
-- **이동:** Short
-- **조정:** Ranged attacks as level 5; Speed defense against most ranged attacks as level 5; resist trickery as level 1
-- **전투:** Skeletons can attack with a bony claw if they have no other weapon, but most attack with a long-range weapon. If a skeleton can see any portion of its target, the target loses any benefits of cover it might have otherwise enjoyed.
-When in formation, a group of four or more skeletons with ranged weapons can focus their attacks on one target and make one attack roll as a single level 7 creature, dealing 7 points of damage.
-Skeletons can see in the dark.
-Reanimators: Some skeletons were created by a curse, and simply battering them into a pile of bones isn’t enough to end their existence. Two rounds after reanimator skeletons are “killed,” they regain full health in a flash of magical illumination. This regeneration can be prevented if the linchpin of the animating curse is separated from the skeleton after it falls. Such an item is usually obvious and might take the form of a lead spike through the skull, an ebony amulet, a dull sword through the ribs, a crown, and so on.
-- **대화:** A skeleton usually interacts only by attacking. Unless animated by a sapient spirit able to communicate via magic, skeletons lack the mechanisms for speech. However, they can hear and see the world around them just fine.
-- **용법:** Skeletons make ideal units in armies, especially when archery or artillery is required. A formation of four or more skeletons with ranged weapons atop a tower provides a surprisingly robust defense.
-- **전리품:** Sometimes the linchpin item required to create a reanimator skeleton is valuable.
-- **마스터 개입:** A skeleton destroyed by a melee attack explodes like a grenade. The bone shrapnel inflicts 5 points of damage to every creature in immediate range.
-
-
-
-### STATUE, ANIMATE    7 (21)
-Towering statues carved from stone or cast in metal are sometimes more than humans rendered in moments of triumph, celebration, or suffering. Sometimes a statue moves, usually in service to some ancient geas or command that animated it in the first place.
-Most animate statues are vessels imprisoning the mind of a sentient creature. Such entrapment usually tumbles the spirits into the abyss of insanity, though most rest in a dormant state, their minds lost in whatever memories they retain. Disturbing animate statues can cause them to awaken, usually with disastrous results.
-- **동기:** Release from imprisonment; guard an area
-- **환경:** In out-of-the-way places, especially ancient ruins
-- **체력:** 33
-- **피해:** 9 points
+- **피해:** 7점
 - **장갑:** 4
-- **이동:** Short
-- **조정:** All tasks involving balance as level 2; Might defense as level 8; Speed defense as level 5 due to size
-- **전투:** An animate statue towers over most foes, and it can smash or stomp a target within short range as a melee attack. The statue’s massive size and the material of its body means it can walk through nearly any obstacle, smashing through walls of solid rock, buildings, and trees. When walking, it pays no attention to what it steps on. Anything in its path is likely flattened. A character who is stepped on must make a Speed defense roll to dodge or be knocked down and take 9 points of damage.
-Animate statues are strong and hard to hurt, but they are often top-heavy. If one falls or is knocked over, it takes a few rounds to rise and resume whatever it was doing.
-- **대화:** Statues spend years immobilized and insensate, their minds lost in half-remembered experiences and hallucinations. Rousing a statue has unpredictable results. Some might rampage. Others laugh, cry, or scream streams of nonsense. Regardless, if one has been commanded to guard an area or entrance, it also likely lashes out.
-- **용법:** An animate statue holds a treasure trove of knowledge. If the characters can keep it focused or knocked down long enough, they might coax from it the information they seek.
-- **마스터 개입:** The animate statue strikes a character so hard that the victim flies a long distance and lands in a heap, possibly dropping gear and weapons along the way.
+- **이동:** 근거리; 비행 시 원거리
+- **조정:** 정신 공격과 기만 저항은 레벨 8; 첨단 기술 이해·수리·제작은 레벨 10
+- **전투:** 닥터 드레드의 장갑은 외부 공기(또는 기압), 음식, 물 없이도 최대 10일 동안 활동하게 해 준다. 그녀는 로봇 장갑으로 다음과 같은 다양한 기능을 수행할 수 있다.
+  바리케이드(Barricade): 10피트 x 10피트(3m x 3m) 크기의 움직이지 않는 투명한 2차원 역장을 10분간 전개
+  에너지 망토(Energy Cloak): 열, 냉기, 자기 중 하나를 선택해 해당 유형에 대해 장갑 +5를 10분간 획득
+  페이드(Fade): 1분간, 또는 공격하기 전까지 투명화
+  플라즈마 블래스트(Plasma Blast): 원거리 열·전기 폭발로 7점 피해
+- **대화:** 닥터 드레드는 약간 미쳐 있지만, 보통은 놀라운 지성으로 그 면이 가려진다. 자아도취적이지만, 아직 모르는 부나 생체의학 지식을 약속받으면 협상한다.
+- **용법:** 도시의 부유한 엘리트들이 다수 참석한 파티에서 인질극이 벌어지고, PC들이 해결을 요청받는다. 닥터 드레드는 충분한 자금이 자신의 해외 계좌로 입금되면 인질을 풀어주겠다고 약속한다.
+- **전리품:** 닥터 드레드의 상당한 재산 대부분은 온라인 계좌, 비밀 요새 두세 곳, 최첨단 생물학 연구 장비에 묶여 있다.
+- **마스터 개입:** 닥터 드레드는 현재 곤경을 해결하기에 완벽한 장갑 내장 기능을 사용한다. 자신을 치유하거나, 순간이동으로 이탈하거나, 장벽을 분해하는 등 필요한 것이 무엇이든 실행한다.
 
+### 탐정 (DETECTIVE) 3 (9)
 
-### TYRANNOSAURUS REX    7 (21)
-The short arms of a tyrannosaurus have been much parodied in Earth social media circles, but the arms aren’t really important when a hunting tyrannosaurus is after you. It’s more the soul-shivering roar, designed to freeze prey in place, and a skull and mouth so enormous that the entire creature is cantilevered by a massive tail that itself can be used as a powerful weapon.
-As vicious as tyrannosauruses likely were 66 million years ago, the versions still hunting today could be even more dangerous. That’s because the ones with a taste for humans have learned to adapt to human defenses and to use their roar to terrorize prey as they hunt.
-- **동기:** Hungers for flesh
-- **환경:** Tyrannosauruses hunt solo or in pairs; they’re drawn to loud, unfamiliar - **noises (like** motor engines).
-- **체력:**50
-- **피해:** 10 points
-- **이동:** Short
-- **조정:** Perception as level 5; Speed defense as level 5 due to size
-- **전투:** A tyrannosaurus attacks with its massive bite. Not only does it deal damage, but the target must also make a Might defense roll to pull free or be shaken like a rat in the mouth of a pit bull for 3 additional points of Speed damage (ignores Armor). The shaking recurs each subsequent round in which the target fails a Might-based task to pull free.
-A tyrannosaurus can also make a trampling attack if it can charge from just outside of short range. When it does, it moves 50 feet (15 m) in a round, and anything that comes within immediate range is attacked. Even those who make a successful Speed defense roll take 2 points of damage.
-Finally, a tyrannosaurus can roar. The first time creatures within short range hear the roar on any given day, they must succeed on a difficulty 2 Intellect defense roll or stand frozen in fear for a round. Attacks against them are eased by two steps in the attacker’s favor and deal 2 additional points of damage.
-For all their power, tyrannosauruses are not above self-preservation. They never fight to the death if they are outclassed, and they usually break off if they take more than 30 points of damage in a conflict.
-- **대화:** Tyrannosauruses are animals, but they’re clever hunters, too. When they hunt in pairs, they work to keep prey penned between them. 
-- **용법:** Something is killing big game in a forest preserve. Poachers are suspected at first, but when they are also found dead, it’s clear that something else is to blame.
-- **마스터 개입:** The tyrannosaurus’s tail swings around and knocks the character tumbling out of short range and possibly into dangerous terrain.
+탐정은 보통 자신이 속한 조직(경찰, 시 경비대, 연방보안관, 우주사령부 등)에서 풍부한 경력을 쌓은 베테랑이다. 일부 탐정은 프리랜서 수사관으로, 개인 훈련과 남들이 놓치는 단서를 포착하는 타고난 재능을 결합해 진실을 꿰뚫는다.
 
-
-### VAMPIRE    6 (18)
-Vampires are undead creatures, risen from the grave to drink blood. Their very nature and essence are evil and anti-life, even as they revel in their own endless existence. Most vampires are vain, arrogant, sadistic, lustful, and domineering. Their powers allow them to manipulate others, and they frequently toy with their prey before feeding. Vampires come out only at night, as the sun’s rays will destroy them.
-The bite of a vampire over three nights (in which it exchanges a bit of its own blood) ensures that the victim will rise as a vampire under the thrall of the one that killed it. While vampires are careful not to create too many of their kind (which amount to competition), each thrall conveys a bit more supernatural power to a vampire. 
-- **동기:** Thirsts for blood
-- **환경:** Usually solitary, on the edges of civilization
-- **체력:** 24
-- **피해:** 7 points
-- **이동:** Long
-- **조정:** Climb, stealth, and perception as level 8; Speed defense as level 7 due to fast movement
-- **전투:** Vampires are strong and fast. They have impressive fangs, but these are usually used in feeding, not in battle. They typically fight with their fists or hands (which basically become claws) but sometimes use weapons.
-A vampire can change into a bat or a wolf. This transformation does not change its stats or abilities except that, as a bat, it can fly. Vampires can also transform into shadow or mist, and in these forms they can’t be harmed by anything (but also can’t affect the physical world).
-Vampires possess an unholy charisma and can mesmerize victims within immediate distance so that they stand motionless for one round. In subsequent rounds, the victim will not forcibly resist the vampire, and the vampire can suggest actions to the victim (even actions that will cause the victim to harm themselves or others they care about). Each round, the victim can attempt a new Intellect defense roll to break free.
-Vampires are notoriously difficult to hurt. Unless a weapon is very special (blessed by a saint, has specific magical enchantments against vampires, or the like), no physical attack harms a vampire. They simply don’t take the damage. Exceptions include the following:
-Fire: Vampires burn, though the damage doesn’t kill them. It only causes pain, and a vampire regains all health lost to fire damage within a day.
-Running water: Complete immersion inflicts 10 points of damage per round. If not destroyed, the vampire can use a single action to regain all health lost in this way.
-Holy water: This inflicts 4 points of damage and affects a vampire exactly like fire.
-Sunlight: Exposure to sunlight inflicts 10 points of damage per round. If not destroyed, the vampire regains all health lost to exposure within a day.
-Wooden stake: This weapon inflicts 25 points of damage, effectively destroying the vampire in one blow. However, if the vampire is aware and able to move, this attack is hindered as the vampire does everything it can to evade.
-Further, vampires have the following special weaknesses: 
-Garlic: Significant amounts of garlic within immediate distance hinder a vampire’s tasks.
-Cross, holy symbol, or mirror: Presenting any of these objects forcefully stuns a vampire, causing it to lose its next action. While the object is brandished and the vampire is within immediate range, its tasks are hindered by two steps.
-Eventually, a vampire with a multitude under its command becomes the new vampire lord. The vampire lord is the most powerful vampire in the world and is often (but not always) the most ancient of its kind. It has many vampires under its control, and even those that it did not create pay it respect and homage.
-- **대화:** Most vampires look upon humans as cattle upon which to feed. They rarely have respect for anything but other vampires, and they often hate other supernatural creatures that they cannot enslave.
-- **용법:** Strange stories of shadows in the night, people disappearing from their beds, and graves missing their former occupants could portend the arrival of a vampire in the region. 
-- **마스터 개입:** The character struck by the vampire is caught fast in its powerful grip. If the character doesn’t escape immediately, the vampire bites them automatically.
-
-
-
-### VAMPIRE, TRANSITIONAL    3 (9)
-When humans are “visited upon” (bitten) by a vampire, they might be killed, or they might be left alive to begin a slow transformation into a creature of the night. If victims are bitten three times, they become a vampire forever under the control of the one that bit them. From the time of the first bite until their complete transformation after the third bite, they are transitional vampires. Ways to return transitional vampires to normal include using special ancient rituals or destroying the vampire that bit them in the first place.
-Transitional vampires usually serve as guardians, consorts, or spies for their masters.
-- **동기:** Thirsts for blood
-- **환경:** Anywhere, usually solitary but sometimes in groups of two or three
+- **동기:** 범죄 해결
 - **체력:** 12
-- **피해:** 4 points
-- **이동:** Short
-- **조정:** Climb and stealth as level 4
-- **전투:** Transitional vampires can maintain a human existence during the day without any of a vampire’s powers or weaknesses. However, they have a disdain for garlic and the sun. At night they take on all the characteristics of a vampire, and if confronted by any of the traditional vampiric weaknesses (a wooden stake, a cross, and so on), they flee unless their master is present.
-- **대화:** Transitional vampires are utterly devoted to their master. 
-- **용법:** Transitional vampires lie in the intersection of foe and victim. A loved one or trusted companion who has been turned into a transitional vampire will try to betray, defeat, and kill the PCs, but the characters are motivated to save them rather than destroy them.
+- **피해:** 4점
+- **이동:** 근거리
+- **조정:** 지각, 직감, 선제권, 거짓 탐지 관련 일는 레벨 6
+- **전투:** 탐정은 정면 승부보다 상대를 한 수 앞서 이기는 방식을 선호한다. 그렇다 해도 대부분의 충돌은 탐정이 선택한 장소와 시간, 가급적 아군이 있는 상황에서 벌어진다. 탐정은 적의 약점(있다면)을 추론해 전투에서 악용할 수 있다.
+- **대화:** 어떤 탐정은 참기 힘든 잘난 척쟁이지만, 다른 이들은 사람에게서 답을 끌어내는 데 겸손도 유용한 도구임을 배웠다.
+- **용법:** 탐정은 PC들에게 장애물(탐정이 그들을 추적 중), 동맹(단서 수집을 돕는 탐정), 또는 둘 다가 될 수 있다. 다만 수사관은 캐릭터가 어려운 일를 떠넘길 수 있는 손쉬운 해결책이 되는 경우가 드물다.
+- **전리품:** 무기를 제외하면, 대부분의 탐정은 매우 비싼 물품 하나에 해당하는 화폐와 사이퍼 하나를 지닌다.
+- **마스터 개입:** 탐정이 캐릭터의 다음 공격을 간파하고 완벽하게 움직여, 그 공격이 캐릭터의 아군에게 대신 적중하게 만든다.
 
+### 대지 정령\*\* (EARTH ELEMENTAL) 5 (15)
 
-### VAT REJECT    3 (9)
-Vat rejects come into being when clone vats meant to produce clone soldiers or similar
-mass-produced entities are corrupted. How the carefully controlled process becomes compromised varies, but possibilities include yeast contamination, sunspot activity, nanovirus evolution, or purposeful meddling with control parameters. Unskilled operators experimenting with derelict cloning equipment can also produce a vat of rejects.
-Vat rejects fear nothing and welcome death, except that their existential rage requires an outlet other than immediate suicide. Their warped forms mean that most are in constant pain, and they somehow understand that this was artificially stamped into them by their creators. Revenge is their only possible redemption.
-- **동기:** Self-destruction through endless aggression
-- **환경:** Anywhere in lost and lonely places
-- **체력:** 9
-- **피해:** 3 points
-- **이동:** Short
-- **조정:** Speed defense as level 4 due to frenzied alacrity
-- **전투:** Vat rejects charge into battle with berserk speed, hindering defenses against their initial attack. All vat rejects are able to inflict damage directly by cutting, bashing, or biting a victim, depending on their particular morphology. Some also have additional abilities; roll on the table below for each reject. 
+발굴 작업, 운석 낙하, 아직도 여진이 남은 지진 같은 사건은 모두 대지 정령을 불러내어 형체를 갖추게 하고 파괴를 더 크게 확산시킬 수 있다.
 
-d6
-Ability
-1
-Reject deals +3 damage in melee (6 points total)
-2
-Reject has short-range acid spit attack that inflicts 2
-points of damage, plus 2 points of damage each
-additional round until victim succeeds on a
-Might defense roll
-3
-Reject can fly a long distance as an action
-4
-Reject has 2 Armor
-5
-Reject has long-range destructive eye ray
-attack that inflicts 6 points of damage
-6
-When struck by an attack, reject
-detonates in an immediate radius,
-inflicting 6 points of damage in a
-radioactive explosion (and 1 point even
-on a successful Speed defense roll) 
-
-
-
-- **대화:** Vat rejects are usually always enraged, making interaction nearly impossible. However, some may negotiate if offered a reasonable hope of salvation through extreme surgery or other transformation.
-- **용법:** A long-missing derelict ship, famous for carrying a load of planet-buster superweapons, is found. However, salvagers discover it to be overrun by vat rejects. No one knows if the rejects plan to use the superweapons, if they have been released by someone else as a distraction, or if they are part of a mutated ship defense system.
-- **마스터 개입:** The vat reject also has a radioactive sting. On a failed Might defense roll, the character struck by the reject descends one step on the damage track.
-
-### WARDROID    6 (18)
-When star troopers need heavy support, they sometimes bring in wardroids. These fearsome robots, standing about 8 feet (2 m) tall, are ruthless even by trooper standards and are known to kill innocent bystanders as often as they kill foes. It is said that when wardroids are unleashed, wise troopers fall back and take cover.
-- **동기:** Maintain control, crush, kill, destroy
-- **환경:** Anywhere
+- **동기:** 부수고 무너뜨려 모든 것을 흙으로 되돌리기
+- **환경:** 단단한 지면이나 흙이 있는 곳 어디에서나
 - **체력:** 30
-- **피해:** 8 points
+- **피해:** 6점
 - **장갑:** 3
-- **이동:** Short; some models can fly a short distance each round
-- **조정:** Attacks as level 7
-- **전투:** A wardroid’s main weapon is a bank of laser blasters that it can use to attack up to three foes standing next to each other as one action. When damaged, a wardroid regains 1 point of health each round. Furthermore, each wardroid has one additional capability:
+- **이동:** 즉시거리; 굴착 시 근거리
+- **전투:** 대지 정령은 무거운 주먹으로 적을 후려친다. 또한 지진을 일으킬 수 있는데(최대 격 라운드마다 1회), 근거리 내 지면 전체에 영향을 준다. 해당 범위에 서 있는 생물은 바닥으로 넘어지며, 힘 방어 굴림에 실패하면 5점 피해를 입는다.
+  대지 정령은 물에 취약하다. 물속에 서 있거나 물을 뒤집어쓴 상태에서 받는 모든 피해는 장갑을 무시한다.
+- **대화:** 대지 정령은 움직이지 않는 바위처럼 보일 때는 우울하고 반응이 느리지만, 지능을 갖춘 존재다. 주문으로 소환된 개체는 약 5% 확률로 구속(geas)을 깨고 소환자에게 등을 돌린다.
+- **용법:** 고대 보물이 봉안된 신전 주변의 고산 지대에서, 기묘하게 꺾인 거석들이 발견되었다. 한 상인이 이것이 함정의 징후일지 모른다며 조사를 의뢰한다. 실제로 그 거석들은 비활성 상태의 대지 정령이다.
+- **마스터 개입:** 대지 정령의 지진 공격 범위 안에 있는 캐릭터는 스피드 방어 굴림에 성공해야 한다. 실패하면 붕괴하는 건물이나 절벽면에서 쏟아진 낙석과 토사에 덮인다.
+
+### 인스롤러 (ENTHRALLER) 6 (18)
+
+수십만 년 전, 인스롤러의 조상은 불운하게도 그들의 모성에 착륙한 성간 우주 항해 집단을 정신 지배했다. 훔친 우주선을 이용해 새로 마주치는 종마다 기술 지식을 정신적으로 탈취하며 비약적으로 문명을 발전시킨 이 외계 종족은, 초능력 지배를 접착제로 삼아 광대한 우주 구역에 걸친 인스롤러 지배령(Enthraller Dominion)을 세웠다.
+개별 인스롤러도 충분히 위협적이지만, 인스롤러 군주는 기술 보조 장치 덕분에 훨씬 더 강력하다. 예를 들어 단일 총독 개체가 소도시 하나를 지배하게 해 주는 두개 골환, 성간 거리에서도 통제를 증폭하는 태양계 규모의 환형 중계망 등이 있다.
+최근 새롭게 접촉한 한 외계 종이 인스롤러의 정신 영향에 저항할 기술적 수단을 개발했다. 이제 인스롤러 지배령 전역에서 전쟁이 번지고 있다. 전쟁의 결과로 강화 장비를 빼앗긴 일부 인스롤러는 처녀 우주로 도주해, 새로 지배할 병력을 찾아다니기도 한다.
+
+- **동기:** 다른 생명체 지배
+- **환경:** 거의 어디에서나, 단독 또는 셋 무리
+- **체력:** 18
+- **피해:** 4점; 전투 참조
+- **장갑:** 1
+- **이동:** 근거리
+- **조정:** 스피드 방어는 레벨 4; 지각 및 거짓 간파는 레벨 8
+- **전투:** 인스롤러는 보통 지배한 하수인에게 물리 공격을 맡긴다. 인스롤러는 근거리 내 생물 하나를 대상으로 정신 공격을 가할 수 있다. 대상이 지성 방어 굴림에 실패하면, 다음 행동에서 인스롤러의 정신 명령대로 행동한다. 같은 대상이 1분 이내에 이 지배 공격에 두 번째로 걸리면, 인스롤러의 정신 통제는 1분간 지속된다.
+  또는 행동으로 정신 파동을 방출해 근거리 내 최대 세 생물을 대상으로 삼을 수 있다. 대상이 지성 방어 굴림에 실패하면 지성 피해 4점(장갑 무시)을 입고, 다음 차례에는 행동할 수 없다. 이 상태에서 공격받는 피해자는 방어 굴림이 두 단계 방해된다.
+  인스롤러의 공격은 일종의 정신적 섭식이다. 이 공격으로 PC를 피해 단계 트랙 아래로 내리면, 인스롤러는 체력 4점을 회복한다.
+- **대화:** 인스롤러는 근거리 내 캐릭터와 텔레파시로 소통할 수 있다. 마주치는 상대를 정신 지배하려 들며, 자신에게 해를 입힐 만큼 강한 캐릭터와만 협상하려 한다. 인스롤러가 거래를 맺더라도, 이득이 보이면 결국 파기한다. 다른 생명체를 가축으로 여기기 때문이다.
+- **용법:** 우주선(혹은 탈출 포드)이 추락한다. 내부에는 상처 입은 인스롤러가 정지 생명 상태로 누워 있다. 조사자들은 사전에 그 정체를 알아차리기 어렵지만, 외계체를 깨우는 순간 정체를 뼈저리게 알게 된다.
+- **전리품:** 인스롤러는 자기 체형에 맞춘 경장갑을 착용한다. 사이퍼를 하나 또는 둘 지녔을 수 있으며, 드물게 이미 무시무시한 정신 능력을 더 강화하는 아티팩트를 지닌다.
+- **마스터 개입:** 인스롤러가 캐릭터의 정신에 침입하면서 잊힌 기억을 뒤흔든다. 캐릭터는 그 기억의 내용, 그리고 왜 그것이 억압되어 있었는지를 마주해야 한다.
+
+### 화염 정령 (Fire ELEMENTAL) 4 (12)
+
+희미하게 인간형을 띤 이글거리는 불꽃. 화염 정령은 아직 재가 되지 않은 것을 태우는 일만을 위해 존재한다. 거대한 화재가 타오르는 곳에서 소용돌이치며 나타나기도 한다.
+
+- **동기:** 태우기
+- **환경:** 불이 탈 수 있는 곳이라면 어디든
+- **체력:** 24
+- **피해:** 4~7점, 전투 참조
+- **이동:** 근거리
+- **조정:** 공격 단계 상승에 따른 수정은 전투 참조.
+- **전투:** 화염 정령은 불타는 팔(팔다리)로 공격한다. 적을 더 많이 태울수록 더 강해진다. 그 위력은 지난 1분 동안 다른 생물에게 가한 화염 피해가 들어간 성공 공격 횟수에 따라 증가한다.
+  성공 공격 0회: 피해 4점, 레벨 4로 공격
+  성공 공격 1회: 피해 5점, 레벨 5로 공격
+  성공 공격 3회: 피해 6점, 레벨 6으로 공격
+  성공 공격 4회 이상: 피해 7점, 레벨 7로 공격
+  화염 정령이 지난 1분 안에 적을 태우지 못했다면, 전투 수치는 다시 레벨 4 기준치로 떨어진다.
+  화염 정령은 화염 공격에 면역이지만 냉기에 취약하다. 냉기 피해를 1점 받을 때마다 추가로 1점 피해를 더 받는다.
+- **대화:** 화염 정령은 지성이 거의 없으며, 보통은 정령을 지배할 수 있는 주문을 아는 이에게만 반응한다. 다만 특정 임무를 명령받은 화염 정령이 속박을 끊고, 주변의 연료가 전부 소진될 때까지 닥치는 대로 태워 버릴 확률(약 10%)이 있다.
+- **용법:** 연쇄적인 화재가 일어나자 사람들은 방화범이 풀려났다고 의심하지만, 진실은 그보다 더 심각하다.
+- **마스터 개입:** 화염 정령의 공격에 맞은 캐릭터는 불이 붙어, 매 라운드 3점 피해를 받는다. 불길을 두드려 끄거나, 구르거나, 덮어 끄는 행동을 1회 사용해야 멈춘다.
+
+### 타락한 천사\*\* (FALLEN ANGEL) 5 (15)
+
+천사는 보통 고결함과 더 높은 도덕적 존재를 섬기는 존재로 여겨진다. 그러나 사람처럼 천사도 때로는 불순한 행위의 유혹에 빠진다. 선을 너무 멀리 넘은 자는 상위 영역에서 추락해, 속죄를 위해 지상을 걷도록 강요받기도 한다. 이런 경험은 대부분의 타락한 천사를 광기로 몰아넣는다.
+타락한 천사의 능력은 태양의 위치에 따라 강약이 바뀐다. 낮에는 거의 제정신처럼 보여(그리고 덜 위험해지지만), 밤에는 변덕스럽고 모두를 위협하는 존재가 된다.
+
+- **동기:** 복수(누구에게, 무엇 때문에인지는 타락한 천사 자신도 분명히 알지 못한다)
+- **환경:** 어디든. 때로는 황야에서 홀로 살고, 때로는 대도시의 **험한** 거리들을 배회한다
+- **체력:**25
+- **피해:** 낮 6점, 밤 8점
+- **장갑:** 2
+  이동: 근거리, 비행 시 장거리
+- **조정:** 밤에는 지각과 공격이 레벨 7
+- **전투:** 밤의 타락한 천사는 타오르는 빛줄기를 투사해 장거리 공격을 할 수 있다. 인접 거리의 적에게는 불타는 날개를 구현해 공격한다. 타락한 천사는 자신의 공격이 장갑을 무시하도록 선택할 수 있지만, 이렇게 수정한 공격 1회마다 자신의 체력을 4점 잃는다.
+  드물게 타락한 천사 둘이 서로 인접 거리에 있을 경우, 둘 다 매 라운드 체력을 1점 회복한다.
+  낮의 타락한 천사는 장거리 공격을 투사할 수
+  없고, 근접 공격에 쓸 수 있는 눈에 보이는 날개도 없지만, 근접 무기를 들고 다닐 수는 있다.
+- **대화:** 낮에는 타락한 천사가 자동으로 적대하지 않으며, 협상과 설득이 가능하다. 진짜 천사처럼 보이기도 하지만, 대개 혼란스러워하고 자신의 기원을 자주 잊는다. 그러나 밤이 내리면 분노와 힘이 부풀어 오르며 이성을 잃는다. 캐릭터가 타락한 천사의 분노를 쏟아낼 다른 대상을 지정해 주지 않으면, 그 분노의 대상은 캐릭터가 된다.
+- **용법:** 별 하나가 하늘에서 미끄러져 시골에 떨어진다. 다음 날 여행자들이 그 일대의 농장을 지나가다 모두 불에 타 죽은 시신을 발견한다. 타다 남은 대지의 흔적이 언덕 쪽으로 이어져 있다.
+- **전리품:** 타락한 천사는 사이퍼를 모으며, 보통 몇 개쯤 지니고 있다.
+- **마스터 개입:** 타락한 천사의 공격이 성공하면 캐릭터의 사이퍼가 폭발물(수류탄)이라면 폭발하고, 그렇지 않더라도
+  이상적이지 않은 방식으로 활성화된다.
+
+### 융합 사냥개 (FUSION HOUND) 3 (9)
+
+방사능으로 황폐해진 불모지에서는 생물이 치명적인 환경 에너지에 적응하거나, 그렇지 못하면 죽는다. 융합 사냥개는 믿기 어려울 만큼 많은 방사선을 흡수해 이를 양분 삼아 번성하는 돌연변이 견종이다. 이들은 무리를 지어 돌아다니며 마주치는 모든 것을 죽이고 뜯어먹는다.
+융합 사냥개의 머리 전체는 마치 폭발하는 불꽃처럼 보이며, 몸에서는 위험한 방사선의 분출이 타오른다.
+
+- **동기:** 살점을 갈망함
+- **환경:** 세 마리에서 여덟 마리 규모의 무리가 거의 어디서나 발견된다.
+- **체력:** 10
+- **피해:** 5점
+- **장갑:** 1
+- **이동:** 장거리
+- **조정:** 속력 방어는 레벨 4, 은신과 등반은 레벨 2
+- **전투:** 융합 사냥개는 매우 빠르게 움직이며, 그 속도를 전투에서 활용한다. 한 마리는 장거리를 이동한 뒤에도 단일 행동으로 공격할 수 있다. 또한 행동을 사용해 무작위 패턴으로 뛰어다녀, 자신을 향한 공격을 두 단계 방해할 수 있다.
+  융합 사냥개의 머리는 들끓는 방사성 에너지 덩어리에 완전히 둘러싸여 있어서, 일반적인 개처럼 물어뜯는 공격을 하지 못한다. 대신 발톱 난 앞다리로 먹잇감에게 덮쳐, 몸에서 방사선 폭발을 일으켜 접촉한 대상을 태운다.
+  융합 사냥개와 근접 거리 안에서 1라운드보다 오래 머무른 모든 이는, 첫 라운드 이후 매 라운드마다 1점 피해를 입는다.
+- **대화:** 융합 사냥개는 동물이다. 방사선 면역을 가진 생물은 때때로 이 사냥개를 경비견이나 사냥개로 훈련시키지만, 그런 생물은 드물다.
+- **용법:** 캐릭터들에게 필요한 물건을 전달하던 비플레이어 캐릭터가 약속 장소에 끝내 도착하지 못했다. 캐릭터들이 비플레이어 캐릭터가 출발했어야 할 지점으로 되짚어 가면, 길 위에서 융합 사냥개 무리의 습격을 받는다. 전령 역시 같은 무리에게 공격당한 것이 분명하며, 캐릭터들은 그 인물이 죽었는지 단지 부상당했는지, 그리고 소포가 지금 어디에 있는지 밝혀내야 한다.
+- **마스터 개입:** 사냥개가 에너지를 폭발시키며, 캐릭터는 완력 방어 판정에 성공해야 한다. 실패하면 10분 동안 실명한다.
+
+### 고스트 (GHOST) 4 (12)
+
+계단에서 울리는 발소리, 벽 너머를 두드리는 소리, 빈방에서 들려오는 울음, 사람 없는 곳에서 흐르는 음산한 음악처럼 뚜렷한 근원이 없는 소리는 고스트의 징조일 수 있다. 거기에 기온이 갑자기 떨어지고 살아 있는 존재의 입김이 하얗게 피어오르기 시작한다면, 거의 확실하다.
+고스트는 인간이 남긴 영적 잔재로, 기억의 파편으로 남기도 하고 완전한 영혼으로 지속되기도 한다. 개체마다 모습은 다르지만, 대체로 반투명하거나 색이 빠져 보이거나, 오랜 유령 상태 탓에 신체가 뒤틀린 모습으로 나타난다.
+
+- **동기:** 예측 불가(대개는 이루지 못한 일을 마무리하려 함)
+- **환경:** 거의 어디서나
+- **체력:** 12
+- **피해:** 5점
+- **이동:** 근거리
+- **조정:** 은신은 레벨 7로 판정; 타인을 공포에 빠뜨리는 관련 일는 레벨 6으로 판정
+- **전투:** 고스트는 평범한 물리적 수단으로는 피해를 입지 않는다. 하지만 주문이나 에너지를 직접 투사하는 공격에는 절반 피해를 받고, 영혼에 영향을 주도록 설계된 무기·정신 공격·유사한 공격에는 정상 피해를 받는다.
+  고스트의 접촉은 냉기를 동반한 피해를 준다. 일부 고스트는 공포만으로 희생자를 죽일 수 있다. 이 능력을 지닌 고스트는 근거리 내 모든 생물을 대상으로 끔찍한 정신적 환영을 퍼뜨려 공격할 수 있으며, 지성 방어 굴림에 실패한 대상은 지성 피해 4점(장갑 무시)을 받고 겁에 질려 얼어붙는다. 이후 매 라운드마다 겁에 질린 희생자는 지성 기반 일를 시도해 공포를 떨쳐낼 수 있다. 실패할 때마다 피해 트랙에서 한 단계 내려간다. 공포를 가라앉히려는 시도를 하지 않는 것 역시 실패로 간주한다. 공포로 죽은 자는 공포에 질린 표정과 새하얗게 센 머리카락이 남는다.
+  고스트는 원하면 레벨 7 이하의 고체 물체를 통과해 이동할 수 있다. 다만 집중하면 물체를 집어 들고 조작하는 것도 가능하다. 고스트는 또한 몇 시간에서 며칠 동안 존재가 사라진 듯한 상태로 들어갈 수 있다.
+- **대화:** 말이 많은 고스트도 있고, 자신이 죽었다는 사실을 모르는 고스트도 있으며, 생전에 이루지 못한 일을 도와 달라고 하는 고스트도 있다. 또 어떤 고스트는 살아 있는 자들에게 분노만 품고, 아직 숨 쉬는 이들을 자신이 견디는 무채색의 존재로 끌어들이려 한다.
+- **용법:** 처음에는 완전히 인간처럼 보이는 고스트가 버려진 건물에 출몰하는 자신과 다른 몇몇 유령을 노린 유령 사냥꾼 길드를 없애는 일을 도와 달라고 한다. 고스트는 이 기이한 제안을 받아들이는 자에게 사후 세계의 비밀을 알려 주겠다고 약속한다.
+- **전리품:** 고스트는 보통 물건을 지니지 않지만, 일부는 추억이 담긴 기념품(사랑하는 이의 얼굴이 새겨진 부적 같은 것)이나 아티팩트를 갖고 있을 수 있다.
+- **마스터 개입:** 캐릭터는 지성 방어 굴림에 성공해야 하며, 실패하면 고스트가 빙의한다. 캐릭터가 지성 기반 일에 성공해 고스트를 몰아낼 때까지 빙의는 지속된다. 빙의된 동안 캐릭터는 그 고스트가 생전에 하던 방식 그대로 행동한다.
+
+### 구울 (GHOUL) 4 (12)
+
+구울은 시체만큼이나 많은 시간을 땅 밑에서 보내지만, 분명 살아 있는 존재다. 그들의 몸은 털이 없고 도자기처럼 매끈해서, 피와 살점이 묻은 가면을 쓴 것처럼 보일 때도 있다. 구울은 밤이 되면 지상으로 올라와 휴머노이드의 유해를 모으거나 막 매장된 시신을 무덤에서 훔쳐 가며, 많은 개체는 아직 살아 있는 희생자를 먹는 편을 더 선호한다.
+대부분의 구울은 인간 살점에 탐닉하는 광적인 식인자지만, 드물게는 더 세련된 구울 집단도 있다. 이들은 옷을 입고 언어와 정교한 관습을 갖추며, 자신들이 설계한 장대한 지하 도시에서 살아가고, 젖빛으로 하얀 뼈 칼을 휘두른다. 이 문명화된 구울들은 고대 관습에 따라 모든 인간의 유해에 대한 지배권이 자신들에게 있다고 주장하며, 실제로 그 권리를 때때로 행사한다. 그들이 시체를 먹는 이유는 시신에 남아 있는 잔류 기억을 흡수하기 위해서다.
+
+- **동기:** 죽은 살점에 대한 굶주림; 지식(아주 드문 경우)
+- **환경:** 밤의 지상 어디서나(보통 셋 이상 무리) 또는 지하 은신처
+- **체력:** 12
+- **피해:** 5점
+- **이동:** 근거리
+- **조정:** 지식 분야 두 가지는 레벨 5로 판정
+- **전투:** 구울의 침에는 마비 성분이 들어 있다. 구울의 물어뜯기(그리고 구울이 쓰는 무기)는 피해를 주며, 근력 방어 굴림에 실패하면 대상은 1분 동안 마비된다. 마비된 대상은 매 라운드 근력 기반 일로 움직임을 되찾으려 시도할 수 있지만, 그 뒤 1분 동안 공격·방어·이동 일가 방해를 받는다.
+  구울은 어둠에서 볼 수 있다. 완전한 대낮에는 눈이 멀지만, 지상으로 올라오는 문명화된 구울은 눈을 덮는 렌즈를 착용해 밝은 햇빛 아래에서도 불이익 없이 볼 수 있다.
+- **대화:** 일반 구울과는 협상이 불가능하지만, 드문 문명화된 구울은 뛰어난 언어학자다. 이들은 생전에 지식이 많았거나 귀중한 비밀을 지녔던 사람의 시신을 대가로 거래하려 한다.
+- **용법:** PC가 다른 방법으로는 얻을 수 없는 정보를 필요로 한다면, 구울 도시로 내려가는 여정은 충분히 가치가 있을 수 있다. 지하 어둠 속에 한때 인간이 알았던 지식을 저장한 무광(無光)의 도서관이 있다는 소문이 있기 때문이다.
+- **전리품:** PC가 문명화된 구울 무리를 쓰러뜨리면, 사이퍼 하나와 태양을 정면으로 봐도 옅은 원으로 보이게 해 주는 검은 고글 몇 개를 얻을 수 있다.
+- **마스터 개입:** 구울이 캐릭터의 눈에 침을 뱉어, 마비 성분이 희생자의 혈류로 직접 들어간다. 마비를 피하기 위한 희생자의 근력 방어 굴림은 방해를 받는다.
+
+### 거인 (GIANT) 7 (21)
+
+폭풍, 지진, 태풍, 그 밖의 자연재해는 거인을 끌어들인다. 키가 20~30피트(6~9m)에 이르는 거인들은 재난 한복판을 휩쓸며 날뛰는 것을 즐기고, 그 과정에서 파괴를 더욱 키운다. 어떤 거인은 매우 강해져 스스로 자연재해를 일으키기도 한다.
+
+- **동기:** 파괴
+- **환경:** 지하, 사막, 산정상 등 황량한 지역
+- **체력:** 40
+- **피해:** 9점
+- **장갑:** 1
+- **이동:** 근거리
+- **조정:** 체격 때문에 속력 방어는 레벨 5로 판정; 물체를 부수고 던지는 일는 레벨 8로 판정; 기만과 속임수를 꿰뚫어 보는 일는 레벨 3으로 판정
+- **전투:** 거인은 주먹으로 적을 내리치며, 목표들이 서로 즉시 거리 안에 모여 있으면 한 번의 공격으로 인간 크기 대상 최대 셋까지 휘말릴 수 있다.
+  거인이 단일 대상을 공격할 때는 일반 피해를 주거나, 대신 붙잡아 피해 4점을 줄 수 있다. 희생자는 자기 차례에 근력 방어 굴림으로 버티며 벗어나려 하거나, 속력 방어 굴림으로 빠져나오거나, 지성 기반 일로 거인을 산만하게 만들 수 있다. 실패하면 거인은 다음 차례에 희생자를 자신이 던질 수 있는 한 가장 높고 멀리 던진다. 충돌 피해는 환경에 따라 달라지지만, 평균적으로 주변 피해 10점을 입는다.
+  일부 거인은 폭풍·해일·지진 같은 현상을 만들어 내어, 지름 최대 1,000피트(300m) 범위를 최대 1분 동안 휩쓸 수 있다. 이때 폭풍을 견디도록 설계된 피난처에 보호받지 못한 모든 생물과 물체는 매 라운드 피해 3점을 받는다(다만 지진까지 막아 주는 피난처는 드물다).
+- **대화:** 대부분의 거인은 그다지 영리하지 않다. 거인이 난동을 부릴 때 누군가 노래를 하거나 저글링 같은 묘기를 보이면, 일부 거인은 최소 한두 라운드 동안 그 구경을 하느라 멈춘다.
+- **용법:** 한 거인이 산에서 내려와 근처 마을 절반을 초토화했다. 생존자들은 누군가가 거인의 산속 소굴에 들어가 그 괴물을 처치해 주기를 바라며 보수를 제시한다.
+- **전리품:** 개별 거인이 몸에 지닌 것은 거의 없지만, 거인의 소굴에는 값비싼 물건 1d6개에 해당하는 화폐, 사이퍼 1d6개, 아티팩트 몇 개가 있을 수 있다.
+- **마스터 개입:** 거인의 타격이 캐릭터의 팔다리 하나를 삐게 만들어, 10분 동안 그 부위를 쓸 수 없게 만든다.
+
+### 거대 쥐 (GIANT RAT) 3 (9)
+
+거대 쥐는 대형 공격견만큼 크고, 그만큼 사납지만 더 교활하다. 어떤 거대 쥐는 일반 레벨 1 쥐 무리의 단독 여왕개체이고, 다른 개체는 거대한 설치류 군집을 이루는 여러 마리 중 하나다. 작은 친척들처럼 거대 쥐 역시 치명적인 질병을 퍼뜨리는 것으로 악명이 높다.
+
+- **동기:** 방어, 번식
+- **환경:** 폐허나 하수도 어디서나, 한 마리에서 일곱 마리 무리
+- **체력:** 18
+- **피해:** 4점
+- **이동:** 근거리; 도약 시 원거리
+- **조정:** 지각은 레벨 4로 판정; 장애물과 퍼즐을 극복하는 관련 일는 레벨 5로 판정
+- **전투:** 거대 쥐의 병든 이빨과 발톱에 피해를 입은 희생자는 피해 4점을 받고, 근력 방어 굴림에 실패하면 레벨 5 질병에 감염된다. 12시간 이내에 림프절이 부어올라 눈에 띄는 종창(보보)이 생긴다. 이후 12시간마다 희생자는 근력 방어 굴림에 성공해야 하며, 실패하면 주변 피해 5점을 받는다.
+- **대화:** 거대 쥐는 집요하게 먹잇감을 추적하지만, 그 먹잇감이 너무 강하다고 판단하면 달아난다.
+- **용법:** PC의 연락책이 중요한 메시지를 전하기도 전에 역병으로 죽는다. PC는 연락책이 지나간 동선을 거슬러 올라가 그가 전하려던 말을 밝혀내야 하며, 그 끝에는 거대 쥐 군집이 있다.
+- **마스터 개입:** 거대 쥐의 날카로운 고음 찍찍거림에 이끌려, 일반 쥐 12마리(각각 레벨 1이지만 레벨 3 떼처럼 행동)가 소환된다.
+
+### 거대 뱀 (GIANT SNAKE) 4 (12)
+
+길이가 최소 50피트(15m)는 되는 거대 뱀의 영역에 발을 들이려는 자는, 먼저 벗어 놓은 허물과 소화된 희생자의 미끄럽게 갈라진 뼈를 보게 되어 경고를 받는다.
+
+- **동기:** 살점을 갈망함
+- **환경:** 거대 뱀이 숨을 수 있는 곳 어디서나(정글, 하수도, 동굴, 우주선 출입 통로 포함)
+- **체력:** 18
+- **피해:** 5점 이상; 전투 참조
+- **장갑:** 2
+- **이동:** 근거리
+- **조정:** 지각과 은신은 레벨 6으로 판정; 체격 때문에 속력 방어는 레벨 3으로 판정
+- **전투:** 거대 뱀은 주로 매복으로 적을 물어뜯으며, 대상의 속력 방어를 두 단계 방해한다. 공격이 성공하면 그 물어뜯기는 해당 공격에서 피해 8점을 준다. 또한 근력 방어 굴림에 실패하면 물어뜯기로 속도 피해 3점(장갑 무시)을 추가로 입는다. 거대 뱀은 잠든 대상, 기절한 대상, 또는 쇠약해진 대상을 휘감아 조일 수 있다. 붙잡힌 희생자는 탈출할 때까지 매 라운드 압박 피해 5점을 자동으로 받는다.
+  거대 뱀은 추운 기후에서, 또는 온도를 낮추는 능력으로 공격받을 때 지각·은신 조정치를 잃는다. 따라서 이 생물은 추위를 피해 물러난다.
+- **대화:** 거대 뱀은 다른 생물을 먹이로 보는 포식자이며, 이미 식사를 소화 중일 때는 주변 생물을 무시한다.
+- **용법:** 캐릭터들은 어둠 속에서 희미하게 빛나는 눈동자가 자신들을 노려보는 장면을 흘낏 보고, 차가운 공포로 희생자를 못 박으려는 듯한 기이한 위화감을 느낀다.
+- **전리품:** 거대 뱀의 배설물이나 식도 안에는 소화하지 못한 사이퍼 몇 개와, 경우에 따라 아티팩트 하나가 남아 있을 수 있다.
+- **마스터 개입:** 뱀의 독이 캐릭터에게 더 강하게 작용한다. 단순히 속도 피해를 주는 데 그치지 않고 1분 동안 마비시키며, 다만 몇 라운드 뒤에는 희생자가 다시 근력 방어 굴림을 시도해 독의 효과를 조기에 떨쳐낼 수 있다.
+
+### 거대 거미 (GIANT SPIDER) 3 (9)
+
+거대 거미는 방사능 사고, 마법, 또는 유전자 조작의 결과로 가장 흔히 나타난다. 기원이 무엇이든, 이들은 사람을 사냥할 만큼 거대한 공포의 사냥꾼이다. 크기는 대형 개만 한 것부터 대형 말만 한 것까지 다양하다.
+
+- **동기:** 피를 갈망함
+- **환경:** 어둠 속에서 거미줄을 칠 수 있는 곳 어디서나
+- **체력:** 12
+- **피해:** 3점
+- **이동:** 근거리; 거미줄 위 이동 시 원거리
+- **조정:** 지각은 레벨 5로 판정; 민첩함 때문에 속력 방어는 레벨 4로 판정
+- **전투:** 거대 거미의 독니는 피해 3점을 주며, 대상이 근력 방어 굴림에 실패하면 속도 피해 3점(장갑 무시)을 추가로 준다. 쇠약해진 희생자는 죽이지 않고 고치로 감싸 나중에 먹기 위해 매달아 둔다. 거대 거미줄(레벨 4)에 걸리면 피해자는 탈출에 성공할 때까지 움직일 수 없고 행동도 할 수 없다.
+  거대 거미는 밝은 빛 아래에서 지각·속력 방어 조정치를 잃기 때문에 강한 광원 앞에서는 자주 후퇴한다.
+- **대화:** 대부분의 거대 거미는 단순한 포식자이며, 그에 맞게 반응한다.
+- **용법:** 거대 거미줄은 불 꺼진 골목, 던전 복도, 어두운 숲, 가동 중지된 유전공학 연구소의 암전된 복도를 뒤덮을 수 있다.
+- **전리품:** 거대 거미줄에 매달린 과거 희생자들의 고치 시체에는 사이퍼를 비롯한 온갖 귀중품이 들어 있을 때가 있다.
+- **마스터 개입:** 거대 거미 알이 부화하고, 레벨 3의 작은 거미 떼가 캐릭터를 공격한다.
+
+### 고블린 (Goblin) 1 (3)
+
+고블린은 사악하고 탐욕스러우며, 비틀린 방식으로 영악하다. 대개 아이만 한 체구라 성가신 잡것처럼 보이기도 하지만, 그 착각 뒤에는 훨씬 교활한 본질이 숨어 있다. 부족 구성원들은 살인, 납치, 절도를 이루기 위해 협력한다.
+
+- **동기:** 탐욕과 절도
+- **환경:** 터널과 동굴, 보통 열 마리 이상 무리
+- **체력:** 3
+- **피해:** 2점
+- **이동:** 근거리
+- **조정:** 지각, 은신, 함정 설치 관련 일는 레벨 5로 판정
+- **전투:** 고블린은 그림자에서 매복과 치고 빠지기로 공격한다. 기습에 성공하면 레벨 4 생물로 공격하고 피해를 추가로 2점 주며, 더 큰 먹잇감을 미리 설치해 둔 레벨 5 함정으로 유인하려 한다. 진짜 위험 앞에서는 자주 달아난다.
+- **대화:** 고블린은 거짓말을 일삼는 사기꾼이지만, 짧은 시간이라면 겁을 줘 협력하게 만들 수 있다.
+- **용법:** 도둑이자 살인자인 고블린은 경쟁 고블린 부족을 포함해 모두의 적이다.
+- **전리품:** 무기 외에, 각 고블린은 개인 은닉품을 지닌다. 여기에는 뼈, 반짝이는 돌, 막대기, 그 밖의 쓸모없는 잡동사니와 함께 값싼 물건 하나에 해당하는 화폐가 포함된다.
+- **마스터 개입:** 고블린이 칼에 독을 발라 두었다. 캐릭터가 타격당하면 근력 방어 굴림을 해야 하며, 실패하면 즉시 피해 트랙에서 한 단계 내려간다.
+
+### 골렘 (GOLEM) 6 (18)
+
+골렘은 특정 목적을 위해 마법으로 만들어진 돌의 자동체 생물이며, 보통 수호자로 쓰인다. 하지만 병사, 전령, 기수(旗手) 역할을 하기도 한다. 임무를 완수한 골렘은 뜻밖의 장소에서 포즈를 취한 석상처럼 수년간 꼼짝하지 않을 수 있다. 얼룩지고 마모된 채 쓸쓸히 서 있다가, 방해를 받으면 다시 우르릉거리며 움직여 창조자가 마지막으로 내린 임무를 재개하려 든다.
+
+- **동기:** 창조자의 명령 이행
+- **환경:** 튼튼한 마법 수호자가 필요한 어디서나
+- **체력:** 30
+- **피해:** 8점
+- **장갑:** 5
+- **이동:** 근거리
+- **조정:** 지성 방어는 레벨 2로 판정; 느린 움직임 때문에 속력 방어는 레벨 4로 판정
+- **전투:** 골렘은 대형 양손 무기에 숙련되어 있으며, 이를 사용할 때 피해를 추가로 2점(총 8점) 준다. 골렘은 기절하거나 멍해지지 않는다. 대부분의 독과 질병에 면역이며, 장갑 5점 중 2점은 주변 피해(환경 피해, 열기, 추위, 낙하 등)에도 적용된다.
+  반면 골렘은 촛불처럼 희미한 빛에도 활성화된다. 완전한 암흑에서는 앞을 보지 못해 공격과 방어에 일반적인 불이익을 받는다. 완전한 암흑 상태의 골렘은 석상처럼 제자리에 굳어 버리기를 선택할 수 있다. 이렇게 하면 장갑이 10(주변 피해에 대한 장갑은 5)으로 증가하지만, 순수한 정신 행동을 포함해 어떤 행동도 할 수 없다. 누군가가 장갑을 뚫고 골렘에게 피해를 줄 수 없으면, 골렘은 빛이 돌아올 때까지 혹은 영원히 그대로 굳어 있다.
+  골렘이 완전히 파괴되더라도, 그 잔해는 사흘에 걸쳐 천천히 원형으로 다시 조립된다. 단, 잔해를 가장 고운 자갈 수준으로 갈아 넓게 흩뿌리면 예외다.
+- **대화:** 대부분의 골렘은 말할 수 없다. 말할 수 있는 골렘은 대체로 우울하고, 고립 속에서 잔혹해진 개체도 소수 있지만, 본질적으로 모두 외롭다. 많은 골렘은 움직일 수는 있어도 실제로는 느낄 수 없는 돌의 존재에 지쳐 있으며, 어떤 형태로든 최후의 끝을 바라기도 한다.
+- **용법:** 강력한 소서러들은 때때로 골렘을 만들어 추가 주문으로 복무를 강제한다. 이런 골렘은 질긴 경호원이 되지만, 때로는 그런 봉사의 허무함이 골렘을 압도해 창조자에게 반기를 들고, 죽음의 안식을 빼앗긴 분노로 속박 주문을 깨뜨리기도 한다.
+- **마스터 개입:** 골렘에게 맞은 캐릭터는 동시에 붙잡혀 박치기를 당해 추가 피해 6점을 받는다. 희생자는 벗어나거나 빠져나와야 하며, 그렇지 못하면 골렘의 손아귀에 계속 붙들린다.
+
+### 그레이 (GREY) 4 (12)
+
+그레이는 외계의 별(혹은 차원)에서 태어난 수수께끼 같은 존재로, 인접한 항성계를 잇는 광대한 거리를 건너다니는 법을 익혔다. 이들은 밤의 장막 아래 대기권으로 내려와 연구 표본을 납치하고, 면밀한 검사를 마친 뒤 희생자를 되돌려 보낸다. 돌아온 납치 피해자는 대개 얼떨떨하고 혼란스러우며, 무슨 일이 있었는지 거의 기억하지 못한다. 그레이의 검사를 받은 희생자는 피부의 기묘한 자국, 이상한 형태의 상처, 빠져 버린 치아의 빈자리, 피부 아래 어딘가 박힌 정체불명의 금속 조각을 지니는 경우가 잦다.
+그레이는 키가 3피트(1m) 정도다. 가느다란 팔다리를 지닌 좁은 몸통과 크고 둥글게 부푼 머리를 가졌으며, 아몬드형의 커다란 검은 눈 두 개가 얼굴 대부분을 차지한다. 얼굴에는 코의 흔적과 가느다란 입만 희미하게 보인다. 그레이는 피부에 밀착되는 제복을 입고, 환경을 연구하기 위한 수많은 장비를 지니며, 자기방어용 무기도 한두 개 휴대한다.
+
+- **동기:** 지식
+- **환경:** 그레이는 발각 위험이 최소인 외진 지역에 우주선을 착륙시킨다.
+- **체력:** 12
+- **피해:** 6점
+- **장갑:** 1
+- **이동:** 근거리
+- **조정:** 지식 관련 모든 일는 레벨 6으로 판정; 체구와 민첩함 때문에 속력 방어는 레벨 5로 판정
+- **전투:** 그레이는 단단한 강철에도 구멍을 낼 수 있는 강력한 광선 방사기를 휴대한다. 그레이는 이 장치를 사용해 원거리 내 목표를 공격할 수 있다. 위험한 상대를 만나면 행동을 써서 자신을 역장 거품으로 감싸는 개인 방어막을 활성화할 수 있다. 방어막은 장갑 +3을 제공하지만, 활성화된 동안에는 광선 방사기를 발사할 수 없다.
+  그레이는 과학자이지만 신중한 과학자다. 자신들의 존재를 드러낼 시체 행렬을 남기는 것은 선호하는 방식이 아니다. 그래서 그레이 무리에는 하나씩 기억 소거기를 지닌 개체가 있다. 이 그레이가 장치를 작동시키면, 근거리 내의 대상(그레이 제외)은 모두 지성 방어 굴림에 성공해야 하며, 실패하면 1분 동안 기절 상태가 되어 아무 행동도 하지 못한다(공격받으면 그 상태에서 즉시 깨어난다). 효과가 자연스럽게 끝나면, 대상은 작은 회색 존재와 마주친 기억을 전혀 떠올리지 못한다.
+- **대화:** 그레이는 방문한 장소에 호기심이 많지만, 탁 트인 곳에서 움직이거나 행동하기를 꺼린다. 비밀스럽고 신비로운 이들은 멀리서 생물을 관찰하는 편을 선호하며, 때때로 더 가까이 살펴보기 위해 납치해 간다. 누군가가 그레이에게 진정한 지식을 제공한다면, 실험동물이 아니라 동등한 존재로 대우받을 수도 있다.
+- **용법:** PC는 동물과 사람이 잇달아 사라지는 사건을 조사해 달라는 의뢰를 받는다. 납치 피해자들은 하나둘 돌아오지만, 대개 이상한 장소에서 발견되고, 언제나 침습적 처치를 받은 듯한 신체 흔적을 남긴다. 다른 이들이 같은 운명을 겪지 않게 하려면, PC는 납치범을 범행 중에 붙잡아야 한다.
+- **전리품:** 그레이는 사이퍼 한두 개를 지니고 있으며, 전투 항목에 설명된 방식으로 작동하는 기억 소거기(1d10에서 고갈 굴림 1~2)가 있을 수도 있다.
+- **마스터 개입:** 그레이의 광선 방사기에 치명적인 오작동이 발생해 폭발한다. 장치는 그레이를 즉사시키고 시신을 완전히 소멸시킨다. 이후 하루 동안 그레이가 죽은 지점에서 근거리 안으로 들어오는 생물은 그 자리에 머무는 매 라운드마다 정신성 방사선으로 인한 주변 피해 4점을 받는다.
+
+### 경비병 (GUARD) 2 (6)
+
+경비병은 질서를 유지하지만, 대개 주도적으로 움직이지는 않는다. 결국 합법성 여부와 무관하게 상관의 명령을 따른다. 경비병은 위압적인 장갑을 입은 성간 병사일 수도 있고, 쇼핑몰 보안요원·순찰 경찰·마피아의 행동대원일 수도 있다.
+(공격받으면 경비병은 가능할 경우 언제나 다른 경비병에게 지원을 요청한다.)
+
+- **동기:** 질서 유지; 명령 수행
+- **체력:** 8
+- **피해:** 3점
+- **장갑:** 1 또는 2
+- **이동:** 근거리
+- **조정:** 지각은 레벨 3으로 판정
+- **전투:** 경비병은 그리 교활하지는 않지만 수적 우세의 힘을 이해한다. 같은 라운드에 둘 이상의 경비병이 같은 목표를 공격하고, 그중 최소 하나가 근접 공격이면, 그 공격들에 대한 목표의 속력 방어 굴림은 방해를 받는다.
+- **대화:** 경비병과의 상호작용은 대개 한 가지 문제로 귀결된다. PC가 경비병이 막으라고 지시받은 일을 하려는가? 그렇다면 PC는 어려운 상황에 처할 수 있다.
+- **용법:** PC에게 경비병은 아군이 될 수도, 장애물이 될 수도, 혹은 둘 다일 수도 있다. 공공의 이익을 위해 복무하는 경비병은 자기 임무가 있으며, 캐릭터의 일을 대신해 줄 생각은 없다.
+- **전리품:** 경비병은 무기·방어구·기본 장비 외에 값싼 물건 하나에 해당하는 화폐를 지닌다.
+- **마스터 개입:** 지역 주민 1d6명이 경비병 편에 개입해, 추가 경비병을 부르거나 심지어 경비병의 적과 직접 싸운다.
+
+### 카이주 (KAIJU) 10 (30)
+
+카이주는 다양한 형태로 나타나지만, 모두 한 가지 도저히 무시하기 어려운 공통점이 있다. 바로 상상을 초월하는 크기다. 이런 거대한 존재의 출현은 드문 사건이며, 보통 며칠 이상 이어지지 않는다. 그런 점에서 카이주는 100년에 한 번 오는 폭풍과 비슷하며, 파괴력은 그에 못지않다. 모습을 드러내면 인공 구조물에 끌리는데, 밀집되어 있고 정교할수록 더 잘 끌리며, 그런 것들을 분노에 찬 듯 닥치는 대로 부순다. 정상적인 척도를 한참 벗어난 크기라 정확히 가늠하기 어렵지만, 대부분의 카이주는 키가 300피트(90m)를 넘는 것으로 추정된다.
+카이주는 주로 괴력과 거대한 질량에 의존해 싸우지만, 많은 개체가 동족과 구별되는 추가적인 요령이나 능력을 하나쯤 지니고 있으며, 이는 대개 더 큰 파괴로 이어진다.
+모든 카이주가 공유하는 또 다른 특성은 난동을 부린 뒤 자취를 감추는 능력이다. 가까운 바다로 잠수하거나 땅속 깊이 파고들어 숨어 버린다. 같은 카이주가 며칠, 몇 달, 몇 년, 혹은 수십 년 뒤 다시 나타나 같은 장소를 공격하기도 하고 완전히 다른 곳을 습격하기도 한다.
+
+- **동기:** 파괴
+- **환경:** 보통 높은 구조물이 많은 공동체 인근
+- **체력:** 140
+- **피해:** 18점
+- **장갑:** 5
+- **이동:** 근거리
+- **조정:** 크기가 워낙 커서 속력 방어는 레벨 8로 처리
+- **전투:** 카이주는 원거리 내의 대상을 주먹질, 발차기, 꼬리 후려치기, 혹은 촉수 채찍질로 공격할 수 있다. 대상은 피해를 받고, 대상의 근거리 내에 있는 모든 것 역시 피해를 입는다. 속력 방어 굴림에 성공한 존재도 7점 피해를 받는다.
+  카이주는 빠르게 회복하며, 보통 매 라운드 2점씩 치유한다.
+  카이주는 워낙 희귀하고 파괴적이어서, 생존자들은 대부분에게 개별 식별명을 붙인다. 아래 개체별 항목에는 위 기본 카이주와 다른 점만 적었다.
+  램페이지언: 이 카이주는 키가 거의 1,000피트(300m)에 이르는 것으로 추정된다. 하루에 한 번, 돌진 짓밟기 공격을 할 수 있으며, 폭 300피트(90m), 길이 2마일(3km) 직선 범위에 피해를 준다. 램페이지언은 장갑 10을 지니고, 물리 공격으로 20점 피해를 준다(피해자가 속력 방어 굴림에 성공하면 8점).
+  수네코: 사자와 도마뱀을 합친 듯한 이 카이주의 몸은 너무 뜨거워서, 피부는 붉게 달군 숯처럼, 갈기는 태양의 코로나처럼, 눈은 비추는 탐조등처럼 빛난다. 수네코는 즉시 거리 내 모든 존재에게 자동으로 10점 피해를 준다. 또한 눈에서 쌍둥이 플라스마 광선을 집중 빔으로 발사할 수 있는데, 지평선까지 닿는다. 수네코의 지상 높이를 고려하면 약 22마일(35km) 거리다. 눈빔 공격을 사용할 때는 약 1분 동안 즉시 거리의 살상 열기를 방출하지 않는다.
+- **대화:** 대부분의 PC는 거대 괴수의 주의를 끌 수 있는 특수 장치나 연계가 없으면 카이주와 직접 상호작용할 수 없다. 그런 수단이 있다면 캐릭터는 괴수를 속이거나 유인할 기회를 얻고, 어쩌면 한 카이주를 설득해 다른 카이주와 싸우게 만들 수도 있다.
+- **용법:** 카이주가 남긴 참상을 목격한 PC들은, 같은 개체가 미래에 다시 나타날 것으로 예측될 경우 이를 막을 방법을 찾기로 결심할 수 있다(혹은 그런 의뢰를 받을 수도 있다).
+- **마스터 개입:**
+  캐릭터는 카이주의 직접적인 주목을 받는다. 카이주가 그 캐릭터를 공격하면, 그 캐릭터는 XP 5점을 받고 그중 1점만 친구에게 주면 된다.
+
+### 살인 광대\*\* (KILLER CLOWN) 5 (15)
+
+광대가 인형이든, 광대 분장을 한 사람처럼 보이든, 완전히 무해할 수도 있다. 하지만 어두운 방에 혼자 앉아 있거나, 침대 밑에 누워 있거나, 길거리 하수구 철창 너머로 당신을 올려다보고 있다면 살인 광대일지도 모른다. 살인 광대는 누군가를 빙의한 악령일 수도 있고, 살인 망상에 빠져 사는 정신 이상자일 수도 있다. 어느 쪽이든, 당신이 마주칠 법한 어떤 존재만큼이나 위험하다. 광대를 보면 도망쳐라. 살인자일 수도 있으니까.
+
+- **동기:** 살인
+- **환경:** 거의 어디든
+- **체력:** 25
+- **피해:** 5점
+- **이동:** 근거리
+- **조정:** 거짓 간파, 기만, 설득은 레벨 7로 처리
+- **전투:** 살인 광대는 희생자를 속여 자신이 친구라고 믿게 만들려고 한다. 실제로는 피해자를 외진 곳으로 유인해 목 졸라 죽일 매복을 준비하는 것이다. 살인 광대가 공격에 성공하면 5점 피해를 주고, 피해자의 목을 두 손으로 움켜쥔다. 피해자가 탈출하지 못하는 매 라운드마다 목 졸림으로 5점 피해를 받는다.
+  일부 살인 광대는 초자연에 가까운 묘기를 알고 있다. 그런 광대는 전투 중 자신의 행동으로 다음 중 하나를 할 수 있다.
 
 d6
-Ability
-1
-Emit poison gas that inflicts 5 points of damage on organic beings in immediate range
-2
-Project grenades up to long distance that detonate in an immediate radius, inflicting 5 points of damage
-3
-Fire a beam that stuns an organic being for one
-round, during which it cannot take actions 
-4
-Emit a field that disrupts machines;
-technological devices and machine
-creatures in immediate range cannot
-function for one round
-5
-Fire a piercing projectile up to long
-range that inflicts 6 points of damage
-that ignores physical armor (but not
-necessarily other Armor)
-6
-Spray a corrosive that inflicts
-5 points of damage on everything
-in immediate range
+광대 묘기
+| d6 | 광대 묘기 |
+| --- | --- |
+| 1 | 한 캐릭터가 동료 한 명 이상에게 숨기고 있는 비밀을 폭로한다. |
+| 2 | 대상의 눈을 찌르는 레벨 6 공격을 가해 1분 동안 실명시킨다. |
+| 3 | 피해자 아래의 함정문을 작동시켜 20피트(6m) 아래 지하실 또는 지하 공간으로 떨어뜨린다. |
+| 4 | 비밀문이나 해치로 사라졌다가 근거리 내 어딘가의 숨은 위치에서 다시 나타난다. |
+| 5 | 대상의 목을 찌르는 레벨 6 공격을 가한다. 그 결과 격렬한 기침이 발생해 대상은 다음 행동을 잃는다. |
+| 6 | 영약 또는 에너지 음료를 들이켜 살인 광대가 입은 모든 피해를 회복한다. |
 
+- **대화:** 살인 광대는 공격할 때가 되었다고 판단하기 전까지는 농담, 마술 묘기, 저글링으로 일관한다.
+- **용법:** 방금 마을에 들어온 소름 끼치는 서커스는 살인 광대의 보호를 받고 있으며, 심야 조사자들은 곧 그 사실을 알게 된다.
+- **전리품:** 살인 광대는 전기 충격 장난감, 카드, 싸구려 장신구 형태의 사이퍼를 하나 또는 둘 가지고 있을 수 있다.
+- **마스터 개입:** 광대가 레벨 6 공격으로 캐릭터 손에 든 무기, 사이퍼, 혹은 다른 물건을 낚아채며, 성공하면 즉시 그 물건을 캐릭터에게 사용한다.
 
+### 킬링 화이트 라이트\*\* (KILLING WHITE LIGHT) 5 (15)
 
-- **대화:** Interaction is difficult for those not authorized to communicate with a wardroid.
-- **용법:** Wardroids are often deployed in groups of two or three to guard a vault or the entrance to a spacecraft, or to track down intruders aboard a space station.
-- **전리품:** The remains of a wardroid can yield one or two cyphers to someone adept at salvage.
-- **마스터 개입:** When defeated, the wardroid detonates, inflicting 8 points of damage on all creatures within immediate range.
+킬링 화이트 라이트는 은밀한 사냥꾼이 아니다. 멀리서 보면 눈물이 날 만큼 눈부신 한 점의 광채로 보인다. 가까이 다가오면 그야말로 실명할 듯한 밝기지만, 그 발산은 따뜻하지 않다. 타오르는 듯한 강렬함에도 불구하고, 킬링 화이트 라이트는 12월 밤하늘의 별빛처럼 차갑고, 그 광휘에 붙잡힌 생명체에게서 열기와 생명을 빼앗는다.
+낮 동안 킬링 화이트 라이트는 보통 비활성 상태다. 이 시기에는 어두운 구역에서 동면하며, 태양과 경쟁하려 하지 못하거나 원치 않는 것처럼 보인다.
 
+- **동기:** 유기 생명체 제거
+- **환경:** 거의 어디든 어두운 곳
+- **체력:** 15
+- **피해:** 5점
+- **장갑:** 1
+- **이동:** 비행 시 근거리
+- **전투:** 활성 상태(빛나는 상태)의 킬링 화이트 라이트는 매 라운드 즉시 거리 내 대상 하나를 눈부신 광륜의 맥동으로 공격할 수 있다. 이 공격에 대한 속력 방어 굴림에 실패한 캐릭터는 피해를 받고, 식어 가는 듯한 무감각을 느낀다. 이 존재에게 죽은 피해자는 옷과 장비는 멀쩡한 채 바람에 흩날리는 재로 변한다.
+  공격하는 동안 킬링 화이트 라이트는 근거리 내 모든 생명체에 영향을 주는 눈부신 조명 광륜을 방출한다. 범위 안의 대상은 매 라운드 근력 방어 굴림에 성공해야 하며, 실패하면 1라운드 동안 실명한다. 이 영역의 캐릭터는 실명을 피하려고 눈을 돌릴 수 있지만, 그렇게 하면 공격과 방어가 불리해진다.
+  킬링 화이트 라이트는 자기 자신의 빛 이외의 강한 광원에 취약하다. 일광에 노출되거나(예: 스포트라이트 같은) 고강도 광선에 붙잡히면, 킬링 화이트 라이트는 비틀거리며 1라운드 동안 아무 행동도 하지 못한다. 그 뒤에는 정상적으로 행동할 수 있다. 그러나 경쟁하는 빛이 3~4라운드 이상 지속되면, 이 존재는 대개 어두운 안전 지대로 후퇴한다.
+- **대화:** 킬링 화이트 라이트는 상호작용하기에는 너무 이질적이며, 인간이 이해할 수 있는 방식의 지성을 지니지 않았을 수도 있다.
+- **용법:** 비활성 상태의 킬링 화이트 라이트(백색 화산유리 덩어리처럼 보인다)는 때때로 성질이 분명히 식별되지 않는 사이퍼로 오인된다. 그러다 존재가 활성화되는 순간, 그 정체가 드러난다.
+- **마스터 개입:** 보통 상호작용에 저항적인 킬링 화이트 라이트가, 전구가 꺼지듯 사라지기 전에 눈부신 광륜으로 캐릭터의 살갗에 의미 불명의 외계 문양을 태워 남긴다.
 
+### 기계 병사 (MECHANICAL SOLDIER) 4 (12)
 
-### WEREWOLF    4 (12)
-The curse of lycanthropy begins as nightmares about being chased or, somehow more terrifying, chasing someone else. As the dreams grow more fierce and each night’s sleep provides less rest, victims begin to wonder about the bloodstains on their clothing, the strange claw marks in their homes, and eventually, the mutilated bodies they find buried in their backyards.
-When not transformed, many who suffer the curse seem like completely normal people, if emotionally traumatized by the fact that most of their friends and family have been brutally slaughtered over the preceding months. Some few, however, realize the truth of their condition, and depending on their natures, they either kill themselves before their next transformation or learn to revel in the butchery.
-- **동기:** Slaughter when transformed; searching for answers when human
-- **환경:** Anywhere dark, usually alone but sometimes as part of a small pack of two - **to five** 
-- **체력:**24
-- **피해:** 5 points
-- **이동:** Short; long when in wolf form
-- **조정:** Attacks as level 6 when half lupine; Speed defense as level 6 when full lupine; perception as level 7 when half or full lupine
-- **전투:** In normal human form, a werewolf has no natural attacks, though it may use a weapon. It also lacks the abilities described below; its only power is to transform into a half-lupine form or full-lupine form, which takes 1d6 agonizing rounds. A handful of werewolves can control their transformation, but most change at night in response to moon-related cues.
-Half Lupine: A half-lupine werewolf is part humanoid and part wolf, but completely terrifying. It attacks with its claws.
-Full Lupine: A full-lupine werewolf is a particularly large and vicious-looking wolf. It normally bites foes and deals 2 additional points of damage (7 points total) but can also use its claws.
-Half and Full Lupine: Half-lupine and full-lupine werewolves both enjoy enhanced senses and regain 2 points of health per round. However, a werewolf that takes damage from a silver weapon or bullet stops regenerating for several minutes.
-- **대화:** In human form, werewolves have the goals and aspirations of normal people, and they often don’t recall what they did while transformed or even realize that they suffer the curse of lycanthropy. In half- or full-lupine form, there’s no negotiating with one.
-- **용법:** When the moon is full, werewolves hunt
-- **마스터 개입:** A PC who moves down one step on the damage track due to damage inflicted by a werewolf must succeed on a Might defense roll or be afflicted with the curse of lycanthropy.
+증기로 구동되는 시계장치 자동인형인 기계 병사들은 제작자가 중요하게 여기는 장소를 순찰하고 경비한다. 움직임은 길쭉하고 어색하며, 이 유사 인간형 자동인형은 거의 8피트(2m) 키에 이른다. 세 손가락 달린 손에는 다양한 무기를 들고 있다.
+일부 사람들은 톱니로 구동되는 병사가 과연 진정한 지성을 얻을 수 있는지 궁금해했다. 대부분은 그 제안을 비웃지만, 저 눈의 유리 렌즈에 번뜩이는 건 정말 무엇일까?
 
-### **WITCH**    5 (15)
-They studied the old ways at the dark of the moon. They heard the shuffle of unnamed things through the darkling forest, watched the convection of the bubbles rise in the cauldron, and attended to the mumbled instructions of withered crones and crumbling messages traced on dead leaves. Then one midnight, everything came together. Another witch was born.
-When witches lose sight of their humanity and use their powers for personal gain without regard for others, they are warped by the power they channel, both mentally and physically. However, they can hide such transformations beneath layers of illusion.
-- **동기:** Domination of others, knowledge
-- **환경:** Almost anywhere, usually alone, but sometimes as part of a coven of three - **to seven** witches 
-- **체력:**21
-- **피해:** 5 points
-- **이동:** Short; long when flying (on a broomstick)
-- **조정:** Deception and disguise as level 7; Speed defense as level 6 due to familiar; knowledge of forests and dark secrets as level 6
-- **전투:** When attacked, a witch relies on the aid of their familiar to improve their Speed defense. The familiar could be a large black cat, an owl, a big snake, or some other creature. Killing a witch’s familiar is so shocking to a witch that their attacks and Speed defense are hindered for a few days. It’s also a way to ensure that the witch never forgives their foe or grants mercy.
-(Familiar: level 3; health 9; Armor 1)
-A witch can use their ritual blade to attack a creature in immediate range, but would much rather use curses, including the ones described below. A witch can’t use the same curse more than once every other round.
-Charm: Victims within short range who fail an Intellect defense roll are enslaved. Victims turn on their allies or take some other action described by their new master. The curse lasts for one minute, or until the victims succeed on an Intellect defense roll; each time they fail a roll, the next roll is hindered by one additional step.
-Hexbolt: A victim within long range is attacked with fire, cold, or psychic
-bolts, as the witch chooses. Psychic bolts deal 3 points of Intellect damage (ignores Armor).
-Shrivel: A victim within long range and up to two creatures next to the victim must succeed on a Might defense roll or take 3 points of Speed damage (ignores Armor). In each subsequent round, a victim who failed the previous roll must make another Might defense roll with the same outcome on failure.
-Vitality: The witch regains 11 points of health and gains +3 to Armor for one minute. Multiple uses don’t further improve Armor.
-- **대화:** Most witches are deceptive and conniving,
-though a few work against the stereotype. All witches are willing to negotiate, though the devious ones usually do
-so in bad faith.
-- **용법:** The PCs need an old book to continue their investigation. Word is that the old woman who lives on the edge of the woods has the only copy.
-- **전리품:** A witch usually has an artifact or two on their person, possibly including a flying broom (which has a depletion roll of 1 in 1d10).
-- **마스터 개입:** After a character succeeds on a defense roll against one of the witch’s ongoing curse effects, the witch immediately tosses a hexbolt at them. If the character is hit, the ongoing curse effect also continues.
+- **동기:** 이해 불가
+- **환경:** 거의 어디서나, 보통 셋에서 여덟 기 규모의 집단
+- **체력:** 15
+- **피해:** 4점
+- **장갑:** 3
+- **이동:** 근거리
+- **조정:** 지각은 레벨 5로 판정; 도약, 달리기, 균형 잡기는 레벨 3으로 판정
+- **전투:** 기계 병사들은 잘 조직된 전술로 집단 공격한다. 말을 할 수는 있지만, 무선 전파를 통해 반경 100마일(160킬로미터) 안에서 서로에게 정보를 소리 없이 즉시 전송한다.
+  고급 무장을 한 병사들은 보통 재장전 없이 빠르게 연속 사격할 수 있는 소총형 총기를 지닌다. 이 병사들은 서로 인접한 최대 세 목표를 동시에 사격할 수 있다. 첫 번째 이후의 각 목표에 대해서는 방어 굴림이 완화된다.
+  또한 병사 넷 중 하나는 등에 장착한 장치로 장거리에서 폭탄을 매우 정확하게 투척한다. 이 폭탄은 즉시 거리 범위에서 폭발해 피해 4점을 준다. 각 장치에는 이런 폭탄이 1d6개 들어 있다.
+  원래 무장을 잃은 기계 병사는 주변에서 구할 수 있는 아무 무기나 주워 쓴다.
+  특정 주파수의 소리는 이 시계장치 병사들을 혼란시켜 모든 행동을 두 단계 저해하며, 다른 주파수는 1d6 + 1라운드 동안 아예 행동하지 못하게 만든다.
+- **대화:** 기계 병사들은 단독으로 있을 때는 사전에 받은 명령에 따라 행동한다. 그 외에는 제작자의 말만 듣고, 오직 제작자에게만 복종한다.
+- **용법:** 수완 좋은 산적 하나가 아마도 소리를 이용해 여러 기계 병사를 포획해 재목적으로 사용하고 있다. 이 병사들은 예전 임무를 전혀 기억하지 못하며, 새 주인을 위해 첨단 장비를 갖춘 노상강도이자 해적으로 일한다. 산적은 병사가 손상되었을 때 수리하는 법도 모르고, 새 병사를 만드는 법은 더더욱 모른다.
+- **전리품:** 집요한 과학자라면 이 자동인형의 시체를 분해해 사이퍼를 찾아낼 수 있다.
+- **마스터 개입:** 파괴된 병사가 불길, 검은 연기, 증기를 뿜으며 폭발해 즉시 거리 안의 모두에게 피해 6점을 준다.
 
+### 미-고\*\* (MI-GO) 5 (15)
 
-### XENOPARASITE    6 (18)
-This alien creature exists only to eat and reproduce. In doing so, it also destroys every form of life it encounters. Xenoparasites are not technological but were likely engineered by a species with advanced biological super-science. Xenoparasites don’t travel between star systems on their own; they were presumably spread across an area of space by their creators to serve as a broad-spectrum bioweapon. What has become of the original maker species is unknown, but given the fecundity and ferocity of the xenoparasite, it’s likely they were consumed by their own creation.
-Xenoparasites use ovipositors to lay thousands of microscopic eggs in victims. The implanted eggs, like tiny biological labs, detect the particular biology of the new host, adapt accordingly, and use it to fertilize themselves. Within a day or two, victims who haven’t already been consumed by adult xenoparasites (which are human sized) give explosive birth to multiple vicious juveniles (which are the size of cats). These juvenile xenoparasites have an edge in dealing with the particular species of creature they hatched from.
-- **동기:** Eat and reproduce
-- **환경:** Hunts alone or in small groups
-- **체력:** 28
-- **피해:** 6 points
+이 외계 생명체들은 유고스의 균류, 혹은 가증스러운 자들로 알려져 있다. 곤충과 균류성 존재가 뒤섞인 기괴한 혼종으로, 수많은 사지와 날개를 지녀 공중에 떠오를 수 있다. 이들은 때때로 인간을 노예로 삼아 기묘한 공장, 광산, 또는 기타 노동집약적 작업에 동원한다.
+
+- **동기:** 지식과 힘
+- **환경:** 보통 한랭 또는 온대의 언덕이나 산악 지대
+- **체력:** 19
+- **피해:** 5점
+- **장갑:** 1
+- **이동:** 근거리; 비행 시 장거리
+- **조정:** 모든 지식 관련 일는 레벨 6으로 판정
+- **전투:** 미-고는 집게와 발톱으로 자신을 방어하지만, 대개는 기술 장치를 무기로 쓰는 편이다. 미-고 하나는 다음 능력 중 하나를 장치로 사용할 수 있다고 가정한다.
+  장거리 대상에게 전격 파동을 발사해 피해 6점을 준다.
+  독가스를 구름 형태로 방출해 근거리까지 퍼뜨린다. 피해자가 근력 방어 굴림에 실패하면 지능 피해 4점을 입는다(미-고는 면역).
+  자신의 홀로그램 영상을 옆에 투사해, 실제 미-고를 겨냥한 공격을 두 단계 저해한다.
+  장갑에 +2를 제공하는 음파장을 투사한다.
+  미-고는 통역기, 신체 없이도 인간의 뇌를 보존할 수 있는 원통, 정교한 도구, 착용자의 행동을 통제하는 목걸이, 기괴한 이동수단 등 다른 장치들도 사용할 수 있다. 미-고는 냉기에 피해를 받지 않으며 호흡할 필요도 없다.
+- **대화:** 인간 언어를 구사하는 미-고는 극히 드물지만, 이 생명체들과의 평화적 상호작용이 불가능한 것은 아니다. 다만 대부분의 인간을 동물에 가까운 존재로 보기 때문에 매우 어렵다(레벨 7).
+- **용법:** 캐릭터들은 포획해 노예로 삼으려는 미-고의 공격을 받는다. 붙잡히면 플레이어 캐릭터들은 원시 유적을 뒤져 불길한 기술 유물을 수집하는 일에 투입된다.
+- **전리품:** 미-고는 항상 사이퍼 1d6개를 지니고 있으며, 인간 기준으로는 기능을 알 수 없는 기묘한 물건도 많이 갖고 있다.
+- **마스터 개입:** 미-고의 몸에서 나온 균류 포자가 캐릭터를 압도한다. 캐릭터는 근력 방어 굴림에 성공해야 하며, 실패하면 다음 턴을 잃는다. 캐릭터가 그 생명체의 즉시 거리 안에 있는 동안 이 위험은 라운드마다 반복된다.
+
+### 모쿠렌 (MOKUREN) 3 (9)
+
+모쿠렌은 보통 고양이보다 크지 않지만, 잠시 동안 버스만 한 크기로 부풀어 오를 수 있다. 그 능력과 화려한 발화성 꼬리 덕분에 이 생물은 적어도 이야기책과 그림책에서는 아이들에게 특히 인기가 많다. 모쿠렌이 그림이나 기타 2차원 예술 속으로 "파고들" 수 있다는 점을 생각하면, 일부 모쿠렌 이미지는 단순한 묘사 이상일지도 모른다.
+
+- **동기:** 놀이
+- **환경:** 거의 어디서나, 보통 벽이나 이야기책 속의 정지 이미지 형태
+- **체력:** 9
+- **피해:** 3점, 거대화 시 예외; 전투 참조
+- **이동:** 근거리; 비행 시 장거리
+- **조정:** 크기 덕분에 방어는 레벨 5로 판정, 단 거대화 시 예외; 전투 참조
+- **전투:** 모쿠렌은 세 가지 상태로 존재한다. 이미지 상태, 고양이 크기의 실체 상태, 버스 크기의 거대 상태다.
+  이미지 상태의 모쿠렌은 피해를 입지 않는다. 이미지가 훼손되더라도 모쿠렌은 그저 "파고들어" 사라졌다가, 몇 마일 이내의 다른 평면 공간에 낙서처럼 다시 나타난다.
+  또는 이동 행동으로 이미지에서 빠져나와 물리적인 고양이 크기 생물이 될 수 있다. 이 형태에서는 발톱이나 물어뜯기로 공격할 수 있다. 또한 빛나는 꼬리에서 불줄기를 뿜어 장거리 내 목표를 공격할 수 있다. (모쿠렌이 비행할 때는 꼬리로 제트 분사를 만들어 하늘로 솟아오른다.)
+  마지막으로 거대화 공격을 할 수 있는데, 같은 행동의 일부로 버스 크기로 부풀어 올라 목표를 후려치거나 물어뜯거나 올라탄다. 거대화 상태의 모쿠렌은 장갑 +5를 얻고, 모든 공격 및 방어를 레벨 7 생물로 수행한다. 적중 시 피해 7점을 준다. 그러나 모쿠렌은 24시간 동안 총 4라운드까지만 거대화 상태를 유지할 수 있으므로, 이 능력은 아껴 쓰거나 격노했을 때만 사용한다.
+- **대화:** 활동 중인 모쿠렌을 보는 것은 길조로 여겨진다. 단, 그 기분을 거슬렀다면 예외다. 그때는 기분이 상한 생물에게 단것을 바쳐야 한다. 모쿠렌은 말을 하지는 못하지만, 자신이 사는 지역의 언어를 훈련된 사냥개나 추적견 수준으로는 이해한다.
+- **용법:** 모쿠렌은 캐릭터들을 미탐사 지역으로 이끌어, 그들이 지나쳤거나 놓친 장소를 찾게 도울 수 있다. 또한 플레이어 캐릭터들을 위험으로 이끌 수도 있지만, 보통은 곤경에 처한 다른 이를 돕기 위해(즉, 캐릭터들의 도움을 끌어오기 위해) 그렇게 한다.
+- **마스터 개입:** 모쿠렌의 공격에 맞은 캐릭터는 피해를 받지 않는다. 대신 근력 방어 굴림에 성공해야 하며, 실패하면 생물과 함께 가장 가까운 벽, 바닥, 또는 책 속으로 끌려 들어가 2차원 이미지가 된다. 이 상태에서 피해자는 모쿠렌이 끌어내 주거나, 다른 생물이 "뜯어내" 꺼내 주거나, 하루가 지나 효과가 자연 종료될 때까지 정지 상태에 놓인다.
+
+### 마그네타르 (MAGNETAR) 8 (24)
+
+마그네타르에 대해 알려진 것은 강력한 자기장을 생성하고 통제하는 능력뿐이다. 여러 연구 집단은 마그네타르가 외계 존재, 지각 있고 자기개선이 가능한 로봇, 혹은 근본적 힘의 일종의 발현이라고 이론화한다. 마그네타르가 어렴풋이 인간형에 가까운 형태를 지녔다는 점 때문에, 극소수는 이 빌런이 사실 매우 강력한 돌연변이 능력으로 옛 자아의 기억이 모두 소실된 인간이라고까지 말한다.
+진실은 이렇다. 마그네타르는 자신의 거대한 전자기적 징표를 억제할 수 있게 된, 중성자별 핵의 활동적이고 지각 있으며 자기조절적인 존재다. 단 하나의 마그네타(극도로 강한 자기장을 지닌 중성자별)에서 만들어진 두 존재 중 하나인 마그네타르는 탐사 임무에 파견되었다. 수천 년 뒤 지구에 추락해 손상되었고, 기억 데이터 대부분을 잃었다. 마그네타르는 무엇인가(자신의 쌍둥이)가 자신에게서 빼앗겼다는 사실은 알지만, 그것이 무엇인지는 기억하지 못한다. 그리고 그 책임을 인간에게 돌리기로 했다.
+(마그네타르는 자기력에 대한 파워 시프트 3단계와 회복력에 대한 파워 시프트 2단계를 지닌 것으로 간주한다. 이 시프트는 조정치와 기타 능력치에 이미 반영되어 있다.)
+
+- **동기:** 복수; 기억 회복
+- **환경:** 거의 어디서나, 자신이 잃어버린 것을 찾아다님
+- **체력:** 50
+- **피해:** 12점
+- **장갑:** 8
+- **이동:** 근거리; 자기 부상 시 장거리
+- **조정:** 체질량 때문에 속력 방어는 레벨 5로 판정; 전자기 조작으로 금속을 제어하고 형상화하는 일는 레벨 11로 판정
+- **전투:** 마그네타르의 주먹은 선택적으로 질량을 더할 수 있어 강력한 일격을 만든다. 그러나 진정으로 위협적인 능력은 매우 장거리 안의 모든 금속을 레벨 11로 통제하는 힘으로, 이를 이용해 벽, 공격 수단, 집게 등 상상 가능한 거의 모든 것을 만들어 낸다. 영향권 안에서 눈에 보이는 교량, 차량, 철근이 든 구조물을 들어 올릴 수도 있다. 이런 대형 물체를 공격의 일부로 던지면, 목표와 목표의 근거리 안에 있는 모든 대상이 피해 10점을 입는다.
+  마그네타르의 유일한 약점은 정신 공격이다. 그나마 다행인 점은, 전통적인 난타전으로 체력을 0으로 만들면 지표면에 통제 불능의 중성자별 파편이 방출될 수 있기 때문이다.
+- **대화:** 음울하고 무뚝뚝한 마그네타르는 혼자 있기를 선호하지만, 가끔 자신의 존재를 이렇게 만든 무언가나 누군가를 끌어내기 위해 난동을 벌인다. 그는 이유를 모른 채 감정적 상실감의 끌림을 늘 느낀다(그 감정이 쌍둥이를 잃은 데서 온다는 사실을 깨닫지 못한다).
+- **용법:** 닥터 드레드는 마그네타르의 몸에 엮여 있는 첨단 기술을 연구하고 싶어 그의 목에 현상금을 걸었다. 액수는 터무니없이 크지만, 마그네타르 자체도 그만큼 터무니없다.
+- **마스터 개입:** 캐릭터가 근력 방어 굴림에 실패하면, 모든 느슨한 금속 물품(무기 포함)이 캐릭터에게서 뜯겨 나가 근처의 금속 지지대에 달라붙는다.
+
+### 미스터 제노사이드\*\* (MISTER GENOCIDE) 5 (15)
+
+본명 알프레드 웹스터인 미스터 제노사이드는 피부에서 치명적인 독을 합성해 내는 불행한 능력을 지녔다. 그의 접촉은 사람을 죽일 수 있고, 원한다면 침이나 심지어 숨결만으로도 죽일 수 있다.
+미스터 제노사이드의 곁에 너무 오래 머문 사람은 빌런이 적극적으로 능력을 쓰지 않아도 병든다. 그래서 그의 부하들은 보통 방독면과 보호복을 착용한다. 미스터 제노사이드는 자신이 사는 도시의 폭력 조직 우두머리 자리를 차지했으며, 다른 범죄자를 희생시키더라도 사업을 확장할 기회를 늘 노린다.
+미스터 제노사이드의 독으로 피해자가 죽으면, 피부와 눈의 흰자위가 밝은 초록색으로 물든다. 이 때문에 일반인이 그에게 느끼는 공포는 더 커진다. 슈퍼히어로들조차 그의 독소에 쓰러진 바 있다.
+미스터 제노사이드는 때때로 아나테마와 손잡는데, 끊임없이 방출되는 제노사이드의 독을 견딜 수 있는 빌런이 붉은 산뿐이기 때문이다.
+(미스터 제노사이드는 독 능력에 대한 파워 시프트 2단계, 지능에 대한 파워 시프트 1단계, 회복력에 대한 파워 시프트 2단계를 지닌 것으로 간주한다. 이 시프트는 조정치와 기타 능력치에 이미 반영되어 있다.)
+
+- **동기:** 권력 축적
+- **환경:** 범죄 두목들이 모이는 곳 어디서나
+- **체력:** 15
+- **피해:** 5점; 전투 참조
+- **장갑:** 1
+- **이동:** 근거리
+- **조정:** 독성 숨결 공격과 근력 방어는 레벨 7로 판정; 지능 방어와 사악한 천재성은 레벨 6으로 판정
+- **전투:** 미스터 제노사이드에게 접촉당한 목표는 난이도 7 근력 방어 굴림에 성공해야 하며, 실패하면 전염된 독으로 속도 피해 5점(장갑 무시)을 입는다. 더 나쁜 점은, 피해자가 근력 방어 굴림에 성공할 때까지 독이 라운드마다 속도 피해 2점을 계속 준다는 것이다.
+  격라운드마다 미스터 제노사이드는 단일 행동으로 근거리 안 최대 열 명에게 영향을 주는 레벨 7 독 공격을 할 수 있다. 근력 방어 굴림에 실패한 대상은 속도 피해 7점(장갑 무시)을 입고, 기침과 구역질 때문에 한 라운드 동안 무력화된다. 이 흡입 독은 라운드마다 추가 피해를 주지는 않는다.
+  미스터 제노사이드는 대부분의 독액, 독소, 맹독에 면역이다.
+- **대화:** 법적으로도 명백한 광인인 미스터 제노사이드는 사람 죽이기를 즐긴다. 잠시 협상할 수는 있지만, 얻을 이득이 충분하지 않다고 판단하면 그저 질식하며 초록빛으로 변해 가는 모습을 보는 재미를 위해 숨결 한 번으로 모두를 죽일 수도 있다.
+- **용법:** 두 범죄 조직 간의 갱단 전쟁이 도심에서 격화되고, 총격전 사이에 낀 무고한 시민 다수가 총상 또는 독(초록색 피부) 피해를 입는다. 누군가는 미스터 제노사이드를 막아야 한다.
+- **전리품:** 이 슈퍼빌런은 값비싼 물건 1d6개에 해당하는 화폐, 사이퍼 한두 개, 그리고 독이 묻은 각종 칼, 바늘, 약병을 지니고 다닌다.
+- **마스터 개입:** 독에 영향받은 캐릭터는 두 번째 근력 방어 굴림을 해야 하며, 실패하면 쇼크로 의식을 잃는다. 실신은 최대 1분 동안 지속되거나, 누군가 흔들어 깨우면 끝난다.
+
+### 일반 동물 (NORMAL ANIMALS)
+
+이 장의 많은 생물과 달리, 일반 동물은 단순하고 이해하기 쉬워서 보통 레벨과 한두 가지 추가 수치만으로도 충분히 표현할 수 있다.
+
+- **곰, 흑곰: 레벨 3,** 공격은 레벨 4로 판정
+- **곰, 불곰: 레벨 5;** 체력 20; 장갑 1
+- **개: 레벨 2,** 지각은 레벨 3으로 판정
+- **개, 경비견: 레벨 3,** 공격과 지각은 레벨 4로 판정
+- **매: 레벨 2;** 라운드마다 장거리 비행
+- **말: 레벨 3;** 라운드마다 장거리 이동
+- **쥐: 레벨 1**
+- **방울뱀: 레벨 2;** 물기 공격은 속도 피해 3점(장갑 무시)을 준다
+
+### 누페포 (NUPPEPPO) 2 (6)
+
+누페포는 어렴풋이 형태를 갖춘 팔다리로 걸어 다니는, 살아 움직이는 인간 살덩어리다. 이들은 부패와 죽음의 냄새를 풍긴다. 공동묘지, 전장, 검시소처럼 시신을 보관하거나 안치하는 장소에서 목격된다. 다른 장소에서 보일 때 누페포는 목적 없이 거리를 배회하며, 때로는 혼자, 때로는 무리를 이루고, 때로는 내버려 두기를 바라는 살아 있는 사람을 따라다닌다.
+이 생물에 대한 정보는 거의 없다. 누군가의 되살리기 시도가 의도치 않게 낳은 결과일 수 있으며, 그 경우 주변의 다른 죽은 조직까지 활성화해 더 많은 누페포를 만들어 낼 수 있다. 반대로, 특히 끔찍한 망자의 영혼일 가능성도 있다.
+누페포는 때때로 살아 있는 개인을 애정 표현 하나 없는, 조용하고 악취 나는 반려동물처럼 따라다닌다. 이유는 아무도 모른다.
+(누페포가 캐릭터를 따라다니기 시작하면, 그 캐릭터와 동료들의 상호작용 일는 방해받는다. 대부분의 다른 생물은 근처에 살아 움직이는 인간 살덩이가 어슬렁거리는 상황을 꺼린다.)
+
+- **동기:** 배회, 죽은 살점 뜯어먹기
+- **환경:** 밤의 죽음 관련 장소 근처, 단독 또는 최대 여덟 마리 무리
+- **체력:** 12
+- **피해:** 4점
+- **장갑:** 1
+- **이동:** 근거리
+- **전투:** 누페포는 울퉁불퉁한 팔다리로 적을 후려칠 수 있다. 누페포를 근접으로 만지거나 타격하면, 공격자의 무기(또는 손)가 누페포에 들러붙고 난이도 5 근력 굴림에 성공해야만 떼어 낼 수 있다.
+  누페포의 공격을 받은 대상(또는 누페포를 만진 사람)은 접촉 다음 라운드부터 라운드마다 속도 피해 1점(장갑 무시)씩 부패가 진행된다. 부패 확산을 막으려면 감염된 살갗 층을 도려내야 하며, 이때 피해 4점(장갑 무시)을 입는다.
+- **대화:** 누페포는 누군가 다가오면 그 대상을 향해 "얼굴" 같은 부분을 돌리지만, 질문이나 명령에는 반응하지 않는다. 다만 물리적으로 막지 않으면 그때부터 상대를 따라다니기 시작할 수 있으며, 그렇게 저지당하면 누페포는 폭력적으로 변한다.
+- **용법:** 플레이어 캐릭터들이 무덤, 관, 봉인된 연구소를 열자 여러 누페포가 쏟아져 나온다. 저지하지 않으면 이 생물들은 자신들을 발견한 이들을 "입양"하려 든다.
+- **마스터 개입:** 누페포를 반려동물처럼 따라다니게 놔둔 캐릭터(혹은 막지 못한 캐릭터)는 잠에서 깨어나 누페포가 밤사이 몸 위에 자리를 잡고 접촉-부패 능력으로 먹이를 취하고 있음을 발견한다. 실제로는 깨어날 즈음 이미 행동 불능 상태일 수도 있다.
+
+### 오우거 (OGRE) 4 (12)
+
+오우거는 야수 같은 난폭함을 지닌, 키 8피트(2m)의 가학적 식인 괴물로 숲, 산, 그 밖의 야생 지대에서 다른 생물을 사냥한다. 그래서 엘프나 페이 같은 숲의 존재들과 자주 충돌한다. 더 문명화된 지역에 사는 오우거는 인간의 적이기도 하지만, 대개 문명의 가장자리보다 안쪽으로는 잘 들어오지 않는다.
+오우거는 보통 누더기처럼 기운 옷을 걸치거나 아예 아무것도 입지 않는다.
+
+- **동기:** 살점에 대한 굶주림, 가학성
+- **환경:** 거의 어디서나, 보통 단독 또는 (드물게) 셋에서 넷 무리
+- **체력:** 20
+- **피해:** 8점
+- **장갑:** 1
+- **이동:** 근거리
+- **조정:** 순수 근력 위업은 레벨 6으로 판정; 지성 방어와 기만 간파는 레벨 3으로 판정; 큰 체격 때문에 속력 방어는 레벨 3으로 판정
+- **전투:** 오우거는 보통 곤봉이나 대형 양손 무기를 사용해 강력한 타격을 가한다. 자신보다 작은 생물과 싸우는 데 익숙해 체격과 근력을 유리하게 활용한다. 오우거가 자신보다 작은 적을 타격하면, 희생자는 최대 5피트(1.5m) 뒤로 밀려나거나 멍해져 다음 행동이 방해받는다.
+  오우거는 거대한 무기를 크게 휘둘러 근거리 내 모든 적을 동시에 공격할 수도 있다. 이 공격에 대한 방어는 방해를 받으며, 공격은 피해 5점을 준다.
+  오우거는 전투에서 좀처럼 도망치지 않으며, 압도적인 힘의 적이 아니면 항복하지 않는다.
+- **대화:** 오우거는 어리석고 잔인하다. 자신이 사는 지역에서 가장 흔한 언어를 말하긴 하지만 어휘는 극히 제한적이다. 같은 종끼리도 대화를 좋아하지 않는다. 논리로 설득하기는 매우 어렵지만, 때로는 속일 수 있다.
+- **용법:** 단독 오우거 한 마리는 1티어 캐릭터 파티에 훌륭한 조우가 된다. 오우거 여러 마리, 특히 장비와 훈련이 잘 갖춰진 전사들은 강력한 주인의 군대나 경비대로 매우 유용하다. 사악한 마법사나 전쟁군주는 오우거를 노예화해 군대의 선봉에 세우는 것을 좋아한다. 이런 경우 오우거는 대개 뇌물, 마법적 예속, 혹은 압도적 폭력으로 통제된다.
+- **전리품:** 일부 오우거는 소굴에 금화나 귀중품을 모아 두지만, 마법이나 사이퍼는 거의 사용하지 않는다.
+- **마스터 개입:** 오우거의 강력한 일격(적중 여부와 무관)이 지면이나 벽을 강타해 구조물에 큰 손상을 준다. 그 결과 붕괴, 함몰, 산사태가 일어날 수 있다. 또한 숨겨진 지하 동굴이나 방이 드러날 수도 있다.
+
+### 오크 (ORC) 2 (6)
+
+더러움과 공포 속에서 태어난 오크 종족은 비참하고 뒤틀린 휴머노이드들로 이루어져 있으며, 더 강력한 사악한 지배자의 소모품이 되기 쉬운 운명처럼 보인다. 이 혐오스러운 생물들은 스스로만 남겨 두면 서로를 물어뜯고, 더 강한 자가 바로 다음 약자를(그 아래로도 계속) 잔혹한 조롱, 끔찍한 농담, 육체적 폭력으로 짓누른다. 증오할 주인이 없을 때 이들은 자기 자신을 증오한다.
+오크는 둘이 똑같이 생긴 경우가 없지만, 모두가 사납고 추하며 어수선한 외양을 지녔다. 결코 깨끗하지 않고 최근 식사의 흔적이 자주 묻어 있으며, 입안에는 날카롭고 부러진 이빨이 가득해 진짜 송곳니처럼 자라기도 한다. 성체의 키는 인간 아이만 한 크기부터 건장한 성인 남성보다 큰 개체까지 다양하다. 크고 작음을 막론하고 거의 모든 오크는 등이 굽고 다리가 휘어 있다. 피부색은 수년간 쌓인 때와, 무기를 들 수 있게 된 순간부터 거의 늘 입는 철제 갑옷 때문에 알아보기 어렵다.
+
+- **동기:** 자신보다 타인을 더 비참하게 만들기
+- **환경:** 산 주변, 산 위, 산 아래 어디서나; 보통 넷에서 여섯 무리, - **또는** 수십에서 수백 규모의 부족
+- **체력:** 7
+- **피해:** 4점
 - **장갑:** 2
-- **이동:** Short; long when flying
-- **조정:** All stealth actions as level 8
-- **전투:** A xenoparasite bites with its mandibles and stings one victim with its ovipositor as a single action. The bite inflicts 6 points of damage, and the ovipositor inflicts 3 points of damage and injects thousands of microscopic eggs if the victim fails a Might defense roll.
-Once every other round, an adult can fly at least a short distance to build terrifying velocity and then make a flying attack with its mandibles, dealing 12 points of damage. Defenses against this attack are hindered.
-An egg host requires the attention of someone skilled in medicine (and a successful difficulty 7
-Intellect-based roll) to sterilize all the eggs in the victim’s blood before they hatch twenty or more hours after being deposited, which kills the host and releases 1d6 juvenile xenoparasites. Juveniles are level 2 creatures, but they attack the species of the host they were hatched from as if level 4. After just a few days of feeding, they grow to full adult size.
-Xenoparasites can survive at crushing ocean and gas giant pressures, as well as in the vacuum of space. They can encrust abandoned spacecraft and desolate moons for millennia in extended hibernation, only to become active again when vibrations alert them to potential new food sources.
-- **대화:** These creatures are built to consume,
-not negotiate.
-- **용법:** Xenoparasites are tough aliens. A colony of them would be a challenge even for PCs normally accustomed to stiff opposition. A single xenoparasite introduced into an inhabited area could turn the entire place into an infested hive within a week.
-GM (group) intrusion: An NPC shrieks, bursts, and births 1d6 juvenile xenoparasites.
+- **이동:** 근거리
+- **조정:** 방패를 들고 있을 때 속력 방어는 레벨 3으로 판정; 호의적 상호작용은 레벨 1로 판정
+- **전투:** 대부분의 오크는 원거리까지 사격 가능한 활을 지닌다. 일부는 방패를 들고 중형 도끼, 검, 철퇴를 휘둘러 피해 4점을 준다. 다른 오크(보통 동족보다 큰 개체)는 방패를 버리고 대형 양손 망치류를 사용해 피해 6점을 준다.
+  오크는 짧고 거친 삶을 산다. 수년간 살아남는 소수는 특별한 강점이 있기 때문이다. 평균보다 더 은밀하거나, 더 강하거나, 더 질기거나, 더 악랄한 개체들이다. 각각의 조정은 다음과 같다.
 
+* 은신 일는 레벨 5로 판정
+* 근접 무기 피해 +2점
+* 체력 +10
+* 속임수와 기만 관련 일는 레벨 5로 판정
 
+- **대화:** 오크는 절박한 상황에서 한 시간만 더 살 수 있다면 자기 어미도 찌를 존재다. 그럼에도 대부분의 오크는 자신이 섬기는 사악한 주인(있다면)을 구타와 고문으로 학습한 공포 때문에 두려워한다. 위협으로 오크와 협상하려는 캐릭터는 단기적 성공 뒤에 중기적 배신을 맞게 된다.
+- **용법:** 오크 무리가 숲 가장자리에서 PC들에게 화살을 퍼붓는다. 하지만 이 오크들은 교활해서, 전투로 곧장 돌진한 캐릭터는 숨겨진 함정 구덩이나 준비된 매복에 걸릴 수 있다.
+- **전리품:** 오크는 잡동사니를 많이 들고 다닌다. 이 쓰레기 더미 사이에서 오크 무리 전체가 합쳐 중간 가격 아이템 하나에 해당하는 화폐를 지니고 있을 수 있다.
+- **마스터 개입:** 야만적인 환호와 함께 오크 다섯 마리가 추가로 전투에 뛰어든다.
 
+### 오컬티스트\*\* (OCCULTIST) 5 (15)
 
+초상현상 연구자, 광신 집단 신도, 비밀 백마법 수행자, 마녀단 구성원 등은 오컬티스트일 수 있다. 형이상학 연구를 통해 오컬티스트는 여러 마법 기교를 익히며, 그중에는 망자를 소환하거나 추방하는 능력도 있다.
 
+- **체력:** 15
+- **피해:** 5점
+- **이동:** 근거리
+- **조정:** 오컬트 주제와 의식 지식은 레벨 8로 판정; 거짓말과 속임수 감지는 레벨 2로 판정
+- **전투:** 오컬티스트는 레벨 5 영혼 또는 악마를 소환해 10분 동안 부리게 하는 부적이나 장치를 지닌다. 일부는(혹은 그 대신) 장거리 내 일반 생물에게 피해 5점을 주고, 악마나 영혼에게는 피해 10점을 주는 주문·아이템·장치를 갖고 있다(추가 피해 대신 악마나 영혼을 어떤 방식으로든 속박하는 효과일 수도 있다).
+- **대화:** 오컬티스트는 영적 혹은 악마적 사안에 깊이 집착하며, 실제 존재 여부와 무관하게 모든 것에서 그런 영향의 흔적을 본다. 그래서 영적 영향이라는 어휘로 포장해 말하면 설득이나 기만이 잘 통하는 편이다.
+- **용법:** 필요한 답을 얻기 위해 죽은 자의 영혼에게 질문해야 할 때가 있다. 혹은 어떤 장소의 떠도는 사령을 추방해야 할 수도 있다. 어느 쪽이든 오컬티스트가 필요하다.
+- **전리품:** 오컬티스트는 의복과 평범한 무기 외에, 저렴한 아이템 하나에 해당하는 화폐, 사이퍼 하나, 그리고 영혼이나 악마 지배 능력과 관련된 아티팩트를 (있다면) 지닌다.
+- **마스터 개입:** 캐릭터 발치의 땅에서 앙상한 손이 솟아난다. 속력 방어 굴림에 실패하면, 탈출을 위한 근력 기반 일에 성공할 때까지 제자리에 붙잡힌다. 붙잡힌 캐릭터가 탈출에 실패하는 라운드마다 그 손은 조여 와 피해 3점을 준다.
 
-### ZOMBIE    3 (9)
-Humans transformed into aggressive, hard-to-kill serial killers with no memory of their former existence are called zombies. Depending on a zombie’s origin, the reason for its transformation varies. A zombie might arise from an undead curse, a psychic possession, an AI meatware overwrite, a viral infection, a drug overdose, or something else. Regardless of how the transformation happened, the result is much the same: a creature whose humanity has been burned out and replaced with unquenchable hunger.
-Zombies aren’t intelligent, but enough of them together sometimes exhibit emergent behavior, just as ants can coordinate activities across a colony. Thus, zombies alone or in small groups aren’t an overwhelming threat for someone who has a baseball bat or can get away. But it’s never wise to laugh off a zombie horde. 
+### 여름 궁정의 왕자(공주) (PRINCE(SS) OF SUMMER) 5 (15)
+
+페이 귀족은 6월의 미루나무 씨앗처럼 셀 수 없을 만큼 많다. 그러나 그렇다고 해서 각자가 독특하지 않다는 뜻은 아니다. 모두가 저마다 기묘한 성격과, 수수께끼 같은 여름 궁정에서 맡은 분명한 역할을 지닌다. 생명력, 활력, 포식성, 성장, 경쟁을 체현하는 여름의 공주와 왕자들은 대체로 따뜻하고 너그러운 존재다. 하지만 계절이 바뀌는 시기에 마주치면, 순식간에 치명적인 적이 될 수도 있다. 페이 귀족은 값비싸고 반투명하며 흘러내리듯 우아한 의복을 걸치고, 보통 관이나 디아뎀 같은 귀족 혈통의 표식을 하나쯤 지닌다.
+
+- **동기:** 예측 불가; 페이의 영토와 특권 수호
+- **환경:** 거의 모든 야생 지역; 단독이거나 하급 **요정 생물** 소규모 무리를 지휘
+- **체력:** 22
+- **피해:** 5점
+- **장갑:** 2
+- **이동:** 근거리; 바람을 타고 활공할 때도 근거리
+- **조정:** 기만, 변장, 궁정 예법, 우호적 상호작용 관련 일는 레벨 7로 판정
+- **전투:** 대부분의 페이 공주와 왕자는 우아한 검을 휴대하고, 은목(銀木)으로 깎은 활을 지니기도 한다. 또한 각 개체는 하나 이상의 페이 주문을 안다. 페이 주문의 예시는 다음과 같다.
+  찬란한 미소: 대상은 지성 방어 일에 성공해야 하며, 실패하면 최대 1분 동안 페이 생물의 뜻을 따른다.
+  황금 벌꿀주: 페이의 플라스크에서 마신 아군은 10시간 동안 모든 방어 일에 유리 보탬 1개를 얻는다.
+  밤의 보상: 대상은 지성 피해 5점(장갑 무시)을 받고, 지성 방어 굴림에 실패하면 최대 1분 동안 잠든다.
+  여름의 자신감: 근거리 내 선택된 대상들은 공포 저항 및 대담한 행동 관련 일에 보탬 1개를 얻는다.
+  가시: 대상은 속도 피해 5점(장갑 무시)을 받고, 근력 방어 일에 성공하지 못하면 급속히 자란 가시덩굴에 얽혀 다음 차례를 잃는다.
+  여름의 왕자와 공주는 체력이 0보다 높은 동안 매 라운드 체력 2점을 회복한다. 단, 은도금 무기 또는 냉철(cold iron) 무기로 피해를 입었다면 이 회복은 적용되지 않는다.
+- **대화:** 대부분의 페이는 대화할 의사가 있으며, 여름 궁정 소속은 특히 거래를 즐긴다. 다만 페이 귀족과 흥정을 시도하는 이들은 속임수에 걸리지 않도록 주의해야 한다.
+- **용법:** 캐릭터들이 부상당해 도움이 절실한 페이 귀족 하나를 발견한다.
+- **전리품:** 고급 의복과 정교한 장비, 상당한 양의 화폐 외에도, 여름의 왕자(공주)는 사이퍼 몇 개와 페이 아티팩트 하나를 지닐 수 있다.
+- **마스터 개입:** 캐릭터는 근력 방어 일에 성공하지 못하면, 찬란한 햇살 기둥에 눈이 멀어 최대 1분 동안 시야를 잃는다.
+
+### 퍼펫 트리 (PUPPET TREE) 6 (18)
+
+퍼펫 트리는 높이 25피트(8m)에 이르는, 가시가 돋은 주황색과 파란색의 나무다. 그 주변에는 붉은 갈대가 넓게 퍼져 있는데, 바람이 전혀 없을 때조차 유혹하듯 떨리고 물결친다. 주변에는 휴머노이드 형체들이 자주 모여 있지만, 이 썩고 과성장한 시체들은 트리의 희생자이자, 죽은 채로도 트리의 의지에 복종하는 살점 인형일 뿐이다.
+지식과 생명을 빨린 희생자들은 더 많은 희생자를 유인하는 미끼로 쓰인다. 시체가 완전히 썩어 사라질 때까지는 그렇다. 미끼로 쓰지 않을 때, 시체 인형들은 인근 지역을 정찰하러 보내진다.
+(시체 인형: 레벨 2; 타격한 대상은 근력 방어 일에도 성공해야 하며, 실패하면 탈출할 때까지 붙잡힌다; 붙잡힌 대상이 시도하는 모든 일는 방해를 받는다; 자유 배회 중인 인형은 하루 동안만 활동한다)
+
+- **동기:** 신선한 시체에 대한 갈망
+- **환경:** 다른 식물 생태계와 떨어진 언덕 정상
+- **체력:** 33
+- **피해:** 8점
+- **장갑:** 3
+- **이동:** 없음
+- **조정:** 거대하고 움직이지 못하기 때문에 속력 방어는 레벨 5로 판정; 기만과 변장(시체를 살아 있는 것처럼 조종)은 레벨 7로 판정
+- **전투:** 퍼펫 트리를 둘러싼 붉은 갈대 일부는 끝이 단단하고 날카로운 수정 가시로 되어 있다. 살아 있는 생물이 트리 근거리 안으로 들어오면, 갈대는 대상 뒤쪽에서 솟아올라 머리나 목을 가시로 꿰뚫으려 한다. 대상이 이 공격으로 죽으면, 퍼펫 트리는 그 시체를 시체 인형으로 조종해 자신의 계획에 이용한다. 시간이 지나면 이런 휴머노이드는 썩고 식물 조직에 뒤덮여 트리에 대한 효용을 잃는다. 대부분의 트리는 약 다섯 구의 시체 인형을 활성 상태로 유지하며, 필요할 때 동시에 움직여 적을 공격하게 할 수 있다.
+  퍼펫 트리는 불에 취약하다. 트리에 대한 모든 화염 공격은 피해를 추가로 2점 주며 장갑을 무시한다. 퍼펫 트리는 언제나 불을 끄려 하거나, 전투 중 불꽃의 원천을 우선 공격하려 든다.
+  시체 인형은 분리해 배회 임무로 보낼 수 있지만, 약 하루치 활동력만 유지한 뒤 일반 시체처럼 무너져 썩어 간다. 그러나 드물게는 그 잔해에서 어린 퍼펫 트리 묘목이 돋아나기도 한다.
+- **대화:** 퍼펫 트리는 지능이 매우 높지만 악의적이다. 설령 텔레파시 등으로 의사소통이 가능해지더라도, 트리는 항상 PC를 배신하려 든다.
+- **용법:** PC는 인적 드문 한복판, 수상한 나무 아래에서 소풍을 즐기는 듯한 “사람들” 무리를 목격한다.
+- **전리품:** 과거 희생자들의 소지품은 붉은 갈대 사이에서 발견되며, 보통 중간 정도의 화폐와 여러 장비 조각이 포함된다. 희생자의 장치(있다면)는 시체 인형들이 수거해 기묘한 기계로 엮어 놓는데, 그 목적은 알 수 없다.
+- **마스터 개입:** 붉은 갈대 속에 숨어 있던 시체 인형 둘이 솟아올라 캐릭터를 붙잡아, 수정 가시 공격에 맞추려 한다. 캐릭터는 난이도 4의 속도 또는 근력 일에 성공해야 풀려난다.
+
+### 장님곰 (RAVAGE BEAR) 4 (12)
+
+장님곰은 오로지 후각만으로 사냥하는 흉측한 포식자다. 시각은 없고 청각도 거의 들리지 않지만, 그래도 먹잇감을 쉽게 추적하고 감지한다. 새끼를 매우 강하게 보호하며, 배가 고플 때는 극도로 위험하다. 그렇지 않을 때는 대부분의 생물을 넉넉히 피해 다닌다.
+
+- **동기:** 살점을 갈망함
+- **환경:** 숲, 바위 지대, 또는 - **산악 지대**의 한 마리 혹은 두 마리(보통 새끼 몇 마리 동반), 대개 한랭하거나 온대 기후
+- **체력:**20
+- **피해:** 7점
+- **장갑:** 1
+  이동: 장거리
+- **조정:** 근력 방어 굴림은 레벨 6으로 판정; 달리기, 등반, 도약은 레벨 7로 판정
+- **전투:** 장님곰은 강력한 팔로 적을 붙잡아 꼼짝 못 하게 한 뒤, 대상이 죽을 때까지 조여 부수고 찢어발긴다. 한 번에 한 생물만 붙잡을 수 있다. 장님곰이 대상을 붙잡고 있는 동안에는 붙잡은 대상만 공격할 수 있다. 붙잡힌 대상이 매 라운드 탈출하지 못하면, 해당 대상은 공격으로 받는 피해에 더해 추가로 피해 4점을 받는다.
+  장님곰은 짧은 전력 질주에서 매우 빠르게 움직일 수 있다. 전투 중에는 광란 상태에 들어가 죽을 때까지 싸운다. 피해를 10점 이상 입으면 방어는 방해를 받지만, 공격은 유리해진다.
+  장님곰은 환영 같은 시각 효과에 면역이다. 다만 후각 기반 효과는 이들을 혼란시키고 일시적으로 "눈멀게" 할 수 있다.
+- **대화:** 장님곰은 동물이므로 동물처럼 행동한다.
+- **용법:** 장님곰은 불운한 여행자들이 황야에서 마주칠 법한 우연 조우 대상이다.
+- **마스터 개입:** 광분한 장님곰이 추가 공격 1회를 가하며, 이 공격은 피해를 2점 더 준다.
+
+### 레플리컨트\*\* (REPLICANT) 5 (15)
+
+성인 인간과 사실상 구분이 어려운 이 바이오 조형 안드로이드는 더 강하고, 더 빠르며, 잠재적으로 더 영리하다. 그러나 이들은 이식된 기억을 지닌 제조된 존재이기에, 사랑, 슬픔, 공감 같은 진정한 인간 감정을 좀처럼 느끼지 못한다. 다만 충분히 오래 살아 스스로의 기억을 쌓은 개체는 그런 감정을 느낄 능력을 발달시키기도 한다.
+하지만 그런 기회를 얻는 레플리컨트는 거의 없다. 이들은 특정 목적을 위해 만들어지기 때문인데, 예를 들면 경찰이나 경비로 복무하거나, 먼 전쟁의 병사로 투입되거나, 외계 지성이나 자가 증식형 AI를 대신해 사람들 사이에 섞여 탐사하도록 설계된 위장 요원이 되는 식이다. 대부분의 경우 이런 목적은 비교적 짧은 존재 기간으로 이어지며, 대개는 포획되느니 스스로 폭발하는 선택으로 끝난다.
+
+- **동기:** 눈에 띄지 않기; 자신의 존재를 알아챈 이들을 제거(또는 대체)하기
+- **환경:** 어디서나
+- **체력:** 18
+- **피해:** 6점
+- **이동:** 근거리
+- **조정:** 호감형 사회적 상호작용, 인간 사회 규범 이해, 기만 관련 일는 레벨 2로 판정
+- **전투:** 레플리컨트는 눈에 띄지 않게 섞여 지내며 전투에 들어가길 선호하지 않는다. 파괴가 보통 이들의 주목적은 아니므로, 대립을 피한다. 그러나 임무를 위협하는 요소가 생기면 가능한 한 최선을 다해 자신을 방어한다. 레플리컨트는 무기를 사용할 수도 있지만, 팔다리로 적을 두들겨 제압하는 데도 능숙하다.
+  레플리컨트는 물리적 신체가 폭력이나 자연적 열화로 무너지기 시작할 때 가장 위험하다(많은 개체는 자연 수명이 고작 몇 년인 듯 보인다). 체력이 0점이 되면 레플리컨트는 폭발하여 장거리 내 모든 것에 피해 10점을 준다.
+- **대화:** 레플리컨트는 인간처럼 보이도록 설계되어, 최소한 가벼운 상호작용에서는 인간으로 통한다. 하지만 대화가 길어지면 대개 정체가 드러난다. 결국 레플리컨트는 무언가를 틀리게 말하거나, 부적절한 말을 하거나, 이상한 몸짓을 보인다.
+- **용법:** 캐릭터 한 명의 연락책이 사실 비밀리에 레플리컨트다. 이 개체는 예상보다 오래 살아남았고, 자신을 만든 무언가와의 연결이 약해진 덕분에 어느 정도 독립성을 얻어 PC와 강한 정서적 유대를 맺었다. 자신에게 남은 시간이 얼마 없음을 알고 있으며, 도움을 청하기 위해 해당 캐릭터를 찾아올 수 있다.
+- **마스터 개입:** 레플리컨트에게 맞은 캐릭터가 벽으로 강하게 내동댕이쳐져, 주변 구조물이 그 위로 무너지기 시작한다.
+
+### 그림자 엘프 (SHADOW ELF) 4 (12)
+
+셀 수 없이 많은 죄를 저질러 페이 친족의 정의를 피해 지상에서 사라진 엘프들은 때로 그림자 엘프, 다크 엘프, 혹은 그냥 트로우라 불린다. 일반적으로 그림자 엘프는 지하 깊은 새로운 영역으로 도망쳤다고 여겨지며, 실제로 그들의 진정한 거처로 이어지는 길 대부분은 지하에 있고 거대한 지하 요새들도 많이 존재한다. 하지만 그림자 엘프 왕국의 중심은 그림자 자체의 무채색 차원에 있으며, 그곳에서 모든 것은 현실 세계의 희미한 반영으로 존재한다.
+때때로 그림자 엘프는 어두운 터널에서 쏟아져 나오거나, 어떤 경우에는 그림자 그 자체에서 모습을 드러내며 지상에 나타난다. 그들은 전리품, 새로운 노예, 제물을 얻기 위해 약탈을 벌인다. 제물은 암흑 속에서 계략을 꾸미는 거대한 검은과부거미인 그들의 여신왕에게 바쳐진다.
+그림자 엘프가 빛의 세계로 돌아올 때, 실루엣만으로 모습을 드러내기로 선택할 수 있다. 이는 마치 깊은 우물 바닥에 숨어 있는 듯한, 가느다란 인간형 윤곽이다.
+
+- **동기:** 고문을 즐김; 그림자 엘프 여신왕에게 봉사함
+- **환경:** 거의 모든 어스레한 장소, 단독 또는 최대 당신의 마리 무리
+- **체력:** 15
+- **피해:** 5점
+- **장갑:** 1
+- **이동:** 근거리
+- **조정:** 은신과 지각은 레벨 6으로 판정; 그림자 같은 본성으로 인해 속력 방어는 레벨 6으로 판정
+- **전투:** 그림자 엘프는 짧은 칼날, 단검, 강철처럼 단단한 그림자로 만든 석궁 볼트로 공격한다. 이들은 희미한 빛과 완전한 암흑 속에서도 대낮처럼 볼 수 있다.
+  일부 그림자 엘프는 아래와 같은 주문을 시전할 수 있다. 각 주문은 시전에 행동 1회를 필요로 한다.
+
+d6
+그림자 엘프 주문
+| d6 | 그림자 엘프 주문 |
+| --- | --- |
+| 1 | 무기에 마법을 부여해 추가 피해 3점(총 8점)을 입힘 |
+| 2 | 무기에 마법을 부여해 추가 속도 피해 1점(독, 장갑 무시)을 입히고, 대상이 근력 방어 굴림에 성공할 때까지 매 추가 라운드마다 속도 피해 2점을 더 입힘 |
+| 3 | 10분 동안 매 라운드 장거리 비행 |
+| 4 | 10분 동안 장갑 +2(총 장갑 3) |
+| 5 | 장거리 주문으로 대상을 공격하며, 대상이 근력 방어 굴림에 실패하면 10분 동안 실명 상태가 됨 |
+| 6 | 서로 인접한 최대 세 생물을 대상으로 하는 장거리 주문; 대상들이 속력 방어 굴림에 실패하면 1분 동안 그림자 거미줄에 묶여 움직일 수 없음 |
+
+완전한 대낮에 노출되면 그림자 엘프는 은신, 지각, 속력 방어 조정을 잃고 대체로 퇴각하려 한다.
+
+- **대화:** 그림자 엘프는 때때로 다른 생물과 협상하거나 잠시 동맹을 맺기도 한다. 하지만 그것은 배신하기 가장 좋은 기회가 올 때까지만이다.
+- **용법:** 그림자 엘프가 외곽 성채 하나를 점거했다. 한낮에도 그 성은 어둠과 그림자 거미줄에 뒤덮여 있다. 성 금고에 있다는 보물은 이미 이 어두운 페이의 손에 들어갔을지도 모른다.
+- **전리품:** 그림자 엘프는 무기, 경갑, 사이퍼 한두 개에 더해 값비싼 물품 하나에 해당하는 화폐를 지닌다. 그림자 엘프 지도자는 아티팩트를 지니고 있을 수 있다.
+- **마스터 개입:** 그림자 엘프가 주문을 시전해, 대상이 지능 방어 굴림에 실패하면 캐릭터 하나를 매혹한다. 해당 캐릭터는 최대 1분 동안 그림자 엘프 편에서 싸우며, 영향에서 벗어나기 위해 매 라운드 지능 방어 굴림을 다시 시도할 수 있다.
+
+### 해골 (SKELETON) 2 (6)
+
+해골은 자기보존 본능이 거의 없는 채로 움직이는 뼈다. 이들은 한 가지 중요하고 자주 악용되는 영역에서 살아 있는 생물보다 결정적인 이점을 지닌다. 해골은 원거리 무기에 매우 정확하다. 이들은 숨도, 심장 박동도, 발사 순간 손을 떨게 할 요인도 없기에, 원거리 무장한 해골은 두려워해야 할 존재다.
+
+- **동기:** 방어 또는 공격
+- **환경:** 거의 어디서나, 당신의 마리에서 열 마리의 대형
+- **체력:** 6
+- **피해:** 3점(발톱) 또는 5점(원거리 무기)
+- **장갑:** 1
+- **이동:** 근거리
+- **조정:** 원거리 공격은 레벨 5로 판정; 대부분의 원거리 공격에 대한 속력 방어는 레벨 5로 판정; 속임수 저항은 레벨 1로 판정
+- **전투:** 해골은 다른 무기가 없으면 뼈 발톱으로 공격할 수 있지만, 대부분은 장거리 무기로 공격한다. 해골이 표적의 신체 일부라도 볼 수 있다면, 표적은 원래 누렸을 엄폐 이점을 모두 잃는다.
+  대형을 갖춘 상태에서, 원거리 무기를 든 해골 넷 이상은 한 표적에 공격을 집중해 단일 레벨 7 생물처럼 한 번의 공격 굴림을 하며 피해 7점을 입힐 수 있다.
+  해골은 어둠 속에서도 볼 수 있다.
+  재활성 해골: 일부 해골은 저주로 만들어져, 단순히 뼈무더기로 부숴 놓는 것만으로는 끝나지 않는다. 재활성 해골은 "죽은" 지 2라운드 뒤 마법적 섬광과 함께 체력을 전부 회복한다. 이런 재생은 해골이 쓰러진 뒤 저주의 핵심 매개물을 분리하면 막을 수 있다. 그 물건은 보통 눈에 띄며, 예를 들어 두개골을 꿰뚫은 납 못, 흑단 부적, 갈비뼈를 관통한 무딘 검, 왕관 같은 형태일 수 있다.
+- **대화:** 해골은 보통 공격으로만 상호작용한다. 마법을 통해 의사소통할 수 있는 지성 영혼이 깃든 경우가 아니라면, 해골은 말을 할 구조 자체가 없다. 그래도 주변 세계를 듣고 보는 데에는 문제가 없다.
+- **용법:** 해골은 군대의 이상적인 병력 단위이며, 특히 궁술이나 포격이 필요할 때 그렇다. 탑 위에 원거리 무장 해골 넷 이상으로 구성된 대형은 놀랄 만큼 튼튼한 방어선을 제공한다.
+- **전리품:** 때때로 재활성 해골을 만드는 데 필요한 핵심 매개물은 가치가 있다.
+- **마스터 개입:** 근접 공격으로 파괴된 해골 하나가 수류탄처럼 폭발한다. 뼛조각 파편이 즉시 거리 내 모든 생물에게 피해 5점을 입힌다.
+
+### 살아 움직이는 석상 (STATUE, ANIMATE) 7 (21)
+
+돌을 깎거나 금속으로 주조한 거대한 석상은 때때로 승리, 축하, 고통의 순간에 포착된 인간상 그 이상이다. 때로 석상은 움직이며, 대개는 처음 그것을 움직이게 만든 오래된 맹세나 명령을 수행하기 위해서다.
+대부분의 살아 움직이는 석상은 지각 있는 생물의 정신을 가둔 그릇이다. 이런 구속은 보통 영혼을 광기의 심연으로 떨어뜨리지만, 많은 경우 휴면 상태로 머무르며 남은 기억의 어딘가를 떠돈다. 살아 움직이는 석상을 건드리면 깨어날 수 있으며, 대개 재앙으로 이어진다.
+
+- **동기:** 감금에서 벗어나기; 특정 구역 수호
+- **환경:** 외진 장소, 특히 고대 유적
+- **체력:** 33
+- **피해:** 9점
+- **장갑:** 4
+- **이동:** 근거리
+- **조정:** 균형 관련 모든 일는 레벨 2로 판정; 근력 방어는 레벨 8로 판정; 몸집 때문에 속력 방어는 레벨 5로 판정
+- **전투:** 살아 움직이는 석상은 대부분의 적보다 훨씬 크며, 근접 공격으로 근거리 내 표적을 내려치거나 짓밟을 수 있다. 석상의 거대한 크기와 몸체 재질 때문에 거의 어떤 장애물도 뚫고 나아갈 수 있으며, 단단한 암벽, 건물, 나무를 박살 내며 전진한다. 걸을 때는 밟는 대상에 신경 쓰지 않는다. 경로에 있는 것은 거의 모두 납작하게 짓눌린다. 밟힌 캐릭터는 속력 방어 굴림으로 피하지 못하면 넘어지고 피해 9점을 입는다.
+  살아 움직이는 석상은 강하고 상처 입히기 어렵지만, 무게중심이 높아 쉽게 불안정해지기도 한다. 넘어지거나 쓰러뜨려지면 다시 일어나 원래 하던 일을 재개하기까지 몇 라운드가 걸린다.
+- **대화:** 석상은 수년 동안 움직임도 감각도 없이 지내며, 정신은 반쯤 기억나는 체험과 환각 속에서 길을 잃는다. 석상을 깨우면 결과는 예측 불가다. 어떤 것은 난동을 부리고, 어떤 것은 웃거나 울거나 뜻 모를 말을 비명처럼 쏟아낸다. 어쨌든 특정 구역이나 입구를 지키라는 명령을 받았다면, 대개 공격적으로 반응한다.
+- **용법:** 살아 움직이는 석상은 지식의 보고를 품고 있다. 캐릭터들이 석상의 주의를 붙잡아 두거나 충분히 오래 넘어뜨려 둘 수 있다면, 원하는 정보를 이끌어낼 수 있을지도 모른다.
+- **마스터 개입:** 살아 움직이는 석상이 캐릭터 하나를 너무 강하게 쳐서, 피해자가 장거리만큼 날아가 나뒹군다. 그 과정에서 장비와 무기를 떨어뜨릴 수도 있다.
+
+### 비밀 요원 (SECRET AGENT) 5 (15)
+
+비밀 요원은 어느 정부 기관, 기업, 길드, 왕국에 고용되었든 자신의 안위보다 임무를 우선하는 훈련된 전문가다. 요원은 사절, 감찰관, 기술자, 배우, 관광객, 어수룩한 바보 같은 가짜 신분을 쓰고 활동한다.
+
+- **동기:** 위장을 유지하면서 고용주의 목표를 달성
+- **체력:** 15
+- **피해:** 5점
+- **이동:** 근거리
+- **조정:** 변장 및 기만 관련 일는 레벨 6으로 판정
+- **전투:** 비밀 요원은 언제나 은밀하고 예상 밖의 예비 무기를 지니며 기습 공격에 쓸 수 있다. 예를 들어 독 묻은 숨은 바늘이 달린 반지나 장갑(장갑을 무시하는 속도 피해 5점), 피해자의 얼굴에 불어 넣는 독가스를 담은 가짜 치아(10분간 수면 유도), 또는 초소형 총기가 내장된 반지 등이 있다.
+- **대화:** 비밀 요원은 자신감 있고 노련하며, 기습당한 순간에도 늘 한 수 앞서 있는 듯한 인상을 준다.
+- **용법:** 동료로서 비밀 요원은 PC를 다음 임무로 안내하고, 지식의 공백을 메워 주며, 위험을 경고해 줄 수 있다. 캐릭터들이 적대적인 요원을 만난다면, 그 NPC는 십중팔구 친구인 척할 것이다.
+- **전리품:** 요원은 대개 값비싼 물품 하나에 해당하는 화폐, 사이퍼 몇 개, 첩보 활동과 위장 유지를 위한 도구, 그리고 경우에 따라 아티팩트를 지닌다.
+- **마스터 개입:** 비밀 요원이 사이퍼 하나를 꺼내 사용하며, 그날이 끝날 때까지 모든 일가 두 단계 유리해진다.
+
+### 티라노사우루스 렉스 (TYRANNOSAURUS REX) 7 (21)
+
+티라노사우루스의 짧은 팔은 지구의 소셜 미디어에서 자주 희화화되었지만, 사냥하는 티라노사우루스가 당신을 노릴 때 팔은 사실 그리 중요하지 않다. 먹잇감을 그 자리에 얼어붙게 하도록 설계된, 영혼까지 떨리게 하는 포효와, 거대한 꼬리가 지렛대처럼 받쳐 주는 엄청난 두개골과 입이 더 중요하다. 그 꼬리 자체도 강력한 무기로 쓰인다.
+티라노사우루스가 6,600만 년 전에도 사나웠겠지만, 오늘날에도 사냥하는 개체들은 더욱 위험할 수 있다. 인간의 맛을 본 개체들은 인간의 방어 수단에 적응하는 법과, 사냥 중 포효로 먹잇감을 공포에 빠뜨리는 법을 익혔기 때문이다.
+
+- **동기:** 살점을 갈망함
+- **환경:** 티라노사우루스는 단독 또는 한 쌍으로 사냥하며, 시끄럽고 낯선 소리(예: 모터 엔진 소리)에 끌린다.
+- **체력:** 50
+- **피해:** 10점
+- **이동:** 근거리
+- **조정:** 지각은 레벨 5로 판정; 거대한 몸집 때문에 속력 방어는 레벨 5로 판정
+- **전투:** 티라노사우루스는 거대한 턱으로 공격한다. 피해를 주는 것에 더해, 대상은 벗어나기 위해 근력 방어 굴림에 성공해야 한다. 실패하면 핏불의 입에 물린 쥐처럼 마구 흔들려 추가로 속도 피해 3점을 받는다(방어구 무시). 이 흔들기 피해는 대상이 벗어나기 위한 근력 기반 일에 실패하는 라운드마다 반복된다.
+  티라노사우루스는 짓밟기 공격도 할 수 있는데, 근거리 바깥에서 돌진을 시작할 수 있어야 한다. 그렇게 하면 한 라운드에 50피트(15m)를 이동하며, 즉시 거리 안으로 들어오는 모든 것을 공격한다. 속력 방어 굴림에 성공한 대상도 피해 2점을 받는다.
+  마지막으로 티라노사우루스는 포효할 수 있다. 매일 기준으로, 생물이 근거리 안에서 그 포효를 처음 들을 때 난이도 2 지능 방어 굴림에 성공해야 하며, 실패하면 한 라운드 동안 공포로 얼어붙어 선다. 그들을 향한 공격은 공격자에게 유리하게 두 단계 완화되며, 추가 피해 2점을 준다.
+  그 막강한 힘에도 불구하고 티라노사우루스는 자기 보존 본능을 버리지 않는다. 상대가 자신보다 우세하면 절대 죽을 때까지 싸우지 않으며, 전투에서 피해를 30점 넘게 받으면 대개 물러난다.
+- **대화:** 티라노사우루스는 동물이지만 영리한 사냥꾼이기도 하다. 둘이 함께 사냥할 때는 먹잇감을 둘 사이에 가두려 한다.
+- **용법:** 숲 보호구역에서 대형 사냥감이 계속 죽어 나간다. 처음에는 밀렵꾼이 의심되지만, 그들마저 죽은 채 발견되면서 다른 무언가가 원인임이 분명해진다.
+- **마스터 개입:** 티라노사우루스의 꼬리가 크게 휘둘러져 캐릭터를 넘어뜨리고 근거리 밖으로 날려 보내며, 위험 지형으로 떨어뜨릴 수도 있다.
+
+### 불한당 (THUG) 3 (9)
+
+불한당은 대개 거칠고, 조잡하며, 난폭한 인물로, 규칙을 따르는 사람들을 노린다. 불한당은 거리 사정에 밝은 마약상일 수도 있고, 야생에서 외로운 여행자를 노리는 산적일 수도 있으며, 원거리 무기에 능숙한 잔혹한 전사이거나 평화주의자들 사이의 사이버 괴롭힘 가해자일 수도 있다. 대부분은 자기 자신을 위해 일하지만, 일을 처리하기 위해 경비 무리를 고용하기도 한다.
+
+- **동기:** 원하는 것을 빼앗음
+- **체력:** 9
+- **피해:** 4점
+- **장갑:** 1
+- **이동:** 근거리
+- **전투:** 불한당은 기습을 선호하며, 가능하면 숨어서 원거리 공격을 한다. 때로는 공격 전에 최후통첩을 하기 위해 기습을 일부러 깨기도 한다. "귀중품을 넘겨라, 아니면 후회하게 된다."
+- **대화:** 불한당은 돈과 권력에 관심이 있기 때문에 거의 항상 뇌물을 받아들인다. 진짜 위협에 직면하면 대개 후퇴한다.
+- **용법:** 불한당은 어디에나 있으며, 때로는 똑같이 악의적이지만 약간 덜 강한 경비들과 함께 다닌다.
+- **전리품:** 불한당은 무기, 방패, 경장갑 외에도 값싼 물건 하나에 해당하는 화폐를 지닌다. 무리 중 한 명은 사이퍼를 갖고 있을 수도 있다.
+- **마스터 개입:** 알맞은 순간까지 숨어 있던 또 다른 불한당이 나타나 원거리 무기로 사격한 뒤 난전에 합류한다.
+
+### 뱀파이어 (VAMPIRE) 6 (18)
+
+뱀파이어는 피를 마시기 위해 무덤에서 되살아난 언데드 존재다. 그들의 본성과 정수 자체는 사악하며 생명에 반하는 것이지만, 동시에 그들은 끝없는 자신의 존재를 도취적으로 즐긴다. 대부분의 뱀파이어는 허영심이 강하고, 오만하며, 가학적이고, 탐욕스럽고, 지배적이다. 그들의 힘은 타인을 조종하게 해 주며, 먹이를 먹기 전에 자주 희롱한다. 뱀파이어는 오직 밤에만 나타나는데, 태양광이 그들을 파괴하기 때문이다.
+뱀파이어에게 사흘에 걸쳐 물리면(그 과정에서 뱀파이어가 자신의 피를 조금씩 섞어 넣는다) 희생자는 자신을 죽인 개체의 노예가 된 뱀파이어로 되살아난다. 뱀파이어는 같은 종족을 너무 많이 만드는 일(곧 경쟁자를 늘리는 일)을 조심하지만, 각 노예는 뱀파이어에게 초자연적 힘을 조금씩 더해 준다.
+
+- **동기:** 피에 대한 갈증
+- **환경:** 주로 문명 가장자리에서 단독으로 활동
+- **체력:** 24
+- **피해:** 7점
+- **이동:** 장거리
+- **조정:** 등반, 은신, 지각은 레벨 8; 빠른 움직임으로 인한 스피드 방어는 레벨 7
+- **전투:** 뱀파이어는 강하고 빠르다. 인상적인 송곳니를 지녔지만, 이는 보통 전투보다 흡혈에 사용한다. 일반적으로는 주먹이나 손(사실상 발톱처럼 변한다)으로 싸우지만, 때때로 무기를 사용하기도 한다.
+  뱀파이어는 박쥐나 늑대로 변신할 수 있다. 이 변신은 박쥐 형태에서 비행할 수 있다는 점을 제외하면 능력치나 능력을 바꾸지 않는다. 또한 뱀파이어는 그림자나 안개로 변할 수 있으며, 이 형태에서는 어떤 것으로도 피해를 입지 않지만(동시에 물리 세계에 영향을 줄 수도 없다).
+  뱀파이어는 불경한 카리스마를 지녔으며, 즉시 거리 내의 희생자를 최면에 걸어 1라운드 동안 꼼짝 못 하게 만든다. 이후 라운드에서 희생자는 뱀파이어에게 강제로 저항하지 않게 되며, 뱀파이어는 희생자에게 행동을 제안할 수 있다(심지어 자기 자신이나 소중한 타인을 해치는 행동까지 포함). 매 라운드마다 희생자는 새 지성 방어 굴림을 시도해 속박에서 벗어날 수 있다.
+  뱀파이어는 악명 높을 정도로 해치기 어렵다. 무기가 매우 특별하지 않다면(성인의 축복을 받았거나, 뱀파이어에 특화된 마법 부여가 되었거나, 그와 유사한 경우), 어떤 물리 공격도 뱀파이어에게 피해를 주지 못한다. 즉, 피해를 전혀 받지 않는다. 예외는 다음과 같다.
+  불: 뱀파이어는 불에 타지만, 그 피해로 죽지는 않는다. 오직 고통만 유발하며, 불 피해로 잃은 체력은 하루 안에 모두 회복한다.
+  흐르는 물: 완전히 잠기면 라운드마다 10점 피해를 입는다. 파괴되지 않았다면, 뱀파이어는 단일 행동으로 이 방식으로 잃은 체력을 전부 회복할 수 있다.
+  성수: 4점 피해를 주며, 뱀파이어에게는 불과 정확히 같은 방식으로 작용한다.
+  햇빛: 햇빛에 노출되면 라운드마다 10점 피해를 입는다. 파괴되지 않았다면, 노출로 잃은 체력은 하루 안에 전부 회복한다.
+  나무 말뚝: 이 무기는 25점 피해를 주어 사실상 일격에 뱀파이어를 파괴한다. 다만 뱀파이어가 상황을 인지하고 움직일 수 있다면, 이 공격은 뱀파이어가 필사적으로 회피하기 때문에 방해를 받는다.
+  또한 뱀파이어는 다음과 같은 특별한 약점을 지닌다.
+  마늘: 즉시 거리 내에 상당량의 마늘이 있으면 뱀파이어의 행동이 방해를 받는다.
+  십자가, 성스러운 상징물, 또는 거울: 이 물건들 중 하나를 단호하게 내보이면 뱀파이어는 기절해 다음 행동을 잃는다. 물건을 계속 휘두르는 동안 뱀파이어가 즉시 거리 내에 있다면, 뱀파이어의 행동은 두 단계 방해를 받는다.
+  결국 수많은 하수인을 지휘하게 된 뱀파이어는 새로운 뱀파이어 로드가 된다. 뱀파이어 로드는 세상에서 가장 강력한 뱀파이어이며, 보통(항상은 아니지만) 동족 중 가장 오래된 존재다. 수많은 뱀파이어가 그 지배 아래 있으며, 그가 직접 만들어내지 않은 뱀파이어조차 그에게 존경과 경의를 바친다.
+- **대화:** 대부분의 뱀파이어는 인간을 먹잇감 가축처럼 여긴다. 다른 뱀파이어를 제외하면 거의 어떤 존재도 존중하지 않으며, 노예화할 수 없는 다른 초자연적 존재들을 자주 증오한다.
+- **용법:** 밤의 그림자, 침대에서 사라지는 사람들, 그리고 이전의 주인을 잃어버린 무덤 같은 기이한 이야기들은 그 지역에 뱀파이어가 나타났음을 예고할 수 있다.
+- **마스터 개입:** 뱀파이어에게 공격당한 캐릭터는 강력한 붙잡기에 단단히 제압된다. 캐릭터가 즉시 벗어나지 못하면, 뱀파이어는 자동으로 물어뜯는다.
+
+### 과도기적 뱀파이어 (VAMPIRE, TRANSITIONAL) 3 (9)
+
+인간이 뱀파이어의 "방문"(흡혈)을 받으면 죽을 수도 있고, 살아남아 밤의 존재로 천천히 변모하기 시작할 수도 있다. 희생자가 세 번 물리면, 그를 문 존재의 지배 아래 영원한 뱀파이어가 된다. 첫 번째 물림부터 세 번째 물림 이후 완전한 변모에 이르기까지의 기간에 그들은 과도기적 뱀파이어다. 과도기적 뱀파이어를 정상으로 되돌리는 방법으로는 특별한 고대 의식을 사용하거나, 애초에 그들을 물었던 뱀파이어를 파괴하는 것이 있다.
+과도기적 뱀파이어는 대개 주인의 경호원, 동반자, 혹은 첩자로 활동한다.
+
+- **동기:** 피에 대한 갈증
+- **환경:** 어디에서나, 보통 단독이지만 때로 둘이나 셋의 집단
+- **체력:** 12
+- **피해:** 4점
+- **이동:** 단거리
+- **조정:** 등반과 은신은 레벨 4
+- **전투:** 과도기적 뱀파이어는 낮 동안에는 뱀파이어의 힘이나 약점 없이 인간으로서의 삶을 유지할 수 있다. 그러나 마늘과 태양을 혐오한다. 밤이 되면 뱀파이어의 모든 특성을 띠며, 전통적인 흡혈귀 약점(나무 말뚝, 십자가 등)과 맞닥뜨리면 주인이 곁에 있지 않은 한 도주한다.
+- **대화:** 과도기적 뱀파이어는 주인에게 완전히 헌신한다.
+- **용법:** 과도기적 뱀파이어는 적과 희생자의 경계에 놓여 있다. 과도기적 뱀파이어로 변한 사랑하는 사람이나 신뢰하던 동료는 PC를 배신하고 쓰러뜨리며 죽이려 들겠지만, 캐릭터들은 그들을 파괴하기보다 구하려는 동기를 갖게 된다.
+
+### 배양조 불량체 (VAT REJECT) 3 (9)
+
+복제 병사나 유사한 대량 생산 개체를 만들도록 설계된 복제 배양조가 오염되면 배양조 불량체가 탄생한다.
+정밀하게 통제되던 과정이 어떻게 손상되는지는 다양하지만, 효모 오염, 흑점 활동, 나노바이러스의 진화, 또는 제어 매개변수에 대한 의도적 개입 등이 가능한 원인이다. 숙련되지 않은 조작자가 버려진 복제 장비로 실험해도 불량체로 가득 찬 배양조를 만들어낼 수 있다.
+배양조 불량체는 어떤 것도 두려워하지 않으며 죽음을 반긴다. 다만 그들의 실존적 분노는 즉각적인 자살이 아닌 다른 배출구를 요구한다. 뒤틀린 육체 탓에 대부분이 지속적인 고통 속에 있고, 이런 상태가 창조자들에 의해 인위적으로 각인되었다는 사실을 어렴풋이 이해한다. 복수만이 그들에게 가능한 유일한 구원이다.
+
+- **동기:** 끝없는 공격성을 통한 자기파괴
+- **환경:** 황량하고 외딴 곳이라면 어디든
+- **체력:** 9
+- **피해:** 3점
+- **이동:** 단거리
+- **조정:** 광폭한 민첩성으로 인한 스피드 방어는 레벨 4
+- **전투:** 배양조 불량체는 광전사 같은 속도로 전투에 돌입하여, 첫 공격에 대한 대상의 방어를 방해한다. 모든 배양조 불량체는 각자의 형태에 따라 베기, 후려치기, 물어뜯기 등으로 직접 피해를 줄 수 있다. 일부는 추가 능력을 지니며, 각 불량체마다 아래 표를 굴려 결정한다.
+
+d6
+능력
+| d6 | 능력 |
+| --- | --- |
+| 1 | 불량체는 근접 피해 +3점(총 6점) |
+| 2 | 불량체는 단거리 산성 침 공격을 지녀 2점 피해를 주며, 대상이 근력 방어 굴림에 성공할 때까지 추가 라운드마다 2점 피해를 더 준다 |
+| 3 | 불량체는 행동으로 장거리 비행 가능 |
+| 4 | 불량체는 방어구 2 보유 |
+| 5 | 불량체는 장거리 파괴 광선 시선 공격으로 6점 피해를 준다 |
+| 6 | 공격을 맞으면 불량체는 즉시 거리 반경으로 폭발하며, 방사능 폭발로 6점 피해를 준다(스피드 방어 굴림 성공 시에도 1점 피해는 받음) |
+
+- **대화:** 배양조 불량체는 대개 항상 격분 상태라 상호작용이 거의 불가능하다. 그러나 극단적 외과 수술이나 기타 변형을 통한 구원에 대한 그럴듯한 희망을 제시하면, 일부는 협상에 응할 수도 있다.
+- **용법:** 행성 파괴급 초무기 화물을 실었다고 알려진, 오래전에 실종된 표류선이 발견된다. 하지만 인양팀은 그 함선이 배양조 불량체에게 점령되었음을 알게 된다. 불량체들이 초무기를 사용할 계획인지, 누군가가 교란용으로 그들을 풀어놓은 것인지, 아니면 그것이 변이된 함선 방어 시스템의 일부인지 아무도 모른다.
+- **마스터 개입:** 해당 배양조 불량체는 방사능 독침도 지니고 있다. 근력 방어 굴림에 실패하면, 불량체에게 공격당한 캐릭터는 피해 트랙에서 한 단계 내려간다.
+
+### 워드로이드 (WARDROID) 6 (18)
+
+별의 병력(스타 트루퍼)들이 중화기 지원이 필요할 때, 그들은 때때로 워드로이드를 투입한다. 키가 약 8피트(2m)인 이 무시무시한 로봇들은 병력 기준으로도 무자비하며, 적을 죽이는 만큼 무고한 방관자도 자주 죽이는 것으로 악명이 높다. 워드로이드가 풀려나면 현명한 병력은 물러나 엄폐한다는 말이 있다.
+
+- **동기:** 통제 유지, 짓밟기, 살해, 파괴
+- **환경:** 어디든
+- **체력:** 30
+- **피해:** 8점
+- **장갑:** 3
+- **이동:** 근거리; 일부 모델은 매 라운드 근거리 비행 가능
+- **조정:** 공격은 레벨 7로 판정
+- **전투:** 워드로이드의 주무장은 레이저 블래스터 포대이며, 서로 인접한 최대 세 명의 적을 하나의 행동으로 공격할 수 있다. 피해를 입으면 매 라운드 체력 1점을 회복한다. 또한 각 워드로이드는 아래 추가 능력 중 하나를 지닌다.
+
+d6
+능력
+| d6 | 능력 |
+| --- | --- |
+| 1 | 즉시 거리 내 유기체에게 피해 5점을 주는 독가스 방출 |
+| 2 | 장거리까지 수류탄 투사, 즉시 반경에서 폭발하며 피해 5점 |
+| 3 | 광선을 발사해 유기체 하나를 1라운드 동안 기절시킴(그동안 행동 불가) |
+| 4 | 기계를 교란하는 장 방출; 즉시 거리 내 기술 장치와 기계형 생물은 1라운드 동안 작동 불가 |
+| 5 | 장거리까지 관통탄 발사, 물리 장갑을 무시하는 피해 6점(단, 다른 종류의 장갑은 반드시 무시하는 것은 아님) |
+| 6 | 부식성 물질 분사, 즉시 거리 내 모든 대상에게 피해 5점 |
+
+- **대화:** 워드로이드와 통신 권한이 없는 이들에게 상호작용은 어렵다.
+- **용법:** 워드로이드는 금고나 우주선 입구를 지키거나 우주 정거장 내부의 침입자를 추적하기 위해 둘 또는 셋 단위로 자주 배치된다.
+- **전리품:** 워드로이드 잔해에서는 수습에 능숙한 사람이 사이퍼 1~2개를 얻을 수 있다.
+- **마스터 개입:** 쓰러질 때 워드로이드는 폭발하며, 즉시 거리 내 모든 생물에게 피해 8점을 입힌다.
+
+### 늑대인간 (WEREWOLF) 4 (12)
+
+라이칸스로피의 저주는 쫓기는 악몽, 혹은 더 끔찍하게는 누군가를 쫓는 악몽으로 시작된다. 꿈이 점점 사나워지고 밤마다 잠이 휴식을 주지 못하게 되면, 피해자들은 옷에 묻은 핏자국, 집 안의 이상한 발톱 자국, 그리고 결국 뒷마당에 묻힌 훼손된 시신들에 대해 의문을 품기 시작한다.
+변신하지 않은 상태에서, 저주를 앓는 이들 상당수는 지극히 평범한 사람처럼 보인다. 다만 지난 몇 달 동안 친구와 가족 대부분이 잔혹하게 학살되었다는 사실에 정서적으로 큰 상처를 입었을 뿐이다. 하지만 소수는 자신의 상태의 진실을 깨닫고, 성향에 따라 다음 변신 전에 스스로 목숨을 끊거나 학살을 즐기는 법을 배운다.
+
+- **동기:** 변신 시 학살; 인간일 때는 해답 탐색
+- **환경:** 어두운 곳이라면 어디든, 보통 단독이지만 때로는 두~다섯의 작은 무리
+- **체력:** 24
+- **피해:** 5점
+- **이동:** 근거리; 늑대 형태에서는 장거리
+- **조정:** 반(半)늑대 형태에서는 공격 레벨 6; 완전 늑대 형태에서는 스피드 방어 레벨 6; 반늑대/완전 늑대 형태에서는 지각 레벨 7
+- **전투:** 일반 인간 형태의 늑대인간은 타고난 공격 수단이 없지만 무기를 사용할 수는 있다. 또한 아래 능력들도 없다. 이 상태의 유일한 힘은 반늑대 형태 또는 완전 늑대 형태로 변신하는 것이며, 변신에는 고통스러운 1d6라운드가 걸린다. 소수의 늑대인간은 변신을 통제할 수 있지만, 대부분은 달과 관련된 신호에 반응해 밤에 변신한다.
+  반늑대 형태: 반늑대 늑대인간은 인간형과 늑대가 섞인 모습이며, 극도로 공포스럽다. 발톱으로 공격한다.
+  완전 늑대 형태: 완전 늑대 늑대인간은 유난히 크고 사나워 보이는 늑대다. 보통 물어뜯어 추가 피해 2점(총 7점)을 주지만 발톱도 사용할 수 있다.
+  반늑대/완전 늑대 공통: 두 형태 모두 감각이 강화되며 매 라운드 체력 2점을 회복한다. 다만 은 무기나 은 탄환으로 피해를 입으면 몇 분 동안 재생이 멈춘다.
+- **대화:** 인간 형태의 늑대인간은 보통 사람과 같은 목표와 열망을 가지며, 변신 중 했던 일을 기억하지 못하거나 자신이 라이칸스로피 저주를 앓는다는 사실조차 모르는 경우가 많다. 반늑대 또는 완전 늑대 형태와는 협상이 통하지 않는다.
+- **용법:** 보름달이 뜨면 늑대인간은 사냥에 나선다.
+- **마스터 개입:** 늑대인간이 가한 피해로 PC가 피해 트랙에서 한 단계 내려갔다면, 힘 방어 굴림에 성공해야 하며 실패하면 라이칸스로피 저주에 걸린다.
+
+### 마녀 (WITCH) 5 (15)
+
+그들은 초승이 지고 달이 어두운 때에 옛 방식을 배웠다. 어둑한 숲을 스치는 이름 없는 것들의 발소리를 들었고, 가마솥에서 거품이 대류하며 치솟는 모습을 지켜보았으며, 시든 노파들의 웅얼거리는 지시와 죽은 잎 위에 남겨진 희미한 메시지를 따랐다. 그리고 어느 한밤중, 모든 것이 맞아떨어졌다. 또 한 명의 마녀가 태어났다.
+마녀가 인간성을 잃고 타인에 대한 배려 없이 개인적 이득을 위해 힘을 사용할 때, 그들은 자신이 끌어오는 힘에 의해 정신적으로도 육체적으로도 일그러진다. 하지만 그런 변형은 여러 겹의 환영 아래 감출 수 있다.
+
+- **동기:** 타인 지배, 지식
+- **환경:** 거의 어디서든, 보통 단독이지만 때로는 마녀 셋~일곱으로 이루어진 집회
+- **체력:** 21
+- **피해:** 5점
+- **이동:** 근거리; 비행 시(빗자루 탑승) 장거리
+- **조정:** 기만과 변장은 레벨 7; 패밀리어 덕분에 스피드 방어 레벨 6; 숲과 어두운 비밀에 대한 지식 레벨 6
+- **전투:** 공격받으면 마녀는 패밀리어의 도움으로 스피드 방어를 강화한다. 패밀리어는 커다란 검은 고양이, 올빼미, 큰 뱀, 혹은 그 밖의 생물일 수 있다. 마녀의 패밀리어를 죽이면 마녀는 큰 충격을 받아 며칠 동안 공격과 스피드 방어가 불리해진다. 또한 이는 마녀가 결코 적을 용서하거나 자비를 베풀지 않게 만드는 방법이기도 하다.
+  (패밀리어: 레벨 3; 체력 9; 장갑 1)
+  마녀는 의식용 칼로 즉시 거리의 생물을 공격할 수 있지만, 아래에 설명된 저주를 쓰는 쪽을 훨씬 선호한다. 마녀는 같은 저주를 한 라운드 걸러 한 번 이상 사용할 수 없다.
+  매혹(Charm): 근거리 내 대상이 지능 방어 굴림에 실패하면 노예가 된다. 대상은 동료를 공격하거나 새 주인이 지시한 다른 행동을 수행한다. 저주는 1분 동안 지속되거나 대상이 지능 방어 굴림에 성공할 때까지 유지된다. 대상이 굴림에 실패할 때마다 다음 굴림은 추가로 한 단계 더 불리해진다.
+  헥스볼트(Hexbolt): 장거리 내 대상 하나를 마녀가 선택한 화염, 냉기, 또는 정신 볼트로 공격한다. 정신 볼트는 지능 피해 3점(장갑 무시)을 준다.
+  쇠약화(Shrivel): 장거리 내 대상 1명과 그 옆의 최대 2명은 힘 방어 굴림에 성공해야 하며, 실패 시 스피드 피해 3점(장갑 무시)을 받는다. 이후 매 라운드마다 직전 굴림에 실패한 대상은 같은 결과를 두고 다시 힘 방어 굴림을 해야 한다.
+  활력(Vitality): 마녀는 체력 11점을 회복하고 1분 동안 장갑 +3을 얻는다. 여러 번 사용해도 장갑은 추가로 증가하지 않는다.
+- **대화:** 대부분의 마녀는 기만적이고 음험하지만, 일부는 이런 고정관념과 다르다. 모든 마녀는 협상할 의향이 있으나, 교활한 자들은 대개 악의적으로 협상한다.
+- **용법:** PC들은 수사를 계속하려면 오래된 책이 필요하다. 숲 가장자리에 사는 노파가 그 유일한 사본을 가지고 있다는 소문이 있다.
+- **전리품:** 마녀는 보통 몸에 아티팩트 하나 또는 둘을 지니며, 비행 빗자루(고갈 굴림 1/1d10)를 포함할 수도 있다.
+- **마스터 개입:** 캐릭터가 마녀의 지속형 저주 효과 중 하나에 대한 방어 굴림에 성공한 직후, 마녀는 즉시 그 캐릭터에게 헥스볼트를 던진다. 캐릭터가 맞으면 지속형 저주 효과도 계속된다.
+
+### 래스 (WRATH) 6 (18)
+
+정예 암살자 집단의 수장인 래스는 자신의 완벽한 비전에 방해가 되는 모든 이를 죽여 세상을 구하려 한다. 문제는 그 대상이 인류 대부분이라는 점이다. 래스는 지구상 최고 수준의 무술가 중 하나일 뿐 아니라(데몬이라 불리는 신비한 존재와의 연결 덕분), 암살단이 그녀가 통제하는 조직의 한 층위에 불과한 범죄 조직의 설계자이기도 하다.
+250여 년 전 중국에서 역사 속에 잊힌 이름으로 태어난 래스는 수도원에 거두어져 권법과 검술을 수련했다. 그러나 약탈자들이 수도원을 습격해 모두를 죽이고 그녀만 생존자로 남기면서 모든 것이 바뀌었다. 약탈자들과 그런 자들이 존재하도록 내버려둔 세상에 복수하겠다고 맹세한 그녀는 데몬이 깃든 마법 부적을 손에 넣었다. 그 대가로 데몬은 그녀에게 비범한 속도, 힘, 장수를 부여했다.
+래스는 암살자들(그리고 갱단원, 변호사, 정치인)에게 자신의 목표 상당수를 맡기는 데 만족하지만, 특히 중요한 적이 쓰러지는 순간에는 직접 현장에 있기를 즐긴다.
+(래스의 암살자: 레벨 4, 은신은 레벨 7)
+(래스는 민첩성 파워 시프트 2, 정확성 파워 시프트 2, 회복력 파워 시프트 1을 지닌 것으로 간주한다. 이 시프트는 조정치와 기타 수치에 이미 반영되어 있다.)
+
+- **동기:** 세상을 구하기
+- **환경:** 래스의 사고방식에서 그릇된 일을 바로잡아야 하는 곳이라면 어디든
+- **체력:** 36
+- **피해:** 8점
+- **장갑:** 1
+- **이동:** 근거리
+- **조정:** 은신, 공격, 스피드 방어를 레벨 8로 판정
+- **전투:** 래스는 검을 선호하지만 석궁에도 동일하게 능숙하며, 드물게는 현대식 무기도 다룬다. 근접전에서는 매 라운드 하나의 행동으로 두 명의 적을 공격할 수 있다.
+  데몬의 영향 덕분에 래스는 체력이 0이 되어도 매 라운드 체력 3점을 회복한다. 그녀를 영구히 죽이는 유일한 방법은 체력을 0으로 만든 뒤, 등이 새겨진 데몬 문양을 태워 없앨 만큼 오랫동안 그 상태를 유지하는 것이다.
+- **대화:** 래스는 오만하고 자신감이 넘치지만, 아첨에 쉽게 속을 정도는 아니다. 타인의 의도를 예측하고 결국 더 큰 이득을 취할 수 있기 때문에 보통 협상에도 응한다. 다만 자신의 말을 배신하는 인물은 아니다.
+- **용법:** 래스는 자신에게 복종할 슈퍼빌런 집단을 결성하려 하고 있으며, 초기 협상은 순조로운 듯하다. 유일한 불참자는 래스의 더 큰 조직을 위협으로 느끼는 미스터 제노사이드다. 이 긴장으로 암살자와 갱단원이 거리에서 계속 전투를 벌이고 있다.
+- **전리품:** 무기와 방어구 외에도, 래스는 고가 아이템 다섯 개에 해당하는 보탬, 1d6 사이퍼, 그리고 경우에 따라 아티팩트 하나 또는 둘을 지녔을 가능성이 크다.
+- **마스터 개입:** 가장 궁지에 몰린 듯한 순간, 래스는 대기 중이던 암살자 무리를 불러 PC들을 포위하고 항복을 요구한다.
+
+## 비플레이어 캐릭터 (NPC)
+
+이 장의 NPC들은 다양한 장르에서 사용할 수 있는 범용 비플레이어 캐릭터 예시다.
+
+NPC 재스킨: GM은 약간의 조정만으로 경비병을 현대 경찰, 판타지 대상단 경호원, SF 드론 병사 등으로 바꿀 수 있음을 알게 된다. 이를 재스킨이라 하며, 기존 수치를 조금 바꿔 자신의 게임에 맞게 NPC를 맞춤화하는 방식이다.
+
+능력 풀 대신 체력: NPC에게는 능력 풀(Pool)이 없다. 대신 체력이라는 수치를 가진다. NPC가 어떤 종류의 피해든 받으면 그 수치만큼 체력에서 차감한다. 별도 설명이 없다면 NPC의 체력은 항상 목표 수치와 같다. 일부 NPC는 통상 스피드 피해나 지능 피해를 주는 공격에 대해 특별한 반응이나 방어를 지닐 수 있지만, NPC 설명에 명시되지 않았다면 모든 피해는 NPC 체력에서 차감된다고 본다.
+
+적절한 무기: NPC는 상황에 맞는 무기를 사용한다. 검과 석궁, 칼과 산탄총, 사악한 정신 무기, 블래스터와 수류탄 등 무엇이든 가능하다.
+
+기타 NPC (OTHER NPCs)
+많은 NPC는 레벨과 몇 가지 관련 수치만으로도 충분히 단순하고 명확하게 표현된다.
+식인종: 레벨 3, 기만 및 기타 상호작용 일는 레벨 6; 체력 12
+해커: 레벨 2; 프로그래밍, 디지털 침투, 컴퓨터 수리는 레벨 7
+미치광이 과학자: 레벨 4, 장비/혈청/아티팩트 등 덕분에 대부분 행동은 레벨 6
+약탈자: 레벨 4, 주도권 및 위협은 레벨 7; 체력 28; 장갑 1
+명탐정: 레벨 5; 지각, 직관, 주도권, 거짓 간파는 레벨 9
+정치인: 레벨 2, 모든 상호작용 일는 레벨 6
+사제: 레벨 2, 종교 지식과 모든 상호작용 일는 레벨 6
+교수: 레벨 2, 과학 지식과 모든 상호작용 일는 레벨 6
+병사: 레벨 3, 지각은 레벨 4; 체력 12; 장갑 1; 공격은 피해 5점
+
+### 강대한 마법사 (WIZARD, MIGHTY) 8 (24)
+
+어떤 마법사들은 너무나 많은 주문을 익히고 방대한 비전을 축적해 극도로 강력해진다. 어떤 이는 더 큰 목적을 위해 움직이지만, 어떤 이는 자신만을 위해 행동한다.
+
+- **동기:** 강력한 마법 원천을 찾기(수집하거나 안전하게 보관하기 위해)
+- **체력:** 40
+- **피해:** 8점
+- **이동:** 근거리
+- **조정:** 비전 지식 관련 모든 일를 레벨 9로 판정
+- **전투:** 마법사가 지팡이로 장거리 공격을 하거나 대상을 타격하면, 비전 에너지가 대상에게 피해를 주고 원한다면 그 대상 근거리 내에서 마법사가 선택한 모든 생물에게도 피해를 준다. 피해를 받는 순간 마법사의 즉시 거리 안에 있던 대상은 즉시 거리 밖으로 튕겨 나간다.
+  강대한 마법사는 장갑 +5를 1시간 부여하는 주문, 순간이동 주문, 탐지 주문 등 많은 주문을 안다. 또한 전투에 유용한 여러 사이퍼를 지니고 있을 가능성이 높다.
+- **대화:** 마법사와 협상할 때는 신중해야 한다. 그들은 교묘하고 쉽게 분노하기 때문이다. 협상이 성사되더라도 마법사의 조언은 대개 모호하고 해석의 여지가 많다. 강대한 마법사는 캐릭터에게 주문 시전법을 가르치도록 설득될 수도 있다.
+- **용법:** 한 마법사가 거대한 적에 맞설 팀을 꾸리고 있으며, PC들이 그 조건에 맞는다.
+- **전리품:** 강대한 마법사는 1d6 사이퍼를 지닌다.
+- **마스터 개입:** 마법사는 하나가 아니라 두 개의 주문을 단일 행동으로 시전한다.
+
+### 제노패러사이트 (XENOPARASITE) 6 (18)
+
+이 외계 생명체는 오로지 먹고 번식하기 위해 존재한다. 그 과정에서 마주치는 모든 형태의 생명을 파괴한다. 제노패러사이트는 기술 기반 존재가 아니지만, 고도로 발전한 생물학 초과학을 지닌 종이 만들어냈을 가능성이 크다. 제노패러사이트는 스스로 항성계 사이를 이동하지 않으며, 창조자들이 광범위한 스펙트럼의 생물학 무기로 쓰기 위해 우주의 특정 영역에 퍼뜨린 것으로 보인다. 원래 제작자 종족이 어떻게 되었는지는 알려지지 않았지만, 제노패러사이트의 엄청난 번식력과 흉포함을 보면 그들 역시 자신들이 만든 존재에게 먹혔을 가능성이 높다.
+제노패러사이트는 산란관으로 희생자에게 미시적 알 수천 개를 낳는다. 삽입된 알들은 작은 생물학 실험실처럼 새 숙주의 생물학적 특성을 감지하고, 그에 맞게 적응한 뒤, 그 특성을 이용해 스스로 수정한다. 하루나 이틀 안에, 이미 성체 제노패러사이트(인간 크기)에게 먹히지 않은 희생자는 여러 마리의 사나운 유체(고양이 크기)를 폭발적으로 출산한다. 이렇게 태어난 유체 제노패러사이트는 자신이 부화해 나온 생물 종을 상대하는 데 유리함을 지닌다.
+
+- **동기:** 먹고 번식하기
+- **환경:** 단독 또는 소규모 무리로 사냥
+- **체력:** 28
+- **피해:** 6점
+- **장갑:** 2
+- **이동:** 근거리; 비행 시 원거리
+- **조정:** 모든 은신 행동을 레벨 8로 수행
+- **전투:** 제노패러사이트는 한 번의 행동으로 대악지로 물어뜯고 같은 대상 하나를 산란관으로 찌른다. 물어뜯기는 피해 6점을 주며, 대상이 힘 방어 굴림에 실패하면 산란관은 피해 3점을 주고 미시적 알 수천 개를 주입한다.
+  격 라운드마다 한 번, 성체는 최소 근거리 이상을 비행해 무시무시한 속도를 만든 뒤 대악지로 비행 공격을 가해 피해 12점을 준다. 이 공격에 대한 방어는 불리하게 적용된다.
+  알이 주입된 숙주는 의학에 숙련된 이의 처치(그리고 난이도 7 지성 기반 굴림 성공)가 필요하다. 알이 주입된 뒤 20시간 이상 지나 부화하기 전에 숙주의 혈액 속 알을 모두 불임화해야 한다. 그렇지 않으면 숙주는 죽고 1d6마리의 유체 제노패러사이트가 방출된다. 유체는 레벨 2 생명체이지만, 자신이 부화해 나온 숙주 종을 공격할 때는 레벨 4처럼 행동한다. 먹이를 섭취한 지 며칠만 지나면 완전한 성체 크기로 성장한다.
+  제노패러사이트는 심해와 가스 행성의 압궤 압력, 그리고 우주의 진공에서도 생존할 수 있다. 이들은 버려진 우주선과 황량한 위성 표면에 수천 년 동안 장기 동면 상태로 달라붙어 있다가, 진동으로 잠재적 새 먹이원을 감지하면 다시 활동을 시작할 수 있다.
+- **대화:** 이 생명체는 협상이 아니라 포식을 위해 만들어졌다.
+- **용법:** 제노패러사이트는 매우 까다로운 외계 존재다. 이런 개체들의 군락은 강한 적에 익숙한 PC들에게도 큰 도전이 된다. 거주지에 제노패러사이트 하나만 유입되어도 일주일 안에 그곳 전체가 감염된 벌집으로 변할 수 있다.
+  GM 침입: NPC 하나가 비명을 지르며 터져 1d6마리의 유체 제노패러사이트를 낳는다.
+
+### 좀비 (ZOMBIE) 3 (9)
+
+공격적이고 죽이기 어려운 연쇄 살인마로 변한 인간들, 그리고 과거 존재에 대한 기억을 잃어버린 이들을 좀비라고 부른다. 좀비의 기원에 따라 변이가 일어난 이유는 다양하다. 좀비는 언데드 저주, 사이킥 빙의, AI 육체 소프트웨어 덮어쓰기, 바이러스 감염, 약물 과다복용, 혹은 그 밖의 다른 원인으로 생겨날 수 있다. 변이가 어떻게 일어났든 결과는 거의 같다. 인간성은 타버리고 꺼지지 않는 굶주림으로 대체된 존재가 되는 것이다.
+좀비는 지능적이지 않지만, 충분한 수가 모이면 개미 군체가 집단적으로 행동을 조율하듯 때때로 창발적 행동을 보인다. 그래서 혼자 있거나 소규모 무리를 이룬 좀비는 야구방망이를 들었거나 도망칠 수 있는 사람에게 압도적인 위협이 되지 않는다. 하지만 좀비 떼를 우습게 여기는 일은 결코 현명하지 않다.
+
 - **동기:** Hunger (for flesh, cerebrospinal fluid, certain human hormones, and so on)
-- **환경:** Almost anywhere, in groups of five to seven, or in hordes of tens to - **hundreds
-Health**: 12
+- **환경:** 거의 어디에서나, 5~7마리의 무리, 또는 수십에서 수백 마리의 떼
+- **Health:** 12
 - **피해:** 3 points
 - **이동:** Immediate
 - **조정:** Speed defense as level 2
-- **전투:** Zombies never turn away from a conflict.
-They fight on, no matter the odds, usually attacking by biting, but sometimes by tearing with hands made into claws by the erosion of skin over their finger bones.
-When zombies attack in groups of five to seven individuals, they can make a single attack roll against one target as one level 5 creature, inflicting 5 points of damage.
-Zombies are hard to finish off. If an attack would reduce a zombie’s health to 0, it does so only if the number rolled in the attack was an even number; otherwise, the zombie is reduced to 1 point of health instead. This might result in a dismembered, gruesomely damaged zombie
-that is still moving. Zombies can see in the dark
-at short range.
-“Fresh” zombies are vulnerable to electricity. The first time a zombie takes 5 or more points of damage from an electrical attack, it falls limp and unmoving. Assuming nothing interferes with the process, the zombie arises minutes or hours later without the vulnerability.
-Some zombies are infectious. Their bites spread a
-level 8 disease that moves a victim down one step on the damage track each day a Might defense roll is failed. Victims killed by the disease later animate as zombies.
-- **대화:** Zombies groan when they see something that looks tasty. They do not reason, cannot speak, and never stop pursuing something they’ve identified as a potential meal, unless something else edible comes closer.
-- **용법:** The characters are asked to clear out a space that once served as an old military depot. The appearance of zombies sealed in the area comes as an unpleasant surprise.
-- **마스터 개입:** When the character fails to kill a zombie by rolling an odd number on an attack that otherwise would have been successful, in addition to the normal effect, the zombie’s arm comes free and animates as a separate level 2 zombie.
+- **전투:** 좀비는 결코 전투에서 물러서지 않는다.
+  좀비는 승산과 상관없이 계속 싸우며, 보통은 물어뜯어 공격하지만, 때로는 손가락뼈를 덮은 피부가 벗겨져 발톱처럼 된 손으로 할퀴기도 한다.
+  좀비가 5~7마리 집단으로 공격할 때는, 레벨 5 생물 하나로서 단일 대상에게 공격 판정을 한 번 굴릴 수 있으며, 피해 5점을 입힌다.
+  좀비는 끝장내기가 어렵다. 어떤 공격으로 좀비의 체력이 0이 되어야 하는 상황이라도, 그 공격 굴림 결과가 짝수일 때만 실제로 0이 된다. 홀수라면 대신 체력 1점이 남는다. 그 결과 사지가 뜯기고 흉측하게 망가진 좀비가
+  여전히 움직이는 일이 벌어질 수도 있다. 좀비는 어둠 속에서도
+  근거리까지 볼 수 있다.
+  “신선한” 좀비는 전기에 취약하다. 좀비가 전기 공격으로 처음 5점 이상 피해를 받으면 축 늘어져 움직이지 않게 된다. 이 과정이 방해받지 않는다면, 좀비는 몇 분 또는 몇 시간 뒤에 취약성을 잃은 채 다시 일어난다.
+  일부 좀비는 감염성을 지닌다. 그들의 물어뜯기는
+  레벨 8 질병을 퍼뜨리며, 피해자가 힘 방어 굴림에 실패할 때마다 하루에 피해 트랙을 한 단계씩 내려가게 만든다. 이 질병으로 죽은 피해자는 이후 좀비로 되살아난다.
+- **대화:** 좀비는 먹음직스러워 보이는 것을 보면 신음 소리를 낸다. 이들은 추론하지 못하고, 말할 수 없으며, 먹잇감 후보로 인식한 대상을 결코 추격을 멈추지 않는다. 단, 더 가까이에 다른 먹을 것이 나타나면 예외다.
+- **용법:** 등장인물들은 과거 군 보급창으로 쓰이던 장소를 정리해 달라는 요청을 받는다. 봉인되어 있던 구역에서 좀비가 나타나며 불쾌한 놀라움을 안긴다.
+- **마스터 개입:** 캐릭터가 성공했어야 할 공격에서 홀수를 굴려 좀비를 죽이지 못했을 때, 일반적인 효과에 더해 좀비의 팔 하나가 떨어져 나와 별도의 레벨 2 좀비로 움직이기 시작한다.
 
+## 슈퍼빌런 (supervillains)
 
-## 슈퍼 악당 (supervillains)
-People with amazing abilities who use them for evil earn the label of supervillain. This section presents five sample supervillains. These supervillains use the same format as the Creatures chapter.
-
-### ANATHEMA    7 (21)
-The supervillain called Anathema is big, bright red, and stronger than anyone on this planet or any other (or so he claims). Superheroes who go head to head with him learn that he can withstand almost any hit and always gives back twice as hard as he receives. He can bring down buildings with a punch and throw semi trucks across state lines. 
-Before he was Anathema, he was Sameer Stokes, a bitter and spiteful coder working for a large software company. Having failed in relationships, promotions, and retaining friends, Sameer retreated online and learned that he had power when he bullied people. He delighted in causing emotional distress in others in forums and social media. In effect, he was a troll. When the metamorphosis happened, he was turned into a troll for real. (Sameer doesn’t recall the metamorphosis or the days before and immediately after his change, despite using therapy and drugs in an attempt to recover those memories.)
-(Assume that Anathema has three power shifts in strength and two in resilience. These shifts are already figured into his modifications and other stats.)
-- **동기:** Accumulate wealth, live on the edge
-- **환경:** Anywhere vast wealth can be stolen
-- **체력:** 70
-- **피해:** 12 points
-- **이동:** Short; a few miles (5 km) per leap
-- **조정:** Strength tasks as level 10; Might defense as level 9; Speed defense as level 5 due to size
-- **전투:** Anathema hits foes with bone-shocking force. He can throw cars and large objects at targets within long range, dealing damage to all creatures within immediate range of his target.
-Anathema has a healing factor that makes it hard to hurt him in any meaningful sense. He regains 10 points of health per round. In any round in which he regains health, his attacks deal 3 additional points of damage (15 total), and he seems to visibly swell with muscle.
-- **대화:** When Anathema is riled up during a fight, it’s difficult to reason with him. However, he is willing to negotiate if someone offers him wealth or convinces him they have valuable secrets for breaking mental blocks. Anathema doesn’t know how he became the way he is, and he wants to recover his missing memories.
-- **용법:** The rolling earthquake afflicting the city is actually Anathema fighting a group of newbie superheroes who haven’t figured out that engaging the red mountain will likely cause more deaths than leaving him alone. (The first rule of fighting Anathema is to lead or move him somewhere with a low population density.)
-- **전리품:** Anathema doesn’t normally carry wealth or other valuables. In his lair, Anathema typically has three to five expensive items, 1d6 cyphers, and possibly an artifact.
-- **마스터 개입:** Anathema’s attack sends the character flying a long distance and potentially into dangerous terrain.
-
-
-
-### DOCTOR DREAD    7 (21)
-Doctor Dread is larger than life thanks to her brilliant mind, her media savvy, and the robotic armor she uses to enhance her otherwise normal abilities. Indeed, Doctor Dread has become the most feared terrorist on the planet. She uses her abilities to extort money, influence, and technology from the rich and powerful, whether her victims are individuals, governments, corporations, or superheroes.
-Alicia Coleridge is Doctor Dread’s secret identity. Born into relative obscurity, she received a full scholarship to the Russell Institute of Technology, where she studied the effects of radioactive substances on living tissue. In a freak lab accident, Alicia’s fiancé was slain, and Alicia was disfigured and driven slightly insane, so much so that she built the Doctor Dread armor. She plows the vast wealth she accumulates through terrorism into research into the rejuvenation of dead flesh. She hopes to one day bring back her dead love, whose body she keeps in suspended animation.
-(Doctor Dread is usually accompanied by a handful of robot minions.)
-(Dread’s robot minion: level 3; Armor 1; long-range laser attack inflicts 4 points of damage)
-(Assume that Doctor Dread has three power shifts in intelligence and two in resilience. These shifts are already figured into her modifications and other stats.)
-
-- **동기:** Accumulate wealth; reanimate dead flesh
-- **환경:** Wherever money can be extorted
-- **체력:** 40
-- **피해:** 7 points
-- **장갑:** 4
-- **이동:** Short; long when flying
-- **조정:** Resists mental attacks and deception as level 8; understands, repairs, and crafts advanced technology as level 10
-- **전투:** Doctor Dread’s armor allows her to exist without outside air (or air pressure), food, or water for up to ten days at a time. She can call on her robotic armor to accomplish a variety of tasks, including the following:
-Barricade: Establish an immobile, two-dimensional field
-of transparent force 10 feet by 10 feet (3 m by 3 m) for ten minutes
-Energy Cloak: Create an energy field that gives her +5 to Armor against heat, cold, or magnetism (one at a time, chosen when she uses the power) for ten minutes
-Fade: Become invisible for one minute, or until she makes an attack
-Plasma Blast: Long-range heat and electricity blast that inflicts 7 points of damage
-- **대화:** Doctor Dread is slightly mad, but that’s normally disguised by her amazing brilliance. She is an egomaniac but will negotiate in return for a promise of wealth or biomedical lore she doesn’t already know.
-- **용법:** The PCs are called to handle a hostage situation at a party in which many of the city’s wealthy elite are being held captive by Doctor Dread. She promises to let them go once sufficient wealth is paid into her offshore accounts.
-- **전리품:** Most of Doctor Dread’s considerable wealth is tied up in online accounts, two or three secret fortresses, and cutting-edge biological research equipment.
-- **마스터 개입:** Doctor Dread uses a function built into her robotic armor that is the perfect solution for her current predicament: healing herself, teleporting away, disintegrating a barrier, or whatever is needed.
-
-
-### MAGNETAR    8 (24)
-Not much is known about Magnetar other than its powerful ability to generate and control magnetic fields. Various research groups theorize that Magnetar is an alien, a sentient and self-improving robot, or even some kind of manifestation of a fundamental force. Given Magnetar’s vaguely humanoid shape, a few people even suggest that the villain is actually a man with a mutant ability so powerful that it burned out all memories of his former self.
-In truth, Magnetar is the animate, sentient, and self-regulating nucleus of a neutron star that is able to rein in its immense electromagnetic signature. One of two such beings an advanced alien species created from a single magnetar (a type of neutron star with an extremely powerful magnetic field), Magnetar was sent on a mission of exploration. After millennia, it crashed on Earth and was damaged. Having lost most of its memory data, Magnetar knows that something was taken from it (its twin), but it can’t remember what. It has decided to blame the humans.
-(Assume that Magnetar has three power shifts in its magnetic power and two in resilience. These shifts are already figured into its modifications and other stats.)
-- **동기:** Revenge; regain memory
-- **환경:** Almost anywhere, searching for what it has lost
-- **체력:** 50
-- **피해:** 12 points
-- **장갑:** 8
-- **이동:** Short; long when magnetically levitating
-- **조정:** Speed defense as level 5 due to mass; tasks related to controlling and shaping metal through electromagnetic manipulation as level 11
-- **전투:** Magnetar’s fist packs a wallop, since it can selectively add mass to the punch. However, its most potent ability is its level 11 control over all metal within very long range, which it uses to create anything it can imagine, including walls, attacks, pincers, and more. Magnetar can lift bridges, vehicles, and structures infused with rebar that it can see within its area of influence. When it throws such a large object as part of an attack, the target and everything within short range of the target takes 10 points of damage.
-Magnetar’s only weakness is psychic attacks, which is fortunate since reducing it to 0 health through an
-old-fashioned beating could release an uncontrolled neutron star chunk on the Earth’s surface.
-- **대화:** Morose and gruff, Magnetar would rather be alone, but every so often, it goes on a rampage, hoping that a display will draw out whoever or whatever made it the way it is. Magnetar constantly feels the drag of emotional loss, but it doesn’t know why (it doesn’t realize that the feeling comes from the loss of its twin).
-- **용법:** Doctor Dread has put a bounty on Magnetar’s head because she wants to study the advanced technology woven through its body. The bounty amount is outrageous, but then again, so is Magnetar.
-- **마스터 개입:** On a failed Might defense roll, all of the character’s loose metallic items (including weapons) are stripped from them and become stuck to a nearby metallic buttress.
-
-### **MISTER GENOCIDE**    5 (15)
-Real name Alfred Webster, Mister Genocide has the unfortunate ability to synthesize deadly poison from his skin. His touch can kill, but if he wishes it, so can his spittle or even his breath.
-Anyone who spends too much time in Mister Genocide’s presence becomes ill, even if the villain isn’t actively using his power. Thus, his cronies usually wear gas masks and protective clothing. Mister Genocide has promoted himself to the head of the mob in the city where he resides and is always looking to expand his operations, sometimes at the expense of other criminals.
-When victims are killed by Mister Genocide’s poison, their skin and the whites of their eyes take on a bright green hue, which increases the terror that normal people feel regarding him. Even superheroes have been brought down by his toxins. 
-Mister Genocide sometimes teams up with Anathema, because the red mountain is the only villain who can withstand the poison that Genocide constantly emits.
-(Assume that Mister Genocide has two power shifts in his poison power, one in intelligence, and two in resilience. These shifts are already figured into his modifications and other stats.)
-- **동기:** Accumulate power
-- **환경:** Anywhere crime lords congregate
-- **체력:** 15
-- **피해:** 5 points; see Combat
-- **장갑:** 1
-- **이동:** Short
-- **조정:** Poison breath attack and Might defense as level 7; Intellect defense and evil genius as level 6
-- **전투:** Targets touched by Mister Genocide must make a difficulty 7 Might defense roll or take 5 points of Speed damage (ignores Armor) from the poison transmitted. Worse, the poison continues to inflict 2 points of Speed damage each round until the victim succeeds at a Might defense roll.
-Every other round, Mister Genocide can make a level 7 poison attack that can affect up to ten victims within short range as a single action. Those who fail a Might defense roll take 7 points of Speed damage (ignores Armor) and spend a round helpless as they cough and gag. The inhalant poison does not continue to inflict damage
-each round.
-Mister Genocide is immune to most venoms, toxins, and poisons.    
-- **대화:** Certifiably insane, Mister Genocide likes to kill people. He may negotiate for a while, but if there is not enough gain to be had, he might kill everyone with a breath just for the fun of watching them suffocate and turn green.
-- **용법:** Gang warfare between two criminal organizations is shooting up downtown, and many innocent bystanders caught in the crossfire end up bullet-ridden or poisoned (with green skin). Someone needs to put a stop to Mister Genocide.
-- **전리품:** The supervillain carries currency equivalent to 1d6 expensive items, a cypher or two, and a variety of poisoned knives, needles, and vials.
-- **마스터 개입:** A character affected by the poison must make a second Might defense roll or fall unconscious from shock. Unconsciousness lasts for up to a minute, or until the victim is jostled awake.
-
-### WRATH    6 (18)
-The head of an elite group of assassins, Wrath wants to save the world by killing everyone who impedes her vision of perfection—which turns out to be the better part of humanity. In addition to being one of the most accomplished martial artists to walk the earth (thanks to her connection with a mystical entity called the Demon), Wrath is also a criminal mastermind whose assassins are just one layer of the organization she controls.
-Born more than two hundred and fifty years ago in China to a name lost to history, Wrath was taken in by a monastery and trained in the ways of fist and sword. Everything changed when raiders attacked and killed everyone in her monastery, leaving her the sole survivor. Vowing revenge against the raiders and the world that allowed animals like them to exist, she acquired a magical amulet that contains the Demon. The Demon in turn bequeathed her extraordinary speed, strength, and longevity.
-Wrath is content to let her assassins (and mobsters, lawyers, and politicians) accomplish many of her goals, though she relishes being present when particularly important adversaries are brought down.
-(Assassin of Wrath: level 4, stealth as level 7)
-(Assume that Wrath has two power shifts in dexterity, two in accuracy, and one in resilience. These shifts are already figured into her modifications and other stats.)
-- **동기:** Save the world
-- **환경:** Anywhere wrongs (to Wrath’s way of thinking) must be righted
-- **체력:** 36
-- **피해:** 8 points
-- **장갑:** 1
-- **이동:** Short
-- **조정:** Stealth, attacks, and Speed defense as level 8
-- **전투:** Wrath prefers a sword, though she is equally adept with a crossbow or, in rare cases, modern weapons. In melee she can attack two foes as a single action every round.
-Thanks to the influence of the Demon, Wrath regains 3 points of health each round, even if reduced to 0 health. The only way to permanently kill her is to reduce her to 0 health and keep her that way long enough to burn away the tattoo of the Demon that is engraved across her back.
-- **대화:** Wrath is arrogant and confident, though not so much that she is easily fooled by flattery. She is usually amenable to negotiating, because she can anticipate the agenda of others and usually gain far more for herself in the end. However, she is not one to betray her word.
-- **용법:** Wrath is making a bid to form a group of supervillains—all of whom will answer to her, of course—and it seems that initial talks are going well. The only holdout is Mister Genocide, who feels threatened by Wrath’s larger organization, and this tension has led to ongoing warfare in the streets as assassins battle mobsters.
-- **전리품:** In addition to weapons and armor, Wrath likely possesses the equivalent of five exorbitant items, 1d6 cyphers, and possibly one or two artifacts.
-- **마스터 개입:** Just as things seem bleakest for her, Wrath summons a group of assassins waiting in the wings to surround the PCs and demand their surrender.
-
-## NPC
-The NPCs in this chapter are generic examples of nonplayer characters that can be used in many genres.
-
-Reskinning NPCs: GMs will find that with a few tweaks, a guard can be a modern-day cop, a fantasy caravan guard, or a science fiction drone soldier. This is known as reskinning—making slight changes to existing stats to customize the NPC for your own game.
-
-Health, Not Pools: Remember that NPCs don’t have stat Pools. Instead, they have a characteristic called health. When an NPC takes damage of any kind, the amount is subtracted from its health. Unless described otherwise, an NPC’s health is always equal to its target number. Some NPCs might have special reactions to or defenses against attacks that would normally deal Speed damage or Intellect damage, but unless the NPC’s description specifically explains this, assume that all damage is subtracted from the NPC’s health.
-
-Appropriate Weapons: NPCs use weapons appropriate to their situation, which might be swords and crossbows, knives and shotguns, malefic psychic weapons, blasters and grenades, and so on.
-
-
-OTHER NPCs
-Many NPCs are simple and understandable enough to be encapsulated just by their level and a few other other relevant stats.
-Cannibal: level 3, deception and other interaction tasks as level 6; health 12
-Hacker: level 2; programming, digital infiltration, and repairing computers as level 7
-Mad scientist: level 4, most actions as level 6 due to gadgets, serums, artifacts, etc.
-Marauder: level 4, initiative and intimidation as level 7; health 28; Armor 1
-Master detective: level 5; perception, intuition, initiative, and detecting falsehood as level 9
-Politician: level 2, all interaction tasks as level 6
-Priest: level 2, religious lore and all interaction tasks as level 6
-Professor: level 2, knowledge of science and all interaction tasks as level 6
-Soldier: level 3, perception as level 4; health 12; Armor 1; attacks inflict 5 points of damage
-
-### ASSASSIN    6 (18)
-An assassin kills with poison, with high-velocity bullets from a distance, or by arranging for an unfortunate accident. Assassins accept contracts from governments, corporations, crime bosses, and aggrieved former partners, though some assassins pay themselves by tracking criminals anywhere to collect on “dead or alive” bounties.
-- **동기:** Murder (usually for hire)
-- **체력:** 18
-- **피해:** 6 points 
-- **장갑:** 1
-- **이동:** Short
-- **조정:** Stealth and deception tasks as level 8; when attacking from hiding, melee and ranged attacks as level 7
-- **전투:** An assortment of small weapons are hidden about an assassin’s body. They can also coat their weapons or ammo with a level 6 poison that moves victims who fail a Might defense roll one step down the damage track.
-- **대화:** Some assassins have a sort of integrity about their work and can’t be dissuaded from completing their contracts with bribes. 
-- **용법:** An assassin is greatly feared by anyone with powerful, wealthy enemies.
-- **전리품:** Aside from their weapons and poisons, most assassins have currency equivalent to a very expensive item and maybe one or two cyphers.
-- **마스터 개입:** The character loses their next turn, stunned, after recognizing the assassin to be the same murderer who killed someone important to them in the past.
-
-
-
-### CRIME BOSS    3 (9)
-A crime boss usually isn’t physically powerful but wields power through lies, bribery, and control. Rarely encountered alone, they rely on guards, thugs, and other measures to provide physical security. A crime boss could be a petty noble, a mafia king, or the captain of a pirate ship that sails the seas or glides the space lanes. 
-- **동기:** Money and power
-- **체력:** 12
-- **피해:** 5 points
-- **장갑:** 1
-- **이동:** Short
-- **조정:** Deception, persuasion, intimidation, and tasks related to friendly interaction as level 7
-- **전투:** Guards, thugs, and other followers deal 1 additional point of damage when the crime boss can see them and issue commands. If possible, crime bosses fight while mounted or in a vehicle, directing their followers from the rear of any conflict, concentrating first on issuing orders.
-- **대화:** Crime bosses are committed to their plans, whatever those might be. Most bosses rely on a lieutenant or trusted thug to interact with people in their place.
-- **용법:** A crime boss and their followers execute a heist on a secure location and take hostages when things go south. Someone must go in and talk to the crime boss to defuse the situation.
-- **전리품:** A crime boss has currency equivalent to a very expensive item in addition to weapons, medium armor, and miscellaneous gear.
-- **마스터 개입:** The crime boss uses a clever trick or cypher to block all incoming attacks in a given round of combat.
-
-
-### DETECTIVE    3 (9)
-Detectives are usually veterans of their organization (such as the police, city watch, marshals, space command, and so on) with extensive experience. Some detectives are freelance sleuths whose uncanny ability to see the truth comes from personal training combined with an underlying talent for noticing clues that others miss.
-- **동기:** Solve the crime 
-- **체력:** 12
-- **피해:** 4 points
-- **Movement: **Short
-- **조정:** Tasks relating to perception, intuition, initiative, and detecting - **falsehoods as** level 6
-- **전투:** Detectives prefer to outwit their foes rather than engage in a straight-up fight. Even then, most conflicts occur in a place and time of the detective’s choosing, preferably in the presence of their allies. A detective can deduce weaknesses of their enemies (if any) and exploit them in combat.
-- **대화:** Some detectives are insufferable
-know-it-alls. Others have learned that humility is also a useful tool for getting answers from people.
-- **용법:** To the PCs, detectives can be obstacles (a detective is on their trail), allies (a detective helps them assemble clues), or both, but the sleuths are rarely a way for the characters to hand off responsibility for accomplishing a hard task.
-- **전리품:** Aside from their weapons, most detectives have currency equivalent to a very expensive item and a cypher.
-- **마스터 개입:** The detective intuits the character’s next attack and moves perfectly so that an ally of the character takes the attack instead.
-
-
-### GUARD    2 (6)
-Guards keep the peace but don’t usually show much initiative. Ultimately, they do as they’re ordered by their superiors, regardless of legality. A guard might be a star trooper dressed in intimidating armor, a mall security guard, a beat police officer, or a mafia goon.
-(When attacked, guards always call for the help of other guards, if possible.)
-- **동기:** Keep the peace; follow orders
-- **체력:** 8
-- **피해:** 3 points
-- **장갑:** 1 or 2
-- **이동:** Short
-- **조정:** Perception as level 3
-- **전투:** Guards are not often wily, but they understand strength in numbers. If two or more guards attack the same target with at least one melee attack in the same round, the target’s Speed defense roll against those attacks is hindered.
-- **대화:** Interacting with a guard typically involves one issue: does the PC want to do something that the guard has been told to prevent? If so, the PC could have a difficult time. 
-- **용법:** To the PCs, guards can be allies, obstacles, or both. Guards who serve the public good have their own duties and aren’t interested in doing the characters’ work for them.
-- **전리품:** A guard has currency equivalent to an inexpensive item in addition to weapons, armor, and basic gear.
-- **마스터 개입:** 1d6 local citizens intervene on the guard’s behalf, calling for more guards or even fighting the guard’s foes.
-
-
-
-### **OCCULTIST**    5 (15)
-Paranormal researchers, cultists, secret practitioners of white magic, and coven members might be occultists. Thanks to their study of the metaphysical, occultists learn several magical tricks, including the ability to summon or banish the dead.
-Health: 15
-Damage Inflicted: 5 points
-Movement: Short
-- **조정:** Knowledge of occult topics and rituals as level 8; ability to detect lies and tricks as level 2
-- **전투:** An occultist has a charm or device for summoning a level 5 spirit or demon that will do their bidding for ten minutes. Some also have (or instead have) a spell, item, or device that inflicts 5 points of damage on normal creatures within long range, and 10 points of damage on a demon or spirit (or, instead of dealing extra damage, the effect confines the demon or spirit in some way).
-- **대화:** Occultists are deeply concerned with spiritual or demonic matters and see those influences in all things, whether those influences exist or not. That makes them amenable to persuasion and deception, if couched in the language of spiritual influence.
-- **용법:** To find a needed answer, the spirit of a dead person must be questioned. Alternatively, a haunting presence must be banished. Either way, the task requires an occultist.
-- **전리품:** In addition to their clothing and mundane weapons, occultists have currency equivalent to an inexpensive item, a cypher, and possibly an artifact related to their power over spirits or demons.
-- **마스터 개입:** A bony hand erupts from the ground at the character’s feet. On a failed Speed defense roll, they are held in place until they succeed on a Might-based task to escape. Each round the character fails to escape, the hand squeezes for 3 points of damage.
-
-
-### **SECRET AGENT**    5 (15)
-Secret agents are trained professionals who put their mission before their own well-being, regardless of which government agency, corporation, guild, or kingdom employs them. An agent operates under a fake cover, perhaps as an envoy, inspector, technician, actor, tourist, or bumbling fool.
-- **동기:** Accomplish the goals of the employer while maintaining cover
-- **체력:** 15
-- **피해:** 5 points
-- **Movement: **Short
-- **조정:** Tasks related to disguise and deceiving as level 6
-- **전투:** A secret agent always has a covert, unexpected backup weapon that they can use to make a surprise attack, such as a ring or glove with a hidden poisoned needle (dealing 5 points of Speed damage that ignore Armor), a fake tooth filled with poison gas to blow in a victim’s face (inducing sleep for ten minutes), or a ring with a miniature gun.
-- **대화:** Secret agents are confident, masterful, and always give the impression of being one step ahead of the game, even when caught off guard.
-- **용법:** As an ally, a secret agent can guide the PCs to their next mission, fill in gaps in their knowledge, and warn them of dangers. If the characters encounter an unfriendly agent, the NPC likely pretends to be a friend.
-- **전리품:** Agents typically have currency equivalent to an expensive item, a couple of cyphers, tools for spying and maintaining their cover, and possibly an artifact.
-- **마스터 개입:** The secret agent produces a cypher that, for the rest of the day, eases all tasks by two steps.
-
-
-### THUG    3 (9)
-Thugs are usually rough, crude, and harsh individuals who prey on those who follow the rules. A thug might be a streetwise drug dealer, a bandit who hunts lone travelers in the wilds, a savage warrior adroit with ranged weapons, or a cyberbully among pacifists. Most thugs work for themselves, but they may employ gangs of guards to help them conduct their business.
-- **동기:** Take what they want
-- **체력:** 9
-- **피해:** 4 points
-- **장갑:** 1
-- **이동:** Short
-- **전투:** Thugs prefer ambushes, making ranged attacks from hiding if possible. Sometimes they spoil the ambush to issue an ultimatum before attacking: give us your valuables or you’ll be sorry.
-- **대화:** Thugs are interested in money and power, which means they almost always accept bribes. If faced with a real threat, thugs usually retreat.
-- **용법:** Thugs are everywhere, sometimes accompanied by guards who are equally malicious but not quite as powerful.
-- **전리품:** A thug has currency equivalent to an inexpensive item in addition to weapons, shields, and light armor. One thug in a group might have a cypher.
-- **마스터 개입:** Another thug, hidden until just the right moment, appears and takes a shot with a ranged weapon before joining the fray.
-
-
-### WIZARD, MIGHTY    8 (24)
-Some wizards learn so many spells and accumulate so much lore that they become incredibly powerful. Some work for a higher purpose, whereas others are concerned only with themselves.
-- **동기:** Seek powerful sources of magic (to collect or to keep safe)
-- **체력:** 40
-- **피해:** 8 points
-- **Movement: **Short
-- **조정:** All tasks related to knowledge of arcane lore as level 9
-- **전투:** When a wizard makes a long-range attack with their staff or strikes someone with it, arcane energy damages the target and, if desired, all creatures the wizard selects within short range of the target. Targets that are within immediate range of the wizard when they take damage are thrown out of immediate range.
-A mighty wizard knows many spells, including spells that grant +5 to Armor for an hour, spells of teleportation, spells of finding, and so on. A wizard also likely carries several cyphers useful in combat.
-- **대화:** Care should be taken when negotiating with wizards because they are subtle and quick to anger. Even when negotiations succeed, a wizard’s suggestions are usually cryptic and open to interpretation. A mighty wizard might be convinced to teach a character how to cast a spell.
-- **용법:** A wizard is putting together a team to challenge a great foe, and the PCs fit the bill.
-- **전리품:** A mighty wizard has 1d6 cyphers.
-- **마스터 개입:** The wizard casts two spells as a single action instead of just one.
+놀라운 능력을 악하게 사용하는 사람들은 슈퍼빌런이라는 이름을 얻는다. 이 절에서는 예시 슈퍼빌런 다섯 명을 제시한다. 이 슈퍼빌런들은 크리처 장과 동일한 형식을 사용한다.

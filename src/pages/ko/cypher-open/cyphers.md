@@ -7,6 +7,7 @@ publish: false
 ---
 
 ## 사이퍼
+
 사이퍼는 일회용 능력으로 캐릭터들이 플레이 도중에 얻게 됩니다. 사이퍼는 치유하고 공격하고 일의 판정 난이도를 낮추거나 높이거나 (초자연적이고 극단적인 예로는) 중력을 없애거나 무언가를 보이지 않게 하는 등의 쿨한 능력을 가지고 있습니다. 대부분의 사이퍼는 물리적 사물이 아니고 - 그저 필요할 때 일어나는 유용한 무언가입니다. 이는 완벽하게 공격할 수 있도록 캐릭터들에게 번뜩인 영감일 수도 있으며, 컴퓨터 단말을 쓸 때 운 좋게 추측한 게 들어맞은 것일 수도 있고, 우연히 NPC들에게서 주의를 분산시킨 것이거나, 초자연적인 요소가 우리가 원하는 식으로 작동한 것일 수도 있습니다. 어떤 게임에서는 사이퍼는 마법 물약이나 외계 기술 같은 아이템의 형태를 하고 있습니다.
 
 물리적 형태를 가지고 있지 않은 사이퍼는 은근한(subtle) 사이퍼라 합니다.
@@ -17,1568 +18,1380 @@ publish: false
 
 사이퍼는 자주 발견하고 써버리기 위해 설계한 게임 메카닉입니다. PC들은 적은 수의 사이퍼만 지니고 있을 수 있기 때문에, 그리고 언제나 더 많이 발견하게 되기 때문에, 사이퍼를 꾸준히 사용하기를 권장합니다.
 
-이론적으로는, PC들이 얻는 사이퍼는 무작위로 정해집니다. 하지만, 마스터는 PC가 의도적으로 사이퍼를 얻거나 찾을 수 있도록 허용할 수도 있습니다. 사이퍼는 이렇든 정기적으로 획득하게 되기 때문에 자유롭게 써버려도 된다고 느껴야 합니다. 항상 더 많은 사이퍼가 있어야 하고, 서로 다른 이득을 가지고 있을 겁니다. 이는 게임 플레이에서 사이프가 장비(gear)나 보물보다는 플레이어가 선택하지 않는 캐릭터 능력에 가깝다는 뜻입니다. 이는 플레이어가 "어, 이 상황에 도움이 될만한 X를 전에 얻었어요."라고 말하게 되는 재미있는 순간들로 이어지고 X는 항상 다를 겁니다. X는 지역 컴퓨터 네트워크에 대한 직관적인 이해일 수도 있고, 요정 법정의 호의일 수도 있고, 폭발하는 기계장치나, 근거리 순간이동 장치나, 역장일지도 모른다.강력한 자석이나, 병을 치료하는 기도일 수도 있습니다. 무엇이든 될 수 있습니다. 사이퍼는 게임을 신선하고 흥미롭게 유지해줍니다. 시간이 지나면서 캐릭터들은 어떻게 안전하게 사이퍼를 한 번에 많이 *휴대*(carry)할 수 있는지 배우게 되고, 그래서 사이퍼는 정말 더더욱 장비보다는 능력에 가까워 보일 겁니다.
+이론적으로는, PC들이 얻는 사이퍼는 무작위로 정해집니다. 하지만, 마스터는 PC가 의도적으로 사이퍼를 얻거나 찾을 수 있도록 허용할 수도 있습니다. 사이퍼는 이렇든 정기적으로 획득하게 되기 때문에 자유롭게 써버려도 된다고 느껴야 합니다. 항상 더 많은 사이퍼가 있어야 하고, 서로 다른 이득을 가지고 있을 겁니다. 이는 게임 플레이에서 사이프가 장비(gear)나 보물보다는 플레이어가 선택하지 않는 캐릭터 능력에 가깝다는 뜻입니다. 이는 플레이어가 "어, 이 상황에 도움이 될만한 X를 전에 얻었어요."라고 말하게 되는 재미있는 순간들로 이어지고 X는 항상 다를 겁니다. X는 지역 컴퓨터 네트워크에 대한 직관적인 이해일 수도 있고, 요정 법정의 호의일 수도 있고, 폭발하는 기계장치나, 근거리 순간이동 장치나, 역장일지도 모른다.강력한 자석이나, 병을 치료하는 기도일 수도 있습니다. 무엇이든 될 수 있습니다. 사이퍼는 게임을 신선하고 흥미롭게 유지해줍니다. 시간이 지나면서 캐릭터들은 어떻게 안전하게 사이퍼를 한 번에 많이 _휴대_(carry)할 수 있는지 배우게 되고, 그래서 사이퍼는 정말 더더욱 장비보다는 능력에 가까워 보일 겁니다.
 
 (*"휴대"*라는 말은 여기서 암시적 사이퍼와 명시적 사이퍼를 통칭하며, PC가 물리적으로 사이퍼를 나타내는 무엇도 실제로는 휴대하지 않더라도 그렇습니다. 장비 없이 감옥에 던져진 캐릭터도 여전히 암시적 사이퍼를 가지고 있을 겁니다.)
 
-사이퍼는 새로운 사이퍼를 위한 자리를 만들기 위해 꼭 쓰지 않아도 됩니다. 암시적 사이퍼의 경우, 캐릭터는 그저 사이퍼를 *"잃기"* 위해 행동을 써서, 공간을 자유롭게 하고 새로운 걸 나중에 *"찾을"* 수 있습니다. (한 번 암시적 사이퍼가 이렇게 없어지고 나면, 사라져서 영영 돌아오지 않습니다) 명시적 사이퍼의 경우, 그저 나중에 쓰려고 아무 곳에서 버려뒀다고 해도 전혀 문제 없습니다; 물론 돌아왔을 때 여전히 거기 있으리라는 보장은 없습니다.
+사이퍼는 새로운 사이퍼를 위한 자리를 만들기 위해 꼭 쓰지 않아도 됩니다. 암시적 사이퍼의 경우, 캐릭터는 그저 사이퍼를 _"잃기"_ 위해 행동을 써서, 공간을 자유롭게 하고 새로운 걸 나중에 _"찾을"_ 수 있습니다. (한 번 암시적 사이퍼가 이렇게 없어지고 나면, 사라져서 영영 돌아오지 않습니다) 명시적 사이퍼의 경우, 그저 나중에 쓰려고 아무 곳에서 버려뒀다고 해도 전혀 문제 없습니다; 물론 돌아왔을 때 여전히 거기 있으리라는 보장은 없습니다.
 
 ## 사이퍼는 왜?
+
 사이퍼는 (이름만 봐도 놀랍지도 않겠지만) 사이퍼 시스템의 심장(heart)입니다. 이는 이 게임에서 캐릭터들이 가끔 혹은 전혀 변하지 않고 게임 내내 가지고 있을 것으로 여겨지는 능력은 약간을 가지고 있어서 -다른 모든 게임에서도 그렇듯이- 항상 의지할 수 있으며, 계속 변하고 상당량의 가변성을 주입하는 능력도 가지고 있습니다.[^역주1] 이는 어떤 사이퍼 시스템 세션도 항상 지루하지도 저번 세션이랑 똑같지도 않을 수 밖에 없는 주된 이유입니다. 이번 주에는 여러분의 캐릭터가 벽을 통과해서 걸어서 문제를 해결할 수 있다면, 지난 시간에는 도시의 구역 하나를 평평하게 만들 정도의 폭발을 만들어서 가능했을 수도 있습니다.
 
 사이퍼 시스템에서는, 그래서, 캐릭터의 능력이 유동적이고, 마스터와 플레이어 모두가 사이퍼를 선택하고 할당하고, 사용하는데 각각 역할을 가지고 있습니다. 비록 많은 것들이 게임 시스템을 다른 요소에서 분리하긴 하지만, 이런 면모는 사이퍼 시스템을 독창적이게 만드는데, 사이퍼는 다음 두 가지의 중요성과 가치를 인지하고 있기 때문입니다.
 
 1. "보물," 캐릭터 능력이 게임을 재미있고 흥미진진하게 만들기 때문입니다. 사실, 롤플레잉의 초창기에는, 보물 (보통 던전에서 발견하는 마법 아이템의 형태를 한)이 이미 존재하는 캐릭터를 커스텀하는 유일한 방법이었습니다. 밖으로 나가 모험을 하는 이유는 더 많은 모험을 떠날 때 도움을 주는 쿨한 새로운 것들을 발견하기 위해서였습니다. 이는 많은 RPG들에서 여전히 사실이지만, 사이퍼 시스템에서는, 이게 바로 게임의 핵심에 구축되어 있습니다.
 
-2. Letting the GM have a hand in determining PC abilities makes the game move more smoothly. 
-Some GMs prefer to roll cyphers randomly, but some do not. For example, giving the PCs a cypher that will allow them to teleport far away might be a secret adventure seed placed by a forward-thinking GM. Because the GM has an idea of where the story is going, they can use cyphers to help guide the path. Alternatively, if the GM is open to it, they can give out cyphers that enable the characters to take a more proactive role (such as teleporting anywhere they want). Perhaps most important, they can do these things without worrying about the long-term ramifications of the ability. A device that lets you teleport multiple times might really mess up the game over the long term. But once? That’s just fun.
+2. GM이 PC 능력이 무엇이 될지 정하는 데 관여하면 게임이 더 매끄럽게 진행됩니다. 일부 GM은 사이퍼를 무작위로 굴리는 걸 선호하지만, 그렇지 않은 GM도 있습니다. 예를 들어, PC들에게 먼 곳으로 순간이동할 수 있게 해 주는 사이퍼를 주는 일은, 앞을 내다보는 GM이 심어 둔 비밀 모험 훅일 수 있습니다. GM은 이야기의 진행 방향을 알고 있기 때문에, 사이퍼를 사용해 경로를 안내할 수 있습니다. 반대로 GM이 이를 허용한다면, 캐릭터들이 더 능동적으로 움직일 수 있게 하는 사이퍼(예: 원하는 곳 어디든 순간이동)를 줄 수도 있습니다. 어쩌면 가장 중요한 점은, 이런 일을 하면서도 그 능력의 장기적 파장을 걱정하지 않아도 된다는 것입니다. 여러 번 순간이동하게 해 주는 장치는 장기적으로 게임을 크게 망가뜨릴 수 있습니다. 하지만 한 번이라면? 그건 그냥 재미입니다.
 
-## CYPHER LIMITS
-All characters have a maximum number of cyphers they can have at any one time, determined by their type. If a character ever attempts to carry more, random cyphers instantly disappear until the PC has a number of cyphers equal to their maximum (depending on the genre of the campaign, subtle cyphers may be more or less likely to vanish this way). These vanished cyphers are not recoverable.
+## 사이퍼 한도
 
+모든 캐릭터는 한 번에 보유할 수 있는 사이퍼 최대 개수가 있으며, 이는 타입으로 결정됩니다. 캐릭터가 그보다 많이 휴대하려고 하면, PC의 사이퍼 개수가 최대치와 같아질 때까지 무작위 사이퍼가 즉시 사라집니다(캠페인 장르에 따라 은근한 사이퍼가 이런 방식으로 사라질 가능성은 더 높거나 낮을 수 있습니다). 이렇게 사라진 사이퍼는 되찾을 수 없습니다.
 
-## SUBTLE CYPHERS
-Subtle (nonphysical) cyphers are a way to introduce cyphers into a game without overt “powered stuff”—no potions, alien crystals, or anything of that nature. They’re most useful, perhaps, in a modern or horror setting without obvious fantasy elements. Subtle cyphers are more like the inherent abilities PCs have, adding boosts to Edge, recovering points from Pools, coming up with ideas, and so on. In general, these are commonplace, non-supernatural effects—a subtle cypher wouldn’t create a laser beam or allow a character to walk through a wall. They don’t break the fragile bubble of believability in genres where flashy powers and abilities don’t make a lot of sense.
+## 은근한 사이퍼
 
-Subtle cyphers are particularly nice in a genre where the PCs are supposed to be normal people. The cyphers can simply be an expression of innate capabilities in characters that aren’t always dependable. And in many ways, that’s probably more realistic than an ability you can count on with certainty, because in real life, some days you can jump over a fence, and some days you just can’t.
+은근한(비물리적) 사이퍼는 노골적인 "파워 아이템" 없이 게임에 사이퍼를 도입하는 방법입니다. 즉 물약, 외계 결정, 혹은 그런 류의 물건이 없습니다. 이런 사이퍼는 눈에 띄는 판타지 요소가 없는 현대물이나 호러물 배경에서 특히 유용합니다. 은근한 사이퍼는 PC가 지닌 고유 능력에 더 가까워서, 엣지 강화, 풀 점수 회복, 아이디어 떠올리기 같은 보정을 제공합니다. 일반적으로 이는 흔하고 비초자연적인 효과입니다. 은근한 사이퍼가 레이저 빔을 만들거나 벽을 통과하게 하지는 않습니다. 화려한 능력이 잘 어울리지 않는 장르에서, 개연성의 섬세한 막을 깨뜨리지 않는다는 뜻입니다.
 
-Concepts for subtle cyphers include the following:
+은근한 사이퍼는 PC가 평범한 사람이어야 하는 장르에서 특히 좋습니다. 이런 사이퍼는, 언제나 신뢰할 수 있지는 않은 캐릭터의 타고난 역량이 드러난 것일 뿐일 수 있습니다. 그리고 여러 면에서, 그게 오히려 확실하게 믿을 수 있는 능력보다 더 현실적일지도 모릅니다. 현실에서도 어떤 날은 울타리를 훌쩍 넘을 수 있지만, 어떤 날은 도무지 안 되니까요.
 
-- **Good fortune**: Once in a while, things just go your way. You’re in the right place at the right time.
+은근한 사이퍼의 컨셉 예시는 다음과 같습니다.
 
-- **Inspirations**: Sometimes you get inspired to do something you’ve never done before and might not be able to do again. Call it adrenaline mixed with the right motivation, or just doing the right thing at the right place at the right time. Who can really define it? Life’s funny that way.
+- **행운** : 가끔은 일이 그냥 잘 풀립니다. 딱 맞는 때에 딱 맞는 장소에 있는 거죠.
 
-- **Alien concepts**: Complex and utterly inhuman memes enter our world and worm their way into and out of human consciousness. When this happens, it can cause mental distress and disorientation. It can also grant impossible abilities and advantages.
+- **영감** : 때로는 한 번도 해 본 적 없는 일을 해내도록 영감이 솟고, 다시는 못 할지도 모릅니다. 아드레날린과 동기의 적절한 결합이라고 불러도 되고, 그저 알맞은 때 알맞은 곳에서 알맞은 일을 한 것이라고 해도 됩니다. 누가 그걸 완벽히 규정할 수 있을까요? 인생이란 원래 그런 식으로 묘합니다.
 
-- **Blessings**: In a fantasy world, there are nine gods. Each morning, all intelligent residents of the world pray to one of the gods, and some of the faithful gain a divine blessing. Some people believe that praying to different gods gives you different blessings.
+- **이질적인 개념** : 복잡하고 완전히 비인간적인 밈이 우리 세계로 들어와 인간의 의식 안팎을 파고듭니다. 이런 일이 일어나면 정신적 고통과 방향 감각 상실을 일으킬 수 있습니다. 동시에 불가능한 능력과 이점을 부여할 수도 있습니다.
 
-- **Earworms**: You know how some songs pop into your head and just won’t leave? There’s a power to those songs, and the right people know how to harness it. Make the songs disturbing or reminiscent of evil chants, and you’ve got a perfect cypher concept for a horror campaign.
+- **축복** : 어떤 판타지 세계에는 아홉 신이 있습니다. 매일 아침, 세계의 모든 지성체 주민은 신들 중 하나에게 기도하고, 그중 일부 신실한 이들은 신성한 축복을 얻습니다. 어떤 사람들은 서로 다른 신에게 기도하면 서로 다른 축복을 받는다고 믿습니다.
 
-- **Mysterious transmissions**: What’s that buzzing? That mechanical chittering? Those numbers repeating over and over? And why can only some people hear it? A few who are aware of the sounds have learned how to make use of them.
+- **귀벌레 노래** : 어떤 노래가 머릿속에 박혀서 좀처럼 떠나지 않는 경험이 있죠? 그런 노래에는 힘이 있고, 적절한 사람들은 그 힘을 다루는 법을 압니다. 노래를 불길하게 만들거나 사악한 주문처럼 들리게 하면, 호러 캠페인에 딱 맞는 사이퍼 컨셉이 됩니다.
 
-- **Supernatural powers**: Mental or mystical energies constantly shift and change, ebb and flow. But you’ve figured out how to attune your mind to them. There are no physical actions or paraphernalia required—just an inner conduit to the numinous.
+- **수수께끼의 송신** : 이 윙윙거림은 뭘까요? 기계가 재잘거리는 듯한 이 소리는? 끝없이 반복되는 저 숫자들은? 그리고 왜 어떤 사람들에게만 들릴까요? 그 소리를 인지하는 소수는 그것을 활용하는 법을 익혔습니다.
 
-## DISCOVERING SUBTLE CYPHERS
+- **초자연적 힘** : 정신적 혹은 신비적 에너지는 끊임없이 이동하고 변하며, 차오르고 빠집니다. 하지만 당신은 그 흐름에 정신을 조율하는 법을 알아냈습니다. 물리적 동작이나 도구는 전혀 필요 없습니다. 오직 신비에 닿는 내면의 통로만 있으면 됩니다.
 
-Since subtle cyphers aren’t physical objects, GMs will need to figure out when to give PCs new ones to replace the ones they have used. The cyphers probably shouldn’t be tied to actions entirely under the characters’ control—in other words, they shouldn’t come as a result of meditation or anything of that nature. Instead, the GM should choose significant points in the story when new cyphers might simply come unbidden to the PCs. In the broader view, this is no different than manifest cyphers placed as treasure in a creature’s lair, a secret cache, or somewhere else for the characters to find. Either way, the GM is picking good spots to “refill” potentially used cypher-based abilities.
+## 은근한 사이퍼 발견
 
-Subtle cyphers are often found in groups of one to six (the GM can roll 1d6 to determine the number). The GM might randomly assign the cyphers to each PC who has space for more, or present a selection of cyphers to the group and allow the players to choose which ones they want for their characters. Characters should immediately know what their subtle cyphers do. If a PC activates a healing subtle cypher when they think it’s something to help pick a lock, that’s a waste of a useful character ability.
+은근한 사이퍼는 물리적 물체가 아니므로, GM은 PC들이 사용한 사이퍼를 대체할 새 사이퍼를 언제 줄지 정해야 합니다. 이 사이퍼는 캐릭터가 완전히 통제하는 행동에 묶여 있어서는 안 됩니다. 다시 말해, 명상 같은 행위의 결과로 주어져서는 안 된다는 뜻입니다. 대신 GM은, 새 사이퍼가 PC에게 불쑥 찾아올 만한 이야기의 중요한 지점을 골라야 합니다. 큰 틀에서 보면, 이는 GM이 생물의 은신처, 비밀 은닉처, 혹은 캐릭터가 찾을 만한 다른 장소에 명백한 사이퍼를 보물로 배치하는 것과 다르지 않습니다. 어느 쪽이든 GM은, 사용되어 비게 될 수 있는 사이퍼 기반 능력을 "재충전"하기 좋은 지점을 고르고 있는 셈입니다.
 
-PCs might be able to obtain subtle cyphers from NPCs or in unusual circumstances as gifts, boons, or blessings, even asking for a particular kind of subtle cypher, such as healing, protection, or skill. For example, PCs who make a donation at a temple of a healing goddess could ask to receive a blessing (subtle cypher) that allows them to speak a healing prayer that restores points to one of their Pools. An NPC wizard who owes the PCs a favor might cast a spell on them that deflects one weapon if they say a magic word. An alien pylon might grant knowledge of a strange mental code that lets a person see in the dark for a few hours.
+은근한 사이퍼는 보통 1개에서 6개 묶음으로 발견됩니다(GM은 개수를 정하기 위해 1d6을 굴릴 수 있습니다). GM은 추가로 받을 여유가 있는 PC에게 사이퍼를 무작위 배정할 수도 있고, 그룹에 사이퍼 선택지를 제시한 뒤 플레이어가 자기 캐릭터에게 원하는 것을 고르게 할 수도 있습니다. 캐릭터는 자신의 은근한 사이퍼가 무엇을 하는지 즉시 알아야 합니다. PC가 자물쇠 따기에 도움이 될 거라 생각하고 치유 은근한 사이퍼를 활성화했다면, 유용한 캐릭터 능력을 낭비한 것이기 때문입니다.
 
-A PC can also acquire a new subtle cypher by spending 1 XP on one of the following player intrusions:
+PC는 NPC에게서, 혹은 특이한 상황에서 선물, 은총, 축복의 형태로 은근한 사이퍼를 얻을 수도 있으며, 치유, 보호, 기술 같은 특정 종류의 은근한 사이퍼를 요청할 수도 있습니다. 예를 들어, 치유의 여신 신전에 기부한 PC는, 자신의 풀 하나에 점수를 회복시키는 치유 기도를 말할 수 있게 해 주는 축복(은근한 사이퍼)을 달라고 요청할 수 있습니다. PC에게 빚을 진 NPC 마법사는, PC가 마법 단어를 말하면 무기 한 번을 튕겨내는 주문을 걸어 줄 수도 있습니다. 외계 첨탑은, 몇 시간 동안 어둠 속을 볼 수 있게 해 주는 기묘한 정신 코드를 이해하도록 해 줄 수도 있습니다.
 
-- **General cypher**: You ask the GM for a general subtle cypher, such as “healing,” “movement,” “defense,” or perhaps something as specific as “flight.” The GM gives you a cypher that meets that description and randomly determines its level. If you don’t have space for this cypher, you immediately lose one of your current cyphers (your choice) and the new cypher takes its place.
+PC는 다음 플레이어 개입 중 하나에 1 XP를 소비해 새로운 은근한 사이퍼를 획득할 수도 있습니다.
 
-- **Specific cypher**: You ask the GM for a specific subtle cypher (such as a curative or stim) of a specific level. Make an Intellect roll with a difficulty equal to the cypher’s level plus 1. If you have had this cypher before, the task is eased. If you fail the roll, you do not gain a cypher. If you succeed, the GM gives you that subtle cypher at that level. If you don’t have space for this new cypher, you immediately lose one of your current cyphers (your choice) and the new cypher takes its place. Whether or not you succeed at the roll, the 1 XP is spent.
+- **일반 사이퍼** : "치유", "이동", "방어" 같은 일반적인 은근한 사이퍼를, 혹은 "비행"처럼 더 구체적인 것을 GM에게 요청합니다. GM은 그 설명에 맞는 사이퍼를 주고, 레벨은 무작위로 정합니다. 이 사이퍼를 둘 공간이 없으면, 현재 가진 사이퍼 중 하나를 즉시 잃고(플레이어 선택) 새 사이퍼가 그 자리를 차지합니다.
 
+- **특정 사이퍼** : 특정 레벨의 특정 은근한 사이퍼(예: curative 또는 stim)를 GM에게 요청합니다. 난이도는 해당 사이퍼 레벨 +1인 지성 굴림을 합니다. 전에 이 사이퍼를 가져 본 적이 있다면, 일는 완화됩니다. 굴림에 실패하면 사이퍼를 얻지 못합니다. 성공하면 GM이 그 레벨의 해당 은근한 사이퍼를 줍니다. 이 새 사이퍼를 둘 공간이 없으면, 현재 가진 사이퍼 중 하나를 즉시 잃고(플레이어 선택) 새 사이퍼가 그 자리를 차지합니다. 굴림의 성공 여부와 상관없이 1 XP는 소비됩니다.
 
-## MANIFEST CYPHERS
-Because manifest cyphers are physical objects, and people are familiar with the idea of finding “treasure” as part of playing an RPG, these kinds of cyphers are easy to get into the hands of the PCs. They are often found in groups of one to six (the GM can roll 1d6 to determine the number), usually because the characters are searching for them. They might be among the possessions of a fallen foe, hidden in a secret room, or scattered amid the wreckage of a crashed starship. The GM can prepare a list ahead of time of what successful searchers find. Sometimes this list is random, and sometimes there is logic behind it. For example, a warlock’s laboratory might contain four different magic potions that the PCs can find.
+## 명백한 사이퍼
 
-If the characters search for cyphers, the GM sets the difficulty of the task. It is usually 3 or 4, and scavenging can take fifteen minutes to an hour.
+명백한 사이퍼는 물리적 물체이고, RPG 플레이의 일부로 "보물"을 발견한다는 개념에 사람들이 익숙하기 때문에, 이런 종류의 사이퍼는 PC의 손에 쥐여 주기가 쉽습니다. 보통 1개에서 6개 묶음으로 발견되며(GM은 개수를 정하기 위해 1d6을 굴릴 수 있습니다), 대체로 캐릭터들이 그것을 찾고 있기 때문입니다. 쓰러진 적의 소지품 속에 있을 수도 있고, 비밀 방에 숨겨져 있을 수도 있으며, 추락한 우주선의 잔해 사이에 흩어져 있을 수도 있습니다. GM은 성공적으로 수색한 이들이 무엇을 발견하는지 목록을 미리 준비할 수 있습니다. 때로 이 목록은 무작위이고, 때로는 논리가 있습니다. 예를 들어, 흑마법사의 연구실에는 PC가 찾을 수 있는 서로 다른 마법 물약 당신의 가지가 들어 있을 수 있습니다.
 
-Scavenging is not the only way to obtain manifest cyphers. They can also be given as gifts, traded with merchants, or sometimes purchased in a shop.
+캐릭터가 사이퍼를 수색한다면, GM이 일 난이도를 정합니다. 보통 난이도 3 또는 4이며, 뒤지기에는 15분에서 1시간이 걸릴 수 있습니다.
 
-Unlike subtle cyphers, characters don’t automatically know what manifest cyphers do. Once the PCs find a manifest cypher, identifying it is a separate task, based on Intellect and modified by knowledge of the topic at hand. In a fantasy setting, that knowledge would probably be magic, but in a science fiction setting, it might be technology. The GM sets the difficulty of the task, but it is usually 1 or 2. Thus, even the smallest amount of knowledge means that cypher identification is automatic. The process takes one to ten minutes. If the PCs can’t identify a cypher, they can bring it to an expert for identification and perhaps trade, if desired.
+뒤지기는 명백한 사이퍼를 얻는 유일한 방법이 아닙니다. 선물로 받을 수도 있고, 상인과 교환할 수도 있으며, 때로는 상점에서 구매할 수도 있습니다.
 
+은근한 사이퍼와 달리, 캐릭터는 명백한 사이퍼가 무엇을 하는지 자동으로 알지 못합니다. PC가 명백한 사이퍼를 발견하면, 식별은 별도의 일이며, 지성 기반이고 해당 주제 지식에 따라 수정됩니다. 판타지 배경이라면 그 지식은 대개 마법일 것이고, SF 배경이라면 기술일 수 있습니다. GM이 일 난이도를 정하지만, 보통 1 또는 2입니다. 따라서 아주 적은 지식만 있어도 사이퍼 식별은 자동이 됩니다. 과정에는 1분에서 10분이 걸립니다. PC가 사이퍼를 식별할 수 없다면, 전문가에게 가져가 식별받고 원하면 거래할 수도 있습니다.
 
-## MANIFEST CYPHERS DUPLICATING SUBTLE CYPHERS
-Lots of overlap exists between what subtle cyphers and manifest cyphers can do. Nearly anything that can be explained as a subtle cypher can just as easily be a magic item, scientific device, or other manifest object. A bit of luck that helps you sneak (a subtle cypher) and a potion that helps you sneak (a manifest cypher) do the exact same thing for a character.  One advantage of manifest cyphers is that characters can easily trade them to each other or sell them to NPCs. On the other hand, manifest cyphers can be dropped or stolen, and subtle cyphers can’t.
+## 은근한 사이퍼를 복제하는 명백한 사이퍼
 
-It’s fine if the GM decides to include both kinds of cyphers in the same game. A horror game could begin with the PCs as normal people with subtle cyphers, but as time goes on, they find one-use spells in occult tomes, weird potions, and bone dust that has strange powers.
+은근한 사이퍼와 명백한 사이퍼가 할 수 있는 일은 많이 겹칩니다. 은근한 사이퍼로 설명할 수 있는 거의 모든 것은, 마법 아이템, 과학 장치, 혹은 다른 명백한 물체로도 똑같이 설명할 수 있습니다. 은신을 도와주는 작은 행운(은근한 사이퍼)과 은신을 돕는 물약(명백한 사이퍼)은 캐릭터에게 정확히 같은 효과를 줍니다. 명백한 사이퍼의 장점 하나는 캐릭터끼리 쉽게 교환하거나 NPC에게 팔 수 있다는 점입니다. 반면 명백한 사이퍼는 떨어뜨리거나 도난당할 수 있지만, 은근한 사이퍼는 그렇지 않습니다.
 
+GM이 같은 게임에 두 종류 사이퍼를 모두 넣기로 해도 괜찮습니다. 호러 게임은 처음에 PC들이 은근한 사이퍼를 지닌 평범한 사람으로 시작할 수 있지만, 시간이 지나면서 오컬트 서적 속 1회용 주문, 기묘한 물약, 이상한 힘을 지닌 뼛가루를 발견하게 될 수 있습니다.
 
-## USING CYPHERS
-The action to use a cypher is Intellect based unless described otherwise or logic suggests otherwise. For example, throwing an explosive might be Speed based because the device is physical and not really technical, but using a ray emitter is Intellect based.
+## 사이퍼 사용
 
-Because cyphers are single-use items, cyphers used to make attacks can never be used with the Spray or Arc Spray abilities that some characters might have. They are never treated as rapid-fire weapons.
+사이퍼를 사용하는 행동은 별도 설명이 있거나 논리적으로 다르게 보여야 하는 경우를 제외하면 지성 기반입니다. 예를 들어, 폭발물을 던지는 일은 장치가 물리적이고 기술적이지 않기 때문에 속도 기반일 수 있지만, 광선 방출기를 쓰는 일은 지성 기반입니다.
 
-Identified manifest cyphers can be used automatically. Once a manifest cypher is activated, if it has an ongoing effect, that effect applies only to the character who activated the cypher. A PC can’t activate a cypher and then hand it to another character to reap the benefits.
+사이퍼는 일회용 아이템이므로, 공격에 쓰는 사이퍼는 일부 캐릭터가 가질 수 있는 Spray 또는 Arc Spray 능력과 결합해 사용할 수 없습니다. 절대로 연사 무기로 취급되지 않습니다.
 
-A character can attempt to use a manifest cypher that has not been identified; this is usually an Intellect task using the cypher’s level. Failure might mean that the PC can’t figure out how to use the cypher or that they use it incorrectly (GM’s discretion). Of course, even if the PC activates the unidentified cypher, they have no idea what its effect will be.
+식별된 명백한 사이퍼는 자동으로 사용할 수 있습니다. 명백한 사이퍼가 활성화된 뒤 지속 효과가 있다면, 그 효과는 사이퍼를 활성화한 캐릭터에게만 적용됩니다. PC는 사이퍼를 활성화한 다음 다른 캐릭터에게 건당신의 이득을 보게 할 수 없습니다.
 
-(Cyphers are meant to be used regularly and often. If PCs are hoarding or saving their cyphers, feel free to give them a reason to put the cyphers into play.)
+캐릭터는 식별되지 않은 명백한 사이퍼를 사용하려고 시도할 수 있습니다. 보통 이는 사이퍼 레벨을 사용하는 지성 일입니다. 실패는 PC가 사이퍼 사용법을 알아내지 못했음을 의미할 수도 있고, 잘못 사용했음을 의미할 수도 있습니다(GM 재량). 물론, PC가 미식별 사이퍼를 활성화하더라도 그 효과가 무엇일지는 전혀 모릅니다.
 
+(사이퍼는 규칙적으로, 자주 사용하도록 의도되었습니다. PC가 사이퍼를 쌓아 두거나 아껴 둔다면, 사이퍼를 실제 플레이에 투입할 이유를 마련해 주세요.)
 
-## CYPHER LEVELS AND EFFECTS
-All cyphers have a level and an effect. The level sometimes determines an aspect of the cypher’s power (how much damage it inflicts, for example) but otherwise it only determines the general efficacy, the way level works with any object. The Level entry for a cypher is usually a die roll, sometimes with a modifier, such as 1d6 or 1d6 + 4. The GM can roll to determine the cypher’s level, or can allow the player to roll when they receive the cypher.
+## 사이퍼 레벨과 효과
 
+모든 사이퍼는 레벨과 효과를 가집니다. 레벨은 때때로 사이퍼 위력의 한 측면(예: 가하는 피해량)을 결정하지만, 그 외에는 어떤 물체든 레벨이 작동하는 방식과 같이 전반적인 효율만 결정합니다. 사이퍼의 레벨 항목은 보통 주사위 굴림이며, 때로는 1d6 또는 1d6 + 4처럼 수정치가 붙습니다. GM이 사이퍼 레벨을 정하기 위해 굴릴 수도 있고, 플레이어가 사이퍼를 받을 때 굴리게 할 수도 있습니다.
 
-## NORMAL AND FANTASTIC EFFECTS
-Cypher effects fall into two categories: normal and fantastic. Normal effects are things that could reasonably happen or be explained in the normal physical world we’re familiar with. Fantastic effects are things that can’t. A normal person could hit a target 240 feet (73 m) away with a football, quickly get over a cold, run across a tightrope, or multiply two two-digit numbers in their head. These tasks are difficult, but possible. A normal person can’t throw an armored car, regrow a severed arm, create a robot out of thin air, or control gravity with their mind. These tasks are impossible according to the world as we know it. Cypher effects are either normal (possible) or fantastic (impossible according to the world as we know it).
+## 일반 효과와 환상적 효과
 
-Normal cypher effects should be available to PCs regardless of the genre of your game. It’s perfectly reasonable for a modern, fantasy, horror, science fiction, or superhero PC to have a cypher that gives them a one-use bonus on an attack or skill task, lets them take a quick breather to recover a few points in a Pool, or helps them focus their will to avoid distractions or fatigue.
+사이퍼 효과는 두 범주로 나뉩니다: 일반 효과와 환상적 효과. 일반 효과는 우리가 익숙한 보통의 물리 세계에서 합리적으로 일어날 수 있거나 설명 가능한 것들입니다. 환상적 효과는 그렇지 않은 것들입니다. 평범한 사람도 240피트(73m) 떨어진 표적에 미식축구공을 맞히거나, 감기를 빨리 떨치거나, 외줄 위를 달리거나, 머릿속으로 두 자리 수 두 개를 곱할 수 있습니다. 이런 일는 어렵지만 가능합니다. 그러나 평범한 사람은 장갑차를 던지거나, 절단된 팔을 재생시키거나, 허공에서 로봇을 만들어 내거나, 정신으로 중력을 제어할 수 없습니다. 이런 일는 우리가 아는 세계 기준으로는 불가능합니다. 사이퍼 효과는 일반(가능) 또는 환상적(우리가 아는 세계 기준으로 불가능) 중 하나입니다.
 
-Fantastic cypher effects should be limited to games where magic, technology, or other factors stretch the definition of “impossible.” A cypher that turns a corpse into a zombie is out of place in a non-fantastic modern game, but is perfectly reasonable for a fantasy, science fiction, or superhero game, or even a horror game where zombies exist, as long as the GM decides there is an appropriate story explanation for it. The zombie cypher might be a necromantic spell in a fantasy or superhero game, a code that activates a swarm of nanobots in a science fiction game, or a virus in a horror game. The rules categorize some cypher effects as fantastic to help the GM decide whether to exclude cyphers that don’t fit the game they’re running. For example, it is appropriate for a GM running a zombie horror survival game set in 1990s Georgia to allow the zombie-creating cypher but not a teleportation cypher, because creating a zombie is a fantastic effect that fits the setting and teleportation isn’t.
+일반 사이퍼 효과는 게임 장르와 무관하게 PC에게 제공될 수 있어야 합니다. 현대물, 판타지, 호러, SF, 슈퍼히어로 장르의 PC가 공격이나 기술 일에 1회 보너스를 받거나, 짧게 숨을 고르며 풀 점수를 조금 회복하거나, 의지를 집중해 방해나 피로를 떨쳐 내게 해 주는 사이퍼를 가지는 것은 완전히 타당합니다.
 
-Fantastic cyphers can be subtle or manifest. 
+환상적 사이퍼 효과는 마법, 기술, 혹은 다른 요소가 "불가능"의 정의를 늘려 놓은 게임으로 제한해야 합니다. 시체를 좀비로 바꾸는 사이퍼는 비환상적 현대물 게임에서는 어울리지 않지만, 판타지, SF, 슈퍼히어로 게임에서는 완전히 타당하며, 좀비가 존재하는 호러 게임에서도 GM이 적절한 이야기적 설명이 있다고 판단하면 타당합니다. 좀비 사이퍼는 판타지나 슈퍼히어로 게임에서는 강령 주문일 수 있고, SF 게임에서는 나노봇 무리를 활성화하는 코드일 수 있으며, 호러 게임에서는 바이러스일 수 있습니다. 규칙이 일부 사이퍼 효과를 환상적으로 분류하는 이유는, GM이 자신이 진행하는 게임에 맞지 않는 사이퍼를 제외할지 판단하는 데 도움을 주기 위해서입니다. 예를 들어, 1990년대 조지아를 배경으로 한 좀비 호러 서바이벌 게임을 진행하는 GM이라면, 좀비 생성 사이퍼는 허용하되 순간이동 사이퍼는 허용하지 않는 것이 적절합니다. 좀비 생성은 배경에 맞는 환상적 효과이고, 순간이동은 그렇지 않기 때문입니다.
 
+환상적 사이퍼는 은근한 형태일 수도, 명백한 형태일 수도 있습니다.
 
-## OPTIONAL RULE: NORMAL CYPHERS DUPLICATING FANTASTIC EFFECTS
+## 선택 규칙: 환상적 효과를 복제하는 일반 사이퍼
 
-If the GM and players are willing to stretch their imaginations a bit, it’s possible to include some fantastic cypher effects in a game where only normal cypher effects should exist, even if the PCs are only using subtle cyphers. The player using the cypher just needs to come up with a practical, realistic explanation for how the fantastic result occurred (perhaps with a much shorter or reduced effect than what’s described in the cypher text). 
+GM과 플레이어가 상상력을 조금 더 확장할 의향이 있다면, PC가 은근한 사이퍼만 사용하더라도 원래는 일반 사이퍼 효과만 있어야 하는 게임에 일부 환상적 사이퍼 효과를 포함할 수 있습니다. 사이퍼를 사용하는 플레이어는, 환상적인 결과가 어떻게 발생했는지에 대한 실용적이고 현실적인 설명만 제시하면 됩니다(아마도 사이퍼 텍스트에 적힌 것보다 훨씬 짧거나 축소된 효과일 수 있습니다).
 
-For example, a PC with a phase changer who is trapped in a prison cell could say that instead of physically phasing through the wall, using the cypher means they find a long-forgotten secret door connected to a narrow hallway leading to safety. A PC with a fire detonation could say they notice a can of paint thinner in the room, kick it over, and throw a table lamp into the spill, creating a spark and a momentary burst of harmful flames. A PC with a monoblade could say they spot structural flaws in an opponent’s armor, allowing them to attack for the rest of that combat in such a way that the foe’s Armor doesn’t count.
+예를 들어, 감옥 독방에 갇힌 phase changer를 가진 PC는, 벽을 물리적으로 통과하는 대신 사이퍼 사용으로 안전한 곳으로 이어지는 좁은 복도로 연결된, 오래전에 잊힌 비밀문을 찾아낸다고 말할 수 있습니다. fire detonation을 가진 PC는, 방 안의 페인트 희석제 캔을 발견하고 발로 넘어뜨린 뒤 탁상용 램프를 유출된 액체 속으로 던져, 불꽃과 함께 잠깐의 유해한 화염 폭발을 만든다고 말할 수 있습니다. monoblade를 가진 PC는, 적의 장갑 구조적 결함을 포착하여 그 전투가 끝날 때까지 적의 Armor가 적용되지 않도록 공격한다고 말할 수 있습니다.
 
-These interpretations of fantastic cyphers in a non-fantastic setting require player ingenuity and GM willingness to embrace creative solutions (similar to players using player intrusions to make a change in the game world). The GM always has the right to veto the explanation for the fantastic effect, allowing the player to choose a different action instead of using the fantastic cypher.
+비환상적 배경에서 이런 식으로 환상적 사이퍼를 해석하려면, 플레이어의 기지와 GM의 창의적 해결책 수용 의지가 필요합니다(플레이어가 플레이어 개입을 사용해 게임 세계를 바꾸는 것과 유사합니다). GM은 언제나 환상적 효과에 대한 설명을 기각할 권리가 있으며, 이 경우 플레이어는 환상적 사이퍼를 사용하는 대신 다른 행동을 선택할 수 있습니다.
 
+## 명백한 사이퍼 형태
 
-## MANIFEST CYPHER FORMS
+이 장의 명백한 사이퍼 가운데에는 물리적 형태가 명시된 것이 없습니다. 항목 설명에는 그것이 물약인지, 알약인지, 손에 들고 쓰는 장치인지 적혀 있지 않습니다. 이런 세부 사항은 장르마다 크게 달라지기 때문입니다. 마법인가요? 기술인가요? 프로그래밍된 DNA를 지닌 공생 생물인가요? 그것은 GM이 정할 일입니다. 그건 메카닉이 아니라 분위기입니다. NPC의 머리 모양이나 악당이 모는 자동차 색처럼 중요할 수도, 중요하지 않을 수도 있습니다. 다시 말해, 롤플레잉 게임에서는 중요한 종류의 요소이지만, 동시에 실제로는 아무것도 바꾸지 않는 종류의 요소이기도 합니다(곰곰이 생각해 보면 RPG에는 그런 것이 아주 많습니다).
 
-None of the manifest cyphers in this chapter have a stated physical form. The entries don’t tell you if something is a potion, a pill, or a device you hold in your hands because that sort of detail varies greatly from genre to genre. Are they magic? Are they tech? Are they symbiotic creatures with programmed DNA? That’s up to the GM. It’s flavor, not mechanics. It’s as important or unimportant as the style of an NPC’s hair or the color of the car the bad guys are driving. In other words, it’s the kind of thing that is important in a roleplaying game, but at the same time doesn’t actually change anything (and RPGs have a lot of things like that, if you think about it).
+명백한 사이퍼의 물리적 형태는 무엇이든 될 수 있지만, 장르에 따라 분명하게 떠오르는 선택지도 있습니다. GM은 하나의 유형만 쓰는 배경을 설계할 수 있습니다. 예를 들어, 모든 사이퍼가 요정이 만든 물약인 마법 세계 같은 식입니다. 또는 다양한 유형을, 장르를 섞어 가며 사용할 수도 있습니다. 몇 가지 제안은 다음과 같습니다.
 
-A manifest cypher’s physical form can be anything at all, but there are some obvious choices based on genre. The GM can design a setting that uses just one type—for example, a magical world where all cyphers are potions made by faeries. Or they can use many types, perhaps mixing them from different genres. Some suggestions include the following.
+## 명백한 사이퍼 형태 선택지
 
+### 접착 (ADHESION)
 
-## MANIFEST CYPHER FORM OPTIONS
-### Fantasy/Fairy Tale
-- Potions
-- Scrolls
-- Runeplates
-- Tattoos
-- Charms
-- Powders
-- Crystals
-- Books with words of power
-
-### Modern/Romance
-- Drugs (injections, pills, inhalants)
-- Viruses
-- Smartphone apps
-
-### Science Fiction/Post-Apocalyptic
-- Drugs (injections, pills, inhalants)
-- Computer programs
-- Crystals
-- Gadgets
-- Viruses
-- Biological implants
-- Mechanical implants
-- Nanotechnological injections
-
-### Horror
-- Burrowing worms or insects
-- Pages from forbidden books
-- Horrific images
-
-### Superhero
-- Forms from all the other genres
-
-
-
-
-MANIFEST CYPHER TABLE
-01–03
-Adhesion
-04–05
-Antivenom 
-06–09
-Armor reinforcer
-10–11
-Attractor
-12–13
-Blackout
-14–15
-Catholicon
-16–17
-Curse bringer
-18–19
-Death bringer
-20–22
-Density
-23–26
-Detonation
-27–29
-Detonation (flash)
-30–31
-Detonation (massive)
-32–34
-Detonation (pressure)
-35–36
-Detonation (sonic)
-37–38
-Detonation (spawn)
-39–41
-Detonation (web)
-42–44
-Equipment cache
-45–46
-Fireproofing
-47–49
-Friction reducer
-50–52
-Gas bomb
-53–55
-Hunter/seeker
-56–57
-Infiltrator
-58–60
-Information sensor
-61–63
-Metal death
-64–65
-Nullification ray
-66–68
-Poison (emotion)
-69–70
-Poison (mind disrupting)
-71–73
-Radiation spike
-74–76
-Remote viewer
-77–79
-Shocker
-80–82
-Sleep inducer
-83–85
-Sniper module
-86–88
-Solvent
-89–90
-Spy
-91–92
-Tracer
-93–94
-Uninterruptible power source
-95–96
-Warmth
-97–98
-Water adapter
-99–00
-X-ray viewer
-
-
-
-
-FANTASTIC CYPHER TABLE
-01
-Age taker
-02
-Banishing
-03–04
-Blinking
-05
-Chemical factory
-06
-Comprehension
-07–08
-Condition remover 
-09
-Controlled blinking
-10
-Detonation (creature)
-11
-Detonation (desiccating)
-12
-Detonation (gravity)
-13
-Detonation (gravity inversion)
-14
-Detonation (matter disruption)
-15
-Detonation (singularity)
-16
-Disguise module
-17
-Disrupting
-18
-Farsight
-19
-Flame-retardant wall
-20
-Force cube
-21–22
-Force field
-23
-Force screen projector
-24
-Force shield projector
-25
-Frigid wall
-26–27
-Gravity nullifier
-28
-Gravity-nullifying application
-29–30
-Heat attack
-31
-Image projector
-32
-Inferno wall
-33–34
-Instant servant
-35
-Instant shelter
-36
-Lightning wall
-37–38
-Machine control
-39
-Magnetic attack drill
-40
-Magnetic master
-41
-Magnetic shield
-42
-Manipulation beam
-43
-Matter transference ray
-44
-Memory switch
-45
-Mental scrambler
-46
-Mind meld
-47
-Mind-restricting wall
-48–49
-Monoblade
-50
-Monohorn
-51
-Null field
-52–53
-Personal environment field
-54–55
-Phase changer
-56
-Phase disruptor
-57
-Poison (explosive)
-58
-Poison (mind controlling)
-59
-Psychic communique
-60
-Ray emitter
-61
-Ray emitter (command)
-62
-Ray emitter (fear)
-63
-Ray emitter (friend slaying)
-64
-Ray emitter (mind disrupting)
-65
-Ray emitter (numbing)
-66
-Ray emitter (paralysis)
-67
-Reality spike
-68
-Repair unit
-69
-Repeater
-70–71
-Retaliation
-72
-Sheen
-73–74
-Shock attack
-75
-Slave maker
-76
-Sonic hole
-77–78
-Sound dampener 
-79
-Spatial warp
-80
-Stasis keeper
-81
-Subdual field
-82–83
-Telepathy
-84
-Teleporter (bounder)
-85
-Teleporter (interstellar)
-86
-Teleporter (planetary)
-87
-Teleporter (traveler)
-88
-Temporal viewer
-89
-Time dilation (defensive)
-90
-Time dilation (offensive)
-91
-Trick embedder
-92
-Vanisher
-93–94
-Visage changer
-95
-Visual displacement device
-96
-Vocal translator
-97–98
-Weapon enhancement
-99
-Wings
-00
-Zero point field
-
-
-
-
-SUBTLE CYPHER TABLE
-01–04
-Analeptic
-05–07
-Best tool
-08–10
-Burst of speed
-11–13
-Contingent activator
-14–17
-Curative
-18–20
-Darksight
-21–23
-Disarm
-24–26
-Eagleseye
-27–29
-Effect resistance
-30–32
-Effort enhancer (combat)
-33–35
-Effort enhancer (noncombat)
-36–39
-Enduring shield
-40–42
-Intellect booster
-43–45
-Intelligence enhancement
-46–48
-Knowledge enhancement
-49–51
-Meditation aid
-52–54
-Mind stabilizer
-55–57
-Motion sensor
-58–60
-Nutrition and hydration
-61–63
-Perfect memory
-64–66
-Perfection
-67–69
-Reflex enhancer
-70–73
-Rejuvenator
-74–76
-Remembering
-77–79
-Repel
-80–82
-Secret
-83–85
-Skill boost
-86–88
-Speed boost
-89–91
-Stim
-92–94
-Strength boost
-95–97
-Strength enhancer
-98–00
-Tissue regeneration
-
-
-
-
-## A LISTING OF VARIOUS CYPHERS
-All cyphers in this section may be manifest cyphers. It is the GM’s discretion whether a particular cypher can be a subtle cypher, and that decision usually depends on the setting. (The tables indicating subtle, manifest, and fantastic cyphers are just suggestions for a typical campaign setting.)
-
-### ADHESION
 - **레벨:** 1d6
-- **효과:** Allows for automatic climbing of any surface, even horizontal ones. Lasts for ten minutes per cypher level.
+- **효과:** 수평면을 포함한 어떤 표면이든 자동으로 오를 수 있게 한다. 지속시간은 사이퍼 레벨당 10분이다.
 
-### AGE TAKER
+### 나이 흡수기 (AGE TAKER)
+
 - **레벨:** 1d6 + 4
-- **효과:** Begins a process of rejuvenation that removes years from the wearer’s physiological age. Over the course of the next seven days, the wearer sheds a number of years equal to three times the cypher’s level. The cypher doesn’t regress physiological age past the age of
-twenty-three.
+- **효과:** 착용자의 생리적 나이에서 연수를 제거하는 회춘 과정을 시작한다. 이후 7일 동안, 착용자는 사이퍼 레벨의 3배만큼 나이를 덜어낸다. 이 사이퍼는 생리적 나이를 스물세 살보다 더 낮추지는 못한다.
 
-### ANALEPTIC
+### 각성제 (ANALEPTIC)
+
 - **레벨:** 1d6 + 2
-- **효과:** Restores a number of points equal to the cypher’s level to the user’s Speed Pool.
+- **효과:** 사용자의 스피드 풀에 사이퍼 레벨과 같은 수치의 포인트를 회복시킨다.
 
-### ANTIVENOM
+### 해독제 (ANTIVENOM)
+
 - **레벨:** 1d6 + 2
-- **효과:** Renders user immune to poisons of the cypher’s level or lower for one hour per cypher level (and ends any such ongoing effects, if any, already in the user’s system).
+- **효과:** 사용자는 사이퍼 레벨 이하의 독에 대해 사이퍼 레벨당 1시간 동안 면역이 된다(또한 사용자 몸속에 이미 존재하는 해당 등급 이하의 지속 효과가 있다면 그것도 종료된다).
 
-### ARMOR REINFORCER
+### 방어구 강화기 (ARMOR REINFORCER)
+
 - **레벨:** 1d6 + 1
-- **효과:** The user’s Armor gains an enhancement for twenty-four hours. Roll a d6 to determine the result.
-1
-+1 to Armor
-2
-+2 to Armor
-3
-+3 to Armor
-4
-+2 to Armor, +5 against damage from fire
-5
-+2 to Armor, +5 against damage from cold
-6
-+2 to Armor, +5 against damage from acid
+- **효과:** 사용자의 아머가 24시간 동안 강화된다. 결과를 결정하기 위해 d6을 굴린다.
+  | d6 | 효과 |
+  |---|---|
+  | 1 | +1 아머 |
+  | 2 | +2 아머 |
+  | 3 | +3 아머 |
+  | 4 | +2 아머, 화염 피해에 대해 +5 |
+  | 5 | +2 아머, 냉기 피해에 대해 +5 |
+  | 6 | +2 아머, 산성 피해에 대해 +5 |
 
+### 유인기 (ATTRACTOR)
 
-
-### ATTRACTOR
 - **레벨:** 1d6 + 4
-- **효과:** One unanchored item the user’s size or smaller within long range (very long range if the cypher level is 8 or higher) is drawn immediately to them. This takes one round. The item has no momentum when it arrives.
+- **효과:** 장거리 내(사이퍼 레벨이 8 이상이면 초장거리 내)에 있는, 고정되어 있지 않은 물체 하나(사용자 크기 이하)를 즉시 사용자 쪽으로 끌어당긴다. 이는 1라운드가 걸린다. 물체는 도착 시 운동량을 갖지 않는다.
 
-### BANISHING
-- **레벨:** 1d6
-- **효과:** For the next day, each time the user strikes a solid creature or object, it generates a burst of energy that teleports the creature or object an immediate distance in a random direction (not up or down). The teleported creature’s actions (including defense) are hindered on its next turn (hindered by two steps if the cypher level is 5 or higher).
+### 범위 증폭 (AREA BOOST)
 
-### BEST TOOL
-- **레벨:** 1d6
-- **효과:** Provides an additional asset for any one task using a tool, even if that means exceeding the normal limit of two assets. 
-
-### BLACKOUT
-- **레벨:** 1d6 + 2
-- **효과:** An area within immediate range of the user becomes secure against any effect outside the area that sees, hears, or otherwise senses what occurs inside. To outside observers, the area is a “blur” to any sense applied. Taps, scrying sensors, and other direct surveillance methods are also rendered inoperative within the area for a day.
-
-### BLINKING
-- **레벨:** 1d6
-- **효과:** For the next day, each time the user is struck hard enough to take damage (but not more than once per round), they teleport an immediate distance in a random direction (not up or down). Since the user is prepared for this effect and their foe is not, the user’s defenses are eased for one round after they teleport. 
-
-### BURST OF SPEED
-- **레벨:** 1d6
-- **효과:** For one minute, a user who normally can move a short distance as an action can move a long distance instead.
-
-### CATHOLICON
-- **레벨:** 1d6 + 2
-- **효과:** Cures any disease of the cypher level or lower.
-
-### CHEMICAL FACTORY
-- **레벨:** 1d6
-- **효과:** After one hour, the sweat of the user produces 1d6 doses of a valuable liquid (these doses are not considered cyphers). They must be used within one week. Roll a d100 to determine the effect.
-01–04
-Euphoric for 1d6 hours
-05–08
-Hallucinogenic for 1d6 hours
-09–12
-Stimulant for 1d6 hours
-13–16
-Depressant for 1d6 hours
-17–20
-Nutrient supplement
-21–25
-Antivenom
-26–30
-Cures disease
-31–35
-See in the dark for one hour
-36–45
-Restores a number of Might Pool points equal to cypher level
-46–55
-Restores a number of Speed Pool points equal to cypher level
-56–65
-Restores a number of Intellect Pool points equal to cypher level
-66–75
-Increases Might Edge by 1 for one hour
-76–85
-Increases Speed Edge by 1 for one hour
-86–95
-Increases Intellect Edge by 1 for one hour
-96–00
-Restores all Pools to full
-
-
-
-
-### COMPREHENSION
 - **레벨:** 1d6 + 1
-- **효과:** Within five minutes, the user can understand the words of a specific language keyed to the cypher (two languages if the cypher is level 5 or higher). This is true even of creatures that do not normally have a language. If the user could already understand the language, the cypher has no effect. Once the cypher is used, the effect is permanent, and the cypher no longer counts against the number of cyphers that a PC can bear.
+- **효과:** 이 사이퍼는 단일 대상을 지정하는 능력을 강화한다. 해당 능력의 효과가 확장되어 그 대상 주변의 즉시 거리 범위까지 포함한다. 원래 즉시 거리 범위에 영향을 주는 능력이라면 범위는 단거리로 늘어난다. 단거리 범위는 장거리로 증가한다. 장거리 범위는 초장거리로 증가한다. 초장거리 범위를 가진 능력은 반경 1,000피트(300m) 범위가 된다. 그 외 모든 범위는 반경이 2배가 된다.
 
-### CONDITION REMOVER
+### BANISHING / 추방
+
+- **레벨:** 1d6
+- **효과:** 다음 하루 동안, 사용자가 단단한 생물이나 물체를 타격할 때마다 에너지 폭발이 발생하여 해당 생물 또는 물체를 무작위 방향으로 즉시 거리만큼 순간이동시킵니다(위아래 방향 제외). 순간이동된 생물은 다음 차례의 행동(방어 포함)이 불리해집니다(사이퍼 레벨이 5 이상이면 두 단계 불리).
+
+### BEST TOOL / 최적 도구
+
+- **레벨:** 1d6
+- **효과:** 도구를 사용하는 한 가지 일에 추가 보탬 1개를 제공합니다. 이로 인해 일반적인 보탬 한도인 2개를 초과하더라도 적용됩니다.
+
+### BLACKOUT / 블랙아웃
+
+- **레벨:** 1d6 + 2
+- **효과:** 사용자 즉시 거리 내의 한 구역이, 구역 밖에서 안쪽에서 벌어지는 일을 보거나 듣거나 그 밖의 방식으로 감지하려는 모든 효과로부터 차단됩니다. 외부 관찰자에게 그 구역은 어떤 감각으로도 “흐릿한 번짐”처럼 인식됩니다. 도청 장치, 관측 센서, 그 밖의 직접 감시 수단 역시 하루 동안 해당 구역 내에서는 작동하지 않습니다.
+
+### BLINKING / 점멸
+
+- **레벨:** 1d6
+- **효과:** 다음 하루 동안, 사용자가 피해를 입을 만큼 강한 공격을 받을 때마다(라운드당 최대 1회) 무작위 방향으로 즉시 거리만큼 순간이동합니다(위아래 방향 제외). 사용자는 이 효과를 대비하고 있지만 적은 그렇지 않으므로, 순간이동 후 1라운드 동안 사용자의 방어는 유리해집니다.
+
+### BURST OF SPEED / 속도 폭발
+
+- **레벨:** 1d6
+- **효과:** 1분 동안, 원래 행동으로 단거리 이동이 가능한 사용자는 대신 장거리 이동을 할 수 있습니다.
+
+### BURST BOOST / 폭발 증폭
+
+- **레벨:** 1d6 + 2
+- **효과:** 이 사이퍼는 단거리 이상 사거리에서 단일 대상을 지정하는 능력을 강화합니다. 사거리는 즉시 거리로 줄어들지만, 능력은 즉시 거리 내의 모든 대상에게 영향을 줍니다.
+
+### 만병통치제 (CATHOLICON)
+
+- **레벨:** 1d6 + 2
+- **효과:** 사이퍼 레벨 이하의 모든 질병을 치료한다.
+
+### 화학 공장 (CHEMICAL FACTORY)
+
+- **레벨:** 1d6
+- **효과:** 한 시간 후, 사용자의 땀에서 가치 있는 액체 1d6회분이 생성된다(이 회분들은 사이퍼로 간주되지 않는다). 이 회분들은 1주일 이내에 사용해야 한다. 효과를 결정하려면 d100을 굴린다.
+  | d100 | 효과 |
+  |---|---|
+  | 01–04 | 1d6시간 동안 도취 상태 |
+  | 05–08 | 1d6시간 동안 환각 유발 |
+  | 09–12 | 1d6시간 동안 각성제 효과 |
+  | 13–16 | 1d6시간 동안 진정제 효과 |
+  | 17–20 | 영양 보충제 |
+  | 21–25 | 해독제 |
+  | 26–30 | 질병 치료 |
+  | 31–35 | 1시간 동안 어둠 속 시야 확보 |
+  | 36–45 | 사이퍼 레벨만큼 Might Pool 점수 회복 |
+  | 46–55 | 사이퍼 레벨만큼 Speed Pool 점수 회복 |
+  | 56–65 | 사이퍼 레벨만큼 Intellect Pool 점수 회복 |
+  | 66–75 | 1시간 동안 Might Edge 1 증가 |
+  | 76–85 | 1시간 동안 Speed Edge 1 증가 |
+  | 86–95 | 1시간 동안 Intellect Edge 1 증가 |
+  | 96–00 | 모든 Pool 완전 회복 |
+
+### 이해 (COMPREHENSION)
+
+- **레벨:** 1d6 + 1
+- **효과:** 5분 이내에, 사용자는 이 사이퍼에 지정된 특정 언어를 이해할 수 있다(사이퍼가 레벨 5 이상이면 언어 2개). 이는 보통 언어를 사용하지 않는 생물에게도 적용된다. 사용자가 이미 그 언어를 이해할 수 있었다면 이 사이퍼는 효과가 없다. 일단 이 사이퍼를 사용하면 효과는 영구적이며, 이 사이퍼는 더 이상 PC가 휴대 가능한 사이퍼 개수 제한에 포함되지 않는다.
+
+### 상태 제거기 (CONDITION REMOVER)
+
 - **레벨:** 1d6 + 3
-- **효과:** Cures one occurrence of one specific health condition of the cypher level or lower. It does not prevent the possibility of future occurrences of the same condition. Roll a d20 to determine what it cures.
-1
-Addiction to one substance
-2
-Autoimmune disease
-3
-Bacterial infection
-4
-Bad breath
-5
-Blisters
-6
-Bloating
-7
-Cancer
-8
-Chapped lips
-9
-Flatus
-10
-Hangover
-11
-Heartburn
-12
-Hiccups
-13
-Ingrown hairs
-14
-Insomnia
-15
-Joint problem
-16
-Muscle cramp
-17
-Pimples
-18
-Psychosis
-19
-Stiff neck
-20
-Viral infection
+- **효과:** 사이퍼 레벨 이하의 특정 건강 상태 1종의 발현 1회를 치료한다. 같은 상태가 앞으로 다시 발생할 가능성을 막지는 못한다. 무엇을 치료하는지 결정하려면 d20을 굴린다.
+  | d20 | 효과 |
+  |---|---|
+  | 1 | 한 가지 물질에 대한 중독 |
+  | 2 | 자가면역 질환 |
+  | 3 | 세균 감염 |
+  | 4 | 구취 |
+  | 5 | 물집 |
+  | 6 | 복부 팽만 |
+  | 7 | 암 |
+  | 8 | 입술 갈라짐 |
+  | 9 | 복부 가스 |
+  | 10 | 숙취 |
+  | 11 | 속쓰림 |
+  | 12 | 딸꾹질 |
+  | 13 | 인그로운 헤어 |
+  | 14 | 불면증 |
+  | 15 | 관절 문제 |
+  | 16 | 근육 경련 |
+  | 17 | 여드름 |
+  | 18 | 정신병 |
+  | 19 | 목 결림 |
+  | 20 | 바이러스 감염 |
 
+### 조건부 활성기 (CONTINGENT ACTIVATOR)
 
-
-### CONTINGENT ACTIVATOR
 - **레벨:** 1d6 + 2
-- **효과:** If the device is activated in conjunction with another cypher, the user can specify a condition under which the linked cypher will activate. The linked cypher retains the contingent command until it is used (either normally or contingently). For example, when this cypher is linked to a cypher that provides a form of healing or protection, the user could specify that the linked cypher will activate if they become damaged to a certain degree or are subject to a particular dangerous circumstance. Until the linked cypher is used, this cypher continues to count toward the maximum number of cyphers a PC can carry.
+- **효과:** 이 장치를 다른 사이퍼와 함께 활성화하면, 사용자는 연결된 사이퍼가 발동할 조건을 지정할 수 있다. 연결된 사이퍼는 사용될 때까지(일반 사용이든 조건부 발동이든) 그 조건 명령을 유지한다. 예를 들어 치유나 보호 효과를 주는 사이퍼와 연결했다면, 자신이 일정 수준 이상 피해를 입거나 특정한 위험 상황에 처했을 때 연결된 사이퍼가 발동하도록 지정할 수 있다. 연결된 사이퍼가 사용될 때까지, 이 사이퍼는 PC가 휴대 가능한 최대 사이퍼 개수에 계속 포함된다.
 
-### CONTROLLED BLINKING
+### 제어된 점멸 (CONTROLLED BLINKING)
+
 - **레벨:** 1d6 + 2
-- **효과:** For the next day, each time the user is struck hard enough to inflict damage (but no more than once per round), they teleport to a spot they desire within immediate range. Since they are prepared for this effect and their foe is not, the user’s defenses are eased for one round after they teleport.
+- **효과:** 다음 하루 동안, 사용자가 피해를 입힐 만큼 강하게 타격당할 때마다(라운드당 최대 1회) 즉시 범위 내에서 원하는 지점으로 순간이동한다. 사용자는 이 효과를 대비하고 있지만 적은 그렇지 않으므로, 순간이동 후 한 라운드 동안 사용자의 방어는 1단계 완화된다.
 
-### CURATIVE
+### 치유제 (CURATIVE)
+
 - **레벨:** 1d6 + 2
-- **효과:** Restores a number of points equal to the cypher’s level to the user’s Might Pool.
+- **효과:** 사용자 자신의 Might Pool을 사이퍼 레벨과 같은 수치만큼 회복한다.
 
-### CURSE BRINGER
+### 저주 부여자 (CURSE BRINGER)
+
 - **레벨:** 1d6 + 1
-- **효과:** The cypher can be activated when given to an individual who doesn’t realize its significance. The next time the victim attempts an important task when the cypher is in their possession, the task is hindered by three steps. 
+- **효과:** 이 사이퍼의 의미를 모르는 대상에게 건네졌을 때 활성화할 수 있다. 희생자가 이 사이퍼를 소지한 상태에서 다음번 중요한 과업을 시도하면, 그 과업은 3단계 불리해진다.
 
-### DARKSIGHT
+### 암시야 (DARKSIGHT)
+
 - **레벨:** 1d6
-- **효과:** Grants the ability to see in the dark for five hours per cypher level. (For a more realistic game, this cypher could instead make the user specialized in low-light spotting.)
+- **효과:** 사이퍼 레벨당 5시간 동안 어둠 속을 볼 수 있는 능력을 부여한다. (더 사실적인 게임을 원한다면, 이 사이퍼는 대신 사용자를 저조도 탐지에 특화되게 만들 수도 있다.)
 
-### DEATH BRINGER
+### 죽음 부여자 (DEATH BRINGER)
+
 - **레벨:** 1d6
-- **효과:** For the next minute, when the user strikes an NPC or creature of the cypher level or lower, they can choose to make a second attack roll. If the second attack roll is a success, the target is killed. If the target is a PC, the character instead moves down one step on the damage track.
+- **효과:** 다음 1분 동안, 사용자가 사이퍼 레벨 이하의 NPC 또는 생물을 타격했을 때 두 번째 공격 굴림을 선택해 수행할 수 있다. 두 번째 공격 굴림이 성공하면 대상은 죽는다. 대상이 PC라면, 대신 그 캐릭터는 피해 트랙에서 한 단계 내려간다.
 
-### DENSITY
+### 밀도 (DENSITY)
+
 - **레벨:** 1d6
-- **효과:** For the next day, each time the user strikes a solid creature or object with a weapon, the weapon suddenly increases dramatically in weight, causing the blow to inflict 2 additional points of damage.
+- **효과:** 다음 하루 동안, 사용자가 무기로 단단한 생물이나 물체를 타격할 때마다 무게가 갑자기 크게 증가하여 타격에 추가 피해 2점을 준다.
 
-### DETONATION
+### 폭파 (DETONATION)
+
 - **레벨:** 1d6 + 2
-- **효과:** Projects a small physical explosive up to a long distance away that explodes in an immediate radius, inflicting damage equal to the cypher’s level. Roll a d100 to determine the type of damage.
-(All damaging detonations inflict a minimum of 2 points of damage to those in the radius, regardless of attack or defense rolls.)
-01–10
-Cell-disrupting (harms only flesh)
-11–30
-Corrosive
-31–40
-Electrical discharge
-41–50
-Heat drain (cold)
-51–75
-Fire
-76–00
-Shrapnel
+- **효과:** 장거리까지 작은 물리 폭발물을 발사하며, 그것이 즉시 범위에서 폭발해 사이퍼 레벨과 같은 피해를 준다. 피해 유형을 결정하려면 d100을 굴린다.
+  (모든 피해형 폭파는 공격 또는 방어 굴림과 무관하게, 범위 내 대상에게 최소 2점의 피해를 준다.)
+  | d100 | 피해 유형 |
+  |---|---|
+  | 01–10 | 세포 파괴(살점에만 피해) |
+  | 11–30 | 부식 |
+  | 31–40 | 전기 방전 |
+  | 41–50 | 열 흡수(냉기) |
+  | 51–75 | 화염 |
+  | 76–00 | 파편 |
 
+### 폭파 (생물) (DETONATION (CREATURE))
 
-
-### DETONATION (CREATURE)
 - **레벨:** 1d6 + 1
-- **효과:** Projects a small physical explosive up to a long distance away that explodes and creates a momentary teleportation gate. A random creature whose level is equal to or less than the cypher’s level appears through the gate and attacks the closest target. After about one minute, the creature vanishes.
+- **효과:** 장거리까지 작은 물리 폭발물을 발사하며, 그것이 폭발하면서 잠깐 지속되는 순간이동 관문을 만든다. 사이퍼 레벨 이하의 무작위 생물 하나가 관문을 통해 나타나 가장 가까운 대상을 공격한다. 약 1분 후 생물은 사라진다.
 
-### DETONATION (DESICCATING)
+### 폭파 (건조) (DETONATION (DESICCATING))
+
 - **레벨:** 1d6 + 2
-- **효과:** Projects a small physical explosive up to a long distance away that bursts in an immediate radius, draining moisture from everything within it. Living creatures take damage equal to the cypher’s level. Water in the area is vaporized.
+- **효과:** 장거리까지 작은 물리 폭발물을 발사하며, 그것이 즉시 범위에서 터져 범위 내 모든 것의 수분을 빼앗는다. 살아 있는 생물은 사이퍼 레벨과 같은 피해를 받는다. 범위 내 물은 기화된다.
 
-### DETONATION (FLASH)
+### 폭파 (섬광) (DETONATION (FLASH))
+
 - **레벨:** 1d6 + 2
-- **효과:** Projects a small physical explosive up to a long distance away that bursts in an immediate radius, blinding all within it for one minute (ten minutes if the cypher is level 4 or higher).
+- **효과:** 장거리까지 작은 물리 폭발물을 발사하며, 그것이 즉시 범위에서 터져 범위 내 모든 대상을 1분 동안 실명시킨다(사이퍼가 레벨 4 이상이면 10분).
 
-### DETONATION (GRAVITY)
+### 폭파 (중력) (DETONATION (GRAVITY))
+
 - **레벨:** 1d6 + 2
-- **효과:** Projects a small physical explosive up to a long distance away that bursts in an immediate radius, inflicting damage equal to the cypher’s level by increasing gravity tremendously for one second. All creatures in the area are crushed to the ground for one round and cannot take physical actions.
+- **효과:** 장거리까지 작은 물리 폭발물을 발사하며, 그것이 즉시 범위에서 터져 1초 동안 중력을 엄청나게 증가시켜 사이퍼 레벨과 같은 피해를 준다. 범위 내 모든 생물은 한 라운드 동안 땅에 짓눌려 물리적 행동을 할 수 없다.
 
+### 폭파 (중력 반전) (DETONATION (GRAVITY INVERSION))
 
-### DETONATION (GRAVITY INVERSION)
 - **레벨:** 1d6 + 1
-- **효과:** Projects a small physical explosive up to a long distance away that explodes, and for one hour gravity reverses within long range of the explosion.
+- **효과:** 장거리까지 작은 물리 폭발물을 발사하며, 그것이 폭발하면 폭발 지점 기준 장거리 범위 내에서 1시간 동안 중력이 반전된다.
 
-### DETONATION (MASSIVE)
+### 폭파 (대형) (DETONATION (MASSIVE))
+
 - **레벨:** 1d6 + 2
-- **효과:** Projects a small physical explosive up to a long distance away that explodes in a
-short-range radius, inflicting damage equal to the cypher’s level. Roll a d100 to determine the type of damage.
-01–10
-Cell-disrupting (harms only flesh)
-11–30
-Corrosive
-31–40
-Electrical discharge
-41–50
-Heat drain (cold)
-51–75
-Fire
-76–00
-Shrapnel
+- **효과:** 장거리까지 작은 물리 폭발물을 발사하며, 그것이
+  단거리 반경에서 폭발해 사이퍼 레벨과 같은 피해를 준다. 피해 유형을 결정하려면 d100을 굴린다.
+  | d100 | 피해 유형 |
+  |---|---|
+  | 01–10 | 세포 파괴(살점에만 피해) |
+  | 11–30 | 부식 |
+  | 31–40 | 전기 방전 |
+  | 41–50 | 열 흡수(냉기) |
+  | 51–75 | 화염 |
+  | 76–00 | 파편 |
 
+### 폭파 (물질 교란) (DETONATION (MATTER DISRUPTION))
 
-
-
-### DETONATION (MATTER DISRUPTION)
 - **레벨:** 1d6 + 4
-- **효과:** Projects a small physical explosive up to a long distance away that explodes in an immediate radius, releasing nanites that rearrange matter in random ways. Inflicts damage equal to the cypher’s level.
+- **효과:** 장거리까지 작은 물리 폭발물을 발사하며, 그것이 즉시 범위에서 폭발해 물질을 무작위 방식으로 재배열하는 나나이트를 방출한다. 사이퍼 레벨과 같은 피해를 준다.
 
-### DETONATION (PRESSURE)
+### 폭파 (압력) (DETONATION (PRESSURE))
+
 - **레벨:** 1d6 + 2
-- **효과:** Projects a small physical explosive up to a long distance away that explodes in an immediate radius, inflicting impact damage equal to the cypher’s level. Also moves unattended objects out of the area if they weigh less than 20 pounds (9 kg) per cypher level.
+- **효과:** 장거리까지 작은 물리 폭발물을 발사하며, 그것이 즉시 범위에서 폭발해 사이퍼 레벨과 같은 충격 피해를 준다. 또한 사이퍼 레벨당 20파운드(9kg) 미만인 무주물체를 범위 밖으로 밀어낸다.
 
-### DETONATION (SINGULARITY)
+### 폭파 (특이점) (DETONATION (SINGULARITY))
+
 - **레벨:** 10
-- **효과:** Projects a small physical explosive up to a long distance away that explodes and creates a momentary singularity that tears at the fabric of the universe. Inflicts 20 points of damage to all within short range, drawing them (or their remains) together to immediate range (if possible). Player characters in the radius who fail a Might defense roll move down one step on the damage track.
-(The singularity detonation is a greatly feared device, sought by those interested in truly horrific destruction.)
+- **효과:** 장거리까지 작은 물리 폭발물을 발사하며, 그것이 폭발하면서 우주의 구조를 찢는 순간적 특이점을 만든다. 단거리 내 모든 대상에게 피해 20점을 주고, 그들(또는 그 잔해)을 즉시 범위로 끌어당긴다(가능하다면). 범위 내 PC가 힘 방어 굴림에 실패하면 피해 트랙에서 한 단계 내려간다.
+  (특이점 폭파는 진정으로 끔찍한 파괴를 원하는 자들이 찾는, 크게 두려움받는 장치다.)
 
-### DETONATION (SONIC)
+### 폭파 (음파) (DETONATION (SONIC))
+
 - **레벨:** 1d6 + 2
-- **효과:** Projects a small physical explosive up to a long distance away that explodes with terrifying sound, deafening all in an immediate radius for ten minutes per cypher level.
+- **효과:** 장거리까지 작은 물리 폭발물을 발사하며, 그것이 무시무시한 소리와 함께 폭발해 즉시 범위 내 모든 대상을 사이퍼 레벨당 10분 동안 청각 마비 상태로 만든다.
 
-### DETONATION (SPAWN)
+### 폭파 (자탄) (DETONATION (SPAWN))
+
 - **레벨:** 1d6 + 2
-- **효과:** Projects a small physical explosive up to a long distance away that bursts in an immediate radius, blinding all within it for one minute and inflicting damage equal to the cypher’s level. The burst spawns 1d6 additional detonations; in the next round, each additional detonation flies to a random spot within short range and explodes in an immediate radius. Roll a d100 to determine the type of damage dealt by all detonations:
-01–10
-Cell-disrupting (harms only flesh)
-11–30
-Corrosive
-31–40
-Electrical discharge
-41–50
-Heat drain (cold)
-51–75
-Fire
-76–00
-Shrapnel
+- **효과:** 장거리까지 작은 물리 폭발물을 발사하며, 그것이 즉시 범위에서 터져 범위 내 모든 대상을 1분 동안 실명시키고 사이퍼 레벨과 같은 피해를 준다. 폭발은 추가 폭파 1d6개를 생성하며, 다음 라운드에 각 추가 폭파는 단거리 내 무작위 지점으로 날아가 즉시 범위에서 폭발한다. 모든 폭파의 피해 유형을 결정하려면 d100을 굴린다.
+  | d100 | 피해 유형 |
+  |---|---|
+  | 01–10 | 세포 파괴(살점에만 피해) |
+  | 11–30 | 부식 |
+  | 31–40 | 전기 방전 |
+  | 41–50 | 열 흡수(냉기) |
+  | 51–75 | 화염 |
+  | 76–00 | 파편 |
 
+### 폭파 (그물) (DETONATION (WEB))
 
-
-### DETONATION (WEB)
 - **레벨:** 1d6 + 2
-- **효과:** Projects a small physical explosive up to a long distance away that explodes in an immediate radius and creates sticky strands of goo. PCs caught in the area must use a Might-based action to get out, with the difficulty determined by the cypher level. NPCs break free if their level is higher than the cypher level.
-(Rather than strands of sticky goo, some web detonations fill the area with a mass of quick-hardening foam that has the same result.)
+- **효과:** 장거리까지 작은 물리 폭발물을 발사하며, 그것이 즉시 범위에서 폭발해 끈적한 점액 가닥을 만든다. 범위에 걸린 PC는 빠져나오기 위해 Might 기반 행동을 사용해야 하며, 난이도는 사이퍼 레벨로 결정된다. NPC는 자신의 레벨이 사이퍼 레벨보다 높으면 벗어난다.
+  (일부 그물 폭파는 끈적한 점액 가닥 대신 같은 결과를 내는 빠르게 굳는 폼 덩어리로 범위를 채운다.)
 
-### DISARM
+### 무장 해제 (DISARM)
+
 - **레벨:** 1d6 + 1
-- **효과:** One NPC within immediate range whose level is lower than the cypher level drops whatever they are holding.
+- **효과:** 즉시 범위 내, 사이퍼 레벨보다 낮은 레벨의 NPC 하나가 손에 들고 있던 것을 떨어뜨린다.
 
-### DISGUISE MODULE
+### 위장 모듈 (DISGUISE MODULE)
+
 - **레벨:** 1d6 + 2
-- **효과:** For the next ten minutes per cypher level, the user’s features become almost identical to those of one designated person they have previously interacted with, easing by two steps attempts to disguise the user as that person. Once designated, the user cannot shift the effect to look like another person, though they can remove the module to look like themselves again before the end of the duration.
+- **효과:** 사이퍼 레벨당 다음 10분 동안, 사용자의 외형은 이전에 상호작용한 특정 인물 하나와 거의 동일해져, 사용자를 그 인물로 위장시키려는 시도를 2단계 완화한다. 대상 인물을 지정하고 나면 다른 사람 모습으로 효과를 바꿀 수는 없지만, 지속 시간이 끝나기 전에 모듈을 제거해 본래 모습으로 돌아갈 수는 있다.
 
-### DISRUPTING
+### 교란 (DISRUPTING)
+
 - **레벨:** 1d6
-- **효과:** For the next day, each time the user strikes a solid creature or object, the attack generates a burst of nanites that directly attack its organic cells. The target takes 1 additional point of damage. If the target’s level is less than the cypher’s level, it loses its next action; otherwise its next action is hindered.
+- **효과:** 다음 하루 동안, 사용자가 단단한 생물이나 물체를 타격할 때마다 공격이 유기 세포를 직접 공격하는 나나이트 폭발을 일으킨다. 대상은 추가 피해 1점을 받는다. 대상 레벨이 사이퍼 레벨보다 낮으면 다음 행동을 잃고, 그렇지 않으면 다음 행동이 1단계 불리해진다.
 
-### EAGLESEYE
+### 피해 증폭 (DAMAGE BOOST)
+
+- **레벨:** 1d6 + 2
+- **효과:** 이 사이퍼는 피해 점수를 주는 능력을 증폭한다. 그 능력은 이 사이퍼 레벨과 같은 추가 피해를 준다.
+
+### 독수리눈 (EAGLESEYE)
+
 - **레벨:** 1d6
-- **효과:** Grants the ability to see ten times as far as normal for one hour per cypher level. (For a more realistic game, the eagleseye cypher could instead give the user two assets on tasks involving seeing to long distances.)
+- **효과:** 사이퍼 레벨당 1시간 동안 평소보다 열 배 먼 거리까지 볼 수 있는 능력을 부여한다. (더 사실적인 게임을 원한다면, eagleseye 사이퍼는 대신 장거리 시야가 필요한 일에 보탬 두 개를 제공하도록 할 수 있다.)
 
-### EFFECT RESISTANCE
+### 효과 저항 (EFFECT RESISTANCE)
+
 - **레벨:** 1d6 + 1
-- **효과:** Provides a chance for additional resistance to directly damaging effects of all kinds, such as fire, lightning, and the like, for one day. (It does not provide resistance to blunt force, slashing, or piercing attacks.) If the level of the effect is of the cypher level or lower, the user gains an additional defense roll to avoid it. On a successful defense roll, treat the attack as if the user had succeeded on their regular defense roll. (If the user is an NPC, a PC attacking them with this kind of effect must succeed on two attack rolls to harm them.)
+- **효과:** 하루 동안 화염, 번개 등 모든 종류의 직접적인 피해 효과에 대해 추가 저항 기회를 제공한다. (둔기, 참격, 관통 공격에 대한 저항은 제공하지 않는다.) 효과의 레벨이 사이퍼 레벨 이하라면, 사용자는 그 효과를 피하기 위한 추가 방어 굴림을 얻는다. 이 방어 굴림에 성공하면, 사용자가 자신의 일반 방어 굴림에 성공한 것처럼 공격을 처리한다. (사용자가 NPC라면, 이런 종류의 효과로 그를 공격하는 PC는 피해를 주기 위해 공격 굴림 두 번에 모두 성공해야 한다.)
 
-### EFFORT ENHANCER (COMBAT)
+### 분발 증강기 (전투) (EFFORT ENHANCER (COMBAT))
+
 - **레벨:** 1d6 + 1
-- **효과:** For the next hour, the user can apply one free level of Effort to any task (including a combat task) without spending points from a Pool. The free level of Effort provided by this cypher does not count toward the maximum amount of Effort a character can normally apply to one task. Once this free level of Effort is used, the effect of the cypher ends.
+- **효과:** 다음 1시간 동안, 사용자는 풀에서 점수를 소모하지 않고 어떤 일(전투 일 포함)에도 무료 분발 1단계를 적용할 수 있다. 이 사이퍼가 제공하는 무료 분발 1단계는 캐릭터가 일반적으로 한 일에 적용할 수 있는 최대 분발량에 포함되지 않는다. 이 무료 분발 1단계를 사용하면 사이퍼 효과는 종료된다.
 
-### EFFORT ENHANCER (NONCOMBAT)
+### 분발 증강기 (비전투) (EFFORT ENHANCER (NONCOMBAT))
+
 - **레벨:** 1d6
-- **효과:** For the next hour, the user can apply one free level of Effort to a noncombat task without spending points from a Pool. The level of Effort provided by this cypher does not count toward the maximum amount of Effort a character can normally apply to one task. Once this free level of Effort is used, the effect of the cypher ends.
+- **효과:** 다음 1시간 동안, 사용자는 풀에서 점수를 소모하지 않고 비전투 일 하나에 무료 분발 1단계를 적용할 수 있다. 이 사이퍼가 제공하는 분발 단계는 캐릭터가 일반적으로 한 일에 적용할 수 있는 최대 분발량에 포함되지 않는다. 이 무료 분발 1단계를 사용하면 사이퍼 효과는 종료된다.
 
-### ENDURING SHIELD
+### 지속 방패 (ENDURING SHIELD)
+
 - **레벨:** 1d6 + 4
-- **효과:** For the next day, the user has an asset to Speed defense rolls.
+- **효과:** 다음 하루 동안, 사용자는 속력 방어 굴림에 보탬을 얻는다.
 
-### EQUIPMENT CACHE
+### 장비 은닉처 (EQUIPMENT CACHE)
+
 - **레벨:** 1d6 + 1
-- **효과:** The user can rummage around and produce from the cypher a desired piece of equipment (not an artifact) whose level does not exceed the cypher’s level. The piece of equipment persists for up to one day, unless its fundamental nature allows only a single use (such as with a grenade).
+- **효과:** 사용자는 사이퍼를 뒤져 원하는 장비 하나(아티팩트 제외)를 꺼낼 수 있으며, 그 장비의 레벨은 사이퍼 레벨을 초과할 수 없다. 그 장비는 최대 하루 동안 지속되며, 본질적으로 1회 사용만 가능한 물건(예: 수류탄)이라면 그 성질에 따른다.
 
-### FARSIGHT
+### 효능 강화 (주요) (EFFICACY BOOST (MAJOR))
+
 - **레벨:** 1d6 + 1
-- **효과:** The user can observe a location they have visited previously, regardless of how far away it is (even across galaxies). This vision persists for up to ten minutes per cypher level. The character can switch between viewing this location and viewing their current location once per round.
+- **효과:** 이 사이퍼는 스킬 굴림이 필요한 능력을 강화한다. 해당 능력 사용은 두 단계 완화된다. (이 종류의 사이퍼는 적어도 정기적으로 등장한다면 슈퍼히어로 캠페인에서만 적절할 수 있다.)
 
-### FIREPROOFING
+### 효능 강화 (경미) (EFFICACY BOOST (MINOR))
+
+- **레벨:** 1d6
+- **효과:** 이 사이퍼는 스킬 굴림이 필요한 능력을 강화한다. 해당 능력 사용은 한 단계 완화된다.
+
+### 에너지 증폭 (ENERGY BOOST)
+
+- **레벨:** 1d6
+- **효과:** 이 사이퍼는 능력 중 능력치 풀 비용이 있는 능력을 강화한다. 그 비용은 0으로 감소한다.
+
+### 판타지/동화 (Fantasy/Fairy Tale)
+
+- 물약
+- 두루마리
+- 룬판
+- 문신
+- 부적
+- 가루
+- 수정
+- 힘의 단어가 담긴 책
+
+### 원시야 (FARSIGHT)
+
+- **레벨:** 1d6 + 1
+- **효과:** 사용자는 이전에 방문한 장소 하나를, 거리가 얼마나 멀든(은하를 가로질러서라도) 관찰할 수 있다. 이 시야는 사이퍼 레벨당 최대 10분 동안 지속된다. 캐릭터는 라운드마다 한 번, 이 장소를 보는 시점과 현재 위치를 보는 시점을 전환할 수 있다.
+
+### 방화 처리 (FIREPROOFING)
+
 - **레벨:** 1d6 + 4
-- **효과:** A nonliving object treated by this cypher has Armor against fire damage equal to the cypher’s level for one day.
+- **효과:** 이 사이퍼로 처리한 무생물 물체는 하루 동안 화염 피해에 대해 사이퍼 레벨과 같은 방어도(Armor)를 얻는다.
 
-### FLAME-RETARDANT WALL
+### 난연 장벽 (FLAME-RETARDANT WALL)
+
 - **레벨:** 1d6
-- **효과:** Creates an immobile plane of permeable energy up to 20 feet by 20 feet (6 m by 6 m) for one hour per cypher level. The plane conforms to the space available. Flames passing through the plane are extinguished.
+- **효과:** 사이퍼 레벨당 1시간 동안, 최대 20피트 x 20피트(6m x 6m) 크기의 고정된 투과성 에너지 평면을 만든다. 평면은 사용 가능한 공간에 맞춰 형태가 정해진다. 평면을 통과하는 불꽃은 꺼진다.
 
-### FORCE CUBE
+### 힘의 정육면체 (FORCE CUBE)
+
 - **레벨:** 1d6 + 3
-- **효과:** Creates an immobile cube composed of six planes of solid force, each 30 feet (9 m) to a side, for one hour. The planes conform to the space available. (Although a force cube’s walls are not gaseous permeable, there is likely enough air within for trapped creatures to breathe for the hour it lasts.)
+- **효과:** 각 변이 30피트(9m)인 단단한 힘의 평면 여섯 개로 이루어진, 고정된 정육면체를 1시간 동안 생성한다. 평면은 사용 가능한 공간에 맞춰 형태가 정해진다. (힘 정육면체의 벽은 기체를 통과시키지 않지만, 갇힌 생물이 1시간 동안 숨쉴 만큼의 공기는 내부에 있을 가능성이 높다.)
 
-### FORCE FIELD
+### 힘장 (FORCE FIELD)
+
 - **레벨:** 1d6
-- **효과:** For the next day, the user is surrounded
-by a powerful force field, granting them +1
-to Armor (+2 to Armor if the cypher level is
-5 or higher).
-(Some force walls, shields, and cubes are transparent. Others are translucent. A few are opaque.)
+- **효과:** 다음 하루 동안, 사용자는 강력한 힘장에 둘러싸여
+  +1 Armor를 얻는다(사이퍼 레벨이
+  5 이상이면 +2 Armor).
+  (일부 힘 벽, 방패, 정육면체는 투명하다. 다른 것들은 반투명하다. 일부는 불투명하다.)
 
-### FORCE SCREEN PROJECTOR
+### 힘 장막 투사기 (FORCE SCREEN PROJECTOR)
+
 - **레벨:** 1d6 + 3
-- **효과:** Creates an immobile plane of solid force up to 20 feet by 20 feet (6 m by 6 m) for one hour. The plane conforms to the space available.
+- **효과:** 최대 20피트 x 20피트(6m x 6m) 크기의 고정된 단단한 힘의 평면을 1시간 동안 만든다. 평면은 사용 가능한 공간에 맞춰 형태가 정해진다.
 
-### FORCE SHIELD PROJECTOR
+### 힘 방패 투사기 (FORCE SHIELD PROJECTOR)
+
 - **레벨:** 1d6 + 3
-- **효과:** Creates a shimmering energy shield around the user for one hour, during which time they gain +3 to Armor (or +4 to Armor if the cypher is level 5 or higher).
+- **효과:** 사용자를 둘러싸는 반짝이는 에너지 방패를 1시간 동안 만든다. 그동안 사용자는 +3 Armor를 얻는다(사이퍼가 레벨 5 이상이면 +4 Armor).
 
-### FRICTION REDUCER
+### 마찰 감소기 (FRICTION REDUCER)
+
 - **레벨:** 1d6
-- **효과:** Spread across an area up to 10 feet (3 m) square, this makes things extremely slippery. For one hour per cypher level, movement tasks in the area are hindered by three steps.
+- **효과:** 최대 10피트(3m) 정사각형 구역에 퍼뜨리면, 표면이 극도로 미끄러워진다. 사이퍼 레벨당 1시간 동안 그 구역의 이동 일는 세 단계 불리해진다.
 
-### FRIGID WALL
+### 한랭 장벽 (FRIGID WALL)
+
 - **레벨:** 1d6 + 2
-- **효과:** Creates a wall of supercooled air up to 30 feet by 30 feet by 1 foot (9 m by 9 m by 30 cm) that inflicts damage equal to the cypher’s level on anything that passes through it. The wall conforms to the space available. It lasts for ten minutes.
+- **효과:** 최대 30피트 x 30피트 x 1피트(9m x 9m x 30cm) 크기의 초저온 공기 장벽을 생성하며, 이를 통과하는 모든 대상에게 사이퍼 레벨과 같은 피해를 준다. 장벽은 사용 가능한 공간에 맞춰 형태가 정해진다. 10분 동안 지속된다.
 
-### GAS BOMB
+### 가스 폭탄 (GAS BOMB)
+
 - **레벨:** 1d6 + 2
-- **효과:** Thrown a short distance, this bursts in a poisonous cloud within an immediate area. The cloud lingers for 1d6 rounds unless conditions dictate otherwise. Roll a d100 to determine the effect.
+- **효과:** 짧은 거리로 던지면 즉시 범위에 독성 구름이 터져 나온다. 구름은 별도 환경 요인이 없다면 1d6라운드 동안 남아 있다. 효과를 결정하려면 d100을 굴린다.
 
-01–10
-Thick smoke: occludes sight while the cloud lasts.
-11–20
-Choking gas: living creatures that breathe lose their actions to choking and coughing for a number of rounds equal to the cypher’s level.
-21–50
-Poison gas: living creatures that breathe suffer damage equal to the cypher’s level.
-51–60
-Corrosive gas: everything suffers damage equal to the cypher’s level.
-61–65
-Hallucinogenic gas: living creatures that breathe lose their actions to hallucinations and visions for a number of rounds equal to the cypher’s level.
-66–70
-Nerve gas: living creatures that breathe suffer Speed damage equal to the cypher’s level.
-71–80
-Mind-numbing gas: living creatures that breathe suffer Intellect damage equal to the cypher’s level.
-81–83
-Fear gas: living creatures that breathe and think flee in a random direction in fear (or are paralyzed with fear) for a number of rounds equal to the cypher’s level.
-84–86
-Amnesia gas: living creatures that breathe and think permanently lose all memory of the last minute.
-87–96
-Sleep gas: living creatures that breathe fall asleep for a number of rounds equal to the cypher’s level or until awoken by a violent action or an extremely loud noise.
-97–00
-Rage gas: living creatures that breathe and think make a melee attack on the nearest creature and continue to do so for a number of rounds equal to the cypher’s level.
+| d100  | 효과                                                                                                                                  |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| 01–10 | 짙은 연기: 구름이 지속되는 동안 시야를 가린다.                                                                                        |
+| 11–20 | 질식 가스: 호흡하는 생명체는 사이퍼 레벨과 같은 라운드 수 동안 질식과 기침 때문에 행동을 잃는다.                                      |
+| 21–50 | 독가스: 호흡하는 생명체는 사이퍼 레벨과 같은 피해를 받는다.                                                                           |
+| 51–60 | 부식 가스: 범위 내 모든 것이 사이퍼 레벨과 같은 피해를 받는다.                                                                        |
+| 61–65 | 환각 가스: 호흡하는 생명체는 사이퍼 레벨과 같은 라운드 수 동안 환각과 환영 때문에 행동을 잃는다.                                      |
+| 66–70 | 신경 가스: 호흡하는 생명체는 사이퍼 레벨과 같은 Speed 피해를 받는다.                                                                  |
+| 71–80 | 정신 둔화 가스: 호흡하는 생명체는 사이퍼 레벨과 같은 Intellect 피해를 받는다.                                                         |
+| 81–83 | 공포 가스: 호흡하고 사고하는 생명체는 사이퍼 레벨과 같은 라운드 수 동안 공포에 질려 무작위 방향으로 도망치거나(혹은 공포로 마비된다). |
+| 84–86 | 기억상실 가스: 호흡하고 사고하는 생명체는 마지막 1분의 모든 기억을 영구히 잃는다.                                                     |
+| 87–96 | 수면 가스: 호흡하는 생명체는 사이퍼 레벨과 같은 라운드 수 동안 잠들거나, 격렬한 행동 또는 극도로 큰 소음으로 깨울 때까지 잠든다.      |
+| 97–00 | 분노 가스: 호흡하고 사고하는 생명체는 가장 가까운 생명체에게 근접 공격을 가하며, 사이퍼 레벨과 같은 라운드 수 동안 계속 그렇게 한다.  |
 
+### 중력 무효화 장치 (GRAVITY NULLIFIER)
 
-
-### GRAVITY NULLIFIER
 - **레벨:** 1d6 + 3
-- **효과:** For one hour, the user can float into the air, moving vertically up to a short distance per round (but not horizontally without taking some other action, such as pushing along the ceiling). The user must weigh less than 50 pounds (23 kg) per level of the cypher.
+- **효과:** 1시간 동안 사용자는 공중에 떠오를 수 있으며, 라운드마다 수직으로 단거리까지 이동할 수 있다(천장을 밀어 이동하는 등의 다른 행동 없이는 수평 이동 불가). 사용자의 무게는 사이퍼 레벨당 50파운드(23kg) 미만이어야 한다.
 
+### 중력 무효화 도포제 (GRAVITY-NULLIFYING APPLICATION)
 
-### GRAVITY-NULLIFYING APPLICATION
 - **레벨:** 1d6 + 2
-- **효과:** If a nonliving object no larger than a human (two humans if the cypher level is 6 or higher) is coated by this cypher, it floats 1d20 feet in the air permanently and no longer has weight if carried (though it needs to be strapped down).
+- **효과:** 인간 크기 이하의 무생물 물체 하나(사이퍼 레벨이 6 이상이면 인간 둘 크기까지)에 이 사이퍼를 바르면, 그 물체는 영구히 공중 1d20피트에 떠 있고 운반 시 무게가 없어지지만(고정해 두어야 함) 떠다닌다.
 
-### HEAT ATTACK
+### 공포 (Horror)
+
+- 땅을 파고드는 벌레나 곤충
+- 금서의 페이지들
+- 소름 끼치는 이미지
+
+### 열 공격 (HEAT ATTACK)
+
 - **레벨:** 1d6
-- **효과:** For the next day, each time the user strikes a solid creature or object, the attack generates a burst of heat that inflicts 2 additional points of damage.
+- **효과:** 다음 하루 동안, 사용자가 단단한 생물이나 물체를 타격할 때마다 공격에서 열 폭발이 일어나 추가 피해 2점을 준다.
 
-### HUNTER/SEEKER
+### 추적/탐색 탄 (HUNTER/SEEKER)
+
 - **레벨:** 1d6
-- **효과:** With long-range movement, this intelligent missile tracks and attacks a specified target (target must be within sight when selected). If it misses, it continues to attack one additional time per cypher level until it hits. For example, a level 4
-hunter/seeker will attack a maximum of five times. Roll a d100 to determine the type of attack.
-01–50
-Inflicts 8 points of damage.
-51–80
-Bears a poisoned needle that inflicts 3 points of damage plus poison.
-81–90
-Explodes, inflicting 6 points of damage to all within immediate range.
-91–95
-Shocks for 4 points of electricity damage, and stuns for one round per cypher level.
-96–00
-Covers target in sticky goo that immediately hardens, holding them fast until they break free with a Might action (difficulty equal to the cypher’s level + 2).
+- **효과:** 장거리 이동으로 날아가는 지능형 발사체로, 지정한 표적을 추적해 공격한다(표적은 지정 시점에 시야 안에 있어야 한다). 빗나가면 명중할 때까지 사이퍼 레벨당 추가로 1회씩 계속 공격한다. 예를 들어 레벨 4 추적/탐색 탄은 최대 5회 공격한다. 공격 유형을 결정하려면 d100을 굴린다.
+  | d100 | 효과 |
+  |---|---|
+  | 01–50 | 피해 8점을 준다. |
+  | 51–80 | 독 바늘이 박혀 피해 3점 + 중독 효과를 준다. |
+  | 81–90 | 폭발하여 즉시 범위 내 모든 대상에게 피해 6점을 준다. |
+  | 91–95 | 전격으로 전기 피해 4점을 주고, 사이퍼 레벨당 1라운드 동안 기절시킨다. |
+  | 96–00 | 대상을 끈적한 점액으로 덮고 점액이 즉시 굳어 움직이지 못하게 만든다. 대상은 Might 행동(난이도: 사이퍼 레벨 + 2)으로 탈출할 수 있다. |
 
+### 이미지 프로젝터 (IMAGE PROJECTOR)
 
-
-### IMAGE PROJECTOR
 - **레벨:** 1d6
-- **효과:** Projects one of the following immobile images in the area described for one hour. The image appears up to a close distance from the user (long distance if the cypher level is 4 or higher, very long distance if the cypher level is 6 or higher). Scenes include movement, sound, and smell. Roll a d100 to determine the image.
-01–20
-Terrifying creature of an unknown species, perhaps no longer alive in the world (10-foot [3 m] cube)
-21–40
-Huge machine that obscures sight (30-foot [9 m] cube)
-41–50
-Beautiful pastoral scene (50-foot
-[15 m] cube)
-51–60
-Food that looks delicious but may not be familiar (10-foot [3 m] cube)
-61–80
-Solid color that obscures sight
-(50-foot [15 m] cube)
-81–00
-Incomprehensible scene that is disorienting and strange (20-foot
-[6 m] cube)
+- **효과:** 다음 중 하나의 정지 이미지를 해당 범위에 1시간 동안 투사한다. 이미지는 사용자로부터 단거리 내(사이퍼 레벨이 4 이상이면 장거리, 6 이상이면 매우 장거리)까지 나타날 수 있다. 장면에는 움직임, 소리, 냄새가 포함된다. 어떤 이미지를 투사하는지 정하려면 d100을 굴린다.
+  | d100 | 이미지 |
+  |---|---|
+  | 01–20 | 세계에 더는 존재하지 않을지도 모르는, 정체불명의 종에 속한 공포스러운 생물(10피트 [3m] 큐브) |
+  | 21–40 | 시야를 가리는 거대한 기계(30피트 [9m] 큐브) |
+  | 41–50 | 아름다운 전원 풍경(50피트 [15m] 큐브) |
+  | 51–60 | 맛있어 보이지만 낯선 음식(10피트 [3m] 큐브) |
+  | 61–80 | 시야를 가리는 단색 공간(50피트 [15m] 큐브) |
+  | 81–00 | 방향 감각을 잃게 만드는, 기이하고 이해하기 어려운 장면(20피트 [6m] 큐브) |
 
+### 화염 장벽 (INFERNO WALL)
 
-
-### INFERNO WALL
 - **레벨:** 1d6 + 2
-- **효과:** Creates a wall of extreme heat up to 30 feet by 30 feet by 1 foot (9 m by 9 m by 30 cm) that inflicts damage equal to the cypher’s level on anything that passes through it. The wall conforms to the space available. It lasts for ten minutes.
+- **효과:** 최대 30피트 x 30피트 x 1피트(9m x 9m x 30cm) 크기의 극열 장벽을 생성한다. 이 벽을 통과하는 모든 대상은 사이퍼 레벨과 같은 피해를 받는다. 장벽은 가용 공간에 맞춰 형태가 정해진다. 지속시간은 10분이다.
 
-### INFILTRATOR
+### 잠입체 (INFILTRATOR)
+
 - **레벨:** 1d6
-- **효과:** Tiny capsule launches and moves at great speed, mapping and scanning an unknown area. It moves 500 feet (150 m) per level, scanning an area up to 50 feet (15 m) per level away from it. It identifies basic layout, creatures, and major energy sources and either transmits this information back to the user (perhaps by telepathy or an electronic signal) or returns to the user to show what it saw. Its movement is blocked by any physical or energy barrier.
+- **효과:** 작은 캡슐이 발사되어 매우 빠른 속도로 이동하며 미지의 지역을 지도화하고 스캔한다. 이동 거리는 레벨당 500피트(150m), 스캔 범위는 캡슐로부터 레벨당 최대 50피트(15m)다. 기본 지형 구조, 생물, 주요 에너지원를 식별하고, 이 정보를 사용자에게 전송한다(텔레파시나 전자 신호 등). 또는 사용자에게 돌아와 본 것을 보여준다. 물리적 장벽이나 에너지 장벽이 있으면 이동이 차단된다.
 
-### INFORMATION SENSOR
+### 정보 감지기 (INFORMATION SENSOR)
+
 - **레벨:** 1d6 + 2
-- **효과:** Over the course of one day, the user can activate the cypher a total number of times equal to its level. Each time, they can select a living creature within long range and learn the following about it: level, origin, species, name, and possibly other facts (such as an individual’s credit score, home address, phone number, and related information).
+- **효과:** 하루 동안 사용자는 이 사이퍼를 총 사이퍼 레벨 횟수만큼 활성화할 수 있다. 매번 장거리 내 살아 있는 생물 하나를 선택해 다음 정보를 알아낸다: 레벨, 기원, 종, 이름, 그리고 추가 정보(예: 개인 신용 점수, 집 주소, 전화번호 등).
 
-### INSTANT SERVANT
+### 즉석 하인 (INSTANT SERVANT)
+
 - **레벨:** 1d6
-- **효과:** Small device expands into a humanoid automaton that is roughly 2 feet (60 cm) tall. Its level is equal to the cypher’s level, and it can understand the verbal commands of the character who activated it. Once the servant is activated, commanding it is not an action. It can make attacks or perform actions as ordered to the best of its abilities, but it cannot speak.
-The automaton has short-range movement but never goes farther than long range from the character who activated it. At the GM’s discretion, the servant might have specialized knowledge, such as how to operate a particular device. Otherwise, it has no special knowledge. In any case, the servant is not artificially intelligent or capable of initiating action. It does only as commanded.
-The servant operates for one hour per cypher level.
+- **효과:** 작은 장치가 펼쳐져 키 약 2피트(60cm)의 인간형 자동기계가 된다. 자동기계의 레벨은 사이퍼 레벨과 같으며, 이를 활성화한 캐릭터의 구두 명령을 이해할 수 있다. 하인이 활성화된 뒤에는 하인에게 명령하는 데 행동이 들지 않는다. 자신의 능력 범위 내에서 명령받은 공격이나 행동을 수행할 수 있지만 말은 하지 못한다.
+  이 자동기계는 단거리 이동을 하며, 이를 활성화한 캐릭터에게서 장거리보다 멀리 벗어나지 않는다. GM 재량에 따라 특정 장치 조작법 같은 전문 지식을 갖고 있을 수 있다. 그 외에는 특별한 지식이 없다. 어떤 경우든 하인은 인공지능이 아니며 스스로 행동을 개시할 수 없다. 명령받은 일만 수행한다.
+  하인은 사이퍼 레벨당 1시간 동안 작동한다.
 
-### INSTANT SHELTER
+### 즉석 은신처 (INSTANT SHELTER)
+
 - **레벨:** 1d6 + 3
-- **효과:** With the addition of water and air, this cypher expands into a simple one-room structure with a door and a transparent window (two rooms with an internal door if the cypher level is 7 or higher). The structure is 10 feet by 10 feet by 20 feet (3 m by 3 m by 6 m). It is made from a durable, nonflammable material similar to sandstone, and is permanent and immobile once created.
+- **효과:** 물과 공기가 더해지면, 문 하나와 투명 창 하나가 있는 단순한 1실 구조물로 확장된다(사이퍼 레벨이 7 이상이면 내부 문이 있는 2실). 구조물 크기는 10피트 x 10피트 x 20피트(3m x 3m x 6m)다. 사암과 유사한 내구성 있는 비가연성 재질로 만들어지며, 한 번 생성되면 영구적이고 이동 불가다.
 
-### INTELLECT BOOSTER
+### 지성 부스터 (INTELLECT BOOSTER)
+
 - **레벨:** 1d6 + 2
-- **효과:** Adds 1 to the user’s Intellect Edge for one hour (or 2 if the cypher is level 5 or higher).
+- **효과:** 1시간 동안 사용자의 Intellect Edge에 +1을 더한다(사이퍼 레벨이 5 이상이면 +2).
 
-### INTELLIGENCE ENHANCEMENT
+### 지능 향상 (INTELLIGENCE ENHANCEMENT)
+
 - **레벨:** 1d6
-- **효과:** All of the user’s tasks involving intelligent deduction—such as playing chess, inferring a connection between clues, solving a mathematical problem, finding a bug in computer code, and so on—are eased by two steps for one hour. In the subsequent hour, the strain hinders the same tasks by two steps.
+- **효과:** 체스 두기, 단서 간 연결 추론, 수학 문제 풀이, 컴퓨터 코드의 버그 찾기 등 지적 추론이 필요한 사용자의 모든 일가 1시간 동안 2단계 완화된다. 이후 1시간 동안은 그 부담으로 인해 같은 일가 2단계 불리해진다.
 
-### KNOWLEDGE ENHANCEMENT
+### 지식 향상 (KNOWLEDGE ENHANCEMENT)
+
 - **레벨:** 1d6
-- **효과:** For the next day, the character has training in a predetermined skill (or two skills if the cypher is level 5 or higher). The skill could be anything (including something specific to the operation of a particular device), or roll a d100 to choose a common skill. (It is easy to get addicted to the quick hit of training that comes from knowledge enhancement cyphers. Characters who rely on them too often may find themselves at a disadvantage when they run out, presenting a great opportunity for GM intrusion.)
-01–10
-Melee attacks
-11–20
-Ranged attacks
-21–40
-One type of academic or esoteric lore (biology, history, magic, and so on)
-41–50
-Repairing (sometimes specific to one device)
-51–60
-Crafting (usually specific to one thing)
-61–70
-Persuasion
-71–75
-Healing
-76–80
-Speed defense
-81–85
-Intellect defense
-86–90
-Swimming
-91–95
-Riding
-96–00
-Sneaking
+- **효과:** 다음 하루 동안, 캐릭터는 미리 정해진 기술 하나에 대해 훈련됨 상태가 된다(사이퍼 레벨이 5 이상이면 기술 둘). 기술은 무엇이든 될 수 있으며(특정 장치 조작에 특화된 기술 포함), 일반적인 기술을 정하려면 d100을 굴린다. (지식 향상 사이퍼가 주는 즉각적인 훈련 효과에는 중독되기 쉽다. 이를 너무 자주 의존한 캐릭터는 사이퍼가 떨어졌을 때 불리해질 수 있으며, 이는 GM 침투를 위한 훌륭한 기회가 된다.)
+  | d100 | 기술 |
+  |---|---|
+  | 01–10 | 근접 공격 |
+  | 11–20 | 원거리 공격 |
+  | 21–40 | 학문 또는 비전 지식 한 분야(생물학, 역사, 마법 등) |
+  | 41–50 | 수리(때로는 특정 장치 한정) |
+  | 51–60 | 제작(보통 특정 한 대상 한정) |
+  | 61–70 | 설득 |
+  | 71–75 | 치유 |
+  | 76–80 | 속력 방어 |
+  | 81–85 | 지성 방어 |
+  | 86–90 | 수영 |
+  | 91–95 | 승마 |
+  | 96–00 | 은신 |
 
+### 번개 장벽 (LIGHTNING WALL)
 
-
-### LIGHTNING WALL
 - **레벨:** 1d6 + 2
-- **효과:** Creates a wall of electric bolts up to 30 feet by 30 feet by 1 foot (9 m by 9 m by 30 cm) that inflicts damage equal to the cypher’s level on anything that passes through it. The wall conforms to the space available. It lasts for ten minutes.
+- **효과:** 최대 30피트 x 30피트 x 1피트(9m x 9m x 30cm) 크기의 전격 볼트 장벽을 생성한다. 이 장벽을 통과하는 모든 대상은 사이퍼의 레벨과 같은 피해를 받는다. 장벽은 주변의 가용 공간에 맞춰 형태를 이룬다. 지속시간은 10분이다.
 
-### MACHINE CONTROL
+### 현대/로맨스 (Modern/Romance)
+
+- 약물 (주사제, 알약, 흡입제)
+- 바이러스
+- 스마트폰 앱
+
+### 기계 제어 (MACHINE CONTROL)
+
 - **레벨:** 1d6 + 2
-- **효과:** Splits into two pieces; one is affixed to a device and the other to a character. The character can then use their mind to control the device at long range, bidding it to do anything it could do normally. Thus, a device could be activated or deactivated, and a vehicle could be piloted. The control lasts for ten minutes per cypher level, and once the device is chosen, it cannot be changed.
+- **효과:** 두 조각으로 분리되며, 하나는 장치에 부착하고 다른 하나는 캐릭터에 부착한다. 이후 캐릭터는 정신으로 장치를 장거리에서 제어하여, 장치가 본래 할 수 있는 어떤 일이라도 수행하게 명령할 수 있다. 따라서 장치를 활성화하거나 비활성화할 수 있고, 탈것을 조종할 수도 있다. 제어는 사이퍼 레벨당 10분 동안 지속되며, 한 번 장치를 선택하면 바꿀 수 없다.
 
-### MAGNETIC ATTACK DRILL
+### 자기 공격 드릴 (MAGNETIC ATTACK DRILL)
+
 - **레벨:** 1d6 + 2
-- **효과:** The user throws this cypher at a target within short range, and it drills into the target for one round, inflicting damage equal to the cypher’s level. If the target is made of metal or wearing metal (such as armor), the attack is eased.
+- **효과:** 사용자는 단거리 내의 대상에게 이 사이퍼를 던지며, 사이퍼는 1라운드 동안 대상에게 파고들어 사이퍼 레벨과 같은 피해를 준다. 대상이 금속으로 이루어져 있거나 금속(예: 방어구)을 착용하고 있다면, 공격은 완화된다.
 
-### MAGNETIC MASTER
+### 자기 마스터 (MAGNETIC MASTER)
+
 - **레벨:** 1d6 + 2
-- **효과:** Establishes a connection with one metal object within short range that a human could hold in one hand. The user can then move or manipulate the object anywhere within short range (each movement or manipulation is an action). For example, they could wield a weapon or drag a helm affixed to a foe’s head to and fro. The connection lasts for ten rounds per cypher level.
+- **효과:** 단거리 내에 있는, 인간이 한 손으로 들 수 있는 금속 물체 하나와 연결을 형성한다. 이후 사용자는 단거리 내 어디에서든 그 물체를 이동시키거나 조작할 수 있다(각 이동 또는 조작은 행동 1회). 예를 들어 무기를 휘두르거나, 적의 머리에 고정된 투구를 이리저리 끌어당길 수 있다. 연결은 사이퍼 레벨당 10라운드 동안 지속된다.
 
-### MAGNETIC SHIELD
+### 자기 방패 (MAGNETIC SHIELD)
+
 - **레벨:** 1d6 + 2
-- **효과:** For ten minutes per cypher level, metal objects cannot come within immediate range of the user. Metal items already in the area when the device is activated are slowly pushed out.
+- **효과:** 사이퍼 레벨당 10분 동안, 금속 물체는 사용자에게 즉시 거리 이내로 접근할 수 없다. 장치가 활성화될 때 이미 그 영역 안에 있던 금속 물체는 천천히 밖으로 밀려난다.
 
-### MANIPULATION BEAM
+### 조작 빔 (MANIPULATION BEAM)
+
 - **레벨:** 1d6 + 2
-- **효과:** Over the course of one day, the user can activate the cypher a total number of times equal to its level. Each time, they can affect an object they can see within long range that is not too heavy for them to affect physically. The effect must occur over the course of a round and could include closing or opening a door, keying in a number on a keypad, transferring an object a short distance, wresting an object from another creature’s grasp (on a successful Might-based roll), or pushing a creature an immediate distance. (A manipulation beam could be used to operate a computer at a distance, which would make some infiltration and hacking jobs easier.)
+- **효과:** 하루에 걸쳐, 사용자는 이 사이퍼를 총 사이퍼 레벨과 같은 횟수만큼 활성화할 수 있다. 매번 사용 시, 장거리 내에서 볼 수 있으며 사용자가 물리적으로 영향을 줄 수 있을 만큼 가벼운 물체 하나에 영향을 준다. 효과는 1라운드 동안에 일어나야 하며, 문을 닫거나 열기, 키패드에 숫자 입력하기, 물체를 짧은 거리 옮기기, 다른 생물의 손아귀에서 물체를 빼앗기(근력 기반 굴림 성공 시), 생물을 즉시 거리만큼 밀기 등을 포함할 수 있다. (조작 빔은 원거리에서 컴퓨터를 조작하는 데 사용할 수 있어, 일부 잠입 및 해킹 임무를 더 쉽게 만든다.)
 
-### MATTER TRANSFERENCE RAY
+### 물질 전이 광선 (MATTER TRANSFERENCE RAY)
+
 - **레벨:** 1d6 + 3
-- **효과:** The user can target one nonliving object within long range that is their size or smaller of the cypher level or lower. The object is transferred directly to a random location at least 100 miles (160 km) away. If the GM feels it appropriate to the circumstances, only a portion of an object is transferred (a portion whose volume is no more than the user’s).
+- **효과:** 사용자는 장거리 내의 비생물 물체 하나를 대상으로 삼을 수 있다. 그 물체는 사용자 크기 이하이며 사이퍼 레벨 이하이어야 한다. 대상 물체는 최소 100마일(160km) 떨어진 무작위 위치로 직접 전이된다. 상황상 적절하다고 GM이 판단하면, 물체 전체가 아니라 일부만 전이될 수 있다(그 일부의 부피는 사용자 부피를 넘지 않는다).
 
-### MEDITATION AID
+### 명상 보조기 (MEDITATION AID)
+
 - **레벨:** 1d6 + 2
-- **효과:** Restores a number of points equal to the cypher’s level to the user’s Intellect Pool.
+- **효과:** 사용자의 지능 풀에 사이퍼 레벨과 같은 수치의 포인트를 회복시킨다.
 
-### MEMORY SWITCH
+### 기억 전환기 (MEMORY SWITCH)
+
 - **레벨:** 1d6 + 2
-- **효과:** The user selects a point within long range, and the minds of all thinking creatures within immediate range of that point are attacked. Victims are dazed and take no action for a round, and they have no memory of the preceding hour.
+- **효과:** 사용자는 장거리 내 한 지점을 선택하며, 그 지점의 즉시 거리 내에 있는 모든 사고 가능한 생물의 정신이 공격받는다. 피해자들은 멍해져 1라운드 동안 아무 행동도 하지 못하며, 그 이전 1시간에 대한 기억이 사라진다.
 
-### MENTAL SCRAMBLER
+### 정신 교란기 (MENTAL SCRAMBLER)
+
 - **레벨:** 1d6 + 2
-- **효과:** Two rounds after being activated, the device creates an invisible field that fills an area within short range and lasts for one minute. The field scrambles the mental processes of all thinking creatures. The effect lasts as long as they remain in the field and for 1d6 rounds after, although an Intellect defense roll is allowed each round to act normally (both in the field and after leaving it). Each mental scrambler is keyed to a specific effect. Roll a d100 to determine the effect.
-01–30
-Victims cannot act.
-31–40
-Victims cannot speak.
-41–50
-Victims move slowly (immediate range) and clumsily.
-51–60
-Victims cannot see or hear.
-61–70
-Victims lose all sense of direction, depth, and proportion.
-71–80
-Victims do not recognize anyone they know.
-81–88
-Victims suffer partial amnesia.
-89–94
-Victims suffer total amnesia.
-95–98
-Victims lose all inhibitions, revealing secrets and performing surprising actions.
-99–00
-Victims’ ethics are inverted.
+- **효과:** 활성화 후 2라운드가 지나면, 장치는 단거리 내 영역을 채우는 보이지 않는 장을 생성하며 1분 동안 지속된다. 그 장은 모든 사고 가능한 생물의 정신 과정을 교란한다. 효과는 대상이 장 안에 있는 동안, 그리고 장을 벗어난 뒤 1d6라운드 동안 지속된다. 다만 매 라운드마다 정상적으로 행동하기 위한 지능 방어 굴림이 허용된다(장 안에서도, 장을 벗어난 뒤에도 동일). 각 정신 교란기는 특정 효과 하나에 맞춰져 있다. 효과를 결정하려면 d100을 굴린다.
+  | d100 | 효과 |
+  |---|---|
+  | 01–30 | 피해자는 행동할 수 없다. |
+  | 31–40 | 피해자는 말할 수 없다. |
+  | 41–50 | 피해자는 느리고(즉시 거리) 서투르게 움직인다. |
+  | 51–60 | 피해자는 보거나 들을 수 없다. |
+  | 61–70 | 피해자는 방향, 깊이, 비례감각을 완전히 잃는다. |
+  | 71–80 | 피해자는 자신이 아는 사람을 누구도 알아보지 못한다. |
+  | 81–88 | 피해자는 부분 기억상실을 겪는다. |
+  | 89–94 | 피해자는 완전 기억상실을 겪는다. |
+  | 95–98 | 피해자는 모든 억제력을 잃어 비밀을 드러내고 예상 밖의 행동을 한다. |
+  | 99–00 | 피해자의 윤리관이 뒤바뀐다. |
 
+### 금속 사멸 (METAL DEATH)
 
-
-### METAL DEATH
 - **레벨:** 1d6 + 2
-- **효과:** Produces a stream of foam that covers an area about 3 feet by 3 feet (1 m by 1 m), transforming any metal that it touches into a substance as brittle as thin glass. The foam affects metal to a depth of about 6 inches (15 cm).
+- **효과:** 약 3피트 x 3피트(1m x 1m) 영역을 덮는 거품 흐름을 생성하며, 거품이 닿는 모든 금속을 얇은 유리처럼 잘 부서지는 물질로 변환한다. 거품은 약 6인치(15cm) 깊이까지 금속에 영향을 미친다.
 
-### MIND MELD
+### 정신 융합 (MIND MELD)
+
 - **레벨:** 1d6 + 1
-- **효과:** Lets the user speak telepathically with creatures they can see within short range for up to one hour. The user can’t read a target’s thoughts, except those that are specifically “transmitted.” 
-(In some games, telepathy transcends normal language barriers (if the target has a mind that allows for telepathic communication). In others, it might only pick up emotions or general concepts of thoughts in another language. It also might vary based on the ability used.)
+- **효과:** 사용자는 최대 1시간 동안 단거리 내에서 볼 수 있는 생물과 텔레파시로 대화할 수 있다. 사용자는 대상의 생각을 읽을 수는 없으며, 대상이 명시적으로 "전송"한 생각만 받아들일 수 있다.
+  (일부 게임에서는 텔레파시가 일반적인 언어 장벽을 초월한다(대상이 텔레파시 의사소통이 가능한 정신을 지닌 경우). 다른 게임에서는 감정이나, 다른 언어로 된 생각의 일반적인 개념만 포착할 수도 있다. 또한 사용한 능력에 따라 달라질 수도 있다.)
 
-### MIND-RESTRICTING WALL
+### 정신 제한 장벽 (MIND-RESTRICTING WALL)
+
 - **레벨:** 1d6 + 2
-- **효과:** Creates an immobile plane of permeable energy up to 20 feet by 20 feet (6 m by 6 m) for one hour. The plane conforms to the space available. Intelligent creatures passing through the plane fall unconscious for up to one hour, or until slapped awake or damaged.
+- **효과:** 최대 20피트 x 20피트(6m x 6m) 크기의, 투과 가능한 에너지로 된 움직이지 않는 평면을 1시간 동안 생성한다. 이 평면은 주변의 가용 공간에 맞춰 형태를 이룬다. 이 평면을 통과하는 지적 생물은 최대 1시간 동안, 또는 따귀를 맞아 깨어나거나 피해를 받을 때까지 의식을 잃는다.
 
-### MIND STABILIZER
+### 정신 안정기 (MIND STABILIZER)
+
 - **레벨:** 1d6
-- **효과:** The user gains +5 to Armor against Intellect damage.
+- **효과:** 사용자는 지능 피해에 대해 아머 +5를 얻는다.
 
-### MONOBLADE
+### 모노블레이드 (MONOBLADE)
+
 - **레벨:** 1d6 + 2
-- **효과:** Produces a 6-inch (15 cm) blade that’s the same level as the cypher. The blade cuts through any material of a level lower than its own. If used as a weapon, it is a light weapon that ignores Armor of a level lower than its own. The blade lasts for ten minutes.
+- **효과:** 길이 6인치(15cm)의 칼날을 생성하며, 그 레벨은 사이퍼와 같다. 이 칼날은 자신보다 낮은 레벨의 어떤 재질이든 절단한다. 무기로 사용할 경우 경무기로 간주되며, 자신보다 낮은 레벨의 아머를 무시한다. 칼날은 10분 동안 지속된다.
 
-### MONOHORN
+### 모노혼 (MONOHORN)
+
 - **레벨:** 1d6 + 3
-- **효과:** The user gains a horn in the center of their forehead. The horn is deadly sharp and strong, and it spirals down to a solid base where it fuses with their flesh and bone. The user is specialized in making melee attacks with the horn, which is considered a medium weapon. The horn lasts for a number of hours equal to the cypher’s level.
-(Sometimes a monohorn cypher covers the user in a thin sheen of black hide-like material, which disguises their identity but doesn’t interfere with their senses.)
+- **효과:** 사용자의 이마 중앙에 뿔이 생긴다. 뿔은 치명적으로 날카롭고 강하며, 아래로 나선형을 이루다가 단단한 기저부에서 사용자의 살과 뼈에 융합된다. 사용자는 뿔을 사용한 근접 공격에 특화되며, 이 뿔은 중형 무기로 간주된다. 뿔은 사이퍼 레벨과 같은 시간(시간 단위) 동안 지속된다.
+  (때때로 모노혼 사이퍼는 사용자를 얇은 검은 가죽 같은 물질층으로 덮어 정체를 숨기지만, 감각을 방해하지는 않는다.)
 
-### MOTION SENSOR
+### 동작 감지기 (MOTION SENSOR)
+
 - **레벨:** 1d6 + 2
-- **효과:** For one hour per cypher level, the user knows when any movement occurs within short range, and when large creatures or objects move within long range (the cypher distinguishes between the two). It also indicates the number and size of the creatures or objects in motion.
+- **효과:** 사이퍼 레벨당 1시간 동안, 사용자는 단거리 내에서 어떤 움직임이든 발생하면 알 수 있으며, 장거리 내에서 큰 생물 또는 물체가 움직일 때도 알 수 있다(사이퍼는 이 둘을 구분한다). 또한 움직이는 생물 또는 물체의 수와 크기도 알려준다.
 
-### NULL FIELD
+### 무효장 (NULL FIELD)
+
 - **레벨:** 1d6 + 3
-- **효과:** The user and all creatures within immediate range gain +3 to Armor (+5 if the cypher is level 8 or higher) against damage of a specified kind for one hour. Roll a d100 to determine the effect.
+- **효과:** 사용자와 즉시 거리 내의 모든 생물은 1시간 동안 지정된 종류의 피해에 대해 아머 +3(사이퍼가 레벨 8 이상이면 +5)을 얻는다. 효과를 정하려면 d100을 굴린다.
 
-01–12
-Fire
-13–27
-Cold
-28–39
-Acid
-40–52
-Psychic
-53–65
-Sonic
-66–72
-Electrical
-73–84
-Poison
-85–95
-Blunt force
-96–00
-Slashing and piercing 
+| d100  | 피해 유형      |
+| ----- | -------------- |
+| 01–12 | 화염           |
+| 13–27 | 냉기           |
+| 28–39 | 산성           |
+| 40–52 | 정신           |
+| 53–65 | 음파           |
+| 66–72 | 전기           |
+| 73–84 | 독             |
+| 85–95 | 둔기 충격      |
+| 96–00 | 베기 및 찌르기 |
 
+### 무효화 광선 (NULLIFICATION RAY)
 
-
-### NULLIFICATION RAY
 - **레벨:** 1d6 + 3
-- **효과:** The user can immediately end one ongoing effect within long range that is produced by an artifact, cypher, or special ability.
+- **효과:** 사용자는 장거리 내에서 유물, 사이퍼, 또는 특수 능력이 만들어낸 진행 중인 효과 하나를 즉시 끝낼 수 있다.
 
-### NUTRITION AND HYDRATION
+### 영양 및 수분 (NUTRITION AND HYDRATION)
+
 - **레벨:** 1d6 + 1
-- **효과:** The user can go without food and water for a number of days equal to the cypher’s level without ill effect.
+- **효과:** 사용자는 부작용 없이 사이퍼 레벨과 같은 일수 동안 음식과 물 없이 지낼 수 있다.
 
-### PERFECT MEMORY
+### 완전 기억 (PERFECT MEMORY)
+
 - **레벨:** 1d6
-- **효과:** Allows the user to mentally record everything they see for thirty seconds per cypher level and store the recording permanently in their long-term memory. This cypher is useful for watching someone pick a specific lock, enter a complex code, or do something else that happens quickly.
+- **효과:** 사용자는 사이퍼 레벨당 30초 동안 자신이 본 모든 것을 정신적으로 기록하고, 그 기록을 장기 기억에 영구 저장할 수 있다. 이 사이퍼는 누군가가 특정 자물쇠를 따는 장면, 복잡한 코드를 입력하는 장면, 또는 빠르게 일어나는 다른 행동을 관찰할 때 유용하다.
 
-### PERFECTION
+### 완전성 (PERFECTION)
+
 - **레벨:** 1d6 + 2
-- **효과:** The user treats their next action as if they had rolled a natural 20.
+- **효과:** 사용자는 자신의 다음 행동을 자연 20을 굴린 것처럼 처리한다.
 
-### PERSONAL ENVIRONMENT FIELD
+### 개인 환경 장 (PERSONAL ENVIRONMENT FIELD)
+
 - **레벨:** 1d6 + 2
-- **효과:** Creates an aura of temperature and atmosphere that will sustain a human safely for a day. The aura extends to 1 foot (30 cm) around the user (double that radius if the cypher is level 7 or higher). It does not protect against sudden flashes of temperature change (such as from a heat ray). A small number of these cyphers (1%) accommodate the preferred environment of a nonhuman, nonterrestrial creature.
+- **효과:** 인간 한 명을 하루 동안 안전하게 유지할 온도와 대기의 오라를 만든다. 오라는 사용자 주변 1피트(30cm)까지 확장된다(사이퍼가 레벨 7 이상이면 반경이 두 배). 이 오라는 급격한 온도 변화의 섬광(예: 열선)으로부터는 보호하지 못한다. 이 사이퍼 중 소수(1%)는 비인간, 비지구 생물의 선호 환경에 맞춰진다.
 
-PHASE CHANGER
-Effect: Puts the user out of phase for one minute (two minutes if the cypher is level 6 or higher). During this time, they can pass through solid objects as though they were entirely insubstantial, like a ghost. They cannot make physical attacks or be physically attacked.
+### 위상 전환기 (PHASE CHANGER)
 
-### PHASE DISRUPTOR
+효과: 사용자를 1분 동안(사이퍼가 레벨 6 이상이면 2분) 위상 밖으로 밀어낸다. 이 시간 동안 사용자는 유령처럼 완전히 비실체적인 상태로 고체 물체를 통과할 수 있다. 사용자는 물리 공격을 가할 수 없고, 물리 공격을 받지도 않는다.
+
+### 위상 교란기 (PHASE DISRUPTOR)
+
 - **레벨:** 1d6 + 2
-- **효과:** Puts a portion of a physical structure (like a wall or floor) out of phase for one hour. It affects an area equal to one 5-foot (1.5 m) cube per cypher level. While the area is out of phase, creatures and objects can pass through it as if it were not there, although one cannot see through it, and it blocks light.
+- **효과:** 물리 구조물(벽이나 바닥 같은 것)의 일부를 1시간 동안 위상 밖으로 밀어낸다. 사이퍼 레벨당 5피트(1.5m) 큐브 하나와 같은 영역에 영향을 준다. 영역이 위상 밖에 있는 동안, 생물과 물체는 그것이 없는 것처럼 통과할 수 있지만, 그 너머를 볼 수는 없고 빛도 차단된다.
 
-### POISON (EMOTION)
+### 독 (감정) (POISON (EMOTION))
+
 - **레벨:** 1d6 + 2
-- **효과:** The victim feels a specific emotion for one hour. Roll a d100 to determine the emotion.
-(Most poisons are not considered cyphers, except for a very few that are unique.)
-01–20
-Anger. Likely to attack anyone who disagrees with them. Very hard to interact with; all such actions are hindered by two steps.
-21–40
-Fear. Flees in terror for one minute when threatened.
-41–60
-Lust. Cannot focus on any nonsexual activity.
-61–75
-Sadness. All tasks are hindered.
-76–85
-Complacency. Has no motivation. All tasks are hindered by two steps.
-86–95
-Joy. Easy to interact with in a pleasant manner; all pleasant interaction tasks are eased.
-96–00
-Love. Much easier to interact with; all interaction tasks are eased by two steps, but temporary attachment is likely.
+- **효과:** 피해자는 1시간 동안 특정 감정을 느낀다. 감정을 정하려면 d100을 굴린다.
+  (대부분의 독은 사이퍼로 간주되지 않지만, 극히 일부 고유한 독은 예외다.)
+  | d100 | 감정/효과 |
+  |---|---|
+  | 01–20 | 분노. 자신과 의견이 다른 누구든 공격하려 할 가능성이 높다. 상호작용이 매우 어려워지며, 모든 관련 행동은 두 단계 불리해진다. |
+  | 21–40 | 공포. 위협받으면 1분 동안 공포에 질려 도망친다. |
+  | 41–60 | 욕망. 성적인 활동이 아닌 어떤 일에도 집중할 수 없다. |
+  | 61–75 | 슬픔. 모든 일가 불리해진다. |
+  | 76–85 | 안주. 동기가 없다. 모든 일가 두 단계 불리해진다. |
+  | 86–95 | 기쁨. 기분 좋은 방식으로 상호작용하기 쉽다. 모든 우호적 상호작용 일가 유리해진다. |
+  | 96–00 | 사랑. 상호작용이 훨씬 쉬워진다. 모든 상호작용 일가 두 단계 유리해지지만, 일시적 애착이 생길 가능성이 높다. |
 
+### 독 (폭발성) (POISON (EXPLOSIVE))
 
-
-### POISON (EXPLOSIVE)
 - **레벨:** 1d6 + 1
-- **효과:** Once this substance enters the bloodstream, it travels to the brain and reorganizes into an explosive that detonates when activated, inflicting 10 points of damage (ignores Armor). Roll a d100 to determine what activates the poison.
-01–25
-The detonator is activated (must be within long range).
-26–40
-A specified amount of time passes.
-41–50
-The victim takes a specific action.
-51–55
-A specific note is sung or played on an instrument within short range.
-56–60
-The victim smells a specific scent within immediate range.
-61–80
-The victim comes within long range of the detonator.
-81–00
-The victim is no longer within long range of the detonator.
+- **효과:** 이 물질이 혈류에 들어가면 뇌로 이동해 폭발물로 재구성되며, 활성화되면 폭발하여 10 피해(아머 무시)를 준다. 독이 무엇으로 활성화되는지 정하려면 d100을 굴린다.
+  | d100 | 기폭 조건 |
+  |---|---|
+  | 01–25 | 기폭기가 활성화된다(장거리 이내에 있어야 함). |
+  | 26–40 | 지정된 시간이 경과한다. |
+  | 41–50 | 피해자가 특정 행동을 한다. |
+  | 51–55 | 단거리 내에서 특정 음이 노래되거나 악기로 연주된다. |
+  | 56–60 | 피해자가 즉시 거리 내에서 특정 냄새를 맡는다. |
+  | 61–80 | 피해자가 기폭기와 장거리 이내로 접근한다. |
+  | 81–00 | 피해자가 기폭기와 장거리 밖으로 벗어난다. |
 
+### 독 (정신 지배) (POISON (MIND CONTROLLING))
 
-
-### POISON (MIND CONTROLLING)
 - **레벨:** 1d6 + 2
-- **효과:** The victim must carry out a specific action in response to a specific trigger. Roll a d100 to determine the action.
-01–20
-Lies down for one minute with eyes closed when told to do so.
-21–40
-Flees in terror for one minute when threatened.
-41–60
-Answers questions truthfully for one minute.
-61–75
-Attacks close friend for one round when within immediate range.
-76–85
-Obeys next verbal command given
-(if it is understood).
-86–95
-For one day, becomes sexually attracted to the next creature of its own species that it sees.
-96–00
-For one minute, moves toward the next red object seen in lieu of all other actions, ignoring
-self-preservation.
+- **효과:** 피해자는 특정 방아쇠에 반응해 지정된 행동을 수행해야 한다. 행동을 정하려면 d100을 굴린다.
+  | d100 | 행동 |
+  |---|---|
+  | 01–20 | 그렇게 하라고 말하면 눈을 감고 1분 동안 눕는다. |
+  | 21–40 | 위협받으면 1분 동안 공포에 질려 도망친다. |
+  | 41–60 | 1분 동안 질문에 진실하게 답한다. |
+  | 61–75 | 즉시 거리 내에 있을 때 가까운 친구를 1라운드 동안 공격한다. |
+  | 76–85 | 다음에 주어지는 구두 명령을 따른다(이해할 수 있는 경우). |
+  | 86–95 | 하루 동안, 다음에 보는 같은 종의 생물에게 성적으로 끌리게 된다. |
+  | 96–00 | 1분 동안, 자기 보존을 무시하고 다른 모든 행동 대신 다음에 본 빨간 물체를 향해 이동한다. |
 
+### 독 (정신 교란) (POISON (MIND DISRUPTING))
 
-
-### POISON (MIND DISRUPTING)
 - **레벨:** 1d6 + 2
-- **효과:** The victim suffers Intellect damage equal to the cypher’s level and cannot take actions for a number of rounds equal to the cypher’s level.
+- **효과:** 피해자는 사이퍼 레벨과 같은 지능 피해를 받고, 사이퍼 레벨과 같은 라운드 수 동안 행동할 수 없다.
 
-### PSYCHIC COMMUNIQUE
+### 정신 교신 (PSYCHIC COMMUNIQUE)
+
 - **레벨:** 1d6 + 2
-- **효과:** Allows the user to project a one-time,
-one-way telepathic message of up to ten words per cypher level, with an unlimited range, to anyone they know.
+- **효과:** 사용자가 아는 대상에게, 사거리 제한 없이, 사이퍼 레벨당 최대 10단어의 일회성 단방향 텔레파시 메시지를 보낼 수 있게 해준다.
 
-### RADIATION SPIKE
+### 방사능 스파이크 (RADIATION SPIKE)
+
 - **레벨:** 1d6 + 4
-- **효과:** Delivers a powerful burst of radiation that disrupts the tissue of any creature touched, inflicting damage equal to the cypher’s level.
+- **효과:** 접촉한 생물의 조직을 교란하는 강력한 방사능 파동을 전달하여, 사이퍼 레벨과 같은 피해를 준다.
 
-### RAY EMITTER
+### 광선 방출기 (RAY EMITTER)
+
 - **레벨:** 1d6 + 2
-- **효과:** Allows the user to project a ray of destructive energy up to very long range that inflicts damage equal to the cypher’s level. Roll a d100 to determine the type of energy.
-(Even weirder ray emitters:
-* Turns target inside out
-* Inflicts damage and turns flesh blue
-* Renders target mute
-* Damages only plants
-* Damages only inorganic matter
-* Turns flesh to dead, stonelike material)
-01–50
-Heat/concentrated light
-51–60
-Cell-disrupting radiation
-61–80
-Force
-81–87
-Magnetic wave
-88–93
-Molecular bond disruption
-94–00
-Concentrated cold
+- **효과:** 매우 장거리까지 파괴 에너지 광선을 발사할 수 있으며, 사이퍼 레벨과 같은 피해를 준다. 에너지 유형을 정하려면 d100을 굴린다.
+  (더 기이한 광선 방출기도 있다:
 
+* 대상을 안팎이 뒤집히게 만든다
+* 피해를 주고 살을 파랗게 만든다
+* 대상을 벙어리로 만든다
+* 식물에만 피해를 준다
+* 무기물에만 피해를 준다
+* 살을 죽은 돌 같은 물질로 바꾼다)
+  | d100 | 에너지 유형 |
+  |---|---|
+  | 01–50 | 열/집중 광선 |
+  | 51–60 | 세포 교란 방사능 |
+  | 61–80 | 힘 |
+  | 81–87 | 자기 파동 |
+  | 88–93 | 분자 결합 붕괴 |
+  | 94–00 | 집중 냉기 |
 
+### 광선 방출기 (명령) (RAY EMITTER (COMMAND))
 
-### RAY EMITTER (COMMAND)
 - **레벨:** 1d6 + 2
-- **효과:** Allows the user to project a ray up to long range (very long range if the cypher is level 6 or higher) that forces a target to obey the next verbal command given (if it is understood) for one round per cypher level.
+- **효과:** 장거리까지(사이퍼 레벨이 6 이상이면 매우 장거리) 광선을 발사해, 대상이 이해할 수 있는 다음 구두 명령을 사이퍼 레벨당 1라운드 동안 따르게 한다.
 
-### RAY EMITTER (FEAR)
+### 광선 방출기 (공포) (RAY EMITTER (FEAR))
+
 - **레벨:** 1d6 + 2
-- **효과:** Allows the user to project a ray up to long range (very long range if the cypher is level 6 or higher) that causes the target to flee in terror for one minute.
+- **효과:** 장거리까지(사이퍼 레벨이 6 이상이면 매우 장거리) 광선을 발사해, 대상이 1분 동안 공포에 질려 도망치게 만든다.
 
-### RAY EMITTER (FRIEND SLAYING)
+### 광선 방출기 (아군 살해) (RAY EMITTER (FRIEND SLAYING))
+
 - **레벨:** 1d6 + 2
-- **효과:** Allows the user to project a ray up to long range (very long range if the cypher is level 6 or higher) that causes the target to attack its nearest ally for one round.
+- **효과:** 장거리까지(사이퍼 레벨이 6 이상이면 매우 장거리) 광선을 발사해, 대상이 1라운드 동안 가장 가까운 아군을 공격하게 만든다.
 
-### RAY EMITTER (MIND DISRUPTING)
+### 광선 방출기 (정신 교란) (RAY EMITTER (MIND DISRUPTING))
+
 - **레벨:** 1d6 + 2
-- **효과:** Allows the user to project a ray of destructive energy up to very long range that inflicts Intellect damage equal to the cypher’s level. Also, the victim cannot take actions for a number of rounds equal to the cypher’s level.
+- **효과:** 매우 장거리까지 파괴 에너지 광선을 발사하여 사이퍼 레벨과 같은 지능 피해를 준다. 또한 피해자는 사이퍼 레벨과 같은 라운드 수 동안 행동할 수 없다.
 
-### RAY EMITTER (NUMBING)
+### 광선 방출기 (마비감) (RAY EMITTER (NUMBING))
+
 - **레벨:** 1d6 + 2
-- **효과:** Allows the user to project a ray of energy up to long range (very long range if the cypher is level 6 or higher) that numbs one limb of the target, making it useless for one minute. A small number of these devices (5%) induce numbness that lasts for one hour.
+- **효과:** 장거리까지(사이퍼 레벨이 6 이상이면 매우 장거리) 에너지 광선을 발사해 대상의 사지 하나를 무감각하게 만들어 1분 동안 쓸모없게 한다. 이 장치들 중 소수(5%)는 1시간 동안 무감각을 유발한다.
 
-### RAY EMITTER (PARALYSIS)
+### 광선 방출기 (완전 마비) (RAY EMITTER (PARALYSIS))
+
 - **레벨:** 1d6 + 2
-- **효과:** Allows the user to project a ray of energy up to very long range that paralyzes the target for one minute. A small number of these devices (5%) induce paralysis that lasts for one hour.
+- **효과:** 매우 장거리까지 에너지 광선을 발사해 대상을 1분 동안 마비시킨다. 이 장치들 중 소수(5%)는 1시간 동안 마비를 유발한다.
 
-### REALITY SPIKE
+### 현실 스파이크 (REALITY SPIKE)
+
 - **레벨:** 1d6 + 4
-- **효과:** Once activated, the cypher does not move—ever—even if activated in midair. A Might action will dislodge it, but then it is ruined.
+- **효과:** 활성화되면 사이퍼는 절대 움직이지 않는다. 공중에서 활성화되더라도 마찬가지다. 근력 행동으로 떼어낼 수는 있지만, 그렇게 하면 사이퍼는 망가진다.
 
-### REFLEX ENHANCER
+### 반사 신경 강화기 (REFLEX ENHANCER)
+
 - **레벨:** 1d6
-- **효과:** All tasks involving manual dexterity—such as pickpocketing, lockpicking, juggling, operating on a patient, defusing a bomb, and so on—are eased by two steps for one hour.
+- **효과:** 소매치기, 자물쇠 따기, 저글링, 환자 수술, 폭탄 해체 등 손기술이 필요한 모든 일가 1시간 동안 2단계 완화된다.
 
-### REJUVENATOR
+### 회복기 (REJUVENATOR)
+
 - **레벨:** 1d6 + 2
-- **효과:** Restores a number of points equal to the cypher’s level to one random stat Pool. 
-01–50
-Might Pool
-51–75
-Speed Pool
-76–00
-Intellect Pool
+- **효과:** 무작위 능력 풀 하나에 사이퍼 레벨과 같은 수치의 포인트를 회복한다.
+  | d100 | 회복 풀 |
+  |---|---|
+  | 01–50 | 근력 풀 |
+  | 51–75 | 민첩 풀 |
+  | 76–00 | 지능 풀 |
 
+### 기억 재현 (REMEMBERING)
 
-
-### REMEMBERING
 - **레벨:** 1d6
-- **효과:** Allows the user to recall any one experience they’ve ever had. The experience can be no longer than one minute per cypher level, but the recall is perfect, so (for example) if they saw someone dial a phone, they will remember the number.
+- **효과:** 사용자가 지금까지 겪은 경험 하나를 떠올리게 한다. 경험 길이는 사이퍼 레벨당 최대 1분이지만, 회상은 완벽하다. 예를 들어 누군가 전화번호를 누르는 장면을 봤다면 그 번호를 정확히 기억한다.
 
-### REMOTE VIEWER
+### 원격 관측기 (REMOTE VIEWER)
+
 - **레벨:** 1d6
-- **효과:** For one hour per cypher level, the user can see everything going on in the vicinity of the cypher, regardless of the distance between them.
+- **효과:** 사이퍼 레벨당 1시간 동안, 사용자와의 거리에 상관없이 사이퍼 주변에서 벌어지는 모든 것을 볼 수 있다.
 
-### REPAIR UNIT
+### 수리 유닛 (REPAIR UNIT)
+
 - **레벨:** 1d10
-- **효과:** The cypher becomes a multiarmed sphere that floats. It repairs one designated item (of its own level or lower) that has been damaged but not destroyed. The repair unit can also create spare parts, unless the GM rules that the parts are too specialized or rare (in which case, the unit repairs the device except for the specialized part). Repair time is 1d100 + 20 minutes.
+- **효과:** 사이퍼가 떠다니는 다완 구체로 변한다. 파괴되지는 않았지만 손상된 지정 물품 하나(유닛 레벨 이하)를 수리한다. 수리 유닛은 예비 부품도 만들어낼 수 있으나, GM이 부품이 너무 특수하거나 희귀하다고 판단하면(그 경우 특수 부품을 제외한 나머지만 수리한다) 예외다. 수리 시간은 1d100 + 20분이다.
 
-### REPEATER
+### 반복기 (REPEATER)
+
 - **레벨:** 1d6 + 1
-- **효과:** For the next minute, the user’s ranged weapon fires one additional time with ammo fabricated by the cypher. The weapon wielder can aim the free shot at the same target, or at a different target next to the first one.
+- **효과:** 다음 1분 동안 사용자의 원거리 무기는 사이퍼가 만들어낸 탄약으로 한 번 더 발사된다. 무기 사용자는 무료 사격을 같은 대상에게 하거나, 첫 대상 옆의 다른 대상에게 할 수 있다.
 
-### REPEL
+### 격퇴 (REPEL)
+
 - **레벨:** 1d6 + 1
-- **효과:** One NPC within immediate range who is of a level lower than the cypher decides to leave, using their next five rounds to move away quickly.
+- **효과:** 즉시 거리 내의 NPC 하나(레벨이 사이퍼보다 낮아야 함)가 떠나기로 결정하고, 다음 5라운드 동안 빠르게 멀어진다.
 
-### RETALIATION
+### 반격 (RETALIATION)
+
 - **레벨:** 1d6
-- **효과:** For the next day, anyone striking the user receives a small burst of electricity that inflicts 1 point of damage (2 points if the cypher is level 4 or higher, 3 points if the cypher is level 6 or higher). No action or roll is required by the user.
+- **효과:** 다음 하루 동안 사용자를 타격하는 누구나 작은 전격을 받아 피해 1점을 입는다(사이퍼 레벨 4 이상이면 2점, 6 이상이면 3점). 사용자에게 별도 행동이나 굴림은 필요 없다.
 
-### SECRET
+### 사거리 증폭 (RANGE BOOST)
+
+- **레벨:** 1d6 + 1
+- **효과:** 이 사이퍼는 능력의 사거리를 늘린다. 원래 자신에게만 영향을 주는 능력은 이제 접촉한 대상에게도 영향을 줄 수 있다. 그 외 모든 능력은 사거리 범주가 한 단계 증가한다(접촉→즉시, 즉시→단거리, 단거리→장거리, 장거리→매우 장거리, 매우 장거리→1,000피트[300m], 또는 매우 장거리보다 긴 사거리는 2배).
+
+### SF/포스트아포칼립스 (Science Fiction/Post-Apocalyptic)
+
+- 약물 (주사제, 알약, 흡입제)
+- 컴퓨터 프로그램
+- 크리스털
+- 장치
+- 바이러스
+- 생체 임플란트
+- 기계 임플란트
+- 나노기술 주사제
+
+### 슈퍼히어로 (Superhero)
+
+- 다른 모든 장르의 형태
+
+현현 사이퍼 표 (MANIFEST CYPHER TABLE)
+
+| d100  | 사이퍼                                     |
+| ----- | ------------------------------------------ |
+| 01–03 | 접착 (Adhesion)                            |
+| 04–05 | 해독제 (Antivenom)                         |
+| 06–09 | 방어구 강화기 (Armor reinforcer)           |
+| 10–11 | 유인기 (Attractor)                         |
+| 12–13 | 정전기 (Blackout)                          |
+| 14–15 | 카솔리콘 (Catholicon)                      |
+| 16–17 | 저주 부여자 (Curse bringer)                |
+| 18–19 | 죽음 부여자 (Death bringer)                |
+| 20–22 | 밀도 (Density)                             |
+| 23–26 | 폭발 (Detonation)                          |
+| 27–29 | 폭발 (섬광) (Detonation (flash))           |
+| 30–31 | 폭발 (대규모) (Detonation (massive))       |
+| 32–34 | 폭발 (압력) (Detonation (pressure))        |
+| 35–36 | 폭발 (음파) (Detonation (sonic))           |
+| 37–38 | 폭발 (생성체) (Detonation (spawn))         |
+| 39–41 | 폭발 (그물) (Detonation (web))             |
+| 42–44 | 장비 보관함 (Equipment cache)              |
+| 45–46 | 내화 처리 (Fireproofing)                   |
+| 47–49 | 마찰 감소기 (Friction reducer)             |
+| 50–52 | 가스 폭탄 (Gas bomb)                       |
+| 53–55 | 추적/탐색기 (Hunter/seeker)                |
+| 56–57 | 잠입체 (Infiltrator)                       |
+| 58–60 | 정보 감지기 (Information sensor)           |
+| 61–63 | 금속 사멸 (Metal death)                    |
+| 64–65 | 무효화 광선 (Nullification ray)            |
+| 66–68 | 독 (감정) (Poison (emotion))               |
+| 69–70 | 독 (정신 교란) (Poison (mind disrupting))  |
+| 71–73 | 방사능 스파이크 (Radiation spike)          |
+| 74–76 | 원격 관측기 (Remote viewer)                |
+| 77–79 | 전격기 (Shocker)                           |
+| 80–82 | 수면 유도기 (Sleep inducer)                |
+| 83–85 | 저격 모듈 (Sniper module)                  |
+| 86–88 | 용해제 (Solvent)                           |
+| 89–90 | 정찰기 (Spy)                               |
+| 91–92 | 추적자 (Tracer)                            |
+| 93–94 | 무정전 전원 (Uninterruptible power source) |
+| 95–96 | 온기 (Warmth)                              |
+| 97–98 | 수중 적응기 (Water adapter)                |
+| 99–00 | 엑스레이 뷰어 (X-ray viewer)               |
+
+환상 사이퍼 표 (FANTASTIC CYPHER TABLE)
+
+| d100  | 사이퍼                                                  |
+| ----- | ------------------------------------------------------- |
+| 01    | 나이 흡수자 (Age taker)                                 |
+| 02    | 추방 (Banishing)                                        |
+| 03–04 | 점멸 (Blinking)                                         |
+| 05    | 화학 공장 (Chemical factory)                            |
+| 06    | 이해력 (Comprehension)                                  |
+| 07–08 | 상태 제거기 (Condition remover)                         |
+| 09    | 제어된 점멸 (Controlled blinking)                       |
+| 10    | 폭발 (생물) (Detonation (creature))                     |
+| 11    | 폭발 (탈수) (Detonation (desiccating))                  |
+| 12    | 폭발 (중력) (Detonation (gravity))                      |
+| 13    | 폭발 (중력 반전) (Detonation (gravity inversion))       |
+| 14    | 폭발 (물질 붕괴) (Detonation (matter disruption))       |
+| 15    | 폭발 (특이점) (Detonation (singularity))                |
+| 16    | 변장 모듈 (Disguise module)                             |
+| 17    | 교란 (Disrupting)                                       |
+| 18    | 원시야 (Farsight)                                       |
+| 19    | 난연 벽 (Flame-retardant wall)                          |
+| 20    | 역장 큐브 (Force cube)                                  |
+| 21–22 | 역장 (Force field)                                      |
+| 23    | 역장 스크린 투사기 (Force screen projector)             |
+| 24    | 역장 방패 투사기 (Force shield projector)               |
+| 25    | 혹한 벽 (Frigid wall)                                   |
+| 26–27 | 중력 무효화기 (Gravity nullifier)                       |
+| 28    | 중력 무효화 도포제 (Gravity-nullifying application)     |
+| 29–30 | 열 공격 (Heat attack)                                   |
+| 31    | 이미지 프로젝터 (Image projector)                       |
+| 32    | 화염 장벽 (Inferno wall)                                |
+| 33–34 | 즉석 하인 (Instant servant)                             |
+| 35    | 즉석 은신처 (Instant shelter)                           |
+| 36    | 번개 장벽 (Lightning wall)                              |
+| 37–38 | 기계 제어 (Machine control)                             |
+| 39    | 자기 공격 드릴 (Magnetic attack drill)                  |
+| 40    | 자기 마스터 (Magnetic master)                           |
+| 41    | 자기 방패 (Magnetic shield)                             |
+| 42    | 조작 빔 (Manipulation beam)                             |
+| 43    | 물질 전이 광선 (Matter transference ray)                |
+| 44    | 기억 전환기 (Memory switch)                             |
+| 45    | 정신 교란기 (Mental scrambler)                          |
+| 46    | 정신 융합 (Mind meld)                                   |
+| 47    | 정신 제한 장벽 (Mind-restricting wall)                  |
+| 48–49 | 모노블레이드 (Monoblade)                                |
+| 50    | 모노혼 (Monohorn)                                       |
+| 51    | 무효 장 (Null field)                                    |
+| 52–53 | 개인 환경 장 (Personal environment field)               |
+| 54–55 | 위상 전환기 (Phase changer)                             |
+| 56    | 위상 교란기 (Phase disruptor)                           |
+| 57    | 독 (폭발성) (Poison (explosive))                        |
+| 58    | 독 (정신 지배) (Poison (mind controlling))              |
+| 59    | 정신 통신 (Psychic communique)                          |
+| 60    | 광선 방출기 (Ray emitter)                               |
+| 61    | 광선 방출기 (명령) (Ray emitter (command))              |
+| 62    | 광선 방출기 (공포) (Ray emitter (fear))                 |
+| 63    | 광선 방출기 (아군 살해) (Ray emitter (friend slaying))  |
+| 64    | 광선 방출기 (정신 교란) (Ray emitter (mind disrupting)) |
+| 65    | 광선 방출기 (마비감) (Ray emitter (numbing))            |
+| 66    | 광선 방출기 (완전 마비) (Ray emitter (paralysis))       |
+| 67    | 현실 스파이크 (Reality spike)                           |
+| 68    | 수리 유닛 (Repair unit)                                 |
+| 69    | 반복기 (Repeater)                                       |
+| 70–71 | 반격 (Retaliation)                                      |
+| 72    | 광택막 (Sheen)                                          |
+| 73–74 | 충격 공격 (Shock attack)                                |
+| 75    | 노예화 장치 (Slave maker)                               |
+| 76    | 음향 구멍 (Sonic hole)                                  |
+| 77–78 | 소리 감쇄기 (Sound dampener)                            |
+| 79    | 공간 왜곡기 (Spatial warp)                              |
+| 80    | 정지 유지기 (Stasis keeper)                             |
+| 81    | 제압 장 (Subdual field)                                 |
+| 82–83 | 텔레파시 (Telepathy)                                    |
+| 84    | 순간이동기 (바운더) (Teleporter (bounder))              |
+| 85    | 순간이동기 (성간) (Teleporter (interstellar))           |
+| 86    | 순간이동기 (행성) (Teleporter (planetary))              |
+| 87    | 순간이동기 (여행자) (Teleporter (traveler))             |
+| 88    | 시간 관측기 (Temporal viewer)                           |
+| 89    | 시간 팽창 (방어) (Time dilation (defensive))            |
+| 90    | 시간 팽창 (공격) (Time dilation (offensive))            |
+| 91    | 트릭 삽입기 (Trick embedder)                            |
+| 92    | 소실기 (Vanisher)                                       |
+| 93–94 | 외형 변환기 (Visage changer)                            |
+| 95    | 시각 변위 장치 (Visual displacement device)             |
+| 96    | 음성 번역기 (Vocal translator)                          |
+| 97–98 | 무기 강화 (Weapon enhancement)                          |
+| 99    | 날개 (Wings)                                            |
+| 00    | 영점 장 (Zero point field)                              |
+
+미묘 사이퍼 표 (SUBTLE CYPHER TABLE)
+
+| d100  | 사이퍼                                             |
+| ----- | -------------------------------------------------- |
+| 01–04 | 각성제 (Analeptic)                                 |
+| 05–07 | 최적 도구 (Best tool)                              |
+| 08–10 | 속도의 폭발 (Burst of speed)                       |
+| 11–13 | 조건부 활성기 (Contingent activator)               |
+| 14–17 | 치유제 (Curative)                                  |
+| 18–20 | 암시야 (Darksight)                                 |
+| 21–23 | 무장 해제 (Disarm)                                 |
+| 24–26 | 독수리눈 (Eagleseye)                               |
+| 27–29 | 효과 저항 (Effect resistance)                      |
+| 30–32 | 분발 증폭기 (전투) (Effort enhancer (combat))      |
+| 33–35 | 분발 증폭기 (비전투) (Effort enhancer (noncombat)) |
+| 36–39 | 지속 방패 (Enduring shield)                        |
+| 40–42 | 지성 부스터 (Intellect booster)                    |
+| 43–45 | 지능 향상 (Intelligence enhancement)               |
+| 46–48 | 지식 향상 (Knowledge enhancement)                  |
+| 49–51 | 명상 보조기 (Meditation aid)                       |
+| 52–54 | 정신 안정기 (Mind stabilizer)                      |
+| 55–57 | 동작 감지기 (Motion sensor)                        |
+| 58–60 | 영양 및 수분 공급 (Nutrition and hydration)        |
+| 61–63 | 완벽한 기억 (Perfect memory)                       |
+| 64–66 | 완성 (Perfection)                                  |
+| 67–69 | 반사 신경 강화기 (Reflex enhancer)                 |
+| 70–73 | 회복기 (Rejuvenator)                               |
+| 74–76 | 기억 재현 (Remembering)                            |
+| 77–79 | 격퇴 (Repel)                                       |
+| 80–82 | 비밀 (Secret)                                      |
+| 83–85 | 기술 증폭 (Skill boost)                            |
+| 86–88 | 속도 증폭 (Speed boost)                            |
+| 89–91 | 자극제 (Stim)                                      |
+| 92–94 | 근력 증폭 (Strength boost)                         |
+| 95–97 | 근력 강화기 (Strength enhancer)                    |
+| 98–00 | 조직 재생 (Tissue regeneration)                    |
+
+## 다양한 사이퍼 목록 (A LISTING OF VARIOUS CYPHERS)
+
+이 절의 모든 사이퍼는 현현 사이퍼가 될 수 있다. 특정 사이퍼가 미묘 사이퍼가 될 수 있는지는 GM의 재량이며, 그 결정은 보통 캠페인 배경에 따라 달라진다. (미묘/현현/환상 사이퍼를 구분한 표는 전형적인 캠페인 배경을 위한 제안일 뿐이다.)
+
+### 비밀 (SECRET)
+
 - **레벨:** 1d6 + 2
-- **효과:** The user can ask the GM one question and get a general answer. The GM assigns a level to the question, so the more obscure the answer, the more difficult the task. Generally, knowledge that a PC could find by looking somewhere other than their current location is level 1, and obscure knowledge of the past is level 7. Gaining knowledge of the future is level 10, and such knowledge is always open to interpretation. The cypher cannot provide an answer to a question above its level.
+- **효과:** 사용자는 GM에게 질문 하나를 할 수 있고, 일반적인 답을 얻는다. GM은 질문에 레벨을 부여하므로, 답이 모호할수록 일 난이도가 높다. 일반적으로 현재 위치가 아닌 다른 곳을 찾아보면 알 수 있는 지식은 레벨 1이고, 과거의 난해한 지식은 레벨 7이다. 미래에 대한 지식을 얻는 것은 레벨 10이며, 그런 지식은 언제나 해석의 여지가 있다. 사이퍼는 자신의 레벨보다 높은 질문에는 답을 줄 수 없다.
 
-### SHEEN
+### 광택막 (SHEEN)
+
 - **레벨:** 1d6
-- **효과:** For one week, the user’s cells are coated with a protective veneer that resists damage (+1 to Armor, or +2 to Armor if the cypher is level 5 or higher) and eases Might defense rolls by two steps. However, healing is more difficult during this time; all recovery rolls suffer a –1 penalty.     
+- **효과:** 1주일 동안 사용자의 세포를 보호성 막이 감싸 피해를 저항한다(아머 +1, 사이퍼 레벨이 5 이상이면 아머 +2). 또한 근력 방어 굴림이 2단계 완화된다. 그러나 이 기간에는 치유가 더 어려워져, 모든 회복 굴림에 –1 페널티를 받는다.
 
+### 충격 공격 (SHOCK ATTACK)
 
-### SHOCK ATTACK
 - **레벨:** 1d6
-- **효과:** For the next day, each time the user strikes a solid creature or object, the attack generates a burst of electricity, inflicting 1 additional point of damage (2 points if the cypher is level 4 or higher, 3 points if the cypher is level 6 or higher).
+- **효과:** 다음 하루 동안, 사용자가 고체 생물이나 물체를 타격할 때마다 공격이 전기 폭발을 일으켜 추가 피해 1점을 준다(사이퍼 레벨 4 이상이면 2점, 6 이상이면 3점).
 
-### SHOCKER
+### 전격기 (SHOCKER)
+
 - **레벨:** 1d6 + 4
-- **효과:** Delivers a powerful burst of electricity that shocks any creature touched, inflicting damage equal to the cypher’s level.
+- **효과:** 접촉한 생물을 감전시키는 강력한 전기 파동을 전달하여, 사이퍼 레벨과 같은 피해를 준다.
 
-### SKILL BOOST
+### 기술 증폭 (SKILL BOOST)
+
 - **레벨:** 1d6
-- **효과:** Dramatically but temporarily alters the user’s mind and body so they can ease one specific kind of physical action by three steps. Once activated, this boost can be used a number of times equal to the cypher’s level, but only within a twenty-four-hour period. The boost takes effect each time the action is performed. For example, a level 3 cypher boosts the first three times that action is attempted. Roll a d100 to determine the action.
-01–15
-Melee attack
-16–30
-Ranged attack
-31–40
-Speed defense
-41–50
-Might defense
-51–60
-Intellect defense
-61–68
-Jumping
-69–76
-Climbing
-77–84
-Running
-85–92
-Swimming
-93–94
-Sneaking
-95–96
-Balancing
-97–98
-Perceiving
-99
-Carrying
-00
-Escaping
+- **효과:** 사용자의 정신과 신체를 극적으로 그러나 일시적으로 바꿔, 특정한 한 종류의 신체 행동을 3단계 완화할 수 있게 한다. 한 번 활성화하면 이 증폭은 사이퍼 레벨과 같은 횟수만큼 사용할 수 있지만, 오직 24시간 이내에서만 가능하다. 해당 행동을 수행할 때마다 효과가 적용된다. 예를 들어 레벨 3 사이퍼라면 그 행동을 시도한 처음 3회가 강화된다. 행동 종류를 정하려면 d100을 굴린다.
+  | d100 | 행동 종류 |
+  |---|---|
+  | 01–15 | 근접 공격 |
+  | 16–30 | 원거리 공격 |
+  | 31–40 | 민첩 방어 |
+  | 41–50 | 근력 방어 |
+  | 51–60 | 지능 방어 |
+  | 61–68 | 도약 |
+  | 69–76 | 등반 |
+  | 77–84 | 달리기 |
+  | 85–92 | 수영 |
+  | 93–94 | 은신 |
+  | 95–96 | 균형 잡기 |
+  | 97–98 | 지각 |
+  | 99 | 운반 |
+  | 00 | 탈출 |
 
+### 노예화 장치 (SLAVE MAKER)
 
-
-### SLAVE MAKER
 - **레벨:** 1d6 + 2
-- **효과:** To activate the cypher, the user must succeed on a melee attack against a creature about the size of the user and whose level does not exceed the cypher’s level. The cypher bonds to the target, who immediately becomes calm. The target awaits the user’s commands and carries out all orders to the best of its ability. The target remains so enslaved for a number of hours equal to the cypher’s level minus the target’s level. (If the result is 0, the target is enslaved for only one minute.)
+- **효과:** 사이퍼를 활성화하려면, 사용자와 비슷한 크기의 생물(레벨이 사이퍼 레벨 이하여야 함)을 상대로 근접 공격에 성공해야 한다. 그러면 사이퍼가 대상과 결속되며, 대상은 즉시 차분해진다. 대상은 사용자의 명령을 기다리며 모든 지시를 최선을 다해 수행한다. 이 노예화 상태는 (사이퍼 레벨 - 대상 레벨)시간 동안 지속된다. (결과가 0이면 1분 동안만 지속된다.)
 
-### SLEEP INDUCER
+### 수면 유도기 (SLEEP INDUCER)
+
 - **레벨:** 1d6
-- **효과:** Touch puts the victim to sleep for ten minutes per cypher level or until awoken by a violent action or an extremely loud noise.
+- **효과:** 접촉하면 피해자를 사이퍼 레벨당 10분 동안 잠재우며, 격렬한 행동이나 매우 큰 소음으로 깨울 수 있다.
 
-### SNIPER MODULE
+### 저격 모듈 (SNIPER MODULE)
+
 - **레벨:** 1d6
-- **효과:** For the next hour per cypher level, the effective range of the user’s ranged weapon increases by one category (immediate to short, short to long, long to very long, very long to 1,000 feet [300 m]). A weapon with a range greater than very long has its range doubled.
+- **효과:** 사이퍼 레벨당 다음 1시간 동안, 사용자의 원거리 무기 유효 사거리가 한 단계 증가한다(즉시→단거리, 단거리→장거리, 장거리→매우 장거리, 매우 장거리→1,000피트[300m]). 매우 장거리보다 긴 사거리를 가진 무기는 사거리가 2배가 된다.
 
-### SOLVENT
+### 용해제 (SOLVENT)
+
 - **레벨:** 1d10
-- **효과:** Dissolves 1 cubic foot of material each round. After one round per cypher level, the cypher becomes inert.
+- **효과:** 라운드마다 1입방피트의 물질을 용해한다. 사이퍼 레벨당 1라운드가 지나면 비활성화된다.
 
-### SONIC HOLE
+### 음향 구멍 (SONIC HOLE)
+
 - **레벨:** 1d6 + 2
-- **효과:** Draws all sound within long range into the device for one round per cypher level. Within the affected area, no sound can be heard.
-(Sonic holes are much-loved by thieves everywhere but can also be used for less nefarious purposes, such as hunting prey and sneaking past enemies.)
+- **효과:** 장거리 내의 모든 소리를 사이퍼 레벨당 1라운드 동안 장치 안으로 끌어들인다. 영향받는 영역 안에서는 어떤 소리도 들을 수 없다.
+  (음향 구멍은 전 세계 도둑들이 매우 좋아하지만, 먹잇감 사냥이나 적 몰래 지나가기 같은 덜 사악한 용도로도 쓸 수 있다.)
 
-### SOUND DAMPENER
+### 소리 감쇄기 (SOUND DAMPENER)
+
 - **레벨:** 1d6 + 2
-- **효과:** Dampens all sound within immediate range for one minute per cypher level, providing an asset on stealth actions by all creatures in the area.
+- **효과:** 즉시 거리 내의 모든 소리를 사이퍼 레벨당 1분 동안 감쇄시켜, 영역 내 모든 생물의 은신 행동에 보탬을 제공한다.
 
-### SPATIAL WARP
+### 공간 왜곡기 (SPATIAL WARP)
+
 - **레벨:** 1d6 + 4
-- **효과:** When affixed to a device that affects a single target at range, that range is increased to 1 mile (1.5 km) with no penalties. Space is temporarily warped in terms of seeing and reaching the target. If direct line of sight is important to the device’s effect, it remains important. The spatial warp lasts 10 minutes per cypher level.
+- **효과:** 원거리에서 단일 대상을 겨냥하는 장치에 부착하면, 페널티 없이 사거리를 1마일(1.5km)로 늘린다. 대상의 시야와 도달 가능 거리 측면에서 공간이 일시적으로 왜곡된다. 해당 장치 효과에 직선 시야가 중요했다면, 여전히 중요하다. 공간 왜곡은 사이퍼 레벨당 10분 지속된다.
 
-### SPEED BOOST
+### 속도 증폭 (SPEED BOOST)
+
 - **레벨:** 1d6 + 2
-- **효과:** Adds 1 to the user’s Speed Edge for one hour (adds 2 if the cypher is level 5 or higher).
+- **효과:** 사용자의 Speed Edge에 1을 더한다(1시간 지속, 사이퍼 레벨 5 이상이면 +2).
 
-### SPY
+### 정찰기 (SPY)
+
 - **레벨:** 1d6 + 2
-- **효과:** Produces a tiny spying object that resists detection as a level 8 creature. The object moves at great speed, mapping and scanning an unknown area. It moves 500 feet (150 m) per level, scanning an area up to 50 feet (15 m) away from it. It identifies basic layout, creatures, and major energy sources. Its movement is blocked by any physical or energy barrier. At the end of its mapping run, it returns to the user and reports. If it discovers a predefined target during its run (such as “a creature of level 5 or higher,” “a locked door,” “a major energy source,” and so on), it detonates instead, dealing damage equal to the cypher’s level (half electrical damage, half shrapnel damage) to all creatures and objects in short range.
+- **효과:** 탐지를 레벨 8 생물처럼 저항하는 초소형 정찰 물체를 생성한다. 이 물체는 매우 빠르게 이동하며 미지의 영역을 지도화하고 스캔한다. 레벨당 500피트(150m) 이동하며, 주변 최대 50피트(15m) 범위를 스캔한다. 기본 지형 구조, 생물, 주요 에너지원를 식별한다. 이동은 물리적 장벽이나 에너지 장벽에 가로막힌다. 지도화 주행이 끝나면 사용자에게 돌아와 보고한다. 주행 중 “레벨 5 이상 생물”, “잠긴 문”, “주요 에너지원” 같은 사전 지정 표적을 발견하면, 복귀 대신 폭발하여 단거리 내 모든 생물과 물체에 사이퍼 레벨과 같은 피해(전기 절반, 파편 절반)를 준다.
 
-### STASIS KEEPER
+### 정지 유지기 (STASIS KEEPER)
+
 - **레벨:** 1d6
-- **효과:** Puts a subject into stasis for a number of days equal to the cypher’s level, or until it is violently disturbed. An object in stasis does not age and comes out of the stasis alive and in the same condition as it went in, with no memory of the period of inactivity.
+- **효과:** 대상을 사이퍼 레벨과 같은 일수 동안 정지 상태에 두거나, 강한 교란을 받을 때까지 유지한다. 정지 상태의 물체는 노화하지 않으며, 비활동 기간의 기억 없이 들어갔을 때와 같은 상태로 살아서 나온다.
 
-### STIM
+### 자극제 (STIM)
+
 - **레벨:** 1d6
-- **효과:** Eases the user’s next action taken by three steps.
+- **효과:** 사용자의 다음 행동을 3단계 완화한다.
 
-### STRENGTH BOOST
+### 근력 증폭 (STRENGTH BOOST)
+
 - **레벨:** 1d6 + 2
-- **효과:** Adds 1 to Might Edge for one hour (or 2 if the cypher is level 5 or higher).
+- **효과:** Might Edge에 1을 더한다(1시간 지속, 사이퍼 레벨 5 이상이면 +2).
 
-### STRENGTH ENHANCER
+### 근력 강화기 (STRENGTH ENHANCER)
+
 - **레벨:** 1d6
-- **효과:** All noncombat tasks involving raw strength—such as breaking down a door, lifting a heavy boulder, forcing open elevator doors, competing in a weightlifting competition, and so on—are eased by two steps for one hour.
+- **효과:** 문 부수기, 거대한 바위 들기, 엘리베이터 문 억지로 열기, 역도 대회 참가 등 순수 근력이 필요한 모든 비전투 일가 1시간 동안 2단계 완화된다.
 
-### SUBDUAL FIELD
+### 제압 장 (SUBDUAL FIELD)
+
 - **레벨:** 1d6 + 3
-- **효과:** Two rounds after being activated, the device creates an invisible field that fills a specified area (such as a cube a short distance across) within long range. The field lasts for one minute. It affects the minds of thinking beings within the field, preventing them from taking hostile actions. The effect lasts as long as they remain in the field and for 1d6 rounds after, although an Intellect defense roll is allowed each round to act normally (both in the field and after leaving it).
+- **효과:** 활성화 2라운드 후, 장치는 장거리 내 지정된 영역(예: 한 변이 단거리인 큐브)을 채우는 보이지 않는 장을 생성한다. 장은 1분 동안 유지된다. 장 안의 사고 가능한 생물의 정신에 영향을 주어 적대적 행동을 하지 못하게 만든다. 이 효과는 장 안에 있는 동안 지속되며, 장에서 벗어난 뒤에도 1d6라운드 동안 지속된다. 다만 매 라운드마다 정상적으로 행동하기 위한 지능 방어 굴림이 허용된다(장 안에서도, 벗어난 뒤에도 동일).
 
-### TELEPATHY
+### TELEPATHY / 텔레파시
+
 - **레벨:** 1d6 + 2
-- **효과:** For one hour, the device enables
-long-range mental communication with anyone the user can see.
+- **효과:** 1시간 동안, 장치는 사용자가 볼 수 있는 대상 누구와도 장거리 정신 교신을 할 수 있게 한다.
 
-### TELEPORTER (BOUNDER)
+### TELEPORTER (BOUNDER) / 텔레포터(경계형)
+
 - **레벨:** 1d6 + 2
-- **효과:** User teleports up to 100 × the cypher level in feet to a location they can see. They arrive safely with their possessions but cannot take anything else with them.
+- **효과:** 사용자는 자신이 볼 수 있는 위치로 최대 `100 × 사이퍼 레벨`피트까지 순간이동한다. 소지품은 안전하게 함께 이동하지만, 그 외의 것은 가져갈 수 없다.
 
-### TELEPORTER (INTERSTELLAR)
+### TELEPORTER (INTERSTELLAR) / 텔레포터(성간형)
+
 - **레벨:** 1d6 + 4
-- **효과:** User teleports anywhere in the galaxy to a location they have previously visited or seen. They arrive safely with their possessions but cannot take anything else with them.
+- **효과:** 사용자는 이전에 방문했거나 본 적 있는 위치라면 은하 내 어디든 순간이동한다. 소지품은 안전하게 함께 이동하지만, 그 외의 것은 가져갈 수 없다.
 
-### TELEPORTER (PLANETARY)
+### TELEPORTER (PLANETARY) / 텔레포터(행성형)
+
 - **레벨:** 1d6 + 4
-- **효과:** User teleports anywhere on the planet to a location they have previously visited or seen. They arrive safely with their possessions but cannot take anything else with them.
+- **효과:** 사용자는 이전에 방문했거나 본 적 있는 위치라면 행성 내 어디든 순간이동한다. 소지품은 안전하게 함께 이동하지만, 그 외의 것은 가져갈 수 없다.
 
-### TELEPORTER (TRAVELER)
+### TELEPORTER (TRAVELER) / 텔레포터(여행형)
+
 - **레벨:** 1d6 + 4
-- **효과:** User teleports up to 100 × the cypher level in miles to a location they have previously visited or seen. They arrive safely with their possessions but cannot take anything else with them.
+- **효과:** 사용자는 이전에 방문했거나 본 적 있는 위치로 최대 `100 × 사이퍼 레벨`마일까지 순간이동한다. 소지품은 안전하게 함께 이동하지만, 그 외의 것은 가져갈 수 없다.
 
-### TEMPORAL VIEWER
+### TEMPORAL VIEWER / 시간 관측기
+
 - **레벨:** 1d6 + 4
-- **효과:** Displays moving images and sound, up to ten minutes per cypher level in length, depicting events that occurred at the current location up to one year prior. The user specifies the time period shown by the viewer.
+- **효과:** 현재 위치에서 최대 1년 전까지 일어난 사건을, 소리와 함께 움직이는 영상으로 표시한다. 길이는 사이퍼 레벨당 최대 10분이며, 사용자가 관측기가 보여줄 시간대를 지정한다.
 
-### TIME DILATION (DEFENSIVE)
+### TIME DILATION (DEFENSIVE) / 시간 지연(방어형)
+
 - **레벨:** 1d6
-- **효과:** For the next twenty-four hours, when the user is attacked, they move in rapid, seemingly random jumps, a few inches to one side or the other. This is an asset that modifies the user’s defense rolls by two steps (three steps if the cypher is level 6 or higher).
+- **효과:** 다음 24시간 동안 사용자가 공격받을 때, 몸이 몇 인치씩 이리저리 무작위로 튀어 보이듯 이동한다. 이는 사용자의 방어 굴림을 두 단계 유리하게 만드는 보탬이며(사이퍼 레벨이 6 이상이면 세 단계).
 
-### TIME DILATION (OFFENSIVE)
+### TIME DILATION (OFFENSIVE) / 시간 지연(공격형)
+
 - **레벨:** 1d6
-- **효과:** For the next twenty-four hours, when the user makes a melee attack, they move at almost instantaneous speed, easing their attacks by two steps (three steps if the cypher is level 6 or higher).
+- **효과:** 다음 24시간 동안 사용자가 근접 공격을 할 때 거의 즉시적인 속도로 움직여, 해당 공격을 두 단계 유리하게 만든다(사이퍼 레벨이 6 이상이면 세 단계).
 
-### TISSUE REGENERATION
+### TISSUE REGENERATION / 조직 재생
+
 - **레벨:** 1d6 + 4
-- **효과:** For the next hour, the user regains 1 point lost to damage per round, up to a total number of points equal to twice the cypher’s level. As each point is regained, they choose which Pool to add it to. If all their Pools are at maximum, the regeneration pauses until they take more damage, at which point it begins again (if any time remains in the hour) until the duration expires.
-(A tissue regeneration cypher can be used to regenerate a lost appendage (an arm, a foot, a leg, and so on) or to repair scar tissue from burns and other tissue-related disfigurements. If the cypher is used in this fashion, it restores only 1d6 points over the hour duration.)
+- **효과:** 다음 1시간 동안, 사용자는 라운드마다 피해로 잃은 포인트 1점을 회복한다. 총 회복 한도는 `사이퍼 레벨의 2배`다. 포인트를 회복할 때마다 어느 풀에 더할지 선택한다. 모든 풀이 최대치라면 재생은 일시 정지되며, 이후 다시 피해를 입으면(1시간 내 시간이 남아 있다면) 지속시간이 끝날 때까지 재개된다.
+  (조직 재생 사이퍼는 잃어버린 신체 부위(팔, 발, 다리 등)를 재생하거나 화상 및 기타 조직 손상으로 인한 흉터를 복구하는 데도 사용할 수 있다. 이 방식으로 사용할 경우 1시간 동안 총 1d6점만 회복한다.)
 
-### TRACER
+### TRACER / 추적자
+
 - **레벨:** 1d6
-- **효과:** Fires a microscopic tracer that clings to any surface within short range. For the next twenty-four hours, the launcher shows the distance and direction to the tracer, as long as it is within 1 mile (100 miles if the cypher is level 3 or higher, in the same dimension if the cypher is level 6 or higher).
+- **효과:** 단거리 내의 표면 어디든 달라붙는 미세 추적기를 발사한다. 다음 24시간 동안 발사기는 추적기까지의 거리와 방향을 보여준다. 단, 추적기가 1마일 이내에 있어야 하며(사이퍼 레벨 3 이상이면 100마일, 사이퍼 레벨 6 이상이면 같은 차원 내).
 
-### TRICK EMBEDDER
-- **레벨:** 1d6 
-- **효과:** A nonintelligent animal immediately and perfectly learns one trick (two tricks if the cypher is level 4 or higher) it is capable of physically performing (roll over, heel, spin, shake, go to an indicated place within long range, and so on). The trick must be designated when the cypher is activated.
+### TRICK EMBEDDER / 재주 주입기
 
-### UNINTERRUPTIBLE POWER SOURCE
-- **레벨:** 1d6 + 4
-- **효과:** Provides power to another device for
-up to a day. The device to be powered
-can be as simple as a light source or as
-complex as a small starcraft, assuming the
-cypher’s level is equal to the item’s power
-requirements. A desk lamp is a level 1
-power requirement, a car engine is a level
-5 power requirement, and a starship is a level 10 power requirement.
+- **레벨:** 1d6
+- **효과:** 지능이 없는 동물 하나가, 물리적으로 수행 가능한 재주 하나를 즉시 완벽하게 익힌다(사이퍼 레벨이 4 이상이면 두 가지). 예: 구르기, 옆에 붙어 걷기, 돌기, 악수하기, 장거리 내 지정 지점으로 가기 등. 재주는 사이퍼를 활성화할 때 지정해야 한다.
 
-### VANISHER
+### TARGET BOOST / 대상 증폭
+
 - **레벨:** 1d6 + 2
-- **효과:** The user becomes invisible for five minutes per cypher level, during which time they are specialized in stealth and Speed defense tasks. This effect ends if they do something to reveal their presence or position—attacking, using an ability, moving a large object, and so on. If this occurs, they can regain the remaining invisibility effect by taking an action to focus on hiding their position.
+- **효과:** 접촉보다 먼 사거리의 대상을 지정하는 능력 하나를 강화한다. 해당 능력은 사거리 내의 두 번째 대상 하나에도 영향을 줄 수 있다(능력이 공격이라면 두 번째 생물에 대해 별도의 공격 굴림을 한다).
 
-### VISAGE CHANGER
-- **레벨:** 1d6
-- **효과:** Changes the appearance of one
-human-sized creature, providing an asset to disguise tasks (easing them by two steps if the cypher is level 5 or higher). The change takes ten minutes to apply and lasts for twenty-four hours.
+### UNINTERRUPTIBLE POWER SOURCE / 무정전 전원
 
-### VISUAL DISPLACEMENT DEVICE
-- **레벨:** 1d6
-- **효과:** Projects holographic images of the user to confuse attackers. The images appear around the user, giving them an asset to Speed defense actions for ten minutes per cypher level.
-
-### VOCAL TRANSLATOR
-- **레벨:** 1d6
-- **효과:** For twenty-four hours per cypher level, translates everything said by the user into a language that anyone can understand.
-
-### WARMTH
-- **레벨:** 1d6
-- **효과:** Keeps the user warm and comfortable, even in the harshest cold temperatures, for twenty-four hours. During this time, the user has Armor equal to the cypher’s level that protects against cold damage.
-
-### WATER ADAPTER
-- **레벨:** 1d6
-- **효과:** The user can breathe underwater and operate at any depth (without facing the debilitating consequences of changing pressure) for four hours per cypher level. This cypher can also be used in the regular atmosphere, allowing the user to ignore ill effects from very low or very high atmospheric pressure. The cypher does not protect against vacuum.
-
-### WEAPON ENHANCEMENT
-- **레벨:** 1d6 + 2
-- **효과:** Modifies a weapon’s attack in a particular fashion for ten minutes per cypher level. Roll a d100 for the modification.
-01–10
-Eases attack by one step
-11–20
-Deals bonus electrical damage equal to cypher level
-21–30
-Deals bonus cold damage equal to cypher level
-31–40
-Deals bonus poison damage equal to cypher level
-41–50
-Deals bonus acid damage equal to cypher level
-51–60
-Deals bonus fire damage equal to cypher level
-61–70
-Deals bonus sonic damage equal to cypher level
-71–80
-Deals bonus psychic damage equal to cypher level
-81–90
-Knockback (on 18–20 on successful attack roll, target knocked back 30 feet [9 m])
-91–95
-Holding (on 18–20 on successful attack roll, target can’t act on its
-next turn)
-96–97
-Eases attack by two steps
-98
-Banishing (on 18–20 on successful attack roll, target is sent to
-random location at least 100 miles [160 km] away)
-99
-Explodes, inflicting damage equal
-to cypher level to all within immediate range
-00
-Heart-seeking (on 18–20 on successful attack roll, target is killed)
-
-
-
-### WINGS
-- **레벨:** 1d6 + 2
-- **효과:** User can fly at their normal running speed for ten minutes per cypher level.
-
-### X-RAY VIEWER
 - **레벨:** 1d6 + 4
-- **효과:** Allows the user to see through up to 2 feet (60 cm) of material of a level lower than the cypher. The effect lasts for one minute per cypher level.
+- **효과:** 다른 장치 하나에 최대 하루 동안 전력을 공급한다. 전력을 공급받는 장치는 광원처럼 단순한 것부터 소형 우주선처럼 복잡한 것까지 가능하며, 전제 조건은 사이퍼 레벨이 해당 장치의 전력 요구 레벨 이상이어야 한다는 점이다. 책상 램프는 전력 요구 레벨 1, 자동차 엔진은 레벨 5, 우주선은 레벨 10이다.
 
-### ZERO POINT FIELD
+### VANISHER / 소거기
+
+- **레벨:** 1d6 + 2
+- **효과:** 사용자는 사이퍼 레벨당 5분 동안 투명해진다. 이 동안 은신과 스피드 방어 일에서 전문화된다. 공격, 능력 사용, 큰 물체 이동처럼 자신의 존재나 위치를 드러내는 행동을 하면 효과는 끝난다. 이렇게 종료되더라도, 행동 1회를 사용해 위치를 숨기는 데 집중하면 남은 지속시간만큼 투명 효과를 다시 얻을 수 있다.
+
+### VISAGE CHANGER / 외형 변환기
+
+- **레벨:** 1d6
+- **효과:** 인간 크기의 생물 하나의 외형을 바꾼다. 위장 일에 보탬 1개를 제공하며(사이퍼 레벨이 5 이상이면 두 단계 유리), 적용에는 10분이 걸리고 효과는 24시간 지속된다.
+
+### VISUAL DISPLACEMENT DEVICE / 시각 변위 장치
+
+- **레벨:** 1d6
+- **효과:** 공격자를 혼란시키기 위해 사용자 주변에 홀로그래픽 잔상을 투사한다. 사용자는 사이퍼 레벨당 10분 동안 스피드 방어 행동에 보탬 1개를 얻는다.
+
+### VOCAL TRANSLATOR / 음성 번역기
+
+- **레벨:** 1d6
+- **효과:** 사이퍼 레벨당 24시간 동안, 사용자가 말하는 모든 내용을 누구나 이해할 수 있는 언어로 번역한다.
+
+### 온기 (WARMTH)
+
+- **레벨:** 1d6
+- **효과:** 가장 혹독한 추위에서도 사용자를 24시간 동안 따뜻하고 편안하게 유지한다. 이 시간 동안 사용자는 냉기 피해를 막아 주는, 사이퍼 레벨과 같은 수치의 방어력을 얻는다.
+
+### 수중 적응기 (WATER ADAPTER)
+
+- **레벨:** 1d6
+- **효과:** 사용자는 물속에서 숨을 쉴 수 있으며, 사이퍼 레벨당 4시간 동안 어떤 수심에서도(압력 변화로 인한 쇠약 효과 없이) 정상적으로 활동할 수 있다. 이 사이퍼는 일반 대기에서도 사용할 수 있어, 매우 낮거나 매우 높은 기압으로 인한 악영향을 무시하게 해 준다. 단, 진공은 보호하지 못한다.
+
+### 무기 강화 (WEAPON ENHANCEMENT)
+
+- **레벨:** 1d6 + 2
+- **효과:** 사이퍼 레벨당 10분 동안 무기의 공격을 특정 방식으로 변형한다. 변형 효과를 정하려면 d100을 굴린다.
+
+| d100  | 효과                                                                                        |
+| ----- | ------------------------------------------------------------------------------------------- |
+| 01–10 | 공격을 한 단계 용이하게 한다.                                                               |
+| 11–20 | 사이퍼 레벨과 같은 추가 전기 피해를 준다.                                                   |
+| 21–30 | 사이퍼 레벨과 같은 추가 냉기 피해를 준다.                                                   |
+| 31–40 | 사이퍼 레벨과 같은 추가 독 피해를 준다.                                                     |
+| 41–50 | 사이퍼 레벨과 같은 추가 산성 피해를 준다.                                                   |
+| 51–60 | 사이퍼 레벨과 같은 추가 화염 피해를 준다.                                                   |
+| 61–70 | 사이퍼 레벨과 같은 추가 음파 피해를 준다.                                                   |
+| 71–80 | 사이퍼 레벨과 같은 추가 정신 피해를 준다.                                                   |
+| 81–90 | 넉백(성공한 공격 굴림이 18–20이면 표적을 30피트[9m] 밀어낸다)                               |
+| 91–95 | 구속(성공한 공격 굴림이 18–20이면 표적은 다음 차례에 행동할 수 없다)                        |
+| 96–97 | 공격을 두 단계 용이하게 한다.                                                               |
+| 98    | 추방(성공한 공격 굴림이 18–20이면 표적은 최소 100마일[160km] 떨어진 무작위 위치로 보내진다) |
+| 99    | 폭발하여 즉시 범위 내의 모든 대상에게 사이퍼 레벨과 같은 피해를 준다.                       |
+| 00    | 심장 추적(성공한 공격 굴림이 18–20이면 표적은 사망한다)                                     |
+
+### 날개 (WINGS)
+
+- **레벨:** 1d6 + 2
+- **효과:** 사용자는 사이퍼 레벨당 10분 동안 자신의 일반 이동 속도(달리기 속도)로 비행할 수 있다.
+
+### 엑스선 투시기 (X-RAY VIEWER)
+
+- **레벨:** 1d6 + 4
+- **효과:** 사용자는 사이퍼보다 레벨이 낮은 물질을 최대 2피트(60cm) 두께까지 꿰뚫어 볼 수 있다. 효과는 사이퍼 레벨당 1분 동안 지속된다.
+
+### 영점장 (ZERO POINT FIELD)
+
 - **레벨:** 1d6 + 3
-- **효과:** Renders an inanimate object outside the effects of most energy for one minute. This means the object cannot be harmed, moved, or manipulated in any way. It remains in place (even in midair).
+- **효과:** 무생물을 1분 동안 대부분의 에너지 효과에서 분리한다. 즉, 그 물체는 어떤 방식으로도 손상되거나, 이동되거나, 조작될 수 없다. 물체는 그 자리에 그대로 유지된다(공중에 떠 있는 상태라도 마찬가지다).
 
-
-
-POWER BOOST CYPHERS
-These cyphers increase, modify, or improve a character’s existing powers. A burst boost cypher, for example, allows someone with the Bears a Halo of Fire focus to create a blast of fire in all directions, one time. Imagine this as being a fire-using superhero’s ability to “go nova.”
-Power boost cyphers affect one use of a character’s abilities but do not require an action. Their use is part of the action that they affect.
-Power boost cyphers are a special type of cypher. In some Cypher System games, they may be inappropriate, and in others, they may be the main (or only) type of cypher available, as determined by the GM. They can be either subtle or manifest.
-
-### AREA BOOST
-- **레벨:** 1d6 + 1
-- **효과:** This cypher boosts an ability that affects a single target. The ability expands the effect so it includes the immediate area around that target. If the ability normally affects an immediate area, the area becomes short. Short areas are increased to long. Long areas are increased to very long. Abilities with very long areas become 1,000-foot (300 m) areas. All other areas double in radius.
-
-### BURST BOOST
-- **레벨:** 1d6 + 2
-- **효과:** This cypher boosts an ability that affects a single target at short range or farther. The range decreases to immediate, but the ability affects all targets within immediate range.
-
-### DAMAGE BOOST
-- **레벨:** 1d6 + 2
-- **효과:** This cypher boosts an ability that inflicts points of damage. The ability inflicts additional damage equal to this cypher’s level.
-### EFFICACY BOOST (MAJOR)
-- **레벨:** 1d6 + 1
-- **효과:** This cypher boosts an ability that requires a skill roll. The use of the ability is eased by two steps. This kind of cypher might be appropriate only in superhero campaigns, at least with any regularity.)
-
-
-### EFFICACY BOOST (MINOR)
-- **레벨:** 1d6
-- **효과:** This cypher boosts an ability that requires a skill roll. The use of the ability is eased.
-
-### ENERGY BOOST
-- **레벨:** 1d6
-- **효과:** This cypher boosts an ability that has a stat Pool cost. The cost is reduced to 0.
-
-### RANGE BOOST
-- **레벨:** 1d6 + 1
-- **효과:** This cypher boosts the range of an ability. Something that affects only you can now affect someone you touch. Any other ability increases its range by one category (touch to immediate, immediate to short, short to long, long to very long, very long to 1,000 feet [300 m], or double for any range longer than very long).
-
-### TARGET BOOST
-- **레벨:** 1d6 + 2
-- **효과:** This cypher boosts an ability that affects a target at a range greater than touch. It can affect a second target within range (if the ability is an attack, make a separate attack roll for the second creature).
-
-[^역주1]: 역주1. 전자가 캐릭터 능력이고, 후자는 사이퍼를 말합니다.
+파워 부스트 사이퍼 (POWER BOOST CYPHERS)
+이 사이퍼들은 캐릭터의 기존 능력을 증가시키거나, 변형하거나, 향상시킨다. 예를 들어 버스트 부스트 사이퍼는 **불의 후광을 두른다** 포커스를 가진 인물이 한 번에 모든 방향으로 화염 폭발을 일으키게 해 준다. 이를 불을 다루는 슈퍼히어로가 "노바 모드"로 폭발적인 힘을 발휘하는 것으로 상상하면 된다.
+파워 부스트 사이퍼는 캐릭터 능력의 1회 사용에 영향을 주지만, 별도의 행동을 요구하지는 않는다. 사용은 영향을 받는 그 행동의 일부로 처리된다.
+파워 부스트 사이퍼는 사이퍼의 특수 유형이다. 어떤 사이퍼 시스템 게임에서는 부적절할 수 있고, 다른 게임에서는 게임 마스터의 판단에 따라 주요(혹은 유일한) 사이퍼 유형이 될 수도 있다. 이들은 은밀형일 수도 있고 현시형일 수도 있다.

@@ -1,6 +1,6 @@
 ---
 title: 사이퍼 시스템을 운영하는 법 [CSRD]
-description: 사이퍼 시스템 규칙의 핵심은 단도직입적이며, 게임 플레이는 모두가 핵심 개념 몇 가지에 기반하여 돌아갑니다.
+description: 사이퍼 시스템 규칙은 몇 가지 핵심 개념을 바탕으로 간결하게 운영됩니다.
 layout: ../../../layouts/MainLayout.astro
 createdAt: "2022-11-11T20:34:17.231Z"
 publish: false
@@ -8,275 +8,302 @@ publish: false
 
 ## 난이도 정하기
 
-The GM’s most important overall tasks are setting the stage and guiding the story created by the group (not the one created by the GM ahead of time). But setting difficulty is the most important mechanical task the GM has in the game. Although there are suggestions throughout this chapter for various difficulty ratings for certain actions, there is no master list of the difficulty for every action a PC can take. Instead, the Cypher System is designed with the “teach a person to fish” style of good game mastering in mind. (If you don’t know what that means, it comes from the old adage “Give a person a fish and they’ll eat for a day. Teach a person to fish and they’ll eat for a lifetime.” The idea is not to give GMs a ton of rules to memorize or reference, but to teach them how to make their own logical judgment calls.) Of course, most of the time, it’s not a matter of exact precision. If you say the difficulty is 3 and it “should” have been 4, the world’s not over.
+마스터의 핵심 역할은 장면을 세우고, 그룹이 함께 만들어 가는 이야기를 이끄는 것입니다. 규칙 측면에서 가장 중요한 일은 **난이도**를 정하는 것입니다. 이 장에는 특정 행동의 난이도 예시가 제시되지만, PC가 할 수 있는 모든 행동을 망라한 목록은 없습니다. 사이퍼 시스템은 세부 규칙 암기보다 상황 판단을 중시하도록 설계되어 있습니다. 따라서 마스터는 기준을 익힌 뒤, 상황에 맞게 일관되게 판정하면 됩니다. 대부분의 경우 난이도의 절대적 정밀성은 필수 조건이 아닙니다.
 
-For the most part, it really is as simple as rating something on a scale of 1 to 10, 1 being incredibly easy and 10 being basically impossible. The guidelines in the Task Difficulty table should help put you in the right frame of mind for assigning difficulty to a task.
+대부분의 경우, 정말로 1부터 10까지 척도에 올려놓으면 충분합니다. 1은 매우 쉬움, 10은 사실상 불가능입니다. [일 난이도 표](#일-난이도-표)의 지침은 어떤 일이 어느 정도 난이도인지 감을 잡는 데 도움이 됩니다.
 
-For example, we make the distinction between something that most people can do and something that trained people can do. In this case, “normal” means someone with absolutely no training, talent, or experience—imagine your ne’er-do-well, slightly overweight uncle trying a task he’s never tried before. “Trained” means the person has some level of instruction or experience but is not necessarily a professional.
+예를 들어 "대부분의 사람이 할 수 있는 일"과 "익숙한 사람이 할 수 있는 일"은 구분됩니다. 여기서 "보통 사람"은 훈련, 재능, 경험이 없는 사람을 뜻합니다. "익숙한 사람"은 어느 정도 교육이나 경험은 있지만, 반드시 전문가일 필요는 없는 사람입니다.
 
-With that in mind, think about the act of balance. With enough focus, most people can walk across a narrow bridge (like a fallen tree trunk). That suggests it is difficulty 2. However, walking across a narrow plank that’s only 3 inches (8 cm) wide? That’s probably more like difficulty 3. Now consider walking across a tightrope. That’s probably difficulty 5—a normal person can manage that only with a great deal of luck. Someone with some training can give it a go, but it’s still hard. Of course, a professional acrobat can do it easily. Consider, however, that the professional acrobat is specialized in the task, making it difficulty 3 for them. They probably are using Effort as well during their performance.
+이 기준으로 난이도를 비교해 봅시다. 대부분의 사람도 집중하면 좁은 다리(예: 쓰러진 나무줄기)를 건널 수 있으므로 대체로 난이도 2입니다. 폭 3인치(8cm)짜리 판자를 걷는 일은 난이도 3에 가깝습니다. 줄타기는 난이도 5 정도가 적절합니다. 보통 사람은 운이 매우 좋아야 성공하고, 익숙한 사람도 여전히 어렵게 느낍니다. 반면 전문 곡예사는 해당 행동에 **능숙**하므로 실제 체감 난이도는 3 수준이 됩니다. 상황에 따라 분발까지 사용하면 더 낮아질 수 있습니다.
 
-Let’s try another task. This time, consider how hard it might be to remember the name of the previous leader of the village where the character lives. The difficulty might be 0 or 1, depending on how long ago they were the leader and how well known they were. Let’s say it was thirty years ago and they were only mildly memorable, so it’s difficulty 1. Most people remember them, and with a little bit of effort, anyone can come up with their name. Now let’s consider the name of the leader’s daughter. That’s much harder. Assuming the daughter wasn’t famous in her own right, it’s probably difficulty 4. Even people who know a little about local history (that is to say, people who are trained in the subject) might not be able to remember it. But what about the name of the pet dog owned by the daughter’s spouse? That’s probably impossible. Who’s going to remember the name of an obscure person’s pet from thirty years ago? Basically no one. However, it’s not forbidden knowledge or a well-guarded secret, so it sounds like difficulty 7. Difficulty 7 is the rating that means “No one can do this, yet some people still do.” It’s not the stuff of legend, but it’s something you would assume people can’t do. When you think there’s no way you can get tickets for a sold-out concert, but somehow your friend manages to score a couple anyway, that’s difficulty 7. (See the next section for more on difficulties 7, 8, 9, and 10.)
+다른 예로, 캐릭터가 사는 마을의 전 지도자 이름을 떠올리는 행동을 생각해 봅시다. 활동 시기와 유명세에 따라 난이도는 0~1이 됩니다. 30년 전 인물이고 인상이 강하지 않았다면 난이도 1이 적절합니다. 지도자의 딸 이름을 기억하는 일은 더 어려워, 딸이 별도로 유명하지 않았다면 난이도 4 정도입니다. 그렇다면 딸의 배우자가 기르던 반려견 이름은 어떨까요? 일반적으로는 거의 불가능에 가깝지만, 금지된 지식이나 완전히 숨겨진 정보는 아니므로 난이도 7로 볼 수 있습니다. 난이도 7은 "보통은 불가능하지만, 준비와 조건이 맞으면 드물게 가능한 수준"을 뜻합니다. (난이도 7~10은 다음 절에서 설명합니다.)
 
-If you’re talking about a task, ideally the difficulty shouldn’t be based on the character performing the task. Things don’t get inherently easier or harder depending on who is doing them. However, the truth is, the character does play into it as a judgment call. If the task is breaking down a wooden door, an 8-foot-tall (2 m) automaton made of metal with nuclear-driven motors should be better at breaking it down than an average human would be, but the task rating should be the same for both. Let’s say that the automaton’s nature effectively gives it two levels of training in such tasks. Thus, if the door has a difficulty rating of 4, but the automaton is specialized and reduces the difficulty to 2, it has a target number of 6. The human has no such specialization, so the difficulty remains 4, and the person has a target number of 12. However, when you set the difficulty of breaking down the door, don’t try to take all those differences into account. The GM should consider only the human because the Task Difficulty table is based on the ideal of a “normal” person, a “trained” person, and so on. It’s humanocentric.
+일의 난이도는 원칙적으로 수행자와 무관해야 합니다. 같은 일은 누가 하든 본질적으로 같습니다. 예를 들어 나무문을 부수는 행동에서, 키 2미터의 금속 자동기계가 보통 인간보다 유리할 수는 있습니다. 그러나 **일의 난이도 자체는 동일**하게 유지해야 합니다. 문의 난이도가 4라면 자동기계는 능숙을 적용해 난이도 2(목표치 6)로 판정하고, 인간은 난이도 4(목표치 12)로 판정합니다. 즉 난이도는 "보통 사람" 기준으로 정하고, 캐릭터 차이는 기능·보탬·분발로 처리합니다. [일 난이도 표](#일-난이도-표)는 이를 위한 기본 지표입니다.
 
-Most characters probably are willing to use one or two levels of Effort on a task, and they might have an appropriate skill or asset to decrease the difficulty by a step. That means that a difficulty 4 task will often be treated as difficulty 2 or even 1, and those are easy rolls to make. Don’t hesitate, then, to pull out higher-level difficulties. The PCs can rise to the challenge, especially if they are experienced.
+대부분의 캐릭터는 일에 분발 1~2단계를 쓰려 하고, 적절한 기능이나 보탬으로 난이도를 한 단계 낮추기도 합니다. 즉, 난이도 4인 일도 실제로는 난이도 2 또는 1로 처리되는 경우가 많고, 이런 굴림은 성공 가능성이 높습니다. 그러니 높은 난이도를 제시하는 것을 망설이지 마세요. PC들은, 특히 경험이 쌓일수록, 충분히 도전을 감당할 수 있습니다.
 
+### 불가능 난이도
 
-### The Impossible Difficulties
+난이도 7, 8, 9, 10은 기술적으로 모두 불가능합니다. 목표치가 각각 21, 24, 27, 30인데 d20만으로는 절대 나올 수 없기 때문입니다. 하지만 캐릭터가 난이도를 낮출 수 있는 방법을 생각해 보면 이야기가 달라집니다. 분발을 조금 쓰거나 기능, 도움을 받으면 난이도 7(목표치 21)은 난이도 6(목표치 18)으로 내려와 현실적인 범위가 됩니다. 능숙함, 높은 분발, 도움까지 겹치면 난이도 1이나 0까지 내려갈 수도 있습니다(기능/능숙으로 2단계, 분발로 3~4단계, 협력 보탬으로 1단계). 사실상 불가능한 일이 일상으로 바뀝니다. 4등급 캐릭터라면 비용만 감당되면 세션당 한 번쯤은 실제로 이렇게 할 수 있습니다. 6등급 캐릭터가 철저히 준비하면 난이도 10도 가능해집니다. 물론 자주 하진 못합니다(분발 6단계가 필요하고, 재능 6이어도 역량에서 7점을 써야 하며, 능숙과 보탬 최대치를 전제로 합니다). 그래도 가능한 건 사실입니다. 그래서 6등급 캐릭터는 각자 분야의 정점에 있는 존재입니다.
 
-Difficulties 7, 8, 9, and 10 are all technically impossible. Their target numbers are 21, 24, 27, and 30, and you can’t roll those numbers on a d20 no matter how many times you try. Consider, however, all the ways that a character can reduce difficulty. If someone spends a little Effort or has some skill or help, it brings difficulty 7 (target number 21) into the range of possibility—difficulty 6 (target number 18). Now consider that they have specialization, use a lot of Effort, and have help. That might bring the difficulty down to 1 or even 0 (reducing it by two steps from training and specialization, three or four steps from Effort, and one step from the asset of assistance). That practically impossible task just became routine. A fourth-tier character can and will do this—not every time, due to the cost, but perhaps once per game session. You have to be ready for that. A well-prepared, motivated sixth-tier character can do that even with a difficulty 10 task. Again, they won’t do it often (they’d have to apply six levels of Effort, and even with an Edge of 6 that would cost 7 points from their Pool, and that’s assuming they’re specialized and have two levels of assets), but it can happen if  they’re really prepared for the task (being specialized and maxed out in asset opportunities reduces the difficulty by four more steps). That’s why sixth-tier characters are at the top of their field, so to speak.
+### 거짓 정밀성
 
-### False Precision
-One way to look at difficulty is that each step of difficulty is worth 3 on the die. That is to say, hinder the task by one step, and the target number rises by 3. Ease the task by one step, and the target number is lowered by 3. Those kinds of changes are big, meaty chunks. Difficulty, as a game mechanic, is not terribly precise. It’s measured in large portions. You never have a target number of 13 or 14, for example—it’s always 3, 6, 9, 12, 15, and so on. (Technically, this is not true. If a character adds 1 to a d20 roll for some reason, it changes a target number of 15 to 14. But this is not worth much discussion.)
+난이도는 "한 단계 = 목표치 3"으로 작동합니다. 한 단계 불리해지면 목표치는 3 올라가고, 한 단계 유리해지면 3 내려갑니다. 이 구조는 미세 조정보다 큰 단위 판단에 적합합니다. 따라서 목표치 13, 14 같은 값은 일반적으로 쓰지 않고 3, 6, 9, 12, 15 순으로 운용합니다. 일부 효과가 d20 굴림에 +1을 부여해 체감 난이도를 바꿀 수는 있지만, 시스템의 기본 단위는 여전히 난이도 단계입니다.
 
-Imprecision is good in this case. It would be false precision to say that one lock has a target number of 14 and another has a target number of 15. What false precision means in this context is that it would be a delusion to think we can be that exact. Can you really say that one lock is 5% easier to pick than another? And more important, even if you could, is the difference worth noting? It’s better to interact with the world in larger, more meaningful chunks than to try to parse things so carefully. If we tried to rate everything on a scale of 1 to 30 (using target numbers and not difficulty), we’d start to get lost in the proverbial weeds coming up with a meaningful distinction between something rated as an 8 and something rated as a 9 on that scale.
+여기서는 이런 비정밀성이 오히려 장점입니다. 어떤 자물쇠가 목표치 14이고 다른 자물쇠는 15라고 딱 잘라 말하는 건 "거짓 정밀성"입니다. 정말로 한 자물쇠가 다른 것보다 정확히 5% 더 따기 쉽다고 단언할 수 있을까요? 설령 가능하더라도, 그 차이가 게임에 의미가 클까요? 세상을 더 크고 의미 있는 단위로 다루는 편이 좋습니다. 모든 걸 목표치 기준 1~30으로 세분화하려 들면, 예를 들어 8과 9의 차이를 설명하느라 핵심을 잃기 쉽습니다.
 
+### 일상 행동
 
-### Routine Actions
-Don’t hesitate to make actions routine. Don’t call for die rolls when they’re not really needed. Sometimes GMs fall into the trap illustrated by this dialogue:
+행동을 **일상적(판정 불필요)**으로 처리하는 것을 주저하지 마세요. 필요하지 않은 장면에서 주사위를 요구하면 진행이 느려집니다.
 
-GM: What do you do?
-Player: I _________.
-GM: Okay, give me a roll.
+마스터: 무엇을 하나요?  
+플레이어: 저는 \***\*\_\*\*** 하겠습니다.  
+마스터: 좋습니다. 판정해 주세요.
 
-That’s not a good instinct—at least, not for the Cypher System. Players should roll when it’s interesting or exciting. Otherwise, they should just do what they do. If the PCs tie a rope around something and use it to climb down into a pit, you could ask for tying rolls, climbing rolls, and so on, but why? Just to see if they roll terribly? So the rope can come undone at the wrong time, or a character’s hand can slip? Most of the time, that makes players feel inadequate and isn’t a lot of fun. A rope coming undone in the middle of an exciting chase scene or a battle can be a great complication (and that’s what GM intrusions are for). A rope coming undone in the middle of a simple “getting from point A to point B” scene only slows down gameplay. The real fun—the real story—is down in the pit. So get the PCs down there.
+사이퍼 시스템에서 이것은 바람직한 기본값이 아닙니다. 판정은 긴장과 결과가 필요한 장면에서만 요구하는 것이 좋습니다. PC들이 밧줄을 묶어 구덩이 아래로 내려가는 장면이라면, 매 단계 판정을 요구하기보다 장면의 목적을 먼저 확인하세요. 단순 이동 장면에서 불필요한 실패를 반복하면 리듬이 느려지고 재미가 줄어듭니다. 반대로 추격전이나 전투 도중처럼 위험이 실제 결과를 낳는 상황이라면 판정이 의미를 갖습니다.
 
-There are a million exceptions to this guideline, of course. If creatures are throwing poisoned darts at the PCs while they climb, that might make things more interesting and require a roll. If the pit is filled with acid and the PCs must climb halfway down, pull a lever, and come back up, that’s a situation where you should set difficulty and perhaps have a roll. If a PC is near death, carrying a fragile item of great importance, or something similar, climbing down the rope is tense, and a roll might add to the excitement. The important difference is that these kinds of complications have real consequences.
+물론 예외는 많습니다. 내려가는 동안 적이 독침을 쏘고 있다면 흥미가 생기고 판정이 필요할 수 있습니다. 구덩이에 산이 차 있고, 중간 지점에서 레버를 당긴 뒤 다시 올라와야 한다면 난이도를 정하고 굴림하는 게 맞습니다. PC가 빈사 상태이거나 매우 중요한 깨지기 쉬운 물건을 들고 있다면, 밧줄 하강 자체가 긴장 장면이 되므로 판정이 긴장감을 더할 수 있습니다. 핵심은 이런 난관에는 실제 결과가 따른다는 점입니다.
 
-On the flip side, don’t be afraid to use GM intrusion on routine actions if it makes things more interesting. Walking up to the king in his audience chamber in the middle of a ceremony only to trip on a rug? That could have huge ramifications for the character and the story.
+반대로, 일상 행동에도 마스터 개입을 써서 장면을 더 흥미롭게 만들 수 있습니다. 예식 중 왕에게 다가가다 카펫에 걸려 넘어지는 일은 캐릭터와 이야기 전체에 큰 파장을 만들 수 있습니다.
 
-### Other Ways to Judge Difficulty
-Rating things on a scale of 1 to 10 is something that most people are very familiar with. You can also look at it as rating an object or creature on a similar scale, if that’s easier. In other words, if you don’t know how hard it would be to climb a particular cliff face, think of it as a creature the PCs have to fight. What level would the creature be? You could look in the Creatures chapter and say “I think this wall should be about as difficult to deal with as a demon. A demon is level 5, so the task of climbing the wall will be difficulty 5.” That’s a weird way to do it, perhaps, but it’s fairly straightforward. And if you’re the kind of GM who thinks in terms of “How tough will this fight be?” then maybe rating tasks as creatures or NPCs to fight isn’t so strange after all. It’s just another way to relate to them. The important thing is that they’re on the same scale. Similarly, if the PCs have to tackle a knowledge task—say, trying to determine if they know where a caravan is headed based on its tracks—you could rate the task in terms of an object. If you’re used to rating doors or other objects that the PCs have broken through recently, the knowledge task is just a different kind of barrier to bust through.
+### 난이도를 판단하는 다른 방식
 
-Everything in the Cypher System—characters, creatures, objects, tasks, and so on—has a level. It might be called a tier or a difficulty instead of a level, but ultimately it’s a numerical rating system used to compare things. Although you have to be careful about drawing too many correlations—a first-tier character isn’t easily compared to a difficulty 1 wall or a level 1 animal—the principle is the same. Everything can be rated and roughly compared to everything else in the world. (It works best to take PCs out of this equation. For example, you shouldn’t try to compare a PC’s tier to a wall’s level. Character tiers are mentioned here only for completeness.)
+1~10 척도 판단이 익숙하지 않다면, 사물이나 생물의 **레벨**에 비유해 판단해도 됩니다. 특정 절벽의 등반 난이도를 정하기 어렵다면 "`생물` 장의 레벨 기준으로 보면 어느 정도인가"를 비교하면 됩니다. 이 방식은 전투 위협 수준을 기준으로 사고하는 마스터에게 특히 유용합니다. 중요한 점은 모든 판정이 동일한 척도 위에서 일관되게 처리된다는 것입니다.
 
-Last, if your mind leans toward statistics, you can look at difficulty as a percentage chance. Every number on the d20 is a 5% increment. For example, you have a 5% chance of rolling a 1. You have a 10% chance of rolling a 1 or a 2. Thus, if you need to roll a 12 or higher, you have a 45% chance of success. (A d20 has nine numbers that are 12 or higher: 12, 13, 14, 15, 16, 17, 18, 19, and 20. And 9 × 5 equals 45.)
+사이퍼 시스템의 모든 것(캐릭터, 생물, 사물, 일 등)은 레벨을 가집니다. 이름이 등급이든 난이도든 결국 비교를 위한 수치 체계입니다. 물론 상관관계를 과하게 확대하면 안 됩니다. 예를 들어 1등급 캐릭터를 난이도 1 벽이나 레벨 1 짐승과 단순 비교할 수는 없습니다. 다만 원리는 같습니다. 세상의 거의 모든 요소는 수치화되어 서로 대략 비교될 수 있습니다. (이 비교에서는 PC를 가능하면 제외하는 것이 좋습니다. 캐릭터 등급과 벽 레벨을 1:1로 맞추려 하지는 마세요.)
 
-For some people, it’s easier to think in terms of a percentage chance. A GM might think “She has about a 30% chance to know that fact about geography.” Each number on a d20 is a 5% increment, and it takes six increments to equal 30%, so there are six numbers that mean the PC succeeds: 15, 16, 17, 18, 19, and 20. Thus, since the player has to roll 15 or higher, that means the target number is 15. (And that means the task is level 5, but if you’ve already determined the target number, you likely don’t care about the level.)
+마지막으로 통계적 사고를 선호한다면, 난이도를 확률로 볼 수 있습니다. d20의 각 숫자는 5%입니다. 1이 나올 확률은 5%, 1 또는 2가 나올 확률은 10%입니다. 따라서 12 이상이 필요하면 성공 확률은 45%입니다. (12~20까지 9개 숫자 × 5% = 45%)
 
-### ADVANTAGES TO THIS SYSTEM
-1. The GM makes measured adjustments in large, uniform steps. That makes things faster than if players had to do arithmetic using a range of all numbers from 1 to 20.
-2. You calculate a target number only once no matter how many times the PCs attempt the action. If you establish that the target number is 12, it’s 12 every time a PC tries that action. (On the other hand, if you had to add numbers to your die roll, you’d have to do it for every attempt.) Consider this fact in light of combat. Once a player knows that they need to roll a 12 or higher to hit a foe, combat moves very quickly.
-3. If a PC can reduce the difficulty of an action to 0, no roll is needed. This means that an Olympic gymnast doesn’t roll a die to walk across a balance beam, but the average person does. The task is initially rated the same for both, but the difficulty is reduced for the gymnast. There’s no chance of failure.
-4. This is how everything in the game works, whether it’s climbing a wall,
-sweet-talking a guard, or fighting a bioengineered horror.
-5. Perhaps most important, the system gives GMs the freedom to focus entirely on the flow of the game. The GM doesn’t use dice to determine what happens (unless you want to)—the players do. There aren’t a lot of different rules for different actions, so there is little to remember and very little to reference. The difficulty can be used as a narrative tool, with the challenges always meeting the expected logic of the game. All the GM’s mental space can be devoted to guiding the story.
+어떤 마스터에게는 이런 확률 감각이 더 편합니다. "저 지리 정보를 알 확률은 30%쯤"이라고 생각할 수 있습니다. d20 한 칸이 5%이니 30%는 6칸입니다. 성공 숫자 6개가 필요하므로 15~20이 성공이 됩니다. 즉 목표치는 15입니다. (이건 난이도 5라는 뜻이지만, 이미 목표치를 정했다면 난이도 숫자 자체는 덜 중요할 수 있습니다.)
 
-## GM Intrusion
-GM intrusion is the main mechanic that the GM uses to inject drama and additional excitement into the game. It’s also a handy tool for resolving issues that affect the PCs but do not involve them. GM intrusion is a way to facilitate what goes on in the world outside the characters. Can the minotaur track the PCs’ movements through the maze? Will the fraying rope hold?
+### 이 시스템의 장점
 
-Since the players roll all the dice, GM intrusion is used to determine if and when something happens. For example, if the PCs are fighting a noble’s guards, and you (the GM) know that there are more guards nearby, you don’t need to roll dice to determine if the other guards hear the scuffle and intervene (unless you want to). You just decide when it would be best for the story—which is probably when it would be worst for the characters. In a way, GM intrusion replaces the GM’s die rolling.
+1. 마스터는 크고 균일한 단위로 조정합니다. 플레이어가 1~20 범위 모든 수를 더하고 빼는 방식보다 훨씬 빠릅니다.
+2. 목표치는 한 번만 계산하면 됩니다. 어떤 행동이 목표치 12라고 정해졌다면 PC가 몇 번 시도해도 12입니다. (반면 굴림마다 수치 보정을 더하는 방식이면 시도할 때마다 계산해야 합니다.) 전투에서 특히 빠릅니다.
+3. PC가 행동 난이도를 0으로 낮추면 굴림이 필요 없습니다. 예를 들어 전문 체조 선수는 평균대 걷기에 주사위를 굴리지 않지만, 보통 사람은 굴립니다. 기본 난이도는 같지만 체조 선수 쪽에서 완화되는 것입니다.
+4. 벽 오르기, 경비 설득, 생체공학 괴물과 싸우기 등 게임의 거의 모든 행동이 같은 원리로 작동합니다.
+5. 무엇보다 마스터가 게임 흐름에 집중할 수 있습니다. 마스터는 (원하면 예외를 두겠지만) 주사위로 결과를 정하지 않습니다. 플레이어가 굴립니다. 행동마다 다른 규칙이 많지 않으니 외울 것도, 참조할 것도 적습니다. 난이도는 이야기 도구가 되어, 도전이 게임의 논리와 일관되게 맞물립니다. 마스터의 정신적 여유를 이야기 진행에 집중시킬 수 있습니다.
 
-The mechanic is also one of the main ways that GMs award experience points to the PCs. This means that you use experience points as a narrative tool. Whenever it seems appropriate, you can introduce complications into the game that affect a specific player, but when you do so, you give that player 1 XP. The player can refuse the intrusion, but doing so costs them 1 XP. So by refusing an intrusion, the player does not get the experience point that the GM is offering, and they lose one that they already have. (This kind of refusal is likely to happen very rarely in your game, if ever. And, obviously, a player can’t refuse an intrusion if they have no XP to spend.)
+## 마스터 개입
 
-Here’s how a GM intrusion might work in play. Say the PCs find a hidden console with some buttons. They learn the right order in which to press the buttons, and a section of the floor disappears. As the GM, you don’t ask the players specifically where their characters are standing. Instead, you give a player 1 XP and say “Unfortunately, you’re standing directly over this new hole in the floor.” If the player wanted, they could refuse the XP, spend one of their own, and say “I leap aside to safety.” Most likely, though, they’ll make the defense roll that you call for and let it play out.
+마스터 개입은 게임에 드라마와 추가 긴장감을 넣는 핵심 메커니즘입니다. PC에게 영향을 주지만 PC의 직접 행동이 개입되지 않는 문제를 처리하는 데도 유용합니다. 즉, 캐릭터 바깥 세계에서 무슨 일이 벌어지는지를 다루는 도구입니다. 미노타우로스가 미궁 안에서 PC의 흔적을 추적할 수 있을까? 닳아 가는 밧줄이 버틸까?
 
-There are two ways for the GM to handle this kind of intrusion. You could say “You’re standing in the wrong place, so make a roll.” (It’s a Speed defense roll, of course.) Alternatively, you could say “You’re standing in the wrong place. The floor opens under your feet, and you fall down into the darkness.” In the first example, the PC has a chance to save themselves. In the second example, they don’t. Both are viable options. The distinction is based on any number of factors, including the situation, the characters involved, and the needs of the story. This might seem arbitrary or even capricious, but you’re the master of what the intrusion can and can’t do. RPG mechanics need consistency so players can make intelligent decisions based on how they understand the world to work. But they’ll never base their decisions on GM intrusions. They don’t know when intrusions will happen or what form they will take. GM intrusions are the unpredictable and strange twists of fate that affect a person’s life every day.
+플레이어가 모든 주사위를 굴리기 때문에, 무엇이 언제 일어나는지는 마스터 개입으로 정할 수 있습니다. 예를 들어 PC가 귀족 경비병과 싸우고 있고, 주변에 증원 병력이 있다는 걸 마스터가 알고 있다면 "증원이 소란을 들었는지"를 굳이 굴릴 필요가 없습니다(원하면 굴려도 됩니다). 이야기상 가장 흥미로운 순간, 대개 캐릭터에게 가장 불리한 순간에 증원을 등장시키면 됩니다. 어떤 의미에서는 마스터 개입이 마스터의 주사위 굴림을 대체합니다.
 
-When player modifications (such as skill, Effort, and so on) determine that success is automatic, the GM can use GM intrusion to negate the automatic success. The player must roll for the action at its original difficulty level or target number 20, whichever is lower.
+이 메커니즘은 마스터가 PC에게 **경험치(XP)**를 지급하는 주요 경로이기도 합니다. 마스터는 특정 플레이어에게 영향을 주는 난관을 추가하면서 XP 1점을 지급할 수 있습니다. 플레이어는 개입을 거부할 수 있지만, 거부하려면 자신의 XP 1점을 소비해야 합니다. 즉 거부하면 마스터가 제시한 XP 1점을 받지 못하고, 기존 XP도 1점 잃습니다. 보유 XP가 없으면 거부할 수 없습니다.
 
-(Remember, any time you give a player 1 XP for a GM intrusion, you’re actually giving them 2— one to keep and one to give to another player.)
+예를 들어 PC들이 숨겨진 제어판을 찾아 버튼 순서를 알아냈고, 바닥 일부가 열렸다고 합시다. 마스터는 캐릭터들이 정확히 어디 서 있는지 세세히 묻지 않고, 플레이어 한 명에게 XP 1점을 건네며 "안타깝게도 당신의 캐릭터가 바로 그 구멍 위에 서 있었어."라고 말할 수 있습니다. 플레이어는 원하면 XP를 거부하고 자기 XP 1점을 써서 "나는 옆으로 몸을 던져 안전하게 피했어."라고 선언할 수 있습니다. 하지만 대개는 마스터가 요구한 방어 판정을 하고 결과를 받아들일 것입니다.
 
+이런 개입은 두 가지 방식으로 처리할 수 있습니다.
 
-### Using GM Intrusion as a Narrative Tool
+- "당신이 잘못된 위치에 있었어. 굴려 봐."(속력 방어 판정)
+- "당신이 잘못된 위치에 있었어. 바닥이 열리고 당신은 어둠 속으로 떨어진다."
 
-A GM can use this narrative tool to steer things. That doesn’t mean railroad the players or direct the action of the game with a heavy hand. GM intrusion doesn’t enable you to say “You’re all captured, so here’s your 1 XP.” Instead, the GM can direct things more subtly—gently, almost imperceptibly influencing events rather than forcing them. GM intrusion represents things going wrong. The bad guys planning well. Fortune not favoring the characters.
+첫 번째는 PC가 스스로를 구할 기회가 있고, 두 번째는 없습니다. 둘 다 유효한 선택입니다. 어떤 방식을 택할지는 상황, 관련 캐릭터, 이야기의 필요 등 다양한 요소에 따라 달라집니다. 자의적이거나 변덕처럼 보일 수 있지만, 개입이 어디까지 가능한지를 정하는 건 마스터의 권한입니다. RPG 규칙은 플레이어가 세계 작동 방식을 바탕으로 합리적 결정을 내릴 수 있게 일관성을 가져야 합니다. 다만 플레이어는 마스터 개입에 기대어 결정을 세우지는 않습니다. 개입은 언제, 어떤 형태로 올지 알 수 없기 때문입니다. 마스터 개입은 일상에서 누구에게나 닥치는 예측 불가능한 운명의 변곡점입니다.
 
-Consider this scenario: the GM plants an interesting adventure seed in a small village, but the PCs don’t stay there long enough to find it. So just outside the village, the PCs run afoul of a vicious viper that bites one of them. The GM uses intrusion to say that the poison from the snake will make the character debilitated unless they get a large dose of a specific antitoxin, which the group doesn’t have. Of course, they aren’t required to go back to the village where the GM’s interesting adventure can start, but it’s likely that they will, looking for the antitoxin.
+플레이어 수정치(기능, 분발 등)로 자동 성공이 확정된 경우에도, 마스터 개입으로 그 자동 성공을 무효화할 수 있습니다. 그 경우 플레이어는 원래 난이도로 판정하거나 목표치 20 중 더 낮은 값을 기준으로 굴립니다.
 
-Some players might find intrusion heavy-handed, but the XP softens the blow. And remember, they can refuse these narrative nudges. Intrusion is not meant to be a railroading tool—just a bit of a rudder. Not an inescapable track, but a nudge here and there.
+(참고: 마스터 개입으로 XP 1점을 준다고 할 때 실제로는 2점을 주는 셈입니다. 하나는 본인이 보관하고, 하나는 다른 플레이어에게 넘깁니다.)
 
-What’s more, the GM doesn’t need to have a deliberate goal in mind. The complication you introduce could simply make things more interesting. You might not know where it will take the story, just that it will make the story better.
+### 이야기 도구로서의 마스터 개입
 
-This is wonderfully empowering to the GM—not in a “Ha ha, now I’ll trounce the PCs” way, but in an “I can control the narrative a little bit, steering it more toward the story I want to create rather than relying on the dice” sort of way. Consider that old classic plot development in which the PCs get captured and must escape from the bad guys. In heroic fiction, this is such a staple that it would almost seem strange if it didn’t happen. But in many roleplaying games, it’s a nearly impossible turn of events—the PCs usually have too many ways to get out of the bad guy’s clutches before they’re captured. The dice have to be wildly against them. It virtually never happens. With GM intrusion, it could happen (again, in the context of the larger encounter, not as a single intrusion that results in the entire group of PCs being captured with little explanation or chance to react).
+마스터는 이 도구로 사건의 흐름을 조율할 수 있습니다. 그렇다고 플레이어를 레일로드하거나, 게임 진행을 강압적으로 몰아가라는 뜻은 아닙니다. "전원 포로야. XP 1점 받아." 같은 방식은 바람직하지 않습니다. 대신 훨씬 미묘하게, 거의 눈치채지 못할 정도로 사건을 유도할 수 있습니다. 마스터 개입은 일이 어긋나는 순간을 뜻합니다. 악당이 준비를 잘해 두었거나, 운이 캐릭터 편이 아닌 상황입니다.
 
-For example, let’s say the PCs are surrounded by orcs. One character is badly injured—debilitated—and the rest are hurt. Some of the orcs produce a large weighted net. Rather than asking for a lot of rolls and figuring the mechanics for escape, you use intrusion and say that the net goes over the PCs who are still on their feet. The rest of the orcs point spears menacingly. This is a pretty strong cue to the players that surrender is a good (and possibly the only) option. Some players won’t take the hint, however, so another use of intrusion might allow the orcs to hit one of the trapped PCs on the head and render them unconscious while their friends struggle in the net. If the players still don’t surrender, it’s probably best to play out the rest of the encounter without more GM intrusions—using more would be heavy-handed by anyone’s measure—although it’s perfectly reasonable to rule that a character rendered debilitated is knocked unconscious, since the orcs are trying to take the PCs alive.
+예를 들어 마스터가 작은 마을에 중요한 모험 단서를 배치했는데, PC들이 충분히 머물지 않고 떠났다고 합시다. 마을 밖에서 독사에게 물린 사건을 개입으로 제시하고, "이 독은 특정 해독제를 대량으로 사용하지 않으면 중상으로 이어진다. 현재 파티에는 그 해독제가 없다."라고 선언할 수 있습니다. 이는 파티가 마을로 돌아갈 합리적 동기를 제공하는 방식입니다.
 
-(Remember that GM intrusions can occur at any time, not just during combat. Disrupting or changing a tense interaction with NPCs can have big repercussions.)
+어떤 플레이어는 이런 개입을 강하게 느낄 수 있지만 XP가 완충 역할을 합니다. 그리고 플레이어는 거부할 수도 있습니다. 마스터 개입은 레일로드가 아니라, 방향타에 가깝습니다. 탈출 불가능한 선로가 아니라 가벼운 유도입니다.
 
-### Using GM Intrusion as a Resolution Mechanic 
+또한 마스터가 항상 분명한 목표를 가지고 개입할 필요도 없습니다. 단순히 상황을 더 흥미롭게 만들려는 개입도 충분히 가치 있습니다. 그 개입이 이야기를 어디로 데려갈지 몰라도, 이야기의 질을 높여 준다면 그걸로 좋습니다.
 
-This mechanic offers a way for the GM to determine how things happen in the game without leaving it all to random chance. Bad guys trying to smash down the door to the room where the PCs are holed up? You could roll a bunch of dice, compare the NPCs’ stats to the door’s stats, and so on, or you could wait until the most interesting time, have the bad guys break in, and award an experience point to the PC who tried their best to bar the door. The latter way is the Cypher System way. Intrusion is a task resolution tool for the GM. In other words, you don’t base things on stats but on narrative choice. (Frankly, a lot of great GMs over the years—even in the very early days of the hobby—have run their games this way. Sometimes they rolled dice or pretended to roll dice, but they were really manipulating things.) This method frees the GM from worrying about mechanics and looking up stats and allows them to focus on the story.
+이 규칙은 마스터에게 서사 조율 수단을 제공합니다. 목적은 PC를 일방적으로 몰아붙이는 것이 아니라, 주사위 결과만으로 만들기 어려운 장면을 합리적으로 구현하는 데 있습니다. 예를 들어 "PC가 붙잡혔다가 탈출하는 전개"는 영웅 서사에서 흔하지만, 일반 굴림만으로는 성립하기 어려울 때가 많습니다. 마스터 개입을 사용하면 이런 전개를 조우의 맥락 안에서 자연스럽게 구성할 수 있습니다.
 
-This isn’t cheating—it’s the rules of the game. This rule simply replaces traditional dice rolling with good game mastering, logic, and intelligent storytelling. When a PC is climbing a burning rope, and everyone knows that it will break at some point, the game has a mechanism to ensure that it breaks at just the right time.
+예를 들어 PC들이 오크에게 포위됐고, 한 명은 치명상을 입었고 나머지도 부상 상태라고 합시다. 오크가 무거운 그물을 꺼냅니다. 굴림을 여러 번 시키고 탈출 규칙을 따로 계산하는 대신, 마스터 개입으로 "서 있는 PC들 위로 그물이 덮인다. 다른 오크들이 창을 겨눈다."고 처리할 수 있습니다. 이건 항복이 유력하거나 사실상 유일한 선택지라는 강한 신호입니다. 그래도 눈치를 안 채는 플레이어가 있다면, 추가 개입으로 "그물에 걸린 PC 중 하나의 머리를 오크가 후려쳐 기절시킨다." 같은 전개도 가능합니다. 그럼에도 항복하지 않는다면 그다음은 더 이상의 개입을 남발하기보다 조우를 정상적으로 진행하는 편이 낫습니다. 다만 오크가 PC를 생포하려는 상황이라면, 치명상 상태의 캐릭터를 기절 처리하는 판정은 충분히 합리적입니다.
 
-Variant: If you want more randomness in your game, or if you want your game to seem like more of a simulation, assign a flat percentage chance for whatever you’re trying to resolve. For example, each round, the star troopers have a 20% chance to blast through the door—or, if you want the risk to escalate, a cumulative 20% chance to blast through the door. By not using GM intrusion, this method robs the PCs of a few XP, but when they see you rolling dice, it might help with their immersion. Alternatively, you can pretend to roll dice but really use GM intrusion, though this method seriously robs the characters of XP.
+(마스터 개입은 전투 중에만 가능한 것이 아닙니다. 긴장감 있는 NPC 상호작용에서 개입이 들어가면 큰 파급을 만들 수 있습니다.)
 
-There’s a better way. Announce your intrusion, but say that there’s only a chance it will happen (state the percentage chance), and then roll the dice in plain view of everyone. If the intrusion occurs, award the XP as normal. This is likely the best of both worlds. However, it takes the narrative power out of your hands and gives it to the dice. Perhaps this method is best used only occasionally. If nothing else, it injects some variety and certainly some drama.
+### 해결 메커니즘으로서의 마스터 개입
 
+이 메커니즘은 게임 내 사건을 완전히 무작위에 맡기지 않고도 마스터가 결과를 정할 방법을 제공합니다. PC가 틀어박힌 방 문을 악당들이 부수려 한다고 합시다. 주사위를 여러 번 굴려 NPC 능력치와 문 능력치를 비교할 수도 있지만, 가장 흥미로운 순간까지 기다렸다가 "악당이 문을 뚫고 들어온다"로 처리하고, 문을 막으려 애쓴 PC에게 XP를 주는 방법도 있습니다. 후자가 사이퍼 시스템다운 방식입니다. 즉, 마스터 개입은 마스터용 **일 해결 도구**입니다. 수치 계산보다 서사적 선택을 우선합니다. (사실 오랜 세월 많은 뛰어난 마스터들이 이미 이런 방식으로 운영해 왔습니다. 주사위를 굴리거나 굴리는 척을 했어도, 실제로는 상황을 조절했죠.) 이 방식은 규칙 계산과 수치 조회 부담을 줄이고, 마스터가 이야기에 집중하게 해 줍니다.
 
-### Using (and Not Abusing) GM Intrusion 
+이는 부정행위가 아니라, 게임이 허용하는 정식 규칙입니다. 기존의 마스터 주사위 굴림 일부를 마스터의 논리적·서사적 판단으로 대체하는 방식입니다. 예를 들어 불붙은 밧줄을 타고 오르는 장면에서 모두가 밧줄의 파단 가능성을 인지하고 있다면, 규칙적으로 "가장 극적인 순간"에 사건을 발생시킬 수 있습니다.
 
-Too much of a good thing will make the game seem utterly unpredictable—even capricious. The ideal is to use about four GM intrusions per game session, depending on the length of the session, or about one intrusion per hour of game play. This is in addition to any intrusions that are triggered by players rolling a 1.
-
-### Intrusion Through Player Rolls
-When a PC rolls a 1, handle the GM intrusion the same way that you’d handle an intrusion you initiated. The intrusion could mean the PC fumbles or botches whatever they were trying to do, but it could mean something else. Consider these alternatives:
-* In combat, the PC’s foe is not as hurt as they thought. Give the foe 5 extra points of health.
-* In combat, the PC drops their guard, and the foe gets a free attack.
-* In combat, reinforcements for the PC’s foes show up.
-* In combat (or any stressful situation), an ally decides to flee.
-* In combat (or any stressful situation), an ally doesn’t like the PCs as much as they thought. The ally steals from them or betrays them.
-* Out of combat, the PC’s pack falls open, or the sole of their shoe tears open.
-* Out of combat, it begins to rain heavily.
-* Out of combat, a surprise foe appears, and the scene turns into a combat.
-* In an interaction, the GM introduces a surprising motive for the NPC. For example, the PCs are trying to bribe an official for information, and the official reveals that what they really want isn’t money but for someone to rescue their kidnapped son.
-(This might not be true of your players, but many players rarely, if ever, spend XP to refuse an intrusion from the GM, though they regularly use XP to avoid an intrusion that comes from a bad roll. And there’s nothing wrong with that. Some GMs might want to forbid using an XP to reroll a 1, but there’s really no point—if you’ve got an idea for a good intrusion, you don’t need to wait until a player rolls a 1 to use it.)
+변형 규칙: 더 많은 무작위성을 원하거나 게임을 더 시뮬레이션처럼 보이게 하고 싶다면, 해결하려는 사건에 고정 확률을 부여해도 됩니다. 예를 들어 라운드마다 적 돌격대가 문을 뚫을 확률을 20%로 두거나, 누적 20%로 올릴 수 있습니다. 다만 이 방법은 마스터 개입을 쓰지 않으므로 PC가 받을 XP 기회를 일부 잃습니다. 대신 마스터가 실제로 굴리는 모습을 보면 몰입이 좋아지는 그룹도 있습니다. 반대로 주사위를 굴리는 척하면서 실제론 개입으로 처리할 수도 있지만, 이 경우는 XP 측면에서 캐릭터에게 불리합니다.
 
+더 나은 절충안도 있습니다. "개입이 일어날 확률은 얼마"라고 공개 선언하고, 모두가 보는 앞에서 굴립니다. 실제로 개입이 발생하면 XP는 정상 지급합니다. 두 세계의 장점을 섞는 방식입니다. 다만 이 경우 서사 조율권 일부를 주사위에 넘기게 됩니다. 가끔씩 사용하는 변주로는 매우 좋고, 다양성과 긴장감을 더해 줍니다.
 
-### GM Intrusion That Affects the Group 
-The core of the idea behind GM intrusion is that the player being adversely affected gains an experience point. But what if the intrusion affects the whole group equally? What if the GM uses it to have an unstable device overload and explode, harming all the characters? In this case, if no PC is involved more than the others (for example, no single PC was frantically attempting to repair the device), you should give 1 XP to each character but not give any of them an extra XP to hand out to someone else.
-However, this kind of group intrusion should be an exception, not the rule. GM intrusions are much more effective if they are more personal.
+### 마스터 개입의 사용(남용 방지)
 
-### Example GM Intrusions
-It’s not a good idea to use the same events as GM intrusions over and over (“Dolmar dropped his sword again?”). Below are a number of different intrusions you can use.
+좋은 것도 과하면 게임이 완전히 예측 불가능하고 변덕스러워 보일 수 있습니다. 이상적인 빈도는 세션 길이에 따라 다르지만, 대략 세션당 4회 또는 실제 플레이 1시간당 1회 정도입니다. 이 수치는 플레이어가 순수 1을 굴려 자동 유발되는 개입과는 별개입니다.
 
-#### Bad Luck
-Through no fault of the characters, something happens that is bad or at least complicating. For example:
-* The floorboard beneath the PC gives way.
-* The boat lists to starboard at just the wrong moment.
-* A gust of wind blows the papers out of the character’s hand.
-* The buckle of the PC’s pack snaps at an inopportune time.
-* The NPC that the characters need to speak with is home sick today.
-* A device (cypher or artifact) malfunctions or gives the user a jolt.
+### 플레이어 굴림으로 유발되는 개입
 
-#### An Unknown Complication Emerges
-The situation was more complex (and therefore more interesting) than the PCs knew—perhaps even more than the GM knew, at least at the start. For example:
-* A poisonous snake darts out from the tall grass and attacks.
-* The box that holds the plans is trapped with a poison needle.
-* The NPC that the PCs need to befriend doesn’t speak their language.
-* The NPC that the PCs try to bribe is allergic to the bottle of alcohol they offer.
-* The PCs find the book they need, but the pages are so brittle that if they open it, it might crumble.
+PC가 순수 1을 굴렸을 때도, 마스터가 자발적으로 한 개입과 같은 방식으로 처리합니다. 꼭 "대실패"일 필요는 없고, 다른 전개여도 됩니다. 예시:
 
-#### An Impending Complication Emerges
-GMs can use this type of intrusion as a resolution mechanic to determine NPC success or failure. Rather than rolling dice to see how long it takes an NPC to rewire a damaged force field generator, it happens at a time of the GM’s choosing—ideally when it would be most interesting. For example:
-* The goblin reinforcements finally get through the locked door.
-* The ropes of the old rope bridge finally snap.
-* The city guards show up.
-vThe unstable ceiling collapses.
-* The NPC who holds a dagger to a character’s throat and says “Don’t move” cuts the PC when they do, in fact, move, putting them immediately at debilitated on the damage track.
+- 전투 중, PC가 생각한 것보다 적이 덜 다쳤습니다. 적의 체력을 5점 회복시킵니다.
+- 전투 중, PC가 빈틈을 보여 적이 무료 공격을 1회 합니다.
+- 전투 중, 적 증원이 도착합니다.
+- 전투(또는 긴박한 상황) 중, 아군 하나가 도망칩니다.
+- 전투(또는 긴박한 상황) 중, 아군이 PC를 배신하거나 물건을 훔칩니다.
+- 비전투 중, PC의 배낭이 열리거나 신발 밑창이 뜯어집니다.
+- 비전투 중, 갑자기 폭우가 내립니다.
+- 비전투 중, 기습 적이 나타나 장면이 전투로 전환됩니다.
+- 상호작용 중, NPC의 예상 밖 동기가 드러납니다. 예: 뇌물을 주려 했는데, NPC는 돈보다 납치된 아들을 구해 주길 원합니다.
+  (그룹마다 다르지만, 많은 플레이어는 마스터의 자발적 개입은 잘 거부하지 않으면서도, 나쁜 굴림에서 발생한 개입은 XP를 써서 자주 피하려 합니다. 그 자체는 문제 없습니다. 어떤 마스터는 "1 재굴림 금지"를 고민할 수 있지만, 굳이 그럴 필요는 없습니다. 좋은 개입 아이디어가 있다면 순수 1을 기다릴 이유가 없기 때문입니다.)
 
-#### Opponent Luck or Skill
-The PCs aren’t the only ones with surprising tricks up their sleeves. For example:
-* The PC’s opponent uses a lightning-fast maneuver to dodge all attacks.
-* The PC’s opponent sees an opening and makes an additional, immediate attack.
-* The NPC commander rallies their troops, who all deal 2 additional points of damage for one round.
-* The PC’s opponent uses a cypher or similar device that produces just the right effect for the situation.
-* A bit of the wall collapses in the middle of the fight, preventing the characters from chasing the fleeing NPC.
+### 그룹 전체에 영향을 주는 마스터 개입
 
-#### Fumbles
-Although you might not want every player roll of 1 to be a fumble, sometimes it could be just that. Alternatively, the GM could simply declare that a fumble has occurred. In either case, consider the following examples:
-* In combat, the PC drops their weapon.
-* In combat, the PC misses and strikes the wall, breaking or damaging their weapon.
-* In combat, the NPC hits the PC harder than usual, inflicting 2 additional points of damage.
-* In combat, the PC hits an ally by accident and inflicts regular damage.
-* Out of combat, the PC drops or mishandles an important object or piece of equipment.
-* In an interaction, the PC inadvertently or unknowingly says something offensive.
+마스터 개입의 핵심은 불이익을 받는 플레이어가 XP를 얻는다는 점입니다. 그런데 개입이 파티 전체에 동일하게 영향을 준다면 어떨까요? 예를 들어 불안정한 장치가 과부하로 폭발해 모든 캐릭터가 피해를 입는 경우입니다. 이때 특정 PC가 다른 이들보다 더 직접적으로 얽혀 있지 않다면(예: 누군가가 장치를 단독 수리 중이 아니었다면), 각 캐릭터에게 XP 1점씩만 주고, "다른 플레이어에게 1점 나눔"은 생략하세요.
 
-#### Partial Success
-GM intrusion doesn’t have to mean that a PC has failed. For example:
-* The PC disables the explosive device before it goes off, but if someone doesn’t remain and hold the detonator, it will still explode.
-* The PC creates the antidote, but it will turn the imbiber’s flesh blue for the next few weeks.
-* The PC jumps across the pit but accidentally knocks loose some stones from the edge, making the jump harder for their friend right behind them.
+다만 이런 그룹 개입은 원칙이 아니라 예외여야 합니다. 마스터 개입은 개인적일수록 더 효과적입니다.
 
-## PLAYER INTRUSIONS
+### 마스터 개입 예시
 
-Player intrusions give the players a small bit of narrative control over the world. However, the world still remains in the GM’s purview. You can always overrule a player intrusion, or suggest a way to massage it so that it fits better into the setting. Still, because it is indeed narrative control, a player intrusion should always involve a small aspect of the world beyond the character. “I punch my foe really hard” is an expression of Effort or perhaps character ability. “My foe slips and falls backward off the ledge” is a player intrusion.
+마스터 개입으로 같은 사건을 반복하는 것은 바람직하지 않습니다(예: "돌마르가 또 칼을 떨어뜨렸다"). 아래는 다양한 예시입니다.
 
-Player intrusions should never be as big as GM intrusions. They should not end an encounter, only (perhaps) provide the PC with the means to more easily end an encounter. They should not have a wide-reaching or even necessarily a long-term effect on the setting. A way to consider this might be that player intrusions can affect a single object (a floorboard snaps), feature (there’s a hidden shallow spot in the stream to ford), or NPC (the vendor is an old friend). But not more than that. A player intrusion can’t affect a whole village or even a whole tavern in that village. A rock can come loose, but a player intrusion can’t create a landslide.
+#### 불운
 
+캐릭터 잘못 없이도 나쁘거나 최소한 상황을 복잡하게 만드는 일이 생깁니다. 예:
 
-## Tying Actions to Stats
+- PC가 밟은 마룻장이 부서집니다.
+- 딱 좋지 않은 순간 배가 우현으로 기웁니다.
+- 강풍이 불어 캐릭터 손의 서류를 날려 버립니다.
+- 급한 순간 PC 배낭 버클이 끊어집니다.
+- 꼭 만나야 할 NPC가 오늘은 병가로 집에 있습니다.
+- 장치(사이퍼/아티팩트)가 오작동하거나 사용자를 감전시킵니다.
 
-Although the decision is open to your discretion, when a PC takes an action, it should be fairly obvious which stat is tied to that action. Physical actions that involve brute force or endurance use Might. Physical actions that involve quickness, coordination, or agility use Speed. Actions that involve intelligence, education, insight, willpower, or charm use Intellect.
+#### 미지의 복잡성 발생
 
-In rare instances, you could allow a PC to use a different stat for a task. For example, a character might try to break down a door by examining it closely for flaws and thus use Intellect rather than Might. This kind of change is a good thing because it encourages player creativity. Just don’t let it be abused by an exuberant or too-clever player. It’s well within your purview to decide that the door has no flaws, or to rule that the character’s attempt will take half an hour rather than one round. In other words, using a stat that is not the obvious choice should be the exception, not the rule.
+상황은 PC가 알았던 것보다(심지어 시작 시점의 마스터가 파악했던 것보다) 더 복잡하고 흥미로웠습니다. 예:
 
+- 키 큰 풀숲에서 독사가 튀어나와 공격합니다.
+- 설계도가 든 상자에 독침 함정이 있습니다.
+- PC가 친해져야 하는 NPC는 PC들의 언어를 못 합니다.
+- PC가 뇌물로 건넨 술에 NPC가 알레르기가 있습니다.
+- 필요한 책을 찾았지만 종이가 너무 약해 펼치면 부서질 수 있습니다.
 
-## Cyphers
-You should think of cyphers as character abilities, whether they’re subtle cyphers or manifest cyphers. This means that it is incumbent upon you to make sure that players always have plenty of cyphers to use. In the course of their travels, the PCs should find that cyphers are extremely common. And since the PCs are limited in the number of cyphers they can carry, they will use them liberally.
+#### 임박한 난관 발생
 
-Manifest cyphers can be found by scavenging through old ruins. They can be found in the corpses of magical or technological foes. They can be found among the possessions of intelligent fallen opponents or the lairs of unintelligent creatures, either amid the bones of former meals or as shiny decorations in a nest. They can be found in villages, in the back of a merchant’s cart that sells junk and scavenged parts. They are offered as rewards by people who are grateful for the PCs’ help.
+마스터는 이 유형 개입을 NPC 성공/실패를 정하는 해결 도구로 쓸 수 있습니다. 손상된 역장 발전기를 NPC가 언제 수리하는지 굴리기보다, 가장 흥미로운 시점에 완료되게 하세요. 예:
 
-Some adventures will offer more cyphers than others. Still, as a rule of thumb, in any given adventure, a character should use at least as many cyphers as they can carry. This means they should find that number of cyphers in that same amount of time (give or take). Thus, you can simply add up the number of cyphers the PCs can carry, and on average, they should find at least that many cyphers in a given adventure.
+- 고블린 증원이 잠긴 문을 결국 뚫고 들어옵니다.
+- 낡은 밧줄다리의 줄이 마침내 끊어집니다.
+- 도시 경비대가 들이닥칩니다.
+- 불안정한 천장이 무너집니다.
+- 캐릭터 목에 단검을 겨누고 "움직이지 마"라고 하던 NPC가, 실제로 움직인 순간 베어 버려 즉시 치명상 단계로 보냅니다.
 
-If your players are typical, they will use combat-related cyphers liberally but hold onto their utility cyphers. A ray emitter or defensive shield will be used, but a suspensor belt or phasing module will linger longer on their character sheets.
+#### 적의 운 또는 기량
 
-As with everything else in the game, it’s intentionally very easy for the GM to create new cyphers. Just think of the effect and how to express it as a game advantage. Two kinds of cyphers exist when it comes to effect: those that allow the user to do something better, and those that allow the user to do something they couldn’t do otherwise.
+기발한 수는 PC만 쓰는 것이 아닙니다. 예:
 
-The first group includes everything that reduces the difficulty of a task (including defense tasks). The second group includes things that grant new abilities, such as flight, a new means of attack, the ability to see into the past, or any number of other powers.
-A few more important notes about devising new cyphers:
-* Cyphers should be single-use items. The PCs use them up and find new ones.
-* Cyphers should be potent. A minor ability isn’t worth the trouble. If an attack cypher isn’t as good as a regular weapon, why bother with it?
-* Cyphers shouldn’t have drawbacks.
-* Cyphers should be temporary. Typically, a power is used once. Abilities or advantages that have a duration last from ten minutes to twenty-four hours (at most).
-* Manifest cyphers can take any form. Just make them appropriate to the genre.
+- PC의 적이 번개같은 기동으로 모든 공격을 회피합니다.
+- PC의 적이 틈을 보고 즉시 추가 공격을 합니다.
+- NPC 지휘관이 병력을 고무해, 아군 전체가 한 라운드 동안 피해 +2를 얻습니다.
+- PC의 적이 상황에 딱 맞는 사이퍼나 유사 장치를 사용합니다.
+- 전투 도중 벽 일부가 무너져 도주하는 NPC 추격이 막힙니다.
 
-(Cyphers teach GMs to design different kinds of scenarios—ones in which the whole adventure isn’t wrecked if a player has something that can solve a single problem (defeat a foe, read a mind, bypass a barrier, or whatever). There should always be more to the adventure than one linchpin encounter, obstacle, foe, or secret.)
+#### 대실수
 
-(It’s all right if players think of cyphers (especially manifest cyphers) as equipment or treasure. You should choose points in the course of the story that are appropriate for awarding subtle cyphers, especially if the PCs aren’t at their full capacity.)
+모든 순수 1을 대실수로 처리할 필요는 없지만, 때로는 그럴 수 있습니다. 또는 마스터가 대실수 발생을 직접 선언할 수도 있습니다. 예:
 
-## Artifacts
+- 전투 중, PC가 무기를 떨어뜨립니다.
+- 전투 중, PC가 빗맞혀 벽을 치고 무기를 파손합니다.
+- 전투 중, NPC가 평소보다 강하게 맞춰 추가 피해 2점을 줍니다.
+- 전투 중, PC가 실수로 아군을 맞혀 일반 피해를 줍니다.
+- 비전투 중, PC가 중요한 물건/장비를 떨어뜨리거나 잘못 다룹니다.
+- 상호작용 중, PC가 무심코 모욕적인 말을 합니다.
 
-In terms of the narrative, artifacts are a lot like cyphers, except that most are not one-use items. Mechanically, they serve a very different purpose. It’s assumed that characters are exploring with some cyphers at their disposal. Artifacts, however, are added abilities that make characters broader, deeper, and often more powerful. They aren’t assumed—they’re extra.
+#### 부분 성공
 
-The powers granted by artifacts are more like the abilities gained from a character’s type or focus in that they change the way the PC is played overall. The difference between an artifact and a type or focus ability is that almost all artifacts are temporary. They last longer than cyphers do, but because they have a depletion roll, any use could be their last.
+마스터 개입은 PC의 완전한 실패를 의미할 필요가 없습니다. 예:
 
-Like cyphers, then, artifacts are a way for the GM to play a role in the development of the characters. Although armor, weapons, and the like are fine, special capabilities—such as long-range communication or travel—can really change the way the PCs interact with the world and how they deal with challenges. Some of these abilities enable the actions you want the PCs to take. For example, if you want them to have an underwater adventure, provide them with artifacts (or cyphers) that allow them to breathe underwater.
+- PC가 폭발 장치를 폭발 전에 멈췄지만, 누군가가 남아 기폭기를 붙잡고 있지 않으면 결국 폭발합니다.
+- PC가 해독제를 만들었지만, 복용자는 몇 주간 피부가 파랗게 변합니다.
+- PC가 구덩이를 뛰어넘는 데 성공했지만 가장자리 돌을 떨어뜨려, 바로 뒤따르는 동료에게 점프 난이도를 올립니다.
 
-Also like cyphers, artifacts are simple for the GM to create. The only difference with artifacts is that you give them a depletion roll, using any numbers on 1d6, 1d10, 1d20, or 1d100. If you want the artifact to be used only a few times, give it a depletion roll of 1 in 1d6, 1 or 2 in 1d10, or even 1 or 2 in 1d6. If you want the PCs to use it over and over, a depletion roll of 1 in 1d100 more or less means that they can use it freely without worrying too much.
+## 플레이어 개입
 
-For examples of artifacts, see the Genres chapter.
+플레이어 개입은 플레이어에게 세계에 대한 제한적 서사 통제권을 부여합니다. 다만 세계의 최종 관할은 마스터에게 있습니다. 마스터는 플레이어 개입을 기각하거나, 설정에 맞게 조정할 수 있습니다. 또한 개입 범위는 캐릭터 바깥 세계의 작은 요소에 한정해야 합니다. "내가 적을 더 세게 친다"는 분발 또는 능력 사용이고, "적이 미끄러져 절벽 아래로 떨어진다"는 플레이어 개입에 해당합니다.
 
-(You may wish to forbid the use of XP to reroll artifact depletion rolls. That’s pretty reasonable.)
+플레이어 개입은 마스터 개입만큼 커져서는 안 됩니다. 조우를 끝내는 것이 아니라, 조우를 좀 더 쉽게 끝낼 **수단**을 제공하는 수준이어야 합니다. 배경 세계에 광범위하거나 장기적인 영향을 주어서도 안 됩니다. 감각적으로는, 플레이어 개입은 단일 사물(마룻장 하나가 부러짐), 단일 지형 요소(개울에 얕은 건널목 하나가 숨겨져 있음), 단일 NPC(상인이 옛 친구임) 정도를 다룰 수 있습니다. 그 이상은 어렵습니다. 마을 전체, 선술집 전체를 바꾸는 개입은 불가합니다. 돌 하나를 느슨하게 만들 수는 있어도 산사태를 만드는 건 불가합니다.
 
-## Skills and Other Abilities
+## 행동과 특성치 연결
 
-Sometimes, the rules speak directly to character creativity. For example, players can make up their own skills. It’s possible to have a skill called “tightrope walking” that grants a character a better chance to walk across a tightrope, and another skill called “balance” that gives a character a better chance to walk across a tightrope and perform other balance actions as well. This might seem unequal at first, but the point is to let players create precisely the characters they want. Should you let a character create a skill called “doing things” that makes them better at everything? Of course not. The GM is the final arbiter not only of logic but also of the spirit of the rules, and having one or two single skills that cover every contingency is clearly not in the spirit.
+최종 판단은 마스터 재량이지만, PC가 행동을 선언하면 어떤 특성치를 쓰는지 대체로 명확해야 합니다. 순수한 힘이나 지구력이 필요한 물리 행동은 **힘**, 민첩함·협응·기동성이 필요한 물리 행동은 **속력**, 지능·교육·통찰·의지·매력이 관련된 행동은 **지성**을 씁니다.
 
-It’s important that players play the character they want. This concept is supported not only with the open-ended skill system but also with the ability to get an experience point advance to tailor a character further. Likewise, the GM should be open to allowing a player to make small modifications to refine their character. In many cases, particularly ones that don’t involve stat Pools, Armor, damage inflicted, or the costs of Effort or special abilities, the answer from the GM should probably be “Sure, why not?” If a PC ends up being really good at a particular skill—better than they “should” be—what’s the harm? If Dave can swim incredibly well, how does that hurt the game in terms of the play experience or the story that develops? It doesn’t. If Helen can pick practically any mundane lock she finds, why is that a bad thing? In fact, it’s probably good for the game—there’s likely something interesting on the other sides of those doors.
+드물게는 다른 특성치를 허용할 수도 있습니다. 예를 들어 문을 부수는 대신 결함을 분석해 약점을 노린다면 힘 대신 지성으로 처리할 수 있습니다. 이런 변경은 플레이어 창의성을 장려하므로 긍정적입니다. 다만 과하게 영리한 플레이어에게 남용되지 않게 하세요. 문에 약점이 없다고 판정하거나, 그 시도가 1라운드가 아니라 30분이 걸린다고 판정하는 건 마스터 권한 안입니다. 즉, "명백한 선택이 아닌 특성치" 사용은 예외여야 하며 기본값이 되어선 안 됩니다.
 
-In a way, this is no different than adjudicating a not-so-straightforward solution to a challenge. Sometimes you have to say “No, that’s not possible.” But sometimes, if it makes sense, open yourself up to the possibility.
+## 사이퍼
 
+마스터는 사이퍼(미묘한 사이퍼든 구현형 사이퍼든)를 사실상 캐릭터 능력으로 생각하는 편이 좋습니다. 그래서 플레이어가 항상 충분한 사이퍼를 쓸 수 있게 공급하는 것이 중요합니다. 여행 중 PC들은 사이퍼를 매우 흔하게 발견해야 합니다. 그리고 휴대 가능한 수가 제한되어 있으므로 플레이어는 사이퍼를 아끼기보다 적극적으로 사용하게 됩니다.
 
-## NPCs and Death
+구현형 사이퍼는 오래된 폐허를 수색해 찾을 수 있습니다. 마법적/기술적 적의 시체에서 나올 수도 있습니다. 지성 있는 적의 유품이나 지성 없는 생물의 둥지(먹잇감 뼈 더미 사이 혹은 반짝이는 장식물)에도 있을 수 있습니다. 마을에서, 고철과 스크랩을 파는 상인의 수레 뒤편에서도 나올 수 있습니다. PC의 도움에 감사한 이들이 보상으로 주기도 합니다.
 
-As explained in the Rules of the Game chapter, NPCs have a health score rather than three stat Pools. When an NPC reaches 0 health, they are down. Whether that means dead, unconscious, or incapacitated depends on the circumstances as dictated by you and the players. Much of this can be based on logic. If the NPC is cut in half with a giant axe, they’re probably dead. If they’re mentally assaulted with a telepathic attack, they might be insane instead. If they’re hit over the head with a club, well, that’s your call.
+어떤 모험은 다른 모험보다 사이퍼를 더 많이 제공합니다. 그래도 경험칙으로, 한 모험 동안 캐릭터는 자신이 들 수 있는 만큼의 사이퍼를 최소한 한 번 이상은 사용하게 되는 편이 좋습니다. 즉 같은 시간 동안 그만큼(약간의 오차 포함) 다시 발견하게 해 주는 게 이상적입니다. 간단히 파티 전체 사이퍼 휴대 한도를 합산하고, 평균적으로 한 모험당 그 수 이상은 찾게 하세요.
 
-It depends on the intentions of those who are fighting the NPC, too. PCs who want to knock out a foe rather than kill them can simply state that as their intention and describe their actions differently—using the flat of the blade, so to speak.
+대부분의 그룹은 전투용 사이퍼는 잘 쓰고, 유틸리티 사이퍼는 아끼는 경향이 있습니다. 광선 방출기나 방어 방패는 즉시 쓰지만, 서스펜서 벨트나 위상 모듈은 캐릭터 시트에 오래 남아 있을 수 있습니다.
 
+다른 요소와 마찬가지로, 새로운 사이퍼를 만드는 일은 의도적으로 매우 간단합니다. 먼저 "어떤 효과를 줄지"를 정하고, 그걸 게임상 이점으로 표현하면 됩니다. 효과 기준으로 사이퍼는 크게 두 부류입니다.
 
-## Creatures
+1. 사용자가 기존 행동을 더 잘하게 하는 것
+2. 원래 못 하던 일을 가능하게 하는 것
 
-Whenever possible, creatures should be handled like other NPCs. They don’t follow the same rules as the player characters. If anything, they should have greater latitude in doing things that don’t fit the normal mold. A many-armed beast should be able to attack multiple foes. A charging rhino-like animal ought to be able to move a considerable distance and attack as part of a single action.
+첫 부류에는 일 난이도(방어 일 포함)를 낮추는 모든 효과가 들어갑니다. 두 번째 부류에는 비행, 새로운 공격 수단, 과거를 보는 능력 등 새로운 능력 부여가 포함됩니다.
 
-Consider creature size very carefully. For those that are quick and hard to hit, hinder attacks against them. Large, strong creatures should be easier to hit, so ease attacks against them. However, you should freely give the stagger ability to anything twice as large as a human. This means that if the creature strikes a foe, the target must make an immediate Might defense roll or lose its next turn.
+새 사이퍼 설계 시 추가로 중요한 점:
 
-A creature’s level is a general indicator of its toughness, combining aspects of power, defense, intelligence, speed, and more into one rating. In theory, a small creature with amazing powers or extremely deadly venom could be high level, and a huge beast that isn’t very bright and isn’t much of a fighter could be low level. But these examples go against type. Generally, smaller creatures have less health and are less terrifying in combat than larger ones.
+- 사이퍼는 기본적으로 일회용이어야 합니다. 쓰고, 다시 찾습니다.
+- 사이퍼는 강력해야 합니다. 사소한 능력은 쓸 이유가 없습니다. 공격용 사이퍼가 일반 무기보다 약하면 의미가 없습니다.
+- 사이퍼에는 패널티를 붙이지 않는 것이 좋습니다.
+- 사이퍼는 일시적이어야 합니다. 보통 한 번 쓰고 끝납니다. 지속형 효과라도 보통 10분~24시간(최대) 내에서 끝납니다.
+- 구현형 사이퍼의 형태는 자유롭습니다. 장르에 맞게만 만드세요.
 
-The Cypher System has no system for building creatures. There is no rule that says a creature with a certain ability should be a given level, and there is no rule dictating how many abilities a creature of a given level should have. But keep the spirit of the system in mind. Lower-level creatures are less dangerous. A level 1 creature could be poisonous, but its venom should inflict a few points of damage at most. The venom of a level 6 creature, however, might knock a PC down a step on the damage track or put them into a coma if they fail a Might defense roll. A low-level creature might be able to fly, phase through objects, or teleport because these abilities make it more interesting but not necessarily more dangerous. The value of such abilities depends on the creature that uses them. In other words, a phasing rodent is not overly dangerous, but a phasing battle juggernaut is terrifying. Basic elements such as health, damage, and offensive or defensive powers (such as poison, paralysis, disintegration, immunity to attacks, and so on) need to be tied directly to level—higher-level creatures get better abilities and more of them.
+(사이퍼는 마스터에게 시나리오 설계 감각도 가르쳐 줍니다. 플레이어가 단일 문제 해결 수단(적 처치, 독심, 장애물 우회 등) 하나를 가지고 있다고 해서 모험 전체가 무너지지 않게 설계해야 한다는 감각입니다. 모험에는 언제나 단일 핵심 장면, 단일 장애물, 단일 적, 단일 비밀 이상의 요소가 있어야 합니다.)
 
+(플레이어가 사이퍼, 특히 구현형 사이퍼를 장비나 보물처럼 여겨도 괜찮습니다. 미묘한 사이퍼는 이야기 흐름상 자연스러운 지점에서, 특히 PC가 휴대 한도에 못 미칠 때 지급하세요.)
 
-## Balancing Encounters
-In the Cypher System, there is no concept of a “balanced encounter.” There is no system for matching creatures of a particular level or tasks of a particular difficulty to characters of a particular tier. To some people, that might seem like a bad thing. But matching character builds to exacting challenges is not part of this game. It’s about story. So whatever you want to happen next in the story is a fine encounter as long as it’s fun. You’re not denying the characters XP if you make things too easy or too difficult, because that’s not how XP are earned. If things are too difficult for the PCs, they’ll have to flee, come up with a new strategy, or try something else entirely. The only thing you have to do to maintain “balance” is set difficulty within that encounter accurately and consistently.
+## 아티팩트
 
-In a game like the Cypher System, if everyone’s having fun, the game is balanced. Two things will unbalance the game in this context.
+서사적으로 아티팩트는 사이퍼와 비슷하지만, 대부분 일회용은 아닙니다. 메커니즘상 목적은 크게 다릅니다. 캐릭터는 탐험 중 어느 정도 사이퍼를 가지고 있다고 가정합니다. 반면 아티팩트는 캐릭터를 더 넓고 깊고, 대개 더 강하게 만들어 주는 **추가 능력**입니다. 기본 전제가 아니라 보너스입니다.
 
-One or more PCs are far more interesting than the others. Note that it says “more interesting,” not “more powerful.” If my character can do all kinds of cool things but can’t destroy robots as efficiently as yours does, I still might have a whole lot of fun.
+아티팩트가 주는 힘은 캐릭터의 유형/특징 능력처럼 플레이 방식 자체를 바꿉니다. 차이는 아티팩트 대부분이 임시적이라는 점입니다. 사이퍼보다 오래가지만, 고갈 굴림이 있으므로 어느 사용이든 마지막 사용이 될 수 있습니다.
 
-The challenges the PCs face are routinely too easy or too difficult.
+즉 아티팩트도 사이퍼와 마찬가지로 캐릭터 성장에 마스터가 개입하는 방식입니다. 갑옷, 무기 등도 좋지만, 장거리 통신이나 장거리 이동 같은 특별 역량은 PC가 세계와 상호작용하고 난관을 푸는 방식을 크게 바꿉니다. 이런 역량 중 일부는 마스터가 원하는 플레이를 가능하게 해 줍니다. 예를 들어 수중 모험을 원한다면 수중 호흡이 가능한 아티팩트(또는 사이퍼)를 제공하면 됩니다.
 
-The first issue should be handled by the character creation rules. If there’s a problem, it might be that poor choices were made or a player isn’t taking full advantage of their options. If someone really doesn’t enjoy playing their character, allow them to alter the PC or—perhaps better—create a new one.
+아티팩트도 만들기 쉽습니다. 차이는 **고갈 굴림**을 붙인다는 점뿐입니다. 1d6, 1d10, 1d20, 1d100 중 원하는 주사위를 쓰세요.
 
-The second issue is trickier. As previously stated, there is no formula that states that N number of level X NPCs are a good match for tier Y characters. However, when the game has four or five beginning characters, the following guidelines are generally true.
+- 몇 번만 쓰게 하고 싶다면: 1d6에서 1, 또는 1d10에서 1~2, 혹은 1d6에서 1~2
+- 오래 반복 사용하게 하고 싶다면: 1d100에서 1  
+  이 정도면 거의 부담 없이 자유롭게 쓰게 둘 수 있습니다.
 
-- Level 1 opponents will be nothing but a nuisance, even in sizable numbers (twelve to sixteen).
-- Level 2 opponents will not be a challenge unless in numbers of twelve or more.
-- Level 3 opponents will be an interesting challenge in numbers of four to eight.
-- Level 4 opponents will be an interesting challenge in numbers of two or three.
-- A single level 5 opponent might be an interesting challenge.
-- A single level 6 opponent will be a serious challenge.
-- A single level 7 or 8 opponent will likely win in a fight.
-- A single level 9 or 10 opponent will win in a fight without breaking a sweat.
+아티팩트 예시는 `장르` 장을 참고하세요.
 
-But it depends on the situation at hand. If the PCs are already worn down from prior encounters, or if they have the right cyphers, any of the expectations listed above can change. That’s why there is no system for balancing encounters. Just keep in mind that beginning characters are pretty hardy and probably have some interesting resources, so you aren’t likely to wipe out the group by accident. Character death is unlikely unless the PCs have already been through a number of other encounters and are worn down.
+(아티팩트 고갈 굴림에는 XP 재굴림을 금지하고 싶을 수 있습니다. 충분히 합리적인 선택입니다.)
+
+## 기능과 기타 능력
+
+규칙은 때때로 캐릭터 창의성을 직접 장려합니다. 예를 들어 플레이어는 자신만의 기능을 만들 수 있습니다. "줄타기"라는 기능이 줄타기 성공률을 올려 줄 수 있고, "균형 감각"이라는 기능은 줄타기뿐 아니라 다른 균형 행동에도 적용될 수 있습니다. 얼핏 불균형해 보여도 핵심 목적은 플레이어가 원하는 캐릭터를 정확히 만들게 하는 데 있습니다. 그렇다면 "만능으로 뭐든 잘하기" 같은 기능도 허용해야 할까요? 당연히 아닙니다. 마스터는 논리뿐 아니라 규칙 정신의 최종 판정자이며, 모든 상황을 한두 기능으로 덮는 건 명백히 규칙 정신에 어긋납니다.
+
+플레이어가 원하는 캐릭터를 플레이하는 것은 중요합니다. 이는 열린 기능 시스템과 XP 향상을 통한 세부 조정 구조로 뒷받침됩니다. 같은 맥락에서 마스터도 캐릭터 미세 조정에는 유연하게 대응하는 편이 좋습니다. 특히 특성치 역량, 장갑, 피해량, 분발/특수 능력 비용과 직접 연결되지 않는 조정이라면 허용 여지가 큽니다. 특정 PC가 한 기능을 약간 더 잘하는 것만으로 게임이 훼손되지는 않습니다. 오히려 해당 캐릭터의 개성을 강화하고, 장면 전개를 더 흥미롭게 만들 수 있습니다.
+
+이런 판단은 비정형 문제 해결 판정과 본질적으로 같습니다. 때로는 "불가능하다"라고 명확히 말해야 하지만, 설정과 논리에 맞는 시도라면 가능성을 열어 두는 것이 좋습니다.
+
+## NPC와 죽음
+
+`게임의 규칙` 장에서 설명했듯, NPC는 세 특성치 역량 대신 **체력** 점수를 가집니다. NPC 체력이 0이 되면 전투 불능입니다. 그것이 사망인지, 기절인지, 무력화인지는 상황과 마스터/플레이어의 합의에 달려 있습니다. 상당수는 상식적으로 판정하면 됩니다. 거대한 도끼에 몸이 반으로 잘렸다면 아마 사망입니다. 텔레파시 공격으로 정신을 난타당했다면 정신이 붕괴된 상태일 수 있습니다. 몽둥이로 머리를 맞았다면? 그건 장면 맥락에 맞춰 판정하세요.
+
+NPC와 싸우는 쪽의 의도도 중요합니다. 적을 죽이는 대신 기절시키고 싶다면 PC가 그 의도를 선언하고 행동 묘사를 바꾸면 됩니다. 예를 들어 칼날 면이 아니라 납작한 등 부분으로 때리는 식입니다.
+
+## 생물
+
+가능하면 생물도 다른 NPC처럼 다루세요. 생물은 PC와 같은 규칙을 따르지 않습니다. 오히려 정형화된 규칙 틀에 덜 묶여 더 자유롭게 행동하는 편이 자연스럽습니다. 팔이 많은 짐승은 여러 적을 동시에 공격할 수 있어야 합니다. 코뿔소 같은 돌진형 동물은 한 번의 행동으로 큰 거리를 이동하고 공격까지 해야 어울립니다.
+
+생물 크기는 신중하게 고려하세요. 빠르고 맞히기 어려운 생물은 해당 대상에 대한 공격을 불리하게 조정하고, 크고 강한 생물은 상대적으로 맞히기 쉽도록 유리하게 조정합니다. 또한 인간의 두 배쯤 되는 거대한 생물이라면 **비틀거리게 함** 능력을 부여해도 좋습니다. 이 경우 생물에게 적중당한 대상은 즉시 힘 방어 판정을 해야 하며, 실패하면 다음 차례를 잃습니다.
+
+생물 레벨은 강함의 일반 지표로, 공격력·방어력·지능·속도 등 여러 요소를 하나의 등급으로 묶은 값입니다. 이론적으로는 매우 강한 능력이나 치명적 독을 지닌 작은 생물이 고레벨일 수도 있고, 거대하지만 지능과 전투력이 낮은 생물이 저레벨일 수도 있습니다. 다만 이런 경우는 전형적이지 않습니다. 일반적으로 작은 생물은 체력이 낮고, 큰 생물보다 전투 위협도 낮습니다.
+
+사이퍼 시스템에는 생물 "제작 공식"이 없습니다. 어떤 능력이 있으면 반드시 몇 레벨이어야 한다는 규칙도, 특정 레벨 생물이 반드시 몇 개 능력을 가져야 한다는 규칙도 없습니다. 대신 시스템의 정신을 따르세요. 저레벨 생물은 덜 위험해야 합니다. 레벨 1 생물도 독을 가질 수 있지만 최대 몇 점 피해 수준이어야 합니다. 반면 레벨 6 생물의 독은 힘 방어 실패 시 PC를 부상 트랙 한 단계 내리거나 혼수상태로 만들 수도 있습니다. 저레벨 생물이 비행, 위상 통과, 순간이동을 갖는 건 가능합니다. 그런 능력은 흥미를 높이지만 반드시 위험도를 크게 올리진 않습니다. 능력의 가치는 그걸 쓰는 생물의 기본 성능에 좌우됩니다. 즉 위상 통과 쥐는 크게 위협적이지 않지만, 위상 통과 전투 요새급 괴물은 끔찍합니다. 체력, 피해, 공격/방어 특수 능력(독, 마비, 분해, 면역 등) 같은 핵심 요소는 레벨과 직접 연결하세요. 고레벨 생물일수록 능력이 더 강하고 더 많아야 합니다.
+
+## 조우 밸런스
+
+사이퍼 시스템에는 "밸런스 조우"라는 고정 개념이 없습니다. 특정 레벨 생물이나 특정 난이도 일을 특정 등급 캐릭터에 맞춰 매칭하는 공식이 없습니다. 어떤 사람에겐 단점처럼 보일 수 있지만, 이 게임은 캐릭터 빌드를 정확히 맞춘 도전 설계가 핵심이 아닙니다. 핵심은 이야기입니다. 다음 이야기 전개에 맞고 재미있다면 좋은 조우입니다. 너무 쉽거나 너무 어렵게 냈다고 해서 XP를 박탈하는 구조도 아닙니다. XP는 그런 방식으로 얻지 않기 때문입니다. 조우가 PC에게 너무 어렵다면 도망치거나, 전략을 바꾸거나, 전혀 다른 접근을 시도하면 됩니다. "균형"을 유지하기 위해 마스터가 해야 할 일은 조우 내 난이도를 정확하고 일관되게 판정하는 것입니다.
+
+사이퍼 시스템에서는 모두가 재미있으면 그 자체로 균형이 잡힌 게임입니다. 여기서 균형을 무너뜨리는 요소는 보통 둘입니다.
+
+한 명 이상 PC가 나머지보다 훨씬 더 "흥미롭다". 여기서 핵심은 "더 강하다"가 아니라 "더 흥미롭다"입니다. 내 캐릭터가 로봇 파괴력은 낮아도 멋진 걸 많이 할 수 있다면 충분히 재미있을 수 있습니다.
+
+PC가 맞닥뜨리는 난관이 반복적으로 너무 쉽거나 너무 어렵다.
+
+첫 번째 문제는 보통 캐릭터 생성 규칙에서 해결됩니다. 문제가 있다면 선택이 잘못됐거나, 플레이어가 옵션을 충분히 활용하지 못했을 수 있습니다. 누군가 자기 캐릭터 플레이를 정말 재미없어한다면 캐릭터를 수정하게 하거나, 더 나아가 새 캐릭터를 만들게 하세요.
+
+두 번째 문제는 더 까다롭습니다. 앞서 말했듯 "레벨 X NPC N마리 = 등급 Y 캐릭터 적정" 같은 공식은 없습니다. 다만 시작 캐릭터 4~5명 기준으로는 다음 지침이 대체로 맞습니다.
+
+- 레벨 1 적은 수가 많아도(12~16) 성가신 정도입니다.
+- 레벨 2 적은 12마리 이상이 아니면 큰 도전이 아닙니다.
+- 레벨 3 적은 4~8마리면 흥미로운 도전이 됩니다.
+- 레벨 4 적은 2~3마리면 흥미로운 도전이 됩니다.
+- 레벨 5 적 한 명은 흥미로운 도전이 될 수 있습니다.
+- 레벨 6 적 한 명은 심각한 도전입니다.
+- 레벨 7~8 적 한 명은 전투에서 승리할 가능성이 높습니다.
+- 레벨 9~10 적 한 명은 여유 있게 승리할 가능성이 높습니다.
+
+다만 결국은 상황에 달려 있습니다. PC들이 이전 조우로 지쳐 있거나, 반대로 적절한 사이퍼를 갖추고 있다면 위 기대치는 크게 달라질 수 있습니다. 그래서 "조우 밸런스 공식"이 없습니다. 다만 시작 캐릭터도 꽤 튼튼하고 흥미로운 자원을 어느 정도 갖고 있다는 점을 기억하세요. 보통은 실수로 파티를 전멸시키기 어렵습니다. 캐릭터 사망은 대개 PC가 여러 조우를 이미 겪어 많이 소모된 상황에서 발생합니다.

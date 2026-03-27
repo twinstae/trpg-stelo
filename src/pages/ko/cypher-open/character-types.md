@@ -6,717 +6,790 @@ createdAt: "2022-11-11T20:34:17.231Z"
 publish: false
 ---
 
-Character type is the core of your character. Your type helps determine your character’s place in the world and relationship with other people in the setting. It’s the noun of the sentence “I am an adjective noun who verbs.”
+캐릭터 유형은 캐릭터의 핵입니다. 유형은 세계 안에서의 위치와 설정 속 다른 사람들과의 관계를 잡는 데 도움이 됩니다. “나는 형용사한 명사이며 동사한다”에서 명사에 해당합니다.
 
-(In some roleplaying games, your character type might be called your character class.)
+(어떤 롤플레잉 게임에서는 캐릭터 유형을 캐릭터 클래스라 부릅니다.)
 
-You can choose from four character types: Warrior, Adept, Explorer, and Speaker. However, you may not want to use these generic names for them. This chapter offers a few more specific names for each type that might be more appropriate to various genres. You’ll find that names like “Warrior” or “Explorer” don’t always feel right, particularly in games set in modern times. As always, you’re free to do as you wish. (Your type is who your character is. You should use whatever name you want for your type, as long as it fits both your character and the setting.)
+당신의 가지 캐릭터 유형—전사, 어뎁트, 탐험가, 스피커—중에서 고를 수 있습니다. 다만 이 일반적인 이름을 그대로 쓰고 싶지 않을 수도 있습니다. 이 장에서는 장르마다 더 어울릴 만한 구체적인 호칭 예를 유형별로 제시합니다. “전사”나 “탐험가” 같은 말이 항상 잘 맞는 것은 아니며, 특히 현대를 배경으로 한 게임에서 그렇습니다. 언제나 마음대로 해도 됩니다. (유형이 곧 캐릭터가 누구인지입니다. 캐릭터와 설정에 맞기만 하면 유형 이름은 무엇이든 써도 좋습니다.)
 
-Since the type is the basis upon which your whole character is built, it’s important to consider how the type relates to the chosen setting. To help with this, types are actually general archetypes. A Warrior, for example, might be anyone from a knight in shining armor to a cop on the streets to a grizzled cybernetic veteran of a thousand futuristic wars. 
+유형은 캐릭터 전체의 뼈대이므로, 선택한 설정과 어떻게 맞물리는지 생각해 보는 것이 중요합니다. 이를 위해 유형은 실제로 넓은 **원형** 입니다. 예를 들어 전사는 빛나는 갑옷의 기사부터 거리의 순경, 수많은 미래 전쟁을 겪은 사이버네틱 노병까지 누구든 될 수 있습니다.
 
-To further massage the four types for better use in various settings, different methods called flavors are presented in Flavors to help slightly tailor the types toward fantasy, science fiction, or other genres (or to address different character concepts).
+당신의 유형을 여러 설정에 더 잘 맞게 다듬으려면, 「플레이버(Flavors)」에 나오는 **플레이버** 라는 방법으로 판타지·SF 등 장르에 맞게 살짝 조정하거나(또는 다른 캐릭터 컨셉에 맞게) 쓸 수 있습니다.
 
-Finally, more fundamental options for further customization are provided at the end of this chapter.
+마지막으로, 이 장 끝에는 더 근본적인 맞춤 옵션을 실었습니다.
 
 ## 플레이어 개입
-A player intrusion is the player choosing to alter something in the campaign, making things easier for a player character. Conceptually, it is the reverse of a GM intrusion: instead of the GM giving the player XP and introducing an unexpected complication for a character, the player spends 1 XP and presents a solution to a problem or complication. What a player intrusion can do usually introduces a change to the world or current circumstances rather than directly changing the character. For instance, an intrusion indicating that the cypher just used still has an additional use would be appropriate, but an intrusion that heals the character would not. If a player has no XP to spend, they can’t use a player intrusion.
-
-A few player intrusion examples are provided under each type. That said, not every player intrusion listed there is appropriate for all situations. The GM may allow players to come up with other player intrusion suggestions, but the GM is the final arbiter of whether the suggested intrusion is appropriate for the character’s type and suitable for the situation. If the GM refuses the intrusion, the player doesn’t spend the 1 XP, and the intrusion doesn’t occur.
-
-Using an intrusion does not require a character to use an action to trigger it. A player intrusion just happens.
-
-(Player intrusions should be limited to no more than one per player per session.)
-
-## WARRIOR
-- **Fantasy/Fairy tale**: Warrior, fighter, swordsman, knight, barbarian, soldier, myrmidon, valkyrie
-- **Modern/Horror/Romance**: police officer, soldier, watchman, detective, guard, brawler, tough, athlete
-- **Science fiction**: security officer, warrior, trooper, soldier, merc
-- **Superhero/Post-Apocalyptic**: hero, brick, bruiser
-
-You’re a good ally to have in a fight. You know how to use weapons and defend yourself. Depending on the genre and setting in question, this might mean wielding a sword and shield in the gladiatorial arena, an AK-47 and a bandolier of grenades in a savage firefight, or a blaster rifle and powered armor when exploring an alien planet.
-Individual Role: Warriors are physical,
-action-oriented people. They’re more likely to overcome a challenge using force than by other means, and they often take the most straightforward path toward their goals. 
-Group Role: Warriors usually take and deal the most punishment in a dangerous situation. Often it falls on them to protect the other group members from threats. This sometimes means that warriors take on leadership roles as well, at least in combat and other times of danger.
-Societal Role: Warriors aren’t always soldiers or mercenaries. Anyone who is ready for violence, or even potential violence, might be a Warrior in the general sense. This includes guards, watchmen, police officers, sailors, or people in other roles or professions who know how to defend themselves with skill. 
-Advanced Warriors: As warriors advance, their skill in battle—whether defending themselves or dishing out damage—increases to impressive levels. At higher tiers, they can often take on groups of foes by themselves or stand toe to toe with anyone.
-
-### Warrior Background Connection
-Your type helps determine the connection you have to the setting. Roll a d20 or choose from the following list to determine a specific fact about your background that provides a connection to the rest of the world. You can also create your own fact.
-
-| d20 | Background                                                                                                                                 |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1   | You were in the military and have friends who still serve.  Your former commander remembers you well.                                      |  |
-| 2   | You were the bodyguard of a wealthy woman who accused you of theft. You left her service in disgrace.                                      |
-| 3   | You were the bouncer in a local bar for a while, and the patrons there remember you.                                                       |
-| 4   | You trained with a highly respected mentor  They regard you well, but they have many enemies.                                              |
-| 5   | You trained in an isolated monastery. The monks think of you as a brother, but you’re a stranger to all others.                            |
-| 6   | You have no formal training. Your abilities come to you naturally (or unnaturally).                                                        |
-| 7   | You spent time on the streets and were in prison for a while.                                                                              |
-| 8   | You were conscripted into military service, but you deserted before long.                                                                  |
-| 9   | You served as a bodyguard to a powerful criminal who now owes you their life.                                                              |
-| 10  | You worked as a police officer or constable of some kind. Everyone knows you, but their opinions of you vary.                              |
-| 11  | Your older sibling is an infamous character who has been disgraced.                                                                        |
-| 12  | You served as a guard for someone who traveled extensively. You know a smattering of people in many locations.                             |
-| 13  | Your best friend is a teacher or scholar. They are a great source of knowledge.                                                            |
-| 14  | You and a friend both smoke the same kind of rare, expensive tobacco. The two of you get together weekly to chat and smoke.                |
-| 15  | Your uncle runs a theater in town. You know all the actors and watch all the shows for free.                                               |
-| 16  | Your craftsman friend sometimes calls on you for help. However, they pay you well.                                                         |
-| 17  | Your mentor wrote a book on martial arts. Sometimes people seek you out to ask about its stranger passages.                                |
-| 18  | Someone you fought alongside in the military is now the mayor of a nearby town.                                                            |
-| 19  | You saved the lives of a family when their house burned down. They’re indebted to you, and their neighbors regard you as a hero.           |
-| 20  | Your old trainer still expects you to come back and clean up after their classes; when you do, they occasionally share interesting rumors. |
-
-
-
-
-### WARRIOR PLAYER INTRUSIONS
-You can spend 1 XP to use one of the following player intrusions, provided the situation is appropriate and the GM agrees.
-Perfect Setup: You’re fighting at least three foes and each one is standing in exactly the right spot for you to use a move you trained in long ago, allowing you to attack all three as a single action. Make a separate attack roll for each foe. You remain limited by the amount of Effort you can apply on one action.
-Old Friend: A comrade in arms from your past shows up unexpectedly and provides aid in whatever you’re doing. They are on a mission of their own and can’t stay longer than it takes to help out, chat for a while after, and perhaps share a quick meal.
-Weapon Break: Your foe’s weapon has a weak spot. In the course of the combat, it quickly becomes damaged and moves two steps down the object damage track.
-
-### WARRIOR STAT POOLS
-| Stat Pool | Starting Value |
-| --------- | -------------- |
-| Might     | 10             |
-| Speed     | 10             |
-| Intellect | 8              |
-
-You get 6 additional points to divide among your stat Pools however you wish.
-
-#### 1등급 WARRIOR
-1등급 warriors have the following abilities:
-Effort: Your Effort is 1.
-Physical Nature: You have a Might Edge of 1 and a Speed Edge of 0, or you have a Might Edge of 0 and a Speed Edge of 1. Either way, you have an Intellect Edge of 0.
-Cypher Use: You can bear two cyphers at a time.
-Weapons: You become practiced with light, medium, and heavy weapons and suffer no penalty when using any kind of weapon. Enabler.
-Starting Equipment: Appropriate clothing and two weapons of your choice, plus one expensive item, two moderately priced items, and up to four inexpensive items.
-Special Abilities: Choose four of the abilities listed below. You can’t choose the same ability more than once unless its description says otherwise. The full description for each listed ability can be found in Abilities, which also has descriptions for flavor and focus abilities in a single vast catalog.
-Bash
-Combat Prowess
-Control the Field
-Improved Edge
-No Need for Weapons
-Overwatch
-Physical Skills
-Practiced in Armor
-Quick Throw
-Swipe
-Trained Without Armor
-
-#### 2등급 WARRIOR
-Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Crushing Blow
-Hemorrhage
-Reload
-Skill With Attacks
-Skill With Defense
-Successive Attack
-
-#### 3등급 WARRIOR
-Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Deadly Aim
-Energy Resistance
-Experienced in Armor
-Expert Cypher Use
-Fury
-Lunge
-Reaction
-Seize the Moment
-Slice
-Spray
-Trick Shot
-Vigilance
-
-#### 4등급 WARRIOR
-Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Amazing Effort
-Capable Warrior
-Experienced Defender
-Feint
-Increased Effects
-Momentum
-Pry Open
-Snipe
-Tough As Nails
-
-#### 5등급 WARRIOR
-Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Adroit Cypher Use
-Arc Spray
-Improved Success
-Jump Attack
-Mastery in Armor
-Mastery With Attacks
-Mastery With Defense
-Parry
-(Remember that at higher tiers, you can choose special abilities from lower tiers. This is sometimes the best way to ensure that you have exactly the character you want. This is particularly true with abilities that grant skills, which can usually be taken multiple times.)
-
-#### 6등급 WARRIOR
-Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Again and Again
-Finishing Blow
-Magnificent Moment
-Murderer
-Spin Attack
-Weapon and Body
-
-<div class="shadow-xl">
-
-### WARRIOR EXAMPLE
-
-Ray wants to create a Warrior character for a modern campaign. He decides that the character is an ex-military fellow who is fast and strong. He puts 3 of his additional points into his Might Pool and 3 into his Speed Pool; his stat Pools are now Might 13, Speed 13, and Intellect 8. As a 1등급 character, his Effort is 1, his Might Edge is 1, and his Speed Edge and Intellect Edge are both 0. His character is not particularly smart or charismatic.
-
-He wants to use a large combat knife (a medium weapon that inflicts 4 points of damage) and a .357 Magnum (a heavy pistol that inflicts 6 points of damage but requires the use of both hands). Ray decides not to wear armor, as it’s not really appropriate to the setting, so for his first ability, he chooses Trained Without Armor so he eases Speed defense actions. For his second ability, he chooses Combat Prowess so he can inflict extra damage with his big knife. 
-
-Ray wants to be fast as well as tough, so he selects Improved Edge. This gives him a Speed Edge of 1. He rounds out his character with Physical Skills and chooses swimming and running.
-
-The Warrior can bear two cyphers. The GM decides that Ray’s first cypher is a pill that restores 6 points of Might when swallowed, and his second is a small, easily concealed grenade that explodes like a firebomb when thrown, inflicting 3 points of damage to all within immediate range. 
-
-Ray still needs to choose a descriptor and a focus. Looking ahead to the descriptor rules, Ray chooses Strong, which increases his Might Pool to 17. He also becomes trained in jumping and breaking inanimate objects. (If he had chosen jumping as one of his physical skills, the Strong descriptor would have made him specialized in jumping instead of trained.) Being Strong also gives Ray an extra medium or heavy weapon. He chooses a baseball bat that he’ll use in a pinch. He keeps it in the trunk of his car.
-
-For his focus, Ray chooses Masters Weaponry. This gives him yet another weapon of high quality. He chooses another combat knife and asks the GM if he could use it in his left hand—not to make attacks, but as a shield. This will ease his Speed defense rolls if he has both knives out (the “shield” counts as an asset). The GM agrees. During the game, Ray’s Warrior will be hard to hit—he is trained in Speed defense rolls, and his extra knife eases his defense rolls by another step.
-
-Thanks to his focus, he also inflicts 1 additional point of damage with his chosen weapon. Now he inflicts 6 points of damage with his blade. Ray’s character is a deadly combatant, likely starting the game with a reputation as a knife fighter.
-
-For his character arc, Ray chooses Defeat a Foe. That foe, he decides, is none other than someone in his company who was once a friend but went rogue.
-
-</div>
-
-## 어뎁트(ADEPT)
-- **Fantasy/Fairy tale**: wizard, mage, sorcerer, cleric, druid, seer, diabolist, fey-touched
-- **Modern/Horror/Romance**: psychic, occultist, witch, practitioner, medium, fringe scientist
-- **Science fiction**: psion, psionicist, telepath, seeker, master, scanner, ESPer, abomination
-- **Superhero/Post-Apocalyptic**: mage, sorcerer, power-wielder, master, psion, telepath
-
-You master powers or abilities outside the experience, understanding, and sometimes belief of others. They might be magic, psychic powers, mutant abilities, or just a wide variety of intricate devices, depending on the setting. (“Magic” here is a term used very loosely. It’s a catch-all for the kinds of wondrous, possibly supernatural things that your character can do that others cannot. It might actually be an expression of technological devices, channeling spirits, mutations, psionics, nanotechnology, or any number of other sources.)
-Individual Role: Adepts are usually thoughtful, intelligent types. They often think carefully before acting and rely heavily on their supernatural abilities.
-Group Role: Adepts are not powerful in straightforward combat, although they often wield abilities that provide excellent combat support, both offensively and defensively. They sometimes possess abilities that facilitate overcoming challenges. For example, if the group must get through a locked door, an Adept might be able to destroy it or teleport everyone to the other side. 
-Societal Role: In settings where the supernatural is rare, strange, or feared, Adepts are likely rare and feared as well. They remain hidden, shadowy figures. When this is not the case, Adepts are more likely to be common and forthright. They might even take leadership roles.
-Advanced Adepts: Even at low tiers, Adept powers are impressive. Higher-tier Adepts can accomplish amazing deeds that can reshape matter and the environment around them.
-(Adepts are almost always emblematic of the paranormal or superhuman in some way—wizards, psychics, or something similar. If the game you’re playing has none of that, an Adept could be a charlatan mimicking such abilities with tricks and hidden devices, or a gadgeteer character with a “utility belt” full of oddments. Or a game like that might not have Adepts. That’s okay too.)
-
-### ADEPT PLAYER INTRUSIONS
-When playing an Adept, you can spend 1 XP to use one of the following player intrusions, provided the situation is appropriate and the GM agrees.
-Advantageous Malfunction: A device being used against you malfunctions. It might harm the user or one of their allies for a round, or activate a dramatic and distracting side effect for a few rounds.
-Convenient Idea: A flash of insight provides you with a clear answer or suggests a course of action with regard to an urgent question, problem, or obstacle you’re facing.
-Inexplicably Unbroken: An inactive, ruined, or presumed-destroyed device temporarily activates and performs a useful function relevant to the situation. This is enough to buy you some time for a better solution, alleviate a complication that was interfering with your abilities, or just get you one more use out of a depleted cypher or artifact.
-
-### ADEPT STAT POOLS
-Stat
-Pool Starting Value
-Might
-7
-Speed
-9
-Intellect
-12
-
-
-
-You get 6 additional points to divide among your stat Pools however you wish.
-
-### Adept Background Connection
-Your type helps determine the connection you have to the setting. Roll a d20 or choose from the following list to determine a specific fact about your background that provides a connection to the rest of the world. You can also create your own fact.
-
-| d20 | Background                                                                                                                                                        |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | You served as an apprentice for an Adept respected and feared by many people  Now you bear their mark.                                                            |
-| 2   | You studied in a school infamous for its dark, brooding instructors and graduates.                                                                                |
-| 3   | You learned your abilities in the temple of an obscure god. Its priests and worshippers, although small in number, respect and admire your talents and potential. |
-| 4   | While traveling alone, you saved the life of a powerful person. They remain indebted to you.                                                                      |
-| 5   | Your mother was a powerful Adept while she lived, helpful to many locals. They look upon you kindly, but they also expect much from you.                          |
-| 6   | You owe money to a number of people and don’t have the funds to pay your debts.                                                                                   |
-| 7   | You failed disgracefully at your initial studies with your teacher and now proceed on your own.                                                                   |
-| 8   | You learned your skills faster than your teachers had ever seen before. The powers that be took notice and are paying close attention.                            |
-| 9   | You killed a well-known criminal in self-defense, earning the respect of many and the enmity of a dangerous few.                                                  |
-| 10  | You trained as a Warrior, but your Adept predilections eventually led you down a different path. Your former comrades don’t understand you, but they respect you. |
-| 11  | While studying to be an Adept, you worked as an assistant for a bank, making friends with the owner and the clientele.                                            |
-| 12  | Your family owns a large vineyard nearby known to all for its fine wine and fair business dealings.                                                               |
-| 13  | You trained for a time with a group of influential Adepts, and they still look upon you with fondness.                                                            |
-| 14  | You worked the gardens in the palace of an influential noble or person of wealth. They wouldn’t remember you, but you made friends with their young daughter.     |
-| 15  | An experiment you conducted in the past went horribly awry. The locals remember you as a dangerous and foolhardy individual.                                      |
-| 16  | You hail from a distant place where you were well known and regarded, but people here treat you with suspicion.                                                   |
-| 17  | People you meet seem put off by the strange birthmark on your face.                                                                                               |
-| 18  | Your best friend is also an Adept. You and your friend share discoveries and secrets readily.                                                                     |
-| 19  | You know a local merchant very well. Since you give them so much business, they offer you discounts and special treatment.                                        |
-| 20  | You belong to a secretive social club that gathers monthly to drink and talk.                                                                                     |
-
-
-
-#### 1등급 ADEPT
-1등급 Adepts have the following abilities:
-Effort: Your Effort is 1. 
-Genius: You have an Intellect Edge of 1, a Might Edge of 0, and a Speed Edge of 0. 
-Expert Cypher Use: You can bear three cyphers at a time. 
-Starting Equipment: Appropriate clothing, plus two expensive items, two moderately priced items, and up to four inexpensive items of your choice.
-Weapons: You can use light weapons without penalty. You have an inability with medium weapons and heavy weapons; your attacks with medium and heavy weapons are hindered.
-Special Abilities: Choose four of the abilities listed below. You can’t choose the same ability more than once unless its description says otherwise. The full description for each listed ability can be found in Abilities, which also has descriptions for flavor and focus abilities in a single vast catalog. (Adept abilities require at least one free hand unless the GM says otherwise.)
-Distortion
-Erase Memories 
-Far Step
-Hedge Magic
-Magic Training
-Onslaught
-Push
-Resonance Field
-Scan
-Shatter
-Ward
-
-#### 2등급 ADEPT
-Choose one of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Adaptation
-Cutting Light
-Hover
-Mind Reading 
-Retrieve Memories
-Reveal
-Stasis
-
-#### 3등급 ADEPT
-Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Adroit Cypher Use
-Countermeasures
-Energy Protection
-Fire and Ice
-Force Field Barrier
-Sensor
-Targeting Eye
-
-#### 4등급 ADEPT
-Choose one of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Death Touch
-Exile
-Invisibility
-Matter Cloud
-Mind Control
-Projection
-Rapid Processing 
-Regeneration
-Reshape
-Wormhole
-
-#### 5등급 ADEPT
-Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Absorb Energy
-Concussion
-Conjuration
-Create
-Dust to Dust 
-Knowing the Unknown
-Master Cypher Use
-Teleportation
-True Senses
-
-#### 6등급 ADEPT
-Choose one of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Control Weather
-Earthquake
-Move Mountains
-Traverse the Worlds
-Usurp Cypher
-
-<div class="shadow-xl">
-
-### ADEPT EXAMPLE
-
-Jen wants to create an Adept—a sorcerer for a fantasy campaign. She decides to be somewhat well rounded, so she puts 2 of her additional points into each stat Pool, giving her a Might Pool of 9, a Speed Pool of 11, and an Intellect Pool of 14. Her Adept is smart and quick. She has an Intellect Edge of 1, a Might Edge of 0, and a Speed Edge of 0. As a 1등급 character, her Effort is 1. As her initial abilities, she chooses Onslaught and Ward, giving her a strong offense and defense. She also chooses Magic Training and rounds out her character with Scan, which she hopes will be useful in gaining insight and information. For this character, Onslaught, Ward, and Scan are all spells she has mastered through years of training and study.
-
-She can bear three cyphers. The GM gives her a potion that acts as a short-range teleporter, a small charm that restores 5 points to her Intellect Pool, and a fluid-filled flask that explodes like a fiery bomb. Jen’s sorcerer is skilled with light weapons, so she chooses a dagger. 
-
-For her descriptor, Jen chooses Graceful, which adds 2 points to her Speed Pool, bringing it to 13. That descriptor means she is trained in balancing and anything requiring careful movements, physical performing arts, and Speed defense tasks. Perhaps she is a dancer. In fact, she begins to develop a backstory that involves graceful, lithe movements that she incorporates into her spells.
-
-For her focus, she chooses Leads. This gives her training in social interactions, which again helps round her out—she’s good in all kinds of situations. Moreover, she has the Good Advice ability, which enables her to be a focal point of her group.
-
-Her spells and focus abilities cost Intellect points to activate, so she’s glad to have a lot of points in her Intellect Pool. In addition, her Intellect Edge will help reduce those costs. If she uses her Onslaught force blast without applying Effort, it costs 0 Intellect points and deals 4 points of damage. Her Intellect Edge will allow her to save points to devote toward applying Effort for other purposes, perhaps to boost the accuracy of Onslaught.
-
-For her character arc, Jen chooses Aid a Friend. She decides that when her sorcerer character was young, she had a magical mentor. That mentor was later taken prisoner by a demon, so her character is always looking for clues on how to find the demon and release her friend from bondage.
-
-(GMs are always free to pre-select a type’s special abilities at a given tier to reinforce the setting. In the fantasy setting of Jen’s sorcerer, the GM might have said that all sorcerers (Adepts) start with Magic Training as one of their tier 1 abilities. This doesn’t make the character any less powerful or special, but it says something about her role in the world and expectations in the game.)
-</div>
-
-## EXPLORER
-- **Fantasy/Fairy tale**: Explorer, adventurer, delver, mystery seeker
-- **Modern/Horror/Romance**: athlete, explorer, adventurer, drifter, detective, scholar, spelunker, trailblazer, investigative reporter
-- **Science fiction**: Explorer, adventurer, wanderer, planetary specialist, xenobiologist
-- **Superhero/Post-Apocalyptic**: adventurer, crimefighter
-
-You are a person of action and physical ability, fearlessly facing the unknown. You travel to strange, exotic, and dangerous places, and discover new things. This means you’re physical but also probably knowledgeable.
-Individual Role: Although Explorers can be academics or well studied, they are first and foremost interested in action. They face grave dangers and terrible obstacles as a routine part of life. 
-Group Role: Explorers sometimes work alone, but far more often they operate in teams with other characters. The Explorer frequently leads the way, blazing the trail. However, they’re also likely to stop and investigate anything intriguing they stumble upon. 
-Societal Role: Not all Explorers are out traipsing through the wilderness or poking about an old ruin. Sometimes, an Explorer is a teacher, a scientist, a detective, or an investigative reporter. In any event, an Explorer bravely faces new challenges and gathers knowledge to share with others.
-Advanced Explorers: Higher-tier Explorers gain more skills, some combat abilities, and a number of abilities that allow them to deal with danger. In short, they become more and more well-rounded, able to deal with any challenge.
-
-
-### EXPLORER PLAYER INTRUSIONS
-When playing an Explorer, you can spend 1 XP to use one of the following player intrusions, provided the situation is appropriate and the GM agrees.
-Fortuitous Malfunction: A trap or a dangerous device malfunctions before it can affect you.
-Serendipitous Landmark: Just when it seems like the path is lost (or you are), a trail marker, a landmark, or simply the way the terrain or corridor bends, rises, or falls away suggests to you the best path forward, at least from this point.
-Weak Strain: The poison or disease turns out not to be as debilitating or deadly as it first seemed, and inflicts only half the damage that it would have otherwise.
-
-### EXPLORER STAT POOLS
-Stat
-Pool Starting Value
-Might
-10
-Speed
-9
-Intellect
-9
-
-
-
-You get 6 additional points to divide among your stat Pools however you wish.
-
-### Explorer Background Connection
-Your type helps determine the connection you have to the setting. Roll a d20 or choose from the following list to determine a specific fact about your background that provides a connection to the rest of the world. You can also create your own fact.
-
-d20
-Background
-1
-You were a star high school athlete. You’re still in great shape, but those were the glory days, man.
-2
-Your brother is the lead singer in a really popular band.
-3
-You have made a number of discoveries in your explorations, but not all opportunities to capitalize on them have panned out yet.
-4
-You were a cop, but you gave it up after encountering corruption on the force.
-5
-Your parents were missionaries, so you spent much of your young life traveling to exotic places.
-6
-You served in the military with honor.
-7
-You received assistance from a secretive organization, which paid for your schooling. Now they seem to want a lot more from you.
-8
-You went to a prestigious university on an athletic scholarship, but you excelled in class as well as on the field.
-9
-Your best friend from your youth is now an influential member of the government.
-10
-You used to be a teacher. Your students remember you fondly.
-11
-You worked as a small-time criminal operative until you were caught and served some time in jail, after which you tried to go straight.
-12
-Your greatest discovery to date was stolen by your arch-rival.
-13
-You belong to an exclusive organization of Explorers whose existence is not widely known.
-14
-You were kidnapped as a small child under mysterious circumstances, although you were recovered safely. The case still has some notoriety.
-15
-When you were young, you were addicted to narcotics, and now you are a recovering addict.
-16
-While exploring a remote location, you saw something strange you’ve never been able to explain.
-17
-You own a small bar or restaurant.
-18
-You published a book about some of your exploits and discoveries, and it has achieved some acclaim.
-19
-Your sister owns a store and gives you a hefty discount.
-20
-Your father is a high-ranking officer in the military with many connections.
-
-
-
-
-#### 1등급 EXPLORER
-1등급 Explorers have the following abilities:
-Effort: Your Effort is 1.
-Physical Nature: You have a Might Edge of 1, a Speed Edge of 0, and an Intellect Edge of 0.
-Cypher Use: You can bear two cyphers at a time.
-Starting Equipment: Appropriate clothing and a weapon of your choice, plus two expensive items, two moderately priced items, and up to four inexpensive items.
-Weapons: You can use light and medium weapons without penalty. You have an inability with heavy weapons; your attacks with heavy weapons are hindered.
-Special Abilities: Choose four of the abilities listed below. You can’t choose the same ability more than once unless its description says otherwise. The full description for each listed ability can be found in Abilities, which also has descriptions for flavor and focus abilities in a single vast catalog.
-Block
-Danger Sense
-Decipher
-Endurance
-Find the Way
-Fleet of Foot
-Improved Edge
-Knowledge Skills
-Muscles of Iron
-No Need for Weapons
-Physical Skills
-Practiced in Armor
-Practiced With All Weapons
-Surging Confidence
-Trained Without Armor
-
-#### 2등급 EXPLORER
-Choose four of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Curious
-Danger Instinct
-Enable Others
-Escape
-Eye for Detail 
-Foil Danger
-Hand to Eye
-Investigative Skills
-Quick Recovery
-Range Increase
-Skill With Defense
-Stand Watch
-Travel Skills
-Wreck
-
-#### 3등급 EXPLORER
-Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Controlled Fall
-Experienced in Armor
-Expert Cypher Use
-Ignore the Pain
-Obstacle Running
-Resilience
-Run and Fight
-Seize the Moment
-Skill With Attacks
-Stone Breaker
-Think Your Way Out
-Trapfinder
-Wrest From Chance
-
-#### 4등급 EXPLORER
-Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Capable Warrior
-Expert Skill
-Increased Effects
-Read the Signs
-Runner
-Subtle Steps
-Tough As Nails
-
-#### 5등급 EXPLORER
-Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Adroit Cypher Use
-Free to Move
-Group Friendship
-Hard to Kill
-Jump Attack
-Mastery With Defense
-Parry
-Physically Gifted
-Take Command
-Vigilant
-
-#### 6등급 EXPLORER
-Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Again and Again
-Inspire Coordinated Actions
-Mastery in Armor
-Mastery With Attacks
-Negate Danger
-Share Defense
-Spin Attack
-Wild Vitality
-
-<div class="shadow-xl">
-
-### EXPLORER EXAMPLE
-Sam decides to create an Explorer character for a science fiction campaign. This character will be a hardy soul who explores alien worlds. They put 3 additional points into their Might Pool, 2 into their Speed Pool, and 1 into their Intellect Pool; their stat Pools are now Might 13, Speed 11, and Intellect 10. As a 1등급 character, their Effort is 1, their Might Edge is 1, and their Speed Edge and Intellect Edge are 0. Their character is fairly well-rounded so far.
-
-Sam immediately leaps in and starts choosing abilities. They pick Danger Sense and Surging Confidence, thinking those abilities will be generally useful. They also choose Practiced in Armor, reasoning that the character wears high-tech medium armor when exploring. Last, they choose Knowledge Skills and select geology and biology to help during interplanetary explorations. 
-
-Sam’s Explorer can bear two cyphers, which in this setting involve nanotechnology. The GM decides that one is a nanite injector that grants a +1 bonus to Might Edge when used, and the other is a device that can create one simple handheld object the user wishes. 
-
-Sam’s Explorer is not really geared toward fighting, but sometimes the universe is a dangerous place, so they note that they’re carrying a medium blaster as well.
-
-Sam still needs a descriptor and a focus. Looking to the Descriptor chapter, they choose Hardy, which increases their Might Pool to 17. They also heal more quickly and can operate better when injured. They’re trained in Might defense but have an inability with initiative; however, it’s effectively canceled out by their Danger Sense (and vice versa). Sam could go back and select something else instead of Danger Sense, but they like it and decide to keep it. Overall, the descriptor ends up making the character tough but a little slow.
-
-For their focus, Sam chooses Explores Dark Places (in this case, weird ruins of alien civilizations). This gives the character a bunch of additional skills: searching, listening, climbing, balancing, and jumping. They’re quite the capable Explorer.
-
-For their character arc, Sam chooses Enterprise. Exploring alien places sometimes turns up strange relics, and Sam figures they might be able to set up a service to reliably transport these items to responsible third parties, rather than allow them to fall into the hands of pirates and rich private collectors. For a small fee, of course.
-
-</div>
-
-## SPEAKER
-- **Fantasy/Fairy tale**: bard, speaker, skald, emissary, priest, advocate
-- **Modern/Horror/Romance**: diplomat, charmer, face, spinner, manipulator, minister, mediator, lawyer
-- **Science fiction**: diplomat, empath, glam, consul, legate
-- **Superhero/Post-Apocalyptic**: charmer, mesmerist, puppet master
-
-You’re good with words and good with people. You talk your way past challenges and out of jams, and you get people to do what you want.
-Individual Role: Speakers are smart and charismatic. They like people and, more important, they understand them. This helps speakers get others to do what needs to be done. 
-Group Role: The Speaker is often the face of the group, serving as the person who speaks for all and negotiates with others. Combat and action are not a Speaker’s strong suits, so other characters sometimes have to defend the Speaker in times of danger.
-Societal Role: Speakers are frequently political or religious leaders. Just as often, however, they are con artists or criminals. 
-Advanced Speakers: Higher-tier speakers use their abilities to control and manipulate people as well as aid and nurture their friends. They can talk their way out of danger and even use their words as weapons.
-
-### SPEAKER PLAYER INTRUSIONS
-When playing a Speaker, you can spend 1 XP to use one of the following player intrusions, provided the situation is appropriate and the GM agrees.
-Friendly NPC: An NPC you don’t know, someone you don’t know that well, or someone you know but who hasn’t been particularly friendly in the past chooses to help you, though doesn’t necessarily explain why. Maybe they’ll ask you for a favor in return afterward, depending on how much trouble they go to.
-Perfect Suggestion: A follower or other already-friendly NPC suggests a course of action with regard to an urgent question, problem, or obstacle you’re facing.
-Unexpected Gift: An NPC hands you a physical gift you were not expecting, one that helps put the situation at ease if things seem strained, or provides you with a new insight for understanding the context of the situation if there’s something you’re failing to understand or grasp.
-
-### SPEAKER STAT POOLS
-Stat
-Pool Starting Value
-Might
-8
-Speed
-9
-Intellect
-11
-
-
-
-You get 6 additional points to divide among your stat Pools however you wish. 
-
-### Speaker Background Connection
-Your type helps determine the connection you have to the setting. Roll a d20 or choose from the following list to determine a specific fact about your background that provides a connection to the rest of the world. You can also create your own fact.
-
-d20
-Background
-1
-One of your parents was a famous entertainer in their early years and hoped you would excel in the same medium.
-2
-When you were a teenager, one of your siblings went missing and is presumed dead. The shock rent your family, and it’s something you’ve never gotten over.
-3
-You were inducted into a secret society that claims to hold and protect esoteric knowledge opposing the forces of evil.
-4
-You lost one of your parents to alcoholism. They may still be alive, but you’d be hard pressed to find forgiveness.
-5
-You have no memory of anything that happened to you before the age of 18.
-6
-Your grandparents raised you on a farm far from bustling urban centers. You like to think the instruction they gave you prepared you for anything.
-7
-As an orphan, you had a difficult childhood, and your entry into adulthood was challenging.
-8
-You grew up in extreme poverty, among criminals. You still have some connections with the old neighborhood.
-9
-You served as an envoy for a powerful and influential person in the past, and they still look upon you with favor.
-10
-You have an annoying rival who always seems to get in your way or foil your plans.
-11
-You’ve worked yourself into the position of spokesperson for an organization or company of some importance.
-12
-Your neighbors were murdered, and the mystery remains unsolved.
-13
-You have traveled extensively, and during that time you accumulated quite a collection of strange souvenirs.
-14
-Your childhood sweetheart ended up with your best friend (now your ex-best friend).
-15
-You are part of a maligned minority, but you work to bring the injustice of your status to public attention.
-16
-You’re part owner of a local bar, where you’re something of a whiz in creating specialty cocktails.
-17
-You once ran a con that cheated important people out of money, and they want revenge. 
-18
-You used to act in a traveling theater, and they remember you fondly (as do people in the places you visited).
-19
-You are in a close romantic relationship with someone in local politics.
-20
-Someone out there tries to pose as you, using your identity, often for nefarious ends. You’ve never met the culprit, but you’d certainly like to.
-
-
-
-
-#### 1등급 SPEAKER
-1등급 speakers have the following abilities:
-Effort: Your Effort is 1.
-Genius: You have an Intellect Edge of 1, a Might Edge of 0, and a Speed Edge of 0.
-Cypher Use: You can bear two cyphers at a time.
-Weapons: You can use light weapons without penalty. You have an inability with medium and heavy weapons; your attacks with medium and heavy weapons are hindered.
-Starting Equipment: Appropriate clothing and a light weapon of your choice, plus two expensive items, two moderately priced items, and up to four inexpensive items.
-Special Abilities: Choose four of the abilities listed below. You can’t choose the same ability more than once unless its description says otherwise. The full description for each listed ability can be found in Abilities, which also has descriptions for flavor and focus abilities in a single vast catalog. (Some Speaker abilities, like Mind Reading or True Senses, imply a supernatural element. If this is inappropriate to the character or the setting, these abilities can be replaced with something from the stealth flavor, or the GM can slightly modify them so they are based in extraordinary talents and insight rather than the supernatural.)
-Anecdote
-Babel
-Demeanor of Command
-Encouragement
-Enthrall
-Erase Memories
-Fast Talk
-Inspire Aggression
-Interaction Skills
-Practiced With Medium Weapons 
-Spin Identity
-Terrifying Presence
-Understanding
-
-#### 2등급 SPEAKER
-Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Basic Follower
-Calm Stranger
-Disincentivize
-Gather Intelligence
-Impart Ideal
-Inspiring Ease
-Interaction Skills
-Practiced in Armor
-Skill With Defense
-Speedy Recovery
-Unexpected Betrayal
-
-#### 3등급 SPEAKER
-Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Accelerate
-Blend In
-Discerning Mind
-Expert Cypher Use
-Expert Follower
-Grand Deception
-Lead by Inquiry
-Mind Reading
-Oratory
-Perfect Stranger
-Quick Wits
-Telling
-
-#### 4등급 SPEAKER
-Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Anticipate Attack
-Confounding Banter
-Feint
-Heightened Skills
-Psychosis
-Read the Signs
-Spur Effort
-Strategize
-Suggestion
-
-#### 5등급 SPEAKER
-Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Adroit Cypher Use
-Discipline of Watchfulness
-Experienced in Armor
-Flee
-Foul Aura 
-Knowing the Unknown
-Regeneration
-Skill With Attacks
-Stimulate
-
-#### 6등급 SPEAKER
-Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
-Assume Control
-Battle Management
-Crowd Control
-Inspiring Success
-Recruit Deputy
-Shatter Mind
-True Senses
-Word of Command
-
-SPEAKER EXAMPLE
-Mary wants to create a Speaker for a Lovecraftian horror campaign. She puts 3 of her additional stat points into her Intellect Pool and 3 into her Speed Pool; her stat Pools are now Might 8, Speed 12, and Intellect 14. As a 1등급 character, her Effort is 1, her Might Edge and Speed Edge are 0, and her Intellect Edge is 1. She’s smart and charismatic but not particularly tough.
-Mary chooses Fast Talk and Spin Identity to help get into places and learn things she wants to know. She’s a bit of a con artist. She’s good to her friends, however, and chooses Encouragement as well. Mary rounds out her 1등급 abilities with Interaction Skills (deceiving and persuasion).
-A Speaker normally starts with two cyphers, but the GM rules that characters in this campaign start with only one—something creepy relating to their background. Mary’s cypher is an odd pocket watch given to her by her grandfather. She doesn’t know how or why, but when activated, the watch allows her to take twice as many actions for three rounds.
-Mary’s character carries a small knife hidden in her bag in case of trouble. As a light weapon, it inflicts 2 points of damage, but attacks with it are eased.
-Mary chooses Resilient for her descriptor and decides that she can probably learn the truth behind some of the strange things that she’s heard about without feeling too much trauma if it’s horrible. Resilient increases her Might Pool to 10 and her Intellect Pool to 16. She’s trained in Might and Intellect defense actions and gains an extra recovery roll each day. At first, Mary is sad that her descriptor gives her an inability in knowledge and puzzle tasks, but then she realizes that the flaw fits her character well—she’s better at getting people to tell her what she needs to know than at figuring out the information herself.
-For her focus, Mary chooses Moves Like a Cat, granting her a final Speed Pool of 18 and training in balance. In the end, she’s graceful and quick, charismatic, and hardier than she initially thought thanks to her drive. She’s ready to investigate the weird.
-For her character arc, Mary chooses Fall From Grace. She decides she’s had an obsession with a strange tome that’s been in her family for generations, and her character is drawn to its strange languages and rituals.
-
-
-## FURTHER CUSTOMIZATION
-The rules in this section are more advanced and always involve the GM. They can be used by the GM to tailor a type to better fit the genre or setting, or by a player and a GM to tweak a character to fit a concept.
-
-### MODIFYING TYPE ASPECTS
-The following aspects of the four character types can be modified at character creation. Other abilities should not be changed.
-Stat Pools: Each character type has a starting stat Pool value. A player can exchange points between their Pools on a one-for-one basis. For example, they can trade 2 points of Might for 2 points of Speed. However, no starting stat Pool should be higher than 20.
-Edge: A player can start with an Edge of 1 in whichever stat they wish.
-Cypher Use: If a character gives up the ability to bear one cypher, they gain an additional skill of their choice.
-Weapons: Some types have static 1등급 abilities that let them use light, medium, and/or heavy weapons without a penalty. Warriors can use all weapons, Explorers can use light and medium weapons, and Adepts and Speakers can use light weapons. Any one of these weapon abilities can be sacrificed to gain training in a different skill of the player’s choice.
-
-### DRAWBACKS AND PENALTIES
-In addition to other customization options, a player can choose to take drawbacks or penalties to gain further advantages.
-Weakness: A weakness is, essentially, the opposite of Edge. If you have a weakness of 1 in Speed, all Speed actions that require you to spend points cost 1 additional point from your Pool. At any time, a player can give their character a weakness in one stat and, in exchange, gain +1 to their Edge in one of the other two stats. So a PC can take a weakness of 1 in Speed to gain +1 to their Might Edge.
-Normally, you can have a weakness only in a stat in which you have an Edge of 0. Further, you can’t have more than one weakness, and you can’t have a weakness greater than 1 unless the additional weakness comes from another source (such as a disease or disability arising from actions or conditions in the game).
-Inabilities: Inabilities are like negative skills. They make one type of task harder by hindering it. If a character chooses to take an inability, they gain a skill of their choice. Normally, a character can have only one inability unless the additional inability comes from another source (such as a descriptor or a disease or disability arising from actions or conditions in the game).
+
+플레이어 개입은 플레이어가 캠페인 속 무언가를 바꾸기로 선택해, 플레이어 캐릭터에게 유리하게 만드는 것입니다. 개념상 마스터 개입의 반대입니다. 마스터가 플레이어에게 XP를 주고 캐릭터에게 뜻밖의 난관을 덧붙이는 대신, 플레이어는 XP 1점을 쓰고 문제나 난관에 대한 해결을 제시합니다. 플레이어 개입이 할 수 있는 일은 보통 캐릭터를 직접 바꾸기보다 세계나 지금 상황에 변화를 주는 쪽입니다. 예를 들어 방금 쓴 사이퍼에 아직 한 번 더 쓸 여지가 있다는 식의 개입은 적절하지만, 캐릭터를 치유하는 개입은 적절하지 않습니다. 쓸 XP가 없으면 플레이어 개입을 쓸 수 없습니다.
+
+유형마다 플레이어 개입 예가 몇 가지 적혀 있지만, 거기 나온 것이 모든 상황에 맞는 것은 아닙니다. 마스터는 다른 개입안을 내게 할 수 있지만, 제안이 그 캐릭터 유형과 상황에 맞는지 최종 판단은 마스터가 합니다. 마스터가 거부하면 플레이어는 XP 1점을 쓰지 않고, 개입도 일어나지 않습니다.
+
+개입을 쓰려고 행동을 쓸 필요는 없습니다. 플레이어 개입은 그냥 일어납니다.
+
+(플레이어 개입은 플레이어당 세션에 한 번 이하로 제한하는 것이 좋습니다.)
+
+## 전사(Warrior)
+
+- **판타지/동화** : 전사, 파이터, 검사, 기사, 야만인, 병사, 미르미돈, 발키리
+- **현대/공포/로맨스** : 경찰관, 병사, 파수꾼, 탐정, 경비, 싸움꾼, 강한 녀석, 운동선수
+- **SF** : 보안관, 전사, 보병, 용병 등
+- **슈퍼히어로/포스트아포** : 히어로, 브릭, 브루저
+
+싸움에서 믿을 만한 동료입니다. 무기를 다루고 자신을 지키는 법을 압니다. 장르와 설정에 따라 검과 방패를 검투장에서 휘두르거나, 격전에서 AK-47과 유탄 밴돌리에, 외계 행성 탐사에서 블래스터 소총과 동력 갑옷을 쓰는 식이 될 수 있습니다.
+
+**개인 역할** : 전사는 육체적이고 행동 지향적인 사람입니다. 난관을 다른 수단보다 힘으로 넘기려 하고, 목표를 향해 가장 직선적인 길을 택하는 편입니다.
+
+**집단 역할** : 위험한 상황에서 보통 가장 맞고 가장 때립니다. 동료를 위협으로부터 지키는 일이 자주 그들에게 달라붙습니다. 전투와 위기의 순간에는 리더 역할을 맡기도 합니다.
+
+**사회적 역할** : 전사가 항상 군인이나 용병은 아닙니다. 폭력에 대비하거나 잠재적 폭력까지 염두에 둔 사람은 넓은 의미에서 전사일 수 있습니다. 경비, 파수, 경찰, 선원, 또는 스스로를 지키는 법을 익힌 다른 직업의 사람들이 포함됩니다.
+
+**고등급 전사** : 등급이 오를수록 방어와 공격 모두 전투 기량이 인상적인 수준으로 올라갑니다. 높은 등급에서는 적 무리를 홀로 상대하거나 누구와도 정면으로 맞설 수 있습니다.
+
+### 전사 배경 연결
+
+유형은 설정과의 연결을 정하는 데 도움이 됩니다. d20을 굴리거나 아래 목록에서 고르거나, 직접 사실을 만들어도 됩니다.
+
+| d20 | 배경                                                                                |
+| --- | ----------------------------------------------------------------------------------- |
+| 1   | 군에 있었고 아직 복무 중인 친구가 있다. 전 지휘관은 당신을 잘 기억한다.             |
+| 2   | 부유한 여성의 보디가드였는데 도둑질로 몰렸다. 수치를 안고 그만두었다.               |
+| 3   | 한동안 동당신의 술집에서 바운서를 했고, 단골들이 당신을 기억한다.                   |
+| 4   | 존경받는 스승 밑에서 수련했다. 스승은 당신을 좋게 보지만 적이 많다.                 |
+| 5   | 외딴 수도원에서 수련했다. 수사들은 형제처럼 여기지만, 밖 사람들에게는 낯선 존재다.  |
+| 6   | 정식 수련은 없다. 능력은 타고났거나(혹은 기이하게) 생겼다.                          |
+| 7   | 거리에서 지내다 한동안 감옥에 갇혔다.                                               |
+| 8   | 징집되었으나 곧 탈영했다.                                                           |
+| 9   | 세력 있는 범죄자의 보디가드였고, 그는 지금 당신에게 목숨을 빚졌다.                  |
+| 10  | 어떤 식으로든 경찰이나 순경을 했다. 다들 당신을 아는데 평가는 제각각이다.           |
+| 11  | 형제자매 한 명은 몰락한 악명 높은 인물이다.                                         |
+| 12  | 널리 돌아다닌 사람의 호위를 했다. 여러 곳에 아는 사람이 조금씩 있다.                |
+| 13  | 가장 친한 친구는 교사나 학자다. 지식의 원천이 된다.                                 |
+| 14  | 친구와 둘 다 희귀하고 비싼 담배를 핀다. 매주 모여 담소한다.                         |
+| 15  | 삼촌이 마을 극장을 운영한다. 배우들을 모두 알고 공연은 공짜로 본다.                 |
+| 16  | 장인 친구가 가끔 도움을 부른다. 대신 돈은 잘 준다.                                  |
+| 17  | 스승이 무술에 관한 책을 썼다. 이상한 구절을 물으려 사람들이 찾아온다.               |
+| 18  | 군에서 함께 싸운 동료가 이제 근처 마을 시장이다.                                    |
+| 19  | 불난 집에서 한 가족의 목숨을 구했다. 그들은 빚을 졌고 이웃은 당신을 영웅으로 본다.  |
+| 20  | 옛 코치는 아직도 수업 뒤 청소하러 오라고 한다. 가끔 가면 흥미로운 소문을 나눠 준다. |
+
+### 전사 플레이어 개입
+
+상황에 맞고 마스터가 동의하면 XP 1점을 써서 아래 플레이어 개입 중 하나를 씁니다.
+
+**완벽한 포지션(Perfect Setup)** : 적이 셋 이상이고, 모두 예전에 익힌 기술로 한 번에 칠 수 있는 위치에 서 있다. 한 행동으로 셋 모두 공격한다. 적마다 공격 굴림을 따로 한다. 한 행동에 쓸 수 있는 분발 한도는 그대로다.
+
+**옛 동료(Old Friend)** : 과거 전우가 뜻밖에 나타나 지금 하는 일을 돕는다. 본인 임무가 있어서, 도와주고 잠깐 이야기하고 가벼운 식사 정도만 하고 떠난다.
+
+**무기 파손(Weapon Break)** : 적 무기에 약점이 있다. 전투 중 금방 손상되어 사물 부상 트랙에서 두 단계 내려간다.
+
+### 전사 역량 시작값
+
+| 역량 | 시작 값 |
+| ---- | ------- |
+| 힘   | 10      |
+| 속력 | 10      |
+| 지성 | 8       |
+
+추가로 6점을 원하는 대로 세 역량에 나누어 넣습니다.
+
+#### 1등급 전사
+
+1등급 전사는 다음 능력을 가집니다.
+
+**분발** : 분발 점수 1.
+
+**육체적 성향** : 힘 재능 1·속력 재능 0이거나, 힘 재능 0·속력 재능 1이다. 어느 쪽이든 지성 재능은 0.
+
+**사이퍼 사용** : 동시에 사이퍼 두 개를 지닐 수 있다.
+
+**무기** : 경·중·대형 무기에 숙련되어 어떤 무기를 써도 불이익이 없다. 강화.
+
+**시작 장비** : 상황에 맞는 옷, 선택한 무기 두 개, 비싼 물품 하나, 중간 가격 물품 두 개, 싼 물품 최대 당신의 개.
+
+**특수 능력** : 아래 목록에서 당신의 개를 고른다. 설명에 달리 없으면 같은 능력은 한 번만. 각 능력의 전문 설명은 「능력(Abilities)」 장에 있으며, 플레이버·특징 능력도 같은 목록에 실려 있다.
+
+- Bash
+- Combat Prowess
+- Control the Field
+- Improved Edge
+- No Need for Weapons
+- Overwatch
+- Physical Skills
+- Practiced in Armor
+- Quick Throw
+- Swipe
+- Trained Without Armor
+
+#### 2등급 전사
+
+아래 목록(또는 더 낮은 등급)에서 두 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Crushing Blow
+- Hemorrhage
+- Reload
+- Skill With Attacks
+- Skill With Defense
+- Successive Attack
+
+#### 3등급 전사
+
+아래 목록(또는 더 낮은 등급)에서 세 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Deadly Aim
+- Energy Resistance
+- Experienced in Armor
+- Expert Cypher Use
+- Fury
+- Lunge
+- Reaction
+- Seize the Moment
+- Slice
+- Spray
+- Trick Shot
+- Vigilance
+
+#### 4등급 전사
+
+아래 목록(또는 더 낮은 등급)에서 두 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Amazing Effort
+- Capable Warrior
+- Experienced Defender
+- Feint
+- Increased Effects
+- Momentum
+- Pry Open
+- Snipe
+- Tough As Nails
+
+#### 5등급 전사
+
+아래 목록(또는 더 낮은 등급)에서 세 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Adroit Cypher Use
+- Arc Spray
+- Improved Success
+- Jump Attack
+- Mastery in Armor
+- Mastery With Attacks
+- Mastery With Defense
+- Parry
+
+(높은 등급에서는 낮은 등급 특수 능력을 고를 수 있다. 원하는 캐릭터를 맞추는 데 가장 좋은 방법일 때가 많다. 기능을 주는 능력은 여러 번 고를 수 있는 경우가 많다.)
+
+#### 6등급 전사
+
+아래 목록(또는 더 낮은 등급)에서 두 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Again and Again
+- Finishing Blow
+- Magnificent Moment
+- Murderer
+- Spin Attack
+- Weapon and Body
+
+<blockquote>
+
+### 전사 예시
+
+레이는 현대 캠페인용 전사를 만들고 싶다. 전역한 군인으로 빠르고 강하게 가기로 한다. 추가 점수 3을 힘 역량에, 3을 속력 역량에 넣어 힘 13, 속력 13, 지성 8이 된다. 1등급이라 분발 1, 힘 재능 1, 속력·지성 재능 0. 머리나 말빨은 특출나지 않다.
+
+큰 전투용 칼(중형 무기, 피해 4)과 .357 매그넘(대형 권총, 피해 6, 양손 필요)을 쓰고 싶다. 설정상 갑옷은 어색해 입지 않기로 하고, 첫 능력으로 **갑옷 없이 훈련됨** 을 고른다—속력 방어가 한 단계 완화된다. 둘째로 **전투 숙련** 을 골라 큰 칼로 추가 피해를 준다.
+
+빠르고 단단하게 가고 싶어 **재능 강화** 를 고른다. 속력 재능이 1이 된다. 마지막으로 **육체 기능** 에서 수영과 달리기를 고른다.
+
+전사는 사이퍼 두 개를 지닐 수 있다. 마스터는 첫 사이퍼를 삼키면 힘 역량을 6 회복하는 알약, 둘째는 던지면 화염 폭탄처럼 터져 지근거리 안 전원에게 피해 3을 주는 잘 숨긴 소형 수류탄으로 정한다.
+
+아직 수식어와 특징이 필요하다. 수식어 규칙을 보고 **강함(Strong)** 을 고른다. 힘 역량이 17이 되고, 도약과 무생물 부수기에 익숙해진다. (도약을 육체 기능으로 이미 골랐다면 강함 수식어는 도약에 능숙해지게 했을 것이다.) 강함은 중형·대형 무기 하나를 더 준다. 야구 방망이를 고른다—급할 때 쓰고, 차 트렁크에 둔다.
+
+특징으로 **무기를 마스터함(Masters Weaponry)** 을 고른다. 또 하나의 질 좋은 무기가 생긴다. 전투용 칼을 하나 더 고르고, 왼손에는 공격이 아니라 방패처럼 쓸 수 있는지 마스터에게 묻는다. 양손에 칼을 들면 속력 방어가 완화되고(「방패」는 보탬), 마스터가 OK한다. 게임 중 레이의 전사는 맞기 어렵다—속력 방어에 익숙하고, 칼 하나가 방어를 또 한 단계 완화한다.
+
+특징 덕에 선택한 무기로 피해가 1 더 나간다. 이제 칼날로 피해 6. 레이의 캐릭터는 칼잡이로 이름이 날 만한 치명적인 전투원으로 시작한다.
+
+캐릭터 아크로 **적을 쓰러뜨림** 을 고른다. 그 적은 한때 친구였다가 배반한 부대 동료로 정한다.
+
+</blockquote>
+
+## 어뎁트(Adept)
+
+- **판타지/동화** : 마법사, 메이지, 소서러, 클레릭, 드루이드, 점술가, 악마술사, 페이에 닿은 자
+- **현대/공포/로맨스** : 심령가, 오컬티스트, 마녀, 실천가, 영매, 변방 과학자
+- **SF** : 사이언, 텔레패스, 탐구자, 마스터, 스캐너, ESP 능력자, 어보미네이션 등
+- **슈퍼히어로/포스트아포** : 마법사, 소서러, 힘을 쥔 자, 사이언, 텔레패스
+
+타인의 경험·이해·때로는 믿음 밖의 힘을 다룹니다. 설정에 따라 마법, 염력, 돌연변이 능력, 또는 정교한 장치들일 수 있습니다. (여기서 「마법」은 아주 넓게 쓰인 말로, 다른 사람은 못 하는 기적적·초자연적 일을 아우릅니다. 실제로는 기술 장치, 영 소환, 돌연변이, 사이오닉, 나노기술 등 어떤 근원이든 될 수 있습니다.)
+
+**개인 역할** : 어뎁트는 사려 깊고 지적인 편입니다. 행동 전에 잘 생각하고 초능력에 크게 의존합니다.
+
+**집단 역할** : 정면 전투에서는 강하지 않지만, 공격·방어 모두 훌륭한 지원 능력을 씁니다. 난관을 넘기게 해 주는 능력도 가집니다. 예: 잠긴 문을 넘어야 하면 문을 부수거나 모두를 반대편으로 보낼 수 있습니다.
+
+**사회적 역할** : 초자연이 드물고 기이하고 두려운 설정에서는 어뎁트도 드물고 두려운 존재로, 그림자 속에 숨습니다. 그렇지 않으면 흔하고 당당하며, 심지어 지도자가 되기도 합니다.
+
+**고등급 어뎁트** : 낮은 등급에서도 어뎁트의 힘은 인상적입니다. 높은 등급에서는 물질과 주변 환경을 바꿀 만한 기적을 이룹니다.
+
+(어뎁트는 거의 항상 초자연·초인의 상징—마법사, 염동술사 등입니다. 그런 것이 전혀 없는 게임이라면, 속임과 숨은 장치로 흉내 내는 사기꾼이나 잡동사니로 가득한 「유틸리티 벨트」의 발명가형 캐릭터일 수도 있습니다. 아예 어뎁트가 없는 게임도 괜찮습니다.)
+
+### 어뎁트 플레이어 개입
+
+어뎁트를 플레이할 때, 상황에 맞고 마스터가 동의하면 XP 1점으로 아래 중 하나를 씁니다.
+
+**유리한 고장(Advantageous Malfunction)** : 당신에게 쓰이던 장치가 고장 난다. 사용자나 아군 하나에게 한 라운드 해를 주거나, 몇 라운드 극적이고 산만한 부작용을 일으킨다.
+
+**때맞은 아이디어(Convenient Idea)** : 통찰의 섬광이 급한 질문·문제·장애물에 대한 분명한 답이나 행동 방침을 제시한다.
+
+**설명 못 할 가동(Inexplicably Unbroken)** : 꺼져 있거나 망가졌거나 없어진 줄 알았던 장치가 잠시 살아나 상황에 쓸모 있는 기능을 한다. 더 나은 해결을 벌일 시간을 주거나, 능력을 방해하던 난관을 덜어 주거나, 고갈된 사이퍼·아티팩트를 한 번 더 쓰게 해 준다.
+
+### 어뎁트 역량 시작값
+
+| 역량 | 시작 값 |
+| ---- | ------- |
+| 힘   | 7       |
+| 속력 | 9       |
+| 지성 | 12      |
+
+추가로 6점을 원하는 대로 세 역량에 나누어 넣습니다.
+
+### 어뎁트 배경 연결
+
+유형은 설정과의 연결을 정하는 데 도움이 됩니다. d20을 굴리거나 아래에서 고르거나, 직접 사실을 만듭니다.
+
+| d20 | 배경                                                                                                      |
+| --- | --------------------------------------------------------------------------------------------------------- |
+| 1   | 많은 이들이 존경하고 두려워하는 어뎁트의 수제자였다. 이제 그의 표식을 지녔다.                             |
+| 2   | 어둡고 음울한 교사와 졸업생으로 악명 높은 학교에서 공부했다.                                              |
+| 3   | 이름 없는 신의 신전에서 능력을 익혔다. 신자는 적지만 당신의 재능과 가능성을 존경한다.                     |
+| 4   | 홀로 여행하다 권력 있는 이의 목숨을 구했다. 그는 여전히 빚을 졌다.                                        |
+| 5   | 어머니는 살아 계실 때 힘 있는 어뎁트였고 지역에 도움을 주었다. 사람들은 친절히 보지만 기대도 크다.        |
+| 6   | 여러 사람에게 돈을 졌는데 갚을 형편이 없다.                                                               |
+| 7   | 스승과의 첫 수업에서 참담하게 실패해 이제 홀로 나아간다.                                                  |
+| 8   | 스승들이 본 적 없을 만큼 빨리 익혔다. 권력이 눈여겨보고 면밀히 지켜본다.                                  |
+| 9   | 정당방위로 악명 높은 범죄자를 죽여 많은 이의 존경과 소수의 적대를 샀다.                                   |
+| 10  | 전사로 수련했으나 어뎁트로서의 성향이 결국 다른 길로 이끌었다. 옛 동료는 이해하진 못하지만 존중한다.      |
+| 11  | 어뎁트가 되기 위해 공부하며 은행에서 조수로 일했고, 주인과 손님들과 친해졌다.                             |
+| 12  | 가족이 근처에 좋은 포도주와 공정한 거래로 이름 난 큰 포도원을 소유한다.                                   |
+| 13  | 영향력 있는 어뎁트 무리와 한때 수련했고, 여전히 정을 보인다.                                              |
+| 14  | 권세 있는 귀족이나 거부의 궁전 화원에서 일했다. 주인은 당신을 기억 못 하겠지만 어린 딸과는 친구가 되었다. |
+| 15  | 과거 실험이 끔찍이 잘못됐다. 지역민은 당신을 위험하고 무모한 사람으로 기억한다.                           |
+| 16  | 먼 곳 출신으로 그곳에서는 이름이 났으나, 여기서는 의심받는다.                                             |
+| 17  | 만나는 사람들이 얼굴의 기묘한 반점에 거부감을 느낀다.                                                     |
+| 18  | 가장 친한 친구도 어뎁트다. 둘은 발견과 비밀을 서로 나눈다.                                                |
+| 19  | 지역 상인과 매우 잘 안다. 장사를 많이 해 줘서 할인과 특별 대우를 받는다.                                  |
+| 20  | 매달 모여 술을 마시며 이야기하는 은밀한 사교 클럽에 속한다.                                               |
+
+#### 1등급 어뎁트
+
+1등급 어뎁트는 다음 능력을 가집니다.
+
+**분발** : 분발 점수 1.
+
+**천재(Genius)** : 지성 재능 1, 힘 재능 0, 속력 재능 0.
+
+**전문 사이퍼 사용** : 동시에 사이퍼 세 개를 지닐 수 있다.
+
+**시작 장비** : 상황에 맞는 옷, 비싼 물품 두 개, 중간 가격 물품 두 개, 싼 물품 최대 당신의 개(선택).
+
+**무기** : 경장 무기는 불이익 없이 쓸 수 있다. 중형·대형 무기에는 무능이 있어 해당 공격은 방해된다.
+
+**특수 능력** : 아래에서 당신의 개를 고른다. 설명에 달리 없으면 같은 능력은 한 번만. 각 능력의 전체 설명은 「능력(Abilities)」 장에 있으며, 플레이버·특징 능력도 같은 목록에 실려 있다. (마스터가 달리 정하지 않는 한 어뎁트 능력은 손 하나는 비워 둬야 한다.)
+
+- Distortion
+- Erase Memories
+- Far Step
+- Hedge Magic
+- Magic Training
+- Onslaught
+- Push
+- Resonance Field
+- Scan
+- Shatter
+- Ward
+
+#### 2등급 어뎁트
+
+아래(또는 더 낮은 등급)에서 하나를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Adaptation
+- Cutting Light
+- Hover
+- Mind Reading
+- Retrieve Memories
+- Reveal
+- Stasis
+
+#### 3등급 어뎁트
+
+아래(또는 더 낮은 등급)에서 두 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Adroit Cypher Use
+- Countermeasures
+- Energy Protection
+- Fire and Ice
+- Force Field Barrier
+- Sensor
+- Targeting Eye
+
+#### 4등급 어뎁트
+
+아래(또는 더 낮은 등급)에서 하나를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Death Touch
+- Exile
+- Invisibility
+- Matter Cloud
+- Mind Control
+- Projection
+- Rapid Processing
+- Regeneration
+- Reshape
+- Wormhole
+
+#### 5등급 어뎁트
+
+아래(또는 더 낮은 등급)에서 두 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Absorb Energy
+- Concussion
+- Conjuration
+- Create
+- Dust to Dust
+- Knowing the Unknown
+- Master Cypher Use
+- Teleportation
+- True Senses
+
+#### 6등급 어뎁트
+
+아래(또는 더 낮은 등급)에서 하나를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Control Weather
+- Earthquake
+- Move Mountains
+- Traverse the Worlds
+- Usurp Cypher
+
+<blockquote>
+
+### 어뎁트 예시
+
+젠은 판타지 캠페인용 **마법사(어뎁트)** 를 만들고 싶다. 어느 정도 고르게 가기로 해 추가 점수를 역량마다 2씩 넣어 힘 9, 속력 11, 지성 14가 된다. 똑똑하고 빠른 편이다. 지성 재능 1, 힘·속력 재능 0. 1등급이라 분발 1. 첫 능력으로 **쇄도** 와 **보호막(Ward)** 을 골라 공격과 방어를 갖추고, **마법 훈련** 과 **스캔** 으로 정보와 통찰에 쓸 줄을 채운다. 쇄도·보호막·스캔은 모두 오랜 수련으로 익힌 주문이다.
+
+사이퍼는 세 개까지 지닐 수 있다. 마스터는 단거리 순간이동 역할의 물약, 지성 역량을 5 회복하는 작은 부적, 불타 폭발하는 액체 플라스크를 준다. 경장 무기에 숙련되어 단검을 고른다.
+
+수식어로 **우아함(Graceful)** 을 고른다. 속력 역량에 2가 더해져 13이 된다. 균형 잡기, 섬세한 움직임이 필요한 일, 신체 공연 예술, 속력 방어에 익숙해진다—어쩌면 무용수일 수 있다. 주문에 녹여 넣을 가볍고 우아한 동작이 있는 배경이 잡혀 간다.
+
+특징으로 **이끔(Leads)** 을 고른다. 사회적 상호작용에 익숙해져 어떤 상황에서도 쓸 만하고, **좋은 조언** 능력으로 무리의 초점이 되기도 한다.
+
+주문과 특징 능력은 지성 점수로 켜므로 지성 역량이 넉넉해 다행이다. 지성 재능이 비용을 줄여 준다. 쇄도의 힘 폭발을 분발 없이 쓰면 지성 비용 0에 피해 4. 재능으로 점수를 아껴 다른 데 분발하거나 쇄도 명중을 올리는 데 쓸 수 있다.
+
+캐릭터 아크로 **친구를 돕기** 를 고른다. 어릴 때 마법 스승이 있었는데, 악마에게 붙잡혀 갔다. 악마를 찾아 친구를 속박에서 풀려고 단서를 쫓는다.
+
+(마스터는 설정을 강화하려고 등급별 특수 능력을 미리 정해 둘 수 있다. 젠의 마법사가 있는 판타지라면, 마스터가 모든 마법사(어뎁트)에게 1등급 능력 하나로 **마법 훈련** 을 넣었다고 할 수 있다. 캐릭터가 약해지거나 덜 특별해지는 것은 아니라, 세계 속 역할과 게임에서의 기대를 드러낼 뿐이다.)
+
+</blockquote>
+
+## 탐험가(Explorer)
+
+- **판타지/동화** : 탐험가, 모험가, 발굴자, 미스터리 추적자
+- **현대/공포/로맨스** : 운동선수, 탐험가, 모험가, 떠돌이, 탐정, 학자, 동굴 탐험가, 개척자, 취재 기자
+- **SF** : 탐험가, 모험가, 방랑자, 행성 전문가, 외계생물학자
+- **슈퍼히어로/포스트아포** : 모험가, 범죄와 싸우는 자
+
+행동력과 신체 능력이 있고 미지를 두려워하지 않습니다. 낯설고 이국적이며 위험한 곳으로 가 새 것을 발견합니다. 육체적이면서 동시에 보통은 박식하기도 합니다.
+
+**개인 역할** : 탐험가도 학자이거나 공부를 많이 한 사람일 수 있지만, 무엇보다 행동을 중시합니다. 큰 위험과 끔찍한 장애를 일상처럼 마주합니다.
+
+**집단 역할** : 혼자 움직일 때도 있지만 훨씬 더 자주 다른 캐릭터들과 팀을 이룹니다. 탐험가는 길을 열고 선두에 서는 경우가 많습니다. 다만 길을 가다 흥미로운 것을 발견하면 멈추고 조사하기도 합니다.
+
+**사회적 역할** : 모든 탐험가가 광야를 돌아다니거나 옛 유적을 뒤지는 것은 아닙니다. 어떤 탐험가는 교사, 과학자, 탐정, 취재 기자입니다. 어쨌든 탐험가는 새 도전에 용감히 맞서고 남과 나눌 지식을 모읍니다.
+
+**고등급 탐험가** : 등급이 오를수록 기술이 늘고 전투 능력 일부와 위험에 맞설 능력이 더해집니다. 한마디로 점점 다재다능해져 어떤 난관에도 대응할 수 있습니다.
+
+### 탐험가 플레이어 개입
+
+탐험가를 플레이할 때, 상황에 맞고 마스터가 동의하면 XP 1점으로 아래 중 하나를 씁니다.
+
+**우연한 고장(Fortuitous Malfunction)** : 함정이나 위험한 장치가 당신에게 영향을 주기 전에 고장 난다.
+
+**뜻밖의 표식(Serendipitous Landmark)** : 길을 잃은 것 같을 때(또는 당신이 길을 잃었을 때) 이정표, 랜드마크, 또는 지형이나 복도가 굽히고 솟고 꺼지는 모습이 이 지점부터는 나아갈 최선의 길을 가리켜 준다.
+
+**약한 병독(Weak Strain)** : 독이나 질병이 처음 생각보다 덜 치명적이어서, 원래였을 피해의 절반만 입힌다.
+
+### 탐험가 역량 시작값
+
+| 역량 | 시작 값 |
+| ---- | ------- |
+| 힘   | 10      |
+| 속력 | 9       |
+| 지성 | 9       |
+
+추가로 6점을 원하는 대로 세 역량에 나누어 넣습니다.
+
+### 탐험가 배경 연결
+
+유형은 설정과의 연결을 정하는 데 도움이 됩니다. d20을 굴리거나 아래에서 고르거나, 직접 사실을 만듭니다.
+
+| d20 | 배경                                                                                          |
+| --- | --------------------------------------------------------------------------------------------- |
+| 1   | 고등학교 때 스포츠 스타였다. 아직 몸은 좋지만, 그때가 전성기였다.                             |
+| 2   | 형제 중 한 명이 인기 밴드의 리드 보컬이다.                                                    |
+| 3   | 탐험에서 여러 발견을 했지만, 그걸로 이득을 챙길 기회가 아직 다 성사되지는 않았다.             |
+| 4   | 경찰이었으나 조직의 부패를 겪고 그만두었다.                                                   |
+| 5   | 부모가 선교사라 어린 시절 대부분을 이국적인 곳을 돌아다니며 보냈다.                           |
+| 6   | 군에서 명예롭게 복무했다.                                                                     |
+| 7   | 비밀 조직의 도움으로 학비를 냈는데, 이제는 그들이 훨씬 더 많은 것을 바라는 것 같다.           |
+| 8   | 운동 장학금으로 명문대에 갔지만, 운동장과 교실 모두에서 두각을 나타냈다.                      |
+| 9   | 어릴 적 가장 친한 친구는 이제 정부의 영향력 있는 인물이다.                                    |
+| 10  | 한때 교사였다. 제자들은 아직도 당신을 좋게 기억한다.                                          |
+| 11  | 소규모 범죄 조직에서 일하다 잡혀 한동안 감옥에 갔고, 이후 바로잡으려 한다.                    |
+| 12  | 지금까지 가장 큰 발견은 숙적에게 도둑맞았다.                                                  |
+| 13  | 존재가 널리 알려지지 않은 탐험가 전용 비밀 조직에 속한다.                                     |
+| 14  | 어린 시절 수수께끼한 사정으로 유괴되었지만 무사히 구출됐다. 사건은 아직도 약간의 악명이 있다. |
+| 15  | 어릴 때 마약에 중독됐고, 지금은 회복 중인 중독자다.                                           |
+| 16  | 외딴 곳을 탐험하다 설명할 수 없는 기묘한 것을 보았다.                                         |
+| 17  | 작은 술집이나 식당을 운영한다.                                                                |
+| 18  | 모험과 발견을 담은 책을 냈고 어느 정도 호평을 받았다.                                         |
+| 19  | 누나나 여동생이 가게를 운영하며 당신에게 큰 할인을 해 준다.                                   |
+| 20  | 아버지는 군의 고위 장교로 인맥이 많다.                                                        |
+
+#### 1등급 탐험가
+
+1등급 탐험가는 다음 능력을 가집니다.
+
+**분발** : 분발 점수 1.
+
+**육체적 성향** : 힘 재능 1, 속력 재능 0, 지성 재능 0.
+
+**사이퍼 사용** : 동시에 사이퍼 두 개를 지닐 수 있다.
+
+**시작 장비** : 상황에 맞는 옷과 선택한 무기 하나, 비싼 물품 두 개, 중간 가격 물품 두 개, 싼 물품 최대 당신의 개.
+
+**무기** : 경장·중형 무기는 불이익 없이 쓸 수 있다. 대형 무기에는 무능이 있어 대형 무기 공격은 방해된다.
+
+**특수 능력** : 아래 목록에서 당신의 개를 고른다. 설명에 달리 없으면 같은 능력은 한 번만. 각 능력의 전문 설명은 「능력(Abilities)」 장에 있으며, 플레이버·특징 능력도 같은 목록에 실려 있다.
+
+- Block
+- Danger Sense
+- Decipher
+- Endurance
+- Find the Way
+- Fleet of Foot
+- Improved Edge
+- Knowledge Skills
+- Muscles of Iron
+- No Need for Weapons
+- Physical Skills
+- Practiced in Armor
+- Practiced With All Weapons
+- Surging Confidence
+- Trained Without Armor
+
+#### 2등급 탐험가
+
+아래 목록(또는 더 낮은 등급)에서 당신의 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Curious
+- Danger Instinct
+- Enable Others
+- Escape
+- Eye for Detail
+- Foil Danger
+- Hand to Eye
+- Investigative Skills
+- Quick Recovery
+- Range Increase
+- Skill With Defense
+- Stand Watch
+- Travel Skills
+- Wreck
+
+#### 3등급 탐험가
+
+아래 목록(또는 더 낮은 등급)에서 세 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Controlled Fall
+- Experienced in Armor
+- Expert Cypher Use
+- Ignore the Pain
+- Obstacle Running
+- Resilience
+- Run and Fight
+- Seize the Moment
+- Skill With Attacks
+- Stone Breaker
+- Think Your Way Out
+- Trapfinder
+- Wrest From Chance
+
+#### 4등급 탐험가
+
+아래 목록(또는 더 낮은 등급)에서 두 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Capable Warrior
+- Expert Skill
+- Increased Effects
+- Read the Signs
+- Runner
+- Subtle Steps
+- Tough As Nails
+
+#### 5등급 탐험가
+
+아래 목록(또는 더 낮은 등급)에서 세 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Adroit Cypher Use
+- Free to Move
+- Group Friendship
+- Hard to Kill
+- Jump Attack
+- Mastery With Defense
+- Parry
+- Physically Gifted
+- Take Command
+- Vigilant
+
+#### 6등급 탐험가
+
+아래 목록(또는 더 낮은 등급)에서 세 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Again and Again
+- Inspire Coordinated Actions
+- Mastery in Armor
+- Mastery With Attacks
+- Negate Danger
+- Share Defense
+- Spin Attack
+- Wild Vitality
+
+<blockquote>
+
+### 탐험가 예시
+
+샘은 SF 캠페인용 탐험가 캐릭터를 만들기로 한다. 외계 행성을 탐사하는 강인한 인물이다. 추가 점수 3을 힘 역량에, 2를 속력에, 1을 지성에 넣어 힘 13, 속력 11, 지성 10이 된다. 1등급이라 분발 1, 힘 재능 1, 속력·지성 재능 0. 지금까지는 꽤 균형 잡힌 편이다.
+
+샘은 곧바로 능력을 고르기 시작한다. **위험 감지(Danger Sense)** 와 **넘치는 자신감(Surging Confidence)** 을 골라 두루 쓸 만하다고 본다. 탐험할 때 중형 고기술 갑옷을 입는다고 해 **갑옷 숙련(Practiced in Armor)** 을 고른다. 마지막으로 **지식 기능(Knowledge Skills)** 으로 지질학과 생물학을 집어 행성 간 탐사에 쓰기로 한다.
+
+샘의 탐험가는 사이퍼 두 개를 지닐 수 있는데, 이 설정에서는 나노기술이다. 마스터는 하나는 쓰면 힘 재능에 +1 보너스를 주는 나노 주입기, 다른 하나는 사용자가 원하는 단순한 손에 쥐는 물건 하나를 만들어 내는 장치로 정한다.
+
+샘의 탐험가는 싸움 위주는 아니지만 우주는 위험한 곳이기도 하니, 중형 블래스터를 지니고 있다고 적어 둔다.
+
+샘은 아직 수식어와 특징이 필요하다. 수식어 장에서 **강인함(Hardy)** 을 고른다—힘 역량이 17이 되고, 더 빨리 치유되며 부상 상태에서도 나은 행동이 가능하다. 힘 방어에는 익숙하지만 선제(이니셔티브)에는 무능이 있다—다만 **위험 감지** 와 서로 상쇄된다(반대도 마찬가지). 샘은 위험 감지 대신 다른 것을 고를 수도 있지만 마음에 들어 그대로 둔다. 전체적으로 수식어는 캐릭터를 단단하지만 조금 느리게 만든다.
+
+특징으로 **어두운 곳을 탐한다(Explores Dark Places)** 를 고른다(이 경우 외계 문명의 기묘한 유적). 검색, 청력, 오르기, 균형, 도약에 대한 추가 기능이 쏟아진다. 꽤 유능한 탐험가다.
+
+캐릭터 아크로 **사업(Enterprise)** 을 고른다. 외계 장소를 탐험하다 보면 기묘한 유물이 나오기도 하고, 샘은 해적이나 부유한 사립 수집가 손에 넘어가지 않도록 책임 있는 제3자에게 안정적으로 운반하는 서비스를 꾸릴 수 있을지도 본다. 물론 소액의 수수료를 붙여서.
+
+</blockquote>
+
+## 스피커(Speaker)
+
+- **판타지/동화** : 음유시인, 스피커, 스칼드, 사절, 사제, 옹호인
+- **현대/공포/로맨스** : 외교관, 매력가, 얼굴, 스피너, 조종자, 목사, 중재인, 변호사
+- **SF** : 외교관, 공감자, 글램, 영사, 사절
+- **슈퍼히어로/포스트아포** : 매력가, 최면술사, 꼭두각시 조종자
+
+말과 사람을 잘 다룹니다. 말로 난관을 넘고 곤경에서 빠져나오게 하며, 원하는 대로 사람들을 움직이게 합니다.
+
+**개인 역할** : 스피커는 똑똑하고 카리스마가 있다. 사람을 좋아하고, 더 중요한 것은 사람을 이해한다. 그래서 필요한 일을 하게 하는 데 도움이 된다.
+
+**집단 역할** : 스피커는 떼의 얼굴이 되어 모두를 대신 말하고 타인과 협상하는 경우가 많다. 전투와 행동은 스피커의 강점이 아니어서, 위험할 때는 다른 캐릭터가 스피커를 지켜야 할 때도 있다.
+
+**사회적 역할** : 스피커는 정치·종교 지도자인 경우가 많다. 그만큼 자주 사기꾼이나 범죄자이기도 하다.
+
+**고등급 스피커** : 등급이 오를수록 사람을 조종하고 조작하는 능력으로 친구를 돕고 기도한다. 말로 위험에서 빠져나오게 하고, 말로 무기 삼기도 한다.
+
+### 스피커 플레이어 개입
+
+스피커를 플레이할 때, 상황에 맞고 마스터가 동의하면 XP 1점으로 아래 중 하나를 씁니다.
+
+**우호적 NPC(Friendly NPC)** : 모르는 NPC, 잘 모르는 사람, 또는 과거에 그리 우호적이지 않았던 사람이 당신을 돕기로 한다. 이유는 꼭 설명하지 않을 수도 있다. 수고에 따라 나중에 빚을 달라고 할지도 모른다.
+
+**완벽한 제안(Perfect Suggestion)** : 추종자나 이미 우호적인 NPC가 급한 질문·문제·장애물에 대해 행동 방침을 제안한다.
+
+**뜻밖의 선물(Unexpected Gift)** : NPC가 예상하지 못한 실물 선물을 건넨다. 분위기가 팽팽하면 풀어 주고, 무언가를 이해하지 못할 때는 상황을 이해하는 새 통찰을 준다.
+
+### 스피커 역량 시작값
+
+| 역량 | 시작 값 |
+| ---- | ------- |
+| 힘   | 8       |
+| 속력 | 9       |
+| 지성 | 11      |
+
+추가로 6점을 원하는 대로 세 역량에 나누어 넣습니다.
+
+### 스피커 배경 연결
+
+유형은 설정과의 연결을 정하는 데 도움이 됩니다. d20을 굴리거나 아래에서 고르거나, 직접 사실을 만듭니다.
+
+| d20 | 배경                                                                                                            |
+| --- | --------------------------------------------------------------------------------------------------------------- |
+| 1   | 부모 중 한 명은 젊었을 때 유명 연예인이었고 당신이 같은 매체에서 두각을 나기를 바랐다.                          |
+| 2   | 십대 때 형제자매 한 명이 실종되어 사망한 것으로 추정된다. 충격에 가족이 흔들렸고 아직도 풀리지 않은 상처다.     |
+| 3   | 악의 세력에 맞서는 비전 지식을 지키고 보호한다는 비밀 결사에 들어갔다.                                          |
+| 4   | 부모 중 한 명을 알코올 중독으로 잃었다. 아직 살아 있을 수도 있지만 용서는 어렵다.                               |
+| 5   | 18세 이전에 일어난 일을 전혀 기억하지 못한다.                                                                   |
+| 6   | 조부모가 번잡한 도시에서 멀리 떨어진 농장에서 키웠다. 그들이 가르친 것이 무엇이든 준비해 준 것 같다고 생각한다. |
+| 7   | 고아로 어린 시절이 힘들었고 성인으로 들어서는 것도 쉽지 않았다.                                                 |
+| 8   | 극빈 속 범죄자들 틈에서 자랐다. 옛 동네와는 아직 연줄이 있다.                                                   |
+| 9   | 과거 권세 있는 이의 사절로 일했고, 그는 여전히 당신을 우호적으로 본다.                                          |
+| 10  | 짜증 나는 라이벌이 항상 길을 막거나 계획을 망친다.                                                              |
+| 11  | 어느 정도 영향력 있는 조직이나 회사의 대변인 위치까지 올랐다.                                                   |
+| 12  | 이웃이 살해당했고 미스터리는 미해결이다.                                                                        |
+| 13  | 많이 돌아다녔고 그때 기묘한 기념품을 꽤 모았다.                                                                 |
+| 14  | 어릴 때 첫사랑이 가장 친한 친구(지금은 옛 친구)와 연결됐다.                                                     |
+| 15  | 차별받는 소수 집단에 속해 있으나, 그 불의를 공론화하려 일한다.                                                  |
+| 16  | 동당신의 술집의 공동 소유주 중 하나로, 특제 칵테일 만드는 일에는 소질이 있다.                                   |
+| 17  | 한때 중요 인물들을 속여 돈을 뜯어낸 사기를 쳤고, 그들은 복수를 노린다.                                          |
+| 18  | 순회 극단에서 연기했고, 그들은 당신을 좋게 기억한다(방문한 곳 사람들도 그렇다).                                 |
+| 19  | 지역 정계에 있는 누군가와 가까운 연애 관계다.                                                                   |
+| 20  | 어딘가 누군가가 당신인 척 신분을 도용해 종종 악의적인 목적으로 쓴다. 범인을 만난 적은 없지만 만나고 싶다.       |
+
+#### 1등급 스피커
+
+1등급 스피커는 다음 능력을 가집니다.
+
+**분발** : 분발 점수 1.
+
+**천재(Genius)** : 지성 재능 1, 힘 재능 0, 속력 재능 0.
+
+**사이퍼 사용** : 동시에 사이퍼 두 개를 지닐 수 있다.
+
+**무기** : 경장 무기는 불이익 없이 쓸 수 있다. 중형·대형 무기에는 무능이 있어 해당 공격은 방해된다.
+
+**시작 장비** : 상황에 맞는 옷과 선택한 경장 무기 하나, 비싼 물품 두 개, 중간 가격 물품 두 개, 싼 물품 최대 당신의 개.
+
+**특수 능력** : 아래 목록에서 당신의 개를 고른다. 설명에 달리 없으면 같은 능력은 한 번만. 각 능력의 전문 설명은 「능력(Abilities)」 장에 있으며, 플레이버·특징 능력도 같은 목록에 실려 있다. (마음 읽기·진실 감각(True Senses) 같은 일부 스피커 능력은 초자연적 요소를 암시한다. 캐릭터나 설정에 맞지 않으면 은신 플레이버의 능력으로 바꿀 수 있고, 마스터가 초자연이 아니라 비범한 재능과 통찰에 기반하도록 살짝 고쳐도 된다.)
+
+- Anecdote
+- Babel
+- Demeanor of Command
+- Encouragement
+- Enthrall
+- Erase Memories
+- Fast Talk
+- Inspire Aggression
+- Interaction Skills
+- Practiced With Medium Weapons
+- Spin Identity
+- Terrifying Presence
+- Understanding
+
+#### 2등급 스피커
+
+아래 목록(또는 더 낮은 등급)에서 두 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Basic Follower
+- Calm Stranger
+- Disincentivize
+- Gather Intelligence
+- Impart Ideal
+- Inspiring Ease
+- Interaction Skills
+- Practiced in Armor
+- Skill With Defense
+- Speedy Recovery
+- Unexpected Betrayal
+
+#### 3등급 스피커
+
+아래 목록(또는 더 낮은 등급)에서 세 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Accelerate
+- Blend In
+- Discerning Mind
+- Expert Cypher Use
+- Expert Follower
+- Grand Deception
+- Lead by Inquiry
+- Mind Reading
+- Oratory
+- Perfect Stranger
+- Quick Wits
+- Telling
+
+#### 4등급 스피커
+
+아래 목록(또는 더 낮은 등급)에서 두 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Anticipate Attack
+- Confounding Banter
+- Feint
+- Heightened Skills
+- Psychosis
+- Read the Signs
+- Spur Effort
+- Strategize
+- Suggestion
+
+#### 5등급 스피커
+
+아래 목록(또는 더 낮은 등급)에서 세 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Adroit Cypher Use
+- Discipline of Watchfulness
+- Experienced in Armor
+- Flee
+- Foul Aura
+- Knowing the Unknown
+- Regeneration
+- Skill With Attacks
+- Stimulate
+
+#### 6등급 스피커
+
+아래 목록(또는 더 낮은 등급)에서 두 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
+
+- Assume Control
+- Battle Management
+- Crowd Control
+- Inspiring Success
+- Recruit Deputy
+- Shatter Mind
+- True Senses
+- Word of Command
+
+<blockquote>
+
+### 스피커 예시
+
+메리는 러브크래프트풍 공포 캠페인용 스피커를 만들고 싶다. 추가 점수 3을 지성에, 3을 속력에 넣어 힘 8, 속력 12, 지성 14가 된다. 1등급이라 분발 1, 힘·속력 재능 0, 지성 재능 1. 똑똑하고 매력적이지만 특별히 강하지는 않다.
+
+메리는 **빠른 말(Fast Talk)** 과 **정체 숨기기(Spin Identity)** 로 들어가고 싶은 곳에 들어가고 알고 싶은 것을 알게 하려 한다. 사기꾼 기질이 조금 있다. 친구에게는 잘하려 **격려(Encouragement)** 도 고른다. 1등급 능력은 **상호작용 기능(Interaction Skills)** (기망과 설득)으로 마무리한다.
+
+스피커는 보통 사이퍼 두 개로 시작하지만, 캠페인 규칙에서는 배경과 관련된 무언가 기괴한 것 하나만으로 시작한다. 메리의 사이퍼는 할아버지가 준 기묘한 회중시계다. 어떻게 왜인지는 모르지만, 활성화하면 세 라운드 동안 행동을 두 배로 할 수 있다.
+
+캐릭터는 곤란할 때를 대비해 가방에 작은 칼을 숨겨 두었다. 경장 무기라 피해 2점이지만 공격은 완화된다.
+
+메리는 수식어로 **회복력(Resilient)** 을 고른다. 들은 이상한 이야기의 진짜 끝을 알아도 너무 트라우마를 받지 않을 수 있을 것 같다고 본다. 회복력은 힘 역량을 10, 지성 역량을 16으로 올린다. 힘·지성 방어 행동에 익숙하고 하루 추가 회복 굴림을 얻는다. 처음에는 수식어가 지식·퍼즐 일에 무능을 준다는 것에 실망하지만, 곧 그 결함이 캐릭터와 잘 맞는다는 걸 깨닫는다—직접 정보를 짜내기보다 사람에게서 말하도록 하는 편이 더 낫다.
+
+특징으로 **고양이처럼 움직인다(Moves Like a Cat)** 를 고른다. 최종 속력 역량이 18이 되고 균형에 익숙하다. 결국 우아하고 빠르며 매력적이고, 추진력 덕에 처음 생각보다 강인하다. 기묘한 것을 조사할 준비가 됐다.
+
+캐릭터 아크로 **추락(Fall From Grace)** 을 고른다. 대대로 내려온 기묘한 고서에 집착해 왔고, 캐릭터는 그 낯선 언어와 의식에 이끌린다.
+
+</blockquote>
+
+## 더 깊은 맞춤
+
+이 절의 규칙은 더 고급이며 항상 마스터가 관여합니다. 마스터가 장르·설정에 맞게 유형을 다듬거나, 플레이어와 마스터가 함께 캐릭터를 컨셉에 맞게 조정할 때 씁니다.
+
+### 유형 측면 수정
+
+당신의 가지 유형의 다음 측면은 캐릭터 생성 시에만 바꿀 수 있다. 다른 능력은 바꾸지 않는다.
+
+**역량** : 유형마다 기본 역량 시작값이 있다. 플레이어는 역량을 1대1로 서로 바꿀 수 있다. 예: 힘 2점을 속력 2점과 바꾼다. 다만 시작 역량은 20을 넘지 않는다.
+
+**재능** : 플레이어는 원하는 특성치 하나에 재능 1로 시작할 수 있다.
+
+**사이퍼 사용** : 사이퍼 하나를 지닐 수 있다는 능력을 포기하면 선택한 기능 하나를 추가로 익힌다.
+
+**무기** : 일부 유형은 1등급 고정 능력으로 경·중·대형 무기를 불이익 없이 쓴다. 전사는 모든 무기, 탐험가는 경·중형, 어뎁트와 스피커는 경장 무기다. 이 무기 능력 중 하나를 포기하면 플레이어가 고른 다른 기능에 익숙해진다.
+
+### 약점과 불이익
+
+다른 맞춤과 함께, 플레이어는 더 나은 이점을 얻기 위해 약점이나 불이익을 고를 수 있다.
+
+**약점(Weakness)** : 약점은 본질적으로 재능의 반대다. 속력에 약점 1이 있으면, 속력 역량에서 점수를 쓰는 모든 행동의 비용이 역량에서 1점 더 든다. 언제든 플레이어는 한 특성치에 약점을 주고, 대신 나머지 두 특성치 중 하나의 재능에 +1을 얻을 수 있다. 예: 속력 약점 1을 받고 힘 재능 +1을 얻는다.
+
+보통 재능이 0인 특성치에만 약점을 둘 수 있다. 약점은 하나만 가질 수 있고, 약점 1을 넘는 추가 약점은 게임 플레이 중 질병·장애 등 다른 출처에서만 나온다.
+
+**무능(Inabilities)** : 무능은 음의 기능과 비슷하다. 한 종류의 일를 방해해 더 어렵게 만든다. 무능을 고르면 원하는 기능 하나를 얻는다. 보통 무능은 하나만 가질 수 있고, 추가 무능은 수식어·질병·장애 등 다른 출처에서만 나온다.

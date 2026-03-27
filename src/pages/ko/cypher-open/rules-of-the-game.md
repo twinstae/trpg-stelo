@@ -6,876 +6,797 @@ createdAt: "2022-11-12T05:31:33.648Z"
 publish: false
 ---
 
+사이퍼 시스템 게임은 마스터를 포함한 모든 참가자가 함께 상상하며 만들어 갑니다. 마스터가 장면을 제시하면, 플레이어는 자기 캐릭터가 무엇을 시도하는지 말하고, 그다음에 어떤 일이 벌어지는지는 마스터가 판단합니다. 규칙과 주사위는 진행을 매끄럽게 돕는 도구일 뿐입니다. 실제로 장면을 움직이고 이야기를 완성하는 것은 규칙이 아니라 사람들입니다. 어떤 규칙이 플레이를 방해하거나 재미를 떨어뜨린다면, 플레이어와 마스터가 합의해 조정하면 됩니다.
 
-Cypher System games are played in the joint imagination of all the players, including the GM. The GM sets the scene, the players state what their characters attempt to do, and the GM determines what happens next. The rules and the dice help make the game run smoothly, but it’s the people, not the rules or the dice, that direct the action and determine the story—and the fun. If a rule gets in the way or detracts from the game, the players and the GM should work together to change it.
+사이퍼 시스템의 기본 진행은 다음과 같습니다.
 
-This is how you play the Cypher System:
-1. The player tells the GM what they want to do. This is a character action.
-2. The GM determines if that action is routine (and therefore works without needing a roll) or if there’s a chance of failure.
-3. If there is a chance of failure, the GM determines which stat the task uses (Might, Speed, or Intellect) and the task’s difficulty—how hard it will be on a scale from 1 (really easy) to 10 (basically impossible).
-4. The player and the GM determine if anything about the character—such as training, equipment, special abilities, or various actions—can modify the difficulty up or down by one or more steps. If these modifications reduce the difficulty to less than 1, the action is routine (and therefore works with no roll needed).
-5. If the action still isn’t routine, the GM uses its difficulty to determine the target number—how high the player must roll to succeed at the action (see the Task Difficulty table). The GM doesn’t have to tell the player what the target number is, but they can give the player a hint, especially if the character would reasonably know if the action was easy, average, difficult, or impossible.
-6. The player rolls a d20. If they roll equal to or higher than the target number, the character succeeds.
+1. 플레이어가 마스터에게 무엇을 하려는지 말합니다. 이것이 캐릭터의 행동입니다.
+2. 마스터는 그 행동이 자동으로 성공하는 일상적 행동인지, 아니면 실패 가능성이 있는 행동인지 판단합니다.
+3. 실패 가능성이 있다면, 마스터는 어떤 특성치(힘, 속력, 지성)를 쓰는지와 난이도(1~10)를 정합니다.
+4. 플레이어와 마스터는 캐릭터의 익숙/능숙, 장비, 특수 능력, 상황 요소가 난이도를 단계 단위로 올리거나 내릴 수 있는지 확인합니다. 조정 결과 난이도가 0 이하가 되면 자동 성공입니다.
+5. 자동 성공이 아니라면, 마스터는 난이도로 목표치를 정합니다(목표치 = 난이도 x 3). 목표치를 반드시 공개할 필요는 없지만, 캐릭터가 체감할 수 있는 난이도라면 힌트를 줄 수 있습니다.
+6. 플레이어가 d20을 굴려 목표치 이상이 나오면 성공입니다.
 
-That’s it. That’s how to do anything, whether it’s identifying an unknown device, calming a raging drunk, climbing a treacherous cliff, or battling a demigod. Even if you ignored all the other rules, you could still play the Cypher System with just this information. The key features here are: character actions, determining task difficulty, and determining modifications.
+핵심은 이것입니다. 미지의 장치를 분석하든, 격앙된 인물을 진정시키든, 위험한 절벽을 오르든, 강력한 적과 싸우든 같은 절차로 처리합니다. 다른 규칙을 몰라도, 여기까지의 절차만으로도 사이퍼 시스템 플레이는 가능합니다. 중심 개념은 행동, 난이도 판정, 난이도 조정입니다.
 
+> ## 핵심 개념
+>
+> **행동(ACTION)** : 캐릭터가 수행하는 의미 있는 행위 전반입니다. 적을 공격하거나, 틈을 뛰어넘거나, 장치를 작동하거나, 특수 능력을 쓰는 것 등이 모두 행동에 해당합니다. 캐릭터는 라운드마다 행동 1개를 할 수 있습니다.
+>
+> **캐릭터(CHARACTER)** : 게임 안에서 행동할 수 있는 모든 존재를 말합니다. 플레이어가 맡는 플레이어 캐릭터(PC), 마스터가 맡는 논플레이어 캐릭터(NPC) 모두 포함됩니다. 사이퍼 시스템에서는 기묘한 생물, 자의식을 가진 기계, 에너지 생명체도 캐릭터가 될 수 있습니다.
+>
+> **난이도(DIFFICULTY)** : 어떤 일을 달성하기 어려운 정도를 나타내는 값입니다. 1(가장 쉬움)부터 10(사실상 불가능)에 이르는 척도를 사용합니다. 난이도를 올리면 방해, 낮추면 완화라고 합니다. 모든 조정은 단계 단위로 계산합니다. 난이도는 레벨과 직접 대응하는 경우가 많아서, 3레벨 자물쇠를 따는 일은 보통 난이도 3입니다.
+>
+> **완화(EASE)** : 일의 난이도를 낮추는 조정입니다. 별도 표기가 없으면 기본적으로 1단계 완화입니다.
+>
+> **분발(EFFORT)** : 특성치 역량 점수를 써서 난이도를 낮추는 규칙입니다. PC는 굴림 전에 자기 차례에서 분발 사용 여부를 결정합니다. NPC는 분발을 사용하지 않습니다.
+>
+> **방해(HINDER)** : 일의 난이도를 올리는 조정입니다. 별도 표기가 없으면 기본적으로 1단계 방해입니다.
+>
+> **무능(INABILITY)** : 익숙의 반대 개념입니다. 무능이 있는 일은 시도할 때마다 방해를 받습니다. 같은 일에 익숙도 함께 있으면 상쇄되어 보통 수준(숙련 없음/무능 없음)이 됩니다.
+>
+> **레벨(LEVEL)** : 대상의 강도, 난관, 위력, 위협도를 나타내는 기준입니다. 게임 속 거의 모든 것에는 레벨이 있습니다. NPC와 사물의 레벨은 그 대상과 관련된 판정의 난이도를 정하는 기준이 됩니다. 예를 들어 적 레벨은 공격/방어의 어려움을, 문 레벨은 파괴 난이도를, 자물쇠 레벨은 해제 난이도를 나타냅니다. 레벨은 1~10을 사용합니다. PC의 등급은 레벨과 비슷해 보이지만 1~6만 사용하며 작동 방식도 다릅니다. 예컨대 PC 등급은 일의 난이도를 직접 정하지 않습니다.
+>
+> **보통 수준(PRACTICED)** : 익숙도 능숙도 무능도 아닌 기본 상태를 뜻합니다. 무기 숙련 범위는 유형이 정하며, 보통 수준조차 아닌 무기 범주는 무능으로 취급합니다.
+>
+> **굴림(ROLL)** : PC가 행동의 성공 여부를 판정하기 위해 하는 d20 굴림입니다. 다른 주사위를 쓰는 경우도 있지만, 규칙 본문에서 단순히 굴림이라고 하면 기본적으로 d20 굴림을 뜻합니다.
+>
+> **라운드(ROUND)** : 약 5~10초 길이의 시간 단위입니다. 대략 1분에 10라운드 정도입니다. 정밀한 시간 추적이 필요할 때 라운드를 사용합니다. 각 라운드에서 모든 캐릭터가 행동 1개씩을 수행합니다.
+>
+> **능숙(SPECIALIZED)** : 특정 분야에 매우 뛰어난 숙련도를 가진 상태입니다. 능숙이면 해당 일이 2단계 완화됩니다. 예를 들어 등반에 능숙하면 등반 관련 판정이 모두 2단계 완화됩니다.
+>
+> **특성치(STAT)** : PC를 규정하는 세 가지 핵심 능력치, 즉 힘/속력/지성입니다. 각 특성치는 역량(Pool)과 재능(Edge)으로 구성됩니다. 역량은 기본 자원량, 재능은 그 자원을 효율적으로 쓰는 능력을 나타냅니다. 플레이 중 역량은 줄거나 늘 수 있습니다. 예를 들어 공격을 받아 힘 역량이 줄고, 능력을 써서 지성 역량을 소모하고, 휴식으로 속력 역량을 회복할 수 있습니다. 특성치에 피해, 회복, 보너스, 페널티를 주는 효과는 모두 역량에 적용됩니다.
+>
+> **일(TASK)** : PC가 시도하는 모든 판정 대상을 가리킵니다. 난이도는 마스터가 정합니다. 엄밀히 말하면 일은 대상, 행동은 그 수행을 뜻하지만 실제 플레이에서는 거의 같은 의미로 사용합니다.
+>
+> **익숙(TRAINED)** : 특정 분야에 충분한 숙련이 있는 상태입니다. 익숙이면 해당 일이 완화됩니다(기본 1단계). 예를 들어 등반에 익숙하면 등반 판정이 1단계 완화됩니다. 숙련이 더 높아지면 익숙 대신 능숙이 됩니다. 익숙이 없어도 판정 시도는 가능합니다.
+>
+> **차례(TURN)** : 라운드 안에서 각 캐릭터/생물이 자기 행동을 수행하는 순간입니다. 예를 들어 전사와 어뎁트가 오크와 싸운다면, 각 라운드마다 전사 차례 1행동, 어뎁트 차례 1행동, 오크 차례 1행동을 수행합니다. 일부 효과는 한 차례 동안만 유지되거나 다음 차례 시작 시 종료됩니다.
 
-> ## KEY CONCEPTS
-> **ACTION**: Anything a character does that is significant—punch a foe, leap a chasm, activate a device, use a special power, and so on. Each character can take one action in a round.
-> 
-> **CHARACTER**: Any creature in the game capable of acting, whether it is a player character (PC) run by a player or a nonplayer character (NPC) run by the game master (GM). In the Cypher System, even bizarre creatures, sentient machines, and living energy beings can be “characters.”
-> 
-> **DIFFICULTY**: A measure of how easy it is to accomplish a task. Difficulty is rated on a scale from 1 (lowest) to 10 (highest). Altering the difficulty to make a task harder is called “hindering.” Altering it to make a task easier is called “easing.” All changes in difficulty are measured in steps. Difficulty often equates directly with level, so opening a level 3 locked door probably has a difficulty of 3.
-> 
-> **EASE**: A decrease in a task’s difficulty, usually by one step. If something doesn’t say how many steps it eases a task, then it reduces the difficulty by one step.
-> 
-> **EFFORT**: Spending points from a stat Pool to reduce the difficulty of a task. A PC decides whether or not to apply Effort on their turn before the roll is made. NPCs never apply Effort.
-> 
-> **HINDER**: An increase in a task’s difficulty, usually by one step. If something doesn’t say how many steps it hinders a task, then it increases the difficulty by one step.
-> 
-> **INABILITY**: The opposite of trained—you’re hindered whenever you attempt a task that you have an inability in. If you also become trained in the task, the training and the inability cancel each other out and you become practiced.
-> 
-> **LEVEL**: A way to measure the strength, difficulty, power, or challenge of something in the game. Everything in the game has a level. NPCs and objects have levels that determine the difficulty of any task related to them. For example, an opponent’s level determines how hard they are to hit or avoid in combat. A door’s level indicates how hard it is to break down. A lock’s level determines how hard it is to pick. Levels are rated on a scale from 1 (lowest) to 10 (highest). PC tiers are a little like levels, but they go only from 1 to 6 and mechanically work very differently than levels—for example, a PC’s tier does not determine a task’s difficulty.
-> 
-> **PRACTICED**: The normal, unmodified ability to use a skill—not trained, specialized, or an inability. Your type determines what weapon skills you’re practiced in; if you aren’t practiced with a type of weapon, you have an inability in it. 
-> 
-> **ROLL**: A d20 roll made by a PC to determine whether an action is successful. Although the game occasionally uses other dice, when the text simply refers to “a roll,” it always means a d20 roll.
-> 
-> **ROUND**: A length of time about five to ten seconds long. There are about ten rounds in a minute. When it’s really important to track precise time, use rounds. Basically, it’s the length of time to take an action in the game, but since everyone more or less acts simultaneously, all characters get to take an action each round.
-> 
-> **SPECIALIZED**: Having an exceptional amount of skill in a task. Being specialized eases the task by two steps. So, if you are specialized in climbing, all your climbing tasks are eased by two steps.
-> 
-> **STAT**: One of the three defining characteristics for PCs: Might, Speed, or Intellect. Each stat has two values: Pool and Edge. Your Pool represents your raw, innate ability, and your Edge represents knowing how to use what you have. Each stat Pool can increase or decrease over the course of play—for example, you can lose points from your Might Pool when struck by an opponent, spend points from your Intellect Pool to activate a special ability, or rest to recover points in your Speed Pool after a long day of marching. Anything that damages a stat, restores a stat, or boosts or penalizes a stat affects the stat’s Pool.
-> 
-> **TASK**: Any action that a PC attempts. The GM determines the difficulty of the task. In general, a task is something that you do and an action is you performing that task, but in most cases they mean the same thing.
-> 
-> **TRAINED**: Having a reasonable amount of skill in a task. Being trained eases the task. For example, if you are trained in climbing, all climbing tasks for you are eased. If you become very skilled at that task, you become specialized instead of trained. You do not need to be trained to attempt a task.
-> 
-> **TURN**: The part of the round when a character or creature takes its actions. For example, if a Warrior and an Adept are fighting an orc, each round the Warrior takes an action on their turn, the Adept takes an action on their turn, and the orc takes an action on its turn. Some abilities or effects last only one turn, or end when the next turn is started.
+## 행동하기
 
-## TAKING ACTION
+각 캐릭터는 라운드마다 자기 차례를 한 번 얻고, 차례마다 행동 1개를 합니다. 행동은 특성치와 마찬가지로 힘/속력/지성 범주로 나뉩니다. 많은 행동은 d20 굴림을 요구합니다.
 
-Each character gets one turn each round. On a character’s turn, they can do one thing—an action. All actions fall into one of three categories: Might, Speed, or Intellect (just like the three stats). Many actions require die rolls—rolling a d20.
+모든 행동은 하나의 일을 수행하며, 모든 일에는 난이도가 있습니다. 굴림 결과가 그 난이도에서 계산된 목표치 이상이면 성공입니다.
 
-Every action performs a task, and every task has a difficulty that determines what number a character must reach or surpass with a die roll to succeed.
+대부분의 일은 난이도 0이라 자동 성공합니다. 예를 들어 방을 가로질러 걷기, 문 열기, 가까운 통에 돌 던지기는 행동이지만 보통 굴림이 필요하지 않습니다. 반대로 원래 어렵거나 상황 때문에 어려워진 행동(예: 눈보라 속 사격)은 난이도가 올라가며 보통 굴림이 필요합니다.
 
-Most tasks have a difficulty of 0, which means the character succeeds automatically. For example, walking across a room, opening a door, and throwing a stone into a nearby bucket are all actions, but none of them requires a roll. Actions that are usually difficult or that become difficult due to the situation (such as shooting at a target in a blizzard) have a higher difficulty. These actions usually require a roll.
+일부 행동은 시도 자체에 힘/속력/지성 점수의 최소 소모를 요구합니다. 필요한 최소 점수를 지불할 수 없으면 해당 행동은 자동 실패입니다.
 
-Some actions require a minimum expenditure of Might, Speed, or Intellect points. If a character cannot spend the minimum number of points needed to complete the action, they automatically fail at the task.
+## 어떤 특성치로 판정하는가
 
+모든 일은 힘/속력/지성 중 하나와 연결됩니다. 근력, 출력, 지구력을 요구하는 활동은 힘 판정입니다. 민첩성, 유연성, 반사 신경을 요구하는 활동은 속력 판정입니다. 의지, 기억, 정신력을 요구하는 활동은 지성 판정입니다. 따라서 일과 굴림은 각각 힘/속력/지성으로 나눠 볼 수 있습니다.
 
-## DETERMINING TASK STAT
+일의 범주가 정해지면, 어떤 분발을 적용할 수 있는지와 다른 능력이 어떻게 영향을 주는지도 함께 정해집니다. 예를 들어 어떤 어뎁트 능력은 지성 굴림을 강화하고, 어떤 전사 능력은 속력 굴림을 강화할 수 있습니다.
 
-Every task relates to one of a character’s three stats: Might, Speed, or Intellect. Physical activities that require strength, power, or endurance relate to Might. Physical activities that require agility, flexibility, or fast reflexes relate to Speed. Mental activities that require force of will, memory, or mental power relate to Intellect. This means you can generalize tasks into three categories: Might tasks, Speed tasks, and Intellect tasks. You can also generalize rolls into three categories: Might rolls, Speed rolls, and Intellect rolls.
+## 일의 난이도 정하기
 
-The category of the task or roll determines what kind of Effort you can apply to the roll and may determine how a character’s other abilities affect the roll. For example, an Adept may have an ability that makes them better at Intellect rolls, and a Warrior may have an ability that makes them better at Speed rolls.
+게임 중 마스터가 가장 자주, 그리고 가장 중요하게 하는 일은 난이도를 정하는 것입니다. 이를 위해 난이도 표를 사용하면 편합니다. 표에는 난이도 이름, 목표치, 대략적인 기준이 함께 제시됩니다.
 
+난이도 1~10은 각각 목표치를 가집니다. 공식은 단순합니다. 목표치 = 난이도 x 3. 플레이어는 d20 굴림으로 이 목표치 이상을 내야 성공합니다. 난이도를 올리거나 내리는 조정은 각각 방해/완화이며, 모두 단계 단위로 계산합니다.
 
-## DETERMINING TASK DIFFICULTY
+예를 들어 난이도 5를 난이도 4로 낮추면 1단계 완화입니다. 사이퍼 시스템의 조정은 대개 굴림값 보너스보다 난이도 조정으로 처리됩니다. 이 방식에는 중요한 특징이 두 가지 있습니다.
 
-The most frequent thing a GM does during the game—and probably the most important thing—is set a task’s difficulty. To make the job easier, use the Task Difficulty table, which associates a difficulty rating with a descriptive name, a target number, and general guidance about the difficulty.
+첫째, 목표치가 3이나 6처럼 낮아 보여도 판정이 긴장감을 잃지 않습니다. 목표치 6이라도 실패 확률이 25%나 됩니다.
 
-Every difficulty from 1 to 10 has a target number associated with it. The target number is easy to remember: it’s always three times the difficulty. The target number is the minimum number a player needs to roll on a d20 to succeed at the task. Moving up or down on the table is called hindering or easing, which is measured in steps.
+둘째, 난이도 7~10의 목표치는 21 이상이라 d20 단독으로는 달성할 수 없습니다. 대신 PC는 능력과 장비, 분발로 난이도를 완화해 도달 가능한 목표치로 끌어내립니다.
 
-For example, reducing a difficulty 5 task to a difficulty 4 task is “easing the difficulty by one step” or just “easing the difficulty” or “easing the task.” Most modifiers affect the difficulty rather than the player’s roll. This has two consequences:
+PC의 등급은 일의 난이도를 자동으로 결정하지 않습니다. 캐릭터가 성장했다고 세계가 자동으로 더 어려워지지는 않습니다. 4등급 캐릭터가 오직 4레벨 위협만 상대하는 것도 아니고, 4레벨 대상이 4등급 전용이라는 뜻도 아닙니다. 상황에 따라 5등급 캐릭터도 난이도 2의 일을 까다롭게 느낄 수 있습니다.
 
-Low target numbers such as 3 or 6, which would be boring in most games that use a d20, are not boring in the Cypher System. For example, if you need to roll a 6 or higher, you still have a 25% chance to fail.
+따라서 난이도는 캐릭터 전력 기준이 아니라, 그 일 자체의 성격과 상황을 기준으로 판단해야 합니다.
 
-The upper levels of difficulty (7, 8, 9, and 10) are all but impossible because the target numbers are 21 or higher, which you can’t roll on a d20. However, it’s common for PCs to have abilities or equipment that ease a task and thus lower the target number to something they can roll on a d20.
+## 난이도 조정
 
-A character’s tier does not determine a task’s level. Things don’t get more difficult just because a character’s tier increases—the world doesn’t instantly become a more difficult place. Fourth-tier characters don’t deal only with level 4 creatures or difficulty 4 tasks (although a fourth-tier character probably has a better shot at success than a first-tier character does). Just because something is level 4 doesn’t necessarily mean it’s meant only for fourth-tier characters. Similarly, depending on the situation, a fifth-tier character could find a difficulty 2 task just as challenging as a second-tier character does.
+마스터가 기본 난이도를 정한 뒤, 플레이어는 캐릭터 요소를 반영해 난이도를 조정할 수 있습니다. 이 조정은 해당 시도 1회에만 적용됩니다. 예를 들어 전자 자물쇠 재배선이 원래 난이도 6이더라도, 기능이 맞고 도구가 충분하고 동료 지원까지 있다면 실제 시도에서는 훨씬 쉬워질 수 있습니다. 그래서 마스터는 먼저 캐릭터를 배제하고 기본 난이도를 정하고, 그다음 단계에서 캐릭터 요인을 반영하는 방식이 중요합니다.
 
-Therefore, when setting the difficulty of a task, the GM should rate the task on its own merits, not on the power of the characters.
+기능, 보탬, 협력, 그리고 분발을 활용하면 난이도를 여러 단계 완화할 수 있습니다. 사이퍼 시스템은 굴림 보너스를 더하기보다 난이도 자체를 낮추는 방식을 우선 사용합니다. 난이도를 0까지 낮추면 굴림 없이 자동 성공입니다. (단, 마스터가 해당 판정에 개입을 선언하면 원래 난이도로 굴리게 할 수 있습니다.)
 
+난이도 완화의 기본 축은 세 가지입니다. 기능, 보탬, 분발. 각 방법은 최소 1단계 단위로만 적용됩니다.
 
-## MODIFYING THE DIFFICULTY
-After the GM sets the difficulty for a task, the player can try to modify it for their character. Any such modification applies only to this particular attempt at the task. In other words, rewiring an electronic door lock normally might be difficulty 6, but since the character doing the work is skilled in such tasks, has the right tools, and has another character assisting them, the difficulty in this instance might be much lower. That’s why it’s important for the GM to set a task’s difficulty without taking the character into account. The character comes in at this step.
+(기능+보탬+분발을 모두 활용한 총 완화 한도는 최대 10단계입니다. 기능 1~2단계, 보탬 1~2단계, 분발 1~6단계.)
 
-By using skills and assets, working together, and—perhaps most important—applying Effort, a character can ease a task by multiple steps to make it easier. Rather than adding bonuses to the player’s roll, reducing the difficulty lowers the target number. If they can reduce the difficulty of a task to 0, no roll is needed; success is automatic. (An exception is if the GM decides to use a GM intrusion on the task, in which case the player would have to make a roll at the original difficulty.)
+## 기능
 
-There are three basic ways in which a character can ease a task: skills, assets, and Effort. Each method eases the task by at least one step—never in smaller increments.
+캐릭터는 특정 종류의 일에 기능을 가질 수 있습니다. 기능 분야는 캐릭터마다 다릅니다. 누구는 속임수에 익숙하고, 누구는 기만 전반에 능숙하며, 누구는 대인 상호작용 전반을 잘 다룰 수 있습니다. 기능의 첫 단계는 익숙이며, 해당 일을 1단계 완화합니다. 더 높은 단계는 능숙이며, 2단계 완화합니다. 기능으로 완화할 수 있는 한도는 최대 2단계입니다.
 
-(By using skills, assets, and Effort, a character can ease a task by a maximum of ten steps: one or two steps from skills, one or two steps from assets, and one to six steps from Effort.)
+## 보탬
 
+보탬은 캐릭터의 판정에 실제 도움을 주는 모든 요소입니다. 예를 들어 문을 강제로 열 때 좋은 지렛대가 있거나, 불을 끌 때 비가 오는 상황은 보탬이 됩니다. 보탬은 일마다 달라집니다. 목공 도구는 목공에는 유리하지만 춤 공연에는 거의 영향을 주지 못합니다. 보탬은 보통 1단계 완화이며, 보탬으로 완화할 수 있는 한도는 최대 2단계입니다.
 
-## SKILLS
-Characters may be skilled at performing a specific task. A skill can vary from character to character. For example, one character might be skilled at lying, another might be skilled at trickery, and a third might be skilled in all interpersonal interactions. The first level of being skilled is called being trained, and it eases that task by one step. More rarely, a character can be incredibly skilled at performing a task. This is called being specialized, and it eases the task by two steps instead of one. Skills can never decrease a task by more than two steps—any more than two steps from being trained and specialized don’t count.
+(정리하면 기능 최대 2단계, 보탬 최대 2단계입니다. 즉 분발 없이 기능+보탬만으로는 최대 4단계까지만 완화됩니다.)
 
-## ASSETS
+## 분발
 
-An asset is anything that helps a character with a task, such as having a really good crowbar when trying to force open a door or being in a rainstorm when trying to put out a fire. Appropriate assets vary from task to task. The perfect awl might help when woodworking, but it won’t make a dance performance much better. An asset usually eases a task by one step. Assets can never ease a task by more than two steps—any more than two steps from assets don’t count.
+플레이어는 분발을 사용해 난이도를 완화할 수 있습니다. 분발에는 해당 일과 연결된 특성치 역량 점수를 사용합니다. 예를 들어 바위를 밀어 떨어뜨리는 시도에 분발한다면 힘 역량을, 복잡한 기계 인터페이스를 작동하는 시도에 분발한다면 지성 역량을 소모합니다. 분발 1단계마다 난이도 1단계를 완화합니다. 비용은 1단계에 3점, 이후 단계당 +2점입니다(2단계 5점, 3단계 7점...). 분발 비용은 판정 종류와 같은 특성치에서 지불합니다(힘 판정은 힘 역량, 속력 판정은 속력 역량, 지성 판정은 지성 역량).
 
-(The important thing to remember is that a skill can reduce the difficulty by no more than two steps, and assets can reduce the difficulty by no more than two steps, regardless of the situation. Thus, no task’s difficulty will ever be reduced by more than four steps without using Effort.)
+캐릭터마다 한 번의 일에 적용할 수 있는 분발 최대치가 있습니다. 또한 분발로 완화할 수 있는 절대 한도는 6단계입니다.
 
-## 분발 Effort
+무료 분발 1단계: 일부 능력은 무료 분발 1단계를 제공합니다(대개 기본 분발을 최소 1단계 적용해야 발동). 즉, 지불한 단계보다 1단계를 더 적용하는 효과입니다. 이 무료 단계는 캐릭터의 분발 최대치를 넘어설 수 있지만, 분발 완화 6단계 한도는 넘지 못합니다.
 
-A player can apply Effort to ease a task. To do this, the player spends points from the stat Pool that’s most appropriate to the task. For example, applying Effort to push a heavy rock off a cliff requires a player to spend points from the character’s Might Pool; applying Effort to activate an unusual machine interface requires them to spend points from the character’s Intellect Pool. For every level of Effort spent on a task, the task is eased. It costs 3 points from a stat Pool to apply one level of Effort, and it costs 2 additional points for every level thereafter (so it costs 5 points for two levels of Effort, 7 points for three levels of Effort, and so on). A character must spend points from the same stat Pool as the type of task or roll—Might points for a Might roll, Speed points for a Speed roll, or Intellect points for an Intellect roll.
+## 주사위 굴림
 
-Every character has a maximum level of Effort they can apply to a single task. Effort can never ease a task by more than six steps—any more than six steps from applying Effort doesn’t count.
+성공/실패 판정은 d20 굴림으로 처리합니다. 결과가 목표치 이상이면 성공입니다. 보통은 여기서 판정이 끝납니다. 드물게 굴림값 보너스가 직접 붙는 경우가 있으며, 예를 들어 특정 상황에서 +2 보너스를 받으면 굴림 결과에 2를 더합니다. 단, 특수효과 여부는 보정 전 d20 원래 눈을 기준으로 봅니다.
 
-Free Level of Effort: A few abilities give you a free level of Effort (these usually require you to apply at least one level of Effort to a task). In effect, you’re getting one more level of Effort than what you paid for. This free level of Effort can exceed the Effort limit for your character, but not the six-step limit for easing a task.
+굴림값 보정이 있으면 최종 결과가 21 이상이 될 수 있고, 이 경우 목표치 20 초과 판정도 시도할 수 있습니다. 다만 순수 20이 나와도 절대 성공할 수 없는 일이라면 굴림 자체를 하지 않습니다. 그렇지 않으면 달빛을 타고 오르기, 코끼리를 던지기, 산 너머 표적을 화살로 맞히기 같은 말도 안 되는 시도까지 모두 성공 가능성이 생기기 때문입니다.
 
-## ROLLING THE DIE
+굴림 보정 합계가 +3이 되면, 이를 보탬 1단계로 처리합니다. 즉 +3을 더하는 대신 난이도를 1단계 낮춥니다. 예를 들어 전사가 작은 이득 +1, 무기 특성 +1, 특수 능력 +1로 공격 굴림 +3을 얻는 상황이라면, 공격 굴림에 3을 더하지 않고 공격 난이도를 1단계 완화합니다. 3레벨 적을 상대한다면 원래 난이도 3(목표치 9)에서 난이도 2(목표치 6)로 바뀝니다.
 
-To determine success or failure, a player rolls a die (always a d20). If they roll the target number or higher, they succeed. Most of the time, that’s the end of it—nothing else needs to be done. Rarely, a character might apply a small modifier to the roll. If they have a +2 bonus when attempting specific actions, they add 2 to the number rolled. However, the original roll matters if it’s a special roll.
+이 구분은 기능/보탬을 누적해 난이도를 낮출 때 특히 중요합니다. 난이도를 0 이하로 만들면 굴림이 사라지기 때문입니다.
 
-If a character applies a modifier to the die roll, it’s possible to get a result of 21 or higher, in which case they can attempt a task with a target number above 20. But if there is no possibility for success—if not even rolling a natural 20 (meaning the d20 shows that number) is sufficient to accomplish the task—then no roll is made. Otherwise, characters would have a chance to succeed at everything, even impossible or ridiculous tasks such as climbing moonbeams, throwing elephants, or hitting a target on the opposite side of a mountain with an arrow.
+## 언제나 플레이어가 굴린다
 
-If a character’s modifiers add up to +3, treat them as an asset instead. In other words, instead of adding a +3 bonus to the roll, reduce the difficulty by one step. For example, if a Warrior has a +1 bonus to attack rolls from a minor effect, a +1 bonus to attack rolls from a special weapon quality, and a +1 bonus to attack rolls from a special ability, they do not add 3 to their attack roll—instead, they reduce the difficulty of the attack by one step. So if they attack a level 3 foe, they would normally roll against difficulty 3 and try to reach a target number of 9, but thanks to their asset, they roll against difficulty 2 and try to reach a target number of 6.
+사이퍼 시스템에서는 주사위를 항상 플레이어가 굴립니다. 즉, 행동의 주도권과 판정 책임이 플레이어에게 있습니다. PC가 달리는 탈것에서 뛰어내릴 때도, 숨겨진 패널을 찾을 때도, 낙석을 피할 때도, NPC와 팔씨름할 때도 플레이어가 굴립니다. PC가 공격할 때도 굴리고, 적이 PC를 공격할 때도 플레이어가 방어 굴림을 합니다.
 
-This distinction is important when stacking skills and assets to decrease the difficulty of an action, especially since reducing the difficulty to 0 or lower means no roll is needed.
+즉 플레이어는 공격과 방어를 모두 굴립니다. 따라서 방어에 유리한 요소는 플레이어의 방어 굴림을 완화하고, 반대로 공격에 불리한 요소는 플레이어의 공격 굴림을 방해합니다. 예를 들어 PC가 낮은 담장을 엄폐로 쓰면 방어 굴림이 유리해지고, 적이 그 담장을 엄폐로 쓰면 PC의 공격 굴림이 불리해집니다.
 
+## 특수 효과 굴림
 
-## THE PLAYER ALWAYS ROLLS
+순수 1, 17, 18, 19, 20(즉 d20 눈이 정확히 그 수)이 나오면 특수 규칙이 적용됩니다. 자세한 설명은 아래 항목을 따릅니다.
 
-In the Cypher System, players always drive the action. That means they make all the die rolls. If a PC leaps out of a moving vehicle, the player rolls to see if they succeed. If a PC searches for a hidden panel, the player rolls to determine whether they find it. If a rockslide falls on a PC, the player rolls to try to get out of the way. If a PC and an NPC arm wrestle, the player rolls, and the NPC’s level determines the target number. If a PC attacks a foe, the player rolls to see if they hit. If a foe attacks the PC, the player rolls to see if they dodge the blow.
+- **1** : 마스터 개입. 마스터가 무료 개입을 발생시키며(아래 참조), 이 경우 XP는 지급되지 않습니다.
+- **17** : 추가 피해. 피해를 주는 공격이었다면 피해 +1.
+- **18** : 추가 피해. 피해를 주는 공격이었다면 피해 +2.
+- **19** : 작은 이득. 피해 공격이면 피해 +3 또는 작은 이득 1개를 선택합니다. 비공격 판정이면 기본 성공 효과에 더해 작은 이득을 얻습니다.
+- **20** : 큰 이득. 피해 공격이면 피해 +4 또는 큰 이득/작은 이득을 선택합니다. 비공격 판정이면 기본 성공 효과에 더해 큰 이득을 얻습니다. 또한 행동에 특성치 역량 점수를 썼다면 비용이 0이 되어 해당 점수를 모두 돌려받습니다.
 
-As shown by the last two examples, the PC rolls whether they are attacking or defending. Thus, something that improves defenses might ease or hinder their rolls. For example, if a PC uses a low wall to gain cover from attacks, the wall eases the player’s defense rolls. If a foe uses the wall to gain cover from the PC’s attacks, it hinders the player’s attack rolls.
+## 마스터 개입
 
+마스터 개입은 `running-the-cypher-system` 장에서 더 자세히 다루지만, 핵심은 상황을 더 복잡하게 만드는 예기치 못한 요소가 끼어드는 것입니다. 캐릭터가 반드시 실수했기 때문은 아닙니다. 일 자체에서 뜻밖의 변수가 튀어나오거나, 현재 장면과 연관된 외부 요인이 개입하는 것일 수도 있습니다.
 
-## 특수 효과 SPECIAL ROLLS
+예를 들어 방어 굴림에서 마스터 개입이 발생하면, 순수 1의 결과로 적의 행운의 일격이 들어가 피해를 2점 더 받을 수도 있습니다.
 
-If a character rolls a natural 1, 17, 18, 19, or 20 (meaning the d20 shows that number), special rules come into play. These are explained in more detail in the following sections.
+(마스터 개입의 상세 규칙과 운용 요령은 `running-the-cypher-system` 장을 참고하십시오.)
 
-- **1**: GM Intrusion. The GM makes a free intrusion (see below) and doesn’t award experience points (XP) for it.
-- **17**: Damage Bonus. If the roll was a damage-dealing attack, it deals 1 additional point of damage.
-- **18**: Damage Bonus. If the roll was a damage-dealing attack, it deals 2 additional points of damage.
-- **19**: Minor Effect. If the roll was a damage-dealing attack, it deals 3 additional points of damage or the PC gets a minor effect in addition to the normal results of the task. If the roll was something other than an attack, the PC gets a minor effect in addition to the normal results of the task.
-- **20**: Major Effect. If the roll was a damage-dealing attack, it deals 4 additional points of damage or the PC gets a major or minor effect in addition to the normal results of the task. If the roll was something other than an attack, the PC gets a major effect in addition to the normal results of the task. If the PC spent points from a stat Pool on the action, the point cost for the action decreases to 0, meaning the character regains those points as if they had not spent them at all.
+## 작은 이득
 
-## GM INTRUSION
+작은 이득은 플레이어가 순수 19를 굴렸을 때 발생합니다. 보통은 PC에게 유리하지만, 판세를 완전히 뒤집을 정도로 강하지는 않습니다.
 
-GM intrusion is explained in more detail in the Running the Cypher System chapter, but essentially it means that something occurs to complicate the character’s life. The character hasn’t necessarily fumbled or done anything wrong (although perhaps they did). It could just be that the task presents an unexpected difficulty or something unrelated affects the current situation.
+예를 들어 가파른 경사를 오르던 캐릭터가 좀 더 빨리 올라가거나, 수리한 장치가 기대 이상으로 안정적으로 작동하거나, 구덩이로 뛰어내린 캐릭터가 깔끔하게 착지하는 식입니다. 작은 이득의 내용은 마스터나 플레이어가 제안할 수 있지만, 최종적으로는 양측 합의가 필요합니다.
 
-For GM intrusion on a defense roll, a roll of 1 might mean that the PC takes 2 additional points of damage from the attack, indicating that the opponent got in a lucky blow.
+상황에 맞는 효과가 떠오르지 않는다면 작은 이득을 오래 고민할 필요는 없습니다. 성공/실패만 중요한 장면에서는 작은 이득 없이 넘어가도 됩니다. 템포를 유지하는 것이 우선입니다.
 
-(For complete details about GM intrusion and how to use it to best effect in the game, see the Running the Cypher System chapter.)
+전투에서 가장 간단한 작은 이득은 공격 피해 +3입니다. 그 외 자주 쓰는 작은 이득은 다음과 같습니다.
 
-## MINOR EFFECT
+- **사물 타격** : 적 본체 대신 적이 들고 있는 물건을 가격합니다. 공격이 명중하면 사물 레벨과 같은 난이도의 힘 판정을 하며, 성공 시 사물 부상 트랙을 1단계 이상 진행시킵니다.
+- **교란** : 1라운드 동안 적이 수행하는 모든 일이 방해됩니다.
+- **밀어내기** : 적을 몇 걸음 뒤로 밀어냅니다. 보통은 영향이 작지만, 난간/용암/함정 근처라면 효과가 크게 작용할 수 있습니다.
+- **지나치기** : 공격이 끝난 뒤 단거리만큼 이동할 수 있습니다. 문을 지키는 적을 비껴 지나갈 때 유용합니다.
+- **특정 부위 가격** : 방어자의 특정 부위를 노려 맞힙니다. 실제 효과는 마스터가 상황에 맞게 정합니다. 예를 들어 동료를 붙잡은 촉수를 맞혀 탈출을 쉽게 만들거나, 눈을 맞혀 1라운드 실명시키거나, 약점을 맞혀 장갑을 무시할 수 있습니다.
 
-A minor effect happens when a player rolls a natural 19. Most of the time, a minor effect is slightly beneficial to the PC, but not overwhelming.
+대부분의 경우 마스터는 선언된 작은 이득을 그대로 적용합니다. 예를 들어 약한 적에게 19가 나와 절벽 아래로 떨어뜨리는 연출은 장면을 흥미롭게 만들지만, 이야기 전체를 크게 바꾸지는 않습니다. 다만 효과가 지나치게 비현실적이면 마스터가 추가 굴림을 요구할 수 있습니다. 즉, 특수효과 굴림은 작은 이득의 "기회"를 제공하는 것으로 보는 것입니다. 예컨대 50톤급 전투 자동인형을 밀어 떨어뜨리려는 경우가 그렇습니다. 반대로 단순히 피해 +3을 선택했다면 추가 굴림은 필요 없습니다.
 
-A climber gets up the steep slope a bit faster. A repaired machine works a bit better. A character jumping down into a pit lands on their feet. Either the GM or the player can come up with a possible minor effect that fits the situation, but both must agree on what it should be.
+## 큰 이득
 
-Don’t waste a lot of time thinking of a minor effect if nothing appropriate suggests itself. Sometimes, in cases where only success or failure matters, it’s okay to have no minor effect. Keep the game moving at an exciting pace.
+큰 이득은 플레이어가 순수 20을 굴렸을 때 발생합니다. 대체로 캐릭터에게 매우 유리한 결과를 줍니다. 예를 들어 절반 시간만에 경사를 오르거나, 인상적인 착지로 주변을 위축시키거나, 방어하던 캐릭터가 즉시 반격 기회를 얻는 식입니다.
 
-In combat, the easiest and most straightforward minor effect is dealing 3 additional points of damage with an attack. The following are other common minor effects for combat:
+큰 이득도 마스터와 플레이어 중 누구나 제안할 수 있으나, 양측 합의가 필요합니다. 작은 이득과 마찬가지로 디테일에 시간을 과하게 쓰지 마십시오. 성공/실패만 중요한 장면이라면, 비슷한 다음 행동에 1회성 보탬(1단계 조정)을 주는 방식도 적절합니다. 다른 아이디어가 없으면 같은 라운드의 자기 차례에 추가 행동 1개를 부여해도 됩니다.
 
-- **Damage object**: Instead of striking the foe, the attack strikes what the foe is holding. If the attack hits, the character makes a Might roll with a difficulty equal to the object’s level. On a success, the object moves one or more steps down the object damage track.
-- **Distract**: For one round, all of the foe’s tasks are hindered.
-- **Knock back**: The foe is knocked or forced back a few feet. Most of the time, this doesn’t matter much, but if the fight takes place on a ledge or next to a pit of lava, the effect can be significant.
-- **Move past**: The character can move a short distance at the end of the attack. This effect is useful to get past a foe guarding a door, for example.
-- **Strike a specific body part**: The attacker strikes a specific spot on the defender’s body. The GM rules what special effect, if any, results. For example, hitting a creature’s tentacle that is wrapped around an ally might make it easier for the ally to escape. Hitting a foe in the eye might blind it for one round. Hitting a creature in its one vulnerable spot might ignore Armor.
+전투에서 가장 간단한 큰 이득은 공격 피해 +4입니다. 그 외 자주 쓰는 큰 이득은 다음과 같습니다.
 
-Usually, the GM just has the desired minor effect occur. For example, rolling a 19 against a relatively weak foe means it is knocked off the cliff. The effect makes the round more exciting, but the defeat of a minor creature has no significant impact on the story. Other times, the GM might rule that an additional roll is needed to achieve the effect—the special roll only gives the PC the opportunity for a minor effect. This mostly happens when the desired effect is very unlikely, such as pushing a 50-ton battle automaton off a cliff. If the player just wants to deal 3 additional points of damage as the minor effect, no extra roll is needed.
+- **무장 해제** : 적이 들고 있던 물건 1개를 떨어뜨립니다.
+- **약화** : 전투가 끝날 때까지 적이 수행하는 모든 일이 방해됩니다.
+- **넘어뜨리기** : 적을 넘어뜨립니다. 적은 자기 차례에 일어날 수 있습니다.
+- **멍하게 만들기** : 적이 다음 행동을 잃습니다.
 
-## MAJOR EFFECT
+작은 이득과 동일하게, 보통은 마스터가 큰 이득을 바로 적용합니다. 다만 결과가 이례적이거나 실현 가능성이 낮다면 추가 굴림을 요구할 수 있습니다.
 
-A major effect happens when a player rolls a natural 20. Most of the time, a major effect is quite beneficial to the character. A climber gets up the steep slope in half the time. A jumper lands with such panache that those nearby are impressed and possibly intimidated. A defender makes a free attack on a foe.
+## 실패 후 재시도
 
-Either the GM or the player can come up with a possible major effect that fits the situation, but both must agree on what it should be. As with minor effects, don’t spend a lot of time agonizing over the details of a major effect. In cases where only success or failure matters, a major effect might offer the character a one-time asset (a modification of one step) to use the next time they attempt a similar action. When nothing else seems appropriate, the GM can simply grant the PC an additional action on their turn that same round.
+캐릭터가 일에 실패했을 때(벽 타기, 자물쇠 해제, 정체불명 장치 해석 등), 재시도는 가능합니다. 다만 같은 일을 재시도할 때는 반드시 분발을 최소 1단계 적용해야 합니다. 재시도는 실패했던 행동의 연장이 아니라 새로운 행동이며, 소요 시간도 원 시도와 동일합니다.
 
-In combat, the easiest and most straightforward
+상황에 따라 마스터는 재시도를 불허할 수 있습니다. 예를 들어 불량배 우두머리를 설득할 기회가 한 번뿐이었다면, 그 기회를 놓친 뒤에는 추가 대화로 되돌릴 수 없을 수 있습니다.
 
-major effect is dealing 4 additional points of damage with an attack. The following are other common major effects for combat.
+이 규칙은 전투 공격에는 보통 적용되지 않습니다. 전투는 매 라운드 상황이 계속 바뀌는 동적 장면이므로, 빗나간 공격을 동일 장면의 단순 재시도로 취급하지 않습니다.
 
-- **Disarm**: The foe drops one object that it is holding.
-- **Impair**: For the rest of the combat, all tasks the foe attempts are hindered.
-- **Knock down**: The foe is knocked prone. It can get up on its turn.
-- **Stun**: The foe loses its next action.
+## 초기 비용
 
-As with minor effects, usually the GM just has the desired major effect occur, but sometimes the GM might require an extra roll if the major effect is unusual or unlikely.
+마스터는 시도 자체에 점수 비용을 부여할 수 있습니다. 이를 초기 비용이라고 하며, 해당 일이 특히 소모적이라는 뜻입니다. 예를 들어 녹이 슬어 잘 열리지 않는 무거운 지하 문을 힘 판정으로 열려고 할 때, 마스터가 난이도 5와 함께 초기 비용 힘 3점을 제시할 수 있습니다. 이 초기 비용은 분발 등 굴림에 추가로 쓰는 점수와 별도이며, 난이도를 낮추지 않습니다. 즉, 문을 시도하려면 일단 힘 3점을 내야 하고, 분발로 완화하려면 추가 점수를 더 내야 합니다.
 
+초기 비용에도 재능이 적용됩니다. 위 사례에서 힘 재능이 2라면 초기 비용은 1점(3-2)만 지불하면 됩니다. 단, 같은 행동 안에서는 재능을 한 번만 적용합니다. 따라서 그 행동에서 분발 1단계도 함께 쓴다면 분발 비용 3점에는 재능을 다시 깎아 적용할 수 없습니다. 결과적으로 총 소모는 힘 4점(초기 비용 1 + 분발 3)입니다.
 
-## Retrying a Task after failure 
-If a character fails a task (whether it’s climbing a wall, picking a lock, trying to figure out a mysterious device, or something else) they can attempt it again, but they must apply at least one level of Effort when retrying that task. A retry is a new action, not part of the same action that failed, and it takes the same amount of time as the first attempt did.
-Sometimes the GM might rule that retries are impossible. Perhaps a character has one chance to convince the leader of a group of thugs not to attack, and after that, no amount of talking will stop them.
-This rule doesn’t apply to something like attacking a foe in combat because combat is always changing and fluid. Each round’s situation is new, not a repeat of a previous situation, so a missed attack can’t be retried.
+초기 비용 규칙의 취지는 명확합니다. 사이퍼 시스템에서는 분발로 성공 가능성을 높일 수 있지만, 어떤 행동은 시도 자체가 본질적으로 고되고 부담스럽다는 점을 반영하기 위한 장치입니다.
 
-## INITIAL COST
-The GM can assign a point cost to a task just for trying it. Called an initial cost, it’s simply an indication that the task is particularly taxing. For example, let’s say a character wants to try a Might action to open a heavy cellar door that is partially rusted shut. The GM says that forcing the door open is a difficulty 5 task, and there’s an initial cost of 3 Might points simply to try. This initial cost is in addition to any points the character chooses to spend on the roll (such as when applying Effort), and the initial cost points do not affect the difficulty of the task. In other words, the character must spend 3 Might points to attempt the task at all, but that doesn’t help them open the door. If they want to apply Effort to ease the task, they have to spend more points from their Might Pool.
+## 거리
 
-Edge helps with the initial cost of a task, just as it does with any expenditure from a character’s Pool. In the previous example, if the character had a Might Edge of 2, they would have to spend only 1 point (3 points minus 2 from their Might Edge) for the initial cost to attempt the task. If they also applied a level of Effort to open the door, they couldn’t use their Edge again—Edge applies only once per action—so using the Effort would cost the full 3 points. Thus, they’d spend a total of 4 points (1 for the initial cost plus 3 for the Effort) from their Might Pool.
+거리는 네 가지 범주로 단순화합니다. 지근거리, 단거리, 장거리, 초장거리입니다.
 
-The rationale of the initial cost rule is that even in the Cypher System, where things like Effort can help a character succeed on an action, logic still suggests that some actions are very difficult and taxing, particularly for some PCs more than others.
+지근거리는 손이 닿거나 몇 걸음 안의 거리입니다. 작은 방 안에 있다면 대체로 방 안 모든 대상이 지근거리입니다. 최대 약 3m(10피트)까지로 봅니다. 사거리 문맥에서는 근접(point-blank)이라고 부르기도 합니다.
 
+(거리 문맥에서 immediate와 close는 같은 뜻으로 취급해도 됩니다. 팔이 닿는 범위면 지근거리로 보면 됩니다.)
 
-## DISTANCE
+단거리는 지근거리보다 멀고 약 15m(50피트) 이내입니다.
 
-Distance is simplified into four basic categories: immediate, short, long, and very long.
+장거리는 단거리보다 멀고 약 30m(100피트) 이내입니다.
 
-Immediate distance from a character is within reach or within a few steps; if a character stands in a small room, everything in the room is within immediate distance. At most, immediate distance is 10 feet (3 m). Immediate distance is sometimes referred to as close, or even
+초장거리는 장거리보다 멀고 약 150m(500피트) 이내입니다.
 
-point-blank, particularly when referring to ranges.
+이를 넘는 거리는 300m, 1.5km처럼 실제 거리로 명시합니다.
 
-(The words “immediate” and “close” can be used interchangeably to talk about distance. If a creature or object is within arm’s reach of the character, it can be considered both immediate and close.)
+모든 무기와 특수 능력은 위 거리 용어를 사거리 기준으로 사용합니다. 근접 무기는 모두 지근거리 사거리이며, 지근거리 대상만 공격할 수 있습니다. 투척 단검(및 대부분의 투척 무기)은 단거리, 소형 권총도 단거리, 소총은 장거리 사거리를 가집니다.
 
-Short distance is anything greater than immediate distance but less than 50 feet (15 m) or so.
+캐릭터는 다른 행동과 함께 지근거리만큼 이동할 수 있습니다. 예를 들어 스위치까지 몇 걸음 가서 켜거나, 작은 방을 가로질러 적을 공격하거나, 문을 열고 바로 통과할 수 있습니다.
 
-Long distance is anything greater than short distance but less than 100 feet (30 m) or so. 
+단거리 이동은 자기 차례의 행동 전체를 사용해 수행합니다. 장거리 이동도 행동 전체를 사용해 시도할 수 있으나, 너무 빠르게 멀리 이동하는 상황이므로 미끄러짐/걸림/휘청거림 여부를 굴림으로 판정할 수 있습니다.
 
-Very long distance is anything greater than long distance but less than 500 feet (150 m) or so. 
+정확한 실측 거리를 재는 일은 보통 필요하지 않습니다. 예를 들어 PC들이 경비대와 뒤엉켜 싸우는 장면이라면 대체로 서로 지근거리로 취급해 공격이 가능합니다. 하지만 한 명이 뒤로 빠져 사격 중이라면, 그 적에게 접근하기 위해 행동 전체를 써 단거리 이동을 해야 할 수 있습니다. 그 거리가 6m든 12m든 단거리라면 처리상 차이는 없습니다. 다만 15m를 넘으면 장거리 이동 판정이 필요해지므로 의미 있는 차이가 됩니다.
 
-Beyond that range, distances are always specified—1,000 feet (300 m), 1 mile (1.5 km), and so on.
+박스 텍스트:
+기타 거리 범주
+드물게 초장거리를 넘어서는 범주가 필요할 때는 실제 거리(1마일, 100km 등)를 쓰는 것이 가장 명확합니다. 다만 설정에 따라 다음 약식 표현도 유용할 수 있습니다.
+행성권: 같은 행성 내부
+행성 간: 같은 항성계 내부
+항성 간: 같은 은하 내부
+은하 간: 같은 우주 어디든
+차원 간: 제한 없음
 
-All weapons and special abilities use these terms for ranges. For example, all melee weapons have immediate range—they are close-combat weapons, and you can use them to attack anyone within immediate distance. A thrown knife (and most other thrown weapons) has short range. A small handgun also has short range. A rifle has long range.
+## 시간 관리
 
-A character can move an immediate distance as a part of another action. In other words, they can take a few steps to the light switch and flip it on. They can lunge across a small room to attack a foe. They can open a door and step through.
+시간은 보통 분, 시간, 일, 주 단위로 일반적으로 처리하면 충분합니다. 예를 들어 캐릭터가 야지를 24km 이동하면 실제로는 약 8시간이 지나지만, 테이블에서는 몇 문장으로 요약해도 문제 없습니다. 정밀한 시간 추적이 꼭 필요한 경우는 드뭅니다. 보통은 "이건 한 시간쯤 걸립니다"처럼 처리하면 충분합니다.
 
-A character can move a short distance as their entire action for a turn. They can also try to move a long distance as their entire action, but the player might have to roll to see if the character slips, trips, or stumbles for moving so far so quickly.
+특수 능력의 지속시간도 같은 원칙으로 다룹니다. 초점 장면 중 "1분 지속"은 대체로 "해당 초점 장면 동안 지속"과 비슷하게 취급해도 됩니다. 원한다면 라운드를 일일이 세지 않아도 됩니다. 10분 지속 능력은 깊이 있는 대화 한 번, 소구역 빠른 탐색, 격렬한 활동 뒤 짧은 정비 시간 정도로 환산해 운영할 수 있습니다.
 
-GMs and players don’t need to determine exact distances. For example, if the PCs are fighting a group of guards, any character can likely attack any foe in the general melee—they’re all within immediate range. However, if one trooper stays back to fire a blaster, a character might have to use their entire action to move the short distance required to attack that foe. It doesn’t matter if the trooper is 20 feet (6 m) or 40 feet (12 m) away—it’s simply considered short distance. It does matter if the trooper is more than 50 feet (15 m) away because that distance would require a long move.
+#### 시간 소요 예시
 
-Boxed text:
-OTHER DISTANCES
-In rare cases where distances beyond very long are needed, real-world distances are best (1 mile, 100 kilometers, and so on). However, the following shorthand distances can be useful in some settings: 
-Planetary: On the same planet.
-Interplanetary: Within the same solar system.
-Interstellar: Within the same galaxy.
-Intergalactic: Anywhere in the same universe.
-Interdimensional: Anywhere.
+| 행동                                | 보통 소요 시간        |
+| ----------------------------------- | --------------------- |
+| 평탄한 지형 1마일(약 1.6km) 이동    | 약 15분               |
+| 거친 지형(숲, 눈, 구릉) 1마일 이동  | 약 30분               |
+| 험지(산악, 밀림) 1마일 이동         | 약 45분               |
+| 도시 내 주요 지점 간 이동           | 약 15분               |
+| 경비 구역 잠입                      | 약 15분               |
+| 새 장소를 관찰해 핵심 정보 파악     | 약 15분               |
+| 깊이 있는 대화                      | 약 10분               |
+| 전투/격렬한 활동 후 휴식            | 약 10분               |
+| 간단한 식사 포함 휴식               | 약 30분               |
+| 야영 준비 또는 철수                 | 약 30분               |
+| 시장/상점에서 보급품 구매           | 약 1시간              |
+| 중요한 접촉자와 회합                | 약 30분               |
+| 책/웹 자료 조사                     | 약 30분               |
+| 방 안 은닉물 수색                   | 최소 30분, 길면 1시간 |
+| 잡동사니 더미 속 사이퍼/귀중품 탐색 | 약 1시간              |
+| 사이퍼 식별 및 이해                 | 15분~30분             |
+| 아티팩트 식별 및 이해               | 최소 15분, 길면 3시간 |
+| 장치 수리(부품/도구 보유)           | 최소 1시간, 길면 1일  |
+| 장치 제작(부품/도구 보유)           | 최소 1일, 길면 1주    |
 
-## TIMEKEEPING
-Generally, keep time the same way that you normally would, using minutes, hours, days, and weeks. Thus, if the characters walk overland for 15 miles (24 km), about eight hours pass, even though the journey can be described in only a few seconds at the game table. Precision timekeeping is rarely important. Most of the time, saying things like “That takes about an hour” works fine.
-This is true even when a special ability has a specific duration. In an encounter, a duration of “one minute” is mostly the same as saying “the rest of the encounter.” You don’t have to track each round that ticks by if you don’t want to. Likewise, an ability that lasts for ten minutes can safely be considered the length of an in-depth conversation, the time it takes to quickly explore a small area, or the time it takes to rest after a strenuous activity.
+## 초점 장면, 라운드, 행동 순서
 
-#### TIMEKEEPING
-| Action                                                          | Time Usually Required                         |
-| --------------------------------------------------------------- | --------------------------------------------- |
-| Walking a mile over easy terrain                                | About fifteen minutes                         |
-| Walking a mile over rough terrain (forest, snow, hills)         | About half an hour                            |
-| Walking a mile over difficult terrain (mountains, thick jungle) | About forty-five minutes                      |
-| Moving from one significant location in a city to another       | About fifteen minutes                         |
-| Sneaking into a guarded location                                | About fifteen minutes                         |
-| Observing a new location to get salient details                 | About fifteen minutes                         |
-| Having an in-depth discussion                                   | About ten minutes                             |
-| Resting after a fight or other strenuous activity               | About ten minutes                             |
-| Resting and having a quick meal                                 | About half an hour                            |
-| Making or breaking camp                                         | About half an hour                            |
-| Shopping for supplies in a market or store                      | About an hour                                 |
-| Meeting with an important contact                               | About half an hour                            |
-| Referencing a book or website                                   | About half an hour                            |
-| Searching a room for hidden things                              | At least half an hour, perhaps one hour       |
-| Searching for cyphers or other valuables amid a lot of stuff    | About an hour                                 |
-| Identifying and understanding a cypher                          | Fifteen minutes to half an hour               |
-| Identifying and understanding an artifact                       | At least fifteen minutes, perhaps three hours |
-| Repairing a device (assuming parts and tools available)         | At least an hour, perhaps a day               |
-| Building a device (assuming parts and tools available)          | At least a day, perhaps a week                |
+플레이를 하다 보면 장면이라는 개념을 사용하게 될 것입니다. 장면은 시간의 단위가 아니라 뭔가가 일어나는 사건이나 상황을 가리키는 말입니다. "어제 그 지라스카랑 싸운 장면 뒤로 힘 역량을 아직 회복 못했어요"처럼 말할 수 있습니다. 누메네라에서는 PC들이 누군가 또는 무언가를 상대로 하여 중요한 일을 하는 장면을 초점 장면이라고도 합니다. 적과의 전투, 급류가 몰아치는 강의 도하, 고위 관료와의 팽팽한 교섭 같은 것이 이에 해당됩니다.
 
+라운드는 5~10초 정도의 시간입니다. 라운드마다 시간이 조금 다를 수는 있지만, 그보다 더 정확하게 시간을 잴 필요는 없습니다. 1분에 10라운드 정도가 있다고 생각하면 대체로 맞습니다. 한 라운드에는 PC도 NPC도 모두 행동을 한 번씩 할 수 있습니다.
 
-## ENCOUNTERS, ROUNDS, AND INITIATIVE 
-Sometimes in the course of the game, the GM or players will refer to an “encounter.” Encounters are not so much measurements of time as they are events or instances in which something happens, like a scene of a movie or a chapter in a book. An encounter might be a fight with a foe, a dramatic crossing of a raging river, or a stressful negotiation with an important official. It’s useful to use the word when referring to a specific scene, as in “My Might Pool is low after that encounter with the soul sorcerer yesterday.”
+한 라운드에서 누가 먼저 행동하는지는 모두가 속력 판정을 해서 정합니다. 이것을 행동 순서 판정이라고 합니다. 대부분의 경우, 어느 PC가 NPC들보다 먼저 행동하고 어느 PC가 그보다 나중에 행동하는지만 알면 됩니다. 행동 순서 판정이 NPC의 목표치 이상으로 나온 PC는 NPC보다 먼저 행동하고, 그보다 낮게 나온 PC는 나중에 행동합니다. 목표치가 모두 그렇듯, NPC의 행동 순서 목표치는 레벨의 3배입니다. 다양한 NPC들이 섞여 있는 경우, 마스터가 그중 가장 목표치가 높은 쪽을 기준으로 모든 NPC를 한꺼번에 행동하게 할 수 있습니다. 그렇게 하면 목표치 이상으로 나온 PC들이 먼저 행동하고, 그다음에 NPC들이 레벨에 관계없이 모두 행동하고, 그다음에는 목표치 미만으로 나온 PC들이 행동합니다.
 
-A round is about five to ten seconds. The length of time is variable because sometimes one round might be a bit longer than another. You don’t need to measure time more precisely than that. You can estimate that on average there are about ten rounds in a minute. In a round, everyone—each character and NPC—gets to take one action.
+PC들간의 순서는 대개 중요하지 않습니다. 순서를 정하고 싶으면 행동 순서 판정이 높게 나온 쪽부터 먼저 해도 되고, 테이블에서 시계 방향으로 해도 되고, 나이가 많은 사람부터 먼저 해도 됩니다.
 
-To determine who goes first, second, and so on in a round, each player makes a Speed roll called an initiative roll. Most of the time, it’s only important to know which characters act before the NPCs and which act after the NPCs. On an initiative roll, a character who rolls higher than an NPC’s target number takes their action before the NPC does. As with all target numbers, an NPC’s target number for an initiative roll is three times the NPC’s level. Many times, the GM will have all NPCs take their actions at the same time, using the highest target number from among all the NPCs. Using this method, any characters who rolled higher than the target number act first, then all the NPCs act, and finally any characters who rolled lower than the target number act.
+예를 들어 콜린, 제임스, 샤나가 2레벨 경비 두 명과 전투를 벌이고 있습니다. 마스터가 속력 판정을 해서 행동 순서를 정하라고 합니다. 콜린은 8, 샤나는 15, 제임스는 4가 나옵니다. 2레벨 생물의 목표치는 6이기 때문에, 콜린과 샤나는 매 라운드 경비들보다 먼저 행동하고, 그다음에 경비들이 행동하고, 그다음에 제임스가 행동합니다. 서로 동의만 하면, 콜린과 샤나 중 누가 먼저 행동하는지는 중요하지 않습니다.
 
-(An initiative roll is a d20 roll. Since your initiative depends on how fast you are, if you spend Effort on the roll, the points come from your Speed Pool.)
+PC들과 NPC들이 모두 자기 차례에 행동을 했으면 라운드가 끝나고 새 라운드가 시작됩니다. 첫 라운드에서 정해진 순서가 그대로 반복됩니다. 싸움이 끝나거나 사건이 완료되어 그 장면이 종료할 때까지 그 순서에 따라 행동하면 됩니다. 단, 새 라운드에서 상황이 크게 바뀌었으면 마스터가 새 행동 순서 판정을 요구할 수 있습니다. 예를 들어 NPC들이 증원을 얻었거나, 주변 환경이 바뀌었거나(예: 불이 꺼진다), 지형이 변하거나(PC들 발밑이 꺼진다), 그 비슷한 일이 일어나면 마스터가 새로 행동 순서 판정을 요구할 수 있는 것입니다.
 
-The order in which the characters act usually isn’t important. If the players want to go in a precise order, they can act in initiative order (highest to lowest), by going around the table, by going oldest to youngest, and so on.
+라운드는 순환하기 때문에, 1라운드 동안 지속되는 효과는 그것이 시작된 지점에서부터 계산합니다. 예를 들어 나노 발레리스가 적의 방어를 1라운드 방해하는 에소테리를 사용했다면, 그 효과는 발레리스의 다음 차례가 올 때까지 지속됩니다.
 
-For example, Charles, Tammie, and Shanna’s characters are in combat with two level 2 security guards. The GM has the players make Speed rolls to determine initiative. Charles rolls an 8, Shanna rolls a 15, and Tammie rolls a 4. The target number for a level 2 creature is 6, so each round Charles and Shanna act before the guards, then the guards act, and finally Tammie acts. It doesn’t matter whether Charles acts before or after Shanna, as long as they think it’s fair.
+행동 순서 빨리 정하기 (옵션 룰): PC들 중 한 명이라도 NPC의 목표치 이상으로 나오면 PC들 전원이 NPC들보다 먼저 행동합니다. 목표치 이상으로 나온 사람이 없으면 모두 NPC들보다 나중에 행동합니다. PC들 차례에는 테이블에서 시계 방향으로 돌아가며 행동합니다.
 
-After everyone—all PCs and NPCs—in the combat has had a turn, the round ends and a new round begins. In all rounds after the first, everyone acts in the same order as they did in the first round. The characters cycle through this order until the logical end of the encounter (the end of the fight or the completion of the event) or until the GM asks them to make new initiative rolls. The GM can call for new initiative rolls at the beginning of any new round when conditions drastically change. For example, if the NPCs gain reinforcements, the environment changes (perhaps the lights go out), the terrain changes (maybe part of the balcony collapses under the PCs), or something similar occurs, the GM can call for new initiative rolls.
+## PC가 직접 개입하지 않는 상황 판정
 
-Since the action moves as a cycle, anything that lasts for a round ends where it started in the cycle. If Umberto uses an ability on an opponent that hinders its defenses for one round, the effect lasts until Umberto acts on his next turn.
+결국 PC가 직접 관여하지 않는 충돌은 마스터가 최종 판정합니다. 판정 기준은 "가장 흥미롭고, 논리적이며, 이야기 흐름에 맞는가"입니다. 판단이 애매할 때는 관련된 NPC(캐릭터/생물)나 효과의 레벨을 맞춰 결과를 정하면 됩니다. 예를 들어 4레벨 NPC와 3레벨 NPC가 맞붙으면 보통 4레벨이 이기고, 7레벨 NPC를 상대하면 보통 집니다. 마찬가지로 4레벨 생물은 3레벨 이하 독이나 장치에는 버티지만, 5레벨 이상에는 버티지 못합니다.
 
+핵심은 간단합니다. 사이퍼 시스템에서는 대상이 생물이든, 독이든, 중력 해제 광선이든 중요하지 않습니다. 레벨이 높으면 이기고, 낮으면 집니다. 레벨이 같으면 오래 끌며 어느 쪽으로든 기울 수 있습니다.
 
-## A CLOSER LOOK AT SITUATIONS THAT DON’T INVOLVE PCs
-Ultimately, the GM is the arbiter of conflicts that do not involve the PCs. They should be adjudicated in the most interesting, logical, and story-based way possible. When in doubt, match the level of the NPCs (characters or creatures) or their respective effects to determine the results. Thus, if a level 4 NPC fights a level 3 NPC, the level 4 NPC will win, but if they face a level 7 NPC, they’ll lose. Likewise, a level 4 creature resists poisons or devices of level 3 or lower but not those of level 5 and above.
+## 행동
 
-The essence is this: in the Cypher System, it doesn’t matter if something is a creature, a poison, or a gravity-dispelling ray. If it’s a higher level, it wins; if it’s a lower level, it loses. If two things of equal level oppose each other, there might be a long, drawn-out battle that could go either way.
+라운드 안에서 캐릭터가 하는 모든 일은 행동입니다. 행동은 보통 5~10초 안에 할 수 있는 하나의 단위로 생각하면 쉽습니다. 예를 들어 다트 발사기로 기묘한 부유 구체를 쏘는 것은 행동 1개입니다. 통 뒤로 몸을 날려 엄폐를 잡거나, 걸린 문을 비틀어 열거나, 밧줄로 구덩이의 동료를 끌어올리거나, 배낭 속 사이퍼를 작동하는 것도 각각 행동 1개입니다.
 
+문을 열고 그 너머의 경비를 공격하는 것은 행동 2개입니다. 이것은 시간보다 "의도와 집중의 전환"에 가깝습니다. 칼을 뽑아 적을 공격하는 것은 하나의 흐름이라 행동 1개로 봅니다. 반면 활을 집어넣고 무거운 책장을 밀어 문을 막는 것은 서로 다른 사고 과정이므로 행동 2개입니다.
 
-## ACTIONS
-Anything that your character does in a round is an action. It’s easiest to think of an action as a single thing that you can do in five to ten seconds. For example, if you use your dart thrower to shoot a strange floating orb, that’s one action. So is running for cover behind a stack of barrels, prying open a stuck door, using a rope to pull your friend up from a pit, or activating a cypher (even if it’s stored in your pack).
+하려는 행동이 손이 닿지 않는 곳에 있다면, 약간 이동을 할 수 있습니다. 기본적으로 지근거리까지 이동하면서 행동을 수행할 수 있습니다. 예를 들어 지근거리 이동 후 공격, 문을 열고 복도로 지근거리 이동, 바닥에 쓰러진 동료를 붙잡아 몇 걸음 끌어내는 것이 가능합니다. 이 이동은 행동 전후 어느 쪽에 배치해도 됩니다.
 
-Opening a door and attacking a security guard on the other side are two actions. It’s more a matter of focus than time. Drawing your sword and attacking a foe is all one action. Putting away your bow and pushing a heavy bookcase to block a door are two actions because each requires a different train of thought.
+가장 흔한 행동은 다음과 같습니다.
 
-If the action you want to accomplish is not within reach, you can move a little bit. Essentially, you can move up to an immediate distance to perform your action. For example, you can move an immediate distance and attack a foe, open a door and move an immediate distance into the hallway beyond, or grab your hurt friend lying on the ground and pull them back a few steps. This movement can occur before or after your action, so you can move to a door and open it, or you can open a door and move through it.
+- 공격
+- 특수 능력 사용(공격이 아닌 것)
+- 이동
+- 대기
+- 방어
+- 기타 행동
 
-The most common actions are:
-- Attack
-- Activate a special ability (one that isn’t an attack)
-- Move
-- Wait
-- Defend
-- Do something else
+### 행동: 공격
 
-### ACTION: ATTACK
-An attack is anything that you do to someone that they don’t want you to do. Slashing a foe with a curved dagger is an attack, blasting a foe with a lightning artifact is an attack, wrapping a foe in magnetically controlled metal cables is an attack, and controlling someone’s mind is an attack. An attack almost always requires a roll to see if you hit or otherwise affect your target.
-In the simplest kind of attack, such as a PC trying to stab a thug with a knife, the player rolls and compares their result to the opponent’s target number. If their roll is equal to or greater than the target number, the attack hits. Just as with any kind of task, the GM might modify the difficulty based on the situation, and the player might have a bonus to the roll or might try to ease the task using skills, assets, or Effort.
-A less straightforward attack might be a special ability that stuns a foe with a mental blast. However, it’s handled the same way: the player makes a roll against the opponent’s target number. Similarly, an attempt to tackle a foe and wrestle it to the ground is still just a roll against the foe’s target number.
-Attacks are sometimes categorized as “melee” attacks, meaning that you hurt or affect something within immediate reach, or “ranged” attacks, meaning that you hurt or affect something at a distance.
-Melee attacks can be Might or Speed actions—player choice. Physical ranged attacks (such as bows, thrown weapons, and blasts of fire from a mutation) are almost always Speed actions, but those that come from special abilities tend to be Intellect actions.
-Special abilities that require touching the target require a melee attack. If the attack misses, the power is not wasted, and you can try again each round as your action until you hit the target, use another ability, or take a different action that requires you to use your hands. These attempts in later rounds count as different actions, so you don’t have to keep track of how much Effort you used when you activated the ability or how you used Edge. For example, let’s say that in the first round of combat, you activate a special ability that requires you to touch your foe and you use Effort to ease the attack, but you roll poorly and miss your foe. In the second round of combat, you can try attacking again and use Effort to ease the attack roll.
-The GM and players are encouraged to describe every attack with flavor and flair. One attack roll might be a stab to the foe’s arm. A miss might be the PC’s sword slamming into the wall. Combatants lunge, block, duck, spin, leap, and make all kinds of movements that should keep combat visually interesting and compelling. The Running the Cypher System chapter has much more guidance in this regard.
-Common elements that affect the difficulty of a combat task are cover, range, and darkness. The rules for these and other modifiers are explained in the Attack Modifiers and Special Situations section of this chapter.
+공격은 "상대가 원하지 않는 일을 상대에게 가하는 행위" 전반입니다. 곡날 단검으로 베기, 번개 아티팩트로 타격하기, 자기 제어 금속 케이블로 속박하기, 정신 지배를 시도하기 모두 공격입니다. 공격은 대체로 명중 또는 효과 적용 여부를 확인하는 굴림이 필요합니다.
 
-Damage
-When an attack strikes a character, it usually means the character takes damage.
-An attack against a PC subtracts points from one of the character’s stat Pools—usually the Might Pool. Whenever an attack simply says it deals “damage” without specifying the type, it means Might damage, which is by far the most common type. Intellect damage, which is usually the result of a mental attack, is always labeled as Intellect damage. Speed damage is often a physical attack, but attacks that deal Speed damage are fairly rare.
-NPCs don’t have stat Pools. Instead, they have a characteristic called health. When an NPC takes damage of any kind, the amount is subtracted from its health. Unless described otherwise, an NPC’s health is always equal to its target number. Some NPCs might have special reactions to or defenses against attacks that would normally deal Speed damage or Intellect damage, but unless the NPC’s description specifically explains this, assume that all damage is subtracted from the NPC’s health.
-Objects don’t have stat Pools or health. They have an object damage track, just like how PCs have a damage track. Attacking objects might move them down their damage track.
-Damage is always a specific amount determined by the attack. For example, a slash with a broadsword or a blast with a spike thrower deals 4 points of damage. An Adept’s Onslaught deals 4 points of damage. Often, there are ways for the attacker to increase the damage. For example, a PC can apply Effort to deal 3 additional points of damage, and rolling a natural 17 on the attack roll deals 1 additional point of damage.
+가장 단순한 공격은 PC가 단도로 불량배를 찌르려는 경우처럼, 플레이어가 굴림 결과를 상대 목표치와 비교하는 방식입니다. 결과가 목표치 이상이면 명중입니다. 다른 일과 마찬가지로 마스터는 상황에 따라 난이도를 조정할 수 있고, 플레이어는 보정/기능/보탬/분발로 판정을 완화할 수 있습니다.
 
-Armor
-Pieces of equipment and special abilities protect a character from damage by giving them Armor. Each time a character takes damage, subtract their Armor value from the damage before reducing their stat Pool or health. For example, if a Warrior with 2 Armor is hit by a gunshot that deals 4 points of damage, they take only 2 points of damage (4 minus 2 from their Armor). If Armor reduces the incoming damage to 0 or lower, the character takes no damage from the attack. For example, the Warrior’s 2 Armor protects them from all physical attacks that deal 1 or 2 points of damage.
-The most common way to get Armor is to wear physical armor, such as a leather jacket, a bulletproof vest, a chainmail hauberk, bioengineered carapace grafts, or something else, depending on the setting. All physical armor comes in one of three categories: light, medium, or heavy. Light armor gives the wearer 1 point of Armor, medium gives 2 points of Armor, and heavy gives 3 points of Armor.
-When you see the word “Armor” capitalized in the game rules (other than in the name of a special ability), it refers to your Armor characteristic—the number you subtract from incoming damage. When you see the word “armor” in lowercase, it refers to any physical armor you might wear.
-Other effects can add to a character’s Armor. If a character is wearing chainmail (+2 to Armor) and has an ability that covers them in a protective force field that grants +1 to Armor, their total is 3 Armor. If they also use a cypher that hardens their flesh temporarily for +1 to Armor, their total is 4 Armor.
-Some types of damage ignore physical armor. Attacks that specifically deal Speed damage or Intellect damage ignore Armor; the creature takes the listed amount of damage without any reduction from Armor. Ambient damage (see below) usually ignores Armor as well.
-A creature may have a special bonus to Armor against certain kinds of attacks. For example, a protective suit made of a sturdy, fire-resistant material might normally give its wearer +1 to Armor but count as +3 to Armor against fire attacks. An artifact worn as a helmet might grant +2 to Armor only against mental attacks.
+정신 충격으로 적을 멍하게 만드는 특수 능력처럼 복잡해 보이는 공격도 처리 원리는 같습니다. 플레이어가 상대 목표치에 맞춰 굴립니다. 적을 들이받아 넘어뜨리는 시도 역시 결국은 상대 목표치에 대한 판정입니다.
 
-Ambient Damage
-Some kinds of damage aren’t direct attacks against a creature, but they indirectly affect everything in the area. Most of these are environmental effects such as winter cold, high temperatures, or background radiation. Damage from these kinds of sources is called ambient damage. Physical armor usually doesn’t protect against ambient damage, though a well-insulated suit of armor can protect against cold weather.
+공격은 보통 근접 공격과 원거리 공격으로 나눕니다. 근접 공격은 지근거리 내 대상을, 원거리 공격은 떨어진 대상을 겨냥합니다.
 
-Damage From Hazards
-Attacks aren’t the only way to inflict damage on a character. Experiences such as falling from a great height, being burned in a fire, and spending time in severe weather also deal damage. Although no list of potential hazards could be comprehensive, the Damage From Hazards table includes common examples.
+근접 공격은 힘 또는 속력 행동으로 처리할 수 있습니다(플레이어 선택). 활/투척 무기/돌연변이 화염 분출 같은 물리 원거리 공격은 대체로 속력 행동이며, 특수 능력 기반 원거리 공격은 지성 행동인 경우가 많습니다.
 
-DAMAGE FROM HAZARDS
-Source
-Damage
-Notes
-Falling
-1 point per 10 feet (3 m) fallen (ambient damage)
-—
-Minor fire
-3 points per round (ambient damage)
-Torch
-Major fire
-6 points per round (ambient damage)
-Engulfed in flames; lava
-Acid splash
-2 points per round (ambient damage)
-—
-Acid bath
-6 points per round (ambient damage)
-Immersed in acid
-Cold
-1 point per round (ambient damage)
-Below freezing temperatures
-Severe cold
-3 points per round (ambient damage)
-Liquid nitrogen
-Shock
-1 point per round (ambient damage)
-Often involves losing next action
-Electrocution
-6 points per round (ambient damage)
-Often involves losing next action
-Crush
-3 points
-Object or creature falls on character
-Huge crush
-6 points
-Roof collapse; cave-in
-Collision
-6 points
-Large, fast object strikes character
+대상을 직접 접촉해야 발동하는 특수 능력은 근접 공격으로 판정합니다. 이때 공격이 빗나가도 능력은 소모되지 않으며, 명중하거나 다른 능력을 쓰거나 손을 써야 하는 다른 행동을 하기 전까지 매 라운드 자기 행동으로 다시 시도할 수 있습니다. 이후 라운드의 재시도는 각각 별도 행동이므로, 처음 발동 때 사용한 분발/재능 적용 내역을 계속 추적할 필요는 없습니다.
 
+공격은 수치 처리만 하지 말고 장면 묘사를 적극적으로 붙이는 것이 좋습니다. 명중은 팔을 스치는 찌르기로, 실패는 벽에 칼날이 박히는 연출로 풀어낼 수 있습니다. 돌진, 막기, 숙이기, 회전, 도약 같은 동작이 전투를 더 선명하고 긴장감 있게 만듭니다. 이 부분은 `running-the-cypher-system` 장에 더 자세히 나와 있습니다.
 
+전투 판정 난이도에 자주 영향을 주는 요소는 엄폐, 사거리, 어둠입니다. 이외 수정치는 이 장의 "공격 수정치와 특수 상황" 절을 따르십시오.
 
+피해
+공격이 캐릭터에 명중하면 보통 피해가 발생합니다.
+PC가 공격받으면 특성치 역량 중 하나에서 점수를 잃습니다(대부분 힘 역량). 공격 항목에 피해 유형이 따로 적혀 있지 않고 단순히 "피해"라고만 되어 있으면 기본적으로 힘 피해를 뜻합니다. 지성 피해는 정신 공격의 결과인 경우가 많으며 항상 지성 피해로 명시됩니다. 속력 피해는 물리 공격 형태가 많지만 실제 빈도는 높지 않습니다.
 
-The Effects of Taking Damage
-When an NPC reaches 0 health, it is either dead or (if the attacker wishes) incapacitated, meaning unconscious or beaten into submission.
-As previously mentioned, damage from most sources is applied to a character’s Might Pool. Otherwise, stat damage always reduces the Pool of the stat it affects.
-If damage reduces a character’s stat Pool to 0, any further damage to that stat (including excess damage from the attack that reduced the stat to 0) is applied to another stat Pool. Damage is applied to Pools in this order:
-1. Might (unless the Pool is 0)
-2. Speed (unless the Pool is 0)
-3. Intellect
-Even if the damage is applied to another stat Pool, it still counts as its original type for the purpose of Armor and special abilities that affect damage. For example, if a character with 2 Armor is reduced to 0 Might and then is hit by a creature’s claw for 3 points of damage, it still counts as Might damage, so their Armor reduces the damage to 1 point, which then is applied to their Speed Pool. In other words, even though they take the damage from their Speed Pool, it doesn’t ignore Armor like Speed damage normally would.
-In addition to taking damage from their Might Pool, Speed Pool, or Intellect Pool, PCs also have a damage track. The damage track has four states (from best to worst): hale, impaired, debilitated, and dead. When one of a PC’s stat Pools reaches 0, they move one step down the damage track. Thus, if they are hale, they become impaired. If they are already impaired, they become debilitated. If they are already debilitated, they become dead.
-Some effects can immediately shift a PC one or more steps on the damage track. These include rare poisons, cellular disruption attacks, and massive traumas (such as falls from very great heights, being run over by a speeding vehicle, and so on, as determined by the GM).
-Some attacks, like a serpent’s poisonous bite or a Speaker’s Enthrall, have effects other than damage to a stat Pool or shifting the PC on the damage track. These attacks can cause unconsciousness, paralysis, and so on.
-(When NPCs (who have only health) suffer Speed or Intellect damage, normally this is treated the same as Might damage. However, the GM or the player has the option to suggest an appropriate alternate effect—the NPC suffers a penalty, moves more slowly, is stunned, and so on.)
+NPC는 특성치 역량이 없습니다. 대신 체력(health)을 사용합니다. NPC가 어떤 종류의 피해를 받든 해당 수치만큼 체력이 줄어듭니다. 별도 기재가 없으면 NPC 체력은 기본적으로 목표치와 같습니다. 일부 NPC는 속력/지성 피해에 특별한 반응이나 방어를 가질 수 있으나, 해당 NPC 설명에 명확히 적혀 있지 않다면 모든 피해가 체력에서 차감된다고 보면 됩니다.
 
-The Damage Track
-As noted above, the damage track has four states: hale, impaired, debilitated, and dead.
-Hale is the normal state for a character: all three stat Pools are at 1 or higher, and the PC has no penalties from harmful conditions. When a hale PC takes enough damage to reduce one of their stat Pools to 0, they become impaired. Note that a character whose stat Pools are much lower than normal can still be hale.
-Impaired is a wounded or injured state. When an impaired character applies Effort, it costs 1 extra point per level applied. For example, applying one level of Effort costs 4 points instead of 3, and applying two levels of Effort costs 7 points instead of 5.
-An impaired character ignores minor and major effect results on their rolls, and they don’t deal as much extra damage in combat with a special roll. In combat, a roll of 17 or higher deals only 1 additional point of damage. When an impaired PC takes enough damage to reduce one of their stat Pools to 0, they become debilitated.
-Debilitated is a critically injured state. A debilitated character may not take any actions other than to move (probably crawl) no more than an immediate distance. If a debilitated character’s Speed Pool is 0, they can’t move at all. When a debilitated PC takes enough damage to reduce a stat Pool to 0, they are dead.
-Dead is dead.
-(The damage track allows you to know how far from death you are. If you’re hale, you’re three steps from death. If you’re impaired, you’re two steps from death. If you’re debilitated, you are only one small step from death’s door.)
+사물에는 특성치 역량도 체력도 없습니다. 대신 PC의 부상 트랙과 유사한 사물 부상 트랙을 사용합니다. 사물 공격은 이 트랙을 진행시키는 방식으로 처리합니다.
 
-Recovering Points in a Pool
-After losing or spending points in a Pool, you recover those points by resting. You can’t increase a Pool past its maximum by resting—just back to its normal level. Any extra points gained go away with no effect. The amount of points you recover from a rest, and how long each rest takes, depends on how many times you have rested so far that day.
-When you rest, make a recovery roll. To do this, roll a d6 and add your tier. You recover that many points, and you can divide them among your stat Pools however you wish. For example, if your recovery roll is 4 and you’ve lost 4 points of Might and 2 points of Speed, you can recover 4 points of Might, or 2 points of Might and 2 points of Speed, or any other combination adding up to 4 points.
-The first time you rest each day, it takes only a few seconds to catch your breath. If you rest this way in the middle of an encounter, it takes one action on your turn.
-The second time you rest each day, you must rest for ten minutes to make a recovery roll. The third time you rest each day, you must rest for one hour to make a recovery roll. The fourth time you rest each day, you must rest for ten hours to make a recovery roll (usually, this occurs when you stop for the day to eat and sleep).
-After that much rest, it’s assumed to be a new day, so the next time you rest, it takes only a few seconds. The next rest takes ten minutes, then one hour, and so on, in a cycle.
-If you haven’t rested yet that day and you take a lot of damage in a fight, you could rest a few seconds (regaining 1d6 points + 1 point per tier) and then immediately rest for ten minutes (regaining another 1d6 points + 1 point per tier). Thus, in one full day of doing nothing but resting, you could recover 4d6 points + 4 points per tier.
-Each character chooses when to make recovery rolls. If a party of five PCs rests for ten minutes because two of them want to make recovery rolls, the others don’t have to make rolls at that time. Later in the day, those three can decide to rest for ten minutes and make recovery rolls.
-Recovery Roll
-Rest Time Needed
-First recovery roll
-One action
-Second recovery roll
-Ten minutes
-Third recovery roll
-One hour
-Fourth recovery roll
-Ten hours
+피해량은 항상 공격 항목에 지정된 고정 수치입니다. 예를 들어 브로드소드 베기나 스파이크 발사기 타격은 4점 피해를 줍니다. 어뎁트의 Onslaught도 4점 피해입니다. 공격자는 여러 방식으로 피해를 늘릴 수 있습니다. 예를 들어 분발로 피해를 3점 늘릴 수 있고, 공격 굴림에서 순수 17이 나오면 피해가 1점 추가됩니다.
 
+장갑
+장비와 특수 능력은 장갑 수치를 제공해 피해를 줄여 줍니다. 캐릭터가 피해를 받을 때마다, 특성치 역량이나 체력을 줄이기 전에 피해량에서 장갑을 먼저 뺍니다. 예를 들어 장갑 2인 전사가 4점 피해 탄환을 맞으면 실제 피해는 2점입니다(4-2). 장갑으로 피해가 0 이하가 되면 피해를 입지 않습니다. 즉 장갑 2는 1~2점 물리 피해를 전부 상쇄합니다.
 
+장갑을 얻는 가장 흔한 방법은 실제 방어구 착용입니다. 설정에 따라 가죽 재킷, 방탄 조끼, 사슬 갑옷, 생체 공학 외골편 등 형태는 달라질 수 있습니다. 물리 방어구는 경형/중형/중장형 세 범주를 사용하며, 각각 장갑 1/2/3을 제공합니다.
 
-Restoring the Damage Track
-Using points from a recovery roll to raise a stat Pool from 0 to 1 or higher also automatically moves the character up one step on the damage track.
-If all of a PC’s stat Pools are above 0 and the character has taken special damage that moved them down the damage track, they can use a recovery roll to move up one step on the damage track instead of recovering points. For example, a character who is debilitated from a hit with a
-cell-disrupting biotech device can rest and move up to impaired rather than recover points in a Pool.
+규칙에서 대문자 표기의 Armor(능력명 제외)는 캐릭터 특성치로서의 장갑 수치, 즉 피해에서 빼는 값을 뜻합니다. 소문자 armor는 착용 방어구 자체를 가리킵니다.
 
-Special Damage
-In the course of playing the game, characters face all manner of threats and dangers that can harm them in a variety of ways, only some of which are easily represented by points of damage.
-Dazed and Stunned: Characters can be dazed when struck hard on the head, exposed to extremely loud sounds, or affected by a mental attack. When this happens, for the duration of the daze effect (usually one round), all of the character’s tasks are hindered. Similar but more severe attacks can stun characters. Stunned characters lose their turn (but can still defend against attacks normally).
-Poison and Disease: When characters encounter poison—whether the venom of a serpent, rat poison slipped into a burrito, cyanide dissolved in wine, or an overdose of acetaminophen—they make a Might defense roll to resist it. Failure to resist can result in points of damage, moving down the damage track, or a specific effect such as paralysis, unconsciousness, disability, or something stranger. For example, some poisons affect the brain, making it impossible to say certain words, take certain actions, resist certain effects, or recover points to a stat Pool.
-Diseases work like poisons, but their effect occurs every day, so the victim must make a Might defense roll each day or suffer the effects. Disease effects are as varied as poisons: points of damage, moving down the damage track, disability, and so on. Many diseases inflict damage that cannot be restored through conventional means.
-Paralysis: Paralytic effects cause a character to drop to the ground, unable to move. Unless otherwise specified, the character can still take actions that require no physical movement.
-Other Effects: Other special effects can render a character blind or deaf, unable to stand without falling over, or unable to breathe. Stranger effects might negate gravity for the character (or increase it a hundredfold), transport them to another place, render them out of phase, mutate their physical form, implant false memories or senses, alter the way their brain processes information, or inflame their nerves so they are in constant, excruciating pain. Each special effect must be handled on a case-by-case basis. The GM adjudicates how the character is affected and how the condition can be alleviated (if possible).
+추가 효과로 장갑을 더 얻을 수도 있습니다. 예를 들어 사슬 갑옷(+2)과 보호 역장 능력(+1)을 함께 쓰면 총 장갑 3입니다. 여기에 피부 경화 사이퍼(+1)까지 쓰면 총 장갑 4가 됩니다.
 
-NPCs and Special Damage
-The GM always has final say over what special damage will affect an NPC. Human NPCs usually react like characters, but nonhuman creatures might react very differently. For example, a tiny bit of venom is unlikely to hurt a gigantic dragon, and it won’t affect an android or a demon at all.
-If an NPC is susceptible to an attack that would shift a character down the damage track, using that attack on the NPC usually renders it unconscious or dead. Alternatively, the GM could apply the debilitated condition to the NPC, with the same effect as it would have on a PC.
+일부 피해는 물리 방어구를 무시합니다. 속력 피해/지성 피해로 명시된 공격은 장갑을 무시하고 표기된 피해를 그대로 적용합니다. 아래의 환경 피해도 보통 장갑을 무시합니다.
 
+특정 공격 유형에만 추가 장갑 보너스를 받는 생물/장비도 있습니다. 예를 들어 내열 보호복이 평소에는 장갑 +1이지만 화염 공격에는 +3으로 적용될 수 있고, 투구형 아티팩트가 정신 공격에만 장갑 +2를 줄 수도 있습니다.
 
-ATTACK MODIFIERS AND SPECIAL SITUATIONS 
-In combat situations, many modifiers might come into play. Although the GM is at liberty to assess whatever modifiers they think are appropriate to the situation (that’s their role in the game), the following suggestions and guidelines might make that easier. Often the modifier is applied as a step in difficulty. So if a situation hinders attacks, that means if a PC attacks an NPC, the difficulty of the attack roll is increased by one step, and if an NPC attacks a PC, the difficulty of the defense roll is decreased by one step. This is because players make all rolls, whether they are attacking or defending—NPCs never make attack or defense rolls.
-When in doubt, if it seems like it should be harder to attack in a situation, hinder the attack rolls. If it seems like attacks should gain an advantage or be easier in some way, hinder the defense rolls.
-(Precise ranges are not important in the Cypher System. The broadly defined “immediate,” “short,” “long,” and “very long” ranges let the GM quickly make a judgment call and keep things moving. Basically, the idea is: your target is right there, your target is close, your target is pretty far away, or your target is extremely far away.)
+환경 피해
+어떤 피해는 생물을 직접 공격하는 형태가 아니라, 지역 전체에 간접적으로 영향을 미칩니다. 겨울 한파, 고열, 배경 방사선 같은 환경 요인이 대표적입니다. 이런 피해를 환경 피해라고 합니다. 환경 피해는 대체로 물리 방어구로 막을 수 없지만, 단열이 잘된 방어구는 혹한 피해를 줄일 수 있습니다.
 
-Cover
-If a character is behind cover so that a significant portion of their body is behind something sturdy, attacks against the character are hindered.
-If a character is entirely behind cover (their entire body is behind something sturdy), they can’t be attacked unless the attack can go through the cover. For example, if a character hides behind a thin wooden screen and their opponent shoots the screen with a rifle that can penetrate the wood, the character can be attacked. However, because the attacker can’t see the character clearly, this still counts as cover (attacks against the character are hindered).
+위험요소 피해
+캐릭터에게 피해를 주는 방식은 공격만이 아닙니다. 높은 곳에서의 추락, 화재 화상, 혹독한 기후 노출도 피해를 줍니다. 모든 위험요소를 목록화할 수는 없지만, 아래 표는 자주 쓰는 예시를 정리한 것입니다.
 
-Position
-Sometimes where a character stands gives them an advantage or a disadvantage.
-Prone Target: In melee, a prone target is easier to hit (attacks against them are eased). In ranged combat, a prone target is harder to hit (attacks against them are hindered).
-Higher Ground: In either ranged or melee combat, attacks by an opponent on higher ground are eased.
+위험요소 피해표
 
-Surprise
-When a target isn’t aware of an incoming attack, the attacker has an advantage. A ranged sniper in a hidden position, an invisible assailant, or the first salvo in a successful ambush are all eased by two steps. For the attacker to gain this advantage, however, the defender truly must have no idea that the attack is coming.
-If the defender isn’t sure of the attacker’s location but is still on guard, the attacks are eased by only one step.
+| 원인           | 피해                             | 비고                           |
+| -------------- | -------------------------------- | ------------------------------ |
+| 추락           | 추락 3m(10피트)당 1점(환경 피해) | —                              |
+| 작은 화염      | 라운드당 3점(환경 피해)          | 횃불                           |
+| 큰 화염        | 라운드당 6점(환경 피해)          | 화염에 휩싸임, 용암            |
+| 산성 비산      | 라운드당 2점(환경 피해)          | —                              |
+| 산성 침지      | 라운드당 6점(환경 피해)          | 산에 잠김                      |
+| 한랭           | 라운드당 1점(환경 피해)          | 빙점 이하 기온                 |
+| 극한 한랭      | 라운드당 3점(환경 피해)          | 액체 질소                      |
+| 감전 충격      | 라운드당 1점(환경 피해)          | 다음 행동 상실이 자주 동반됨   |
+| 강한 전기 충격 | 라운드당 6점(환경 피해)          | 다음 행동 상실이 자주 동반됨   |
+| 압궤           | 3점                              | 물체/생물이 캐릭터 위로 떨어짐 |
+| 대규모 압궤    | 6점                              | 지붕 붕괴, 낙반                |
+| 충돌           | 6점                              | 크고 빠른 물체가 캐릭터를 타격 |
 
-Range
-In melee, you can attack a foe who is adjacent to you (next to you) or within reach (immediate range). If you enter into melee with one or more foes, usually you can attack most or all of the combatants, meaning they are next to you, within reach, or within reach if you move slightly or have a long weapon that extends your reach.
-The majority of ranged attacks have only two ranges: short range and long range (a few have very long range). Short range is generally less than 50 feet (15 m) or so. Long range is generally from 50 feet (15 m) to about 100 feet (30 m). Very long range is generally 100 feet (30 m) to 500 feet (150 m). Greater precision than that isn’t important in the Cypher System. If anything is longer than very long range, the exact range is usually spelled out, such as with an item that can fire a beam 1,000 feet (300 m) or teleport you up to 1 mile (1.5 km) away.
-Thus, the game has four measurements of distance: immediate, short, long, and very long. These apply to movement as well. A few special cases—point-blank range and extreme range— modify an attack’s chance to successfully hit.
-Point-Blank Range: If a character uses a ranged weapon against a target within immediate range, the attack is eased.
-Extreme Range: Targets just at the limit of a weapon’s range are at extreme range. Attacks against such targets are hindered.
-(The GM might allow a character with a ranged weapon to attack beyond extreme range, but the attack would be hindered by two steps for each range category beyond the normal limit. Attacks with hard limits, such as the blast radius of a bomb, can’t be modified.)
-(In certain situations, such as a PC on top of a building looking across an open field, the GM should allow ranged attacks to exceed their maximum range. For example, in perfect conditions, a good archer can hit a large target with a bow and arrow at 500 feet (150 m), much farther than a bow’s typical long range.)
+피해를 받았을 때의 효과
+NPC의 체력이 0이 되면 사망하거나(공격자가 원하면) 무력화됩니다. 무력화는 기절했거나 제압당한 상태를 뜻합니다.
+앞서 설명했듯 대부분의 피해는 힘 역량에 적용됩니다. 그 외 특성치 피해는 해당 특성치 역량을 직접 감소시킵니다.
+어떤 특성치 역량이 0이 되면, 그 특성치에 들어오는 추가 피해(0으로 만든 공격의 초과 피해 포함)는 다른 특성치 역량으로 넘어갑니다. 적용 순서는 다음과 같습니다.
 
-Illumination
-What characters can see (and how well they can see) plays a huge factor in combat.
-Dim Light: Dim light is approximately the amount of light on a night with a bright full moon or the illumination provided by a torch, flashlight, or desk lamp. Dim light allows you to see out to short range. Targets in dim light are harder to hit. Attacks against such targets are hindered. Attackers trained in low-light spotting negate this modifier.
-Very Dim Light: Very dim light is approximately the amount of light on a starry night with no visible moon, or the glow provided by a candle or an illuminated control panel. Very dim light allows you to see clearly only within immediate range and perceive vague shapes to short range. Targets in very dim light are harder to hit. Attacks against targets within immediate range are hindered, and attacks against those in short range are hindered by two steps. Attackers trained in low-light spotting modify these difficulties by one step in their favor. Attackers specialized in low-light spotting modify these difficulties by two steps in their favor.
-Darkness: Darkness is an area with no illumination at all, such as a moonless night with cloud cover or a room with no lights. Targets in complete darkness are nearly impossible to hit. If an attacker can use other senses (such as hearing) to get an idea of where the opponent might be, attacks against such targets are hindered by four steps. Otherwise, attacks in complete darkness fail without the need for a roll unless the player spends 1 XP to “make a lucky shot” or the GM uses GM intrusion. Attackers trained in low-light spotting ease the task. Attackers specialized in low-light spotting ease the task by two steps.
+1. 힘(힘 역량이 0이 아닐 때)
+2. 속력(속력 역량이 0이 아닐 때)
+3. 지성
+   피해가 다른 특성치로 넘어가더라도, 장갑/특수 능력 판정에서는 원래 피해 유형을 유지합니다. 예를 들어 장갑 2인 캐릭터의 힘 역량이 이미 0인데 발톱 공격으로 3점 피해를 받았다면, 이 피해는 여전히 힘 피해로 취급됩니다. 따라서 장갑으로 1점으로 줄어들고, 그 1점이 속력 역량에 적용됩니다. 즉 속력 역량에서 빠지더라도 일반적인 속력 피해처럼 장갑 무시가 되지는 않습니다.
+   PC는 힘/속력/지성 역량 피해 외에도 부상 트랙을 가집니다. 부상 트랙은 상태가 좋은 쪽부터 나쁜 쪽 순으로 건강함(hale), 부상(impaired), 중상(debilitated), 사망(dead) 네 단계입니다. PC의 특성치 역량 중 하나가 0이 되면 부상 트랙이 1단계 내려갑니다. 건강함이면 부상이 되고, 이미 부상이면 중상이 되며, 이미 중상이면 사망합니다.
+   일부 효과는 즉시 부상 트랙을 1단계 이상 내릴 수 있습니다. 희귀 독, 세포 붕괴 공격, 대형 외상(매우 높은 곳에서의 추락, 고속 탈것에 치임 등)이 대표적이며 최종 판단은 마스터가 합니다.
+   또 어떤 공격은 역량 피해나 부상 트랙 하강 외의 부가 효과를 가집니다. 예를 들어 독사 물림이나 스피커의 Enthrall 같은 공격은 기절, 마비 등의 상태를 유발할 수 있습니다.
+   (체력만 가진 NPC가 속력/지성 피해를 받으면 기본적으로 힘 피해처럼 처리합니다. 다만 마스터나 플레이어가 상황에 맞는 대체 효과를 제안할 수 있습니다. 예: 페널티 부여, 이동 둔화, 기절 등.)
 
-Visibility
-Similar to illumination, factors that obscure vision affect combat.
-Mist: A target in mist is similar to one in dim light. Ranged attacks against such targets are hindered. Particularly dense mist makes ranged attacks nearly impossible (treat as darkness), and even melee attacks are hindered.
-Hiding Target: A target in dense foliage, behind a screen, or crawling amid the rubble in a ruin is hard to hit because they’re hard to see. Ranged attacks against such targets are hindered.
-Invisible Target: If an attacker can use other senses (such as hearing) to get an idea of where the opponent might be, attacks against such targets are hindered by four steps. Otherwise, attacks against an invisible creature fail without the need for a roll unless the player spends 1 XP to “make a lucky shot” or the GM uses GM intrusion.
+부상 트랙
+앞서 말했듯 부상 트랙은 건강함, 부상, 중상, 사망의 네 단계로 구성됩니다.
+건강함은 기본 상태입니다. 세 특성치 역량이 모두 1 이상이며, 유해 상태로 인한 페널티가 없습니다. 건강함 상태에서 특성치 역량 하나가 0이 되면 부상 상태로 내려갑니다. 역량이 평소보다 크게 낮아도 0만 아니면 건강함일 수 있습니다.
+부상은 상처를 입은 상태입니다. 부상 상태의 캐릭터가 분발을 적용하면 단계당 비용이 1점 더 듭니다. 즉 분발 1단계는 3점이 아니라 4점, 2단계는 5점이 아니라 7점이 듭니다.
+부상 상태에서는 굴림의 작은 이득/큰 이득 결과를 무시합니다. 또한 전투 특수 굴림의 추가 피해가 줄어듭니다. 전투에서 17 이상을 굴려도 추가 피해는 1점만 줍니다. 부상 상태에서 특성치 역량 하나가 0이 되면 중상 상태로 내려갑니다.
+중상은 치명적 부상 상태입니다. 중상 캐릭터는 지근거리 이하의 이동(대개 기어가기) 외에는 행동할 수 없습니다. 중상 상태에서 속력 역량이 0이면 이동조차 불가능합니다. 중상 상태에서 특성치 역량 하나가 다시 0이 되면 사망합니다.
+사망은 말 그대로 사망입니다.
+(부상 트랙은 죽음까지 얼마나 남았는지 보여 줍니다. 건강함은 3단계, 부상은 2단계, 중상은 1단계만 남은 상태입니다.)
 
-Water
-Being in shallow water can make it hard to move, but it doesn’t affect combat. Being in deep water can make things difficult, and being underwater entirely can seem as different as being on another world.
-Deep Water: Being in water up to your chest (or the equivalent thereof) hinders your attacks. Aquatic creatures ignore this modifier.
-Underwater Melee Combat: For nonaquatic creatures, being completely underwater makes attacking very difficult. Attacks with stabbing weapons are hindered, and melee attacks with slashing or bashing weapons are hindered by two steps. Aquatic creatures ignore these penalties.
-Underwater Ranged Combat: As with melee combat, nonaquatic creatures have problems fighting underwater. Some ranged attacks are impossible underwater—you can’t throw things, fire a bow or crossbow, or use a blowgun. Many firearms also do not work underwater. Attacks with weapons that do work underwater are hindered. Ranges underwater are reduced by one category; very-long-range weapons work only to long range, long-range weapons work only to short range, and short-range weapons work only to immediate range.
+역량 점수 회복
+역량에서 점수를 잃거나 소비했다면 휴식으로 회복합니다. 휴식으로 역량 최대치를 넘길 수는 없고, 정상 수치까지만 회복됩니다. 초과 회복분은 효과 없이 사라집니다. 한 번의 휴식에서 얼마나 회복하는지, 그리고 휴식에 얼마나 걸리는지는 그날 지금까지 몇 번 휴식했는지에 따라 달라집니다.
+휴식할 때는 회복 굴림을 합니다. d6을 굴리고 자신의 등급을 더하십시오. 나온 수치만큼 점수를 회복하고, 힘/속력/지성 역량에 원하는 비율로 나눠 배분할 수 있습니다. 예를 들어 회복 굴림이 4이고 힘 4점, 속력 2점을 잃은 상태라면 힘 4점을 회복하거나, 힘 2점+속력 2점처럼 합계 4점이 되도록 배분하면 됩니다.
+하루 첫 휴식은 숨을 고르는 정도라 몇 초면 됩니다. 초점 장면 도중 이 휴식을 하면 자기 차례의 행동 1개를 소비합니다.
+하루 두 번째 휴식은 10분, 세 번째 휴식은 1시간, 네 번째 휴식은 10시간이 필요합니다(보통 식사와 수면을 포함해 하루를 마무리하는 휴식입니다).
+10시간 휴식을 마치면 새날이 시작된 것으로 간주합니다. 따라서 다음 휴식은 다시 몇 초, 그다음은 10분, 그다음은 1시간 식으로 같은 주기가 반복됩니다.
+그날 아직 한 번도 쉬지 않았는데 전투에서 큰 피해를 받았다면, 몇 초 휴식(1d6+등급만큼 회복) 후 곧바로 10분 휴식(다시 1d6+등급 회복)을 연속으로 할 수도 있습니다. 즉 하루를 온전히 휴식에만 쓰면 최대 4d6+등급x4점 회복이 가능합니다.
+회복 굴림 시점은 캐릭터마다 독립적으로 선택합니다. 5인 파티에서 2명이 회복 굴림을 위해 10분 휴식을 선택했다면, 나머지 3명은 그때 굳이 굴릴 필요가 없습니다. 이후 따로 10분을 쉬고 굴리면 됩니다.
+회복 굴림
 
-Moving Targets
-Moving targets are harder to hit, and moving attackers have a difficult time as well.
-Target Is Moving: Attackers trying to hit a foe who is moving very fast are hindered. (A foe moving very fast is one who is doing nothing but running, mounted on a moving creature, riding on a vehicle or moving conveyance, and so on.)
-Attacker Is Moving: An attacker trying to make an attack while moving under their own power (walking, running, swimming, and so on) takes no penalties. Attacks from a moving mount or moving vehicle are hindered; an attacker trained in riding or driving ignores this penalty.
-Attacker Is Jostled: Being jostled, such as while standing on a listing ship or a vibrating platform, makes attacking difficult. Such attacks are hindered. Characters trained in balancing or sailing would ignore penalties for being on a ship.
+| 회복 굴림         | 필요 휴식 시간 |
+| ----------------- | -------------- |
+| 첫 번째 회복 굴림 | 행동 1개       |
+| 두 번째 회복 굴림 | 10분           |
+| 세 번째 회복 굴림 | 1시간          |
+| 네 번째 회복 굴림 | 10시간         |
 
-GRAVITY
-In a spacefaring campaign, characters may travel to worlds with stronger or weaker gravity than Earth’s. Likewise, strange technology or magic can cause gravity to fluctuate even in an Earth-based campaign. Characters who have a large amount of metal (wearing metal armor, using metal weapons, and so on) can be affected by fluctuating magnetism just as a character is affected by gravity.
-Low Gravity: Weapons that rely on weight, such as all heavy weapons, deal 2 fewer points of damage (dealing a minimum of 1 point of damage). Weapons with short range can reach to long range, and long-range weapons can reach to very long range. Characters trained in low-gravity maneuvering ignore the damage penalty. 
-High Gravity: It’s hard to make effective attacks when the pull of gravity is very strong. Attacks (and all physical actions) made in high gravity are hindered. Ranges in high gravity are reduced by one category (very-long-range weapons reach only to long range, long-range weapons reach only to short range, and
-short-range weapons reach only to immediate range). Characters trained in high-gravity maneuvering ignore the change in difficulty but not the range decreases. 
-Zero Gravity: It’s hard to maneuver in an environment without gravity. All physical actions (including attacks) made in zero gravity are hindered. Weapons with short range can reach to long range, long-range weapons can reach to very long range, and very-long-range weapons can reach to about 1,000 feet (300 m) instead of 500 feet (150 m). Characters trained in zero-gravity maneuvering ignore the change in difficulty.
+부상 트랙 회복
+회복 굴림으로 특성치 역량을 0에서 1 이상으로 올리면, 부상 트랙도 자동으로 1단계 올라갑니다.
+PC의 세 특성치 역량이 모두 1 이상인데도 특수 피해로 부상 트랙이 내려간 상태라면, 회복 굴림 점수를 역량 회복 대신 부상 트랙 1단계 상승에 사용할 수 있습니다. 예를 들어 세포 붕괴 생체장치에 맞아 중상 상태가 됐다면, 휴식으로 역량 점수 대신 부상 상태까지 회복할 수 있습니다.
 
+특수 피해
+게임 중 캐릭터는 다양한 위협에 노출되며, 그중 일부는 단순한 점수 피해만으로 표현하기 어렵습니다.
+멍함과 기절: 머리를 강하게 맞거나, 극도로 큰 소리에 노출되거나, 정신 공격을 받으면 멍한 상태가 될 수 있습니다. 멍함이 지속되는 동안(보통 1라운드) 해당 캐릭터의 모든 일이 방해됩니다. 유사하지만 더 강한 효과는 기절을 유발할 수 있습니다. 기절한 캐릭터는 자기 차례 행동을 잃지만, 방어 판정은 정상적으로 할 수 있습니다.
+독과 질병: 캐릭터가 독(뱀독, 음식에 탄 독약, 음료에 섞인 청산, 약물 과다복용 등)에 노출되면 힘 방어 판정을 해 저항합니다. 저항에 실패하면 점수 피해, 부상 트랙 하강, 또는 마비/실신/장애 같은 특수 효과를 받을 수 있습니다. 어떤 독은 뇌 기능을 교란해 특정 단어를 말하지 못하게 하거나, 특정 행동/저항/역량 회복을 막기도 합니다.
+질병은 작동 방식이 독과 유사하지만, 효과가 매일 반복되므로 피해자는 매일 힘 방어 판정을 해야 합니다. 실패하면 피해, 부상 트랙 하강, 기능 장애 등이 발생할 수 있습니다. 많은 질병은 일반적인 방식으로 회복되지 않는 손상을 남깁니다.
+마비: 마비 효과를 받으면 캐릭터는 쓰러져 움직일 수 없습니다. 별도 설명이 없는 한, 신체 이동이 필요 없는 행동은 수행할 수 있습니다.
+기타 효과: 실명, 난청, 균형 상실, 호흡 불가 같은 상태도 가능합니다. 더 기이한 효과로는 중력 무효화(또는 과중력), 공간 이동, 위상 이탈, 육체 변이, 가짜 기억/감각 주입, 인지 처리 방식 변조, 신경 과민으로 인한 극심한 통증 등이 있습니다. 이런 특수 효과는 사례별로 판정해야 하며, 캐릭터가 어떤 영향을 받고 어떻게 완화/해제할 수 있는지는 마스터가 결정합니다.
 
-SPECIAL SITUATION: COMBAT BETWEEN NPCs 
-When an NPC ally of the PCs attacks another NPC, the GM can designate a player to roll and handle it like a PC attacking. Often, the choice is obvious. For example, a character who has a trained attack animal should roll when their pet attacks enemies. If an NPC ally accompanying the party leaps into the fray, that ally’s favorite PC rolls for them. NPCs cannot apply Effort. Of course, it’s perfectly fitting (and easier) to have the NPC ally use the cooperative action rules to aid a PC instead of making direct attacks, or to compare the levels of the two NPCs (higher wins).
+NPC와 특수 피해
+NPC에게 어떤 특수 피해가 적용되는지는 항상 마스터가 최종 결정합니다. 인간형 NPC는 대체로 PC와 비슷하게 반응하지만, 비인간 생물은 전혀 다르게 반응할 수 있습니다. 예를 들어 소량의 독은 거대한 용에게 거의 통하지 않으며, 안드로이드나 악마에게는 아예 효과가 없을 수 있습니다.
+PC의 부상 트랙을 내리는 성격의 공격이 NPC에게 유효하다면, 그 공격은 보통 NPC를 기절시키거나 사망시킵니다. 또는 마스터가 NPC에게 중상 상태를 적용해 PC와 유사한 효과로 처리할 수도 있습니다.
 
+공격 수정치와 특수 상황
+전투에서는 다양한 수정치가 적용될 수 있습니다. 어떤 수정치가 적절한지는 마스터가 상황에 맞게 판단합니다(그것이 마스터의 역할입니다). 아래 지침은 그 판단을 빠르게 하기 위한 기준입니다. 수정치는 보통 난이도 단계 조정으로 처리합니다. 예를 들어 어떤 상황이 "공격에 불리"하다면, PC가 NPC를 공격할 때는 공격 난이도가 1단계 올라갑니다. 반대로 NPC가 PC를 공격할 때는 플레이어가 굴리는 방어 판정 난이도가 1단계 올라가도록(즉 플레이어에게 불리하게) 적용하면 됩니다. 사이퍼 시스템에서는 공격이든 방어든 굴림은 플레이어가 하기 때문입니다.
+판단이 애매하면 기준은 단순합니다. "맞히기 더 어려워 보인다"면 공격 굴림을 방해하고, "공격이 유리해 보인다"면 방어 굴림을 방해합니다.
+(사이퍼 시스템에서는 정밀 거리 계산이 핵심이 아닙니다. 지근거리/단거리/장거리/초장거리라는 넓은 구분으로 빠르게 판정해 흐름을 유지하는 것이 중요합니다. 즉 대상이 바로 곁인지, 가까운지, 꽤 먼지, 매우 먼지를 판단하면 충분합니다.)
 
-SPECIAL SITUATION: COMBAT BETWEEN PCs 
-When one PC attacks another PC, the attacking character makes an attack roll, and the other character makes a defense roll, adding any appropriate modifiers. If the attacking PC has a skill, ability, asset, or other effect that would ease the attack if it were made against an NPC, the character adds 3 to the roll for each step reduction (+3 for one step, +6 for two steps, and so on). If the attacker’s final result is higher, the attack hits. If the defender’s result is higher,
-the attack misses. Damage is resolved normally. The GM mediates all special effects.
+엄폐
+캐릭터의 몸 상당 부분이 단단한 물체 뒤에 가려져 있으면, 그 캐릭터를 대상으로 한 공격은 방해된다.
+캐릭터의 몸 전체가 완전히 엄폐되어 있다면(몸 전체가 단단한 물체 뒤에 있음), 공격이 엄폐물을 관통할 수 있는 경우가 아니면 공격할 수 없다. 예를 들어 캐릭터가 얇은 나무 가림막 뒤에 숨었고 상대가 나무를 관통할 수 있는 소총으로 가림막을 쏜다면 공격은 가능하다. 다만 공격자는 대상을 선명하게 볼 수 없으므로, 이 경우도 엄폐로 간주한다(해당 캐릭터를 대상으로 한 공격은 방해된다).
 
-SPECIAL SITUATION: AREA ATTACKS
-Sometimes, an attack or effect affects an area rather than a single target. For example, a grenade or a landslide can potentially harm or affect everyone in the area.
-In an area attack, all PCs in the area make appropriate defense rolls against the attack to determine its effect on them. If there are any NPCs in the area, the attacker makes a single attack roll against all of them (one roll, not one roll per NPC) and compares it to the target number of each NPC. If the roll is equal to or greater than the target number of a particular NPC, the attack hits that NPC.
-Some area attacks always deal at least a minimum amount of damage, even if the attacks miss or if a PC makes a successful defense roll.
-For example, consider a character who uses Shatter to attack six cultists (level 2; target number 6) and their leader (level 4; target number 12). The PC applies Effort to increase the damage and rolls an 11 for the attack roll. This hits the six cultists, but not the leader, so the ability deals 3 points of damage to each of the cultists. The description of Shatter says that applying Effort to increase the damage also means that targets take 1 point of damage if the PC fails the attack roll, so the leader takes 1 point of damage. In terms of what happens in the story, the cultists are caught flat-footed by the sudden detonation of one of their knives, but the leader ducks and is shielded from the blast. Despite the leader’s quick moves, the blast is so intense that a few bits of metal slice them.
+위치
+캐릭터가 어디에 서 있는지는 상황에 따라 유리함이나 불리함을 만든다.
+넘어진 대상: 근접전에서는 넘어진 대상을 맞히기 쉽다(그 대상을 향한 공격은 완화된다). 원거리 전투에서는 넘어진 대상을 맞히기 어렵다(그 대상을 향한 공격은 방해된다).
+고지대: 원거리전이든 근접전이든, 더 높은 곳에 있는 쪽의 공격은 완화된다.
 
+기습
+대상이 다가오는 공격을 인지하지 못하면 공격자에게 이점이 있다. 숨어 있는 위치의 저격수, 투명한 습격자, 성공적인 매복의 첫 일제 공격은 모두 2단계 완화된다. 다만 이 이점을 받으려면 방어자가 공격이 들어온다는 사실을 정말 전혀 몰라야 한다.
+방어자가 공격자의 정확한 위치는 모르지만 경계 중이라면, 공격은 1단계만 완화된다.
 
-SPECIAL SITUATION: ATTACKING OBJECTS 
-Attacking an object is rarely a matter of hitting it. Sure, you can hit the broad side of a barn, but can you damage it? Attacking inanimate objects with a melee weapon is a Might action. Objects have
-levels and thus target numbers. Objects have a damage track that works like the damage track for PCs.
-Intact is the default state for an object. 
-Minor damage is a slightly damaged state. An object with minor damage reduces its level by 1.
-Major damage is a critically damaged state. An object with major damage is broken and no longer functions. 
-Destroyed is destroyed. The object is ruined, no longer functions, and cannot be repaired. 
+사거리
+근접전에서는 바로 붙어 있거나(인접) 손이 닿는 범위(지근거리)의 적을 공격할 수 있다. 하나 이상의 적과 근접전에 들어가면 보통 전투원 대부분, 혹은 전부를 공격할 수 있다. 즉 바로 곁에 있거나 손이 닿는 범위에 있거나, 약간만 움직이거나 긴 무기로 사거리를 늘리면 닿는 범위에 있다고 본다.
+대부분의 원거리 공격은 사거리가 단거리와 장거리 두 가지뿐이다(일부는 초장거리). 단거리는 일반적으로 50피트(15m) 이내, 장거리는 대체로 50피트(15m)에서 약 100피트(30m), 초장거리는 대체로 100피트(30m)에서 500피트(150m)다. 사이퍼 시스템에서는 이보다 더 정밀한 구분이 중요하지 않다. 초장거리보다 더 먼 경우에는 보통 정확한 수치를 명시한다. 예를 들어 1,000피트(300m)까지 광선을 쏘는 장비나 1마일(1.5km)까지 순간이동시키는 장비 같은 경우다.
+따라서 이 게임의 거리 구분은 지근거리, 단거리, 장거리, 초장거리 네 가지다. 이동에도 같은 구분을 적용한다. 여기에 명중 확률을 바꾸는 특수한 경우로 근접 사격과 한계 사거리가 있다.
+근접 사격: 캐릭터가 지근거리 대상에게 원거리 무기를 사용하면 공격은 완화된다.
+한계 사거리: 무기 사거리의 끝자락에 걸친 대상은 한계 사거리로 본다. 이런 대상에 대한 공격은 방해된다.
+(마스터는 원거리 무기 사용자가 한계 사거리 너머를 공격하도록 허용할 수 있다. 이 경우 정상 한계를 넘어선 사거리 단계마다 공격이 2단계씩 방해된다. 폭탄의 폭발 반경처럼 절대 한계가 있는 공격은 수정할 수 없다.)
+(PC가 건물 위에서 탁 트인 들판을 내려다보는 상황처럼, 특정 조건에서는 마스터가 원거리 공격의 최대 사거리 초과를 허용하는 편이 좋다. 예를 들어 조건이 완벽하면 숙련된 궁수는 활의 통상 장거리보다 훨씬 먼 500피트(150m) 거리의 큰 목표도 맞힐 수 있다.)
 
-If the Might action to damage an object is a success, the object moves one step down the object damage track. If the Might roll exceeded the difficulty by 2 levels, the object instead moves two steps down the object damage track. If the Might roll exceeded the difficulty by 4 levels, the object instead moves three steps down the object damage track. Objects with minor or major damage can be repaired, moving them one or more steps up the object damage track.
-Brittle or fragile objects, like paper or glass, decrease the effective level of the object for the purposes of determining if it is damaged. Hard objects, like those made of wood or stone, add 1 to the effective level. Very hard objects, like those made of metal, add 2. (The GM may rule that some exotic materials add 3.)
- The tool or weapon used to attack the object must be at least as hard as the object itself. Further, if the amount of damage the attack could inflict—not modified by a special die roll—does not equal or exceed the effective level of the object, the attack cannot damage the object no matter what the roll.
+조명
+캐릭터가 무엇을, 얼마나 잘 볼 수 있는지는 전투에 매우 큰 영향을 준다.
+약한 조명: 밝은 보름달 밤의 빛, 또는 횃불/손전등/책상등 수준의 밝기다. 약한 조명에서는 단거리까지는 볼 수 있다. 이 조명 속 대상은 맞히기 어려워지며, 공격은 방해된다. 저조도 탐지에 익숙한 공격자는 이 수정치를 무시한다.
+매우 약한 조명: 달이 보이지 않는 별밤의 밝기, 또는 촛불이나 점등된 제어 패널의 빛 수준이다. 매우 약한 조명에서는 지근거리까지만 또렷하게 보이고, 단거리에서는 흐릿한 형상만 보인다. 이 조명 속 대상은 맞히기 어렵다. 지근거리 대상 공격은 방해되고, 단거리 대상 공격은 2단계 방해된다. 저조도 탐지에 익숙한 공격자는 이 난이도를 자신에게 유리하게 1단계 조정하고, 능숙한 공격자는 2단계 조정한다.
+어둠: 구름 낀 무월야나 무조명 실내처럼 빛이 전혀 없는 상태다. 완전한 어둠 속 대상은 거의 맞히기 불가능하다. 공격자가 청각 같은 다른 감각으로 상대의 대략적 위치를 파악할 수 있다면 공격은 4단계 방해된다. 그렇지 않다면 플레이어가 1 XP를 써서 "운 좋은 한 방"을 만들거나 마스터가 마스터 개입을 쓰지 않는 한, 완전한 어둠 속 공격은 굴림 없이 자동 실패한다. 저조도 탐지에 익숙한 공격자는 난이도를 완화하고, 능숙한 공격자는 2단계 완화한다.
 
-### ACTION: Activate a Special Ability 
-Special abilities are granted by foci, types, and flavors, or provided by cyphers or other devices. If a special ability affects another character in any kind of unwanted manner, it’s handled as an attack. This is true even if the ability is normally not considered an attack. For example, if a character has a healing touch, and their friend doesn’t want to be healed for some reason, an attempt to heal their unwilling friend is handled as an attack.
-Plenty of special abilities do not affect another character in an unwanted manner. For example, a PC might use Hover on themselves to float into the air. A character with a matter-reorganizing device might change a stone wall into glass. A character who activates a phase changer cypher might walk through a wall. None of these requires an attack roll (although when turning a stone wall to glass, the character must still make a roll to successfully affect the wall).
-If the character spends points to apply Effort on the attempt, they might want to roll anyway to see if they get a major effect, which would reduce the cost for their action.
+시야
+조명과 마찬가지로, 시야를 가리는 요소도 전투에 영향을 준다.
+안개: 안개 속 대상은 약한 조명 속 대상과 비슷하게 취급한다. 그런 대상에 대한 원거리 공격은 방해된다. 안개가 매우 짙으면 원거리 공격은 거의 불가능해지며(어둠처럼 취급), 근접 공격도 방해된다.
+은폐한 대상: 빽빽한 수풀 속, 가림막 뒤, 폐허 잔해 사이를 기어 다니는 대상은 눈에 잘 띄지 않아 맞히기 어렵다. 그런 대상에 대한 원거리 공격은 방해된다.
+투명한 대상: 공격자가 청각 같은 다른 감각으로 상대의 대략적 위치를 파악할 수 있다면 공격은 4단계 방해된다. 그렇지 않다면 플레이어가 1 XP를 써서 "운 좋은 한 방"을 만들거나 마스터가 마스터 개입을 쓰지 않는 한, 투명한 생물을 향한 공격은 굴림 없이 자동 실패한다.
 
+물속
+얕은 물에서는 이동이 어려워질 수 있지만 전투 자체에는 큰 영향이 없다. 깊은 물은 전투를 어렵게 만들며, 완전히 잠수한 전투는 거의 다른 세계에서 싸우는 것처럼 달라진다.
+깊은 물: 가슴 높이(또는 그에 준하는 깊이)까지 물에 잠기면 공격이 방해된다. 수생 생물은 이 수정치를 무시한다.
+수중 근접전: 비수생 생물이 완전히 물속에 잠긴 상태에서는 공격이 매우 어렵다. 찌르기 무기 공격은 방해되고, 베기/타격 무기의 근접 공격은 2단계 방해된다. 수생 생물은 이 페널티를 무시한다.
+수중 원거리전: 근접전과 마찬가지로, 비수생 생물은 물속 전투에 불리하다. 일부 원거리 공격은 수중에서 불가능하다. 물건을 던질 수 없고, 활/쇠뇌/블로우건도 쓸 수 없다. 많은 화기도 수중에서는 작동하지 않는다. 수중 사용이 가능한 무기의 공격도 방해된다. 수중에서는 사거리가 1단계 줄어든다. 초장거리 무기는 장거리까지만, 장거리 무기는 단거리까지만, 단거리 무기는 지근거리까지만 유효하다.
 
-### ACTION: MOVE
-As a part of another action, a character can adjust their position—stepping back a few feet while using an ability, sliding over in combat to take on a different opponent to help a friend, pushing through a door they just opened, and so on. This is considered an immediate distance, and a character can move this far as part of another action.
-In a combat situation, if a character is in a large melee, they’re usually considered to be next to most other combatants, unless the GM rules that they’re farther away because the melee is especially large or the situation dictates it.
-If they’re not in melee but still nearby, they are considered to be a short distance away—usually less than 50 feet (15 m). If they’re farther away than that but still involved in the combat, they are considered to be a long distance away, usually 50 to 100 feet (15 to 30 m), or possibly even a very long distance away, usually more than 100 feet to 500 feet (30 to 150 m).
-In a round, as an action, a character can make a short move. In this case, they are doing nothing but moving up to about 50 feet (15 m). Some terrain or situations will change the distance a character can move, but generally, making a short move is considered to be a difficulty 0 action. No roll is needed; they just get where they’re going as their action.
-A character can try to make a long move—up to 100 feet (30 m) or so—in one round. This is a Speed task with a difficulty of 4. As with any action, they can use skills, assets, or Effort to ease the task. Terrain, obstacles, or other circumstances can hinder the task. A successful roll means the character moved the distance safely. Failure means that at some point during the move, they stop or stumble (the GM determines where this happens).
-A character can also try to make a short move and take another (relatively simple) physical action, like make an attack. As with the attempt to make a long move, this is a Speed task with a difficulty of 4, and failure means that the character stops at some point, slipping or stumbling or otherwise getting held up.
+이동 중인 대상
+움직이는 대상은 맞히기 어렵고, 움직이며 공격하는 쪽도 쉽지 않다.
+대상이 이동 중: 매우 빠르게 움직이는 적을 맞히려는 공격은 방해된다. (매우 빠른 이동이란 달리기에만 전념하고 있거나, 움직이는 생물에 탑승했거나, 탈것/이동 수단을 타고 있는 경우 등을 말한다.)
+공격자가 이동 중: 공격자가 자신의 힘으로 이동하면서(걷기, 달리기, 수영 등) 공격하는 경우에는 페널티가 없다. 다만 움직이는 탈것이나 탑승물 위에서 하는 공격은 방해된다. 승마나 조종에 익숙한 공격자는 이 페널티를 무시한다.
+공격자가 흔들림: 기울어진 배 위나 진동하는 발판 위처럼 몸이 흔들리는 상태에서는 공격이 어려워진다. 이런 공격은 방해된다. 균형 잡기나 항해에 익숙한 캐릭터는 배 위 페널티를 무시할 수 있다.
 
-Long-Term Movement
-When talking about movement in terms of traveling rather than round-by-round action, typical characters can travel on a road about 20 miles (32 km) per day, averaging about 3 miles (5 km) per hour, including a few stops. When traveling overland, they can move about 12 miles (19 km) per day, averaging 2 miles (3 km) per hour, again with some stops. Mounted characters, such as those on horseback, can go twice as far. Other modes of travel (cars, airplanes, hovercraft, sailing ships, and so on) have their own rates of movement.
-
-Movement Modifiers
-Different environments affect movement in different ways.
-Rough Terrain: A surface that’s considered rough terrain is covered in loose stones or other material, uneven or with unsure footing, unsteady, or a surface that requires movement across a narrow space, such as a cramped corridor or a slender ledge. Stairs are also considered rough terrain. Rough terrain does not slow normal movement on a round-by-round basis, but hinders move rolls. Rough terrain cuts long-term movement rates in half.
-Difficult Terrain: Difficult terrain is an area filled with challenging obstacles—water up to waist height, a very steep slope, an especially narrow ledge, slippery ice, a foot or more of snow, a space so small that one must crawl through it, and so on. Difficult terrain hinders move rolls and halves movement on a
-round-by-round basis. This means that a short move is about 25 feet (8 m), and a long move is about 50 feet (15 m). Difficult terrain reduces
-long-term movement to a third of its normal rate.
-Water: Deep water, in which a character is mostly or entirely submerged, hinders move rolls
-and reduces round-by-round and long-term movement to one quarter its normal rate. This means that a short move is about 12 feet(4 m),
-and a long move is about 25 feet (7.5 m). Characters trained in swimming halve their movement only while in deep water.
-Low Gravity: Movement in low gravity is easier but not much faster. All move rolls are eased. 
-High Gravity: In an environment of high gravity, treat all moving characters as if they were in difficult terrain. Characters trained in
-high-gravity maneuvering negate this penalty. High gravity reduces long-term movement to a third of its normal rate.
-Zero Gravity: In an environment without gravity, characters cannot move normally. Instead, they must push off from a surface and succeed at a Might roll to move (the difficulty is equal to one-quarter the distance traveled in feet). Without a surface to push off from, a character cannot move. Unless the character’s movement takes them to a stable object that they can grab or land against, they continue to drift in that direction each round, traveling half the distance of the initial push. 
-
-Special Situation: A Chase
-When a PC is chasing an NPC or vice versa, the player should attempt a Speed action, with the difficulty based on the NPC’s level. If the PC succeeds at the roll, they catch the NPC (if chasing), or they get away (if chased). In terms of the story, this one-roll mechanic can be the result of a long chase over many rounds.
-Alternatively, if the GM wants to play out a long chase, the character can make many rolls (perhaps one per level of the NPC) to finish the pursuit successfully. For every failure, the PC must make another success, and if they ever have more failures than successes, the PC fails to catch the NPC (if chasing) or is caught (if chased). As with combat, the GM is encouraged to describe the results of these rolls with flavor. A success might mean the PC has rounded a corner and gained some distance. A failure might mean that a basket of fruit topples over in front of them, slowing them down. Vehicle chases are handled similarly.
-
-
-### ACTION: WAIT
-You can wait to react to another character’s action.
-You decide what action will trigger your action, and if the triggering action happens, you get to take your action first (unless going first wouldn’t make sense, like attacking a foe before they come into view). For example, if an orc threatens you with a halberd, on your turn you can decide to wait, stating “If it stabs at me, I’m going to slash it with my sword.” On the orc’s turn, it stabs, so you make your sword attack before that happens.
-Waiting is also a good way to deal with a ranged attacker who rises from behind cover, fires an attack, and ducks back down. You could say “I wait to see them pop up from behind cover and then I shoot them.”
-(Waiting is also a useful tool for cooperative actions (see below).)
-
-
-### ACTION: DEFEND
-Defending is a special action that only PCs can do, and only in response to being attacked. In other words, an NPC uses its action to attack, which forces a PC to make a defense roll. This is handled like any other kind of action, with circumstances, skill, assets, and Effort all potentially coming into play. Defending is a special kind of action in that it does not happen on the PC’s turn. It’s never an action that a player decides to take; it’s always a reaction to an attack. A PC can take a defense action when attacked (on the attacking NPC’s turn) and still take another action on their own turn.
-The type of defense roll depends on the type of attack. If a foe attacks a character with an axe, they can use Speed to duck or block it with what they’re holding. If they’re struck by a poisoned dart, they can use a Might action to resist its effects. If a psi-worm attempts to control their mind, they can use Intellect to fend off the intrusion.
-Sometimes an attack provokes two defense actions. For example, a poisonous reptile tries to bite a PC. They try to dodge the bite with a Speed action. If they fail, they take damage from the bite, and they must also attempt a Might action to resist the poison’s effects.
-If a character does not know an attack is coming, usually they can still make a defense roll, but they can’t add modifiers (including the modifier from a shield), and they can’t use any skill or Effort to ease the task. If circumstances warrant—such as if the attacker is right next to the character—the GM might rule that the surprise attack simply hits.
-A character can always choose to forgo a defense action, in which case the attack automatically hits.
-Some abilities (such as the Countermeasures special ability) may allow you to do something special as a defense action.
-
-
-### ACTION: DO SOMETHING ELSE
-Players can try anything they can think of, although that doesn’t mean anything is possible. The GM sets the difficulty—that’s their primary role in the game. Still, guided by the bounds of logic, players and GMs will find all manner of actions and options that aren’t covered by a rule. That’s a good thing.
-Players should not feel constrained by the game mechanics when taking actions. Skills are not required to attempt an action. Someone who’s never picked a lock can still try. The GM might hinder the task, but the character can still attempt the action.
-Thus, players and GMs can return to the beginning of this chapter and look at the most basic expression of the rules. A player wants to take an action. The GM decides, on a scale of 1 to 10, how difficult that task is and what stat it uses. The player determines whether they have anything that might modify the difficulty and considers whether to apply Effort. Once the final determination is made, they roll to see if their character succeeds. It’s as easy as that.
-As further guidance, the following are some of the more common actions a player might take.
-(Players are encouraged to come up with their own ideas for what their characters do rather than looking at a list of possible actions. That’s why there is a “do something else” action. PCs are not pieces on a game board—they are people in a story. And like real people, they can try anything they can think of. (Succeeding is another matter entirely.) The task difficulty system provides GMs with the tools they need to adjudicate anything the players come up with.)
-
-#### CLIMBING
-When a character climbs, the GM sets a difficulty based on the surface being climbed. Climbing is like moving through difficult terrain: the move roll is hindered and the movement is half speed. Unusual circumstances, such as climbing while under fire, pose additional step penalties. 
-
-CLIMBING Difficulty
-Difficulty
-Surface
-2
-Surface with lots of handholds
-3
-Stone wall or similar surface (a few handholds)
-4
-Crumbling or slippery surface
-5
-Smooth stone wall or similar surface
-6
-Metal wall or similar surface
-8
-Smooth, horizontal surface (climber is upside down)
-10
-Glass wall or similar surface
-
-
-
-
-#### COOPERATIVE ACTIONS
-There are many ways multiple characters can work together. None of these options, however, can be used at the same time by the same characters.
-
-Helping: If you use your action to help someone with a task, you ease the task. If you have an inability in a task, your help has no effect. If you use your action to help someone with a task that you are trained or specialized in, the task is eased by two steps. Help is considered an asset, and someone receiving help usually can’t gain more than two assets on a single task if that help is provided by another character.
-For example, if Scott is trying to climb a steep incline and Sarah (who is trained in climbing) spends her turn helping him, Scott’s task is eased by two steps.
-Sometimes you can help by performing a task that complements what another person is attempting. If your complementary action succeeds, you ease the other person’s task. For example, if Scott tries to persuade a ship captain to let him on board, Sarah could try to supplement Scott’s words with a flattering lie about the captain (a deception action), a display of knowledge about the region where the ship is headed (a geography action), or a direct threat to the captain (an intimidation action). If Sarah’s roll is a success, Scott’s persuasion task is eased.
-
-Distraction: When a character uses their turn to distract a foe, that foe’s attacks are hindered for one round. Multiple characters distracting a foe have no greater effect than a single character doing so—a foe is either distracted or not. A distraction might be yelling a challenge, firing a warning shot, or a similar activity that doesn’t harm the foe.
-
-Draw the Attack: When an NPC attacks a character, another PC can prominently present themselves, shout taunts, and move to try to get the foe to attack them instead. In most cases, this action succeeds without a roll—the opponent attacks the prominent PC instead of their companions. In other cases, such as with intelligent or determined foes, the prominent character must succeed at an Intellect action to draw the attack. If that Intellect action is successful, the foe attacks the prominent character, whose defenses are hindered by two steps. Two characters attempting to draw an attack at the same time cancel each other out.
-(Two characters attempting to draw an attack at the same time cancel each other out.)
-
-Take the Attack: A character can use their action to throw themselves in front of a foe’s successful attack to save a nearby comrade. The attack automatically succeeds against the sacrificial character, and it deals 1 additional point of damage. A character cannot willingly take more than one attack each round in this way.
-
-#### CRAFTING, BUILDING, AND REPAIRING
-Crafting is a tricky topic in the Cypher System because the same rules that govern building a spear also cover repairing a machine that can take you into hyperspace. Normally, the level of the item determines the difficulty of creating or repairing it as well as the time required. For cyphers, artifacts, other items that require specialized knowledge, or items unique to a world or species other than your own (such as a Martian tripod walker), add 5 to the item’s level to determine the difficulty of building or repairing it. 
-Sometimes, if the item is artistic in nature, the GM will add to the difficulty and time required. For example, a crude wooden stool might be hammered together in an hour. A beautiful finished piece might take a week or longer and would require more skill on the part of the crafter.
-The GM is free to overrule some attempts at creation, building, or repair, requiring that the character have a certain level of skill, proper tools and materials, and so forth.
-A level 0 object requires no skill to make and is easily found in most locations. Sling stones and firewood are level 0 items—producing them is routine. Making a torch from spare wood and oil-soaked cloth is simple, so it’s a level 1 object. Making an arrow or a spear is fairly standard but not simple, so it’s a level 2 object.
-Generally speaking, a device to be crafted requires materials equal to its level and all the levels below it. So a level 5 device requires level 5 material, level 4 material, level 3 material, level 2 material, and level 1 material (and, technically, level 0 material).
-The GM and players can gloss over much of the crafting details, if desired. Gathering all the materials to make a mundane item might not be worth playing out—but then again, it might be. For example, making a wooden spear in a forest isn’t very interesting, but what if the characters have to make a spear in a treeless desert? Finding the wreckage of something made of wood or forcing a PC to fashion a spear out of the bones of a large beast could be interesting situations.
-The time required to create an item is up to the GM, but the guidelines in the crafting table are a good starting point. Generally, repairing an item takes somewhere between half the creation time and the full creation time, depending on the item, the aspect that needs repairing, and the circumstances. For example, if creating an item takes one hour, repairing it takes thirty minutes to one hour.
-Sometimes a GM will allow a rush job if the circumstances warrant it. This is different than using skill to reduce the time required. In this case, the quality of the item is affected. Let’s say that a character needs to create a tool that will cut through solid steel with a laser (a level 7 item), but they have to do it in one day. The GM might allow it, but the device might be extremely volatile, inflicting damage on the user, or it might work only once. The device is still considered a level 7 item to create in all other respects. Sometimes the GM will rule that reducing the time is not possible. For example, a single human can’t make a chainmail vest in one hour without some kind of machine to help.
-Possible crafting skills include:
-Armoring
-Bowyering/fletching
-Chemistry
-Computer science
-Electronics
-Engines
-Genetic engineering 
-Glassblowing
-Gunsmithing
-Leatherworking
-Metalworking
-Neural engineering
-Weaponsmithing
-Woodcrafting
-
-
-Characters might try to make a cypher, an artifact, or an alien psionic starship do something other than its intended function. Sometimes, the GM will simply declare the task impossible. You can’t turn a vial of healing elixir into a two-way communicator. But most of the time, there is a chance of success. 
-That said, tinkering with weird stuff is not easy. Obviously, the difficulty varies from situation to situation, but difficulties starting at 7 are not unreasonable. The time, tools, and training required would be similar to the time, tools, and training needed to repair a device. If the tinkering results in a long-term benefit for the character—such as creating an artifact that they can use—the GM should require them to spend XP to make it.
-(Circumstances really matter. For example, sewing a dress by hand might take five times as long (or more) as using a sewing machine.)
-(The GM is free to overrule some attempts at creation, building, or repair, requiring that the character have a certain level of skill, proper tools and materials, and so forth.)
-(Obviously, what is considered “weird stuff ” will vary from setting to setting, and sometimes the concept might not apply at all. But many times, there will be something in the setting that is too strange, too alien, too powerful, or too dangerous for PCs to mess around with (or at least mess around with easily). Einstein may have been extraordinary, but that doesn’t mean he could reverse-engineer a teleporter made in another dimension.)
-
-Crafting Difficulty and Time
-Difficulty
-Craft
-General Time to Build
-0
-Something extremely simple like tying a rope or finding an appropriately sized rock
-A few minutes at most
-1
-Torch
-Five minutes
-2
-Spear, simple shelter, piece of furniture
-One hour
-3
-Bow, door, basic article of clothing
-One day
-4
-Sword, chainmail vest
-One to two days
-5
-Common technological item (electric light), nice piece of jewelry or art object
-One week
-6
-Technological item (watch, transmitter), really nice piece of jewelry or art object, elegant craftwork
-One month
-7
-Technological item (computer), major work of art
-One year
-8
-Technological item (something from beyond Earth)
-Many years
-9
-Technological item (something from beyond Earth)
-Many years
-10
-Technological item (something from beyond Earth)
-Many years
-
-
-
-
-#### GUARDING
-In a combat situation, a character can stand guard as their action. They do not make attacks, but all their defense tasks are eased. Further, if an NPC tries to get by them or take an action that they are guarding against, the character can attempt an eased Speed action based on the level of the NPC. Success means the NPC is prevented from taking the action; the NPC’s action that turn is wasted. This is useful for blocking a doorway, guarding a friend, and so forth.
-If an NPC is standing guard, use the same procedure, but to get past the guard, the PC attempts a hindered Speed action against the NPC. For example, Diana is an NPC human with a level 3 bodyguard. The bodyguard uses their action to guard Diana. If a PC wants to attack Diana, the PC first must succeed at a difficulty 4 Speed task to get past the guard. If the PC succeeds, they can make their attack normally.
-
-#### HEALING
-You can administer aid through bandaging and other succor, attempting to heal each patient once per day. This healing restores points to a stat Pool of your choice. Decide how many points you want to heal, and then make an Intellect action with a difficulty equal to that number. For example, if you want to heal someone for 3 points, that’s a difficulty 3 task with a target number of 9. 
-
-#### INTERACTING WITH CREATURES
-The level of the creature determines the target number, just as with combat. Thus, bribing a guard works much like punching them or affecting them with an ability. This is true of persuading someone, intimidating someone, calming a wild beast, or anything of the kind. Interaction is an Intellect task. Interacting usually requires a common language or some other way to communicate. Learning new languages is the same as learning a new skill.
-
-#### JUMPING
-Decide how far you want to jump, and that sets the difficulty of your Might roll. For a standing jump, subtract 4 from the distance in feet to determine the difficulty of the jump. For example, jumping 10 feet (3 m) has a difficulty of 6.
-If you run an immediate distance before jumping, it counts as an asset, easing the jump.
-If you run a short distance before jumping, divide the jump distance (in feet) by 2 and then subtract 4 to determine the difficulty of the jump. Because you’re running an immediate distance (and then some), you also count your running as an asset. For example, jumping a distance of 20 feet (6 m) with a short running start has a difficulty of 5 (20 feet divided by 2 is 10, minus 4 is 6, minus 1 for running an immediate distance).
-For a vertical jump, the distance you clear (in feet) is equal to the difficulty of the jumping task. If you run an immediate distance, it counts as an asset, easing the jump.
-(There’s nothing wrong with the GM simply assigning a difficulty level to a jump without worrying about the precise distance. The rules here are just so everyone has some guidelines.)
-
-#### LOOKING OR LISTENING
-Generally, the GM will describe any sight or sound that’s not purposefully difficult to detect. But if you want to look for a hidden enemy, search for a secret panel, or listen for someone sneaking up on you, make an Intellect roll. If it’s a creature, its level determines the difficulty of your roll. If it’s something else, the GM determines the difficulty of your roll.
-
-#### MOVING A HEAVY OBJECT
-You can push or pull something very heavy and move it an immediate distance as your action.
-The weight of the object determines the difficulty of the Might roll to move it; every 50 pounds (23 kg) hinders the task by one step. So moving something that weighs 150 pounds (68 kg) is difficulty 3, and moving something that weighs 400 pounds (180 kg) is difficulty 8. If you can ease the task to 0, you can move a heavy object up to a short distance as your action.
-
-
-#### OPERATING OR DISABLING A DEVICE, OR PICKING A LOCK 
-As with figuring out a device, the level of the device usually determines the difficulty of the Intellect roll. Unless a device is very complex, the GM will often rule that once you figure it out, no roll is needed to operate it except under special circumstances. So if the PCs figure out how to use a hovercraft, they can operate it. If they are attacked, they might need to roll to ensure that they don’t crash the vehicle into a wall while trying to avoid being hit.
-Unlike operating a device, disabling a device or picking a lock usually require rolls. These actions often involve special tools and assume that the character is not trying to destroy the device or lock. (A PC who is attempting to destroy it probably should make a Might roll to smash it rather than a Speed or Intellect roll requiring patience and know-how.)
-
-#### RIDING OR PILOTING
-If you’re riding an animal that’s trained to be a mount, or driving or piloting a vehicle, you don’t need to make a roll to do something routine such as going from point A to point B (just as you wouldn’t need to make a roll to walk there). However, staying mounted during a fight or doing something tricky with a vehicle requires a Speed roll to succeed. A saddle or other appropriate gear is an asset and eases the task.
-
-RIDING OR PILOTING Difficulty
-Difficulty
-Maneuver
-0
-Riding
-1
-Staying on the mount (including a motorcycle or similar vehicle) in a battle or other difficult situation
-3
-Staying on a mount (including a motorcycle or similar vehicle) when you take damage
-4
-Mounting a moving steed
-4
-Making an abrupt turn with a vehicle while moving fast
-4
-Getting a vehicle to move twice as fast as normal for one round
-5
-Coaxing a mount to move or jump twice as fast or far as normal for one round
-5
-Making a long jump with a vehicle not intended to go airborne (like a car) and remaining in control
-
-
-
-
-#### SNEAKING
-The difficulty of sneaking by a creature is determined by its level. Sneaking is a Speed roll. Moving at half speed eases the sneaking task. Appropriate camouflage or other gear may count as an asset and ease the task, as will dim lighting conditions and having plenty of things to hide behind.
-
-#### SWIMMING
-If you’re simply swimming from one place to another, such as across a calm river or lake, use the standard movement rules, noting the fact that your character is in deep water. However, sometimes, special circumstances require a Might roll to make progress while swimming, such as when trying to avoid a current or being dragged into a whirlpool.
-
-
-UNDERSTANDING, IDENTIFYING, OR REMEMBERING 
-When characters try to identify or figure out how to use a device, the level of the device determines the difficulty. For a bit of knowledge, the GM determines the difficulty.
-
-Difficulty
-Knowledge
-0
-Common knowledge
-1
-Simple knowledge
-3
-Something a scholar probably knows
-5
-Something even a scholar might not know
-7
-Knowledge very few people possess
-10
-Completely lost knowledge
+중력
+우주 항해 캠페인에서는 캐릭터가 지구보다 중력이 강하거나 약한 세계를 오갈 수 있다. 또한 지구 기반 캠페인이라도 기묘한 기술이나 마법 때문에 중력이 변동할 수 있다. 금속을 많이 지닌 캐릭터(금속 방어구 착용, 금속 무기 사용 등)는 중력과 마찬가지로 변동하는 자기장에도 영향을 받을 수 있다.
+저중력: 모든 대형 무기처럼 무게에 의존하는 무기는 피해가 2점 감소한다(최소 피해 1점). 단거리 무기는 장거리까지, 장거리 무기는 초장거리까지 닿는다. 저중력 기동에 익숙한 캐릭터는 피해 페널티를 무시한다.
+고중력: 중력 끌어당김이 매우 강하면 효과적인 공격이 어렵다. 고중력에서의 공격(및 모든 신체 행동)은 방해된다. 고중력에서는 사거리가 1단계 줄어든다(초장거리 무기는 장거리까지만, 장거리 무기는 단거리까지만,
+단거리 무기는 지근거리까지만 유효). 고중력 기동에 익숙한 캐릭터는 난이도 변화는 무시하지만 사거리 감소는 무시하지 못한다.
+무중력: 중력이 없는 환경에서는 기동 자체가 어렵다. 무중력에서의 모든 신체 행동(공격 포함)은 방해된다. 단거리 무기는 장거리까지, 장거리 무기는 초장거리까지, 초장거리 무기는 500피트(150m) 대신 약 1,000피트(300m)까지 닿는다. 무중력 기동에 익숙한 캐릭터는 난이도 변화를 무시한다.
 
+특수 상황: NPC 간 전투
+PC의 NPC 동료가 다른 NPC를 공격할 때는, 마스터가 플레이어 한 명을 지정해 PC 공격처럼 굴리게 할 수 있다. 보통은 누가 굴릴지 명확하다. 예를 들어 공격용 동물과 익숙한 캐릭터라면 자기 동물이 적을 공격할 때 그 플레이어가 굴리는 것이 자연스럽다. 일행과 동행하던 NPC 동료가 난전에 뛰어들었다면, 그 NPC와 가장 연이 깊은 PC의 플레이어가 대신 굴린다. NPC는 분발을 적용할 수 없다. 물론 NPC 동료가 직접 공격하는 대신 협력 행동 규칙으로 PC를 돕게 하거나, 두 NPC의 레벨을 비교해 높은 쪽이 이기는 방식으로 처리해도 잘 맞고 더 간단하다.
 
+특수 상황: PC 간 전투
+PC가 다른 PC를 공격할 때는, 공격 측이 공격 굴림을 하고 방어 측이 방어 굴림을 하며 각각 적절한 수정치를 더한다. 공격하는 PC가 NPC를 대상으로 했다면 공격을 완화했을 기능, 능력, 보탬, 기타 효과를 가지고 있다면, 완화 단계마다 굴림값에 3을 더한다(+1단계면 +3, +2단계면 +6, 이하 동일). 공격자의 최종 결과가 더 높으면 명중하고, 방어자의 결과가 더 높으면
+빗나간다. 피해는 정상적으로 처리한다. 모든 특수효과는 마스터가 중재한다.
 
-#### VEHICULAR MOVEMENT
-Vehicles move just like creatures. Each has a movement rate, which indicates how far it can move in a round. Most vehicles require a driver, and when moving, they usually require that the driver spends every action controlling the movement. This is a routine task that rarely requires a roll. Any round not spent driving the vehicle hinders the task in the next round and precludes any change in speed or direction. In other words, driving down the road normally is difficulty 0. Spending an action to retrieve a backpack from the back seat means that in the following round, the driver must attempt a difficulty 1 task. If they instead use their action to pull a handgun from the backpack, in the next round the difficulty to drive will be 2, and so on. Failure results are based on the situation but might involve a collision or something similar.
-In a vehicular chase, drivers attempt Speed actions just like in a regular chase, but the task may be based either on the level of the driver (modified by the level and movement rate of the vehicle) or on the level of the vehicle (modified by the level of the driver). So if a PC driving a typical car is chasing a level 3 NPC driving a level 5 sports car, the PC would make three chase rolls with a difficulty of 5. If the PC’s car is a souped-up custom vehicle, it might grant the PC an asset in the chase. If the PC is not in a car at all, but riding a bicycle, it might hinder the chase rolls by two or three steps, or the GM might simply rule that it’s impossible.
+특수 상황: 광역 공격
+때로는 공격이나 효과가 단일 대상이 아니라 영역 전체에 적용된다. 예를 들어 수류탄 폭발이나 산사태는 그 범위 안의 모두에게 피해나 영향을 줄 수 있다.
+광역 공격에서는 범위 안의 모든 PC가 해당 공격에 대한 적절한 방어 굴림을 해 자신에게 미치는 효과를 판정한다. 범위 안에 NPC가 있다면 공격자는 NPC마다 따로 굴리지 않고 한 번의 공격 굴림만 하며, 그 결과를 각 NPC의 목표치와 비교한다. 굴림값이 특정 NPC의 목표치 이상이면 그 NPC는 명중당한다.
+일부 광역 공격은 빗나가거나 PC가 방어 굴림에 성공해도 최소 피해를 항상 준다.
+예를 들어 어떤 캐릭터가 Shatter로 광신도 6명(레벨 2, 목표치 6)과 우두머리 1명(레벨 4, 목표치 12)을 공격한다고 하자. PC가 피해를 늘리기 위해 분발을 적용하고 공격 굴림으로 11을 냈다면, 광신도 6명에게는 명중하지만 우두머리에게는 빗나간다. 따라서 해당 능력은 광신도 각각에게 피해 3점을 준다. Shatter 설명에 따르면 분발로 피해를 늘리면 공격 굴림 실패 대상도 피해 1점을 받으므로, 우두머리도 피해 1점을 받는다. 이야기상으로는 광신도들이 갑작스러운 단검 폭발에 허를 찔렸고, 우두머리는 몸을 낮춰 폭발 중심은 피했지만, 폭발이 워낙 강해 금속 파편 몇 조각에 스친 셈이다.
 
-#### VEHICULAR COMBAT
-Much of the time, a fight between foes in cars, boats, or other vehicles is just like any other combat situation. The combatants probably have cover and are moving fast. Attacks to disable a vehicle or a portion of it are based on the level of the vehicle. If the vehicle is an armored car or a tank, all attacks are likely aimed at the vehicle, which has a level and probably an appropriate Armor rating, not unlike a creature.
-The only time this isn’t true is with battles where only vehicles and not characters are involved. Thus, if the PCs are in a shootout with bank robbers and both groups are in cars, use the standard rules. However, battles between starships of various kinds—from gigantic capital ships to single-pilot fighters—are a frequent occurrence in far-future science fiction settings. A submarine battle between two deep sea craft could be quite exciting. Characters in a modern-day game might find themselves in a tank fight. If PCs are involved in combat in which they are entirely enclosed in vehicles (so that it’s not really the characters fighting, but the vehicles), use the following quick and easy guidelines.
-On this scale, combat between vehicles isn’t like traditional combat. Don’t worry about health, Armor, or anything like that. Instead, just compare the levels of the vehicles involved. If the PCs’ vehicle has the higher level, the difference in levels is how many steps the PCs’ attack and defense rolls are eased. If the PCs’ vehicle has the lower level, their rolls are hindered. If the levels are the same, there is no modification.
-These attack and defense rolls are modified by skill and Effort, as usual. Some vehicles also have superior weapons, which ease the attack (since there is no “damage” amount to worry about), but this circumstance is probably uncommon in this abstract system and should not affect the difficulty by more than one or maybe two steps. Further, if two vehicles coordinate their attack against one vehicle, the attack is eased. If three or more vehicles coordinate, the attack is eased by two steps.
-The attacker must try to target a specific system on or portion of an enemy vehicle. This hinders the attack based on the system or portion targeted.
-That’s a lot of modifications. But it’s not really that hard. Let’s look at an example of a space battle. A PC in a small level 2 fighter attacks a level 4 frigate. Since the frigate is level 4, the difficulty of the attack starts at 4. But the attacking craft is weaker than the defender, so the attack is hindered equal to the difference in their levels (2). The fighter pilot must make a difficulty 6 attack on the frigate. However, the fighter is trying to swoop in and damage the frigate’s drive, which hinders the attack by another three steps, for a total difficulty of 9. If the fighter pilot is trained in space combat, they reduce the difficulty to 8, but it’s still impossible without help. So let’s say that two other PCs—also in level 2 fighters—join in and coordinate their attack. Three ships coordinating an attack on one target eases the task by two steps, resulting in a final difficulty of 6. Still, the attacking PC would be wise to use Effort.
-Then the frigate retaliates, and the PC needs to make a defense roll. The level difference between the ships (2) means the PC’s defense is hindered by two steps, so the difficulty of the PC’s defense roll starts out at 6. But the frigate tries to take out the fighter’s weapons, hindering their attack (easing the PC’s defense) by two steps. Thus, the PC needs to succeed at a difficulty 4 task or lose their main weapons systems.
-It’s important to remember that a failed attack doesn’t always mean a miss. The target ship might rock and reel from the hit, but the bulk of the damage was absorbed by the shields, so there’s no significant damage.
-This bare-bones system should allow the GM and players to flesh out exciting encounters involving the whole group. For example, perhaps while one PC pilots a ship, another mans the guns, and another frantically attempts to repair damage to the maneuvering thrusters before they crash into the space station they’re trying to defend.
-(During a vehicular battle, particularly a space battle, there’s a lot of chatter about shields failing, hull integrity, being outmaneuvered, coming in too fast, and whatnot. These sorts of details are great, but they’re all flavor, so they’re represented in the rules generally, rather than specifically.)
-(For more details about vehicles, refer to the Genre chapter.)
-(Training in driving makes the character practiced in using a vehicle as a weapon. If the vehicle is used to run over a victim or ram an enemy vehicle, treat a motorcycle as a medium weapon and treat a car or truck as a heavy weapon.)
+특수 상황: 사물 공격
+사물을 공격할 때 핵심은 "맞히는가"가 아니라 "손상시킬 수 있는가"인 경우가 대부분이다. 큰 헛간 벽은 누구나 맞힐 수 있지만, 실제로 부술 수 있느냐는 별개다. 근접 무기로 무생물을 공격하는 것은 힘 행동이다. 사물에도
+레벨이 있으므로 목표치가 있다. 사물은 PC의 부상 트랙과 유사한 사물 부상 트랙을 사용한다.
+Intact(온전함)은 사물의 기본 상태다.
+Minor damage(경손상)는 약간 손상된 상태다. 사물이 경손상 상태가 되면 레벨이 1 낮아진다.
+Major damage(중손상)는 심각하게 파손된 상태다. 사물이 중손상 상태가 되면 망가져 기능하지 않는다.
+Destroyed(파괴)는 말 그대로 완전 파괴 상태다. 사물은 못 쓰게 되고 기능하지 않으며 수리할 수 없다.
 
+사물을 손상시키기 위한 힘 행동에 성공하면, 해당 사물은 사물 부상 트랙에서 1단계 내려간다. 힘 굴림이 난이도를 2단계 초과하면 2단계 내려가고, 4단계 초과하면 3단계 내려간다. 경손상/중손상 상태의 사물은 수리할 수 있으며, 수리하면 사물 부상 트랙에서 한 단계 이상 올라간다.
+종이나 유리처럼 부서지기 쉬운 사물은 손상 판정 시 유효 레벨을 낮춘다. 나무나 돌처럼 단단한 사물은 유효 레벨에 +1, 금속처럼 매우 단단한 사물은 +2를 더한다. (마스터는 이질적 재료에 +3을 적용할 수도 있다.)
+사물 공격에 사용하는 도구나 무기는 대상 사물만큼은 단단해야 한다. 또한 특수 주사위 결과로 인한 증가를 제외한 기본 피해량이 사물의 유효 레벨 이상이 아니면, 굴림 결과와 무관하게 그 공격은 사물을 손상시킬 수 없다.
 
-Targeting Task
-Attack Hindered
-Effect
-Disable weapons
-Two steps
-One or more of the vehicle’s weapons no longer function
-Disable defenses
-(if applicable)
-Two steps
-Attacks against the vehicle are eased
-Disable engine/drive
-Three steps
-Vehicle cannot move, or movement is hampered
-Disable maneuverability
-Two steps
-Vehicle cannot alter its present course
-Strike power core or vital spot
-Five steps
-Vehicle is completely destroyed
+### 행동: 특수 능력 사용
 
+특수 능력은 특징(Focus), 유형, 플레이버에서 얻거나 사이퍼/기타 장치로 얻는다. 특수 능력이 다른 캐릭터에게 어떤 형태로든 원치 않는 영향을 주면, 그 처리는 공격으로 한다. 원래 공격으로 분류되지 않는 능력이어도 마찬가지다. 예를 들어 캐릭터가 치유 접촉 능력을 가지고 있는데 친구가 어떤 이유로든 치유를 원치 않는다면, 그 친구를 치유하려는 시도는 공격으로 처리한다.
+원치 않는 영향을 주지 않는 특수 능력도 많다. 예를 들어 PC가 Hover를 자신에게 사용해 공중에 뜰 수 있다. 물질 재조합 장치를 가진 캐릭터가 돌벽을 유리로 바꿀 수도 있다. 위상 전환 사이퍼를 발동한 캐릭터가 벽을 통과할 수도 있다. 이런 경우에는 공격 굴림이 필요 없다(다만 돌벽을 유리로 바꿀 때처럼 벽 자체에 효과를 성공적으로 적용하려면 별도 굴림이 필요할 수 있다).
+캐릭터가 시도에 분발을 적용해 점수를 소비했다면, 행동 비용을 줄여 주는 큰 이득이 나오는지 확인하려고 굴림을 하기로 선택할 수 있다.
 
+### 행동: 이동
 
+다른 행동의 일부로 캐릭터는 위치를 조정할 수 있다. 능력을 쓰며 몇 걸음 물러서기, 전투 중 옆으로 움직여 친구를 돕기 위해 다른 적을 상대하기, 방금 연 문을 밀고 지나가기 같은 경우다. 이는 지근거리 이동으로 간주하며, 다른 행동에 포함해 이만큼 이동할 수 있다.
+전투 상황에서 대규모 난전 한가운데에 있다면, 마스터가 전장 규모나 상황상 더 멀다고 판정하지 않는 한 보통 대부분의 전투원과 인접한 것으로 본다.
+근접전에 붙어 있지는 않지만 가까이 있다면 단거리(보통 50피트/15m 미만)로 본다. 그보다 멀지만 전투에 관여 중이라면 장거리(보통 50~100피트/15~30m), 경우에 따라 초장거리(보통 100~500피트/30~150m)로 본다.
+한 라운드에 행동 1개를 써서 단거리 이동을 할 수 있다. 이때는 다른 행동 없이 약 50피트(15m)까지 이동만 한다. 지형이나 상황에 따라 이동 가능한 거리는 달라질 수 있지만, 일반적으로 단거리 이동은 난이도 0 행동이므로 굴림이 필요 없다.
+캐릭터는 한 라운드에 약 100피트(30m)까지 장거리 이동을 시도할 수 있다. 이는 난이도 4의 속력 행동이다. 다른 행동과 마찬가지로 기능, 보탬, 분발로 완화할 수 있고, 지형/장애물/기타 상황은 방해 요인이 될 수 있다. 성공하면 안전하게 이동한 것이고, 실패하면 이동 중 어딘가에서 멈추거나 비틀거린다(정확한 지점은 마스터가 정한다).
+캐릭터는 단거리 이동을 하면서 공격 같은 (상대적으로 단순한) 다른 신체 행동 1개를 함께 시도할 수도 있다. 장거리 이동 시도와 마찬가지로 이는 난이도 4의 속력 행동이며, 실패하면 도중에 미끄러지거나 비틀거리거나 방해를 받아 멈춘다.
 
+장거리 이동
+라운드 단위 행동이 아니라 여행 단위 이동으로 보면, 보통 캐릭터는 도로에서 하루 약 20마일(32km), 시간당 평균 약 3마일(5km)(중간 휴식 포함) 정도 이동한다. 야지 이동에서는 하루 약 12마일(19km), 시간당 평균 약 2마일(3km)(중간 휴식 포함) 정도 이동한다. 말 같은 탑승 수단을 이용하면 보통 이 거리의 2배를 갈 수 있다. 그 밖의 이동 수단(자동차, 비행기, 호버크래프트, 범선 등)은 각각 고유한 이동 속도를 사용한다.
 
+이동 수정치
+환경에 따라 이동 방식은 크게 달라진다.
+험지: 험지는 자갈 같은 느슨한 물질이 깔려 있거나, 바닥이 고르지 않거나, 발 디딤이 불안정하거나, 비좁은 복도/가느다란 턱처럼 좁은 공간을 건너야 하는 지면을 뜻한다. 계단도 험지로 본다. 험지는 라운드 단위 기본 이동 속도를 줄이지는 않지만 이동 굴림을 방해한다. 장거리 이동 속도는 절반이 된다.
+난지: 난지는 허리 높이 물, 매우 가파른 경사, 특히 좁은 턱, 미끄러운 얼음, 30cm 이상 쌓인 눈, 기어서 지나가야 할 만큼 좁은 통로 등 까다로운 장애물이 많은 지형이다. 난지는 이동 굴림을 방해하고 라운드 단위 이동 거리를
+절반으로 줄인다. 즉 단거리 이동은 약 25피트(8m), 장거리 이동은 약 50피트(15m)가 된다. 난지는
+장거리 이동 속도를 정상의 3분의 1로 낮춘다.
+물: 캐릭터가 대부분 또는 완전히 잠기는 깊은 물은 이동 굴림을 방해하고
+라운드 단위 이동과 장거리 이동을 모두 정상의 4분의 1로 줄인다. 즉 단거리 이동은 약 12피트(4m),
+장거리 이동은 약 25피트(7.5m)가 된다. 수영에 익숙한 캐릭터는 깊은 물에서만 이동이 절반으로 줄어든다.
+저중력: 저중력에서는 이동이 좀 더 쉽지만 크게 빨라지지는 않는다. 모든 이동 굴림이 완화된다.
+고중력: 고중력 환경에서는 모든 이동 캐릭터를 난지에 있는 것으로 처리한다. 고중력 기동에 익숙한 캐릭터는
+이 페널티를 무시한다. 고중력에서는 장거리 이동 속도가 정상의 3분의 1이 된다.
+무중력: 중력이 없는 환경에서는 캐릭터가 일반적으로 이동할 수 없다. 대신 표면을 밀어 추진한 뒤 힘 굴림에 성공해야 이동한다(난이도는 이동 거리(피트)의 4분의 1). 밀고 나갈 표면이 없으면 이동할 수 없다. 또한 이동 끝에 붙잡거나 착지할 안정된 물체에 닿지 못하면, 초기 추진 거리의 절반씩을 매 라운드 같은 방향으로 계속 표류한다.
 
+특수 상황: 추격전
+PC가 NPC를 쫓거나 반대로 NPC가 PC를 쫓을 때, 플레이어는 NPC 레벨을 기준 난이도로 한 속력 행동을 시도한다. PC가 성공하면(쫓는 쪽이면) 상대를 따라잡고, (쫓기는 쪽이면) 따돌린다. 이야기상 이 1회 굴림은 여러 라운드에 걸친 긴 추격의 결과로 해석할 수 있다.
+또는 마스터가 긴 추격을 실제로 풀어내고 싶다면, 캐릭터가 여러 번 굴려(예: NPC 레벨당 1회) 추격의 성패를 누적 판정하게 할 수 있다. 실패 1회마다 성공 1회를 추가로 쌓아야 하며, 어느 시점이든 실패 횟수가 성공 횟수보다 많아지면 PC는 (쫓는 경우) 놓치고, (쫓기는 경우) 붙잡힌다. 전투와 마찬가지로 마스터는 각 굴림의 결과를 장면 묘사와 함께 제시하는 것이 좋다. 성공은 모퉁이를 돌아 거리를 벌린 장면일 수 있고, 실패는 앞에 과일 바구니가 쏟아져 속도가 늦춰진 장면일 수 있다. 탈것 추격도 같은 방식으로 처리한다.
 
+### 행동: 대기
 
+다른 캐릭터의 행동에 대응하기 위해 기다릴 수 있습니다.
+어떤 행동이 내 행동의 방아쇠가 되는지 먼저 정하고, 그 방아쇠 행동이 실제로 일어나면 당신이 먼저 행동합니다 (상대를 보기 전에 공격하는 것처럼 먼저 하는 것이 말이 안 되는 경우는 예외). 예를 들어 오크가 할버드로 당신을 위협하고 있다면, 당신 차례에 "저놈이 찌르면 나는 검으로 벨 거야"라고 선언하고 대기할 수 있습니다. 오크 차례에 실제로 찌르려 하면, 그 전에 당신의 검 공격이 먼저 해결됩니다.
+대기는 엄폐물 뒤에서 몸을 내밀어 사격하고 다시 숨는 원거리 공격수를 상대할 때도 유용합니다. "저놈이 엄폐물 위로 올라오는 걸 기다렸다가 쏘겠다"라고 선언하면 됩니다.
+(대기는 협동 행동(아래 참조)에서도 유용한 수단입니다.)
 
-## FOLLOWERS
-Player characters have the option to gain followers as they advance in tier, as provided by type or focus special abilities. Followers do not need to be paid, fed, or housed, though a character who gains followers can certainly make such arrangements if they wish. A follower is someone whom a character has inspired (or asked) to come work with the character for a time, aiding them in a variety of endeavors. A follower puts the PC’s interests ahead of, or at least on par with, their own.
+### 행동: 방어
 
-The PC generally makes rolls for their follower when the follower takes actions, though usually a follower’s modifications provide an asset to a specific action taken by the PC they follow.
+방어는 PC만 할 수 있는 특수 행동이며, 공격을 받았을 때만 발생합니다. 즉 NPC가 자기 행동으로 공격하면, 그에 대응해 PC가 방어 굴림을 하게 됩니다. 이때도 다른 행동과 마찬가지로 상황, 기능, 보탬, 분발이 모두 적용될 수 있습니다. 방어는 PC의 차례에 하는 행동이 아니라는 점이 특별합니다. 플레이어가 "지금 방어 행동을 하겠다"라고 고르는 것이 아니라, 언제나 공격에 대한 반응으로 일어납니다. PC는 공격받은 순간(공격한 NPC의 차례)에 방어 행동을 하고, 자기 차례에는 별개의 행동을 또 할 수 있습니다.
+어떤 방어 굴림을 하는지는 공격 종류에 따라 달라집니다. 적이 도끼로 공격하면 속력으로 피하거나, 들고 있는 물건으로 막을 수 있습니다. 독침에 맞았으면 힘 행동으로 독의 효과를 버틸 수 있습니다. 사이 웜이 정신을 지배하려 들면 지성으로 그 개입을 떨쳐낼 수 있습니다.
+공격 하나가 방어 행동 두 번을 유발할 때도 있습니다. 예를 들어 독성 파충류가 PC를 물려고 합니다. 먼저 PC는 속력 행동으로 물기를 피하려고 합니다. 여기에 실패하면 물린 피해를 받고, 이어서 독의 효과를 버티기 위한 힘 행동도 해야 합니다.
+캐릭터가 공격이 오는 것을 모르는 상태라도 보통은 방어 굴림을 할 수 있습니다. 다만 그때는 수정치(방패 수정치 포함)를 더할 수 없고, 기능이나 분발로 일을 완화할 수도 없습니다. 상황상 타당하다면(예: 공격자가 바로 옆에 있음) 마스터는 기습 공격이 그냥 자동 명중한다고 판정할 수도 있습니다.
+캐릭터는 언제든 방어 행동을 포기할 수 있으며, 이 경우 공격은 자동 명중합니다.
+일부 능력(예: Countermeasures 특수 능력)은 방어 행동으로 특별한 효과를 낼 수 있게 해 줍니다.
 
-(If a follower dies, the character gains a new one after at least two weeks and proper recruitment.)
+### 행동: 기타 행동
 
-**Modifications**: A follower can help a PC in one or more tasks, granting the PC an asset to that task. The level of the follower indicates the number of different tasks they can help with. The tasks that the follower is able to help with are predetermined, usually chosen by the PC when they gain the follower. A level 2 follower who the player determines is a spy could grant a PC an asset on two different tasks, such as stealth and deception. Followers cannot help with tasks that they don’t have modifications for; for the purpose of helping, treat the follower as if they had inabilities in all nonmodified tasks.
+플레이어는 생각해 낼 수 있는 거의 모든 행동을 시도할 수 있습니다. 다만 그렇다고 모든 것이 가능한 것은 아닙니다. 난이도를 정하는 것은 마스터의 핵심 역할입니다. 그래도 논리에 맞는 범위 안에서, 플레이어와 마스터는 룰에 직접 적혀 있지 않은 온갖 행동과 선택지를 찾아낼 수 있습니다. 그리고 그건 좋은 일입니다.
+플레이어는 행동할 때 규칙에 갇힌 느낌을 받을 필요가 없습니다. 행동을 시도하는 데 기능이 반드시 필요한 것도 아닙니다. 자물쇠를 한 번도 따 본 적 없는 사람도 시도는 할 수 있습니다. 마스터가 그 일을 방해할 수는 있어도, 시도 자체를 막지는 않습니다.
+그래서 플레이어와 마스터는 이 장의 처음으로 돌아가, 룰의 가장 기본적인 형태를 다시 확인하면 됩니다. 플레이어가 어떤 행동을 하려 합니다. 마스터가 그 일의 난이도(1~10)와 사용하는 특성치를 정합니다. 플레이어는 난이도를 바꿀 요소가 있는지 확인하고, 분발을 쓸지 결정합니다. 최종 수치가 정해지면 굴려서 성공 여부를 판정합니다. 핵심은 이게 전부입니다.
+추가 안내로, 아래에는 플레이어가 자주 시도하는 행동 몇 가지를 정리했습니다.
+(플레이어는 가능한 행동 목록만 보지 말고, 자기 캐릭터가 무엇을 할지 스스로 아이디어를 내는 것이 좋습니다. "기타 행동" 항목이 있는 이유가 바로 그것입니다. PC는 보드게임 말이 아니라 이야기 속 인물입니다. 실제 사람처럼 생각나는 건 뭐든 시도할 수 있습니다. (성공하느냐는 또 다른 문제입니다.) 일 난이도 시스템은 플레이어가 떠올린 무엇이든 마스터가 판정할 수 있게 해 줍니다.)
 
-When the follower acts autonomously rather than helping the PC, they act like a normal NPC that has modifications. Thus, the modification increases their effective level for the associated task by one step. For example, the level 2 spy follower with modifications for stealth and deception attempts stealth and deception tasks as if they were level 3 and all other tasks as level 2.
+#### 등반
 
-**Follower Assets to Combat and Defense**: A follower cannot grant an asset to a character’s attacks or defense until the follower is level 3 or higher. Even then, the follower can help with attacks and defense only if they have a modification for that kind of task.
+캐릭터가 등반할 때는, 오르는 표면 상태를 기준으로 마스터가 난이도를 정합니다. 등반은 험지를 이동하는 것과 비슷해서 이동 굴림이 방해되고, 이동 속도는 절반이 됩니다. 사격을 받으며 오르는 식의 특수한 상황에서는 추가 단계 페널티가 붙습니다.
 
-Some abilities may grant a special exception to this rule. For instance, the Serv-0 Defender ability gives your level 1 Serv-0 follower (a machine companion) a modification for Speed defense.
+등반 난이도
 
-**Follower Level Progression**: A follower increases in level by 1 each time a PC advances two tiers after gaining that follower. When the follower gains a level, the PC also chooses the task that the follower gains a modification for.
+| 난이도 | 표면                               |
+| ------ | ---------------------------------- |
+| 2      | 손잡이가 많은 표면                 |
+| 3      | 돌담 같은 표면(손잡이가 조금 있음) |
+| 4      | 부서지기 쉽거나 미끄러운 표면      |
+| 5      | 매끈한 석벽 같은 표면              |
+| 6      | 금속 벽 같은 표면                  |
+| 8      | 매끈한 수평면(거꾸로 매달린 상태)  |
+| 10     | 유리 벽 같은 표면                  |
 
-**Exceptional Follower**: When a character gains a follower, there’s a small chance that the follower will be exceptional in some way, a cut above other followers of their kind. The GM determines when an exceptional follower is found, possibly as an additional reward for smart or engaging roleplaying where the PCs impress or otherwise positively interact with one or more NPCs, some of whom may later go on to become one of their followers. An exceptional follower has the same qualities as a regular follower but is 1 level higher.
+#### 협력 행동
 
-**Pet**: Any PC can potentially gain a pet, though a pet typically doesn’t provide modifications. If a character wants a pet that can do this, they must gain the pet through an an ability or focus that grants followers. On the other hand, a well-cared-for pet grants an asset to a PC’s tasks related to achieving peace of mind, finding comfort, and resisting loneliness.
+여러 캐릭터가 협력하는 방법은 다양합니다. 다만 같은 캐릭터들이 아래 옵션을 동시에 중복 적용할 수는 없습니다.
 
-BREATHING LIFE INTO FOLLOWERS 
+도움주기: 자기 행동을 써서 다른 사람의 일을 도우면, 그 일이 완화됩니다. 해당 일에 무능이 있다면 그 도움은 효과가 없습니다. 자신이 익숙하거나 능숙한 일을 도와주면, 그 일은 두 단계 완화됩니다. 도움은 보탬으로 취급하며, 다른 캐릭터의 도움으로 얻는 보탬은 보통 하나의 일에서 2개를 넘지 못합니다.
+예를 들어 스콧이 가파른 비탈을 오르려 하고 세라가(등반에 익숙한 상태에서) 자기 차례를 써 도와주면, 스콧의 일은 두 단계 완화됩니다.
+때로는 상대가 하려는 일과 상보적인 행동을 함으로써 도울 수도 있습니다. 그 상보 행동이 성공하면 상대의 일이 완화됩니다. 예를 들어 스콧이 선장을 설득해 승선을 허락받으려 할 때, 세라는 선장을 치켜세우는 거짓말(속임수 행동), 항로 지역 지식을 보여 주는 발언(지리 행동), 선장에 대한 직접적 위협(위협 행동)으로 스콧의 설득을 지원할 수 있습니다. 세라의 굴림이 성공하면 스콧의 설득 일이 완화됩니다.
 
-The modifications provided by followers could come across as fairly dry and mechanical. To avoid that, you could present each follower in a way that makes them more compelling and interesting. Here are a few examples of how to describe a follower, depending on their mix of modifications.
-- A firebrand diplomat able to convince an enemy horde to back down.
-- A veteran commander whose presence bolsters the entire community’s military might.
-- A genius medic who invigorates everyone with their healing techniques.
-- An imaginative architect whose works both beautify and defend the city.
-- A tricky spy whose intelligence on enemy movements is invaluable.
+교란: 캐릭터가 자기 차례를 써 적을 교란하면, 그 적의 공격은 한 라운드 동안 방해됩니다. 여러 캐릭터가 같은 적을 교란해도 효과가 더 커지지는 않습니다. 적은 교란된 상태이거나 아닌 상태 둘 중 하나입니다. 교란은 도발을 외치거나 경고 사격을 하는 등, 적에게 직접 피해를 주지 않는 행동으로 표현할 수 있습니다.
 
+공격 유도: NPC가 어떤 캐릭터를 공격하려 할 때, 다른 PC가 전면에 나서 도발하고 움직이며 자신을 대신 공격하게 유도할 수 있습니다. 대부분의 경우 이 행동은 굴림 없이 성공하며, 적은 동료 대신 전면에 나선 PC를 공격합니다. 다만 지능이 높거나 집요한 적이라면, 전면에 나선 캐릭터가 지성 행동에 성공해야 공격 유도가 성립합니다. 그 지성 행동이 성공하면 적은 그 캐릭터를 공격하며, 해당 캐릭터의 방어는 두 단계 방해됩니다. 같은 순간 둘이 동시에 공격 유도를 시도하면 서로 상쇄됩니다.
 
-## Experience Points
+대신 맞기: 캐릭터는 자기 행동을 써서, 근처 동료에게 명중한 적의 공격을 몸으로 대신 맞을 수 있습니다. 이 경우 공격은 대신 맞은 캐릭터에게 자동 명중하며 피해가 1점 추가됩니다. 이 방식으로 한 캐릭터가 자발적으로 대신 맞을 수 있는 공격은 라운드당 1회뿐입니다.
 
-Experience points (XP) are the currency by which players gain benefits for their characters. The most common ways to earn XP are through GM intrusions and by accomplishing things the PCs set out to do. Sometimes experience points are earned during a game session, and sometimes they’re earned between sessions. In a typical session, a player might earn 2 to 4 XP, and between sessions, perhaps another 2 XP (on average). The exact amounts depend on the events of the session. 
+#### 제작, 건설, 수리
 
+제작은 사이퍼 시스템에서 다루기 까다로운 주제입니다. 창 하나를 만드는 룰과 초공간 이동 장치를 수리하는 룰이 같은 틀을 쓰기 때문입니다. 보통은 물건의 레벨이 제작/수리 난이도와 소요 시간을 함께 결정합니다. 사이퍼, 아티팩트, 전문 지식이 필요한 물건, 또는 자기 세계/종족 고유 물건(예: 화성의 3족 보행기)이라면 제작/수리 난이도를 정할 때 물건 레벨에 5를 더합니다.
+물건이 예술품 성격을 띠면 마스터가 난이도와 시간을 더 올릴 수도 있습니다. 예를 들어 거친 나무 의자는 한 시간 안에 대충 만들 수 있지만, 완성도 높은 미려한 작품은 일주일 이상 걸릴 수 있고 제작자에게 더 높은 숙련이 요구됩니다.
+마스터는 특정 제작/건설/수리 시도를 기각하고, 일정 수준 기능, 적절한 공구와 재료 등을 요구해도 됩니다.
+레벨 0 물건은 만들 때 기능이 필요 없고 대부분의 장소에서 쉽게 구합니다. 슬링 탄환이나 장작은 레벨 0 물건이며, 만들어 내는 것이 일상적입니다. 여분 나무와 기름 먹인 천으로 횃불을 만드는 일은 간단하므로 레벨 1 물건입니다. 화살이나 창 제작은 흔하지만 간단하지는 않으므로 레벨 2 물건입니다.
+일반적으로 어떤 장치를 제작하려면 해당 레벨 재료와 그 아래 모든 레벨의 재료가 필요합니다. 즉 레벨 5 장치에는 레벨 5, 4, 3, 2, 1 재료(엄밀히는 레벨 0 재료도) 모두가 필요합니다.
+원하면 마스터와 플레이어는 제작 세부를 크게 생략해도 됩니다. 평범한 물건 하나 만드는 데 필요한 재료 수집을 전부 플레이로 풀어낼 가치가 없을 수도 있습니다. 하지만 때로는 가치가 있습니다. 숲에서 목창을 만드는 건 별 흥미가 없을 수 있으나, 나무가 전혀 없는 사막에서 창을 만들어야 한다면 이야기가 달라집니다. 목재 잔해를 찾아내거나, 거대한 짐승의 뼈로 창을 만들게 되는 상황은 충분히 흥미로울 수 있습니다.
+물건 제작에 걸리는 시간은 마스터 재량이지만, 아래 제작 표의 지침이 좋은 출발점이 됩니다. 수리 시간은 보통 제작 시간의 절반에서 동일 시간 사이이며, 물건 종류, 고장 부위, 상황에 따라 달라집니다. 예를 들어 제작이 1시간인 물건이라면 수리는 30분~1시간 정도가 됩니다.
+상황이 허락하면 마스터가 급행 제작을 허용할 때도 있습니다. 이는 기능으로 시간을 줄이는 것과는 다릅니다. 급행 제작에서는 물건의 품질이 영향을 받습니다. 예컨대 캐릭터가 단 하루 안에 고체 강철을 자르는 레이저 도구(레벨 7)를 만들어야 한다고 합시다. 마스터가 허용하더라도 장치가 극도로 불안정해 사용자를 다치게 하거나, 한 번만 작동할 수도 있습니다. 그래도 다른 기준에서는 여전히 레벨 7 물건으로 취급됩니다. 반대로 시간 단축이 불가능하다고 마스터가 판정할 수도 있습니다. 예를 들어 사람 하나가 아무 기계 도움 없이 사슬 갑옷 조끼를 1시간 만에 만드는 건 불가능합니다.
+가능한 제작 기능 예시는 다음과 같습니다.
 
-### GM INTRUSION
-At any time, the GM can introduce an unexpected complication for a character. When they intrude in this way, they must give that character 2 XP. That player, in turn, must immediately give one of those XP to another player and justify the gift (perhaps the other player had a good idea, told a joke, or performed an action that saved a life).
+- 갑옷 제작
+- 활 제작/화살 제작
+- 화학
+- 컴퓨터 공학
+- 전자공학
+- 엔진 정비
+- 유전공학
+- 유리 세공
+- 총기 제작
+- 가죽 세공
+- 금속 세공
+- 신경공학
+- 무기 제작
+- 목공
 
-Often, the GM intrudes when a player attempts an action that should be an automatic success. However, the GM is free to intrude at other times. As a general rule, the GM should intrude at least once each session, but no more than once or twice each session per character.
+캐릭터는 사이퍼, 아티팩트, 혹은 외계 사이오닉 우주선을 원래 용도와 다르게 쓰려 할 수도 있습니다. 때로는 마스터가 그 일을 아예 불가능하다고 선언합니다. 치유 영약 병을 양방향 통신기로 바꿀 수는 없습니다. 그러나 대부분의 경우에는 어느 정도 성공 가능성이 있습니다.
+다만 기묘한 물건을 만지는 일은 결코 쉽지 않습니다. 난이도는 상황마다 다르지만, 7부터 시작해도 과하지 않은 경우가 많습니다. 필요한 시간, 도구, 훈련 수준은 장치 수리에 필요한 것과 대체로 비슷합니다. 그리고 그 개조가 캐릭터에게 장기적 이익(예: 계속 쓸 수 있는 아티팩트 제작)을 준다면, 마스터는 그 완성을 위해 XP 소비를 요구해야 합니다.
+(상황은 정말 중요합니다. 예를 들어 손바느질로 드레스를 만드는 일은 재봉틀을 쓸 때보다 다섯 배 이상 오래 걸릴 수 있습니다.)
+(특정 제작/건설/수리 시도를 기각하고 일정 수준 기능, 적절한 공구와 재료 등을 요구하는 것은 마스터의 권한입니다.)
+("기묘한 물건"의 기준은 세계관마다 달라지며, 어떤 설정에서는 이 개념이 거의 의미 없을 수도 있습니다. 그러나 많은 설정에서는 PC가 쉽게 건드릴 수 없거나, 애초에 건드리면 안 될 만큼 낯설고 강력하고 위험한 대상이 존재합니다. 아인슈타인이 비범했다고 해도, 그렇다고 다른 차원에서 온 순간이동기를 역설계할 수 있다는 뜻은 아닙니다.)
 
-Anytime the GM intrudes, the player can spend 1 XP to refuse the intrusion, though that also means they don’t get the 2 XP. If the player has no XP to spend, they can’t refuse.
+제작 난이도와 시간
 
-If a player rolls a 1 on a die, the GM can intrude without giving the player any XP. 
+| 난이도 | 제작물 예시                                                     | 일반 제작 시간 |
+| ------ | --------------------------------------------------------------- | -------------- |
+| 0      | 밧줄 묶기, 알맞은 돌 찾기 같은 매우 단순한 작업                 | 길어야 몇 분   |
+| 1      | 횃불                                                            | 5분            |
+| 2      | 창, 간단한 은신처, 가구 하나                                    | 1시간          |
+| 3      | 활, 문, 기본 의류                                               | 1일            |
+| 4      | 검, 사슬 갑옷 조끼                                              | 1~2일          |
+| 5      | 일반 기술 물품(전등), 괜찮은 장신구나 예술품                    | 1주            |
+| 6      | 기술 물품(시계, 송신기), 매우 좋은 장신구/예술품, 정교한 공예품 | 1개월          |
+| 7      | 기술 물품(컴퓨터), 대형 예술 작품                               | 1년            |
+| 8      | 지구 바깥 기원 기술 물품                                        | 수년           |
+| 9      | 지구 바깥 기원 기술 물품                                        | 수년           |
+| 10     | 지구 바깥 기원 기술 물품                                        | 수년           |
 
-Example 1: Through skill and the aid of another character, a fourth-tier PC eases a wall-climbing task from difficulty 2 to difficulty 0. Normally, they would succeed at the task automatically, but the GM intrudes and says “No, a bit of the crumbling wall gives way, so you still have to make a roll.” As with any difficulty 2 task, the target number is 6. The PC attempts the roll as normal and gains 2 XP because the GM intruded. They immediately give one of those XP to another player.
+#### 경계
 
-Example 2: During a fight, a PC swings their axe and damages a foe with a slice across the shoulder. The GM intrudes by saying that the foe turned just as the axe struck, wrenching the weapon from the character’s grip and sending it clattering across the floor. The axe comes to a stop 10 feet (3 m) away. Because the GM intruded, the PC gains 2 XP, and the player immediately gives one of those XP to another player. Now the character must deal with the dropped weapon, perhaps drawing a different weapon or using their next turn to scramble after the axe.
+전투 상황에서 캐릭터는 자기 행동으로 경계를 설 수 있습니다. 이때 공격은 하지 않지만, 자신의 모든 방어 일은 완화됩니다. 또한 NPC가 자신을 지나치거나 자신이 막고 있는 행동을 시도하면, 캐릭터는 해당 NPC 레벨을 기준으로 완화된 속력 행동을 시도할 수 있습니다. 성공하면 NPC는 그 행동을 하지 못하고, 그 차례의 행동을 허비합니다. 문길을 막거나 동료를 지키는 데 특히 유용합니다.
+NPC가 경계를 설 때도 같은 절차를 쓰며, 이 경우 PC가 경계를 뚫으려면 NPC를 상대로 방해된 속력 행동을 해야 합니다. 예를 들어 다이애나라는 NPC 인간에게 레벨 3 경호원이 있다고 합시다. 경호원이 자기 행동으로 다이애나를 경계하고 있을 때, PC가 다이애나를 공격하려면 먼저 난이도 4 속력 일에 성공해 경호원을 뚫어야 합니다. 성공하면 그다음 공격은 정상적으로 할 수 있습니다.
 
-(For much more on GM intrusions, see the Running the Cypher System chapter.)
+#### 치료
 
+붕대 처치나 응급 처치를 통해 치료를 시도할 수 있으며, 대상 한 명당 하루에 한 번만 시도할 수 있습니다. 이 치료는 원하는 특성치 역량 하나에 점수를 회복시킵니다. 먼저 몇 점을 회복할지 정한 뒤, 그 수치와 같은 난이도의 지성 행동을 합니다. 예를 들어 3점을 회복시키려면 난이도 3 일이며 목표치는 9입니다.
+
+#### 생물과 상호작용
+
+전투와 마찬가지로, 대상 생물의 레벨이 목표치를 결정합니다. 따라서 경비를 매수하는 일은 주먹으로 치거나 능력으로 영향을 주는 판정과 같은 틀로 처리됩니다. 설득, 위협, 야생 짐승 진정 등도 모두 같은 원리입니다. 상호작용은 지성 일입니다. 보통은 공통 언어 또는 다른 의사소통 수단이 있어야 상호작용이 가능합니다. 새 언어를 배우는 것은 새 기능을 배우는 것과 같습니다.
+
+#### 점프
+
+얼마나 멀리 뛸지 먼저 정하면, 그 거리가 힘 굴림 난이도를 정합니다. 제자리뛰기는 거리(피트)에서 4를 뺀 값이 점프 난이도입니다. 예를 들어 10피트(약 3m)를 뛰면 난이도는 6입니다.
+점프 전에 지근거리만큼 달리면 보탬 1개로 쳐서 점프가 완화됩니다.
+점프 전에 단거리만큼 달리면, 점프 거리(피트)를 2로 나눈 뒤 4를 빼서 난이도를 정합니다. 이 경우 지근거리 이상을 달렸으므로 달리기는 보탬으로도 적용됩니다. 예를 들어 단거리 도움닫기로 20피트(약 6m)를 뛰면 난이도는 5입니다 (20/2=10, 10-4=6, 지근거리 도움닫이 보탬으로 -1단계).
+수직 점프는 도달 높이(피트)가 곧 점프 일의 난이도입니다. 점프 전에 지근거리만큼 달렸다면 보탬으로 적용되어 점프가 완화됩니다.
+(정확한 거리 계산 없이 마스터가 점프 난이도를 바로 지정해도 아무 문제 없습니다. 여기 규칙은 공통 기준을 제시하기 위한 지침입니다.)
+
+#### 관찰과 청취
+
+보통 마스터는 일부러 숨긴 정보가 아닌 이상, 눈에 보이거나 들리는 것을 설명해 줍니다. 하지만 숨은 적을 찾거나, 비밀 패널을 수색하거나, 몰래 접근하는 기척을 들으려 한다면 지성 굴림을 해야 합니다. 대상이 생물이라면 그 레벨이 난이도를 정하고, 그 외 대상이라면 마스터가 난이도를 정합니다.
+
+#### 무거운 물체 이동
+
+자기 행동으로 아주 무거운 물체를 밀거나 끌어 지근거리만큼 옮길 수 있습니다.
+물체 무게가 이를 위한 힘 굴림 난이도를 정합니다. 50파운드(23kg)마다 일이 한 단계씩 방해됩니다. 따라서 150파운드(68kg) 물체 이동은 난이도 3, 400파운드(180kg) 이동은 난이도 8입니다. 이 일을 난이도 0까지 완화할 수 있다면, 행동 하나로 무거운 물체를 단거리까지 옮길 수 있습니다.
+
+#### 장치 조작/무력화, 자물쇠 따기
+
+장치를 파악할 때와 마찬가지로, 장치 레벨이 보통 지성 굴림 난이도를 정합니다. 장치가 매우 복잡하지 않다면 마스터는 "원리를 알아낸 뒤에는 특수 상황이 아닌 한 조작 굴림은 생략"으로 판정하는 경우가 많습니다. 즉 PC가 호버크래프트 사용법을 알아냈다면 평소에는 운용할 수 있습니다. 다만 공격받는 와중에 운전해야 한다면, 피격을 피하다 벽에 들이받지 않기 위한 굴림이 필요할 수 있습니다.
+장치 조작과 달리, 장치 무력화나 자물쇠 따기는 보통 굴림이 필요합니다. 이런 행동에는 특수 도구가 자주 필요하며, 전제는 장치/자물쇠를 부수지 않는다는 점입니다. (부수려는 경우라면 인내와 숙련이 필요한 속력/지성 굴림보다, 힘 굴림으로 때려 부수는 판정이 더 적절합니다.)
+
+#### 탑승과 조종
+
+탈것으로 훈련된 동물을 타거나, 차량을 운전/조종할 때 A지점에서 B지점으로 이동하는 같은 일상적 운용에는 굴림이 필요 없습니다 (걷는 데 굴림이 필요 없는 것과 같습니다). 하지만 전투 중에 안장을 지키고 버티거나, 차량으로 까다로운 기동을 하려면 속력 굴림이 필요합니다. 안장 등 적절한 장비는 보탬으로 적용되어 일을 완화합니다.
+
+탑승/조종 난이도
+
+| 난이도 | 기동                                                                   |
+| ------ | ---------------------------------------------------------------------- |
+| 0      | 일반 탑승/조종                                                         |
+| 1      | 전투나 난상황에서 안장(오토바이 등 포함) 유지                          |
+| 3      | 피해를 받은 상황에서 안장(오토바이 등 포함) 유지                       |
+| 4      | 움직이는 탈것에 올라타기                                               |
+| 4      | 고속 주행 중 급선회                                                    |
+| 4      | 차량을 한 라운드 동안 평소의 두 배 속도로 주행                         |
+| 5      | 탈것이 한 라운드 동안 평소의 두 배 속도/거리로 이동 또는 도약하게 유도 |
+| 5      | 비행용이 아닌 차량(예: 자동차)으로 장거리 도약 후 제어 유지            |
+
+#### 잠입
+
+생물을 몰래 지나가는 난이도는 해당 생물의 레벨로 정합니다. 잠입은 속력 굴림입니다. 절반 속도로 움직이면 잠입 일이 완화됩니다. 적절한 위장이나 장비도 보탬이 될 수 있으며, 어두운 조명이나 숨을 엄폐물이 많은 환경 역시 일을 완화합니다.
+
+#### 수영
+
+잔잔한 강이나 호수를 가로질러 단순히 한 지점에서 다른 지점으로 헤엄치는 정도라면, 캐릭터가 깊은 물에 있다는 점만 반영하고 기본 이동 규칙을 사용합니다. 다만 급류를 피하거나 소용돌이에 끌려가는 상황처럼 특수한 경우에는, 헤엄치며 전진하기 위해 힘 굴림이 필요할 수 있습니다.
+
+#### 이해, 식별, 기억
+
+캐릭터가 장치를 식별하거나 사용법을 파악하려 하면, 장치 레벨이 난이도를 정합니다. 일반 지식의 경우 난이도는 마스터가 정합니다.
+
+| 난이도 | 지식 범주                |
+| ------ | ------------------------ |
+| 0      | 상식                     |
+| 1      | 단순 지식                |
+| 3      | 학자라면 알 법한 지식    |
+| 5      | 학자도 모를 수 있는 지식 |
+| 7      | 극소수만 아는 지식       |
+| 10     | 완전히 잊힌 지식         |
+
+#### 차량 이동
+
+차량 이동은 기본적으로 생물 이동과 같은 틀로 처리합니다. 차량마다 이동률이 있으며, 이는 라운드당 이동 가능 거리를 뜻합니다. 대부분의 차량은 운전자가 필요하고, 이동 중에는 보통 운전자가 매 행동을 조종에 써야 합니다. 이 자체는 대개 굴림이 필요 없는 일상적 일입니다. 어떤 라운드에 운전에 행동을 쓰지 않으면 다음 라운드의 운전 일이 방해되고, 속도/방향 변경도 할 수 없습니다. 즉 평범한 도로 주행은 난이도 0입니다. 한 라운드에 뒷좌석에서 배낭을 꺼내는 데 행동을 쓰면, 다음 라운드 운전은 난이도 1 일이 됩니다. 이어서 배낭에서 권총까지 꺼내면 그다음 라운드 운전 난이도는 2가 됩니다. 실패 결과는 상황에 따르지만 충돌 같은 사태로 이어질 수 있습니다.
+차량 추격에서는 일반 추격과 동일하게 운전자가 속력 행동을 시도합니다. 다만 난이도 기준은 운전자 레벨(차량 레벨/이동률로 수정) 또는 차량 레벨(운전자 레벨로 수정) 중 하나를 적용할 수 있습니다. 예를 들어 일반 승용차를 모는 PC가 레벨 3 NPC가 모는 레벨 5 스포츠카를 추격한다면, PC는 난이도 5로 추격 굴림 3회를 해야 합니다. PC 차량이 성능 튜닝된 커스텀 차량이라면 추격에서 보탬을 줄 수 있습니다. 반대로 PC가 차량이 아니라 자전거를 타고 있다면 추격 굴림이 두세 단계 방해될 수 있고, 마스터가 아예 불가능하다고 판정할 수도 있습니다.
+
+#### 차량 전투
+
+차량, 보트, 기타 탈것 위에서 벌어지는 전투는 대체로 일반 전투와 같습니다. 전투원들은 대개 엄폐를 끼고 고속 이동 중일 것입니다. 차량 전체나 일부를 무력화하려는 공격은 차량 레벨을 기준으로 판정합니다. 장갑차나 전차처럼 차량 자체가 전투 플랫폼인 경우, 공격은 대개 생물을 상대하듯 레벨과 장갑 수치를 가진 차량을 대상으로 하게 됩니다.
+이 방식이 달라지는 건, 캐릭터 개인이 아니라 차량끼리만 싸우는 전투입니다. 예컨대 PC와 은행 강도가 각자 차를 타고 총격전을 벌이면 기본 규칙을 쓰면 됩니다. 그러나 거대 주력함부터 단좌 전투기까지의 우주선 교전은 미래 SF에서 흔합니다. 심해 잠수정끼리의 전투도 가능합니다. 현대물에서도 전차전이 나올 수 있습니다. PC들이 차량 내부에 완전히 탑승해, 사실상 "캐릭터"가 아니라 "차량"이 싸우는 전투라면 아래의 간단 지침을 사용하십시오.
+이 스케일에서 차량 전투는 전통적 전투와 다르게 다룹니다. 체력, 장갑 같은 값을 일일이 따지지 말고, 참여 차량의 레벨을 비교합니다. PC 차량 레벨이 더 높으면, 그 레벨 차이만큼 PC의 공격/방어 굴림이 완화됩니다. PC 차량 레벨이 더 낮으면 동일하게 방해됩니다. 레벨이 같으면 수정이 없습니다.
+이 공격/방어 굴림에는 평소처럼 기능과 분발이 적용됩니다. 일부 차량은 우수한 무장을 가져 공격을 완화할 수 있지만(이 추상 시스템에서는 "피해량" 자체를 따지지 않기 때문), 이런 요소는 드물다고 보고 난이도 수정은 보통 1~2단계를 넘기지 않는 편이 좋습니다. 또한 차량 두 대가 한 대를 협공하면 공격이 완화되고, 세 대 이상이 협공하면 두 단계 완화됩니다.
+공격자는 적 차량의 특정 시스템이나 부위를 겨냥해야 하며, 겨냥 대상에 따라 공격이 방해됩니다.
+수정 요소가 많아 보이지만 실제로는 어렵지 않습니다. 우주전 예시를 봅시다. 레벨 2 소형 전투기에 탄 PC가 레벨 4 프리깃을 공격합니다. 프리깃이 레벨 4이므로 기본 공격 난이도는 4입니다. 그런데 공격 측이 더 약하므로 레벨 차이(2)만큼 방해되어 난이도 6이 됩니다. 여기에 전투기가 프리깃의 추진계를 노리면 공격이 추가로 3단계 방해되어 총 난이도 9가 됩니다. 조종사가 우주전 기능에 익숙하다면 8로 낮출 수 있지만, 여전히 도움 없이는 어렵습니다. 그래서 같은 레벨 2 전투기에 탄 다른 PC 둘이 합류해 협공한다고 합시다. 세 대가 한 목표를 협공하면 일이 두 단계 완화되어 최종 난이도 6이 됩니다. 그래도 공격 PC는 분발을 쓰는 편이 안전합니다.
+이제 프리깃이 반격하면 PC는 방어 굴림을 해야 합니다. 함선 간 레벨 차이(2) 때문에 PC 방어가 두 단계 방해되어 기본 난이도는 6입니다. 하지만 프리깃이 전투기 무장을 무력화하려 겨냥하면(적의 공격을 더 어렵게 만드는 시도), PC의 방어는 두 단계 완화됩니다. 결과적으로 PC는 난이도 4 일에 성공해야 주무장 체계를 잃지 않습니다.
+기억할 점은, 공격 실패가 항상 "빗나감"을 뜻하지는 않는다는 것입니다. 타격은 했지만 방어막이 대부분을 흡수해 실질적 손상이 없을 수도 있습니다.
+이 간략 시스템이면 마스터와 플레이어는 집단이 함께 활약하는 흥미로운 전투를 충분히 연출할 수 있습니다. 예를 들어 한 PC는 조종, 다른 PC는 포술, 또 다른 PC는 방어 중인 우주 정거장에 충돌하기 전에 기동 스러스터 손상을 필사적으로 수리하는 식입니다.
+(차량 전투, 특히 우주전에서는 방어막 붕괴, 선체 건전성, 기동 열세, 과속 접근 같은 용어가 많이 오갑니다. 이런 디테일은 훌륭하지만 기본적으로는 플레이버이므로, 규칙에서는 개별 수치가 아니라 일반 요소로 포괄해 다룹니다.)
+(차량에 관한 자세한 내용은 장르 장을 참고하십시오.)
+(운전에 익숙하면 차량을 무기처럼 다루는 데 숙련된 것으로 봅니다. 차량으로 상대를 치거나 적 차량에 들이받을 때, 오토바이는 중형 무기, 승용차나 트럭은 대형 무기로 취급합니다.)
+
+| 겨냥 대상                 | 공격 방해 | 효과                                  |
+| ------------------------- | --------- | ------------------------------------- |
+| 무장 무력화               | 2단계     | 차량 무장 하나 이상이 기능 정지       |
+| 방어 체계 무력화(해당 시) | 2단계     | 해당 차량 대상 공격이 완화            |
+| 엔진/구동계 무력화        | 3단계     | 차량이 이동 불가, 또는 이동 성능 저하 |
+| 기동계 무력화             | 2단계     | 차량이 현재 진로를 변경할 수 없음     |
+| 동력핵/핵심 부위 타격     | 5단계     | 차량 완전 파괴                        |
+
+## 추종자
+
+플레이어 캐릭터는 유형이나 특징(Focus)의 특수 능력에 따라 등급이 오르면서 추종자를 얻을 수 있습니다. 추종자에게 급여를 주거나 먹을 것과 잠자리를 마련해 줄 필요는 없지만, 원한다면 그렇게 해 줄 수도 있습니다. 추종자는 일정 기간 동안 캐릭터와 함께 하며 여러 가지 일을 돕도록, 그 캐릭터가 감화시키거나 직접 부탁해서 데려온 사람입니다. 추종자는 자신의 이익보다, 적어도 그에 못지않게, PC의 이해관계를 우선시합니다.
+
+추종자가 행동을 할 때에는 보통 그 추종자를 거느린 PC가 판정을 대신 합니다. 다만 대부분의 경우, 추종자의 조정치는 PC의 특정 행동에 보탬을 주는 식으로 작용합니다.
+
+(추종자가 죽으면, 적어도 2주 이상이 지나고 제대로 사람을 모으는 과정을 거친 뒤에 새 추종자를 얻게 됩니다.)
+
+**조정치(Modifications)** : 추종자는 한 가지 이상의 일에서 PC를 도와, 그 일에 보탬을 줄 수 있습니다. 추종자의 레벨은 추종자가 도와줄 수 있는 서로 다른 일의 수를 뜻합니다. 추종자가 도와줄 수 있는 일은 미리 정해 두며, 보통은 추종자를 얻을 때 PC가 정합니다. 예를 들어 플레이어가 어느 2레벨 추종자를 스파이로 정했다면, 그 추종자는 잠행과 기만 같은 두 가지 일에 PC에게 보탬을 줄 수 있습니다. 추종자는 자신에게 조정치가 없는 일에는 도움을 줄 수 없습니다. 도움을 준다는 관점에서 볼 때, 조정치가 없는 일들에는 전부 무능이 있는 것처럼 취급하십시오.
+
+추종자가 PC를 돕는 대신 스스로 행동할 때에는, 조정치를 가진 일반 NPC처럼 행동합니다. 조정치는 관련된 일의 유효 레벨을 한 단계 올려 줍니다. 예를 들어 잠행과 기만에 조정치가 있는 2레벨 스파이 추종자는, 잠행과 기만에 관한 일은 3레벨인 것처럼 처리하고, 그 밖의 일은 2레벨인 것처럼 처리합니다.
+
+**전투 및 방어에서의 추종자 보탬** : 추종자는 레벨 3 이상이 되기 전까지는 캐릭터의 공격이나 방어에 보탬을 줄 수 없습니다. 레벨 3 이상이 된 뒤에도, 그 종류의 일에 대한 조정치를 가지고 있어야만 공격과 방어를 도울 수 있습니다.
+
+일부 능력은 이 규칙에 대한 예외를 제공합니다. 예를 들어 `서브-0 수호자(Serv-0 Defender)` 능력은 1레벨 서브-0 추종자(기계 동료)에게 속력 방어에 대한 조정치를 부여합니다.
+
+**추종자 레벨 상승** : 추종자는 PC가 그 추종자를 얻은 뒤로 PC의 등급이 두 단계 오를 때마다 레벨이 1 오릅니다. 추종자의 레벨이 오를 때마다, PC는 그 추종자가 새로 조정치를 얻는 일을 하나 정합니다.
+
+**특별한 추종자** : 캐릭터가 추종자를 얻을 때, 그 추종자가 같은 부류의 다른 추종자들보다 한 수 위인 특별한 존재일 가능성이 조금 있습니다. 특별한 추종자가 언제 나타나는지는 마스터가 정하며, 똑똑하거나 몰입감 있는 롤플레이를 통해 PC들이 NPC에게 강한 인상을 남기거나 좋은 교류를 했을 때 주는 보상으로 제시할 수도 있습니다. 이후 그 NPC들 중 일부가 추종자가 될지도 모릅니다. 특별한 추종자는 보통 추종자와 성격은 같지만 레벨이 1 높습니다.
+
+**애완동물** : 어떤 PC든 잠재적으로 애완동물을 얻을 수 있지만, 보통 애완동물은 조정치를 제공하지 않습니다. 조정치를 주는 애완동물을 원한다면, 추종자를 부여하는 능력이나 특징을 통해 애완동물을 얻어야 합니다. 한편, 잘 보살핀 애완동물은 PC가 마음의 평안을 얻고, 위안을 찾고, 외로움에 맞서는 데 관련된 일들에 보탬을 줄 수 있습니다.
+
+추종자에게 숨을 불어넣기
+
+추종자가 제공하는 조정치는 자칫하면 꽤 건조하고 기계적으로 느껴질 수 있습니다. 이를 피하려면, 각 추종자를 더 매력적이고 흥미로운 존재로 느껴지도록 표현해 줄 수 있습니다. 추종자의 조정치 구성이 어떤지에 따라, 추종자를 이렇게 묘사할 수 있습니다.
+
+- 적의 무리를 설득해 물러나게 할 수 있는 열혈 외교관.
+- 존재만으로 공동체 전체의 군사력을 북돋는 노련한 지휘관.
+- 치유 기술로 모두를 되살려 놓는 천재 의술가.
+- 도시를 아름답고도 견고하게 만드는 기발한 건축가.
+- 적의 동향에 관한 정보를 모아 주는, 없으면 곤란한 스파이.
+
+## 경험치
+
+경험치(XP)는 플레이어가 자기 캐릭터에게 여러 가지 이득을 주는 데 사용하는 자원입니다. XP를 얻는 가장 일반적인 방법은 마스터 개입과, PC들이 스스로 세운 목표를 이루는 것입니다. 경우에 따라 경험치는 세션 도중에 얻기도 하고, 세션과 세션 사이에 얻기도 합니다. 보통 한 세션 동안 플레이어 한 명이 얻는 경험치는 2~4XP 정도이고, 세션 사이에 추가로 평균 2XP를 더 받을 수도 있습니다. 정확한 수치는 그 세션에서 어떤 일이 일어났는지에 따라 달라집니다.
+
+### 마스터 개입
+
+마스터는 언제든지 캐릭터에게 예기치 못한 복잡한 상황을 끼워 넣을 수 있습니다. 이렇게 개입을 하면, 그 캐릭터에게 2XP를 줘야 합니다. 그 플레이어는 곧바로 그 중 1XP를 다른 플레이어에게 주고, 왜 주는지 이유를 말해야 합니다 (상대가 좋은 아이디어를 냈다거나, 재미있는 농담을 했다거나, 누군가의 목숨을 구하는 행동을 했다거나 하는 식입니다).
+
+마스터는 보통, 실패 가능성이 없는 행동을 플레이어가 시도했을 때 개입합니다. 다만 언제 개입하든 마스터의 자유입니다. 일반적인 지침으로, 마스터는 세션마다 최소 한 번은, 하지만 캐릭터 하나당 세션마다 한두 번을 넘기지 않는 선에서 개입하는 편이 좋습니다.
+
+마스터가 개입할 때마다, 플레이어는 1XP를 써서 개입을 거부할 수 있습니다. 이 경우 2XP를 받지 못한다는 뜻이기도 합니다. 플레이어에게 쓸 XP가 하나도 없으면 개입을 거부할 수 없습니다.
+
+플레이어가 주사위를 굴려 1이 나오면, 마스터는 XP를 주지 않고도 개입할 수 있습니다.
+
+예시 1: 실력과 다른 캐릭터의 도움 덕분에, 4등급 PC가 난이도 2짜리 벽 오르기 일을 난이도 0까지 완화했습니다. 보통이라면 자동으로 성공하지만, 마스터가 개입해 “아니, 허물어진 벽이 조금 더 무너져서, 그래도 한 번은 굴려야겠어”라고 말합니다. 난이도 2짜리 일은 항상 그렇듯 목표치는 6입니다. PC는 평소처럼 판정을 하고, 마스터의 개입 때문에 2XP를 얻습니다. 그리고 곧바로 그 중 1XP를 다른 플레이어에게 줍니다.
+
+예시 2: 전투 중, PC가 도끼를 휘둘러 적의 어깨에 상처를 냅니다. 마스터는 “도끼가 박히는 순간 적이 몸을 비트는 바람에, 무기가 손에서 비틀려 나가 바닥을 구르다가 멀리 떨어집니다”라고 개입합니다. 도끼는 대략 3m쯤 떨어진 곳에서 멈춥니다. 마스터가 개입했으므로, 그 PC는 2XP를 얻고, 플레이어는 그 중 1XP를 곧바로 다른 플레이어에게 줍니다. 이제 그 캐릭터는 떨어진 무기를 어떻게 처리할지 고민해야 합니다. 다른 무기를 뽑을 수도 있고, 다음 자기 차례를 써서 도끼를 주우러 갈 수도 있습니다.
+
+(마스터 개입에 관한 더 자세한 내용은 `사이퍼 시스템 운영하기` 장을 참고하십시오.)
 
 ### 캐릭터 아크
+
 캐릭터 아크는 플레이어가 더 멋진 이야기나 캐릭터의 깊이나 성장을 위해 투자할 수 있게 해주는 수단입니다.
 
 책이나 텔레비전 쇼에서처럼, 캐릭터들은 각자의 개인적인 이야기를 통해 전진하고 시간이 지나며 변합니다. 캐릭터 아크를 가진 PC는 자기 자신을 위해 무엇을 왜 할지 결정합니다. 캐릭터 아크는 캐릭터가 선언한 목표와 비슷하며, 목표를 향해 전진함으로서, 캐릭터도 발전합니다. 여기서 열쇠가 되는 말은 전진입니다. PC는 발전하기 위해서 목표를 이루는데 성공할 필요가 없습니다-이는 전부 아니면 전무식의 관점이 아닙니다. 각 아크는 하나의 캐릭터에게 맞춰져 있지만, 책이나 쇼에서 그렇듯이, 캐릭터들은 일행 전체가 참가하는 더 큰 이야기 아크에서 한 부분을 맡을 수도 있고, 도중에 각자의 개인적 아크에서도 전진합니다.
@@ -896,411 +817,491 @@ Example 2: During a fight, a PC swings their axe and damages a foe with a slice 
 
 이 장에서 많은 [캐릭터 아크 예시](https://zesty-blancmange-c6d6b3.netlify.app/ko/cypher-open/rules-of-the-game#캐릭터-아크의-예)를 제시합니다. (아래를 보십시오.)
 
-### GM AWARDS
-Sometimes, a group will have an adventure that doesn’t deal primarily with a PC’s character arc. In this case, it’s a good idea for the GM to award XP to that character for accomplishing other tasks. First and foremost, awards should be based on discovery. Discovery can include finding a significant new location, such as a hidden chamber, a secret fortress, a lost land, a new planet, or an unexplored dimension. In this fashion, PCs are explorers. Discovery can also include a new significant aspect of a setting, such as a secret organization, a new religion, and so on.
+### 마스터 보상
 
-It can also mean finding a new procedure or device (something too big to be considered a piece of equipment) or even previously unknown information. This could include a source of magical power, a unique teleportation device, or the cure for a plague. These are all discoveries. The common thread is that the PCs discover something that they can understand and put to use.
+때때로, 일행이 치르는 모험이 특정 PC의 캐릭터 아크와는 크게 상관이 없을 수도 있습니다. 이런 경우에는, 마스터가 그 캐릭터가 해낸 다른 일에 대해 XP를 주는 편이 좋습니다. 무엇보다도, 보상의 기준은 **발견** 에 두어야 합니다. 발견에는 숨겨진 방, 비밀 요새, 잃어버린 땅, 새로운 행성, 미지의 차원 같은 중요한 새 장소를 찾아내는 것이 포함됩니다. 이런 의미에서 PC들은 탐험가입니다. 또한 발견에는 비밀 조직이나 새로운 종교 같은, 배경 설정의 중요한 새 요소를 찾아내는 것도 포함됩니다.
 
-Last, depending on the GM’s outlook and the kind of campaign the group wants to play, a discovery could be a secret, an ethical idea, an adage, or even a truth.
+또한, 새로운 절차나 장치(일반 장비로 보기에는 너무 큰 것), 혹은 이전에는 알려지지 않았던 정보를 찾아내는 것도 발견입니다. 예를 들어 마법적 힘의 근원, 특이한 순간이동 장치, 혹은 역병의 치료법 같은 것입니다. 이런 것들은 모두 발견입니다. 공통점은, PC들이 그것을 이해하고 활용할 수 있을 만큼 제대로 알아냈다는 점입니다.
 
-(It’s a fine line, but ultimately the GM decides what constitutes a discovery as opposed to just something weird in the course of an adventure. Usually, the difference is, did the PCs successfully interact with it and learn something about it? If so, it’s probably a discovery.)
+마지막으로, 마스터의 관점과 일행이 원하는 캠페인 성격에 따라, 발견이란 비밀, 윤리적 관념, 격언, 심지어 진실 그 자체일 수도 있습니다.
 
-**Artifacts**: When the group gains an artifact, award XP equal to the artifact’s level and divide it among the PCs (minimum 1 XP for each character). Round down if necessary. For example, if four PCs discover a level 5 artifact, they each get 1 XP. Money, standard equipment, and cyphers are not worth XP. (Experience point awards for artifacts should usually apply even if the artifact was given to the PCs rather than found, because often such gifts are the rewards for success.)
+(발견과, 모험 도중에 그냥 지나가는 기묘한 현상을 가르는 경계는 애매하지만, 결국 무엇이 발견에 속하는지는 마스터가 정합니다. 보통의 기준은, PC들이 그것과 의미 있게 상호작용하고, 무언가를 배웠는지 여부입니다. 그렇다면 대개 발견으로 간주해도 좋습니다.)
 
-**Miscellaneous Discoveries**: Various other discoveries might grant 1 XP to each PC involved.
+**아티팩트** : 일행이 아티팩트를 손에 넣으면, 그 아티팩트의 레벨만큼 XP를 주고 PC들에게 나누어 줍니다(각 캐릭터당 최소 1XP). 필요하다면 내림해서 나눕니다. 예를 들어 PC 네 명이 5레벨 아티팩트를 발견했다면, 각자 1XP씩 받습니다. 돈, 일반 장비, 사이퍼에는 XP를 주지 않습니다. (아티팩트에 대한 경험치 보상은, 아티팩트를 발견한 것이 아니라 NPC가 선물한 것이라 해도, 그 선물이 대개 어떤 성공에 대한 보상이기 때문에 보통은 그대로 적용하는 편이 좋습니다.)
 
-**Other Awards**: If a character is focused on activities that don’t relate to a character arc or a discovery, as a general rule, a mission should be worth at least 1 XP per game session involved in accomplishing it. For example, saving a family on an isolated farm beset by raiding cultists might be worth 1 XP for each character. Of course, saving the family doesn’t always mean killing the bad guys; it might mean relocating them, parlaying with the cultists, or chasing off the raiders.
+**기타 발견** : 그 밖의 여러 가지 발견이, 해당 장면에 관여한 PC 각자에게 1XP를 주는 식의 보상이 될 수 있습니다.
 
+**다른 보상** : 어떤 캐릭터가 캐릭터 아크나 발견과 직접적인 관련이 없는 일에 집중하고 있다면, 일반적인 지침으로, 그 임무를 수행하는 데 쓰인 세션 수만큼 최소 1XP는 줘야 합니다. 예를 들어 약탈 집단에게 습격당하는 외딴 농가의 가족을 구하는 일은, 캐릭터마다 1XP로도 충분한 임무일 수 있습니다. 물론 가족을 구하는 것이 반드시 적을 모조리 죽이는 것을 뜻하는 것은 아닙니다. 그들을 다른 곳으로 옮겨 주거나, 약탈 집단과 협상을 하거나, 습격자들을 쫓아내는 방법도 있을 것입니다.
 
-### SPENDING EXPERIENCE POINTS
-Experience points are meant to be used. Hoarding them is not a good idea; if a player accumulates more than 10 XP, the GM can require them to spend some.
-Generally, experience points can be spent in four ways: immediate benefits, short- and medium-term benefits, long-term benefits, and character advancement.
-(Experience points should not be a goal unto themselves. Instead, they are a game mechanic to simulate how—through experience, time, toil, travail, and so on— characters become more skilled, more able, and more powerful. Spending XP to explain a change in a character’s capabilities that occurred in the course of the story, such as if the PC made a new device or learned a new skill, isn’t a waste of XP—it’s what XP are for.)
+### 경험치 사용
 
-#### Immediate Benefits
-The most straightforward way for a player to use XP is to reroll any roll in the game—even one that they didn’t make. This costs 1 XP per reroll, and the player chooses the best result. They can continue to spend XP on rerolls, but this can quickly become an expensive proposition. It’s a fine way to try to prevent disaster, but it’s not a good idea to use a lot of XP to reroll a single action over and over.
-A player can also spend 1 XP to refuse a GM intrusion.
+경험치는 쓰라고 있는 것입니다. XP를 쌓아 두기만 하는 것은 좋지 않습니다. 플레이어가 10XP를 넘게 쌓아 두면, 마스터가 그 중 일부를 쓰라고 요구해도 됩니다.  
+일반적으로 경험치는 네 가지 방식으로 씁니다. 즉각적 혜택, 단기적·중기적 혜택, 장기적 혜택, 그리고 캐릭터 성장입니다.  
+(경험치 자체가 목적이 되어서는 안 됩니다. 경험치는, 경험과 시간, 고생과 시련을 통해 캐릭터가 더 숙련되고, 더 능력 있고, 더 강해지는 모습을 표현하는 게임 메커니즘입니다. 이야기 속에서 캐릭터에게 일어난 변화를 설명하기 위해 XP를 쓰는 것―예를 들어 PC가 새 장치를 만들거나 새로운 기능을 배웠다면―은 XP를 낭비하는 것이 아니라, XP가 바로 그 일을 위해 존재한다는 뜻입니다.)
 
-#### Short- and Medium-Term Benefits
-By spending 2 XP, a character can gain a skill—or, more rarely, an ability—that provides a short-term benefit. Let’s say a character notices that the computer terminals in the facility they’re infiltrating are similar to those used by the company they once worked for. They spend 2 XP and say that they have a great deal of experience in using these. As a result, they are trained in operating (and breaking into) these computers. This is just like being trained in computer use or hacking, but it applies only to computers found in that particular location. The skill is extremely useful in the facility, but nowhere else.
-Medium-term benefits are usually story based. For example, a character can spend 2 XP while climbing through mountains and say that they have experience with climbing in regions like these, or perhaps they spend the XP after they’ve been in the mountains for a while and say that they’ve picked up the feel for climbing there. Either way, from now on, they’re trained in climbing in those mountains. This helps them now and any time they return to the area, but they’re not trained in climbing everywhere.
-This method allows a character to get immediate training in a skill for half the normal cost. (Normally, it costs 4 XP to become trained in a skill.) It’s also a way to gain a new skill even if the PC has already gained a new skill as a step toward attaining the next tier.
-In rare cases, a GM might allow a character to spend 2 XP to gain an entirely new ability—such as a device, a special ability, or a special mental power—for a short time, usually no longer than the course of one scenario. The player and the GM should agree on a story-based explanation for the benefit. Perhaps the ability has a specific rare requirement, such as a tool, a battery, a drug, or some kind of treatment. For example, a character who wants to explore a submerged location has several biotech enhancements, and they spend 2 XP to cobble together a device that lets them breathe underwater. This gives them the ability for a considerable length of time, but not permanently—the device might work for only eight hours. Again, the story and the logic of the situation dictate the parameters.
+#### 즉각적 혜택
 
-#### Long-Term Benefits
+XP를 쓰는 가장 직접적인 방법은, 게임 속의 어떤 판정이든(자기가 굴린 주사위가 아니어도 됩니다) 다시 굴리는 것입니다. 한 번 다시 굴릴 때마다 1XP가 들고, 플레이어는 그 중 더 좋은 결과를 취합니다. XP를 계속 써서 반복해서 다시 굴릴 수도 있지만, 금방 값비싼 선택이 됩니다. 재앙을 막기 위한 수단으로는 좋지만, 같은 행동 하나를 되풀이해서 다시 굴리기 위해 XP를 잔뜩 쓰는 것은 좋은 생각이 아닙니다.  
+플레이어는 1XP를 써서 마스터 개입을 거부할 수도 있습니다.
 
-In many ways, the long-term benefits a PC can gain by spending XP are a means of integrating the mechanics of the game with the story. Players can codify things that happen to their characters by talking to the GM and spending 3 XP. 
+#### 단기적·중기적 혜택
 
-Things that a PC can acquire as a long-term benefit can be thought of as being story based, and they allow the player to have some narrative control over the story. In the course of play, a player might decide that their character gains a friend (a contact) or builds a log cabin (a home). Because a player spent XP, however, they should have some agency over what they’ve gained, and it shouldn’t be easily taken away. The player should help come up with the details of the contact or the design of their home.
+2XP를 쓰면, 캐릭터는 단기적인 이득을 주는 기능 하나(드물게는 능력)를 얻을 수 있습니다. 예를 들어, 캐릭터가 잠입한 시설의 컴퓨터 단말기가 예전에 자기가 일하던 회사의 것과 비슷하다는 사실을 눈치챘다고 합시다. 2XP를 쓰고, 이 컴퓨터들을 다뤄 본 경험이 많다고 선언할 수 있습니다. 그 결과, 그 캐릭터는 그 컴퓨터를 다루거나(또는 침입하거나) 하는 데 익숙해집니다. 컴퓨터 사용이나 해킹 기능에 익숙해진 것과 비슷하지만, 그 시설 안에 있는 컴퓨터에만 적용됩니다. 그 장소에서는 매우 유용하지만, 다른 곳에서는 쓸 수 없습니다.
 
-It’s also possible to gain these benefits through events in the story, without spending XP. The new contact comes to the PC and starts the relationship. The new home is granted to them as a reward for service to a powerful or wealthy patron, or maybe the character inherits the home from a relative. However, because these came from the GM and not the player (and no XP were spent), the player has no narrative control over them and the GM makes up the details.
-Long-term benefits can include the following.
+중기적 혜택은 보통 이야기와 관련됩니다. 예를 들어 캐릭터가 산을 오르는 도중에 2XP를 써서, 이런 산악 지형에서의 등반 경험이 있다고 선언할 수도 있고, 아니면 산에서 꽤 시간을 보낸 뒤 XP를 써서, 이제는 이 산에 익숙해졌다고 선언할 수도 있습니다. 어느 쪽이든, 그때부터는 그 산에서의 등반에 익숙해집니다. 지금 이 모험 동안, 그리고 나중에 다시 그 산을 찾아올 때마다 도움이 되지만, 모든 등반에 익숙해지는 것은 아닙니다.  
+이 방식은, 기능 하나에 대한 훈련을 보통의 절반 값으로 즉시 얻는 방법입니다(보통 기능 하나에 익숙해지는 데에는 4XP가 듭니다). 또한, 다음 등급을 향해 나아가기 위한 단계로 이미 새로운 기능 하나를 얻은 PC라도, 추가로 새로운 기능을 얻을 수 있는 방법입니다.
 
-- **Contact**: The character gains a long-term NPC contact of importance—someone who will help them with information, equipment, or physical tasks. The player and GM should work out the details of the relationship.
-- **Home**: The PC acquires a full-time residence. This can be an apartment in a city, a cabin in the wilderness, a base in an ancient complex, or whatever fits the situation. It should be a secure place where the PC can leave their belongings and sleep soundly. Several characters could combine their XP and buy a home together.
-- **Title or job**: The PC is granted a position of importance or authority. It might come with responsibilities, prestige, and rewards, or it might be an honorary title.
-- **Wealth**: The PC comes into a considerable amount of wealth, whether it’s a windfall, an inheritance, or a gift. It might be enough to buy a home or a title, but that’s not really the point. The main benefit is that the PC no longer needs to worry about the cost of simple equipment, lodging, food, and so on. This wealth could mean a set amount—perhaps 50,000 dollars (or whatever is appropriate in the setting)—or it could bestow the ability to ignore minor costs, as decided by the player and GM.
+드물게는, 마스터가 2XP를 내고 완전히 새로운 능력―장치, 특수 능력, 초능력 같은 것―을 잠시 동안(보통 한 시나리오 이상은 넘기지 않습니다) 얻도록 허락할 수도 있습니다. 이때 플레이어와 마스터는 그 이득에 대한 이야기 기반의 설명에 합의해야 합니다. 이 능력에는 특정한 도구나 배터리, 약물, 어떤 처리 같은, 희귀한 전제가 필요할 수도 있습니다. 예를 들어, 물속에 가라앉은 장소를 탐사하고 싶어 하는 캐릭터가 여러 가지 생체공학 개조를 받아 두었고, 2XP를 써서 물속에서 숨을 쉴 수 있게 해 주는 장치를 급하게 조립한다고 선언할 수 있습니다. 이 장치는 꽤 긴 시간 동안은 쓸 수 있지만, 영구적인 것은 아니어서, 예를 들어 여덟 시간만 작동할 수도 있습니다. 다시 말해, 구체적인 조건은 언제나 이야기와 상황의 논리에 따라 정합니다.
 
-(GMs and players should work together to make XP awards and expenditures fit the ongoing story. If a PC stays in a location for two months to learn the inhabitants’ unique language, the GM might award the character a few XP, which are then immediately spent to grant them the ability to understand and speak that language.)
+#### 장기적 혜택
 
-#### Character Advancement
+XP를 써서 PC가 얻는 장기적 혜택은, 여러모로 게임의 메커니즘을 이야기와 연결해 주는 수단입니다. 플레이어는 마스터와 상의해서 3XP를 쓰는 방식으로, 캐릭터에게 일어난 일을 규정하고 굳힐 수 있습니다.
 
-Progressing to the next tier involves four steps. When a PC has spent 4 XP on each of the steps, they advance to the next tier and gain all the type and focus benefits of that tier. The four steps can be purchased in any order, but each can be purchased only once per tier. In other words, a PC must buy all four steps and advance to the next tier before they can buy the same steps again.
+PC가 장기적 혜택으로 얻는 것들은 이야기 기반의 요소라고 볼 수 있으며, 그 덕분에 플레이어는 이야기 진행에 어느 정도 서사적 통제권을 갖게 됩니다. 플레이어는 게임을 하다가 캐릭터가 친구(연락선)를 얻거나 통나무집(보금자리)을 짓는 것으로 정할 수 있습니다. 이때 플레이어가 XP를 쓴 만큼, 얻은 것에 대해 어느 정도 발언권을 가져야 하고, 쉽게 빼앗기지도 않아야 합니다. 연락선의 세부 설정이나 집의 구조 같은 것은 플레이어가 함께 정하는 편이 좋습니다.
 
-**Increasing Capabilities**: You gain 4 new points to add to your stat Pools. You can allocate the points among your Pools however you wish.
+이런 이득은 XP를 쓰지 않고도, 이야기 속 사건을 통해서 얻을 수도 있습니다. 새 연락선이 먼저 PC에게 다가와 관계를 시작한다든가, 새로운 집을 부유하거나 권력 있는 후원자에게서 보상으로 받는다든가, 아니면 친척에게서 상속을 받는 식일 수 있습니다. 하지만 이런 경우에는, 이것이 플레이어가 XP를 쓴 결과가 아니라(마스터가 제공한 것)이기 때문에, 플레이어에게는 서사적 통제권이 없고, 세부 내용은 마스터가 정합니다.  
+장기적 혜택에는 다음과 같은 것들이 포함될 수 있습니다.
 
-**Moving Toward Perfection**: You add 1 to your Might Edge, your Speed Edge, or your Intellect Edge (your choice).
+- **연락선(Contact)** : 캐릭터가 중요한 장기 NPC 연락선을 얻습니다. 이들은 정보, 장비, 실제 노동 등으로 도움을 줄 수 있습니다. 관계의 세부 사항은 플레이어와 마스터가 함께 정합니다.
+- **보금자리(Home)** : PC가 상시 거처를 얻습니다. 도시의 아파트일 수도 있고, 황야의 오두막, 고대 복합체 안의 기지 등 상황에 맞는 어떤 곳도 가능합니다. PC가 짐을 맡겨 두고 안심하고 잘 수 있는 안전한 장소여야 합니다. 여러 캐릭터가 XP를 모아 함께 집을 살 수도 있습니다.
+- **작위나 직책(Title or job)** : PC가 중요한 지위나 권한을 부여받습니다. 책임과 명예, 보상이 따를 수도 있고, 단지 명예직일 수도 있습니다.
+- **재산(Wealth)** : PC가 목돈을 얻게 됩니다. 횡재거나, 상속이거나, 선물일 수 있습니다. 그 돈으로 집이나 작위를 살 수 있을 정도일 수도 있지만, 그 자체가 핵심은 아닙니다. 가장 큰 이득은, 더 이상 자잘한 장비나 숙소, 식량 비용 등은 신경 쓰지 않아도 된다는 점입니다. 이 재산은, 예를 들어 5만 달러(설정에 맞는 액수)를 손에 넣는 것으로 표현할 수도 있고, 아니면 사소한 비용은 무시해도 되는 상태를 의미할 수도 있습니다. 구체적인 형태는 플레이어와 마스터가 정합니다.
 
-**Extra Effort**: Your Effort score increases by 1.
+(마스터와 플레이어는 XP 보상과 지출이 진행 중인 이야기와 잘 들어맞도록 함께 조정해야 합니다. 예를 들어 PC가 두 달 동안 한 지역에 머물며 그곳 사람들의 독특한 언어를 익힌다면, 마스터는 그 캐릭터에게 XP를 몇 점 주고, 곧바로 그 XP를 써서 그 언어를 이해하고 말할 수 있게 해 주는 식으로 처리할 수도 있습니다.)
 
-**Skills**: Choose one skill other than attacks or defense, such as climbing, jumping, persuading, sneaking, or history. You become trained in that skill. You can also choose to be knowledgeable in a certain area of study, such as history or geology. You can even choose a skill based on your character’s special abilities. For example, if your character can make an Intellect roll to blast an enemy with mental force, you can become trained in that ability, easing the task of using it.
+#### 캐릭터 성장
 
-If you choose a skill that you are already trained in, you become specialized in that skill, easing the task by two steps instead of one. If you choose a skill that you have an inability in, the training and the inability cancel each other out (you aren’t eased or hindered in that task). For example, if you have an inability in perception, becoming trained in that cancels out the inability.
+다음 등급으로 오르려면 네 단계를 거쳐야 합니다. PC가 각 단계마다 4XP씩, 네 단계에 XP를 모두 쓰면, 다음 등급으로 올라가고 그 등급에서 유형과 특징이 주는 모든 이득을 얻습니다. 이 네 단계는 어떤 순서로 사도 상관없지만, 한 등급에서 각 단계를 한 번씩만 살 수 있습니다. 다시 말해, PC는 네 단계를 모두 산 뒤 다음 등급으로 올라가야만, 같은 단계를 또 살 수 있습니다.
 
-(Once you’re specialized in a skill, you can’t improve your training in that skill further (you can ease a task by up to two steps with training). You can still make that task easier with assets and a few rare abilities that don’t count as an asset or training.)
+**능력치 향상(Increasing Capabilities)** : 특성치 역량에 더할 수 있는 점수 4점을 얻습니다. 이 점수는 원하는 대로 배분할 수 있습니다.
 
-**Other Options**: Players can also spend 4 XP to purchase other special options. Selecting one of these options counts as purchasing one of the four stages necessary to advance to the next tier. The other three need to be from the other categories. The special options are as follows:
+**완성을 향해(Moving Toward Perfection)** : 힘 재능, 속력 재능, 지성 재능 중 하나를 골라 1점을 올립니다.
 
-- Reduce the cost for wearing armor. This option lowers the Speed penalty for wearing armor by 1.
-- Add 2 to your recovery rolls.
-- Select another focus ability available to you at tier 3. (You must be tier 3 or higher to do this. Characters advancing beyond tier 6 can use this option to select their other tier 6 focus ability.)
-- Select another character ability from your type, such as a tier 2 Warrior selecting Reload or Crushing Blow.
+**추가 분발(Extra Effort)** : 분발(Effort) 수치가 1 오릅니다.
 
-#### EQUAL ADVANCEMENT
-It’s worthwhile if all characters advance through the six tiers at about the same rate—an important issue for some players. A good GM can achieve this result by carefully handing out XP rewards, some during play (which will tend to get used immediately) and some after play concludes, especially after completing a major story arc or quest so the GM can hand out 4 XP in one go (which will tend to get used for advancement). Many groups will discover while playing that equal advancement isn’t an important issue in the Cypher System, but people should get to play the game the way they want to play it.
+**기능(Skills)** : 공격이나 방어가 아닌 기능 하나를 고릅니다. 예를 들어 등반, 도약, 설득, 잠행, 역사 등입니다. 그 기능에 익숙해집니다. 역사나 지질학처럼 특정 학문 분야에 대한 지식을 택할 수도 있습니다. 캐릭터의 특수 능력과 관련된 기능을 택할 수도 있습니다. 예를 들어, 지성 판정을 해서 정신력으로 적을 공격하는 능력이 있다면, 그 능력에 익숙해져 그 능력을 쓰는 일을 완화할 수도 있습니다.
 
-#### TIER ADVANCEMENT IN THE CYPHER SYSTEM
-Tiers in the Cypher System aren’t entirely like levels in other roleplaying games. In the Cypher System, gaining tiers is not the players’ only goal or the only measure of achievement. Starting (first-tier) characters are already competent, and there are only six tiers. Character advancement has a power curve, but it’s only steep enough to keep things interesting. In other words, gaining a new tier is cool and fun, but it’s not the only path to success or power. If you spend all your XP on immediate, short-term, and medium-term benefits, you will be different from someone who spends their points on long-term benefits, but you will not be “behind” that character.
-The general idea is that most characters will spend half their XP on tier advancement and long-term benefits, and the rest on immediate benefits and short- and medium-term benefits (which are used during gameplay). Some groups might decide that XP earned during a game is to be spent on immediate and short- and
-medium-term benefits (gameplay uses), and XP awarded between sessions for discoveries is to be spent on character advancement (long-term uses).
-Ultimately, the idea is to make experience points into tools that the players and the GM can use to shape the story and the characters, not just a bookkeeping hassle.
+이미 익숙한 기능을 다시 고르면, 그 기능에 능숙해져, 그 일을 두 단계 완화합니다. 무능이 있는 기능을 고르면, 익숙해지는 것과 무능이 서로 상쇄되어(그 일은 완화도, 방해도 받지 않습니다) 보통 수준이 됩니다. 예를 들어 지각에 무능이 있다면, 지각에 익숙해지는 것으로 무능을 없앨 수 있습니다.
+
+(어느 기능이든 능숙해지고 나면, 그 기능에 대한 훈련을 이 방식으로 더 올릴 수는 없습니다. 기능 훈련만으로는 일을 두 단계까지밖에 완화할 수 없습니다. 대신 보탬과, 보탬이나 기능 훈련으로 취급되지 않는 몇몇 희귀한 능력으로 일을 더 쉽게 만들 수 있습니다.)
+
+**기타 선택지(Other Options)** : 플레이어는 4XP를 써서 다른 특별한 선택지를 살 수도 있습니다. 이런 선택지 하나를 고르면, 다음 등급으로 오르기 위해 필요한 네 단계 중 하나를 산 것으로 칩니다. 나머지 세 단계는 위의 다른 항목들에서 골라야 합니다. 특별한 선택지는 다음과 같습니다.
+
+- 갑옷을 입는 비용을 줄입니다. 이 선택지는 갑옷 때문에 받는 속력 페널티를 1 줄여 줍니다.
+- 회복 굴림에 +2를 더합니다.
+- 3등급에 선택할 수 있는 특징 능력을 하나 더 얻습니다(이 선택지를 고르려면 최소 3등급이어야 합니다. 6등급을 넘어서 성장하는 캐릭터도 이 선택지를 써서 다른 6등급 특징 능력을 고를 수 있습니다).
+- 자신의 유형에서 다른 캐릭터 능력을 하나 더 얻습니다. 예를 들어 2등급 전사가 `재장전` 이나 `강력한 일격` 을 택하는 식입니다.
+
+#### 공평한 성장
+
+여섯 등급을 두고 볼 때, 모든 캐릭터가 비슷한 속도로 성장하도록 관리하는 것은 많은 플레이어에게 중요한 문제입니다. 좋은 마스터는 XP 보상을 신중히 나눠 줌으로써 이 결과를 이끌어 낼 수 있습니다. 일부는 플레이 중에 주어, 곧바로 쓰이게 하고, 일부는 플레이가 끝난 뒤, 특히 큰 이야기 아크나 임무를 완료하고 한꺼번에 4XP를 줄 수 있을 때 나눠 줌으로써, 그 XP가 성장에 쓰이게 할 수 있습니다. 많은 일행은 실제로 게임을 해 보면서, 사이퍼 시스템에서는 꼭 모두가 똑같은 속도로 성장할 필요가 없다는 사실을 알게 되겠지만, 결국은 각자가 원하는 방식으로 게임을 즐기면 됩니다.
+
+#### 사이퍼 시스템에서의 등급 상승
+
+사이퍼 시스템의 등급은, 다른 RPG의 레벨과 완전히 같지는 않습니다. 사이퍼 시스템에서 등급을 올리는 것은 플레이어의 유일한 목표도 아니고, 성취를 재는 유일한 기준도 아닙니다. 시작 캐릭터(1등급)도 이미 충분히 유능하며, 등급은 여섯 개뿐입니다. 캐릭터 성장은 파워 커브를 따르기는 하지만, 그저 흥미를 유지할 수 있을 정도의 기울기입니다. 다시 말해, 새 등급을 얻는 것은 멋지고 재미있는 일이지만, 성공이나 힘을 얻는 유일한 길은 아닙니다. 전 XP를 즉각적인, 단기적·중기적 혜택에만 쓰는 캐릭터는, XP를 장기적 혜택에 쓰는 캐릭터와는 분명 다른 모습이 되겠지만, 그렇다고 해서 “뒤처진” 것은 아닙니다.
+
+대략적인 생각은, 대부분의 캐릭터가 XP의 절반 정도는 등급 상승과 장기적 혜택에 쓰고, 나머지는 즉각적 혜택과 단기적·중기적 혜택(플레이 도중에 사용하는 것)에 쓴다는 것입니다. 어떤 일행은, 세션 도중에 얻은 XP는 즉각적·단기적·중기적 혜택(게임 플레이 용도)에 쓰고, 세션 사이에 발견에 대한 보상으로 받은 XP는 캐릭터 성장(장기 용도)에 쓰는 식으로 정할 수도 있습니다.  
+결국 목표는, 경험치를 단순한 장부 관리 요소가 아니라, 플레이어와 마스터가 이야기와 캐릭터를 만들어 가는 데 사용하는 도구로 만드는 것입니다.
 
 ## 캐릭터 아크의 예
-이 장의 나머지 부분에서는 PC들을 위한 캐릭터 아크 예시를 소개합니다. 각 아크에 대한 설명마다 아크를 따라 전개되어가는 각 부분을 묘사합니다:
 
-- **발단**: 이는 아크의 나머지 부분을 위한 무대를 설정합니다. 여기에는 약간의 행동이 들어갈텐데, 그저 PC가 일을 하기로 동의하거나 임무를 받는 것이라도 그렇습니다. 보통 보상이 없습니다.
-- **단계(들)**: 이는 절정을 향해 움직이기 위해 필요한 행동들입니다. 이야기 용어로는, 이를 아크의 큰 부분을 지나는 이동입니다. 여정입니다. 긴장감은 고조됩니다. 단계가 딱 하나 뿐일 수도 있지만, 단계가 많을 수도 있고, 이는 이야기에 달려 있습니다. 각 단계마다 경험치 2점을 보상으로 받습니다.
-- **절정**: 이는 피날레입니다- PC가 하기로 한 일에 성공하거나 실패하는 지점입니다. 모든 아크가 승리로 끝나진 않습니다. 캐릭터가 성공한다면 4점의 경험치를 얻습니다. 실패한다고 해도 2점의 경험치를 보상으로 받습니다. 절정에서 실패한다면, 결말을 무시하게될 가능성이 매우 높습니다.
-- **결말**: 이는 마무리 혹은 대단원입니다. 캐릭터가 일어난 일을 회고하고, 느슨한 부분을 매듭짓고, 다음에 무엇이 일어날지 가늠하는 시간입니다. 일이 어느 정도 해결되면, 캐릭터는 경험치 1점을 보상으로 받습니다.
+이 장의 나머지에서는 PC를 위한 캐릭터 아크 예시를 소개합니다. 각 아크 설명은 아크를 구성하는 다음 요소를 보여 줍니다:
 
-아크 안에서, 대부분의 시간은 상황에 따라 선택적일 수도 있지만-대부분의 아크는 어떤 종류의 도입, 절정, 혹은 결말이 없이 상상하기 어렵습니다. 도입, 절정, 그리고 결말을 제외한 단계들은 어떤 순서여도 상관 없습니다.
+- **발단** : 아크의 나머지를 위한 무대를 마련하는 부분입니다. PC가 어떤 일에 동의하거나 임무를 받는 장면처럼, 작게나마 행동이 들어가는 경우가 많습니다. 보통 보상은 없습니다.
+- **단계(들)** : 절정으로 나아가기 위해 필요한 행동들입니다. 이야기로 치면 아크의 큰 구간을 지나가는 여정이며, 긴장감이 점차 높아집니다. 단계는 하나일 수도 있고 여러 개일 수도 있으며, 이야기 성격에 따라 달라집니다. 각 단계마다 경험치 2점을 받습니다.
+- **절정** : 피날레입니다. PC가 하기로 한 일에 성공하거나 실패하는 지점입니다. 모든 아크가 승리로 끝나지는 않습니다. 성공하면 경험치 4점을 얻고, 실패해도 경험치 2점을 받습니다. 절정에서 실패하면 결말을 다루기 어려워질 가능성이 큽니다.
+- **결말** : 마무리이자 대단원입니다. 캐릭터가 벌어진 일을 돌아보고, 남은 문제를 정리하며, 다음에 무엇을 할지 가늠하는 시간입니다. 일이 어느 정도 정리되면 경험치 1점을 받습니다.
 
-캐릭터 아크는 게임 시간으로 적어도 1주일은 걸려야 하고, 한 세션 안에서는 아크에서 두 부분보다 많이 완수할 수는 없어야 합니다. (그리고 대부분의 경우는, 한 부분이어야 합니다) 만약 이 둘 중에 하나라도 사실이 아니라면, 이는 캐릭터 아크가 아닙니다. 그럴 수 없는 경우, 예를 들자면, [창조한다](#창조한다) 아크를 통해 한 두 시간 안에 만들 수 있는 무언가로 안내를 해보십시오.
+아크에서 세부 단계는 상황에 따라 선택 사항일 수 있지만, 대부분의 아크는 어떤 형태로든 발단, 절정, 결말이 있어야 성립합니다. 발단, 절정, 결말을 제외한 단계들은 순서를 바꿔도 괜찮습니다.
 
-다음은 흔한 캐릭터 아크들로서 여러분의 캐릭터를 위해 선택할 수 있습니다. 마스터와 함께 새로 하나를 만들고 싶을 때에도, 이 모델들을 살펴보고 나면 꽤 쉬울 겁니다.
+캐릭터 아크는 게임 내 시간으로 최소 1주일은 걸려야 하며, 한 세션에서 아크의 두 부분을 넘겨 완료해서는 안 됩니다. (대부분은 한 부분 정도가 적당합니다.) 이 둘 중 하나라도 맞지 않으면 캐릭터 아크로 보기 어렵습니다. 예를 들어 [창조한다](#창조한다) 아크처럼 한두 시간 만에 끝낼 수 있는 일이라면, 그에 맞게 더 작은 단위로 다루는 편이 좋습니다.
 
-(이 장은 예시 캐릭터 아크 중에 고른 것이지만, 여러분만의 것을 만들 수도 있습니다. 이 아크들은 의도적으로 다양한 캐릭터와 이야기를 포괄하게 되어 있습니다. 예를 들어 [복수한다](#복수한다)는 단순한고 직설적인 캐릭터 아크입니다. 캐릭터에게 이 아크를 골라준 플레이어는 누구에게 그리고 왜 복수할지 정합니다. 세부를 맞추는 건 플레이어와 마스터에게 달려 있습니다.)
-(어떤 플레이어들은 캐릭터 아크를 쓰고 싶어 하지 않을 수도 있습니다. 마스터는, 하지만, 여전히 이를 경험치를 주기 위한 기준으로 쓸 수 있습니다. 만약 PC들이 이상한 행성을 탐험하러 갔다면, 마스터는 [탐험한다](#탐험한다) 아크를 줄 수 있습니다.)
+다음은 캐릭터가 선택할 수 있는 대표적인 캐릭터 아크들입니다. 마스터와 함께 새 아크를 만들고 싶다면, 아래 모델을 참고하면 훨씬 수월합니다.
+
+(이 장에는 예시 캐릭터 아크를 실었지만, 물론 여러분만의 아크를 만들어도 됩니다. 여기의 아크들은 의도적으로 다양한 캐릭터와 이야기 전개를 포괄합니다. 예를 들어 [복수한다](#복수한다)는 단순하고 직선적인 아크입니다. 이 아크를 고른 플레이어는 누구에게, 왜 복수하는지 정하면 됩니다. 세부 조정은 플레이어와 마스터가 함께 결정합니다.)
+(어떤 플레이어는 캐릭터 아크를 따로 쓰고 싶어 하지 않을 수도 있습니다. 그래도 마스터는 이를 경험치 보상 기준으로 활용할 수 있습니다. 예를 들어 PC들이 낯선 행성을 탐사하러 갔다면, 마스터는 [탐험한다](#탐험한다) 아크를 부여할 수 있습니다.)
 
 ### 친구를 돕는다
+
 누군가 당신의 도움이 필요합니다.
 
-PC의 친구가 캐릭터 아크를 받으면, 이 아크를 선택해서 친구의 아크가 무엇이든 (적절하다면) 도울 수 있습니다. 단계들과 절정은 친구가 고른 아크에 달려 있습니다. 친구가 NPC라면, 각 단계와 절정은 그 친구가 추구하는 무언가에 적합한 다른 아크에서 가져옵니다.
+PC의 친구가 캐릭터 아크를 받았다면, 이 아크를 선택해 친구의 아크를 (적절한 범위에서) 도울 수 있습니다. 단계와 절정은 친구가 고른 아크에 따릅니다. 친구가 NPC라면, 그 친구의 목표에 맞는 다른 아크에서 단계와 절정을 가져와 구성합니다.
 
-친구가 당신의 도움을 받고 싶어하지 않거나 (혹은 모른다고 해도) 친구를 지원하는 것도 어렵지만, 가능하긴 합니다.
+친구가 도움을 원하지 않거나 도움받는 사실조차 모를 수 있지만, 그런 상황에서도 지원은 가능합니다.
 
-이 아크의 비용과 보상은 원래 캐릭터의 아크에 서술된 것과 같습니다.
+이 아크의 비용과 보상은 원래 대상 캐릭터의 아크에 적힌 기준을 따릅니다.
 
-- **발단**: 부름에 답합니다. 도움을 제공합니다. (혹은 도움 요청에 응합니다).
-- **단계(들) 그리고 절정**: 친구의 아크에 따릅니다. 보상은 친구와 같습니다.
-- **결말**: 친구와 대화를 하고 만족스러운지 배웁니다. 함께, 배운 내용(뭐라도 있다면) 그리고 앞으로 나아갈 방향을 공유합니다.
+- **발단** : 부름에 응합니다. 도움을 제안하거나 도움 요청을 받아들입니다.
+- **단계(들) 그리고 절정** : 친구의 아크를 따릅니다. 보상도 친구와 같습니다.
+- **결말** : 친구와 대화해 결과에 만족하는지 확인합니다. 배운 점(있다면)과 앞으로의 방향을 함께 정리합니다.
 
 ### 조직에 힘을 보탠다
+
 조직을 발전시킬 무언가를 성취하기로 결심했습니다. 아마 여러분은 그 조직의 동료였거나, 아니라도 어떤 식으로든 도움에 보상을 해줄 것입니다.
-- **발단**: 부름에 응합니다. 여러분에게 기대하는 게 뭔지 그리고 보상(있다면)으로 뭘 얻게 될지 세부사항을 파악합니다. 또 합류하고(join) 나아가기(advance) 위해 무엇이 요구되는지도 자세하게 알게 됩니다.
-- **단계**: 일을 키웁니다. 행동이 좀 필요합니다. 정찰 임무. 조사.
-- **단계(들)**: 일을 수행합니다. 이 아크는 관련된 일에 따라 매우 다양할 수 있기에, 비슷한 단계가 여럿일 수 있습니다.
-- **절정**: 일을 완수합니다. 
-- **결말**: 보상을 모으고 (있다면) 이야기했던 조직의 사람들과 상의합니다. 아마 조직 내의 더 높은 사람과 만나게 될 겁니다. 또 표준적인 보상을 받기보다는 이 조직과의 인연(connection)을 증가시킬 수도 있습니다.
+
+- **발단** : 요청에 응합니다. 무엇을 기대받는지, 보상(있다면)이 무엇인지 세부를 파악합니다. 합류(join)하거나 더 높은 위치로 나아가기(advance) 위해 필요한 조건도 확인합니다.
+- **단계** : 일을 본격화합니다. 행동이 필요합니다. 정찰 임무나 조사가 될 수 있습니다.
+- **단계(들)** : 임무를 수행합니다. 이 아크는 목표에 따라 형태가 크게 달라지므로 유사한 단계가 여러 번 나올 수 있습니다.
+- **절정** : 임무를 완수합니다.
+- **결말** : 보상(있다면)을 받고, 관련된 조직 인물들과 결과를 정리합니다. 조직 내 상위 인물과 접촉하게 될 수도 있습니다. 표준 보상 대신 이 조직과의 인연(connection)이 강화될 수도 있습니다.
 
 ### 복수한다
-Someone close to you or important to you in some way has been wronged. The most overt version of this arc would be to avenge someone’s death. Avenging is different than revenge, as revenge is personal—you are the wronged party. But in the Avenge character arc, you are avenging a wrong done to someone else.
-- **발단**: Declaration. You publicly declare that you are going to avenge the victim(s). This is optional.
-- **단계(들)**: Tracking the Guilty. You track down the guilty party. This might not be physically finding them if you already know where they are. Instead, it might be discovering a way to get at them if they are distant, difficult to reach, or well protected. This step might be repeated multiple times, if applicable.
-- **단계**: Finding the Guilty. You finally find the guilty party, or find a path or make a plan to reach them. Now all that’s left is to confront them.
-- **절정**: Confrontation. You confront the guilty party. This might be a public accusation and demonstration of guilt, a trial, or an attack to kill, wound, or apprehend them—whatever you choose to be appropriate. 
-- **결말**: You resolve the outcome and the ramifications of the confrontation and decide what to do next.
+
+당신에게 소중한 누군가가 부당한 피해를 입었습니다. 가장 직접적인 형태는 누군가의 죽음에 대한 복수일 것입니다. 여기서 말하는 복수는 개인적인 원한풀이와 다릅니다. 이 캐릭터 아크에서는 타인이 당한 부당함을 대신 바로잡는 데 초점이 있습니다.
+
+- **발단** : 선언. 피해자를 위해 복수하겠다고 공개적으로 선언합니다. 선택 사항입니다.
+- **단계(들)** : 가해자 추적. 가해자를 추적합니다. 이미 위치를 안다면 물리적으로 찾아내는 과정이 아닐 수도 있습니다. 멀리 있거나 접근이 어렵거나 경비가 삼엄한 상대에게 닿을 방법을 찾는 단계가 될 수도 있습니다. 상황에 따라 이 단계를 여러 번 반복할 수 있습니다.
+- **단계** : 가해자 발견. 마침내 가해자를 찾거나, 도달할 경로 또는 계획을 확보합니다. 이제 남은 것은 대면뿐입니다.
+- **절정** : 대면. 가해자와 맞섭니다. 공개 고발과 죄 입증, 재판, 사살/제압/체포를 위한 공격 등, 상황에 맞다고 판단되는 방식이면 됩니다.
+- **결말** : 대면의 결과와 여파를 정리하고, 다음 행동을 결정합니다.
 
 ### 탄생한다
-You are becoming a parent.
-The Birth character arc assumes you already have a partner or a surrogate. If you want your character to find a romantic partner or spouse, you can use the Romance arc. And of course, nonhuman characters might reproduce in other ways.
-This arc is usually followed by the Raise a Child arc.
-- **발단**: Impregnation.
-- **단계**: Finding a Caretaker. This might be a physician, midwife, doula, or similar person. This is optional.
-- **단계**: Complication. A complication arises that threatens the pregnancy, the birth parent, or both.
-- **단계**: Preparation. You prepare a place for the delivery as well as a safe place for the infant to live once born.
-- **절정**: Delivery. The baby is born. Success means the child survives.
-- **결말**: You get the baby to the place you have prepared and settle in, deciding what to do next.
+
+당신은 부모가 됩니다.
+탄생 캐릭터 아크는 이미 파트너나 대리인이 있다는 전제를 둡니다. 캐릭터가 연인이나 배우자를 찾는 이야기라면 Romance 아크를 사용하면 됩니다. 물론 인간이 아닌 캐릭터는 다른 방식으로 번식할 수도 있습니다.
+이 아크 뒤에는 보통 Raise a Child 아크가 이어집니다.
+
+- **발단** : 임신.
+- **단계** : 돌봄 인력 찾기. 의사, 조산사, 둘라, 또는 유사한 전문가를 찾습니다. 선택 사항입니다.
+- **단계** : 합병증. 임신부, 태아, 또는 둘 모두를 위협하는 문제가 발생합니다.
+- **단계** : 준비. 출산할 장소와, 아이가 태어난 뒤 안전하게 지낼 곳을 마련합니다.
+- **절정** : 출산. 아이가 태어납니다. 성공은 아이가 살아남는다는 뜻입니다.
+- **결말** : 준비해 둔 곳으로 아이를 데려가 자리를 잡고, 앞으로 무엇을 할지 결정합니다.
 
 ### 건설한다
-You are going to build a physical structure—a house, a fortress, a workshop, a defensive wall, and so on. This arc would also cover renovating an existing structure or substantially adding to one. Of course, this doesn’t have to be physical construction. You might build something with spells or other supernatural abilities.
-- **발단**: Make a Plan. This almost certainly involves literally drawing up blueprints or plans.
-- **단계(들)**: Find a Site. This might be extremely straightforward—a simple examination of the site—or it might be an entire exploratory adventure. (If the latter, it might involve multiple such steps.)
-- **단계(들)**: Gather Materials. Depending on what you are building and what it is made out of, this could involve multiple steps. There probably are substantial costs involved as well.
-- **단계(들)**: Construction. Depending on what you are building, this could involve multiple steps. It might also take a considerable amount of time and work.
-- **절정**: Completion. The structure is finished. 
-- **결말**: You put the structure to its desired use and see if it holds up.
+
+당신은 물리적 구조물을 세우려 합니다. 집, 요새, 작업장, 방벽 등이 여기에 포함됩니다. 기존 구조물의 대규모 개보수나 증축도 이 아크로 다룰 수 있습니다. 물론 꼭 물리적 공사일 필요는 없습니다. 주문이나 초자연적 능력으로 무언가를 세우는 경우도 가능합니다.
+
+- **발단** : 계획 수립. 거의 반드시 설계도나 계획서를 실제로 작성하게 됩니다.
+- **단계(들)** : 부지 선정. 단순한 현장 확인으로 끝날 수도 있고, 하나의 탐사 모험이 될 수도 있습니다. (후자라면 이 단계가 여러 개일 수 있습니다.)
+- **단계(들)** : 자재 확보. 무엇을 어떤 재료로 짓는지에 따라 단계가 여러 개로 나뉠 수 있습니다. 대체로 비용도 크게 듭니다.
+- **단계(들)** : 시공. 건설 대상에 따라 여러 단계가 필요할 수 있습니다. 상당한 시간과 노력이 들기도 합니다.
+- **절정** : 완공. 구조물이 완성됩니다.
+- **결말** : 구조물을 원래 의도한 용도로 사용해 보고, 실제로 잘 버티는지 확인합니다.
 
 ### 정화한다
-Someone or something has been contaminated, probably by evil spirits, radiation, a deadly virus, foul magic, or the like, and you want to rid them of such influences or contaminants. This could also be a curse, a possession, an infestation, or something else.
-- **발단**: Analyzing the Threat. You determine the nature of the contamination.
-- **단계**: Find the Solution. Almost every contamination has its own particular solution, and this likely involves research and consultation.
-- **단계**: Getting Ready. The solution probably involves materials, spells, or other things that you must gather and prepare.
-- **절정**: The Cleansing. You confront the contamination. 
-- **결말**: You reflect on the events that have transpired and what effects they might have on the future. How can you keep this from happening again?
+
+누군가 또는 무언가가 오염되었습니다. 악령, 방사능, 치명적 바이러스, 사악한 마법 등이 원인일 수 있으며, 당신은 그 영향이나 오염원을 제거하려 합니다. 저주, 빙의, 기생 감염 같은 사례도 포함됩니다.
+
+- **발단** : 위협 분석. 오염의 본질이 무엇인지 파악합니다.
+- **단계** : 해결책 탐색. 거의 모든 오염에는 고유한 해법이 있으며, 대개 조사와 자문이 필요합니다.
+- **단계** : 준비. 해법에는 자재, 주문, 기타 준비물이 필요할 가능성이 높습니다.
+- **절정** : 정화. 오염원과 정면으로 맞섭니다.
+- **결말** : 벌어진 일을 돌아보고, 그것이 미래에 미칠 영향을 검토합니다. 같은 일이 다시 일어나지 않게 하려면 무엇이 필요할지도 정리합니다.
 
 ### 창조한다
-You want to make something. This might be a magic item, a painting, a novel, or a machine. 
-- **발단**: Make a Plan. You figure out what you need, what you’re going to do, and how you’re going to do it.
-- **단계(들)**: Gather Materials. Depending on what you are creating and what it is made out of, this could involve multiple steps. There probably are substantial costs involved as well.
-- **단계(들)**: Progress. Depending on what you are creating, this could involve multiple steps. It might also take a considerable amount of time and work.
-- **절정**: Completion. It’s finished! Is it what you wanted? Does it work? 
-- **결말**: You think about what you have learned from the process and use or enjoy the fruits of your labor.
+
+당신은 무언가를 만들고자 합니다. 마법 물품, 그림, 소설, 기계 등 무엇이든 될 수 있습니다.
+
+- **발단** : 계획 수립. 무엇이 필요한지, 무엇을 할지, 어떤 방식으로 할지를 정합니다.
+- **단계(들)** : 재료 수집. 무엇을 무엇으로 만드는지에 따라 여러 단계가 필요할 수 있습니다. 대체로 비용도 크게 듭니다.
+- **단계(들)** : 제작 진행. 제작 대상에 따라 단계가 여러 개일 수 있습니다. 상당한 시간과 노동이 들기도 합니다.
+- **절정** : 완성. 완성되었습니다! 원하는 결과였는지, 실제로 작동하는지 확인합니다.
+- **결말** : 과정을 통해 배운 점을 돌아보고, 자신의 결과물을 사용하거나 즐깁니다.
 
 ### 적을 쓰러트린다
-Someone stands in your way or is threatening you. You must overcome the challenge they represent. Defeat doesn’t always mean kill or even fight. Defeating a foe could mean beating them in a chess match or in competition for a desired mentor.
-- **발단**: Sizing up the Competition. This requires some action. A reconnaissance mission. An investigation.
-- **단계**: Investigation. This requires some action. A reconnaissance mission. An investigation.
-- **단계(들)**: Diving In. You travel toward your opponent, overcome their lackeys, or take steps to reach them so you can confront them. This step can take many forms, and there might be more than one such step. This step is always active.
-- **절정**: Confrontation. The contest, challenge, fight, or confrontation occurs. 
-- **결말**: You reflect on what you’ve learned and what the consequences of your actions might be.
+
+누군가가 당신의 앞을 가로막거나 당신을 위협합니다. 당신은 그들이 제시하는 난관을 넘어야 합니다. 쓰러트린다는 말이 반드시 살해나 전투를 뜻하지는 않습니다. 체스 대결에서 이기거나 원하는 스승의 제자가 되기 위한 경쟁에서 앞서는 것도 포함됩니다.
+
+- **발단** : 상대 파악. 행동이 필요합니다. 정찰 임무나 조사일 수 있습니다.
+- **단계** : 조사. 이 단계도 행동이 필요합니다. 정찰 임무나 조사로 진행됩니다.
+- **단계(들)** : 본격 돌입. 상대에게 접근하고, 하수인을 돌파하거나, 대면하기 위한 경로를 확보합니다. 형태가 다양하며 이 단계가 여러 번 반복될 수 있습니다. 항상 능동적인 단계입니다.
+- **절정** : 대면. 경쟁, 도전, 전투, 또는 직접 대면이 벌어집니다.
+- **결말** : 이번 일에서 배운 점과 자신의 행동이 남길 여파를 돌아봅니다.
 
 ### 방어한다
-A person, place, or thing is threatened, and you want to protect it.
-- **발단**: Analyze the Situation. What are you defending, and what threats are involved?
-- **단계**: Account for Your Resources. How are you going to defend?
-- **단계(들)**: Fend Off Danger. The forces threatening what you are protecting probably make an initial threat that you’ll have to defeat. It’s not the main threat, though. There might be multiple such initial threats.
-- **절정**: Protect. The true threat reveals itself and you confront it. 
-- **결말**: A time for reflection on everything that occurred, and an assessment of the person, place, or thing’s safety going forward.
+
+사람, 장소, 또는 물건이 위협받고 있고, 당신은 그것을 지키고자 합니다.
+
+- **발단** : 상황 분석. 무엇을 지키는지, 어떤 위협이 있는지 파악합니다.
+- **단계** : 자원 점검. 어떤 방식으로 방어할지 정합니다.
+- **단계(들)** : 위험 차단. 당신이 지키는 대상을 위협하는 세력은 대개 첫 번째 공격을 가해 옵니다. 이는 본 위협이 아니라 전초 단계일 가능성이 큽니다. 이런 초기 위협이 여러 번 올 수도 있습니다.
+- **절정** : 수호. 진짜 위협이 모습을 드러내고, 당신은 그것과 맞섭니다.
+- **결말** : 벌어진 일을 돌아보고, 앞으로 그 사람/장소/물건이 얼마나 안전한지 평가합니다.
 
 ### 결속을 다진다
-You want to get closer to another character. This might be to make a friend, find a mentor, or establish a contact in a position of power. It might be to turn a friend into a much closer friend. The character might be an NPC or a PC.
-- **발단**: Getting to Know You. You learn what you can about the other character.
-- **단계**: Initial Attempt. You attempt to make contact. This might involve sending messages or gifts through a courier, using an intermediary, or just going up and saying hello, depending on the situation.
-- **단계(들)**: Building a Relationship. There might be many such steps as you develop the relationship.
-- **절정**: Bond. You succeed or fail at forging the bond. 
-- **결말**: You enjoy the fruits of your new relationship.
+
+당신은 다른 캐릭터와 더 가까워지고 싶습니다. 친구를 사귀거나, 스승을 찾거나, 권력 있는 인맥을 만드는 일이 될 수 있습니다. 기존 친구를 훨씬 가까운 관계로 발전시키는 경우도 포함됩니다. 상대는 NPC일 수도, PC일 수도 있습니다.
+
+- **발단** : 서로 알아가기. 상대 캐릭터에 대해 알 수 있는 것을 파악합니다.
+- **단계** : 첫 시도. 접촉을 시도합니다. 상황에 따라 전령을 통한 메시지/선물 전달, 중개인 활용, 직접 인사 등 다양한 방식이 가능합니다.
+- **단계(들)** : 관계 구축. 관계를 발전시키는 과정에서 이런 단계가 여러 번 생길 수 있습니다.
+- **절정** : 결속. 결속 형성에 성공하거나 실패합니다.
+- **결말** : 새로 형성된 관계가 가져온 성과를 누립니다.
 
 ### 사업을 한다
-You want to create and run a business or start an organization. Maybe you’re a craftsperson who wants to sell your creations. Maybe you like baking and you want to start a catering service. Or maybe you want to start a secret society or found a school to teach young mutants how to use their powers. You’ll almost certainly have to make new connections, find (and somehow pay for) a location, and deal with all manner of administrative duties.
-- **발단**: Drawing up a Plan. What’s your goal, and how are you going to achieve it?
-- **단계**: Account for Your Resources. How much financing does the enterprise need compared to what you’ve got? If you need more, how will you get it? How many people other than yourself are needed to begin, and how many will you need to sustain things once they are up and running?
-- **단계**: Finding a Location. You probably need a place to run your enterprise—a store, a workshop, a base of operations, and so on. You find a location and look into what it will take to buy or rent it.
-- **단계(들)**: Building the Enterprise. You procure the needed equipment or personnel. You make the connections and deals to get things started. You obtain important permits or other legal documents. You test new products. You actually start the business. Each of these developments (and likely others) can be counted as a separate step, so there will be many steps.
-- **절정**: Profit and Loss. You determine whether your enterprise will take off and carry on into the future, or fall apart before it gets a chance to blossom. This occurs in a single dramatic moment—your first major client, your organization’s first big meeting or mission, or whatever else is appropriate. 
-- **결말**: A time for reflection on everything that occurred, and how you’re going to move forward.
 
-### 창립한다 
-You want to prove yourself as someone of importance. This can take many forms—socially, within your order, financially, or even romantically.
-- **발단**: Assessment. You assess yourself as well as who you need to prove yourself to.
-- **단계(들)**: Appearances Matter. You improve your look. Enhance your wardrobe. Spruce up your house. Whatever it takes to get attention from the right people. There might be many such steps.
-- **단계(들)**: Self-Aggrandizement. You need to get the word out to get people talking about you. There might be many such steps.
-- **절정**: Grabbing Attention. You do something big, like host a party for influential people or produce a play that you wrote. You make a big splash or a big crash. 
-- **결말**: You reflect on what you did and where you go from here.
+당신은 사업체를 만들고 운영하거나, 새로운 조직을 출범시키려 합니다. 직접 만든 물건을 팔고 싶은 장인일 수도 있고, 제빵을 좋아해 케이터링을 시작하려는 사람일 수도 있습니다. 혹은 비밀 결사를 만들거나, 젊은 돌연변이들에게 능력 사용법을 가르칠 학교를 세우려는 경우일 수도 있습니다. 거의 반드시 새로운 인맥을 만들고, 공간을 확보(그리고 비용 지불)하며, 각종 행정 업무를 처리해야 합니다.
+
+- **발단** : 계획서 작성. 목표가 무엇인지, 무엇으로 달성할지 정합니다.
+- **단계** : 자원 점검. 현재 자금과 필요한 자금을 비교합니다. 부족하다면 어떻게 확보할지 정합니다. 시작 단계와 운영 단계에 각각 몇 명이 필요한지도 계산합니다.
+- **단계** : 장소 확보. 가게, 작업장, 본부 등 사업을 운영할 장소가 필요할 가능성이 큽니다. 적절한 장소를 찾고 매입/임대 조건을 검토합니다.
+- **단계(들)** : 사업 구축. 필요한 장비와 인력을 확보하고, 시작을 위한 인맥과 계약을 엮습니다. 중요한 인허가나 법적 서류를 갖추고, 신제품을 시험하며, 실제로 사업을 개시합니다. 각각을 독립 단계로 볼 수 있어 단계 수가 많아지기 쉽습니다.
+- **절정** : 손익 분기. 사업이 본격적으로 궤도에 올라 지속될지, 꽃피우기 전에 무너질지가 결정됩니다. 첫 대형 고객, 조직의 첫 대형 회의/임무 등 하나의 극적인 순간에 판가름나는 경우가 많습니다.
+- **결말** : 벌어진 일을 돌아보고, 앞으로 어떤 방식으로 전진할지 정리합니다.
+
+### 창립한다
+
+당신은 자신이 중요한 인물임을 증명하고자 합니다. 사회적 위상, 소속 조직 내 지위, 재정적 성공, 혹은 연애 관계 등 다양한 형태로 나타날 수 있습니다.
+
+- **발단** : 평가. 자기 자신과, 누구에게 자신을 증명해야 하는지를 함께 점검합니다.
+- **단계(들)** : 외형 정비. 외모를 가꾸고, 옷차림을 손보고, 집을 꾸미는 등 적절한 사람들의 관심을 끌기 위한 준비를 합니다. 이 단계는 여러 번 나올 수 있습니다.
+- **단계(들)** : 자기 과시. 사람들 사이에서 당신 이야기가 돌도록 움직여야 합니다. 이 역시 여러 단계로 전개될 수 있습니다.
+- **절정** : 주목 확보. 유력 인사를 초대해 큰 연회를 열거나, 직접 쓴 연극을 올리는 식으로 큰 한 방을 시도합니다. 크게 성공하거나 크게 실패할 수 있습니다.
+- **결말** : 자신이 한 일을 돌아보고, 여기서 어디로 갈지 결정합니다.
 
 ### 탐험한다
-Something out there is unknown and you want to explore its secrets. This is most likely an area of wilderness, a new planet, an otherworldly dimension, or something similar.
-- **발단**: Make a Plan. Not only do you draw up a plan for your exploration, but if appropriate, you also make a formal declaration to relevant parties of what you’re going to do.
-- **단계(들)**: Gather Resources. You get the supplies, vehicles, and help you need. Depending on where you are going and what is required, this could involve multiple steps. There probably are substantial costs involved as well.
-- **단계(들)**: Travel. You go where you wish to explore. There might be many such steps, depending on how long it takes to get there.
-- **단계(들)**: Exploration. This is the meat of the arc, but it’s probably a series of small moves and minor victories. There might be many such steps.
-- **절정**: Conquest. You make the big discovery or truly master the area. You might not have explored every inch of the place, but if you are successful, you can claim to be done. 
-- **결말**: You return home and possibly share your findings.
+
+어딘가에 아직 알려지지 않은 것이 있고, 당신은 그 비밀을 탐사하려 합니다. 대개는 황야, 신행성, 이계 차원 등과 같은 장소가 대상입니다.
+
+- **발단** : 계획 수립. 탐사 계획을 세우는 데 그치지 않고, 필요하다면 관련 당사자들에게 공식적으로 탐사 의사를 밝힙니다.
+- **단계(들)** : 자원 확보. 필요한 물자, 탈것, 인력을 준비합니다. 목적지와 요구사항에 따라 여러 단계가 필요할 수 있으며, 대체로 비용도 큽니다.
+- **단계(들)** : 이동. 탐사하려는 장소로 향합니다. 도달까지 걸리는 시간에 따라 단계가 많아질 수 있습니다.
+- **단계(들)** : 탐사. 아크의 핵심이지만, 실제 진행은 작은 전진과 소소한 성취의 연속일 가능성이 큽니다. 단계가 여러 개일 수 있습니다.
+- **절정** : 정복. 큰 발견을 이루거나 해당 지역을 실질적으로 장악합니다. 구석구석 전부 뒤지지 못했더라도, 성공했다면 탐사를 마쳤다고 선언할 수 있습니다.
+- **결말** : 귀환하고, 필요하다면 발견한 내용을 공유합니다.
 
 ### 명예가 실추된다
-This is an odd character arc in that it’s (presumably) not something that a character would want. It is something that a player selects on a meta level for the character because it makes for an interesting story. It also sets up the potential for future arcs, such as Redemption. It’s important that this involve actions you take. For example, you fall into substance abuse. You treat people badly. You make mistakes that endanger others. In other words, the fall isn’t orchestrated by someone else—it’s all your own doing.
-- **발단**: The Descent. Things go bad.
-- **단계(들)**: Further Descent. Things get worse. Depending on the situation, this might involve many steps.
-- **단계**: Lashing Out. You treat others poorly as you descend.
-- **절정**: Rock Bottom. There is no chance for success here. Only failure.
-- **결말**: You wallow in your own misery.
+
+이 아크는 다소 특이합니다. (아마도) 캐릭터가 원해서 고를 만한 내용이 아니기 때문입니다. 대신 플레이어가 메타 차원에서, 더 흥미로운 이야기를 위해 선택하는 아크입니다. 또한 훗날 Redemption 같은 후속 아크로 이어질 여지도 만듭니다. 중요한 점은 이 추락이 당신 자신의 행동에서 비롯되어야 한다는 것입니다. 예를 들어 약물 의존에 빠지거나, 타인을 함부로 대하거나, 타인을 위험에 빠뜨리는 실수를 저지르는 식입니다. 즉, 누가 꾸민 몰락이 아니라 스스로 만든 몰락이어야 합니다.
+
+- **발단** : 추락의 시작. 상황이 나빠지기 시작합니다.
+- **단계(들)** : 추가 추락. 상황은 더 악화됩니다. 경우에 따라 단계가 많이 필요할 수 있습니다.
+- **단계** : 분풀이. 추락하는 과정에서 타인을 함부로 대합니다.
+- **절정** : 바닥. 이 단계에는 성공 가능성이 없습니다. 실패만이 있습니다.
+- **결말** : 자신의 비참함 속에 가라앉습니다.
 
 ### 위대한 과업을 완수한다
-Something that was begun in the past must now be completed. This might involve destroying an evil artifact, finishing the construction of a monument, developing the final steps of a cure for a disease, or uncovering a lost temple forgotten to the ages.
-- **발단**: Assessing the Past. You look at what has come before and where it still needs to go. This almost certainly involves some real research.
-- **단계**: Conceive a Plan. You make a plan on how to move forward.
-- **단계(들)**: Progress. You make significant progress or overcome a barrier to completion. This may involve multiple such steps.
-- **절정**: Completion. This involves the big finish to the past work. 
-- **결말**: You reflect on what you did and where you go from here.
+
+과거에 시작된 무언가를 이제 완수해야 합니다. 사악한 아티팩트 파괴, 기념물 공사 마무리, 질병 치료법의 마지막 단계 확립, 잊힌 신전 발굴 등이 예시입니다.
+
+- **발단** : 과거 점검. 지금까지 진행된 내용을 검토하고, 어디까지 더 가야 하는지 파악합니다. 실제 조사 작업이 거의 반드시 필요합니다.
+- **단계** : 계획 구상. 앞으로 전진할 방법을 계획합니다.
+- **단계(들)** : 진척. 의미 있는 진전을 이루거나, 완수를 가로막는 장벽을 넘습니다. 이 단계가 여러 번 반복될 수 있습니다.
+- **절정** : 완수. 과거의 작업을 결정적으로 마무리하는 큰 마침표입니다.
+- **결말** : 자신이 해낸 일을 돌아보고, 여기서 어디로 갈지 정합니다.
 
 ### 성장한다
-Willingly or unwillingly, you are going to change. This is another meta arc. It’s less about a goal and more about character development. While it’s possible that the growth involved is intentional, in most people’s lives and stories, it is emergent. A character might become less selfish, braver, a better leader, or experience some other form of growth.
-- **발단**: The Beginning. Change usually begins slowly, in a small, almost imperceptible way.
-- **단계(들)**: Change. Growth involves many small steps. 
-- **단계**: Overcoming an Obstacle. The temptation to resort to your old ways is always present. 
-- **절정**: Self-Evident Change. This is a dramatic about-face. This is the moment where you do something the “old you” would never have done, and it has a profound effect on you and those around you. With either success or failure, growth is possible.
-- **결말**: You recognize the change in yourself and move forward.
+
+원하든 원치 않든, 당신은 변하게 됩니다. 이것도 메타 성격의 아크입니다. 명확한 목표 달성보다는 캐릭터 성장에 초점이 있습니다. 의도적으로 성장할 수도 있지만, 많은 이야기에서 성장은 사건 속에서 자연스럽게 드러납니다. 캐릭터는 덜 이기적이 되거나, 더 용감해지거나, 더 나은 리더가 되는 등 다양한 변화를 겪을 수 있습니다.
+
+- **발단** : 시작. 변화는 보통 아주 작고 눈에 띄지 않는 방식으로 천천히 시작됩니다.
+- **단계(들)** : 변화. 성장은 수많은 작은 단계의 누적입니다.
+- **단계** : 장애물 극복. 예전 방식으로 되돌아가고 싶은 유혹은 항상 존재합니다.
+- **절정** : 명백한 변화. 극적인 전환점입니다. "예전의 나"라면 절대 하지 않았을 행동을 하게 되고, 그 일이 자신과 주변에 깊은 영향을 줍니다. 성공이든 실패든 성장은 가능합니다.
+- **결말** : 자기 안의 변화를 인식하고 앞으로 나아갑니다.
 
 ### 가르친다
-You teach a pupil. You have knowledge on a topic and are willing to share. This can be a skill, an area of lore, a combat style, or the use of a special ability. This is usually a fairly long-term arc. Sometimes teaching a pupil is a side matter, and sometimes the pupil takes on more of an apprentice role and spends a great deal of time with you, traveling with you and perhaps even living in your house (or you living in theirs).
-- **발단**: Taking on the Student.
-- **단계**: Getting to Know Them. You assess your pupil’s strengths and weaknesses and try to get an idea of what they need to learn and how you can teach it to them.
-- **단계(들)**: The Lessons. Teaching is often a slow, gradual process.
-- **단계**: Breakdown. Many times, a student needs to have a moment of crisis to really learn something. Maybe they get dejected, or maybe they rebel against your teaching techniques. 
-- **절정**: Graduation. This is when you recognize that the pupil has learned what they need. It usually comes at a dramatic moment. 
-- **결말**: You and the pupil say your goodbyes, and you look toward the future.
+
+당신은 제자를 가르칩니다. 특정 분야의 지식이 있고, 그것을 나눌 의지가 있습니다. 기술, 학문 지식, 전투 스타일, 특수 능력 운용법 등 무엇이든 가르칠 수 있습니다. 보통은 장기 아크에 해당합니다. 때로는 부수적인 관계로 끝나지만, 때로는 제자가 도제에 가까운 관계가 되어 오랜 시간을 함께 보내고, 함께 여행하거나 한집에서 지내기도 합니다.
+
+- **발단** : 제자 받아들이기.
+- **단계** : 제자 이해. 제자의 강점과 약점을 파악하고, 무엇을 어떻게 가르쳐야 하는지 방향을 잡습니다.
+- **단계(들)** : 수업. 가르침은 대개 느리고 점진적인 과정입니다.
+- **단계** : 붕괴. 많은 경우 제자는 진짜 배움을 얻기 전에 위기 순간을 겪습니다. 낙담할 수도 있고, 당신의 교수 방식에 반발할 수도 있습니다.
+- **절정** : 수료. 제자가 필요한 것을 익혔다고 인정하는 순간입니다. 대체로 극적인 장면으로 찾아옵니다.
+- **결말** : 당신과 제자가 작별 인사를 나누고, 각자의 미래를 바라봅니다.
 
 ### 조직에 들어간다
-You want to join an organization. This might be a military organization, a corporation, a secret society, a religion, or something else.
-- **발단**: Getting the Details. You learn all you can about the organization and how one becomes a member.
-- **단계(들)**: Making a Contact. Friends on the inside are always important.
-- **단계(들)**: Performing a Deed. The organization might want to test your worth, or this might be a ceremony you must take part in. It might include paying some sort of dues or fee. Or all of these things.
-- **절정**: Proving Your Worth. This is the point at which you attempt to show the organization that they would be better off with you as a member.
-- **결말**: You consider your efforts and assess what your membership gets you.
+
+당신은 어떤 조직에 들어가고 싶습니다. 군 조직, 기업, 비밀 결사, 종교 단체 등 무엇이든 될 수 있습니다.
+
+- **발단** : 정보 수집. 조직과 가입 절차에 대해 가능한 한 많이 알아냅니다.
+- **단계(들)** : 접촉선 만들기. 내부 인맥은 언제나 중요합니다.
+- **단계(들)** : 과업 수행. 조직이 당신의 자격을 시험할 수도 있고, 반드시 참여해야 하는 의식일 수도 있습니다. 회비나 수수료 납부가 필요할 수도 있습니다. 혹은 이 모든 것이 한꺼번에 요구될 수도 있습니다.
+- **절정** : 자격 증명. 조직이 당신을 구성원으로 받아들이는 편이 이롭다고 납득시키는 단계입니다.
+- **결말** : 자신이 기울인 노력과, 구성원 신분으로 얻는 것이 무엇인지 평가합니다.
 
 ### 정의를 세운다
-You try to right a wrong or bring a wrongdoer to justice. 
-- **발단**: Declaration. You publicly declare that you are going to bring justice in this situation. This is optional.
-- **단계(들)**: Tracking the Guilty. You track down the guilty party, assuming there is one. This might not be physically finding them if you already know where they are. Instead, it might be discovering a way to get at them if they are distant, difficult to reach, or well protected. This step might be repeated multiple times, if applicable.
-- **단계**: Helping the Victim. Righting a wrong does not always involve confronting a wrongdoer. Part of it might be about helping those who were wronged.
-- **절정**: Confrontation. You confront the guilty party. This might be a public accusation and demonstration of guilt, a trial, or an attack to kill, wound, or apprehend them—whatever you choose to be appropriate. 
-- **결말**: You resolve the outcome and ramifications of the confrontation and decide what to do next.
+
+당신은 잘못된 일을 바로잡거나, 가해자를 법의 심판대에 세우려 합니다.
+
+- **발단** : 선언. 이 일에 정의를 세우겠다고 공개적으로 밝힙니다. 선택 사항입니다.
+- **단계(들)** : 가해자 추적. 가해자가 존재한다면 그를 추적합니다. 이미 위치를 알고 있다면 물리적 추적이 아닐 수도 있습니다. 멀리 있거나 접근이 어렵거나 경비가 삼엄한 상대에게 닿을 방법을 찾는 과정이 될 수도 있습니다. 필요하다면 이 단계는 여러 번 반복됩니다.
+- **단계** : 피해자 지원. 잘못을 바로잡는 일이 항상 가해자 대면만을 뜻하지는 않습니다. 피해자를 돕는 것 자체가 중요한 일부가 될 수 있습니다.
+- **절정** : 대면. 가해자와 맞섭니다. 공개 고발과 죄 입증, 재판, 사살/제압/체포를 위한 공격 등, 상황에 맞다고 판단되는 방식이면 됩니다.
+- **결말** : 대면의 결과와 여파를 정리하고, 다음 행동을 결정합니다.
 
 ### 배운다
-You want to learn something. This isn’t the same as the Uncover a Secret arc, in which you’re looking for a bit of information. This is a skill or whole area of knowledge you want to gain proficiency with. This is learning a new language, how to play an instrument, or how to be a good cook. Thus, it’s not about gaining a level or rank in climbing, but learning to be an experienced mountaineer.
-- **발단**: Focusing on the Problem. 
-- **단계**: Finding a Teacher or a Way to Teach Yourself. Now you can truly begin.
-- **단계(들)**: Learn. Depending on what you’re learning, this could involve one step or quite a few.
-- **절정**: The Test. You put your new knowledge to the test in a real situation.
-- **결말**: You relax a bit and decide what to do next.
+
+당신은 무언가를 배우고 싶어 합니다. 이것은 단편적인 정보를 찾는 `비밀을 밝힌다` 아크와는 다릅니다. 여기서 목표는 특정 기능이나 지식 분야 전반에 숙달되는 것입니다. 새로운 언어를 익히거나, 악기를 연주하거나, 훌륭한 요리가 되는 법을 배우는 일이 여기에 해당합니다. 즉, 등반의 등급을 올리는 것이 아니라 노련한 산악인이 되는 법을 배우는 이야기입니다.
+
+- **발단** : 문제에 집중한다.
+- **단계** : 스승을 찾거나 스스로 배울 방법을 찾는다. 이제 본격적으로 시작할 수 있다.
+- **단계(들)** : 배운다. 무엇을 배우는지에 따라 한 단계로 끝날 수도 있고, 여러 단계를 거칠 수도 있다.
+- **절정** : 시험. 새로 익힌 지식을 실제 상황에서 시험한다.
+- **결말** : 한숨 돌리고, 다음에 무엇을 할지 정한다.
 
 ### 기술에 통달한다
-You’re skilled, but you want to become the best. This arc might logically follow the Learn arc. As with the Learn arc, this can involve any kind of training at all, not just a skill. 
-- **발단**: Finding the Path. You’ve learned the basics. Now it’s time for the advanced material.
-- **단계**: Discovering a Master. You find a master to help you become a master.
-- **단계(들)**: Learn. Depending on what you’re mastering, this could involve one step or quite a few.
-- **단계**: The Last Step. Eventually, you realize that even a master cannot teach you the last step. You must learn it on your own.
-- **절정**: The Test. You put your mastery to the test in a real situation—and considering your goal, it’s probably a very important situation.
-- **결말**: You relax a bit and decide what to do next.
+
+당신은 이미 능숙하지만, 최고가 되고 싶어 합니다. 이 아크는 자연스럽게 `배운다` 아크 다음에 이어질 수 있습니다. `배운다` 아크와 마찬가지로, 특정 기능뿐 아니라 어떤 형태의 훈련에도 적용할 수 있습니다.
+
+- **발단** : 길을 찾는다. 기초는 배웠다. 이제 고급 단계로 나아갈 때다.
+- **단계** : 거장을 찾는다. 당신을 거장으로 이끌어 줄 거장을 만난다.
+- **단계(들)** : 배운다. 무엇에 통달하려는지에 따라 단계가 하나일 수도, 여럿일 수도 있다.
+- **단계** : 마지막 단계. 결국 거장조차 마지막 한 걸음은 가르쳐 줄 수 없음을 깨닫는다. 그 단계는 스스로 넘어야 한다.
+- **절정** : 시험. 통달한 실력을 실제 상황에서 증명한다. 목표를 생각하면, 아마 매우 중요한 순간일 것이다.
+- **결말** : 한숨 돌리고, 다음에 무엇을 할지 정한다.
 
 ### 출생의 비밀을 알아낸다
+
 당신은 부모가 누구인지 모르지만, 찾아내길 바랍니다. 이 비밀은 부모가 아닌 무언가일 수도 있지만, 이 역시 이 아크에서 흔한 주제이기도 합니다. 당신이 어디에서 왔는지 알고 싶습니다-당신의 과거에는 무언가 비밀이 있습니다.
 
-- **발단**: 탐색을 시작합니다.
-- **단계**: 연구합니다. 가능하다면, 가족의 배경을 알아봅니다.
-- **단계(들)**: 조사합니다. 알고 있을 것 같은 사람들과 대화합니다. 단서를 따라갑니다.
-- **절정**: 발견. 당신의 배경에 대한 비밀을 발견합니다. 당신이 배운 것이 좋은지 나쁜지 정하지만, 어느 쪽이라도 성공을 의미합니다.
-- **결말**: 이 새로운 지식이 당신에게 어떤 영향을 주는지 숙고합니다.
+- **발단** : 탐색을 시작합니다.
+- **단계** : 연구합니다. 가능하다면, 가족의 배경을 알아봅니다.
+- **단계(들)** : 조사합니다. 알고 있을 것 같은 사람들과 대화합니다. 단서를 따라갑니다.
+- **절정** : 발견. 당신의 배경에 대한 비밀을 발견합니다. 당신이 배운 것이 좋은지 나쁜지 정하지만, 어느 쪽이라도 성공을 의미합니다.
+- **결말** : 이 새로운 지식이 당신에게 어떤 영향을 주는지 숙고합니다.
 
 ### 새로운 것을 발견한다
-You want to invent a new device, process, spell, or something similar. A cure for a heretofore unknown disease? An invocation with a result you’ve never heard of before? A method for getting into an impregnable vault? Any of these and more could be your discovery. While similar to the Creation arc and the Learn arc, the New Discovery arc involves blazing a new trail. No one can teach you what you want to know. You’ve got to do it on your own.
-- **발단**: The Idea. You draw up plans for the thing you want to invent or discover.
-- **단계**: Research. You learn what people have done before and recognize where they fell short.
-- **단계(들)**: Trial and Error. You test your hypothesis. This often ends in many failures before you get a success.
-- **절정**: Eureka! It’s time to put the discovery to the true test. 
-- **결말**: You reflect on your discovery and probably compile your notes and write it all down, for posterity’s sake if nothing else.
+
+당신은 새로운 장치, 공정, 주문, 혹은 그와 비슷한 무언가를 만들어 내고 싶어 합니다. 지금까지 알려지지 않았던 질병의 치료법일 수도 있고, 누구도 들어 본 적 없는 결과를 내는 기원술일 수도 있습니다. 난공불락의 금고에 침입하는 방법일 수도 있지요. 이 모든 것이 발견의 대상이 될 수 있습니다. 이 아크는 `창조한다` 아크나 `배운다` 아크와 비슷해 보이지만, 핵심은 아무도 가 본 적 없는 길을 여는 데 있습니다. 당신이 알고 싶은 것은 누구도 가르쳐 줄 수 없습니다. 스스로 해내야 합니다.
+
+- **발단** : 아이디어. 발명하거나 발견하려는 것의 설계를 세운다.
+- **단계** : 조사. 다른 사람들이 이전에 무엇을 했는지 확인하고, 어디에서 한계에 부딪혔는지 파악한다.
+- **단계(들)** : 시행착오. 가설을 시험한다. 대개 수많은 실패 끝에 성공에 도달한다.
+- **절정** : 유레카! 발견을 진짜 시험대에 올릴 때다.
+- **결말** : 자신의 발견을 되짚어 보고, 적어도 후대에 남기기 위해서라도 노트를 정리해 기록으로 남긴다.
 
 ### 아이를 기른다
-You raise a child to adulthood. It can be your biological child or one you adopt. It can even be a child taken under your wing, more a young protégé than a son or daughter. This is obviously a very long-term arc. 
-- **발단**: Sharing Your Home. The child now lives with you.
-- **단계**: Care and Feeding. You learn to meet the child’s basic needs.
-- **단계(들)**: Basic Instruction. You teach them to walk, talk, and read. You teach them to care for themselves.
-- **단계(들)**: The Rewards Are Many. The child loves you. Relies on you. Trusts you. Eventually, helps you.
-- **단계(들)**: Ethical Instruction. You instill your basic ethics in the child, hoping that they will mature into an adult you can be proud of.
-- **절정**: Adulthood. At some point the child leaves the proverbial nest. You determine, at this point, your own success or failure.
-- **결말**: You reflect on the memories you have made.
+
+당신은 한 아이를 성인이 될 때까지 키웁니다. 친자일 수도, 입양한 아이일 수도 있습니다. 자식이라기보다 제자에 가까운 아이를 거두어 기르는 경우도 가능합니다. 말 그대로 아주 장기적인 아크입니다.
+
+- **발단** : 함께 살기. 아이가 이제 당신과 함께 산다.
+- **단계** : 돌봄과 양육. 아이의 기본적인 필요를 채우는 법을 익힌다.
+- **단계(들)** : 기초 교육. 걷기, 말하기, 읽기를 가르친다. 스스로를 돌보는 법도 가르친다.
+- **단계(들)** : 많은 보람. 아이는 당신을 사랑하고, 의지하고, 신뢰한다. 결국에는 당신을 돕기도 한다.
+- **단계(들)** : 윤리 교육. 당신의 기본적인 윤리관을 아이에게 심어, 훗날 자랑스러운 어른으로 성장하길 바란다.
+- **절정** : 성년. 언젠가 아이는 둥지를 떠난다. 이 시점에서 당신은 스스로의 성공과 실패를 판단한다.
+- **결말** : 함께 만든 기억을 돌아본다.
 
 ### 상처(또는 트라우마)에서 회복한다
-You need to heal. This isn’t just for healing simple damage. This involves recovering from a major debilitating injury, illness, or shock. Severe damage, the loss of a body part, and emotional trauma all fall into this category. 
-- **발단**: Rest. The first thing you need to do is rest.
-- **단계**: Self Care. You take care of your own needs.
-- **단계**: Getting Aid. Someone helps.
-- **단계**: Medicine. Some kind of drug, cure, poultice, potion, or remedy aids your recovery.
-- **단계**: Therapy. With the help of someone else, you exercise your injury or cope with your trauma.
-- **절정**: Acceptance or Recovery. You try to move on and use what has been damaged (or learn how to function without it). 
-- **결말**: You get on with your life.
+
+당신은 치유가 필요합니다. 이는 단순한 피해 회복이 아닙니다. 심각한 부상이나 질병, 충격에서 회복하는 과정을 다룹니다. 중증 피해, 신체 일부의 상실, 정서적 트라우마가 모두 여기에 포함됩니다.
+
+- **발단** : 휴식. 가장 먼저 해야 할 일은 쉬는 것이다.
+- **단계** : 자기 돌봄. 자신의 기본적인 필요를 스스로 챙긴다.
+- **단계** : 도움 받기. 누군가가 당신을 돕는다.
+- **단계** : 치료. 약물, 처방, 연고, 물약, 기타 치료 수단이 회복에 도움을 준다.
+- **단계** : 재활. 타인의 도움을 받아 상처 부위를 단련하거나 트라우마에 대처한다.
+- **절정** : 수용 또는 회복. 상처 입은 상태를 안고 앞으로 나아가거나, 그것 없이 기능하는 법을 익히려 한다.
+- **결말** : 삶을 다시 이어 간다.
 
 ### 속죄한다
-You’ve done something very wrong, but you want to atone and make it right again. This is like the Justice arc or the Undo a Wrong arc, except you are the wrongdoer. This could be a follow-up to the Fall From Grace arc.
-- **발단**: Regret. You are determined to rebuild, recover, and restore.
-- **단계**: Forgiveness. You apologize and ask for forgiveness.
-- **단계**: Identifying the Needs. You determine what needs to be done to atone for your transgression.
-- **절정**: Making Good. You perform an act that you hope will redeem your past misdeed.
-- **결말**: You reflect on what has happened but now look to the future.
+
+당신은 큰 잘못을 저질렀고, 그것을 속죄하여 바로잡고 싶어 합니다. `정의를 실현한다` 아크나 `잘못된 것을 되돌린다` 아크와 비슷하지만, 여기서는 당신 자신이 가해자입니다. `추락한다` 아크의 후속으로도 잘 어울립니다.
+
+- **발단** : 후회. 다시 세우고, 회복하고, 복원하겠다고 결심한다.
+- **단계** : 용서를 구한다. 사과하고 용서를 청한다.
+- **단계** : 필요한 일 확인. 속죄를 위해 무엇을 해야 하는지 정한다.
+- **절정** : 바로잡기. 과거의 잘못을 씻어 내길 바라며 실질적인 행동을 한다.
+- **결말** : 지나온 일을 되돌아보되, 이제는 미래를 바라본다.
 
 ### 빚을 갚는다
-You owe someone something, and it’s time to make good.
-- **발단**: Debts Come Due. You determine to do what is needed to make good on the debt. It might involve repaying money, but more appropriately it’s performing a deed or a series of deeds.
-- **단계**: Talking It Over. You discuss the matter with the person you owe, if possible. You ensure that what you’re doing is what they want.
-- **절정**: Repayment. Either you do something to earn the money or goods you owe, or you undertake a major task that will compensate the other person. 
-- **결말**: You relax knowing that your debt is repaid, and you look to the future.
+
+당신은 누군가에게 빚을 졌고, 이제 갚아야 할 때가 왔습니다.
+
+- **발단** : 빚의 만기. 빚을 갚기 위해 필요한 일을 하겠다고 결심한다. 돈을 갚는 일일 수도 있지만, 더 흔하게는 하나 이상의 행동으로 책임을 이행하는 일이다.
+- **단계** : 상의하기. 가능하다면 빚을 진 상대와 이 문제를 직접 논의한다. 자신이 하려는 일이 상대가 원하는 방식인지 확인한다.
+- **절정** : 상환. 빚진 돈이나 물건을 마련하거나, 그에 상응하는 큰 과업을 수행한다.
+- **결말** : 빚을 갚았다는 안도감 속에서 쉬고, 앞날을 바라본다.
 
 ### 구조한다
-Someone or something of great importance has been taken, and you want to get them or it back.
-- **발단**: Heeding the Call. You determine what has happened, and who or what is missing.
-- **단계**: Tracking. You discover who has taken them, and where.
-- **단계**: Travel. You go to where they are being held and get information on the location and who is involved. Maybe make a plan.
-- **절정**: Rescue Operation. You go in and get them. 
-- **결말**: You return them home.
+
+매우 소중한 누군가 혹은 무언가가 빼앗겼고, 당신은 그것을 되찾고 싶어 합니다.
+
+- **발단** : 부름에 응한다. 무슨 일이 벌어졌는지, 누가 혹은 무엇이 사라졌는지 파악한다.
+- **단계** : 추적. 누가 데려갔는지, 어디로 데려갔는지 찾아낸다.
+- **단계** : 이동. 붙잡혀 있는 장소로 가서 위치와 관련 인물에 대한 정보를 모은다. 필요하다면 계획을 세운다.
+- **절정** : 구출 작전. 현장에 들어가 대상을 구해 낸다.
+- **결말** : 대상을 무사히 집으로 돌려보낸다.
 
 ### 복구한다
-You’re down but not out. You want to restore your good name. Recover what you’ve lost. Rebuild what has been destroyed. You’ve fallen down or have been knocked down, but either way you want to pick yourself up. This is a possible follow-up to the Fall From Grace arc.
-- **발단**: Vow to Yourself. You are determined to rebuild, recover, and restore.
-- **단계(들)**: Work. You rebuild, recover, and restore. If all your money was stolen, you make more. If your house was destroyed, you rebuild it. If your reputation was tarnished, you perform deeds that restore your good name.
-- **절정**: The Final Act. You undertake one last major task that will bring things back to where they were (or close to it). A lot is riding on this moment. 
-- **결말**: You enjoy a return to things the way they were before.
+
+당신은 무너졌지만 끝난 것은 아닙니다. 명예를 되찾고, 잃은 것을 회복하고, 파괴된 것을 다시 세우고 싶어 합니다. 스스로 넘어졌든 남에게 꺾였든, 다시 일어서려는 이야기입니다. `추락한다` 아크의 후속으로 적합합니다.
+
+- **발단** : 스스로와의 맹세. 다시 세우고, 회복하고, 복원하겠다고 다짐한다.
+- **단계(들)** : 행동. 재건하고, 회복하고, 복원한다. 돈을 모두 도둑맞았다면 다시 벌고, 집이 무너졌다면 다시 짓고, 명성이 훼손됐다면 명예를 회복할 행동을 한다.
+- **절정** : 마지막 행동. 상황을 원래대로, 혹은 그에 가깝게 되돌릴 마지막 중대한 과업에 나선다. 이 순간에 많은 것이 달려 있다.
+- **결말** : 예전의 상태를 되찾은 삶을 누린다.
 
 ### 보복한다
-Someone did something that harmed you. Unlike the Avenge arc, this arc probably isn’t about tracking down a murderer, but it might involve pursuing someone who stole from you, hurt you, or otherwise brought you grief. The key is that it’s personal. Otherwise, use the Justice arc. 
-- **발단**: Vow. You swear revenge.
-- **단계(들)**: Finding a Clue. You find a clue to tracking down the culprit.
-- **절정**: Confrontation. You confront the culprit. 
-- **결말**: You deal with the aftermath of the confrontation and move on. You think about whether you are satisfied by gaining your revenge.
+
+누군가가 당신에게 해를 입혔습니다. `복수한다` 아크와 달리, 이 아크는 살인범을 추적하는 이야기가 아닐 가능성이 큽니다. 대신 당신의 것을 훔쳤거나, 상처를 주었거나, 고통을 안긴 상대를 쫓는 이야기일 수 있습니다. 핵심은 개인적인 문제라는 점입니다. 그렇지 않다면 `정의를 실현한다` 아크를 사용하십시오.
+
+- **발단** : 맹세. 복수를 다짐한다.
+- **단계(들)** : 단서 찾기. 범인을 추적할 단서를 찾아낸다.
+- **절정** : 대면. 범인과 정면으로 맞선다.
+- **결말** : 대면 이후의 여파를 감당하며 앞으로 나아간다. 복수로 정말 만족했는지도 돌아본다.
 
 ### 사랑한다
-You want to strike up a relationship with a romantic partner. Perhaps you have a specific person in mind, or maybe you’re just interested in a relationship in general.
-Opening(s): Caught Someone’s Eye. You meet someone you are interested in. (Since this can be short-lived, it’s possible to have this opening occur more than once.)
-- **단계(들)**: Courtship. You begin seeing the person regularly. Although not every “date” is a step in the arc, significant moments are, and there may be a few of them.
-- **절정**: Commitment. You may or may not be interested in a monogamous relationship. Regardless, you and your love have made some kind of commitment to each other. 
-- **결말**: You think about the future. Marriage? Children? These are only some of the possibilities. 
+
+당신은 연애 관계를 시작하고 싶어 합니다. 특정한 상대가 있을 수도 있고, 그냥 전반적으로 연애 관계를 원할 수도 있습니다.
+Opening(s): 누군가의 눈에 든다. 마음이 가는 사람을 만난다. (짧게 끝날 수 있는 단계이므로, 이 발단은 여러 번 일어날 수도 있다.)
+
+- **단계(들)** : 구애. 그 사람을 정기적으로 만나기 시작한다. 모든 "데이트"가 단계가 되는 것은 아니지만, 중요한 순간들은 단계가 되며 그런 순간이 몇 번 있을 수 있다.
+- **절정** : 약속. 배타적인 관계를 원하는지 여부와는 별개로, 당신과 연인은 서로에게 어떤 형태로든 약속을 맺는다.
+- **결말** : 미래를 생각한다. 결혼? 아이? 가능성은 그 외에도 많다.
 
 ### 수수께끼를 푼다
-Different from the Learn arc and the Uncover a Secret arc, this arc is about solving a crime or a similar action committed in the fairly recent past. It’s not about practice or study, but about questions and answers. In theory, the mystery doesn’t have to be a crime. It might be “Why is this strange caustic substance leaking into my basement?”
-- **발단**: Pledging to Solve the Mystery. 
-- **단계**: Research. You get some background.
-- **단계(들)**: Investigation. You ask questions. You look for clues. You cast divinations. This likely encompasses many such steps.
-- **절정**: Discovery. You come upon what you believe to be the solution to the mystery. 
-- **결말**: In this step, which is far more active than most resolutions, you confront the people involved in the mystery with what you’ve discovered, or you use the information in some way (such as taking it to the proper authorities).
+
+`배운다` 아크나 `비밀을 밝힌다` 아크와 달리, 이 아크는 비교적 최근에 벌어진 범죄나 그와 유사한 사건을 해결하는 데 초점을 둡니다. 연습이나 공부보다, 질문과 답을 주고받는 과정이 핵심입니다. 이론적으로 수수께끼가 반드시 범죄일 필요는 없습니다. "왜 이 이상한 부식성 물질이 내 지하실로 스며들고 있지?" 같은 문제도 가능합니다.
+
+- **발단** : 수수께끼를 풀겠다고 맹세한다.
+- **단계** : 조사. 배경 정보를 모은다.
+- **단계(들)** : 수사. 질문을 던지고, 단서를 찾고, 점술을 행한다. 이런 행동이 여러 단계로 이어질 가능성이 크다.
+- **절정** : 발견. 자신이 수수께끼의 해답이라고 믿는 결론에 도달한다.
+- **결말** : 대부분의 결말보다 훨씬 능동적인 단계다. 발견한 내용을 들고 관련 인물들과 맞서거나, 적절한 기관에 넘기는 등 정보를 실제로 활용한다.
 
 ### 훔친다
-Someone else has something you want.
-- **발단**: Setting Your Sights. You make a plan. 
-- **단계**: Casing the Joint. You scout out the location of the thing (or learn its location).
-- **단계(들)**: Getting to the Object. Sometimes, many steps are involved before you reach the object you wish to take. For example, if, in order to steal something from a vault, you need to approach one of the guards while they are off duty and bribe them to look the other way when you break in, that is covered in this step.
-- **절정**: The Attempt. You make your heist. 
-- **결말**: You decide what to do with the thing you’ve stolen and contemplate the repercussions you might face for stealing it.
+
+누군가가 당신이 원하는 것을 가지고 있습니다.
+
+- **발단** : 목표를 정한다. 계획을 세운다.
+- **단계** : 사전 답사. 물건이 있는 장소를 정찰하거나, 위치 정보를 알아낸다.
+- **단계(들)** : 목표에 접근한다. 훔치려는 물건에 닿기까지 여러 단계가 필요할 때가 많다. 예를 들어 금고에서 물건을 훔치려면, 비번 시간의 경비원 한 명에게 접근해 침입 시 눈감아 달라고 뇌물을 건네야 할 수도 있는데, 이런 과정이 여기에 포함된다.
+- **절정** : 실행. 본격적으로 훔친다.
+- **결말** : 훔친 물건을 어떻게 처리할지 정하고, 절도로 인해 자신이 감당할 여파를 숙고한다.
 
 ### 동물을 길들인다
-You want to domesticate and train an animal or other creature. While the beast doesn’t need to be wild, it must not already be domesticated and trained.
-- **발단**: Getting Acquainted. You get to know the creature a bit, and it gets to know you.
-- **단계**: Research. You get information on the type of creature or advice from others who have trained one.
-- **단계**: Domestication. After some work, the creature is no longer a threat to you or anyone else, and it can live peacefully in your home or wherever you wish.
-- **단계(들)**: Training. Each time you use this step, you teach the creature a new, significant command that it will obey regularly and immediately.
-- **절정**: Completion. Believing the creature’s training to be complete, you put it in a situation where that is put to the test. 
-- **결말**: You reflect on the experience.
+
+당신은 동물이나 다른 생물을 길들여 훈련하고 싶어 합니다. 그 생물이 반드시 야생일 필요는 없지만, 이미 길들여지고 훈련된 상태여서는 안 됩니다.
+
+- **발단** : 서로 익숙해지기. 당신이 그 생물을 알아 가고, 그 생물도 당신을 알아 간다.
+- **단계** : 조사. 해당 생물 종에 대한 정보를 모으거나, 비슷한 생물을 길들여 본 사람에게 조언을 구한다.
+- **단계** : 길들이기. 일정한 과정을 거치면, 그 생물은 더 이상 당신이나 다른 이에게 위협이 되지 않고 집이나 원하는 장소에서 평온하게 지낼 수 있게 된다.
+- **단계(들)** : 훈련. 이 단계를 수행할 때마다, 그 생물이 규칙적으로 즉시 따를 수 있는 새롭고 중요한 명령 하나를 가르친다.
+- **절정** : 완성. 훈련이 끝났다고 판단하고, 실제로 시험되는 상황에 그 생물을 투입한다.
+- **결말** : 이 경험을 되돌아본다.
 
 ### 변화한다
-You want to be different in a specific way. Because the Growth arc covers internal change, this one focuses primarily on external change. This could take many forms, and probably varies greatly by genre. In some settings, it could even be death, which might turn you into a ghost. For the change to be an arc, it should be difficult and perhaps risky. 
-- **발단**: Deciding on the Transformation.
-- **단계**: Research. You look into how the change can be made and what it entails.
-- **단계(들)**: Investigation. This is an active step toward making the change. It might involve getting more information, materials or ingredients, or something else.
-- **절정**: Change. You make the change, with some risk of failure or disaster. 
-- **결말**: You contemplate how this change affects you going forward.
+
+당신은 어떤 특정한 방식으로 달라지고 싶어 합니다. `성장한다` 아크가 내적 변화를 다룬다면, 이 아크는 주로 외적 변화를 다룹니다. 변화의 형태는 매우 다양하며 장르에 따라 크게 달라질 수 있습니다. 어떤 설정에서는 죽음을 거쳐 유령이 되는 일조차 여기에 포함될 수 있습니다. 이 변화가 아크가 되려면, 어렵고 어느 정도 위험을 수반해야 합니다.
+
+- **발단** : 어떤 변화가 필요한지 결정한다.
+- **단계** : 조사. 그 변화를 어떻게 이룰 수 있는지, 그리고 무엇이 필요한지 살핀다.
+- **단계(들)** : 탐구. 변화를 실현하기 위한 능동적 단계다. 추가 정보, 재료, 성분 등을 구하는 일이 될 수 있고, 다른 어떤 과정일 수도 있다.
+- **절정** : 변화. 실패나 파국의 위험을 감수하고 실제 변화를 시도한다.
+- **결말** : 이 변화가 앞으로의 자신에게 어떤 영향을 주는지 숙고한다.
 
 ### 비밀을 밝힌다
-There is knowledge out there that you want. It could be an attempt to find and learn a specific special ability. This could also be a hunt for a lost password or a key that will open a sealed door, the true name of a devil, the secret background of an important person, or how the ancients constructed that strange monolith.
-- **발단**: Naming the Secret. You give your goal a name. “I am seeking the lost martial art of the Khendrix, who could slice steel with their bare hands.” 
-- **단계(들)**: Research. You scour libraries and old tomes for clues and information.
-- **단계(들)**: Investigation. You talk to people to gain clues and information.
-- **단계(들)**: Tracking. You track down the source of the secret information and travel to it.
-- **절정**: Revelation. You find and attempt to use the secret, whatever that entails. 
-- **결말**: You contemplate how this secret affects you and the world.
+
+당신이 원하는 지식이 어딘가에 있습니다. 특정한 특수 능력을 찾아 익히려는 시도일 수도 있습니다. 잃어버린 암호나 봉인된 문을 여는 열쇠를 찾는 일, 악마의 진명, 중요한 인물의 숨겨진 과거, 혹은 고대인들이 그 기묘한 거석을 어떻게 세웠는지를 밝히는 일도 가능합니다.
+
+- **발단** : 비밀에 이름 붙이기. 목표를 분명한 이름으로 규정한다. "강철을 맨손으로 베었다는 켄드릭스의 잃어버린 무술을 찾겠다."
+- **단계(들)** : 조사. 도서관과 고서를 샅샅이 뒤져 단서와 정보를 찾는다.
+- **단계(들)** : 탐문. 사람들과 대화해 단서와 정보를 모은다.
+- **단계(들)** : 추적. 비밀 정보의 근원을 추적해 그곳으로 향한다.
+- **절정** : 계시. 비밀을 찾아내고, 그것이 무엇이든 실제로 사용을 시도한다.
+- **결말** : 그 비밀이 자신과 세상에 어떤 영향을 미치는지 숙고한다.
 
 ### 잘못된 것을 되돌린다
-Someone did something horrible, and its ramifications are still felt, even if it happened long ago. You seek to undo the damage, or at least stop it from continuing.
-This is different from the Justice arc because this isn’t about justice (or even revenge)—it’s about literally undoing something bad that happened in the past, such as a great library being burned to the ground, a sovereign people being driven from their land, and so on.
-- **발단**: Vowing to Put Right What Once Went Wrong.
-- **단계**: Make a Plan. You learn all you can about the situation and then make a plan to put things right.
-- **단계(들)**: Progress. This is an active step toward undoing the wrong. It might involve finding something, defeating someone, destroying something, building something, or almost anything else, depending on the circumstances.
-- **절정**: Change. You face the challenge of the former wrong, and either overcome it or fail.
-- **결말**: You reflect on what you’ve accomplished and think about the future.
+
+누군가가 끔찍한 일을 저질렀고, 아주 오래전에 벌어진 일이라 해도 그 여파는 아직 남아 있습니다. 당신은 그 피해를 되돌리거나, 최소한 더는 이어지지 않게 만들고자 합니다.
+이 아크는 `정의를 실현한다` 아크와 다릅니다. 정의(혹은 복수)를 구현하는 것이 목적이 아니라, 과거에 일어난 나쁜 일을 말 그대로 되돌리는 데 목적이 있습니다. 예를 들어 위대한 도서관이 불타 사라진 일, 주권을 가진 민족이 터전에서 쫓겨난 일 등이 이에 해당합니다.
+
+- **발단** : 한때의 잘못을 바로잡겠다고 맹세한다.
+- **단계** : 계획 세우기. 상황을 최대한 파악한 뒤, 바로잡기 위한 계획을 세운다.
+- **단계(들)** : 진전. 잘못을 되돌리기 위한 능동적 단계다. 상황에 따라 무언가를 찾거나, 누군가를 꺾거나, 무언가를 파괴하거나, 무언가를 건설하는 등 거의 어떤 행동이든 포함될 수 있다.
+- **절정** : 변화. 과거의 잘못이 남긴 도전에 맞서고, 극복하거나 실패한다.
+- **결말** : 자신이 이룬 일을 되돌아보고, 미래를 생각한다.
