@@ -6,34 +6,40 @@ createdAt: "2022-11-11T20:34:17.231Z"
 publish: false
 ---
 
-이 장에서는 사이퍼 시스템 게임에서 플레이할 캐릭터를 어떻게 만드는지 설명하겠습니다. 캐릭터를 조형하기 위해 일련의 결정을 내려야 하기 때문에, 여러분이 플레이하고 싶은 캐릭터가 어떤 종류인지 더 잘 이해할 수록, 캐릭터 만들기는 더 쉬워질 겁니다. 이 과정에서 세 가지 게임의 가 어떤 가치를 가지는지 이해하고 여러분의 캐릭터의 특성치(statistics)를 결정하는 세 가지 면모를 선택해야 합니다.
+이 장에서는 사이퍼 시스템 게임에서 플레이할 캐릭터를 어떻게 만드는지 설명하겠습니다. 캐릭터를 조형하기 위해 일련의 결정을 내려야 하기 때문에, 여러분이 플레이하고 싶은 캐릭터가 어떤 종류인지 더 잘 이해할 수록, 캐릭터 만들기는 더 쉬워질 겁니다. 이 과정에서 게임이 무엇을 중시하는지 이해하고, 캐릭터의 특성치(statistics)를 정하는 세 가지 측면을 고릅니다.
 
 ## 캐릭터 특성치
-모든 PC는 세 가지 특성으로 정의하며, 이를 보통 *특성치*(“statistics”) 혹은 줄여서 *스탯*(stat)이라고 부릅니다. 특성치는 *힘*(Might), *속력*(Speed), *지성*(Intellect) 이 있습니다. 이 셋은 넓은 범주라서 다양하지만 연관된 캐릭터의 여러 면모들을 포괄합니다.
+
+모든 PC는 세 가지 특성으로 정의하며, 이를 보통 _특성치_(“statistics”) 혹은 줄여서 _스탯_(stat)이라고 부릅니다. 특성치는 _힘_(Might), _속력_(Speed), _지성_(Intellect) 이 있습니다. 이 셋은 넓은 범주라서 다양하지만 연관된 캐릭터의 여러 면모들을 포괄합니다.
 
 ### 힘
-힘은 캐릭터가 얼마나 강하고 잘 견디는지를 나타냅니다. 근력과 지구력, 체력, 끈질김, 그리고 물리적 용맹함도 모두 이 하나의 특성치로 감싸집니다. 힘은 하지만 크기에 따라 상대적이진 않습니다.; 대신, 절대적인 수치입니다. 코끼리는 가장 강한 강한 호랑이보다 세고, 호랑이는 가장 강한 쥐보다 세고, 쥐는 가장 강한 거미보다 강합니다.[^역주1]
+
+힘은 캐릭터가 얼마나 강하고 잘 견디는지를 나타냅니다. 근력과 지구력, 체력, 끈질김, 그리고 물리적 용맹함도 모두 이 하나의 특성치로 감싸집니다. 힘은 크기에 따라 상대적인 것이 아닙니다. 대신 절대적인 수치입니다. 코끼리는 가장 강한 호랑이보다 세고, 호랑이는 가장 강한 쥐보다 세고, 쥐는 가장 강한 거미보다 강합니다.[^역주1]
 
 힘은 문을 억지로 여는 것부터 음식 없이 며칠 동안 걷거나, 질병에 저항하는 것까지 관할합니다. 이는 또한 위험한 상황에서 어느 정도 피해를 견딜 수 있는지 결정하는 주된 요인입니다. 몸을 쓰는 캐릭터나 끈질긴(tough) 캐릭터, 그리고 싸움에 흥미가 있는 캐릭터는 힘에 집중해야 합니다.
 
 (힘은 힘/건강(Health)으로 생각해도 좋습니다. 왜냐하면 얼마나 강한지 뿐만 아니라 얼마나 물리적 고문을 견딜 수 있는지도 관할하기 때문입니다.)
 
 ### 속력
+
 속력은 캐릭터가 얼마나 빠르고 물리적 균형 감각이 좋은지를 묘사합니다. 이 특성치는 빠름, 움직임, 손재주, 반사신경을 포함합니다. 속력은 공격을 피하거나, 조용히 숨어서 걷거나, 공을 정확하게 던지는 것과 같은 다양한 행동을 관할합니다. 이는 차례에 더 멀리 움직일 수 있는지도 결정합니다. 날쌔고, 빠르거나, 음밀한 캐릭터라면 속력 특성을 원할 것이며, 원거리 전투에 관심 있는 경우도 마찬가지입니다.
 
-(속력은 *속력/민첩*(Agility)으로 생각할 수도 있는데, 왜냐하면 전반적인 빠르기와 반사신경을 관할하기 때문입니다.)
+(속력은 _속력/민첩_(Agility)으로 생각할 수도 있는데, 왜냐하면 전반적인 빠르기와 반사신경을 관할하기 때문입니다.)
 
 ### 지성
+
 이 특성은 캐릭터가 얼마나 똑똑하고, 지적이며, 호감을 사는지를 결정합니다. 이는 지능, 지혜, 카리스마, 교육, 추론, 재치, 의지력, 그리고 매력을 포함합니다. 지성은 퍼즐을 풀거나, 사실을 기억하거나, 믿을만한 거짓말을 하거나, 정신력을 쓰는 것을 관할합니다. 효과적으로 소통하거나, 잘 배운 학자가 되고 싶거나, 초자연적인 힘을 쓰고 싶다면 지성 특성을 강조하는 게 좋습니다.
 
-(지성은 *지성/인격*(Personality)이라고 생각해도 되는데, 왜냐하면 지능과 카리스마를 모두 관할하기 때문입니다.)
+(지성은 _지성/인격_(Personality)이라고 생각해도 되는데, 왜냐하면 지능과 카리스마를 모두 관할하기 때문입니다.)
 
 ## 역량, 재능, 분발
-세 가지 각 특성치는 두 가지 요소를 가지고 있습니다: *역량*(Pool)과 *재능*(Edge)입니다. 역량은 날 것의, 내적인 능력을 나타내며, 재능은 당신이 가진 것을 어떻게 쓸지 아는 걸 나타냅니다. 세 번째 요소는 다음 개념과 연관이 있습니다: *분발*(Effort). 캐릭터가 정말로 일을 해내야만 할 때, 분발을 합니다.
+
+세 가지 각 특성치는 두 가지 요소를 가지고 있습니다: _역량_(Pool)과 _재능_(Edge)입니다. 역량은 날 것의, 내적인 능력을 나타내며, 재능은 당신이 가진 것을 어떻게 쓸지 아는 걸 나타냅니다. 세 번째 요소는 다음 개념과 연관이 있습니다: _분발_(Effort). 캐릭터가 정말로 일을 해내야만 할 때, 분발을 합니다.
 
 (특성치 역량은, 분발과 재능과 마찬가지로, 여러분이 고른 캐릭터 유형과 수식어, 특징에 따라 정해집니다. 이 지침 안에는, 하지만, 여러분의 캐릭터를 발전시켜 나가는데 유연한 여지도 많이 남겨두었습니다.)
 
 ### 역량
+
 역량은 특성치를 측정하는 가장 기본적인 단위입니다. 두 생물의 역량을 비교한다면 그 특성치에서 어떤 생물이 더 우위에 있는지 전반적으로 감을 잡을 수 있을 겁니다. 예를 들어 한 캐릭터의 힘 역량이 16이라면 힘 역량이 12인 캐릭터보다 (전반적으로는) 더 강합니다. 대부분의 캐릭터는 각 특성치마다 평균적으로 9에서 12 사이의 역량을 가지고 시작합니다.
 
 여러분의 캐릭터가 다치거나, 아프거나, 공격을 받거나 하면, 일시적으로 특성치의 역량 중 하나에서 점수를 잃습니다. 예를 들어, 검으로 물리적 피해를 입었다면 힘 역량을 떨어트리고, 캐릭터를 위축시키는 독은 속력 역량을 떨어트리고, [정신 쇄도](/ko/cypher-open/character-abilities#쇄도onslaught-지성-1점)는 지성 역량을 떨어트립니다. 또한 특성치 역량 중에 하나에서 점수를 써서 일의 난이도를 낮출 수도 있습니다. (아래에 있는 분발을 보십시오) 특성치 역량에서 잃은 점수를 회복하려면 쉴 수 있고, 몇몇 특수 능력이나 사이퍼는 잃어버린 점수를 빠르게 회복하게 해주기도 합니다.
@@ -42,7 +48,7 @@ publish: false
 
 비록 역량이 특성치의 기본 단위이긴 하지만, 재능 역시 중요합니다. 무언가 특성치 역량에서 점수를 소비하길 요구할 때, 그 특성치의 재능은 비용을 낮춰줍니다. 이는 판정에 분발을 할 때 드는 비용도 낮춥니다.
 
-예를 들어 정신 쇄도 능력이 있는데, 이를 발동시키려면 지성 역량에서 1점을 소비해야 한다고 합시다. 비용에서 지성 역량을 빼고, 그 결과가 정신 쇄도를 사용하는데 써야 하는 점수가 됩니다. 만약에 재능이 비용을 0으로 낮춘다면, 그 능력을 공짜로 쓸 수 있습니다.
+예를 들어 정신 쇄도 능력이 있는데, 이를 발동시키려면 지성 역량에서 1점을 소비해야 한다고 합시다. 비용에서 지성 재능을 빼고, 그 결과가 정신 쇄도를 쓰는 데 실제로 쓰는 점수가 됩니다. 재능이 비용을 0으로 낮추면 그 능력을 공짜로 쓸 수 있습니다.
 
 재능은 특성치마다 다를 수 있습니다. 예를 들어 힘 재능을 1, 속력 재능도 1이고, 지성 재능은 0일 수 있습니다. 적어도 하나의 특성치에는 재능이 최소 1점은 항상 가지고 있을 겁니다. 특성치의 재능이 있다면 그 특성치 역량에서 점수를 쓰는 비용을 낮출 수 있지만, 다른 역량에서는 안 됩니다. 힘 재능은 힘 역량에서 점수를 쓰는 비용은 낮춰주지만, 속력이나 지성 역량에는 영향이 없습니다. 한 특성치의 재능이 3이 되면 1단계 분발을 공짜로 쓸 수 있습니다.
 
@@ -54,27 +60,28 @@ publish: false
 
 원하지 않으면 꼭 분발을 하지 않아도 됩니다. 일에 분발을 쓰기로 선택하면, 판정을 하기 전에 해야 합니다-먼저 판정을 하고 주사위가 안 좋게 나왔다고 분발을 쓰겠다고 결정할 수는 없습니다.
 
-분발을 더 하면 일의 난이도를 더 낮출 수도 있습니다: 분발을 한 단계 더 할 때마다 일의 난이도도 한 단계씩 낮아집니다. 한 단계의 분발을 하면 일의 난이도는 한 단계 낮아지고, 두 단계 분발을 하면 두 단계 낮아지고, 그런 식으로 이어집니다. 하지만, 첫 분째 분발 이후에는 각 단계마다 특성치 역량에서 3점이 아니라 2점의 비용만 듭니다. 그래서 분발을 두 단계 하면 5점의 비용이 들고(첫 단계에 3, 두 번째 단계에 2), 3단계 분발을 하면 7점의 비용이 들고(3 더하기 2 더하기 2), 그런 식으로 이어집니다.
+분발을 더 하면 일의 난이도를 더 낮출 수도 있습니다: 분발을 한 단계 더 할 때마다 일의 난이도도 한 단계씩 낮아집니다. 한 단계의 분발을 하면 일의 난이도는 한 단계 낮아지고, 두 단계 분발을 하면 두 단계 낮아지고, 그런 식으로 이어집니다. 하지만, 첫 번째 분발 이후에는 각 단계마다 특성치 역량에서 3점이 아니라 2점의 비용만 듭니다. 그래서 분발을 두 단계 하면 5점의 비용이 들고(첫 단계에 3, 두 번째 단계에 2), 3단계 분발을 하면 7점의 비용이 들고(3 더하기 2 더하기 2), 그런 식으로 이어집니다.
 
 모든 캐릭터는 분발 점수가 있고, 한 판정에 최대 몇 단계 분발을 할 수 있는지를 나타냅니다. 시작하는 (1 등급) 캐릭터는 분발이 1이고, 한 판정에 한 단계 분발을 할 수 있다는 뜻입니다. 더 경험이 많은 캐릭터는 더 높은 분발 점수를 가지고 있고 한 판정에 더 많은 단계의 분발을 할 수 있습니다. 예를 들어, 분발이 3인 캐릭터는 일의 난이도를 낮추기 위해 3단계의 분발을 할 수 있습니다.
 
-분발을 하면, 분발에 드는 전체 비용에서 그에 맞는 재능 만큼을 뺍니다. 예를 들어 속력 판정을 해야 한다고 합시다. 성공할 가능성을 높이기 위해서, 일의 난이도를 한 단계 낮춰주는 분발을 하기로 결정합니다. 보통은, 속력 역량에서 3점의 비용이 들지만. 속력 재능이 2점 있으면, 이를 비용에서 뺍니다. 그래서 판정에 분발을 하는데 속력 역량에서 1점의 비용 밖에 들지 않습니다.
+분발을 하면, 분발에 드는 전체 비용에서 그에 맞는 재능 만큼을 뺍니다. 예를 들어 속력 판정을 해야 한다고 합시다. 성공할 가능성을 높이기 위해서, 일의 난이도를 한 단계 낮춰주는 분발을 하기로 결정합니다. 보통은 속력 역량에서 3점의 비용이 들지만, 속력 재능이 2점 있으면 이를 비용에서 뺍니다. 그래서 판정에 분발을 하는데 속력 역량에서 1점의 비용 밖에 들지 않습니다.
 
 만약 딱 한 단계 대신에 두 단계 분발을 하면 어떻게 될까요? 일의 난이도를 두 단계 낮춰줍니다. 보통은 속력 역량에서 5점의 비용이 들지만, 속력 재능 2점을 빼면 3점의 비용 밖에 들지 않습니다.
 
-한 번 특성의 역량이 3점이 되면, 한 단계 분발을 공짜로 할 수 있습니다. 예를 들어 속력 재능이 3점 있다면, 속력 판정에 분발을 한 단계 한다면, 속력 역량에서 비용이 0점이 듭니다. (보통은, 한 단계 분발은 3점이 들지만, 속력 재능을 비용에서 빼면, 0으로 줄여주는 것입니다.)
-
+한 특성치의 재능이 3이 되면, 한 단계 분발을 공짜로 쓸 수 있습니다. 예를 들어 속력 재능이 3이면 속력 판정에 한 단계 분발을 할 때 속력 역량 비용은 0입니다. (보통 한 단계 분발은 3점이 들지만, 속력 재능 3을 비용에서 빼면 0이 됩니다.)
 
 기능과 다른 이득도 일의 난이도를 낮춰주고, 이를 분발과 함께 쓸 수 있습니다. 게다가 캐릭터들은 적을 넘어트리거나 보통은 한 명에게만 영향을 주는 능력을 여러 대상에게 영향을 주는 등, 특수한 효과를 위해 분발을 할 수 있게 허용해주는 특수 능력이나 장비를 가지고 있을 수도 있습니다.
 
 근접 공격에 분발을 할 때, 힘 역량이나 속력 역량 중에 하나를 골라서 점수를 소모할 수 있습니다. 원거리 공격을 할 때에는 속력 역량에서만 점수를 소모할 겁니다. 이는 근거리 공격은 거친 힘을 쓸 때도 있지만 때로는 정밀하게 할 때도 있고, 원거리 공격은 항상 주의 깊게 조준하는 것임을 반영합니다.
 
 ### 분발과 피해
+
 분발을 해서 공격의 난이도를 낮추는 대신, 분발을 해서 공격으로 가하는 피해의 양을 증가시킬 수도 있습니다. 이렇게 한 단계 분발을 할 때마다, 3점의 추가 피해를 줍니다. 이는 피해를 가하는 공격이라면 칼이든, 쇠뇌든, 정신 쇄도이든, 다른 것이든 모두 통합니다.
 
 [어뎁트](/ko/cypher-open/character-types#어뎁트adept)의 [진탕(concussion)](/ko/cypher-open/character-abilities#진탕concussion-지성-7-점) 능력처럼, 범위 공격의 피해를 증가시키기 위해 분발을 할 때에는 3점이 아니라 2점의 추가 피해를 줍니다. 하지만 추가 피해는 그 영역의 모든 대상에게 적용됩니다. 더 나아가, 하나 혹은 더 많은 적이 공격에 저항했더라도, 여전히 1점의 피해를 입습니다.
 
 ### 분발과 재능을 함께 쓰기
+
 만약 분발이 2 이상이면, 한 행동에 여러 방식으로 분발을 할 수 있습니다. 예를 들어, 공격을 한다면, 공격 판정에 분발을 하고 피해를 높이는데 분발을 할 수 있습니다.
 
 분발의 총량은 캐릭터의 분발 점수보다 높을 수 없습니다. 예를 들어 분발이 2점이라면, 최대 두 단계까지 분발을 할 수 있습니다. 한 단계 공격에 분발을 하고 피해에도 한 단계 분발을 할 수도 있고, 공격에만 두 단계 분발을 하고 피해에는 하지 않을 수도 있고, 공격에는 하지 않고 피해에만 두 단계 분발을 할 수도 있습니다.
@@ -82,80 +89,80 @@ publish: false
 행동마다 특정 특성치의 재능은 한 번만 쓸 수 있습니다. 예를 들어 힘 공격에 분발을 하고 피해에도 분발을 하면, 힘 재능은 두 분발 중에 하나의 비용만 낮출 수 있고, 둘 다는 안 됩니다. 만약 지성 1점을 써서 정신 쇄도를 발동 시키고, 공격 판정에 분발을 한 단계 해서 난이도를 낮추면, 지성 재능은 둘 중 하나의 비용만 낮출 수 있고, 둘 다는 안 됩니다.
 
 ### 특성치 예시
+
 시작하는 캐릭터가 거대 쥐랑 싸우고 있습니다. PC는 쥐에게 창을 찌르는데, 쥐는 2레벨 생물이라 목표치는 6입니다. 캐릭터는 높은 곳에 서서 아래로 생물을 찌르고 있기 때문에, 마스터는 이는 도움이 되는 전술이라 보탬으로 치고 공격의 난이도를 한 단계 낮춥니다. (난이도 1이 됩니다) 목표치는 3으로 낮아집니다. 창으로 공격하는 건 힘 행동입니다. 캐릭터는 힘 역량이 11이고 힘 재능은 0입니다. 판정을 하기 전에 한 단계 분발을 해서 공격의 난이도를 낮추기로 합니다. 이는 힘 역량에서 3점이 들고, 역량은 8으로 떨어집니다. 하지만 점수를 잘 썼습니다. 분발이 난이도를 1에서 0으로 낮추고, 따라서 판정은 필요 없습니다-공격은 자동으로 성공합니다.
 
 다른 캐릭터는 영향력 있는 귀족과 이야기하기 위해 경비를 설득해서 개인 사무실로 들어가게 해달라고 합니다. 마스터는 이게 지성 행동이라 판단합니다. 캐릭터는 3등급이고 분발이 3이며, 지성 역량은 13, 그리고 지성 재능은 1입니다. 판정을 하기 전에, 분발을 할지 말지 정해야 합니다. 분발을 한 단계, 두 단계, 세 단계 하거나, 분발하지 않는 것 중에 골라야 합니다. 이 행동은 중요하기 때문에, 분발을 두 단계해서, 일의 난이도를 두 단계 낮추기로 합니다. 지성 재능 덕분에 분발에는 지성 역량에서 4점만 듭니다. (첫 분발에 3점, 두 번째 분발에 2점이고 여기서 재능으로 1점을 뺍니다) 점수를 소모해서 지성 역량은 9로 줄어듭니다. 마스터는 경비를 설득하는 게 난이도 3(까다로움)짜리 일이고 목표치는 9라고 정합니다. 분발을 두 단계 했으니 난이도는 1(간단)으로 떨어지며 목표치는 3이 됩니다. 플레이어는 20을 굴리고 8이 나옵니다. 이 결과는 목표치 이상이기 때문에, 성공합니다. 하지만 분발을 하지 않았다면 굴림(8)이 원래 목표치(9)보다 낮기 때문에 실패했을 겁니다.
 
-
 ## 캐릭터 등급
+
 모든 캐릭터는 1등급으로 게임을 시작합니다. 등급은 힘, 끈질김, 그리고 능력의 단위입니다. 캐릭터는 6등급까지 올라갈 수 있습니다. 캐릭터가 더 높은 등급으로 올라갈 수록, 더 많은 능력을 얻고, 분발 단계를 높이고, 특성치의 재능이나 역량을 향상시킬 수도 있습니다. 일반적으로 말하자면, 1등급 캐릭터도 이미 꽤 유능합니다. 이미 어느 정도 경험이 쌓였다고 가정해도 좋습니다. "밑바닥에서 영웅으로" 나아가는 것이 아니라, 유능한 사람들이 역량과 지식을 정련하고 갈고 닦는 것에 가깝습니다. 더 높은 등급으로 올라가는 것은 사이퍼 시스템 캐릭터의 진정한 목표는 아니며, 그보다는 이야기 속에서 캐릭터가 어떻게 성장했는지를 나타내는 것입니다.
 
-To progress to the next tier, characters earn experience points (XP) by pursuing character arcs, going on adventures, and discovering new things—the system is about both discovery and exploration, as well as achieving personal goals. Experience points have many uses, and one use is to purchase character benefits. After your character purchases four character benefits, they advance to the next tier. Each benefit costs 4 XP, and you can purchase them in any order, but you must purchase one of each kind of benefit (and then advance to the next tier) before you can purchase the same benefit again. The four character benefits are as follows.
+다음 등급으로 나아가려면, 캐릭터는 캐릭터 아크를 밟고 모험을 떠나고 새로운 것을 발견하며 경험치(XP)를 얻습니다. 이 시스템은 발견·탐험과 개인 목표 달성을 함께 다룹니다. 경험치는 쓸 곳이 여러 가지인데, 그중 하나가 캐릭터 이익을 구입하는 것입니다. 캐릭터가 캐릭터 이익 네 가지를 사면 다음 등급으로 올라갑니다. 이익 하나당 비용은 XP 4점이며, 순서는 자유입니다. 다만 같은 종류의 이익을 다시 사려면, 네 종류를 각각 한 번씩 산 뒤(그리고 다음 등급으로 올라간 뒤)여야 합니다. 네 가지 캐릭터 이익은 다음과 같습니다.
 
-**Increasing Capabilities**: You gain 4 points to add to your stat Pools. You can allocate the points among the Pools however you wish.
+**역량 늘리기**: 특성치 역량에 더할 점수 4점을 얻습니다. 원하는 대로 역량에 나누어 넣습니다.
 
-**Moving Toward Perfection**: You add 1 to your Might Edge, your Speed Edge, or your Intellect Edge (your choice).
+**완벽에 가까이**: 힘 재능, 속력 재능, 지성 재능 중 하나에 1을 더합니다(선택).
 
-**Extra Effort**: Your Effort score increases by 1.
+**추가 분발**: 분발 점수가 1 오릅니다.
 
-**Skills**: You become trained in one skill of your choice, other than attacks or defense. As described in Rules of the Game, a character trained in a skill treats the difficulty of a related task as one step lower than normal. The skill you choose for this benefit can be anything you wish, such as climbing, jumping, persuading, or sneaking. You can also choose to be knowledgeable in a certain area of lore, such as history or geology. You can even choose a skill based on your character’s special abilities. For example, if your character can make an Intellect roll to blast an enemy with mental force, you can become trained in using that ability, easing the task of using it. If you choose a skill that you are already trained in, you become specialized in that skill, easing related tasks by two steps instead of one.
+**기능**: 공격이나 방어가 아닌, 원하는 기능 하나에 익숙해집니다. 게임 규칙에 따르면, 기능에 익숙한 캐릭터는 관련 일의 난이도를 평소보다 한 단계 낮게 봅니다. 이 이익으로 고를 수 있는 기능은 등반, 도약, 설득, 잠입 등 무엇이든 될 수 있습니다. 역사나 지질학 같은 지식 분야에 익숙해질 수도 있고, 캐릭터의 특수 능력에 맞춰 고를 수도 있습니다. 예를 들어 지성 판정으로 적에게 정신력을 쏘는 능력이 있다면, 그 능력 사용에 익숙해져 일을 한 단계 완화할 수 있습니다. 이미 익숙한 기능을 고르면, 그 기능에 능숙해져 관련 일이 한 단계가 아니라 두 단계 완화됩니다.
 
-(Skills are a broad category of things your character can learn and accomplish. For a list of sample skills, see below.)
+(기능은 캐릭터가 배우고 이룰 수 있는 넓은 범주입니다. 예시 목록은 아래를 보십시오.)
 
-**Other Options**: Players can also spend 4 XP to purchase other special options in lieu of gaining a new skill. Selecting any of these options counts as the skill benefit necessary to advance to the next tier. The special options are as follows:
+**기타 선택**: 플레이어는 XP 4점을 내어 새 기능 대신 아래 특수 선택을 살 수도 있습니다. 아래 중 하나를 고르면 등급 상승에 필요한 「기능」 이익으로 칩니다.
 
-Reduce the cost for wearing armor. This option lowers the Speed cost for wearing armor by 1.
+- 갑옷 착용 비용을 줄입니다. 갑옷에 드는 속력 비용이 1 낮아집니다.
 
-Add 2 to your recovery rolls.
+- 회복 굴림에 2를 더합니다.
 
-Select a new type-based ability from your tier or a lower tier.
-
-
+- 자신의 등급 이하 등급의 유형 기반 능력 하나를 고릅니다.
 
 ## 캐릭터 수식어, 유형, 특징
-To create your character, you build a simple statement that describes them. The statement takes this form: “I am a [fill in an adjective here] [fill in a noun here] who [fill in a verb here].”
 
-Thus: “I am an adjective noun who verbs.” For example, you might say, “I am a Rugged Warrior who Controls Beasts” or “I am a Charming Explorer who Focuses Mind Over Matter.”
+캐릭터를 만들려면, 자신을 한 줄로 묘사하는 문장을 짓습니다. 형식은 다음과 같습니다. “나는 [형용사] [명사]이며 [동사]한다.”
 
-In this sentence, the adjective is called your descriptor.
+즉 “나는 형용사한 명사이며 동사한다”입니다. 예를 들어 “나는 거친 전사이며 짐승을 부린다(I am a Rugged Warrior who Controls Beasts)” 또는 “나는 매력적인 탐험가이며 정신으로 물질을 다룬다(I am a Charming Explorer who Focuses Mind Over Matter)”처럼 말할 수 있습니다.
 
-The noun is your character type.
+이 문장에서 형용사는 _수식어_(descriptor)라 합니다.
 
-The verb is called your focus.
+명사는 캐릭터 _유형_(type)입니다.
 
-Even though character type is in the middle of the sentence, that’s where we’ll start this discussion. (Just as in a sentence, the noun provides the foundation.)
+동사는 _특징_(focus)이라 합니다.
 
-Your character type is the core of your character. In some roleplaying games, it might be called your character class. Your type helps determine your character’s place in the world and relationship with other people in the setting. It’s the noun of the sentence “I am an adjective noun who verbs.”
+유형이 문장 가운데 있지만, 설명은 여기서 유형부터 시작합니다. 문장에서도 명사가 뼈대가 되기 때문입니다.
 
-You can choose from four character types: Warriors, Adepts, Explorers, and Speakers.
+캐릭터 유형은 캐릭터의 핵입니다. 다른 롤플레잉 게임에서는 캐릭터 클래스라 부를 수도 있습니다. 유형은 세계 안에서의 위치와 설정 속 다른 사람들과의 관계를 잡는 데 도움이 됩니다. “나는 형용사한 명사이며 동사한다”에서 명사에 해당합니다.
 
-Your descriptor defines your character—it colors everything you do. Your descriptor places your character in the situation (the first adventure, which starts the campaign) and helps provide motivation. It’s the adjective of the sentence “I am an adjective noun who verbs.”
+네 가지 캐릭터 유형 중 하나를 고를 수 있습니다: **전사(Warrior), 어뎁트(Adept), 탐험가(Explorer), 달변가(Speaker)**.
 
-Unless your GM says otherwise, you can choose from any of the character descriptors.
+수식어는 캐릭터를 규정합니다. 하는 모든 일에 색을 입힙니다. 수식어는 캐릭터를 상황(캠페인을 시작하는 첫 모험)에 놓이게 하고 동기를 주는 데 도움이 됩니다. “나는 형용사한 명사이며 동사한다”에서 형용사에 해당합니다.
 
-Focus is what your character does best. Focus gives your character specificity and provides interesting new abilities that might come in handy. Your focus also helps you understand how you relate with the other player characters in your group. It’s the verb of the sentence “I am an adjective noun who verbs.”
+마스터가 달리 정하지 않는 한, 캐릭터 수식어 목록에서 아무거나 고를 수 있습니다.
 
-There are many character foci. The ones you choose from will probably depend on the setting and genre of your game.
+특징은 캐릭터가 가장 잘하는 일입니다. 특징은 캐릭터에 구체성을 주고, 쓸모 있을 만한 새 능력을 제공합니다. 같은 그룹의 다른 PC와 어떻게 관계 맺는지 이해하는 데도 도움이 됩니다. “나는 형용사한 명사이며 동사한다”에서 동사에 해당합니다.
 
-(You can use the Flavors chapter to slightly modify character types to customize them for different genres.)
+특징은 많습니다. 무엇을 고를지는 설정과 장르에 따라 달라질 것입니다.
 
+(「풍미(Flavors)」 장을 쓰면 유형을 조금씩 바꿔 여러 장르에 맞출 수 있습니다.)
 
 ## 특수 능력
-Character types and foci grant PCs special abilities at each new tier. Using these abilities usually costs points from your stat Pools; the cost is listed in parentheses after the ability name. Your Edge in the appropriate stat can reduce the cost of the ability, but remember that you can apply Edge only once per action. For example, let’s say an Adept with an Intellect Edge of 2 wants to use their Onslaught ability to create a bolt of force, which costs 1 Intellect point. They also want to increase the damage from the attack by using a level of Effort, which costs 3 Intellect points. The total cost for their action is 2 points from their Intellect Pool (1 point for the bolt of force, plus 3 points for using Effort, minus 2 points from their Edge).
 
-Sometimes the point cost for an ability has a + sign after the number. For example, the cost might be given as “2+ Intellect points.” That means you can spend more points or more levels of Effort to improve the ability further, as explained in the ability description.
+캐릭터 유형과 특징은 등급이 오를 때마다 PC에게 특수 능력을 줍니다. 이런 능력을 쓰는 데는 보통 특성치 역량에서 점수를 씁니다. 비용은 능력 이름 뒤 괄호에 적습니다. 해당 특성치의 재능이 비용을 낮출 수 있지만, **행동마다 재능은 한 번만** 적용할 수 있습니다. 예를 들어 지성 재능이 2인 어뎁트가 쇄도 능력으로 힘의 파동을 만들려고 하는데, 비용이 지성 1점이라고 합시다. 동시에 분발 한 단계로 피해를 늘리려면 지성 3점이 듭니다. 이 행동의 총 비용은 지성 역량에서 2점입니다(쇄도 1점 + 분발 3점 − 재능 2점).
 
-Many special abilities grant a character the option to perform an action that they couldn’t normally do, such as projecting rays of cold or attacking multiple foes at once. Using one of these abilities is an action unto itself, and the end of the ability’s description says “Action” to remind you. It also might provide more information about when or how you perform the action.
+가끔 능력 비용에 숫자 뒤 +가 붙습니다. 예: “지성 2점+”. 능력 설명에 나오는 대로, 더 많은 점수나 분발 단계를 써서 능력을 더 강화할 수 있다는 뜻입니다.
 
-Some special abilities allow you to perform a familiar action—one that you can already do—in a different way. For example, an ability might let you wear heavy armor, reduce the difficulty of Speed defense rolls, or add 2 points of fire damage to your weapon damage. These abilities are called enablers. Using one of these abilities is not considered an action. Enablers either function constantly (such as being able to wear heavy armor, which isn’t an action) or happen as part of another action (such as adding fire damage to your weapon damage, which happens as part of your attack action). If a special ability is an enabler, the end of the ability’s description says “Enabler” to remind you.
+많은 특수 능력은 평소엔 할 수 없는 행동—예를 들어 냉기 광선을 쏘거나 여러 적을 한 번에 공격하는 것—을 할 수 있게 합니다. 이런 능력 하나를 쓰는 것은 그 자체로 행동이며, 능력 설명 끝에 “행동(Action)”이라고 적어 둡니다. 언제·어떻게 하는지도 더 적혀 있을 수 있습니다.
 
-Some abilities specify a duration, but you can always end one of your own abilities anytime you wish.
+어떤 특수 능력은 이미 할 수 있는 익숙한 행동을 다른 방식으로 하게 합니다. 예: 무거운 갑옷을 입거나, 속력 방어 판정 난이도를 낮추거나, 무기 피해에 불 피해 2점을 더합니다. 이런 능력을 **강화(enabler)**라고 부릅니다. 강화는 행동으로 치지 않습니다. 늘 켜져 있거나(무거운 갑옷을 입을 수 있는 것처럼), 다른 행동의 일부로 일어납니다(공격 행동의 일부로 불 피해를 더하는 것처럼). 특수 능력이 강화면 설명 끝에 “강화(Enabler)”라고 적습니다.
 
-(Because the Cypher System covers so many genres, not all of the descriptors, types, and foci might be available for players. The GM will decide what’s available in their particular game and whether anything is modified, and they’ll let the players know.)
+지속 시간이 정해진 능력도, 자신의 능력은 언제든 끝낼 수 있습니다.
 
+(사이퍼 시스템은 장르가 많아, 플레이어에게 열어 두지 않은 수식어·유형·특징이 있을 수 있습니다. 마스터가 그 게임에서 무엇을 쓸지, 무엇을 고칠지 정하고 플레이어에게 알려 줍니다.)
 
-## 기능(Skills)
-이따금 캐릭터가 특정한 기능이나 일에 대한 훈련(training)을 받을 수 있습니다. 예를 들어 여러분이 고른 특징이 잠입, 등반이나 도약, 혹은 사회적 상호작용에 익숙(trained)하다는 뜻일 수 있습니다. 어떤 때에는 캐릭터가 익숙해지고 싶은 기능을 선택할 수 있는데, 여러분이 마주치게될 거라 생각하는 어떤 일이라도 연관된 기능을 고를 수 있습니다.
+## 기능
+
+이따금 캐릭터가 특정 기능이나 일에 대한 훈련을 받을 수 있습니다. 예를 들어 고른 수식어가 잠입, 등반·도약, 또는 사회적 상호작용에 익숙하다는 뜻일 수 있습니다. 어떤 때에는 캐릭터가 익숙해지고 싶은 기능을 직접 고를 수 있는데, 앞으로 마주칠 거라 생각하는 일과 맞는 기능을 고르면 됩니다.
 
 사이퍼 시스템은 기능 목록을 한정하고 있진 않습니다. 하지만, 다음 목록에서 영감을 얻어보세요.
 
@@ -168,18 +175,20 @@ Some abilities specify a duration, but you can always end one of your own abilit
 | 잠입      | 지리   | 지질학    | 천문학 | 철학      | 치유   |
 | 컴퓨터    | 타기   | 탈출      | 파일럿 | 판별      | 훔치기 |
 
-이런 영역 중에 한 가지 이상에 걸쳐있는 기능을 고를 수도 있고 (*사회적 상호작용*은 아마 *속임수*, *위협*, *설득*을 포함할 수 있습니다) 또는 더 구체적으로 할 수도 있습니다. (*숨기*는 아마 움직이지 않는 *잠입*이라 할 수도 있을 겁니다) 
-You could also make up more general professional skills, such as baker, sailor, or lumberjack. If you want to choose a skill that’s not on this list, it’s probably best to run it past the GM first, but in general, the most important thing is to choose skills that are appropriate to your character.
+이런 영역 중에 한 가지 이상에 걸친 기능을 고를 수도 있고(*사회적 상호작용*은 아마 _속임수_, _위협_, *설득*을 포함할 수 있습니다) 더 구체적으로 할 수도 있습니다. (*숨기*는 움직이지 않는 *잠입*에 가깝다고 할 수도 있을 겁니다.)
 
-Remember that if you gain a skill that you’re already trained in, you become specialized in that skill. Because skill descriptions can be nebulous, determining whether you’re trained or specialized might take some thinking. For example, if you’re trained in lying and later gain an ability that grants you skill with all social interactions, you become specialized in lying and trained in all other types of interactions. Being trained three times in a skill is no better than being trained twice (in other words, specialized is as good as it gets).
+빵장이, 선원, 벌목꾼처럼 더 넓은 직업 기능을 만들어도 됩니다. 목록에 없는 기능을 고르려면 마스터와 먼저 상의하는 것이 좋지만, 무엇보다 캐릭터에 맞는 기능을 고르는 것이 중요합니다.
 
-Only skills gained through character type abilities or other rare instances allow you to become skilled with attack or defense tasks.
+이미 익숙한 기능을 다시 얻으면 능숙해집니다. 기능 설명이 모호할 수 있어, 익숙인지 능숙인지는 생각해 봐야 할 때가 있습니다. 예를 들어 거짓말에 익숙한데, 나중에 모든 사회적 상호작용에 기능을 주는 능력을 얻으면, 거짓말에는 능숙하고 다른 상호작용에는 익숙해집니다. 같은 기능에 익숙이 세 번 쌓여도 두 번(즉 능숙)보다 나아지지 않습니다. 능숙이 한계입니다.
 
-If you gain a special ability through your type, your focus, or some other aspect of your character, you can choose it in place of a skill and become trained or specialized in that ability. For example, if you have a mind blast, when it’s time to choose a skill to be trained in, you can select your mind blast as your skill. That would ease the attack every time you used it. Each ability you have counts as a separate skill for this purpose. You can’t select “all mind powers” or “all spells” as one skill and become trained or specialized in such a broad category.
+공격·방어 판정에 기능을 쓰는 것은 캐릭터 유형 능력 등 드문 경우로만 가능합니다.
 
-In most campaigns, fluency in a language is considered a skill. So if you want to speak French, that’s the same as being trained in biology or swimming.
+유형, 특징, 캐릭터의 다른 면으로 특수 능력을 얻었다면, 기능 대신 그 능력에 익숙하거나 능숙해질 수 있습니다. 예를 들어 정신 폭발이 있다면, 익숙을 고를 때 정신 폭발을 기능으로 삼을 수 있습니다. 그러면 쓸 때마다 그 공격 일이 완화됩니다. 이 목적으로는 능력마다 별도의 기능으로 칩니다. “모든 정신력”이나 “모든 주문”처럼 한꺼번에 묶어 익숙·능숙할 수는 없습니다.
+
+대부분의 캠페인에서 언어 유창은 기능으로 칩니다. 프랑스어를 하고 싶다면 생물학이나 수영에 익숙한 것과 같은 취급입니다.
 
 ## 방어
+
 방어는 뭔가 PC에게 바라지 않는 일이 일어나지 않도록 판정을 하는 것입니다. 방어의 유형은 어떤 분발을 할지와 관련 있습니다.
 
 **힘 방어**: 독이나 질병 그리고 힘이나 건강으로 저항하는 모든 다른 것에 쓰입니다.

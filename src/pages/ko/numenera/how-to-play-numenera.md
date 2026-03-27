@@ -24,16 +24,18 @@ createdAt: "2022-11-17T07:31:02.290Z"
 
 ## 행동하기
 
-각 캐릭터는 각 *라운드*마다 한 차례를 받습니다. 캐릭터의 차례가 되면, 한 가지- *행동* 하나를 할 수 있습니다. 모든 행동은 세 가지 범주로 나눠집니다. 힘, 속력, 그리고 지성 (세 가지 특성과 마찬가지) 입니다.  많은 행동은 주사위를 굴려야 합니다. (d20을 굴립니다) 모든 행동은 *일*을 하는 것이고, 모든 일은 캐릭터가 성공하기 위해서 주사위를 굴려서 몇얼마를 넘어야 하는지 결정하는 *난이도*를 가지고 있습니다. 대부분의 일은 난이도가 0이며, 이는 캐릭터가 자동으로 성공한다는 뜻입니다. 예를 들어, 방을 가로질러 걸어가거나, 문을 열거나, 무언가를 바닥에서 집거나, 돌을 근처의 바구니에 집어 던지는 것은 모두 행동이지만, 무엇도 판정을 요구하지 않습니다. 보통 상황 (눈보라 속에서 목표를 쏘는 것 같은) 때문에 어렵거나 어려워지는 행동은 높은 난이도를 가집니다. 이런 행동은 보통 판정이 필요합니다.
+각 캐릭터는 각 *라운드*마다 한 차례를 받습니다. 캐릭터의 차례가 되면, 한 가지- _행동_ 하나를 할 수 있습니다. 모든 행동은 세 가지 범주로 나눠집니다. 힘, 속력, 그리고 지성 (세 가지 특성과 마찬가지) 입니다. 많은 행동은 주사위를 굴려야 합니다. (d20을 굴립니다) 모든 행동은 *일*을 하는 것이고, 모든 일은 캐릭터가 성공하기 위해서 주사위를 굴려서 몇얼마를 넘어야 하는지 결정하는 *난이도*를 가지고 있습니다. 대부분의 일은 난이도가 0이며, 이는 캐릭터가 자동으로 성공한다는 뜻입니다. 예를 들어, 방을 가로질러 걸어가거나, 문을 열거나, 무언가를 바닥에서 집거나, 돌을 근처의 바구니에 집어 던지는 것은 모두 행동이지만, 무엇도 판정을 요구하지 않습니다. 보통 상황 (눈보라 속에서 목표를 쏘는 것 같은) 때문에 어렵거나 어려워지는 행동은 높은 난이도를 가집니다. 이런 행동은 보통 판정이 필요합니다.
 
 ### 언제 주사위를 굴리나?
+
 캐릭터가 언제든 일을 시도할 때마다, 마스터는 그 일에 난이도를 정하고, d20을 굴려서 해당하는 목표치를 넘는지 봅니다. 불타는 탈것에서 뛰어내릴 때, 전투도끼를 돌연변이 짐승에게 휘두를 때, 맹렬하게 흐르는 강을 가로질러 수영할 때, 이상한 기계를 판별할 때, 상인에게 가격을 깎아달라고 할 때, 물건을 만들 때, 적의 정신을 지배하는 힘을 쓸 때, 열 광선 방출기로 벽에 구멍을 뚫을 때, 20면체를 굴려야 합니다.
 
-하지만 난이도가 이미 0인 걸 시도한다면, 판정이 필요 없고-자동으로 성공합니다. 많은 행동은 난이도가 0입니다.  예를 들어 방을 가로질러 걷거나, 문을 열거나, 특수 능력을 이용해 중력을 무효화시켜 날거나, 능력을 써서 방사선으로부터 친구를 지키거나, (이미 이해하고 있는) 기계를 작동시키거나, 역장을 세우는 등입니다. 이들은 모두 일상적인 행동이고 판정을 요구하지 않습니다.
+하지만 난이도가 이미 0인 걸 시도한다면, 판정이 필요 없고-자동으로 성공합니다. 많은 행동은 난이도가 0입니다. 예를 들어 방을 가로질러 걷거나, 문을 열거나, 특수 능력을 이용해 중력을 무효화시켜 날거나, 능력을 써서 방사선으로부터 친구를 지키거나, (이미 이해하고 있는) 기계를 작동시키거나, 역장을 세우는 등입니다. 이들은 모두 일상적인 행동이고 판정을 요구하지 않습니다.
 
 기능, 보탬, 그리고 분발을 사용해서, 어떤 일의 난이도라도 0으로 떨어트릴 수 있고 주사위 판정의 필요성을 무효화시킬 수 있습니다. 얇은 나무 들보 위를 걷는 건 대부분의 사람들에게 까다롭겠지만, 경험 많은 체조 선수에게는, 일상입니다. 심지어 적에 대한 공격의 난이도 역시 0으로 만들어서 판정 없이 성공할 수 있습니다. 판정이 없으면, 실패의 가능성도 없습니다. 하지만 마찬가지로 눈에 띄는 성공의 기회도 없습니다. (누메네라에서 이는 보통 굴려서 19나 20이 나오는 걸 뜻합니다. [특수 효과](#특수-효과)를 보십시오.)
 
 ### 일의 특성치 정하기
+
 모든 일은 캐릭터의 세 가지 특성 중 하나에 연관됩니다: 힘, 속력, 혹은 지성입니다.
 
 근력이나 힘, 혹은 지구력을 요하는 물리적 활동은 힘과 연관됩니다.
@@ -93,6 +95,7 @@ createdAt: "2022-11-17T07:31:02.290Z"
 </div>
 
 ### 일의 난이도 정하기
+
 게임을 하는 동안 마스터가 가장 자주 하는 일은-그리고 아마도 가장 중요한 일은- 일의 난이도를 정하는 것입니다. 이 일을 쉽게 하기 위해, 난이도 점수를 해당하는 설명적인 이름과 목표치, 그리고 난이도에 대한 일반적인 조언과 연결해주는 [일 난이도 표](#일-난이도-표)를 사용하십시오.
 
 모든 난이도는 1부터 10까지이며 해당하는목표치가 있습니다. 목표치는 외우기 쉽습니다: 항상 난이도에 3을 곱한 값입니다. 목표치는 일에서 성공하기 위해 d20을 굴려서 나와야 하는 최솟값입니다. 표 위에서 위나 아래로 움직이는 걸 난이도를 올리거나 낮춘다고 하고, 이는 단계로 측정합니다. 예를 들어 난이도 5짜리 일을 난이도 4짜리 일로 떨어트리는 것은 "난이도를 한 단계 낮춘다"고 합니다.
@@ -105,6 +108,7 @@ createdAt: "2022-11-17T07:31:02.290Z"
 난이도를 정할 때에는 캐릭터의 능력보다는 일 자체로 얻는 이득을 따라서 정해야 합니다. 난이도는 상대적이지 않습니다. 레벨4 짜리 잠긴 문은 누가 열려고 시도하더라도 여전히 똑같습니다.
 
 ### 난이도 조정하기
+
 캐릭터의 기능들, 우호적인 상황, 혹은 탁월한 장비는 일의 난이도를 낮출 수 있습니다. 예를 들어, 캐릭터가 등반에 익숙하다면 난이도 6짜리 등반을 난이도 5인 등반으로 바꿀 수 있습니다. 이는 "일을 난이도를 한 단계 낮춘다."고 부릅니다. 등반에 능숙하다면, 난이도 6짜리 등반을 난이도 4짜리 등반으로 만들 수 있습니다. 이는 "일의 난이도를 두 단계 낮춘다"고 부릅니다.
 
 기능은 등반이나 지리, 혹은 설득과 같은 일과 관련된 지식, 능력, 활동의 한 범주입니다. 기능을 가진 캐릭터는 그 기능이 없는 캐릭터보다 관련된 일을 더 잘 해낼 수 있습니다. 캐릭터가 가진 기능의 수준은 익숙(적당한 숙련)이거나 능숙(매우 숙련) 중 하나입니다.
@@ -116,6 +120,7 @@ createdAt: "2022-11-17T07:31:02.290Z"
 정리하면, 세 가지로 일의 난이도를 낮출 수 있습니다: 기능, 보탬, 그리고 분발입니다. 일의 난이도를 0으로 떨어트릴 수 있다면, 자동으로 성공하고, 주사위를 굴리지 않아도 됩니다.
 
 ## 전투
+
 전투에서 공격을 하는 것은 다른 판정이랑 똑같이 작동합니다: 마스터는 그 일에 난이도를 지정하고, d20을 하나 굴려서 해당하는 목표치를 넘는지 봅니다.
 
 공격 판정의 난이도는 적이 얼마나 강한지에 달려 있습니다. 일이 1부터 10까지의 난이도가 있는 것처럼, 생물은 1부터 10까지 레벨이 있습니다. 대부분의 경우, 공격의 난이도는 생물의 레벨과 같습니다. 예를 들어 레벨 2짜리 도적을 공격하면, 난이도 2짜리 일이고, 목표치는 6입니다.
@@ -124,39 +129,43 @@ createdAt: "2022-11-17T07:31:02.290Z"
 
 공격이 가하는 피해는 무기나 사용한 공격에 따라 정해지는 평범한 숫자입니다. 예를 들어 창은 항상 4점의 피해를 줍니다.
 
-장갑 능력치는 당신을 향한 공격에서 입는 피해를 줄여줍니다. 장갑은 물리적 갑옷이나 (튼튼한 가죽 조끼나 사슬갑옷 같은) 특수 능력으로 얻습니다. 무기의 피해와 마찬가지로, 장갑은 평범한 숫자이고, 주사위를 굴리지 않습니다. 공격을 받으면, 입는 피해에서 장갑 만큼을 뺍니다. 예를 들어 가죽 조끼는 1점의 장갑을 주는데, 이는 공격에서 1점의 피해를 덜 입는다는 뜻입니다. 만약에 도적이 나이프로 2점의 피해를 주었는데, 가죽 조끼를 입고 있다면, 1점의 피해를 입습니다. 만약 장갑이 공격에서 오는 피해를 0으로 줄여주면, 그 공격에서는 피해를 입지 않습니다. 
+장갑 능력치는 당신을 향한 공격에서 입는 피해를 줄여줍니다. 장갑은 물리적 갑옷이나 (튼튼한 가죽 조끼나 사슬갑옷 같은) 특수 능력으로 얻습니다. 무기의 피해와 마찬가지로, 장갑은 평범한 숫자이고, 주사위를 굴리지 않습니다. 공격을 받으면, 입는 피해에서 장갑 만큼을 뺍니다. 예를 들어 가죽 조끼는 1점의 장갑을 주는데, 이는 공격에서 1점의 피해를 덜 입는다는 뜻입니다. 만약에 도적이 나이프로 2점의 피해를 주었는데, 가죽 조끼를 입고 있다면, 1점의 피해를 입습니다. 만약 장갑이 공격에서 오는 피해를 0으로 줄여주면, 그 공격에서는 피해를 입지 않습니다.
 
 장갑(Armor)이라는 단어를 게임 규칙에서 보면 (특수 능력의 이름을 제외하고), 이는 캐릭터의 장갑 능력치-들어오는 피해에서 빼는 숫자-를 가리킵니다. 갑옷(armor)이라는 단어를 보면, 몸에 걸치는 물리적 갑옷을 가리킵니다.
 
 전형적인 물리적 무기는 세 가지 범주로 나눠집니다:
 소형, 중형, 그리고 대형입니다.
 
-**소형 무기** 2점의 피해만 가하지만, 빠르고 사용하기 쉽기 때문에 공격 판정의 난이도를 한 단계 낮춰줍니다. but they ease the attack roll by one step because they are fast and easy to use. 소형무기는 주먹질, 발차기, 몽둥이, 단검, 손도끼, 레이피어 등등 입니다. 특별히 작은 무기는 소형 무기입니다.
+**소형 무기** 2점의 피해만 가하지만, 빠르고 사용하기 쉽기 때문에 공격 판정의 난이도를 한 단계 낮춰줍니다. 소형 무기는 주먹질, 발차기, 몽둥이, 단검, 손도끼, 레이피어 등입니다. 특별히 작은 무기는 소형 무기입니다.
 
 **중형 무기** 4점의 피해를 가합니다. 중형 무기는 대검, 전투도끼, 메이스, 쇠뇌, 창, 등등입니다. 대부분의 무기는 중형입니다. 한 손으로 쓸 수 있는 무기는 (육척봉이나 창처럼 보통 한 손으로 쓰는 무기라 해도) 중형 무기입니다.
 
 **대형 무기** 6점의 피해를 가하고, 공격하려면 무조건 두 손을 다 써야 합니다. 대형 무기는 양손검, 대형 망치, 대형 도끼, 할버드, 거대 쇠뇌, 등등입니다. 두 손으로 써야 하는 무기는 대형 무기입니다.
 
 ### 공격 수정치와 특수 상황
+
 전투 상황에서 많은 수정치가 플레이 속으로 끼어듭니다. 마스터는 상황에 적합하다고 생각하는 수정치라면 무엇이든 적용할 수 있는 자유가 있습니다. (이는 게임에서 마스터의 역할입니다) 수정치는 자주 난이도의 단계로 적용됩니다. 그래서 만약 상황이 공격을 방해한다면, PC가 NPC를 공격할 때에는, 공격 판정의 난이도가 한 단계 올라간다는 뜻이고, NPC가 PC를 공격 할 때에는, 방어 판정의 난이도가 한 단계 낮아진다는 뜻입니다. 이는 플레이어가 모든 판정을 하기 때문에, 공격이던 방어든- NPC는 공격이나 방어 판정을 하지 않기 때문입니다. 의심이 갈 때에는, 어떤 상황에서 공격이 어려워야 할 것 같다면, 공격 판정은 한 단계 난이도가 높아집니다. 공격이 이득을 얻거나 어떤 식으로든 쉬워진다면, 방어 판정은 한 단계 난이도가 높아집니다.
 
 > 원문에는 방어 판정이 쉬워진다고 잘못 쓰여 있는데, 출판된 사이퍼 시스템 룰 북을 보면 방해(hinder)가 된다고 적혀 있어서 정정했습니다.
 
 ### 피해를 주고 받기
+
 캐릭터가 공격에 맞으면, 이는 보통 캐릭터가 피해를 입는다는 뜻입니다. PC에 대한 공격은 캐릭터의 특성치 역량-보통은 힘 역량-에서 점수를 뺍니다. 언제든 공격이 유형을 특정하지 않고 "피해를 준다"고만 말하면, 이는 가장 흔한 유형인 힘 피해를 의미합니다.
 
 보통 정신 공격의 결과인 정신 피해는 항상 정신 피해라고 적혀 있습니다. 속력 피해는 보통 물리적 공격인데, 하지만 속력 피해를 주는 공격은 꽤 드뭅니다.
 
 NPC는 특성치 역량이 없습니다. 대신 체력(health)이라 부르는 능력치가 있습니다. NPC가 어떤 종류라도 피해를 입으면, 그 분량만큼 체력에서 뺍니다. 따로 말하지 않으면, NPC의 체력은 항상 목표치와 같습니다. 어떤 NPC는 속력 피해나 지성 피해를 줄만한 공격에 대해 특별한 반응이나 방어를 가지고 있을지 모르지만, NPC의 설명에서 특별히 이를 설명하지 않는 한, 모든 피해는 체력에서 뺀다고 간주하십시오.
 
-물체는 PC의 부상트랙과 유사하게 작동하는 부상 트랙을 이 있습니다. 물체를 근접 무기로 공격하는 건 물체의 레벨에 대한 힘 행동입니다.
+물체는 PC의 부상 트랙과 비슷하게 작동하는 자체 부상 트랙을 가집니다. 물체를 근접 무기로 공격하는 것은 물체의 레벨에 대한 힘 행동입니다.
 
 앞서 말했듯이 피해는 항상 공격에 의해 정해지는 특정한 양입니다. 예를 들어 대검으로 베는 것은 4점의 피해를 가합니다. 나노의 쇄도는 4점의 피해를 줍니다. 자주, 공격자가 피해를 증가시키는 방법이 있습니다. 예를 들어 PC가 분발해서 3점의 피해를 더 주거나, 공격 판정에 순수 17이 나와도 1점의 추가 피해를 줍니다.
 
 ### 주변 피해
+
 어떤 종류의 피해는 생물에 대한 직접적인 공격이 아니라, 간접적으로 영역 내에 있는 모두에게 영향을 줍니다. 대부분은 겨울의 추위, 고온, 배경 복사와 같은 환경 효과입니다. 이런 원천에서 오는 피해는 주변 피해라 부릅니다. 물리적 장겁은 보통 주변 피해로부터 보호해주지 못하지만, 잘 단열된 옷은 추운 날씨로부터 보호해줄지도 모릅니다.
 
 ### 피해의 효과
+
 NPC가 체력 0에 이르면, 죽거나 (공격자가 바란다면) 무력화되거나, 의식을 잃거나 패배시켜 항복하게 만든다는 뜻일 수도 있습니다. 앞에서 말했듯이, 대부분의 원천에서 오는 피해는 캐릭터의 힘 역량에 적용합니다. 한편 특성 피해는 항상 영향을 받는 특성의 역량을 줄입니다. 만약 피해가 캐릭터의 특성치 역량을 0으로 만들면 그 역량에 들어가는 피해는 그 이후로 (특성치 역량을 0으로 만드는 공격에서 오는 초과 피해를 포함해) 다른 특성치 역량에 적용합니다. 피해는 역량에 다음과 같은 순서로 적용합니다.
 
 1. 힘 역량 (이 역량이 0이 아니라면)
@@ -165,12 +174,12 @@ NPC가 체력 0에 이르면, 죽거나 (공격자가 바란다면) 무력화되
 
 비록 피해가 다른 특성치 역량에 적용되더라도, 이는 여전히 장갑이나 피해에 영향을 주는 특수 능력을 위해 쓸 때에는 원래 유형으로 칩니다. 예를 들어 한 글레이브가 장갑 2를 가지고 있는데 괴물의 발톱이 3점의 피해를 줘서 힘 역량이 0으로 떨어지면, 이는 여전히 힘 피해로 치고, 장갑 2가 피해를 2점으로 줄여주고, 이는 속력 역량에 적용합니다. 다르게 말하면 글레이브는 피해를 속력 역량에서 받긴 하지만, 속력 피해가 보통 그러는 것처럼 장갑을 무시하진 않습니다.
 
-
 <div class="numenera-box">
 <div>
 <div>
 
 ### 부상 트랙
+
 **건강**은 캐릭터에게 기본 상태입니다: 모든 세 특성치 역량이 최소 1 이상이고, PC는 해로운 상태에서 제한을 받는 것도 없습니다. 만약 건강한 PC가 특성치 역량 중에 하나를 0으로 줄이기에 충분한 피해를 입게 되면, 중상을 입습니다. 캐릭터의 특성치 역량이 기본 상태보다 아무리 낮아져도, 여전히 건강할 수 있다는 걸 유의하십시오.
 
 <br/>
@@ -189,7 +198,6 @@ NPC가 체력 0에 이르면, 죽거나 (공격자가 바란다면) 무력화되
 
 **사망**은 죽은 것입니다.
 
-
 </div>
 </div>
 </div>
@@ -204,95 +212,45 @@ NPC가 체력 0에 이르면, 죽거나 (공격자가 바란다면) 무력화되
 
 ### 사물 부상 트랙
 
-Intact is the default state for an object.
-Minor damage is a slightly damaged state.
-An object with minor damage reduces its
-level by 1.
-Major damage is a critically damaged state.
-An object with major damage is broken and
-no longer functions.
-Destroyed is destroyed. The object is ruined,
-no longer functions, and cannot be repaired.
-If the Might action to damage an object is
-a success, the object moves one step down
-the object damage track. If the Might roll
-exceeded the difficulty by 2 levels, the object
-instead moves two steps down the object
-damage track. If the Might roll exceeded the
-difficulty by 4 levels, the object instead moves
-three steps down the object damage track.
+**온전**은 사물의 기본 상태입니다.
+**경미한 피해**는 약간 손상된 상태입니다. 경미한 피해를 입은 사물은 레벨이 1 낮아집니다.
+**심한 피해**는 심각하게 손상된 상태입니다. 심한 피해를 입은 사물은 부서져 더 이상 기능하지 않습니다.
+**파괴**는 파괴된 것입니다. 사물은 망가지고 기능하지 않으며 수리할 수 없습니다.
+사물에 피해를 주는 힘 행동이 성공하면, 사물 부상 트랙에서 한 단계 아래로 내려갑니다. 힘 굴림이 난이도보다 2단계 높게 나왔다면, 대신 사물 부상 트랙에서 두 단계 아래로 내려갑니다. 힘 굴림이 난이도보다 4단계 높게 나왔다면, 대신 사물 부상 트랙에서 세 단계 아래로 내려갑니다.
 
 </div>
 </div>
 </div>
 
 ### 역량 점수 회복하기
-After losing or spending points in a Pool, you
-recover those points by resting. You can’t
-increase a Pool past its maximum by resting—
-just back to its normal level. Any extra points
-gained go away with no effect. The amount of
-points you recover from a rest, and how long
-each rest takes, depends on how many times you
-have rested so far that day.
-When you rest, make a recovery roll. To do
-this, roll 1d6 + 1. You recover that many points,
-and you can divide them among your stat Pools
-however you wish. For example, if your recovery
-roll is 4 and you’ve lost 4 points of Might and
-2 points of Speed, you can recover 4 points
-of Might, or 2 points of Might and 2 points of
-Speed, or any other combination adding up to 4
-points.
-The first time you rest each day, it takes only a
-few seconds to catch your breath. If you rest this
-way in the middle of an encounter, it takes one
-action on your turn.
-The second time you rest each day, you must
-rest ten minutes to make a recovery roll. The third
-time you rest each day, you must rest one hour to
-make a recovery roll. The fourth time you rest each
-day, you must rest ten hours to make a recovery
-roll (usually, this occurs when you sleep).
-After that much rest, it’s assumed to be a new
-day (Ninth World days are 28 hours long), so the
-next time you rest, it takes only a few seconds.
-The next rest takes ten minutes, then one hour,
-and so on, in a cycle.
-If you haven’t rested yet that day and you take
-a lot of damage in a fight, you could rest a few
-seconds (regaining 1d6 points + 1)
-and then immediately rest for ten minutes
-(regaining another 1d6 points + 1). Thus, in one
-full day of doing nothing but resting, you could
-recover 4d6 points + 4 points.
-Each character chooses when to make
-recovery rolls. If a party of five explorers rests for
 
-ten minutes because two members want to make
-recovery rolls, the other characters don’t have to
-make rolls at that time. Later in the day, those
-three can decide to rest for ten minutes and
-make recovery rolls.
+역량에서 점수를 잃거나 썼다면, 휴식으로 그 점수를 회복합니다. 휴식으로 역량을 최대치를 넘겨 올릴 수는 없습니다. 단지 평소 수준으로만 돌아옵니다. 남는 점수는 효과 없이 사라집니다. 휴식 한 번에 회복하는 점수와 각 휴식에 걸리는 시간은 그날 지금까지 휴식을 몇 번 했는지에 따라 달라집니다.
 
-Recovery Roll Rest Time Needed
-First recovery roll One action
-Second recovery roll Ten minutes
-Third recovery roll One hour
-Fourth recovery roll Ten hours
-Using points from a recovery roll to raise a
-stat Pool from 0 to 1 or higher also automatically
-moves the character up one step on the damage
-track.
-If all of a PC’s stat Pools are above 0 and the
-character has taken special damage that moved
-them down the damage track, they can use a
-recovery roll to move up one step on the damage
-track instead of recovering points. For example,
-a Jack who is debilitated from a hit with a celldisrupting numenera device can rest and move up
-to impaired rather than recover points in a Pool.
+휴식할 때는 회복 굴림을 합니다. 1d6+1을 굴립니다. 그만큼의 점수를 회복하며, 힘·속력·지성 역량에 원하는 대로 나누어 넣을 수 있습니다. 예를 들어 회복 굴림이 4이고 힘 4점·속력 2점을 잃었다면, 힘 4점만 회복하거나 힘 2·속력 2로 나누거나, 합이 4가 되는 다른 조합도 가능합니다.
+
+하루에 처음 휴식할 때는 숨을 고르는 데 몇 초면 됩니다. 조우 중에 이렇게 휴식하면, 자신의 차례에 행동 하나를 씁니다.
+
+하루에 두 번째 휴식은 회복 굴림을 하려면 10분을 쉬어야 합니다. 세 번째는 1시간, 네 번째는 10시간(보통 잠을 잘 때)이 필요합니다.
+
+그만큼 쉬고 나면 새로운 하루로 간주합니다(아홉 번째 세계의 하루는 28시간입니다). 그다음 휴식은 다시 몇 초면 되고, 그다음은 10분, 1시간…… 이런 식으로 순환합니다.
+
+그날 아직 휴식하지 않았는데 전투에서 큰 피해를 입었다면, 몇 초 휴식(1d6+1점 회복)을 한 뒤 곧바로 10분 휴식(또 1d6+1점 회복)을 할 수 있습니다. 하루 종일 휴식만 한다면 최대 4d6+4점까지 회복할 수 있습니다.
+
+회복 굴림을 언제 할지는 각 캐릭터가 정합니다. 탐험가 다섯이 한 파티인데 두 명만 회복 굴림을 하려고 10분 휴식을 한다면, 나머지는 그때 굴릴 필요가 없습니다. 나중에 그 세 명이 10분 쉬고 회복 굴림을 해도 됩니다.
+
+| 회복 굴림         | 필요한 휴식 시간 |
+| ----------------- | ---------------- |
+| 첫 번째 회복 굴림 | 행동 하나        |
+| 두 번째 회복 굴림 | 10분             |
+| 세 번째 회복 굴림 | 1시간            |
+| 네 번째 회복 굴림 | 10시간           |
+
+회복 굴림으로 얻은 점수로 역량을 0에서 1 이상으로 올리면, 부상 트랙도 자동으로 한 단계 올라갑니다.
+
+PC의 모든 역량이 0보다 크고, 특수 피해로 부상 트랙만 내려간 상태라면, 점수를 회복하는 대신 회복 굴림으로 부상 트랙을 한 단계 올릴 수 있습니다. 예를 들어 세포 파괴 누메네라 장치에 맞아 치명상이 된 잭은 잠시 쉬어 중상으로만 올리고 역량 점수는 회복하지 않을 수 있습니다.
 
 ## 특수 효과
+
 주사위를 굴려서 순수 19(natural 19)가 나오고(d20 주사위에서 19가 보일 때) 그리고 판정이 성공이면, 작은 이득(minor effect)을 받습니다. 전투에서, 작은 이득은 3점의 피해를 공격에 더하거나, 특별한 결과를 원하면, 적을 뒤로 밀어내거나, 교란시키거나, 비슷한 걸 할 수 있습니다. 전투가 아니라면 작은 이득은 우아하게 어떤 일을 해낸 것이 됩니다. 예를 들어 절벽 끝에서 뛰어내렸다면, 두 다리로 부드럽게 착지한 것이고, 또 누군가를 설득하려 했다면, 그들은 당신이 실제보다 더 똑똑하게 보인 겁니다. 다르게 말하면 성공했을 뿐만 아니라 그 이상으로 조금 더 나아간 것입니다.
 
 주사위를 굴려서 순수 20이 나온다면(d20 주사위에서 20이 보일 때) 그리고 판정이 성공했다면, 마찬가지로 큰 이득(major effect)을 받습니다. 이는 작은 이득과 비슷합니다만, 결과는 더 놀랍습니다. 전투에서, 큰 이득은 4점의 피해를 더 가하거나, 또 마찬가지로, 적을 넘어트리거나, 멍하게 만들거나, 추가 행동을 하는 등 극적인 상황을 만들 수도 있습니다. 전투 외에는, 큰 이득은 상황에 따라 뭔가 유익한 일을 뜻합니다. 예를 들어 절벽을 등반하고 있다면, 2배는 빠르게 올라가게 됩니다. 판정으로 큰 이득이 나왔을 때, 원한다면 작은 이득의 효과를 대신 사용할 수도 있습니다.
@@ -301,346 +259,109 @@ to impaired rather than recover points in a Pool.
 
 판정에 순수 1이 나오는 건 항상 나쁩니다. 이는 마스터가 새로운 난관을 더한다는 뜻입니다. 이를 마스터 개입이라 합니다.
 
-|     |                                                              |
-| --- | ------------------------------------------------------------ |
-| 1   | Intrusion. The GM makes a free intrusion (see below) and doesn’t award experience points (XP) for it.
-| 17  | Damage Bonus. If the roll was an attack, it deals 1 additional point of damage.                      
-| 18  | Damage Bonus. If the roll was an attack, it deals 2 additional points of damage.                     
-| 19  | Minor Effect. If the roll was an attack, it deals 3 additional points of damage. If the roll was something other than an attack, the PC gets a minor effect in addition to the normal results of the task. |
-| 20  | Major Effect. If the roll was an attack, it deals 4 additional points of damage. If the roll was something other than an attack, the PC gets a major effect in addition to the normal results of the task. If the PC spent points from a stat Pool on the action, the point cost for the action decreases to 0, meaning the character regains those points as if they had not been spent at all. |
+|     |                                                                                                                                                                                                                                 |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | 개입. 마스터가 무료 개입을 한 번 합니다(아래 참고). 이때 경험치(XP)는 주지 않습니다.                                                                                                                                            |
+| 17  | 피해 보너스. 공격 굴림이면 피해가 1점 추가됩니다.                                                                                                                                                                               |
+| 18  | 피해 보너스. 공격 굴림이면 피해가 2점 추가됩니다.                                                                                                                                                                               |
+| 19  | 작은 이득. 공격 굴림이면 피해가 3점 추가됩니다. 공격이 아닌 판정이면, 일의 통상 결과에 더해 PC가 작은 이득을 얻습니다.                                                                                                          |
+| 20  | 큰 이득. 공격 굴림이면 피해가 4점 추가됩니다. 공격이 아닌 판정이면, 일의 통상 결과에 더해 PC가 큰 이득을 얻습니다. 그 행동에 역량 점수를 썼다면, 그 행동의 점수 비용은 0이 되어 마치 쓰지 않은 것처럼 그 점수를 되돌려받습니다. |
 
 ## 마스터 개입
-GM intrusion reflects when something in the
-story occurs to complicate the character’s life.
-The character hasn’t necessarily fumbled or
-done anything wrong (although perhaps they
-did). It could just be that the task presents an
-unexpected difficulty or something unrelated
-affects the current situation.
+
+마스터 개입은 이야기 속에서 캐릭터의 처지를 복잡하게 만드는 일이 벌어질 때를 담습니다. 캐릭터가 실수했거나 잘못한 것은 아닐 수도 있습니다(물론 그럴 수도 있습니다). 일에 뜻밖의 난관이 생기거나, 관계없는 일이 지금 상황에 영향을 줄 뿐일 수도 있습니다.
 
 <div class="numenera-box">
 <div>
 <div>
 
 ## 협동
-If you use your action to help someone with a task, you ease the task. If you have an inability in a task, your help has no
-effect. If you use your action to help someone with a task that you are trained or specialized in, the task is eased by two
-steps. Help is considered an asset, and someone receiving help usually can’t gain more than two assets on a single task if
-that help is provided by another character.
-For example, if Veterian the Glaive is trying to climb a steep incline and Jethua the Jack (who is trained in climbing)
-spends her turn helping him, Veterian can decrease the difficulty of the task by two steps.
+
+자신의 행동으로 누군가의 일을 돕는다면, 그 일을 한 단계 완화합니다. 그 일에 무능이 있다면 도움은 효과가 없습니다. 훈련되거나 능숙한 일을 돕기 위해 행동을 쓴다면, 일은 두 단계 완화됩니다. 도움은 보탬으로 취하며, 다른 캐릭터의 도움으로 받는 보탬은 보통 한 일당 두 개를 넘기기 어렵습니다.
+
+예를 들어 글레이브 베테리안이 가파른 비탈을 오르려 하고, 등반에 훈련된 잭 제투아가 자신의 차례를 써서 그를 돕는다면, 베테리안은 그 일의 난이도를 두 단계 낮출 수 있습니다.
 
 </div>
 </div>
 </div>
 
-> Help is considered an asset, and someone receiving help usually can’t gain more than two assets on a single task if that help is provided by another character. 
+> 도움은 보탬으로 취하며, 다른 캐릭터의 도움으로 받는 보탬은 보통 한 일당 두 개를 넘기기 어렵습니다.
 
-At any time, the GM can introduce an
-unexpected complication for a character. For
-example, an enemy might appear and attack,
-the rope the character is climbing might snap,
-or an unstable floor might give out beneath a
-character’s feet. A GM intrusion always puts
-the spotlight on that one character, and when
-the GM finishes explaining what the sudden,
-surprising turn of events is, they ask that player,
-“Now what do you do?” They player must deal
-with this new complication.
-When the GM intrudes in this manner, they
-must give the affected character 2 XP. That
-player, in turn, must immediately give one of
-those XP to another player and justify the gift
-(perhaps the other player had a good idea, told a
-funny joke, performed an action that saved a life,
-and so on).
-As a general rule, the GM should intrude at
-least once each session, but probably no more
-than once or twice each session per character.
-Anytime the GM intrudes, the player can spend
-1 XP to refuse the intrusion, though that also
-means they don’t get the 2 XP. If the player has no
-XP to spend, they can’t refuse the intrusion.
-Example Intrusion: Through skill and the aid of
-another character, a PC eases a wall climbing
-task from difficulty 2 to difficulty 0. Normally,
-they would succeed at the task automatically,
-but the GM intrudes and says, “No, a bit of the
-crumbling wall gives way, so you still have to
-make a roll.” As with any difficulty 2 task, the
-target number is 6. The PC attempts the roll
-as normal, and because the GM intruded, the
-character gains 2 XP. They immediately give one
-of those XP to another player.
-Another Example Intrusion: During a fight, a
-PC swings their axe and damages a foe with a
-slice across the shoulder. The GM intrudes by
-saying that the foe turned just as the axe struck,
-wrenching the weapon from the character’s grip
-and sending it clattering across the floor. The
-axe comes to a stop 10 feet (3 m) away. Because
-the GM intruded, the PC gains 2 XP, and they
-immediately give one of those XP to another
-player. Now the character must deal with the
-dropped weapon, perhaps drawing a different
-weapon or using their next turn to scramble after
-the axe.
+마스터는 언제든 캐릭터에게 뜻밖의 난관을 덧붙일 수 있습니다. 예를 들어 적이 나타나 공격하거나, 오르는 밧줄이 끊기거나, 발밑의 바닥이 무너질 수 있습니다. 마스터 개입은 항상 그 캐릭터에게 초점을 맞추고, 마스터가 갑작스러운 전개를 설명한 뒤 그 플레이어에게 “이제 어떻게 할 거야?”라고 묻습니다. 플레이어는 이 새 난관에 맞서야 합니다.
 
-If a character rolls a 1 on a die, the GM can
-intrude without giving the character any XP. This
-kind of intrusion happens immediately or very
-soon thereafter.
+이런 식으로 마스터가 개입하면, 영향을 받은 캐릭터에게 XP 2점을 줘야 합니다. 그 플레이어는 곧바로 그중 1점을 다른 플레이어에게 주고, 그 이유를 말합니다(좋은 아이디어, 웃긴 농담, 목숨을 구한 행동 등).
+
+원칙적으로 마스터는 세션마다 최소 한 번은 개입하는 것이 좋고, 캐릭터당 세션에 한두 번을 넘기지 않는 편이 좋습니다. 마스터가 개입할 때마다 플레이어는 XP 1점을 내어 개입을 거부할 수 있지만, 그러면 XP 2점도 받지 못합니다. 낼 XP가 없으면 거부할 수 없습니다.
+
+**개입 예:** 다른 캐릭터의 도움과 기능으로 PC가 벽 오르기 일을 난이도 2에서 0으로 만들었다고 합시다. 원래는 자동 성공이지만, 마스터가 개입해 “아니, 무너지는 벽 한 조각이 떨어져서 여전히 굴려야 해.”라고 합니다. 난이도 2 일이므로 목표치는 6입니다. PC는 평소처럼 굴리고, 마스터가 개입했으므로 캐릭터는 XP 2점을 받고, 곧바로 그중 1점을 다른 플레이어에게 줍니다.
+
+**또 다른 예:** 전투 중 PC가 도끼를 휘둘러 적의 어깨를 베었습니다. 마스터는 도끼가 맞는 순간 적이 돌아서면서 손아귀에서 무기가 빠져 바닥으로 굴러갔다고 개입합니다. 도끼는 10피트(3m) 밖에서 멈춥니다. 마스터가 개입했으므로 PC는 XP 2점을 받고 곧바로 1점을 다른 플레이어에게 줍니다. 이제 캐릭터는 떨어진 무기를 어떻게 할지—다른 무기를 꺼내거나 다음 차례에 도끼를 줍는 등—대응해야 합니다.
+
+주사위에 1이 나오면, 마스터는 XP를 주지 않고 개입할 수 있습니다. 이런 개입은 즉시 또는 곧바로 이어집니다.
 
 ## 거리와 속도
-Distance is simplified into three categories:
-immediate, short, and long.
-IMMEDIATE DISTANCE from a character is
-within reach or within a few steps. If a character
-stands in a small room, everything in the room is
-within immediate distance. At most, immediate
-distance is 10 feet (3 m).
-SHORT DISTANCE is anything greater than
-immediate distance but less than 50 feet
-(15 m) or so.
-LONG DISTANCE is anything greater than short
-distance but less than 100 feet (30 m) or so.
-VERY LONG distance is anything greater than
-long distance but less than 500 feet (150 m) or
-so.
-Beyond that range, distances are always
-specified—1000 feet (300 m), 1 mile (1.6 km),
-and so on.
-The idea is that it’s not necessary to measure
-precise distances. Immediate distance is right
-there, practically next to the character. Short
-distance is nearby. Long distance is farther off.
-All weapons and special abilities use these
-terms for ranges. For example, all melee
-weapons have immediate range—they are
-close-combat weapons, and you can use them
-to attack anyone within immediate distance of
-you. A thrown knife (and most other thrown
-weapons) has short range. A bow has long range.
-A Nano’s Onslaught ability also has short range.
-A character can move an immediate distance
-as part of another action. In other words, they
-can take a few steps over to the control panel
-and activate a switch. They can lunge across a
-small room to attack a foe. They can open a door
-and step through.
 
-A character can move a short distance as their
-entire action for a turn. They can also try to move
-a long distance as their entire action, but the
-player might have to roll to see if their character
-slips, trips, or stumbles as the result of moving
-so far so quickly.
-For example, if the PCs are fighting a group
-of abhumans, any character can likely attack
-any abhuman in the general melee—they’re
-all within immediate range. Exact positions
-aren’t important. Creatures in a fight are always
-moving, shifting, and jostling, anyway. However,
-if one abhuman stayed back to use its crossbow,
-a character might have to use their entire action
-to move the short distance required to attack
-that foe. It doesn’t matter if the abhuman is 20
-feet (6 m) or 40 feet (12 m) away—it’s simply
-considered short distance. It does matter if
-the abhuman is more than 50 feet (15 m) away
-because that distance would require a long
-move.
+거리는 세 가지로 단순화합니다: **직접(immediate)**, **짧은(short)**, **긴(long)** 거리입니다.
+
+**직접 거리**는 캐릭터에게 닿거나 몇 걸음 안입니다. 작은 방에 서 있으면 방 안의 모든 것이 직접 거리 안에 있습니다. 직접 거리는 많아야 10피트(3m)입니다.
+
+**짧은 거리**는 직접 거리보다 멀고 대략 50피트(15m) 미만입니다.
+
+**긴 거리**는 짧은 거리보다 멀고 대략 100피트(30m) 미만입니다.
+
+**아주 긴(very long) 거리**는 긴 거리보다 멀고 대략 500피트(150m) 미만입니다.
+
+그보다 더 멀면 거리를 항상 구체적으로 말합니다—1000피트(300m), 1마일(1.6km) 등.
+
+정밀하게 잴 필요는 없다는 뜻입니다. 직접 거리는 바로 옆, 짧은 거리는 가까이, 긴 거리는 더 멀리입니다.
+
+모든 무기와 특수 능력의 사거리도 이 용어를 씁니다. 예를 들어 모든 근접 무기는 직접 사거리—근접 무기이므로 직접 거리 안의 누구에게나 쓸 수 있습니다. 던지는 칼(다른 투척 무기 대부분도)은 짧은 사거리, 활은 긴 사거리입니다. 나노의 맹습(Onslaught) 능력도 짧은 사거리입니다.
+
+캐릭터는 다른 행동의 일부로 직접 거리만큼 이동할 수 있습니다. 조작판까지 몇 걸음 가서 스위치를 켜거나, 작은 방을 가로질러 적에게 달려들거나, 문을 열고 나갈 수 있습니다.
+
+한 차례의 전부 행동으로 짧은 거리만큼 이동할 수 있습니다. 전부 행동으로 긴 거리만큼 이동하려고 할 수도 있지만, 그렇게 멀리 빨리 움직이다 미끄러지거나 걸려 넘어질지 플레이어가 굴려 볼 수 있습니다.
+
+예를 들어 PC들이 아휴먼 무리와 싸울 때, 난전에서는 누구든 아무 아휴먼이나 공격할 수 있을 만큼 모두 직접 거리 안에 있다고 볼 수 있습니다. 정확한 위치는 중요하지 않습니다. 전투 중 생물은 어차피 계속 움직입니다. 다만 아휴먼 하나가 뒤에 남아 쇠뇌를 쓴다면, 그 적을 공격하려면 짧은 거리만큼 가는 데 행동 전체를 써야 할 수 있습니다. 아휴먼이 20피트(6m)든 40피트(12m)든 짧은 거리로만 보면 됩니다. 50피트(15m)보다 멀면 긴 이동이 필요하다는 점은 중요합니다.
 
 ## 초점 장면, 라운드, 행동 순서
-Sometimes in the course of the game, the GM
-or players will refer to an encounter. Encounters
-are not so much measurements of time as they
-are events or instances in which something
-happens, like a scene of a movie or a chapter in a
-book. An encounter might be a fight with a foe, a
-dramatic crossing of a raging river, or a stressful
-negotiation with an important official. It’s useful
-to use the word when referring to a specific
-scene, as in “My Might Pool is low after that
-encounter with the blacktusk yesterday.”
-A round is about five to ten seconds. The
-length of time is variable because sometimes
-one round might be a bit longer than another.
-You don’t need to measure time more precisely
-than that. You can estimate that on average there
-are about ten rounds in a minute. In a round,
-everyone—each character and NPC—gets to
-take one action.
-To determine who goes first, second, and so
-on in a round, each player makes a Speed roll
-called an initiative roll. Most of the time, it’s only
-important to know which characters act before
-the NPCs and which act after the NPCs. On an
-initiative roll, a character who rolls higher than
-an NPC’s target number takes their action before
-the NPC does. As with all target numbers, an
-NPC’s initiative roll target number is three times
-the NPC’s level. Many times, the GM will have all
-NPCs take their actions at the same time, using
-the highest target number from among all the
-NPCs. Using this method, any characters who
-rolled higher than the target number act first,
-then all the NPCs act, and finally any characters
-who rolled lower than the target number act.
-The order in which the characters act usually
-isn’t important. If the players want to go in a
-precise order, they can act in initiative order
-(highest to lowest), by going around the table, by
-going oldest to youngest, and so on.
-For example, Colin, James, and Shanna are
-in combat with two level 2 abhumans. The GM
-has the players make Speed rolls to determine
-initiative. Colin rolls an 8, Shanna rolls a 15, and
-James rolls a 4. The target number for a level 2
-creature is 6, so each round Colin and Shanna
-act before the abhumans, then the abhumans
-act, and finally James acts. It doesn’t matter
-whether Colin acts before or after Shanna, as
-long as they think it’s fair.
-After everyone—all PCs and NPCs—in the
-combat has had a turn, the round ends and a
-new round begins. In all rounds after the first,
-everyone acts in the same order as they did in
-the first round. The characters cycle through this
-order until the logical end of the encounter (the
-end of the fight or the completion of the event)
-or until the GM asks them to make new initiative
-rolls. The GM can call for new initiative rolls at
-the beginning of any new round when conditions
-drastically change. For example, if the NPCs
-gain reinforcements, the environment changes
-(perhaps the lights go out), the terrain changes
-(maybe part of the balcony collapses under the
-PCs), or something similar occurs, the GM can
-call for new initiative rolls.
-Since the action moves as a cycle, anything
-that lasts for a round ends where it started in the
-cycle. If Valleris the Nano uses an esotery on an
-opponent that hinders its defenses for one round,
-the effect lasts until Valleris acts on his next turn.
 
-> Special abilities you get
-from being a Glaive are
-called fighting moves.
-Nanos have esoteries,
-Jacks have tricks of
-the trade, Arkai have
-precepts, Delves have
-Delve lores, and Wrights
-have inspired techniques.
+플레이 중 마스터나 플레이어가 **조우(encounter)**라고 말할 때가 있습니다. 조우는 시간의 길이라기보다 무언가가 벌어지는 사건이나 장면—영화의 한 장면이나 책의 한 장처럼—에 가깝습니다. 조우는 적과의 싸움, 거세게 흐르는 강을 건너는 드라마틱한 장면, 중요한 관리와의 팽팽한 협상일 수 있습니다. “어제 블랙터스크랑 조우한 뒤로 힘 역량이 바닥이야.”처럼 특정 장면을 가리킬 때 쓰면 편합니다.
+
+**라운드**는 대략 5~10초입니다. 라운드마다 조금 길어질 수 있어 길이는 가변입니다. 그보다 정밀하게 잴 필요는 없습니다. 평균적으로 1분에 라운드가 열 번쯤 있다고 보면 됩니다. 한 라운드에 모두—각 캐릭터와 NPC—가 행동 하나씩 합니다.
+한 라운드에서 누가 먼저, 그다음인지 정하려면 각 플레이어가 **선제 굴림**이라 부르는 속력 판정을 합니다. 대부분은 어떤 캐릭터가 NPC보다 먼저 행동하고 누가 나중인지만 알면 됩니다. 선제 굴림에서 NPC의 목표치보다 높게 나온 캐릭터가 NPC보다 먼저 행동합니다. 모든 목표치처럼 NPC 선제 굴림 목표치도 NPC 레벨의 3배입니다. 마스터는 종종 모든 NPC가 동시에 행동하게 하고, NPC 전체 중 가장 높은 목표치를 씁니다. 이렇게 하면 목표치보다 높게 굴린 캐릭터들이 먼저 행동하고, 그다음 모든 NPC가 행동하고, 마지막으로 목표치보다 낮게 굴린 캐릭터들이 행동합니다.
+
+캐릭터끼리의 순서는 보통 중요하지 않습니다. 정확한 순서를 원하면 선제 순(높은 순), 테이블을 돌며, 나이 순 등으로 할 수 있습니다.
+
+예를 들어 콜린, 제임스, 샤나가 레벨 2 아휴먼 둘과 전투 중이라고 합시다. 마스터는 선제를 정하라고 속력 판정을 시킵니다. 콜린 8, 샤나 15, 제임스 4. 레벨 2 생물의 목표치는 6이므로 매 라운드 콜린과 샤나는 아휴먼보다 먼저 행동하고, 그다음 아휴먼, 마지막 제임스입니다. 콜린이 샤나보다 먼저인지는 공정하다고 느끼기만 하면 됩니다.
+
+전투에 참가한 모두—PC와 NPC—가 한 차례씩 끝나면 라운드가 끝나고 새 라운드가 시작됩니다. 첫 라운드 이후에는 모두 첫 라운드와 같은 순서로 행동합니다. 이 순서를 조우가 끝날 때까지(싸움이 끝나거나 사건이 완료될 때) 반복하거나, 마스터가 새 선제 굴림을 요구할 때까지입니다. 상황이 크게 바뀌면 새 라운드 시작 시 마스터가 새 선제 굴림을 요구할 수 있습니다. 예를 들어 NPC에게 증원이 들어오거나, 환경이 바뀌거나(불이 꺼진다든지), 지형이 바뀌거나(발코니 일부가 무너진다든지) 비슷한 일이 있으면 그렇습니다.
+
+행동이 순환하므로, “한 라운드” 동안 지속되는 효과는 순환에서 시작한 지점에서 끝납니다. 나노 발레리스가 상대의 방어를 한 라운드 동안 방해하는 이소테리를 쓰면, 효과는 발레리스가 다음 차례에 행동할 때까지입니다.
+
+> 글레이브는 **전투 기교(fighting moves)**라 부르는 특수 능력을 얻습니다. 나노는 **이소테리**, 잭은 **장단의 묘술**, 아르카이는 **예법(precepts)**, 델브는 **델브 지식(Delve lores)**, 라이트는 **영감 기법**을 씁니다.
 
 ## 상호작용
-Obviously, players can talk to each other all they
-want, and at least some of that conversation
-represents what the characters are saying to each
-other. Often, a PC will want to talk to an NPC. It
-might be to haggle with a shopkeeper, convince a
-guard to let them pass by, or just get information
-from someone in the know. This conversation
-is normally handled by the GM taking on the
-NPC role and talking things through. When
-a PC tries to convince an NPC of something,
-or when they try to deceive or intimidate the
-NPC, a roll is involved. This is handled just like
-anything else—use the level of the NPC as the
-difficulty, modified by the circumstances. Trying
-to convince a loyal soldier to disobey orders
-is harder than their level might indicate, but
-convincing the soldier that new orders have
-Special abilities you get
-from being a Glaive are
-called fighting moves.
-Nanos have esoteries,
-Jacks have tricks of
-the trade, Arkai have
-precepts, Delves have
-Delve lores, and Wrights
-have inspired techniques.
 
-
-come in might be normal. Skills like persuasion
-or deception might help, and of course Effort can
-be used (usually Intellect).
+플레이어는 서로 원하는 만큼 이야기할 수 있고, 그중 일부는 캐릭터끼리 하는 말이 됩니다. PC가 NPC와 말하고 싶을 때가 많습니다. 상인과 흥정하거나, 경비병을 설득해 지나가게 하거나, 아는 사람에게 정보를 얻는 식입니다. 이런 대화는 보통 마스터가 NPC 역을 맡아 진행합니다. PC가 NPC를 설득하거나 속이거나 위협하려 하면 굴림이 필요합니다. 다른 일과 같이—NPC의 레벨을 난이도로 삼고 상황에 맞게 수정합니다. 충성스러운 병사에게 명령을 거역하라고 설득하는 것은 레벨만으로는 어렵지만, 새 명령이 왔다고 믿게 하는 것은 보통 수준일 수 있습니다. 설득·기망 같은 기능이 도움이 되고, 분발은 물론 쓸 수 있습니다(보통 지성).
 
 ## 탐험과 발견
-Although fighting dangerous beasts or other
-foes can be interesting and exciting, much of
-gameplay in Numenera probably involves other
-situations: overcoming obstacles, interacting
-with NPCs (some of them being weird creatures,
-machine intelligences, or far stranger things!),
-figuring out bits of ancient technology, solving
-mysteries, finding solutions to problems, blazing
-trails through the wilderness, sneaking, climbing,
-running, and all other kinds of exciting activities.
-Sometimes these actions allow PCs to achieve
-goals, such as “find the lost child in the woods,”
-or “help escort a merchant to the next town.”
-But more often than not, they propel characters
-toward making discoveries.
-The core of gameplay in Numenera—the
-answer to the question “What do characters do
-in this game?”—is “Discover new things or old
-things that are new again—and then use them to
-build a better future.” This can be the discovery
-of something a character can use, like an artifact.
-It makes the character more powerful because
-it almost certainly grants a new capability or
-option, but it’s also a discovery unto itself and
-results in a gain of experience points.
-Discovery can also mean finding a new
-numenera procedure or device (something too
-big to be considered a piece of equipment) or
-even previously unknown information. If the PCs
-find an ancient hovertrain and get it working
-again so they can use it to reach a distant
-location, that’s a discovery. If they locate a signal
-receiving station and figure out how to turn off
-the transmission from an overhead satellite
 
+위험한 짐승이나 적과 싸우는 것도 흥미롭지만, 누메네라 플레이의 많은 부분은 다른 상황에 달려 있습니다. 장애물을 넘고, NPC와(기괴한 생물, 기계 지성, 또는 훨씬 더 이상한 존재와) 상호작용하고, 오래된 기술을 짚어내고, 미스터리를 풀고, 문제에 대한 해결책을 찾고, 야외를 개척하고, 몰래 움직이고, 오르고, 달리는 등 모든 종류의 활동입니다.
 
+이런 행동으로 PC가 “숲에서 길 잃은 아이를 찾아라”, “상인을 다음 마을까지 호위하라” 같은 목표를 이루기도 하지만, 더 흔히는 캐릭터를 **발견**으로 이끕니다.
 
-that’s causing all the animals in the region to
-become hostile, that’s a discovery. The common
-thread is that the PCs discover something that
-they can understand and put to use. A cure
-for a plague, the means to draw power from a
-hydroelectric plant, an operational flying craft, or
-an injection that grants the knowledge to create
-a protective force field dome over a structure—
-these are all discoveries.
-The GM should award between 1 and 4 XP at
-the end of a session if the characters made any
-significant discoveries.
+누메네라 플레이의 핵심—“이 게임에서 캐릭터는 무엇을 하나?”에 대한 답은 “새 것이거나 다시 새로워진 옛 것을 **발견**하고, 그걸로 더 나은 미래를 쌓는다”입니다. 아티팩트처럼 캐릭터가 쓸 수 있는 것을 발견할 수 있습니다. 거의 항상 새 능력이나 선택이 생겨 캐릭터가 강해지지만, 그 자체가 발견이며 경험치도 얻습니다.
+
+발견은 새로운 누메네라 절차나 장치(장비 한 조각으로 보기엔 너무 큰 것), 혹은 전에 없던 정보를 찾는 것일 수도 있습니다. PC가 오래된 호버트레인을 찾아 다시 돌려 멀리 떨어진 곳까지 갈 수 있게 한 것도 발견입니다. 신호 수신소를 찾아 머리 위 위성에서 오는 전송을 끄는 법을 알아내, 지역 동물이 모두 적대적으로 바뀌게 만든 원인을 없앤 것도 발견입니다. 공통점은 PC가 이해하고 활용할 수 있는 무언가를 발견한다는 것입니다. 역병의 치료법, 수력 발전소에서 전력을 끌어내는 방법, 작동하는 비행체, 구조물 위에 보호력장 돔을 만드는 지식을 주는 주사제—모두 발견입니다.
+
+캐릭터가 의미 있는 발견을 했다면, 마스터는 세션 끝에 XP 1~4점을 줄 수 있습니다.
+
 ## 경험치
-Experience points (XP) are rewards given to
-players when the GM intrudes on the story
-(this is called GM intrusion) with a new and
-unexpected challenge. For example, in the middle
-of combat, the GM might inform the player that
-they drop their weapon. However, to intrude in
-this manner, the GM must award the player 2 XP.
-The rewarded player, in turn, must immediately
-give one of those XP to another player and justify
-the gift (perhaps the other player had a good
-idea, told a funny joke, performed an action that
-saved a life, and so on).
-Alternatively, the player can refuse the GM
-intrusion. If they do so, they don’t get the 2 XP
-from the GM, and they must also spend 1 XP
-that they already have. If the player has no XP to
-spend, they can’t refuse the intrusion.
-The GM can also give players XP between
-sessions as a reward for recovering interesting
-artifacts or making discoveries during an
-adventure. You don’t earn XP for killing foes or
-overcoming standard challenges in the course of
-play. Discovery is the soul of Numenera.
-A player can spend XP they’ve accumulated to
-reroll any die roll and take the better of the two
-rolls. Rerolling costs 1 XP.
+
+경험치(XP)는 마스터가 이야기에 새롭고 뜻밖의 난관을 덧붙일 때(마스터 개입) 플레이어에게 주는 보상입니다. 예를 들어 전투 중 마스터가 무기를 떨어뜨렸다고 알려 줄 수 있습니다. 그러나 이렇게 개입하려면 마스터는 그 플레이어에게 XP 2점을 줘야 합니다. 받은 플레이어는 곧바로 그중 1점을 다른 플레이어에게 주고 이유를 말합니다(좋은 아이디어, 웃긴 농담, 목숨을 구한 행동 등).
+
+대신 플레이어는 마스터 개입을 거부할 수 있습니다. 그러면 마스터에게서 XP 2점을 받지 못하고, 이미 가진 XP 1점을 써야 합니다. 낼 XP가 없으면 거부할 수 없습니다.
+
+마스터는 세션 사이에도 흥미로운 아티팩트를 회수했거나 모험 중 발견을 했다는 보상으로 XP를 줄 수 있습니다. 적을 죽이거나 플레이 중 통상적인 난관을 넘었다고 XP를 얻지는 않습니다. **발견**이 누메네라의 정수입니다.
+
+플레이어는 모은 XP를 써서 아무 굴림이나 다시 굴리고 두 결과 중 나은 쪽을 쓸 수 있습니다. 다시 굴리는 데는 XP 1점이 듭니다.

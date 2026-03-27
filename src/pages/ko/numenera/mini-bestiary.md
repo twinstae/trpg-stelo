@@ -15,7 +15,6 @@ createdAt: "2022-11-17T07:31:02.290Z"
 
 본터전에서 멀리 떨어진 땅에 사는 사냥꾼들은 가끔 훈련한 검은 엄니를 데리고 다니기도 하는데, 새끼일 무렵부터 사냥에 동반자로 길러진 이들입니다. 이런 검은 엄니는 목에 목걸이처럼 감싸진 삼베 같은 물질로 된 빛나는 끈으로 야생에 사는 친척들과 구분할 수 있습니다.
 
-
 **동기**: 배고픔이나 충실함
 
 **환경**: 추운 곳이면 어디나
@@ -28,28 +27,28 @@ createdAt: "2022-11-17T07:31:02.290Z"
 
 **조정**: 속력 방어는 빠르기 때문에 6레벨
 
-**전투**: 검은 엄니는 보통 이름처럼 엄니로 공격하고 5점의 피해를 가하며, 이는 발톱이나 달려들 때도 마찬가지입니다. 검은 엄니가 달려들면, 보통 생물이 불시에 공격했기 때문이거나, 적보다 먼저 첫 차례를 가져갔기 때문입니다. 달려드는 공격은 평범한 피해를 주지만 먹잇감은 힘 방어에 성공해아하고, 실패하면 넘어져서 탈출할 때까지 검은 엄니의 밑에 붙잡혀 꼼짝도 못하게 됩니다. 각 라운드마다 먹잇감이 붙잡힌 상태이면, 검은 엄니는 6점의 피해를 주면서 무참히 공격합니다.
+**전투**: 검은 엄니는 보통 이름처럼 엄니로 공격하고 5점의 피해를 가하며, 이는 발톱이나 달려들 때도 마찬가지입니다. 검은 엄니가 달려들면, 보통 생물이 불시에 공격했기 때문이거나, 적보다 먼저 첫 차례를 가져갔기 때문입니다. 달려드는 공격은 평범한 피해를 주지만 먹잇감은 힘 방어에 성공해야 하고, 실패하면 넘어져서 탈출할 때까지 검은 엄니의 밑에 붙잡혀 꼼짝도 못하게 됩니다. 각 라운드마다 먹잇감이 붙잡힌 상태이면, 검은 엄니는 6점의 피해를 주면서 무참히 공격합니다.
 
 검은 엄니는 사냥할 때 더 강력한 생물을 포함해서 먹이를 쓰러트릴 가능성을 높이기 위해 사냥할 때에는 함께 다닙니다. 셋이나 그 이상의 검은 엄니가 협력하여 같은 대상을 공격하면, 그 중 한 검은 엄니가 대상을 공격할 때 난이도를 두 단계 낮춥니다.
 
 **대화**: 야생의 검은 엄니는 포악하고 교활한 포식자이지만, 죽음을 자초하진 않기에, 먹이가 감당할 수 있는 것 이상이라 믿을만한 이유가 있으면 공격을 멈춥니다. 혼자 있는 검은 엄니를 만나면, 특히 밧줄 목걸이를 찬 경우에는, 다른 생물에게 훈련된 반려일 가능성이 높고, (그 생물은) 아마 근처에 있을 겁니다.
 
-**용법**: 추운 야생을 지나다 만났다면, 검은 엄니는 의지할만한 버팀목(standby)인데, 특히 PC가 나중에 만나게 될 NPC가 길들인 동반자라면 더욱 그렇습니다.
+**용법**: 추운 야생을 지나다 만났다면, 검은 엄니는 이야기를 전개하기 좋은 만남이 되고, 특히 PC가 나중에 만나게 될 NPC가 길들인 동반자라면 더욱 그렇습니다.
 
-**마스터 개입**: 검은 엄니에게 부상을 입은 캐릭터가, 엄니에 찔린 상처에서 피가 흐르기 시작하고, 상처를 동여매기 위해 행동 하기 전까지, 매 라운드마다 (장갑을 무시하는) 2점의 피해를 입습니다.
+**마스터 개입**: 검은 엄니에게 부상을 입은 캐릭터는, 엄니에 찔린 상처에서 피가 흐르기 시작하고, 상처를 동여매기 위한 행동을 하기 전까지 매 라운드마다 (장갑을 무시하는) 2점의 피해를 입습니다.
 
 ## 챌릭 Chalik 2 (6)
 
 <img src="/chaelik.webp" alt="" class="mx-auto lg:float-left lg:m-4 w-80"/>
 
-챌릭은 30cm 정도 길이의 곤충으로 정교환 노란 껍질로 보호를 받습니다. 더 큰 먹이를 작은 무리를 이뤄서 사냥하며 자기들 중 몇몇을 희생해서 목표를 붙잡고 움직이지 못하게 하여, 나머지 챌릭이 자유롭게 공격하고 잡아먹습니다. 놀랍도록 끈적이는 분비물을 죽거나 자신을 희생했을 때 생산합니다. 따뜻한 불모지나, 동굴, 폐허, 그리고 가끔 인간 거주지의 황폐화된 곳에서도 발견됩니다. 챌릭은 강력한 접착제를 생산할 수 있기 때문에, 장인들이나 다른 사람들은 가끔 이들의 액체를 얻기 위해 채집하기도 합니다.
+챌릭은 30cm 정도 길이의 곤충으로 정교한 노란 껍질로 보호를 받습니다. 더 큰 먹이를 작은 무리를 이뤄서 사냥하며 자기들 중 몇몇을 희생해서 목표를 붙잡고 움직이지 못하게 하여, 나머지 챌릭이 자유롭게 공격하고 잡아먹습니다. 놀랍도록 끈적이는 분비물을 죽거나 자신을 희생했을 때 생산합니다. 따뜻한 불모지나, 동굴, 폐허, 그리고 가끔 인간 거주지의 황폐화된 곳에서도 발견됩니다. 챌릭은 강력한 접착제를 생산할 수 있기 때문에, 장인들이나 다른 사람들은 가끔 이들의 액체를 얻기 위해 채집하기도 합니다.
 
 **동기**: 고기에 굶주려 있습니다
 
 **환경**: 추운 지역만 아니면 어디에서나 열 마리 이상 무리를 짓습니다
 
 **체력**: 6
- 
+
 **피해**: 2점
 
 **장갑**: 1
@@ -58,24 +57,25 @@ createdAt: "2022-11-17T07:31:02.290Z"
 
 **조정**: 크기가 작기 때문에 속력 방어는 4 레벨
 
-**전투**: 챌릭은 적을 무리를 지어서 턱으로 깨뭅니다. 넷이나 그 이상의 챌릭 무리는 5점의 피해를 주는 하나의 4레벨 생물처럼 공격할 수 있습니다. 대신, 챌릭 한 마리가 배를 수축시켜 내부의 분비선을 터트려, 끈적거리는 분비물을 입으로 뿜어낼 수 있습니다. (그리고 이 챌릭은 죽습니다.) 이는 레벨 4짜리 공격으로 피해를 주지 않지만, 목표가 된 하나의 대상은 속력 방어에 실패하면 분비물에 덮여서 탈출하기 전까지 움직일 수 없게 됩니다. (자유롭게 탈출하기 위한 행동 외에는 할 수 없습니다.) 챌릭의 분비물 때문에 움직일 수 없게 된 목표물에 대한 공격은 두 단계 덜 어려워집니다. 
+**전투**: 챌릭은 무리를 지어 적을 턱으로 쪼아 댑니다. 넷이나 그 이상의 챌릭 무리는 5점의 피해를 주는 하나의 4레벨 생물처럼 공격할 수 있습니다. 대신, 챌릭 한 마리가 배를 수축시켜 내부의 분비선을 터트려, 끈적거리는 분비물을 입으로 뿜어낼 수 있습니다. (그리고 이 챌릭은 죽습니다.) 이는 레벨 4짜리 공격으로 피해를 주지 않지만, 목표가 된 하나의 대상은 속력 방어에 실패하면 분비물에 덮여서 탈출하기 전까지 움직일 수 없게 됩니다. (자유롭게 탈출하기 위한 행동 외에는 할 수 없습니다.) 챌릭의 분비물 때문에 움직일 수 없게 된 목표물에 대한 공격은 두 단계 덜 어려워집니다.
 
 챌릭의 껍질은 자기들의 분비물을 닦아내기 때문에, 동료가 만든 끈적이는 물질에 갇히게 되진 않습니다.
 
 **대화**: 챌릭은 크기에도 불구하고 일단 곤충입니다.
 
 **용법**: 특히 NPC가 챌릭의 둥지로 밝혀질 곳에 캐릭터 중 하나를 넘어트렸을 때, 그 전투는 특히 위험할 겁니다.
- 
-**마스터 개입**: 챌릭이 죽을 때, 폭발합니다. 지근거리에 있는 캐릭터는 챌릭이 목표를 움직이지 못하게 만들기 위해 자신을 희생한 것처럼 공격을 받습니다.
+
+**마스터 개입**: 챌릭이 죽을 때 폭발합니다. 직접 거리에 있는 캐릭터는 챌릭이 목표를 붙잡기 위해 자신을 희생할 때와 같은 방식으로 공격을 받습니다.
 
 ## 감시자 Gazer 1 (3)
+
 ![](/gazer2.webp)
 
-감시자들은 공중 부양하는 금속 구형 기계인형으로 지름은 50cm 정도입니다. 다양한 장비 조각과 반짝이는 사이퍼들이 감시자의 낡은 합금 몸체를 장식하고 있다. 구의 한 오목한 면은 끊임없이 붉은 광선을 방출합니다. 눈이 멀면 다행이고, 이 붉은 빔은 순식간에 강해져, 거의 무엇이든 태울 수 있는 광선이 됩니다.
+감시자들은 공중 부양하는 금속 구형 기계인형으로 지름은 50cm 정도입니다. 다양한 장비 조각과 반짝이는 사이퍼들이 감시자의 낡은 합금 몸체를 장식합니다. 구의 한 오목한 면은 끊임없이 붉은 광선을 방출합니다. 눈이 멀면 다행이고, 이 붉은 빔은 순식간에 강해져, 거의 무엇이든 태울 수 있는 광선이 됩니다.
 
 **동기**: 방어
 
-**환경**: 감시자들은 여섯에서 열 둘 정도가 진형을 갖추어서 고대의 폐허가 된 구조물을 지키고 있는 모습이 발견됩니다. Formations of six to twelve gazers might be found defending ancient ruined installations. Sometimes lone gazers are encountered as companions of jacks or nanos who reprogrammed it to act as a servitor.
+**환경**: 감시자들은 여섯에서 열둘 정도가 진형을 갖추어 고대의 폐허가 된 시설을 지키는 모습으로 발견됩니다. 가끔 홀로 있는 감시자는 잭이나 나노가 하인으로 쓰도록 재프로그램한 동반자로 만나기도 합니다.
 
 **체력**: 3
 
@@ -87,260 +87,206 @@ createdAt: "2022-11-17T07:31:02.290Z"
 
 **조정**: 지각은 5 레벨; 크기 때문에 속력 방어는 2레벨
 
-**전투**: Groups of gazers fly in a spherical formation, which allows them to present the maximum possible perception and threat surface.
+**전투**: 감시자 무리는 구형 진형으로 날아가며, 지각과 위협 면적을 최대로 드러냅니다.
 
-A gazer can fire its scarlet beam to attack a target at long range. If the gazer can see any part of its target, it ignores any difficulty step penalties for cover that the target might have otherwise enjoyed.
+감시자는 주홍빛 광선을 쏘아 긴 거리의 목표를 공격할 수 있습니다. 목표의 어느 부분이든 볼 수 있으면, 엄폐로 인한 난이도 완화를 무시합니다.
 
-As few as three gazers can act as a swarm, focusing their attack on one target to make one attack roll as a single level 3 creature, dealing 4점의 피해. On a miss, a swarm of gazers still deals 1 point of damage.
+감시자 셋만 있어도 무리처럼 행동해 한 목표에 집중 공격하며, 레벨 3 생물 하나처럼 한 번의 공격 굴림을 하고 4점의 피해를 줍니다. 빗나가도 무리는 여전히 1점의 피해를 줍니다.
 
-The intensity of a gazer’s beam is level 5 (as measured against the level of material of an inanimate object to be burned through).
+감시자 광선의 세기는 레벨 5입니다(태울 무생물 재질의 레벨과 맞춰 측정).
 
-**대화**: A gazer usually interacts only by flashing its beam in coded bursts, accompanied by eerie bleats of electronic static. Most active gazers follow a program to defend a location, reconnoiter a wider area, or seek and destroy those who match profiles held in their machine brains. However, if any group of gazers is interfered with too much, they will eradicate the perceived threat.
+**대화**: 감시자는 보통 광선을 부호처럼 깜빡이며, 기괴한 전자 잡음으로만 반응합니다. 활동 중인 감시자 대부분은 한 장소를 방어하거나 더 넓은 지역을 정찰하거나, 기계 뇌에 저장된 프로필에 맞는 자를 찾아 없애는 프로그램을 따릅니다. 다만 감시자 무리를 지나치게 건드리면, 그들은 인지한 위협을 제거합니다.
 
-**용법**: Stories of the discovery of a rusted, crumbling cache of spheres laden with numenera reach the PCs. What’s actually been discovered is a decommissioned gazer graveyard on the outskirts of an ancient war installation. A few gazer formations are still active.
+**용법**: 누메네라로 가득 찬 녹슬고 부서지는 구체 저장고가 발견됐다는 소문이 PC에게 전해집니다. 실제로 발견된 것은 고대 전쟁 시설 외곽의 퇴역 감시자 묘지입니다. 소수의 감시자 진형만 아직 활동 중입니다.
 
-**Loot**: Scavengers can recover 1d6 cyphers in the remains of a destroyed swarm. Gazers are speculated to be antiques of a forgotten war that were originally forged by the millions, Only a handful remain active. However, if one of the ancient warehouses could be discovered, that number could radically increase.
- 
-**마스터 개입**: A gazer destroyed by an attack explodes, dealing 5점의 피해 to every creature in short range. Other gazers in immediate range spin away to safety.
+**전리품**: 파밍하는 자는 파괴된 무리의 잔해에서 사이퍼 1d6개를 회수할 수 있습니다. 감시자는 잊힌 전쟁의 유물로, 원래 수백만 대가 만들어졌다는 추정이나, 활동하는 것은 소수뿐입니다. 다만 고대 창고 하나를 찾는다면 그 수는 급격히 늘어날 수 있습니다.
+
+**마스터 개입**: 공격으로 파괴된 감시자는 폭발해 짧은 거리 안의 모든 생물에게 5점의 피해를 줍니다. 직접 거리 안의 다른 감시자는 빙글 돌며 안전하게 피합니다.
 
 ## 얼음 치개 Ice Weaver 3 (9)
+
 ![](/ice-weaver.webp)
 
-Delicate, lattice-like ice structures created by ice weavers are often mistaken as some kind of manifestation of the prior worlds. But these structures usually last only a few days or months before cracking, breaking, and melting away.
+얼음 치개가 만든 섬세한 격자형 얼음 구조물은 이전 세계의 현현으로 오해받기도 합니다. 하지만 이런 구조물은 보통 며칠에서 몇 달 안에 갈라지고 부서지며 녹아 사라집니다.
 
-When a pack of ice weaver hunters moves into a new area, they first construct a redoubt of woven ice.
+사냥꾼 무리가 새 구역으로 들어오면, 먼저 짜 맞춘 얼음으로 보루를 쌓습니다.
 
-When explorers or residents of isolated communities find such “ice castles,” they should beware. Ice weavers are near. Luckily the creatures never stay in the same area long.
+탐험가나 외딴 공동체 주민이 이런 “얼음 성”을 발견하면 조심해야 합니다. 얼음 치개가 가깝습니다. 다행히 이 생물은 같은 곳에 오래 머무르지 않습니다.
 
-Ice weavers absorb heat and excrete ice. About 12 feet (4 m) long, these low-slung predators are clad in frost scales, complete with many transparent spikes and barbs. Condensation vapor often swirls from their super-cold bodies, and they race along the ground by producing a layer of ice along which they can slide.
+얼음 치개는 열을 빨아들이고 얼음을 배출합니다. 길이 약 12피트(4m)인 이 낮게 엎드린 포식자는 서리 비늘로 덮였고, 투명한 가시와 가시 돌기가 많습니다. 초저온 몸에서는 응결 수증기가 자주 피어오르고, 미끄러질 수 있는 얼음 층을 깔아 땅을 따라 질주합니다.
 
-**동기**: Hungers for flesh
+**동기**: 살에 굶주림
 
-**환경**: Almost anywhere in packs of three to eight
+**환경**: 셋에서 여덟 마리 무리로 거의 어디서나
 
 **체력**: 9
- 
+
 **피해**: 4점
 
-**장갑**: 4 (see 전투)
+**장갑**: 4 (전투 참고)
 
-**움직임**: Long
+**움직임**: 긴 거리
 
-**조정**: Speed defense as level 4.
+**조정**: 속력 방어는 레벨 4.
 
-**전투**: Ice weavers race quickly on self-created narrow lanes of ice and use that speed to their advantage in 전투. An ice weaver can move a long distance and attack as a single action. It can also use its action to create a lane that stretches up above the heads of its prey, so that they can’t reach it that round unless they try to climb an elevated, slippery ice lane (a difficulty 6 Might task).
+**전투**: 얼음 치개는 스스로 만든 좁은 얼음 길 위를 빠르게 달리며 그 속도를 전투에서 유리하게 씁니다. 한 행동으로 긴 거리만큼 이동하고 공격할 수 있습니다. 행동으로 먹잇감 머리 위까지 이어진 길을 만들 수도 있어, 그 라운드에는 미끄러운 얼음 경사를 오르는 일(힘 난이도 6)을 시도하지 않으면 닿지 못합니다.
 
-When an ice weaver bites down on a foe, it drains heat and inflicts 4점 of Speed damage (ignores Armor). Completely frozen victims are dragged off and consumed later.
+얼음 치개가 적을 물면 열을 빼앗아 속력 피해 4점을 줍니다(장갑 무시). 완전히 얼어붙은 희생자는 끌려가 나중에 먹힙니다.
 
-Anyone within immediate range of an ice weaver suffers 1 point of cold damage each round.
+얼음 치개의 직접 거리 안에 있는 자는 매 라운드 추위 피해 1점을 입습니다.
 
-**대화**: Ice weavers are intelligent, but they prize hunting more than almost any other activity. Excess frozen prey is stored in lairs hidden in high glaciers, where ice weaver young are reared. Someone threatening a supply of frozen food or a weaver lair could get a pack to back off or move away from an area.
+**대화**: 얼음 치개는 지능이 있지만, 거의 모든 활동보다 사냥을 중시합니다. 남는 얼어붙은 먹잇감은 높은 빙하에 숨은 소굴에 쌓아 두고, 그곳에서 새끼를 기릅니다. 얼어붙은 식량이나 치개 소굴을 위협하는 자가 있으면 무리가 물러나거나 지역을 떠날 수도 있습니다.
 
-**용법**: Characters hear about a “prior-world ruin” that appeared without warning. When they investigate, they find no ruin, but the small village nearby is vacated and empty. The only clue about what happened is a muddy trail leading north.
+**용법**: 캐릭터들은 전조 없이 나타난 “이전 세계의 유적” 이야기를 듣습니다. 조사해 보면 유적은 없고, 가까운 마을만 텅 비어 있습니다. 무슨 일이 있었는지에 대한 단서는 북쪽으로 이어지는 진흙 자국뿐입니다.
 
-## CRAGWORM 6 (18)
-A cragworm is a spined serpent that can grow up to 50 feet (15 m) long. Its mouth opens horizontally and has many rows of teeth. Dwelling in abandoned or isolated areas, it preys on whatever it can find. The creature has many red, glistening eyes and is known for its terrible, mournful howl. It has the intelligence of an animal and the outlook of a predator.
+## 암벽충 Cragworm 6 (18)
 
-**동기**: Hungers for flesh
+암벽충(cragworm)은 가시가 돋은 뱀으로 최대 50피트(15m)까지 자랍니다. 입은 가로로 벌어지며 여러 줄의 이빨이 있습니다. 버려지거나 외딴 지역에 살며, 찾을 수 있는 무엇이든 잡아먹습니다. 붉고 윤이 나는 눈이 많고, 끔찍하고 애처로운 울음소리로 악명이 높습니다. 동물에 가까운 지능과 포식자의 태도를 지닙니다.
 
-**환경**: Dwells alone in rocky wastes, hills, and deserts.
+**동기**: 살에 굶주림
+
+**환경**: 암석 황무지, 구릉, 사막에 홀로 서식
 
 **체력**: 36
- 
+
 **피해**: 8점
 
 **장갑**: 2
 
-**움직임**: Short
+**움직임**: 짧은 거리
 
-**조정**: Hides in rocky terrain as level 7. Speed defense as level 5 due to size. Perception as level 4. Resists trickery as level 3.
+**조정**: 암석 지형에 숨을 때 레벨 7. 덩치 때문에 속력 방어 레벨 5. 지각 레벨 4. 속임에 맞서면 레벨 3.
 
-**전투**: A cragworm hides amid rocks and ruins. While hiding, it howls, and the subsonic nature of the sound paralyzes anyone within long range. Victims who fail Intellect defense rolls are paralyzed for two rounds.
+**전투**: 암벽충은 바위와 폐허 사이에 숨습니다. 숨은 채로 울부짖는데, 소리의 초저음 성격 때문에 긴 거리 안의 자는 마비됩니다. 지성 방어에 실패한 희생자는 두 라운드 마비됩니다.
 
-When the cragworm emerges from its hiding place to attack, its envenomed bite inflicts terrible damage. Victims who fail Might defense rolls move one step down the damage track.
+암벽충이 숨은 곳에서 나와 공격할 때, 독이 든 물림은 끔찍한 피해를 줍니다. 힘 방어에 실패한 희생자는 부상 트랙을 한 단계 내립니다.
 
-Once a cragworm enters 전투, it fights to the death.
+한번 전투에 들어가면 죽을 때까지 싸웁니다.
 
-**대화**: Cragworms can’t be reasoned with. They can be intimidated or tricked, but the latter is far easier than the former. They resist being tricked as level 3 and are particularly easy to fool if food is involved.
+**대화**: 암벽충에 이성으로 말이 통하지는 않습니다. 위협이나 속임은 통할 수 있으나 속이기가 훨씬 쉽습니다. 속임에 맞서는 것은 레벨 3이며, 먹이가 걸리면 특히 속기 쉽습니다.
 
-**용법**: Cragworm attacks are seemingly random wilderness encounters that usually befall unsuspecting travelers. In many ways, they are the archetypal wasteland beasts of the Ninth World, giving rise to sayings such as “fierce as a cragworm,” “temperamental as a cragworm,” and so on.
+**용법**: 암벽충 습격은 뜻밖의 여행자에게 닥치는 듯한 무작위 야외 조우입니다. 여러모로 아홉 번째 세계 황무지의 전형적인 맹수라, “암벽충처럼 사나운”, “암벽충처럼 변덕스러운” 같은 속담을 낳습니다.
 
- 
-**마스터 개입**: While biting a PC, the cragworm grabs the character in its mouth.
+**마스터 개입**: PC를 물고 있을 때 암벽충은 캐릭터를 아귀에 움켜쥡니다.
 
-The PC must make a Might-based roll to avoid being swallowed.
+삼켜지지 않으려면 힘 판정을 해야 합니다.
 
-Swallowed PCs can attack the beast from the inside, but they suffer 6점의 피해 each round they remain there
+삼켜진 PC는 안에서 짐승을 공격할 수 있지만, 그 안에 머무는 매 라운드 6점의 피해를 입습니다.
 
-## CYCLIC RAIDER 5 (15)
-Cyclic raiders are humanoid automatons powered by sound. A flat, blank silver disc is displayed where their face should be. They appear at intervals that seem completely random, though some students of the numenera claim their schedule can be determined ahead of time with enough calculation. However, those who are too successful at discovering that secret tend to become the latest targets of the raiders.
+## 순환 약탈자 Cyclic Raider 5 (15)
 
-Cyclic raiders usually appear suddenly, as if they’d stepped out of an invisible door. They disappear just as precipitously, exactly three minutes later, often with a captive or two.
+순환 약탈자(cyclic raider)는 소리로 움직이는 인간형 자동인형입니다. 얼굴이 있어야 할 자리에는 납작하고 빈 은색 원반이 달려 있습니다. 출현 간격은 완전히 무작위처럼 보이나, 누메네라를 연구하는 이들은 계산이 충분하면 미리 일정을 알아낼 수 있다고 주장합니다. 다만 그 비밀을 너무 잘 풀어낸 이들은 차례로 약탈자들의 최신 표적이 되곤 합니다.
 
-**동기**: Capture test subjects (usually humans)
+순환 약탈자는 보통 보이지 않는 문에서 나온 것처럼 갑자기 나타납니다. 정확히 3분 뒤에도 똑같이 급격히 사라지며, 종종 포로 한두 명을 데리고 갑니다.
 
-**환경**: Almost anywhere, alone or in groups of three
+**동기**: 실험체 확보(보통 인간)
+
+**환경**: 거의 어디서나, 홀로 또는 셋이 한 무리
 
 **체력**: 20
- 
+
 **피해**: 4점
 
-*챌릭은 적을 무리를 지어서 턱으로 깨뭅니다. 넷이나 그 이상의 챌릭 무리는 5점의 피해를 주는 하나의 4레벨 생물처럼 공격할 수 있습니다. 대신, 챌릭 한 마리가 배를 수축시켜 내부의 분비선을 터트려, 끈적거리는 분비물을 입으로 뿜어낼 수 있습니다. (그리고 이 챌릭은 죽습니다.) 이는 레벨 4짜리 공격으로 피해를 주지 않지만, 목표가 된 하나의 대상은 속력 방어에 실패하면 분비물에 탈출하기 전까지 덮여서 움직됩니다.수 없게 되어 (자유롭게 탈출하기 위한 행동 외에는 습니다.  챌릭의 분비물 때문에 움직일 수 없게 된 목표물에 대 두 단계 덜 어려워집니다.한 공격은수 없고) *움직임크기가 작기 때문에 속력 방어는 4 레벨
+**움직임**: 짧은 거리
 
 **장갑**: 2
 
-**조정**: Speed defense as level 6; knowledge of other worlds and galaxies as level 7.
+**조정**: 속력 방어 레벨 6. 다른 세계와 은하에 대한 지식 레벨 7.
 
-**전투**: Cyclic raiders use a device they call a Melu box to render human targets unconscious.
+**전투**: 순환 약탈자는 멜루 상자라 부르는 장치로 인간 목표를 기절시킵니다.
 
-Raiders avoid direct engagement and are expert at dodging incoming attacks (reflected in their level 6 Speed defense). If forced to defend themselves, they fire a sound blast that inflicts 4점 of Intellect damage (ignores Armor) on a failed Intellect defense task.
+약탈자는 정면 교전을 피하고 들어오는 공격을 피하는 데 능숙합니다(속력 방어 레벨 6). 억지로 방어하면 음파를 쏘아 지성 방어에 실패한 목표에게 지성 피해 4점을 줍니다(장갑 무시).
 
-In areas with ambient sound, these automatons require no sustenance and operate indefinitely. But in completely soundless areas, such as the void beyond the sky, they collapse and can be restored to function only when exposed to sound.
+주변에 소리가 있는 곳에서는 이 자동인형은 양분 없이 무한히 작동합니다. 하지만 하늘 너머 공허처럼 완전히 무음인 곳에서는 무너지며, 소리에 노출될 때만 다시 작동합니다.
 
-**대화**: Cyclic raiders enact a bizarre agenda. They ambush, incapacitate, and somehow transport humans to another world in the void of space for an unknown purpose. They speak several languages, which seem to be composed of voice recordings of various humans sewn together to make complete new sentences.
+**대화**: 순환 약탈자는 기괴한 목표를 실행합니다. 매복해 무력화한 뒤, 알 수 없는 목적으로 인간을 우주의 공허에 있는 다른 세계로 어떻게든 보냅니다. 여러 언어를 구사하는데, 여러 인간의 녹음을 이어 붙여 새 문장을 만든 것처럼 들립니다.
 
-**용법**: The PCs arrive to consult with someone who has information or an item they want, but that person is being attacked by cyclic raiders.
+**용법**: PC가 정보나 원하는 물건을 가진 사람을 찾아갔는데, 그 사람이 순환 약탈자에게 습격당하는 상황.
 
-**Loot**: A fallen cyclic raider can be salvaged for a couple of cyphers. Any group of raiders will probably have one Melu box.
+**전리품**: 쓰러진 순환 약탈자에서 사이퍼 몇 개를 회수할 수 있습니다. 약탈자 무리에는 보통 멜루 상자가 하나쯤 있습니다.
 
-**마스터 개입**: A defeated cyclic raider goes through sudden convulsions, its limbs shifting and locking into strange shapes as a second raider leaps on it. They both snap together to create a much larger level 7 creature.
-
+**마스터 개입**: 패배한 순환 약탈자가 갑자기 경련하며 사지가 뒤틀리고 이상한 형태로 꺾입니다. 다른 약탈자 하나가 그 위로 뛰어올라 둘이 맞물려 훨씬 큰 레벨 7 생물이 됩니다.
 
 <div class="numenera-box">
 <div>
 <div>
 
-### MELU BOX (ARTIFACT)
+### 멜루 상자 (아티팩트)
 
-**Level**: 1d6 + 3
+**레벨**: 1d6 + 3
 
-**Form**: Small silver box
+**형태**: 작은 은색 상자
 
-**Effect**: When activated, every living
-creature in short range that can
-hear must succeed on an Intellect
-defense task or fall unconscious.
-Unconscious creatures can attempt
-an Intellect task each round to rouse
-themselves.
+**효과**: 활성화하면 짧은 거리 안에서 들을 수 있는 모든 생물은 지성 방어 일에 성공하지 않으면 기절합니다. 기절한 생물은 매 라운드 지성 일을 시도해 깨어날 수 있습니다.
 
-**Depletion**: 1 in 1d10
+**고갈**: 1d10에 1
 
 </div>
 </div>
 </div>
 
-## NULL-CAT 7 (21)
-The null-cat is a quadruped predator, approximately 1,000 pounds (450 kg) in weight and a
-deep grey in color. When not moving, the null-cat’s crystalline fur seems to make it vanish
-into its natural surroundings. Its face is a star-shaped slit filled with motile teeth, flanked by
-five eyes laid out in a circle around the front of its head.
-Null-cats are drawn to and drain items that use stored energy, though they supplement
-their energy requirement with the flesh of living prey. They kill, drag off, and store their
-victims, burying them to feed later.
+## 널캣 Null-cat 7 (21)
 
-**동기**: Hungers for energy and flesh
+널캣(null-cat)은 네 발 달린 포식자로 무게는 약 1,000파운드(450kg), 색은 짙은 회색입니다. 움직이지 않을 때는 결정질 털이 주변에 스며들어 사라진 듯 보입니다. 얼굴은 움직이는 이빨로 가득한 별 모양 틈이고, 머리 앞쪽을 둘러 원으로 배치된 다섯 눈이 달려 있습니다.
 
-**환경**: Anywhere empty or on the fringes of civilization
+널캣은 저장된 에너지를 쓰는 물건에 이끌려 빼앗지만, 살아 있는 먹잇감의 살로 에너지를 보충합니다. 잡아 끌어가 쌓아 두고, 나중에 먹으려 작은 무덤에 묻습니다.
+
+**동기**: 에너지와 살에 굶주림
+
+**환경**: 텅 빈 곳이나 문명의 가장자리 어디서나
 
 **체력**: 42
- 
+
 **피해**: 7점
 
-**움직임**: Long; short when climbing
+**움직임**: 긴 거리; 오를 때는 짧은 거리
 
-**조정**: Stealth and hiding as level 9; Speed defense as level 6 due to size.
+**조정**: 은신·숨기 레벨 9. 덩치 때문에 속력 방어 레벨 6.
 
-**전투**: A null-cat relies on its energy-draining field during 전투. All characters within
-immediate range who have an artifact must roll normally for depletion each round.
-Anyone who is attacked by the null-cat and suffers damage “burns out” a cypher in their
-possession (if any) on a failed Intellect defense
-task. The null-cat gains 5점 of health
-for each artifact charge and cypher it
-consumes in this fashion.
-Simultaneously with its energy-draining
-effect, a null-cat can bite a target,
-inflicting 7점의 피해.
-The null-cat stalks victims passing through
-its territory, preferring to wait until night
-to attack. If possible, it waits to attack
-sleeping victims.
+**전투**: 널캣은 전투 중 에너지를 빼앗는 장에 의존합니다. 직접 거리 안에 있고 아티팩트를 지닌 캐릭터는 매 라운드 고갈을 평소처럼 굴립니다.
 
-**대화**: Null-cats are clever predators
-but ultimately have the intelligence of
-animals.
+널캣에게 공격당해 피해를 입은 자는 지성 방어에 실패하면 소지 중인 사이퍼(있다면) 하나가 “타버립니다”. 널캣은 이렇게 소비한 아티팩트 충전과 사이퍼마다 체력을 5점 얻습니다.
 
-**용법**: A group of Aeon Priests is
-surrounded by a small pack of nullcats and can’t hold out much longer.
+에너지 빼앗기와 동시에 목표를 물어 7점의 피해를 줄 수 있습니다.
 
-**Loot**: Null-cats drag off and bury their
-prey in small graves. If a PC can
-locate a null-cat’s pit, it is often filled
-with equipment and gear of victims,
-though the cyphers are burned out
-and the artifacts are dead.
+널캣은 영역을 지나는 희생자를 미행하며, 밤이 되어 공격하기를 선호합니다. 가능하면 잠든 희생자를 노립니다.
 
->  **마스터 개입**: A null-cat leaps out into the middle of a group of adventurers, distracting them. Meanwhile, two other null-cats circle around behind the group.
+**대화**: 널캣은 영리한 포식자이지만 결국 동물에 가까운 지능입니다.
 
-## PUPPET TREE 8 (24)
-A puppet tree is a 25-foot (8 m) tall, spiky, orange and blue tree surrounded by a large area
-of red reeds that tremble and wave enticingly even when no wind is present. Humanoid
-figures are often gathered around it, but these rotted, overgrown corpses are the tree’s
-victims, dead but serving as fleshy puppets to the tree’s will.
-Victims drained of knowledge and life are used as lures to draw in yet more victims, at
-least until the bodies rot away. When not used as lures, the corpse puppets are set to the
-task of using bits of the numenera to build or further modify an inexplicable machine set at
-the tree’s base.
+**용법**: 이온 사제 무리가 작은 널캣 무리에게 포위되어 더 버티기 어려운 상황.
 
-**동기**: Hungers for fresh bodies
+**전리품**: 널캣은 먹잇감을 끌고 가 작은 무덤에 묻습니다. PC가 널캣의 구덩이를 찾으면 희생자의 장비로 가득한 경우가 많으나, 사이퍼는 타버리고 아티팩트는 죽어 있습니다.
 
-**환경**: On hilltops, isolated from other plant life
+> **마스터 개입**: 널캣 한 마리가 모험가 무리 한가운데로 뛰쳐나와 시선을 끕니다. 그사이 다른 널캣 둘이 무리 뒤로 돌아 붙습니다.
+
+## 꼭두각시 나무 Puppet Tree 8 (24)
+
+꼭두각시 나무(puppet tree)는 높이 25피트(8m)의 가시가 돋은 주황과 파란 나무로, 주변 넓은 구역이 붉은 갈대로 둘러싸여 있습니다. 갈대는 바람이 없어도 유혹적으로 떨리고 흔들립니다. 인간형 형상이 자주 모여 있지만, 이 썩고 덩굴진 시체들은 나무의 희생자로, 죽었으나 나무의 뜻에 따라 살점 꼭두각시로 움직입니다.
+
+지식과 생명이 빠진 희생자는 시체가 썩어 없어질 때까지 더 많은 희생자를 끌어들이는 미끼로 쓰입니다. 미끼로 쓰이지 않을 때는 시체 꼭두각시가 나무 밑둥에 놓인 설명할 수 없는 기계를 누메네라 조각으로 짓거나 고치는 일에 투입됩니다.
+
+**동기**: 신선한 육체에 굶주림
+
+**환경**: 다른 식물과 떨어진 언덕 꼭대기
 
 **체력**: 33
- 
+
 **피해**: 10점
 
 **장갑**: 3
 
-**움직임**: None
+**움직임**: 없음
 
-**조정**: Speed defense as level 5 due to size and immobility; deception and disguise
-(puppeteering corpses to act in a lifelike manner) as level 6.
+**조정**: 덩치와 부동 때문에 속력 방어 레벨 5. 속임과 위장(시체를 살아 있는 듯 조종하는 것) 레벨 6.
 
-**전투**: Some of the red reeds surrounding a puppet tree end in a hard, sharp crystal
-spike. When a living creature comes within short range of the tree, the reeds rise behind
-the target and try to skewer them through the head or neck with the spike. If a target is
-killed by these attacks, the puppet tree controls the body as
-a corpse puppet, using it to enact its plans. Over time
-these humanoids rot and are overgrown by the biology
-of the plant, losing utility for the tree.
-Most trees have about five corpse puppets active, which
-can be simultaneously animated to attack foes.
-A puppet tree is vulnerable to fire. All fire attacks
-against the tree inflict 2 additional점의 피해 and ignore
-Armor. The puppet tree will
-always attempt to stop a fire,
-or target the source of flame
-during 전투.
+**전투**: 꼭두각시 나무를 둘러싼 붉은 갈대 중 일부 끝은 단단하고 날카로운 결정 가시입니다. 생물이 나무의 짧은 거리 안으로 들어오면 갈대가 목표 뒤에서 솟아오르며 가시로 머리나 목을 꿰뚫으려 합니다. 이런 공격으로 죽은 목표는 시체 꼭두각시가 되어 나무가 계획을 실행하는 데 씁니다. 시간이 지나 인간형은 썩고 식물의 생체로 덮여 나무에게 쓸모를 잃습니다.
 
-**대화**: Puppet trees are highly
-intelligent, but malevolent. Even if
-communication can be opened via telepathy or
-some other means, the tree will always attempt
-to double-cross the PCs.
+대부분의 나무에는 시체 꼭두각시가 다섯 정도 활동하며, 동시에 깨어나 적을 공격할 수 있습니다.
 
-**용법**: An agent of the Convergence, hoping to watch
-a puppet tree in action, lures the PCs to one
-and waits while they approach to talk with his
-“friend”—one of the long-dead corpse puppets.
+꼭두각시 나무는 불에 약합니다. 나무를 노리는 모든 화염 공격은 피해가 2점 추가되고 장갑을 무시합니다. 꼭두각시 나무는 전투 중 불을 끄거나 불씨의 근원을 노리려 합니다.
 
-**Loot**: Possessions of former victims can be found
-in the red reeds, usually including
-4d10 shins and various bits of
-gear. The cyphers, artifacts, and
-oddities of victims are collected by
-the corpse puppets and cobbled
-together into a strange
-device. It is always the same
-machine, but its purpose is
-inexplicable.
+**대화**: 꼭두각시 나무는 매우 지능적이나 악의적입니다. 텔레파시나 다른 수단으로 대화가 열려도 나무는 항상 PC를 배신하려 합니다.
+
+**용법**: 수렴의 요원이 꼭두각시 나무가 움직이는 모습을 보고 싶어 PC를 한 그루로 유인하고, PC가 오래 전 죽은 시체 꼭두각시인 “친구”와 말을 나누러 다가오기를 기다립니다.
+
+**전리품**: 옛 희생자의 소지품이 붉은 갈대에서 나오곤 하며, 보통 신 4d10과 여러 장비 조각이 있습니다. 희생자의 사이퍼·아티팩트·기이품은 시체 꼭두각시가 모아 이상한 장치로 끼워 맞춥니다. 형태는 늘 같은 기계이나 용도는 알 수 없습니다.
