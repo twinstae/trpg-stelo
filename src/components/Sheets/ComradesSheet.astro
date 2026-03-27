@@ -21,7 +21,10 @@ const { title } = Astro.props;
   .comrades-sheet h3,
   .comrades-sheet h4,
   .comrades-sheet strong {
-    @apply text-red-700 mb-0 mt-4 font-bold;
+    color: var(--color-red-700);
+    margin-bottom: 0;
+    margin-top: 4;
+    font-weight: bold;
   }
 
   .comrades-sheet .break-column {
@@ -44,7 +47,7 @@ const { title } = Astro.props;
     padding-left: 1rem;
   }
   .comrades-sheet ul li::marker {
-    @apply text-red-700;
+    color: var(--color-red-700);
   }
   .comrades-sheet li {
     line-height: 1.2rem;

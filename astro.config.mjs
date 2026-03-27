@@ -1,7 +1,6 @@
-import { defineConfig } from 'astro/config';
-import preact from '@astrojs/preact';
-import tailwind from "@astrojs/tailwind";
-import netlify from "@astrojs/netlify/functions";
+import { defineConfig } from "astro/config";
+import preact from "@astrojs/preact";
+import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 import mdx from "@astrojs/mdx";
@@ -11,10 +10,15 @@ import image from "@astrojs/image";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), preact(), mdx(), image({
-    serviceEntryPoint: '@astrojs/image/sharp'
-  })],
+  integrations: [
+    preact(),
+    mdx(),
+    image({
+      serviceEntryPoint: "@astrojs/image/sharp",
+    }),
+  ],
+  vite: {
+    plugins: [tailwindcss()],
+  },
   site: `http://astro.build`,
-  output: "server",
-  adapter: netlify()
 });

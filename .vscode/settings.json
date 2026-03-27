@@ -2,5 +2,11 @@
   "deno.fmt": true,
   "deno.enablePaths": ["./src/deno_script"],
   "eslint.runtime": "node",
-  "deno.enable": true
+  "deno.enable": true,
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.oxc": "explicit"
+  }
 }
