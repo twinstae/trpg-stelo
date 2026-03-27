@@ -21,51 +21,51 @@ publish: false
 
 #### 1등급 은밀 능력
 
-Danger Sense
-Goad
-Legerdemain
-Opportunist
-Stealth Skills
+[Danger Sense](/ko/cypher-open/character-abilities#danger-sense-%EC%86%8D%EB%A0%A5-1%EC%A0%90)
+[Goad](/ko/cypher-open/character-abilities#goad-%EC%A7%80%EC%84%B1-1%EC%A0%90)
+[Legerdemain](/ko/cypher-open/character-abilities#legerdemain-%EC%86%8D%EB%A0%A5-1%EC%A0%90)
+[Opportunist](/ko/cypher-open/character-abilities#opportunist)
+[Stealth Skills](/ko/cypher-open/character-abilities#stealth-skills)
 
 #### 2등급 은밀 능력
 
-Contortionist
-Find an Opening
-Get Away
-Sense Ambush
-Surprise Attack
+[Contortionist](/ko/cypher-open/character-abilities#contortionist-%EC%86%8D%EB%A0%A5-2%EC%A0%90)
+[Find an Opening](/ko/cypher-open/character-abilities#find-an-opening-%EC%A7%80%EC%84%B1-1%EC%A0%90)
+[Get Away](/ko/cypher-open/character-abilities#get-away-%EC%86%8D%EB%A0%A5-2%EC%A0%90)
+[Sense Ambush](/ko/cypher-open/character-abilities#sense-ambush)
+[Surprise Attack](/ko/cypher-open/character-abilities#surprise-attack)
 
 #### 3등급 은밀 능력
 
-Evanesce
-From the Shadows
-Gambler
-Inner Defense
-Misdirect
-Run and Fight
-Seize the Moment
+[Evanesce](/ko/cypher-open/character-abilities#evanesce-%EC%86%8D%EB%A0%A5-3%EC%A0%90)
+[From the Shadows](/ko/cypher-open/character-abilities#from-the-shadows)
+[Gambler](/ko/cypher-open/character-abilities#gambler)
+[Inner Defense](/ko/cypher-open/character-abilities#inner-defense)
+[Misdirect](/ko/cypher-open/character-abilities#misdirect-%EC%86%8D%EB%A0%A5-3%EC%A0%90)
+[Run and Fight](/ko/cypher-open/character-abilities#run-and-fight-%ED%9E%98-4%EC%A0%90)
+[Seize the Moment](/ko/cypher-open/character-abilities#seize-the-moment-%EC%86%8D%EB%A0%A5-4%EC%A0%90)
 
 #### 4등급 은밀 능력
 
-Ambusher
-Debilitating Strike
-Outwit
-Preternatural Senses
-Tumbling Moves
+[Ambusher](/ko/cypher-open/character-abilities#ambusher)
+[Debilitating Strike](/ko/cypher-open/character-abilities#debilitating-strike-%EC%86%8D%EB%A0%A5-4%EC%A0%90)
+[Outwit](/ko/cypher-open/character-abilities#outwit)
+[Preternatural Senses](/ko/cypher-open/character-abilities#preternatural-senses)
+[Tumbling Moves](/ko/cypher-open/character-abilities#tumbling-moves-%EC%86%8D%EB%A0%A5-5%EC%A0%90)
 
 #### 5등급 은밀 능력
 
-Assassin Strike
-Mask
-Return to Sender
-Uncanny Luck
+[Assassin Strike](/ko/cypher-open/character-abilities#assassin-strike-%EC%A7%80%EC%84%B1-5%EC%A0%90)
+[Mask](/ko/cypher-open/character-abilities#mask-%EC%A7%80%EC%84%B1-5%EC%A0%90)
+[Return to Sender](/ko/cypher-open/character-abilities#return-to-sender-%EC%86%8D%EB%A0%A5-3%EC%A0%90)
+[Uncanny Luck](/ko/cypher-open/character-abilities#uncanny-luck-%EC%86%8D%EB%A0%A5-4%EC%A0%90)
 
 #### 6등급 은밀 능력
 
-Exploit Advantage
-Spring Away
-Thief’s Luck
-Twist of Fate
+[Exploit Advantage](/ko/cypher-open/character-abilities#exploit-advantage)
+[Spring Away](/ko/cypher-open/character-abilities#spring-away-%EC%86%8D%EB%A0%A5-5%EC%A0%90)
+[Thief’s Luck](/ko/cypher-open/character-abilities#thiefs-luck)
+[Twist of Fate](/ko/cypher-open/character-abilities#twist-of-fate)
 
 ### 기술 플레이버
 
@@ -74,49 +74,49 @@ Twist of Fate
 
 #### 1등급 기술 능력
 
-Datajack
-Hacker
-Machine Interface
-Scramble Machine
-Tech Skills
-Tinker
+[Datajack](/ko/cypher-open/character-abilities#datajack-%EC%A7%80%EC%84%B1-1%EC%A0%90)
+[Hacker](/ko/cypher-open/character-abilities#hacker-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+[Machine Interface](/ko/cypher-open/character-abilities#machine-interface-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+[Scramble Machine](/ko/cypher-open/character-abilities#scramble-machine-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+[Tech Skills](/ko/cypher-open/character-abilities#tech-skills)
+[Tinker](/ko/cypher-open/character-abilities#tinker-%EC%A7%80%EC%84%B1-1%EC%A0%90)
 
 #### 2등급 기술 능력
 
-Distant Interface
-Machine Efficiency
-Overload Machine
-Serv-0
-Serv-0 Defender
-Serv-0 Repair
-Tool Mastery
+[Distant Interface](/ko/cypher-open/character-abilities#distant-interface-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+[Machine Efficiency](/ko/cypher-open/character-abilities#machine-efficiency-%EC%A7%80%EC%84%B1-3%EC%A0%90)
+[Overload Machine](/ko/cypher-open/character-abilities#overload-machine-%EC%A7%80%EC%84%B1-3%EC%A0%90)
+[Serv-0](/ko/cypher-open/character-abilities#serv-0)
+[Serv-0 Defender](/ko/cypher-open/character-abilities#serv-0-defender)
+[Serv-0 Repair](/ko/cypher-open/character-abilities#serv-0-repair)
+[Tool Mastery](/ko/cypher-open/character-abilities#tool-mastery)
 
 #### 3등급 기술 능력
 
-Mechanical Telepathy
-Serv-0 Scanner
-Ship Footing
-Shipspeak
-Spray
+[Mechanical Telepathy](/ko/cypher-open/character-abilities#mechanical-telepathy-%EC%A7%80%EC%84%B1-3%EC%A0%90)
+[Serv-0 Scanner](/ko/cypher-open/character-abilities#serv-0-scanner-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+[Ship Footing](/ko/cypher-open/character-abilities#ship-footing-%EC%86%8D%EB%A0%A5-3%EC%A0%90)
+[Shipspeak](/ko/cypher-open/character-abilities#shipspeak)
+[Spray](/ko/cypher-open/character-abilities#spray-%EC%86%8D%EB%A0%A5-2%EC%A0%90)
 
 #### 4등급 기술 능력
 
-Machine Bond
-Robot Fighter
-Serv-0 Aim
-Serv-0 Brawler
-Serv-0 Spy
+[Machine Bond](/ko/cypher-open/character-abilities#machine-bond)
+[Robot Fighter](/ko/cypher-open/character-abilities#robot-fighter)
+[Serv-0 Aim](/ko/cypher-open/character-abilities#serv-0-aim)
+[Serv-0 Brawler](/ko/cypher-open/character-abilities#serv-0-brawler)
+[Serv-0 Spy](/ko/cypher-open/character-abilities#serv-0-spy-%EC%A7%80%EC%84%B1-3%EC%A0%90)
 
 #### 5등급 기술 능력
 
-Control Machine
-Jury-Rig
-Machine Companion
+[Control Machine](/ko/cypher-open/character-abilities#control-machine-%EC%A7%80%EC%84%B1-6%EC%A0%90)
+[Jury-Rig](/ko/cypher-open/character-abilities#jury-rig-%EC%A7%80%EC%84%B1-5%EC%A0%90)
+[Machine Companion](/ko/cypher-open/character-abilities#machine-companion)
 
 #### 6등급 기술 능력
 
-Information Gathering
-Master Machine
+[Information Gathering](/ko/cypher-open/character-abilities#information-gathering-%EC%A7%80%EC%84%B1-5%EC%A0%90)
+[Master Machine](/ko/cypher-open/character-abilities#master-machine-%EC%A7%80%EC%84%B1-8%EC%A0%90)
 
 ### 마법 플레이버
 
@@ -126,49 +126,49 @@ Master Machine
 #### 1등급 마법 능력
 
 [Blessing of the Gods](/ko/cypher-open/character-abilities#blessing-of-the-gods)
-Closed Mind
-Entangling Force
-Hedge Magic
-Magic Training
-Mental Link
-Premonition
+[Closed Mind](/ko/cypher-open/character-abilities#closed-mind)
+[Entangling Force](/ko/cypher-open/character-abilities#entangling-force-%EC%A7%80%EC%84%B1-1%EC%A0%90)
+[Hedge Magic](/ko/cypher-open/character-abilities#hedge-magic-%EC%A7%80%EC%84%B1-1%EC%A0%90)
+[Magic Training](/ko/cypher-open/character-abilities#magic-training)
+[Mental Link](/ko/cypher-open/character-abilities#mental-link-%EC%A7%80%EC%84%B1-1%EC%A0%90)
+[Premonition](/ko/cypher-open/character-abilities#premonition-%EC%A7%80%EC%84%B1-2%EC%A0%90)
 
 #### 2등급 마법 능력
 
-Concussive Blast
-Fetch
-Force Field
-Lock
-Repair Flesh
+[Concussive Blast](/ko/cypher-open/character-abilities#concussive-blast-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+[Fetch](/ko/cypher-open/character-abilities#fetch-%EC%A7%80%EC%84%B1-3%EC%A0%90)
+[Force Field](/ko/cypher-open/character-abilities#force-field-%EC%A7%80%EC%84%B1-3%EC%A0%90)
+[Lock](/ko/cypher-open/character-abilities#lock-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+[Repair Flesh](/ko/cypher-open/character-abilities#repair-flesh-%EC%A7%80%EC%84%B1-3%EC%A0%90)
 
 #### 3등급 마법 능력
 
-Distance Viewing
-Fire Bloom
-Fling
-Force at Distance
-Summon Giant Spider
+[Distance Viewing](/ko/cypher-open/character-abilities#distance-viewing-%EC%A7%80%EC%84%B1-5%EC%A0%90)
+[Fire Bloom](/ko/cypher-open/character-abilities#fire-bloom-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+[Fling](/ko/cypher-open/character-abilities#fling-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+[Force at Distance](/ko/cypher-open/character-abilities#force-at-distance-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+[Summon Giant Spider](/ko/cypher-open/character-abilities#summon-giant-spider-%EC%A7%80%EC%84%B1-4%EC%A0%90)
 
 #### 4등급 마법 능력
 
-Elemental Protection
-Ignition
-Pry Open
+[Elemental Protection](/ko/cypher-open/character-abilities#elemental-protection-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+[Ignition](/ko/cypher-open/character-abilities#ignition-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+[Pry Open](/ko/cypher-open/character-abilities#pry-open-%EC%A7%80%EC%84%B1-4%EC%A0%90)
 
 #### 5등급 마법 능력
 
-Create
-Divine Intervention
-Dragon’s Maw
-Fast Travel
-True Senses
+[Create](/ko/cypher-open/character-abilities#create-%EC%A7%80%EC%84%B1-7%EC%A0%90)
+[Divine Intervention](/ko/cypher-open/character-abilities#divine-intervention-%EC%A7%80%EC%84%B1-2%EC%A0%90-or-%EC%A7%80%EC%84%B1-2%EC%A0%90--4-xp)
+[Dragon’s Maw](/ko/cypher-open/character-abilities#dragons-maw-%EC%A7%80%EC%84%B1-6%EC%A0%90)
+[Fast Travel](/ko/cypher-open/character-abilities#fast-travel-%EC%A7%80%EC%84%B1-7%EC%A0%90)
+[True Senses](/ko/cypher-open/character-abilities#true-senses)
 
 #### 6등급 마법 능력
 
-Relocate
-Summon Demon
-Traverse the Worlds
-Word of Death
+[Relocate](/ko/cypher-open/character-abilities#relocate-%EC%A7%80%EC%84%B1-7%EC%A0%90)
+[Summon Demon](/ko/cypher-open/character-abilities#summon-demon-%EC%A7%80%EC%84%B1-7%EC%A0%90)
+[Traverse the Worlds](/ko/cypher-open/character-abilities#traverse-the-worlds-%EC%A7%80%EC%84%B1-8%EC%A0%90)
+[Word of Death](/ko/cypher-open/character-abilities#word-of-death-%EC%A7%80%EC%84%B1-5%EC%A0%90)
 
 ### 전투 플레이버
 
@@ -176,42 +176,42 @@ Word of Death
 
 #### 1등급 전투 능력
 
-Danger Sense
-Practiced in Armor
-Practiced With Medium Weapons
+[Danger Sense](/ko/cypher-open/character-abilities#danger-sense-%EC%86%8D%EB%A0%A5-1%EC%A0%90)
+[Practiced in Armor](/ko/cypher-open/character-abilities#practiced-in-armor)
+[Practiced With Medium Weapons](/ko/cypher-open/character-abilities#practiced-with-medium-weapons)
 
 #### 2등급 전투 능력
 
-Bloodlust
-Combat Prowess
-Trained Without Armor
+[Bloodlust](/ko/cypher-open/character-abilities#bloodlust-%ED%9E%98-3%EC%A0%90)
+[Combat Prowess](/ko/cypher-open/character-abilities#combat-prowess)
+[Trained Without Armor](/ko/cypher-open/character-abilities#trained-without-armor)
 
 #### 3등급 전투 능력
 
-Practiced With All Weapons
-Skill With Attacks
-Skill With Defense
-Successive Attack
+[Practiced With All Weapons](/ko/cypher-open/character-abilities#practiced-with-all-weapons)
+[Skill With Attacks](/ko/cypher-open/character-abilities#skill-with-attacks)
+[Skill With Defense](/ko/cypher-open/character-abilities#skill-with-defense)
+[Successive Attack](/ko/cypher-open/character-abilities#successive-attack-%EC%86%8D%EB%A0%A5-2%EC%A0%90)
 
 #### 4등급 전투 능력
 
-Capable Warrior
-Deadly Aim
-Fury
-Misdirect
-Spray
+[Capable Warrior](/ko/cypher-open/character-abilities#capable-warrior)
+[Deadly Aim](/ko/cypher-open/character-abilities#deadly-aim-%EC%86%8D%EB%A0%A5-3%EC%A0%90)
+[Fury](/ko/cypher-open/character-abilities#fury-%ED%9E%98-3%EC%A0%90)
+[Misdirect](/ko/cypher-open/character-abilities#misdirect-%EC%86%8D%EB%A0%A5-3%EC%A0%90)
+[Spray](/ko/cypher-open/character-abilities#spray-%EC%86%8D%EB%A0%A5-2%EC%A0%90)
 
 #### 5등급 전투 능력
 
-Experienced Defender
-Hard Target
-Parry
+[Experienced Defender](/ko/cypher-open/character-abilities#experienced-defender)
+[Hard Target](/ko/cypher-open/character-abilities#hard-target)
+[Parry](/ko/cypher-open/character-abilities#parry-%EC%86%8D%EB%A0%A5-5%EC%A0%90)
 
 #### 6등급 전투 능력
 
-Greater Skill With Attacks
-Mastery in Armor
-Mastery With Defense
+[Greater Skill With Attacks](/ko/cypher-open/character-abilities#greater-skill-with-attacks)
+[Mastery in Armor](/ko/cypher-open/character-abilities#mastery-in-armor)
+[Mastery With Defense](/ko/cypher-open/character-abilities#mastery-with-defense)
 
 ### 기술과 지식 플레이버
 
@@ -220,35 +220,35 @@ Mastery With Defense
 
 #### 1등급 기술과 지식 능력
 
-Interaction Skills
-Investigative Skills
-Knowledge Skills
-Physical Skills
-Travel Skills
+[Interaction Skills](/ko/cypher-open/character-abilities#interaction-skills)
+[Investigative Skills](/ko/cypher-open/character-abilities#investigative-skills)
+[Knowledge Skills](/ko/cypher-open/character-abilities#knowledge-skills)
+[Physical Skills](/ko/cypher-open/character-abilities#physical-skills)
+[Travel Skills](/ko/cypher-open/character-abilities#travel-skills)
 
 #### 2등급 기술과 지식 능력
 
-Extra Skill
-Tool Mastery
-Understanding
+[Extra Skill](/ko/cypher-open/character-abilities#extra-skill)
+[Tool Mastery](/ko/cypher-open/character-abilities#tool-mastery)
+[Understanding](/ko/cypher-open/character-abilities#understanding-%EC%A7%80%EC%84%B1-1%EC%A0%90)
 
 #### 3등급 기술과 지식 능력
 
-Flex Skill
-Improvise
+[Flex Skill](/ko/cypher-open/character-abilities#flex-skill)
+[Improvise](/ko/cypher-open/character-abilities#improvise-%EC%A7%80%EC%84%B1-3%EC%A0%90)
 
 #### 4등급 기술과 지식 능력
 
-Multiple Skills
-Quick Wits
-Task Specialization
+[Multiple Skills](/ko/cypher-open/character-abilities#multiple-skills)
+[Quick Wits](/ko/cypher-open/character-abilities#quick-wits)
+[Task Specialization](/ko/cypher-open/character-abilities#task-specialization)
 
 #### 5등급 기술과 지식 능력
 
-Practiced With Medium Weapons
-Read the Signs
+[Practiced With Medium Weapons](/ko/cypher-open/character-abilities#practiced-with-medium-weapons)
+[Read the Signs](/ko/cypher-open/character-abilities#read-the-signs-%EC%A7%80%EC%84%B1-4%EC%A0%90)
 
 #### 6등급 기술과 지식 능력
 
-Skill With Attacks
-Skill With Defense
+[Skill With Attacks](/ko/cypher-open/character-abilities#skill-with-attacks)
+[Skill With Defense](/ko/cypher-open/character-abilities#skill-with-defense)

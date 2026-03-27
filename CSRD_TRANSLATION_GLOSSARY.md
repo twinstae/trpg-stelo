@@ -15,31 +15,31 @@ This glossary defines canonical terminology for `src/pages/ko/cypher-open/` and 
 
 ## 2) Core Mechanics
 
-| English                | Korean (Preferred) | Notes                                           |
-| ---------------------- | ------------------ | ----------------------------------------------- |
-| Stat / Statistic       | 특성치 / 스탯      | `특성치` first, `스탯` optional in explanation. |
-| Might                  | 힘                 |                                                 |
-| Speed                  | 속력               |                                                 |
-| Intellect              | 지성               |                                                 |
-| Pool / Stat Pool       | 역량 / 특성치 역량 | Use `역량` as default.                          |
-| Edge                   | 재능               |                                                 |
-| Effort                 | 분발               |                                                 |
-| Tier                   | 등급               | e.g. `1등급`.                                   |
-| XP / Experience Points | XP / 경험치        | `XP` allowed with `경험치` in prose.            |
-| Recovery Roll          | 회복 굴림          |                                                 |
-| Task                   | 일 / 과제          | Keep consistent within section (prefer `일`).   |
-| Difficulty             | 난이도             |                                                 |
-| Target Number          | 목표치             |                                                 |
-| Eased / Ease           | 완화 / 완화된다    |                                                 |
-| Hindered / Hinder      | 방해 / 방해된다    |                                                 |
-| Trained                | 익숙               |                                                 |
-| Specialized            | 능숙               |                                                 |
-| Inability              | 무능               |                                                 |
-| Asset                  | 보탬               | In examples: `보탬으로 친다`.                   |
-| Weakness               | 약점               | Opposite of Edge.                               |
-| Damage Track (Object)  | 사물 부상 트랙     |                                                 |
-| Minor Effect           | 작은 이득          |                                                 |
-| Major Effect           | 큰 이득            |                                                 |
+| English                | Korean (Preferred) | Notes                                         |
+| ---------------------- | ------------------ | --------------------------------------------- |
+| Stat / Statistic       | 특성치             | `특성치`                                      |
+| Might                  | 힘                 |                                               |
+| Speed                  | 속력               |                                               |
+| Intellect              | 지성               |                                               |
+| Pool / Stat Pool       | 역량 / 특성치 역량 | Use `역량` as default.                        |
+| Edge                   | 재능               |                                               |
+| Effort                 | 분발               |                                               |
+| Tier                   | 등급               | e.g. `1등급`.                                 |
+| XP / Experience Points | XP / 경험치        | `XP` allowed with `경험치` in prose.          |
+| Recovery Roll          | 회복 굴림          |                                               |
+| Task                   | 일 / 과제          | Keep consistent within section (prefer `일`). |
+| Difficulty             | 난이도             |                                               |
+| Target Number          | 목표치             |                                               |
+| Eased / Ease           | 완화 / 완화된다    |                                               |
+| Hindered / Hinder      | 방해 / 방해된다    |                                               |
+| Trained                | 익숙               |                                               |
+| Specialized            | 능숙               |                                               |
+| Inability              | 무능               |                                               |
+| Asset                  | 보탬               | In examples: `보탬으로 친다`.                 |
+| Weakness               | 약점               | Opposite of Edge.                             |
+| Damage Track (Object)  | 사물 부상 트랙     |                                               |
+| Minor Effect           | 작은 이득          |                                               |
+| Major Effect           | 큰 이득            |                                               |
 
 ## 3) Action Economy and Rules Tags
 

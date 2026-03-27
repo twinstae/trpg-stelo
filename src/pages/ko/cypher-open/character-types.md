@@ -108,72 +108,72 @@ publish: false
 
 **특수 능력** : 아래 목록에서 당신의 개를 고른다. 설명에 달리 없으면 같은 능력은 한 번만. 각 능력의 전문 설명은 「능력(Abilities)」 장에 있으며, 플레이버·특징 능력도 같은 목록에 실려 있다.
 
-- Bash
-- Combat Prowess
-- Control the Field
-- Improved Edge
-- No Need for Weapons
-- Overwatch
-- Physical Skills
-- Practiced in Armor
-- Quick Throw
-- Swipe
-- Trained Without Armor
+- [Bash](/ko/cypher-open/character-abilities#bash-%ED%9E%98-1%EC%A0%90)
+- [Combat Prowess](/ko/cypher-open/character-abilities#combat-prowess)
+- [Control the Field](/ko/cypher-open/character-abilities#control-the-field-%ED%9E%98-1%EC%A0%90)
+- [Improved Edge](/ko/cypher-open/character-abilities#improved-edge)
+- [No Need for Weapons](/ko/cypher-open/character-abilities#no-need-for-weapons)
+- [Overwatch](/ko/cypher-open/character-abilities#overwatch-%EC%A7%80%EC%84%B1-1%EC%A0%90)
+- [Physical Skills](/ko/cypher-open/character-abilities#physical-skills)
+- [Practiced in Armor](/ko/cypher-open/character-abilities#practiced-in-armor)
+- [Quick Throw](/ko/cypher-open/character-abilities#quick-throw-%EC%86%8D%EB%A0%A5-2%EC%A0%90)
+- [Swipe](/ko/cypher-open/character-abilities#swipe-%EC%86%8D%EB%A0%A5-1%EC%A0%90)
+- [Trained Without Armor](/ko/cypher-open/character-abilities#trained-without-armor)
 
 #### 2등급 전사
 
 아래 목록(또는 더 낮은 등급)에서 두 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Crushing Blow
-- Hemorrhage
-- Reload
-- Skill With Attacks
-- Skill With Defense
-- Successive Attack
+- [Crushing Blow](/ko/cypher-open/character-abilities#crushing-blow-%ED%9E%98-2%EC%A0%90)
+- [Hemorrhage](/ko/cypher-open/character-abilities#hemorrhage-%ED%9E%98-2%EC%A0%90)
+- [Reload](/ko/cypher-open/character-abilities#reload-%EC%86%8D%EB%A0%A5-1%EC%A0%90)
+- [Skill With Attacks](/ko/cypher-open/character-abilities#skill-with-attacks)
+- [Skill With Defense](/ko/cypher-open/character-abilities#skill-with-defense)
+- [Successive Attack](/ko/cypher-open/character-abilities#successive-attack-%EC%86%8D%EB%A0%A5-2%EC%A0%90)
 
 #### 3등급 전사
 
 아래 목록(또는 더 낮은 등급)에서 세 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Deadly Aim
-- Energy Resistance
-- Experienced in Armor
-- Expert Cypher Use
-- Fury
-- Lunge
-- Reaction
-- Seize the Moment
-- Slice
-- Spray
-- Trick Shot
-- Vigilance
+- [Deadly Aim](/ko/cypher-open/character-abilities#deadly-aim-%EC%86%8D%EB%A0%A5-3%EC%A0%90)
+- [Energy Resistance](/ko/cypher-open/character-abilities#energy-resistance)
+- [Experienced in Armor](/ko/cypher-open/character-abilities#experienced-in-armor)
+- [Expert Cypher Use](/ko/cypher-open/character-abilities#expert-cypher-use)
+- [Fury](/ko/cypher-open/character-abilities#fury-%ED%9E%98-3%EC%A0%90)
+- [Lunge](/ko/cypher-open/character-abilities#lunge-%ED%9E%98-2%EC%A0%90)
+- [Reaction](/ko/cypher-open/character-abilities#reaction)
+- [Seize the Moment](/ko/cypher-open/character-abilities#seize-the-moment-%EC%86%8D%EB%A0%A5-4%EC%A0%90)
+- [Slice](/ko/cypher-open/character-abilities#slice-%EC%86%8D%EB%A0%A5-2%EC%A0%90)
+- [Spray](/ko/cypher-open/character-abilities#spray-%EC%86%8D%EB%A0%A5-2%EC%A0%90)
+- [Trick Shot](/ko/cypher-open/character-abilities#trick-shot-%EC%86%8D%EB%A0%A5-2%EC%A0%90)
+- [Vigilance](/ko/cypher-open/character-abilities#vigilance-%EC%A7%80%EC%84%B1-2%EC%A0%90)
 
 #### 4등급 전사
 
 아래 목록(또는 더 낮은 등급)에서 두 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Amazing Effort
-- Capable Warrior
-- Experienced Defender
-- Feint
-- Increased Effects
-- Momentum
-- Pry Open
-- Snipe
-- Tough As Nails
+- [Amazing Effort](/ko/cypher-open/character-abilities#amazing-effort)
+- [Capable Warrior](/ko/cypher-open/character-abilities#capable-warrior)
+- [Experienced Defender](/ko/cypher-open/character-abilities#experienced-defender)
+- [Feint](/ko/cypher-open/character-abilities#feint-%EC%86%8D%EB%A0%A5-2%EC%A0%90)
+- [Increased Effects](/ko/cypher-open/character-abilities#increased-effects)
+- [Momentum](/ko/cypher-open/character-abilities#momentum)
+- [Pry Open](/ko/cypher-open/character-abilities#pry-open-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+- [Snipe](/ko/cypher-open/character-abilities#snipe-%EC%86%8D%EB%A0%A5-2%EC%A0%90)
+- [Tough As Nails](/ko/cypher-open/character-abilities#tough-as-nails)
 
 #### 5등급 전사
 
 아래 목록(또는 더 낮은 등급)에서 세 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Adroit Cypher Use
-- Arc Spray
-- Improved Success
-- Jump Attack
-- Mastery in Armor
-- Mastery With Attacks
-- Mastery With Defense
-- Parry
+- [Adroit Cypher Use](/ko/cypher-open/character-abilities#adroit-cypher-use)
+- [Arc Spray](/ko/cypher-open/character-abilities#arc-spray-%EC%86%8D%EB%A0%A5-3%EC%A0%90)
+- [Improved Success](/ko/cypher-open/character-abilities#improved-success)
+- [Jump Attack](/ko/cypher-open/character-abilities#jump-attack-%ED%9E%98-5%EC%A0%90)
+- [Mastery in Armor](/ko/cypher-open/character-abilities#mastery-in-armor)
+- [Mastery With Attacks](/ko/cypher-open/character-abilities#mastery-with-attacks)
+- [Mastery With Defense](/ko/cypher-open/character-abilities#mastery-with-defense)
+- [Parry](/ko/cypher-open/character-abilities#parry-%EC%86%8D%EB%A0%A5-5%EC%A0%90)
 
 (높은 등급에서는 낮은 등급 특수 능력을 고를 수 있다. 원하는 캐릭터를 맞추는 데 가장 좋은 방법일 때가 많다. 기능을 주는 능력은 여러 번 고를 수 있는 경우가 많다.)
 
@@ -181,12 +181,12 @@ publish: false
 
 아래 목록(또는 더 낮은 등급)에서 두 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Again and Again
-- Finishing Blow
-- Magnificent Moment
-- Murderer
-- Spin Attack
-- Weapon and Body
+- [Again and Again](/ko/cypher-open/character-abilities#again-and-again-%EC%86%8D%EB%A0%A5-8%EC%A0%90)
+- [Finishing Blow](/ko/cypher-open/character-abilities#finishing-blow-%ED%9E%98-5%EC%A0%90)
+- [Magnificent Moment](/ko/cypher-open/character-abilities#magnificent-moment)
+- [Murderer](/ko/cypher-open/character-abilities#murderer-%EC%86%8D%EB%A0%A5-8%EC%A0%90)
+- [Spin Attack](/ko/cypher-open/character-abilities#spin-attack-%EC%86%8D%EB%A0%A5-5%EC%A0%90)
+- [Weapon and Body](/ko/cypher-open/character-abilities#weapon-and-body-%EC%86%8D%EB%A0%A5-5%EC%A0%90)
 
 <blockquote>
 
@@ -292,80 +292,80 @@ publish: false
 
 **특수 능력** : 아래에서 당신의 개를 고른다. 설명에 달리 없으면 같은 능력은 한 번만. 각 능력의 전체 설명은 「능력(Abilities)」 장에 있으며, 플레이버·특징 능력도 같은 목록에 실려 있다. (마스터가 달리 정하지 않는 한 어뎁트 능력은 손 하나는 비워 둬야 한다.)
 
-- Distortion
-- Erase Memories
-- Far Step
-- Hedge Magic
-- Magic Training
-- Onslaught
-- Push
-- Resonance Field
-- Scan
-- Shatter
-- Ward
+- [Distortion](/ko/cypher-open/character-abilities#distortion-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Erase Memories](/ko/cypher-open/character-abilities#erase-memories-%EC%A7%80%EC%84%B1-3%EC%A0%90)
+- [Far Step](/ko/cypher-open/character-abilities#far-step-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Hedge Magic](/ko/cypher-open/character-abilities#hedge-magic-%EC%A7%80%EC%84%B1-1%EC%A0%90)
+- [Magic Training](/ko/cypher-open/character-abilities#magic-training)
+- [Onslaught](/ko/cypher-open/character-abilities#onslaught-%EC%A7%80%EC%84%B1-1%EC%A0%90)
+- [Push](/ko/cypher-open/character-abilities#push-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Resonance Field](/ko/cypher-open/character-abilities#resonance-field-%EC%A7%80%EC%84%B1-1%EC%A0%90)
+- [Scan](/ko/cypher-open/character-abilities#scan-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Shatter](/ko/cypher-open/character-abilities#shatter-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Ward](/ko/cypher-open/character-abilities#ward)
 
 #### 2등급 어뎁트
 
 아래(또는 더 낮은 등급)에서 하나를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Adaptation
-- Cutting Light
-- Hover
-- Mind Reading
-- Retrieve Memories
-- Reveal
-- Stasis
+- [Adaptation](/ko/cypher-open/character-abilities#adaptation)
+- [Cutting Light](/ko/cypher-open/character-abilities#cutting-light-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Hover](/ko/cypher-open/character-abilities#hover-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Mind Reading](/ko/cypher-open/character-abilities#mind-reading-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Retrieve Memories](/ko/cypher-open/character-abilities#retrieve-memories-%EC%A7%80%EC%84%B1-3%EC%A0%90)
+- [Reveal](/ko/cypher-open/character-abilities#reveal-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Stasis](/ko/cypher-open/character-abilities#stasis-%EC%A7%80%EC%84%B1-3%EC%A0%90)
 
 #### 3등급 어뎁트
 
 아래(또는 더 낮은 등급)에서 두 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Adroit Cypher Use
-- Countermeasures
-- Energy Protection
-- Fire and Ice
-- Force Field Barrier
-- Sensor
-- Targeting Eye
+- [Adroit Cypher Use](/ko/cypher-open/character-abilities#adroit-cypher-use)
+- [Countermeasures](/ko/cypher-open/character-abilities#countermeasures-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+- [Energy Protection](/ko/cypher-open/character-abilities#energy-protection-%EC%A7%80%EC%84%B1-3%EC%A0%90)
+- [Fire and Ice](/ko/cypher-open/character-abilities#fire-and-ice-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+- [Force Field Barrier](/ko/cypher-open/character-abilities#force-field-barrier-%EC%A7%80%EC%84%B1-3%EC%A0%90)
+- [Sensor](/ko/cypher-open/character-abilities#sensor-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+- [Targeting Eye](/ko/cypher-open/character-abilities#targeting-eye)
 
 #### 4등급 어뎁트
 
 아래(또는 더 낮은 등급)에서 하나를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Death Touch
-- Exile
-- Invisibility
-- Matter Cloud
-- Mind Control
-- Projection
-- Rapid Processing
-- Regeneration
-- Reshape
-- Wormhole
+- [Death Touch](/ko/cypher-open/character-abilities#death-touch-%EC%A7%80%EC%84%B1-6%EC%A0%90)
+- [Exile](/ko/cypher-open/character-abilities#exile-%EC%A7%80%EC%84%B1-5%EC%A0%90)
+- [Invisibility](/ko/cypher-open/character-abilities#invisibility-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+- [Matter Cloud](/ko/cypher-open/character-abilities#matter-cloud-%EC%A7%80%EC%84%B1-5%EC%A0%90)
+- [Mind Control](/ko/cypher-open/character-abilities#mind-control-%EC%A7%80%EC%84%B1-6%EC%A0%90)
+- [Projection](/ko/cypher-open/character-abilities#projection-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+- [Rapid Processing](/ko/cypher-open/character-abilities#rapid-processing-%EC%A7%80%EC%84%B1-6%EC%A0%90)
+- [Regeneration](/ko/cypher-open/character-abilities#regeneration-%EC%A7%80%EC%84%B1-6%EC%A0%90)
+- [Reshape](/ko/cypher-open/character-abilities#reshape-%EC%A7%80%EC%84%B1-5%EC%A0%90)
+- [Wormhole](/ko/cypher-open/character-abilities#wormhole-%EC%A7%80%EC%84%B1-6%EC%A0%90)
 
 #### 5등급 어뎁트
 
 아래(또는 더 낮은 등급)에서 두 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Absorb Energy
-- Concussion
-- Conjuration
-- Create
-- Dust to Dust
-- Knowing the Unknown
-- Master Cypher Use
-- Teleportation
-- True Senses
+- [Absorb Energy](/ko/cypher-open/character-abilities#absorb-energy-%EC%A7%80%EC%84%B1-7%EC%A0%90)
+- [Concussion](/ko/cypher-open/character-abilities#concussion-%EC%A7%80%EC%84%B1-7-%EC%A0%90)
+- [Conjuration](/ko/cypher-open/character-abilities#conjuration-%EC%A7%80%EC%84%B1-7%EC%A0%90)
+- [Create](/ko/cypher-open/character-abilities#create-%EC%A7%80%EC%84%B1-7%EC%A0%90)
+- [Dust to Dust](/ko/cypher-open/character-abilities#dust-to-dust-%EC%A7%80%EC%84%B1-7%EC%A0%90)
+- [Knowing the Unknown](/ko/cypher-open/character-abilities#knowing-the-unknown-%EC%A7%80%EC%84%B1-6%EC%A0%90)
+- [Master Cypher Use](/ko/cypher-open/character-abilities#master-cypher-use)
+- [Teleportation](/ko/cypher-open/character-abilities#teleportation-%EC%A7%80%EC%84%B1-6%EC%A0%90)
+- [True Senses](/ko/cypher-open/character-abilities#true-senses)
 
 #### 6등급 어뎁트
 
 아래(또는 더 낮은 등급)에서 하나를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Control Weather
-- Earthquake
-- Move Mountains
-- Traverse the Worlds
-- Usurp Cypher
+- [Control Weather](/ko/cypher-open/character-abilities#control-weather-%EC%A7%80%EC%84%B1-10%EC%A0%90)
+- [Earthquake](/ko/cypher-open/character-abilities#earthquake-%ED%9E%98-7%EC%A0%90)
+- [Move Mountains](/ko/cypher-open/character-abilities#move-mountains-%EC%A7%80%EC%84%B1-9%EC%A0%90)
+- [Traverse the Worlds](/ko/cypher-open/character-abilities#traverse-the-worlds-%EC%A7%80%EC%84%B1-8%EC%A0%90)
+- [Usurp Cypher](/ko/cypher-open/character-abilities#usurp-cypher)
 
 <blockquote>
 
@@ -467,98 +467,98 @@ publish: false
 
 **특수 능력** : 아래 목록에서 당신의 개를 고른다. 설명에 달리 없으면 같은 능력은 한 번만. 각 능력의 전문 설명은 「능력(Abilities)」 장에 있으며, 플레이버·특징 능력도 같은 목록에 실려 있다.
 
-- Block
-- Danger Sense
-- Decipher
-- Endurance
-- Find the Way
-- Fleet of Foot
-- Improved Edge
-- Knowledge Skills
-- Muscles of Iron
-- No Need for Weapons
-- Physical Skills
-- Practiced in Armor
-- Practiced With All Weapons
-- Surging Confidence
-- Trained Without Armor
+- [Block](/ko/cypher-open/character-abilities#block-%EC%86%8D%EB%A0%A5-3%EC%A0%90)
+- [Danger Sense](/ko/cypher-open/character-abilities#danger-sense-%EC%86%8D%EB%A0%A5-1%EC%A0%90)
+- [Decipher](/ko/cypher-open/character-abilities#decipher-%EC%A7%80%EC%84%B1-1%EC%A0%90)
+- [Endurance](/ko/cypher-open/character-abilities#endurance)
+- [Find the Way](/ko/cypher-open/character-abilities#find-the-way)
+- [Fleet of Foot](/ko/cypher-open/character-abilities#fleet-of-foot-%EC%86%8D%EB%A0%A5-1%EC%A0%90)
+- [Improved Edge](/ko/cypher-open/character-abilities#improved-edge)
+- [Knowledge Skills](/ko/cypher-open/character-abilities#knowledge-skills)
+- [Muscles of Iron](/ko/cypher-open/character-abilities#muscles-of-iron-%ED%9E%98-2%EC%A0%90)
+- [No Need for Weapons](/ko/cypher-open/character-abilities#no-need-for-weapons)
+- [Physical Skills](/ko/cypher-open/character-abilities#physical-skills)
+- [Practiced in Armor](/ko/cypher-open/character-abilities#practiced-in-armor)
+- [Practiced With All Weapons](/ko/cypher-open/character-abilities#practiced-with-all-weapons)
+- [Surging Confidence](/ko/cypher-open/character-abilities#surging-confidence-%ED%9E%98-1%EC%A0%90)
+- [Trained Without Armor](/ko/cypher-open/character-abilities#trained-without-armor)
 
 #### 2등급 탐험가
 
 아래 목록(또는 더 낮은 등급)에서 당신의 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Curious
-- Danger Instinct
-- Enable Others
-- Escape
-- Eye for Detail
-- Foil Danger
-- Hand to Eye
-- Investigative Skills
-- Quick Recovery
-- Range Increase
-- Skill With Defense
-- Stand Watch
-- Travel Skills
-- Wreck
+- [Curious](/ko/cypher-open/character-abilities#curious)
+- [Danger Instinct](/ko/cypher-open/character-abilities#danger-instinct-%EC%86%8D%EB%A0%A5-3%EC%A0%90)
+- [Enable Others](/ko/cypher-open/character-abilities#enable-others)
+- [Escape](/ko/cypher-open/character-abilities#escape-%EC%86%8D%EB%A0%A5-2%EC%A0%90)
+- [Eye for Detail](/ko/cypher-open/character-abilities#eye-for-detail-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Foil Danger](/ko/cypher-open/character-abilities#foil-danger-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Hand to Eye](/ko/cypher-open/character-abilities#hand-to-eye-%EC%86%8D%EB%A0%A5-2%EC%A0%90)
+- [Investigative Skills](/ko/cypher-open/character-abilities#investigative-skills)
+- [Quick Recovery](/ko/cypher-open/character-abilities#quick-recovery)
+- [Range Increase](/ko/cypher-open/character-abilities#range-increase)
+- [Skill With Defense](/ko/cypher-open/character-abilities#skill-with-defense)
+- [Stand Watch](/ko/cypher-open/character-abilities#stand-watch-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Travel Skills](/ko/cypher-open/character-abilities#travel-skills)
+- [Wreck](/ko/cypher-open/character-abilities#wreck)
 
 #### 3등급 탐험가
 
 아래 목록(또는 더 낮은 등급)에서 세 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Controlled Fall
-- Experienced in Armor
-- Expert Cypher Use
-- Ignore the Pain
-- Obstacle Running
-- Resilience
-- Run and Fight
-- Seize the Moment
-- Skill With Attacks
-- Stone Breaker
-- Think Your Way Out
-- Trapfinder
-- Wrest From Chance
+- [Controlled Fall](/ko/cypher-open/character-abilities#controlled-fall)
+- [Experienced in Armor](/ko/cypher-open/character-abilities#experienced-in-armor)
+- [Expert Cypher Use](/ko/cypher-open/character-abilities#expert-cypher-use)
+- [Ignore the Pain](/ko/cypher-open/character-abilities#ignore-the-pain)
+- [Obstacle Running](/ko/cypher-open/character-abilities#obstacle-running-%EC%86%8D%EB%A0%A5-3%EC%A0%90)
+- [Resilience](/ko/cypher-open/character-abilities#resilience)
+- [Run and Fight](/ko/cypher-open/character-abilities#run-and-fight-%ED%9E%98-4%EC%A0%90)
+- [Seize the Moment](/ko/cypher-open/character-abilities#seize-the-moment-%EC%86%8D%EB%A0%A5-4%EC%A0%90)
+- [Skill With Attacks](/ko/cypher-open/character-abilities#skill-with-attacks)
+- [Stone Breaker](/ko/cypher-open/character-abilities#stone-breaker)
+- [Think Your Way Out](/ko/cypher-open/character-abilities#think-your-way-out)
+- [Trapfinder](/ko/cypher-open/character-abilities#trapfinder-%EC%A7%80%EC%84%B1-3%EC%A0%90)
+- [Wrest From Chance](/ko/cypher-open/character-abilities#wrest-from-chance)
 
 #### 4등급 탐험가
 
 아래 목록(또는 더 낮은 등급)에서 두 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Capable Warrior
-- Expert Skill
-- Increased Effects
-- Read the Signs
-- Runner
-- Subtle Steps
-- Tough As Nails
+- [Capable Warrior](/ko/cypher-open/character-abilities#capable-warrior)
+- [Expert Skill](/ko/cypher-open/character-abilities#expert-skill)
+- [Increased Effects](/ko/cypher-open/character-abilities#increased-effects)
+- [Read the Signs](/ko/cypher-open/character-abilities#read-the-signs-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+- [Runner](/ko/cypher-open/character-abilities#runner)
+- [Subtle Steps](/ko/cypher-open/character-abilities#subtle-steps)
+- [Tough As Nails](/ko/cypher-open/character-abilities#tough-as-nails)
 
 #### 5등급 탐험가
 
 아래 목록(또는 더 낮은 등급)에서 세 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Adroit Cypher Use
-- Free to Move
-- Group Friendship
-- Hard to Kill
-- Jump Attack
-- Mastery With Defense
-- Parry
-- Physically Gifted
-- Take Command
-- Vigilant
+- [Adroit Cypher Use](/ko/cypher-open/character-abilities#adroit-cypher-use)
+- [Free to Move](/ko/cypher-open/character-abilities#free-to-move)
+- [Group Friendship](/ko/cypher-open/character-abilities#group-friendship-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+- [Hard to Kill](/ko/cypher-open/character-abilities#hard-to-kill)
+- [Jump Attack](/ko/cypher-open/character-abilities#jump-attack-%ED%9E%98-5%EC%A0%90)
+- [Mastery With Defense](/ko/cypher-open/character-abilities#mastery-with-defense)
+- [Parry](/ko/cypher-open/character-abilities#parry-%EC%86%8D%EB%A0%A5-5%EC%A0%90)
+- [Physically Gifted](/ko/cypher-open/character-abilities#physically-gifted)
+- [Take Command](/ko/cypher-open/character-abilities#take-command-%EC%A7%80%EC%84%B1-3%EC%A0%90)
+- [Vigilant](/ko/cypher-open/character-abilities#vigilant-%ED%9E%98-5%EC%A0%90)
 
 #### 6등급 탐험가
 
 아래 목록(또는 더 낮은 등급)에서 세 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Again and Again
-- Inspire Coordinated Actions
-- Mastery in Armor
-- Mastery With Attacks
-- Negate Danger
-- Share Defense
-- Spin Attack
-- Wild Vitality
+- [Again and Again](/ko/cypher-open/character-abilities#again-and-again-%EC%86%8D%EB%A0%A5-8%EC%A0%90)
+- [Inspire Coordinated Actions](/ko/cypher-open/character-abilities#inspire-coordinated-actions-%EC%A7%80%EC%84%B1-9%EC%A0%90)
+- [Mastery in Armor](/ko/cypher-open/character-abilities#mastery-in-armor)
+- [Mastery With Attacks](/ko/cypher-open/character-abilities#mastery-with-attacks)
+- [Negate Danger](/ko/cypher-open/character-abilities#negate-danger-%EC%A7%80%EC%84%B1-7%EC%A0%90)
+- [Share Defense](/ko/cypher-open/character-abilities#share-defense)
+- [Spin Attack](/ko/cypher-open/character-abilities#spin-attack-%EC%86%8D%EB%A0%A5-5%EC%A0%90)
+- [Wild Vitality](/ko/cypher-open/character-abilities#wild-vitality-%EC%A7%80%EC%84%B1-4%EC%A0%90)
 
 <blockquote>
 
@@ -660,93 +660,93 @@ publish: false
 
 **특수 능력** : 아래 목록에서 당신의 개를 고른다. 설명에 달리 없으면 같은 능력은 한 번만. 각 능력의 전문 설명은 「능력(Abilities)」 장에 있으며, 플레이버·특징 능력도 같은 목록에 실려 있다. (마음 읽기·진실 감각(True Senses) 같은 일부 스피커 능력은 초자연적 요소를 암시한다. 캐릭터나 설정에 맞지 않으면 은신 플레이버의 능력으로 바꿀 수 있고, 마스터가 초자연이 아니라 비범한 재능과 통찰에 기반하도록 살짝 고쳐도 된다.)
 
-- Anecdote
-- Babel
-- Demeanor of Command
-- Encouragement
-- Enthrall
-- Erase Memories
-- Fast Talk
-- Inspire Aggression
-- Interaction Skills
-- Practiced With Medium Weapons
-- Spin Identity
-- Terrifying Presence
-- Understanding
+- [Anecdote](/ko/cypher-open/character-abilities#anecdote-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Babel](/ko/cypher-open/character-abilities#babel)
+- [Demeanor of Command](/ko/cypher-open/character-abilities#demeanor-of-command-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Encouragement](/ko/cypher-open/character-abilities#encouragement-%EC%A7%80%EC%84%B1-1%EC%A0%90)
+- [Enthrall](/ko/cypher-open/character-abilities#enthrall-%EC%A7%80%EC%84%B1-1%EC%A0%90)
+- [Erase Memories](/ko/cypher-open/character-abilities#erase-memories-%EC%A7%80%EC%84%B1-3%EC%A0%90)
+- [Fast Talk](/ko/cypher-open/character-abilities#fast-talk-%EC%A7%80%EC%84%B1-1%EC%A0%90)
+- [Inspire Aggression](/ko/cypher-open/character-abilities#inspire-aggression-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Interaction Skills](/ko/cypher-open/character-abilities#interaction-skills)
+- [Practiced With Medium Weapons](/ko/cypher-open/character-abilities#practiced-with-medium-weapons)
+- [Spin Identity](/ko/cypher-open/character-abilities#spin-identity-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Terrifying Presence](/ko/cypher-open/character-abilities#terrifying-presence-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Understanding](/ko/cypher-open/character-abilities#understanding-%EC%A7%80%EC%84%B1-1%EC%A0%90)
 
 #### 2등급 스피커
 
 아래 목록(또는 더 낮은 등급)에서 두 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Basic Follower
-- Calm Stranger
-- Disincentivize
-- Gather Intelligence
-- Impart Ideal
-- Inspiring Ease
-- Interaction Skills
-- Practiced in Armor
-- Skill With Defense
-- Speedy Recovery
-- Unexpected Betrayal
+- [Basic Follower](/ko/cypher-open/character-abilities#basic-follower)
+- [Calm Stranger](/ko/cypher-open/character-abilities#calm-stranger-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Disincentivize](/ko/cypher-open/character-abilities#disincentivize-%EC%A7%80%EC%84%B1-1%EC%A0%90)
+- [Gather Intelligence](/ko/cypher-open/character-abilities#gather-intelligence-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Impart Ideal](/ko/cypher-open/character-abilities#impart-ideal-%EC%A7%80%EC%84%B1-3%EC%A0%90)
+- [Inspiring Ease](/ko/cypher-open/character-abilities#inspiring-ease)
+- [Interaction Skills](/ko/cypher-open/character-abilities#interaction-skills)
+- [Practiced in Armor](/ko/cypher-open/character-abilities#practiced-in-armor)
+- [Skill With Defense](/ko/cypher-open/character-abilities#skill-with-defense)
+- [Speedy Recovery](/ko/cypher-open/character-abilities#speedy-recovery-%EC%A7%80%EC%84%B1-3%EC%A0%90)
+- [Unexpected Betrayal](/ko/cypher-open/character-abilities#unexpected-betrayal)
 
 #### 3등급 스피커
 
 아래 목록(또는 더 낮은 등급)에서 세 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Accelerate
-- Blend In
-- Discerning Mind
-- Expert Cypher Use
-- Expert Follower
-- Grand Deception
-- Lead by Inquiry
-- Mind Reading
-- Oratory
-- Perfect Stranger
-- Quick Wits
-- Telling
+- [Accelerate](/ko/cypher-open/character-abilities#accelerate-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+- [Blend In](/ko/cypher-open/character-abilities#blend-in-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+- [Discerning Mind](/ko/cypher-open/character-abilities#discerning-mind)
+- [Expert Cypher Use](/ko/cypher-open/character-abilities#expert-cypher-use)
+- [Expert Follower](/ko/cypher-open/character-abilities#expert-follower)
+- [Grand Deception](/ko/cypher-open/character-abilities#grand-deception-%EC%A7%80%EC%84%B1-3%EC%A0%90)
+- [Lead by Inquiry](/ko/cypher-open/character-abilities#lead-by-inquiry)
+- [Mind Reading](/ko/cypher-open/character-abilities#mind-reading-%EC%A7%80%EC%84%B1-2%EC%A0%90)
+- [Oratory](/ko/cypher-open/character-abilities#oratory-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+- [Perfect Stranger](/ko/cypher-open/character-abilities#perfect-stranger-%EC%A7%80%EC%84%B1-3%EC%A0%90)
+- [Quick Wits](/ko/cypher-open/character-abilities#quick-wits)
+- [Telling](/ko/cypher-open/character-abilities#telling-%EC%A7%80%EC%84%B1-2%EC%A0%90)
 
 #### 4등급 스피커
 
 아래 목록(또는 더 낮은 등급)에서 두 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Anticipate Attack
-- Confounding Banter
-- Feint
-- Heightened Skills
-- Psychosis
-- Read the Signs
-- Spur Effort
-- Strategize
-- Suggestion
+- [Anticipate Attack](/ko/cypher-open/character-abilities#anticipate-attack-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+- [Confounding Banter](/ko/cypher-open/character-abilities#confounding-banter-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+- [Feint](/ko/cypher-open/character-abilities#feint-%EC%86%8D%EB%A0%A5-2%EC%A0%90)
+- [Heightened Skills](/ko/cypher-open/character-abilities#heightened-skills)
+- [Psychosis](/ko/cypher-open/character-abilities#psychosis-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+- [Read the Signs](/ko/cypher-open/character-abilities#read-the-signs-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+- [Spur Effort](/ko/cypher-open/character-abilities#spur-effort-%EC%A7%80%EC%84%B1-5%EC%A0%90)
+- [Strategize](/ko/cypher-open/character-abilities#strategize-%EC%A7%80%EC%84%B1-6%EC%A0%90)
+- [Suggestion](/ko/cypher-open/character-abilities#suggestion-%EC%A7%80%EC%84%B1-5%EC%A0%90)
 
 #### 5등급 스피커
 
 아래 목록(또는 더 낮은 등급)에서 세 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Adroit Cypher Use
-- Discipline of Watchfulness
-- Experienced in Armor
-- Flee
-- Foul Aura
-- Knowing the Unknown
-- Regeneration
-- Skill With Attacks
-- Stimulate
+- [Adroit Cypher Use](/ko/cypher-open/character-abilities#adroit-cypher-use)
+- [Discipline of Watchfulness](/ko/cypher-open/character-abilities#discipline-of-watchfulness-%EC%A7%80%EC%84%B1-7%EC%A0%90)
+- [Experienced in Armor](/ko/cypher-open/character-abilities#experienced-in-armor)
+- [Flee](/ko/cypher-open/character-abilities#flee-%EC%A7%80%EC%84%B1-6%EC%A0%90)
+- [Foul Aura](/ko/cypher-open/character-abilities#foul-aura-%EC%A7%80%EC%84%B1-5%EC%A0%90)
+- [Knowing the Unknown](/ko/cypher-open/character-abilities#knowing-the-unknown-%EC%A7%80%EC%84%B1-6%EC%A0%90)
+- [Regeneration](/ko/cypher-open/character-abilities#regeneration-%EC%A7%80%EC%84%B1-6%EC%A0%90)
+- [Skill With Attacks](/ko/cypher-open/character-abilities#skill-with-attacks)
+- [Stimulate](/ko/cypher-open/character-abilities#stimulate-%EC%A7%80%EC%84%B1-6%EC%A0%90)
 
 #### 6등급 스피커
 
 아래 목록(또는 더 낮은 등급)에서 두 개를 골라 보유 능력에 더한다. 또한 낮은 등급 능력 하나를 같은 낮은 등급의 다른 능력으로 바꿀 수 있다.
 
-- Assume Control
-- Battle Management
-- Crowd Control
-- Inspiring Success
-- Recruit Deputy
-- Shatter Mind
-- True Senses
-- Word of Command
+- [Assume Control](/ko/cypher-open/character-abilities#assume-control-%EC%A7%80%EC%84%B1-6%EC%A0%90)
+- [Battle Management](/ko/cypher-open/character-abilities#battle-management-%EC%A7%80%EC%84%B1-4%EC%A0%90)
+- [Crowd Control](/ko/cypher-open/character-abilities#crowd-control-%EC%A7%80%EC%84%B1-6%EC%A0%90)
+- [Inspiring Success](/ko/cypher-open/character-abilities#inspiring-success-%EC%A7%80%EC%84%B1-6%EC%A0%90)
+- [Recruit Deputy](/ko/cypher-open/character-abilities#recruit-deputy)
+- [Shatter Mind](/ko/cypher-open/character-abilities#shatter-mind-%EC%A7%80%EC%84%B1-7%EC%A0%90)
+- [True Senses](/ko/cypher-open/character-abilities#true-senses)
+- [Word of Command](/ko/cypher-open/character-abilities#word-of-command-%EC%A7%80%EC%84%B1-6%EC%A0%90--level-6-cypher)
 
 <blockquote>
 
