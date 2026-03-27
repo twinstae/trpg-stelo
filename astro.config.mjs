@@ -8,6 +8,8 @@ import mdx from "@astrojs/mdx";
 // https://astro.build/config
 import image from "@astrojs/image";
 
+import netlify from "@astrojs/netlify";
+
 // https://astro.build/config
 export default defineConfig({
   integrations: [
@@ -17,8 +19,11 @@ export default defineConfig({
       serviceEntryPoint: "@astrojs/image/sharp",
     }),
   ],
+
   vite: {
     plugins: [tailwindcss()],
   },
+
   site: `http://astro.build`,
+  adapter: netlify(),
 });
