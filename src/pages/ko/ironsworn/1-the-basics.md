@@ -1,32 +1,32 @@
 ---
 title: 1장 기초
-description: In the Ironsworn tabletop roleplaying game, you are a hero sworn to undertake perilous quests in the dark fantasy setting of the Ironlands. 
+description: In the Ironsworn tabletop roleplaying game, you are a hero sworn to undertake perilous quests in the dark fantasy setting of the Ironlands.
 layout: ../../../layouts/MainLayout.astro
 createdAt: "2022-11-11T20:34:17.231Z"
 publish: false
 ---
 
 ## *철의 맹세*를 플레이하기
-*철의 맹세* 티알피지에서, 당신은 철의 땅이라는 다크 판타지 세팅에서 위험한 임무를 맡기로 맹세한 영웅입니다. 발길이 닿지 않은 야생을 탐험하고, 필사적인 전투에서 싸우고, 고립된 공동체들과 결속을 다지며, 이 혹독한 땅의 비밀을 밝혀낼 것입니다. 가장 중요한 것은, *철의 맹세*를 하고 어떤 대가를 치르더라도 이 맹세를 이뤄내는 것입니다.
+
+_철의 맹세_ 티알피지에서, 당신은 철의 땅이라는 다크 판타지 세팅에서 위험한 임무를 맡기로 맹세한 영웅입니다. 발길이 닿지 않은 야생을 탐험하고, 필사적인 전투에서 싸우고, 고립된 공동체들과 결속을 다지며, 이 혹독한 땅의 비밀을 밝혀낼 것입니다. 가장 중요한 것은, *철의 맹세*를 하고 어떤 대가를 치르더라도 이 맹세를 이뤄내는 것입니다.
 
 *철의 맹세*를 플레이하려면, 캐릭터를 만들고, 여러분이 사는 세상에 대해 몇 가지 결정을 하고, 이야기를 진행시킵니다. 위험하거나 불확실한 것과 조우했을 때, 당신의 선택과 주사위가 결과를 정합니다.
 
 *철의 맹세*는 세 가지 모드의 플레이를 지원합니다.
-- **안내**: 하나 이상의 플레이어들이 각자의 캐릭터, 즉 이야기의 주인공을 맡고, 게임마스터(GM)는 세션을 진행합니다. 마스터는 세상에 생기를 불어넣고, 사람들과 생물을 묘사하고, 여러분의 행동의 결과에 대해 결정을 내립니다.
-- **협동 (코-옵)**: 당신과 하나 이상의 친구들이 난관을 극복하고 임무를 완수하기 위해 함께 플레이합니다. 마스터는 필수가 아닙니다. *철의 맹세*의 게임 시스템은 여러분이 캐릭터들의 극적인 이야기와 운명의 맹세를 탐험하게 도와줄 것입니다.
-- **혼자**: 협동 플레이와 마찬가지로, 마스터는 필요 없습니다. 당신은 위험한 세상에서 고독한 영웅을 그리게 됩니다. 행운을 빕니다!
+
+- **안내** : 하나 이상의 플레이어들이 각자의 캐릭터, 즉 이야기의 주인공을 맡고, 게임마스터(GM)는 세션을 진행합니다. 마스터는 세상에 생기를 불어넣고, 사람들과 생물을 묘사하고, 여러분의 행동의 결과에 대해 결정을 내립니다.
+- **협동 (코-옵)** : 당신과 하나 이상의 친구들이 난관을 극복하고 임무를 완수하기 위해 함께 플레이합니다. 마스터는 필수가 아닙니다. *철의 맹세*의 게임 시스템은 여러분이 캐릭터들의 극적인 이야기와 운명의 맹세를 탐험하게 도와줄 것입니다.
+- **혼자** : 협동 플레이와 마찬가지로, 마스터는 필요 없습니다. 당신은 위험한 세상에서 고독한 영웅을 그리게 됩니다. 행운을 빕니다!
 
 > *철의 맹세*는 기본적으로 혼자 혹은 작은 규모의 플레이를 의도하고 있습니다. 하나에서 네 명의 플레이어가 이상적입니다. (안내 모드에서는 마스터도 추가) 다른 캐릭터가 묘사하는 캐릭터들은 룰에서 동료로 지칭하겠습니다.
 
 ### WHAT YOU NEED
+
 If you’re playing solo, just grab some materials and get started. A session can
 be as long as you like, from a few minutes to a few hours.
 If you’re playing with one or more friends—either guided or co-op—you
 probably want to dedicate enough time to make some progress in your quests.
 Plan on a couple of hours or more.
-
-
-
 
 Make sure you have:
 • Two ten-sided dice (d10) for each player. These are your challenge dice.
@@ -40,7 +40,9 @@ is convenient.
 Not required, but helpful: Printed reference sheets for moves,
 the blank Ironlands map, and other worksheets available at
 ironswornrpg.com.
+
 ### MECHANICS AND THE FICTION
+
 Ironsworn uses various mechanics, such as rolling dice and managing the
 stats and resources on your character sheet. As a player, you will often make
 decisions based on a desired mechanical outcome. For example, you might
@@ -54,6 +56,7 @@ story and your world.
 To learn more about how the mechanics and fiction interact, see page 203.
 
 ### THE SETTING
+
 The default setting for your adventures is the Ironlands. It is a rugged
 peninsula of isolated communities and untracked wilds on the frontier of the
 known world. You can learn more about the setting starting on page 111. For
@@ -62,12 +65,6 @@ now, here’s a summary of some default assumptions.
 former homes in the Old World.
 • The weather here is harsh. Winters are brutal. The rugged terrain makes
 travel and trade difficult and dangerous.
-
-
-
-
-
-
 
 • There are no thriving cities. Instead, Ironlanders live in isolated villages
 or steadings. Their homes are modest buildings of wood, stone, and
@@ -106,10 +103,8 @@ fantasy or historical fiction.
 With a bit of work, you can even adapt these rules to different genres. See page
 237 for more on hacking Ironsworn.
 
-
-
-
 ### IRON VOWS
+
 In the Ironlands, a vow is sacred. When you declare your solemn promise to
 serve or aid someone, or to complete a personal quest, your honor is bound to
 that vow. Abandoning or recanting an oath is the worst sort of failure.
@@ -128,9 +123,10 @@ chapter 5 (page 133). You can select something which fits your vision for the
 world and your character’s goals, or just come up with something yourself. If
 you are playing in co-op mode, you and your fellow players may have shared
 vows and personal vows.
-To learn more about your first vows and starting your campaign, see page
-193.
+To learn more about your first vows and starting your campaign, see page 193.
+
 ### YOUR CHARACTER
+
 You use your character sheet to track your stats, overall condition, and
 progress in your quests. You also have assets (page 21), which are abilities
 you choose when you create your character and when you gain experience.
@@ -145,12 +141,6 @@ put your character on stage to see what happens. Fill in the blanks—for your
 character and your world—as you go.
 To learn more about creating your character and the components that make
 up your character, see page 31.
-
-
-
-
-
-
 
 IRONSWORN
 SUPPLY
@@ -221,8 +211,7 @@ experience (page
 44). You spend
 experience to gain
 new assets.
-You have five stats (page
-33) which represent
+You have five stats (page 33) which represent
 the core aspects of your
 character. These are
 often added as a bonus
@@ -259,10 +248,8 @@ temporary and easily
 mended; others are
 permanent.
 
-
-
-
 ## MOVES
+
 Moves are self-contained systems to resolve a specific action, scene or
 question. There is a move for most common situations you encounter in
 Ironsworn. They have specific triggers, phrased as “When you [blank].” When
@@ -298,12 +285,6 @@ other characters respond, or determine what happens next.
 Some moves don’t require a roll. They might support or reference a separate
 move, or simply help you resolve a mechanical or narrative situation. Don’t
 roll dice unless a move tells you to. To learn more about moves, see page 49.
-
-
-
-
-
-
 
 GATHER INFORMATION
 When you search an area, ask questions,
@@ -345,10 +326,8 @@ bonuses (called adds).
 This is the
 move’s name.
 
-
-
-
 ## THE ACTION ROLL
+
 When you make a move representing a risky or uncertain action, you roll
 three dice at once.
 • Challenge dice: Two ten-sided dice (D10)
@@ -370,18 +349,13 @@ those dice.
 ACTION SCORE
 COMPARE TO
 CHALLENGE DICE
-+ 2 + 1 =
-STAT ADDS
-ACTION
-SCORE
-3 6
-Greater than NOT greater than
 
-
-
-
-
-
+- 2 + 1 =
+  STAT ADDS
+  ACTION
+  SCORE
+  3 6
+  Greater than NOT greater than
 
 There are three possible results for a move.
 Strong Hit
@@ -414,9 +388,11 @@ or just tell you the price.
 The main thing to remember on a miss: Something always happens. The
 situation gets more complex, dramatic, or dangerous. To learn more about
 the Pay the Price move, see page 105.
+
 > Ties always go to the challenge dice. Your action score needs to exceed—not equal—the challenge dice to count as a hit.
 
 ### MATCHES
+
 5 = 5
 
 When you roll for a move, you
@@ -430,9 +406,6 @@ is a move you use to ask questions or check for inspiration. If you’re playing
 with a GM, a match on the challenge dice can be their prompt to introduce a
 surprising turn of events.
 
-
-
-
 The outcome of a match should be evaluated based on the result of your move.
 • Strong hit: The match should represent a twist in the narrative, something
 interesting, or a new opportunity.
@@ -442,19 +415,16 @@ way.
 You can also let the intensity of your success or failure frame how you interpret
 a match. Rolling matched 10’s on your challenge dice should prompt you to
 introduce a harrowing turn of events or a dire failure. It’s as bad as things get.
+
 ### GM’S AND THE DICE
+
 If you are playing as a GM, you can focus on guiding the game and responding
 to your player’s questions and actions. Since NPCs don’t make moves, you
 won’t need to make action rolls. However, you might want to have a pair of
 D10’s available for oracle rolls (page 22).
 
-
-
-
-
-
-
 ## MOMENTUM
+
 Momentum is a special mechanic which is central to playing Ironsworn. Your
 momentum value ranges from a -6 to +10 and represents how you are faring
 in your quests. Move results may tell you to increase or decrease momentum.
@@ -468,7 +438,9 @@ face tough odds. You are outmatched. Your next steps are uncertain.
 Momentum persists through scenes and between gaming sessions.
 When you finish a session, write down your current momentum
 value. Then, pick up where you left off when you return to the game.
+
 ### GAINING MOMENTUM
+
 You gain momentum as an outcome or option when making moves. This
 represents securing advantages, acquiring new insight, and making progress
 in your quests. If a move tells you to add momentum (phrased as “take +X
@@ -477,15 +449,14 @@ choices you make in a move, or the assets you use to support the move, may
 modify the amount rewarded.
 In general, taking +1 momentum represents a minor advantage. Taking +2
 momentum (or more) represents a major advantage.
+
 ### LOSING MOMENTUM
+
 You can lose momentum as a choice when making moves, or as an outcome
 of a move—particularly on a weak hit or miss. If a move tells you to suffer a
 specific loss of momentum (phrased as “suffer -X momentum”), you reduce
 your momentum track by the value indicated. The options you choose in a
 move, or the assets you leverage, may alter this penalty.
-
-
-
 
 If you lose momentum as a result of a narrative outcome without a defined
 value, such as when you make the Pay the Price move (page 105), you should
@@ -495,7 +466,9 @@ suffer a reduction appropriate to the narrative circumstances.
 Some moves and assets give you the option to suffer a loss of momentum
 in exchange for temporary advantages. If you take this option, adjust your
 momentum track by the amount indicated.
+
 ### BURNING MOMENTUM
+
 Burning momentum is a powerful option to build on your success and deliver
 a decisive result or avoid dire failure. When you have positive momentum,
 after you roll your move, you may cancel any challenge dice that are less than
@@ -537,13 +510,8 @@ page for how that works.
 You may cancel
 this die.
 
-
-
-
-
-
-
 ### RESETTING MOMENTUM
+
 After you burn momentum, you must adjust your momentum track to your
 momentum reset value. The default reset is +2. This value may be lowered
 when your character suffers from a debility (page 36). Debilities are
@@ -553,7 +521,9 @@ your character sheet as a result of a move or a narrative event.
 • If you have more than one debility marked, your momentum reset is 0.
 There is a box below the momentum track where you can record your current
 momentum reset.
+
 ### SUFFERING NEGATIVE MOMENTUM
+
 When your momentum is less than 0, and it matches the value of your action
 die, you must cancel your action die. You still check the success of your move
 by comparing your stat plus your adds to the challenge dice, but you won’t
@@ -583,7 +553,9 @@ DEBILITIES
 MOMENTUM TRACK
 4
 ACTION DIE
+
 ### MINIMUM MOMENTUM
+
 Your momentum cannot drop lower than -6. This is your minimum
 momentum. If a move tells you to lower your momentum, and your
 momentum is already at its minimum, you will instead make the Face a
@@ -595,15 +567,15 @@ momentum.
 You must cancel
 this die.
 
-
-
-
 ### MAX MOMENTUM
+
 Your max momentum starts at +10, and is reduced by 1 for every marked
 debility. There’s a spot on your character sheet to record this value. You can’t
 increase momentum over your max. If you are at your max and a move gives
 you an option to increase your momentum, you can’t take that benefit.
+
 ## PROGRESS TRACKS
+
 A progress track is used to measure your pace and determine the outcome of
 a goal or challenge in specific situations.
 • When you Swear an Iron Vow (page 98), a progress track represents
@@ -622,7 +594,9 @@ character sheet includes progress tracks for vows. Your character sheet also
 includes a progress track for your bonds. For journeys and fights, you can
 sketch out your progress tracks on whatever is convenient, or use the challenge
 worksheets provided at ironswornrpg.com.
+
 ### CHALLENGE RANKS
+
 When you engage in a fight, initiate a journey, or swear a vow, you give your
 challenge a rank. In increasing order of difficulty, the ranks are troublesome,
 dangerous, formidable, extreme, and epic. You (or the GM) will choose
@@ -631,15 +605,11 @@ resolved. Troublesome is used for simple challenges. A typical challenge is
 dangerous or formidable. Epic and extreme challenges require great effort and
 luck to overcome. Guidelines for foes are on page 134, and for journeys on
 
-
-
-
-
-
-
 page 111. Give your vows a rank appropriate to the complexity of your quest
 and the amount of emphasis you want to give the vow in your story.
+
 ### MARKING PROGRESS
+
 You will perform specific moves to advance toward your goal. For example, as
 you travel across perilous lands, you Undertake a Journey and mark progress
 when you successfully reach waypoints in your travel.
@@ -677,9 +647,6 @@ a Milestone move (page 100). These incremental moves let you amass
 advantages to have the best chance of success when you are ready to resolve
 your challenge.
 
-
-
-
 Whenever you successfully move toward your goal, you partially or fully fill
 in a box on your progress track. You fill progress boxes with lines—called
 ticks. A full progress box consists of four ticks in a star-shaped pattern. When
@@ -705,13 +672,8 @@ If you are marking progress on your bonds progress track, you always mark 1
 tick unless a move tells you otherwise. Bonds are not given a challenge rank.
 To learn more about bonds, see page 24.
 
-
-
-
-
-
-
 ### PROGRESS MOVES
+
 There are four moves, called progress moves, which utilize progress tracks to
 resolve the outcome of a goal or challenge.
 • To resolve a quest, Fulfill Your Vow (page 101).
@@ -747,10 +709,8 @@ action roll (see
 the next page for
 how it works).
 
-
-
-
 ### PROGRESS ROLLS
+
 You don’t make an action roll when you make a progress move. Instead, you
 tally the number of fully filled progress boxes (those with four ticks). This
 is your progress score. Then, roll your challenge dice and compare your
@@ -774,25 +734,23 @@ lead to exciting new story possibilities.
 MOMENTUM AND PROGRESS ROLLS
 Momentum is ignored when you make a progress move. You cannot burn
 momentum on a progress roll, and you do not suffer from negative momentum.
+
 ### SHARING PROGRESS TRACKS WITH ALLIES
+
 When you and your allies are working together to resolve a challenge—a
 quest, a journey, or a fight—you share a progress track and mark progress
 together. When you make a progress move, only one of you rolls the dice. The
 result will stand for the group.
 
-
-
-
-
-
-
 ## HARM
+
 Harm represents physical damage and fatigue. You inflict harm on your foes
 in combat, and you Endure Harm when you are attacked or fail to overcome a
 physical hazard or ordeal.
+
 ### INFLICTING HARM
-When you successfully attack a foe using the Strike (page 79) or Clash (page
-80) moves, you inflict harm. If you are armed with a deadly weapon (such
+
+When you successfully attack a foe using the Strike (page 79) or Clash (page 80) moves, you inflict harm. If you are armed with a deadly weapon (such
 as a sword, axe, spear, or bow), you inflict 2 harm. If you are unarmed or using
 an improvised or simple weapon (such as a shield, stick, club, staff, or rock),
 you inflict 1 harm. You may have an option to inflict additional harm through
@@ -801,7 +759,9 @@ Each point of harm you inflict is marked as progress on your foe’s progress
 track, as appropriate to their rank. For example, each point of harm equals 2
 ticks when fighting an extreme enemy, or 2 full progress boxes when fighting
 a dangerous enemy.
+
 ### ENDURING HARM
+
 When you face physical injury or hardship, make the Endure Harm move
 (page 91). As part of that move, you reduce your health track by the amount
 of harm suffered. There are five ranks of harm.
@@ -822,10 +782,8 @@ of suffering a debility or dying. You can recover health through rest and
 recuperation, using moves such as Heal (page 63), Make Camp (page 64),
 and Sojourn (page 71).
 
-
-
-
 ## STRESS
+
 Stress represents mental burdens and trauma. When you face mental shock
 or despair, make the Endure Stress move (page 95). As part of that move,
 you reduce your spirit track by the amount of stress suffered. There are five
@@ -859,13 +817,8 @@ another character, make an
 appropriate move to see what
 happens.
 
-
-
-
-
-
-
 ## ASSETS
+
 Assets are a key component of your character. They give you additional
 options and bonuses when making a move, and may include their own special
 moves. When you create your character (page 31), you select your starting
@@ -918,16 +871,16 @@ different way. Some
 assets include their
 own unique moves.
 
-
-
-
 ## ORACLES
+
 Some moves may prompt you to roll on a table to generate a result between
 1 and 100. There are also a set of creative prompts in chapter 6 (page 165),
 which you can use to reveal details, trigger events, and guide the actions of
 other characters in your world. These oracles help answer questions in solo or
 co-op games, or provide inspiration for the GM in guided play.
+
 ### ROLLING ORACLE DICE
+
 Whenever you are prompted by a move or an oracle table to generate a result
 between 1 and 100, roll two ten-sided dice.
 3 6
@@ -944,13 +897,8 @@ You might want to use a special set of dice for your oracle rolls,
 shared by everyone at the table. It’ll make those dice feel special and
 unique.
 
-
-
-
-
-
-
 ### SEEKING ANSWERS
+
 If you are playing solo or co-op, you can Ask the Oracle to help guide your
 game session and trigger ideas when you need to know what happens next.
 Its most basic function is to answer a “yes” or “no” question. Combined with
@@ -995,15 +943,15 @@ to generate a
 result between
 1 and 100
 
-
-
-
 ### MORE RANDOMNESS
+
 You’ll find a set of random tables in chapter 6 (page 165). These provide
 inspirational prompts and random results for common situations. You can
 also use whatever random generators you prefer, including those drawn from
 another game, online generators, or visual tools such as tarot cards.
+
 ### TRUST YOUR INSTINCTS
+
 These random generators will never replace your own imagination and
 intuition. If it’s interesting, dramatic, and pushes the story forward, make it
 happen. Too much reliance on random generators to answer questions about
@@ -1011,7 +959,9 @@ happen. Too much reliance on random generators to answer questions about
 disconnected and incoherent.
 Keep it moving. Ask a question. If an answer leaps to mind, go with it. If you’re
 not sure, Ask the Oracle. Then, play.
+
 ## BONDS
+
 As you explore your world and complete quests, you create bonds with people
 and communities by making the Forge a Bond move (page 74). Bonds give
 you advantages for specific moves when interacting with those you have
@@ -1026,7 +976,9 @@ Your character sheet has a special progress track for bonds. When you
 successfully Forge a Bond, mark 1 tick on this progress track. When your
 adventures are complete and you Write Your Epilogue (page 77), tally your
 bonds and make a progress roll (page 18) to wrap up your character’s story.
+
 ## OTHER CHARACTERS
+
 The mechanics of Ironsworn are almost entirely character-facing—meaning
 they reference the capabilities and actions of your character. Other non-player
 characters and creatures (NPCs) don’t have mechanical detail. In fact, they
@@ -1034,23 +986,21 @@ may only have a single stat—their rank—for tracking progress against them
 in a combat scene. Further, NPCs do not make moves. You won’t roll dice
 for them to determine the outcome of their actions. When you attempt to
 
-
-
-
-
-
-
 influence them, oppose them, resist them, or aid them, make moves as your
 character. If you have questions about an NPC’s motivations or what they do
 next, Ask the Oracle. To learn more, see page 133.
+
 ### ALLIES AND COMPANIONS
+
 If you are playing a co-op or guided game with other players, their characters
 are referred to in these rules and in moves as your allies.
 A companion is a special type of asset. Unlike normal NPCs, they can
 provide mechanical benefits through their abilities, and they have a health
 track to record harm. If the text of a move refers to a companion, it means a
 companion asset. To learn more about companions, see page 39.
+
 ## EQUIPMENT
+
 In Ironsworn, you won’t worry too much about equipment. Your supply track
 (page 34) is an abstract representation of your general readiness, clothes,
 ammo, food, water, and mundane gear.
@@ -1072,50 +1022,45 @@ Apart from assets, you can make note of equipment at whatever level of
 detail you like, but don’t fuss over it. If you’re wondering whether you have a
 particular mundane item, you can Ask the Oracle (page 107).
 
-
-
-
 ## THE FLOW OF PLAY
-Like most roleplaying games, you play primarily from the perspective of your character. What are you doing? What are you trying to achieve? What opposition and challenges do you face? Your quests, and the characters and situations you encounter, will guide the fiction and the choices you make.
 
+Like most roleplaying games, you play primarily from the perspective of your character. What are you doing? What are you trying to achieve? What opposition and challenges do you face? Your quests, and the characters and situations you encounter, will guide the fiction and the choices you make.
 
 When you have questions about what you find, how other characters in your world respond, or what happens next, you can go with what feels right (if you’re playing solo or co-op), or ask your GM. When you are seeking inspiration or want to put it in the hands of fate, you make the Ask the Oracle move (page 107). Use the yes/no questions and random prompts to generate interesting twists and new complications you might not have thought of on your own. Above all, if it’s interesting, dramatic and fits the fiction, make it happen.
 
-
 If you are doing something covered by a move, refer to the move to resolve your action. If it tells you to roll dice, do it.
 
-
 Scoring a strong hit on a move means you are in control. You’re driving the narrative. What do you do next?
-
 
 A weak hit or a miss means you don’t have control of the situation. Instead of acting, you react. What happens next? If you’re playing with a GM, they’ll determine how the world responds. Otherwise, you rely on your intuition and occasional oracle rolls to drive the narrative.
 
 ## WHAT’S NEXT
+
 That’s the basics of playing Ironsworn. You’ll see these concepts referenced
 and expanded throughout this rulebook, but it’s not necessary to read or
 understand it all before playing. To get started:
 
 1. **Create your character (page 31).** Set your stats, select your
-assets, and consider your background and personality.
+   assets, and consider your background and personality.
 1. **Build your world (page 111).** Take a tour of the Ironlands, create
-your unique vision of the setting, and find inspirational prompts
-for vows and quests. Or, start playing in your own world.
+   your unique vision of the setting, and find inspirational prompts
+   for vows and quests. Or, start playing in your own world.
 1. **Review the moves (page 49).** It’ll be helpful to get a basic
-understanding of the moves and how you resolve your character’s
-actions and intent. You can start by printing out the move reference
-sheets, available at ironswornrpg.com. Then, refer to chapter 3
-when you have a question or want further detail.
+   understanding of the moves and how you resolve your character’s
+   actions and intent. You can start by printing out the move reference
+   sheets, available at ironswornrpg.com. Then, refer to chapter 3
+   when you have a question or want further detail.
 1. **Review the example of play (page 241).** See Ironsworn in action
-to help understand the basic die roll mechanics, how to interpret
-moves and outcomes, and how to use creative prompts to drive
-your story forward.
+   to help understand the basic die roll mechanics, how to interpret
+   moves and outcomes, and how to use creative prompts to drive
+   your story forward.
 1. **Swear an Iron Vow (page 98).** Play to see what happens. When
-you have questions about moves, see page 49. When you need a
-foe or encounter, see page 133. When you seek answers from an
-oracle, see page 165.
+   you have questions about moves, see page 49. When you need a
+   foe or encounter, see page 133. When you seek answers from an
+   oracle, see page 165.
 1. **Dig deeper (page 193).** When you’re ready to explore campaign
-setup guides, additional gameplay options, and best practices, see
-chapter 7.
+   setup guides, additional gameplay options, and best practices, see
+   chapter 7.
 
 <div class="p-4" style="color: white; background-color: black;">
 
