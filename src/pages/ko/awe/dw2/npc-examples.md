@@ -1,329 +1,207 @@
+---
+title: "던전월드 2 · NPC 예시"
+description: "NPC 예시."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: npc-examples | source lines 9815-10144 | approx book page 60 -->
 
-NPC Examples
+# NPC 예시
+
+### 거대 용
 
-Giant Dragon
-Through overwhelming force and brutal cunning, this
-creature’s effects on the greater world have echoed for centuries
+_압도적인 힘과 잔인한 교활함으로, 이 존재가 더 큰 세계에 남긴 파문은 수세기 동안 울려 왔다._
 
-Dire Grizzly Bear
-A single one of these enormous creatures can cause nearby
-animal populations to dwindle.
+- **외형:** 검게 반짝이는 비늘, 길고 힘찬 꼬리, 불타는 듯한 눈, 그림자 같은 날개
+- **동기:** 소굴을 위협하는 자를 모조리 멸한다
+- **자원:** 이빨과 발톱, 꼬리 가시, 모든 것을 태워 없애는 불
+- **저항:** 살갗에 대한 평범한 타격, 공손하지 않은 태도
+- **소문:** 소굴에는 보물 이상의 것이 있다 / 누군가 몰래 섬긴다 / 마법에 구속되었거나 저주받았다
+- **HP:** 16 (강철보다 단단한 비늘)
+- **피해:** 7, **멀리**, **지저분**, 때로 불을 뿜는 듯한 피해
+- **고조:** 무언가를 찢어 박살낸다 / 하늘로 오른다 / 살아 있는 불꽃의 아군을 불러낸다 / 장면 안의 모든 것에 불을 붙인다
+
+### 가면 도둑
 
-The Ratcatcher
-Traveling the land and using her flute to rid villages of rats in
-exchange for coin. If wronged though, the rats return tenfold.
+_이 신비롭고 말없는 인물은 부자나 거지나 가리지 않고 훔치지만, 맞서기 전까지는 위험하지 않다._
 
-Appearance: Glittering black scales, long powerful tail,
-fiery eyes, shadowy wings
+- **외형:** 바뀌는 가면, 어두운 망토, 조용한 가죽옷, 숨긴 단검들, 다용도 벨트
+- **동기:** 남의 것을 가져간다
+- **자원:** 곡예, 속임수, 잠행, 독, 맞춤 장치
+- **저항:** 속임수, 더 빠른 반사신경, 그림자 속에 있을 때 들키지 않음
+- **소문:** 치안은 쫓는 척만 한다 / 가면이 착용자를 지배한다
+- **HP:** 10 (조용한 가죽 갑옷)
+- **피해:** 4 **근접**
+- **고조:** 위험한 독을 쏟아붓는다 / 그림자와 연기로 빠져나간다
+
+### 흉포한 회색곰
+
+_이 거대한 짐승 한 마리만으로도 주변 야생 동물 수가 줄어들 수 있다._
 
-Appearance: towering size, matted brown fur, scars old
-and new
+- **외형:** 우뚝 선 덩치, 엉킨 갈색 털, 새것과 낡은 흉터
+- **동기:** 마주치는 모두를 잡아먹는다
+- **자원:** 엄청난 힘, 두꺼운 털, 날카로운 발톱
+- **저항:** 밀치기, 구속, 장벽
+- **소문:** 누군가의 동료였다 / 평소 먹이가 사라졌다
+- **HP:** 12 (두꺼운 털, 거대한 덩치)
+- **피해:** 5 **근접**, **가까움**, **멀리**
+- **고조:** 위협을 할퀴어 유린한다 / 먹잇감을 물고 도망친다
+
+### 고블린 약탈자
+
+_고블린 한 마리가 보이면 시야 밖에 아홉 마리가 더 있고… 그 아래 땅을 파는 또 아흔 마리가 있다._
 
-Appearance: thick gloves, many cages and nets, captured
-rodent minions, flute of black glass and sigils.
+- **외형:** 날카로운 이빨, 고양이 같은 눈, 교활한 웃음소리
+- **동기:** 고통을 주고 그것을 비웃는다
+- **자원:** 닳은 무기, 맞물린 협동, 빠른 약탈, 숨은 터널, 거대한 애완 벌레
+- **저항:** 갇혀 있는 것, 서로 등을 돌리는 것
+- **HP:** 3 (주워 붙인 가죽과 금속 조각)
+- **피해:** 1 **근접**, **가까움**
+- **고조:** 누군가 등 위로 뛰어올라 물어뜯기 시작한다 / 벌레 탈것으로 보강한다 / 지하로 퇴각한다
+
+### 바위 트롤
+
+_요리법을 놓고 다투기 일쑤인 이 존재들은, 입맛이 맞는 작은 무리로 뭉쳐 있는 경우가 많다._
+
+- **외형:** 큰 덩치, 느릿한 걸음, 바위 같은 피부
+- **동기:** 지나가는 이를 잡아먹되, 최고의 레시피로만
+- **자원:** 무거운 곤봉, 작은 바위, 소금과 향신료
+- **저항:** 베기나 찌르기에 굳은 살갗이 잘 버팀
+- **HP:** 8 (두꺼운 돌 같은 피부)
+- **피해:** 2 **근접**, **가까움**
+- **고조:** 주변을 무너뜨린다 / 누군가·무언가를 붙잡고 달아난다 / 심한 상처에서 재생한다
 
-Drive: to destroy all who threaten their lair
+### 쥐잡이
 
-Drive: to eat everyone it encounters
+_땅을 돌아다니며 피리로 마을의 쥐를 없애 주고 대가를 받는다. 하지만 잘못 건드리면 쥐가 열 곱절로 돌아온다._
 
-Drive: to acquire praise and money, and silence enemies
+- **외형:** 두꺼운 장갑, 여러 우리와 그물, 붙잡아 둔 쥐 부하들, 검은 유리에 부호가 새겨진 피리
+- **동기:** 칭찬과 돈을 얻고, 적을 침묵시킨다
+- **자원:** 매력, 조종, 협상, 피리
+- **소문:** 유리 피리는 미끼이고 진짜는 소박한 나무다 / 쥐는 명령이 아니라 감정에 따른다 / 피리를 얻기 전까지는 형편없는 음유시인이었다
+- **HP:** 8 (알록달록한 옷)
+- **피해:** 3 **근접**, **가까움**, **멀리**
+- **고조:** 절박한 거래를 맺는다 / 주변 해충을 모아 공격적인 떼로 만든다 / 쥐 하나를 괴물로 바꾼다
+
+### 물의 정령
+
+_세상 만물에 정이 깃든다는 말도 있지만, 그게 곧 친절하다는 뜻은 아니다._
 
-Resources: teeth and claws, tail spikes, incinerating fire
+- **외형:** 흐르듯 변하는 물의 형체, 강물 같은 목소리
+- **동기:** 자신을 건드리는 자를 익사시킨다
+- **자원:** 움켜쥐는 물살, 몰아치는 파도
+- **저항:** 유체 몸에 대한 평범한 타격
+- **소문:** 무언가에 묶여 있다 / 오염물질이 타락시켰다 / 더 거대한 존재의 한 방울에 불과하다
+- **HP:** 8 (모였다 흩어지는 물의 몸)
+- **피해:** 4 **근접**
+- **고조:** 가까운 물길을 불러 홍수 낸다 / 누군가를 소용돌이치는 물의 구체에 가둔다 / 하늘에 비를 구하여 힘을 얻는다
 
-Resources: incredible strength, thick fur, sharp claws
+### 중개 상인
 
-Resources: charm, manipulation, negotiation, flute
-
-Resists: ordinary blows to its hide, non-deferential
-behavior
-
-Rumors: Their lair has far more than just treasure,
-someone secretly serves them, they’re magically compelled
-or cursed
-
-HP: 16 (scales stronger than steel)
-Damage: 7 dmg, far, messy, sometimes fiery
-
-Escalations: Tear something to pieces, take to the skies,
-conjure allies of living flame, ignite everything in the scene
-
-Masked Thief
-This mysterious silent figure steals from rich and poor alike, but
-only gets dangerous when confronted.
-
-Appearance: shifting mask, dark cloak, quiet leathers,
-hidden knives, utility belt
-
-Drive: to take what isn’t theirs
-
-Resources: acrobatics, tricks, stealth, poisons, custom
-gadgets
-
-Resists: subterfuge, faster reflexes, being seen when in
-shadows
-
-Rumors: law enforcement only pretends to hunt them, the
-mask possesses the wearer
-
-HP: 10 (quiet leather armor)
-Damage: 4 close
-
-Escalations: Unleash dangerous poison, escape with
-shadows and smoke
-
-60
-
-Resists: pushes, restraints, and barriers
-
-Rumors: it was someone’s companion, something has
-taken its normal food source
-
-HP: 12 (thick fur, huge size), Damage: 5 close, near, far
-
-Escalations: Maul a threat, Flee with prey
-
-Rumors: The glass flute is a decoy and the real one is
-simple wood, the rats don’t obey their orders but their
-feelings, they used to be a terrible bard until the flute
-
-HP: 8 (colorful clothes), Damage: 3 close, near, far
-
-Escalations: make a desperate deal, gather nearby vermin
-into aggressive swarms, transform a rat into a monster
-
-Goblin Raider
-Whenever you see one goblin there are nine more just out of
-sight… And another ninety digging beneath them.
-
-Appearance: sharp teeth, cat-like eyes, clever snickering
-
-Drive: to cause pain and laugh at it
-
-Resources: worn weapons, cohesive teamwork, rapid
-scavenging, hidden tunnels, giant pet bugs
-
-Resists: staying trapped, working against each other
-
-HP: 3 (salvaged leathers and metal pieces)
-Damage: 1 close, near
-
-Escalations: jump onto someone’s back and starting biting,
-reinforce with insect mounts, retreat underground
-
-Rock Troll
-Prone to argue about how to best prepare a meal, these
-creatures are often found is small groups of aligned palettes
-
-Appearance: large size, lumbering gait, rock-like skin
-
-Drive: to devour passersby, but only with the best recipes
-
-Resources: heavy club, small boulders, salt and spices
-
-Resists: cutting and stabbing its hardened skin
-
-HP: 8 (thick stony skin), Damage: 2 close, near
-
-Escalations: collapse the area around them, grab someone
-or something and flee, regenerate from serious wounds
-
-Water Elemental
-They say all the things of the world have a spirit. That doesn’t
-mean they’re friendly.
-
-Appearance: shifting liquid form, voice like a river
-
-Drive: to drown those who disturb it
-
-Resources: grasping currents, rushing waves
-
-Resists: ordinary blows to its fluid body
-
-Rumors: Something binds it here, pollutants have
-corrupted it, it is only a drop of a larger entity
-
-HP: 8 (reforming body of water), Damage: 4 close
-
-Escalations: flood a nearby water source, envelop someone
-in a sphere of roiling water, beseech the sky for an
-empowering rainstorm
-
-Merchant Broker
-Your best friend or your greatest enemy, depending on your coin
-and willingness to part with it.
-
-Appearance: fine professional fashion, appraising gaze
-
-Drive: to offer critical opportunities at a high cost
-
-Resources: several small businesses, growing spy network
-
-Resists: giving to another without receiving in return
-
-Rumors: they aim to overthrow a cartel, they need the
-money for a good (but exploitable) secret
-
-Slime
-Many conflicting stories surround the biology of these creatures
-of hungry, viscous acid, but only the gods know for sure
-
-Treant
-Paid tribute to by all experienced woodcutters, these shepherds
-of the trees watch over ancient woods and newly planted copses.
-
-Bandit Leader
-The most cunning, greedy, and ruthless of their gang, it’s no
-wonder this bastard rose to the top.
-
-Appearance: tall root-twisted limbs, dense leafy branches,
-creaking bark body, wood-carved face, vines and foliage
-
-Appearance: Smug, punchable face, belt of looted trophies
-and trinket, flashy dual scimitars
-
-Drive: to protect trees from unbalanced destruction
-
-Drive: to take everything from others, especially the weak
-
-Appearance: variable bright colors, floating debris from
-past prey, burning sickly smell, strangely clean floors and
-walls, gooey bubbling and splashing
-
-Drive: to consume organic life
-
-Resources: sticky pseudopods, dissolving acid body,
-shifting volume, fluid form
-
-Resists: physical blows, especially from something organic
-
-Rumors: they have a vulnerable core at their heart, some
-are fully translucent, some have elemental powers
-
-Horde of Small Slimes - HP: 1, Damage: 1 hand, close
-
-Group of Slimes - HP: 2, Damage: 2 hand, close, near
-
-One Large Slime - HP: 10, Damage: 4 hand, close, near, far
-
-Escalations: Split into smaller copies, destroy important
-equipment, engulf someone entirely
-
-Mage Knight
-To join the Order of the Mystic Blade is one of the highest honors
-in the land, and with good reason. A single experienced knight
-can easily defeat an entire squad of trained soldiers.
-
-Resources: relentless endurance, forest camouflage
-
-Resists: most weapons, but not axes or fire
-
-Rumors: its can return from death if its body is buried
-
-HP: 14 (thick wood bark), Damage: 4 dmg, close, near
-
-Escalations: Awaken the forest for aid, go into a fury and
-get much faster, use one of its own branches as a weapon
-
-Gladiator
-This renowned warrior has made bloodsports an art, and the
-colosseum their canvas.
-
-Appearance: iconic helmet, perfect smile, flashy pose
-
-Drive: to fight and win in spectacular style
-
-Resources: small arsenal of weapons and tools, the love of
-the crowd, familiarity with the arena
-
-Resists: simple battle tactics, avoiding attention
-
-Appearance: enormous rune-carved greatsword, glowing
-empowering armor, battle-plated spellbook
-
-Rumors: they’re completely different in private, they hide
-a lingering injury, their matches are all rigged in their favor
-
-Drive: to protect “civilized” magic and destroy its enemies
-
-HP: 10 (light breastplate), Damage: 4 dmg, close, near
-
-Resources: unrelenting blows, short-distance
-teleportation, array of versatile and destructive spells
-
-Escalations: Get help from a fellow gladiator, imbibe a
-performance-enhancing potion, cause a riot in the crowd
-
-Resists: removing their armor or weapon
-
-Rumors: They can’t remove their armor, they’re secretly
-under someone’s control, the strongest one went rogue
-
-HP: 14 (enchanted plate armor)
-Damage: 5 dmg, close, near, far, often magical
-
-Escalations: imprison someone in conjured chains, protect
-themself in a shield dome, magically enhance their sword
-
-Displaced Caravan
-Their village ruined by a calamity, this group of survivors
-wander the land in search of a new home.
-
-Appearance: Travel-worn clothes, wagon of frail and sick
-
-Drive: to find a place of safety and prosperity
-
-Resources: carts of dwindling supplies, wary volunteer
-militia, a trusted leader
-
-Rumors: One of them secretly sold out their village,
-someone is stealing supplies, a plague is spreading among
-them, the calamity’s source is actively hunting them
-
-Resources: gang of thugs, an eye for fellow troublemakers,
-a knack for slipping out trouble
-
-Resists: changing their ways, letting trespasses go
-
-Rumors: They’re keeping most of the treasure for
-themselves, they have a secret weapon, their fallen nobility
-
-HP: 10 (leather armor), Damage: 4 dmg close, near
-
-Escalations: Take a hostage, punish the innocent, make an
-example of someone
-
-Skeletal Laborers
-Some undead are used as decorations, many as soldiers, but
-others are exploited as a cheap work force.
-
-Appearance: Creaking repetitive movements
-
-Drive: to mindlessly follow their orders
-
-Resources: endless endurance and stamina
-
-Resists: noticing inteference, ceasing to follow their orders
-
-Rumors: they can only be created through abominable
-ritual sacrifice, they will eventually go rabid and hostile,
-they are anchored to the life force of their master
-
-Relic-Hunter Drones
-Whenever certain ancient treasures are discovered, these
-constructs seem to appear out of nowhere and try to take them.
-
-Appearance: perfectly spherical body, metallic spindly
-legs, single red eye-like light
-
-Drive: to recover lost technology
-
-Resources: lightning gun, tracking radar, invisibility fields
-
-HP: 6 (metallic bodies), Damage: 2 near
-
-Rumors: they’re salvaging the relics to rebuild something,
-they’re destroying the relics to stop a disaster, something is
-controlling them from a central base
-
-61
+_동전과 내주려는 마음에 따라 당신의 가장 좋은 친구이거나 가장 큰 적이 될 수 있다._
+
+- **외형:** 단정한 직업복, 감정을 읽는 눈빛
+- **동기:** 값비싼 대가로 결정적인 기회를 내놓는다
+- **자원:** 여러 작은 가게, 커져 가는 첩보망
+- **저항:** 받기만 하고 돌려주지 않는 것
+- **소문:** 카르텔을 전복하려 한다 / 좋은 비밀이지만 악용할 만한 비밀에 돈이 필요하다
+
+### 슬라임
+
+_이 굶주린 끈적한 산(酸) 생물의 생태에는 온갖 엇갈린 이야기가 떠돌지만, 진실은 신들만이 안다._
+
+- **외형:** 알록달록한 색, 지난 먹잇감의 부유물, 타는 듯 역겨운 냄새, 기묘하게 깨끗한 바닥과 벽, 끓어 넘치며 튀는 점액
+- **동기:** 유기물을 삼킨다
+- **자원:** 끈적한 촉수, 산으로 녹이는 몸, 부피를 바꿈, 유체 형태
+- **저항:** 물리적 타격, 특히 유기물이 가한 것
+- **소문:** 심장에 연약한 핵이 있다 / 완전히 투명한 것도 있다 / 원소 능력을 가진 것도 있다
+- **작은 슬라임 떼:** HP 1, 피해 1 **손**, **근접**
+- **슬라임 무리:** HP 2, 피해 2 **손**, **근접**, **가까움**
+- **큰 슬라임 한 마리:** HP 10, 피해 4 **손**, **근접**, **가까움**, **멀리**
+- **고조:** 더 작은 복제로 갈라진다 / 중요한 장비를 부순다 / 누군가를 통째로 집어삼킨다
+
+### 마법 기사
+
+_신비한 검의 기사단에 들어가는 것은 이 땅에서 최고의 영예 중 하나이며, 그럴 만한 이유가 있다. 숙련된 기사 한 명이면 훈련된 병사 한 분대를 거뜬히 쓰러뜨린다._
+
+- **외형:** 룬이 새겨진 거대한 대검, 빛나는 강화 갑옷, 전투용 판금으로 싼 마법책
+- **동기:** “문명화된” 마법을 지키고 그 적을 멸한다
+- **자원:** 끊임없는 일격, 짧은 거리 순간이동, 다양하고 파괴적인 주문들
+- **저항:** 갑옷이나 무기를 빼앗기는 것
+- **소문:** 갑옷을 벗을 수 없다 / 누군가의 지배를 받는다 / 최강의 한 명이 배반했다
+- **HP:** 14 (마법이 깃든 판금)
+- **피해:** 5 **근접**, **가까움**, **멀리**, 자주 마법적
+- **고조:** 소환한 사슬로 누군가를 가둔다 / 방패 돔으로 자신을 감싼다 / 검을 마법으로 강화한다
+
+### 트렌트
+
+_노련한 벌목꾼들이 공물을 바치는 이 나무 목자들은, 오래된 숲과 막 심은 숲을 함께 지킨다._
+
+- **외형:** 뿌리로 비틀린 긴 팔, 잎이 무성한 가지, 삐걱이는 나무껍질 몸통, 나무로 깎은 얼굴, 덩굴과 풀
+- **동기:** 무절제한 벌채와 파괴로부터 나무를 지킨다
+- **자원:** 끈질긴 지구력, 숲 속 위장
+- **저항:** 대부분의 무기—도끼와 불은 예외
+- **소문:** 몸을 묻으면 죽음에서 돌아올 수 있다
+- **HP:** 14 (두꺼운 나무 껍질)
+- **피해:** 4 **근접**, **가까움**
+- **고조:** 숲을 깨워 돕게 한다 / 광분하여 훨씬 빨라진다 / 자기 가지 하나를 무기로 쓴다
+
+### 검투사
+
+_이 이름난 전사는 피의 스포츠를 예술로, 원형경기장을 캔버스로 삼았다._
+
+- **외형:** 상징적인 투구, 완벽한 미소, 과시하는 포즈
+- **동기:** 화려한 스타일로 싸우고 이긴다
+- **자원:** 작은 무기고와 도구, 관중의 사랑, 경기장에 대한 익숙함
+- **저항:** 단순한 전술, 주목을 피하는 것
+- **소문:** 사생활에서는 완전히 다른 사람이다 / 오래된 부상을 숨긴다 / 경기는 모두 자기에게 유리하게 조작된다
+- **HP:** 10 (가벼운 흉갑)
+- **피해:** 4 **근접**, **가까움**
+- **고조:** 동료 검투사의 도움을 받는다 / 성능 강화 물약을 마신다 / 관중 속에 폭동을 일으킨다
+
+### 떠도는 대상단
+
+_재앙으로 마을을 잃은 이 생존자들은 새 집을 찾아 땅을 헤맨다._
+
+- **외형:** 여행에 닳은 옷, 병들고 연약한 이들을 실은 수레
+- **동기:** 안전하고 풍요로운 곳을 찾는다
+- **자원:** 줄어드는 보급이 실린 수레, 경계하는 자원병 민병대, 믿을 만한 우두머리
+- **소문:** 그중 한 명이 마을을 팔아넘겼다 / 누군가 보급을 훔친다 / 역병이 퍼지고 있다 / 재앙의 근원이 그들을 쫓고 있다
+
+### 산적 두목
+
+_무리 중 가장 교활하고 탐욕스럽고 무자비한 놈이 꼭대기에 오르는 법이다._
+
+- **외형:** 건방지고 한 대 치고 싶은 얼굴, 약탈한 전리품과 잡동사니가 달린 허리띠, 번쩍이는 쌍 시미터
+- **동기:** 남에게서 모든 것을 빼앗는다, 특히 약한 자에게서
+- **자원:** 깡패 무리, 비슷한 불한당을 가려내는 안목, 위기에서 빠져나가는 재주
+- **저항:** 마음을 고치는 것, 잘못을 그냥 넘기는 것
+- **소문:** 보물 대부분을 혼자 쓴다 / 비밀 병기가 있다 / 몰락한 귀족 출신이다
+- **HP:** 10 (가죽 갑옷)
+- **피해:** 4 **근접**, **가까움**
+- **고조:** 인질을 잡는다 / 죄 없는 이를 벌한다 / 누군가를 본보기로 삼는다
+
+### 해골 노동자
+
+_언데드는 장식으로 쓰이기도 하고 병사로 쓰이기도 하지만, 어떤 이들은 값싼 노동력으로 착취당한다._
+
+- **외형:** 삐걱이며 반복되는 움직임
+- **동기:** 시키는 일을 정신 없이 따른다
+- **자원:** 끝없는 지구력
+- **저항:** 간섭을 알아채는 것, 시키는 일을 멈추는 것
+- **소문:** 가증스러운 의식 제물로만 만들 수 있다 / 언젠가 광란에 빠져 적대적으로 돌변한다 / 주인의 생명력에 매달려 있다
+
+### 유물 수집 드론
+
+_어떤 고대 보물이 발견되면, 이 구조물들은 어디선가 나타나 가져가려 한다._
+
+- **외형:** 완전히 둥근 몸통, 가느다란 금속 다리, 붉은 눈 같은 빛 하나
+- **동기:** 잃어버린 기술을 되찾는다
+- **자원:** 전격총, 추적 레이더, 투명화 필드
+- **HP:** 6 (금속 몸체)
+- **피해:** 2 **가까움**
+- **소문:** 유물을 모아 무언가를 재조립한다 / 재앙을 막기 위해 유물을 파괴한다 / 중앙 기지에서 조종당한다
+
+<!-- p.60–61 -->

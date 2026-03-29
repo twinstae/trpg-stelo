@@ -1,171 +1,99 @@
-<!-- split from dw2.md: scenes | source lines 9230-9400 | approx book page ? -->
+---
+title: "던전월드 2 · 장면"
+description: "장면 구성과 운용."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
 
-Scenes
+<!-- split from dw2.md: scenes | source lines 9230-9400 | approx book page 57 -->
 
-Framing the narrative as a series of ‘scenes’ is an important part
-of Dungeon World 2. Some PC moves only trigger once per scene,
-and other effects last until the end of the current scene.
+# 장면
 
-Scenes work similarly to plays, TV shows, and movies. The
-characters do important things during the time of a scene, then
-the narrative moves onward to the next one. Sometimes the next
-scene is minutes, hours, or days later; sometimes there’s no time
-jump at all. Usually the next scene is in a new location, but not
-always. The dividing line of when one scene ends and the next
-begins can sometimes be blurry and arbitrary.
+이야기를 "장면"의 연속으로 구성하는 것은 던전월드 2의 중요한 부분입니다. 일부 PC 액션은 장면당 한 번만 발동하고, 다른 효과는 현재 장면이 끝날 때까지 지속됩니다.
 
-A new scene might start when:
+장면은 연극, TV 드라마, 영화와 비슷하게 작동합니다. 등장인물은 장면이 진행되는 동안 중요한 일을 하고, 이야기는 다음 장면으로 넘어갑니다. 다음 장면이 몇 분 뒤일 때도, 몇 시간이나 며칠 뒤일 때도, 시간 도약이 전혀 없을 때도 있습니다. 보통 다음 장면은 새로운 장소에서 시작하지만, 항상 그런 것은 아닙니다. 한 장면이 끝나고 다음이 시작되는 경계는 때로 흐릿하고 임의적일 수 있습니다.
 
-◆ The location of the narrative significantly changes, such as
-arriving at a new town, entering a new dungeon section or
-important room, or transitioning to a new type of landscape
-during travel. Searching several empty bedrooms is probably
-part of a larger scene, since nothing big happened, but leaving
-the guard captain’s office after a charged conversation might
-end the current scene.
+새 장면은 다음과 같은 때에 시작될 수 있습니다.
 
-◆ The focus of the narrative dramatically shifts. Two PCs
-having a lengthy emotional talk at a tavern one evening
-might be one scene, but if someone then kicks down the door
-and picks a fight with them, that may be a transition to a
-new scene. Similarly, that bar brawl may be one scene, then
-dealing with its aftermath may be a different scene.
+- **이야기의 장소가 크게 바뀔 때.** 새 마을에 도착하거나, 새 던전 구역이나 중요한 방에 들어가거나, 여행 중 새로운 지형으로 넘어갈 때. 빈 침실 여러 개를 뒤지는 것은 아무 큰 일도 없었으니 아마 더 큰 장면의 일부이지만, 긴박한 대화 후에 경비대장의 사무실을 나서는 것은 현재 장면을 끝낼 수 있습니다.
 
-There are many types of scenes, and some might be multiple
-types combined. Here are a few of the most common types of
-scenes:
+- **이야기의 초점이 극적으로 바뀔 때.** PC 둘이 어느 저녁 선술집에서 길고 감정적인 대화를 나누는 것은 하나의 장면일 수 있지만, 누군가 문을 걷어차고 들어와 싸움을 걸면 새 장면으로 넘어갈 수 있습니다. 마찬가지로 그 선술집 난투가 한 장면이고, 그 여파를 수습하는 것은 다른 장면일 수 있습니다.
 
-◆ An Encounter scene is when the GM introduces something
-new to the Players in a way that isn’t directly prompted.
-Perhaps they stumble upon something in the wilderness, or
-open a door in a dungeon, or enter a new place of civilization.
-It might be a person, place, or thing, and it might be helpful,
-dangerous, enchanting or terrifying. Almost always it’s new
-to the PCs, and the focus is often on conveying what it is and
-finding out what they do in response.
+장면에는 여러 유형이 있으며, 하나의 장면이 여러 유형을 겸할 수도 있습니다. 가장 흔한 유형 몇 가지를 소개합니다.
 
-◆ A Montage scene consists of many smaller moments that are
+- **조우** 장면은 GM이 플레이어에게 직접 촉발되지 않은 방식으로 새로운 것을 소개할 때입니다. 야생에서 무언가를 우연히 발견하거나, 던전에서 문을 열거나, 새로운 문명 지역에 들어설 수 있습니다. 사람·장소·사물 중 무엇이든 될 수 있고, 도움이 되거나 위험하거나 매혹적이거나 무서울 수 있습니다. 거의 항상 PC에게 새로운 것이며, 초점은 대개 그것이 무엇인지 전달하고 PC가 이에 어떻게 반응하는지 알아내는 데 있습니다.
 
-separate in time but related in purpose. None of the individual
-moments are important enough to make a scene alone, but
-the group of them together do. Traveling through a dangerous
-forest or collaboratively crafting an object over an extended
-period of time are examples of a montage scene.
+- **몽타주** 장면은 시간적으로는 떨어져 있지만 목적으로 연결된 여러 작은 순간으로 이루어집니다. 개별 순간 하나하나는 장면을 이룰 만큼 중요하지 않지만, 모여서 하나가 됩니다. 위험한 숲을 여행하거나, 긴 시간에 걸쳐 협력하여 물건을 제작하는 것이 몽타주 장면의 예입니다.
 
-◆ A Relaxation scene is one where the PCs aren’t under much
-pressure or danger, and typically have a lot more freedom
-to express themselves and talk to each other. This might be
-casually talking while walking along a road, or practicing
-a hobby during a moment of quiet, or enjoying a drink at a
-local watering hole. The Comfort or Support and Make Camp
+- **휴식** 장면은 PC에게 큰 압박이나 위험이 없어서 자신을 표현하고 서로 이야기할 자유가 훨씬 많은 장면입니다. 길을 걸으며 한가롭게 대화하거나, 조용한 틈에 취미를 즐기거나, 동네 주막에서 한잔하는 것이 해당합니다. **위로와 격려** 나 **야영** 액션이 이런 장면을 자주 만들지만, 다른 때에도 일어날 수 있습니다.
 
-move often creates these scenes, but they might also happen
-at other times.
+- **갈등** 장면은 두 명 이상의 인물(PC든 NPC든)의 충돌하는 목표를 중심으로 돌아가며, 누가 원하는 것을 얻는지가 핵심입니다. 보통 목표가 직접 대립합니다(마법사가 언데드 군대를 만들려 하고 PC가 막으려 한다). 때로는 간접적으로 대립할 수도 있습니다(PC가 부모의 비밀을 알아내려 하는데 부모는 집에 돌아오도록 설득하려 한다). 이 갈등은 전투, 대화, 속임수, 마법, 기타 수단으로 전개될 수 있습니다.
 
-◆ A Conflict scene is centered around the clashing goals of two
-or more characters (PCs or NPCs) and who gets what they
-want. Typically these goals are directly opposed (A wizard
-wants to create an undead army and the PCs want to stop
-them), but sometimes these goals may be indirectly opposed
-(A PC wants to discover their parent’s secret, while the parent
-wants to convince them to come home). This conflict can play
-out through fighting, conversation, trickery, magic, or other
-avenues.
+- **연장** 장면은 대부분보다 오래 이어지며, 감정이나 전략 같은 작은 측면에 초점을 맞추는 경우가 많습니다. 긴 전투, 연속된 도전, 미로, 며칠에 걸친 추격전 등이 연장 장면이 될 수 있습니다.
 
-◆ An Extended scene is one that goes on for longer than most,
-often making the narrative focus on smaller aspects, such as
-emotions or logistics. A lengthy battle, series of challenges,
-confounding labyrinth, or multi-day chase might all be
-extended scenes.
+_아래는 향후 던전월드 2 판본에서 더 상세히 다룰 예정입니다._
 
-The following will be elaborated further upon in future versions of
-DW2:
+- 장면 안의 호흡과 긴장
+- 누구나 장면을 제안할 수 있으며, PC가 스스로 장면을 도입하는 일이 잦을 것이다
+- 준비한 장면이 모자랄 때도 있지만, 보통은 너무 많을 것이다
 
-◆ Pacing and tension in a scene
-◆ Anyone can prompt a scene, expect PCs to introduce their own
+## 장면 준비하기
 
-scenes often
+세션 사이에, 위협을 고조시키고 NPC를 연결하고 장소를 돋보이게 하고 던전을 드러내고 모험을 이끄는 장면을 준비할 수 있습니다. 준비된 장면은 보통 다음으로 구성됩니다.
 
-◆ Sometimes you won’t have enough prepped scenes, but usually
+- **요약:** 장면이 왜 일어나고 무엇이 원인인가?
+- **특징:** PC가 상대할 인물, 장애물, 또는 흥미거리는 무엇이고, 그들은 무엇을 하고 있는가?
+- **묘사 요소:** 주변이 어떤 느낌인가? 감각이 무엇을 잡아내는가?
 
-you’ll have too many
+## 예시 장면
 
-Preparing Scenes
-When between sessions, you can prepare scenes that escalate
-Threats, connect NPCs, showcase Locations, reveal Dungeons,
-and drive Adventures. A prepared scene typically consists of:
+### 급박한 탈출
 
-◆ Summary: Why does the scene happens and what causes it?
-◆ Features: What characters, obstacles, or curiosities are the
-PCs expected to engage with, and what are they doing?
+**요약:** 보물 방에 들어가는 것은 쉽지만, 나오는 것은 위험할 것이다.
 
-◆ Descriptors: How do the surroundings feel? What do their
+**특징:** 숨겨진 독침과 화살, 미끄러지는 함정 구덩이, 가짜 벽, 굴러오는 거대 바위, 돌아가는 칼날 — 부주의하거나 느린 자에게 모두 벌을 준다.
 
-senses pick up?
+**묘사 요소:** 처음에는 너무 조용하고, 함정에 죽은 시체가 있다. 발동되면 멀리서 태엽 장치가 덜그럭거리고 칼날이 돌아가는 윙윙 소리가 들린다.
 
-Example Scenes
-A Rushed Escape
-Summary: Getting into the treasure room is easy, but getting out
-will be dangerous
+### 도적의 형제
 
-Features: Hidden darts and arrows, sliding pits, fake walls, giant
-rolling boulders, spinning blades - all punish those too careless to
-notice or too slow to escape.
+**요약:** 성기사여, 당신의 형제가 체포되었고 그의 아내 에스카가 석방시켜 달라 합니다. 형제는 위험한 마법 무기를 도시로 밀반입한 혐의로 유죄입니다.
 
-Descriptors: Too quiet at first, with corpses killed by traps. Once
-triggered there is distant clockwork clanking and the whirring of
-moving blades.
+**특징:** 성기사에게 남편을 풀어 달라 간청하는 에스카, 단서와 새 용의자를 캐는 관헌.
 
-Brother of a Thief
-Summary: Paladin: your brother has been arrested and his wife
-Esca wants you to get him released. He’s guilty of smuggling
-dangerous magic weapons into the city.
+**묘사 요소:** 첫 여명, 울어서 붉어진 얼굴, 폭발에 망가진 문틀, 밤새 지친 경비병.
 
-Features: Esca pleading for the Paladin to release her husband,
-the constabulary sniffing for leads and new suspects.
+### 살아 있는 비밀
 
-Descriptors: First brushes of sunrise, a face red from crying,
-blasted door frame, overtired guards.
+**요약:** 잊혀진 도서관 안의 서판이 발견되기를 원하며, 그 안의 지식은 배워지기를 갈망한다.
 
-The Living Secret
-Summary: A tablet in this forgotten library wants to be found, its
-knowledge craves to be learned.
+**특징:** 녹슨 보안 골렘, 불안정한 마법 부호, 홀로 살아남은 책벌레.
 
-Features: Rusted security golems, unstable magic sigils, a lone
-surviving bookwyrm.
+**묘사 요소:** 미로 같은 서가와 인도하는 속삭임, 부스러지는 곰팡이 핀 책, 먼 곳에서 딸깍거리는 골렘, 너무 많은 먼지, 과거 학자와 도적의 오래된 유해.
 
-Descriptors: Labyrinthine shelves and a guiding whisper,
-crumbling moldy books, clanking of a distant golem, far too
-much dust, the long-dead remains of past scholars and thieves.
+### 숨어 있으라
 
-Stay Hidden
-Summary: While the PCs are hiding in an underground cellar, a
-regenerating bounty has tracked them down to capture alive.
+**요약:** PC가 지하 저장고에 숨어 있는 동안, 재생하는 현상금 사냥꾼이 그들을 추적해 생포하러 왔다.
 
-Features: Searching hunter and hounds, cramped ceilings, crates
-and bags of produce, single entrance, small rodents.
+**특징:** 사냥꾼과 사냥개가 수색 중, 낮은 천장, 상자와 농산물 자루, 입구 하나뿐, 작은 쥐.
 
-Descriptors: Musty earth, heavy footsteps above, barking hounds,
-quiet squeaks and scratches in the walls.
+**묘사 요소:** 퀴퀴한 흙 냄새, 위에서 들리는 무거운 발소리, 짖는 사냥개, 벽 안에서 삐걱거리는 조용한 소리.
 
-Divine Meeting
-Summary: The PCs have gained an audience with the matriarch
-of the entire church. Can they convince her to help them?
+### 신성한 알현
 
-Features: Otilia the Bountiful Mother, armored spearguards,
-research into the PCs histories, rival diplomat
+**요약:** PC가 교단 전체의 총대주교를 알현할 기회를 얻었다. 그녀를 설득해 도움을 받을 수 있을까?
 
-Descriptors: Pristine marble pillars, beautiful flowering garden,
-magically animated stained glass, cinnamon incense.
+**특징:** 자애로운 어머니 오틸리아, 무장한 창기병 호위, PC 이력에 대한 사전 조사, 경쟁 외교관.
 
-Eruption!
-Summary: The jungle island’s volcano begins to erupt and cover it
-in lava. Can they find a way to escape in time?
+**묘사 요소:** 티 없는 대리석 기둥, 아름다운 화원, 마법으로 움직이는 스테인드글라스, 계피 향.
 
-Features: Flooding lava, raining smoke, ash, and molten rocks,
-stampeding animals, forest fires, other survivors
+### 분화!
 
-Descriptors: Sweltering heat, thick black clouds, stinking smoke
-and sulfur, whistle of falling rocks, rumble of the mountain
+**요약:** 정글 섬의 화산이 분화하여 용암으로 섬을 덮기 시작한다. 제때 탈출할 방법을 찾을 수 있을까?
 
-57
+**특징:** 밀려드는 용암, 쏟아지는 연기·재·녹은 돌, 질주하는 동물, 산불, 다른 생존자.
+
+**묘사 요소:** 찌는 열기, 짙은 검은 구름, 악취 나는 연기와 유황, 떨어지는 돌의 휘파람 소리, 산의 우르릉거림.
+
+<!-- p.57 -->

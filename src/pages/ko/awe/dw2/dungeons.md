@@ -1,136 +1,91 @@
-<!-- split from dw2.md: dungeons | source lines 10531-10664 | approx book page ? -->
+---
+title: "던전월드 2 · 던전"
+description: "던전."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
 
-Dungeons
+<!-- split from dw2.md: dungeons | source lines 10531-10664 | approx book page 64 -->
 
-In DW2 a Dungeon is an unfamiliar, hostile environment
-somehow separate from the rest of the world. A Dungeon can
-be bigger than a country or smaller than a house, ancient and
-forgotten or populated and evolving. A Dungeon could be a hidden
-smuggling tunnel under the Snake District, or the scorching
-pathways of the Everburning Forest, or the vast necropolis ruled
-by the ghost of a god.
+# 던전
 
-might be found anywhere across the Dungeon. When you want to
-introduce something new to a scene, look to these.
+던전월드 2에서 던전이란 **나머지 세계와 어떤 식으로든 분리된, 낯설고 적대적인 환경**입니다. 나라보다 클 수도, 집보다 작을 수도 있으며, 고대에 잊혀졌거나 사람이 살며 변해 가고 있을 수도 있습니다. 뱀의 구역 아래 숨겨진 밀수 터널일 수도 있고, 영원히 타오르는 숲의 이글거리는 오솔길일 수도 있으며, 신의 유령이 지배하는 거대한 사자의 도시일 수도 있습니다.
 
-Descriptors: The background elements of the dungeon that come
-together to form its aesthetic.
+대개 PC가 한 번도 가 본 적이 없어서 낯선 것이지만, 바뀌었거나 계속 바뀌고 있기 때문에 낯설 수도 있습니다. 위험한 환경·적·장애물 때문에 적대적일 수 있지만, 던전의 모든 것이 적대적일 필요는 없습니다. 대부분이면 됩니다.
 
-Treasures: Valuable oddments found in the dungeon, usually
-with a cost or risk.
+봉인되었거나, 오래 잊혀졌거나, 가기 어렵거나, 지나가는 이의 눈에 띄지 않거나, 경비가 있어서 보통 세계와 분리되어 있을 수 있습니다. 적대적인 성격 자체 때문에 분리되어 있어서 자진해서 들어가려는 이가 극소수인 경우도 있습니다.
 
-It’s usually unfamiliar because the PCs have never been there
-before, but it could be because it has changed, or keeps changing.
-The environment may be hostile due to dangerous environments,
-enemies, or obstacles, but not everything in the Dungeon needs
-to be hostile, just most of it.
+요컨대 던전은 이야기상 여러 가지가 될 수 있지만, 모든 던전은 그 안에 발을 들인 자에게 미지의 세계를 엿보게 합니다.
 
-Legs: The Scenes that may occur as the PCs travel throughout
-the dungeon. These are split into several categories. Because
-Dungeons are usually about exploring a specific environment,
-many legs may say where they take place, but some might leave it
-open. Legs can include:
+던전이 더 이상 낯설지도, 적대적이지도, 나머지 세계와 분리되지도 않게 되면 던전이기를 멈춥니다. 보통은 PC가 탐험하고 바꾸었기 때문입니다.
 
-It may be separate from the normal world because it was sealed
-away, or long forgotten, or difficult to get to, hidden from
-passersby, or guarded. It may also be separate specifically because
-of its hostile nature, so very few willingly choose to venture in.
+## 공간이 아니라 장면에 집중하라
 
-In short, a Dungeon can be many things narratively, but all
-Dungeons give those who venture into it a glimpse of the
-unknown.
+던전 안에서도 던전월드 2의 이야기 중심은 장면입니다. 복도가 얼마나 긴지, 횃불이 얼마나 더 탈지 같은 구체적 정보는 거의 중요하지 않습니다. 중요한 것은 복도에서 돌아가는 칼날을 무사히 지나칠 수 있느냐 하는 것입니다.
 
-When a Dungeon ceases to be unfamiliar, hostile, or separate
-from the rest of the world, it stops being a dungeon. This is
-usually because the PCs have explored and/or changed it.
+마찬가지로, 잠긴 문과 막힌 통로는 PC의 발을 묶는 것이 아니라 **압박** 을 가할 때에만 던전에서 의미가 있습니다. 쇠살문 그 자체는 재미가 없지만, 급속히 물이 차오르는 방의 유일한 탈출구라면 이야기가 다릅니다.
 
-◆ Openings — These Scenes occur near the start of the
+마찬가지로, 어떤 결과가 모험을 뚝 멈추게 해서는 안 됩니다. 문을 통과하지 못했을 때 흥미로운 결과가 없다면, PC가 6-를 굴려도 그 부분은 성공시키되 대신 상당한 대가를 함께 치르게 하십시오. 문 반대편에 무언가 기다리고 있거나, 경보가 울리거나, 추격자가 뒤에서 들이닥치거나.
 
-dungeon, and tend to include minor dangers and obstacles,
-showing signs of the Impulse at work.
+## 던전의 구성
 
-◆ Discoveries — What happens within the depths of the
+**요약:** 던전을 설명하는 몇 문장.
 
-dungeon, including significant dangers, obstacles, secrets,
-surprises, and more.
+**충동:** 실제로 살아 있든 아니든, 던전은 긴장과 위험의 순간에 생기가 도는 것처럼 느껴질 수 있습니다. 던전이 나머지 세계와 다르고 적대적으로 느껴지게 만드는 행동 양식입니다.
 
-◆ Culminations — What happens as the PCs near the Dungeon’s
-‘natural’ end, whether that’s the deepest chamber of a tunnel
-network, or an escape hatch to the surface, or a person
-they’ve been searching for all this time.
+**특징:** 던전 어디서나 만날 수 있는 눈에 띄는 장애물, 거주자, 환경. 장면에 새로운 것을 도입하고 싶을 때 여기를 보십시오.
 
-Focus on Scenes, not Space
-Even inside a Dungeon, Scenes remain the focus of the narrative
-in DW2. Specific information, like how long a hallway is or how
-much time until a torch goes out, rarely matters. What does matter
-is if you can get past the hallway’s spinning blades unscathed.
+**묘사 요소:** 던전의 미감을 이루는 배경 요소들.
 
-Example - The Drowned Giant
-Summary: A colossal hollow golem sunk to the ocean floor
-centuries ago. Now it rests as the stone and metal heart of an
-underwater ecosystem, but the waters inside the golem itself are
-dark, sickly, and teeming with strange and dangerous creatures.
+**보물:** 던전에서 발견되는 가치 있는 물건들. 보통 대가나 위험이 따릅니다.
 
-Similarly, locked doors and blocked passageways are only
-interesting in a Dungeon if they add pressure to the PCs instead
-of stopping them in their tracks. A barred gate by itself isn’t
-inherently interesting, but it can be if it’s the only way out of a
-quickly-flooding room.
+**구간:** PC가 던전을 이동하며 벌어질 수 있는 장면들. 여러 범주로 나뉩니다. 던전은 보통 특정 환경을 탐험하는 것이므로 많은 구간이 장소를 명시하지만, 열어 두는 구간도 있을 수 있습니다. 구간에는 다음이 포함됩니다.
 
-Similarly, don’t have any consequence stop the adventure short. If
-there is no interesting outcome on failing to get through a door,
-then even if the PCs roll a 6- to get through it they still succeed
-in that part; they just might have very significant consequences
-alongside it. Maybe something waits on the other side of the door,
-or an alarm goes off, or pursuers arrive behind them.
+- **시작부** — 던전의 초반에 일어나는 장면. 가벼운 위험과 장애물이 포함되는 경향이 있으며, 충동이 작용하는 징후를 보여 줍니다.
 
-Dungeons contain:
-Summary: A few sentences explaining the dungeon
+- **발견** — 던전 깊은 곳에서 벌어지는 일. 상당한 위험, 장애물, 비밀, 놀라움 등이 포함됩니다.
 
-Impulse: Whether or not it really is, a Dungeon can often feel
-alive during moments of tension and danger. This is what the
-dungeon ‘does’ to make things feel different and hostile compared
-to the rest of the world.
+- **절정** — PC가 던전의 "자연스러운" 끝에 다가갈 때 벌어지는 일. 터널 네트워크의 가장 깊은 방이든, 지표로 나가는 비상구든, 줄곧 찾아 온 인물이든.
 
-Features: The notable obstacles, inhabitants, environments that
+## 예시 — 익사한 거인
 
-Impulse: To corrupt and mutate life
+**요약:** 수백 년 전 해저에 가라앉은 거대한 속이 빈 골렘. 지금은 수중 생태계의 돌과 금속으로 된 심장으로 자리 잡았지만, 골렘 내부의 물은 어둡고 병들어 기이하고 위험한 생물이 들끓는다.
 
-Features: Grasping sea grass, jagged coral, schools of flesh-eaters,
-mutated predators, mad survivor
+**충동:** 생명을 타락시키고 변이시킨다
 
-Descriptors: Rusted cylindrical tunnels, bundles of pipes and
-tubes, calcified magic sigils, layered algae and barnacles, an
-ominous metallic rhythmic pulse
+**특징:** 움켜쥐는 해초, 들쭉날쭉한 산호, 살점을 먹는 물고기 떼, 변이된 포식자, 미친 생존자
 
-Treasure: damaged control device, grate loot, shark stomach,
-nexus gemstone
+**묘사 요소:** 녹슨 원통형 터널, 파이프와 관 묶음, 석회화된 마법 부호, 겹겹이 쌓인 해조류와 따개비, 불길한 금속성 규칙적 맥동
 
-Openings:
+**보물:** 손상된 제어 장치, 격자 전리품, 상어 뱃속 내용물, 핵심 보석
 
-◆ Shadowy Breach — hole in the golem’s chassis, ancient
+### 시작부
 
-cannonball as big as a house, several drifting jellyfish, small
-octopus that ink-poisons the water nearby then flees.
+- **그림자 균열** — 골렘 외피의 구멍, 집채만 한 고대 포탄, 떠다니는 해파리 몇 마리, 주변 물에 먹물독을 뿜고 도망치는 작은 문어.
 
-◆ Winnowing Maw — cylindrical tunnel leading deeper in, filled
-with rows of knife-like coral, a treasure-carrying corpse in an
-especially jagged corner, leeches
+- **체거름의 아가리** — 더 깊이 들어가는 원통형 터널. 칼날 같은 산호가 줄줄이 늘어서 있고, 특히 날카로운 모서리에 보물을 든 시체 하나, 거머리.
 
-◆ Terrified Survivor — fish-person fleeing the entrance, injured
+- **겁에 질린 생존자** — 입구에서 도망쳐 나오는 어인. 다치고 겁에 질려 있다. 누군가를 두고 왔다. PC는 이 존재와 소통할 수 있는가?
 
-and terrified, left someone behind, can the PCs communicate
-with them?
+### 발견
 
-64
+- **뒤틀린 형상** — 어인 생존자. 눈에 띄게 빠르게 변이 중이다. 점점 포식적으로 변하고, 위험하게 몸부림치며, 목소리가 들린다. 빛나는 보석 파편을 가지고 있다.
 
-Play Order
+- **사냥하는 포식자** — 벌집 같은 터널, 두꺼운 해초와 떠다니는 해파리, 기묘한 능력을 가진 배회하는 상어, 기이한 외모의 작은 초식 물고기.
 
-1. The GM makes a Move. Following their GM Principles, they
-   set up a situation. Then they usually ask ‘what do you do?’
+- **번쩍이는 녹** — 리듬에 맞춰 열리고 닫히는 낡은 격자. 닳아빠진 마법 부호가 간신히 작동을 유지하고, 그 뒤에 반짝이는 보물, 이제는 살을 먹는 피라미 떼.
 
-NPCs
+- **고대 막사** — 한때 마른 방으로 통하던 거의 밀봉된 문. 고대 생존자들(그것도 간신히)의 흔적. 최소한의 생활 공간. 한때 비축한 구조물. 전기 뱀장어.
 
-1.  Who are they and what is their role in the narrative? Write
+- **부호 네트워크** — 수백 개의 마법 부호가 벽을 가득 채운 구형 방. 대부분 손상되어 비활성이지만, 난폭한 마법 효과, 위험한 원소, 잠깐 소환되는 생물이 있다.
 
-as much or as little of this down as their Description.
+- **수리 구역** — 던전에서 유일하게 마른 곳. 손상된 입구, 고대 기술자의 유해, 손대지 않은 복원 장치, 만만치 않은 보안 감시병.
+
+### 절정
+
+- **중앙 핵심부** — 동굴 같은 거대한 방, 거대한 빛나는 보석, 에너지로 타닥거리며 현실을 뒤트는 파동을 만들어 낸다. 수백 마리의 전기 해파리, 해파리의 자극에 면역인 크라켄을 닮은 문어.
+
+_[향후 GM 장에 흥미로운 질문 던지기, 장거리 여행 처리, 함정과 퍼즐 관리, 기타 잡다한 조언을 추가할 예정입니다.]_
+
+<!-- p.64 -->

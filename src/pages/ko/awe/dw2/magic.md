@@ -1,167 +1,77 @@
+---
+title: "던전월드 2 · 마법"
+description: "마법 규칙과 위력."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: magic | source lines 2371-2537 | approx book page ? -->
 
-Magic
+던전월드 2에서 마법은 곳곳에 있으며, 온갖 근원에서 나와 셀 수 없이 많은 효과를 만듭니다.
 
-Magic is everywhere in Dungeon World 2, and can manifest from
-all kinds of sources and create inumerable effects.
+- **사제**는 영역에 맞는 기적을 신께 빕니다.
+- **드루이드**는 자연의 영혼·짐승·식물과 교감합니다.
+- **소서러**는 내면의 마법과 지금의 감정을 끌어 씁니다.
+- **워록**은 강한 존재나 현실 그 자체와 계약을 맺습니다.
+- **마법사**는 공부한 힘의 말을 엮어 씁니다.
+- **마법 아이템과 유물**은 여러 효과를 품은 마법이 깃든 물건입니다.
+- **마법 생물**(용 등)은 숨 쉬듯 타고난 마법 능력을 가집니다.
+- **NPC**도 위와 같은 줄기의 마법을 쓰거나, 완전히 다른 마법을 쓸 수 있습니다.
+- **마법적 장소**(저주받은 묘지, 시간이 멈춘 섬 등)는 나름의 마법적 효과와 위험을 드러냅니다.
 
-◆ Clerics pray to their deity for miracles related to their domain
-◆ Druids commune with natural spirits, beasts, and plants
-◆ Sorcerers channel their inner magic and current emotions
-◆ Warlocks create pacts with powerful beings or reality itself
-◆ Wizards weave together the words of power they’ve studied
-◆ Magic Items and Artifacts are items imbued with magical
+마법이 거의 무엇이든 될 수 있으므로, 이 게임에서 모든 선택지를 규칙으로 다 적을 수는 없습니다. 대신 모든 마법에 공통으로 쓰이는 핵심 용어와 규칙만 정리합니다.
 
-power with a variety of effects
+## 위력(Magnitude, Mag)
 
-◆ Magical creatures, such as dragons, have their own innate
-magical abilities that are as natural to them as breathing
+위력(흔히 **Mag**)은 주문의 규모와 힘을 나타냅니다. 끝이 열린 마법 효과를 다루는 액션은 대개 비용·위험 같은 대가가 **Mag**에 비례합니다.
 
-◆ An NPC might have their own magic that fits into one of the
+효과의 **Mag** 를 정할 때 아래를 기준으로 씁니다.
 
-sources above or might be completely different
+- **Mag 0** 효과는 작은 불꽃, 평범한 존재 소환·매혹, 잠깐 투명, 낙하 완화 따위일 수 있습니다. **Mag 0**으로 하려는 일은 마법 없이도 어느 정도 할 수 있을지도 모릅니다.
 
-◆ Magical places, such as a cursed graveyard or a time-frozen
-island, can manifest their own magical effects and dangers
+**Mag** 에 의견이 갈리면 팀이 함께 이야기합니다. GM이 **Mag** 에 대한 최종 판단을 내리지만, 마법 사용자는 원하면 효과를 고쳐 특정 **Mag** 에 맞출 수 있습니다. 일관되고 타당하게—대상의 난이도·저항, 규모·지속·거리·심각도 등을 보고 **Mag** 를 판단하십시오.
 
-Because magic can mean almost anything, it isn’t feasible in this
-game to provide exhaustive rules for every option. Instead, here
-are a few critical terms and rules that are common across all
-types of magic.
+## 의식(Rituals)
 
-Magnitude (Mag)
-Magnitude, often shortened to Mag, represents the scale and
-power of a spell. Most moves with open-ended magical effects
-will have a cost, risk, or similar drawback proportional to Mag.
+대개는 당장 몸에 지닌 것과 바로 주변으로 마법을 쓰지만, 어떤 마법은 너무 강해 시간과 준비가 많이 필요합니다.
 
-Use these guidelines when determining an effect’s Magnitude:
+**의식을 준비해 마법 효과를 내려 할 때**, **GM**에게 무엇을 이루려는지 말합니다. **GM**은 “좋아, 문제없어. 다만 마법에 맞는 힘의 원천이 필요하고, 게다가…”라고 한 뒤, 효과의 **Mag**만큼 요구 사항을 냅니다(각 “**X**”를 구체로 채움). 요건을 다 채우면 의식을 행해 효과를 냅니다.
 
-◆ A Magnitude 0 effect might shoot a small bolt of fire, summon
-or charm an ordinary being, turn someone briefly invisible,
-or slow down a fall. Whatever you intend to do with a Mag 0
-effect, you might also be able to do it without magic at all.
+- 먼저 **X**를 해야 한다
+- 며칠/몇 주/몇 달 걸린다
+- **X**가 필요하다
+- 불안정하거나 제한적이다
+- 끝에 수행할 때 당신과 동료가 **X**를 위험에 둔다
+- **X**의 도움이 필요하다
+- **X**를 파괴해야 한다
+- 누군가 막으려 할 것이다
 
-If there is disagreement about an effect’s Magnitude, discuss it as
-a group. The GM has the final say on an effect’s Magnitude, but
-the magic-user can revise their effect to fit a specific Magnitude
-if they wish. Try to be consistent and reasonable, judging
-Magnitude based on the difficulty or resistance of the target, the
-scale, duration, distance, severity, and potentially other aspects.
+## 전투 속 마법
 
-Rituals
-Most of the time you’ll use magic in-the-moment with what you
-have on your person and in your immediate surroundings, but
-some magic is too powerful, and instead needs significant time
-and preparation.
+**마법을 무기로 누군가를 해칠 때**…
 
-When you prepare a ritual to create a magical effect, tell the
-GM what you’re trying to achieve. The GM will tell you, “Sure,
-no problem, but you will need a source of power related to your
-magic, and also…”. Then they will present you with requirements
-equal to the effect’s Magnitude (replacing each “X” with a specific
-detail). Once the requirements are fulfilled, you may perform the
-ritual and achieve the effect.
+**전투 액션**이 발동하면, 보통 그때 쓰려던 일반 액션을 덮어씁니다. 효과의 **Mag**만큼 조건을 표시하지만, 굴림은 평소 능력치 대신 마법에 맞는 능력치로 할 수 있습니다.
 
-◆ First you must X
-◆ It’s going to take days/weeks/months
-◆ It will require X
-◆ It will be unreliable or limited
-◆ You and your allies will risk X when performing it at the end
-◆ You’ll need help from X
-◆ You’ll need to destroy X
-◆ Someone will try to stop you
+**전투 액션**이 발동하지 않으면(상대가 당신을 못 보거나, 당신에게 위협이 되지 않거나, 서사상 트리거에 안 걸리거나 등), 평소 마법 액션으로 효과를 세우고, 그에 맞게 굴립니다.
 
-Magic in Battle
-When using magic as a weapon to hurt someone...
+**Mag** 가이드:
 
-◆ Magnitude 1 might shoot an explosive fireball, summon or
-charm a magical creature, turn a group invisible, or fly for
-a minute. If you tried to pull off something similar without
-magic, it would take a complex, lengthy, and/or group effort.
+- **Mag 1**은 폭발하는 화구, 마법 생물 소환·매혹, 한 무리 투명, 1분 비행 따위일 수 있습니다. 비슷한 일을 마법 없이 하려면 복잡하고 길거나 여럿이 힘을 모아야 할 것입니다.
 
-If a Battle Move would trigger, then it usually overrides the
-normal move you’d use for your magic. Mark conditions equal to
-the effect’s Mag, but you may roll using the stat associated with
-your magic instead of the normal stat.
+- **Mag 2**는 거대한 불벽, 신화적 존재 소환·매혹, 주점 단위 투명, 몇 시간 비행 따위입니다. 아무리 오래 평범한 동료와 노력해도 현실적으로는 불가능합니다.
 
-◆ Magnitude 2 might create a vast wall of fire, summon or
+- **Mag 3 이상**은 불운석, 반신 소환·매혹, 마을 투명, 일주일 비행 따위일 수 있습니다. 마법으로도 어렵고, **GM**은 의식 영역이라고 할 수 있습니다.
 
-charm a mythical creature, turn a tavern invisible, or fly for
-hours. You can’t feasibly do these things without magic, no
-matter how long you or your mundane allies work towards it.
+**Mag**는 선형이 아니라 기하급수로 커집니다. **Mag 0**이 한 사람을 대상이면, **Mag 1**은 다섯 정도, **Mag 2**는 쉰 명 이상을 대상으로 할 수 있습니다.
 
-If a Battle Move wouldn’t trigger (they can’t see you, they aren’t
-a threat to you, you aren’t narratively hitting any of the triggers,
-etc.), then follow your normal magic move to establish the effect,
-probably rolling as part of it.
+## 마법 피해와 태그
 
-◆ Magnitude 3 or higher might call down fiery meteors,
+**Mag 0** 효과는 보통 **피해 1~2**, **눈에 띔**, **사거리 태그 1~2개**입니다. **Mag**가 높을수록 피해가 더 크고 태그가 늘어납니다. 아래를 기준으로 삼고(GM이 최종 결정):
 
-summon or charm a demigod, turn a town invisible, fly for a
-week. Even with magic, this is tough, and the GM might say it
-falls under the realm of a Ritual (see below).
+- **피해 1:** 죽이긴 어려운 가벼운 상처—강한 주먹, 얕은 베기
+- **피해 2:** 평범한 사람을 죽일 수도 있는 중간 상처—검이나 화살 한 방
+- **피해 3:** 대부분의 평범한 사람을 죽이는 심한 상처—살아남아도 온전히 회복하기 어렵다
+- **피해 4:** 대부분의 평범한 사람을 즉시 죽이거나 소멸·녹임 등으로 없앤다
 
-Magnitude increases exponentially, not linearly. If a Mag 0 effect
-targets a single person, its Mag 1 equivalent might target a group
-of five people, and Mag 2 might target fifty or even more.
-
-Magical Damage and Tags
-A Mag 0 effect usually has 1 or 2 Dmg, Distinctive, and 1-2 Range
-Tags. Higher Mag effects likely deal more damage and gain
-additional tags; use the guideline below determine what best fits
-(the GM has final say).
-
-◆ 1 Dmg: it inflicts minor wounds that probably won’t kill
-
-anyone, such as a strong punch or a shallow cut
-
-◆ 2 Dmg: it inflicts moderate wounds that might kill an ordinary
-
-person, similar to a blow with a sword or arrow
-
-◆ 3 Dmg: it inflicts severe wounds that kill most ordinary
-
-people, and those that survive rarely truly recover
-
-◆ 4 Dmg: It instantly kills, disintegrates, melts, or otherwise
-
-destroys most ordinary people
-
-◆ Distinctive: It has an obvious and unique sound, appearance,
-
-or impression when used.
-
-◆ Area: It can hit multiple targets in close proximity.
-◆ Forceful: It inflicts powerful, crushing blows that knock
-
-targets back and down.
-
-◆ Messy: It inflicts painful, grisly blows that cause debilitating
-
-pain or lost limbs.
-
-◆ Piercing: It cuts or bypasses thick armor and shielding.
-◆ Vicious: It is especially deadly to vulnerable areas. When
-dealing damage while exploiting an edge, deal +1 damage.
-
-Range Tags
-◆ Hand: It’s useful when they’re close enough to grab.
-◆ Close: It’s useful when they’re a few feet away, close enough to
-
-read each other’s expressions.
-
-◆ Near: It’s useful when they’re close enough to speak with,
-
-even if you have to raise your voice a bit to be heard clearly.
-
-◆ Far: It’s useful when they’re close enough to see clearly, or to
-
-hear you yell at the top of your lungs.
-
-15
-
-Enough food to count as Supplies or a Hearty Feast
-
-6.  Mirror of Rebirth. Any who gaze into it can become
-
-7.  Bill of Debt. From someone of great wealth or power. Who
+(태그 설명은 태그 장과 같습니다: **눈에 띔**, **범위**, **강타**, **지저분**, **관통**, **흉포**—우위를 노린 피해를 줄 때 **+1 피해**, 손·근접·가까움·멀리.)

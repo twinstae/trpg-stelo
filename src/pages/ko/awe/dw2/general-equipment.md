@@ -1,103 +1,86 @@
+---
+title: "던전월드 2 · 일반 장비"
+description: "잡화·도구·보급."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: general-equipment | source lines 2268-2370 | approx book page ? -->
 
-General Equipment
+## **모험 도구** — 사용 3, 비용 2
 
-Adventuring Gear — 3 Uses, 2 Cost
-A collection of useful mundane items such as torches, chalk, poles,
-spikes, ropes, a frying pan, etc.
+_횃불, 분필, 장대, 말뚝, 밧줄, 프라이팬 등 쓸 만한 잡동사니 모음입니다._
 
-Poisoner’s Kit — 2 Uses, 2 Cost
-This deadly kit contains an array of strange herbs, venoms, needles,
-and antidotes.
+**모험 도구를 뒤져 달성 가능한 물건을 찾을 때**, 사용 하나를 쓰고 필요한 것을 손에 넣습니다. 나중에도 계속 가질 수 있습니다.
 
-When you rummage through your adventuring gear for a
-feasible item, spend a use and acquire what you need. You can
-keep the item for future use.
+## **독제 조제 세트** — 사용 2, 비용 2
 
-When you retrieve or create a poison from the kit, spend 1 use
-to choose a common poison below, or spend 2 uses to create a
-custom poison with the GM.
+_이 치명적인 세트에는 이상한 약초, 독, 바늘, 해독제 등이 들어 있습니다._
 
-Bag of Books — 3 Uses, 2 Cost
-Anyone who thinks scholars are physically weak has obviously never
-carried a small library on their back while venturing into the depths.
+**세트에서 독을 꺼내거나 만들 때**, 아래 흔한 독 하나를 고르려면 사용 1을 쓰거나, GM과 함께 맞춤 독을 만들려면 사용 2를 씁니다.
 
-When you search this bag for a relevant record of information,
-spend a use to find it. You can keep it for future use.
+- **피혈초** — 닿으면, 장면이 끝날 때까지 대상이 주는 피해가 1 줄어듭니다.
+- **황금뿌리** — 마시면, 장면이 끝날 때까지 다음으로 보는 사람을 온전히 믿습니다.
+- **타깃 기름** — 마시면 가벼운 잠에 빠집니다.
+- **뱀의 눈물** — 닿으면, 장면이 끝날 때까지 대상이 받는 피해가 1 늘어납니다.
 
-Bandolier of Vials — 3 Uses, 2 Cost
-Some problems require unusual solutions. These vials are protected
-from normal spillage and breakage, but remain easily accessible.
+## **책 가방** — 사용 3, 비용 2
 
-When you withdraw a vial, spend a use and choose a type:
+_학자가 약하다는 말을 하는 사람은, 깊은 곳으로 들어가며 작은 도서관을 등에 업어 본 적이 없는 사람입니다._
 
-◆ Acid — It can melt organic substances
-◆ Flashy — It can make bright lights and loud noises
-◆ Fiery — It can burst into flame
-◆ Holy — It can cleanse corruption and undeath
+**이 가방에서 관련 기록을 찾을 때** 사용 하나를 쓰면 찾습니다. 계속 가질 수 있습니다.
 
-Healing Potion — 3 Cost
-Typically a flask of thin red liquid, but can take many forms and
-flavors.
+## **약병 띠** — 사용 3, 비용 2
 
-When you drink an entire Healing Potion, remove it from your
-belongings and immediately heal half your maximum HP.
+_어떤 문제는 특이한 해결책이 필요합니다. 병은 보통 새지 않고 깨지지 않게 되어 있으나, 꺼내기는 쉽습니다._
 
-Hearty Feast — 2 Cost
-A warrior can endure hell itself if there’s a good meal waiting
-afterwards.
+**병을 꺼낼 때** 사용 하나를 쓰고 종류를 고릅니다.
 
-When you share this meal while Making Camp, all PCs heal to
-full when camping finishes.
+- **산** — 유기물을 녹일 수 있습니다.
+- **섬광** — 밝은 빛과 큰 소리를 낼 수 있습니다.
+- **불꽃** — 불길을 일으킬 수 있습니다.
+- **성스러움** — 부패와 언데드를 정화할 수 있습니다.
 
-Medicine — 2 Uses, 2 Cost
-These might be poultices to heal wounds, herbal supplements to calm
-nerves, or similar remedies.
+## **치유 물약** — 비용 3
 
-When you apply Medicine for a few minutes, mark a use to choose
-one for the patient:
+_보통은 옅은 붉은 액체 한 병이지만, 형태와 맛은 여러 가지일 수 있습니다._
 
-◆ clear a mundane affliction, such as a disease or poison
-◆ the next time they restore HP, double the amount
+**치유 물약을 통째로 마시면** 소지품에서 제거하고, 즉시 최대 HP의 절반만큼 회복합니다.
 
-◆ Bloodweed — Upon contact, the target deals 1 less damage until
+## **든든한 만찬** — 비용 2
 
-the end of the scene.
+_끝에 좋은 한 끼가 기다리면, 전사는 지옥도 견딜 수 있습니다._
 
-◆ Goldenroot — When consumed, they completely trust the next
+**야영**(**Make Camp**) 할 때 이 식사를 함께 나누면, 야영이 끝날 때 모든 PC의 HP가 가득 찹니다.
 
-person they see until the end of the scene.
+## **약재** — 사용 2, 비용 2
 
-◆ Oil of Taggit — When consumed, causes them to fall into a
+_상처에 붙이는 허브, 신경을 가라앉히는 보조제 따위일 수 있습니다._
 
-light sleep.
+몇 분 동안 약재를 쓰면 사용 하나를 표시하고 환자에게 아래 하나를 고릅니다.
 
-◆ Serpent’s Tears — Upon contact, the target receives 1 extra
+- 질병·독 같은 흔한 고통 하나를 지웁니다.
+- 다음에 HP를 회복할 때, 회복량이 두 배입니다.
 
-damage until the end of the scene
+## **보급** — 사용 3, 비용 2
 
-Supplies — 3 Uses, 2 Cost
-Food, water, bandages, anything that can offer relief during a moment
-of respite.
+_음식, 물, 붕대 등 한숨 돌릴 때 위로가 되는 것들입니다._
 
-When you Comfort or Support, while answering the move’s
-questions you may spend a use to treat a “no” as if it were a “yes”.
+**위로와 격려**로 질문에 답할 때 사용 하나를 써서 “아니오”를 “예”인 것처럼 취급할 수 있습니다.
 
-Trap Kit — 2 Uses, 2 Cost
-A bear trap, tripwire rig, bag of caltrops, marbles, or similar.
+## **덫 도구** — 사용 2, 비용 2
 
-When you spend time setting up your trap kit in advance, it
-becomes a dangerous, impeding hazard for anyone that enters its
-range, typically dealing 2 damage.
+_곰 덫, 발목 줄, 깔때기, 구슬, 비슷한 것들입니다._
 
-Fishing Rod — 1 Cost
-Fancy collapsing rods and tackle boxes, or a simple stick and string.
-What you use to fish isn’t as important as how you feel while doing it.
+**미리 시간을 들여 덫을 설치하면**, 범위에 들어온 이에게 위험한 방해가 되며 보통 피해 2를 줍니다.
 
-When you fish with someone, you can use Exert Influence or
-Sense Motive on them with either WIS or CHA, and on a 12+
-choose one:
+## **낚싯대** — 비용 1
 
-◆ You catch something valuable, gain 1 Treasure
-◆ You have a moment with them, clear a condition
-◆ You witness something important, the GM will tell you what
+_접이식 장대와 미끼 상자일 수도, 막대와 실일 수도 있습니다. 낚시에 쓰는 물건보다 함께하는 마음이 중요합니다._
+
+**누군가와 낚시를 할 때** **영향을 행사**하거나 **속뜻 읽기**를 지혜나 매력으로 할 수 있고, **12+**이면 아래 하나를 고릅니다.
+
+- 값나는 것을 낚아 보물 1을 얻습니다.
+- 함께한 순간이 생겨 조건 하나를 지웁니다.
+- 중요한 것을 목격합니다. GM이 무엇인지 말해 줍니다.

@@ -1,3 +1,11 @@
+---
+title: "던전월드 2 · 커스텀 마법 아이템"
+description: "마법 아이템 제작."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: custom-magic-items | source lines 7839-8288 | approx book page ? -->
 
 Custom Magic Items

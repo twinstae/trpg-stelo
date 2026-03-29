@@ -1,713 +1,427 @@
-<!-- split from dw2.md: conflicts | source lines 6115-6830 | approx book page ? -->
+---
+title: "던전월드 2 · 갈등"
+description: "캐릭터 갈등."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
 
-Conflicts
+<!-- split from dw2.md: conflicts | source lines 6115-6830 | approx book page 38-41 -->
 
-Conflicts are powerful narrative aspects of a character that they
-grapple with over the course of play. All Conflicts are, at their
-heart, a question about who the PC is, what matters to them, and
-what choices they will make.
+갈등(Conflict)은 플레이 과정에서 캐릭터가 씨름하는 강력한 서사적 면모입니다. 모든 갈등은 본질적으로 PC가 누구인지, 무엇이 중요한지, 어떤 선택을 할 것인지에 대한 질문입니다.
 
-Each PC can have one Conflicts at a time.
+PC는 한 번에 갈등 하나만 가질 수 있습니다.
 
-Alter Ego
-You have a second identity that empowers you to act in ways you
-normally can’t. How hard could living two lives be?
+**갈등을 처음 고를 때** 다음을 모두 수행하세요:
 
-Questions: What is your alter ego’s name and appearance?
-What other PC knows about it? What consequences from
-your alter ego’s actions might come back to bite you? Who
-do you want to keep your alter ego hidden from?
+- 처음 두 _질문_ 을 팀에게 읽어 줍니다(지금 또는 다음 세션 시작 시). 첫 번째 질문은 본인이, 두 번째는 팀이 답합니다. 나머지 질문은 지금이든 플레이 중이든 적절한 때에 탐색하고 답하세요.
+- _아이템_ 을 얻습니다. 최근에 얻은 것인지, 원래 갖고 있던 것인지 정하세요.
+- 갈등을 갖고 있는 동안 _특성_ 에 접근할 수 있습니다.
 
-When a Conflict is first chosen, do each of the following:
+**갈등이 있는 동안** 다음을 시도하세요:
 
-Item: A clear mask, outfit, or symbol of your alter ego
+- 특성의 이점과 결점 모두를 활용하기
+- 특성이 만드는 어려운 선택이나 상황과 씨름하기
+- 적절할 때—특히 누군가가 **위로와 격려** 를 할 때—갈등에 관한 새 디테일이나 감정을 탐색하기
+- _끔찍한 진실_ 을 생각해 두기. **한계에 다다른다** 때 드러날 수 있습니다. 예시를 활용해도 됩니다.
+- 이야기적으로 만족스러울 때만 해소하기
 
-◆ Read the first two Questions to the group, now or when you
-start the next session, then answer the first yourself and
-the second as a group. Explore and answer the rest of the
-questions now or during play, however feels appropriate
+**다른 PC** 는 당신의 갈등에 다음을 시도하세요:
 
-◆ Gain its Item. Did you recently gain it, or always have it?
-◆ Gain access to its Feature for as long as you have the Conflict.
+- 흥미로운 질문을 하고 적극적인 의견을 표현하기
+- 갈등과 그 안에서 일어난 일에 반응해 관계를 다시 쓰거나 유대를 바꾸기
+- 갈등에 씨름하는 당신을 위로하고, 지지하고, 때로는 도전 주기
+- 끔찍한 진실이 밝혀지면 충격을 표현하기
 
-While you have a Conflict, try to:
+**GM** 은 당신의 갈등을 세계에 다음과 같이 그려야 합니다:
 
-◆ Engage with both the benefits and drawbacks of its Feature
-◆ Struggle with the hard choices or circumstances it puts you in
-◆ Explore new details or emotions about it when appropriate,
+- 장애물, 위험, 또는 어려운 선택의 초점으로 삼으십시오
+- 특성의 좋은 결과와 나쁜 결과를 모두 온전히 보여 주십시오
+- 때가 됐다고 느끼면 해소할 기회를 제시하십시오
 
-especially when someone Comforts or Supports you
+**갈등을 해소할 때** 다음을 모두 수행하세요:
 
-◆ Come up a terrible truth about it, which might be revealed
-when you Reach Your Limit. You can also use the example
+- 갈등에 대한 접근을 잃습니다
+- 직업의 향상 목록 중 _갈등을 해소할 때_ 항목에서 하나를 고릅니다
+- 이 해소가 캐릭터를 어떻게 바꾸는지 묘사하고 탐색합니다—지금, 그리고 앞으로
 
-◆ Resolve it only when narratively satisfying
+---
 
-Other PCs should engage with your Conflict by trying to:
+## 이중 자아(Alter Ego)
 
-◆ Ask interesting questions and express active opinions about it
-◆ Rewrite Relationships, or even change Bonds, in response to it
+_당신에겐 평소에는 하지 못할 행동을 가능케 하는 제2의 정체가 있습니다. 이중생활이 뭐 그리 어렵겠어요?_
 
-and what happens in relation to it
+**질문:** 이중 자아의 이름과 외모는? 어떤 다른 PC가 그 사실을 알고 있나? 이중 자아의 행동이 어떤 후폭풍을 불러올 수 있나? 누구에게 숨기고 싶은가?
 
-Feature: The Mask - When you first gain this Conflict, write
-down two of your stats. While you’re acting as your alter ego,
-these two stats switch numbers.
+**아이템:** 이중 자아를 나타내는 뚜렷한 가면, 복장, 또는 상징물
 
-When you Enjoy Downtime, you can spend 1 Treasure to
-change either or both chosen stats.
+**특성: 가면**(The Mask) — 이 갈등을 처음 얻을 때, 자신의 능력치 중 두 가지를 적습니다. 이중 자아로 행동하는 동안 그 두 능력치의 수치가 서로 바뀝니다.
 
-When you don or doff your alter ego in a difficult position,
-or in witness of someone you don’t have a Bond with, mark
-a condition.
+**휴식을 즐긴다** 를 할 때, 재물 1을 써서 선택한 능력치 하나 또는 둘을 바꿀 수 있습니다.
 
-Example Terrible Truth: A powerful enemy has traced your
-alter ego back to you and acted accordingly.
+어려운 상황에서 이중 자아를 입거나 벗을 때, 또는 유대를 맺지 않은 상대가 보는 앞에서 그렇게 할 때, 조건 하나를 표시합니다.
 
-Amnesia
-One day you woke up with no memory of your past identity.
-You’re not clueless about the world, but your past remains
-clouded in fog. Surely you’d want to discover who you were?
+**끔찍한 진실 예시:** 강력한 적이 이중 자아를 추적해 당신의 정체를 파악하고 그에 맞게 행동합니다.
 
-Questions: Where did you wake up without memory? What
-other PC hides a clue about your identity? What places,
-behaviours, or people might feel familiar? What new
-identity are you building for yourself?
+## 기억 상실(Amnesia)
 
-◆ Comfort, support, and sometimes challenge you in your
+_어느 날 과거의 기억 없이 눈을 떴습니다. 세상물정을 모르는 건 아니지만 과거는 안개에 싸여 있습니다. 자기가 누구였는지 알고 싶지 않을 리가 없겠죠?_
 
-Item: A belonging from before you lost your memory
+**질문:** 기억 없이 어디서 깨어났나? 어떤 다른 PC가 당신 정체에 관한 단서를 숨기고 있나? 어떤 장소, 행동, 사람이 익숙하게 느껴지나? 스스로를 위해 어떤 새 정체를 세우고 있나?
 
-struggle with it
+**아이템:** 기억을 잃기 전의 소지품
 
-◆ Gasp in shock when a Terrible Truth is confessed
+**특성: 과거의 그림자**(Shadows of the Past) — 어렴풋이 익숙해 보이는 무언가를 마주칠 때(본인 판단), 조건 하나를 표시해 기억 조각(Memoir) 1을 얻을 수 있습니다(최대 3). **과거를 짜 맞출 때**, 기억 조각 1개당 +1로 굴린 뒤 기억 조각을 0으로 되돌립니다. *7+이면 아래 하나를 골라 그 질문에 답합니다. *7–9이면 GM이 답한 뒤 반전을 더합니다. \*6-이면 GM이 하나를 골라 대신 답합니다.
 
-The GM should portray your Conflict in the world by trying to:
+- 중대한 사건. 무슨 일이었고 어떻게 관련됐나?
+- 옛 친구 또는 적. 그들이 지금 당신을 어떻게 볼까?
+- 익숙한 장소. 거기서 무엇을 했나?
+- 일상적 행동이나 업적. 무엇이 비어 있는 느낌인가?
 
-◆ Make it the focus of an obstacle, danger, or hard choice
-◆ Portray the good and bad consequences of its Feature in full
-◆ Present opportunities to resolve it when the time feels right
+**끔찍한 진실 예시:** 알지 못했으면 좋았을 것을 기억합니다—죄스러운 선택이나 쫓기는 비밀 같은.
 
-When you resolve a Conflict, do each of the following:
+## 배신당한 전우(Betrayed Comrades)
 
-◆ Lose access to the Conflict
-◆ Choose one from your Class’s list of Advancements under
+_한때 전우와 깊은 유대가 있었지만 배신으로 산산조각 났고, 이제 그는 당신의 적입니다. 다시 누군가를 그렇게 믿을 수 있을까요?_
 
-the When you resolve a Conflict section
+**질문:** 전우는 당신에게 어떤 존재였나? 어떤 다른 PC가 그와 가장 닮았나(좋든 나쁘든)? 둘 중 누가 누구를 배신했으며 어떻게? 마지막으로 만났을 때 전우가 당신을 어떻게 깊이 상처 입혔나?
 
-◆ Portray and explore how this resolution changes your
+**아이템:** 오래전 전우가 준 선물
 
-character, now and as time goes on
+**특성: 부서진 마음**(Broken-Hearted) — 전 전우나 그와 관련된 자와 피해를 주고받을 때, 서로 +1 피해를 추가로 주고받습니다.
 
-38
+다른 PC와 관계 깊이를 얻을 때 조건 하나를 표시합니다. 이것으로 **세션을 마친다** 도중 **한계에 다다른다** 에 이르면, 다음 세션 시작 시 발동합니다.
 
-Feature: Shadows of the Past - When you encounter
-something that seems vaguely familiar (your call), you may
-mark a condition to gain 1 Memoir (max 3). When you piece
-together your past, roll with +1 per Memoir, then reset
-Memoir to 0. *On a 7+ choose one below and answer its
-questions. *On a 7-9 the GM will add a twist after you answer.
-\*On a 6- the GM will pick one and answer for you.
+**위로와 격려** 를 하거나 받을 때 "전 전우에 대한 이야기를 했나?"도 물을 수 있습니다. 예이면 판정에 +1을 줍니다.
 
-◆ A major event. What was it and how were you involved?
-◆ A former friend or enemy. How might they see you now?
-◆ A familiar location. What did you do there?
-◆ A routine behavior or achievement. What feels missing?
+**끔찍한 진실 예시:** "전우"는 처음부터 거짓말을 했습니다. 당신이 그를 아꼈던 만큼 그는 당신을 신경 쓴 적이 없습니다.
 
-Example Terrible Truth: You remember something you
-wish you hadn’t, such as a guilty choice or hunted secret.
+## 피의 복수(Bloody Vengeance)
 
-Betrayed Comrades
-You once had a close bond with a comrade, but it was shattered
-by betrayal, and now they stand as your enemy. Can you ever
-trust that closely again?
+_거대한 적이 한때 당신에게서 소중한 것을 빼앗았고, 이제 되갚을 준비가 됐습니다. 그들을 쫓으며 얼마나 멀리 갈 건가요?_
 
-Questions: Who was your former comrade to you? Which
-other PC reminds you of them the most, for better or worse?
-Which of you two betrayed the other, and how? How did
-your comrade badly hurt you when you last saw them?
+**질문:** 어떤 거대한 적을 쫓나? 어떤 다른 PC가 그와 인연이 있나? 그들이 무엇을 빼앗았나? 어떤 장애가 가로막고 있나? 그들이 남긴 상처가 아직 어떻게 아프나?
 
-Item: A gift, given by your comrade long ago
+**아이템:** 잃은 것의 상징
 
-Feature: Broken-Hearted - When you exchange damage
-with your former comrade, or anyone associated with them,
-suffer and deal +1 damage each.
+**특성: 원한 목록**(List of Grudges) — 깊이 상처 입었다고 느낄 때(본인 판단) 그 이름을 목록에 적습니다. 거대한 적의 이름을 지금 적고, 추가로 최대 두 이름까지 올릴 수 있습니다(총 셋). 조건 하나를 표시해 거대한 적이 아닌 사람을 목록에서 지울 수 있습니다.
 
-When you gain Depth with another PC, mark a condition.
-If this causes you to Reach Your Limit during the End of
-Session, trigger it at the start of the next session.
+목록에 있는 대상에게 복수를 꾸밀 때, **속뜻 읽기** 한 것처럼 "어떻게 하면 너를, 또는 네가 가장 아끼는 것을 파괴할 수 있지?"라고 묻습니다. 다음 판정에 유리를 얻습니다. 목록에 있는 대상에게 통쾌한 복수를 이루면 조건 하나를 지우고 목록에서 지운 뒤, GM이 복수가 함께 빚어낸 부수적 피해를 말합니다. 그 대상이 거대한 적이었다면, 새 거대한 적을 정하거나 이 갈등을 해소합니다.
 
-When you Comfort or Support a companion, or they do the
-same to you, you may also ask “Did I tell them a story about
-my former comrade?” and give +1 to the roll on a yes.
+**끔찍한 진실 예시:** 복수를 향한 추격이 그들의 계획에 딱 맞아떨어지고, 그들의 목적을 진전시킵니다.
 
-Example Terrible Truth: Your “comrade” lied to you from
-the start. They never cared about you the way you did them.
+## 갓 태어난(Born Yesterday)
 
-Bloody Vengeance
-A great enemy once took something vital from you, and now
-you’re prepared for payback. How far will you go in their pursuit?
+_당신은 매우 어리며, 아직 자기 자신과 세상을 발견하는 중입니다. 이 여정이 당신을 어떻게 만들어 갈까요?_
 
-Questions: What great enemy do you seek? What other PC
-has history with them? What did they take from you? What
-obstacles stand between you and them? How do the scars
-they inflicted still pain you?
+**질문:** 어떻게 최근에 태어났(생겨났)나? 어떤 다른 PC가 처음으로 당신을 거둬들였나? 무엇을 의심 없이 받아들이나? 무엇을 끊임없이 의문시하나?
 
-Item: A token of what you lost
+**아이템:** 부모나 창조자에게 받은 물건 또는 교훈
 
-Feature: List of Grudges - When you feel deeply hurt by
-someone (your call), write their name on your list. Write
-your great enemy’s name now, and you can keep up to two
-more names listed at a time (three total). You may mark a
-condition to erase someone from your list, unless they are
-your great enemy.
+**특성: 둥근 눈**(Wide-Eyed) — 아래에 최대 세 가지 주제별 신념(Belief)을 갖습니다. 같은 주제에 새 신념을 쓰기 전에 이전 것을 지웁니다. 지금 신념 하나를 씁니다.
 
-When you plot vengeance against someone listed, ask “how
-can I destroy you or what you most value” as if you Sensed
-Motive. Gain ADV to your next roll in pursuit of it. When you
-deliver satisfying vengeance upon someone listed, clear a
-condition and erase them from the list, then the GM will tell
-you what collateral damage your vengeance also wrought.
-If they were your great enemy, choose a new one or resolve
-this Conflict.
+_나는 \***\*\_\_\_\_\*\***_
+_동료들은 \***\*\_\_\_\_\*\***_
+_우리의 세계는 \***\*\_\_\_\_\*\***_
 
-Example Terrible Truth: Your vengeful pursuit of them
-plays right into their plans, and advances their agenda.
+**위로와 격려** 를 받거나 **세션을 마친다** 를 할 때 "오늘 무슨 교훈을 배웠지?"도 물을 수 있고, 답을 바탕으로 신념을 씁니다.
 
-Born Yesterday
-You’re extremely young, and are still discovering yourself and
-the world. How will your journey shape who you are?
+신념에 따라 행동할 때(구현하든, 거부하든 등), 그 신념을 지워 조건 하나를 지우거나 판정에 유리를 얻을 수 있습니다.
 
-Coward
-Not every hero needs to be brave. You still want to be here, you
-just don’t want to die. That’s not the end of the world...right?
+**끔찍한 진실 예시:** 심하게 잘못 이끌리거나, 잘못 인도받았거나, 적극적으로 속아 왔습니다.
 
-Dark Whisperer
-Someone speaks to you that no one else can hear, telling truths
-you couldn’t know, and lies you can’t discern. What are they?
+## 고독한 방랑자(Brooding Loner)
 
-Questions: How did you recently come to be? What other
-PC first took you in? What do you accept without question?
-What do you endlessly interrogate?
+_모두를 거리에 둡니다. 어쨌든 당신은 외로운 전사, 오해받는 무법자, 어둠의 안티히어로니까요. 그런 사람에게 친구가 필요할 리 없죠, 그렇죠?_
 
-Item: A token or lesson from your parent or creator
+**질문:** 남의 시선을 신경 쓰지 않는다는 걸 어떻게 드러내나? 어떤 다른 PC가 당신의 벽을 뚫고 싶어 하나? 원래 이랬나, 아니면 무언가 바뀐 건가? 마지막으로 가까이 다가온 사람은? 그들이 어떻게 다쳤나?
 
-Feature: Wide-Eyed - You have up to three targeted Beliefs
-beliefs below. Before writing a new Belief, erase your old
-one about the same subject. Write one Belief now.
+**아이템:** 수수께끼의 망토, 두건, 또는 가면
 
-I am
+**특성: 고립주의자**(Isolationist) — 동료와 관계 깊이 3에 도달하면 **유대를 맺는다** 를 하지 않고 깊이 3에 머뭅니다(상대는 여전히 당신과 유대를 맺을 수 있습니다). 깊이 3 이상으로 깊이를 더 얻을 상황이 오면 대신 경험치 1을 표시합니다.
 
-My companions are
+관계 깊이 1을 써서 받는 피해를 2 줄이거나 조건 표시를 무시할 수 있습니다.
 
-Our world is
+혼자일 때, 자기 자신을 아군처럼 **동료 돕기** 할 수 있습니다.
 
-When you receive Comfort or Support, or when you End the
-Session, you may also ask “What lesson did I learn today?”
-and write a Belief based on the answer.
+누군가 **위로와 격려** 를 해 줄 때, "취약한 순간이나 친밀함에서 마음을 열었나?" 대신 "냉담한 페르소나를 유지했나?"로 묻습니다.
 
-Questions: What potential fate frightens you the most?
-What other PC did you once fearfully abandon? How do
-your companions really feel about your cowardice? How do
-you try to fight your fears? How do you (over)compensate
-for them?
+**끔찍한 진실 예시:** 동료를 더 멀리 둬야 했고, 이제 그들이 위험에 처했습니다.
 
-Item: A symbol of inspiration or strength
+## 겁쟁이(Coward)
 
-Feature: Faint of Heart - While Frightened, you gain the
-following benefits and drawbacks:
+_모든 영웅이 용감해야 하는 건 아닙니다. 여전히 여기 있고 싶긴 합니다, 그냥 죽고 싶진 않을 뿐이에요. 그게 뭐 세상이 끝나는 일은 아니잖아요…맞죠?_
 
-◆ When you roll+DEX, mark 1 XP
-◆ You have ADV on rolls made to flee or hide from danger
-◆ Whenever you mark a condition, mark an extra one
-◆ You may clear Frightened by landing the final blow on an
+**질문:** 가장 두려운 운명은 무엇인가? 어떤 다른 PC를 한때 겁에 질려 버렸나? 동료들이 당신의 비겁함을 진짜 어떻게 생각하나? 두려움과 어떻게 싸우려 하나? 어떻게 (과잉)보상하나?
 
-enemy, or taking credit for such a blow
+**아이템:** 영감이나 힘의 상징
 
-When you act on a Belief (embodying it, rejecting it, etc.),
-you may erase it to clear a condition or gain ADV to a roll.
+**특성: 여린 심장**(Faint of Heart) — **겁먹음** 상태인 동안 다음 이점과 약점을 얻습니다:
 
-Example Terrible Truth: Something terrible could have
-been stopped if you weren’t so worthless.
+- +민첩으로 굴릴 때 경험치 1 표시
+- 위험을 피하거나 숨는 판정에 유리
+- 조건을 표시할 때마다 조건 하나를 추가로 표시
+- 적에게 마지막 일격을 가하거나 그런 공적을 차지해 **겁먹음** 을 지울 수 있음
 
-Example Terrible Truth: You’ve been seriously misled,
-misguided, or actively deceived.
+**끔찍한 진실 예시:** 당신이 그렇게 쓸모없지만 않았다면 끔찍한 일을 막을 수 있었습니다.
 
-Brooding Loner
-You keep everyone else at a distance. After all, you’re a solitary
-warrior, a misunderstood renegade, a dark anti-hero. Someone
-like that doesn’t need friends, right?
+## 문화 재발견(Cultural Rediscovery)
 
-Questions: How do you signal to everyone that you don’t
-care what they think? What other PC wants to pierce your
-walls? Were you always like this, or did something change
-you? Who last got close to you? How did they get hurt?
+_침략이나 재난으로 오래전 사라진 민족의 유산을 찾고 있습니다. 되찾으려면 무엇을 치러야 할까요?_
 
-Item: A mysterious cloak, cape, or mask
+**질문:** 누가 또는 무엇이 문화를 빼앗았나? 어떤 다른 PC가 당신의 문화와 연결되어 있나(좋든 나쁘든)? 문화의 어떤 도전적인 부분과 마주해야 할 수 있나?
 
-Feature: Isolationist - When you reach 3 Depth with a
-companion, you don’t Forge a Bond with them, but instead
-stay at 3 Depth (they can still Forge a Bond with you). When
-you would gain further Depth beyond 3 with a companion,
-instead you mark 1 XP.
+**아이템:** 민족의 중요한 유물
 
-You may spend 1 Depth to reduce damage received by 2 or
-ignore marking a condition.
+**특성: 박물관 밖으로**(Not in a Museum) — 왜곡된 표현이나 도난당한 문화 유물을 마주치면 조건 하나를 표시합니다.
 
-When alone, you may Aid yourself as if you were an ally.
+문화와 관련해 **비밀을 파헤치다** 를 하거나, 문화의 무언가에 닿으려 **몰래 지나가기** 를 할 때 유리로 굴립니다.
 
-When someone Comforts or Supports you, instead of asking
-“Did they open up in a moment of vulnerability or intimacy?”
-ask “Did they maintain their aloof persona?”.
+문화 유물을 찾아 연구하면, 그것으로 문화에 관해 무엇을 배웠는지 팀에게 말하고 경험치 1을 표시합니다.
 
-Example Terrible Truth: You should have kept a companion
-at a greater distance, and now they’re in danger.
+_문화적 요소 예시: 조상 섬김, 보호 의식이나 부적, 소중한 음식이나 조리법, 축제, 상징적 무기나 도구, 의복이나 장신구, 예술이나 음악, 종교·이념적 교리, 역사적 인물, 핵심 이야기_
 
-Cultural Rediscovery
-You seek your people’s heritage, which was lost long ago in
-invasion or catastrophe. What will it cost to reclaim it?
+**끔찍한 진실 예시:** 적이 당신의 문화를 자기 목적으로 왜곡하거나 파괴하려 합니다.
 
-Questions: Who or what took your culture away? Which
-other PC has ties to your culture, for good or for ill? What
-challenging parts of your culture might you have to face?
+## 어둠의 속삭임(Dark Whisperer)
 
-Item: An important relic of your people
+_아무도 들을 수 없는 누군가가 당신에게 말합니다. 알 수 없는 진실과 분간할 수 없는 거짓을 속삭이는 그것은 무엇인가요?_
 
-Feature: Not in a Museum - When you encounter a twisted
-representation or stolen relic of your culture, mark a
-condition.
+**질문:** 어둠의 속삭임이 무엇을 원하는 것 같으며, 어떻게 소통하나? 어떤 다른 PC에 대해 경고했나? 언제 처음 나타났나? 아무도 도와줄 수 없을 때 어떻게 도와줬나?
 
-When you Unearth Secrets related to your culture, or when
-you Sneak Past to reach something from your culture, roll
-with ADV.
+**아이템:** 어둠의 속삭임이 가치 있게 여기거나 묶여 있는 무언가
 
-When you find and study a relic of your culture, tell the
-group what you learned of your culture from it and mark
-1 XP.
+**특성: 어깨 위의 악마**(Shoulder Devil) — 어둠의 속삭임은 GM이 조종하는 NPC입니다. 기본적으로 그것에게 **속뜻 읽기** 를 할 수 없고, 다른 누구도 직접 감지할 수 없습니다.
 
-Example cultural aspects: service to the dead, protective charm or
-ritual, valued meal or recipe, holiday celebration, iconic weapon
-or tool, clothing or jewelry, piece of art or music, religious or
-ideological tenet, historical figure, essential story
+어둠의 속삭임에게 질문을 할 때(예: 다음에 뭘 해야 하는지, 무언가가 어디 숨겨져 있는지, 누가 무엇을 원하는지) 대개 진실을 말합니다. 그 답에 따라 행동하면 다음 판정에 유리를 얻지만 속삭임(Whisper) 1을 얻습니다(최대 5).
 
-Example Terrible Truth: An enemy seeks to twist or destroy
-your culture for their own purposes.
+어둠의 속삭임의 말을 거부하려 할 때, +속삭임으로 굴린 뒤 속삭임을 0으로 되돌립니다. *6-이면 잠재웁니다. *7–9이면 힘겹습니다, 조건 둘을 표시합니다. \*10+이면 깨닫지 못한 채 그것에 복종합니다; GM이 마스터 액션을 합니다.
 
-Questions: What does your Dark Whisperer seem to want,
-and how do they communicate with you? Which other PC
-did they warn you about? When did they first appear? How
-did they help you when no one else could?
+**끔찍한 진실 예시:** 어둠의 속삭임과 헤어지는 것은 생각보다 훨씬 위험합니다.
 
-Item: Something your dark whisperer values or is bound to
+## 환멸(Disillusioned)
 
-Feature: Shoulder Devil - Your Dark Whisperer is an NPC
-controlled by the GM. By default you can’t Sense their Motive
-and no one else can directly sense them.
+_한때 대의나 이상을 위해 싸운 유명한 투사였습니다. 이제 싸움은 지고 대의는 버렸습니다. 인생의 그 장은 흙 속에 묻어 두는 게 최선이겠죠…맞죠?_
 
-When you ask your Dark Whisperer a question (e.g. what to
-do next, where something is hidden, what someone desires)
-they will tell you, usually the truth. If you act on the answer,
-gain ADV to your next roll, but gain 1 Whisper (max 5).
+**질문:** 한때 무엇의 투사였나? 어떤 다른 PC가 옛날의 당신을 알고 있나? 어떤 패배나 깨달음이 싸움의 무의미함을 보여줬나? 아직 싸움을 이어가는 옛 동지가 있나? 그 시절에서 가장 그리운 것은?
 
-When you try to reject your Dark Whisperer’s words,
-roll+Whisper, then reset Whisper to 0. *On a 6- you shut
-them down. *On a 7-9 it’s difficult, mark two conditions. \*On
-a 10+ you obey them, perhaps without realizing it; the GM
-makes a Move.
+**아이템:** 지금은 금 가거나 빛바랜 옛 명예의 상징
 
-Example Terrible Truth: Parting ways with your Dark
-Whisperer is more dangerous than you ever knew.
+**특성: 과거의 유령**(Ghosts of the Past) — 옛 자신의 발자취를 따를 때(예: 옛 적과 싸우기, 옛 이상을 좇기, 옛 목적을 진전시키기 등), 원하는 만큼 조건을 표시할 수 있습니다; 표시한 조건마다 아래 하나를 장면 끝까지 고릅니다. 이 장면이 끝날 때까지 **한계에 다다른다** 에 도달할 수 없습니다.
 
-Disillusioned
-You were once a renowned champion who fought for a purpose
-or ideal. Now, your fight is lost and your cause abandoned. That
-chapter of your life is best left buried in the dirt…right?
+- 현재 및 최대 HP를 4 증가
+- **위험 돌파** 12+이면 선택을 0개
+- 능력치 하나를 1 높은 것으로 취급(최대 3)
+- **피투성이** 의 불이익 무시
 
-Questions: What were you once the champion of? What
-other PC heard of you from back in the day? What defeat
-or revelation showed you how meaningless your fight was?
-What old allies might still carry on the fight? What part of
-that chapter do you miss the most?
+**끔찍한 진실 예시:** 지금 상황은 완전히 무의미합니다; 이기든 지든 상황은 악화됩니다.
 
-Item: A symbol of old honor, now cracked or tarnished
+## 커지는 고통(Growing Affliction)
 
-Feature: Ghosts of the Past - When you follow your old
-self’s footsteps (e.g. fighting their foes, following their ideal,
-advancing their purpose, etc.), you may mark as many
-conditions as you like; for each marked choose one below
-until the end of the scene. You can’t Reach Your Limit until
-this scene ends.
+_끔찍한 병, 저주, 또는 질환이 악화되고 있습니다. 합리적인 치료는 모두 실패했습니다. 얼마나 버틸 수 있을까요?_
 
-◆ Increase your current
-and maximum HP by 4
+**질문:** 고통이 이미 당신을 어떻게 바꿨나? 다른 PC가 그것에 대해 뭘 들었나? 어떻게 걸렸나? 치료를 위해 무엇을 희생하겠나?
 
-◆ When you roll a 12+ to
-Defy Danger, choose 0
+**아이템:** 고통을 관리하거나 숨기는 도구
 
-◆ Treat one of your stats as
-if it was 1 higher (max 3)
+**특성: 예정된 파멸**(Fated Doom) — 고통의 진행은 파멸(Doom)로 측정되며 0에서 시작합니다. 파멸이 5가 되면 그것을 얻게 한 원인을 해소한 뒤 죽습니다. 이 갈등을 해소하지 않는 한 파멸을 줄일 수 없습니다.
 
-◆ Ignore penalties from
+판정 후, 파멸 1을 얻어 6-을 7–9로, 또는 7–9를 10+으로 바꿀 수 있습니다.
 
-Bloodied
+**세션을 마친다** 를 할 때, 고통에 대해 더 알게 되었거나 치료를 향해 유의미한 진전이 있었다면 경험치 1을 얻고 조건 하나를 지웁니다. 그렇지 않으면 파멸 1을 얻습니다.
 
-Example Terrible Truth: The current situations is entirely
-meaningless; things will get worse whether you win or lose.
+**황천길** 에 오를 때 다음 선택지도 고를 수 있습니다:
 
-39
+- **파멸 발동.** 파멸 1을 얻은 뒤, 고통(또는 남들이 그것을 보는 시선)을 이용해 즉각적 위험을 빠져나갑니다. 당신의 고통이 당신을 죽이는 것이 되며, 다른 것은 아닙니다.
 
-Growing Affliction
-A terrible disease, curse, or ailment upon you is getting worse.
-All reasonable cures have failed. How long do you have?
+**끔찍한 진실 예시:** 유일한 치료법이 끔찍한 대가를 요구합니다.
 
-Indebted
-You owe some very dangerous people who took something from
-you as collateral. How far will you go to get it back?
+## 사냥감(Hunted)
 
-Ominous Dreams
-You’ve begun experiencing confusing visions in your sleep of an
-important event or danger. Can you understand them in time?
+_강력한 개인이나 조직이 어디를 가든 적극적으로 당신을 추적합니다. 도망치려면 무엇을 치러야 할까요?_
 
-Questions: How has your affliction already changed you?
-What else has another PC heard about it? How did you come
-to be afflicted? What would you sacrifice for the cure?
+**질문:** 누가 사냥을 이끄나? 어떤 다른 PC가 그들과 인연이 있나? 추적에 어떤 수단을 쓰나? 왜 그렇게 집요하게 쫓나? 한때 거의 잡힐 뻔했을 때 어땠나? 도망치기 위해 무엇을 희생했나?
 
-Item: An implement to manage or conceal your affliction
+**아이템:** 추격자에게서 훔쳤거나 받은 물건
 
-Feature: Fated Doom - The advancement of your affliction is
-measured by your Doom, which starts at 0. When you have
-5 Doom, after resolving what caused you to gain it, you die.
-You can’t lose Doom unless you resolve this Conflict.
+**특성: 수배**(Wanted) — 열기(Heat)는 추격 세력의 임박함과 힘을 나타냅니다. 0에서 시작합니다.
 
-After you roll, you may gain 1 Doom to change a 6- to a 7-9,
-or a 7-9 to a 10+.
+조건을 표시해야 할 때, 대신 열기 1을 얻을 수 있습니다. 당신이 흔적을 남겼다는 걸 어떻게 표현하나요?
 
-When you End the Session, if you learned more about your
-affliction, or made significant progress toward a cure, gain 1
-XP and clear a condition. Otherwise, gain 1 Doom.
+열기 2 이상인 채로 **야영** 하거나, 열기 5에 도달하면, +열기로 굴립니다. *10+이면 추격자가 대거 와서 지금 여기서 당신을 잡으려 합니다; **파수** 를 서는 이는 불리로 합니다. *7–9이면 추격자가 도착하지만 들키기 전에 행동할 기회가 있습니다. \*6-이면 추격자가 불안할 정도로 가까이 왔지만 빠져나갑니다. 이 대결이 끝나면 열기를 0으로 되돌립니다.
 
-When you Face Death, you may also choose this option:
+**끔찍한 진실 예시:** 추격자가 다음 만남이 자기 뜻대로 되도록 극단적 조치를 취합니다.
 
-◆ Invoke Doom. Gain 1 Doom, then utilize your affliction
+## 빚쟁이(Indebted)
 
-(or how others view it) to escape immediate danger. Your
-affliction will be what kills you, and nothing else.
+_매우 위험한 자들에게 빚을 졌고 그들이 담보를 잡아 갔습니다. 되찾으려면 얼마나 멀리 갈 건가요?_
 
-Example Terrible Truth: The only cure exacts a vile cost.
+**질문:** 누구에게 빚졌나? 어떤 다른 PC가 그들과 인연이 있나? 그들이 왜 위험한가? 무엇을 담보로 가져갔나? 그때는 왜 빌리는 게 좋은 생각 같았나?
 
-Hunted
-A powerful individual or organization is actively hunting you
-down, no matter where you go. What will it cost to escape?
+**아이템:** 담보의 증거
 
-Questions: Who leads the hunt for you? What other PC has a
-history with them? What tools do they use to track you? Why
-do they pursue you so doggedly? How did they once almost
-catch you? What have you sacrificed to escape them?
+**특성: 징수 시간**(Time to Collect) — 새 능력치 빚(Debt)이 생기며, 1에서 시작하고 범위는 0~5입니다. 재물을 쓸 상황이 오면 대신 같은 양만큼 빚을 올릴 수 있습니다. **세션을 마친다** 를 할 때 빚이 1 올라갑니다.
 
-Item: A token from your pursuer, stolen or given
+**휴식을 즐긴다** 도중, GM이 채권자가 접근하는 모습을 묘사하며 +빚으로 굴리게 합니다. *6-이면 빚을 으스스하게 상기시키고 떠납니다. *7+이면 은혜나 물건을 요구합니다; 응하면 빚을 0으로 되돌리고, 거부하면 조건 하나를 표시합니다. *10+이면 요구가 특히 비싸며, 거부하면 HP도 1로 줄어듭니다. *12+이면 요구가 동료를 위험에 빠뜨리며, 거부하면 HP가 0으로 줄어듭니다.
 
-Feature: Wanted - Heat represents the imminence and
-power of the forces pursuing you. It starts at 0.
+**끔찍한 진실 예시:** 처음부터 담보를 돌려줄 생각이 없었고, 자기 목적에 쓰고 있습니다.
 
-When you would mark a condition, you may instead gain 1
-Heat. How you leave evidence of your presence behind?
+## 다수의 짐(Needs of the Many)
 
-When you Make Camp with 2 or more Heat, or reach 5
-Heat, roll+Heat. On a 10+ your pursuer arrives in force to
-capture you here and now; anyone Keeping Watch does
-so with DIS. On a 7-9 your pursuer arrives, but you have a
-chance to act before they spot you. On a 6- your pursuer gets
-distressingly close to finding you, but you slip away. After
-this confrontation resolves, reset Heat to 0.
+_끈끈한 공동체가 당신을 지도자나 구세주로 보며 모든 행동에 큰 무게를 둡니다. 왜 하필 당신이어야 하나요?_
 
-Example Terrible Truth: Your pursuer has taken drastic
-measures to ensure your next encounter goes their way.
+**질문:** 공동체가 당신에게 기대하는 사명은? 어떤 다른 PC가 사명을 돕거나 위태롭게 할 수 있나? 사명 때문에 잃은 관계는? 공동체를 저버린 적이 있나? 사명에 실패하면 무슨 일이 벌어지나?
 
-40
+**아이템:** 공동체가 준 사명의 상징
 
-Questions: Who do you owe? What other PC has a history
-with them? What makes them so dangerous? Who or what
-did they take as collateral? Why did oweing them seem like a
-good idea at the time?
+**특성: 모범**(Paragon) — 공동체의 당신에 대한 믿음은 추가 능력치 신뢰(Trust)로 나타나며 1에서 시작합니다.
 
-Item: Proof of their collateral
+공동체 구성원을 상대로 액션을 하거나 사명을 직접 수행할 때, 다른 능력치 대신 +신뢰로 굴릴 수 있지만 9-이면 신뢰 1을 잃습니다(최소 -2).
 
-Feature: Time to Collect - You have a new stat, Debt, which
-starts at 1 and ranges from 0 to 5. When you would spend
-Treasure, you may instead increase Debt by the same
-amount. When you End the Session, increase Debt by 1.
+**세션을 마친다** 를 할 때, "사명을 진전시키거나 이뤘나?"도 묻습니다. 예이면 신뢰를 1 올리고(최대 3) 조건 하나를 지웁니다. 아니면 조건 하나를 표시하고 경험치 1을 얻습니다(**한계에 다다른다** 에 이르면 다음 세션 시작 시 발동).
 
-When you Enjoy Downtime, anytime during it the GM
-will ask you to roll+Debt as they describe your collectors
-approaching. *On a 6- they leave you with an ominous
-reminder of your dues. *On a 7+ they demand a favor or
-item; oblige them and reset Debt to 0, or else refuse them
-and mark a condition. *On a 10+ their demand is especially
-costly, and if you refuse them you also reduce your HP to 1.
-*On a 12+ their demand endangers a companion, but if you
-refuse them you reduce your HP to 0.
+**끔찍한 진실 예시:** 비극이 공동체에 닥칠 것이거나 이미 닥쳤으며, 모두 당신 탓입니다.
 
-Example Terrible Truth: They never planned to return your
-collateral, and are using it for their own ends.
+## 불길한 꿈(Ominous Dreams)
 
-Needs of the Many
-A tight-knit community sees you as a leader or savior, and puts
-great weight on your every action. Why does it have to be you?
+_잠들면 중요한 사건이나 위험에 관한 혼란스러운 환시를 겪기 시작했습니다. 제때 이해할 수 있을까요?_
 
-Questions: What purpose does your community expect from
-you? What other PC might enable or endanger your purpose?
-What relationship was lost because of your purpose? Have
-you ever failed your community before? What happens if
-you fail to fulfill your purpose?
+**질문:** 환시에서 꾸준히 선명한 한 가지는? 어떤 다른 PC가 환시에 자주 등장하나? 환시는 어떤 모습인가? 환시를 겪는 걸 남들이 알 수 있나?
 
-Item: A symbol of your purpose, given by your community
+**아이템:** 환시가 중요하다는 증거
 
-Feature: Paragon - Your community’s faith in you is
-represented by an additional stat, Trust, which starts at 1.
+**특성: 참혹한 환시**(Harrowing Visions) — **야영** 후, 보정 없이 굴립니다(조건 하나를 표시하면 유리). GM이 아래 목록에서 선택한 질문에 답합니다. 질문자는 X를 적절한 인물, 장소, 사물, 상황으로 바꿀 수 있습니다. *10+이면 두 개를 고릅니다. *7–9이면 당신과 GM이 각각 하나를 고릅니다. \*6-이면 조건 하나를 표시해 직접 하나를 고르거나, GM이 하나를 고릅니다.
 
-When rolling a move against a member of your community,
-or in direct pursuit of fulfilling your purpose, you may
-roll+Trust instead of another stat, but on a 9- lose 1 Trust
-(min -2).
+- X와 관련된 자는 누구인가?
+- X를 위협하는 것은?
+- X는 어디서 찾을 수 있나?
+- X의 지금 상태는?
+- X는 무엇이 가능한가?
+- X는 진짜 어떻게 느끼나?
 
-When you End the Session, also ask “Did I progress or fulfill
-my purpose?” If yes, increase Trust by 1 (max 3) and clear
-a condition. If no, mark a condition and 1 XP (if you Reach
-Your Limit, trigger it at the start of the next session).
+**끔찍한 진실 예시:** 끔찍한 운명의 트라우마적 환시가 지금 여기에, 깨어 있는데도, 찾아오며 겪는 동안 무력합니다.
 
-Example Terrible Truth: A tragedy will befall your
-community, or has already befallen it, and it’s all your fault.
+## 천덕꾸러기(Pariah)
 
-Questions: What one aspect of your visions is consistently
-clear? What other PC often appears within them? What does
-a vision look like? Can others tell when you experience one?
+_당신의 무언가가 사회에서 혐오받으며, 진짜 모습을 아는 대부분이 당신을 거부합니다. 그들의 시선이 바뀔 수 있을까요?_
 
-Item: Proof of the visions’ importance
+**질문:** 혐오받는 면은 무엇인가? 어떤 다른 PC가 가장 개의치 않나? 타인 사이에서 그 면을 숨기나? 이 혐오 때문에 당한 최악의 일은?
 
-Feature: Harrowing Visions - After you Make Camp,
-roll+nothing, with ADV if you mark a condition, then the
-GM will answer the questions chosen from the list below.
-The chooser may replace X with any feasible person, place,
-object, or situation. *On a 10+ you choose two. *On a 7-9
-you and the GM each choose one. \*On a 6- you may mark a
-condition to choose one yourself, or let the GM choose one.
-◆ Who is involved with X?
-◆ What endangers X?
-◆ Where might X be found?
+**아이템:** 당신을 미워한 적 없는 옛 친구의 선물
 
-◆ How is X now?
-◆ What is X capable of?
-◆ How does X really feel?
+**특성: 공포의 존재**(Terrifying) — 당신을 두려워하는 NPC에게 **위험 돌파**, **속뜻 읽기**, **선택에 영향 주기** 를 유리로 합니다.
 
-Example Terrible Truth: A traumatic vision of a horrible
-fate comes upon you here and now, even while awake, and
-you’re helpless while experiencing it.
+NPC에게 혐오받는 면을 처음 드러내면, 그들은 잠시 놀라고, 이제 당신을 두려워합니다.
 
-Pariah
-Something about you is reviled by society, and most who learn
-who you really are reject you. Can their views ever change?
+NPC는 아래 하나를 수행해 두려움을 제거할 수 있습니다:
 
-Questions: What aspect about you is reviled? Which other
-PC cares the least about it? Do you hide your reviled aspect
-when among others? What is the worst thing you’ve suffered
-because of this hatred?
+- **맞서기** — 새로운 수단(무기, 함정, 군중 등)으로 당신이나 아군을 공격하거나, 당신의 소유물을 파괴
+- **도망** — 소중한 사람을 버리거나, 위치나 정체를 숨기거나, 새 곳으로 이동
+- **움찔** — 당신과 사이에 장애물을 만들거나, 당신에게 기회를 줌
 
-Item: A gift from an old friend who never hated you
+**끔찍한 진실 예시:** 적이 대중을 선동해 당신을 쫓게 만듭니다.
 
-Feature: Terrifying - You have ADV to Defy Danger, Sense
-Motive, or Influence Choice against NPCs who Fear you.
+## 명성의 대가(Price of Fame)
 
-When you first reveal your reviled aspect to an NPC, they’re
-surprised for a moment, and they also now Fear you.
+_당신의 무용담이 널리 퍼졌는데, 약간 과장된 것도, 뻔뻔하게 거짓인 것도 있습니다. 전설에 부응할 수 있을까요?_
 
-NPCs can remove their Fear of you by doing one below:
+**질문:** 이야기들이 보통 당신을 어떻게 그리나? 어떤 다른 PC가 자주 조연으로 등장하나? 어떻게 퍼지기 시작했나? 들은 것 중 가장 황당한 이야기는? 실물보다 크다는 걸 누가 아나?
 
-◆ Fight - lashing out against you or your allies with a new
-tool (e.g. weapon, trap, crowd), or destroying something
-that belongs to you.
+**아이템:** 대중에게 숨기는 비밀의 증거
 
-◆ Flight - abandoning someone important to them, hiding
-their location or identity, or moving somewhere new.
+**특성: (악)명**(In)famous) — 추가 능력치 명성(Fame)이 생기며, 1에서 시작하고 범위는 3~-3입니다. 각 세션 시작 시 새 이야기가 팀에게 묘사됩니다(명성 ≤ 1이면 당신이, 명성 > 2이면 GM이). **세션을 마친다** 를 할 때, 이야기에 부응했다면 명성 1을 얻습니다. 아니면 명성 1을 잃고, 명성이 -3이면 조건 하나를 표시합니다. 그다음 그 이야기가 사실이었는지 말합니다.
 
-◆ Flinch - creating an obstacle between you and them, or
+대중과 교류하거나 이야기에 부응할 때, 조건 하나를 표시해 다른 능력치 대신 +명성으로 굴릴 수 있습니다. \*6-이면 약자로 비치고 명성 1을 얻습니다.
 
-giving you an opportunity
+**끔찍한 진실 예시:** 당신에 관한 유명한 이야기가 거짓일 뿐 아니라 적극적으로 해롭습니다.
 
-Example Terrible Truth: An enemy has riled up the
-populace against you, and now they’re hunting you down.
+## 개심한 악당(Reformed Villain)
 
-Price of Fame
-Stories of your exploits have spread far and wide, some mildly
-overstated, others brazenly false. Can you live up to the legends?
+_악이라는 단어가 대부분에게는 맞지 않지만, 당신이 저지른 끔찍한 일을 보면 당신에게는 어울렸습니다. 속죄할 수 있을까요?_
 
-Tangled Hearts
-You and an NPC are deeply in love with each other, but a
-relationship is forbidden or impossible. Must you remain apart?
+**질문:** 무엇이 악에서 돌아서게 했나? 어떤 다른 PC가 한때 당신의 적이었나? 누가 당신이 변했거나 변할 수 있다고 믿지 않나? 무엇에 가장 죄책감을 느끼나?
 
-Traumatized
-Your past was dark, violent, and still haunts you. Were you a a
-victim back then, or a perpetrator? Which are you now?
+**아이템:** 옛 자아의 소름 끼치는 잔재
 
-Questions: How do the stories often depict you? What other
-PC is often featured as a side character? How did they start
-spreading? What’s the wildest one you’ve heard? Who else
-knows that they’re larger than life?
+**특성: 속죄**(Penance) — 피해를 입을 때, 받는 피해를 1 늘려 고통(Pain) 1을 얻을 수 있습니다. 조건을 표시할 때, 추가 조건 하나를 더 표시해 고통 1을 얻을 수 있습니다. 고통은 최대 5입니다. 괄호 안의 고통을 써서 아래 효과를 얻습니다:
 
-Questions: Who is your beloved? What other PC has seen
-them more recently than you? What do you adore most of
-your beloved? What don’t you agree with your beloved on?
-What obstacles stand the way of you truly being together?
+- (3) 다른 사람 대신 타격이나 위험을 감수
+- (2) +1 피해
+- (2) "악한"(본인 판단) 대상에게 **선택에 영향 주기** 또는 **속뜻 읽기** 에 유리
+- (2) **피투성이** 의 불이익을 한 판정 동안 무시하거나, 동료도 같이
+- (3) 동료의 HP를 3 회복(자기 자신은 불가)
 
-Questions: What do you panic at the sight of? What other
-PC was affected by your dark past? How do you calm down
-or cope with the stress? What mystery from your past was
-never answered? Who’s still around from back then?
+**끔찍한 진실 예시:** 적이 당신의 옛 악행 위에 세우거나 영감 받아 자기 것으로 만듭니다.
 
-Item: Evidence of a secret you keep from the public
+## 얽힌 마음(Tangled Hearts)
 
-Item: A gift from your beloved
+_당신과 NPC가 서로 깊이 사랑하지만 관계가 금지되거나 불가능합니다. 반드시 떨어져 있어야만 하나요?_
 
-Item: A reminder of lighter days
+**질문:** 연인은 누구인가? 어떤 다른 PC가 최근에 연인을 봤나? 연인의 어떤 면을 가장 사랑하나? 연인과 의견이 다른 점은? 진정으로 함께하는 데 어떤 장애가 있나?
 
-Feature: (In)famous - You have an additional stat, Fame,
-which starts at 1 and ranges from 3 to -3. At the start of each
-session, a new story is described to the table by you (if Fame
-≤ 1) or the GM (if Fame > 2). When you End the Session, if
-you lived up to the story, gain 1 Fame. Otherwise, lose 1
-Fame and, if your Fame is -3, mark a condition. Then say if
-that story was true.
+**아이템:** 연인이 준 선물
 
-When you interact with the public or live up to the story, you
-may mark a condition to roll+Fame instead of another stat.
-\*On a 6- you’re seen as an underdog and gain 1 Fame.
+**특성: 다정한 순간**(Tender Moments) — **휴식을 즐긴다** 를 할 때, 연인이 위험에 처해 있다면 조건 둘을 표시합니다. 그렇지 않으면 아래도 고를 수 있습니다:
 
-Example Terrible Truth: A classic story about you isn’t just
-untrue, but actively harmful or worse.
+- 재물 1을 써서 연인과 편지를 교환합니다. 위치, 안녕, 적에 관해 세 가지를 물으면 진실로 답합니다.
+- 재물 2를 써서 연인을 제한적으로 만납니다(공공장소나 짧은 시간). 위 선택지의 이익도 얻고, 조건을 모두 지웁니다.
+- 재물 3을 써서 완벽한 밤을 함께 보냅니다(오래가지 않더라도). 위 두 선택지의 이익을 모두 얻고, 조건 둘(지금 선택)의 불이익을 다음 **휴식을 즐긴다** 까지 무시합니다.
 
-Reformed Villain
-Evil isn’t a word that applies to most people, but with the awful
-things you did, it definitely applied to you. Can you ever atone?
+**끔찍한 진실 예시:** 둘 사이에 또 다른 장애물이 생깁니다; 지금까지 중 가장 큰.
 
-Questions: What made you turn from evil? Which other PC
-used to be your enemy? Who doesn’t believe that you have or
-will ever change? What are you the most guilty about?
+## 보호자(The Responsible One)
 
-Item: A haunting remnant of your old self
+_문제에 자주 빠지고 당신의 도움이 필요한 NPC 피부양자 또는 추종자와 함께 여행합니다. 정말 그렇게 무력한 건지, 아니면 다른 무언가가 있는 건지?_
 
-Feature: Penance - When you suffer damage, you may
-increase the damage taken by 1 to gain 1 Pain. When you
-mark a condition, you may mark an extra condition to gain
-1 Pain. You can’t have more than 5 Pain. You may spend the
-amount of Pain in brackets for the following effects below:
+**질문:** 왜 이 사람이 당신에게 이렇게 의존하나? 어떤 다른 PC가 그를 없애고 싶어 하나? 그들이 당신이 얼마나 많은 일을 하는지 아나? 인내심을 어떻게 시험하나? 그들을 위해 얼마나 멀리 갈 건가?
 
-◆ (3) Suffer a blow or danger instead of someone else
-◆ (2) Inflict +1 damage
-◆ (2) Gain ADV to Influence Choice or Sense Motive
+**아이템:** 그들에 관한 사랑, 의무, 또는 죄책감의 징표
 
-someone “evil” (your call)
+**특성: 보호자 역할**(Big Sibling) — 피부양자를 다른 사람으로부터 성공적으로 지키면 조건 하나를 지웁니다. 다치게 하거나 지키지 못하면 조건 하나를 표시합니다.
 
-◆ (2) Ignore the penalty from Bloodied for a roll, or have a
+**세션을 마친다** 를 할 때, 피부양자가 당신이 원한 대로 행동한 적이 더 많았다고 느끼면 경험치 1을 얻습니다.
 
-companion do the same
+피부양자가 걱정될 때, 조건 하나를 표시해 GM에게 위치, 활동, 안녕에 관한 질문 하나를 하면 진실로 답합니다(항상 완전한 맥락은 아닙니다).
 
-◆ (3) Restore 3 HP to a companion, but not yourself
+**끔찍한 진실 예시:** 피부양자가 당신에게 위험한 비밀을 숨기고 있었습니다.
 
-Example Terrible Truth: An enemy has built upon, or been
-inspired by, your old evil ways, and made them their own.
+## 트라우마(Traumatized)
 
-Feature: Tender Moments - When you Enjoy Downtime, if
-your beloved is in danger, mark two conditions. Otherwise,
-you may also also choose these options below:
+_과거가 어둡고 폭력적이며 아직도 당신을 괴롭힙니다. 그때 피해자였나요, 가해자였나요? 지금은 어느 쪽인가요?_
 
-◆ Spend 1 Treasure to exchange letters with your beloved.
-Ask them any three questions about their location, well-
-being, or enemies, and they will tell you truthfully.
+**질문:** 무엇을 보면 공황 상태에 빠지나? 어떤 다른 PC가 당신의 어둠의 과거에 영향받았나? 스트레스를 어떻게 달래거나 견디나? 과거의 어떤 미스터리가 답을 얻지 못했나? 그때의 사람 중 누가 아직 살아 있나?
 
-◆ Spend 2 Treasure to meet your beloved in a limited way,
-perhaps in public or for a short time. Gain the benefit
-from the option above, and also clear all conditions.
+**아이템:** 밝았던 시절의 기념품
 
-◆ Spend 3 Treasure to spend a perfect night together, even
-if it doesn’t last. Gain the benefits from both options
-above, and ignore penalties from two conditions of your
-choice (chosen now) until you next Enjoy Downtime.
+**특성: 건드리지 마**(Don't Provoke Me) — 폭력을 직접 예방하거나 진정시키려 **선택에 영향 주기** 를 할 때 유리로 굴립니다.
 
-Example Terrible Truth: There is another obstacle between
-you two being together; the biggest of them yet.
+세션당 처음, 상처를 입거나 예상치 못한 폭력을 목격하면 하나를 고릅니다:
 
-The Responsible One
-You travel with an NPC dependent or admirer who often gets
-into trouble and needs your aid. Are they really that helpless, or
-something more going on?
+- **경직.** 이 장면에서 다음 위험이나 기회에 아무것도 하지 않음
+- **도주.** 최대한 빨리 장면을 벗어나려 함(숨거나 달리는 등)
+- **공격.** 가능한 한 세게, 공격적으로 때림
+- **움찔.** 지금은 참고, 조건 하나를 표시하고, 나중에 폭발
 
-Questions: Why does this person depend on you so much?
-What other PC wants them gone? Do they know how much
-you do for them? How do they tax your patience? How far
-will you go for them?
+**끔찍한 진실 예시:** 과거에서 살아남거나 도망치기 위해 끔찍한 일을 저지른 적이 있습니다.
 
-Item: A token of love, obligation, or guilt relating to them
+## 보물 사냥(Treasure Hunt)
 
-Feature: Big Sibling - When you successfully protect your
-dependent from someone else, clear a condition. When you
-hurt them or fail to protect them, mark a condition.
+_전설의 숨겨진 보물을 추적하고 있습니다. 많은 사냥꾼이 찾다 포기하거나 사라졌습니다. 실재하는지도 모르는 것을 찾으러 얼마나 멀리 갈 건가요?_
 
-When you End the Session, if you feel your dependent did
-what you wanted more often than not, gain 1 XP.
+**질문:** 보물은 무엇이며 어떤 전설이 둘러싸나? 어떤 다른 PC가 보물이 진짜가 아니라고 생각하나? 보물이 왜 중요한가? 다른 누가 찾고 있나?
 
-When you worry about your dependent, you may mark
-a condition to ask the GM any one question about their
-location, activities, or wellbeing, and they will answer
-truthfully (though not always with full context).
+**아이템:** 보물로 이어지는 불완전한 단서나 실마리
 
-Feature: Don’t Provoke Me - When you Influence Choice to
-directly prevent or de-escalate violence, roll with ADV.
+**특성: 추적 중**(On The Trail) — **지식 더듬기** 나 **비밀을 파헤치다** 를 한 뒤, 아래 질문 하나에 표시하고 GM에게 물을 수 있습니다. 또는 조건 하나를 표시해 직접 답할 수 있습니다.
 
-The first time per session, when you get hurt or witness
-unexpected violence, choose one:
+- 보물이나 사냥꾼이 파괴한 장소는?
+- 보물을 지키는 비밀 결사나 영원한 파수꾼은?
+- 여기에 숨겨진 보물에 관한 메시지는?
+- 보물을 찾는 이에게 닥칠 수 있는 비극적 운명은?
+- 잘못된 손에 들어가면 보물이 얼마나 끔찍할까?
 
-◆ Freeze. Do nothing when faced with the next danger or
+네 개의 답이 나온 뒤 아래도 고를 수 있습니다:
 
-opportunity during this scene.
+- 보물은 정확히 어디서 찾을 수 있나?
 
-◆ Flee. Do your best to leave the scene as quickly as
-
-possible, such as hiding or running.
-
-◆ Fight. Hit it as hard and aggressively as you can.
-◆ Flinch. Bottle it for now, mark a condition, let it out later
-
-Example Terrible Truth: You once did something terrible to
-survive or escape from your past.
-
-Treasure Hunt
-You’re on the trail of a mythical hidden treasure. Many would-
-be-hunters searched for it, only to give up or vanish. How far will
-you go to find it, if it’s even real?
-
-Questions: What is the treasure, and what myth surrounds
-it? Which other PC doesn’t think it’s real? What makes this
-treasure so important to you? Who else is seeking it?
-
-Item: An incomplete clue or lead to the treasure
-
-Feature: On The Trail - After you Recall Lore or Unearth
-Secrets, you can also mark one question below, then ask it to
-the GM, or mark a condition to answer it yourself.
-
-◆ What place was destroyed by the treasure or its hunters?
-◆ What secret order or eternal sentry guards the treasure?
-◆ What message about the treasure was hidden here?
-◆ What tragic fate may befall those who seek the treasure?
-◆ How terrible would the treasure be in the wrong hands?
-
-After four have been answered, you may choose below:
-
-◆ Where exactly can I find the treasure?
-
-Example Terrible Truth: Your dependent has been hiding a
-dangerous secret from you.
-
-Example Terrible Truth: The treasure is far more dangerous
-than you thought, and it’s already being used.
-
-41
+**끔찍한 진실 예시:** 보물은 생각보다 훨씬 위험하며, 이미 누군가가 쓰고 있습니다.

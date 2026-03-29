@@ -1,359 +1,267 @@
+---
+title: "던전월드 2 · 도적"
+description: "교활과 재치로 그림자와 지붕 위를 누비는 도적 직업."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: the-rogue | source lines 5353-5712 | approx book page ? -->
 
-The Rogue
+당신은 그림자와 지붕 사이를 춤추듯 나아가며, 칼만큼이나 교활과 재치를 다룹니다. 부자들은 잠근 저택 안에서 당신 이름을 두려워하게 하세요. 서툰 부하들이 헛되이 당신을 찾게 하세요. 당신은 이미 왔다 가고, 원하는 것을 가져가 다음 표적을 향했으니까요. 이 세상에는 손만 뻗으면 가질 재물이 넘쳐 있습니다.
 
-You dance among shadows and rooftops, wielding guile and wit as
-deftly as your knife. Let the wealthy fear your name within their locked
-manors. Let their bumbling minions blindly search for you. You’ve
-already come, gone, taken what you wanted, and moved on to the next
-mark. After all, there’s so much wealth in this world just waiting to
-be claimed.
+## 기원
 
-Origins Consider first, then answer in introductions and play
+먼저 생각한 뒤, 소개와 플레이에서 답합니다.
 
-I am a
-E.g. halfling, catfolk, changeling, oozeling. How does this affect your
-biology, behavior, and communication? How does it affect your skills?
+나는  
+예: 하플링, 고양이족, 변이체, 점액족. 생물학·행동·소통에 어떤 영향이 있나? 기술에는 무엇이 다른가?
 
-I was raised in a life of
-E.g. responsible nobility, obsessive devotion, indulgent vice. What
-authority did you rebel against? What contacts do you still maintain?
+이렇게 자랐다  
+예: 책임진 귀족 생활, 집착적인 헌신, 탐닉하는 사치. 어떤 권위에 반기를 들었나? 아직 이어지는 연줄은?
 
-I joined the underworld when
-E.g. I stole a prized treasure, a crime lord recruited me, I was framed
-for an atrocity. Were you ever caught? What line didn’t you cross?
+언더월드에 발을 들인 때는  
+예: 보물을 훔쳤을 때, 범죄 두목이 스카우트했을 때, 끔찍한 누명을 썼을 때. 한번 잡힌 적이 있나? 넘지 않은 선은 무엇인가?
 
-Starting Move:
-Particular set of skills
-When you Sneak Past or Defy Danger while employing a cunning
-skill, on a 7+ make one fewer choice.
+모험을 시작한 계기는  
+예: 가장 가까운 친구가 실종됐다, 누군가 선한 일을 하라고 영감을 줬다, 거대한 음모를 알아냈다. 옛 삶을 떠나게 누가 도왔나?
 
-You start with the following cunning skills:
+## 시작 액션: 남다른 솜씨(Particular set of skills)
 
-☐ Tricks of the Trade: pick locks, pilfer pockets, deceive
+교묘한 솜씨를 쓰며 **몰래 지나가기** 나 **위험 돌파** 를 할 때 7+이면 선택을 하나 덜 고릅니다.
 
-When you gain a Rogue Path, you also gain the associated
-cunning skills:
+처음 가진 교묘한 솜씨는 아래와 같습니다.
 
-☐ (Assassin) Acrobatics: climb things, do flips, fit in tight spaces
+- [ ] 장인의 요령: 자물쇠 따기, 소매치기, 속이기
 
-Name
+**도적의 길** 을 얻을 때 연결된 솜씨도 얻습니다.
 
-& Pronouns
+- [ ] (암살자) 곡예: 오르기, 공중제비, 좁은 틈 끼기
 
-Dominic, Kiera, Lila, Scars, Riley, Raven, Marlow, a sly name
+- [ ] (무뢰한) 절도술: 속임수, 시선 돌리기, 덫 찾기·해제
+
+- [ ] (흑막) 첩보술: 협박, 변장, 말 암호화
+
+**다른 직업에서 새 길을 얻으면** GM과 함께 어울리는 교묘한 솜씨를 아래에 적습니다.
+
+---
+
+이름  
+호칭
+
+예: 도미닉, 키에라, 라일라, 흉터, 라일리, 레이븐, 말로, 교활한 별명
 
 HP
 
-STR
+근력(STR) · 민첩(DEX) · 지능(INT) · 지혜(WIS) · 매력(CHA)
 
-DEX
+최대 6
 
-INT
+피투성이 · 지침 · 겁먹음 · 분노 · 산만 · 불안
 
-WIS
+경험치(XP):
 
-CHA
+레벨:
 
-Max 6
+경험치 칸을 다섯 번 채우면 경험 칸을 비우고, 레벨을 1 올리며 향상 하나를 얻습니다.
 
-☐ (Scoundrel) Thievery: cheat, distract, find or disarm traps
+---
 
-Bloodied
+## 장비
 
-Exhausted
+무기를 고릅니다(GM과 새 무기를 만들어도 됩니다).
 
-Frightened
+- [ ] 접이식 활(피해 2, 가까움, 멀리, 정밀, 탄약, 양손)
+- [ ] 숨긴 단검들(피해 1, 정밀, 흉포, 손, 가까움, 경량, 무한)
+- [ ] 믿을 만한 채찍(피해 1, 정밀, 근접, 가까움, 눈에 띔)
 
-Angry
+아래 두 가지를 고릅니다.
 
-Distracted
+- [ ] 모험 도구(사용 3). 쓸 만한 잡동사니를 뒤질 때 사용을 표시해 손에 넣습니다.
+- [ ] 가벼운 갑옷(사용 3, 근력이 1 미만이면 민첩에 불리). 공격으로 받은 피해 1을 무시하려 사용 하나를 씁니다.
+- [ ] 약병 띠(사용 3). 약병을 꺼낼 때 사용 하나를 쓰고 유형을 고릅니다: 산성, 눈부심, 화염, 성스러움.
+- [ ] 독 조제 도구(사용 3). 도구에서 독을 꺼내거나 만들 때 사용 1을 표시해 흔한 독 하나를 고르거나(14쪽), 사용 2를 표시해 GM과 맞춤 독을 만듭니다.
 
-Insecure
+## 외모
 
-☐ (Mastermind) Spycraft: blackmail, disguise, encrypt words
+행마다 하나(또는 다른 것).
 
-When you gain a new Path from another Class, work with the
-GM to write new cunning skills below that would suit it:
+- [ ] 어두운 망토
+- [ ] 멋진 양복
+- [ ] 잊히기 쉬운 얼굴과 차림
+- [ ] 감성적인 장신구
+- [ ] 행운의 부적
+- [ ] 표적 목록
 
-XP:
+## 시작 능력치
 
-Level:
+아래 한 줄을 고릅니다.
 
-When you mark your 5th XP, clear the Experience track, increase
-your Level by one, and gain one Advancement.
+- [ ] STR 1, DEX 2, INT 0, WIS 1, CHA -1
+- [ ] STR -1, DEX 1, INT 2, WIS 0, CHA 1
 
-Advancements
+---
 
-When you Level Up, choose one of the following:
+## 발전
 
-I began adventuring after
-E.g. my closest friend went missing, someone inspired me to do good, I
-discovered a grand conspiracy. Who helped you leave your life behind?
+레벨업할 때 아래 하나를 고릅니다.
 
-Equipment
-Choose your weapon (or create a new one with the GM):
+- [ ] 직업에서 길(Path) 하나 얻기
+- [ ] 아무 능력치 +1(최대 2)
+- [ ] 지금 갈등이 없다면 갈등 하나 얻기(해당 장)
+- [ ] 가진 길 중 하나에서 고급 액션 하나 얻기
+- [ ] 새 직업으로 바꾸기
 
-☐ Gain a Path from your Class
+레벨 5부터 또한 아래에서 고를 수 있습니다.
 
-☐ ☐ +1 to any Stat (max. 2)
+- [ ] 직업에서 길 하나 더 얻기
+- [ ] 아무 능력치 +1(최대 2)
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 마법 아이템 하나 얻기
 
-Relationships
-Fill in for each other PC based on how well you already know them
+레벨 10부터 또한 아래에서 고를 수 있습니다.
 
-Name
+- [ ] 아무 능력치 +1(최대 3)
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 유물 하나를 고른다(유물 장) 또는 GM과 새 유물을 만든다. 이후 GM이 단서를 줍니다.
 
-Details
+### 갈등을 해소할 때
 
-Name
+아래 하나를 고릅니다.
 
-Details
+- [ ] 숙련 전문가(Skilled Professional) 를 얻습니다. 조건 하나를 표시해 그 장면 동안 아무 실현 가능한 솜씨(특정 공예, 언어, 훈련, 기초 마법 등)를 골라 교묘한 솜씨처럼 취급할 수 있습니다.
+- [ ] 영웅의 순간을 해금합니다. 쓸 때 서사를 온전히 잡고, 세계나 다른 PC를 극적으로 바꾸는 마지막 업적을 묘사한 뒤, 원하는 대로 이야기에서 빠집니다(은퇴·죽음 등).
 
-Name
+---
 
-Details
+## 관계
 
-Name
+다른 PC마다 이미 아는 만큼 채웁니다.
 
-Details
+깊이(Depth)
 
-Depth
+### 관계 예시
 
-Depth
+- 한번 나와 큰 범죄를 함께 저질렀다.
+- 나를 쓰레기로 본다—나도 마찬가지다.
+- 예전 내 호의에 아직 빚진 게 있다.
+- 서로 투덕대며 챙기는 가족이다, 남은 아니다.
+- 한번 그들에게서 무언가를 훔쳤거나 더 나쁜 일을 했다.
+- 내가 해 준 일에 아직 보답받지 못했다.
 
-Depth
+---
 
-Depth
+## 암살자(Assassin)
 
-Example Relationships
-They once committed a major crime alongside me.
+### 기습(Sneak Attack)
 
-They think I’m scum—and the feeling is mutual.
+**전력 공격** 할 때 적이 산만해졌거나 모르게 했다면, 7+이면 피해는 주되 받지 않습니다.
 
-☐ Collapsible Bow (2 dmg, near, far, precise, ammo, two-handed)
+### 위험 감각(Danger Sense)
 
-∞ Gain a Conflict if you don’t currently have one (pg XX)
+덫이나 매복에 맞서 **위험 돌파** 를 할 때, 이 장면에서 처음이면 유리이고 12+이면 선택을 0개 고릅니다.
 
-☐ Hidden Knives (1 dmg, precise, vicious, hand, near, light,
-infinite)
+### 독술사(Poisoner)
 
-☐ Reliable Whip (1 dmg, precise, close, near, distinctive)
+조건 하나나 **독 조제 도구** 사용 하나를 표시해 즉석에서 손수 만든 독 약병을 만들 수 있습니다. 무엇을 하는지 말하고 아래 둘을 고릅니다. 조건을 추가로 표시할 때마다 선택을 하나씩 더 고릅니다.
 
-Choose two items below:
+- 접촉으로 전달 가능(아니면 섭취)
+- 원하는 때 정확히 발동
+- 원하는 만큼 세다
+- 들키지 않는다
 
-∞ Gain an Advanced Move from one of your Paths
+### 그림자술(Shadowcraft)
 
-◆ Change to a new Class
+**그림자에 의지해 도움을 빌릴 때** +민 판정을 합니다.
 
-From Level 5 onwards, you can also choose from the following:
+- 10+: 효과 둘을 고릅니다.
+- 7–9: 효과 하나만 고릅니다. 효과는 장면이 끝날 때까지 이어집니다.
 
-☐ Gain another Path from your Class
+- 그림자를 관통하는 칼날처럼 씁니다
+- 눈 깜짝할 사이에 그림자 사이를 옮겨 다닙니다
+- 가까운 그림자를 줄이고 키우고 모양을 바꿉니다
 
-☐ Adventuring Gear (3 uses OOO). When you rummage through
-this for a useful mundane item, mark a use and acquire it.
+6-: 그림자가 배고파하고 들썩입니다; 경험치 1, GM이 마스터 액션을 합니다.
 
-☐ +1 to any Stat (max. 2)
+### 사라지기(Vanishing Act)
 
-☐ Light Armor (3 uses OOO, DIS to DEX if STR<1). You may mark
-a use to ignore 1 damage from an attack.
+**아무도 당신에게 직접 주의를 기울이지 않는다고 확신하면**, 장면에서 완전히 사라질 수 있으며 장면이 끝날 때까지 이야기에 끼어들지 않습니다. 곤란하거나 위험에 처해 있다면, GM에게 어떻게 해야 사라질 수 있는지 물으십시오—GM이 아래 1–3가지를 말합니다.
 
-☐ Bandolier of Vials (3 uses OOO). When you withdraw a vial,
-spend a use and choose a type: Acid, Flashy, Fiery, Holy.
+- 중요한 것을 남겨 가야 함
+- 과정에서 조건을 입어야 함
+- 다시 나타날 때 골칫거리가 따라옴
+- 먼저 위험을 무릅쓰거나 속이거나 훔치거나 비슷한 일을 해야 함
 
-☐ Poisoner’s Kit (3 uses OOO). When you retrieve or create a
-poison from the kit, mark 1 use to choose a common poison
-(page 14), or mark 2 to create a custom poison with the GM.
+---
 
-For your appearance, choose one per row (or something else):
-☐ dark cloak, ☐ fashionable suit, ☐ forgettable face and attire
-☐ sentimental jewelry, ☐ lucky charm, ☐ list of targets
+## 무뢰한(Scoundrel)
 
-☐ Multiclass — Gain a new Path from a Class not being played
+### 운은 내가 만든다(I Make My Own Luck)
 
-☐ Gain a Magic Item
+**세션을 시작할 때** 행운 주사위로 d6를 굴리고 결과를 유지합니다. 플레이 중 **굴린 뒤** 주사위 하나를 행운 주사위와 바꿀 수 있습니다. 빠져 나온 주사위가 새 행운 주사위가 됩니다.
 
-From Level 10 onwards, you can also choose from the following:
+### 재빠른 손(Quick on the Draw)
 
-☐ +1 to any Stat (max. 3)
+GM이나 다른 플레이어가 **액션** 을 하려 할 때, 허락을 구한 뒤 조건을 표시해 끼어들어 그들 앞에 행동할 수 있습니다. 세션당 처음은 조건을 표시하지 않습니다.
 
-☐ Multiclass — Gain a new Path from a Class not being played
+### 이기적인 자식(Selfish Bastard)
 
-☐ Choose an Artifact (page 52) or work with the GM to create a
-new one. Then the GM will give you a lead on where to find it.
+**동료보다 자기 이익을 앞세울 때**, 동료인 것처럼 **동료 돕기** 로 자신을 돕듯 행동할 수 있고, 아무 동료와의 **깊이** 를 써서 그만큼 추가 **동료 돕기** 이익을 얻을 수 있습니다.
 
-When you resolve a Conflict, choose one below:
+### 소매 속 에이스(Ace Up Your Sleeve)
 
-☐ Gain Skilled Professional: You may mark a condition to choose
-any feasible skill (e.g. specific craft, language, training, basic
-magic, etc.) and treat it as a cunning skill for the scene.
+**도박에서 속일 때** +민 판정을 합니다.
 
-☐ Unlock your Moment of Heroism. When you use it, take total
-control of the narrative, describe one last feat you accomplish
-that dramatically changes the world or other PCs, then exit the
-narrative however you wish (eg. retirement, death, etc.)
+- 10+: 게임 결과를 당신이 정합니다.
+- 7–9: 여전히 결과를 정하지만 아래 하나를 고릅니다.
 
-31
+- 누군가 공정하든 아니든 상금을 뺏으려 함
+- 누군가 지금부터 당신을 유심히 봄
+- 누군가 속였다고 비난함(뻔뻔하기도!)
 
-We’re family who bicker and care for each other like no one else.
+6-: 경험치 1, GM이 마스터 액션을 합니다.
 
-I once stole something from them, or worse.
+### 뒷세계 인맥(Underworld Connections)
 
-They still owe me for what I once did for them.
+**뒷세계에 필요한 것(물건, 정보, 장소·인물 접근 등)을 찾는다고 소문을 낼 때** +매 판정을 합니다. 결과와 관계없이 누군가 단서를 가져옵니다.
 
-Starting Stats Choose one below
-☐ STR 1 DEX 2 INT 0 WIS 1 CHA -1
-☐ STR -1 DEX 1 INT 2 WIS 0 CHA 1
+- 10+: 아래 복잡함 하나를 고릅니다.
+- 7–9: 둘을 고릅니다.
 
-Rogue Paths
+- 본래 것 대신 최고의 기회가 왔다; 지금 움직이지 않으면 놓친다
+- 모르거나 싫어하는 이가 갖고 있다; 먼저 상대해야 함
+- 큰 빚을 져야 한다. 갚기 전까지 이 액션에 불리하고 이 선택지는 다시 고를 수 없다
 
-☐ Assassin
-Sneak Attack
-When you All Out Attack, if your enemy has been distracted
-or made unaware, on a 7+ you deal your damage without
-receiving any in return.
+6-: 단서가 가짜이거나 덫이거나 이미 적이 차지했을 수 있다; GM이 마스터 액션을 하고 경험치 1을 표시합니다.
 
-☐ Danger Sense
-When you Defy Danger against a trap or ambush, gain ADV
-if it’s the first time this scene, and on a 12+ choose 0.
+---
 
-☐ Poisoner
-You may mark a condition or a use of a Poisoner’s Kit to
-create a vial of homebrewed poison on the spot; say what
-it does and choose two below. You may mark additional
-conditions to make an additional choice each.
-◆ It can be delivered by
-touch (otherwise it’s
-ingestion)
+## 주동자(Mastermind)
 
-◆ It takes effect exactly
-when you wanted
+### 플래시백(Flashback)
 
-◆ It’s as strong as you
+**미리 준비했다고 소급해 선언할 때**, GM이 아래 기준으로 정한 만큼 조건을 표시합니다. **플래시백** 도중 GM은 추가 조건을 줄 수 있습니다.
 
-◆ It’s undetectable
+- 조건 1 — 평범한 행동, 쉬운 기회, 굴림 없음, 얼마 전
+- 조건 2 — 복잡한 행동, 어려운 기회, 굴림 한 번, 한참 전
+- 조건 3 — 정교한 행동, 특별한 기회, 굴림 여러 번, 오래 전
 
-wanted
+### 계획 속의 계획(Plans Within Plans)
 
-☐ Shadowcraft
-When you call upon the shadows to aid you, roll+DEX. *On
-a 10+ choose two effects. *On a 7-9 choose one effect. Effects
-last until the end of the scene.
+**끔찍한 상황이 어떻게든 “계획대로”라고 말하면**, 큰 호재를 만듭니다(적이 편으로 선다, 숨은 지원, 밀반입 장비, 덫 등). 여전히 곤란하지만 보이던 만큼은 아닙니다. 그다음 **레벨업** 할 때까지 이 액션을 쓸 수 없습니다.
 
-◆ You can wield shadows like piercing blades
-◆ You can step between shadows in the blink of an eye
-◆ You can shrink, grow, and reshape nearby shadows
+### 만반의 준비(Ready for Anything)
 
-On a 6- the shadows grow hungry and restless; mark 1 XP
-and the GM will make a move.
+**세션을 시작할 때** 예비(Prep) 를 가장 높은 능력치와 같게 맞춥니다. **플래시백** 할 때 조건 대신 예비 1을 쓸 수 있습니다.
 
-☐ Vanishing Act
-When you are sure no one is paying direct attention to you,
-you can disappear from a scene entirely, not rejoining the
-narrative until the scene ends. If you’re in trouble or a bind,
-ask the GM what you must do to disappear and they will tell
-you 1-3 of the following requirements:
+### 사보타지(Saboteur)
 
-◆ You must leave something significant behind
-◆ You must suffer a condition in the process
-◆ When you reappear, it will come with trouble
-◆ You first need to risk/trick/steal/etc \***\*\_\_\_\*\***
+**건물·장치·탈것을 예전에 망가뜨려 두었다가 이야기에서 중요해지는 순간 드러낼 때**, **플래시백** 대신 +민 판정을 할 수 있습니다.
 
-32
+- 10+: 대박으로 터져 완벽한 기회가 됩니다.
+- 7–9: 기회는 순간뿐—지금 움직이지 않으면 사라집니다.
+- 6-: 부수적 피해나 뜻밖의 부작용; GM이 마스터 액션을 하고 경험치 1을 표시합니다.
 
-☐ Scoundrel
-I Make My Own Luck
-When you start the session, roll a d6 as your Lucky Die and
-keep its result. During play, after you roll, you may switch
-one die with your Lucky Die. The die that’s switched out
-becomes your new Lucky Die.
+### 만능 벨트(Utility Belt)
 
-☐ Quick on the Draw
-When the GM or another Player is about to make a Move,
-you may ask for their permission, then mark a condition to
-interrupt it and act before them. The first time you do this
-per session, you don’t need to mark a condition.
-
-☐ Selfish Bastard
-When you put your own interests before your allies’, you
-can Aid yourself as if you were a companion, and you may
-spend Depth with any companion(s) to get the same number
-of extra Aid benefits.
-
-☐ Ace Up Your Sleeve
-When you cheat in a game of chance, roll+DEX. *On a 10+
-you decide the outcome of the game. *On a 7-9 you still
-decide the outcome, but choose one:
-
-◆ Someone tries to take your winnings, fairly or unfairly
-◆ Someone starts watching you carefully from now on
-◆ Someone accuses you of cheating (the audacity!)
-
-☐ Underworld Connections
-When you put the word out in the underworld that you’re
-looking for something (items, information, access to a
-place or person, etc.), roll+CHA. No matter the result,
-someone comes back to you with a lead. *On a 10+ choose
-one complication below. *On a 7-9+ choose two:
-
-◆ Instead of the thing itself, you get a prime opportunity;
-
-act now or it’ll pass you by
-
-◆ Someone who doesn’t know or like you has it; you need
-
-to deal with them first
-
-◆ You’ll owe someone a steep debt to get it. Until you repay
-them you get DIS on this move and can’t choose this
-option again
-
-\*On a 6- the lead might be a fake, a trap, or already be
-claimed by an enemy; the GM makes a Move and you mark
-1 XP.
-
-☐ Mastermind
-Flashback
-When you retroactively declare how you prepared for
-something in advance, mark conditions as determined by
-the GM using the guideline below. As a consequence during
-a flashback the GM may inflict extra conditions.
-
-◆ 1 Condition - Ordinary action, easy opportunity, no rolls
-
-required, a short time ago.
-
-◆ 2 Conditions - Complex action, unlikely opportunity, one
-
-roll required, some time ago.
-
-◆ 3 Conditions - Elaborate action, special opportunity,
-
-several rolls required, a long time ago
-
-☐ Plans Within Plans
-When you say a terrible situation is still somehow going
-“according to plan”, create a significant positive twist (an
-enemy on your side, hidden reinforcements, smuggled
-equipment, a trap, etc.). You’re still in some trouble, but not
-nearly as much as it seemed. Then you can’t use this move
-again until you Level Up.
-
-☐ Ready for Anything
-When you start the session, reset Prep to be equal to your
-highest stat. When you Flashback, you may spend 1 Prep
-instead of marking a condition.
-
-☐ Saboteur
-When you reveal that you have previously sabotaged a
-building, mechanism, or vehicle—right as it becomes
-relevant in the fiction—instead of doing a Flashback you
-may roll+DEX. *On a 10+ it goes off with a bang, creating the
-perfect opportunity. *On a 7–9, the opportunity is fleeting—
-act now or it’ll be gone \*On a 6- there’s collateral damage
-or unintended side effects; the GM makes a Move and you
-mark 1 XP.
-
-☐ Utility Belt
-You may mark a condition (or spend Prep if you have it) to
-produce a concealable weapon or mundane item (as if from
-Adventuring Gear) seemingly out of nowhere.
+**조건 하나를 표시하거나**(예비가 있으면 **예비** 1을 써서) 숨길 수 있는 무기나 잡동사니(**모험 도구** 처럼)를 갑자기 꺼냅니다.

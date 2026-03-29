@@ -1,235 +1,104 @@
+---
+title: "던전월드 2 · 「시체를 뒤진다」"
+description: "전리품 무작위 표."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: i-loot-the-body | source lines 2538-2765 | approx book page ? -->
 
-“I Loot the Body”
-
-When you search the belongings of your defeated enemies, the
-GM might already know what you find, but instead (or in addition)
-they might use the table below. Perhaps they choose an entry
-below, or one of you choose randomly by rolling 2d6 and adding
-the enemy’s damage to the result. Then the GM chooses from
-among the items listed in the result.
-
-Roll 2d6 + NPC’s Damage
-
-If the NPC was especially wealthy/poor, roll with ADV/DIS.
-
-3.
-
-Fishing rod or a 1-cost melee weapon, good as new
-
-4.  Raw goods or specialized tools worth 1 Treasure
-
-Light armor or a 1-cost ranged weapon
-
-5.
-
-6.
-
-7. Medium armor or a 2-cost weapon
-
-8. Adventuring Gear or Trap Kit
-
-9. Assorted spices or glittering jewelry worth 2 Treasure
-
-10. A Notable Find
-
-11. Herbs and chemicals to for Medicine or a Poisoner’s Kit
-
-12. A Bandolier of Vials or Bag of Books
-
-13. A Healing Potion
-
-14. Coins worth 1 Treasure and a Notable Find
-
-15. Extravagant garments or cut gemstones worth 3 Treasure
-
-16+. A Notable Find or Magic Item (page 45) and roll again
-
-Notable Finds
-
-1.  Cultural Artifact
-
-2.
-
-Important Individual
-
-3.  Advanced Technology
-
-4.
-
-Incredible Riches
-
-5.  Renowned Equipment
-
-6.  Community Asset
-
-Selling Equipment
-If it’s still in good quality, most equipment can be resold at its base
-cost. If if it’s damaged, partly used, or similar then the most you
-can typically get is half its cost, rounded down.
-
-4.
-
-5.
-
-Cultural Artifacts
-
-1.  Dawnflower. Blesses surrounding land. What strange care
-
-does it need to grow?
-
-Incredible Riches
-
-1.  Hoard of Coins. Glittering, heavy, and often in a vault. What
-
-unique image dons each coin’s face?
-
-2.
-
-3.
-
-Engraved Key. Opens an ancient crypt, secret vault, or
-hidden tunnel. What else protects the entrance?
-
-2.  Glittering Gemstone. An enchantingly cut jewel. What
-
-magical power or cultural inlfuence does it have?
-
-Fabled Song. Said to soften or inspire any heart. Who else
-can play it?
-
-3.  Magnum Opus. The exquisite last piece of a famous artist.
-
-What secret hides among the colors?
-
-4.  Holy Book. A rare or heretical religious text. How else might
-
-5.  Rare Ingot. This metal has great strength or unique features.
-
-it be interpreted?
-
-Why is it so difficult to acquire?
-
-5.  Cursed Crown. Worn by a terrible ruler, its nation seeks
-
-6.  Delicate Remains. The hide or horns of an ancient or
-
-redemption. How does it resist cleansing?
-
-magical creature. What property can it invoke?
-
-someone new. Who has already used it?
-
-was this originally intended for?
-
-Important Individuals
-
-1.  Missing Heir. The last hope of a once mighty nation. Why
-
-do they want to remain unfound?
-
-Renowned Equipment
-
-1.
-
-Starlight Sword. Silver shining blade, wielded by an ancient
-hero. Which enemy still fears it?
-
-2.
-
-Exotic Companion. A child or egg of a mythical creature.
-What surprises await when raising them?
-
-2.  Worldforge Hammer. Reshapes metal without the need for
-
-heat. How can one prove oneself worthy of it?
-
-3.  Prophetic Seer. Clearly foretells future events. What makes
-
-4.  Belt of Endurance. Its wearer can work for days without
-
-their predictions dangerous?
-
-rest. What is the hidden cost?
-
-4.
-
-5.
-
-6.
-
-Secret Keeper. Knows exclusive or dangerous information.
-Why can’t they open up?
-
-Last Survivor. From a fallen nation or an ancient cabal.
-Why do they blame themself?
-
-4.
-
-5.
-
-Living Rope. Makes the most dangerous cliffs and pits
-trivial. What can distract or weaken it?
-
-Eagle’s Bow. Fires arrows accurately at any distance. What
-curse was laid upon it?
-
-Legendary Artisan. Of peerless weapons or unseen
-inventions. What do they regret making?
-
-6.  Champion’s Steed. Lifelong companion to the one who gains
-
-their loyalty. What terrible fate befell their last master?
-
-Advanced Technology
-
-1.
-
-Flying Machine. Able to soar across the skies like a bird.
-Why is it dangerous or limited?
-
-Community Assets
-
-1.  Deed. To a family manor, ancient castle, or cursed palace.
-
-Who already resides there?
-
-2.  Horseless Carriage. Clanking engines or sustained magic.
-
-3.
-
-What rare resource maintains it?
-
-Invitation. To a wealthy ball, joyous feast, or secret meeting.
-What Enemy will be there?
-
-3.  Communicator. Sends messages or translates languages
-
-instantly. Who listens in?
-
-3.  Membership. To a prestigious society or hidden community.
-    What strange rules do they enforce among their members?
-
-Lightning Harvester. A container able to power machinery
-infinitely. Why is it so dangerous to handle?
-
-4.
-
-Leverage. A Friend’s secret or an Enemy’s weakness. Who else
-seeks this?
-
-Sentient Automaton. Artificial intelligence slowly evolved
-or lovingly created. What concept are they struggling with?
-
-5.  Title. Baron of a town or member of a ruling council. What
-    dangers, responsibilities, and rivals come with this position?
-
-6.  Database. A vast archive the size of a small cube. What topic
-
-7.  Assistance. From an expert servant or band of mercenaries.
-
-is perplexingly missing?
-
-What conflicting agenda do they have?
-
-16
+# 「시체를 뒤진다」
+
+패배한 적의 소지품을 뒤질 때, GM은 이미 무엇이 있는지 알고 있을 수도 있지만, 대신(또는 추가로) 아래 표를 씁니다. 항목을 고르거나, 2d6에 NPC의 피해를 더해 무작위로 고른 뒤, 그 결과에 나온 물건 중 GM이 하나를 고릅니다.
+
+**굴림: 2d6 + NPC 피해**  
+_NPC가 유난히 부유하거나 가난하면 ADV/DIS로 굴립니다._
+
+| 합  | 전리품                                                                 |
+| --- | ---------------------------------------------------------------------- |
+| 3   | 낚싯대 또는 비용 1 근접 무기, 멀쩡한 상태                              |
+| 4   | 재료나 전문 도구로 보물 1 / 경갑 또는 비용 1 원거리 무기               |
+| 5   | 보물 1(동전·교역품)과 잡화 하나(GM이 장면에 맞게)                      |
+| 6   | 보급에 해당하는 식량·음료 또는 비용 1 일반 장비(GM)                    |
+| 7   | 중갑 또는 비용 2 무기                                                  |
+| 8   | 모험 도구 또는 덫 도구                                                 |
+| 9   | 향신료 모음이나 반짝이는 장신구로 보물 2                               |
+| 10  | **주목할 만한 발견** 하나                                              |
+| 11  | 약재나 독제 조제 세트에 쓸 허브·약품                                   |
+| 12  | 약병 띠 또는 책 가방                                                   |
+| 13  | 치유 물약                                                              |
+| 14  | 보물 1짜리 동전과 주목할 만한 발견 하나                                |
+| 15  | 사치스러운 의복이나 깎은 보석으로 보물 3                               |
+| 16+ | **주목할 만한 발견** 또는 **마법 아이템**(마법 아이템 장) 후 다시 굴림 |
+
+## 주목할 만한 발견
+
+1d6으로 종류를 고른 뒤, 같은 주사위로 세부를 고릅니다(또는 GM이 맥에 맞게 고름).
+
+1. **문화 유물**
+2. **중요한 인물**
+3. **첨단(또는 이세계) 기술**
+4. **엄청난 재물**
+5. **명성 높은 장비**
+6. **공동체 자산**
+
+### 1. 문화 유물
+
+1. **새벽꽃.** 주변 땅을 축복한다. _자라려면 이상한 돌봄이 필요한가?_
+2. **각인 열쇠.** 고대 무덤·비밀 금고·숨은 통로를 연다. _입구엔 또 무엇이 지키는가?_
+3. **환상적인 보석.** 매혹적으로 깎였다. _마법이나 문화적 힘이 있는가?_
+4. **전설의 노래.** 어떤 마음이든 부드럽게 하거나 고무시킨다. _또 누가 연주할 수 있는가?_
+5. **대표작.** 유명 예술가의 마지막 걸작. _색 사이에 무슨 비밀이 숨었는가?_
+6. **성스러운 책.** 드물거나 이단적인 경전. _다르게 해석할 여지는?_
+
+### 2. 중요한 인물
+
+1. **실종된 후계자.** 한때 강대했던 나라의 마지막 희망. _왜 찾히지 않으려 하는가?_
+2. **이색 동반자.** 신화적 생물의 아이나 알. _키우면 무슨 놀라움이 있는가?_
+3. **예언자.** 미래를 분명히 말한다. _예언이 위험한 이유는?_
+4. **비밀 지킴이.** 독점적이거나 위험한 정보를 안다. _왜 입을 열지 못하는가?_
+5. **마지막 생존자.** 무너진 나라나 고대 결사에서. _왜 자신을 탓하는가?_
+6. **명장.** 비할 데 없는 무기나 보이지 않는 발명. _무엇을 만들어 후회하는가?_
+
+### 3. 첨단(또는 이세계) 기술
+
+1. **비행 기구.** 새처럼 하늘을 난다. _왜 위험하거나 제한되는가?_
+2. **말 없는 마차.** 덜컹거리는 기관 또는 지속되는 마법. _무슨 희소 자원이 유지하는가?_
+3. **통신기.** 메시지를 보내거나 언어를 즉시 통역한다. _누가 도청하는가?_
+4. **번개 수확기.** 기계를 끝없이 돌릴 힘을 담는다. _다루기 왜 그렇게 위험한가?_
+5. **지각 있는 자동인형.** 스스로 진화했거나 정성껏 만들어졌다. _무슨 개념에 헤매는가?_
+6. **데이터베이스.** 작은 정육면체 크기의 거대 기록. _어느 주제가 기이하게 비어 있는가?_
+
+### 4. 엄청난 재물
+
+1. **동전 더미.** 반짝이고 무겁고 금고에 있는 경우가 많다. _각 동전 앞면에는 무슨 그림이 있는가?_
+2. **거울의 환생.** 들여다보는 이는 새 사람이 될 수 있다. _이미 누가 썼는가?_
+3. **희귀 주괴.** 강도나 특이한 성질이 있다. _구하기 왜 그렇게 어려운가?_
+4. **빚 문서.** 거부할 수 없는 부나 권력자에게서. _원래 무엇을 위해 쓰려 했는가?_
+5. **저주받은 왕관.** 끔찍한 통치자가 썼고, 나라는 속죄를 구한다. _정화에 왜 저항하는가?_
+6. **섬세한 유해.** 고대·마법 생물의 가죽이나 뿔. _무슨 성질을 불러일으키는가?_
+
+### 5. 명성 높은 장비
+
+1. **별빛 검.** 은빛 칼날, 고대 영웅의 무기. _어느 적이 아직 두려워하는가?_
+2. **세계를 베는 망치.** 열 없이 금속을 다시 형태 잡는다. _자격을 어떻게 증명하는가?_
+3. **인내의 허리띠.** 착용자는 며칠 쉬지 않고 일할 수 있다. _숨은 대가는?_
+4. **살아 있는 밧줄.** 가장 위험한 낭떠러지도 사소하게 만든다. _무엇이 흐트러지거나 약해지게 하는가?_
+5. **독수리의 활.** 아무 거리나 정확히 쏜다. _무슨 저주가 얹였는가?_
+6. **챔피언의 준마.** 충성을 얻은 이의 평생 동반. _전 주인에게 무슨 비극이 닥쳤는가?_
+
+### 6. 공동체 자산
+
+1. **문서.** 가문 저택, 고성, 저주받은 궁전에 대한 권리. _이미 누가 거기 사는가?_
+2. **초대장.** 부유한 무도회, 기쁜 연회, 비밀 회동. _어느 적이 거기 있는가?_
+3. **회원권.** 명망 있는 혹은 숨은 공동체. _무슨 이상한 규율을 강요하는가?_
+4. **지렛점.** 친구의 비밀이나 적의 약점. _또 누가 이걸 노리는가?_
+5. **작위.** 마을 남작이나 통치 의회 일원. _위험·책무·라이벌은?_
+6. **도움.** 숙련된 하인이나 용병 무리. _상충하는 목표는?_
+
+---
+
+## 장비 팔기
+
+상태가 좋으면 대부분 장비는 기본 비용에 팔 수 있습니다. 손상되었거나 일부만 썼거나 비슷하면, 보통 비용의 절반 이하(내림)만 받습니다.

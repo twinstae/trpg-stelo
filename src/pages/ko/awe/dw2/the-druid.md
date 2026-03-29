@@ -1,357 +1,287 @@
+---
+title: "던전월드 2 · 드루이드"
+description: "성스러운 숲과 정령, 형태변화로 자연의 균형을 지키는 드루이드 직업."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: the-druid | source lines 3874-4231 | approx book page ? -->
 
-The Druid
+당신은 돌보다 오래된 영들과 교감하며 성스러운 숲을 거닙니다. 참된 아름다움은 흐르는 시내와 오래된 숲에서 나오며, 지켜져야 합니다. 그래서 크고 작은 짐승의 모습을 취해 그 균형을 지킵니다. 모든 문명은 언젠가 무너지지만, 자연의 순환은 영원합니다.
 
-You walk among the sacred groves, communing with spirits older
-than the stones themselves. True beauty is found among flowing creeks
-and ancient trees, and it must be preserved. So you adopt the forms of
-creatures large and small, and defend the balance. Every civilization
-inevitably crumbles, but the cycle of nature is eternal.
+## 기원
 
-Origins Consider first, then answer in introductions and play
+먼저 생각한 뒤, 소개와 플레이에서 답합니다.
 
-I am a
-E.g. halfling, centaur, tree-folk. How does this affect your biology,
-behavior, and communication? How has nature marked you apart?
+나는  
+예: 하플링, 켄타우로스, 나무 민족. 생물학·행동·소통에 어떤 영향이 있나? 자연이 당신을 어떻게 구별 짓나?
 
-I grew up in
-E.g. a bustling metropolis, an enchanting forest, a deep cavern. How
-did those around you see nature? What did they mistreat or overlook?
+자란 곳은  
+예: 북적이는 대도시, 매혹적인 숲, 깊은 동굴. 주변은 자연을 어떻게 보았나? 무엇을 학대했거나 간과했나?
 
-I connected with nature when
-E.g. I was lost in the wilderness, a spirit began teaching me, I risked
-myself for the wilds. What part of civilization do you now eschew?
+자연과 맺은 인연은  
+예: 야생에서 길을 잃었다, 영령이 가르치기 시작했다, 황야를 위해 몸을 던졌다. 이제 문명의 어느 부분을 멀리하나?
 
-I felt called to adventure when
-E.g. the spirits gave me a test, a spreading corruption appeared, my
-home became “civilized”. Who patiently awaits your return?
+모험의 부름을 느낀 때는  
+예: 영령이 시험을 주었다, 부패가 퍼졌다, 고향이 “문명화”되었다. 누가 당신의 귀환을 기다리나?
 
-Relationships
-Fill in for each other PC based on how well you already know them
+## 시작 액션: 형태 바꾸기(Shapeshift)
 
-Name
+전에 본 짐승으로 변할 때, 새 모습을 묘사하고 아래 적응 하나를 고른 뒤 +지혜로 굴립니다.
 
-Details
+- 7+: 성공하고 적응의 이익을 얻습니다.
+- 7–9: GM이 본능을 밀어붙이는 말을 합니다. 지금 따르거나, 저항하려면 조건을 표시합니다.
 
-Name
+- 튼튼하고 강함: 주는 피해 +1, 받는 피해 -1
+- 빠르고 민첩: 공격에 정밀과 흉포 태그
+- 이동과 적응: 날기·수영·땅파기를 쉽게
+- 작거나 위장: 몰래 지나가기에 유리
 
-Details
+관련된 드루이드의 길을 얻었다면 또한 고를 수 있습니다.
 
-Name
+- (야생심장) 붙잡는 발: 변한 채로도 장비를 씁니다.
+- (세계의 목소리) 원소의 몸: 물·불·바람 등으로 이루어집니다.
+- (별바라기) 상징: 사람들이 특히 두려워하거나 경외합니다.
 
-Details
+- 6-: 변신이 끊기거나 잠시 정신을 압도합니다. 경험치 1, GM이 마스터 액션을 합니다.
 
-Name
+기본적으로 변한 동안에는 피해 1, 손 태그를 지니며 장비를 쓸 수 없고 다른 PC를 제외한 사람과는 말이 통하지 않습니다. 통제하고 있을 때는 언제든 본모습으로 돌아올 수 있지만, 장면이 끝날 때는 항상 그래야 합니다.
 
-Details
+---
 
-Depth
+이름  
+호칭
 
-Depth
+예: 하이카랙스, 엘라나, 웨일런, 로즈, 시그리얼, 동물 이름
 
-Depth
+HP (최대 8)
 
-Depth
+근력(STR) · 민첩(DEX) · 지능(INT) · 지혜(WIS) · 매력(CHA)
 
-Example Relationships
-The natural spirits have given me a warning about them.
+피투성이 · 지침 · 겁먹음 · 분노 · 산만 · 불안
 
-They’ve shown me an intriguing benefit of civilization.
+경험치(XP):
 
-They are blind to nature’s beauty; I will make them see it.
+레벨:
 
-Starting Move:
-Shapeshift
-When you transform into a beast you’ve seen before, describe
-your new shape, choose an adaptation below, and roll+WIS. *On
-a 7+ it works and you gain the adaptation’s benefits. *On a 7-9 the
-GM will say what compels your instincts; pursue it now or mark a
-condition to resist it.
+경험치 칸을 다섯 번 채우면 경험 칸을 비우고, 레벨을 1 올리며 향상 하나를 얻습니다.
 
-◆ Tough & Strong: +1 damage dealt, -1 damage taken
-◆ Fast & Agile: Your attacks gain the Precise and Vicious tags
-◆ Mobile & Acclimated: You can easily fly, swim, or burrow
-◆ Small or Camouflaged: You have ADV to Sneak Past
+---
 
-If you unlock the related Druid Paths, you can also choose these:
+## 장비
 
-◆ (Wildheart) Prehensile: You can use equipment while shifted
-◆ (Worldspeaker) Elemental: You’re made of water/fire/air/etc.
-◆ (Stargazer) Symbolic: People especially fear or revere you
+무기를 고릅니다(GM과 새 무기를 만들어도 됩니다).
 
-\*On a 6- your change is interrupted or temporarily overpowers
-your mind; mark 1 XP and the GM will make a Move.
+- [ ] 나무 곤봉(피해 2, 근접, 강타)
+- [ ] 꽃핀 지팡이(피해 1, 손, 근접, 양손)
+- [ ] 덩굴 새총(피해 1, 가까움, 정밀, 재장전)
 
-By default while shapeshifted you have the 1 Dmg and Hand tags,
-cannot use equipment, and can’t communicate with any people
-except other PCs. You can return to normal any time you’re in
-control, but must always do so when the scene ends.
+아래 두 가지를 고릅니다.
 
-Equipment
-Choose your weapon (or create a new one with the GM):
+- [ ] 보급(사용 3). 위로하거나 버티게 하다로 질문에 답할 때 사용으로 “아니오”를 “예”처럼 씁니다.
+- [ ] 약품(사용 2). 몇 분간 바르면 사용을 표시해 병환 하나를 지우거나 다음 HP 회복을 두 배로 합니다.
 
-☐ Wooden Club (2 dmg, close, forceful)
+## 외모
 
-☐ Flowering Staff (1 dmg, hand, close, two-handed)
+행마다 하나(또는 다른 것).
 
-☐ Vine Slingshot (1 dmg, near, precise, reload)
+- [ ] 흙빛 예복
+- [ ] 손으로 만든 가죽
+- [ ] 잎을 두른 의복
+- [ ] 어린 묘목
+- [ ] 새긴 우상
+- [ ] 뿔 왕관
 
-Choose two items below:
+## 시작 능력치
 
-Name
+아래 한 줄을 고릅니다.
 
-& Pronouns
+- [ ] STR 1, DEX 1, INT -1, WIS 2, CHA 0
+- [ ] STR -1, DEX 0, INT 1, WIS 2, CHA 1
 
-Hycarax, Elana, Weylan, Rose, Sigrial, an animal name
+---
 
-HP
+## 발전
 
-STR
+레벨업할 때 아래 하나를 고릅니다.
 
-DEX
+- [ ] 직업에서 길(Path) 하나 얻기
+- [ ] 아무 능력치 +1(최대 2까지, 레벨 10 이후 옵션에서 3까지)
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 마법 아이템 하나 얻기
+- [ ] 지금 갈등이 없다면 갈등 하나 얻기(해당 장)
+- [ ] 가진 길 중 하나에서 고급 액션 하나 얻기
+- [ ] 새 직업으로 바꾸기
 
-INT
+레벨 5부터 또한 아래에서 고를 수 있습니다.
 
-WIS
+- [ ] 직업에서 길 하나 더 얻기
+- [ ] 아무 능력치 +1(최대 2)
+- [ ] 치유 물약. 다 마시면 가방에서 없애고 즉시 최대 HP의 절반을 치유합니다.
+- [ ] 독제조 도구(사용 3). 키트에서 독을 꺼내거나 만들 때, 사용 1로 흔한 독 하나를 고르거나(14쪽), 사용 2로 GM과 맞춤 독을 만듭니다.
+- [ ] 보급(사용 3). 위로하거나 버티게 하다로 질문에 답할 때 사용으로 “아니오”를 “예”처럼 씁니다.
+- [ ] 약품(사용 2). 몇 분간 바르면 사용을 표시해 병환 하나를 지우거나 다음 HP 회복을 두 배로 합니다.
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 마법 아이템 하나 얻기
 
-CHA
+레벨 10부터 또한 아래에서 고를 수 있습니다.
 
-Max 8
+- [ ] 아무 능력치 +1(최대 3)
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 유물 하나를 고른다(유물 장) 또는 GM과 새 유물을 만든다. 이후 GM이 단서를 줍니다.
 
-Bloodied
+### 갈등을 해소할 때
 
-Exhausted
+아래 하나를 고릅니다.
 
-Frightened
+- [ ] 키메라를 얻습니다. 형태 바꾸기를 할 때 원하는 만큼 조건을 표시해 그만큼 추가 적응을 얻습니다.
 
-Angry
+- [ ] 영웅의 순간을 해금합니다. 쓸 때 내러티브를 온전히 잡고, 세계나 다른 PC를 극적으로 바꾸는 마지막 업적을 묘사한 뒤, 원하는 대로 이야기에서 빠집니다(은퇴·죽음 등).
 
-Distracted
+---
 
-Insecure
+## 관계
 
-XP:
+다른 PC마다 이미 아는 만큼 채웁니다.
 
-Level:
+깊이(Depth)
 
-When you mark your 5th XP, clear the Experience track, increase
-your Level by one, and gain one Advancement.
+### 관계 예시
 
-Advancements
+- 자연 영령이 그들에 관해 경고를 주었습니다.
+- 그들이 문명의 흥미로운 이점을 보여 주었습니다.
+- 자연의 아름다움을 보지 못합니다. 보게 하겠습니다.
+- 전에 자연을 지켰으므로 존경합니다.
+- 제 형태를 우스꽝스럽게 여깁니다. 맹렬함을 보여 주겠습니다.
+- 끌리지만 우리는 너무 다른 곳에서 왔습니다.
 
-When you Level Up, choose one of the following:
+---
 
-☐ Gain a Path from your Class
+## 야생심장(Wildheart)
 
-☐ ☐ +1 to any Stat (max. 2)
+### 짐승과 속삭임(Animal Whisperer)
 
-∞ Gain a Conflict if you don’t currently have one (pg XX)
+짐승과도 사람과 말하듯 대화할 수 있습니다.
 
-∞ Gain an Advanced Move from one of your Paths
+짐승에게 속뜻 읽기를 할 때, 결과와 관계없이 질문 하나를 더 할 수 있습니다(6- 포함).
 
-◆ Change to a new Class
+짐승에게 선택에 영향 주기를 할 때, 방식이 그들의 욕망이나 본능과 맞으면 유리로 굴립니다.
 
-From Level 5 onwards, you can also choose from the following:
+### 야생의 부름(Call of the Wild)
 
-☐ Gain another Path from your Class
+황야에 도움을 요청할 때, 지금 환경에 맞는 동물 종 하나를 고르고 +지혜로 굴립니다.
 
-☐ +1 to any Stat (max. 2)
+- 7+: 그 동물이 이 장면 동안 아군 NPC로 와 돕습니다.
+- 7–9: 아래에서 하나를 고릅니다.
+- 10+: 아래에서 둘을 고릅니다.
+  - 도착하자마자 적을 위협하거나 흩뜨립니다.
+  - 한 마리 대신 무리가 옵니다.
+  - 있는 동안 부수적 피해나 소란이 없습니다.
+  - 이 장면이 끝난 뒤 한동안 함께합니다.
+- 6-: 대신 자연의 분노나 굶주림을 불러옵니다. 경험치 1을 표시하고 GM이 마스터 액션을 합니다.
 
-☐ Healing Potion. When you drink it entirely, remove it from your
-belongings and immediately heal half your maximum HP.
+### 늑대에게 길러지다(Raised by Wolves)
 
-☐ Poisoner’s Kit (3 uses OOO). When you retrieve or create a
-poison from the kit, mark 1 use to choose a common poison
-(page 14), or mark 2 to create a custom poison with the GM
+동물 종 하나를 고릅니다(예: 늑대, 곰, 독수리). 그 종은 당신을 기본적으로 친구로 여기고, 당신의 동료도 대체로 아군으로 여깁니다.
 
-☐ Supplies (3 uses OOO). When you Comfort or Support and
-answer questions, you may spend a use to treat a “no” as a “yes”
+고른 동물과 시간을 보낼 때, 혼자면 아래 하나, 다른 PC와 함께면 둘을 고릅니다.
 
-☐ Medicine (2 uses OO). When you apply it for a few minutes,
-mark a use to clear an affliction or double the next HP restored.
+- 조건 하나 지우기
+- 아이템에서 이미 쓴 사용 1을 회복
+- 가까운 위험이나 장애에 관해 지식 더듬기를 7–9로 굴린 것처럼 무언가를 알아낸다
 
-☐ Multiclass — Gain a new Path from a Class not being played
+### 원초적 유대(Primal Bond)
 
-☐ Gain a Magic Item
+피·진흙·흙으로 짐승에 표시를 남기면 이전 표시는 지워지고, 거리와 관계없이 그 감각을 내 것처럼 함께 느낍니다.
 
-From Level 10 onwards, you can also choose from the following:
+### 작은 새가 말했네(A Little Bird Told Me)
 
-☐ +1 to any Stat (max. 3)
+가까운 짐승에게 물으며 비밀을 파헤치거나 속뜻 읽기를 할 때 +매력으로 굴릴 수 있습니다.
 
-☐ Multiclass — Gain a new Path from a Class not being played
+---
 
-☐ Choose an Artifact (page 52) or work with the GM to create a
-new one. Then the GM will give you a lead on where to find it.
+## 세계의 목소리(Worldspeaker)
 
-When you resolve a Conflict, choose one below:
+### 자연 수호자(Environmentalist)
 
-For your appearance, choose one per row (or something else):
-☐ earthy robes, ☐ handmade leathers, ☐ leaf-covered vestments
-☐ orphan seedling, ☐ carved idol, ☐ crown of antlers
+세계의 원소 영령—뿌리, 바위, 바람, 물 등—과 깊이 맞닿아 있고, 그들은 당신을 수호자·보호자·사절로 봅니다. 자연 영령에게 도움을 청할 때, 무엇을 이루게 할지 말하고 위력(Magnitude) 만큼 조건을 표시한 뒤, 아래 예시에 몇 개나 해당하는지 셉니다. 해당할 때마다 굴림에 +1합니다.
 
-☐ Gain Chimera. When you Shapeshift, you may mark as many
-conditions as you’d like to gain the same number of additional
-adaptations.
+- 이것이 조화를 되살리거나 자연의 순환을 앞당깁니까?
+- 도움이 가까운 자연적 특징이나 존재를 이용합니까?
+- 몸에 금속이 조금도 없습니까?
 
-They’ve defended nature before, and thus have my respect.
+- 7+: 영령이 청한 대로 돕습니다.
+- 7–9: 영령이 들뜹니다. 조건을 표시해 집중을 유지하거나, 부수적 피해를 냅니다.
+- 6-: 영령이 후려치거나 제물을 요구합니다. 경험치 1, GM이 마스터 액션.
 
-They think my forms amusing. I will show them my ferocity.
+### 땅의 형세(Lay of the Land)
 
-I feel drawn to them, but we come from so very different places.
+영령과 교감하며 시간을 보낼 때, 지금 지역에 관해 아래 질문 하나를 하거나, 조건을 표시해 모두 묻습니다. GM은 진실로 답합니다.
 
-Starting Stats Choose one below
-☐ STR 1 DEX 1 INT -1 WIS 2 CHA 0
-☐ STR -1 DEX 0 INT 1 WIS 2 CHA 1
+- 이곳에 자연을 위협하는 것이 있나?
+- 우리에게 도움이 될 만한 곳은 어디인가?
+- 어떤 위험이나 적을 알아야 하나?
 
-☐ Unlock your Moment of Heroism. When you use it, take total
-control of the narrative, describe one last feat you accomplish
-that dramatically changes the world or other PCs, then exit the
-narrative however you wish (eg. retirement, death, etc.)
+### 죽음과 재생의 균형(Death & Regrowth Balance)
 
-23
+중요한 적을 마무리하거나, 세션마다 처음 피투성이를 표시할 때 균형(Balance) 1을 얻습니다(최대 2). 균형을 약품의 사용처럼 쓸 수 있습니다.
 
-Druid Paths
+### 기본으로 돌아가기(Back to Basics)
 
-☐ Wildheart
-Animal Whisperer
-You can communicate with animals as if they were people.
+문명의 새로운 허점이나 실패를 하나 이상의 NPC에게 드러낼 때, 조건 하나를 지운 뒤 +매력으로 굴립니다.
 
-When you Sense an animal’s Motive, no matter the result
-you may ask them an extra question, even on a 6-.
+- 10+: 아래 둘을 고릅니다.
+- 7–9: 아래 하나를 고릅니다.
+- 6-: 적의 시선을 끕니다. 경험치 1, GM이 마스터 액션.
 
-When you Influence an animal’s Choice, if your approach
-aligns with their desires or instincts, roll with ADV.
+- 그들이 문제를 인정하고 고치기 시작합니다.
+- 당신이나 자연을 임박한 위협으로부터 지킵니다.
+- 자연의 적을 공격하거나 방해합니다.
 
-☐ Call of the Wild
-When you call out to the wilderness for aid, choose a
-suitable type of animal for your current environment and
-roll+WIS. *On a 7+ that animal arrives to help you for the
-scene as an allied NPC. *On a 7-9 choose one from below.
-\*On a 10+ choose two from below.
+### 실레일라(Shillelagh)
 
-◆ They intimidate or distract an enemy upon their arrival
-◆ A pack or group of them arrive instead of just one
-◆ They cause no collateral damage or turmoil while here
-◆ They accompany you for a period after this scene ends
+자연 영령을 무기처럼 휘두르면 주는 피해와 받는 피해가 각각 1씩 늘고 줄어듭니다.
 
-\*On a 6- you instead draw nature’s ire or hunger; mark 1 XP
-and the GM makes a Move.
+---
 
-☐ Raised by Wolves
-Choose one type of animal (e.g. wolves, bears, eagles). They
-treat you as a friend by default, and your companions as
-allies by extension.
+## 별바라기(Stargazer)
 
-When you spend time with your chosen animals, choose
-one if alone, or two if with another PC.
+### 해와 달(Sun & Moon)
 
-◆ Clear a condition
-◆ Regain a spent use of an item
-◆ Learn something about a nearby danger or obstacle as if
+해와 달 같은 하늘의 천체와 맞닿아 있습니다. 시각과 날짜를 항상 알고, 하늘이 보이는 한 길을 잃지 않습니다.
 
-you rolled a 7-9 to Recall Knowledge
+낮에 바깥에 있으면 겁먹음 불이익을 무시합니다. 밤에 바깥에 있으면 불안 불이익을 무시합니다.
 
-☐ Primal Bond
-When you mark an animal with blood, mud, or dirt, erase
-previous marks, then you can share in their senses as if they
-were yours, no matter what distance separates you.
+### 일기예보(Forecaster)
 
-☐ A Little Bird Told Me
-When you Unearth Secrets or Sense Motive by questioning
-nearby animals, you may roll with CHA.
+야영(Make Camp) 에 성공한 뒤, 아래에서 날씨를 고릅니다. 누군가 바꾸기 전까지, 이 액션을 다시 쓰기 전까지, 또는 지역을 떠나기 전까지 유지됩니다. 당신과 모든 동료가 그 이익을 얻습니다.
 
-24
+- 맑음: 고를 때 조건 하나를 지웁니다.
+- 흐림: 지침 불이익을 무시합니다.
+- 비·안개·눈: 밖에서 몰래 지나가기에 유리
 
-☐ Worldspeaker
-Environmentalist
-You have a close connection with the elemental spirits of the
-world - the roots, rocks, winds, waters, and more - and they
-see you as a guardian, caretaker, and ambassador. When you
-entreat natural spirits for aid, say what you want them to
-accomplish, mark conditions equal to Mag, then answer the
-following questions, and roll with +1 for each “yes”.
+### 종말을 외치는 자(Doomsayer)
 
-◆ Will this restore harmony or advance a cycle of nature?
-◆ Does the aid leverage a nearby natural feature or entity?
-◆ Do you have no metal on your person whatsoever?
+적에게 임박한 운명을 선포할 때, +지혜로 굴립니다.
 
-*On a 7+ the spirits provide aid as you asked. *On a 7-9 they
-are restless; mark a condition to keep them focused, or
-they cause collateral damage. \*On a 6- the spirits lash out or
-demand a sacrifice; mark 1 XP and the GM makes a Move.
+- 7–9: 아래 하나를 고릅니다.
+- 10+: 둘을 고릅니다.
+  - 고통. 이 장면 동안 그들이 받는 피해 +1
+  - 후회. 이 장면 동안 그들에게 선택에 영향 주기를 할 때 유리
+  - 허점. GM이 그들이 숨긴 약점을 말합니다.
+- 6-: 그들의 성공만 보입니다. 경험치 1, 이 장면이 끝날 때까지 그들에게 불리입니다.
 
-☐ Lay of the Land
-When you spend time communing with the spirits, ask
-one question below about the region you’re in, or mark a
-condition to ask all of them; the GM will answer honestly.
+### 점성(Augury)
 
-◆ Does anything here threaten the natural world?
-◆ What person or location here could be helpful to us?
-◆ What danger or enemy here should we be aware of?
+별에 쓰인 미래를 읽을 때, 조건을 표시해 특정 장소나 사람에 초점을 맞출 수 있습니다. 그다음 +지혜로 굴립니다.
 
-☐ Death & Regrowth Balance ☐ ☐
-When you finish off a significant enemy, or the first time
-each session you mark Bloodied, gain 1 Balance (max 2).
-You can spend Balance as if it was uses of Medicine.
+- 7+: GM이 곧 일어날 중요한 관련 사건을 드러냅니다.
+- 10+: 추가로 추적 질문 하나를 할 수 있고 GM은 너그럽고 진실로 답합니다.
+- 6-: 사건에 아군의 끔찍한 운명(PC 또는 NPC)이 끼지만, 당신 쪽으로 비틀 수 있습니다. 끔찍한 운명을 겪는 이는 그 사건 동안 모든 굴림에 불리입니다.
 
-☐ Back to Basics
-When you reveal a new flaw or failure of civilization to
-one or more NPCs, clear a condition, then roll+CHA. *On
-a 10+ choose two. *On a 7-9 choose one. \*On a 6- you draw
-an enemy’s attention; mark 1 XP and the GM makes a Move.
+### 새벽과 저녁노을의 자손(Scion of Sunrise & Sunset)
 
-◆ They account for the issue and start working to fix it
-◆ They protect you or nature from an imminent threat
-◆ They attack or sabotage an enemy of nature
+밖에서 새벽이나 황혼일 때 모든 조건과 피투성이 불이익을 무시합니다.
 
-☐ Shillelagh
-When you wield natural spirits as a weapon, increase
-damage dealt and decrease damage received by 1 each.
-
-☐ Stargazer
-Sun & Moon
-You have a connection to the celestial bodies in your sky,
-such as the sun and moon(s). You always know the time and
-date, and you can never get lost while you can see the sky.
-
-While outside during the day, ignore penalties from the
-Frightened condition. While outside during the night,
-ignore penalties from the Insecure condition.
-
-☐ Forecaster
-After you successfully Make Camp, choose what the
-weather is like from the list below. It remains like this until
-someone changes it, you use this Move again, or you depart
-the region. You and all companions gain its benefit.
-
-◆ Clear Skies: Clear a condition when this is chosen
-◆ Overcast: Ignore penalties from the Exhausted condition
-◆ Rain, Fog, or Snow: Gain ADV to Sneak Past outside
-
-☐ Doomsayer
-When you proclaim an enemy’s imminent fate to them,
-roll+WIS. *On a 7-9 choose one. *On a 10+ choose two.
-
-◆ Pain. Increase damage they take by 1 for the scene.
-◆ Regret. Influence their Choice with ADV for the scene.
-◆ Vulnerability. The GM will tell you a weakness they hide.
-
-\*On a 6- you see only their success; mark 1 XP and gain DIS
-against them for the rest of the scene.
-
-☐ Augury
-When you read the future written in the stars, you may
-mark a condition to focus your reading on a specific place or
-person, then roll+WIS; and the GM then reveals an important
-related event that will happen soon. *On a 10+ you may ask
-a follow-up question; the GM will answer truthfully and
-generously. *On a 6- the event involves an ally’s terrible fate
-(PC or NPC), but you can twist it to be about you. Whoever
-suffers the terrible fate has DIS on all rolls during the event.
-
-☐ Scion of Sunrise & Sunset
-When outside during dawn or dusk, ignore penalties from
-all conditions and from Bloodied.
-
-You may mark a condition to treat a scene as if it takes place
-outdoors during dawn or dusk. What does it look like?
+조건을 표시해 장면을 바깥의 새벽이나 황혼인 것처럼 취급할 수 있습니다. 어떤 모습인가요?

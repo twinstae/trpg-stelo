@@ -1,189 +1,108 @@
+---
+title: "던전월드 2 · 장소"
+description: "장소."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: locations | source lines 9401-9588 | approx book page 58 -->
 
-Locations
+# 장소
 
-One of the best ways to maintain the Agenda of Portray a Fantastic
-Yet Authentic World is to make the environments around the
-adventurers vibrant and compelling, sometimes by preparing
-locations in advance.
+"환상적이면서도 진짜 같은 세계를 그린다"라는 강령을 지키는 가장 좋은 방법 중 하나는 모험가 주변의 환경을 생생하고 매력적으로 만드는 것이며, 때로는 장소를 미리 준비해 두는 것입니다.
 
-A location consists of some or all of the following:
+장소는 아래의 일부 또는 전부로 구성됩니다.
 
-◆ A Summary telling you what the location is about at a glance.
-◆ Descriptors that give strong impressions of the location
+- **요약** — 그 장소가 무엇에 관한 곳인지 한눈에 알려 줍니다.
+- **묘사 요소** — 시각·소리·감각을 통해 장소에 대한 강한 인상을 줍니다.
+- **NPC** — 그 장소에서 만날 수 있는 아군이든 적이든.
+- **전개** — 그 장소에서 벌어질 수 있는 일. 모험의 일부가 될 수도 있습니다.
+- **보물** — 이 장소, 그 주민, 자연, 역사에 고유한 물건.
+- **연관 장소** — 이 장소와 밀접하게 연결되거나 그 안에 있는 장소.
 
-through sights, sounds, and senses.
+## 장소 만들기
 
-◆ NPCs, friend or foe, that can be found at the location.
-◆ Developments that might happen at the location, perhaps as
+**1.** 장소의 **요약** 은 핵심 정체성을 알려 줍니다. 한두 문장으로 짧게 유지하십시오.
 
-part of the adventure.
+_이 예시에서는 모든 것이 은빛으로 변하는 지역에서 나무를 벌채하는 것으로 유명한, 성장 중인 정글 마을 브라이트하베스트를 만들겠습니다._
 
-◆ Treasures that are unique to this location, its inhabitants,
+**2.** **묘사 요소** 는 장소에서 가장 중요한 부분입니다. 장소의 어떤 면이 가장 눈에 띄는지? 무엇이 이곳을 환상적으로 만드는지? 우리 세계에는 절대 존재할 수 없는 부분은 무엇인지? 무엇이 이곳을 진짜처럼 만드는지? 사람, 생물, 또는 땅 자체가 여기서 어떻게 존재하는지? 장소가 분주하고 크고 복잡할수록 더 많이 나열하되, 최소 세 가지는 넣으십시오.
 
-nature, and history.
+_브라이트하베스트는 크고 분주한 마을이므로 묘사 요소를 많이 넣겠습니다: 호객하는 행상, 은 반점이 묻은 사람들, 순금속으로 된 말과 비슷한 탈것, 벽에 밀착한 뒤틀린 가시덤불과 덩굴, 새 땅을 개간하려 뿌리층을 벗기는 인부, 높고 빽빽한 건물._
 
-◆ Related Locations that are closely tied to this one or even
+**3.** **NPC**는 모험가가 이 장소에서 만날 수 있는 사람, 동물, 괴물, 기타 존재입니다. 어떤 NPC가 여기에 사는지, 이 장소와 어떤 관계인지? 위의 묘사 요소에 추가할 만한 그들의 흔적이 있는지? NPC 절을 참고하여 원한다면 각 NPC에 세부를 더할 수 있습니다.
 
-within it.
+_은나무 벌목 사업이 있다면 아마 중요한 관리인이 있을 것입니다. 바키르라고 합시다. 주변 정글을 감시하는 일종의 레인저도 있을 수 있습니다: 마다라. 이 게임에서 사제가 자기 신에게 대부분의 마을과 도시에 숭배자가 있다고 했으니 여기에도 관여시킵시다. 이 지부의 지도자를 하스나라고 하겠습니다. 큰 마을이니 나중에 더 많은 NPC를 추가하겠지만 지금은 이 정도면 됩니다._
 
-Building a Location
+**4.** **전개** 는 이 장소가 겪을 수 있는 변화, 반전, 발견, 발전, 쇠퇴 등입니다. 적어 둘 때 반드시 따를 필요는 없지만, 모험 아이디어나 흥미로운 결과를 찾을 때 참고할 수 있습니다.
 
-1. A location’s Summary tells you what its core identity is. Keep
+_은 지역이 자라며 퍼지기 시작한다. 정글 생물이나 정령이 은에 영향을 받는다. 벌목장의 노동 분쟁이 격화된다. 도시 지도자가 죽고 유족이 유산을 두고 다투기 시작한다. 화재가 마을을 위협한다._
 
-it only to a sentence or two.
+**5.** **보물** 은 PC가 여기서 발견할 수 있는 고유한 물건입니다. 가치 있는 것, 마법 아이템, 심지어 유물일 수도 있으며, 모두 이 장소와 어떤 식으로든 관련됩니다.
 
-For this example we’ll create Brightharvest, a growing jungle town
-known for harvesting trees from an area where everything turns
-silver.
+_자연과 귀금속의 결합이 이곳의 큰 특징이므로, 금속 금빛으로 피는 희귀한 꽃, 은참새의 깃털, 은나무 동전 한 자루를 넣겠습니다._
 
-2. Descriptors are the most important part of a location. What
+**6.** **연관 장소** — 이 장소가 자체적인 주목할 만한 구역을 품을 만큼 크거나, 근처의 다른 장소와 밀접하게 연결되어 있으면 적습니다. 여러 구역이 있지만 각각 별도 장소로 삼기엔 뚜렷하지 않다면 묘사 요소로 대신 나열하십시오. 이렇게 하면 장소가 훨씬 상세하게 느껴질 수 있습니다.
 
-parts of the location stick out the most? What makes this place
-fantastic? What part of it couldn’t possibly exist in our world?
-What makes it authentic? How do people, creatures, or the
-land itself exist here? The busier, larger, and more complex
-your location, the more you’ll want to list, but try to add at
-least three.
+_큰 마을이고 PC가 상당 시간을 보낼 테니, 브라이트하베스트 안에 연관 장소를 몇 곳 넣겠습니다. 우선 동전대장간, 은목장, 사제의 신에게 바쳐진 지역 성소를 추가합니다._
 
-Brightharvest is a large, busy town so we’ll add many descriptors:
-calling salesfolk, silver-speckled people, horses and similar mounts
-of pure metal, twisted thorny bushes and vines pressed up against
-walls, laborers ripping layers of roots to clear new land, tall
-crowded buildings.
+## 예시 장소
 
-3. NPCs are the people, animals, monsters, and other entities
+### 야르의 역병 들판
 
-the adventurers may encounter at this location. Which NPCs
-reside here, and what is their relationship to this location? Are
-there any signs of their presence that you might want to add
-to the Descriptors above? You can use the NPC section further
-down to add details to each NPC if you want to.
+**요약:** 먼 옛날 죽임당한 영원한 악마가 가장 높은 언덕에 꿰뚫린 채 남아 있으며, 끝없는 피가 흘러내려 한때 꽃이 만발하던 아래 초원을 적신다.
 
-If there’s a silver-tree lumber operation then someone important
-probably manages it, let’s call them Bakir. There also might be
-a ranger of sorts that keeps an eye on the rest of the surrounding
-jungle: Madara. In this game the Cleric said his deity has
-worshippers in most towns and cities, so let’s involve that here,
-with the leader of this branch being named Hasna. It’s a big town,
+**묘사 요소:** 타르 같은 악마 피웅덩이, 검게 변한 풀과 꽃, 속삭임 같은 바람 소리, 빙빙 도는 독수리, 거대한 괴물 시체, 빛나는 금빛 창에 꿰뚫려 있다
 
-58
+**NPC:** 악마 숭배자, 피에 오염된 동물, 변이된 거머리와 기생충
 
-there’s probably a lot more NPCs to add later, but for now that will
-do.
+**전개:** 숭배자들이 악마를 부활시킨다 / 출혈이 영원히 멈춘다 / 피가 살아 움직인다 / 창이 오염된다
 
-4. Developments are potential changes, twists, discoveries,
-   improvements, degradations, or similar that this location
-   might experience. You don’t need to commit to them when
-   you write them down, but can keep them in mind when
-   looking for adventure ideas or interesting consequences.
+**보물:** 악마를 죽인 창, 원천에서 바로 뽑은 악마 피 샘플, 마지막으로 오염되지 않은 꽃
 
-The silver area starts growing and spreading, a jungle creature or
-spirit is affected by the silver, a labor conflict at the lumber yard
-escalates, the leader of the city dies and their family feuds over the
-inheritance, a fire threatens the town.
+**연관 장소:** 악마 숭배자 마을, 가장 큰 핏웅덩이, 창이 박힌 언덕, 악마 몸 안쪽(정말 크다)
 
-5. Treasures are unique objects the PCs might find here. They
+### 얼음벽 산
 
-may be valuables, magic items, or even artifacts, all related to
-this location in some way.
+**요약:** 고대 얼음 용이 알과 함께 동면하는 동안, 코볼드 부하들이 소굴을 돌보며 부화를 준비한다.
 
-The combination of nature and precious metal is a big feature here,
-so we have a rare flower that blooms with gold metal, the feather of
-a silver sparrow, and a bag of silverwood coins.
+**묘사 요소:** 뼛속까지 시린 추위, 경건한 그림과 조각상, 얼음으로 깎은 도구와 구조물, 작은 발자국 무수히 많음
 
-6. Related Locations near or within it, if this place is large
+**NPC:** 서리 코볼드 경비병·시민·빙술사, 코볼드 족장 시프카, 훈련된 냉기 도롱뇽, 야생 얼음 정령, 산처럼 거대한 잠든 용, 배고픈 새끼 용
 
-enough to contain its own notable areas, or if it’s closely tied
-to other nearby places. If a Location contains multiple areas,
-but they don’t feel distinct enough for their own Locations,
-then list them as Descriptors instead. This can make a
-Location feel much more detailed.
+**전개:** 산의 일부 또는 전부가 무너지기 시작한다 / 새끼 용이 코볼드를 먹이로 삼는다 / 용이 깨어난다
 
-As a large town that the PCs will probably spend a lot of time in,
-Brightharvest has several relevant locations within it. To begin
-with we’ll add The Coinforge, The Silveryard, and the local church
-dedicated to the Cleric’s deity.
+**보물:** 족장의 지팡이, 과거 묻힌 모험가의 전리품, 얼어붙은 용의 보물 더미
 
-Sample Locations
-Blighted Fields of Yar
-Summary: An eternal demon, slain long ago, remains pinned
-to the highest nearby hill, and its endless blood flows down and
-soaks the once-flowering meadow below
+**연관 장소:** 요새화된 입구, 뒤틀린 산속 터널, 잘 사용되는 거주 동굴, 거대한 중앙 방
 
-Descriptors: tar-like pools of demon blood, blackened grass
-and flowers, wind that sounds like a whisper, circling vultures,
-enormous monstrous corpse, impaled by a glowing golden spear
+### 영원히 타오르는 숲
 
-NPCs: Demon cultists, blood-corrupted animals, mutated leeches
-and parasites,
+**요약:** 고대 전쟁이 끔찍한 마법을 풀어놓아 엘프의 숲속 고향에 불이 붙었고, 엘프는 떠날 수밖에 없었다. 이제 그 불길은 나무 자체만큼이나 영원해 보인다.
 
-Developments: The cultists resurrect the demon, the bleeding
-ceases forever, the blood comes alive, the spear is corrupted
+**묘사 요소:** 압도적인 열기, 불꽃에 휩싸여 있으면서도 푸르고 무성한 나무와 잎, 연기는 약간뿐
 
-Treasures: The demon-slaying spear, a sample of demonblood
-straight from the source, the last uncorrupted flower
+**NPC:** 화염 수호자 엘프, 불에 물든 숲속 생물, 고대 전쟁의 불탄 정령, 광란의 트렌트
 
-Related Locations: Village of demon cultists, largest bloodpond,
-spearstruck hill, inside the demon’s body itself (it’s really big)
+**전개:** 강력한 불의 생물이 숲을 자기 영역으로 삼는다 / 불길이 숲 너머로 번지기 시작한다
 
-Icewall Mountain
-Summary: While an ancient ice dragon hibernates with its eggs,
-its kobold minions tend to its lair and prepare for hatching
+**보물:** 수호자의 화염 방호 부적, 불에 물든 알, 첫 번째 나무의 탄 가지, 옛 전쟁의 무기
 
-Descriptors: bone-chilling temperatures, reverent paintings and
-effigies, ice-carved tools and structures, many tiny footprints
+**연관 장소:** 고대 전장의 빈터, 버려진 엘프 정착지, 첫 번째 나무의 요새
 
-NPCs: Frost kobold guards, citizens, and cryomancers, Sifka
-the Kobold Chief, trained cold salamanders, wild ice elemental,
-slumbering mountainous dragon, hungry dragon hatchlings
+### 신성의 왕관
 
-Developments: Some or all of the mountain begins to collapse,
-the dragon hatchlings feed on the kobolds, the dragon awakens
+**요약:** 홀로 우뚝 선 거대한 산. 꼭대기에는 전설의 신들의 도시가 있다고 하지만, 신들은 문을 닫았고 이제 그곳에 간 자는 아무도 돌아오지 않는다.
 
-Treasures: Chieftain’s staff, salvage from buried past adventurers,
-frozen dragon’s hoard
+**묘사 요소:** 홀로 위를 향한 길, 수백 개의 길가 사당, 죽은 자리에 그대로 남겨진 시체, 빙빙 도는 독수리, 올라갈수록 짙어지는 눈과 내려가는 기온
 
-Related Locations: Fortified entrance, twisting undermountain
-tunnels, well-used living caverns, enormous central chamber
+**NPC:** 마을 장로이자 산의 유일한 생존 목격자, 불멸의 황금 조각상 군대, 도시의 전령-수호자, 도망치는 순례자
 
-Everburning Forest
-Summary: When an ancient war unleashed terrible magic, the
-elves’ woodland home ignited and they were forced to abandon it;
-now its fires burn seem as eternal as the trees themselves
+**전개:** 신들이 문을 다시 연다 / 황금 군대가 공세에 나선다 / 고립의 이면에 숨겨진 진실이 밝혀진다
 
-Descriptors: Overwhelming heat, trees and leaves that remain
-green and flourishing despite blazing with fire, only mild smoke
+**보물:** 황금 군대의 지휘 구체
 
-NPCs: Flame warden elves, fire-infused woodland creatures,
-scorched spirits of the ancient war, frenzied treant
+**연관 장소:** 산기슭의 헌신적인 마을, 경건한 파수꾼의 요새, 신들의 도시 아르덴티아
 
-Developments: A powerful creature of fire claims the woods as its
-domain, the flames begin spreading beyond the woods
-
-Treasures: warden amulets of flame protection, flame-infused
-egg, charred branch of the First Tree, weapons of the old war
-
-Related Locations: Clearing of an ancient battlefield, abandoned
-elven settlements, fortress of the First Tree
-
-Divinity’s Crown
-Summary: A lone enormous mountain, its peak is said to house
-the mythical city of the gods, but the gods have closed their doors,
-and now none who venture there ever return
-
-Descriptors: lone path upwards, hundreds of road-side shrines,
-old corpses just left where they died, circling vultures, rising
-snows and falling temperatures as one ascends
-
-NPCs: Village elder and only living witness of the mountain,
-protective army of immortal golden statues, the city’s Herald-
-Protector, fleeing pilgrims
-
-Developments: The gods re-open their doors, the golden army
-goes on the offensive, the truth behind the isolation is revealed
-
-Treasures: command sphere for the golden army
-
-Related Locations: devoted village at mountain’s base, protective
-fortress of Reverent Vigil, Ardentia the city of the gods
+<!-- p.58 -->

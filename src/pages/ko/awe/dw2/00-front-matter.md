@@ -1,3 +1,11 @@
+---
+title: "던전월드 2 파이널 알파 · 앞부분"
+description: "파이널 알파 서문, 변경 이력, 피드백 안내."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: 00-front-matter | source lines 1-272 | approx book page 1 -->
 
 Final Alpha
@@ -53,122 +61,122 @@ Changelog
 Final Alpha v2 - February 21, 2026
 A small update meant to fix issues found with the final alpha itself
 
-◆ The Wizard’s Adept Path has been revised with a new Starting
+- The Wizard’s Adept Path has been revised with a new Starting
 
 Move and one new Advanced Move.
 
-◆ Fixed an issue with the Fighter’s starting stat choices (one
+- Fixed an issue with the Fighter’s starting stat choices (one
 
 array had two -1 stats).
 
-◆ Temporarily removed the Advancement option to Change
+- Temporarily removed the Advancement option to Change
 
 Classes.
 
-◆ Several typos and grammar issues have been fixed
+- Several typos and grammar issues have been fixed
 
 Final Apha - February 1, 2026
 In addition to synthesizing the extreme differences between vBlue and
 vRed, the Final Alpha restructures classes and advancements to make
 the game simpler to jump into but more exciting to advance.
 
-◆ The Druid, Paladin, and Ranger classes have been added.
-◆ HP and Damage are kept from vRed, but with lower values
-and without dice rolls. Armor has been resigned to fit it.
+- The Druid, Paladin, and Ranger classes have been added.
+- HP and Damage are kept from vRed, but with lower values
+  and without dice rolls. Armor has been resigned to fit it.
 
-◆ Classes have been restructured to have one core move and
+- Classes have been restructured to have one core move and
 
 three “Paths” similar to subclasses.
 
-◆ Origins questions have been rewritten.
-◆ Ambitions have been replaced with Conflicts. By default, PCs
+- Origins questions have been rewritten.
+- Ambitions have been replaced with Conflicts. By default, PCs
 
 don’t start with a Conflict.
 
-◆ Bonds have been revamped into Relationships (similar to
+- Bonds have been revamped into Relationships (similar to
 
 Bonds from previous versions) and Bonds (mini-playbooks
 shared between two PCs that represent their core dynamic).
 
-◆ Due to how substantial the new Bonds system is, the Group
+- Due to how substantial the new Bonds system is, the Group
 
 Playbook has been removed in this alpha. It may be re-added
 later.
 
-◆ Some optional rules have been added to Character Creation,
+- Some optional rules have been added to Character Creation,
 
 Character Moves, and NPC creation.
 
-◆ Undertake a Journey has been redesigned.
-◆ The single Engage a Threat move has been expanded into a
+- Undertake a Journey has been redesigned.
+- The single Engage a Threat move has been expanded into a
 
 group of individual Battle Moves. If you are Bloodied (half HP
 or less) you have DIS on all Battle Moves.
 
-◆ A page has been added explaining magic and its Magnitude.
-◆ An “I Loot the Body” table has been added.
-◆ Instead of fully custom stats, each class has two distinct stat
+- A page has been added explaining magic and its Magnitude.
+- An “I Loot the Body” table has been added.
+- Instead of fully custom stats, each class has two distinct stat
 
 arrays to choose between during character creation.
 
-◆ Exert Influence has been renamed to Influence Choice.
-◆ Magic Items have been added, both specific items and a series
+- Exert Influence has been renamed to Influence Choice.
+- Magic Items have been added, both specific items and a series
 
 of tables to create one.
 
-◆ Artifacts have been added.
-◆ More sample Scenes, Locations, and NPCs have been added.
+- Artifacts have been added.
+- More sample Scenes, Locations, and NPCs have been added.
 
 vRed - September 2025
 In vRed we change a lot of the names, mechanics, and systems to
 resemble D&D and DW1, while still playing a lot like vBlue in the
 moment-to-moment.
 
-◆ HP and Damage dice have been added to the game. HP is
+- HP and Damage dice have been added to the game. HP is
 
 determined by Class and Armor. Damage is determined by
 weapon.
 
-◆ Conditions now focus much more on emotions. “Crossing” a
+- Conditions now focus much more on emotions. “Crossing” a
 
 condition has been removed as a game mechanic.
 
-◆ Stats have been changed to Strength, Dexterity, Constitution,
+- Stats have been changed to Strength, Dexterity, Constitution,
 
 Intelligence, Wisdom, and Charisma.
 
-◆ Defiance has been removed and Defy Danger has been re-
+- Defiance has been removed and Defy Danger has been re-
 
 added, though this version uses CON instead of a variable stat.
 
-◆ Affinity has been removed. Now when you Aid a Companion
-you either mark your Bond with them or mark a condition.
+- Affinity has been removed. Now when you Aid a Companion
+  you either mark your Bond with them or mark a condition.
 
-◆ Burdens have been removed.
-◆ The Cleric, Fighter, and Thief have been significantly
-overhauled. The Bard and Wizard have been tweaked.
+- Burdens have been removed.
+- The Cleric, Fighter, and Thief have been significantly
+  overhauled. The Bard and Wizard have been tweaked.
 
-◆ Group Advancement has been simplified to a single track of
+- Group Advancement has been simplified to a single track of
 
 Progress
 
-◆ Hyperlinks within the document have been fixed.
-◆ Items and Equipment have been revamped, and Load has
+- Hyperlinks within the document have been fixed.
+- Items and Equipment have been revamped, and Load has
 
 been reintroduced
 
-◆ Drives have been reworked to Ambitions
-◆ New Character Moves related to Ambitions and Conditions
+- Drives have been reworked to Ambitions
+- New Character Moves related to Ambitions and Conditions
 
 have been added
 
-◆ Magic Items have been removed while we test an alternate
+- Magic Items have been removed while we test an alternate
 
 Equipment system
 
-◆ Bare Your Soul has been removed as a core move
-◆ Threats in the GM section have been renamed Dangers
-◆ Advantage and Disadvantage now upgrade/downgrade the
+- Bare Your Soul has been removed as a core move
+- Threats in the GM section have been renamed Dangers
+- Advantage and Disadvantage now upgrade/downgrade the
 
 results when stacked
 

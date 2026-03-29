@@ -1,90 +1,44 @@
-<!-- split from dw2.md: relationships | source lines 6831-6919 | approx book page ? -->
+---
+title: "던전월드 2 · 관계"
+description: "플레이어 캐릭터 관계."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
 
-Relationships Bonds
+<!-- split from dw2.md: relationships | source lines 6831-6919 | approx book page 42 -->
 
-When you spend enough time with others, battling dangers and
-discovering secrets, it’s inevitable that you’ll get to know them
-better. Relationships represent this growth, including how much
-you know about the other PCs, what opinions you think about
-them, and what intentions you hold regarding them.
+다른 이들과 충분한 시간을 보내며 위험에 맞서고 비밀을 찾아내면, 그들을 더 깊이 알게 되는 것은 필연입니다. 관계는 그 성장을 나타내며, 다른 PC에 대해 얼마나 아는지, 그들에 대해 어떤 생각을 하는지, 그들을 향해 무슨 의도를 품는지를 포함합니다.
 
-While Relationships are more focused on the immediate efforts,
-opinions, and contentions between two PCs, Bonds represent the
-core unbreakable connections between them. They aren’t always
-positive, and don’t negate disputes, but through Bonds you work
-together and help each other overcome hardship and strife.
+다른 PC와의 관계는 당신이 그들에 대해 어떻게 _생각하는지_ 를 나타내지만, 그들이 당신에 대해 _어떻게 생각하는지_ 는 다를 수 있으며, 그들이 당신과 맺은 관계에 역으로 적힙니다. 디테일(Details)과 깊이(Depth)는 각각 따로 관리합니다.
 
-Your Relationship with another PC represents what you think
-about them, but what they think about you might be different, and
-is listed on their Relationship with you in return. Both the Details
-and the Depth are managed separately.
+처음에는 다른 모든 PC와 각각 관계를 가지며, 다음으로 구성됩니다.
 
-You start with a Relationship with every other PC, which consists
-of the following:
+- **이름** — 부를 이름. 나중에 스스로 쓰는 이름을 바꾸지 않는 한 바뀌지 않습니다.
+- **디테일** — 그들에 대한 당신의 생각을 요약합니다. 지금 전혀 모른다면 빈칸으로 시작해도 됩니다. 디테일은 몇 세션마다 바뀔 수 있으니, 지금 상황에 비교적 즉각적이고 반응적으로 두세요.
+- **깊이** — 얼마나 잘 아는지. 플레이 시작 시 대부분의 PC는 0으로 시작하지만, 전에 유의미하게 함께 모험했다면 1 올리고, 함께 자랐다면 1 더 올립니다. 깊이는 시간이 지나며 올라가지만, 더 _깊은_ 연결이 곧 더 _좋은_ 연결과 같지는 않습니다.
 
-◆ Name - What to call them. This only changes if they later
+## 관계 다시 쓰기
 
-change the name they go by.
+세션 사이에 관계 디테일을 쓰거나 고칠 수 있습니다. 자연스럽으면서도 플레이에서 흥미로운 디테일을 쓰기 어려울 때가 있습니다. 각 관계는 그 순간 그 다른 PC를 어떻게 대하려 하는지 분명히 해야 합니다. 빠르게 쓰려면 아래 질문 하나를 골라 디테일에 답하세요.
 
-◆ Details - A summary of your thoughts about them. If you don’t
-know them at all right now, you can start with this as blank.
-The details can change every couple sessions, so keep this
-somewhat immediate and reactive to the current situation.
+- 당신에 대해, 그들에 대해, 혹은 세계에 대해 그들에게 표현하고 싶은 것은 무엇인가?
+- 그들에 대해 알아내고 싶은 것은 무엇인가—그들이 기꺼이 털어놓든 아니든?
+- 그들에 대해 바꾸고 싶은 것은 무엇이며, 어떻게 해낼 수 있을까?
+- 무슨 비밀, 계획, 열정을 그들과 나누고 싶은가?
+- 그들이 당신을 어떤 기분으로 만드는가—짜증이나 집착 등—그리고 그것을 복잡하게 만드는 다른 감정은?
+- 그들에게 무엇을 요구하거나, 그들에게 무엇을 증명하고 싶은가?
+- 함께 보낸 시간의 토대가 되는 지난일, 혹은 그들을 생각할 때 그림자처럼 드리운 사건은 무엇인가?
 
-◆ Depth - How well you know them. At the start of play
+## 유대
 
-this starts at 0 for most PCs, but increase it by 1 if you’ve
-significantly adventured together before, and increase it by 1
-if you grew up together. Depth increases over time, though a
-deeper connection isn’t the same thing as a nicer one.
+관계가 두 PC 사이의 당장의 노력, 견해, 갈등에 초점을 맞추는 반면, 유대(Bond)는 그들 사이의 핵심적이고 끊기 어려운 연결을 나타냅니다. 항상 긍정적이지는 않고 분쟁을 없애지도 않지만, 유대를 통해 함께 일하고 서로를 돕으며 고난과 다툼을 넘어섭니다.
 
-Rewriting Relationships
-Between sessions you might write or rewrite Relationship Details.
-It can sometimes be difficult to write proper ones that feel natural
-yet interesting in play. Each Relationship should make it clear
-how you tend to treat that other PC in the moment. To write a
-Relationship quickly, pick a question below and answer it in the
-Details.
+기본적으로 PC는 플레이 시작 시 공유 유대가 없습니다. 전에 함께 모험했더라도 관계 깊이만 더 깊게 시작할 수 있고, 유대는 플레이 도중에 맺어야 합니다.
 
-◆ What do you want to express to them about you, themselves,
+관계와 그 깊이는 각자 따로 관리하지만, 유대와 그 액션은 서로 공유합니다. 유대가 처음 맺어지면 두 PC 모두 즉시 그 시작 액션을 쓸 수 있고, 비슷한 유대 향상 액션은 두 PC 동시에 이용 가능해집니다.
 
-or the world?
-
-◆ What do you want to find out about them, whether or not they
-
-are willingly open about it?
-
-◆ What do you want to change about them, and how might you
-
-go about it?
-
-◆ What secret, project, or passion do you want to share with
-
-them?
-
-◆ How do they make you feel, such as annoyance or infatuation,
-
-and what other feelings complicate that?
-
-◆ What do you want to demand of them, or prove to them?
-◆ What past shared event is the foundation of your time
-together, or overshadows your thoughts of them?
-
-By default PCs don’t start play with any shared Bonds. Even if
-they’ve adventured together before, they might start with a deeper
-Relationship, but a Bond must be forged during play.
-
-While Relationships and their Depths are managed individually,
-Bonds and their moves are mutually shared. When a Bond is first
-forged, both PCs immediately gain access to its starting move, and
-similar bond advanced moves become available to both PCs at the
-same time.
-
-◆ “You” refers to the singular PC triggering the bond’s move
-◆ “Your bondmate” refers to the other PC who isn’t triggering
-
-the move, but is still part of this Bond with you. Certain bonds
-may instead use rival, mentor, ward, or similar specific terms
-
-◆ “Either of you” means you or your bondmate
-◆ “Both of you” and similar refers to both bonded PCs
+- "당신"은 그 유대 액션을 발동하는 한 명의 PC를 가리킵니다.
+- "유대 상대"는 액션을 발동하지는 않지만 당신과 이 유대를 같이 맺은 다른 PC를 가리킵니다. 어떤 유대는 대신 라이벌, 스승, 피보호자 등 구체적인 말을 씁니다.
+- "둘 중 하나"는 당신 또는 유대 상대를 뜻합니다.
+- "둘 다" 및 이와 비슷한 표현은 유대 맺은 두 PC 모두를 가리킵니다.

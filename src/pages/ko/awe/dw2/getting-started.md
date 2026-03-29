@@ -1,69 +1,59 @@
+---
+title: "던전월드 2 · 시작하기"
+description: "준비물, 참가자와 플레이어 캐릭터, 역할."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: getting-started | source lines 388-455 | approx book page 4 -->
 
-Getting Started
+## 준비물
 
-What You Need
-◆ One GM and at least two other Players, though three to four
+- GM 한 명과 플레이어 둘 이상. 가능하면 셋~넷 정도를 권장합니다.
 
-are recommended
+- 여기에 실린 규칙
 
-◆ The rules listed here
-◆ A place, physical or digital, you can have a proper group
+- 팀 대화를 할 수 있는 장소(대면이든 온라인이든)
 
-conversation
+- 보통 2~4시간 정도의 시간
 
-◆ A few hours of time, usually two to four
-◆ Two or more six-sided dice (usually referred to as “d6s”), or an
+- 6면체 주사위 두 개 이상(흔히 d6라고 부릅니다). 또는 그에 맞는 디지털 도구(가상 주사위 등)
 
-equivalent digital tool (such as a Virtual Dice Roller)
+- (선택) 온라인 DW2 캐릭터 키퍼(Character Keeper)
 
-◆ The online DW2 Character Keeper (Optional)
-◆ If you’re playing in person, then some paper and other writing
+- 대면 플레이라면 종이와 필기 도구(연필 권장)
 
-utensils (pencils recommended)
+준비가 되면 첫 세션부터 시작해, 게임에 대해 이야기해 보세요. 자세한 내용은 8쪽 「첫 세션」을 참고하세요.
 
-When you’re ready, begin Session Zero by talking about the game.
-See page 8 for more details.
+## 역할과 책임
 
-Roles & Responsibility
-The Participants
-Everyone playing the game together, GM or Player, is also a
-participant and deserves dignity and a voice in the game. No
-participant is solely responsible for “the story”. Instead, the
-story is created when the PCs actions, the GM’s descriptions and
-consequences, and the mechanics and dice rolls all combine
-together in a magnificent chain reaction. You are all participants,
-creating and discovering the story of this adventure together.
+### 참가자
 
-Every participant is equally responsible for:
+게임에 함께하는 사람—GM이든 플레이어든—모두 참가자이며, 품위 있게 대우받고 목소리를 낼 자격이 있습니다. 누구도 “이야기” 전체를 혼자 짊어질 책임은 없습니다. 이야기는 PC의 행동, GM의 묘사와 결과, 규칙과 주사위가 한꺼번에 얽히며 생겨납니다. 모두가 함께 이 모험의 이야기를 만들고 발견해 나가는 참가자입니다.
 
-◆ Having fun
-◆ Speaking up when there is an issue
-◆ Respecting each other
-◆ Attempting to make the game experience as safe as possible
+모든 참가자는 아래에 똑같이 책임이 있습니다.
 
-for everyone
+- 즐거움을 챙길 것
 
-◆ Organizing and scheduling
-◆ Asking each other interesting questions
+- 문제가 생기면 말할 것
 
-The Player Characters
-At the start of the first session of play, each Player creates their
-Player Character (PC) following the Character Creation procedure
-(page 9). The foundation of a PC is their Class, the fantasy
-archetype they embody and express. A PC’s Class influences
-their specialties and strengths, with a few being martial combat,
-magic, or skullduggery.
+- 서로를 존중할 것
 
-4
+- 가능한 한 모두에게 안전한 플레이가 되도록 할 것
 
-The Players are responsible for:
+- 일정과 모임을 잡고 돌볼 것
 
-◆ Remembering the Moves they have access to (Adventure,
+- 서로에게 흥미로운 질문을 할 것
 
-Character, Battle, etc.)
+### 플레이어 캐릭터
 
-◆ Collaborating with each other in and out of the fiction
-◆ Roleplaying their character through actions, emotions,
+첫 세션을 시작할 때, 각 플레이어는 캐릭터 만들기 절차(9쪽)에 따라 플레이어 캐릭터(PC)를 만듭니다. PC의 뿌리는 직업(Class)—자신이 구현하는 판타지 원형—입니다. 직업은 특기와 강점에 영향을 주며, 무술 전투, 마법, 비열한 술책 등으로 나타납니다.
 
-motivations, and conversations
+플레이어는 다음을 맡습니다.
+
+- 자기가 쓸 수 있는 액션(Move)—모험, 캐릭터, 전투 등—을 기억해 둘 것
+
+- 이야기 속에서도 밖에서도 서로 협력할 것
+
+- 행동, 감정, 동기, 대화를 통해 캐릭터를 플레이할 것

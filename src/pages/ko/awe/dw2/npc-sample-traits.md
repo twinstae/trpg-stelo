@@ -1,154 +1,143 @@
+---
+title: "던전월드 2 · NPC 특성 예시"
+description: "NPC 특성 예시."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: npc-sample-traits | source lines 10145-10298 | approx book page 62 -->
 
-NPC Sample Traits
+# NPC 특성 예시
 
-Drives
-◆ Revenge no matter the cost
-◆ Money, and lots of it
-◆ True freedom
-◆ To fight for the clan
-◆ A glorious death
-◆ To take to the skies
-◆ To rebuild a broken relationship
-◆ To spread the word of their god
-◆ To destroy all magic
-◆ To grow and multiply endlessly
-◆ To start and spread fires
-◆ To devour metal
-◆ To rise to power and prominence
-◆ To collect and leverage secrets
-◆ To become a ‘true hero’
-◆ To protect their family
-◆ To uncover mysteries
-◆ To prove their might
-◆ To test dangerous mixtures
-◆ To hunt with allies
-◆ To corrupt what is good or sacred
+## 동기
 
-Resources
-◆ Teleportation magic or technology
-◆ Disguises or shapeshifting
-◆ Crafted or summoned minions
-◆ Twisted curses or costly blessings
-◆ Comprehensive backup plans
-◆ An enchanting gaze or voice
-◆ Hidden traps and ambushes
-◆ Spies and informants
-◆ Haunting dreams and visions
-◆ Possession and mind control
-◆ Binding deals and contracts
-◆ Incredible speed and reflexes
-◆ Vials of poison and disease
-◆ A dangerous weapon and the skill
+- 값을 치르더라도 복수
+- 돈, 많이
+- 진정한 자유
+- 부족을 위해 싸운다
+- 영광스러운 죽음
+- 하늘을 난다
+- 깨진 인연을 다시 쌓는다
+- 신의 말을 퍼뜨린다
+- 모든 마법을 없앤다
+- 끝없이 번식한다
+- 불을 지르고 퍼뜨린다
+- 금속을 삼킨다
+- 권력과 명성에 오른다
+- 비밀을 모아 이용한다
+- ‘진짜 영웅’이 된다
+- 가족을 지킨다
+- 미스터리를 파헤친다
+- 힘을 증명한다
+- 위험한 혼합물을 시험한다
+- 동료와 함께 사냥한다
+- 선하거나 신성한 것을 타락시킨다
 
-to use it
+## 자원
 
-◆ Charming personality
-◆ Addictive substances
-◆ Claws and/or teeth
-◆ Necromantic magic
-◆ Bolts or streams of energy
-◆ Stinging swarms or pecking flocks
-◆ Scavenged weapons or tools
-◆ Terrifying roars
-◆ A powerful vice
+- 순간이동 마법이나 기술
+- 변장이나 변신
+- 만들어 낸 부하나 소환한 부하
+- 뒤틀린 저주나 값비싼 축복
+- 빈틈없는 예비 계획
+- 매혹적인 눈빛이나 목소리
+- 숨은 함정과 매복
+- 첩자와 정보원
+- 끈질긴 꿈과 환영
+- 빙의와 정신 지배
+- 속박하는 거래와 계약
+- 놀라운 속도와 반사신경
+- 독과 질병이 든 작은 병들
+- 위험한 무기와 그것을 다루는 솜씨
+- 매력적인 성격
+- 중독성 물질
+- 발톱과 이빨
+- 사령 마법
+- 전격이나 에너지의 줄기
+- 쏘아대는 떼나 쪼아대는 떼
+- 주워 쓴 무기나 도구
+- 공포에 찬 포효
+- 강한 악습
 
-62
+## 저항
 
-Resists
-◆ Arrows and bullets
-◆ Intimidation and blackmail
-◆ Being seen from a distance
-◆ Traps and ambushes
-◆ Gravity
-◆ Physical weapons and harm
-◆ Sleep and unconsciousness
-◆ All magical effects
-◆ Lies and deception
-◆ Fear or guilt
-◆ Fire and heat
-◆ Poison and disease
-◆ Pain in any form
-◆ Binds and snares
-◆ Distractions once focused
-◆ Drowning or going overboard
+- 화살과 총알
+- 협박과 공갈
+- 멀리서 들키는 것
+- 함정과 매복
+- 중력
+- 물리 무기와 상해
+- 잠과 의식 상실
+- 모든 마법 효과
+- 거짓과 기만
+- 두려움이나 죄책감
+- 불과 열
+- 독과 질병
+- 어떤 형태의 고통이든
+- 족쇄와 올가미
+- 한번 집중하면 주의를 흐트러뜨리는 것
+- 익사하거나 물에 빠지는 것
 
-Conditions
-If the optional Rule is used
+## 고조
 
-◆ Nervous, Anxious, Annoyed
-◆ Angry, Enraged, Furious
-◆ Afraid, Terrified, Panicked
-◆ Exposed, Cornered, Helpless
-◆ Injured, Hurt, Pained
-◆ Hopeless, Distraught, Despondent
-◆ Desperate, Frantic, Frenzied,
-◆ Rabid, Maddened, Delirious
-◆ Controlled, Possessed, Enchanted
-◆ Charged, Explosive, Immolated
-◆ Greedy, Demanding, Impatient
-◆ Proud, Smug, Imperious
-◆ Excited, Impressed, Thrilled
-◆ Confused, Disoriented, Perplexed
-◆ Insulted, Embarrassed, Ashamed
-◆ Hungry, Thirsty, Sleepy
-◆ Sick, Disgusted, Horrified
-◆ Surprised, Alarmed, Astonished
-◆ Amused, Entertained, Arrogant
-◆ Suspicious, Paranoid, Cautious
-◆ Determined, Stubborn, Relentless
-◆ Cruel, Vengeful, Cold
-◆ Cursed, Doomed, Dying
+- 누군가를 독성 덩굴에 가둔다
+- 장비나 도구 한 조각을 부순다
+- 벌레 떼를 소환한다
+- 역장으로 자신을 감싼다
+- 누군가를 할퀴어 유린한다
+- 원소의 힘을 풀어 쓴다
+- 더 위험한 무언가로 변한다
+- (훨씬) 더 큰 무기를 든다
+- 인질을 잡는다
+- 위험한 마법을 풀어 쓴다
+- 누군가를 꿈이나 기억 속에 가둔다
+- 불안정한 차원문을 연다
+- 복제로 갈라진다
+- 투명해진다
+- 연기·안개·어둠으로 구역을 덮는다
+- 누군가의 나이를 재빨리 바꾼다
+- 구역 전체에 항마법을 깐다
+- 중요한 기억을 뜯어간다
+- 잠깐 시간을 멈춘다
+- 바위나 나무, 혹은 다른 사람을 집어 던진다
+- 하늘로 올라 위에서 공격한다
+- 무기나 갑옷을 살려 함께 싸우게 한다
+- 다른 사람으로 위장한다
+- 폭탄을 터뜨린다
+- 안의 악마를 받아들인다
+- 하늘에서 급강하한다
+- 구멍이나 터널로 퇴각한다
+- 절박한 거래를 맺는다
+- 날것의 마법으로 구역을 채운다
+- 족쇄를 채우거나 가둔다
 
-Escalations
-◆ Imprison someone in toxic vines
-◆ Destroy a piece of gear or
+## 조건
 
-equipment
+_옵션 규칙을 쓸 때_
 
-◆ Summon a swarm of insects
-◆ Encase themselves in a forcefield
-◆ Maul someone
-◆ Unleash elemental powers
-◆ Transform into something more
+- 초조함, 불안함, 짜증남
+- 화남, 격노함, 맹렬함
+- 두려움, 공포에 질림, 패닉
+- 드러남, 몰림, 무력함
+- 다침, 아픔, 고통스러움
+- 절망함, 낙담함, 의기소침함
+- 절박함, 광분함, 광란함
+- 광적임, 미쳐버림, 섬망함
+- 지배당함, 빙의당함, 매혹당함
+- 충전됨, 폭발적임, 불타버림
+- 탐욕스러움, 요구가 많음, 조급함
+- 자랑스러움, 뽐냄, 거만함
+- 신남, 감탄함, 들뜸
+- 혼란스러움, 방향을 잃음, 당혹함
+- 모욕당함, 당황함, 부끄러움
+- 배고픔, 목마름, 졸림
+- 메스꺼움, 역겨움, 공포에 질림
+- 깜짝 놀람, 경계함, 경이로움
+- 즐거움, 재미있음, 오만함
+- 의심함, 편집증적임, 조심스러움
+- 결연함, 고집스러움, 끈질김
+- 잔혹함, 복수심에 불탐, 냉정함
+- 저주받음, 운명 짊어짐, 죽어감
 
-dangerous
-
-◆ Get a (much) bigger weapon
-◆ Take a hostage
-◆ Unleash dangerous magic
-◆ Trap someone in a dream or
-
-memory
-
-◆ Open an unstable portal
-◆ Divide into copies
-◆ Turn invisible
-◆ Cover the area with smoke, fog, or
-
-darkness
-
-◆ Rapidly change someone’s age
-◆ Blanket the area in anti-magic
-◆ Rip away an important memory
-◆ Briefly stop time
-◆ Throw a boulder, tree, or another
-
-person
-
-◆ Take to the skies and attack from
-
-above
-
-◆ Animate weapons or armor to
-
-fight alongside them
-
-◆ Disguise themself as another
-◆ Detonate the bomb
-◆ Embrace the demon within
-◆ Divebomb from the skies
-◆ Retreat through holes or tunnels
-◆ Cut a desperate deal
-◆ Flood the area with raw magic
-◆ Shackle or imprison someone
+<!-- p.62 -->

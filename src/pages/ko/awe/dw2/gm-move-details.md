@@ -1,171 +1,103 @@
+---
+title: "던전월드 2 · GM 액션 상세"
+description: "마스터 액션 풀이."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: gm-move-details | source lines 9059-9229 | approx book page 56 -->
 
-GM Move Details
+# 마스터 액션 상세
 
-This is a list of responses you might give during a game, usually
-when the Players look to you for a response or answer. When a
-6- is rolled and you make a Move, things should usually take a
-significant turn for the worse. Moves here are split into three
-categories:
+이것은 게임 도중 당신이 내놓을 수 있는 반응 목록이며, 보통 플레이어가 당신에게 반응이나 답을 구할 때 씁니다. 6-가 나와서 마스터 액션을 할 때에는 대개 상황이 현저히 나쁜 쪽으로 기울어야 합니다. 여기 나열된 액션은 세 범주로 나뉩니다.
 
-they’re met in the fiction. If the stakes feel unimportant, or you
-can’t imagine how they’d fail or succeed, then it doesn’t trigger.
-In that case, make another GM Move after this one to keep the
-conversation going, such as Sometimes, Give Them What They Want
-or Require a Cost or Opportunity.
+- **호흡 액션** 은 영화적 경험과 이야기 속도에 초점을 맞추며, 그 순간에 적절한 대로 조절합니다.
+- **긴장 액션** 은 능력·판돈·위험·왜 이것이 중요한지를 확립하는 것이지만, 아직 아무것도 확정된 것은 아닙니다.
+- **결과 액션** 은 이야기에 구체적인 변화를 일으키는 것이며, 앞서 세워 놓은 것을 실행에 옮기는 경우가 많고 대개 PC에게 상황을 나쁘게 만드는 방식입니다.
 
-◆ Pacing Moves focus on the cinematic experience and
+## 호흡 액션
 
-narrative speed, adjusting it as it feels right in the moment.
+### 단숨에 시작한다
 
-◆ Tension Moves are about establishing capabilities, stakes,
-risks, and why we care, but nothing is yet set in stone.
+초반 준비와 여유 시간을 건너뛰고 곧바로 행동 속으로 뛰어듭니다. 모두가 새 장면을 묘사해 달라고 당신을 바라볼 때, 시간이 방금 흘렀거나 흐르려 할 때 쓰십시오.
 
-◆ Consequence Moves are about enacting concrete changes
+### 새로운 것을 소개한다
 
-in the narrative, often following through on what was set up
-before and usually in ways that make things worse for the PCs.
+새로운 도전자가 나타나거나, 동맹·보물·새로운 요소가 진행 중인 모든 것을 바꿀 수 있습니다. 해로울 수도, 이로울 수도, 단순히 복잡하게 만들 수도 있습니다.
 
-Pacing Moves
-Hit the Ground Running
-Skip the initial setup and downtime and instead jump straight
-into the action. Use this when everyone looks to you to describe
-a new scene, when some time has just passed or is about to pass.
+### 잠시 속도를 늦춘다
 
-Introduce Something New
-Perhaps a new challenger appears, or maybe an ally, treasure,
-or new factor changes everything already going on. This can be
-harmful, helpful, or merely complicated.
+때로는 멈춰서 장미 향을 맡는 것도 좋습니다. 위험 없이 주변을 묘사하십시오. 평화로운 마을, 웃음이 넘치는 모닥불, 친근한 얼굴 등. 지금은 긴급한 위협이 없음을 분명히 하고, 쉴 기회를 주십시오. 여기에 어떤 특징이나 NPC가 있을지 플레이어에게 물어도 좋습니다. 이런 소중한 시간이 앞으로의 도전을 견딜 만하게 하고, 위협과 상실을 더 절실하게 느끼게 합니다.
 
-Slow Down For a Bit
-Sometimes it’s nice to stop and smell the roses. Just describe the
-area without dangers; peaceful towns, laughter-filled campfires,
-and friendly faces, just to name a few. Make it clear that there
-aren’t any urgent threats right now, and offer them an opportunity
-to rest. Maybe even ask them what features or NPCs might be
-here. These treasured times make the challenges ahead more
-bearable, and make the threats and losses more palpable.
+### 때로는 원하는 것을 준다
 
-Sometimes, Give Them What They Want
-When you can’t think of solid consequences, or when you feel
-they’ve earned it, just say yes. Maybe there are strings attached,
-but maybe not. Use this Move when things are safe or when the
-PCs don’t realize what they’re asking for.
+마땅한 결과가 떠오르지 않거나, 그들이 충분히 노력했다고 느껴지면 그냥 허락하십시오. 조건이 붙을 수도 있고 없을 수도 있습니다. 상황이 안전하거나, PC가 자기가 요구하는 것이 무엇인지 깨닫지 못할 때 이 액션을 쓰십시오.
 
-Tension Moves
-Set Up an Immediate Risk
-This is a very common Move in the midst of a scene. Describe
-something bad that is about to happen right here and now, but
-hasn’t happened yet. Can the PCs stop it in time?
+## 긴장 액션
 
-Judge a Move’s Trigger
-When a PC might trigger a Move, Players often look to you for
-confirmation. Moves that aren’t rolled just happen, but in order
-for rolled moves to trigger, they also need to have stakes that
-matter and success that is feasible but not guaranteed. These are
-often implied in the trigger’s text, but you may need to judge if
+### 즉각적인 위험을 세운다
 
-56
+장면 한가운데서 매우 흔히 쓰이는 액션입니다. 바로 지금 여기서 나쁜 일이 벌어지려 하지만 아직 일어나지 않은 상황을 묘사하십시오. PC가 제때 막을 수 있을까요?
 
-A PC fighting a normal sleeping peasant won’t roll unless there’s
-another factor at play. Similarly, All Out Attacking a steel golem with
-basic arrows won’t hurt it, so the move doesn’t trigger.
+### 액션의 발동을 판단한다
 
-Make Them Choose
-Pit the desires of your PCs against each other. Save their sword or
-protect their companion? Find the fiend’s lair or the king’s assassin?
-Test the PCs to see what they are and aren’t willing to sacrifice. If
-they find a way around this choice and get everything they want,
-celebrate…but don’t make that too easy for them.
+PC가 액션을 발동시킬 수 있는 상황이면 플레이어가 확인을 구하는 경우가 많습니다. 굴림 없는 액션은 그냥 일어나지만, 굴리는 액션이 발동하려면 의미 있는 판돈과 가능하지만 보장되지 않는 성공이 필요합니다. 이것은 대개 발동 조건 문구에 내포되어 있지만, 이야기 속에서 충족되는지 당신이 판단해야 할 수 있습니다. 판돈이 하찮게 느껴지거나, 실패하거나 성공하는 모습을 상상할 수 없다면 발동하지 않습니다. 그런 경우 대화를 이어가기 위해 다른 마스터 액션을 이어서 하십시오. **때로는 원하는 것을 준다** 나 **대가나 기회를 요구한다** 같은 것이 좋습니다.
 
-Change the Environment
-Collapse a tunnel around the PCs, set a building on fire, or teleport
-them somewhere new. You might move the PCs to a new place, or
-alter or destroy the current one. The change doesn’t have to be
-physical; maybe the social environment of the court changes
-when everyone finds out the Rogue’s true identity as a noble.
+_잠든 평범한 농부와 싸우는 PC는 다른 요소가 끼어들지 않는 한 굴리지 않습니다. 마찬가지로, 기본 화살로 강철 골렘에게 전력 공격을 한다 해도 그것으로는 해를 입힐 수 없으므로 액션이 발동하지 않습니다._
 
-Escalate the Situation
-Take the current situation and add a new obstacle or complication
-that raises the stakes or makes success even harder. Maybe an
-important hostage is revealed, or enemy reinforcements arrive, or
-the monster has a hidden ability. Either way, whatever is currently
-going on just got bigger—and worse.
+### 선택을 강요한다
 
-Spotlight a Conflict
-Highlight a PC’s Conflict, showing its drawback, connecting it to
-an NPC, or presenting an opportunity to resolve it (or get closer to
-resolving it). This usually pairs with another GM move.
+PC의 욕구를 서로 충돌시키십시오. 검을 구할 것인가, 동료를 지킬 것인가? 악마의 소굴을 찾을 것인가, 왕의 암살자를 찾을 것인가? PC가 무엇을 희생할 의향이 있고 없는지 시험하십시오. 이 선택을 우회하여 모든 것을 얻는다면 축하하되, 그것을 너무 쉽게 허락하지는 마십시오.
 
-Foreshadow a Threat
-Set up a Threat’s potential advancement into the a new or current
-scene in a way that the PCs might still be able to stop. Describe
-the advancement beginning and ask what they do. A dragon dives
-down from above and begins attacking the village, there won’t be
-much of one left if you don’t stop it. While the PCs won’t know each
-detail of every Threat, they should grow aware of all of them over
-their journey in order to care and respond.
+### 환경을 바꾼다
 
-State the Consequences and Check
-Sometimes a consequence might be obvious to you, but not to
-the PCs. Threatening the empress will cause the guards to arrest you,
-sticking your hand into dragonfire risks incineration, and revealing
-your identity will draw bounty hunters. When you wonder if the PCs
-fully grasp the situation, pause and check in with them. Maybe
-they misunderstood and they want to revise their decision, or
-they have a plan to handle it, or they don’t see another way and
-just have to bear it.
+PC 주위의 터널을 무너뜨리거나, 건물에 불을 지르거나, 새 장소로 순간이동시키십시오. PC를 새 장소로 옮기거나, 현재 장소를 변형시키거나 파괴할 수 있습니다. 변화가 물리적일 필요는 없습니다. 도적의 진짜 정체가 귀족이라는 사실을 궁정의 모든 이가 알게 되면 사회적 환경이 바뀔 수도 있습니다.
 
-Require a Cost or Opportunity
-In order to get what they want, a PC might first need to sacrifice
-something or get into a better position. The dragon is too far out
-of bow range, can you reach it? The guards are searching every guest,
-they won’t let you in with any weapons. Use this move if the PCs
-want to do something that feels beyond their capabilities.
+### 상황을 고조시킨다
 
-Consequence Moves
-Hurt Them
-Inflicting damage is the most common way to do this, but it could
-be something narrative, or both combined. A dragon bites off a
-limb, an arrow’s poison inflicts nausea, a flame wall blisters flesh.
-Always narratively describe what happens to cause the damage,
-which will help Players decide how to react. Try to foreshadow
-severe harm in advance before delivering it, but when the time
-comes to deliver, don’t hold back.
+현재 상황에 새 장애물이나 복잡한 요소를 더해 판돈을 올리거나 성공을 더 어렵게 하십시오. 중요한 인질이 드러나거나, 적의 증원이 도착하거나, 괴물에게 숨겨진 능력이 있을 수 있습니다. 어느 쪽이든 지금 벌어지고 있던 일이 더 커지고—더 나빠집니다.
 
-Advance a Threat
-Have a Threat conclusively advance. Perhaps the PCs weren’t
-there to stop it, in which case they witness its aftermath (smoke
-rising from the distance, burnt refugees on the road, the dragon flying
-away). Perhaps they’re right in the action doing their best to stop
-it, but failed nonetheless (the dragon finally retreats, but that won’t
-undo the collateral damage; the village is just a fiery ruin now).
+### 갈등에 조명을 비춘다
 
-Use a Threat Reaction
-Have an opposed or thwarted Threat take desperate action to
-achieve its goal and/or strike back against the PCs. These usually
-hit hard, so use them sparingly. Similar to Foreshadow a Threat,
-this may start a new scene or integrate into a current one.
+PC의 갈등을 부각시켜 그 단점을 보여 주거나, NPC와 연결하거나, 해결할(또는 해결에 가까워질) 기회를 제시하십시오. 보통 다른 마스터 액션과 짝지어 씁니다.
 
-Take Something Away
-Equipment, allies, opportunities, and more can all be taken away.
-Maybe it’s only temporary and can be recovered later, but maybe
-the loss is permanent. Either way, the PCs are going to miss it.
-Be careful with taking away something core to a PC, such as an
-Armsmaster’s Signature Weapon, and telegraph significant losses
-beforehand so it isn’t a total surprise.
+### 위협을 예고한다
 
-Separate Them
-Split the group apart by force or circumstance. Someone falls
-through a trapdoor into a separate tunnel, or the group needs to split
-up to feasibly do everything they want in time, or a PC gets arrested or
-captured. Split or isolated PCs can be a great opportunity for other
-GM Moves. Perhaps you can Foreshadow a Threat to a lone PC, or
-you Introduce Something New that is relates to their Conflict, or
-you can Sometimes, Give Them What They Want in the form of an
-opportunity for them alone.
+위협의 잠재적 진전을 새 장면이나 현재 장면에 PC가 아직 막을 수 있는 방식으로 세우십시오. 진전이 시작되는 모습을 묘사하고 어떻게 하는지 물으십시오. _용이 하늘에서 내려와 마을을 공격하기 시작합니다. 막지 않으면 마을이 남아나지 않을 것입니다._ PC가 모든 위협의 세부를 알 수는 없지만, 여정을 통해 모든 위협을 점차 인지하게 되어 관심을 갖고 대응해야 합니다.
 
-Have it Backfire
-Take what the PCs did and turn it against them. They aren’t
-incompetent, so this backfiring should usually be due to freak
-accident, hidden factors, sabotage, or overwhelming power.
+### 결과를 선언하고 확인한다
+
+어떤 결과가 당신에게는 분명하지만 PC에게는 그렇지 않을 수 있습니다. _황후를 위협하면 경비병이 체포할 것이고, 용의 불에 손을 넣으면 잿더미가 될 위험이 있으며, 정체를 밝히면 현상금 사냥꾼이 몰려들 것입니다._ PC가 상황을 충분히 파악하고 있는지 의심이 들면, 잠시 멈추고 확인하십시오. 오해가 있어서 결정을 바꾸고 싶을 수도, 대처할 계획이 있을 수도, 다른 방법이 없어서 감수해야 할 수도 있습니다.
+
+### 대가나 기회를 요구한다
+
+원하는 것을 얻으려면 PC가 먼저 무언가를 희생하거나 더 나은 위치에 서야 할 수 있습니다. _용이 활 사거리 밖에 있는데, 닿을 수 있겠습니까? 경비병이 모든 손님을 수색하고 있어서 무기를 가지고는 들여보내지 않을 것입니다._ PC가 자신의 능력 밖이라고 느껴지는 일을 하려 할 때 이 액션을 쓰십시오.
+
+## 결과 액션
+
+### 해를 가한다
+
+피해를 주는 것이 가장 흔한 방법이지만, 이야기적인 해일 수도, 둘의 결합일 수도 있습니다. _용이 팔다리를 물어뜯고, 화살의 독이 메스꺼움을 일으키고, 화염 벽이 살갗에 물집을 만듭니다._ 피해를 일으키는 일이 무엇인지 항상 이야기로 묘사하십시오. 그래야 플레이어가 어떻게 반응할지 결정할 수 있습니다. 심각한 해는 가하기 전에 예고하려 하되, 막상 가할 때가 되면 주저하지 마십시오.
+
+### 위협을 진전시킨다
+
+위협을 확정적으로 진전시키십시오. PC가 그 자리에 없어서 막지 못했을 수도 있고, 그 경우 그 여파를 목격하게 됩니다(_멀리서 피어오르는 연기, 길 위의 불탄 피난민, 날아가는 용_). 현장에서 온힘을 다했지만 그래도 실패했을 수도 있습니다(_용은 마침내 물러나지만, 부수적 피해를 되돌릴 수는 없습니다. 마을은 이제 불타는 폐허일 뿐입니다_).
+
+### 반응을 사용한다
+
+저지당하거나 좌절한 위협이 목표를 달성하고/하거나 PC에게 반격하기 위해 절박한 행동을 하게 하십시오. 보통 강하게 타격하므로 아껴 쓰십시오. **위협을 예고한다** 와 비슷하게, 새 장면을 시작하거나 현재 장면에 녹일 수 있습니다.
+
+### 무언가를 빼앗는다
+
+장비, 동맹, 기회 등 무엇이든 빼앗을 수 있습니다. 일시적이라 나중에 되찾을 수도, 영구적일 수도 있습니다. 어느 쪽이든 PC는 아쉬워할 것입니다. PC의 핵심적인 것—예컨대 무기 달인의 대표 무기—을 빼앗을 때는 주의하고, 중대한 상실은 미리 예고하여 완전한 기습이 되지 않도록 하십시오.
+
+### 갈라놓는다
+
+힘이나 상황으로 일행을 떨어뜨려 놓으십시오. _누군가 함정문에 빠져 별도의 터널로 떨어지거나, 원하는 것을 제때 다 하려면 나뉘어야 하거나, PC가 체포 또는 포로가 될 수 있습니다._ 고립된 PC는 다른 마스터 액션의 좋은 기회가 됩니다. 홀로 된 PC에게 **위협을 예고** 하거나, 그의 갈등과 관련된 **새로운 것을 소개** 하거나, 그에게만 해당하는 기회의 형태로 **원하는 것을 줄** 수도 있습니다.
+
+### 역효과를 일으킨다
+
+PC가 한 일을 그들에게 되돌려 씁니다. PC가 무능한 것은 아니므로, 이 역효과는 보통 기이한 사고, 숨겨진 요소, 방해 공작, 또는 압도적인 힘 때문이어야 합니다.
+
+<!-- p.56 -->

@@ -1,366 +1,283 @@
+---
+title: "던전월드 2 · 사제"
+description: "신과 기적, 믿음의 의식으로 동료를 돕고 진리를 행동으로 증명하는 사제 직업."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: the-cleric | source lines 3507-3873 | approx book page ? -->
 
-The Cleric
+당신은 세상을 있는 그대로 봅니다. 세상은 더 큰 무언가의 일부이며, 천사와 악마, 신과 마귀, 필멸자와 영령으로 가득 차 있습니다. 어떤 이는 당신을 광신자라 부르고 어떤 이는 거짓말쟁이라 하지만, 당신은 이 진리를 모든 이에게 가져갑니다. 당신에게 너무 심한 병이란 없고, 너무 무거운 짐이란 없습니다. 진리는 행동으로 증명되어야 가치가 있습니다.
 
-You see the world as it truly is: a part of something greater, an existence
-filled with angels and demons, gods and devils, mortals and spirits.
-Some call you a zealot and others a liar, but you carry this truth with
-you to all people. No malady is too severe for you to heal, no burden
-too heavy for you to carry. For truth is made worthy through action.
+## 기원
 
-Origins Consider first, then answer in introductions and play
+먼저 생각한 뒤, 소개와 플레이에서 답합니다.
 
-I am a
-E.g. halfling, dwarf, goblin, birdfolk. How does this affect your
-biology, behavior, and communication? How does it affect your faith?
+나는  
+예: 하플링, 드워프, 고블린, 새사람. 생물학·행동·소통에 어떤 영향이 있나? 믿음에는 어떤 영향이 있나?
 
-I grew up in
-E.g. an isolated monastery, a hungry back alley, a bloody war. What
-habits did it leave you with? Did you know of your deity then?
+자란 곳은  
+예: 외딴 수도원, 굶주린 뒷골목, 피비린내 나는 전쟁. 어떤 습관이 남았나? 그때 이미 신을 알았나?
 
-I connected with my deity when
-E.g. they appeared to me in a vision, their follower took me in, they
-miraculously saved me. How did this connection change you?
+신과 맺은 인연은  
+예: 환시로 나타나셨다, 신자가 거두어 주었다, 기적으로 구해 주셨다. 그 인연이 당신을 어떻게 바꿨나?
 
-I felt called to adventure when
-E.g. my deity gave me a mission, my fellow followers grew corrupt,
-my faith became persecuted. What did you leave behind or sacrifice?
+모험의 부름을 느낀 때는  
+예: 신이 사명을 주셨다, 동료 신자들이 부패했다, 믿음이 박해받았다. 무엇을 두고 왔거나 무엇을 희생했나?
 
-Starting Move:
-Invoke Miracles
-You have a close connection with a deity who miraculously
-empowers you to spread their ideals. Give them a name and
-pronouns, then choose one each below (or write your own):
+## 시작 액션: 기적을 부르다(Invoke Miracles)
 
-◆ Domain: sun, seas, wind, beasts, light, music, fire, stone
-◆ Worshippers: soldiers, artisans, lovers, scholars, healers
-◆ Enemies: undead, wolves, criminals, dragons, wizards
+기적으로 당신에게 권능을 주시는 신과 깊이 맞닿아 있습니다. 신의 이름과 호칭을 정한 뒤, 아래에서 각각 하나씩 고릅니다(또는 직접 씁니다).
 
-When you call down your deity’s power, roll+WIS. *On a 10+
-choose one miracle below. *On a 7-9 choose one below, but either
-mark a condition or the GM will add a twist or put you at risk.
-\*On a 6- it’s twisted or insufficient ; mark 1 XP and the GM makes
-a Move.
+- 영역: 해, 바다, 바람, 짐승, 빛, 음악, 불, 돌
+- 신자: 군인, 장인, 연인, 학자, 치유사
+- 적: 언데드, 늑대, 범죄자, 용, 마법사
 
-◆ An ally heals 3 HP and ignores Bloodied for their next move
-◆ Overcome a danger, obstacle, or environment related to their
+신의 힘을 불러낼 때, +지혜로 굴립니다.
 
-domain; mark conditions equal to Magnitude
+- 10+: 아래 기적 하나를 고릅니다.
+- 7–9: 아래 하나를 고르지만, 조건 하나를 표시하거나 GM이 꼬임을 넣거나 당신을 위험에 둡니다.
+- 6-: 비틀리거나 부족합니다. 경험치 1을 표시하고 GM이 마스터 액션을 합니다.
 
-If you’re a Cleric with the Paths below, you can also choose these:
+- 아군 HP 3를 치유하고, 다음 액션까지 피투성이를 무시합니다.
+- 그들의 영역과 맞닿은 위험·장애·환경을 위험 돌파(Defy Danger) 와 같은 방식으로 극복합니다. 위력(Magnitude) 만큼 조건을 표시합니다.
 
-◆ (Anointed One) Detect nearby enemies of your deity
-◆ (Minister) Halt nearby violence for a few critical moments
-◆ (Shepherd) Bless and empower a strength of your followers
+아래 사제의 길을 갖고 있으면 또한 고를 수 있습니다.
 
-Relationships
-Fill in for each other PC based on how well you already know them
+- (기름 부음 받은 자) 신의 적을 가까이 감지합니다.
+- (사목) 잠깐 결정적인 순간, 가까운 폭력을 멈춥니다.
+- (목자) 추종자들의 한 강점을 축복하고 강화합니다.
 
-Equipment
-Choose your weapon (or create a new one with the GM):
+---
 
-Name
+이름  
+호칭
 
-& Pronouns
+예: 레노어, 펜로즈, 드러먼드, 프레야, 사라, 슬픈 이름
 
-HP
+HP (최대 8)
 
-Max 8
+근력(STR) · 민첩(DEX) · 지능(INT) · 지혜(WIS) · 매력(CHA)
 
-Lenore, Penrose, Drummond, Freya, Sara, a sorrowful name
-STR
-CHA
-INT
+피투성이 · 지침 · 겁먹음 · 분노 · 산만 · 불안
 
-DEX
+경험치(XP):
 
-WIS
+레벨:
 
-Bloodied
+경험치 칸을 다섯 번 채우면 경험 칸을 비우고, 레벨을 1 올리며 향상 하나를 얻습니다.
 
-Exhausted
+---
 
-Frightened
+## 장비
 
-Angry
+무기를 하나 고릅니다(GM과 새 무기를 만들어도 됩니다).
 
-Distracted
+- [ ] 낡은 전쟁망치(피해 2, 손, 강타)와 방패(사용 1, 들고 있을 때 사용을 표시해 공격 피해 전부 무시)
+- [ ] 눈에 띄지 않는 지팡이(피해 1, 손, 근접, 양손)
+- [ ] 장식 새총(피해 1, 가까움, 정밀, 재장전)
 
-Insecure
+아래 두 가지를 고릅니다.
 
-XP:
+- [ ] 탄창형 약병(사용 3). 약병을 꺼낼 때 사용을 쓰고 종류를 고릅니다: 산성, 섬광, 불타는, 성스러운.
+- [ ] 보급(사용 3). 위로하거나 버티게 하다로 질문에 답할 때 사용으로 “아니오”를 “예”처럼 씁니다.
+- [ ] 약품(사용 2). 몇 분간 바르면 사용을 표시해 병환 하나를 지우거나 다음 HP 회복을 두 배로 합니다.
 
-Level:
+## 외모
 
-When you mark your 5th XP, clear the Experience track, increase
-your Level by one, and gain one Advancement.
+행마다 하나(또는 다른 것).
 
-Advancements
+- [ ] 고대 제복
+- [ ] 귀한 가죽 외투
+- [ ] 소박한 예복
+- [ ] 축복받은 부적
+- [ ] 훔친 성유물
+- [ ] 움직이는 문신
 
-When you Level Up, choose one of the following:
+## 시작 능력치
 
-☐ Gain a Path from your Class
+아래 한 줄을 고릅니다.
 
-☐ ☐ +1 to any Stat (max. 2)
+- [ ] STR 1, DEX 1, INT 0, WIS 2, CHA -1
+- [ ] STR -1, DEX 0, INT 1, WIS 2, CHA 1
 
-∞ Gain a Conflict if you don’t currently have one (pg XX)
+---
 
-∞ Gain an Advanced Move from one of your Paths
+## 발전
 
-◆ Change to a new Class
+레벨업할 때 아래 하나를 고릅니다.
 
-From Level 5 onwards, you can also choose from the following:
+- [ ] 직업에서 길(Path) 하나 얻기
+- [ ] 아무 능력치 +1(최대 2까지, 레벨 10 이후 옵션에서 3까지)
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 마법 아이템 하나 얻기
+- [ ] 지금 갈등이 없다면 갈등 하나 얻기(해당 장)
+- [ ] 가진 길 중 하나에서 고급 액션 하나 얻기
+- [ ] 새 직업으로 바꾸기
 
-Name
+레벨 5부터 또한 아래에서 고를 수 있습니다.
 
-Details
+- [ ] 직업에서 길 하나 더 얻기
+- [ ] 아무 능력치 +1(최대 2)
 
-Depth
+레벨 10부터 또한 아래에서 고를 수 있습니다.
 
-☐ Old Warhammer (2 dmg, hand, forceful) and Shield (1 use O
-mark it while holding it to ignore all damage from an attack)
+- [ ] 가벼운 장갑(사용 3, STR 1 미만이면 민첩에 불리). 사용을 표시해 공격 피해 1을 무시할 수 있습니다.
+- [ ] 아무 능력치 +1(최대 3)
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 유물 하나를 고른다(유물 장) 또는 GM과 새 유물을 만든다. 이후 GM이 단서를 줍니다.
 
-☐ Gain another Path from your Class
+### 갈등을 해소할 때
 
-☐ +1 to any Stat (max. 2)
+아래 하나를 고릅니다.
 
-Name
+- [ ] 부활을 얻습니다. 누군가를 살려 낼 때, +지혜로 굴립니다.
+  - 7+: 전과 같이 돌아옵니다.
+  - 7–9: 죽음에게 빚이 지고, 갚기 전에는 이 액션을 다시 쓸 수 없습니다.
+  - 6-: 끔찍하게 잘못됩니다. 경험치 1을 표시하고 GM이 마스터 액션을 합니다.  
+    부활한 PC가 **황천길** 을 할 때 “부서지고 짓밟힘”을 고를 수 없고, “죽음과 내기”에는 불리입니다.
 
-Details
+- [ ] 영웅의 순간을 해금합니다. 쓸 때 서사를 온전히 잡고, 세계나 다른 PC를 극적으로 바꾸는 마지막 업적을 묘사한 뒤, 원하는 대로 이야기에서 빠집니다(은퇴·죽음 등).
 
-Depth
+---
 
-Choose two items below:
+## 관계
 
-☐ Innocuous Staff (1 dmg, hand, close, two-handed)
+다른 PC마다 이미 아는 만큼 채웁니다.
 
-☐ Decorated Sling (1 dmg, near, precise, reload)
+깊이(Depth)
 
-☐ Multiclass — Gain a new Path from a Class not being played
+### 관계 예시
 
-☐ Gain a Magic Item
+- 우리는 각별한 우정이 있고 서로의 등을 맡깁니다.
+- 그들은 어딘가 길을 잃었고, 나는 더 나은 길을 보여 줄 것입니다.
+- 그들은 내 신의 맹세한 적과 인연이 있습니다.
+- 내 신이 그들의 운명을 보여 주셨고, 이루게 도와야 합니다.
+- 그들 일을 자주 중재하거나 대신 수습해야 합니다.
+- 그들은 내가 신을 만나기 전의 나를 떠올리게 합니다.
 
-From Level 10 onwards, you can also choose from the following:
+---
 
-☐ Light Armor (3 uses OOO, DIS to DEX if STR<1). You may mark
-a use to ignore 1 damage from an attack.
+## 기름 부음 받은 자(Anointed One)
 
-☐ +1 to any Stat (max. 3)
+### 성스러운 축복(Sacred Blessing)
 
-Name
+신에게 권능을 받았습니다. 이름과 호칭을 정하세요. 이미 사제라면 신이 새 모습을 드러내십니다. 어느 쪽이든 아래에서 각각 하나씩 고릅니다(또는 직접 씁니다).
 
-Details
+- 영역: 해, 바다, 바람, 짐승, 빛, 음악, 불, 돌
+- 신자: 군인, 장인, 연인, 학자, 치유사
+- 적: 언데드, 늑대, 범죄자, 용, 마법사
 
-Name
+사제의 시작 액션에 있는 기적 하나를 골라 아래에 적습니다. 기적을 부를 수 있지만 그 기적만 가능합니다. 이미 기적을 부를 수 있다면, 그 기적을 부를 때 유리입니다.
 
-Details
+### 부정을 꾸짖다(Rebuke the Unholy)
 
-Depth
+보호를 빌 때, +지혜로 굴립니다.
 
-Depth
+- 7+: 기도를 이어가는 동안(다른 일은 하지 않음) 신의 적이 가까이 오지 못합니다.
+- 10+: 신의 적은 멍해지거나 도망칩니다.
+- 6-: 신이 잠잠하거나 믿음이 흔들립니다. 경험치 1, GM이 마스터 액션.
 
-Example Relationships
-We have a close friendship, and have each other’s backs.
+### 하루스펙스(Haruspex)
 
-They are lost in some way; I will show them a better path.
+중요한 것을 의식적으로 제물로 바칠 때, 제물이나 그와 맞닿은 것(주인, 사랑하는 이, 역사 등)에 관해 신께 질문 하나를 하고 +지혜로 굴립니다.
 
-They have a history with a sworn enemy of my deity.
+- 7+: 질문에 답하는 환시를 보냅니다.
+- 10+: 생생하고 관련 추적 질문에도 답합니다.
+- 6-: 파멸의 환시입니다. 경험치 1, GM이 마스터 액션.
 
-☐ Bandolier of Vials (3 uses OOO). When you withdraw a vial,
-spend a use and choose a type: Acid, Flashy, Fiery, Holy.
+### 기계 속의 신(Deus Ex Machina)
 
-☐ Supplies (3 uses OOO). When you Comfort or Support and
-answer questions, you may spend a use to treat a “no” as a “yes”.
+**황천길** 을 할 때 아래도 고를 수 있습니다. 고르면 이 액션은 다시 향상으로 얻기 전까지 쓸 수 없습니다.
 
-☐ Medicine (2 uses OO). When you apply it for a few minutes,
-mark a use to clear an affliction or double the next HP restored.
+- 신의 개입. 신이 기적으로 목숨을 구하고, 위험·적·장애 하나를 쫓아내며 HP 절반을 회복합니다. 불구가 되지 않습니다.
 
-For your appearance, choose one per row (or something else):
-☐ ancient uniform, ☐ prized hide coat, ☐ simple robes
-☐ blessed amulet, ☐ stolen reliquary, ☐ animated tattoo
+### 인간의 창조(The Creation of Man)
 
-My deity has shown me their destiny; I must help them fulfill it.
+신과의 인연이 격식 있는 예배를 넘었습니다. 신과 관계를 맺고 깊이를 1로 시작하며, 그들과 신성에 대한 유대(Bond of Divinity) 를 얻습니다.
 
-I frequently need to mediate or fix things on their behalf.
+---
 
-They remind me of how I used to be before I found my deity.
+## 사목(Minister)
 
-Starting Stats Choose one below
-☐ STR 1 DEX 1 INT 0 WIS 2 CHA -1
-☐ STR -1 DEX 0 INT 1 WIS 2 CHA 1
+### 천사의 얼굴(Face of an Angel)
 
-☐ Multiclass — Gain a new Path from a Class not being played
+적어도 대놓고는 당신을 직접 공격하는 이가 없습니다. 다만 당신이 싸우는 모습을 본 적이 있거나 원한이 있는 경우는 예외입니다.
 
-☐ Choose an Artifact (page 52) or work with the GM to create a
-new one. Then the GM will give you a lead on where to find it.
+선택에 영향 주기를 할 때 아래 방식을 쓸 수 있습니다.
 
-When you resolve a Conflict, choose one below:
+- 폭력을 거두라고 간청하면 +지혜로 굴리지만, 그들은 지금 빠져나가거나 나중에 마음을 바꿀 수 있습니다.
 
-☐ Gain Resurrection. When you return someone to life, roll+WIS.
-*On a 7+ they return just as they were. *On a 7-9 you’re indebted
-to Death, and can’t use this move again until you repay them. \*On
-a 6- it goes terribly wrong, mark 1 XP and the GM makes a Move.
-When a resurrected PC Faces Death, they can’t choose “Beaten
-and Broken” and they have DIS to “Gamble with Death”.
+### 성화에 달려드는 나방(A Moth to the Sacred Flame)
 
-☐ Unlock your Moment of Heroism. When you use it, take total
-control of the narrative, describe one last feat you accomplish
-that dramatically changes the world or other PCs, then exit the
-narrative however you wish (eg. retirement, death, etc.)
+스스로 적의 자비에 몸을 맡길 때, +지혜로 굴립니다.
 
-21
+- 7+: 그들은 자랑하며 지껄이고, 그들이나 상급자에 관해 질문 둘을 할 수 있습니다.
+- 7–9: 부하가 머지않아 공격합니다.
+- 6-: 하인이 겉보기보다 훨씬 교활하거나 강합니다. 경험치 1, GM이 마스터 액션.
 
-Cleric Paths
+### 인도하는 빛(Guiding Light)
 
-☐ Anointed One
-Sacred Blessing
-You’ve been empowered by a deity, give them a name and
-pronouns. If you’re already a Cleric then instead your deity
-reveals a new aspect of themselves to you. Either way, pick
-one each below (or write your own) to detail them.
+동료 돕기를 할 때 조건을 하나 더 표시하면, 곁에 머물며 계속 돕는 한 이 장면 내내 자동으로 도움을 줍니다.
 
-◆ Domain: sun, seas, wind, beasts, light, music, fire, stone
-◆ Worshippers: soldiers, artisans, lovers, scholars, healers
-◆ Enemies: undead, wolves, criminals, dragons, wizards
+동료가 당신의 도움으로 12+가 나오면 당신은 조건 하나를 지웁니다.
 
-Choose one miracle from the Cleric Starting Move and write
-it below. You can Invoke Miracles, but only for that miracle.
-If you can already Invoke Miracles, then you have ADV to
-invoke that miracle.
+### 마음과 생각(Hearts and Minds)
 
-☐ Rebuke the Unholy
-When you pray to your deity for protection, roll+WIS.
-*On a 7+ no enemy of your deity may come near while you
-continue to pray (and do nothing else). *On a 10+ enemies of
-your deity are also dazed or flee. \*On a 6- your deity is silent
-or your faith wavers; mark 1 XP and the GM makes a move.
+속뜻 읽기를 할 때 6-에서도 아래 질문 하나를 추가로 할 수 있습니다.
 
-☐ Haruspex
-When you ritually sacrifice something important, ask
-your deity one question about your sacrifice or something
-associated with it (owners, loved ones, history, etc.), and
-roll+WIS. *On a 7+ your deity sends you a vision that answers
-your question. *On a 10+ the vision is vivid and answers
-related follow-up questions. \*On a 6- you receive a vision of
-doom; mark 1 XP and the GM makes a Move.
+- 나에 대한 진심은 무엇인가?
+- (나에게, 다른 이에게, 자신에게…) 인정하고 싶지 않은 것은 무엇인가?
+- 가장 아끼는 이·것은 무엇인가?
 
-☐ Deus Ex Machina
-When you Face Death, you may also choose the option
-below. If you do, lose access to this move until you gain it
-again as an advancement again.
+### 전언(Message)
 
-◆ Divine Intervention. Your deity miraculously saves your
-life, banishes a danger, enemy or obstacle, then restores
-half your HP. You don’t become maimed.
+먼 이에게 메시지를 보낼 때, +지혜로 굴립니다.
 
-☐ The Creation of Man
-Your connection with your deity has grown beyond formal
-worship. Gain a Relationship with your Deity, with Depth
-starting at 1, and gain the Bond of Divinity with them.
+- 10+: 아래 셋을 고릅니다.
+- 7–9: 둘을 고릅니다.
+  - 마법·기적 등으로 즉시 도착
+  - 엿듣거나 가로채지 않음
+  - 언어·의식·죽음까지 하나의 소통 장벽을 뚫음
+  - 받는 이가 비슷한 답장을 보낼 수 있음
+- 6-: 메시지가 비틀리거나 사라집니다. 경험치 1을 표시하고 GM이 마스터 액션을 합니다.
 
-22
+---
 
-☐ Minister
-Face of an Angel
-No person will attack you directly and unprovoked, unless
-they’ve seen you fight or have a score to settle.
+## 목자(Shepherd)
 
-When you Influence Choice, you can use this approach:
+### 제자 훈련(Discipleship)
 
-◆ If you implore them to turn away from violence, roll+WIS
-but they might get away now or change their mind later.
+소수의 헌신한 NPC 추종자가 당신의 말에 귀 기울입니다. 지금 강점 둘을 고릅니다. 길의 고급 액션으로 나머지 둘을 얻을 수 있습니다.
 
-☐ A Moth to the Sacred Flame
-When you willingly put yourself at an enemy’s mercy,
-roll+WIS; *On a 7+ they boast and babble at you, and you can
-ask any two questions about them or their superiors. *On a
-7-9 the servant will attack before long. \*On a 6- the servant is
-far more cunning or powerful than they appear; mark 1 XP
-and the GM makes a Move.
+- 전투 훈련이 있고 열심히 당신을 방어합니다.
+- 당신 이름으로 기술·공예·직위를 맡아 돌봅니다.
+- 한 치의 의심도 없이 당신 말을 따릅니다.
+- 감독 없이도 스스로 일을 해냅니다.
 
-☐ Guiding Light
-When you Aid a Companion, you may mark an additional
-condition to automatically provide your Aid for the rest of
-the scene, as long as you stay near and keep helping.
+추종자에게 강점 밖의 일을 시키면, 조건 하나를 표시해 꼬임이나 대가를 두고 하게 하거나, 조건 둘을 표시해 깔끔히 하게 합니다. 그렇지 않으면 GM이 마스터 액션을 합니다.
 
-When a companion rolls a 12+ with your Aid, you clear a
-condition.
+### 신학자(Theologian)
 
-☐ Hearts and Minds
-When you Sense Motive, you can also ask one of the
-following questions, even on a 6-.
+아는 믿음이나 신을 마주치면(GM이 아니라 당신 판단), GM이 그들에 관해 질문 둘을 하고 당신은 진실로 답합니다.
 
-◆ What are your true feelings about me?
-◆ What do you not want to admit (to me, to another, to
+### 신실한 의식(Rites of the Faithful)
 
-yourself, etc.)
+아래 의식을 행할 지식과 권위가 있습니다. 하나를 행한 뒤 조건을 표시합니다.
 
-◆ Who or what do you care for most of all?
+- 속죄 — 참회하는 죄인이 스스로 구원받으려면 무엇을 해야 하는지 신의 통찰을 얻습니다. GM에게 묻습니다.
+- 성결 — 사물·사람·장소를 축복합니다. 성결이 유지되는 동안 부정한 힘으로부터 지킵니다.
+- 입문 — 누군가를 공식적으로 믿음으로 맞이합니다. 이제 추종자로 봅니다.
 
-☐ Message
-When you send a message to someone distant, roll+WIS.
-On a 10+ choose three below. On a 7-9 choose two:
+### 증언하다(Testify)
 
-◆ The message arrives instantly via magic, miracle, etc.
-◆ No one will intercept or overhear the exchange
-◆ The message bypasses any one communication barrier,
+대중에게 판단이나 신념을 선포할 때, +매력으로 굴립니다.
 
-such as language, consciousness, or even death
-
-◆ The receiver can send a similar message in reply
-
-On a 6- your message may be twisted or lost; mark 1 XP and
-the GM makes a move.
-
-☐ Shepherd
-Discipleship ☐
-A handful of dedicated NPC followers try their best to listen
-to and obey you. Choose their two strengths now. As a Path
-Advanced Move you may gain the remaining two.
-
-◆ They have combat training and ardently defend you
-◆ They tend to a skill, craft, or position in your name
-◆ They always obey your words without a hint of doubt
-◆ They’re independently capable even without supervision
-
-When you tell your followers to do something that’s not
-to their strengths, mark a condition for them to do it with
-a twist or cost, or mark two conditions for them to do it
-cleanly. Otherwise, the GM makes a move.
-
-☐ Theologian
-When you encounter a faith or deity that you know about
-(your call), you may ask the GM any two questions about
-them and they will answer truthfully.
-
-☐ Rites of the Faithful
-You have the knowledge and authority to perform the
-following rites. After you perform one, mark a condition.
-
-◆ Atonement — Gain divine insight on what a penitent
-
-wrongdoer must do to redeem themselves; ask the GM.
-
-◆ Hallow — Bless an object, person, or place, protecting
-them from unholy forces while it remains consecrated.
-
-◆ Initiate — Officially welcome someone into your faith.
-
-They’re now considered one of your followers.
-
-☐ Testify
-When you proclaim a judgment or belief to a populace,
-roll+CHA. *On a 10+ choose three. *On a 7-9 choose two:
-
-◆ You don’t bring unwanted attention (otherwise you do)
-◆ Ask them a question as if you Sensed Motive collectively
-◆ They collaboratively work towards something (e.g. build
-
-a bridge, burn a manor, find a treasure)
-
-◆ A listener of your choice is especially touched; you have
-
-ADV the next time you Influence their Choice
-
-\*On a 6- one of your listeners acts against you; mark 1 XP
-and the GM makes a move.
+- 10+: 아래 셋을 고릅니다.
+- 7–9: 둘을 고릅니다.
+  - 원치 않는 시선을 끌지 않음(그렇지 않으면 끕니다)
+  - 모두에게 속뜻 읽기한 것처럼 질문 하나
+  - 함께 무언가에 나섭니다(다리 짓기, 저택 불태우기, 보물 찾기 등)
+  - 고른 청중 하나가 특히 감동합니다. 다음에 그들에게 선택을 흔들 때 유리
+- 6-: 청중 하나가 당신에게 맞섭니다. 경험치 1을 표시하고 GM이 마스터 액션을 합니다.

@@ -1,179 +1,109 @@
+---
+title: "던전월드 2 · 캐릭터 만들기"
+description: "플레이어 캐릭터 제작 절차."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: character-creation | source lines 1249-1426 | approx book page ? -->
 
-Character Creation
+1. **직업(Class)을 고릅니다.** 여러 사람이 같은 직업을 하면, 서로 맞춰 서로 다른 인상이 나도록 만듭니다.
 
-1. Choose a Class. If multiple people play the same Class, work
-   with each other to make the resulting characters feel distinct.
+2. **기원(Origins)을 생각합니다.** 캐릭터의 역사에는 특별한 수치가 없지만, 세계 안에 그 사람을 박아 둡니다. 아래 질문에 당장 답할 필요는 없지만, 이어지는 단계를 밟으며 머리에 두세요.
+   - 이 지역의 기술 수준은 어느 정도인가요? 어떤 독특한 기술이나 도구가 발달했나요? 그 창조에 얽힌 자원이나 위험 중 지속 불가능해지는 것은 무엇인가요?
 
-2. Consider Your Origins. Your character’s history has no
+   - 전쟁이 이 지역을 마지막으로 휩쓴 것은 언제인가요? 피바람 속에 영원히 잃은 것은 무엇인가요? 평화를 가져온 것은 무엇인가요? 다시 전쟁을 부를 잠식하는 위협이나 끓는 갈등은 무엇인가요?
 
-specific mechanics, but establishes them in the world. You
-don’t need to answer these questions immediately, but keep
-them in mind as you go through these steps.
+   - 모험가는 얼마나 흔하고, 어떻게 대우받나요? 귀한 영웅인가요, 당연한 존재인가요? 사람들이 경비나 군인 대신 그들에게 얼마나 자주 의지하나요? 모험가 이름을 나쁘게 만든 악명 높은 이는 누구인가요?
 
-◆ How technologically advanced is this area? What unique
+3. **시작 액션을 읽습니다.** 이해하고, 팀에 질문이 있으면 합니다. 어떤 시작 액션은 지금 선택을 요구하고, 어떤 것은 그렇지 않습니다.
 
-technology or tools have been developed? What resource or risk
-of their creation is becoming unsustainable?
+4. **장비와 겉모습을 고릅니다.** 직업마다 무기, 갑옷, 보급 등에서 고를 항목 수가 정해져 있고, 겉모습에 대한 꾸밈 선택도 있습니다. 고른 것을 적어 둡니다.
 
-3. Read Your Starting Move. Read and understand it, and ask the
-   group any questions you may have. Some Starting Moves ask
-   you to make a choice now, while others do not.
+5. **능력치를 고릅니다.** 직업에 따라 제시된 두 배열 중 하나를 고릅니다. 나중에 레벨업하면 능력치를 올릴 수 있습니다.
+   - **근력(STR)** — 싸우고, 남을 밀치고, 버티는 일
+   - **민첩성(DEX)** — 사라지고, 빠르게 움직이고, 정확히 조준하고, 눈에서 벗어나는 일
+   - **지능(INT)** — 알아채고, 연구하고, 추리하고, 계산하는 일
+   - **지혜(WIS)** — 사람을 읽고, 초자연을 직관적으로 이해하는 일
+   - **매력(CHA)** — 사람을 흔들고, 시선을 끌고, 인상을 남기는 일
 
-◆ When did war last sweep this area? What was forever lost in
+6. **이름과 대명사를 정합니다.** 직업마다 예시 이름이 있습니다.
 
-the bloodshed? What finally brought peace? What encroaching
-threat or simmering conflict might bring war again?
+7. **PC를 소개하고 캐릭터에 대해 이야기합니다.** 진행 중인 캠페인 한가운데 합류하는 캐릭터라면, 이야기는 주로 새 PC에 맞춰집니다.
 
-◆ How common are adventurers, and how are they treated? Are
-they valued heroes or taken for granted? How often do people
-rely on them instead of guards or soldiers? What infamous
-adventurer(s) give them a bad name?
+8. **관계(Relationships) 를 만듭니다.** 모든 PC는 다른 PC마다 관계를 하나씩 가집니다—그들과 엮인 믿음, 사건, 목표, 감정 등. 직업마다 예시가 있습니다. 관계 깊이(Relationship Depth) 는 처음에 0이지만, 전에 함께 모험했다면 1 올리고, 함께 자랐다면 1 더 올립니다.
 
-Talk About the Characters
-Each Player should Create a Character, then talk about the things
-below, going around in a loose order so no one person is talking
-for too long. During this discussion, everyone is encouraged to
-ask questions, draw out details, and establish how the PCs got
-together as a group.
+### 캐릭터에 대해 이야기하기
 
-Share as much or little detail as you’d like about your character.
-Remember that you can always say “You as players would know
-this, but your characters wouldn’t” or something similar, to
-separate things known by the real-life participants from things
-known by the fictional player characters.
+각 플레이어는 캐릭터를 만든 뒤, 아래를 느슨한 순서로 돌아가며 이야기합니다. 한 사람이 너무 오래 말하지 않게 하세요. 이야기 동안 모두가 질문하고 디테일을 끌어내며, PC들이 어째서 한 팀이 되었는지 정합니다.
 
-◆ What is your name, pronouns, and appearance? What
+캐릭터에 대해 많든 적든 공유해도 됩니다. “플레이어로서는 아는데 캐릭터는 모르는” 식으로, 실제 참가자가 아는 것과 픽션의 PC가 아는 것을 나눌 수 있다는 것도 기억하세요.
 
-memorable features or behaviors do you have?
+- 이름, 대명사, 겉모습은? 기억에 남는 특징이나 버릇은?
 
-◆ What are your Origins? How did you come to be here?
-◆ Create Relationships with each other, as detailed in step 8 of
+- 기원은? 여기까지 어떻게 왔나요?
 
-Character Creation.
+- 서로 관계를 만듭니다. 위 8번과 「관계」 절을 따르세요.
 
-◆ How did you all come together as a group? Because of your
-Relationships you didn’t just meet, but by default you’re all
-still fairly new to adventuring together.
+- 어째서 모두가 한 무리가 되었나요? 관계 덕분에 막 만난 사이는 아니지만, 기본적으로 함께 모험한 지는 아직 얼마 안 된 팀입니다.
 
-Take a Break
-You’ve probably spent a while doing this, and the GM may need a
-bit to turn their notes into something playable. Maybe this break
-is a few minutes, but maybe it’s until the next session.
+### 잠시 쉬기
 
-Start Playing
-When you feel ready to begin, the GM will set the first scene of the
-game in a precarious situation with danger and/or violence is at
-risk but not guaranteed.
+이걸로 한참 썼을 테고, GM이 메모를 플레이 가능한 형태로 다듬을 시간이 필요할 수 있습니다. 몇 분일 수도, 다음 세션까지일 수도 있습니다.
 
-4. Choose Equipment and Appearance. Each Class lists a
+### 플레이 시작
 
-number of items, such as weapons, armor, or supplies for you
-to choose between, plus some cosmetic choices about your
-appearance. Make your choices and write them down.
+시작할 준비가 되면 GM이 게임의 첫 장면을 깝니다—위험이나 폭력이 닥칠 수 있지만 아직 확정은 아닌 아슬아슬한 상황으로.
 
-Choose Stats. Choose between two sets of stats based on your
+## 선택 규칙
 
-Class. You can improve your stats later on when you Level Up.
+팀이 이미 던전월드 2에 익숙하다면, 더 깊게 들어가는 선택입니다.
 
-- Strength (STR) represents how good you are fighting,
-  pushing others around, and enduring
-- Dexterity (DEX) represents how good you are at disappearing,
-  moving quickly, aiming precisely, and escaping notice
-- Intelligence (INT) represents how much you can notice,
-  study, deduce, and calculate
-- Wisdom (WIS) represents your ability to read people and
-  intuitively understand the supernatural
-- Charisma (CHA) represents your ability to sway people, get
-  attention, and create an impression
+- **갈등 있는 기원(Conflicted Origins)** — 캐릭터를 만들 때 갈등(Conflict) 하나를 골라 시작하고, 시작 레벨을 1 올립니다.
 
-5. Choose name and pronouns. Each Class lists some examples.
+- **가속 경로(Accelerated Path)** — 캐릭터를 만들 때 자기 직업의 경로(Path) 하나를 골라 시작하고, 시작 레벨을 1 올립니다.
 
-6. Introduce Your PC and Talk About the Characters. If this
-   character is joining a group in the middle of an ongoing
-   campaign, then the talk will primarily focus on this new PC.
+- **유연한 능력치(Versatile Stats)** — 배열 둘 중 하나 대신, 능력치를 2, 1, 1, 0, -1 로 직접 배분합니다.
 
-7. Create Relationships. Every PC has a Relationship with each
-   other PC, such as a belief, event, goal, or feeling related to
-   them. Each Class lists some examples. Relationship Depth
-   starts at 0, but increase it by 1 if you’ve adventured together
-   before, and increase it by 1 if you grew up together.
+## 플레이어 모범
 
-Optional Rules
-If your group is already familiar with Dungeon World 2, here
-are some ways to jump into more advanced play.
+- **세계와 연결되기**
+- **캐릭터 탐구하기**
+- **팀으로 플레이하기**
+- **위험 쫓기**
+- **역경 받아들이기**
 
-Conflicted Origins - As you create your character, choose a
-Conflict to start with and increase your starting Level by 1.
+(자세한 것은 5쪽.)
 
-Accelerated Path - As you create your character, choose a
-Path from your Class to start with and increase your starting
-Level by 1.
+## 액션 참고
 
-Versatile Stats - Rather than choosing between either array
-of stats, assign your own stats as 2, 1, 1, 0, -1
+모험 액션 — 다음을 할 때…
 
-Player Best Practices
-◆ Connect With the World
-◆ Explore the Characters
-◆ Play as a Team
+- 동료 PC의 과업을 돕는다 → **동료 돕기(Aid a Companion)**
+- 임박한 위험이나 장애에도 불구하고 행동한다 → **위험 돌파(Defy Danger)**
+- 어떤 주제에 관해 기억을 더듬어 중요한 정보를 찾는다 → **지식 더듬기(Recall Lore)**
+- 깊이 파고드는 대화로 누군가를 살핀다 → **속뜻 읽기(Sense Motive)**
+- 위험이나 장애 사이를 빠져나가거나 그것에게 숨는다 → **몰래 지나가기(Sneak Past)**
+- NPC를 설득하거나 조종해 원하는 대로 하게 한다 → **선택에 영향 주기(Influence Choice)**
+- 일행을 모아 중요한 여정을 함께 떠난다 → **여정을 떠나다(Undertake a Journey)**
+- 팽팽하거나 신비한 상황이나 장소를 자세히 살핀다 → **비밀을 파헤치다(Unearth Secrets)**
 
-◆ Chase Risks
-◆ Embrace Adversity
+캐릭터 액션 — 다음을 할 때…
 
-     Detailed on Page 5
+- 동료를 위로하거나 버티게 한다 → **위로와 격려(Comfort or Support)**
+- 마지막 조건 칸을 표시한다 → **한계에 다다른다(Reach Your Limit)**
+- HP가 0이 된다 → **황천길(Face Death)**
+- 모험 중 함께 휴식한다 → **야영(Make Camp)**
+- 야생, 위험, 취약한 곳에서 야영한다 → **파수(Keep Watch)** 가 필요할 수 있음
+- 안전한 정착지에서 며칠 쉰다 → **휴식을 즐긴다(Enjoy Downtime)**
+- 어떤 관계에 깊이 3을 표시한다 → **유대를 맺는다(Forge a Bond)**
+- 경험치 5를 표시한다 → **레벨업(Level Up)**
+- 세션을 마친다 → **세션을 마친다(End the Session)**
 
-Move Reference
-Adventure Moves When you…
-help a fellow PC accomplish a task, you Aid a Companion
+전투 액션 — 다음을 할 때…
 
-act despite an imminent danger or obstacle, you Defy Danger
-
-search your memory for important information about a subject,
-you Recall Lore
-
-study someone in a probing conversation, you Sense Motive
-
-slip through, or hide from, a danger or obstacle, you Sneak Past
-
-convince or manipulate an NPC into doing what you want, you
-Influence Choice
-
-gather your party and venture forth together on a significant
-journey, you Undertake a Journey
-
-closely examine a tense or mysterious situation or location, you
-Unearth Secrets
-
-Character Moves When you…
-provide comfort or support a to companion, you Comfort or
-Support
-
-mark your last condition, you Reach Your Limit
-
-reach 0 HP, you Face Death
-
-unwind together while adventuring you Make Camp
-
-Make Camp somewhere wild, dangerous, or vulnerable you may
-need to Keep Watch
-
-spend days resting in a safe settlement, you Enjoy Downtime
-
-mark your 3rd Depth in a relationship, you Forge a Bond
-
-mark your 5th XP, you Level Up
-
-end the session, you End the Session
-
-Battle Moves When you…
-try to take something from an enemy, you Wrest Control
-
-preoccupy an enemy or hold them off, you Keep Them Busy
-
-assess the battlefield or seek an advantage, you Secure an Edge
-
-utilize an edge or weak point to strike an enemy, you All Out
-Attack
-
-9
+- 적에게서 무언가를 빼앗으려 한다 → **주도권을 쥐다(Wrest Control)**
+- 적을 묶어 두거나 막아 선다 → **적을 붙잡다(Keep Them Busy)**
+- 전장을 살피거나 유리한 지점을 찾는다 → **우위를 확보한다(Secure an Edge)**
+- 우열이나 약점을 이용해 적을 친다 → **전력 공격(All Out Attack)**

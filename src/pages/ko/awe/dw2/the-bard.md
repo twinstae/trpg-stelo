@@ -1,374 +1,289 @@
+---
+title: "던전월드 2 · 음유시인"
+description: "음유시인 직업."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: the-bard | source lines 3132-3506 | approx book page ? -->
 
-The Bard
+평민과 왕족을 한없이 들뜨게 하고, 야수의 성을 가라앉히며 사람들을 광란으로 몰아갑니다. 이야기를 그리는 예술가는 많지만, 그것을 살아 내는 이는 진짜 음유시인뿐입니다. 곧 영웅이 될 이들 어깨에 붙어 싸울 누군가는 있어야 하죠. 그 이야기를 나눌 사람이 당신보다 나을까요?
 
-You inspire peasantry and royals alike, soothing the savage beast and
-driving folk to a frenzy. A mere artist can portray a story, but it takes
-a true bard to live it. Someone’s got to be there, fighting shoulder to-
-shoulder with the soon-to-be-heroes. Who better than you to share the
-tale?
+## 기원
 
-Origins Consider first, then answer in introductions and play
+먼저 생각한 뒤, 소개와 플레이에서 답합니다.
 
-I am a
-E.g. gnome, orc, kobold, merfolk, faerie. How does this affect your
-biology, behavior, and communication? How does it affect your art?
+나는  
+예: 노움, 오크, 코볼드, 머포크, 요정. 생물학·행동·소통에 어떤 영향이 있나? 예술에는 어떻게 스며드나?
 
-I was raised among
-E.g. extravagant luxury, austere devotion, common peasantry. How
-did you learn your art in that lifestyle? How does your art reflect this?
+나는 ~ 가운데 자랐다  
+예: 사치스러운 생활, 금욕적 헌신, 평범한 농촌. 그 삶에서 예술을 어떻게 배웠나? 예술은 그것을 어떻게 비추나?
 
-My first performance was
-E.g. tragically disrupted, grandly celebrated, dangerously subversive.
-How has your art improved since then? What subjects inspire you?
+첫 공연은  
+예: 비극적으로 망가졌다, 성대하게 축하받았다, 위험하게 반체제적이었다. 그때 이후 예술은 어떻게 나아졌나? 무엇이 당신을 이끄나?
 
-My real adventure began when
-E.g. I befriended another PC, my art was outlawed, my identity was
-stolen. How do you portray yourself in your art?
+진짜 모험은 ~ 때 시작했다  
+예: 다른 PC와 친구가 되었다, 예술이 금지되었다, 정체가 도둑맞았다. 예술 속에서 자신을 어떻게 그리나?
 
-Relationships
-Fill in for each other PC based on how well you already know them
+## 관계
 
-Name
+다른 PC마다 이미 아는 만큼 채웁니다.
 
-Details
+이름
 
-Name
+내용
 
-Details
+이름
 
-Name
+내용
 
-Details
+이름
 
-Name
+내용
 
-Details
+이름
 
-Depth
+내용
 
-Depth
+깊이(Depth)
 
-Depth
+깊이
 
-Depth
+깊이
 
-Example Relationships
-They think my art is useless; I can’t help but prove them wrong.
+깊이
 
-I know that they know a powerful secret about me or my art.
+### 관계 예시
 
-They are my muse; they frequently inspire my greatest works.
+- 그들은 내 예술이 쓸모없다고 한다; 나는 증명하지 않고는 못 배긴다.
+- 그들이 나나 내 예술에 관한 강력한 비밀을 안다는 걸 나는 안다.
+- 그들은 나의 뮤즈다; 최고의 작품을 자주 이끌어 낸다.
+- 나는 절대 배신하거나 버리지 않는다… 지난번 이후로는.
+- 그들은 나의 연인이거나, 였거나, 될 수도… 복잡하다.
+- 그들이 내 최고의 공연을 망쳤다; 이제 갚을 차례다.
 
-I would never betray or abandon them...after the last time.
+## 시작 액션: 관객을 위한 공연(Perform for an Audience)
 
-They are my lover, or were, or would be... it’s complicated.
+특정 예술 재능으로 사람들을 즐겁게 합니다. 음악, 회화, 요리, 아니면 다른 것인가요? 관객 앞에서 예술을 펼칠 때 +매력으로 굴립니다.
 
-They interrupted my best performance; time for some payback.
+- 10+: 아래에서 셋을 고릅니다.
+- 7–9: 아래에서 둘을 고릅니다.
+- 6-: 공연이 끔찍하게 흘러갑니다. 아래에서 하나만 고르지만 조건을 표시합니다. 각 항목은 공연당 한 번만 고를 수 있습니다.
 
-Starting Move:
-Perform for an Audience
-You entertain others with a particular artistic skill. Is it music,
-painting, cooking, or something else? When you perform your art
-for an audience, roll+CHA. *On a 10+ choose three below. *On
-a 7-9 choose two below. \*On a 6- you feel the performance was
-awful; choose one below, but mark a condition. Each option can
-be chosen only once per performance.
+- 관객인 다른 PC의 조건 하나 지우기
+- 관객인 다른 PC가 다음 굴림에 유리(ADV)
+- 관객인 NPC가 당신과 단둘이 이야기하려 함
+- 다음에 싸움에 들어설 때, 예술을 무기처럼 써 모든 전투 액션을 +매력으로 굴릴 수 있음
 
-◆ Another PC in your audience clears a condition
-◆ Another PC in your audience gains ADV on their next roll
-◆ An NPC in your audience tries to speak with you privately
-◆ The next time you enter a fight, you may use your art as a
+연결된 음유시인의 길이 있으면 또한 아래를 고를 수 있습니다.
 
-weapon to roll+CHA for all Battle Moves
+- (연극가) 전부 자기 이야기로 만든다; 패토스(Pathos) 1 얻기
+- (사교가) 관객 NPC 하나를 고른다; 그들은 이제 당신에게 호의(Favor) 를 베핌
+- (연대기가) 표시해 둔 업적의 완성을 묘사한다; 그 표시를 지움
 
-If you have the associated Bard Paths, you can also choose below:
+## 장비
 
-◆ (Dramaturge) Make it all about yourself; gain 1 Pathos
-◆ (Socialite) Pick an NPC in your audience; they now Favor you
-◆ (Chronicler) Portay the completion of a marked feat; clear it.
+무기를 고릅니다(GM과 새 무기를 만들어도 됩니다).
 
-Equipment
-Choose your weapon (or create a new one with the GM):
+- [ ] 번쩍이는 레이피어(피해 2, 근접, 정밀)
+- [ ] 장식 롱소드(피해 2, 근접)와 버클러(사용 1, 들고 있을 때 사용을 표시해 공격 피해 전부 무시)
+- [ ] 화려한 석궁(피해 2, 가까움, 멀리, 정밀, 관통, 양손, 재장전, 탄약)
 
-☐ Glinting Rapier (2 dmg, close, precise)
+아래 두 가지를 고릅니다.
 
-☐ Decorated Longsword (2 dmg, close) and Buckler (1 use O,
-mark a use while holding it to ignore all damage from an attack)
+- [ ] 모험 도구(사용 3). 쓸 만한 잡동사니를 뒤질 때 사용을 표시해 손에 넣습니다.
+- [ ] 든든한 만찬. 야영(Make Camp) 할 때 나눠 먹으면 야영이 끝날 때 모든 PC HP 가득 회복.
+- [ ] 보급(사용 3). 위로하거나 버티게 하다로 질문에 답할 때 사용으로 “아니오”를 “예”처럼 씁니다.
+- [ ] 책가방(사용 3). 관련 기록을 찾을 때 사용을 표시해 찾습니다.
 
-☐ Ornate Crossbow (2 dmg, near, far, precise, piercing, two-
-handed, reload, ammo)
+## 외모
 
-Choose two items below:
+행마다 하나(또는 다른 것).
 
-☐ Adventuring Gear (3 uses OOO). When you rummage through
-this for a useful mundane item, mark a use and acquire it.
+- [ ] 알록달록 의상
+- [ ] 기묘한 양복이나 드레스
+- [ ] 가죽 가면
+- [ ] 튼튼한 류트
+- [ ] 거대한 웍
+- [ ] 수많은 붓
 
-☐ Hearty Feast. When you share this meal while Making Camp,
-all PCs heal to full when camping finishes.
+## 시작 능력치
 
-☐ Supplies (3 uses OOO). When you Comfort or Support and
-answer questions, you may spend a use to treat a “no” as a “yes”.
+아래 한 줄을 고릅니다.
 
-☐ Bag of Books (3 uses OOO). When you search it for a relevant
-record of information, mark a use to find it.
+- [ ] STR 1, DEX 1, INT 0, WIS -1, CHA 2
+- [ ] STR -1, DEX 0, INT 1, WIS 1, CHA 2
 
-For your appearance, choose one per row (or something else):
-☐ colorful costume, ☐ fanciful suit or dress, ☐ masked leathers
-☐ durable lute, ☐ enormous wok, ☐ numerous paintbrushes
+---
 
-Starting Stats Choose one below
-☐ STR 1 DEX 1 INT 0 WIS -1 CHA 2
-☐ STR -1 DEX 0 INT 1 WIS 1 CHA 2
+이름  
+호칭
 
-Name
-
-& Pronouns
-
-Baldric, Astrafel, Merida, Kosil, Lily, a catchy name
+예: 발드릭, 아스트라펠, 메리다, 코실, 릴리, 귀에 맴도는 이름
 
 HP
 
-STR
+근력(STR) · 민첩(DEX) · 지능(INT) · 지혜(WIS) · 매력(CHA)
 
-DEX
+최대 8
 
-INT
+피투성이 · 지침 · 겁먹음 · 분노 · 산만 · 불안
 
-WIS
+경험치(XP):
 
-CHA
+레벨:
 
-Max 8
+경험치 칸을 다섯 번 채우면 경험 칸을 비우고, 레벨을 1 올리며 향상 하나를 얻습니다.
 
-Bloodied
+---
 
-Exhausted
+## 발전
 
-Frightened
+레벨업할 때 아래 하나를 고릅니다.
 
-Angry
+- [ ] 직업에서 길 하나 얻기
+- [ ] 아무 능력치 +1(최대 2까지, 레벨 10 이후 옵션에서 3까지)
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 마법 아이템 하나 얻기
+- [ ] 지금 갈등이 없다면 갈등 하나 얻기(갈등 장)
+- [ ] 가진 길 중 하나에서 고급 액션 하나 얻기
+- [ ] 새 직업으로 바꾸기
 
-Distracted
+레벨 5부터 또한 아래에서 고를 수 있습니다.
 
-Insecure
+- [ ] 직업에서 길 하나 더 얻기
 
-XP:
+레벨 10부터 또한 아래에서 고를 수 있습니다.
 
-Level:
+- [ ] 아무 능력치 +1(최대 3)
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 유물 하나를 고른다(유물 장) 또는 GM과 새 유물을 만든다. 이후 GM이 단서를 줍니다.
 
-When you mark your 5th XP, clear the Experience track, increase
-your Level by one, and gain one Advancement.
+### 갈등을 해소할 때
 
-Advancements
+아래 하나를 고릅니다.
 
-When you Level Up, choose one of the following:
+- [ ] 어떤 칼보다 강하다(Mightier Than Any Sword) 를 얻습니다. 강력한 진실이나 비밀을 공연에 엮을 때, 굴림 결과와 관계없이 추가로 선택지 하나를 고를 수 있고, 아래에서도 고를 수 있습니다.
 
-☐ Gain a Path from your Class
+- 진실이나 비밀이 샌다; 이제 막을 수 없다
+- 관객 한 명이 HP 3 회복
 
-☐ ☐ +1 to any Stat (max. 2)
+- [ ] 영웅의 순간을 해금합니다. 쓸 때 서사를 온전히 잡고, 세계나 다른 PC를 극적으로 바꾸는 마지막 업적을 묘사한 뒤, 원하는 대로 이야기에서 빠집니다(은퇴·죽음 등).
 
-∞ Gain a Conflict if you don’t currently have one (pg XX)
+---
 
-∞ Gain an Advanced Move from one of your Paths
+## 연극가(Dramaturge)
 
-◆ Change to a new Class
+### 모두 약자를 응원한다(Everyone Loves An Underdog)
 
-From Level 5 onwards, you can also choose from the following:
+일행의 당연한 주인공(에헴)으로서, 일이 어둡게 보일 때 판을 뒤집는 법을 압니다. 그 능력은 패토스(Pathos) 로 나타납니다.
 
-☐ Gain another Path from your Class
+세션을 마친다(End the Session) 면 패토스를 0으로 돌린 뒤, 아래 질문에 “아니오”로 답한 개수만큼 패토스를 얻습니다(최대 3).
 
-☐ +1 to any Stat (max. 2)
+6-를 굴리면 조건을 표시해 패토스 1을 얻을 수 있습니다.
 
-☐ Multiclass — Gain a new Path from a Class not being played
+곤경에서 빠져나갈 길을 찾을 때, 패토스 1을 써서 아래 하나를 고를 수 있습니다. 어떻게 되는지 묘사하고 질문에 답합니다. 그다음 GM이 이어 갑니다.
 
-☐ Gain a Magic Item
+- 새 NPC를 알아채거나 만난다. 그들에 관해 한 가지—눈에 보이거나 이미 아는 것—은?
+- 장애물을 돌파하거나 비켜 가는 새 길을 발견한다. 아픈 대가나 새로운 위험은 무엇인가?
+- 지금까지 언급되지 않았던 과거의 누군가를 알아본다. 그들은 당신을 어떻게 생각하나?
+- 잠시 주변 모든 이의 시선을 끈다. 그들이 당신에게 가장 두려운 짓은?
 
-From Level 10 onwards, you can also choose from the following:
+### 나만의 솔로 시간(Time For My Solo)
 
-☐ +1 to any Stat (max. 3)
+한계에 다다른다(Reach Your Limit) 면 결기를 시험한다(Test Your Resolve) 에 유리(ADV) 입니다. 10+이면 잠기지 않은 조건을 모두 지웁니다. 결과와 관계없이 경험치 1도 표시합니다.
 
-☐ Multiclass — Gain a new Path from a Class not being played
+### 클라이맥스 결투(Climactic Duel)
 
-☐ Choose an Artifact (page 52) or work with the GM to create a
-new one. Then the GM will give you a lead on where to find it.
+누군가와 일대일로 싸울 때, 선택지가 있는 아무 전투 액션을 굴린 뒤, 조건을 표시해 결과와 관계없이 추가 선택지 하나를 고를 수 있습니다.
 
-When you resolve a Conflict, choose one below:
+### 소설보다 더 낯선(Stranger Than Fiction)
 
-☐ Gain Mightier Than Any Sword. When you weave a powerful
-truth or secret into your Performance, you may make an extra
-choice no matter your roll, and you may also choose from below:
+아무도 제정신이라면 믿지 않을 터무니없는 이야기를—진실이든 거짓이든—할 때 +매력으로 굴립니다.
 
-◆ The truth or secret gets out; nothing can stop it now
-◆ A member of your audience restores 3 HP
+- 10+: 근처 NPC 모두 당장은 믿습니다. 다른 무언가가 설득할 때까지.
+- 7–9: 속이긴 했지만 오래가지 않습니다.
+- 6-: 당신을 진짜로 어떻게 생각하는지 보여 줍니다; 경험치 1을 표시하고 GM이 마스터 액션을 합니다.
 
-☐ Unlock your Moment of Heroism. When you use it, take total
-control of the narrative, describe one last feat you accomplish
-that dramatically changes the world or other PCs, then exit the
-narrative however you wish (eg. retirement, death, etc.)
+### 빈틈없는 배경 이야기(Intricate Backstory)
 
-19
+갈등을 동시에 둘까지 가질 수 있습니다. 지금 갈등을 고르거나 다음 세션을 시작할 때 고릅니다.
 
-Bard Paths
+---
 
-☐ Dramaturge
-Everyone Loves An Underdog
-As the obvious main character of the party (cough), you
-know just how to turn the tables when things look grim, and
-your ability to do so is represented by Pathos.
+## 사교가(Socialite)
 
-When you End the Session, reset Pathos to 0, then gain 1
-Pathos for each question you answer “no” (max 3).
+### 잊히지 않는다(Unforgettable)
 
-When you roll a 6 or lower you may mark a condition to
-gain 1 Pathos.
+NPC를 위해 중요한 일을 해내거나 선택에 영향 주기(Influence Choice) 에 12+가 나오면, 그들이 이제 당신에게 호의(Favor) 를 베푼다고 적습니다. 호의가 있는 동안 그들은 당신을 특별히 대하거나 당신의 이익에 맞춰 기꺼이 움직입니다.
 
-When you look for a way out of a bad spot, you may spend
-1 Pathos to choose one below; describe how it happens and
-answer its question. Then the GM will take it from there.
+호의를 베푸는 이를 모욕하거나 다치게 하거나 실망시키면 그 호의를 지웁니다.
 
-◆ Notice or meet a new NPC. What one thing about them
+누군가에게 호의를 청할 때 아래 하나를 고릅니다. 그들은 지금 여기서 최선을 다해 이행하려 합니다. 이행하면 호의를 지웁니다. 아무 이유로든 못 하면 호의는 남고, 그들에게 맞서는 다음 굴림에 유리입니다.
 
-can you plainly see or already know?
-
-◆ Discover a new path through or around an obstacle.
-What painful cost or dangerous risk does it require?
-
-◆ Recognize someone from your past, even though it
-
-wasn’t mentioned before. How do they feel about you?
-
-◆ Draw the attention of everyone nearby for a while. What
-
-are you most afraid they’ll do to you?
+- 그들이 가진 무언가를 이름 붙인다; 줍니다
+- 곤경에 처했다고 말한다; 당신을 지킵니다
+- 적이나 장애물을 가리킨다; 그에 맞서 행동합니다
 
-☐ Time For My Solo
-When you Reach Your Limit, you have ADV to Test Your
-Resolve. On a 10+ you also clear all non-locked conditions.
-No matter the result, you also mark 1 XP.
-
-☐ Climactic Duel
-When you fight someone one-on-one, after you roll any
-Battle Move with choices you may mark a condition to make
-an extra choice, no matter the result.
-
-☐ Stranger Than Fiction
-When you tell an outrageous story that nobody in their
-right mind would believe, truth or lie, roll+CHA. *On a 10+
-all nearby NPCs believe you anyway, at least until something
-convinces them otherwise. *On a 7-9 they’re fooled, but not
-for long. \*On a 6- they show you what they really think of
-you; mark 1 XP and the GM makes a Move.
-
-☐ Intricate Backstory
-You can have two Conflicts at a time. Choose a Conflict now
-or when you start the next session.
-
-20
-
-☐ Socialite
-Unforgettable
-When you accomplish a significant task for an NPC, or
-roll a 12+ to Influence Choice, write down that they now
-Favor you. While they Favor you, they might treat you
-especially well or passively act in your interests.
-
-When you insult, injure, or disappoint someone who
-Favors you, erase their Favor.
-
-When you call in a Favor with someone, choose one option
-below. They’ll try their best to do it here and now. If they do
-it, erase their Favor. If they don’t do it for any reason, keep
-their Favor and your next roll against them has ADV.
-
-◆ Name something they have; they’ll give it to you
-◆ Tell them you’re in trouble; they’ll protect you
-◆ Point them at an enemy or obstacle; they’ll act against it
-
-☐ Cards on the Table
-When you Sense someone’s Motive by speaking openly and
-honestly with them, you may roll+CHA instead of +WIS. You
-may also ask an additional question, even on a 6-, but if you
-do then afterwards they‘ll ask you a question in return. If
-you answer in truth, they Favor you no matter what you say.
-If you obfuscate or deceive them in any way, you can’t use
-this move on them again and you lose their Favor forever.
-
-☐ Captivating
-When you share an intimate or enchanting moment with
-an NPC, often with time and privacy, they now Favor you.
-
-When you call in a favor, you may choose two instead of
-one. They must do both to erase their Favor, but if they do
-then they’ll never Favor you again.
-
-☐ No Need for Words
-You can mark a condition to mutually communicate with
-any sapient being for the scene, regardless of difficulties.
-
-☐ Friends in Strange Places
-When you remember someone who can help you and
-search them out, roll+CHA. If you owe them a debt (your
-call) then roll with ADV. *On a 10+ you find them and they’re
-able to help. *On a 7-9 they’re in trouble and can’t help until
-that’s resolved. \*On a 6- you find only treachery or tragedy;
-mark 1 XP and the GM makes a Move.
-
-☐ Chronicler
-The Stuff of Legends
-You’re recording this adventure for future generations.
-The first time any PC (including you) accomplishes an
-unmarked feat below, mark it, then you clear a condition
-and the PC who did it (or led the group effort) marks 1 XP.
-When you mark the last feat, clear all feats and conditions
-(including locked ones).
-
-◆ Befriend a former enemy
-◆ Uncover the mysteries of
-
-a lost civilization
-
-◆ Attend a fabulous party
-◆ Defend an inhabited
-
-place from dire threats
-
-◆ Make a costly sacrifice
-for the greater good
-
-◆ Defeat a powerful and
-terrifying monster
-
-◆ Loot a famous treasure
-
-◆ Depose a corrupt ruler
-
-☐ Spout Folklore
-When you first encounter someone or something that
-you’ve heard tales, songs, or legends about (your call), tell
-the GM something interesting you’ve heard about it, then
-either say how you feel about it, marking a condition, or the
-GM says what else you’ve heard that complicates it.
-
-☐ Legwork
-When you spend time learning about a nearby location
-(often while also Enjoying Downtime), roll+CHA if you talk
-to strangers and listen to rumors, or roll+INT if you search
-archives and study records. *On a 10+ choose two new things
-you learn below. *On a 7-9 choose one:
-
-◆ It hides a valuable treasure, likely dangerously guarded
-◆ It holds potential allies or leverage against an enemy
-◆ It has an alternate entrance with its own risk or cost
-
-☐ I Dabble Here and There
-When you gain this move, choose the Starting Move of a
-Class that isn’t in play right now and note it below. When
-you unleash these hidden talents, you may mark a condition
-to access this Move until the end of the scene.
-
-☐ Polymath
-When you Recall Knowledge, you may ignore the questions
-and instead roll+INT. If you have a relevant record of
-information, gain ADV on the roll. On a 12+ you may answer
-instead of the GM.
+### 패를 드러내다(Cards on the Table)
+
+솔직하고 열린 대화로 누군가의 속뜻 읽기(Sense Motive) 를 할 때 +지혜 대신 +매력으로 굴릴 수 있습니다. 6-에서도 질문 하나를 더 할 수 있지만, 그 뒤 그들이 당신에게 질문을 돌려줍니다. 진실로 답하면 무슨 말을 하든 그들은 당신에게 호의를 베풉니다. 어떤 식으로든 흐리거나 속이면, 이 액션을 그들에게 다시 쓸 수 없고 영원히 그들의 호의를 잃습니다.
+
+### 매혹적이다(Captivating)
+
+NPC와 친밀하거나 매혹적인 순간—흔히 시간과 은둔이 함께할 때—을 나누면 그들은 이제 당신에게 호의를 베풉니다.
+
+호의를 청할 때 하나 대신 둘을 고를 수 있습니다. 둘 다 해야 호의가 지워지지만, 그렇게 하면 다시는 당신에게 호의를 베풀지 않습니다.
+
+### 말은 필요 없다(No Need for Words)
+
+조건을 표시해 이번 장면 동안 지각 있는 존재 누구와든 상호 소통할 수 있습니다. 언어의 장벽과 관계없이.
+
+### 이상한 곳의 친구들(Friends in Strange Places)
+
+도움이 될 누군가를 떠올리고 찾아 나설 때 +매력으로 굴립니다. 그들에게 빚이 있다면(당신이 정함) 유리로 굴립니다.
+
+- 10+: 찾아내고 도울 수 있습니다.
+- 7–9: 곤경에 처해 그 문제가 풀릴 때까지 돕지 못합니다.
+- 6-: 배신이나 비극만 찾습니다; 경험치 1을 표시하고 GM이 마스터 액션을 합니다.
+
+---
+
+## 연대기가(Chronicler)
+
+### 전설이 될 재료(The Stuff of Legends)
+
+이 모험을 후손을 위해 기록합니다. 아래 표시되지 않은 업적을 아무 PC(당신 포함)가 처음 이루면 표시하고, 당신은 조건 하나를 지우며 그 일을 한 PC(또는 일행을 이끈 PC)는 경험치 1을 표시합니다. 마지막 업적을 표시하면 모든 업적과 조건(잠긴 것 포함)을 지웁니다.
+
+- 예전 적과 친구가 된다
+- 잃어버린 문명의 비밀을 파헤친다
+- 화려한 파티에 참석한다
+- 사람이 사는 곳을 끔찍한 위협으로부터 지킨다
+- 더 큰 선을 위해 값비싼 희생을 한다
+- 강하고 무서운 괴물을 쓰러뜨린다
+- 유명한 보물을 약탈한다
+- 부패한 통치자를 몰아낸다
+
+### 민담을 늘어놓다(Spout Folklore)
+
+이야기·노래·전설로 들어 본 적 있는 누군가나 무언가(당신이 정함)를 처음 마주할 때, GM에게 그것에 관해 흥미로운 것을 하나 말합니다. 그다음 그에 대한 감정을 말하며 조건 하나를 표시하거나, GM이 더 복잡하게 만드는 추가 소문을 말합니다.
+
+### 발품(Legwork)
+
+가까운 장소에 대해 시간을 들여 알아볼 때(흔히 휴식을 즐긴다(Enjoy Downtime) 와 겹치기도), 낯선 이와 이야기하며 소문을 듣면 +매력, 기록을 찾아 공부하면 +지능으로 굴립니다.
+
+- 10+: 아래에서 새 사실 둘을 고릅니다.
+- 7–9: 하나만.
+
+- 값진 보물을 숨기고 있으며 위험하게 지켜짐
+- 잠재적 아군이나 적에게 쓸 지렛대가 있음
+- 다른 출입구가 있으며 자체 위험이나 대가가 있음
+
+### 곳곳에 발을 담근다(I Dabble Here and There)
+
+이 액션을 얻을 때, 지금 플레이되지 않는 직업의 시작 액션을 고르고 아래에 적습니다. 이 숨은 재능을 꺼낼 때 조건을 표시해 장면이 끝날 때까지 그 액션을 쓸 수 있습니다.
+
+### 만학박(Polymath)
+
+지식 더듬기(Recall Lore) 를 할 때 질문을 무시하고 대신 +지능으로 굴릴 수 있습니다. 관련 기록이 있으면 굴림에 유리입니다. 12+이면 GM 대신 당신이 답할 수 있습니다.

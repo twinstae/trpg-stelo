@@ -1,262 +1,179 @@
-<!-- split from dw2.md: bonds | source lines 6920-7182 | approx book page 42 -->
+---
+title: "던전월드 2 · 유대"
+description: "유대(본드) 미니 플레이북."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
 
-Bond of Conviction
-When it comes to values, morals, beliefs, and perhaps faith, the
-two of you are of similar minds.
+<!-- split from dw2.md: bonds | source lines 6920-7182 | approx book page 42-43 -->
 
-Shared Alignment
-When you gain this Bond, discuss and write down a
-statement you both fervently agree on (e.g. we will protect
-the innocent, our deity’s will is law, the king must be slain).
-This is your alignment. When you End the Session, ask “did
-we reinforce our alignment or advance its goals?” If yes, you
-both gain 1 XP. If no, you may rewrite this alignment.
+## 신념의 유대(Bond of Conviction)
 
-☐ Zealous
-Once per session, when you Aid your bondmate in
-pursuit of your alignment, don’t mark a condition.
-When you Sense Motive, you can also always ask “do you
-agree with our alignment?” no matter the result.
+_가치, 도덕, 신념, 어쩌면 신앙에 이르기까지, 둘은 비슷한 마음을 가집니다._
 
-☐ You Can’t Kill an Idea
-When you Face Death while fighting for your alignment,
-you may choose Blaze of Glory and get its benefit without
-dying. Then you lose access to this move forever.
+### 공유 가치관(Shared Alignment)
 
-☐ Return the Favor
-When you help or save a significant NPC, they now support
-your alignment. Once in the campaign (per NPC), you may
-call upon them; they will appear and help with the current
-situation.
+이 유대를 얻으면, 둘 다 열렬히 동의하는 문장을 논의해 적습니다(예: 우리는 무고한 이를 지킬 것이다, 우리 신의 뜻이 곧 법이다, 왕은 죽어야 한다). 이것이 당신들의 가치관입니다. **세션을 마친다** 를 할 때 "우리가 가치관을 강화했거나 그 목표를 전진시켰나?"라고 묻습니다. 예이면 둘 다 경험치 1을 얻습니다. 아니면 이 가치관을 고칠 수 있습니다.
 
-42
+- [ ] **광신**(Zealous)
+      세션당 한 번, **가치관을 쫓으며 유대 상대를 동료 돕기할 때** 조건을 표시하지 않습니다. **속뜻 읽기** 를 할 때 결과와 관계없이 항상 "우리 가치관에 동의하나?"도 물을 수 있습니다.
 
-Bond of Guardianship
-One of you protects the other and teaches them your ways.
-Perhaps about life or philosophy; or perhaps about fireballs.
+- [ ] **이념은 죽일 수 없다**(You Can't Kill an Idea)
+      **가치관을 위해 싸우다 황천길에 오를 때**, **영광의 불꽃** 을 고르고 죽지 않고 그 이익을 얻을 수 있습니다. 그다음 이 액션에 대한 접근을 영원히 잃습니다.
 
-Designate one of you as the Mentor and one as the Ward.
+- [ ] **은혜 갚기**(Return the Favor)
+      **중요한 NPC를 돕거나 구하면**, 그 NPC는 이제 당신들의 가치관을 지지합니다. 캠페인에서 (NPC마다) 한 번, 그들을 부를 수 있습니다; 나타나 지금 상황을 돕습니다.
 
-Words of Wisdom
-Once per session, when the Mentor gives advice or
-guidance to the Ward, tell them what you want them to do.
-If they accept it, their first roll in pursuit of it has ADV. If
-they reject it, you mark a condition but they clear one. If
-they achieve it, they mark 1 XP and you clear a condition.
+## 수호의 유대(Bond of Guardianship)
 
-☐ The Sincerest Form of Flattery
-When the Ward imitates a mannerism or ability from the
-Mentor, either may mark a condition for the Ward to gain
-access to one of the Mentor’s moves for the rest of the scene.
+_한쪽이 다른 쪽을 지키고 자기 방식을 가르칩니다. 삶이나 철학일 수도, 파이어볼일 수도 있습니다._
 
-☐ Just Like We Practiced
-When Ward and Mentor work together in a shared task,
-such as a back-to-back fight or joint ritual, on a 12+ both
-clear a condition or gain 1 Depth with the other.
+둘 중 스승(Mentor)과 피보호자(Ward)를 정합니다.
 
-☐ Heroic Sacrifice
-When the Ward Faces Death, the Mentor may take their
-place, clearing a condition and joining the scene if they
-were absent. When the Mentor dies, the Ward gains one of
-their Path Moves and retains it after this Bond is erased.
+### 지혜의 말(Words of Wisdom)
 
-Bond of Family
-Sibling, parent, cousin, friend. Through circumstance or blood,
-you know, love, and bicker with each other like no one else.
+세션당 한 번, **스승이 피보호자에게 조언이나 지도를 줄 때**, 그들에게 무엇을 하길 바라는지 말합니다. 받아들이면 그 일을 쫓는 첫 판정에 유리입니다. 거부하면 당신은 조건 하나를 표시하지만 그들은 조건 하나를 지웁니다. 그 일을 이루면 그들은 경험치 1을 표시하고 당신은 조건 하나를 지웁니다.
 
-This Reminds Me Of…
-When you Aid your bondmate by referencing your shared
-history, they may choose an additional benefit from your
-Aid as long as you don’t elaborate on the reference.
+- [ ] **모방은 최고의 찬사**(The Sincerest Form of Flattery)
+      **피보호자가 스승의 버릇이나 능력을 흉내 낼 때**, 둘 중 하나가 피보호자를 위해 조건 하나를 표시하면 피보호자는 그 장면이 끝날 때까지 스승의 액션 하나를 쓸 수 있습니다.
 
-☐ Birds of a Feather
-Where one of you goes, so does the other. Any special
-treatment, access, or social benefits that you have now
-extends to your bondmate by default, whether granted from
-Moves or established in the fiction.
+- [ ] **연습한 대로**(Just Like We Practiced)
+      **피보호자와 스승이 등 맞대기 싸움이나 합동 의식 같은 공동 과제에 함께 나설 때**, 12+이면 둘 다 조건 하나를 지우거나 서로 관계 깊이 1을 얻습니다.
 
-☐ You Mess With One Of Us...
-When your bondmate is in trouble, you may appear next
-to them here and now, no questions asked (yet). If you were
-trapped, endangered, or impeded, the GM will first say a
-cost between 1 and 4, depending on how bad a position you
-were in. Split that number as you choose between damage
-taken and conditions marked, then get to them anyways.
+- [ ] **영웅적 희생**(Heroic Sacrifice)
+      **피보호자가 황천길에 오를 때**, 스승이 그 자리를 대신할 수 있으며 조건 하나를 지우고 장면에 없었다면 합류합니다. **스승이 죽으면** 피보호자는 그들의 길(Path) 액션 하나를 얻고, 이 유대가 지워진 뒤에도 유지합니다.
 
-☐ But I Can Carry You
-When you would mark a condition in the presence of your
-bondmate, they may choose to mark one instead.
+## 가족의 유대(Bond of Family)
 
-Bond of Fascination
-You share a passion for a topic, hobby, craft, or similar, and
-spend most of your time together discussing or working on it.
+_형제, 부모, 사촌, 친구. 피나 처지로, 누구보다 서로를 알고 사랑하고 틱틱대는 사이입니다._
 
-Bond of Investigation
-Whether solving street corner crimes or unraveling the mysteries
-of the universe, your minds work particularly well together.
+### 이거 생각나…(This Reminds Me Of…)
 
-Bond of Rivalry
-Constantly pushing each other to greater heights, or longer falls,
-each of you refuses to be outdone by the other.
+**공유한 과거를 들먹이며 유대 상대를 동료 돕기할 때**, 그 참조를 늘리지 않는 한 당신의 **동료 돕기** 에서 추가 이익 하나를 고를 수 있습니다.
 
-Decide together what interest you share (e.g. cooking, secret
-history, magic, arena fights, political rumors, birds).
+- [ ] **깃털 닮은 새**(Birds of a Feather)
+      한쪽이 가는 곳엔 다른 쪽도 갑니다. 한쪽이 갖는 특별 대우, 출입, 사회적 이익은 액션에서 오든 이야기 속에서 확립되었든 기본적으로 유대 상대에게도 확장됩니다.
 
-Great Minds
-When you Aid your bondmate in relation to your interest,
-they may choose an additional Aid benefit.
+- [ ] **한 명 건드리면…**(You Mess With One Of Us…)
+      **유대 상대가 곤경에 처하면**, 지금 여기 그 옆에 나타날 수 있으며 질문은 나중입니다(아직). 당신이 갇혀 있거나, 위험에 처했거나, 막혀 있었다면, GM이 당신이 있던 처지가 얼마나 나빴는지에 따라 1~4 사이 대가를 먼저 말합니다. 그 숫자를 입은 피해와 표시한 조건 사이에 원하는 대로 나눈 뒤, 그래도 그들에게 갑니다.
 
-☐ Paired Project
-You’re working on a shared masterpiece or discovery related
-to your interest. Say what it is, and the GM will give you 1-4
-requirements similar to the Perform a Ritual Move from the
-Wizard’s Adept Path. When you meet the requirements, you
-finish the project and each gain 1 XP.
+- [ ] **대신 짊어질게**(But I Can Carry You)
+      **유대 상대 곁에서 조건을 표시하려 할 때**, 그들이 대신 조건 하나를 표시하도록 선택할 수 있습니다.
 
-When you “Carouse” during downtime by working on your
-project, ask the GM any one shared question about it.
+## 매혹의 유대(Bond of Fascination)
 
-☐ Study Buddies
-When you Recall Lore about your interest, also ask your
-bondmate the questions. You may treat their “yes” as yours.
-On a 12+ your bondmate may answer instead of the GM.
+_주제, 취미, 기예 등에 대한 열정을 나누며, 함께 있는 시간 대부분을 그것에 대해 이야기하거나 손대며 보냅니다._
 
-☐ Specialists
-When you Defy a Danger related to your interest, ignore
-any conditions that affect only one of you. On a 12+ choose 0.
+함께 무엇에 관심을 공유하는지 정합니다(예: 요리, 숨은 역사, 마법, 투기장 싸움, 정치 소문, 새).
 
-Open a Case
-When you start the session, you and your bondmate may
-ask one shared question about a companion, mystery, aspect
-of the world, or similar. When you find an answer during the
-same session, you both clear a condition. If you overcame
-significant obstacles to find it, you also gain 1 XP.
+### 위대한 두 머리(Great Minds)
 
-☐ Digging Deeper
-When you Unearth Secrets with your bondmate’s Aid, on
-a 12+ your bondmate may ask any one question about the
-discovery and the GM will answer truthfully.
+**관심사와 관련해 유대 상대를 동료 돕기할 때**, 그들이 **동료 돕기** 이익 하나를 추가로 고를 수 있습니다.
 
-☐ Just Like We Planned
-When you Keep Watch, your bondmate is always ready by
-the time it arrives. If you pick Alert others, your bondmate
-gains +1 to their next roll against whatever approaches.
+- [ ] **짝 프로젝트**(Paired Project)
+      관심사와 맞닿은 공동 걸작이나 발견을 진행 중입니다. 그것이 무엇인지 말하면, GM이 마법사의 _숙련가_ 길에 있는 **의식을 행한다** 액션과 비슷한 1~4개 요건을 줍니다. 요건을 다 채우면 프로젝트를 완성하고 각각 경험치 1을 얻습니다.
 
-☐ Good Cop, Bad Cop
-When you Sense Motive with your bondmate’s Aid, gain
-one below, or both if they mark an additional condition.
+**휴식을 즐긴다** 중 프로젝트 작업으로 **들끓인다** 를 할 때, GM에게 그것에 관한 질문 하나를 함께 할 수 있습니다.
 
-    ◆ Good: On a 12+ you also convince them to do something
+- [ ] **공부 짝**(Study Buddies)
+      **관심사에 대해 지식 더듬기를 할 때**, 질문을 유대 상대에게도 합니다. 그들의 "예"를 당신의 것처럼 취급할 수 있습니다. 12+이면 유대 상대가 GM 대신 답할 수 있습니다.
 
-for you as if you rolled a 7-9 to Influence Choice.
+- [ ] **전문가 둘**(Specialists)
+      **관심사와 관련해 위험 돌파를 할 때**, 둘 중 한쪽에게만 걸린 조건은 무시합니다. 12+이면 선택을 0개 합니다.
 
-◆ Bad: The next time you roll against them, roll with ADV.
+## 수사의 유대(Bond of Investigation)
 
-Bond of Intimacy
-You both have mutual feelings of romance, attraction, or similar
-affection, and have agreed to explore them together.
+_골목 사건을 풀든 우주의 수수께끼를 풀든, 둘의 머리는 특히 잘 맞습니다._
 
-Bond of Mischief
-You crave laughter and entertainment, especially when together.
-What’s a little troublemaking in its pursuit?
+### 사건 개시(Open a Case)
 
-Get a Room
-When you and your bondmate spend time and intimacy
-together, you both reset to 1 Heartstring each. You can
-spend a Heartstring to Aid your bondmate without marking
-a condition, regardless of distance or other obstacles, and
-they gain an additional benefit from this Aid.
+**세션을 시작할 때**, 유대 상대와 동행자, 수수께끼, 세계의 한 면 등에 관한 질문 하나를 함께 할 수 있습니다. 같은 세션 안에 답을 찾으면 둘 다 조건 하나를 지웁니다. 그걸 찾기 위해 유의미한 장애를 넘었다면 경험치 1도 얻습니다.
 
-☐ Words of Affirmation
-When you Comfort or Support your bondmate, you may
-also ask “Did you express admiration or attraction to them
-in a new way or about a new part of them?” If yes, gain +1
-and they clear an extra condition no matter the result.
+- [ ] **더 파고들기**(Digging Deeper)
+      **유대 상대의 동료 돕기로 비밀을 파헤칠 때**, 12+이면 유대 상대가 그 발견에 관해 아무 질문 하나를 해도 되고 GM은 진실로 답합니다.
 
-☐ I Do
-When you and your bondmate vow a lifelong committment
-to each other, briefly take total shared control of the
-narrative, accomplish one thing together that dramatically
-changes the world or each other, then erase this move and
-never gain it again within this Bond.
+- [ ] **계획한 대로**(Just Like We Planned)
+      **파수를 설 때**, 그 일이 닥칠 때쯤엔 유대 상대가 항상 준비되어 있습니다. _다른 이에게 알린다_ 를 고르면 유대 상대는 다가오는 무엇에 대한 다음 판정에 +1을 얻습니다.
 
-☐ Honeymoon
-When you Get a Room, reset to 2 Heartstrings instead of 1.
+- [ ] **착한 형 나쁜 형**(Good Cop, Bad Cop)
+      **유대 상대의 동료 돕기로 속뜻 읽기를 할 때**, 아래 하나를 얻거나, 그들이 조건을 하나 더 표시하면 둘 다 얻습니다.
 
-Pull a Prank
-Once per session, after you accomplish something for the
-sole purpose of entertainment or chaos, choose one. If
-your bondmate helped, they choose one as well.
+- **착함:** 12+이면 **선택에 영향 주기** 로 7–9를 굴린 것처럼 그들이 당신을 위해 무언가 하도록 설득한 것도 됩니다.
+- **나쁨:** 다음 그들에게 거는 판정에 유리로 굴립니다.
 
-◆ It’s spectacular - clear a condition
-◆ It’s dangerous - deal 1 damage to all nearby but you two
-◆ It’s distracting - gain an opportunity while it happens
-☐ Contrarian
-At any time, you may ask a character “what do you least want
-me to do right now?” as if you Sensed Motive.
+## 라이벌의 유대(Bond of Rivalry)
 
-☐ Kobolds in a Trenchcoat
-When you Sneak Past, you can always bring your bondmate
-with you and cover them with the same roll. If they Aid you
-as well, choose two benefits instead of one.
+_끊임없이 서로를 더 높이—혹은 더 깊이—밀어 올리며, 누구도 다른 쪽에게 지지 않으려 합니다._
 
-☐ Love to Make You Smile
-When you Pull a Prank, you can both also choose this:
+### 늘 경쟁(Always a Competition)
 
-◆ It’s inspiring - gain 1 Depth with another PC
+**인상적인 기행이나 위험한 묘기를 성공시키면** 라이벌에게 동의하는지 묻습니다. 동의하면 당신이 이기는 중입니다. 아니면 그들과의 관계 깊이 하나를 지워 그들이 동의한 것처럼 취급할 수 있습니다. 어차피 그들 의견이 필요하던가요?
 
-Always a Competition
-When you pull off an impressive feat or dangerous trick,
-ask your rival if they agree. If so, you start winning. If not,
-you may erase a Depth with them to treat it like they do. Who
-needs their opinion anyways?
+각 세션을 시작할 때는 아무도 이기는 중이 아닙니다. **세션을 마친다** 를 할 때 이기는 중인 쪽이 경험치 1을 얻습니다.
 
-When you start each session, no one
-When you End the Session, whoever is winning gains 1 XP.
+- [ ] **따라와 봐**(Try to Keep Up)
+      **이기는 중이 되면** 라이벌을 도발할 수 있습니다. 그러면 당신은 조건 하나를 지우지만 그들은 다음 판정에 유리입니다.
 
-is winning.
+- [ ] **그래도 하나로 친다**(That Still Only Counts as One)
+      세션당 한 번, **라이벌이 한계를 넘었거나 불가능에 가까운 일을 했다고 인정하면**, 당신은 경험치 1 또는 그들과의 관계 깊이 1 중 하나를 얻고; 그들은 당신과의 관계 깊이 1을 얻거나 조건 하나를 지웁니다(잠긴 조건 포함).
 
-☐ Try to Keep Up
-When you start winning, you may taunt your rival. If you
-do, you clear one condition they gain ADV on their next roll.
+- [ ] **네가 하면 나도 더 잘해**(Anything You Can Do, I Can Do Better)
+      **라이벌처럼 행동하며 그들을 동료 돕기할 때**, "그들이 유리로 굴린다"를 다음으로 바꿉니다: "그들이 굴릴 때 당신도 굴립니다. 당신 결과가 더 높으면 당신이 이기는 중이 되고 그들은 당신 판정을 씁니다."
 
-☐ That Still Only Counts as One
-Once per session, when you admit that your rival went
-above and beyond or did the impossible, you gain either 1
-XP or 1 Depth with them; they either gain 1 Depth with you
-or clear a condition (even a locked one).
+## 친밀의 유대(Bond of Intimacy)
 
-☐ Anything You Can Do, I Can Do Better
-When you Aid your rival by acting like them, replace “They
-roll with ADV” with “When they roll, you also roll. If your
-result is higher, you start winning and they use your roll
-instead.”
+_로맨스, 끌림, 비슷한 애정을 서로 품고 있으며, 그것을 함께 탐구하기로 했습니다._
 
-Bond of Steel
-You’ve fought against foes neither of you could defeat alone, but
-together you triumphed more times than you can count.
+### 방 잡자(Get a Room)
 
-Blood for Blood
-When you Aid your bondmate in a Battle Move, you may
-suffer 1 damage instead of marking a condition. You may
-also Aid multiple times at once, paying the cost each time.
+**유대 상대와 시간을 내며 친밀함을 나누면**, 둘 다 하트스트링(Heartstring)을 각각 1로 리셋합니다. 하트스트링 하나를 써서 거리나 다른 장애와 관계없이 조건 표시 없이 유대 상대를 **동료 돕기** 할 수 있으며, 이 **동료 돕기** 에서 추가 이익을 얻습니다.
 
-☐ Training Exercise
-When you Make Camp, you and your bondmate can choose
-one Battle Move together. Until you next Make Camp, add
-“Gain 1 XP” to the list of choices available for that move.
-Additionally, the first time each battle that one of you aids
-the other in that move, it doesn’t cost a condition.
+- [ ] **인정의 말**(Words of Affirmation)
+      **유대 상대를 위로하거나 버티게 할 때**, "새 방식이나 그들의 새로운 면에 대해 감탄이나 끌림을 표현했나?"도 물을 수 있습니다. 예이면 +1을 얻고 결과와 관계없이 그들이 조건 하나를 추가로 지웁니다.
 
-☐ Fight It Out
-When you Comfort or Support your bondmate by dueling,
-brawling, or otherwise fighting with them, you may ignore
-the questions and roll+STR (or +DEX with a Precise weapon).
-On a 12+ you clear an extra condition yourself.
+- [ ] **맹세한다**(I Do)
+      **유대 상대와 평생 서로에게 맹세하면**, 잠시 내러티브를 완전히 공유해 조종하고, 함께 세계나 서로를 극적으로 바꾸는 일 하나를 이룬 뒤, 이 액션을 지우고 이 유대 안에서는 다시는 얻지 않습니다.
 
-☐ Take the Shot
-When you All Out Attack with your bondmate’s aid, or with
-the edge they secured, on a 10+ you may also choose to
-avoid all damage instead of the other choices.
+- [ ] **신혼여행**(Honeymoon)
+      **방 잡자** 를 할 때 1 대신 하트스트링을 2로 리셋합니다.
 
-43
+## 장난의 유대(Bond of Mischief)
+
+_웃음과 즐거움, 특히 함께일 때 갈망합니다. 그걸 위한 작은 말썽쯤이야 뭐 어때요?_
+
+### 장난 치기(Pull a Prank)
+
+세션당 한 번, **오락이나 혼란만을 위해 무언가를 이룬 뒤** 하나를 고릅니다. 유대 상대가 도왔다면 그들도 하나를 고릅니다.
+
+- 장관이다 — 조건 하나 지움
+- 위험하다 — 둘을 제외한 근처 모두에게 피해 1
+- 산만하다 — 그동안 기회를 얻음
+
+- [ ] **반항아**(Contrarian)
+      언제든 캐릭터에게 **속뜻 읽기** 한 것처럼 "지금 가장 내가 하기 싫은 일이 뭐지?"라고 물을 수 있습니다.
+
+- [ ] **트렌치코트 속 코볼트**(Kobolds in a Trenchcoat)
+      **몰래 지나가기** 를 할 때 항상 유대 상대를 같은 판정으로 데려갈 수 있습니다. 그들이 당신을 **동료 돕기** 하면 이익을 하나 대신 둘 고릅니다.
+
+- [ ] **웃게 해 주고 싶어**(Love to Make You Smile)
+      **장난 치기** 를 할 때 둘 다 이것도 고를 수 있습니다:
+
+- 고무한다 — 다른 PC와 관계 깊이 1
+
+## 강철의 유대(Bond of Steel)
+
+_둘 어느 한쪽도 홀로 이기지 못한 적과 싸웠고, 함께는 셀 수 없이 많이 승리했습니다._
+
+### 피로 피를(Blood for Blood)
+
+**전투 액션으로 유대 상대를 동료 돕기할 때** 조건 대신 피해 1을 입을 수 있습니다. 비용을 낼 때마다 **동료 돕기** 를 여러 번 한 번에 할 수도 있습니다.
+
+- [ ] **훈련 연습**(Training Exercise)
+      **야영** 할 때 유대 상대와 함께 전투 액션 하나를 고릅니다. 다음 **야영** 까지 그 액션의 선택지 목록에 "경험치 1 얻기"를 더합니다. 또 각 전투에서 그 액션으로 서로를 처음 도울 때는 조건이 들지 않습니다.
+
+- [ ] **주먹으로 풀자**(Fight It Out)
+      **결투, 난투, 그 밖의 싸움으로 유대 상대를 위로하거나 버티게 할 때**, 질문을 무시하고 +근력(정밀 무기면 +민첩)으로 굴립니다. 12+이면 당신도 조건 하나를 추가로 지웁니다.
+
+- [ ] **내가 쏜다**(Take the Shot)
+      **유대 상대의 도움으로 전력 공격하거나 그들이 마련한 우위로 할 때**, 10+이면 다른 선택 대신 모든 피해를 피할 수도 있습니다.

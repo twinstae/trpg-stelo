@@ -1,108 +1,69 @@
+---
+title: "던전월드 2 · 전투 액션"
+description: "전투 액션."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: battle-moves | source lines 1852-1959 | approx book page ? -->
 
-Battle Moves
+## **주도권을 쥐다**(Wrest Control)
 
-Wrest Control
-When you try to take something from an enemy (object, position,
-authority, etc.), say what it is and how you approach it. If your
-approach is protected, prepared for, or otherwise infeasible, the
-GM may require you to first Defy Danger or find an opportunity.
+**적에게서 무언가를 빼앗으려 할 때**(물건, 위치, 권위 등), 무엇인지 어떻게 접근하는지 말합니다. 접근이 막혀 있거나 대비되어 있거나 현실적으로 불가능하면, GM이 먼저 **위험 돌파**를 하거나 틈을 찾게 할 수 있습니다.
 
-◆ If you outthink or outmaneuver them, roll+INT, but they might
+- _머리나 움직임으로 이기면_ **+지 판정**이지만, 그들도 당신에게서 무언가 가져갈 수 있습니다.
 
-take something from you as well
+- _힘으로 압도하면_ **+근 판정**(정밀 무기면 **+민 판정**)이지만, 그들이 당신에게 피해를 줄 수 있습니다.
 
-◆ If you overwhelm them with force, roll+STR (or +DEX if using a
+- _7+:_ 가져가고 아래 하나를 고르지만, 접근에 따라 그들이 보복합니다.
+- _10+:_ 추가로 하나를 더 고르거나 그들의 보복을 피합니다.
+  - 당분간 다시 빼앗으려 하지 못합니다
+  - 가져가 속이 시원해집니다; 조건 하나를 지웁니다
+  - 힘으로 압도했다면 그들에게 당신 피해를 입힙니다
+- _6-:_ 가져가지 못하고 그들이 보복합니다; 경험치 1을 표시하고 GM이 마스터 액션을 합니다.
 
-Precise weapon), but they might damage you
+## **적을 붙잡다**(Keep Them Busy)
 
-*On a 7+ you take it and choose one below, but they retalitate
-based on your approach. *On a 10+ make an extra choice or avoid
-their retaliation.
+**적을 묶어 두거나 막아 설 때**, 어떻게 하는지 말합니다. 적이 당신의 갈등에 중요하면, 굴리는 대신 조건을 표시해 **10+**로 칠 수 있습니다.
 
-◆ They can’t try to take it back anytime soon
-◆ You feel better by taking it; clear a condition
-◆ If you overwhelmed them with force, deal your damage to them
+- _정면에서 맞서면_ **+근 판정**이지만, 그들이 당신에게 피해를 줄 수 있습니다.
 
-\*On a 6- you don’t take it and they retaliate; mark 1 XP and the GM
-makes a Move.
+- _멀리나 그림자에서 괴롭히면_ **+민 판정**이지만, 덫에 빠지거나 속임을 당할 수 있습니다.
 
-Keep Them Busy
-When you preoccupy an enemy or hold them off, say how you
-do it. If the enemy is important to your Conflict, instead of rolling
-you may mark a condition to treat it as a 10+.
+- _큰 소리나 날선 말로 도발하면_ **+매 판정**이지만, 상황이 고조될 수 있습니다.
 
-◆ If you engage them upfront in battle, roll+STR, but they might
+- _7+:_ 아래 하나를 고르지만, 접근에 따라 그들이 보복합니다.
+- _10+:_ 추가로 하나를 더 고르거나 보복을 피합니다.
+  - 그들을 막아 유리·기회·저항·하려던 일 등을 무효로 만듭니다
+  - 시선을 끌거나 인상을 주거나 지치게 하거나 겁을 줍니다. 그에 맞게 행동합니다
+  - 약화시킵니다. 이 액션이 끝난 뒤 그들이 다음에 피해를 줄 때 2만큼 줄입니다
+- _6-:_ 그들이 압도하거나 한 수 위입니다; 경험치 1을 표시하고 GM이 마스터 액션을 합니다.
 
-damage you
+## **우위를 확보한다**(Secure an Edge)
 
-◆ If you harass them from the distance or shadows, roll+DEX, but
+**전장을 살피거나 숨은 약점이나 쓸 만한 물건 같은 유리를 찾을 때**, 어떻게 하는지 말합니다.
 
-they might trap or trick you
+- _기억을 더듬거나 주변을 훑으면_ **+지 판정**
+- _적의 행동을 읽거나 감정을 짚으면_ **+혜 판정**
+- _전투 전부터 알고 있던 것이 있으면_ 지금 말하고, 이 액션을 **10+**를 굴린 것처럼 취급합니다.
 
-◆ If you provoke them with loud noises or biting words, roll+CHA
+- _7+:_ 아래 하나를 고릅니다.
+- _7–9:_ 고른 뒤, GM이 그 우위가 잠깐이거나 복잡하다고 말합니다.
+  - 적의 방어, 버릇, 기술에서 틈을 찾아 당신이나 동료가 **전력 공격**에 쓸 수 있습니다
+  - 주변에서 쓸 만한 것을 찾아 조건 표시 없이 **동료 돕기**에 쓸 수 있습니다
+  - 숨을 고릅니다. 잠시 숨통이 트이고 조건 하나를 지웁니다
+- _6-:_ 노력이 헛되고 적의 보복에 노출됩니다. 경험치 1을 표시합니다.
 
-but they might escalate the situation
+## **전력 공격**(All Out Attack)
 
-*On a 7+ choose one, but they retaliate based on your approach.
-*On a 10+ make an extra choice or avoid their retaliation.
+**우위나 약점을 이용해 적에게 참격할 때**, **+근 판정**(정밀 무기면 **+민 판정**)으로 굴리고 피해를 주고받습니다.
 
-◆ Impede them, negating an advantage, opportunity, resistance,
+- _7+:_ 아래 하나를 고릅니다.
+- _10+:_ 둘을 고릅니다.
+  - _아프게 맞춥니다;_ 추가로 피해 2
+  - _옭아맵니다;_ 아는 공격, 기술, 특성 하나를 잠깐 못 쓰게 합니다
+  - _증기를 뺍니다;_ 조건 하나를 지웁니다
+- _6-:_ 경험치 1을 표시하고, 적이 당신에게 피해 2를 더 주며, GM이 마스터 액션을 합니다.
 
-or something they were about to do
-
-◆ Distract, impress, exhaust, or frighten them, and they act
-
-accordingly
-
-◆ Weaken them; the next time they deal damage after this move
-
-resolves, reduce it by 2
-
-\*On a 6- they overpower or outmaneuver you; mark 1 XP and the
-GM makes a Move.
-
-Secure an Edge
-When you survey the battlefield or seek an advantage, such as a
-hidden weak point or useful object, say how you do it.
-
-◆ If you search your memory or scan the environment, roll+INT
-◆ If you survey a foe’s actions or probe their emotions, roll+WIS
-◆ If you already know of something from before the battle, state it
-
-now and treat this Move as if you had rolled a 10+.
-
-*On a 7+ choose one below. *On a 7-9, after you choose, the GM
-will say how the edge is temporary or complicated.
-
-◆ You find a flaw in the enemy’s protections, behaviour, or
-
-techniques, which you or an ally can exploit to All Out Attack
-
-◆ You find something useful in the environment, and can use it
-to Aid a Companion without needing to mark a condition
-
-◆ Catch your breath, finding momentary reprieve from the fight
-
-and clearing a condition
-
-\*On a 6- your efforts are fruitless and expose you to an enemy’s
-retaliation. Mark 1 XP.
-
-All out Attack
-When you leverage an edge or weak point to strike at an enemy,
-roll+STR (or DEX if using a Precise weapon) and exchange damage.
-*On a 7+ choose one below. *On a 10+ choose two:
-
-◆ Make it hurt; deal 2 extra damage
-◆ Ensnare them; temporarily disable an attack, technique, or trait
-
-you know they possess
-
-◆ Let off steam; clear a condition
-
-\*On a 6- mark 1 XP, the enemy deals 2 extra damage to you, and
-the GM makes a Move.
-
-Secure an Edge is not the only way to set up an All Out Attack, but it
-should be the most reliable one.
+_우위를 확보한다가 전력 공격을 준비하는 유일한 길은 아니지만, 가장 믿을 만한 길이어야 합니다._

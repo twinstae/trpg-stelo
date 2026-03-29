@@ -1,115 +1,49 @@
+---
+title: "던전월드 2 · 소개"
+description: "던전월드 2와 테이블탑 롤플레잉 게임 소개."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: introduction | source lines 273-387 | approx book page ? -->
 
-Dungeon World 2 (DW2) is the follow-up to the original Dungeon
-World, a fantasy tabletop roleplaying game (TTRPG) released in
-2012 that was inspired by the combination of Dungeons & Dragons
-and Powered by the Apocalypse (or PbtA), pioneered by Apocalypse
-World. The resulting game had the feel of 80’s D&D, but with
-cutting-edge mechanics that made the experience streamlined
-and more narrative-oriented.
+던전월드 2(Dungeon World 2, DW2)는 2012년에 나온 판타지 테이블탑 롤플레잉 게임(TTRPG)인 원작 던전월드의 후속작입니다. 던전월드는 던전 앤 드래곤과 아포칼립스 월드를 기반으로 한 규칙(Powered by the Apocalypse, PbtA)—메기와 빈센트 베이커의 『아포칼립스 월드』에서 시작된 방식—을 결합한 영감으로 만들어졌습니다. 그 결과 1980년대 D&D 같은 느낌을 살리면서도, 흐름을 매끄럽게 하고 이야기를 더 중심에 두는 현대적 규칙 체계를 갖춘 게임이 되었습니다.
 
-Dungeon World 2 aims to bring the original game forward,
-updating to the fantasy expecations and PbtA innovations that
-have become widespread over the past twelve years. The result is
-a game that includes all the classic fantasy tropes, like Fighters,
-Clerics, Wizards, and more; as well as mechanics for everything
-you might do while adventuring, such as fighting, exploring,
-sneaking, persuading, etc.
+던전월드 2는 그 원작을 한 단계 끌어올려, 지난 십여 년 동안 널리 퍼진 판타지에 대한 기대와 PbtA 계열의 새로운 시도를 반영하고자 합니다. 그 결과 클래식 판타지의 익숙한 요소—전사, 사제, 마법사 같은 직업과 더불어—모험 중에 할 법한 싸움·탐험·잠행·설득 등을 모두 다루는 규칙을 담은 게임이 되었습니다.
 
-your
+게임에 새로 더해진 것도 있습니다. 조건(Conditions)은 캐릭터의 지침, 좌절, 병환, 정서적 상태 등을 나타내고, 플레이어 캐릭터(PC)들 사이의 대화와 관계는 그 어느 때보다 중요해집니다. 이 세계의 거친 위험과 어두운 미스터리에 맞서려면 협력이 핵심입니다.
 
-There are also some new additions to the game. Conditions
-represent
-and
-conversations and relationships between Player Characters (PCs)
-matter more than ever before. Cooperation is the key to success
-against the harsh dangers and dark mysteries of the world.
+던전월드 2는 선행 작품들의 값진 영감과 안내 없이는 존재할 수 없었습니다. 여기에는 세이지 라토라와 아담 코벌이 디자인한 원작 던전월드, 타임키퍼의 Unlimited Dungeons, 브렌든 콘웨이의 Masks: A New Generation 등이 포함되며, 이에 국한되지도 않습니다.
 
-emotional well-being,
+물론 PbtA 계열 게임이라면 빼놓을 수 없는, 우리 모두의 또 다른 공통 조상인 메기와 빈센트 베이커의 『아포칼립스 월드』가 있습니다. 진심으로 감사드립니다.
 
-character’s
+## TTRPG란?
 
-Dungeon World 2 could not exist without the invaluable
-inspiration and guidance provided by its forebears, including
-but not limited to: the original Dungeon World, designed by Sage
-LaTorra and Adam Koebel; Unlimited Dungeons by Timekeeper;
-and Masks: A New Generation by Brendan Conway;
+보드게임과 즉흥 연극을 반쯤 섞어 놓은 것처럼, 테이블탑 롤플레잉 게임(TTRPG)의 심장에는 “가상으로 연기하기”가 있습니다. 참가자들은 규칙을 써서 함께 상상하는 공간—흔히 **이야기 속 현실(the fiction)** 이라 부르는 곳—안에서 흥미로운 이야기를 쌓아 올리고, 그림·지도·미니어처 등 도구를 쓰기도 합니다.
 
-Of course, no PbtA game would ever exist without the original
-one, our distinct common ancestor: Apocalypse World, created
-by Meguey and Vincent Baker. Our most heartfelt thanks to you.
+이 게임을 포함해 대부분의 TTRPG에서는 한 사람이 게임 마스터(GM)가 되고, 나머지는 모험가 혹은 플레이어 캐릭터(PC)—이야기의 “중심 인물” 중 하나—를 맡습니다. PC의 행동, 동기, 갈등이 게임의 초점입니다. 한편 GM은 세계와 그 안의 다른 인물들을 연기하고, PC의 선택이 낳는 결과를 묘사합니다.
 
-What’s a TTRPG?
-One part board game and one part improv theatre, a tabletop
-roleplaying game (TTRPG) is about “playing pretend” at its heart.
-Participants use the game’s rules to dynamically build compelling
-narratives in a shared imaginative space, sometimes using
-pictures, maps, figurines, and other props to help.
+모든 참가자가 함께 흥미진진한 이야기를 만듭니다. 대화처럼 GM과 플레이어가 오갑니다. GM이 상황을 제시하고 한 명 이상의 PC에게 어떻게 할지 묻고, 플레이어는 그에 맞춰 PC의 행동을 말합니다. 때로는 PC가 게임 규칙과 맞닿는 짓을 하게 되는데, 이 게임에서는 그 형태가 액션(Move)입니다. 플레이어나 GM은 그 액션에 적힌 대로 진행하고, 주사위를 굴리라고 하면 굴리며, 바뀐 점을 반영해 대화를 이어 갑니다.
 
-In most TTRPGs, including this one, one person takes on the role
-of the Game Master (GM) and everyone else takes on the role
-of an adventurer or Player Character (PC), one of the “central
-characters” of the narrative. The actions, motivations, and
-struggles of the PCs are the main focus of the game. Meanwhile,
-the GM portrays the world and the rest of the characters in it, and
-describes the consequences of the PCs’ choices.
+## 던전월드 2는 무슨 이야기를 다루나요?
 
-All participants work together to tell an exciting story. Like
-a conversation, the GM and Players go back and forth; the GM
-describes a situation and asks what one or more of the PCs do in
-response. Then the Players describe the PCs’ actions in return.
-Sometimes a PC might do something that engages one of the
-game’s rules, which takes the form of Moves in this game. The
-Player or GM follows what that Move says, with Players rolling
+던전월드가 “금과 영광을 위한 모험”에 가깝다면, 던전월드 2는 “복잡한 인간들이 위험한 판타지 모험에 나서며, 영웅적인 ‘선택한 가족(found family)’으로 성장하는 이야기”를 더 탐구하고자 합니다. PC들은 놀라운 여정을 떠나고, 위험한 적과 맞서고, 과감한 도박을 하고, 고요한 순간을 나누며, 한 팀으로 함께 쉽니다. 각자의 재능을 드러내고, 동기를 파고들고, 고민을 털어 놓고, 과거와 씨름합니다.
 
-dice if called for, and the conversation continues based on what
-has changed.
+DW2에 영감을 준 TTRPG 바깥 매체의 예는 다음과 같습니다.
 
-What is Dungeon World 2 About?
-While Dungeon World was a game about adventuring “for gold
-and glory,” Dungeon World 2 aims to explore “messy people
-embarking on dangerous fantasy adventures and growing into
-a heroic found family.” The PCs embark on wondrous journeys,
-battle dangerous foes, take daring risks, enjoy quiet moments,
-and relax together as a team. They demonstrate their talents,
-explore their motivations, confide their struggles, and grapple
-with their pasts.
+- 도서: 『반지의 제왕』, 『드래곤랜스』 연대기·『전설』, 어스시 시리즈, _The Elric Saga_, _The Coming of Conan the Cimmerian_, _The Bloody Crown of Conan_, _The Conquering Sword of Conan_, _The Book of Wonder_
 
-Here are some non-TTRPG media that inspired DW2:
+- 영화: 『13번째 전사』, 『던전 앤 드래곤: 도적들의 명예』, 『가디언즈 오브 갤럭시』
 
-◆ Books: The Lord of the Rings, The Dragonlance Chronicles
+- 드라마: 『시간의 바퀴』, 『복스 마키나의 전설』, _The Mighty Nein_
 
-and Legends, The Elric Saga, The Earthsea Cycle, The Coming
-of Conan the Cimmerian, The Bloody Crown of Conan, The
-Conquering Sword of Conan, The Book of Wonder
+- 비디오 게임: 발더스 게이트 3, 체인드 에코즈, 필라스 오브 이터니티 2: 데드파이어, 드래곤 에이지, _The Banner Saga_, 디비니티: 오리지널 신 2, 길드 워 2: 화염의 길, 파이널 판타지 VI·IX
 
-◆ Movies: The 13th Warrior, Dungeons & Dragons: Honor
+- 음악: Maximalism — _Soundtrack for a Great/Brief/Greater Adventure_
 
-Among Thieves, The Guardians of the Galaxy
+## 세션과 캠페인
 
-◆ Television: The Wheel of Time, The Legend of Vox Machina,
+TTRPG를 한 번 모여서 하는 단위가 세션이며, 보통 2~5시간 정도입니다. 여러 세션에 걸쳐 이어지는 하나의 이야기 줄기는 캠페인이라고 부릅니다.
 
-The Mighty Nein
-
-◆ Video Games: Baldur’s Gate 3, Chained Echoes, Pillars of
-
-Eternity 2: Deadfire, Dragon Age, The Banner Saga, Divinity:
-Original Sin 2, Guild Wars 2: Path of Fire, Final Fantasy VI and
-IX
-
-◆ Music: Soundtrack for a Great/Brief/Greater Adventure by
-
-Maximalism
-
-Sessions and Campaigns
-An individual period of playing a TTRPG is a session—which
-usually lasts between 2-5 hours—while an ongoing narrative of
-multiple related sessions is a campaign.
-
-While the game still works well in longer or shorter campaigns,
-Dungeon World 2 aims at a campaign experience of 8-12 sessions.
-In a single session game, sometimes called a “one-shot”, certain
-Moves like Make Camp and End the Session, and mechanics like
-XP, will probably be less relevant to the game.
-
-3
+더 길거나 짧은 캠페인에서도 게임은 잘 돌아가지만, 던전월드 2는 8~12세션 정도의 캠페인 경험을 염두에 두고 짜여 있습니다. 원샷(one-shot)처럼 한 세션만 하는 경우에는 야영(Make Camp)이나 세션을 마친다(End the Session) 같은 액션, 경험치(XP) 같은 요소는 덜 쓰일 수 있습니다.

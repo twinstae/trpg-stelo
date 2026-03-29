@@ -1,228 +1,115 @@
+---
+title: "던전월드 2 · NPC"
+description: "NPC 만들기와 사용."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: npcs | source lines 9589-9814 | approx book page ? -->
 
-NPCs
+# NPC
 
-A Non-Player Character (NPC) is any character that the GM
-portrays; friend, foe, person, animal, monster, spirit, or stranger.
-Each session typically involves various NPCs across different
-scenes, which act as the most active part of the adventurer’s
-surroundings. Like everything else the GM portrays, NPCs
-don’t have stats or moves and don’t roll to act. Instead, NPCs
-and their actions are part of your descriptions, narrations, and
-consequences when making GM Moves.
+NPC(비플레이어 인물)는 마스터가 연기하는 모든 인물입니다. 친구든 적이든, 사람이든 짐승이든, 괴물이든 정령이든, 낯선 자든 상관없습니다. 한 세션에는 여러 장면에 걸쳐 다양한 NPC가 등장하는데, 이들은 모험가를 둘러싼 세계에서 가장 활발하게 움직이는 부분입니다. 마스터가 연기하는 다른 모든 것과 마찬가지로, NPC에게는 능력치나 액션이 없고 행동할 때 주사위를 굴리지도 않습니다. 대신 NPC와 그 행동은 마스터 액션을 쓸 때 당신의 묘사·서술·결과 속에 녹아 있습니다.
 
-All NPCs have the following traits:
+모든 NPC는 다음 특성을 가집니다.
 
-◆ A Name, maybe of them individually, maybe just of the type of
+- **이름.** 개인 이름일 수도 있고, 종류 이름만 있을 수도 있습니다. 쓰는 대명사도 함께 적습니다.
 
-NPC they are, plus what pronouns they use.
+- **묘사.** 이야기 속에서 맡은 역할을 한 줄로 짚은 것입니다.
 
-◆ A Description that summarizes their role in the narrative.
-◆ A Drive that they primarily desire and pursue, be it an
+- **동기.** 본능이든 가치든 감정이든 서원이든, 가장 강하게 바라고 쫓는 것입니다.
 
-instinct, value, emotion, or vow.
+- **자원.** 그 동기를 쫓고 이루는 데 평소에 의지하는 것들을 짧게 적습니다.
 
-◆ A short list of Resources that they typically rely on to pursue
+여기에 더해 NPC는 아래 특성을 **모두 또는 일부** 가질 수 있습니다.
 
-and achieve their Drive.
+- 눈에 띄는 외모나 인상적인 얼굴이 있으면 **외형** 으로 적어 둡니다.
 
-Additionally, an NPC may have all or any of these traits:
+- 특정 것에 대비한 방어·준비가 뚜렷하면 **저항** 으로 둡니다. 즉 기본적으로는 그 영향을 받지 않으며, 이 저항을 넘으려면 구체적인 접근·기회·도구 같은 것이 필요합니다.
 
-◆ If they have notable visual traits or a memorable visage, you
+- 비밀·과거·흠·반전이 있을 수 있으면 **소문** 으로 둡니다. 플레이 중에 발견·확인할 수 있는 잠재적 훅입니다.
 
-might note down their Appearance.
+- 싸움에서 충분히 강하면 **HP**와 **피해** 를 가집니다. **고조** 목록도 둘 수 있습니다.
 
-◆ If they have notable defenses or preparations against
+## 전투 속 NPC
 
-something, they might Resist it, meaning they it won’t affect
-them by default, and specific approaches, opportunities, tools,
-or similar would be needed to overcome this resistance.
+싸움에서 만만치 않은 상대가 아닌 NPC는 HP나 피해가 없을 수 있으며, 맞으면 자동으로 쓰러지거나 피해 1만으로 끝나거나, 단순한 **위험 돌파** 한 번으로 처리할 수 있습니다. 만만치 않은 전투원 NPC는 HP가 0이 되면 쓰러집니다. 여러 NPC가 동시에 한 대상에게 피해를 줄 때는, 그중 **가장 높은 피해**를 기준으로 잡고, 공격자가 한 명 더할 때마다 그 피해에 **+1**합니다.
 
-◆ If they might have secrets, histories, faults, or twists, then
+PC와 마찬가지로 NPC도 피해를 받으면 HP가 줄어듭니다. PC와 달리, NPC의 장갑·방패 등은 받은 피해를 줄이지 않고 **추가 HP**로 반영하는 경우가 많습니다. PC가 **야영**을 하는 등 눈에 띄는 시간이 흐르면, 상처 입었지만 살아 있는 NPC는 보통 HP를 모두 회복합니다. 이야기상 맞는다면 순간적으로도 일부 회복할 수 있지만(기괴한 재생 같은), 그런 일은 드물고 예외적으로만 하십시오.
 
-those might be potential Rumors that can be discovered and
-confirmed during the game.
+### 고조
 
-◆ If they are powerful enough in a fight, then they’ll have HP
+만만치 않은 NPC가 전투 중 **처음으로** HP가 절반 이하가 되거나, NPC 무리가 **처음으로** 수가 절반 이하로 줄면 **피투성이**가 되며, 곧바로 상황을 **고조**시킵니다. 이름이 같은 마스터 액션과 비슷합니다. 고조에는 새 형태로 바뀌거나, 인질을 잡거나, 지원을 부르거나, 위험한 힘을 풀어 쓰는 식이 포함될 수 있습니다. 고조는 직접 피해를 주거나 HP를 회복하지는 않지만, 막지 않으면 나중에 그렇게 될 **위협**을 만들 수 있습니다. 개체나 무리는 전투당 보통 한 번만 고조하며, HP를 회복했다가 다시 절반 아래로 내려가도 예외는 아닙니다.
 
-and Damage. They might also have some Escalations.
+여러 동료 NPC를 한 전투에서 다루는 법 등은 **추가로 정리할 예정**입니다.
 
-NPCs in Combat
-NPCs that aren’t formidable combatants don’t have HP or Damage,
-and might be defeated automatically when struck, or when they
-take just 1 damage, or with a simple Defy Danger move. NPCs that
-are formidable combatants are defeated when they reach 0 HP. To
-calculate damage from multiple NPCs hurting someone at once,
-take the highest damage from among them, then increase it by 1
-for each additional attacker.
+## NPC 만들기
 
-Like with PCs, NPCs reduce their HP when they receive damage.
-Unlike PCs, their armor, shields, and similar don’t reduce damage
-taken but might instead add additional HP. When significant
-time passes, such as when the PCs Make Camp, NPCs wounded
-(but still alive) NPCs usually restore all of their HP. They might
-also restore some HP in the moment if the narrative fits, such
-as incredible regeneration abilities, but this should be rare and
-exceptional.
+1. 누구이며 이야기 속 역할은 무엇인가요? 묘사에 적당한 만큼만 적습니다.
 
-Escalations
-The first time in a fight that a formidable NPC reaches half or less
-HP, or a group of NPCs is reduced to half or less of their numbers,
-they count as Bloodied and immediately Escalate the situation,
-similar to the GM Move of the same name. Escalations might
-include taking a new form, taking a hostage, calling for backup,
-or unleashing a dangerous power. Escalations don’t directly deal
-damage or restore HP, but might threaten to do so later in the
-fight if not stopped. Most individuals or groups only escalate once
-per fight, even if they restore HP and then return to below half.
+2. (선택) 어떻게 생겼나요? 특징적인 점은 무엇인가요? 사람이라면 차림은 어떤가요? 눈에 띄는 장식·문신·장신구·흉터가 있나요? 외형에 적당한 만큼만 적습니다.
 
-[More text will be added here later to talk about allies, hirelings, and
-managing multiple different NPCs in a fight]
+3. 지키거나 이루려는 핵심 목표·욕망은 무엇인가요? 동기로 적습니다.
 
-Creating NPCs
+4. 동기를 쫓는 데 무엇을 쓰나요? 태도·도구·방법·무기 등입니다. 자원으로 적습니다. 용이라면 이빨·발톱·불이 될 수 있고, 상인이라면 늘 웃는 얼굴·감정하는 눈·사람마다 아는 인맥이 될 수 있습니다.
 
-1.  Who are they and what is their role in the narrative? Write
+5. (선택) 무엇에 특히 방비하거나 대비하고 있나요? 저항으로 적습니다. 탑방패를 든 기사는 화살을 견딜 수 있고, 숙련된 레인저는 야생에서 누군가 몰래 다가오는 것을 간파합니다.
 
-as much or as little of this down as their Description.
+6. (선택) 비밀·악습·유대·과거가 있을 수 있나요? 소문으로 적습니다. 누군가 **속뜻 읽기**, **지식 더듬기**, **비밀을 파헤치다** 를 쓸 때 적절한 반전을 붙이는 용도입니다.
 
-2.  (Optional) What do they look like? What is a defining
+7. 싸움에서 만만치 않은가요? 그렇지 않다면 여기서 만들기를 마칩니다! 그렇다면 아래로 이어갑니다.
 
-characteristic or two? If they are a person, how do they style
-themselves? Any notable ornaments, tattoos, jewelry, or
-scars? Write as much or as little down as their Appearance.
+8. 보통 어떻게 사냥하거나 싸우나요? 하나를 고릅니다.
+   - 큰 무리(6–20): 피해 1, HP 1(각각)
+   - 작은 무리(대략 2–5): 피해 2, HP 2(각각)
+   - 홀로: 피해 4, HP 8
 
-3.  What core goal or desire do they protect or advance? Write
+9. 덩치는 어느 정도인가요? 하나를 고릅니다.
+   - 집고양이보다 작음: **손**, 피해 **-1**(최소 1)
+   - 하플링~사람 크기: **근접**
+   - 수레만 함: **가까움**, HP **+2**
+   - 수레보다 훨씬 큼: **가까움**, **멀리**, HP **+4**, 피해 **+1**
+   - 배나 집째 삼킬 만큼 큼: **멀리**, HP **+8**, 피해 **+3**
 
-that down as their Drive.
+10. 가장 중요한 방어는 무엇인가요? 하나를 고릅니다.
+    - 천이나 살: HP **+0**
+    - 가죽이나 두꺼운 피부: HP **+2**
+    - 사슬이나 비늘: HP **+4**
+    - 판금이나 뼈: HP **+6**
+    - 마법적 보호: HP **+8** 및/또는 저항에 더함
 
-4.  What do they use to pursue their Drive? These could be
+11. 절박할 때 전투가 크게 바뀌려면 어떤 모습인가요? 고조 아이디어를 하나 이상 적습니다.
 
-approaches, tools, methods, weapons, or other things. Write
-these down as their Resources. For a dragon this could be
-teeth, claws, and fire. A merchant might use an always-friendly
-face, an eye for appraisal, and connections with everyone.
+12. 아래에 해당하는가요? 해당하는 것 **모두** 고릅니다.
+    - 특히 치명적이다: 피해 **+1**
+    - 방패 등으로 적극 방어한다: HP **+2**
+    - 보통 원거리로 공격한다: **가까움**, **멀리**, 또는 둘 다(판단은 당신에게)
+    - 폭력을 혐오하거나 특히 연약하다: 피해 **-1**
 
-5.  (Optional) What are they particularly defended against or
-    prepared for? Write this down as what they Resist. A knight
-    with a tower shield might resist arrows, while a master ranger
-    might resist someone sneaking up on them in the wilderness.
+## 옵션 규칙
 
-6.  (Optional) What secrets, vices, bonds, or histories might
+### 굴린 전투 피해
 
-they have? Write these down as Rumors, which are potential
-ways to add an appropriate twist when someone uses Sense
-Motive, Recalls Lore, or Unearth Secrets.
+PC·NPC 또는 둘 다, 고정 피해 대신 굴려도 됩니다. 고정 피해를 아래처럼 바꿉니다.
 
-7.  Are they a formidable in a fight? If not, you’ve finished
+| 고정 피해 | 다면체 주사위 | d6만     |
+| --------- | ------------- | -------- |
+| 1         | d4-1          | (d6÷2)-1 |
+| 2         | d4            | d6÷2     |
+| 3         | d6            | d6       |
+| 4         | d8            | d6+1     |
+| 5         | d10           | d6+2     |
+| 6         | d12           | d6+3     |
+| 7         | 2d6           | 2d6      |
+| 8         | 2d8           | 2d6+1    |
 
-creating them! If so, continue on.
+### 조건과 여러 고조
 
-8.  How do they usually hunt or fight? Choose one:
+PC의 조건은 능력치에 묶인 고정값이지만, NPC에게는 **동적으로** 바뀌는 조건을 줄 수 있고, 특정 **고조** 와 짝지을 수 있습니다. 이런 NPC는 피투성이일 때 고조하지 않습니다. 대신 상당한 피해나 타격을 입으면 조건 하나에 표시하고, 곧바로 그에 묶인 고조를 실행합니다. NPC가 마지막 조건에 표시하면(마지막 고조와 동시여도 됨) 패배합니다. 조건 개수는 아래를 참고하십시오.
 
-- In large groups (6-20): 1 damage, 1 HP each
-- In small groups (about 2–5): 2 damage, 2 HP each
-- All by its lonesome: 4 damage, 8 HP
-
-9.  How big is it? Choose one:
-
-- Smaller than a house cat: hand, -1 dmg (min 1)
-- Between halfling and human sized: close
-- As big as a cart: near, +2 HP
-- Much larger than a cart: near, far, +4 HP, +1 dmg
-
-- Can devour ships or houses whole: far, +8 HP, +3 dmg
-
-10. What is its most important defense? Choose one:
-
-- Cloth or flesh: +0 HP
-- Leathers or thick hide: +2 HP
-- Mail or scales: +4 HP
-- Plate or bone: +6 HP
-- Magical protection: +8 HP and/or add to what it Resists
-
-11. How might it significantly change a fight when desperate?
-
-Write one or more ideas down as Escalations.
-
-12. Which of these describe it? Choose all that apply:
-
-- It’s especially deadly: +1 dmg
-- It actively defends itself with a shield or similar: +2 HP
-- It usually attacks at range: near, far, or both (your call)
-- It abhors violence or is especially frail: -1 dmg
-
-Optional Rules
-Rolled Combat Damage
-PCs, NPCs, or both can roll for damage instead of dealing a
-flat amount. Here is how to translate that damage.
-
-Flat
-
-1 dmg
-
-2 dmg
-
-3 dmg
-
-4 dmg
-
-5 dmg
-
-6 dmg
-
-7 dmg
-
-8 dmg:
-
-Polyhedral
-
-d4-1
-
-d4
-
-d6
-
-d8
-
-d10
-
-d12
-
-2d6
-
-2d8
-
-D6 Only
-
-(d6/2)-1
-
-d6/2
-
-d6
-
-d6+1
-
-d6+2
-
-d6+3
-
-2d6
-
-2d6+1
-
-Conditions & Multiple Escalations
-While PC conditions are static and associated with a stat,
-you may give an NPC conditions that are dynamic and
-associated with specific escalations. This NPC would no
-longer escalate when Bloodied. Instead, when they suffer
-significant damage or setback, you may mark one of their
-conditions and immediately enact its associated escalation.
-When an NPC marks their last condition (after or as part of
-their final escalation) they are defeated. Here is a guideline
-on how many conditions to give an NPC.
-
-◆ Only a single memorable trait: 1 Condition
-◆ Notable or important in some way: 2-3 Conditions
-◆ Critical character, second only to the PCs: 4-5 Conditions
-
-59
+- 기억에 남는 특징 하나뿐: 조건 **1**개
+- 어떤 면에서 눈에 띄거나 중요: 조건 **2–3**개
+- PC에 이어 두 번째로 중요한 인물: 조건 **4–5**개
+
+<!-- p.59 -->

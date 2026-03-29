@@ -1,114 +1,59 @@
-<!-- split from dw2.md: agendas-and-principles | source lines 8881-8993 | approx book page ? -->
+---
+title: "던전월드 2 · 강령과 원칙"
+description: "GM 강령과 원칙."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
 
-Agendas & Principles
+<!-- split from dw2.md: agendas-and-principles | source lines 8881-8993 | approx book page 55 -->
 
-GM Agendas
-These are the overarching goals of the GM across the entire
-campaign. The agenda at its core is why the GM role exists at all,
-which is why everything else for the GM should advance it.
+## GM 강령
 
-Communicate larger scale situations in down-to-earth ways. If
-there is a plague sweeping through a city, then maybe evoke the
-feeling of decaying streets, describe the smell of burning bodies,
-and have a coughing beggar ask for change.
+이것은 캠페인 전체에 걸쳐 GM이 지향해야 할 상위 목표입니다. 강령의 핵심은 GM 역할이 왜 존재하는지이며, 그래서 GM을 위한 다른 모든 것은 이를 전진시켜야 합니다.
 
-Portray a Fantastic Yet Authentic World
-Fill your world with vibrant environments, colorful flora,
-thriving fauna, and disparate peoples. Give its inhabitants human
-emotions and struggles, even if they may express them in new
-or strange ways. This novelty and familiarity, excitement and
-comfort, magic and blood, will balance differently depending on
-what feels right to your group.
+### 환상적이면서도 진짜 같은 세계를 그린다
 
-Fill the Player Characters’ Lives with Adventure
-Put the Player Characters in situations that test them, hurt them,
-exploit their weaknesses, or twist their pains. Then see how they
-handle it all. Celebrate their successes, mourn their losses, and
-anticipate what they might do next.
+세계를 생생한 환경, 다채로운 식물, 번성하는 동물, 서로 다른 사람들로 채우십시오. 주민들에게 인간적인 감정과 고뇌를 부여하되, 그것이 새롭거나 이상한 방식으로 표현될 수도 있습니다. 이 신기함과 친숙함, 흥분과 안락함, 마법과 피는 팀에 맞게 다르게 균형이 잡힐 것입니다.
 
-Play to Find Out How Things Change
-The world is always in the process of transformation, perhaps
-through an approaching army, an ailing monarch, or a spreading
-plague. The Player Characters have the protagonistic privilege of
-shaping that change, sometimes in ways you might not expect,
-and will likely change themselves as well. What parts of them and
-the things they care about will stay the same? What parts might
-become different, for better or worse? Embrace the changes and
-surprises the Player Characters bring to the game.
+### 플레이어 캐릭터들의 삶을 모험으로 채운다
 
-GM Principles
-These are more specific applications of the agenda, and help you
-cultivate narratives that Dungeon World 2 excels at navigating.
-Keep your Principles in mind while making GM Moves.
+플레이어 캐릭터를 시험하고, 상처 입히고, 약점을 이용하거나 고통을 비틀어 보이는 상황에 놓으십시오. 그다음 그들이 어떻게 헤쳐 나가는지 보십시오. 성공을 축하하고, 손실을 애도하며, 다음에 무엇을 할지 예상하십시오.
 
-Bring the World to Life
-Describe your characters, environments, and actions in vivid,
-dynamic language. A yeti doesn’t just swing its claws; it roars,
-grabs its victim, and drags them towards their frozen lair. A
-burning acid swamp doesn’t just bubble corrosively; the air burns
-your nostrils as clouds of colorful insects bite you.
+### 일이 어떻게 바뀌는지 알아가며 플레이한다
 
-It takes practice to become good at this, but often the best way
-to start is to focus on a few specific details and let the Players’
-imaginations fill in the rest. If you describe a brilliant apothecary
-with thick glasses, a simmering scowl and swarmed by a dozen
-scrambling assistants then that’s more than enough to convey a
-strong impression of her.
+세계는 항상 변화하는 과정에 있습니다—다가오는 군대, 병든 군주, 퍼지는 역병 따위로. 플레이어 캐릭터는 그 변화를 형성하는 주인공적 특권을 가지며, 때로는 당신이 예상하지 못한 방식으로 그렇게 할 수 있고, 그들 자신도 변할 가능성이 큽니다. 그들과 그들이 아끼는 것 가운데 무엇은 그대로일까요? 무엇이 더 나아지거나 더 나빠지며 달라질까요? 플레이어 캐릭터가 게임에 가져오는 변화와 놀라움을 받아들이십시오.
 
-Pace Things Cinematically
-In a TV show or movie there are cuts, timeskips, even the
-occasional flashback. Sometimes the audience (which would be
-your Players here) learns information or sees perspectives that
-the characters might not. It’s extremely rare for a cinematic
-narrative to be told minute-by-minute, hour-by-hour, day-by-day,
-all from the same point of view.
+## GM 원칙
 
-If something long and monotonous happens, consider skipping
-forward until the next interesting thing, or describing it as a
-montage with a series of short micro-scenes. Always check with
-your Players before skipping forwards, as it might not be boring
-for them or they may have something exciting planned.
+이것은 강령을 더 구체적으로 적용한 것이며, 던전월드 2가 잘 다루는 이야기를 키우는 데 도움이 됩니다. 마스터 액션을 할 때 원칙을 마음에 두십시오.
 
-Encourage Exciting Risks
-Nudging your Players towards actions that aren’t quite safe, but
-are awesome or important enough to try anyways. Tempt them
-with things they want, if only they did something few others
-would dare or could try. Engage them with unexpected danger,
-introduce Threats only they can deal with, or make safer methods
-inviable.
+### 세계에 생명을 불어넣으십시오
 
-You have a golden opportunity to follow this principle when a
-Player asks you about the world, asks what they can or can’t do,
-or when they Unearth Secrets or Recall Lore. If the unexciting
-way to find an answer is to research it in a book, you might place
-the book’s location in a dungeon, or have a monster try to steal
-the book while it’s being read, or have the book itself require a
-sacrifice.
+캐릭터, 환경, 행동을 생생하고 역동적인 언어로 묘사하십시오. 예티는 그냥 발톱을 휘두르는 것이 아니라 포효하고, 희생자를 잡아 얼어붙은 소굴로 끌고 갑니다. 타는 산성 늪은 그냥 부글거리며 부식하는 것이 아니라, 공기가 콧속을 태우고 알록달록한 벌레 떼가 물어뜯습니다.
 
-Balance Public and Personal Stakes
-Sometimes the thing most at risk is the fate of an entire nation,
-other times it’s the relationship between a single PC and their
-family member. The first kind of stakes will require characters
-to tackle larger-than-life challenges and do amazing adventurous
-things. The second will connect them with that world they might
-be saving, and let us learn more about their emotions and drives.
+이것을 잘하려면 연습이 필요하지만, 시작하는 가장 좋은 방법은 종종 몇 가지 구체적인 디테일에 집중하고 플레이어들의 상상이 나머지를 채우게 하는 것입니다. 두꺼운 안경, 끓어오르는 찌푸린 얼굴, 수십 명의 허둥지둥 조수에게 둘러싸인 뛰어난 약사를 묘사한다면 그것만으로도 강한 인상을 전하기에 충분합니다.
 
-A Player Character’s Conflict usually signals what they care about
-the most, and what they want to engage with in the world, so try to
-tie at least one Conflict into Threats that are coming up. Maybe a
-person from their past is involved, but it could also be a location,
-event, or consequence.
+대부분의 NPC—특히 위협—을 역동적이고 살아 있는 존재로 그리십시오. 산적 무리가 싸움에서 지고 있다면 죽을 때까지 싸우기보다 후퇴할 수도 있습니다. NPC는 PC에 반응만 하지 말고 자기 목표와 욕망을 적극적으로 추구해야 합니다. PC가 나중에 그 산적의 숨은 야영지를 찾는다면, 산적이 그걸 깨닫고 매복을 꾸미거나 아예 지역을 떠날 수도 있습니다.
 
-Portray most NPCs as dynamic and alive, especially Threats. If a
-group of bandits are losing a fight, they might retreat rather than
-fight to the death. NPCs should also actively pursue their own
-goals and wants instead of just reacting to the PCs. If the PCs later
-search for those bandits’ hidden camp, maybe the bandits realize
-this, then set an ambush or leave the area entirely.
+큰 규모의 상황을 일상적인 방식으로 전달하십시오. 도시를 휩쓰는 역병이 있다면, 쇠락한 거리의 느낌을 불러일으키고, 시체를 태우는 냄새를 묘사하고, 기침하는 거지가 동전을 구걸하게 할 수도 있습니다.
 
-Bring emotions to your NPCs and the conflicts they are involved
-in: rage, terror, joy, despair, and more. Most NPCs’ emotions
-should be plain and obvious, larger and louder than the PCs
-because of the relatively little time we spend seeing them. If the
-NPC is deceptive, conflicted, or notably unemotional then maybe
-Sense Motive might be needed.
+### 영화처럼 호흡을 잡으십시오
+
+TV나 영화에는 컷, 시간 도약, 가끔 플래시백이 있습니다. 때로 관객(여기서는 플레이어)은 캐릭터가 모를 정보나 시점을 봅니다. 영화적 이야기가 분 단위, 시간 단위, 날 단위로 같은 시점에서만 전개되는 경우는 극히 드뭅니다.
+
+길고 단조로운 일이 벌어진다면, 다음 흥미로운 순간까지 앞으로 건너뛰거나, 짧은 미니 장면들의 몽타주로 묘사하는 것을 고려하십시오. 앞으로 건너뛰기 전에는 항상 플레이어와 확인하십시오—그들에게는 지루하지 않을 수도 있고, 흥미진진한 계획이 있을 수도 있습니다.
+
+### 흥미진진한 위험을 권하십시오
+
+안전하지는 않지만 어쨌든 멋지거나 중요해서 시도할 만한 행동으로 플레이어를 살짝 밀어주는 것입니다. 다른 사람은 감히 하지 못하거나 시도할 수 없는 일을 하기만 하면 원하는 것을 주어 유혹하십시오. 뜻밖의 위험으로 끌어들이고, 그들만이 다룰 수 있는 위협을 소개하거나, 더 안전한 방법을 불가능하게 만드십시오.
+
+플레이어가 세계에 대해 묻거나, 무엇을 할 수 있고 없는지 묻거나, **비밀을 파헤치다**(Unearth Secrets) 또는 **지식 더듬기**(Recall Lore) 를 할 때 이 원칙을 따를 황금 같은 기회가 있습니다. 답을 찾는 지루한 방법이 책으로 조사하는 것이라면, 책이 던전 안에 있게 하거나, 읽는 동안 괴물이 책을 훔치려 하게 하거나, 책 자체가 제물을 요구하게 할 수 있습니다.
+
+### 공적·사적 위험을 균형 있게 다루십시오
+
+때로는 위태로운 것이 한 나라 전체의 운명이고, 때로는 한 PC와 가족 사이의 관계입니다. 전자는 캐릭터가 거대한 도전과 놀라운 모험을 해야 하게 만들고, 후자는 그들이 구하려는 세계와 연결시키고 감정과 동기를 더 알게 해 줍니다.
+
+플레이어 캐릭터의 갈등은 보통 그들이 가장 아끼는 것과 세계에서 무엇에 얽히고 싶은지를 드러내므로, 다가오는 위협에 최소 한 갈등을 엮어 보십시오. 과거의 인물이 관련될 수도 있고, 장소, 사건, 결과일 수도 있습니다.
+
+NPC와 그들이 얽힌 갈등에 감정을 실으십시오—분노, 공포, 기쁨, 절망 등. NPC의 감정은 대체로 분명하고 눈에 띄게, PC보다 크고 시끄럽게—우리가 그들을 보는 시간이 상대적으로 짧기 때문입니다. NPC가 기만적이거나 내적 갈등이 있거나 뚜렷하게 무감정하다면 **속뜻 읽기**(Sense Motive) 가 필요할 수도 있습니다.

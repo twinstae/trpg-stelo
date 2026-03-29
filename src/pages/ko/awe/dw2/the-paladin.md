@@ -1,391 +1,296 @@
+---
+title: "던전월드 2 · 성기사"
+description: "서약과 정의로 약자를 지키고 사악을 베는 성기사 직업."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: the-paladin | source lines 4589-4980 | approx book page ? -->
 
-The Paladin
+당신은 정의의 검입니다. 좁은 길을 걸으며 뒤따를 이에게 빛을 비춥니다. 보호자이자 치유자, 재판관이며 집행자—당신은 그 모두이고 그 이상입니다. 죄 없는 이는 오라—그들의 시름에서 가려 줄 것이다. 죄 있는 이는 어둠에 웅크리라. 당신이 오고 있으니, 자비는 없으리라.
 
-You are the sword of righteousness, walking the narrow path and
-lighting the way for those who would follow. Protector, healer, judge,
-executioner; you are all of these and more. Let the innocent come, for
-you will shelter them from their troubles. Let the guilty cower in their
-dark recesses, for you are coming, and they will find no mercy.
+## 기원
 
-Origins Consider first, then answer in introductions and play
+먼저 생각한 뒤, 소개와 플레이에서 답합니다.
 
-I am a
-E.g. human, halfling, dragonkin. How does this affect your biology,
-behavior, and communication? How might others underestimate you?
+나는  
+예: 인간, 하플링, 용족. 생물학·행동·소통에 어떤 영향이 있나? 다른 이가 당신을 어떻게 과소평가할까?
 
-In my old life I was a
-E.g. desperate criminal, humble peasant, selfish noble. Who do you
-still know from that old life? How might they still see you?
+옛날 삶에서 나는 ~였다  
+예: 절박한 범죄자, 소박한 농부, 이기적인 귀족. 그때 아는 사람은 누구인가? 그들은 여전히 당신을 어떻게 보나?
 
-I swore my first oaths to
-E.g. atone for my past, pursue an ideal, join an organization. What
-are these foundational oaths? What trials do they sometimes pose?
+첫 서약은 ~ 에게 했다  
+예: 과거 속죄, 이상 추구, 단체 가입. 그 근본 서약은 무엇인가? 어떤 시련을 자주 안겨 주나?
 
-I was called to adventure after
-E.g. my oaths lead me to a quest, my home fell to corruption, I once
-broke my vows. What new evil have you discovered on the road?
+모험의 부름을 받은 것은  
+예: 서약이 과업으로 이끌었다, 고향이 부패에 무너졌다, 한번 서약을 어겼다. 길 위에서 어떤 새로운 악을 발견했나?
 
-Relationships
-Fill in for each other PC based on how well you already know them
+## 시작 액션: 덕행의 서약(Virtuous Oaths)
 
-Name
+엄격한 도덕 율법을 지키기로 맹세했습니다. 서약을 지키는 한 각 서약이 당신을 강화합니다. 지금 둘을 고릅니다.
 
-Details
+- 응징: 죄를 벌하지 않고 지나치지 않는다. 피투성이를 표시하면, 다음 전투 액션은 그 불이익을 무시하고 유리로 굴린다.
 
-Name
+- 수호: 무력한 이를 지킨다. 다른 이를 지킬 때, 그들은 표적이 되지 않고 받는 피해가 2 줄어든다.
 
-Details
+- 자비: 궁핍한 이를 일으켜 세운다. 누군가에게 손을 대면, 조건을 표시해 그들에게 HP 2를 회복시킬 수 있다.
 
-Name
+- 절제: 필멸의 쾌락과 사치를 멀리한다. 독·질병·저주 등 모든 병환에 면역이다.
 
-Details
+- 용기: 담대하고 올곧게 행동한다. 체면 있게 위험 돌파할 때 10+이면 선택지 0개(원래 1 대신).
 
-Name
+- 자유: 부당한 감금을 끊는다. 덫에 걸리거나 묶인 존재에게 손을 대면, 조건을 표시해 즉시 풀어 줄 수 있다.
 
-Details
+성기사의 길을 얻을 때 서약을 하나 더 얻습니다. 서약을 어기면 조건을 표시하고 그 이익을 잃으며, 속죄할 때까지 쓸 수 없습니다; 어떻게 속죄하는지는 GM이 말합니다.
 
-Depth
+## 관계
 
-Depth
+다른 PC마다 이미 아는 만큼 채웁니다.
 
-Depth
+이름
 
-Depth
+내용
 
-Example Relationships
-They are trying to get me to break my oaths, knowingly or not.
+이름
 
-They think I’m a stick in the mud, I’ll show them!
+내용
 
-They used to be my enemy in the past. Have they really changed?
+이름
 
-They must be hiding something, I will find out what.
+내용
 
-Oaths or not, they are an example of heroic righteousness.
+이름
 
-They saved me from a terrible fate, and I swore to repay them.
+내용
 
-Starting Move:
-Virtuous Oaths
-You’ve sworn adherence to a strict moral code. Each oath
-empowers you as long as it is kept. Choose two now:
+깊이(Depth)
 
-Name
+깊이
 
-& Pronouns
+깊이
 
-Thaddeus, Augustine, Octavia, Brom, Kyra, a noble name
+깊이
 
-HP
+### 관계 예시
 
-STR
+- 알게 모르게 내 서약을 어기게 만들려 한다.
+- 나를 융통성 없는 꼰대로 본다; 보여 주마!
+- 옛날에는 적이었다. 정말 바뀌었나?
+- 무언가 숨기고 있다, 파헤칠 것이다.
+- 서약과 별개로, 그들은 영웅적 정의의 본보기다.
+- 끔찍한 운명에서 구해 줬고, 갚겠다고 맹세했다.
 
-DEX
+## 장비
 
-INT
+무기를 고릅니다(GM과 새 무기를 만들어도 됩니다).
 
-WIS
+- [ ] 금빛 장식 검(피해 2, 손, 근접)
+- [ ] 빛나는 대형 해머(피해 3, 근접, 양손, 강타)
+- [ ] 은빛 석궁(피해 2, 가까움, 멀리, 정밀, 관통, 양손, 재장전, 탄약)
 
-CHA
+갑옷을 고릅니다.
 
-◆ Retribution: Suffer not a crime unpunished. When you mark
-Bloodied, your next Battle Move ignores it and has ADV.
+- [ ] 중갑(사용 3, STR 2 미만이면 민첩에 불리). 사용을 표시해 공격에서 받는 피해 최대 2까지 무시할 수 있습니다.
+- [ ] 가벼운 장갑(사용 3, STR 1 미만이면 민첩에 불리). 사용을 표시해 공격 피해 1을 무시할 수 있습니다.
 
-Max 10
+아래 하나를 고릅니다.
 
-◆ Protection: Defend the helpless. While you defend another, they
+- [ ] 든든한 만찬. 야영(Make Camp) 할 때 나눠 먹으면 모든 PC HP 가득 회복.
+- [ ] 모험 도구(사용 3). 쓸 만한 잡동사니를 뒤질 때 사용을 표시해 손에 넣습니다.
+- [ ] 방패(사용 1, 들고 있을 때 사용을 표시해 공격 피해 전부 무시)
 
-will not be targeted and take 2 less damage from harm.
+## 외모
 
-◆ Charity: Uplift the needy and destitute. When you touch
+행마다 하나(또는 다른 것).
 
-someone, you may mark a condition to restore 2 HP to them.
+- [ ] 윤 나는 판금
+- [ ] 눈에 띄지 않는 망토
+- [ ] 낡은 사슬
+- [ ] 거대한 방패
+- [ ] 상징적인 깃발
+- [ ] 잘생긴/예쁜 흉터
 
-Bloodied
+## 시작 능력치
 
-Exhausted
+아래 한 줄을 고릅니다.
 
-Frightened
+- [ ] STR 2, DEX -1, INT 0, WIS 1, CHA 1
+- [ ] STR 1, DEX 0, INT 1, WIS 2, CHA -1
 
-Angry
+---
 
-Distracted
+## 시트
 
-Insecure
+이름  
+호칭
 
-◆ Temperance: Abstain from mortal pleasures and finery. You are
-immune to all maladies, such as poisons, diseases, and curses.
+예: 타데우스, 아우구스티누스, 옥타비아, 브롬, 키라, 귀족다운 이름
 
-◆ Courage: Act with boldness and integrity. When you Defy
-Danger honorably, on a 10+ choose 0 (instead of 1).
+HP (최대 10)
 
-◆ Freedom: End unjust captivity. When you touch a trapped or
+근력(STR) · 민첩(DEX) · 지능(INT) · 지혜(WIS) · 매력(CHA)
 
-bound being, you may mark a condition to instantly free them.
+피투성이 · 지침 · 겁먹음 · 분노 · 산만 · 불안
 
-When you gain a Paladin Path, you gain an additional oath. When
-you break an oath, mark a condition and lose access to it until you
-atone;the GM will tell you how.
+경험치(XP):
 
-XP:
+레벨:
 
-Level:
+경험치 칸을 다섯 번 채우면 경험 칸을 비우고, 레벨을 1 올리며 향상 하나를 얻습니다.
 
-When you mark your 5th XP, clear the Experience track, increase
-your Level by one, and gain one Advancement.
+---
 
-Advancements
+## 발전
 
-When you Level Up, choose one of the following:
+레벨업할 때 아래 하나를 고릅니다.
 
-☐ Gain a Path from your Class
+- [ ] 직업에서 길(Path) 하나 얻기
+- [ ] 아무 능력치 +1(최대 2까지, 레벨 10 이후 옵션에서 3까지)
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 마법 아이템 하나 얻기
+- [ ] 지금 갈등이 없다면 갈등 하나 얻기(갈등 장)
+- [ ] 가진 길 중 하나에서 고급 액션 하나 얻기
+- [ ] 새 직업으로 바꾸기
 
-☐ ☐ +1 to any Stat (max. 2)
+레벨 5부터 또한 아래에서 고를 수 있습니다.
 
-Equipment
-Choose your weapon (or create a new one with the GM):
+- [ ] 직업에서 길 하나 더 얻기
+- [ ] 아무 능력치 +1(최대 2)
 
-∞ Gain a Conflict if you don’t currently have one (pg XX)
+레벨 10부터 또한 아래에서 고를 수 있습니다.
 
-∞ Gain an Advanced Move from one of your Paths
+- [ ] 아무 능력치 +1(최대 3)
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 유물 하나를 고른다(유물 장) 또는 GM과 새 유물을 만든다. 이후 GM이 단서를 줍니다.
 
-☐ Gilded Sword (2 dmg, hand, close)
+### 갈등을 해소할 때
 
-◆ Change to a new Class
+아래 하나를 고릅니다.
 
-☐ Shining Greathammer (3 dmg, close, two-handed, forceful)
+- [ ] 나를 사슬로 묶을 수 없다(There Are No Chains On Me) 를 얻습니다. 일부러 서약을 어길 때, 그 이익을 잃는 대신 한 행동에 맞게 서약 문구를 바꿉니다—덕이 있든 없든. 직업을 바꿀 때 바꾼 서약은 가져갈 수 있습니다. 서약을 한번 바꾼 뒤에는 레벨업할 때 더는 성기사의 길이나 그 고급 액션을 고를 수 없습니다.
 
-From Level 5 onwards, you can also choose from the following:
+- [ ] 영웅의 순간을 해금합니다. 쓸 때 서사를 온전히 잡고, 세계나 다른 PC를 극적으로 바꾸는 마지막 업적을 묘사한 뒤, 원하는 대로 이야기에서 빠집니다(은퇴·죽음 등).
 
-☐ Crossbow with silver-tipped bolts (2 dmg, near, far, precise,
-piercing, two-handed, reload, ammo)
+---
 
-Choose your armor:
+## 심문관(Inquisitor)
 
-☐ Medium Armor (3 uses OOO, DIS to DEX if STR<2). You may
-mark a use to ignore up to 2 damage from an attack.
+### 정의로운 호령(Righteous Command)
 
-☐ Light Armor (3 uses OOO, DIS to DEX if STR<1). You may mark
-a use to ignore 1 damage from an attack.
+세속의 권위든 하늘의 권위든, 재판관·배심·집행자로 행할 권한을 받았습니다. 그 권위에 기반해 누군가에게 명령을 내릴 때 +매력으로 굴립니다. 쫓는 악의 자초지종을 말해 주면 대신 +지혜로 굴릴 수 있습니다.
 
-Choose one item below:
+- 7+: 아래에서 하나를 고른 뒤, 그들은 도망·공격·복종 중 하나를 스스로 정합니다.
+- 10+: 선택지를 하나 더 고릅니다.
+- 6-: 누군가 당신을 꼬거나 매복합니다; 경험치 1을 표시하고 GM이 마스터 액션을 합니다.
 
-☐ Hearty Feast. Share it while Making Camp to fully heal all PCs.
+- 복종하지 않으면 다음 굴림에 유리
+- 당신에게 관련 정보 한 조각을 내놓는다
+- 도망칠 수 없다
 
-☐ Adventuring Gear (3 uses OOO). When you rummage through
-this for a useful mundane item, mark a use and acquire it.
+### 사악을 처단하다(Smite Evil)
 
-☐ Shield (1 use O mark it to ignore all damage from an attack)
+세션당 한 번, 희망도 속죄도 구원도 기대할 수 없는 이를 단죄할 때, 장면이 끝날 때까지 그들에게 주는 피해 +1입니다.
 
-For your appearance, choose one per row (or something else):
+### 정의의 사냥개(Hound of Justice)
 
-☐ gleaming platemail, ☐ inconspicuous cloak, ☐ battered chains
-☐ huge shield, ☐ iconic banner, ☐ pretty/handsome scar
+도망자, 사악한 피조물, 맹세한 적을 쫓으며 비밀을 파헤치거나 속뜻 읽기를 할 때, 보통 결과에 더해 아래 질문 하나를 합니다. GM은 6-에서도 항상 진실로 답합니다.
 
-Starting Stats Choose one below
-☐ STR 2 DEX -1 INT 0 WIS 1 CHA 1
-☐ STR 1 DEX 0 INT 1 WIS 2 CHA -1
+- 어디 있는가?
+- 가장 취약한 점은?
+- 무엇을 꾸미는가?
+- 누가 그들에게 등을 돌리기 직전인가?
 
-☐ Gain another Path from your Class
+### 심판의 낙인(Mark of Judgement)
 
-☐ +1 to any Stat (max. 2)
+사악한 사람이나 피조물에게 낙인을 새길 때—보통 시간이 걸리고 그들이 무력할 때—+지혜로 굴립니다.
 
-☐ Multiclass — Gain a new Path from a Class not being played
+- 7+: 그들이 바뀔 때까지 아래에서 하나를 고릅니다.
+- 10+: 선택지를 하나 더 고릅니다.
+- 6-: 아래에서 하나를 고르지만, 낙인은 시간이 지나면 사라집니다.
 
-☐ Gain a Magic Item
+- 항상 쉽게 위치를 알 수 있다
+- 문명인은 모두 그들을 범죄자나 추방자처럼 대한다
+- 예전에 가졌던 중요한 힘이나 능력을 잃는다
 
-From Level 10 onwards, you can also choose from the following:
+### 참시(Truesight)
 
-☐ +1 to any Stat (max. 3)
+감각이 어둠을 뚫고, 환영을 꿰뚫으며, 거짓을 알아챕니다.
 
-☐ Multiclass — Gain a new Path from a Class not being played
+---
 
-☐ Choose an Artifact (page 52) or work with the GM to create a
-new one. Then the GM will give you a lead on where to find it.
+## 본보기(Exemplar)
 
-When you resolve a Conflict, choose one below:
+### “오늘은 아니다!”(“But it is not this day!”)
 
-☐ Gain There Are No Chains On Me. When you intentionally break
-an Oath, instead of losing its benefit you alter it to fit your action,
-virtuous or not. When you change Classes, you may keep any
-altered Oaths. Once you alter an Oath you may no longer take any
-more Paladin Paths or Advanced Moves when you Level Up.
+동료와 아군에게 고무하는 연설을 할 때 +매력으로 굴립니다. 시끄럽거나 위험하거나 무서운 한가운데라면 불리입니다.
 
-☐ Unlock your Moment of Heroism. When you use it, take total
-control of the narrative, describe one last feat you accomplish
-that dramatically changes the world or other PCs, then exit the
-narrative however you wish (eg. retirement, death, etc.)
+- 10+: 사기(Morale) 를 3으로 맞춘다.
+- 7–9: 사기를 2로 맞춘다.
+- 6-: 연설이 끊기거나 깎입니다; 사기를 0으로 맞추고, 경험치 1을 표시하며 GM이 마스터 액션을 합니다.
 
-27
+당신이나 가까이 있는 PC가 조건을 표시하려 할 때, 대신 사기 1을 쓸 수 있습니다.
 
-Paladin Paths
+### 본보이기(Lead by Example)
 
-☐ Inquisitor
-Righteous Command
-Whether by an earthly power or a heavenly one, you
-have been given the authority to act as judge, jury, and
-executioner. When you give someone an order based on
-your authority, roll+CHA. If you tell them the details of an
-evil you are hunting, you may instead roll+WIS. *On a 7+
-choose one, then they decide whether to flee, attack, or obey
-you. *On a 10+ make an additional choice.
+12+가 나올 때마다 사기 1을 얻습니다.
 
-◆ If they don’t obey you, gain ADV on your next roll
-◆ They reveal a piece of relevant information to you
-◆ They cannot flee
+### 마음을 돌리다(Change of Heart)
 
-\*On a 6- someone undermines or ambushes you; mark 1 XP
-and the GM makes a Move.
+NPC에게 진심으로 더 나은 사람이 되도록 간청할 때, 그들이 열린 마음이면(GM 판단) +매력으로 굴립니다.
 
-☐ Smite Evil
-Once per session, when you condemn someone beyond
-hope, redemption, or salvation, deal +1 damage to them
-until the end of the scene.
+- 10+: 진심으로 최선의 자기가 되려는 길을 시작합니다.
+- 7–9: 대신 아래 하나를 고릅니다.
 
-☐ Hound of Justice
-When you Unearth Secrets or Sense the Motive in
-pursuit of an outlaw, evil creature, or sworn enemy,
-ask one question below in addition to the normal results.
-The GM will always answer it truthfully, even on a 6-.
-◆ Where are they located?
-◆ How are they most
+- 당신의 말이 그들을 뒤흔들고 산만하게 만들어, 당신과 각 PC의 그들을 향한 다음 굴림에 유리
+- 말이 어딘가에 닿아, 이번 한번 자비·비밀·기회 중 하나를 준다
+- 바뀔 수 없는 강한 이유를 드러낸다; 그것을 걷어 내면 이 결과를 10+처럼 취급한다
 
-◆ What are they planning?
-◆ Who is close to turning
+- 6-: 마음을 굳게 닫습니다; 경험치 1을 표시하고 GM이 마스터 액션을 합니다.
 
-vulnerable?
+결과와 관계없이 그들에게 이 액션으로 다시 마음을 구하지는 못합니다.
 
-against them?
+### 하나로 묶다(Unite Them)
 
-☐ Mark of Judgement
-When you brand an evil person or creature, physically or
-metaphorically, usually taking time and they being helpless,
-roll+WIS. *On a 7+ choose one until they change for the
-better. *On a 10+ make an extra choice. \*On a 6- choose one,
-but the mark will fade with time.
+파벌과 연합하거나 동맹하려 할 때, 직접 적이 아니면 그들이 안고 있는 큰 문제나 목표를 말해 줍니다. 그것을 해결하는 데 도우면 그들의 충성을 얻고, 당신이 이끄는 한 원수라도 함께 일할 의향이 있습니다.
 
-◆ You will always easily be able to locate them
-◆ All civilized folk will treat them as a criminal or outcast
-◆ They lose a significant power or ability they once had
+### 이제 네 차례다(It’s Your Turn Now)
 
-☐ Truesight
-Your senses can ignore darkness, pierce illusions, and
-detect lies.
+**황천길** 을 할 때 아래도 고를 수 있습니다.
 
-28
+- 후계. PC 한 명을 지목하고 왜 믿는지 말한 뒤 죽는다. 그들이 말을 받아들이면, 보통 길 제한을 넘어 이 길을 공짜로 얻습니다.
 
-☐ Exemplar
-“But it is not this day!”
-When you give an inspiring speech to your companions
-and allies, roll+CHA, with DIS if you’re in the midst of
-something loud, dangerous, or terrifying. *On a 10+ reset
-Morale to 3. *On a 7-9 reset Morale to 2. \*On a 6- your speech
-is interrupted or undermined; reset Morale to 0, mark 1 XP,
-and the GM makes a Move.
+---
 
-When you or a nearby PC would mark a condition, you may
-instead spend 1 Morale instead.
+## 기사(Knight)
 
-☐ Lead by Example
-Whenever you roll a 12+, gain 1 Morale.
+### 과업(Quest)
 
-☐ Change of Heart
-When you plead with an NPC to truly change for the better,
-if they are open to it (GM’s call), roll+CHA. *On a 10+ they
-begin the journey to become their best self in earnest. *On a
-7-9 they choose one instead.
+사명에 몸을 바칠 때, 그것이 무엇인지·헌신이 어떻게 보이는지 묘사합니다. 이미 끝내지 못한 과업이 있으면 조건을 표시하고 지웁니다. 그다음 아래 축복에서 하나를 고르고 GM이 하나를 더 고릅니다. 과업에 진실할 동안 이 축복은 유지됩니다.
 
-◆ Your words haunt and distract them, granting you and
-each PC Advantage on your next rolls against them.
+- 음식·물·잠이 필요 없다
+- 목표의 방향을 느낀다
+- 당신 목소리가 언어를 넘어선다
+- 특정 피조물이나 유형의 존재를 느낀다
+- 특정 피해(불, 추락, 화살 등)에 면역이다
+- 과업의 상징을 받는다. 그것을 보고 동의하는 이는 당신을 돕는다
 
-◆ Your words connect with some part of them, and just
-this once they offer mercy, a secret, or an opportunity.
+세션을 마친다 할 때, 과업에 눈에 띄는 진전이 있었지만 아직 끝내지 않았다면 경험치 1을 얻습니다.
 
-◆ They reveal a powerful reason they can’t change. If you
+과업을 완수하면 즉시 축복을 잃고 경험치 2를 얻으며 최대 HP의 절반까지 회복하고, 잠겨 있어도 조건 하나를 지웁니다.
 
-remove it, then treat this result as a 10+.
+### 나는 방패다(I Am Your Shield)
 
-\*On a 6- they harden their heart against you; mark 1 XP and
-the GM makes a Move.
+**적을 붙잡다** 를 정면으로 맞서 싸울 때, 그들에게서 받는 피해를 2 줄입니다.
 
-No matter the result, you can’t Change Their Heart again.
+### 장갑을 던지다(Throw Down the Gauntlet)
 
-☐ Unite Them
-When you try to join or ally with a faction, if they aren’t
-your direct foes they’ll tell you of a big problem or goal
-they’re grappling with. If you help them resolve it, you earn
-their loyalty, and they’re willing to work alongside anyone,
-even their enemies, as long as you lead the efforts.
+모욕·침입·옛 원한에 맞서 일대일 결투를 요구할 때, 상대는 거절할 수 없습니다—대리인을 세우거나 조건을 달거나 복잡한 상황을 붙이는 것은 가능합니다. 또 그런 결투를 시작할 때마다 조건 둘을 지웁니다.
 
-☐ It’s Your Turn Now
-When you Face Death, you may also choose the following:
+### 용맹한 희생(Valorous Sacrifice)
 
-◆ Successor. Name a PC, tell them why you believe in
+다른 이 대신 해를 입으려 할 때, 그들이 가까움 이내에 있고 공격이 범위가 아니면 성공적으로 피해를 대신 받습니다. 아니면 GM이 먼저 그들에게 닿으려 위험 돌파를 하라고 할 수 있습니다. 어느 쪽이든 그들이 PC라면 당신과의 깊이 1을 얻습니다.
 
-them, and then die. If they accept your words, they gain
-this Path for free beyond the normal Path limits.
+### 가장 큰 덕(The Greatest Virtue)
 
-☐ Knight
-Quest
-When you dedicate yourself to a mission, describe what it
-is and what the dedication looks like. If you already have an
-unfinished quest, mark a condition and erase it. Then you
-choose one blessing below and the GM chooses one more.
-While you stay true to your quest, these blessings remain.
-◆ You don’t need food,
-
-◆ You can sense the
-
-water, or sleep
-
-direction of your goal
-
-◆ Your voice transcends
-
-language
-
-◆ You can sense the
-
-presence of a specific
-creature or type of
-creature
-
-◆ You are immune to a
-specific type of harm
-(fire, falling, arrows, etc.)
-
-◆ Receive a symbol of your
-quest. Those who see and
-agree with it will aid you
-
-When you End the Session, gain 1 XP if you’ve made
-significant progress on your quest but haven’t completed it.
-
-When you complete your quest, immediately lose your
-blessing, gain 2 XP, heal up to half of your max HP, and clear
-a condition even if it’s locked.
-
-☐ I Am Your Shield
-When you Keep Them Busy by engaging them upfront in
-battle, reduce the damage you take from them by 2.
-
-☐ Throw Down the Gauntlet
-When you demand a one-on-one fight in response to a
-insult, trespass, or past enmity, your opponent cannot
-decline, though they may use a substitute, propose
-conditions, or add complications. Additionally, whenever
-you begin such a fight, clear two conditions.
-
-☐ Valorous Sacrifice
-When you try to take harm meant for another, if they’re
-Near or closer, and the attack isn’t Area, then you successfully
-take the damage instead of them. Otherwise, the GM may
-first ask you to Defy Danger to reach them. Either way, if
-they’re a PC they gain 1 Depth with you.
-
-☐ The Greatest Virtue
-When you abandon a quest in order to help another PC
-(or, as a Paladin, break an Oath for them), gain 1 Depth
-with them and gain Advantage on all rolls for the rest of this
-scene. You still lose the Quest benefits as normal.
+과업을 버리고 다른 PC를 돕기로 하거나, 성기사로서 그들을 위해 서약을 어길 때, 그들과 깊이 1을 얻고 이 장면이 끝날 때까지 모든 굴림에 유리입니다. 과업 축복은 여느 때처럼 잃습니다.

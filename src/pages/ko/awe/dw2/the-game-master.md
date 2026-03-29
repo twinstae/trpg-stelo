@@ -1,142 +1,66 @@
+---
+title: "던전월드 2 · 게임 마스터"
+description: "게임 마스터 역할."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: the-game-master | source lines 8740-8880 | approx book page 54 -->
 
-The Game Master
+## GM의 역할
 
-The Role of the GM
-The Game Master (GM) is an important role, and can be extremely
-fun and rewarding. Here is what it is and isn’t about.
+게임 마스터(GM)는 중요한 역할이며, 매우 즐겁고 보람 있을 수 있습니다. 무엇이 그 일인지, 무엇이 아닌지 정리합니다.
 
-◆ You are responsible for portraying the world around the
+- PC 주변의 세계—환경, NPC, 적, 길 위의 장애물 등을 연기·묘사할 책임이 있습니다.
+- 모든 사람의 재미까지 전부 짊어질 책임은 없습니다. 협력 게임이며, 성숙하고 친절하며 서로를 존중하는 데 참가자 모두가 똑같이 책임져야 모두의 재미가 납니다.
+- 당신도 재미를 느껴도 됩니다. 협력은 쌍방향이니, 세계에 아이디어를 넣거나—물론 괜찮은지 먼저 물은 뒤—플레이어에게 제안해도 좋습니다.
+- 이야기의 유일한·최고 저자가 아닙니다. 함께 키우는 이야기에 관한 공유된 게임입니다. 머릿속에 박힌 “플롯”만 밀어붙이면 모두에게 더 어렵고 덜 재미있어집니다. 뜻밖의 일을 받아들이고, 스스로도 놀라게 하십시오. 플레이를 해서 알아냅니다!
+- 진행·조직을 전부 혼자 할 필요도 없습니다. 세션 일정, 태도, 간식, 늦거나 불참할 때 어떻게 할지 등은 팀이 정하면 됩니다. 그 일을 과하게 떠안지 말고, 가능한 한 나누십시오.
+- 완벽할 수는 없습니다. 사소한 실수나 아이디어 막힘은 괜찮습니다. 다른 참가자나 팀 밖 사람에게 도움을 구해도 좋습니다.
+- 당신이 연기하는 인물이 PC가 아닙니다. 멋질 수 있고 자주 등장할 수도 있지만, 가장 기억에 남는 순간은 PC와 어떻게 맞부딪치는지여야 합니다.
 
-PCs, such as the environment, NPCs, enemies, and obstacles
-all along the way.
+<!-- p.54 -->
 
-◆ You are NOT responsible for everyone’s fun. This is a
+## 무엇을 하나요?
 
-collaborative game, and everyone is equally responsible
-for being mature, kind, and respectful to each other, thus
-fostering everyone’s fun.
+대부분의 시간은 한 명 이상의 PC에게 팽팽하거나 위험하거나 흥미로운 상황을 묘사한 뒤, “어떻게 하나요?” 같은 질문으로 마무리하며 플레이어가 대화에 끼어들게 합니다.
 
-◆ You are there to have fun too! Collaboration is a two-way
-street, so feel free to inject your ideas into the world, or
-suggest an idea to a Player (after asking if they are okay with
-that, of course).
+던전월드 2에서 GM의 핵심은 흥미로운 상황을 제시하고, 그들이 원하는 것을 얻기 위해 무엇을 할지·무엇을 걸지·무엇을 희생할지 묻는 것입니다.
 
-◆ You are not the main nor sole author of the story. This is a
-shared game about an evolving narrative. If you go in with
-a fixed “plot” in mind then everything will become more
-difficult and less fun for everyone. Lean into the unexpected
-and let yourself be surprised. Play to find out!
+다만 그것만 하는 것은 아닙니다.
 
-◆ You don’t have to be the organizer. It’s up to everyone in the
-group to decide how to handle things like session scheduling,
-group behavior, snacks, and what to do if someone is late or
-can’t make it. Don’t overburden yourself with these tasks and
-learn to delegate them as much as possible.
+### 세계를 묘사한다
 
-◆ You are not infallible, so don’t sweat over the small stuff.
-If you make a mistake, or have trouble coming up with
-ideas, that’s okay. Feel free to ask for help from your fellow
-Participants or other people outside of your gaming group.
+PC가 즉각 반응을 요하는 상황만 있는 것은 아닙니다. NPC와 수다를 떨거나 장을 보거나 최근 승리를 축하하기도 합니다. 긴장을 잠시 풀어 주며 주변을 묘사하십시오. 나중에 긴장이 돌아오면 그만큼 더 크게 느껴집니다.
 
-◆ Your characters are not the PCs. They can still be awesome,
-some can be around frequently, but their most memorable
-moments should be how they interact with the PCs.
+### 규칙을 판정한다
 
-54
+상황에 따라 규칙이 애매할 수 있습니다. 이 미묘한 암시가 **선택에 영향 주기** 에서 말하는 위협으로 셀까? 이 적을 쏠 만큼 가까운가, 그래서 **위협에 맞서다**(Engage a Threat) 가 되는가? PC가 위험에 맞서는 방식이 **위험 돌파** 에 해당할까? 이럴 때 중재자로서 플레이어 의견을 듣고, 캠페인 안에서 판정을 일관되게 유지합니다.
 
-What Do You Do?
-Most of your time will be spent describing a tense, perilous, or
-intriguing situation to one or more of the PCs, and then finishing
-it up with “What do you do?” or a similar question, inviting the
-Players to contribute to the conversation.
+### 질문하고 답한다
 
-This is the core of GMing Dungeon World 2: to present the
-Players with interesting situations and ask what they will do, risk,
-or sacrifice to get what they want.
+플레이어가 세계에서 지금 몇 시인지, NPC가 피곤한 정도인지 병든 것인지 물을 수 있습니다. 그에 따라 **비밀을 파헤치다**, **속뜻 읽기**, **지식 더듬기** 가 발동할 수도 있고, 상황에 따라 그냥 답해도 됩니다. 반대로 PC 행동의 의도나 수단이 불분명하면 명확히 물어야 합니다. 하이드라의 머리를 베려면 정확히 어떻게 손을 뻗는가? 부패한 판사를 법정에서 굴욕에 처할 때 무슨 광경인가?
 
-However, that’s not the only thing you’ll do.
+### 결과를 전달한다
 
-Portray the World
-The PCs aren’t always in situations that demand an immediate
-response. Sometimes they chat with NPCs, or they go shopping,
-or they celebrate a recent victory. Describe their surroundings
-without urgency, relaxing the tension for a short time. That
-tension will feel all the greater when it returns.
+가벼우면 평판 하락이나 기회 상실, 무거우면 팔다리 상실이나 마을 파괴까지 갈 수 있습니다. 다칠 수 있는 건 PC만이 아닙니다. 친구·동맹·추종자를 위험에 두고, 위협이 막히지 않으면 실제로 따라가게 하십시오.
 
-Adjudicate the Rules
-The rules can sometimes be unclear in certain situations. Does
-this subtle hint count as a threat for the purposes of Exert
-Influence? Is this enemy close enough to shoot at, so they can
-Engage a Threat? Is a PC acting against a danger in a way that
-might Defy it? You will act as the arbiter in these times, listening
-to your Players’ input and staying consistent in your rulings
-within a campaign.
+### 세션을 준비한다
 
-Ask & Answer Questions
-Sometimes a Player will ask you what time it is in the world, or
-if an NPC looks merely tired or actively sick. These may trigger
-Moves like Unearth Secrets, Sense Motive, or Recall Lore, but,
-depending on the situation, they may instead be answered
-straightforwardly. On the other hand, sometimes a PC’s intent
-behind an action, or method of accomplishing it, isn’t clear, and
-you need to ask them to clarify. How exactly do you reach for the
-head of the hydra to try to cut it off? What does it look like when
-you humiliate a corrupt judge in their own court?
+장면 사이 5분에서 다가올 캠페인을 몇 달 고민하는 것까지 다양합니다. 앞으로 PC가 무엇을 마주치고 겪고 탐험하고 맞서고 바꿀지 아이디어를 내지만, 그 아이디어에 집착하지는 마십시오.
 
-Deliver Consequences
-This could be as mild as a lowered opinion or lost opportunity,
-or as extreme as the loss of a limb or destruction of a village. The
-PCs aren’t the only ones who can get hurt; feel free to imperil
-friends, allies, and followers—then follow through if the threat
-isn’t thwarted.
+## 플레이 순서 흐름
 
-Prepare for the Session
-This could range from a five minute break in between scenes to
-months pondering an upcoming session or campaign. Come up
-with ideas on what the PCs might encounter, experience, explore,
-challenge, or change in the future, but never grow too attached
-to them.
-
-Play Order Flowchart
-
-1. The GM makes a Move. Following their GM Principles, they
-   set up a situation. Then they usually ask ‘what do you do?’
-
-2. Player(s) describe their response. What does it look like
-
-when they act? What do they hope to accomplish?
-
-3. Is a Move triggered? If so, continue. If not, return to the start.
-
-4. Is a roll involved? If not, follow the Move, then go back to the
-   start. If so, roll what the Move says. Freely remind the PCs
-   they can Aid each other. Remember that conditions and being
-   Bloodied can affect rolls.
-
-5. What was the roll result? Follow what the Move says happens.
-   10+ (10 or higher) means a full success, as close to clean as can
-   be expected.
-   7-9 (7, 8, or 9) is still a success but messier, with a milder
-   consequence, drawback, or reduced effect.
-   6- (6 or lower) means things go badly. Most of the time that
-   means the GM makes a Move and the rolling Player gains XP,
-   but a few Moves say something else.
-
-6. Does the GM make a Move? Even if a different outcome was
-   rolled, or no roll at all happened, then the GM still evolves
-   the narrative and applies consequences appropriate to the
-   established fiction. If a 6- was rolled, this usually means the
-   consequences are worse and things get more dire.
-
-7. Is damage being exchanged or dealt? If not, continue. If so,
-   for each entity receiving damage, determine how much and
-   reduce their HP by that amounts. Remind PCs they can spend
-   Armor or Shield uses to reduce damage taken. Remember to
-   check if anyone becomes Bloody after damage is dealt.
-
-8. Has any PC marked all conditions or reached 0 HP? If not,
-   continue. If so, they trigger Reach Your Limit (for conditions)
-   or Face Death (for HP).
-
-9. Return to the start.
+1. GM이 마스터 액션을 합니다. GM 원칙에 맞춰 상황을 세우고, 보통 “어떻게 하나요?”로 이어집니다.
+2. 플레이어가 반응을 묘사합니다. 행동이 어떻게 보이는지, 무엇을 이루려는지.
+3. 액션이 발동하는가? 예면 계속. 아니요면 1로 돌아갑니다.
+4. 굴림이 있는가? 아니요면 액션대로 처리하고 1로. 예면 액션에 적힌 대로 굴립니다. PC가 서로 **동료 돕기** 할 수 있음을 상기시켜도 좋습니다. 조건과 **피투성이** 가 굴림에 영향을 줍니다.
+5. 결과는? 액션 문구대로 처리합니다.
+   - 10+: 가능한 한 깔끔한 완전 성공.
+   - 7–9: 성공이지만 덜 깔끔—약한 대가·단점·효과 감소.
+   - 6-: 일이 나쁘게 흘러갑니다. 대개 GM이 마스터 액션을 하고 굴린 플레이어는 경험치 1—일부 액션은 다르게 말합니다.
+6. GM이 마스터 액션을 하는가? 다른 결과가 나왔거나 굴림이 없었어도, GM은 이야기를 밀고 **이야기 속 현실(the fiction)** 에 맞는 결과를 붙입니다. 6-이면 보통 더 나쁜 결과로 악화시킵니다.
+7. 피해를 주고받는가? 아니면 다음으로. 예면 받는 이 각각 피해를 정해 HP에서 뺍니다. PC에게 갑옷·방패 사용을 상기시키고, 피해 후 **피투성이** 인지 확인합니다.
+8. PC가 조건을 전부 표시했거나 HP가 0인가? 아니면 다음으로. 예면 **한계에 다다른다**(조건) 또는 **황천길**(HP 0).
+9. 1로 돌아갑니다.

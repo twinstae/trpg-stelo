@@ -1,494 +1,279 @@
-<!-- split from dw2.md: magic-items | source lines 7343-7838 | approx book page ? -->
-
-Magic Items
-
-Magic items are any objects that have exceptional or supernatural
-components to them. Sometimes they might not technically be
-magic, but with their effect they might as well be. They often
-increase a user’s power, agency, and ability to effect the world
-around them.
-
-The below are guidelines for how to use magic items in your game.
-You can change all of these how you see fit to fit your world, tone,
-and goals for your game, but these are the default suggestions.
-
-Encountering Magic Items
-Magic items are almost never merely purchased. They are rare,
-often unique, and usually can only be found through adventures.
-Some campaigns might not have magic items at all.
-
-When a PC acquires a magic item by Leveling Up, they choose
-from the Example Items starting on this page, or create it
-themselves (page 48). When a magic item is found in the fictional
-world, the GM creates it.
-
-Most magic items existed before they were found by the PCs,
-and likely effected the world and narrative then. Perhaps an
-enemy was using the item before they were felled, or the item
-was specifically sealed or hidden here for a purpose. Maybe the
-previous owner perished or lost it. The GM may often use them
-to shape or inform the adventure before the PCs acquire them.
-
-Identifying Magic Items
-There are several ways to handle recognizing and learning to use
-magic items, depending on how you want to portray them and
-varying depending on the item itself.
-
-◆ Once you trigger its effects. This is the default since players
-
-need to engage the item narratively before they see its
-mechanics. Even without definitively identifying it, PCs can
-intuit, research, Recall Lore, or ask around to get information
-about the magic item and how it might work.
-
-◆ When you Make Camp, you automatically learn how it works,
-maybe you spend some time during your break experimenting
-and learning. This encourages Settling In a bit more for groups
-that might want to avoid it, and can make the choice of when
-to Make Camp more engaging.
-
-◆ When you first pick it up. Maybe it imprints knowledge onto
-its holder, communicates directly, has written instructions, or
-it’s just really obvious how to use it.
-
-◆ When you get a specialist to reveal or unlock it. Perhaps this
-magic item has a protective charm that needs to be broken
-before someone new can use it, or perhaps figuring magic
-items out is a very involved and dangerous process that there
-is a dedicated profession to in your world.
-
-Ambrosia ☐ ☐ ☐
-This golden cheese emanates a mouth-watering scent and
-strengthens the body and spirit of all who consume it.
-
-When you partake of Ambrosia, mark a use, restore 2 HP,
-and clear a condition.
-
-Forget-me-Naught
-This highly secretive and illegal smoky liquid is magically
-synthesized rather than harvested.
-
-When you or another ingests Forget-me-naught and focuses
-on a specific memory, you/they forget it forever.
-
-Arrows of Acheron ☐ ☐ ☐
-Crafted in darkness by a blind fletcher, these arrows disintegrate
-if ever touched by the light of the sun.
-
-When you fire these arrows, mark off a use to ignore all
-darkness, blindness, and concealment
-
-Barb of the Black Gate
-A nail or spike, twisted and forever cold, said to have been pried
-from the Gates of Death.
-
-When you embed the barb into a corpse, it disappears and
-ensures that corpse will never be risen again—no magic
-short of that of Death himself can reignite the flame of life
-(natural or otherwise) in the body.
-
-Bag of Holding
-This ordinary-looking belt pouch that smells faintly of ozone.
-
-This bag can contain a cart’s worth of volume and weight,
-while still weighing and measuring as if it was empty.
-
-Cloak of Absurd Protection
-A cape of rich black velvet outside and sparkling with tiny points
-of light within, this cloak bends fate, time and reality around it
-to protect its wearer.
-
-When you Defy Danger by invoking the cloak’s reality-
-warping power, choose an unmarked stat below, then mark
-and use it for the roll, even if it doesn’t make sense. Examples
-include deflecting a fireball with CHA by convincing it you
-deserve to live, and eluding a fall by applying the mighty
-logic of your INT to prove the fall won’t hurt. When all stats
-are marked, clear them; they are all available to use again.
-
-☐ STR ☐ DEX ☐ INT ☐ WIS ☐ CHA
-
-Coin of Remembering
-This “simple copper coin” carries a latent enchantment. It bears
-the carving of a well.
-
-When you toss the coin into a body of water, it vanishes
-forever and you immediately learn one fact that has been
-forgotten. It does not have to be a fact that you forgot, but
-it cannot be “known.” If it’s unsuccessful, you still learn of
-someone or something that does know what you sought.
-
-Devilsbane Oil
-A holy oil, created in limited supply by a secretive order of monks
-who protected humanity from demons in ancient epochs.
-
-When applied to a weapon and used to strike a denizen of
-an outer plane, the oil undoes the magic that binds that
-creature, either returning it home or undoing any magic
-controlling it. The oil stays on the weapon for a few hours
-before it dries and flakes away.
-
-If applied to the edges of a doorway or drawn in a circle,
-the oil will repel creatures whose home is any of the outer
-planes. They cannot pass across it. The oil lasts for one full
-day before it soaks in or evaporates.
-
-Captain Bligh’s Cornucopia
-A brass naval horn, curled and ornate, carved with symbols of
-the gods of Plenty.
-
-When you blow the horn, in addition to sound, it spills forth
-enough food to count as a Hearty Feast for all who hear. If
-you blow it again while the food is uneaten, the gods of
-Plenty take notice of your ungratefulness, and punish you
-accordingly.
-
-Earworm Wax
-A yellowish candle. Seems never to burn out and the light it casts
-is strange and weak. Its wax is always cool, too.
-
-When you drip the wax into another’s ear, gain 3 Wax. Until
-the end of the scene, you may spend 1 Wax to ask your target
-a question and have them answer with the whole truth,
-despite themselves. The consequences, after the fact? Those
-are up to you to deal with.
-
-45
-
-Farsight Stone
-Swirling clouds fill this smoky orb and those in its presence often
-hear strange whispers. In ancient times, it was part of a network
-of such stones, used to communicate and surveil across great
-distances.
-
-When you gaze into the stone, name a location and
-roll+WIS. *On a 10+ you see a clear vision of the location
-and can maintain it as long as you concentrate on the orb.
-*On a 7–9 you still see the vision, but you draw the attention
-of some other thing (an angel, demon, or holder of another
-stone) that uses the stone to surveil you, as well. \*On a 6-
-something diverts the vision and instead shows you what it
-wants you to see; mark 1 XP and the GM makes a move.
-
-Wax Wings
-In an attempt to grant the wishes of land-bound folk, these
-great magical wings were created. Known by many names, they
-commonly take the wing-shape of nearby birds. Worn by means
-of a harness or, in some dire cases, a surgical procedure.
-
-When you take to the air with these magical wings,
-roll+DEX. *On a 10+ your flight is controlled and you may
-stay aloft until the end of the scene. *On a 7–9 you make it
-aloft but your flight is short or erratic and unpredictable,
-your choice. \*On a 6-, you make it aloft, but the coming-
-down part and everything between is up to the GM.
-
-Immovable Rod
-A funny metal rod with a small button on it.
-
-When you press the rod’s button, the rod freezes in place—
-in midair, standing up or lying down. It can’t be moved. Pull
-it, push it, try as hard as you like, the rod stays. Maybe it can
-be destroyed, maybe it can’t. Push the button again and it’s
-free take it along with you.
-
-Lamented Memento
-Taking the form of a single lock of bright red hair, bound in a
-black ribbon and immune to the ravages of time. It is said that
-this memento bears the memories and emotions of someone who
-dealt with Death at the Black Gates so many times that they fell
-in love, and are together to this day.
-
-When you Face Death, and choose to Gamble with
-Death, before rolling you may sacrifice this momento to
-automatically succeed as if you rolled a 10+.
+---
+title: "던전월드 2 · 마법 아이템"
+description: "마법 아이템."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
 
-46
+<!-- split from dw2.md: magic-items | source lines 7343-7838 | approx book page 45-47 -->
 
-Map of the Last Patrol
-An ancient order of brave rangers once patrolled the land,
-protecting villages and warning rulers of encroaching danger.
-They’re long gone, now, but their legacy remains.
+# 마법 아이템
 
-When you mark this map with your blood, individually or
-as a group, it will always show your location while you’re
-within its bounds.
+마법 아이템은 특이하거나 초자연적인 요소를 지닌 물건입니다. 엄밀히 말하면 마법이 아닐 수도 있지만, 효과만 놓고 보면 마법이나 다름없습니다. 사용자의 힘, 행동 범위, 세계에 영향을 끼치는 능력을 종종 높여 줍니다.
 
-Nightsider’s Key
-This key unlocks any door for you, provided you don’t belong
-where you intend to go. So long as you do nothing that would
-alert another to your presence (remaining unheard, unseen
-and unnoticed) and takes nothing more than your memories
-out with you, the key’s magic will prevent your intrusion
-from ever being discovered. It’s like you were never there
-at all.
+아래는 게임에서 마법 아이템을 쓰기 위한 지침입니다. 세계와 톤, 게임 목표에 맞게 얼마든지 바꿔도 되지만, 기본 제안은 이렇습니다.
 
-Tears of Annalise
-Cloudy red gemstones the size of a thumbnail, the Tears of
-Annalise are always found in pairs.
+## 마법 아이템과의 조우
 
-When you and another PC each swallow a tear, you can feel
-the other’s strong emotions, particularly sadness, loss, fear
-or desire. Whenever one of you marks a condition, the other
-may mark one instead. The effects last until one spills the
-blood of the other.
+마법 아이템은 그냥 사서 얻는 법이 거의 없습니다. 희귀하고, 대개 유일무이하며, 보통 모험을 통해서만 발견됩니다. 마법 아이템이 아예 없는 캠페인도 있을 수 있습니다.
 
-Tricksy Rope
-A rope that listens. Does tricks, too, like a smart and more
-obedient snake might. Tell it “Coil” or “Slack” or “Come here,
-rope” and it will.
+PC가 **레벨업** 으로 마법 아이템을 얻을 때는 이 페이지의 예시 아이템에서 고르거나 직접 만듭니다(48쪽). 이야기 속 세계에서 마법 아이템을 발견하면 GM이 만듭니다.
 
-Sending Stones
-Two identical marbles with matching symbols carved into them.
+대부분의 마법 아이템은 PC가 찾기 전부터 존재했으며, 세계와 이야기에 이미 영향을 끼쳤을 것입니다. 적이 쓰러지기 전에 쓰고 있었을 수도 있고, 특정 목적을 위해 봉인되거나 숨겨졌을 수도 있습니다. 이전 주인이 죽었거나 잃어버렸을 수도 있습니다. GM은 마법 아이템을 통해 PC가 얻기 전에 이미 모험의 형태를 잡아 놓을 수 있습니다.
 
-Speak into one, and the other emits your voice.
+## 마법 아이템 감정
 
-Alchemy Jug
-A seemingly-ordinary 1 gallon ceramic jug.
+마법 아이템을 알아보고 사용법을 익히는 방법은 여러 가지이며, 아이템마다 다르게 설정할 수 있습니다.
 
-When you state one of the following liquids, the jug fills
-with it: Acid, Basic Poison, Beer, Fresh Water, Mayonnaise, Oil,
-Saltwater, Vinegar, Wine
+- **효과를 발동시킬 때.** 기본 방식입니다. 플레이어가 아이템을 이야기 속에서 다루어 봐야 그 기계적 효과가 드러납니다. 확실히 감정하지 않더라도, 직감·조사·**지식 더듬기**·주변 탐문 등으로 아이템에 관한 정보를 얻을 수 있습니다.
+- **야영** 할 때. 쉬는 동안 자연히 실험하고 익혀서 사용법을 알게 됩니다. **야영** 을 선택할 동기가 더 생기며, 언제 야영할지의 결정이 더 흥미로워집니다.
+- **처음 집어 들 때.** 아이템이 소유자에게 지식을 새기거나, 직접 대화하거나, 사용법이 적혀 있거나, 보면 바로 알 수 있는 종류일 수 있습니다.
+- **전문가에게 감정·해금을 의뢰할 때.** 새 사용자가 쓰려면 보호 마법을 풀어야 하거나, 마법 아이템 감정 자체가 전문 직업인 세계일 수 있습니다.
 
-Spell Scroll
-The magic stored within it can be unleashed by reading it
-aloud, equivalent to casting a spell even if the reader has no
-magical skills. When casting magic from a scroll, you don’t
-need to mark conditions equal to Mag, but the magic in the
-scroll only works once. Here are some possible spells stored
-in the scroll:
+---
 
-1.  Cure: Restore 4 HP to a nearby ally
+## 예시 마법 아이템
 
-2.  Bless: Each nearby ally gains ADV on their next roll
+### 암브로시아
 
-3.  Banish: A nearby spirit or outsider is forced back home
+☐ ☐ ☐
 
-4.  Message: Instantly communicate with someone distant
+_입안 가득 침이 고이는 향을 내뿜는 황금빛 치즈로, 먹는 이의 몸과 정신을 강화합니다._
 
-5.  Sanctuary: Consecrate the area around you. You know
-    when anyone enters, and unholy creatures can’t at all
+**암브로시아를 먹으면**, 사용 표시를 하나 하고, HP를 2 회복하고, 조건을 하나 해제합니다.
 
-6.  Tongues: Until the end of the scene, you can clearly
-    speak with and understand any sentient creature
+### 망각의 영약
 
-7.  Polymorph: You or a nearby ally changes into a specific
-    animal for the scene. The scroll says which animal.
+_극비리에 합성되는 불법 연기빛 액체로, 채집이 아니라 마법으로 제조됩니다._
 
-8.  Guidance: Ask the GM one question about what to do or
-    where to go, and they will give you a short bit of advice
+당신이나 다른 사람이 **망각의 영약을 삼키고 특정 기억에 집중하면**, 그 기억을 영원히 잊게 됩니다.
 
-9.  Conjure: A single powerful creature, or group of
+### 아케론의 화살
 
-weaker ones, appears to aid you until end of the scene
+☐ ☐ ☐
 
-10. Stoneskin: Reduce damage taken by 1 for the scene
+_눈 먼 화살장이가 어둠 속에서 만든 화살입니다. 햇빛이 닿으면 부스러져 사라집니다._
 
-11. Control Elements: You can control air, water, fire, or
-    earth for a scene, the scroll says which element
+**이 화살을 쏠 때**, 사용 표시를 하나 하면 어둠, 실명, 은폐를 모두 무시합니다.
 
-12. Alter Weather: The weather changes to whatever
+### 흑관문의 대못
 
-natural phenemon you say, no matter how extreme
+_결코 따뜻해지지 않는 뒤틀린 못 또는 대못으로, 사신의 문에서 뽑아왔다고 전해집니다._
 
-13. Mesmerize: Someone you’re looking at will do
+**이 못을 시체에 박아 넣으면**, 못은 사라지고 그 시체는 다시는 일어나지 못합니다. 사신 자신의 마법 외에는 그 몸에 생명의 불꽃을—자연적이든 아니든—다시 붙일 수 없습니다.
 
-whatever you say...for now.
+### 무한의 가방
 
-14. Zone of Truth: Consecrate the area around you until
-    the scene ends. No one in it (including you) can lie.
+_겉보기에는 평범한 허리 주머니이며, 오존 냄새가 살짝 납니다._
 
-15. Explosive Runes: Etch a 1m diameter rune onto a
+이 가방에는 수레 한 대 분량의 부피와 무게를 담을 수 있으면서도, 빈 주머니처럼 가볍고 작습니다.
 
-nearby surface that explodes when someone touches it
+### 고요한 별의 망토
 
-16. Invisibility: You or a nearby ally turns invisible for an
+_바깥은 폭신한 검은 우단, 안은 작은 빛들이 무수히 빛나는 망토입니다. 착용자 주변의 운명과 시간과 현실을 왜곡하여 보호합니다._
 
-hour or until you/they attack someone
+**망토의 현실 왜곡 힘을 빌려 위험 돌파를 할 때**, 아래에서 표시하지 않은 능력치를 하나 골라 표시하고, 말이 안 되더라도 그 능력치로 판정합니다. 예를 들어, 날아오는 화구를 +매로 막으며 자신이 살아야 할 이유를 역설하거나, 추락을 +지로 막으며 떨어져도 안 다친다는 논리를 증명할 수 있습니다. 모든 능력치에 표시가 되면 전부 지우고, 다시 사용할 수 있습니다.
 
-17. Fireball: Send forth a large ball of fire into foes, ideally
+- ☐ 근력
+- ☐ 민첩
+- ☐ 지능
+- ☐ 지혜
+- ☐ 매력
 
-near or far ones, that explodes on contact
+### 회상의 동전
 
-18. Magic Missiles: You wield a continuous array of
+_"평범한 구리 주화"이지만, 잠든 마법이 깃들어 있습니다. 우물 무늬가 새겨져 있습니다._
 
-homing magical projectiles until the end of the scene
+**이 동전을 물속에 던지면**, 동전은 영원히 사라지고 세상에서 잊혀진 사실을 하나 알게 됩니다. 자기가 잊은 것일 필요는 없지만, 세상에 더 이상 알려지지 않은 것이어야 합니다. 실패하더라도, 그 사실을 알고 있는 존재에 관한 정보를 얻게 됩니다.
 
-19. Mirror Image: Summon three illusory copies of your
+### 멸마의 성유
 
-self nearby that mimic your actions.
+_고대에 악마로부터 인류를 지킨 은둔 수도회가 소량만 만든 성스러운 기름입니다._
 
-20. Teleport: Name a location. You and those touching you
-    instantly appear there. If there is any interference, you
-    may need to Defy Danger to arrive safely...
+무기에 바르고 외계 존재를 가격하면, 기름이 그 존재를 묶는 마법을 풀어 고향으로 되돌리거나 조종 마법을 해제합니다. 기름은 바른 뒤 몇 시간이 지나면 말라서 부스러집니다.
 
-Potion
-The magic stored within it can be unleashed by reading it
-aloud, equivalent to casting a spell even if the reader has no
-magical skills. When casting magic from a scroll, you don’t
-need to mark conditions equal to Mag, but the magic in the
-scroll only works once. Here are some possible spells stored
-in the scroll:
+문의 가장자리를 따라, 또는 바닥에 원 모양으로 바르면 외계 존재들이 들어오지 못합니다. 이렇게 바른 기름은 꼬박 하루 지속되었다가 효과를 잃습니다.
 
-1.  Fire Breath: Until the end of the scene, you can breath
-    fire like a proportionally-sized dragon (4 dmg, close,
-    near, area, fiery).
+### 블라이 함장의 나팔
 
-2.  Greater Healing: Immediately heal to full HP.
+_놋쇠로 만든 해군 나팔입니다. 재미있게 굽어 있고 정교한 장식이 되어 있으며, 풍요의 신들을 나타내는 무늬가 새겨 있습니다._
 
-3.  Spider Climbing: Until the end of the scene, you can
-    walk on walls and ceilings as if they were the floor.
+**이 나팔을 불면**, 소리와 함께 소리가 들리는 모든 이가 먹을 수 있을 만큼의 풍성한 만찬이 쏟아져 나옵니다. 음식을 다 먹기 전에 다시 불면, 풍요의 신들이 배은망덕을 알아채고 그에 걸맞은 벌을 내립니다.
 
-4.  Heroism: You feel confident and powerful, clear three
+### 귀벌레 밀랍
 
-conditions or one locked condition.
+_노란 양초입니다. 불을 붙여도 줄지 않고, 그 빛은 이상하고 희미합니다. 밀랍은 항상 차갑습니다._
 
-5.  Invisibility: You turn invisible for an hour or until you
+**밀랍을 다른 사람의 귀에 흘려 넣으면**, 밀랍 3점을 얻습니다. 장면이 끝날 때까지, 밀랍 1점을 소비하여 대상에게 질문을 하면 대상은 숨김 없이 진실을 대답해야 합니다. 사후에 벌어지는 일은 당신이 감당할 문제입니다.
 
-attack someone.
+<!-- p.45 -->
 
-6.  Mind Reading: You can sense the thoughts of others,
-    and deeper thoughts of someone you focus on.For the
-    purposes of Sense Motive, intense concentration on
-    one nearby counts as intimate or prying conversation.
+### 천리석
 
-7.  Water Breathing: You can breathe in water.
+_연기가 가득 찬 구슬입니다. 그 주변에 있으면 이상한 속삭임이 들린다고 합니다. 고대에는 이런 돌들이 하나의 망을 이루어, 먼 곳과 소통하고 감시하는 데 쓰였습니다._
 
-8.  Animal Friendship: The nearest animal to you treats
+**천리석을 들여다보며 장소의 이름을 말하고 +혜 판정을 합니다.** 10+이면 그 장소의 선명한 모습이 보이고, 구슬에 집중하는 동안 유지됩니다. 7–9이면 원하는 모습이 보이지만, 다른 무언가(천사, 악마, 다른 천리석의 사용자)가 이쪽에 관심을 갖고 천리석을 통해 쳐다봅니다. 6-이면 무언가가 시야를 가로채고 자기가 보여 주고 싶은 것을 대신 보여 줍니다. 경험치를 1점 얻고 GM이 마스터 액션을 합니다.
 
-you as a trusted ally until you next Make Camp.
+### 밀랍 날개
 
-9.  Size Change: Your entire body doubles or halves in size
+_하늘을 날지 못하는 이들의 꿈을 위해 만들어진 위대한 마법 날개입니다. 다양한 이름으로 불리며, 대개 근처 새의 날개를 본떠 만듭니다. 멜빵으로 몸에 묶기도 하지만, 수술로 붙이는 경우도 드물게 있습니다._
 
-for a scene, the potion says which when you receive it.
+**이 마법 날개로 날아오르면 +민 판정을 합니다.** 10+이면 비행이 안정적이고 장면이 끝날 때까지 날 수 있습니다. 7–9이면 날아오르기는 하지만 비행이 짧거나 불안정하고 예측 불허입니다(플레이어 선택). 6-이면 날아오르기는 하지만, 착륙까지 모든 것이 GM 손에 달립니다.
 
-10. Gaseous Form: You and your belongings turn into a
+### 부동의 막대
 
-cloud of mist or smoke until you choose to change back
-or the end of the scene.
+_단추가 붙어 있는 금속 막대입니다._
 
-11. Speed: Until the end of the scene, you can act and move
-    much faster and gain ADV on any rolls dependent on
-    your movement, such as chasing or fleeing someone.
+**단추를 누르면 막대가 정지합니다.** 공중에 띄워 놓아도, 세워 놓아도 그 자리에 고정됩니다. 밀어도 당겨도 꿈쩍하지 않습니다. 파괴할 수 있는지는 아직 밝혀지지 않았습니다. 단추를 다시 누르면 고정이 풀리고 가지고 다닐 수 있습니다.
 
-12. Vitality: Your current and maximum HP increases by 4
+### 사신의 정표
 
-until you next Make Camp.
+_옅은 붉은 색 머리카락 한 줌을 검은 리본으로 묶은 것으로, 세월의 흔적이 전혀 남지 않습니다. 흑관문에서 사신과 수없이 거래하다 사랑에 빠진 이의 기억과 감정이 담겨 있으며, 지금도 함께라고 전해집니다._
 
-13. Clairvoyance: When you drink this, choose a location
-    you’ve seen before. Until the end of the scene, you
-    can see and hear everything there, though magically
-    attuned entities may notice you watching...
+**황천길** 에서 **사신과 내기를 하기로 한 뒤**, 굴리기 전에 이 정표를 소비하면 자동으로 10+ 결과를 얻습니다.
 
-14. Jumping: Until the end of the scene, you can jump to
+### 마지막 순찰대의 지도
 
-anywhere within Near range.
+_오랜 옛날, 용감한 사냥꾼들로 이루어진 순찰대가 이 땅을 누비며 마을을 보호하고 위험을 알렸습니다. 지금은 사라졌지만 유산은 남아 있습니다._
 
-15. Giant Strength: Until the end of the scene, you can lift
-    and throw boulders, and you deal +3 damage with your
-    bare fists and +1 damage with other melee weapons.
+**지도에 피를 묻히면**—개인이든 집단이든—지도 범위 안에 있는 한 항상 자신의 위치가 표시됩니다.
 
-16. Flying: Until the end of the scene, you can fly as quickly
+### 밤손님의 열쇠
 
-as a bird.
+이 열쇠가 있으면 아무 문이든 열 수 있습니다. 단, 원래 출입이 허락되지 않은 곳이어야 합니다. 안에서 아무에게도 들키지 않고(보이지도, 들리지도, 눈치채이지도 않고) 기억 외에는 아무것도 가지고 나오지 않으면, 열쇠의 마법이 침입 사실을 완전히 은폐해 줍니다. 마치 처음부터 없었던 것처럼.
 
-Staff of the Adder
-A wood staff carved into the face of a snake.
+### 아날리즈의 눈물
 
-When you wield and command this staff, it can transform
-into a venomous snake, which understands and follows your
-commands, until the end of the scene.
+_엄지 손톱 크기의 탁한 진홍색 보석으로, 항상 쌍으로 발견됩니다._
 
-Sphere of Annihilation
-This smooth black sphere hovers like a hole in existence itself.
+**당신과 다른 PC가 각각 하나씩 삼키면**, 상대의 강한 감정—특히 슬픔, 상실감, 공포, 욕망—을 느낄 수 있습니다. 한쪽이 조건을 표시할 때마다, 다른 쪽이 대신 표시할 수 있습니다. 이 효과는 둘 중 하나가 다른 쪽의 피를 흐르게 할 때까지 지속됩니다.
 
-When you touch the sphere, you immediately reduce your
-HP to 0. If your HP was already at 0, you die.
+### 하인 밧줄
 
-When you try to control the sphere, roll+INT, with DIS if
-your control is contested by others. *On a 7+ you can move
-the sphere somewhere within Near range; if moving it
-towards an enemy, treat it as attacking them with a ranged
-weapon (10 dmg, near), possibly triggering a Battle Move.
-*On a 7-9 choose one below.
+_명령을 듣는 밧줄입니다. 묘기도 부립니다. 똑똑하고 양순한 뱀을 닮았다고 보면 됩니다._ "똬리 틀어", "늘어져", "밧줄아, 이리와" 하고 명령하면 따릅니다.
 
-◆ It’s exceptionally strenous, mark a condition
-◆ It causes collateral damage, the GM will say how after
+### 전서석
 
-you pick this.
+_무늬가 새겨진 같은 모양의 구슬 두 개입니다._
 
-◆ After using it, you lose control of the sphere
+한쪽에 대고 말하면, 다른 쪽에서 목소리가 들립니다.
 
-\*On a 6- the sphere instead flies directly towards you; mark
-1 XP and the GM makes a Move.
+### 연금술 주전자
 
-Oil of Etherealness
-This silvery wispy oil seems to be in a visible cycle of rapid
-evaporation and condensation.
+_겉보기에 평범한 1갤런짜리 도자기 주전자입니다._
 
-When you cover yourself in the oil, you (with your
-belongings) become ethereal until you next Make Camp.
-While ethereal, you can fly and move through solid surfaces,
-and can only interacted with, and be noticed by, ghosts,
-other ethereal beings, and certain attuned entities.
+**액체의 이름을 말하면 주전자가 그 액체로 채워집니다:** 산, 기본 독, 맥주, 민물, 마요네즈, 기름, 소금물, 식초, 포도주.
 
-Dancing Sword
-A long thin blade, emits a faint musical humming tune, even
-while sheathed.
+### 주문 두루마리
 
-When you toss the sword into the air, it begins to sing, fly
-around within Near range ,and attack your foes for several
-moments. If it fights alone, it deals 2 damage. If you fight
-alongside it, instead increase your damage by 1.
+두루마리에 담긴 마법을 소리 내어 읽으면 주문이 발동합니다. 읽는 이에게 마법 기술이 없어도 됩니다. 두루마리로 마법을 쓸 때는 **Mag** 만큼 조건을 표시하지 않아도 되지만, 한 번 사용하면 마법이 사라집니다. 담길 수 있는 주문의 예:
 
-Eversmoking Bottle
-This bottle of churning, roiling smoke looks ready to burst at any
-moment.
+1. **치유:** 근처 아군의 HP를 4 회복합니다.
+2. **축복:** 근처 아군 모두 다음 굴림에 유리를 얻습니다.
+3. **추방:** 근처의 영혼이나 외계 존재를 고향으로 되돌립니다.
+4. **전언:** 멀리 있는 누군가와 즉시 소통합니다.
+5. **성역:** 주변을 축성합니다. 누가 들어오면 알 수 있고, 사악한 존재는 아예 들어올 수 없습니다.
+6. **만국어:** 장면이 끝날 때까지, 지성 있는 생물이면 누구와든 분명하게 대화하고 이해할 수 있습니다.
+7. **변신술:** 당신이나 근처 아군이 장면 동안 특정 동물로 변합니다. 어떤 동물인지는 두루마리에 적혀 있습니다.
+8. **안내:** GM에게 무엇을 하거나 어디로 갈지 질문 하나를 하면, 짧은 조언을 받습니다.
+9. **소환:** 강력한 생물 하나, 또는 약한 생물 무리가 나타나 장면이 끝날 때까지 돕습니다.
+10. **석갑:** 장면 동안 받는 피해를 1 줄입니다.
+11. **원소 제어:** 장면 동안 공기, 물, 불, 흙 중 하나를 제어할 수 있습니다. 어떤 원소인지는 두루마리에 적혀 있습니다.
+12. **기상 변화:** 아무리 극단적이어도 말하는 대로 날씨가 바뀝니다.
+13. **매혹:** 눈이 마주친 상대가 당신이 하라는 대로 합니다…지금은.
+14. **진실의 장:** 주변을 축성하여 장면이 끝날 때까지 그 안에 있는 누구도(당신 포함) 거짓말을 할 수 없습니다.
+15. **폭발 룬:** 근처 표면에 지름 1m의 룬을 새깁니다. 누가 건드리면 폭발합니다.
+16. **투명화:** 당신이나 근처 아군이 1시간 동안 또는 누군가를 공격할 때까지 투명해집니다.
+17. **화구:** 적에게 커다란 불덩이를 보냅니다. 가까움이나 멀리 거리의 적이 이상적이며, 접촉 시 폭발합니다.
+18. **마법 화살:** 장면이 끝날 때까지 추적하는 마법 투사체를 연속으로 쏩니다.
+19. **분신술:** 당신 근처에 행동을 흉내 내는 환영 분신 세 개를 소환합니다.
+20. **순간이동:** 장소를 말합니다. 당신과 접촉 중인 이들이 즉시 그곳에 나타납니다. 방해가 있으면 안전하게 도착하려면 **위험 돌파** 가 필요할 수 있습니다…
 
-When you open the bottle, a cloud of thick black smoke
-billows forth and rapidly covers everything within Near
-range. If you move the bottle, the cloud follows as smoke
-conitnues to pour from the bottle. You can close the bottle
-any time, after which the cloud slowly dissipates.
+### 물약
 
-Magic Wand
-Wizards and politicians have spent generations debating the
-risks and benefits of anyone being able to use magic with these.
+물약에 담긴 마법을 마시면 효과가 즉시 발동합니다. 물약으로 마법을 쓸 때는 **Mag** 만큼 조건을 표시하지 않아도 되지만, 한 번 사용하면 마법이 사라집니다. 담길 수 있는 효과의 예:
 
-A wand is like a Spell Scroll (page 46) but isn’t consumed
-when used. When you first receive the wand, you learn
-which spell it can perform. When you unleash the magic
-within a wand, choose one:
+1. **화염 숨결:** 장면이 끝날 때까지, 몸에 비례하는 용처럼 불을 뿜을 수 있습니다(4 피해, 가까움, 멀리, 범위, 불).
+2. **대치유:** 즉시 HP를 최대로 회복합니다.
+3. **거미 걸음:** 장면이 끝날 때까지, 벽과 천장을 바닥처럼 걸을 수 있습니다.
+4. **영웅심:** 자신감과 힘이 차오릅니다. 조건 세 개, 또는 잠긴 조건 하나를 해제합니다.
+5. **투명화:** 1시간 동안 또는 누군가를 공격할 때까지 투명해집니다.
+6. **독심술:** 타인의 생각을 감지하고, 한 명에 집중하면 더 깊은 생각까지 읽습니다. **속뜻 읽기** 기준으로, 가까운 한 명에게 깊이 집중하면 친밀하거나 캐묻는 대화로 칩니다.
+7. **수중 호흡:** 물속에서 숨을 쉴 수 있습니다.
+8. **동물 친화:** 가장 가까운 동물이 다음 **야영** 때까지 당신을 믿음직한 동료로 대합니다.
+9. **몸 변화:** 장면 동안 몸이 두 배로 커지거나 절반으로 줄어듭니다. 어느 쪽인지는 물약을 받을 때 정해져 있습니다.
+10. **기체화:** 당신과 소지품이 안개나 연기 구름으로 변합니다. 원할 때 되돌리거나 장면이 끝나면 돌아옵니다.
+11. **가속:** 장면이 끝날 때까지, 훨씬 빠르게 움직이고 행동할 수 있으며 추적이나 도주 등 이동 관련 굴림에 유리를 얻습니다.
+12. **활력:** 다음 **야영** 때까지 현재·최대 HP가 4 늘어납니다.
+13. **천리안:** 마실 때, 전에 본 적 있는 장소 하나를 고릅니다. 장면이 끝날 때까지 그곳의 모든 것을 보고 들을 수 있습니다. 다만 마법에 민감한 존재가 감시를 눈치챌 수 있습니다…
+14. **도약:** 장면이 끝날 때까지, 가까움 범위 안 어디든 뛸 수 있습니다.
+15. **거인의 힘:** 장면이 끝날 때까지, 바위를 들어 던질 수 있고 맨주먹으로 +3 피해, 다른 근접 무기로 +1 피해를 줍니다.
+16. **비행:** 장면이 끝날 때까지, 새처럼 빠르게 날 수 있습니다.
 
-◆ The wand drains itself, and can’t be used again until you
+### 독사의 지팡이
 
-next successfully Make Camp
+_뱀 얼굴이 새겨진 나무 지팡이입니다._
 
-◆ The wand drains you, mark a condition
+**이 지팡이를 들고 명령하면**, 장면이 끝날 때까지 독사로 변해 당신의 명령을 이해하고 따릅니다.
 
-Portable Hole
-A silky black cloth, folded like a handkerchief, that can unfold to
-6 feet across.
+### 소멸의 구체
 
-When you spread the full cloth across a surface, such as a
-wall or floor, it becomes a 10ft deep extradimensional pit.
-Fold it up again, and anyone or anything inside is trapped if
-they don’t escape in time.
+_이 매끄러운 검은 구체는 존재 자체에 뚫린 구멍처럼 떠 있습니다._
 
-Flying Carpet
-This fickle rug can carry passengers through the air, even long
-distances, but you must treat it with the proper respect.
+**구체에 닿으면**, 즉시 HP가 0이 됩니다. HP가 이미 0이면 죽습니다.
 
-When you call the carpet to you, roll+CHA. On a 10+ the
-carpet arrives shortly to carry you. On a 7-9 choose one:
+**구체를 제어하려 하면 +지 판정을 합니다.** 다른 사람과 제어가 겹치면 불리로 굴립니다. 7+이면 구체를 가까움 범위 안 어딘가로 이동시킬 수 있습니다. 적에게 향하면 원거리 무기로 공격한 것과 같으며(10 피해, 가까움), 전투 액션이 발동될 수 있습니다. 7–9이면 아래에서 하나를 고릅니다.
 
-◆ It will not carry you all the way.
-◆ It demands a significant show of respect.
-◆ It gets damaged or frayed, and can’t carry you again until
+- 극심한 부담이 온다—조건을 하나 표시한다
+- 부수적 피해가 생긴다—고른 뒤 GM이 어떤 피해인지 말한다
+- 사용 후 구체의 제어를 잃는다
 
-it is repaired
+6-이면 구체가 당신에게 직접 날아옵니다. 경험치를 1점 얻고 GM이 마스터 액션을 합니다.
 
-On a 6- something intercepts the carpet, mark 1 XP and the
-GM makes a Move.
+### 유체화 오일
 
-47
+_은빛 안개 같은 이 오일은 끊임없이 증발했다가 응결하기를 반복합니다._
+
+**온몸에 바르면**, 소지품과 함께 다음 **야영** 때까지 유체가 됩니다. 유체 상태에서는 날 수 있고 고체를 통과할 수 있으며, 유령이나 다른 유체 존재, 특정 감응 존재만이 당신을 인식하고 상호작용할 수 있습니다.
+
+### 춤추는 검
+
+_길고 가는 칼날로, 칼집에 넣어도 희미한 선율을 흥얼거립니다._
+
+**검을 공중에 던지면**, 노래를 부르며 가까움 범위를 날아다니며 잠시 적을 공격합니다. 검이 혼자 싸우면 2 피해를 줍니다. 함께 싸우면 대신 당신의 피해가 1 늘어납니다.
+
+### 영연의 병
+
+_병 안에서 연기가 끓어오르며 금방이라도 터질 것 같습니다._
+
+**병을 열면**, 짙은 검은 연기가 쏟아져 나와 가까움 범위를 금세 뒤덮습니다. 병을 옮기면 구름이 따라옵니다. 언제든 병을 닫을 수 있으며, 닫으면 연기가 서서히 흩어집니다.
+
+### 마법 지팡이
+
+_마법사와 정치가들이 여러 세대에 걸쳐 누구나 마법을 쓸 수 있는 도구의 위험과 이점을 논쟁해 왔습니다._
+
+지팡이는 주문 두루마리(46쪽)와 같지만, 사용해도 소멸하지 않습니다. 처음 받을 때 어떤 주문을 쓸 수 있는지 알게 됩니다. **지팡이의 마법을 발동할 때**, 하나를 고릅니다.
+
+- 지팡이가 방전되어, 다음에 **야영** 을 성공적으로 마칠 때까지 다시 사용할 수 없다
+- 지팡이가 당신을 소모한다—조건을 하나 표시한다
+
+### 휴대용 구멍
+
+_손수건처럼 접힌 매끄러운 검은 천으로, 펼치면 1.8m까지 넓어집니다._
+
+**이 천을 벽이나 바닥 같은 표면에 펼치면**, 깊이 3m의 이차원 구덩이가 됩니다. 다시 접으면 안에 있는 것은—제때 빠져나오지 못하면—갇힙니다.
+
+### 비행 양탄자
+
+_이 변덕스러운 양탄자는 승객을 태우고 먼 거리를 날 수 있지만, 합당한 예우를 해야 합니다._
+
+**양탄자를 부르면 +매 판정을 합니다.** 10+이면 양탄자가 곧 도착하여 태워 줍니다. 7–9이면 하나를 고릅니다.
+
+- 끝까지 태워 주지 않는다
+- 상당한 경의를 요구한다
+- 손상되거나 닳아서, 수리할 때까지 다시 태울 수 없다
+
+6-이면 무언가가 양탄자를 가로챕니다. 경험치를 1점 얻고 GM이 마스터 액션을 합니다.
+
+<!-- p.47 -->

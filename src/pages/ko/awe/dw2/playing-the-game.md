@@ -1,609 +1,289 @@
+---
+title: "던전월드 2 · 게임 플레이"
+description: "대화, 액션, 이야기 속 위치, 능력치, 주사위, HP·조건·재물 등."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: playing-the-game | source lines 456-1067 | approx book page ? -->
 
-Playing the Game
-
-The Conversation
-At its core, Dungeon World 2 is about a group conversation in
-a shared imaginative space, often called “the fiction” or “the
-narrative”. Participants describe what happens in the narrative,
-with Players describing what their characters do, say, and feel and
-the GM describing how the world reacts. Generally, the cycle of
-the ongoing conversation looks like this:
-
-◆ Engaging with the world and its wonders, dangers, and
-
-1. The GM presents a dramatic situation for the PCs to respond
-
-opportunities
-
-The Game Master
-Before play, the GM should familiarize themselves with the Game
-Master section (page 54), and come up with any ideas they’d like
-to include in the game. While Players create their characters,
-the GM leads an open discussion about the characters and the
-world, asking questions about PCs, Origins, Relationships, and
-more. Everyone is encouraged to ask questions to better flesh out
-ideas and add more interesting details to the game, and the GM is
-encouraged to note down the answers and use them as prompts
-for adventurous threats and opportunities in the future.
-
-The GM is responsible for:
-
-◆ Managing game pacing and PC spotlight
-◆ Describing the world to the Players
-◆ Unleashing consequences
-◆ Making GM Moves that following the game’s Agenda and
-
-Principles
-
-◆ Having a reasonable understanding of the game’s rules, and
-
-making just rulings when necessary
-
-Safety Tools
-Ideally, a game of Dungeon World 2 is engaging and interesting to
-everyone in the group. Therefore, it’s fundamental to recognize
-that every person has their own preferences about what might be
-enjoyable in a game—and what might be upsetting. That’s why it’s
-important to talk about the game beforehand to ensure everyone
-is on the same page, especially regarding uncomfortable themes,
-topics, and similar. Furthermore, even if you talk extensively
-about a game beforehand, there’s always the possibility of
-something unexpected happening in the middle of a session that
-disrupts or ruins somebody’s fun.
-
-With that in mind, the Session Zero section on page 8 includes a
-number of Safety Tools to use to help all participants can safely
-enjoy the game as much as possible.
-
-to, often making a Move that follows their Agenda and
-Principles. This may be a tempting opportunity, intriguing
-clue, dangerous attack, jovial banter, ominous vision, tragic
-revelation, and/or much more. Often, the GM will end their
-description by asking “What do you do?” If multiple PCs are
-involved, the GM may ask them as a group or may focus on a
-specific PC.
-
-2. The Player(s) describe their response. This may involve a bit
-   of back-and-forth with the GM to clarify some details and what
-   is reasonable to accomplish. Breaking through a barred door
-   with your fists and feet might not be feasible, but with a huge
-   axe it may very well be.
-
-3. The group checks if a Move is triggered. Most Moves begin
-
-with a narrative hook in bolded text that “triggers” when met
-(e.g. “When you try to take something from an enemy…”).
-When this trigger happens, the Move usually proceeds as-
-written, accounting for Fictional Positioning.
-
-4. If a Move is triggered, they resolve it now, usually rolling dice
-   as part of that. Some Moves, like Aid a Companion, are meant
-   to boost other Moves, so Players can describe how they trigger
-   them to help the other Move. Once the Move is resolved, it
-   changes the fiction going forward.
-
-5. The GM describes how things change, often building upon
-   this change to present the next dramatic situation in Step
-6. If a Move wasn’t triggered, the GM simply determines
-   themselves how the narrative changes, based on the situation
-   and response, and informed by their Agenda and Principles.
-   They might inflict harmful consequences, or have the
-   PC accomplish what they were hoping for. If a Move was
-   triggered, then the GM uses its results to inform the next
-   dramatic situation they present to the PCs.
-
-Like in most other conversations, this structure is flexible and
-fluid. Some parts may be added, revisited, or skipped over. Some
-people may be quieter or louder than others, and the dynamics
-may shift depending on the topic at hand and moods of those
-involved.
-
-Play to Find Out
-The most important, foundational idea that underlies all
-of Dungeon World 2’s design is a very simple one: no one
-Participant—Player or GM—should know with total certainty
-what will happen next in the story they’re collaboratively building
-together. In short: play to find out.
-
-This means that everyone trusts each other to discover and lead
-the action from moment-to-moment, rather than rigidly plan
-for particular outcomes. By following the Player Best Practices,
-GM Agenda and Principles, as well as the rest of the Moves and
-procedures presented here, everyone works together to let their
-actions and their consequences guide the conversation forward
-towards interesting and dramatic situations.
-
-That’s why the adventures you play aren’t structured around
-specific outcomes or the PCs acting in a certain manner. In
-contrast, the GM is offered complicated situations to present to
-the Players, and the PCs actions will determine the possible ways
-in which things will evolve.
-
-Player Best Practices
-Players are free to play their PC however they want to, but if you
-want to get the best out of the experience, follow these principles.
-Each practice grows out of the one before it, guiding how you play
-your character.
-
-Connect With the World
-Don’t be a lone wolf. Attachments are interesting and can often
-serve as compelling motivations for adventure. Anchor your
-character’s past to particular places, people, and/or events.
-Build relationships with each other; admiration, competition,
-protectiveness, mentorship, family, romance, ideological conflict,
-and loyalty are just some aspects of relationships you can explore.
-
-Never get along with everyone, and never get along with no one.
-Some people might just rub you the wrong way, while others
-might be the few you open up to.
-
-Explore the Characters
-Express your character as well as you can, including thoughts,
-feelings, and motivation(s). You may start with a simple character
-concept, then develop nuances and/or reveal details over time.
-
-Get invested in each other’s characters and develop thoughts and
-opinions about them. What aspect of another character might
-inspire, anger, enamour, or worry yours?
-
-Ask each other questions, in- and out-of-character, and open up
-when asked questions in return. How would your character shine
-at their best? What might break them? What fears, doubts, or
-secrets might they harbor? What beliefs or goals drive them to
-behave the way they do? What might change them in appearance,
-behavior, or motivation?
-
-Play as a Team
-Everyone in the game is working together to tell a collaborative
-story. Even when your characters are separated or fighting each
-other, you as Players are on the same team, so try to be a good
-teammate.
-
-Before starting or continuing an extended scene on your own,
-such as the Rogue sneaking off to steal something, check in with
-the others to see if they’re alright with that, or if they want the
-spotlight for a bit.
-
-Before a PC harms or alters another PC or something important to
-them, they should check if their Player is okay with it.
-
-Make sure everyone has a chance to speak. Group dynamics
-are hard to navigate, and some people can unintentionally be
-louder or quieter than others. Listen intently and don’t interrupt
-someone else, and check in with someone if they haven’t spoken
-up in a while.
-
-Treat each other with value and dignity, and respect set
-boundaries, especially those established through Safety Tools. For
-example, if the Cleric’s uncle passing away tragically would make
-the game less fun (for anyone in the game) then work together
-and search for another consequence.
-
-Chase Risks
-Safety and patience are for real life and most NPCs in the fiction,
-but they rarely make for interesting adventures. Your character
-shines the brightest when balancing on the sharpest edges. Act
-decisively in the moment, pursue incredible accomplishments
-by the skin of your teeth and act on the opportunities that arise.
-Keep complex plans and preparations offscreen or in flashbacks,
-as they often abruptly halt the narrative flow.
-
-PCs should be easy to bruise but hard to break. According to
-the rules, even when in mortal danger, your character will only
-die when you risk it or choose to (see Face Death). That means
-that you can have your character make dangerous and exciting
-decisions because their ultimate fate is always in your hands.
-
-Embrace Adversity
-When your sword breaks in a fight, you swing with your fists.
-When you fail to save the prince, you chase down his assassin.
-When your beloved village lies in ruin, you pick up a hammer and
-start rebuilding.
-
-A clean success is rare, instead it’s often mixed with failure and
-cost. But failure is not the end; only a new beginning.
-
-If you lose something—be it a person, a possession, or an
-opportunity—then you have the chance to decide and discover
-how your character deals with the loss.
-
-Scenes
-Dungeon World 2 games are centered around Scenes: moments
-of tension, conflict, and/or uncertainty in the continuous,
-collaboratively-built narrative we refer to in shorthand as “the
-fiction”. The GM is usually the one setting up most scenes, and
-they are the ultimate arbiter on whether a scene gets played
-or not, but the Players are encouraged to propose scenes they
-may wish to play. This is especially useful when Making Camp,
-Enjoying Downtime or enjoying other moments of low tension.
-Moreover, everyone in the game is responsible for playing in the
-scenes with a sense for drama and what makes the most sense in
-the fiction as established so far (see Fictional Positioning on the
-next column).
-
-The most important thing about scenes is to make them
-interesting. There are many techniques and approaches, but
-here’s a simple one that’s good to keep in mind: skip the boring
-stuff. What’s “boring” will depend highly on what all Participants
-consider fun (and not so fun), so it may take some time for a new
-group—or even an old group starting a new game—to find the
-right balance. In case of doubt, we recommend you focus on what
-really interests you about the game… And avoid most everything
-else.
-
-In Medias Res
-To help avoid boring stuff, sometimes the GM will start a scene
-in medias res; i.e. in the middle of the action. The PCs will be
-forced to immediately react and do things without much context
-or preparation, and the Players may feel a bit confused and
-uncomfortable. If you’re playing a PC, resist the urge to stop and
-plan, or to renegotiate the conditions of the scene. Instead, think
-about what your character would do and, following one of the
-Player Best Practices described previously (“Embrace Adversity”),
-just roll with it. Everyone in the game will have a much better
-experience compared to a more cautious, undramatic approach.
-
-“What Do You Do?”
-The most important question that’ll guide the conversation—and
-the fiction—is What do you do? The GM will most often ask the
-question to the PCs as a group (after presenting them with a given
-situation) and, at other times, they’ll prompt a specific PC.
-
-What do you do? is an invitation to react dramatically, to embody
-a character in the moment, and do something. Action is most
-always more dramatic than planning or discussing what to do.
-The former will most probably advance and/or complicate the
-story, while the latter can lead to slowing down or even stopping
-all dramatic momentum. Remember that Dungeon World 2 is
-supposed to be a game about interesting fantasy people acting
-decisively under the greatest of pressures.
-
-5
-
-Fictional Positioning
-The fantasy story created through the interaction of conversation
-and game mechanics is the fiction. That fiction starts building
-before any dice are rolled during Session Zero, with the
-Participants establishing boundaries and agreeing on certain
-themes and/or ideas they want to explore. During this session (or
-even before it) the GM may present the Players with some ideas
-about the fantasy world, either by being inspired by a known
-fantasy world they want to explore, or having already created one
-of their own with greater or lesser amount of detail. The most
-important thing to remember here is that, in either case, DW2
-is about playing to find out, so no detail or preference should
-predetermine a specific outcome in the fiction to come.
-
-Once gameplay starts, all characters in the fiction have certain
-abilities (often determined by their Class or Path Moves) or carry
-possessions (any and all Equipment) that make it so certain
-actions should be reasonably easier or harder for them to pull
-off. For example, a diminutive pixie can’t reasonably swing a
-greataxe—unless there’s an explanation like magic or something
-else. Those properties and “reasonable”/logical things in the
-fiction we refer to in general as fictional positioning.
-
-Fictional positioning is a responsibility of everyone in the
-game; that’s why an important part of the conversation is about
-clarifying what’s currently happening in the fiction and especially
-how the PCs are situated in relation to it.
-
-Moves
-A Move is a self-contained rule that defines what happens when
-a specific action is taken. When a PC does something risky,
-dangerous, or tense, and the group needs to determine how it
-resolves, it often results in a Move triggering.
-
-Many Moves start with “When you do X” to describe when
-they trigger (e.g. “When you study someone in a probing
-conversation…”), while others change or modify an existing Move
-(e.g. “When you Sense Motive by speaking openly and honestly
-with them…”).
-
-If a Move makes sense for the current situation, follow its text to
-resolve it, sometimes rolling dice as part of that. Once the Move
-is resolved, resume the fiction, incorporating any changes the
-Move says happens. Some Moves ask the triggering PC to make
-choices from a list, while others ask the GM to choose or they just
-say what happens in the fiction.
-
-Some Moves say “Once per session…” at the start. This means that
-the move only happens the first time its trigger is fulfilled in each
-session. These are limited per-character, so if there are three PCs
-in the group, each can trigger such a move once.
-
-Some Moves are available to all PCs; namely, the Adventure,
-Character, and Battle Moves. Other Moves are only available to
-characters with a certain Class, Path, Bond, Conflict, or similar.
-
-There is also a list of GM Moves, which work very differently from
-PC-facing moves. Instead of triggering from a specific action,
-all GM Moves list what types of narrative developments and
-consequences best fit the spirit of a Dungeon World 2 game.
-
-When something says “Move” and references a PC’s actions, it
-likely means a PC Move. If it references the GM’s descriptions and
-reactions to a PC action, it probably means a GM Move.
-
-Stats
-Each PC has five Stats which affect not just what they can do, but
-also how they might behave or how others might perceive them.
-
-◆ Strength (STR) represents physical power and endurance. It’s
-
-often used to fight up close, push, pull, hold, or endure.
-
-◆ Dexterity (DEX) represents speed, reflexes, and agility. It is
-
-often used to dodge, run, sneak, or maneuver.
-
-◆ Intelligence (INT) represents perception and calculation.
-It is often used to learn, deduce, and plan. It is not used to
-remember knowledge, anyone might know or remember
-different things depending on their own past experiences.
-
-◆ Wisdom (WIS) represents empathy, intuition, and instinct. It’s
-often used to detect a lie or determine someone’s true motive.
-
-◆ Charisma (CHA) represents allure, authority, and cordiality. It
-is often used to sway people’s actions honestly or deceptively.
-
-Rolling Dice
-When a Move asks you to roll dice, you do so with two six-sided
-dice (often referred to as “2d6” or “dice”), and add the numbers
-together. You usually also add a Stat to the roll; so when a Move
-says “roll+STR” that means you roll 2d6, add their numbers
-together with your Strength stat for a total. For example, if you
-roll a 4 and a 5, and your STR is -1, then your result is 8.
-
-Instead of rolling with a Stat, some Moves instead ask you
-questions about the narrative and change your roll depending on
-the answers, adding +1 for each “Yes”.
-
-Results
-Usually, rolling a total of 10 or higher (10+) means you get what
-you want, or as close to it as feasible, while avoiding most of
-the consequences. This doesn’t always mean a total success—
-depending on the move and choices—but it’s still really good.
-
-Rolling a total between 7 and 9 (7-9) means a “mixed success”; you
-achieve what you want, but there’s a cost, consequence, or the
-effect is reduced or different from what was intended.
-
-Often, rolling a total of 6 or lower (6-) means things don’t go well,
-and you don’t quite get what you want, or you get it if you pay an
-extreme cost or suffer a terrible consequence. Often the rolling
-players marks XP the GM makes a Move in response to this result.
-
-The GM doesn’t roll dice for the characters they portray (NPCs).
-If the PCs act to resolve a situation that involves, affects, or
-opposes an NPC, then their Moves and the PCs’ rolls will inform
-the success of the NPC’s actions in addition to their own. For
-example, if a PC Sneaks Past an NPC actively looking for them,
-depending on the result of the roll and the Player’s decisions, the
-NPC may find no trace of them, or find a clue later, or catch sight
-of the PC after they stumble, or something else.
-
-Advantage & Disadvantage
-Sometimes a PC might have Advantage (ADV) or Disadvantage
-(DIS) on a roll. When you have ADV, roll three dice and ignore
-the lowest result, keeping the highest two. When have DIS, roll
-three dice and ignore the highest result, keeping the lowest two.
-
-For example, if you had ADV on a roll and the dice came up as 2, 4,
-and 6, then you’d ignore the 2 and keep the 4 and 6, totalling 10. If you
-had DIS on the same roll then you’d instead ignore the 6 and keep the
-2 and 4, totalling 6.
-
-ADV and DIS cancel each other out. For example, if you have two
-sources of ADV and one of DIS, you roll with ADV.
-
-When you roll with 2 or more ADV or DIS, you still only roll three
-dice and keep the highest or lowest two, but with ADV you treat
-all 7-9 results as if a 10+ was rolled, and with DIS you treat all 7-9
-results as if a 6- was rolled.
-
-Inverse Moves
-A few rare moves have the worst results happen on a 10+, and the
-best happen on a 6-. If you have ADV or DIS on such a roll, you can
-switch the effects. For example, if you have ADV on a roll you want
-to roll low on, you can keep the lowest dice instead of the highest.
-
-Hit Points & Damage
-Hit Points (HP) are an abstraction that represents a character’s
-physical well-being. PCs and NPCs have variable amounts of it. In
-the case of PCs, that amount is determined by their Class.
-
-When a character suffers damage—mostly from engaging in battle
-or other dangers of adventuring—they decrease their current HP
-by a specific amount usually determined by the GM. This might
-represent small scratches, significant wounds, loss of willpower,
-or general fatigue.
-
-6
-
-Bloodied
-When a character has less than half their maximum HP, they’re
-Bloodied. While Bloodied, your injuries are obvious to all, and
-characters will react accordingly, and you have DIS on all Battle
-Moves (page 12). Some moves or mechanics might reference
-being Bloodied. If an NPC is missing half or more HP, they are
-also considered Bloodied.
-
-Dying
-When a character reaches 0 HP, they’re Dying. PCs need to Face
-Death (see page 11) while most NPCs are knocked out, pinned,
-slain, or otherwise defeated. PCs that Face Death and survive are
-Maimed; they remain at 0 HP and can’t take significant action
-without another character’s Aid, but can provide Aid to others.
-Further damage dealt to someone Maimed will kill them for sure.
-
-Armor & Shields
-When a PC takes damage, they can spend a use of their worn
-armor or held shield to reduce the amount taken, to a minimum
-of zero.
-
-Armor can be cumbersome; wearing it without the listed STR
-stat can make you Clumsy, giving you DIS to DEX rolls. See the
-Equipment section on page 14 for more details.
-
-NPCs don’t usually track armor. Instead, if they are especially
-tough, they have additional HP.
-
-Conditions
-Conditions represent exhaustion, frustration, maladies, or
-emotionals that affect a PC as they adventure. They usually
-manifest from your own choices, and are rarely externally
-inflicted upon you.
-
-There are five total conditions:
-
-◆ Angry. You have DIS on all +INT rolls. Who or what are you
-
-angry at? Does it simmer or explode?
-
-◆ Distracted. You have DIS on all +WIS rolls. What stubborn
-
-worry or feeling won’t go away? How does it manifest?
-
-◆ Exhausted. You have DIS on all +STR rolls. What tired you out?
-
-How does your fatigue show?
-
-◆ Frightened. You have DIS on all +DEX rolls. What fear or
-
-memory is related? What do your instincts scream?
-
-◆ Insecure. You have DIS on all +CHA rolls. What made you feel
-
-you might not be enough? How do you react?
-
-Each condition is represented by a circle on a PC’s character
-sheet, which has three states:
-
-◆ Clear — The circle representing the condition is empty. You
-don’t have the condition and it doesn’t affect your character.
-
-◆ Marked — The circle has a line or two through it, representing
-
-that you have the condition and it affects you.
-
-◆ Locked — This rare state has the circle fully filled in. Not only
-do you have the condition, but it won’t be cleared by normal
-circumstances. Only effects that specify that they clear locked
-conditions can do so, such as Enjoy Downtime.
-
-or current circumstances. Eventually, PCs might also gain Bonds
-with each other, which represent a deeper consistent connection
-or dynamic between them. More information on both of these
-can be found on page 42.
-
-When a PC receives a condition, their Player chooses a clear
-one on their sheet, marks it, then describes how their character
-receives it in the narrative. While they have the condition, they
-suffer its associated penalty and can use the questions beside it to
-inform how it might affect them.
-
-When a PC has no more clear conditions, they trigger Reach Your
-Limit (page 11).
-
-Experience & Levels
-Experience (XP) represents the incremental growth of a PC, and
-is tracked separately for each PC. XP starts at 0 and can be gained
-when certain moves say “mark XP”, often when a 6- is rolled or
-when you End the Session. Level represents the thresholds of the
-PC’s capabilities; it starts at 1 for each of them.
-
-When a PC reaches 5 XP, they Level Up; erase 5 XP, increase Level
-by 1, and gain a chosen Advancement benefit from their Class
-sheet. Advancements with a ☐ can only be chosen once per ☐,
-and you check or cross it when you take it. Advancements with a
-∞ or ◆ have no limits on how often they can be chosen.
-
-Classes
-Classes represent a PCs core fantasy archetype. Each Class
-provides a unique Starting Move, prompts about the character,
-starting equipment, advancement options, and more. This Final
-Alpha contains the following Classes: Barbarian, Bard, Cleric,
-Druid, Fighter, Paladin, Ranger, Rogue, and Wizard. Classes can
-be found starting on page 17.
-
-Paths
-Paths represent different specializations of each Class. By default,
-PCs don’t start with any Paths, but as they Level Up they can gain
-up to two from their own Class and two from others.
-
-Each Path has its own Starting Move, which is gained when the
-Path is first chosen, and four Advanced Moves, which become
-available to be chosen in future Levels.
-
-Conflicts
-Conflicts represent a character’s central dramatic struggle,
-whether that’s against someone specific, the world at large, or
-themselves. All Conflicts are, at their heart, a question about who
-the PC is, what matters to them, and what choices they will make.
-By default, PCs don’t start with Conflicts, but can gain one when
-they Level Up. Conflicts can be found starting on page 38.
-
-Relationships & Bonds
-Relationships represent the surface-level connections between
-PCs, ones that frequently change focus and react to recent events
-
-Tags
-Tags are short-form reminders about an item or attack’s
-capabilities and limitations. Some Tags are purely narrative, like
-Distinctive, while others are mechanical, like Dmg 2. A full list of
-Tags can be found on page 13, though custom tags can be created.
-
-Equipment
-A PCs belongings can sometimes make the difference between
-life and death. Each PC has starting equipment based on their
-Class, and might acquire more during play. This version of
-Dungeon World 2 does not track inventory load—you can carry as
-much as makes sense in the narrative. A non-exhaustive list of
-example equipment can be found on page 14.
-
-Magic Items & Artifacts
-While all equipment can be useful, Magic Items are special in
-some way from the magic they’ve been imbued with. By default,
-they can’t be purchased anywhere, but can sometimes be found
-during adventures, and each PC can get one once from Leveling
-Up. More information on Magic Items can be found on page 45.
-
-Artifacts go even beyond Magic Items, often growing stronger
-over time, and are usually only acquired after a PC Levels Up and
-chooses to introduce one to the adventure. More information on
-Artifacts can be found on page 52.
-
-Treasure
-Treasure represents the various non-useful valuables that can be
-found while adventuring: coins, gold, loot, goods, relics, salvage,
-etc. When the PCs find something valuable, use the following
-guideline to determine its Treasure.
-
-◆ 1 Treasure - a handful of coins or tradeable goods, a decent
-
-artistic creation, simple silver jewelry
-
-◆ 2 Treasure - a full coinpurse, a crate of tradeable goods, a
-
-small gemstone
-
-◆ 3 Treasure - a bulging sack of coins, a stack of tradeable
-
-goods, a fine artistic creation
-
-◆ 4 Treasure - a small chest of coins, a wagon of goods, a large
-
-gemstone, exquisite jewelry
-
-◆ 5 Treasure - an overflowing chest of coins, an artistic
-
-masterpiece, a warehouse of goods
-
-Treasure needs to be carried back to civilization, where it is
-then spent while the PCs Enjoy Downtime. PCs start without any
-Treasure, so they better go find some!
-
-7
+## 대화
+
+던전월드 2의 핵심은, 함께 상상하는 공간—흔히 **이야기 속 현실(the fiction)** 이라 부르는 곳—안에서 오가는 팀 대화입니다. 참가자들은 이야기 속에서 일어난 일을 묘사합니다. 플레이어는 자기 캐릭터가 무엇을 하고 말하고 느끼는지 말하고, GM은 세계가 어떻게 반응하는지 말합니다. 보통 계속되는 대화의 순환은 이렇습니다.
+
+1. GM이 PC에게 넘길 만한 극적인 상황을 제시합니다. 보통 **강령과 원칙**에 맞는 **액션(Move)** 을 쓰면서요. 매혹적인 기회, 흥미로운 단서, 위험한 공격, 유쾌한 농담, 불길한 환시, 비극적 폭로 등이 될 수 있습니다. GM은 묘사를 “어떻게 하나요?” 같은 질문으로 끝내는 경우가 많습니다. PC가 여럿이면 플레이어 팀에게 묻거나, 특정 PC에게 집중할 수도 있습니다.
+
+2. 플레이어가 응답을 말합니다. 세부나 무엇이 합리적으로 가능한지 GM과 주고받으며 맞출 수 있습니다. 주먹과 발로 빗장 든 문을 부수는 것은 어렵겠지만, 큰 도끼라면 가능할지도 모릅니다.
+
+3. 팀이 액션이 발동했는지 확인합니다. 많은 액션은 굵은 글씨로 된 트리거로 시작하며, 조건이 맞으면 “발동”합니다(예: “적에게서 무언가를 빼앗으려 할 때…”). 발동하면 보통 문장 그대로 해결하되, **이야기 속 위치(Fictional positioning)** 를 고려합니다.
+
+4. 액션이 발동했다면 지금 해결합니다. 보통 그 과정에서 주사위를 굴립니다. 동료 돕기(Aid a Companion) 처럼 다른 액션을 돕기 위한 액션도 있으므로, 플레이어는 어떻게 발동시켜 서로 돕는지 묘사할 수 있습니다. 액션이 끝나면 앞으로의 이야기 속 현실에 무엇이 바뀌었는지 반영합니다.
+
+5. GM이 상황이 어떻게 바뀌는지 묘사합니다. 그 변화를 바탕으로 다음 극적 상황을 1번으로 이어 갈 때가 많습니다.
+
+6. 액션이 발동하지 않았다면, GM이 상황과 응답, 그리고 자신의 강령과 원칙에 따라 이야기가 어떻게 바뀌는지 스스로 정합니다. 해로운 결과를 주거나, PC가 바라던 바를 이루게 할 수도 있습니다. 액션이 발동했다면, 그 결과를 바탕으로 PC에게 보여 줄 다음 극적 상황을 제시합니다.
+
+대부분의 대화처럼 이 틀은 유연합니다. 단계를 바꿔 가며, 되돌아가며, 건너뛰기도 합니다. 사람마다 말이 많고 적고도 다르고, 주제와 기분에 역학이 달라집니다.
+
+## 마스터
+
+플레이 전에 GM은 게임 마스터 절(54쪽)을 익혀 두고, 게임에 넣고 싶은 생각을 마련해 두는 것이 좋습니다. 플레이어가 캐릭터를 만드는 동안 GM은 캐릭터와 세계에 대해 열린 대화를 이끌며, PC·기원·관계 등에 관해 질문합니다. 모두가 질문을 던져 아이디어를 풍성하게 하는 것을 권장하며, GM은 답을 메모해 두었다가 나중에 모험의 위협과 기회의 단서로 쓰기를 권장합니다.
+
+GM은 다음을 맡습니다.
+
+- 템포와 PC에게 비추는 조명(spotlight) 을 조율할 것
+
+- 플레이어에게 세계를 묘사할 것
+
+- 결과를 쏟아낼 것
+
+- 게임의 강령과 원칙에 따른 마스터 액션(GM Move) 을 쓸 것
+
+- 규칙을 합리적으로 이해하고, 필요할 때 공정한 재량을 내릴 것
+
+## 안전 도구
+
+이상적으로 던전월드 2 한 판은 팀 모두에게 흥미롭고 즐거워야 합니다. 그러려면 사람마다 무엇이 즐겁고 무엇이 괴로울 수 있는지 다르다는 점을 인정하는 것이 기본입니다. 그래서 특히 불편한 주제나 소재는 미리 이야기해 두는 것이 중요합니다. 게다가 아무리 미리 이야기해도, 세션 도중 뜻밖의 일이 누군가의 즐거움을 깨뜨릴 수 있습니다.
+
+이를 염두에 두고, 8쪽 「첫 세션」에는 가능한 한 모든 참가자가 안전하게 즐길 수 있도록 돕는 안전 도구가 실려 있습니다.
+
+## 플레이를 해서 알아낸다
+
+던전월드 2 설계 전체를 받치는 가장 중요한 생각은 단순합니다. 어느 참가자도—플레이어나 GM이나—함께 쌓아 올리는 이야기의 다음이 무엇인지 완전히 확신해서는 안 된다는 것입니다. 한마디로, 플레이를 해서 알아낸다.
+
+모두가 특정 결과만을 노리고 빡빡하게 짜 맞추기보다, 순간순간 함께 무엇이 일어날지 발견하고 이끌어 가기를 서로 믿는다는 뜻입니다. 플레이어 모범, GM의 강령과 원칙, 그리고 여기 실린 액션과 절차를 따르면, 행동과 그 결과가 대화를 흥미롭고 극적인 방향으로 밀고 가도록 맞물립니다.
+
+그래서 플레이하는 모험이 특정 결말이나 PC의 정해진 행동 양식에 맞춰 짜이지 않습니다. 대신 GM은 플레이어에게 복잡한 상황을 던지고, PC의 행동이 사태가 어떻게 전개될 수 있는지를 가릅니다.
+
+## 플레이어 모범
+
+PC는 각자 마음대로 연기해도 되지만, 경험을 최대로 살리고 싶다면 아래를 따르는 것을 권합니다. 각 항목은 앞선 것에서 이어집니다.
+
+### 세계와 연결되기
+
+외톨이로 굴지 마세요. 애착은 흥미롭고 모험의 동기가 되기도 합니다. 캐릭터의 과거를 특정 장소·사람·사건에 묶으세요. 서로 관계를 쌓으세요—존경, 경쟁, 보호 본능, 멘토링, 가족, 로맨스, 이념적 충돌, 의리 등 무엇이든.
+
+모든 사람과 친할 필요도, 아무도 친할 필요도 없습니다. 어떤 이는 거슬리고, 어떤 이에게만 마음을 열 수도 있습니다.
+
+### 캐릭터를 탐구하기
+
+생각, 감정, 동기를 포함해 캐릭터를 최선을 다해 표현하세요. 처음엔 단순한 개념으로 시작해도, 시간이 지나며 층을 더하거나 디테일을 드러내도 됩니다.
+
+다른 사람의 캐릭터에도 관심을 가지고, 당신 캐릭터가 그들의 어떤 점에 끌리거나 화가 나거나 빠지거나 걱정하는지 생각해 보세요.
+
+서로에게 질문하고, 되물음에는 열어 주세요. 캐릭터가 빛날 때는 언제인가요? 무엇에 부서질까요? 어떤 두려움·의심·비밀을 품을까요? 어떤 신념이나 목표가 행동을 이끌까요? 겉모습, 태도, 동기는 무엇에 의해 바뀔까요?
+
+### 팀으로 플레이하기
+
+게임에 있는 모든 사람은 함께 협업 이야기를 만듭니다. 캐릭터가 떨어져 있거나 서로 싸우더라도, 플레이어로서는 같은 편이니 좋은 팀원이 되어 주세요.
+
+도적이 몰래 훔치러 가는 것처럼 한 사람에게 긴 장면이 쏠리기 전·도중에, 다른 사람이 괜찮은지, 잠시 조명을 나누고 싶은지 확인하세요.
+
+다른 PC나 그들에게 소중한 것을 해치거나 바꾸기 전에, 상대 플레이어가 괜찮은지 물으세요.
+
+모두가 말할 기회를 갖게 하세요. 팀 역학은 어렵고, 뜻하지 않게 큰 소리·작은 소리가 갈릴 수 있습니다. 귀 기울이고 끼어들지 말며, 오래 말이 없는 사람에게는 확인해 주세요.
+
+서로를 소중히 대하고, 특히 안전 도구로 정한 경계를 존중하세요. 예를 들어 사제의 삼촌이 비극적으로 죽는 설정이 (누구에게든) 재미를 깨뜨린다면, 함께 다른 결과를 찾아보세요.
+
+### 위험을 쫓기
+
+안전과 인내는 현실과 이야기 속에서의 대부분 NPC에게 해당하지만, 흥미로운 모험은 잘 안 됩니다. 캐릭터는 가장 날선 칼날 위에서 균형을 잡을 때 빛납니다. 순간을 포착하고, 아슬아슬한 성취를 쫓고, 떠오른 기회에 옮기세요. 복잡한 계획과 준비는 화면 밖이나 회상으로 넘기세요. 흐름을 자주 끊기 때문입니다.
+
+PC는 쉽게 멍들지만 쉽게 부서지지는 않아야 합니다. 규칙상 치명적 위기에서도 캐릭터는 당신이 목숨을 걸거나 선택할 때만 죽습니다(황천길(Face Death) 참고). 그러니 위험하고 짜릿한 선택을 해도, 최후는 언제나 당신 손에 있습니다.
+
+### 역경을 받아들이기
+
+검이 부러지면 주먹을 휘두르세요. 왕자를 구하지 못했다면 암살자를 쫓으세요. 사랑하는 마을이 잿더미가 되었다면 망치를 들고 다시 세우세요.
+
+깨끗한 성공은 드물고, 대개 실패와 대가가 섞입니다. 하지만 실패는 끝이 아니라 새로운 시작입니다.
+
+사람이든 물건이든 기회든 잃었다면, 그 손실을 캐릭터가 어떻게 겪는지 결정하고 발견할 기회가 생깁니다.
+
+## 장면
+
+던전월드 2는 장면(Scene) 을 중심으로 돌아갑니다. 장면은 함께 쌓아 올린 연속된 이야기 속에서 긴장·충돌·불확실성이 모인 순간입니다. 흔히 줄여 이야기 속 현실이라 부르는 것은 바로 이 연속된 이야기입니다. 장면을 여는 일은 보통 GM이 많지만, 플레이어가 하고 싶은 장면을 제안하는 것도 권장됩니다. 특히 야영(Make Camp) 이나 휴식을 즐긴다(Enjoy Downtime) 같이 긴장이 낮을 때 쓸모 있습니다. 또 모두가 장면 안에서 극적 흥미와, 지금까지 확립된 이야기 속 현실에 맞는 판단을 할 책임이 있습니다(다음 절의 이야기 속 위치 참고).
+
+장면에서 가장 중요한 것은 흥미를 만드는 것입니다. 방법은 많지만, 한 가지만 기억하라면 지루한 건 건너뛴다는 것입니다. “지루함”의 기준은 참가자 모두가 무엇을 즐거워하는지에 달려 있어, 새 팀이나 오래된 팀이 새 게임을 시작할 때는 균형을 찾는 데 시간이 걸릴 수 있습니다. 의심스러우면 정말 흥미로운 것에 집중하고, 나머지는 대부분 피하라고 권합니다.
+
+### 인 미디아스 레스(In medias res)
+
+지루함을 피하려고, GM이 가끔 장면을 인 미디아스 레스(행동 한가운데)에서 시작할 수 있습니다. PC는 맥락이나 준비 없이 곧바로 반응해야 하고, 플레이어는 당황하거나 불편할 수 있습니다. PC를 연기한다면, 멈춰 서서 계획하거나 장면 조건을 다시 협상하려는 충동을 참으세요. 대신 캐릭터라면 무엇을 할지 생각하고, 앞선 모범 중 “역경을 받아들이기”에 따라 흘러가 보세요. 신중하고 무대가 없는 쪽보다 모두의 경험이 나아집니다.
+
+### “어떻게 하나요?”
+
+대화—그리고 이야기 속에서 일어나는 일—을 이끄는 가장 중요한 질문은 “어떻게 하나요?”입니다. GM은 (상황을 제시한 뒤) 대개 플레이어 팀에게 묻고, 때로는 특정 PC를 찌릅니다.
+
+“어떻게 하나요?”는 극적으로 반응하고, 순간에 몰입해 무언가를 하라는 초대입니다. 계획이나 논의보다 행동이 거의 항상 더 극적입니다. 전자는 이야기를 밀고 가거나 꼬기 쉽고, 후자는 흐름을 늦추거나 멈출 때가 많습니다. 던전월드 2는 흥미로운 판타지 인물들이 막대한 압박 아래 단호하게 행동하는 게임이라는 점을 기억하세요.
+
+## 이야기 속 위치(Fictional positioning)
+
+대화와 게임 규칙이 맞물려 만들어 내는 판타지 이야기가 곧 이야기 속 현실입니다. 그 이야기 속 현실은 첫 세션에서 주사위를 굴리기 전부터 쌓이기 시작합니다. 참가자들이 경계를 정하고 함께 탐구하고 싶은 주제나 아이디어에 동의합니다. 그 세션(혹은 그 전)에 GM은 판타지 세계에 대한 생각을 플레이어에게 건넬 수 있습니다. 이미 알려진 세계를 탐험하거나, 자신이 만든 세계를 더하거나 덜한 디테일로 가져올 수도 있습니다. 여기서 기억할 가장 중요한 점은, 어느 쪽이든 DW2는 플레이로 알아내는 게임이라는 것입니다. 어떤 디테일이나 취향도 앞으로의 이야기 속 현실에서 특정 결말을 미리 정해 버려서는 안 됩니다.
+
+플레이가 시작되면 이야기 속 현실 안의 모든 캐릭터는 특정 능력(흔히 직업·경로 액션으로 정해짐)을 가지거나 소지품(모든 장비)을 지니고 있어, 어떤 행동은 그들에게 합리적으로 쉽거나 어렵습니다. 예를 들어 작은 픽시가 대형 도끼를 휘두를 수는 없습니다—마법 같은 설명이 있지 않는 한. 이야기 속 현실 안에서 성립하는 그런 성질과 “합리적인” 일들을 아울러 이야기 속 위치라고 부릅니다.
+
+이야기 속 위치는 게임에 있는 모든 사람의 책임입니다. 그래서 대화의 중요한 부분은 지금 이야기 속 현실에서 무슨 일이 벌어지는지, 특히 PC가 그 안에서 어디에 서 있는지를 분명히 하는 데 쓰입니다.
+
+## 액션
+
+액션은 특정 행동을 했을 때 무슨 일이 일어나는지 정한 한 덩어리 규칙입니다. PC가 위험하거나 긴장되거나 팽팽한 짓을 했고, 팀이 결과를 정해야 할 때, 흔히 액션이 발동합니다.
+
+많은 액션은 “~할 때”로 발동 시점을 말합니다(예: “누군가와 깊이 파고드는 대화로 속마음을 읽으려 할 때…”). 다른 액션은 기존 액션을 고치거나 덧붙입니다(예: “그들과 열리고 솔직하게 이야기하며 속마음을 읽으려 할 때…”).
+
+지금 상황에 맞는 액션이 있으면, 그 글을 따라 해결하고 때로는 주사위를 굴립니다. 액션이 끝나면 바뀐 점을 반영해 이야기 속 현실로 돌아갑니다. 어떤 액션은 발동한 PC에게 목록에서 고르게 하고, 어떤 것은 GM이 고르거나 이야기 속 현실에서 곧장 일어난 일을 말합니다.
+
+앞에 “세션당 한 번…”이 붙은 액션은, 그 세션에서 트리거가 처음 맞을 때만 적용됩니다. 캐릭터마다 따로이므로 PC가 셋이면 각자 한 번씩 발동할 수 있습니다.
+
+모든 PC가 쓸 수 있는 액션—모험, 캐릭터, 전투 액션—도 있고, 특정 직업, 경로, 유대, 갈등 등을 가진 캐릭터만 쓸 수 있는 액션도 있습니다.
+
+마스터 액션 목록도 따로 있으며, PC용 액션과는 다르게 돌아갑니다. 특정 행동에서 발동하는 대신, 던전월드 2에 어울리는 이야기 전개와 결과의 유형을 나열합니다.
+
+글에 “액션”이라고 하며 PC의 행동을 가리키면 PC 액션일 가능성이 크고, GM의 묘사와 PC 행동에 대한 반응을 가리키면 마스터 액션일 가능성이 큽니다.
+
+## 능력치
+
+각 PC는 다섯 가지 능력치를 가지며, 무엇을 할 수 있는지뿐 아니라 어떻게 행동하거나 타인에게 어떻게 보일지에도 영향을 줍니다.
+
+- **근력(STR)** — 신체적 힘과 지구력. 가까이서 싸우고, 밀고, 당기고, 붙잡고, 버티는 데 자주 쓰입니다.
+
+- **민첩성(DEX)** — 속도, 반사신경, 재빠름. 피하고, 달리고, 숨고, 움직임을 다루는 데 자주 쓰입니다.
+
+- **지능(INT)** — 지각과 계산. 배우고, 추리하고, 계획하는 데 자주 쓰입니다. **지식을 기억해 내는 데는 쓰이지 않습니다.** 무엇을 아는지·기억하는지는 지난 경험에 따라 사람마다 다릅니다.
+
+- **지혜(WIS)** — 공감, 직관, 본능. 거짓을 가려 내거나 진짜 동기를 짚는 데 자주 쓰입니다.
+
+- **매력(CHA)** — 매혹, 권위, 상냥함. 사람들의 행동을 정직하게든 속여서든 흔드는 데 자주 쓰입니다.
+
+## 주사위 굴리기
+
+액션이 주사위를 굴리라고 하면 6면체 두 개(흔히 **2d6** 또는 “주사위”)를 굴리고 숫자를 더합니다. 보통 능력치도 더합니다. “**+근 판정**”이라고 하면 2d6을 굴린 합에 근력 수치를 더한 값이 됩니다. 예: 4와 5가 나오고 근력이 -1이면 합은 8입니다.
+
+어떤 액션은 능력치 대신 이야기에 관한 질문을 하고, 답에 따라 굴림을 바꾸며 “예”마다 +1을 줍니다.
+
+## 결과
+
+보통 합이 **10 이상(10+)** 이면 원하는 바를—현실적으로 가능한 한—얻고, 대부분의 불리한 결과도 피합니다. 항상 완벽한 성공은 아닐 수 있지만(액션과 선택에 따라), 여전히 아주 좋은 편입니다.
+
+합이 **7~9** 이면 섞인 성공입니다. 원하는 바는 이루지만, 대가·부작용이 붙거나 효과가 약해지거나 의도와 다르게 됩니다.
+
+흔히 합이 **6 이하(6-)** 이면 일이 잘 풀리지 않고, 원하는 바를 얻지 못하거나, 끔찍한 대가를 치르거나 극단적인 불행을 겪습니다. 굴린 플레이어는 **경험치**를 표시하고, GM은 그 결과에 맞춰 **마스터 액션**을 합니다.
+
+GM은 자기가 연기하는 인물(NPC)을 위해 주사위를 굴리지 않습니다. PC가 NPC와 얽히거나 NPC에게 영향을 주거나 NPC에 맞서 상황을 정리하려 할 때는, PC의 액션과 굴림이 NPC 행동의 성패를 함께 알려 줍니다. 예: PC가 자신을 찾는 NPC 곁을 몰래 지나가려 할 때, 굴림과 플레이어 선택에 따라 NPC는 흔적을 못 찾거나, 나중에 단서를 찾거나, PC가 발을 헛디딘 뒤 모습을 들키거나, 다른 일이 일어날 수 있습니다.
+
+## 유리(ADV)와 불리(DIS)
+
+PC가 어떤 굴림에 **유리(Advantage, ADV)** 나 **불리(Disadvantage, DIS)** 를 받을 수 있습니다. **유리**면 주사위 세 개를 굴리고 가장 낮은 눈 하나를 버린 뒤 나머지 두 개를 씁니다. **불리**면 세 개를 굴리고 가장 높은 눈 하나를 버린 뒤 나머지 두 개를 씁니다.
+
+예: **유리**인데 2, 4, 6이 나왔다면 2를 버리고 4와 6을 써서 합 10. 같은 굴림에 **불리**라면 6을 버리고 2와 4를 써서 합 6.
+
+**유리**와 **불리**는 서로 상쇄합니다. 예: **유리** 두 번과 **불리** 한 번이면 **유리**로 굴립니다.
+
+**유리**나 **불리**가 둘 이상 겹쳐도 주사위는 여전히 세 개만 굴리고 높은/낮은 두 개를 씁니다. 다만 **유리**일 때는 모든 **7~9** 결과를 **10+**처럼 취급하고, **불리**일 때는 모든 **7~9**를 **6-**처럼 취급합니다.
+
+## 역전 액션(Inverse Moves)
+
+드문 액션은 **10+** 에서 최악이, **6-** 에서 최선이 나옵니다. 그런 굴림에 **유리**나 **불리**가 있으면 효과를 바꿀 수 있습니다. 예: 낮게 나와야 할 굴림에 **유리**가 있으면, 높은 두 개 대신 낮은 두 개를 쓸 수 있습니다.
+
+## 히트 포인트와 피해
+
+히트 포인트(HP) 는 캐릭터의 신체적 안녕을 나타내는 추상입니다. PC와 NPC는 양이 다릅니다. PC의 경우 직업에 따라 정해집니다.
+
+캐릭터가 피해를 입으면—대개 전투나 모험의 다른 위험에서—현재 HP 를 GM이 정한 양만큼 줄입니다. 이는 작은 찰과상, 큰 상처, 의지력 상실, 전반적 피로 등으로 묘사할 수 있습니다.
+
+## 피투성이(Bloodied)
+
+캐릭터의 최대 HP의 절반 미만이면 피투성이(Bloodied) 입니다. 피투성이인 동안 부상은 모두에게 분명하고, 다른 인물도 그에 반응하며, 모든 전투 액션에 불리가 붙습니다(12쪽). 어떤 액션이나 규칙은 피투성이를 가리킬 수 있습니다. NPC도 HP를 절반 이상 잃었으면 피투성이로 봅니다.
+
+## 죽어 감(Dying)
+
+HP가 0이면 죽어 감(Dying) 입니다. PC는 황천길(Face Death) 을 해야 하고(11쪽), 대부분의 NPC는 기절·제압·살해·패배 등으로 처리됩니다. 황천길을 견딘 PC는 불구(Maimed) 상태가 됩니다. HP 0인 채로 유지되며, 다른 캐릭터의 도움(Aid) 없이는 큰 행동을 할 수 없지만, 다른 이를 도울 수는 있습니다. 불구인 대상에게 추가 피해를 주면 반드시 죽습니다.
+
+## 갑옷과 방패
+
+PC가 피해를 입을 때, 착용한 갑옷이나 든 방패의 사용 횟수를 하나 써서 받은 양을 줄일 수 있으며, 0 이하로는 내려가지 않습니다.
+
+갑옷은 부담이 될 수 있습니다. 표기된 근력 없이 입으면 서투름(Clumsy) 이 되어 +민 판정에 불리가 붙습니다. 자세한 것은 14쪽 장비 절을 보세요.
+
+NPC는 보통 갑옷을 칸으로 세지 않습니다. 대신 유난히 단단하면 HP가 더 많습니다.
+
+## 조건(Conditions)
+
+조건은 모험 중 PC에게 얹히는 지침, 좌절, 병환, 감정 따위를 나타냅니다. 보통 자기 선택에서 비롯되며, 밖에서 억지로 떠넣기는 드뭅니다.
+
+조건은 다섯 가지입니다.
+
+- **분노(Angry).** 모든 **+지 판정**에 **불리**. 무엇·누구에게 화가 났나? 은은한가 폭발하는가?
+
+- **산만(Distracted).** 모든 **+혜 판정**에 **불리**. 가라앉지 않는 걱정이나 감정은? 어떻게 드러나나?
+
+- **지침(Exhausted).** 모든 **+근 판정**에 **불리**. 무엇이 지치게 했나? 피로가 어떻게 보이나?
+
+- **겁먹음(Frightened).** 모든 **+민 판정**에 **불리**. 어떤 공포나 기억과 연결되나? 본능이 무엇이라고 외치나?
+
+- **불안(Insecure).** 모든 **+매 판정**에 **불리**. 무엇이 “내가 부족하다”는 느낌을 줬나? 어떻게 반응하나?
+
+각 조건은 캐릭터 시트의 원으로 나타나며, 세 가지 상태가 있습니다.
+
+- 비어 있음(Clear) — 원이 비었습니다. 그 조건이 없고 영향도 없습니다.
+
+- 표시(Marked) — 원에 선이 하나나 둘. 조건이 있고 영향을 받습니다.
+
+- 잠금(Locked) — 드문 상태로 원이 가득 찹니다. 조건이 있을 뿐 아니라 보통 상황으로는 지워지지 않습니다. 잠긴 조건을 지운다고 명시한 효과—예: 휴식을 즐긴다(Enjoy Downtime) —만이 지울 수 있습니다.
+
+PC가 조건을 받으면, 플레이어는 시트에서 비어 있는 조건 하나를 고르고 표시한 뒤, 캐릭터가 그 조건을 어떻게 얻는지 이야기 속에서 묘사합니다. 조건이 있는 동안 해당 페널티를 받고, 옆의 질문을 참고해 연기할 수 있습니다.
+
+비어 있는 조건이 더 없으면 한계에 다다른다(Reach Your Limit) 가 발동합니다(11쪽).
+
+## 경험치와 레벨
+
+경험치(XP) 는 PC가 조금씩 성장하는 표시이며, PC마다 따로 셉니다. XP는 0에서 시작하고, 어떤 액션이 “경험치를 표시”하라고 할 때—흔히 6- 를 굴리거나 세션을 마친다(End the Session) 할 때—얻습니다. 레벨은 PC 능력의 단계이며, 처음은 1입니다.
+
+PC의 XP가 5가 되면 레벨업합니다. XP 5를 지우고, 레벨을 1 올리고, 직업 시트에서 발전(Advancement) 하나를 고릅니다. ☐ 가 붙은 발전은 같은 ☐ 당 한 번만 고를 수 있으며, 고르면 체크하거나 줄을 긋습니다. ∞ 표시나 시트의 ◇(무제한) 표기가 붙은 발전은 고르는 횟수 제한이 없습니다.
+
+## 직업
+
+직업은 PC의 핵심 판타지 원형을 나타냅니다. 직업마다 고유한 시작 액션, 캐릭터에 대한 질문, 시작 장비, 발전 선택지 등이 있습니다. 이 파이널 알파에는 야만인, 음유시인, 사제, 드루이드, 전사, 성기사, 레인저, 도적, 마법사가 있습니다. 직업은 17쪽부터 있습니다.
+
+## 경로
+
+경로는 각 직업의 다른 전문 분기입니다. 기본적으로 PC는 처음에 경로가 없지만, 레벨업하며 자기 직업에서 최대 두 개, 다른 직업에서 최대 두 개까지 얻을 수 있습니다.
+
+각 경로에는 시작 액션이 있어 경로를 처음 고를 때 얻고, 고급 액션 네 개가 있어 이후 레벨에서 고를 수 있습니다.
+
+## 갈등
+
+갈등은 캐릭터의 중심이 되는 극적 씨름입니다. 특정 누군가에 맞서든, 세상 전체라도, 자기 자신이라도 될 수 있습니다. 모든 갈등의 심장에는 “이 PC는 누구인가, 무엇이 소중한가, 어떤 선택을 할 것인가”라는 질문이 있습니다. 기본적으로 PC는 처음에 갈등이 없지만, 레벨업하며 하나 얻을 수 있습니다. 갈등은 38쪽부터 있습니다.
+
+## 관계와 유대
+
+관계는 PC들 사이의 겉으로 드는 연결을 나타냅니다. 초점이 자주 바뀌고 최근 일에 반응하거나 지금 상황에 맞춰 움직입니다. 시간이 지나면 PC들은 서로 유대(Bond) 를 얻기도 하는데, 그건 둘 사이의 더 깊고 꾸준한 연결이나 역동을 뜻합니다. 자세한 것은 42쪽을 보세요.
+
+## 태그
+
+태그는 물건이나 공격의 능력과 한계를 짧게 상기시키는 표식입니다. 어떤 태그는 독특함(Distinctive) 처럼 순전히 이야기용이고, 어떤 태그는 피해 2(Dmg 2) 처럼 기계적으로 작동합니다. 태그 전체 목록은 13쪽에 있으며, 임의로 태그를 만들어도 됩니다.
+
+## 장비
+
+PC의 짐은 생사를 가를 때가 있습니다. 각 PC는 직업에 따른 시작 장비가 있고, 플레이 중 더 얻을 수 있습니다. 이 버전의 던전월드 2는 짐 무게를 세지 않습니다—이야기 속에서 말이 되는 만큼 들 수 있습니다. 예시 장비 목록(완전하지 않음)은 14쪽에 있습니다.
+
+## 마법 아이템과 유물
+
+모든 장비가 쓸모 있지만, 마법 아이템은 깃든 마법 때문에 특별합니다. 기본적으로 어디서도 살 수 없고, 모험 중에 가끔 얻으며, 레벨업할 때 PC마다 한 번 하나를 얻을 수 있습니다. 자세한 것은 45쪽입니다.
+
+유물은 마법 아이템보다 한층 위로, 시간이 지나며 더 강해지는 경우가 많고, 보통 PC가 레벨업하며 모험에 유물을 들여오기로 선택해야 손에 넣습니다. 자세한 것은 52쪽입니다.
+
+## 재물(Treasure)
+
+재물은 모험에서 얻는 쓸모 없는 귀중품—동전, 금, 전리품, 물품, 유물 잔해, 고철 등을 아울러 부릅니다. PC가 값진 것을 찾으면 아래를 지침으로 쓰세요.
+
+- 재물 1 — 한줌 동전이나 교역품, 괜찮은 예술 작품, 단순한 은장식
+
+- 재물 2 — 가득한 지갑, 한 상자 교역품, 작은 보석
+
+- 재물 3 — 불룩한 자루의 동전, 쌓인 교역품, 좋은 예술 작품
+
+- 재물 4 — 작은 상자의 동전, 수레 짐, 큰 보석, 정교한 장신구
+
+- 재물 5 — 넘치는 보물 상자, 걸작, 창고 가득한 물품
+
+재물은 문명으로 가져가야 쓸 수 있고, 그다음 PC가 휴식을 즐길 때 소비합니다. PC는 처음에 재물이 없으니, 어서 찾아 나서야 합니다!

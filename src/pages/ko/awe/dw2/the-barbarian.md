@@ -1,365 +1,264 @@
+---
+title: "던전월드 2 · 야만인"
+description: "야만인 직업."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: the-barbarian | source lines 2766-3131 | approx book page ? -->
 
-The Barbarian
+세상 가장 먼 곳에서 영광·명예·복수·보물를 찾아 왔습니다. 삶에서 가장 좋은 것이 무엇인지 알고, 그것을 취합니다. 이 땅 사람들은 당신을 “미개”·“야만”이라 부르지만, 당신은 압니다. 법과 예의로 짜인 그들의 세계는 연약하고 덧없으며, 필연적으로 무너질 때 남는 것은 당신입니다.
 
-You’ve traveled from the furthest reaches of the world in search of glory,
-honor, vengeance, or treasure; you know what is best in life and you
-take it. Those in these lands call you “primitive” and “uncivilized”,
-but you know better. Their world of law and etiquette is fragile and
-fleeting and, when it inevitably falls, you will persist.
+## 기원
 
-Origins Consider first, then answer in introductions and play
+먼저 생각한 뒤, 소개와 플레이에서 답합니다.
 
-I am a
-E.g. dwarf, orc, minotaur, goliath. How does this affect your biology,
-behavior, and communication? How is it different from people here?
+나는  
+예: 드워프, 오크, 미노타우르, 골리앗. 생물학·행동·소통에 어떤 영향이 있나? 여기 사람들과 무엇이 다른가?
 
-My homeland is
-E.g. giant monsters, perilous ruins, calamitous weather. How do your
-people adapt to it? What parts of it fit into their culture?
+내 고향은  
+예: 거대 괴물, 위험한 폐허, 재앙 같은 날씨. 사람들은 어떻게 적응했나? 문화에 스며든 풍경은?
 
-My people saw me as a
-E.g. strong leader, unruly upstart, useless weakling. How did you feel
-about that view? What practice or symbol do you keep from home?
+내 민족은 나를  
+예: 강한 지도자, 다루기 힘든 반역자, 쓸모없는 약자. 그 시선에 어떻게 느꼈나? 고향에서 가져온 관습이나 상징은?
 
-I left because of
-E.g. betrayal and exile, conquering invasion, kidnapping or
-teleportation. What stands in the way of you and home?
+떠난 이유는  
+예: 배신과 추방, 정복 침략, 납치나 순간이동. 고향과 당신 사이에 가로막는 것은?
 
-Starting Move:
-Rage!
-When you enter a rage, mark Angry. When you calm down, you
-may mark a different condition to clear Angry.
+## 시작 액션: 격노(Rage)!
 
-While Angry, you get the following penalties and benefits, unless
-you’re maimed after Facing Death and surviving.
+**격노에 들어가면** 분노(Angry) 를 표시합니다. **진정하면** 다른 조건을 표시해 분노를 지울 수 있습니다.
 
-◆ Your armor is always Clumsy, and you can’t spend its uses.
-◆ At the end of each scene you’re in, if you didn’t physically
+**분노인 동안** 아래 불이익과 이익을 얻습니다(**황천길** 후 살아남아 불구가 된 뒤에는 예외).
 
-attack someone/something during the scene, mark a condition
+- **갑옷은 항상 서툼**이고, 사용을 쓸 수 없습니다.
+- **당신이 있는 각 장면이 끝날 때**, 그 장면 동안 누군가·무언가를 물리적으로 공격하지 않았다면 조건 하나를 표시합니다.
+- **조건 하나를 표시해** 잠깐 초인적인 힘·속도·지구력으로 행동할 수 있습니다. 이때 피해를 준다면 **+1 피해**입니다.
 
-◆ You may mark a condition to momentarily act with
+연결된 야만인의 길이 있으면 또한 아래를 얻습니다.
 
-superhuman might, speed, or endurance. If you deal damage
-as part of this, deal +1 damage.
+- (정복자) 욕망을 직접 쫓는 동안 조건으로 인한 불이익을 무시합니다.
+- (이방인) 큰 곰, 빠른 늑대, 날아가는 독수리 형태가 됩니다. 격노할 때마다 고릅니다.
+- (생존자) 눈에 보이는 위험에 맞서 위험 돌파할 때 유리입니다.
 
-If you have the associated Barbarian Paths, you also gain below:
+---
 
-◆ (Conqueror), you ignore penalties from conditions while
+이름  
+호칭
 
-directly pursuing your appetites
-
-◆ (Stranger), you take the form of a large bear, fast wolf, or flying
-
-eagle; choose each time you Rage
-
-◆ (Survivor), you have ADV to Defy Dangers you can tangibly see
-
-Name
-
-& Pronouns
-
-Gorm, Fafnir, Haepha, Qua, Thraxis, Sillius, Foesmasher
+예: 고름, 파프니르, 해파, 콰, 스락시스, 실리우스, 포스스매셔
 
 HP
 
-STR
+근력(STR) · 민첩(DEX) · 지능(INT) · 지혜(WIS) · 매력(CHA)
 
-DEX
+최대 10
 
-INT
+피투성이 · 지침 · 겁먹음 · 분노 · 산만 · 불안
 
-WIS
+경험치(XP):
 
-CHA
+레벨:
 
-Max 10
+경험치 칸을 다섯 번 채우면 경험 칸을 비우고, **레벨**을 1 올리며 **발전** 하나를 얻습니다.
 
-Bloodied
+---
 
-Exhausted
+## 장비
 
-Frightened
+**무기를 고릅니다**(GM과 새 무기를 만들어도 됩니다).
 
-Angry
+- [ ] **선조의 롱소드**(피해 2, 근접, 경량)와 **방패**(사용 1, 들고 있을 때 사용을 표시해 공격 피해 전부 무시)
+- [ ] **피 묻은 대형 도끼**(피해 3, 근접, 서툼, 양손, 지저분)
+- [ ] **쌍망치**(하나만 2 피해, 둘 다 3 피해, 근접, 강타)
 
-Distracted
+**아래 두 가지를 고릅니다.**
 
-Insecure
+- [ ] **모험 도구**(사용 3). 쓸 만한 잡동사니를 뒤질 때 사용을 표시해 손에 넣습니다.
+- [ ] **든든한 만찬.** **야영**(**Make Camp**) 할 때 나눠 먹으면 야영 종료 시 모든 PC HP 가득.
+- [ ] **보급**(사용 3). **위로와 격려**로 질문에 답할 때 사용으로 “아니오”를 “예”처럼 씁니다.
+- [ ] **덫 도구**(사용 2). 미리 설치하면 범위에 들어온 이에게 위험한 방해, 보통 피해 2.
 
-XP:
+## 외모
 
-Level:
+**행마다 하나**(또는 다른 것).
 
-When you mark your 5th XP, clear the Experience track, increase
-your Level by one, and gain one Advancement.
+- [ ] 가죽·모피
+- [ ] 정교한 문신
+- [ ] 수많은 흉터
+- [ ] 문화적 보물
+- [ ] 인상적인 전리품
+- [ ] 신비한 유물
 
-Advancements
+## 시작 능력치
 
-When you Level Up, choose one of the following:
+아래 한 줄을 고릅니다.
 
-Equipment
-Choose your weapon (or create a new one with the GM):
+- [ ] STR 2, DEX 1, INT -1, WIS 1, CHA 0
+- [ ] STR 1, DEX -1, INT 0, WIS 2, CHA 1
 
-☐ Gain a Path from your Class
+---
 
-☐ ☐ +1 to any Stat (max. 2)
+## 발전
 
-Relationships
-Fill in for each other PC based on how well you already know them
+**레벨업할 때** 아래 하나를 고릅니다.
 
-☐ Ancestral Longsword (2 dmg, close, light) and Shield (1 use O,
-mark a use while holding it to ignore all damage from an attack)
+- [ ] 직업에서 길(Path) 하나 얻기
+- [ ] 아무 능력치 +1(최대 2까지, 레벨 10 이후 옵션에서 3까지)
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 마법 아이템 하나 얻기
+- [ ] 지금 갈등이 없다면 갈등 하나 얻기(해당 장)
+- [ ] 가진 길 중 하나에서 고급 액션 하나 얻기
+- [ ] 새 직업으로 바꾸기
 
-∞ Gain a Conflict if you don’t currently have one (pg XX)
+레벨 5부터 또한 아래에서 고를 수 있습니다.
 
-∞ Gain an Advanced Move from one of your Paths
+- [ ] 직업에서 길 하나 더 얻기
 
-Name
+레벨 10부터 또한 아래에서 고를 수 있습니다.
 
-Details
+- [ ] 아무 능력치 +1(최대 3)
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 유물 하나를 고른다(유물 장) 또는 GM과 새 유물을 만든다. 이후 GM이 단서를 줍니다.
 
-Depth
+### 갈등을 해소할 때
 
-Choose two items below:
+아래 하나를 고릅니다.
 
-☐ Bloody Greataxe (3 dmg, close, clumsy, two-handed, messy)
+- [ ] 저무는 빛에 맞서를 얻습니다. 분노인 채 HP 0이 되어도 장면이 끝날 때까지 죽음과 마주치지 않고, 끝날 때도 여전히 HP 0일 때만 마주칩니다.
+- [ ] 영웅의 순간을 해금합니다. 쓸 때 서사를 온전히 잡고, 세계나 다른 PC를 극적으로 바꾸는 마지막 업적을 묘사한 뒤, 원하는 대로 이야기에서 빠집니다(은퇴·죽음 등).
 
-☐ Dual Hammers (2 dmg alone, 3 dmg together, close, forceful)
+---
 
-◆ Change to a new Class
+## 관계
 
-From Level 5 onwards, you can also choose from the following:
+다른 PC마다 이미 아는 만큼 채웁니다.
 
-☐ Gain another Path from your Class
+깊이(Depth)
 
-Name
+### 관계 예시
 
-Details
+- 격노나 방종의 순간에 그들을 다치게 하거나 버렸다.
+- 그들에게 내 문화를 가르치는 중이다. 좋든 싫든.
+- 그들은 약하고 한심하다. 강하게 만들 것이다.
+- 그들이 고향을 나보다 최근에 보았다.
+- 이 땅의 새로운 위안을 보여 줬다. 더 갖고 싶다.
 
-Name
+---
 
-Details
+##
 
-Name
+- [ ] 정복자(Conqueror)
 
-Details
+### 채울 수 없는 욕망(Insatiable Appetite)
 
-Depth
+거대하고 끔찍한 필요가 당신을 더 높이·더 깊이 밀어붙입니다. 무엇인지 지금 말합니다.
 
-Depth
+채워지지 않음(Unsatisfied) — 이 길만의 추가 조건입니다. 다른 조건과 같이 표시·해제합니다. 표시된 동안 만족을 쫓지 않는 모든 굴림에 불리입니다.
 
-Depth
+**욕망을 채우려 할 때** GM에게 어떻게 채울지 물으면, 보통 위험이나 대가를 곁들여 답합니다. 그렇게 하면 채워지지 않음을 지웁니다.
 
-Example Relationships
-I hurt or abandoned them in a moment of rage or indulgence.
+예: 명성과 영광, 조상의 긍지, 속세의 쾌락, 타인에 대한 권력, 재물과 재산, 혼돈의 짜릿함, 완전한 파괴.
 
-I’m teaching them about my culture, whether they like it or not.
+### 철창을 휘고 문을 든다(Bend Bars, Lift Gates)
 
-They are weak and pathetic; I will make them strong.
+**움직이지 않는 장애물을 물리적으로 부술 때** **+근력**으로 굴립니다.
 
-They’ve seen my homeland more recently than me.
+- _10+:_ 부숩니다.
+- _7–9:_ 아래 1개를 고릅니다.
+  - 과정에 다치거나 지쳐 피해 1
+  - 원치 않는 시선이 쏠림
+  - 부수적 피해; GM이 정함
+- _6-:_ 끔찍하게 잘못됨; 경험치 1, GM이 마스터 액션.
 
-They showed me a new comfort of these lands; I want more.
+### 반박할 수 없는 의지(Irrefutable Will)
 
-☐ Adventuring Gear (3 uses OOO). When you rummage through
-this for a useful mundane item, mark a use and acquire it.
+**주도권을 쥐다** 직전, 조건 하나를 표시하면 6-에서도 선택지 하나를 추가로 고를 수 있습니다.
 
-☐ +1 to any Stat (max. 2)
+### 공포스럽다(Terrifying)
 
-☐ Hearty Feast. When you share this meal while Making Camp,
-all PCs heal to full when camping finishes.
+**힘으로 제압하거나 거칠게 다루며 선택을 흔들 때** **+매력** 대신 **+근력**으로 굴립니다. 나중에 그들이 말을 어기면, 다음에 그들에게 맞서 행동할 때 **유리**를 얻습니다.
 
-☐ Supplies (3 uses OOO). When you Comfort or Support, while
-answering the move’s questions you may spend a use to treat a
-“no” as if it were a “yes”.
+### 찬탈자(Usurper)
 
-☐ Trap Kit (2 uses OO). When you spend time setting it up in
-advance, it becomes a dangerous, impeding hazard for anyone
-that enters its range, typically delaing 2 damage.
+**당신보다 강한 이**(정치·물리·경제 등)에게 **속뜻 읽기**를 할 때 항상 “어떻게 하면 너를 망치거나 굴욕 줄 수 있나?”도 물을 수 있습니다. 그것을 이루면 조건 하나를 지웁니다.
 
-For your appearance, choose one per row (or something else):
-☐ hides & furs, ☐ intricate tattoos, ☐ numerous scars
-☐ cultural treasure, ☐ impressive trophy, ☐ mysterious artefact
+---
 
-Starting Stats Choose one below
-☐ STR 2 DEX 1 INT -1 WIS 1 CHA 0
-☐ STR 1 DEX -1 INT 0 WIS 2 CHA 1
+##
 
-☐ Multiclass — Gain a new Path from a Class not being played
+- [ ] 이방인(Stranger)
 
-☐ Gain a Magic Item
+### 향수(Homesick)
 
-From Level 10 onwards, you can also choose from the following:
+고향은 멀고, 모험 중에도 그리우나 돌아갈 수 없습니다. **누군가에게 고향 이야기를 할 때**, 아래 질문 하나를 표시하고 답한 뒤 조건 하나를 지웁니다. 다섯 개가 모두 표시되면 경험치 1을 표시하고 질문을 모두 지웁니다.
 
-☐ +1 to any Stat (max. 3)
+- 고향을 특이하게 만드는 경이로움이나 위험은?
+- 돌아가기 전에 고향에 무엇이 바뀌어야 하나?
+- 고향의 문제가 여기까지 파고드는 방식은?
+- 고향에 대한 가장 소중한 기억은?
+- 고향의 결함이나 실패 중 미워하는 것은?
 
-☐ Multiclass — Gain a new Path from a Class not being played
+### 제물 의식(Sacrificial Rite)
 
-☐ Choose an Artifact (page 52) or work with the GM to create a
-new one. Then the GM will give you a lead on where to find it.
+영혼(신·조상·토템 등)에게 **무언가 의미 있는 것을 의식적으로 바칠 때** **+지혜**로 굴립니다.
 
-When you resolve a Conflict, choose one below:
+- _10+:_ 아래 셋 모두.
+- _7–9:_ 둘만.
+  - 제물에 비례한 축복 — 원하는 것을 말하면 GM이 주어지는 것을 말함
+  - 적의 행동·위치·약점에 관해 질문 하나; GM은 진실로 답함
+  - 의식에 참여한 모두 조건 하나 지움
+- _6-:_ 하나를 고르지만, 영혼이 요구를 하고 그것을 이루기 전에는 다시 제물을 받지 않음.
 
-☐ Gain Against the Dying of the Light. When you reach 0 HP while
-Angry, you don’t Face Death until the end of the scene, and even
-then only if you’re still at 0 HP when it ends.
+---
 
-☐ Unlock your Moment of Heroism. When you use it, take total
-control of the narrative, describe one last feat you accomplish
-that dramatically changes the world or other PCs, then exit the
-narrative however you wish (eg. retirement, death, etc.)
+##
 
-17
+- [ ] 생존자(Survivor)
 
-Barbarian Paths
+### 장대한 근육(Mighty Thews)
 
-☐ Conqueror
-Insatiable Appetite
-You have a grand and terrible need that pushes you to
-greater heights and deeper depths. Say what it is now.
+사용 두 칸.
 
-O Unsatisfied
+인상적인 체격은 갑옷에 억눌려 있습니다. **갑옷도 방패도 없을 때**, 근육의 사용 하나를 표시해 받은 피해 한 번을 무시할 수 있습니다. **야영**에 성공하면 표시된 근육 사용을 하나 지웁니다.
 
-Unsatisfied is an additional condition unique to this Path.
-It can be marked and cleared the same as any condition.
-While it is marked, you have DIS to all rolls that don’t pursue
-satisfaction.
+### 두려움 없음(Fearless)
 
-Whenever you look to satisfy your appetite, ask your GM
-how to satisfy it and they will tell you, usually with a risk or
-cost. When you do it, clear Unsatisfied.
+공포·두려움·위협에 면역이고(초자연 포함), 겁먹음 불이익을 모두 무시합니다.
 
-Example appetites include fame and glory, the pride of my
-ancestors, mortal pleasures, power over others, riches and
-property, the thrill of chaos, and utter destruction.
+다른 이가 자기 공포와 싸우도록 고무합니다. **겁먹은 동료를 돕거나** 그들 앞에서 **무서운 것을 쓰러뜨리면** 그들의 겁먹음을 지웁니다.
 
-☐ Bend Bars, Lift Gates
-When you physically attack an inanimate obtacle, roll+STR.
-On a 10+ you destroy it. \*On a 7-9, choose 1.
+### 그게 전부야?(Is That All You’ve Got?)
 
-◆ The process injures or strains you; suffer 1 damage
-◆ Your efforts draw unwanted attention
-◆ You cause collateral damage; the GM will say how
+**적의 피해를 입은 뒤**, 조건 하나를 표시하거나 같은 피해를 한 번 더 받아 **적을 붙잡다**의 선택지 하나를 고를 수 있습니다(해당 문구는 아래에 인용).
 
-\*On a 6- it goes terribly wrong; mark 1 XP and the GM
-makes a Move.
+- 그들을 막아 유리·기회·저항·하려던 일 등을 무효로 만듦
+- 시선을 끌거나 인상을 주거나 지치게 하거나 겁을 줌. 그에 맞게 행동
+- 약화시킴. 이 액션이 끝난 뒤 그들이 다음에 피해를 줄 때 2만큼 줄임
 
-☐ Irrefutable Will
-When you Wrest Control, before the roll you may mark a
-condition to make one extra choice, even on a 6-.
+### 숙련된 방랑자(Seasoned Wanderer)
 
-☐ Terrifying
-When you Influence Choice by physically overpowering or
-manhandling them, roll+STR instead of +CHA, and if they
-go back on their word later, gain ADV the next time you act
-against them.
+**문명이 있는 새 장소에 도착하면**, 중요한 풍습·의식·믿음·관행 하나와 어떻게 알게 됐는지 그룹에게 말합니다. 그 지식으로 굴림이 있는 액션을 처음 쓸 때 **유리**를 얻습니다.
 
-☐ Usurper
-When you Sense Motive of someone more powerful than
-you (politically, physically, economically, etc.), you may
-always also ask them “How can I best ruin or humiliate
-you?”. When you accomplish it, clear a condition.
+### 붉은 손톱(Red Nails)
 
-18
+**피투성이가 되면** 조건 하나를 지웁니다. **피투성이인 동안** 주는 모든 피해 +1. **피투성이인 적에게 전력 공격**할 때 **유리**로 굴립니다.
 
-☐ Stranger
-Homesick
-You’re from a homeland far away, and your heart still longs
-for it even while adventuring, but you cannot go back. When
-you tell someone a story from your homeland, mark and
-answer a question below and clear a condition. When all five
-are marked, gain 1 XP and clear all questions.
+### 추한 진실(Ugly Truth)
 
-◆ What wonder or danger makes your homeland unique?
-◆ What must change in your homeland before you return?
-◆ What trouble in your homeland creates waves even here?
-◆ What is your most treasured memory of your homeland?
-◆ What drawback or failure of your homeland do you hate?
+**사교적 예의를 깨고 있는 그대로 부를 때** **+매력**으로 굴립니다.
 
-☐ Sacrificial Rite
-When you ritually sacrifice something significant to the
-spirits (or gods, ancestors, totem, etc.), roll+WIS. *On a 10+
-choose all three. *On a 7-9 choose two.
+- _7+:_ 당신에 동의하고 돕겠다는 이 한 명을 지명합니다.
+- _10+:_ 또 조건 하나를 지웁니다.
+- _6-:_ 그 말을 후회할지도; 경험치 1, GM이 마스터 액션.
 
-◆ Gain a blessing proportional to the sacrifice you made -
-ask for what you want, and the GM will say what you get.
+### 구전(Oral Tradition)
 
-◆ Ask the GM any one question about an enemy’s actions,
-location, or vulnerabilities; theyll answer truthfully.
+**위로와 격려**나 **지식 더듬기**를 고향 이야기로 할 때, 액션의 질문을 무시하고 **+지혜**로 굴릴 수 있습니다.
 
-◆ All who participated in the ritual clear a condition.
+### 그만한 값이 나올 때(When It Earns Me)
 
-☐ Survivor
-Mighty Thews
-Uses
-Your impressive physique is only held back by armor. While
-you aren’t wearing armor or wielding a shield, you may
-mark a use of your thews to ignore an instance of damage
-taken. When you successfully Make Camp, erase a marked
-use of your thews.
+**황천길** 때 아래도 고를 수 있습니다. 고르면 이 액션은 다시 향상으로 얻기 전까지 쓸 수 없습니다.
 
-O O
-
-☐ Fearless
-You are immune to fear, terror, and intimidation, even from
-supernatural sources, and ignore all penalties from the
-Frightened condition.
-
-You also inspire others to fight through their own fears. When
-you Aid a Frightened Companion or defeat something
-terrifying in front of them, they clear Frightened.
-
-☐ Is That All You’ve Got?
-After you suffer an enemy’s damage, you may mark a
-condition or suffer their damage again in order to make one
-choice from Keep Them Busy, copied below.
-
-◆ Impede them, negating an advantage, opportunity,
-resistance, or something they were about to do
-
-◆ Distract, impress, exhaust, or frighten them, and they
-
-act accordingly
-
-\*On a 6- choose one, but the spirits make a demand of you
-and will not accept your sacrifices again until you fulfill it.
-
-◆ Weaken them; the next time they deal damage after this
-
-move resolves, reduce it by 2
-
-☐ Seasoned Wanderer
-When you arrive at a new place of civilization, tell the
-group about one important local tradition, ritual, belief, or
-practice, as well as how you came to learn this. The first time
-you use this knowledge in a rolled Move, gain ADV.
-
-☐ Red Nails
-When you mark Bloodied, clear a condition.
-
-While you’re Bloodied, increase all damage you deal by 1.
-
-When you All Out Attack a Bloodied foe, roll with ADV.
-
-☐ Ugly Truth
-When you smash through social etiquette to call something
-what it really is, roll+CHA. *On a 7+ name someone here
-who agrees with you and is willing to help. *On a 10+ you
-also clear a condition. \*On a 6- you might regret saying that;
-mark 1 XP and the GM makes a Move.
-
-☐ Oral Tradition
-When you Comfort or Support or Recall Knowledge by
-telling a story from your homeland, you may ignore the
-Move’s questions and instead roll+WIS.
-
-☐ When It Earns Me
-When you Face Death, you may also choose the option
-below. If you do, lose access to this move until you gain it
-again as an advancement.
-
-◆ Spit in Death’s Face. Regain all HP here and now and
-
-don’t become maimed.
+- 죽음에게 침 뱉기. 지금 즉시 HP를 전부 회복하고 불구가 되지 않습니다.

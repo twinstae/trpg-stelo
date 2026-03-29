@@ -1,360 +1,271 @@
+---
+title: "던전월드 2 · 마법사"
+description: "현실의 옷감을 엮어 혼돈을 질서로 바꾸는 마법사 직업."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: the-wizard | source lines 5713-6073 | approx book page ? -->
 
-The Wizard
+당신은 현실의 옷감을 엮어 혼돈을 질서로 묶고, 뜻을 세계 위에 드러냅니다. 비를 바라는 이들이 있는 동안 당신은 먹구름을 불러 일으킵니다. 다른 이가 도시 사이를 몇 주 걸을 때, 당신은 눈 깜짝할 사이에 세계를 가로지릅니다. 재능을 두려워하고 멸시하는 이들도 있지만, 그들은 밖에 무슨 마법이 있는지 모릅니다.
 
-You weave the very fabric of reality, binding chaos into order and
-manifesting your will upon the world. While some hope for rain, you
-conjure storm clouds. While others travel for weeks between cities, you
-step between worlds in the blink of an eye. Some may fear and revile
-you for your gifts, but they do not know what magic is truly out there.
+## 기원
 
-Origins Consider first, then answer in introductions and play
+먼저 생각한 뒤, 소개와 플레이에서 답합니다.
 
-I am a
-E.g. elf, goblin, orc, golem. How does this affect your biology,
-behavior, and communication? How does it affect how you cast spells?
+나는  
+예: 엘프, 고블린, 오크, 골렘. 생물학·행동·소통에 어떤 영향이 있나? 주문을 쓰는 방식에는 무엇이 다른가?
 
-I was raised in a life of
-E.g. menial labour, traveling trade, dutiful scholarship. How does
-your culture view magic? What parts of it are seen as taboo?
+이렇게 자랐다  
+예: 잡일, 이동 상거래, 성실한 학문. 문화는 마법을 어떻게 보나? 금기로 여기는 부분은?
 
-I began studying magic after
-E.g. I stole a spellbook, I impressed a master, I joined an academy.
-How did this change your lifestyle? What is your favorite spell?
+마법을 배우기 시작한 계기는  
+예: 마도서를 훔쳤다, 스승을 감동시켰다, 학원에 들어갔다. 삶이 어떻게 바뀌었나? 가장 좋아하는 주문은?
 
-I took my studies to the road
-E.g. after a disastrous experiment, as part of my final test, in search of
-a magical secret. How did you prepare to travel? Who will you miss?
+길 위로 연구를 가져왔다  
+예: 끔찍한 실험 뒤, 마지막 시험의 일환, 마법의 비밀을 찾아. 여행을 어떻게 준비했나? 그리울 이는 누구인가?
 
-Relationships
-Fill in for each other PC based on how well you already know them
+## 시작 액션: 마법 엮기(Weave a Spell)
 
-Name
+마법의 근본 학파를 공부했습니다. 각 학파에는 대상(Subject)(무엇을 바꿀 수 있는가)과 동사(Verb)(어떻게 바꿀 수 있는가)가 있습니다. **마법사의 길** 을 얻을 때 새 학파를 얻고 그 대상과 동사를 배웁니다. **야영** 한 뒤 잊은 대상과 동사를 되찾습니다. 지금 학파 둘을 고릅니다.
 
-Details
+- [ ] 기문(Abjuration). 대상: 마법 그 자체. 동사: 풀어내다(Unravel).
+- [ ] 소환(Conjuration). 대상: 물건이나 이계 존재. 동사: 불러내다(Summon).
+- [ ] 점술(Divination). 대상: 영상. 동사: 분별하다(Discern).
+- [ ] 매혹(Enchantment). 대상: 지각 있는 존재. 동사: 매료시키다(Charm).
+- [ ] 역학(Evocation). 대상: 원소 에너지. 동사: 흘려보내다(Channel).
+- [ ] 환영(Illusion). 대상: 시각이나 소리. 동사: 위장하다(Disguise).
+- [ ] 사령(Necromancy). 대상: 불사. 동사: 부여하다(Bestow).
+- [ ] 변환(Transmutation). 대상: 물질. 동사: 잠시 바꾸다(Briefly Alter).
 
-Name
+**아는 대상과 동사를 마법 주문으로 합칠 때**—같은 학파가 아니어도 됩니다—무엇이 일어나길 원하는지 말하고, GM이 정한 위력(Magnitude) 만큼(15쪽 참고) 조건을 표시한 뒤 +지 판정을 합니다.
 
-Details
+- 7+: 주문이 성공합니다.
+- 7–9: GM이 꼬임을 더하거나, 쓴 대상이나 동사 하나를 잊습니다—선택은 당신에게 있습니다.
+- 6-: 끊기거나 통제를 잃습니다; 경험치 1, GM이 마스터 액션을 합니다.
 
-Name
+---
 
-Details
+이름  
+호칭
 
-Name
-
-Details
-
-Depth
-
-Depth
-
-Depth
-
-Depth
-
-Starting Move:
-Weave a Spell
-You’ve studied the fundamental schools of magic. Each school has
-a Subject (what you can change) and a Verb (how you can change
-it). When you gain a Wizard Path, gain a new School and learn its
-Subject and Verb. After you Make Camp, regain forgotten Subjects
-and Verbs. Choose two schools now.
-
-☐ Abjuration. Subject: Magic itself. Verb: Unravel.
-
-☐ Conjuration. Subject: Objects or outsiders. Verb: Summon.
-
-☐ Divination. Subject: Visions. Verb: Discern.
-
-☐ Enchantment. Subject: Sapient beings. Verb: Charm.
-
-☐ Evocation. Subject: Elemental energies. Verb: Channel.
-
-☐ Illusion. Subject: Sights or sounds. Verb: Disguise.
-
-☐ Necromancy. Subject: Unlife. Verb: Bestow.
-
-☐ Transmutation. Subject: Matter. Verb: Briefly Alter.
-
-When you combine a known Subject and Verb into a magic spell,
-whether or not they’re from the same school, say what you want
-to happen, mark conditions equal to its Magnitude (determined
-by the GM, see page 15), and roll+INT. *On a 7+ the spell succeeds.
-*On a 7-9 either the GM adds a twist or you forget a Subject or Verb
-you used, your choice. \*On a 6- it’s interrupted or goes haywire;
-mark 1 XP and the GM makes a move.
-
-Equipment
-Choose your weapon (or create a new one with the GM):
-
-☐ Enchanted dagger (1 dmg, precise, hand, near, piercing, light)
-
-☐ Glowing staff (1 dmg, hand, close, two-handed, distinctive)
-
-☐ Simple crossbow (2 dmg, near, far, precise, piercing, two-
-handed, reload, ammo)
-
-Name
-
-& Pronouns
-
-Galadir, Mortimer, Xeno, Draft, Steburis, a complex name
+예: 갈라디르, 모티머, 제노, 드래프트, 스테부리스, 복잡한 이름
 
 HP
 
-STR
+근력(STR) · 민첩(DEX) · 지능(INT) · 지혜(WIS) · 매력(CHA)
 
-DEX
+최대 6
 
-INT
+피투성이 · 지침 · 겁먹음 · 분노 · 산만 · 불안
 
-WIS
+경험치(XP):
 
-CHA
+레벨:
 
-Max 6
+경험치 칸을 다섯 번 채우면 경험 칸을 비우고, 레벨을 1 올리며 향상 하나를 얻습니다.
 
-Bloodied
+---
 
-Exhausted
+## 장비
 
-Frightened
+무기를 고릅니다(GM과 새 무기를 만들어도 됩니다).
 
-Angry
+- [ ] 마법에 걸린 단검(피해 1, 정밀, 손, 가까움, 관통, 경량)
+- [ ] 빛나는 지팡이(피해 1, 손, 근접, 양손, 눈에 띔)
+- [ ] 단순 석궁(피해 2, 가까움, 멀리, 정밀, 관통, 양손, 재장전, 탄약)
 
-Distracted
+아래 두 가지를 고릅니다.
 
-Insecure
+- [ ] 모험 도구(사용 3). 쓸 만한 잡동사니를 뒤질 때 사용을 표시해 손에 넣습니다.
+- [ ] 책 자루(사용 3). 관련 기록을 찾을 때 사용을 표시해 찾습니다.
+- [ ] 약병 띠(사용 3). 약병을 꺼낼 때 사용 하나를 쓰고 유형을 고릅니다: 산성, 눈부심, 화염, 성스러움.
+- [ ] 보급(사용 3). **위로와 격려** 로 질문에 답할 때 사용으로 “아니오”를 “예”처럼 씁니다.
 
-XP:
+## 외모
 
-Level:
+행마다 하나(또는 다른 것).
 
-When you mark your 5th XP, clear the Experience track, increase
-your Level by one, and gain one Advancement.
+- [ ] 성천 망토
+- [ ] 눈에 띄지 않는 망토
+- [ ] 신비한 모자
+- [ ] 재료 주머니
+- [ ] 천체 구체
+- [ ] 무거운 룬 문서
 
-Advancements
+## 시작 능력치
 
-When you Level Up, choose one of the following:
+아래 한 줄을 고릅니다.
 
-☐ Gain a Path from your Class
+- [ ] STR -1, DEX 0, INT 2, WIS 1, CHA 1
+- [ ] STR 1, DEX 1, INT 2, WIS 0, CHA -1
 
-☐ ☐ +1 to any Stat (max. 2)
+---
 
-∞ Gain a Conflict if you don’t currently have one (pg XX)
+## 발전
 
-∞ Gain an Advanced Move from one of your Paths
+레벨업할 때 아래 하나를 고릅니다.
 
-◆ Change to a new Class
+- [ ] 직업에서 길(Path) 하나 얻기
+- [ ] 아무 능력치 +1(최대 2)
+- [ ] 지금 갈등이 없다면 갈등 하나 얻기(해당 장)
+- [ ] 가진 길 중 하나에서 고급 액션 하나 얻기
+- [ ] 새 직업으로 바꾸기
 
-From Level 5 onwards, you can also choose from the following:
+레벨 5부터 또한 아래에서 고를 수 있습니다.
 
-☐ Gain another Path from your Class
+- [ ] 직업에서 길 하나 더 얻기
+- [ ] 아무 능력치 +1(최대 2)
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 마법 아이템 하나 얻기
 
-☐ +1 to any Stat (max. 2)
+레벨 10부터 또한 아래에서 고를 수 있습니다.
 
-☐ Multiclass — Gain a new Path from a Class not being played
+- [ ] 아무 능력치 +1(최대 3)
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 유물 하나를 고른다(유물 장) 또는 GM과 새 유물을 만든다. 이후 GM이 단서를 줍니다.
 
-Choose two items below:
+### 갈등을 해소할 때
 
-☐ Gain a Magic Item
+아래 하나를 고릅니다.
 
-☐ Adventuring Gear (3 uses OOO). When you rummage through
-this for a useful mundane item, mark a use and acquire it.
+- [ ] 대마법사(Archmage) 를 얻습니다. 이 액션을 처음 얻을 때와, **휴식을 즐긴다** 에서 재물 1을 써 대상이나 동사를 당신의 취향이나 학파에 더 맞게 고칠 수 있습니다(GM이 최종 결정).
+- [ ] 영웅의 순간을 해금합니다. 쓸 때 서사를 온전히 잡고, 세계나 다른 PC를 극적으로 바꾸는 마지막 업적을 묘사한 뒤, 원하는 대로 이야기에서 빠집니다(은퇴·죽음 등).
 
-☐ Bag of Books (3 uses OOO). When you search it for a relevant
-record of information, mark a use to find it.
+---
 
-☐ Bandolier of Vials (3 uses OOO). When you withdraw a vial,
-spend a use and choose a type: Acid, Flashy, Fiery, Holy.
+## 관계
 
-Example Relationships
-They carry latent magical talent, which I will guide and nurture.
+다른 PC마다 이미 아는 만큼 채웁니다.
 
-☐ Supplies (3 uses OOO). When you Comfort or Support and
-answer questions, you may spend a use to treat a “no” as a “yes”.
+깊이(Depth)
 
-I want to make up for when I hit them with a haywire spell.
+### 관계 예시
 
-We share a niche interest and endlessly chat about or work on it.
+- 잠재적 마법 재능을 품고 있다. 인도하고 키우겠다.
+- 주문이 통제를 벗어났을 때 그들을 맞췄다. 만회하고 싶다.
+- 틈새 관심사를 나누고 끝없이 이야기하거나 함께 한다.
+- 나에게 비밀을 숨기고 있다. 확신한다.
+- 내 마법에 감명받지 않는 것 같다. 바꾸겠다.
+- 세상에 대해 한심할 정도로 잘못 알고 있다. 가르치겠다.
 
-For your appearance, choose one per row (or something else):
-☐ astral robes, ☐ inconspicuous cloak, ☐ mystical hat
-☐ component pouch, ☐ celestial orb, ☐ heavy runic tome
+---
 
-They are keeping a secret from me; I’m sure of it.
+## 숙련자(Adept)
 
-I don’t think they’re impressed with my magic; I’ll change that.
+### 힘의 말(Words of Power)
 
-They’re woefully misinformed about the world; I’ll teach them.
+현실 자체를 다시 쓰는 힘을 공부했습니다. 대상 하나와 동사 하나를 고릅니다—**마법 엮기**(마법사 시작 액션)처럼 합쳐 쓸 수 있습니다. **야영** 한 뒤 잊은 대상과 동사를 되찾습니다.
 
-Starting Stats Choose one below
-☐ STR -1 DEX 0 INT 2 WIS 1 CHA 1
-☐ STR 1 DEX 1 INT 2 WIS 0 CHA -1
+마법사라면, 공부한 학파의 말과 이 말들을 섞을 수 있습니다.
 
-From Level 10 onwards, you can also choose from the following:
+대상:
 
-☐ +1 to any Stat (max. 3)
+- [ ] 기류
+- [ ] 대지
+- [ ] 불
+- [ ] 빛
+- [ ] 자연
+- [ ] 물
 
-☐ Multiclass — Gain a new Path from a Class not being played
+동사:
 
-☐ Choose an Artifact (page 52) or work with the GM to create a
-new one. Then the GM will give you a lead on where to find it.
+- [ ] 흡수
+- [ ] 움직이다
+- [ ] 창조
+- [ ] 파괴
+- [ ] 다시 짜다
 
-When you resolve a Conflict, choose one below:
+### 시그니처 주문(Signature Spell)
 
-☐ Gain Archmage: When you first gain this move, and when you
-Enjoy Downtime and spend 1 Treasure, you may rewrite a Subject
-or Verb to something you find more fitting to your interests or the
-school (the GM has the final say).
-
-☐ Unlock your Moment of Heroism. When you use it, take total
-control of the narrative, describe one last feat you accomplish
-that dramatically changes the world or other PCs, then exit the
-narrative however you wish (eg. retirement, death, etc.)
-
-33
-
-Wizard Paths
-
-☐ Adept
-Words of Power
-You’ve studied forces that can rewrite reality itself. Choose
-one Subject (what you can change) and one Verb (how you
-can change it), which you can combine as if Weaving a Spell
-(the Wizard Starting Move). After you Make Camp, regain
-forgotten Subjects and Verbs.
-
-If you’re a Wizard, you can combine these words with those
-from your studied schools of magic.
-
-Subjects: O Air O Earth O Fire O Light O Nature O Water
-
-Verbs: O Absorb O Animate O Create O Destroy O Reshape
-
-☐ Signature Spell
-When you gain this move, choose a specific magical effect
-(aka spell) you’ve previously created and write it down
-below (e.g. invisibility, fireball, flashbang, etc.).
-
-Spell:
-
-You become an expert with that specific spell. When you
-cast it, treat its Mag as 1 lower for the purposes of marking
-conditions. If it’s Mag was already 0, you instead gain ADV
-on the roll to cast it. You also become associated with the
-spell. Those familar with you also know of your skill with
-it. People may seek you out because of your signature spell,
-and enemies may prepare defenses for it in particular.
-
-☐ Spellblade
-Light armor is never Clumsy for you. While you wield magic
-alongside a weapon that isn’t two-handed, deal +1 damage
-with that weapon.
-
-☐ My Friends Are My Power
-When you receive Aid while Performing a Ritual (see
-Rituals on page 15), add “ignore one Ritual requirement” to
-the list of Aid choices.
-
-☐ Familiar
-You have a small mostly-harmless creature companion that
-is magically connected to you. Who are they? What do they
-look like? How do they act? They usually act as an extension of
-you, but as a Move the GM might have them act on their own.
-You can communicate telepathically with your familiar and
-concentrate to perceive their senses. When your familiar
-gets hurt, mark a condition.
-
-34
-
-☐ Spellbreaker
-Assimilate
-When you counter or destroy something magical, you
-may mark a condition to absorb and store the magic for
-later. The magic can then be released by Defying Danger,
-after which the stored magic dissipates. If you release
-the stored magic immediately after absorbing it, you roll
-with ADV and, on a 12+, choose 0. You can only store one
-magical effect at a time.
-
-☐ Detect Magic
-When you open your senses to the magical realm, the GM
-will tell you what nearby magic you sense. Then you may
-mark a condition to ask all of the following questions about
-one source of magic you sense. What type(s) of magic is it?
-Where precisely is it located? What’s dangerous about it?
-
-☐ Counterspell
-When you Defy a magical Danger by using magic of your
-own, roll with a stat associated with the source of your
-magic (INT for Wizard spells, WIS for Cleric miracles, etc.)
-On a 12+, choose 0.
-
-☐ Mage Armor
-When you take magical damage, reduce it by 1. You may
-mark conditions to further reduce it by 1 per condition
-marked.
-
-☐ Anti-Magic Field
-When you create an area of anti-magic, mark a condition
-and roll+INT. *On a 7+ all magic near you (including yours)
-is suppressed until you stop maintaining it or the scene
-ends, whichever happens first. *On a 7-9 choose one:
-
-◆ It’s much smaller or much bigger than you intended
-◆ You can’t do anything else while maintaining it
-◆ Magic in it is largely reduced, but not fully suppressed
-
-\*On a 6- the field is overwhelmed or sabotaged; mark 1 XP
-and the GM makes a move
-
-☐ Scholar
-Loremaster ☐
-You’ve studied long and hard, and become an expert in a few
-select topics. Choose two below now. As a Path Advanced
-Move you may become an expert in two more topics, up to
-a maximum of four.
-
-◆ Spells and Magicks
-◆ The Dead and Undead
-◆ Nations and Politics
-◆ Unnatural Monsters
-
-◆ The Planar Spheres
-◆ Old Heroes and Relics
-◆ Gods and Their Servants
-◆ Natural Flora and Fauna
-
-When you Recall Lore about one of your expert topics, you
-gain the following benefits:
-
-◆ After answering the questions, you may choose to
-roll+INT instead of +Questions. If you do, ignore
-penalties from the Angry condition for the roll.
-
-◆ Treat a 7-9 as a 10+, and a 10+ as a 12+.
-◆ On a 12+, if you share your knowledge in great detail
-
-with an ally, you and your ally both gain ADV when you
-first act upon it (rather than just one of you).
-
-☐ Sage Advice
-When you offer logical, reasonable advice to someone
-about what to do, mark a condition to Comfort or Support
-them with ADV. If they follow your advice, they have ADV
-the first time they roll.
-
-☐ Academic Minor
-When you Recall Lore, you may mark a condition to treat the
-subject as within one of your expert topics (see Loremaster
-above), no matter what it is.
-
-☐ Extrasensory Perception
-When you magically connect with an important object for
-the first time, roll+INT and ask the GM questions about its
-history, origins, functionalities, properties, etc. *On a 10+
-ask three questions. *On a 7-9 ask two. \*On a 6- ask one, but
-the object curses or haunts you until you soothe it; the GM
-will tell you how.
+이 액션을 얻을 때, 예전에 만든 특정 마법 효과(즉 주문)를 골라 아래에 적습니다(예: 투명, 화구, 섬광 등).
+
+주문:
+
+그 주문의 전문가가 됩니다. 쓸 때 위력을 매기는 조건은 1 낮은 것처럼 취급합니다. 위력이 이미 0이면 대신 굴림에 유리입니다. 그 주문과 연결됩니다. 당신을 아는 이는 그 솜씨도 압니다. 시그니처 때문에 찾아올 수도, 적이 특히 대비할 수도 있습니다.
+
+### 주문검(Spellblade)
+
+가벼운 갑옷은 당신에게 서툼이 되지 않습니다. **양손이 아닌 무기와 함께 마법을 쓰는 동안** 그 무기 피해 +1입니다.
+
+### 동료가 나의 힘이다(My Friends Are My Power)
+
+**의식을 행할 때**(15쪽 참고) **동료 돕기** 를 받으면, **동료 돕기** 선택지에 “의식 요건 하나 무시”를 더합니다.
+
+### 사역수(Familiar)
+
+당신과 마법으로 이어진 작고 대개 무해한 생물 동료가 있습니다. _누구인가? 어떻게 생겼나? 어떻게 행동하나?_ 보통 당신의 연장처럼 행동하지만, 액션으로 GM이 사역수를 독자적으로 행동하게 할 수 있습니다. 텔레파시로 말하고 집중해 그 감각을 느낄 수 있습니다. **사역수가 다치면** 조건을 표시합니다.
+
+---
+
+## 주문 파괴자(Spellbreaker)
+
+### 동화(Assimilate)
+
+**마법을 막거나 무너뜨릴 때** 조건 하나를 표시해 마법을 흡수해 쌓아 둘 수 있습니다. 그 마법은 **위험 돌파** 로 보낼 수 있으며, 낸 뒤 쌓인 마법은 사라집니다. 흡수 직후 곧바로 내면 유리로 굴리고 12+이면 선택을 0개 고릅니다. 한 번에 하나의 마법 효과만 쌓을 수 있습니다.
+
+### 마법 감지(Detect Magic)
+
+**마법의 영역에 감각을 열면** GM이 근처의 마법을 말합니다. 그다음 조건 하나를 표시해 느낀 출처 하나에 대해 아래 질문을 모두 물을 수 있습니다. _어떤 유형인가? 정확히 어디에 있는가? 위험한 점은 무엇인가?_
+
+### 대마법(Counterspell)
+
+**자기 마법으로 마법적 위험에 맞서 위험 돌파할 때**, 마법 근원에 맞는 능력치로 판정합니다(마법사 주문은 지능, 성직자 기적은 지혜 등). 12+이면 선택을 0개 고릅니다.
+
+### 마법사의 갑옷(Mage Armor)
+
+**마법 피해를 받을 때** 1 줄입니다. 조건을 표시해 피해를 1씩 더 줄일 수 있습니다.
+
+### 반마장(Anti-Magic Field)
+
+**반마법 구역을 만들 때** 조건 하나를 표시하고 +지 판정을 합니다.
+
+- 7+: 당신 가까이의 모든 마법(당신 것 포함)이 유지를 멈추거나 장면이 끝날 때까지 억제됩니다—어느 쪽이 먼저인가에 따릅니다.
+- 7–9: 아래 하나를 고릅니다.
+
+- 의도보다 훨씬 작거나 훨씬 큼
+- 유지하는 동안 다른 일을 못 함
+- 안의 마법은 줄었지만 완전히 사라지지는 않음
+
+6-: 반마장이 제압당하거나 방해받음; 경험치 1, GM이 마스터 액션을 합니다.
+
+---
+
+## 학자(Scholar)
+
+### 박식가(Loremaster)
+
+오래 공부해 소수 주제의 전문가가 되었습니다. 지금 둘을 고릅니다. 길 고급 액션으로 둘씩 더해 최대 넷까지 늘릴 수 있습니다.
+
+- 주문과 마법
+- 죽음과 언데드
+- 국가와 정치
+- 초자연적 괴물
+
+- 위계의 구체
+- 옛 영웅과 유물
+- 신과 그 종복
+- 자연의 식물과 동물
+
+전문 주제에 관해 **지식 더듬기** 를 할 때 아래 이익을 얻습니다.
+
+- 질문에 답한 뒤, +질문 수 대신 +지 판정을 하도록 선택할 수 있습니다. 그렇게 하면 분노 조건의 패널티를 무시합니다.
+- 7–9를 10+처럼, 10+를 12+처럼 취급합니다.
+- 12+이면 지식을 자세히 동료와 나누면, 그것에 따라 처음 행동할 때 당신과 동료 둘 다 유리(한쪽만이 아님).
+
+### 현자의 충고(Sage Advice)
+
+**논리적이고 타당한 조언을 할 때** 조건 하나를 표시해 **위로와 격려** 를 유리로 할 수 있습니다. 조언을 따르면 처음 굴릴 때 유리입니다.
+
+### 학부 조교(Academic Minor)
+
+**지식 더듬기** 를 할 때 조건 하나를 표시해 주제를 박식가의 전문(위 참고) 안에 있는 것처럼 취급할 수 있습니다—실제 주제가 무엇이든.
+
+### 초감각 지각(Extrasensory Perception)
+
+**중요한 물건과 처음 마법으로 연결할 때** +지 판정을 하고 역사·기원·기능·성질 등 GM에게 질문합니다.
+
+- 10+: 질문 셋.
+- 7–9: 둘.
+- 6-: 하나만 묻지만, 물건이 저주하거나 들러붙습니다—달랠 때까지; GM이 어떻게인지 말합니다.

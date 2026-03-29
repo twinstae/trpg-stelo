@@ -1,63 +1,31 @@
+---
+title: "던전월드 2 · 전투"
+description: "전투 규칙."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: combat | source lines 1790-1851 | approx book page 12 -->
 
-Combat
+던전월드 2에서 싸움은 게임 나머지와 비슷하게 돌아가되, 템포는 빠르고 걸린 것은 큽니다. 순서, 이니셔티브, 행동 경제는 없습니다. GM은 한 명 이상의 PC가 처한 상황을 계속 묘사하고, 무엇을 할지 묻고, 선택과 굴림에 맞는 결과를 줍니다.
 
-Fighting in Dungeon World 2 works much like the rest of the
-game, just with faster pace and higher stakes. There is no turn
-order, initiative tracker, or action economy. The GM continues to
-describe the situation that one or more PCs find themselves in, ask
-what they do, and deliver appropriate consequences depending
-on their choices and rolls.
+어떤 전투 액션에 따라 **피해를 주고받을 때**, 당신과 적은 동시에 서로에게 피해를 주고 상대 HP를 깎습니다.
 
-When you exchange damage, as stated by some Battle Moves, you
-and your enemy simultaneously deal damage to each other and
-reduce the other’s HP.
+- 당신이 그들에게 주는 피해는 무기에 따르며 보통 1–3이고, 다른 액션·능력·장비 등으로 조정됩니다.
 
-◆ You deal damage to them based on your weapon, usually 1-3,
-modified by other moves, abilities, equipment, and similar.
+- 그들이 당신에게 줍니다. 단순한 잡병은 1, 잡병 무리나 외로운 괴물은 3–4, 고룡이나 세계를 깨는 공포는 6–7 정도가 될 수 있습니다.
 
-◆ They deal damage to you. A simple minion might deal 1
+- 갑옷, 방패, 어떤 액션의 사용 횟수를 써서 받은 피해를 줄일 수 있습니다(방패를 쓴 뒤 다른 방패로 바꿔도 사용 횟수는 새로 차지 않습니다).
 
-damage, while a group of minions or a solitary monster might
-deal 3-4 damage, and an elder dragon or world-breaking
-horror might deal 6-7 damage.
+HP가 최대의 **절반 이하**이면 _피투성이_(Bloodied)입니다(모든 전투 액션에 불리). 조건과 비슷해 보이지만 피투성이 자체는 조건이 아니라, 다른 조건처럼 표시하거나 지울 수 없습니다. HP가 다시 절반 위로 오면 즉시 피투성이가 풀립니다. 다시 절반 아래로 내려가면 다시 피투성이입니다. NPC도 피투성이가 될 수 있습니다.
 
-◆ You can spend uses of armor, a shield, or some moves to
+**제대로 맞받아칠 수 없는** 상대를 공격하면 쉽게 쓰러뜨립니다(상황을 꼬는 무언가가 없다면). 잠깐이라도 “싸움”이 될 만큼 맞받아칠 수 있으면 아마 전투 액션이 발동합니다.
 
-reduce your damage taken (after using your shield, switching
-to a new one doesn’t refresh any uses).
+**맞받아칠 수 있는지 애매하면**(강하지만 당신을 모르거나, 약하지만 마법으로 보호받거나 등), GM이 그대로 쓰러뜨리려면 위험 돌파를 하라고 하거나, 싸움이 시작되기 전에 한 번 당신 피해를 자동으로 입히거나, 이미 쓸 우열이 준비된 채로 싸움을 시작하게 하거나 다른 처리를 할 수 있습니다.
 
-While your HP is at or below half of maximum, you’re Bloodied
-(DIS on all Battle Moves). While similar to conditions, Bloodied
-is not a condition itself; it cannot be marked or cleared the way
-other conditions can. As soon as your HP returns to above half,
-you immediately clear Bloodied. When it returns to below half,
-mark Bloodied again. NPCs can also be Bloodied.
+마찬가지로 **당신이 상처를 줄 수 없는 상대와 싸울 때**(마비, 무형, 비늘이 강철보다 단단 등), GM은 전투 액션이 발동하지 않는다고 할 수 있고, 마스터 액션으로 맞는 결과를 줄 수 있습니다.
 
-When attacking someone who can’t feasibly fight back, you defeat
-them easily (unless something is complicating the situation).
-If they can fight back enough to make it a “battle”, even if only
-briefly, then you probably trigger a Battle Move.
+**이야기상 피해를 입거나 줄 수 없다면**, 관련 전투 액션이 발동하는지 다시 확인하세요. PC가 다른 접근을 하거나 나은 위치로 가야 할 수도 있고, 아예 발동하지 않을 수도 있습니다.
 
-When it’s unclear if they can fight back (they’re strong but don’t
-know you’re there, they’re weak but magically protected, etc.),
-the GM might ask you to Defy Danger to defeat them outright,
-or have you automatically inflict your damage once before the
-battle begins, or begin a battle with an edge already ready to be
-exploited, or something else.
-
-Similarly, when you fight someone you can’t feasibly hurt (you’re
-paralyzed, they’re incorporeal, their scales are stronger than steel,
-etc.), the GM might say no Battle Move triggers, and furthermore
-they may deliver appropriate consequences by making a Move.
-
-When it doesn’t make narrative sense for damage to be suffered
-or inflicted, then double-check if the related Battle Move triggers
-at all. Maybe the PC needs to take a new approach or get into a
-better position, or maybe it just doesn’t trigger.
-
-During a battle, you can still use other moves as normal. If you
-want to Unearth Secrets or Sense Motive during a battle, describe
-what you do to trigger the move as normal.
-
-12
+전투 중에도 **다른 액션은 평소처럼 쓸 수 있습니다.** 싸우는 동안 비밀을 파헤치거나 속뜻 읽기를 하려면, 평소처럼 무엇을 하는지 묘사해 액션을 발동시키면 됩니다.

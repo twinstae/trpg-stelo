@@ -1,137 +1,153 @@
-<!-- split from dw2.md: magic-trinkets | source lines 8289-8425 | approx book page ? -->
+---
+title: "던전월드 2 · 마법 잡화"
+description: "작은 마법 물건."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
 
-Magic Trinkets These magic items have especially minor effects, but can be fun and convenient to add to any game.
+<!-- split from dw2.md: magic-trinkets | source lines 8289-8425 | approx book page 51 -->
 
-1. Victuals
-1. A jug that warms whatever fluid placed inside
-1. A kitchen knife that cannot be dulled
-1. A flask only you can open
-1. A bag that keeps fresh whatever organic matter is inside
-1. A pouch that shells any nuts placed inside once closed
-1. A chest that produces ice when water is placed inside
-1. A pot that instantly produces soup from raw components
-1. A normal bag of holding that only works for produce
-1. A potato that regrows in hours from one uneaten eye
-1. A flagon that turns liquid inside into ordinary weak beer
-1. A clockwork mouse that finds good cheese
-1. A lens with displays suggested ingredient pairings
-1. A spoon that makes everything nearby seem much tastier
-1. A set of utensils that are silent when scraping each other
-1. Cauldron that never stops boiling
-1. A goblet that can’t spill liquids, even if held upside down
-1. A beer Stein that always keeps the perfect pour
-1. A rock which glows when next to other rocks
-1. A flagon that always looks empty, no matter what it holds
-1. A bag that automatically plucks any chicken within it
+# 마법 잡화
 
-1. Jewelry
-1. A ring that says what your mother would if she was here.
-1. A ring with moving patterns
-1. A ring that removes all feelings of discomfort (not pain)
-1. A signet ring that is magically difficult to falsely copy
-1. Jewelry that always makes you appear neatly groomed
-1. A ring that prevents normal insects from biting you
-1. An earring that hums a happy tune when you’re sad
-1. A hair clip that always keeps your hair perfectly clean
-1. A ring that really does change color to match your mood
-1. An amulet that can teleport you 3ft in a random direction
-1. A ring that changes your mood to match its color
-1. An amulet that glows when those of your ancestry are near
-1. Mirrored spectacles that give you hindsight
-1. Spectacles that shows the world as it was five hours ago
-1. A ring that won’t let you sleep
-1. A pendant that helps you never stumble while groggy
-1. Two amulets; when you tap one, the other one vibrates
-1. A pair of glasses that protects your eyes from the sun
-1. Glasses that seem to bypass solid matter, but it’s an illusion
-1. False teeth that can bite through bone, steel, or stone
+이 마법 아이템들은 효과가 특히 사소하지만, 어떤 게임에든 넣으면 재미있고 편리합니다.
 
-1. Adventuring Gear
-1. A smooth rock that constantly generates one candle’s light
-1. A lamp that does not consume the oil in it
-1. A rope that is always the right length, no more, no less
-1. Rope which never tangles unless you tie a specific knot
-1. A piece of chalk that never wears down
-1. A lantern that emits light that only its bearer can see
-1. A compass that points in the direction of the nearest elm.
-1. A compass that always points home
-1. A glow stick
-1. A bone, when placed in your pocket makes dogs love you
-1. A polished rock that tells you where the sun is in the sky
-1. An abacus whose beads reflect your location coordinates
-1. A three foot long piece of twine that operates as a spyglass
-1. Enough lavender to make everyone smell nice for 2 weeks
-1. An hourglass that constantly runs, but never runs out
-1. A stone, when dropped, always goes to the floor
-1. A ball of twine, when pushed, will always roll to the exit
-1. A candle that changes transforms smells while burning
-1. A hammer that always has a nail
-1. A candle that, while burning, sparks when traps are near
+## 1. 식료품
 
-1. Clothing
-1. An article of clothing that cannot get dirty
-1. Un-loseable socks
-1. A hat-pin that never dulls
-1. Boots that lace themselves
-1. A purse that is easy to find things put into it
-1. A coat that protects you from rain and snow
-1. A helmet that let you see in darkness
-1. A cloak that always matches your outfits
-1. Boots that refuse to ever step in manure of any kind.
-1. A ribbon that increases hair growth rate 10%
-1. A top hat with a secret compartment
-1. Shoes that correct your dancing moves
-1. A wingsuit, it’s not clear if it works
-1. A sewing needle that changes a thread’s color and material
-1. A straw hat that makes its wearer look like a scarecrow
-1. A bedroll that can be worn as an outer garment
-1. Chainmail underwear that protects like full armor
-1. A short rod that transforms into an umbrella when it rains
-1. An umbrella made of invisible canvas
-1. A vest that turns coins into tools of equivalent value
+1. 어떤 액체를 넣든 따뜻하게 데워 주는 주전자
+2. 절대 무뎌지지 않는 부엌칼
+3. 당신만 열 수 있는 플라스크
+4. 안에 넣은 유기물이 항상 신선한 가방
+5. 닫으면 안에 넣은 견과를 자동으로 까 주는 주머니
+6. 물을 넣으면 얼음을 만드는 상자
+7. 재료를 넣으면 즉시 수프를 만드는 냄비
+8. 농산물에만 작동하는 평범한 무한의 가방
+9. 먹다 남긴 싹눈 하나로 몇 시간 안에 다시 자라는 감자
+10. 안에 넣은 액체를 평범한 묽은 맥주로 바꾸는 술병
+11. 좋은 치즈를 찾아내는 태엽 쥐
+12. 추천 재료 조합을 보여 주는 렌즈
+13. 근처 모든 것의 맛이 훨씬 좋게 느껴지는 숟가락
+14. 서로 긁어도 소리가 나지 않는 식기 세트
+15. 끓임이 멈추지 않는 가마솥
+16. 거꾸로 들어도 액체가 쏟아지지 않는 잔
+17. 항상 완벽한 거품을 유지하는 맥주잔
+18. 다른 돌 옆에 놓으면 빛나는 돌
+19. 무엇을 담아도 항상 비어 보이는 술병
+20. 안에 넣은 닭의 털을 자동으로 뽑아 주는 가방
 
-1. Miscellaneous
-1. A thin stone plate that shows you strange things
-1. A gold coin when held to your throat amplifies your voice
-1. A tooth that calls a little busy fairy
-1. A coin that, once taken, always ends up in its owner’s shoe
-1. A fife that, if constantly played, prevents travel fatigue
-1. A die that 90% of the time, rolls a 5
-1. A magical flag that follows you around, needing no bearer
-1. An origami crane that swims when placed in water
-1. A chamber pot that doesn’t emit any noxious odors
-1. A pen with ink that cycles through the rainbow
-1. A pencil that never needs sharpening
-1. Two pens: when you write with one, the other copies it
-1. A lens that reveals a single powerful truth
-1. An ointment that instantly heals paper cuts and similar
-1. A lute that is always almost in tune, but never quite right
-1. A razor that gives a perfect shave if you’ve bled recently
-1. A knife that is invisible while sheathed
-1. Paintbrushes that can create art that moves on touch
-1. An unsolvable puzzle that’s difficult to stop attempting
-1. A small jar that can act as a mortar and pestle
+## 2. 장신구
 
-1. More Miscellaneous
-1. A pair of 1 inch metal knights who can fight each other
-1. A book that can generate useful financial statements
-1. An inkwell that can reveal whose quill wrote with the ink
-1. A scroll of parchment that has unlimited surface space
-1. A tiny violin that plays itself
-1. A small balloon that can change altitude on command
-1. A glass orb; when rolled it whistles a speed-based pitch
-1. A tissue that provides topical analgesic on touch.
-1. A queen bee in amber; crack it and a swarm of bees fly out
-1. A case of small blocks that can snap together and apart
-1. A jar of a waxy material that can clean objects in seconds
-1. A scroll that corrects any mistakes written on it
-1. Two coins that return to you after their use in funeral rites
-1. A quill that writes down everything it hears
-1. Mirror that causes any facial hair it depicts to fall off
-1. Paper that can be folded as many times as you want
-1. Door knocker; announces guests by name and profession
-1. A mirror that shows good memories of your past
-1. A hydrophic towel that is great for spot cleaning
-1. A slingshot that rots any fruits or vegetables it shoots
+1. 어머니가 살아 계시다면 할 법한 말을 해 주는 반지
+2. 무늬가 움직이는 반지
+3. 모든 불쾌감을 없애 주는 반지(통증은 제외)
+4. 마법적으로 위조가 매우 어려운 인장 반지
+5. 착용하면 항상 단정하게 보이는 장신구
+6. 일반 벌레가 물지 않게 해 주는 반지
+7. 슬플 때 즐거운 곡을 흥얼거리는 귀걸이
+8. 머리카락을 항상 완벽하게 깨끗하게 유지하는 머리핀
+9. 정말로 기분에 따라 색이 바뀌는 반지
+10. 무작위 방향으로 90cm 순간이동시키는 부적
+11. 색깔에 맞춰 기분을 바꿔 주는 반지
+12. 같은 혈통의 사람이 가까이 오면 빛나는 부적
+13. 사후 확인 능력을 주는 거울 안경
+14. 세상을 다섯 시간 전 모습으로 보여 주는 안경
+15. 잠을 못 자게 하는 반지
+16. 몽롱한 상태에서도 절대 비틀거리지 않게 해 주는 펜던트
+17. 한쪽을 두드리면 다른 쪽이 진동하는 부적 한 쌍
+18. 눈을 햇빛으로부터 보호하는 안경
+19. 고체를 투시하는 것 같지만 사실 환영인 안경
+20. 뼈, 강철, 돌이든 물어뜯을 수 있는 의치
 
-51
+## 3. 모험 용품
+
+1. 항상 양초 한 개 분의 빛을 내는 매끈한 돌
+2. 기름이 줄지 않는 램프
+3. 항상 딱 맞는 길이인 밧줄—길지도, 짧지도 않은
+4. 특정 매듭을 묶지 않는 한 절대 엉키지 않는 밧줄
+5. 아무리 써도 닳지 않는 분필
+6. 소지자에게만 보이는 빛을 내는 랜턴
+7. 가장 가까운 느릅나무 방향을 가리키는 나침반
+8. 항상 집 방향을 가리키는 나침반
+9. 야광봉
+10. 주머니에 넣으면 개들이 좋아하는 뼈
+11. 하늘에서 태양의 위치를 알려 주는 광택 돌
+12. 구슬이 자신의 좌표를 반사하는 주판
+13. 망원경 역할을 하는 90cm짜리 노끈
+14. 2주 동안 모두에게서 좋은 향이 나게 하는 라벤더
+15. 계속 흐르지만 절대 다하지 않는 모래시계
+16. 떨어뜨리면 항상 바닥까지 가는 돌
+17. 밀면 항상 출구 쪽으로 굴러가는 실타래
+18. 태우면 주변 냄새를 바꿔 주는 양초
+19. 항상 못이 딸려 나오는 망치
+20. 태우면 덫이 가까이 있을 때 불꽃이 튀는 양초
+
+## 4. 의류
+
+1. 절대 더러워지지 않는 옷 한 벌
+2. 잃어버릴 수 없는 양말
+3. 절대 무뎌지지 않는 모자핀
+4. 스스로 끈을 묶는 장화
+5. 넣은 물건을 찾기 쉬운 지갑
+6. 비와 눈을 막아 주는 외투
+7. 어둠 속에서 볼 수 있게 해 주는 투구
+8. 항상 복장에 맞춰지는 망토
+9. 어떤 종류의 거름이든 절대 밟지 않는 장화
+10. 머리카락 성장 속도를 10% 높이는 리본
+11. 비밀 칸이 있는 실크해트
+12. 춤 동작을 교정해 주는 신발
+13. 작동하는지 확실하지 않은 날다람쥐 옷
+14. 실의 색과 소재를 바꾸는 바늘
+15. 착용자를 허수아비처럼 보이게 하는 밀짚모자
+16. 겉옷처럼 입을 수 있는 침낭
+17. 판금 갑옷만큼 보호하는 사슬 속옷
+18. 비가 오면 우산으로 변하는 짧은 막대
+19. 보이지 않는 천으로 만든 우산
+20. 동전을 같은 가치의 도구로 바꿔 주는 조끼
+
+## 5. 잡동사니
+
+1. 이상한 것들을 보여 주는 얇은 석판
+2. 목에 대면 목소리를 증폭하는 금화
+3. 작고 바쁜 요정을 부르는 이빨
+4. 한번 가져가면 항상 주인의 신발 안에서 끝나는 동전
+5. 계속 불면 여행 피로를 막아 주는 피리
+6. 90%의 확률로 5가 나오는 주사위
+7. 깃대꽂이 없이 저절로 따라다니는 마법 깃발
+8. 물에 넣으면 헤엄치는 종이접기 학
+9. 악취가 나지 않는 요강
+10. 무지개색으로 잉크가 바뀌는 펜
+11. 절대 깎을 필요가 없는 연필
+12. 한쪽으로 쓰면 다른 쪽이 베껴 쓰는 펜 한 쌍
+13. 강력한 진실 하나를 드러내는 렌즈
+14. 종이 베인 상처 같은 것을 즉시 낫게 하는 연고
+15. 항상 거의 음이 맞지만 절대 완벽하지 않은 류트
+16. 최근에 피를 흘렸다면 완벽한 면도를 해 주는 면도기
+17. 칼집에 넣으면 투명해지는 칼
+18. 만지면 움직이는 그림을 그릴 수 있는 붓
+19. 풀기 불가능하지만 시도를 멈추기 어려운 퍼즐
+20. 절구와 공이 역할을 할 수 있는 작은 항아리
+
+## 6. 잡동사니 추가
+
+1. 서로 싸울 수 있는 2.5cm 금속 기사 한 쌍
+2. 유용한 재무제표를 만들어 주는 책
+3. 어떤 깃펜이 그 잉크로 썼는지 밝혀 주는 잉크병
+4. 표면 공간이 무한한 양피지 두루마리
+5. 저절로 연주하는 작은 바이올린
+6. 명령에 따라 고도를 바꿀 수 있는 작은 풍선
+7. 굴리면 속도에 비례하는 음높이로 휘파람을 부는 유리 구슬
+8. 만지면 국소 진통 효과를 주는 천
+9. 호박 속의 여왕벌—깨뜨리면 벌떼가 나온다
+10. 서로 끼웠다 뗄 수 있는 작은 블록 세트
+11. 물건을 순식간에 깨끗하게 닦는 밀랍 재질 항아리
+12. 위에 쓴 실수를 자동으로 고쳐 주는 두루마리
+13. 장례 의식에 쓰인 뒤 돌아오는 동전 두 닢
+14. 들리는 모든 것을 받아쓰는 깃펜
+15. 비추면 안면의 모든 털이 빠지는 거울
+16. 몇 번이든 원하는 대로 접을 수 있는 종이
+17. 손님의 이름과 직업을 알려 주는 문 두드리개
+18. 과거의 좋은 기억을 보여 주는 거울
+19. 얼룩 제거에 탁월한 초흡수 수건
+20. 과일이나 채소를 쏘면 썩게 만드는 새총
+
+<!-- p.51 -->

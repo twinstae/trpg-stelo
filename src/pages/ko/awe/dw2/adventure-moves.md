@@ -1,187 +1,130 @@
+---
+title: "던전월드 2 · 모험 액션"
+description: "모험 중 사용하는 액션."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: adventure-moves | source lines 1427-1611 | approx book page 10 -->
 
-Adventure Moves
+## **동료 돕기**(Aid Companion)
 
-Aid Companion
-When you help a fellow PC accomplish a task, you may mark a
-condition for them to choose one benefit for their next Move:
+**동료 PC의 과업을 돕을 때**, 그들을 위해 조건 하나를 표시할 수 있습니다. 그러면 그 PC는 다음 액션에서 아래 이익 중 하나를 고릅니다.
 
-◆ They roll with ADV
-◆ They ignore the penalty from a condition or Bloodied
-◆ They can use it effectively where they otherwise couldn’t
+- **유리(ADV)** 로 굴린다
+- 조건이나 **피투성이(Bloodied)** 가 주는 페널티를 무시한다
+- 원래는 못 쓰는 상황에서도 효과적으로 쓴다
 
-If multiple PCs Aid simultaneously, the Aided PC can choose
-multiple benefits.
+여러 PC가 동시에 돕면, 돕임 받은 PC는 이익을 여러 개 고를 수 있습니다.
 
-Defy Danger
-When you act despite an imminent danger or obstacle, describe
-how you deal with it then roll...
+## **위험 돌파**(Defy Danger)
 
-◆ +STR if you break, power through, or physically endure it
-◆ +DEX if you outpace, dodge, hide from, or precisely target it
-◆ +INT if you notice, analyze, predict, or outsmart it
-◆ +WIS if you connect with, scrutinize, or mentally endure it
-◆ +CHA if you deceive, charm, distract, impress, or provoke it
+**즉각적인 위험이나 장애에도 불구하고 행동할 때**, 어떻게 헤쳐 나가는지 말한 뒤 굴립니다…
 
-*On a 10+ you do it but choose one below. *On a 7-9 you do it, but
-choose two:
+- **+근 판정** — 부수고, 힘으로 밀고, 육체적으로 버틸 때
+- **+민 판정** — 속도로 앞서고, 피하고, 숨고, 정확히 겨눌 때
+- **+지 판정** — 알아채고, 분석하고, 예측하고, 머리로 이길 때
+- **+혜 판정** — 마음이 맞고, 예리하게 보고, 정신적으로 버틸 때
+- **+매 판정** — 속이고, 매료시키고, 시선을 돌리고, 인상을 남기고, 도발할 때
 
-◆ It drains or rattles you; mark a condition
-◆ Doing so draws unwanted attention or escalates the situation;
+- **10+:** 해내지만, 아래 하나를 고릅니다.
+- **7–9:** 해내지만, 아래 둘을 고릅니다.
+  - 몸이나 마음이 빠지거나 흔들립니다; 조건을 표시합니다
+  - 그렇게 하니 원치 않는 시선이 가거나 상황이 고조됩니다; 이걸 고른 뒤 GM이 어떻게인지 말합니다
+  - 그렇게 하려면 무언가를 쓰거나 내거나 바칩니다. 무엇인지 이름을 붙입니다. GM이 더 요구할 수 있습니다
+- **6-:** 노력이 막히거나 끔찍하게 틀어집니다; 경험치 1을 표시하고 GM이 마스터 액션을 합니다.
 
-the GM will say how after you choose this
+## **지식 더듬기**(Recall Lore)
 
-◆ You spend, pay, or sacrifice something to do it. Name what it
+**기억을 더듬어 어떤 주제에 관한 중요한 정보를 찾을 때**, GM에게 그 주제에 관한 질문 하나를 하고, 아래 질문에 답한 뒤, “예”마다 +1을 더해 굴립니다.
 
-is. The GM might demand more
+- 이번 캠페인에서 이 주제를 처음 다루나요?
+- 캠페인 이전에 이 주제를 접하거나 배운 적이 있나요? (당신이 정합니다)
+- 이 주제에 관한 책이나 비슷한 기록에 접할 수 있나요?
+- 이 주제가 당신의 갈등(Conflict)에 중요한가요?
 
-\*On a 6-, your efforts are thwarted or go terribly wrong; mark 1 XP
-and the GM makes a Move.
+- **7+:** GM이 질문에 답하고 관련된 꼬리 질문에도 답합니다.
+- **10+:** 그 답을 바탕으로 당신이나 동료가 행동할 때 처음 한 번 **유리(ADV)** 를 받습니다.
+- **6-:** 답이 당신을 위험에 빠뜨리거나 사태가 얼마나 나쁜지 드러냅니다; 경험치 1을 표시하고 GM이 마스터 액션을 합니다.
 
-Recall Lore
-When you search your memory for important information
-about a subject, ask the GM one question about it, answer the
-questions below, then roll with +1 for each “Yes”.
+질문 예시:
 
-◆ Is this the first time you’ve encountered this subject during
+- X는 어디에 있나?
+- X를 일으킨 것은 무엇일까?
+- X를 이루는 가장 좋은 방법은 무엇일까?
+- X에 관해 무엇을 알았나?
+- X에 닿으려면 어떻게 해야 하나?
 
-the campaign?
+## **속뜻 읽기**(Sense Motive)
 
-◆ Did you encounter or learn about this subject before the
+**깊이 파고드는 대화로 누군가를 살필 때**, **+혜 판정**을 합니다.
 
-campaign? (Your call)
+- **10+:** 이 대화 동안 그의 플레이어에게 질문 둘을 할 수 있습니다(NPC면 GM에게).
+- **7–9:** 질문 하나만. 질문은 그 캐릭터의 생각, 감정, 동기에 관한 것입니다. 플레이어는 진실로 답합니다—속뜻 읽기 당하는 캐릭터가 모를 수 있어도 말입니다.
+- **6-:** 일이 잘못됩니다. NPC가 속이거나 대신 질문을 던지거나 더 나쁜 일이; 경험치 1을 표시하고 GM이 마스터 액션을 합니다. PC는 당신에게 질문을 대신 할 수 있습니다.
 
-◆ Do you have access to a book or similar record of information
+질문 예시:
 
-about this subject?
+- X에 관해 거짓말하고 있나?
+- 당신을 X하게 하려면 어떻게 해야 하나?
+- X에 대해 어떻게 느끼나?
+- 가장 원하는 것은 무엇인가?
 
-◆ Is this subject important to your Conflict?
+## **몰래 지나가기**(Sneak Past)
 
-*On a 7+ the GM answers your question plus related follow-up
-questions. *On a 10+ gain ADV the first time you or an ally acts on
-the answer. \*On a 6- the answer endangers you or reveals how bad
-things really are; mark 1 XP and the GM makes a Move.
+**위험이나 장애 사이를 빠져나가거나 그것에게 숨을 때**, **+민 판정**을 합니다.
 
-10
+- **7+:** 그들의 눈을 피합니다.
+- **10+:** 아래 하나를 고릅니다.
+- **7–9:** 아래 둘을 고릅니다.
+  - 큰 위험을 무릅썼거나 아슬아슬했습니다; 조건을 표시합니다
+  - 흔적을 남기거나 당신이 있었다는 의심을 삽니다
+  - 위험하거나 곤란한 위치에 발을 디딥니다
+- **6-:** 위험에 처하거나 갇힙니다; 경험치 1을 표시하고 GM이 마스터 액션을 합니다.
 
-Some example questions include:
+## **선택에 영향 주기**(Influence Choice)
 
-- Where is X located?
-- What could have caused X ?
-- What might be the best way to accomplish X?
+**NPC를 설득하거나 조종해 원하는 대로 하게 할 때**, 아래 접근 하나를 고르고 **+매 판정**을 합니다.
 
-- What have I learned about X?
-- How might I gain access to X?
+- 열리고 정직하게 설득하면 — 약속이나 대가를 요구하거나, 부분적으로만 따를 수 있습니다.
+- 거짓이나 손재주로 속이면 — 반전을 넣거나 당신에 관해 무언가 알아챌 수 있습니다.
+- 안전이나 이익을 위협하면 — 나중에 말을 뒤집거나 갈등을 키우거나 도망칠 구실을 찾을 수 있습니다.
 
-Sense Motive
-When you study someone in a probing conversation, roll+WIS.
-*On a 10+ you can ask their Player two questions during this
-conversation (if they’re an NPC then ask the GM). *On a 7-9 ask
-only one. These questions can be about the character’s thoughts,
-feelings, or motivations. The Player will answer truthfully, even if
-the character being sensed might not.
+- **7+:** 원하는 대로 합니다.
+- **7–9:** GM이 당신의 접근에 맞춰 골칫거리를 더합니다.
+- **6-:** 반응이 좋지 않습니다; 경험치 1을 표시하고 GM이 마스터 액션을 합니다.
 
-\*On a 6- it doesn’t go well. An NPC might trick you, ask you a
-question instead, or worse; mark 1 XP and the GM makes a Move.
-A PC can ask you a question instead.
+## **여정을 떠나다**(Undertake a Journey)
 
-Some examples questions include:
+**일행을 모아 중요한 여정을 함께 떠날 때**, 다음을 각각 합니다.
 
-- Are you lying about X?
-- How might I get you to X?
+1. **목적지를 말합니다.** 매우 멀거나 알기 어렵거나 보호받는 곳이면, GM이 여정을 더 짧은 구간으로 나누고, 구간마다 이 액션을 쓰게 할 수 있습니다.
 
-- How do you feel about X?
-- What do you desire most?
+2. **리더를 고릅니다.** 책임지고 이끄는 PC이며, 여행의 결과를 주로 짊어지는 사람입니다. NPC가 이끌거나 안내하면, 통역·중재·부관 역할의 PC 하나를 고르고 (주사위는 그 PC가 굴립니다).
 
-Sneak Past
-When you slip through, or hide from, a danger or obstacle,
-roll+DEX. *On a 7+ you evade their notice. *On a 10+ choose one
-below. \*On a 7-9 choose two:
+3. **길을 정합니다.** 안전하고 익숙하면 굴리지 않고 결과를 7–9로 취급해도 됩니다. 위험하거나 낯설면 리더가 조건을 표시하거나 굴림에 **불리(DIS)** 가 붙습니다. 길이 전혀 없으면 지도를 구하거나 안내인을 쓰거나 **지식 더듬기(Recall Lore)** 등으로 먼저 길을 찾아야 합니다.
 
-◆ You took a high risk or made a close call; mark a condition
-◆ You leave evidence or raise suspicion of your presence
-◆ You stumble into a hazardous or compromising position
+4. **이동 방식을 말합니다.** 조심히 가면 리더는 **+지 판정**으로, 빠르게 가면 **+민 판정**으로 굴립니다.
 
-\*On a 6- you become endangered or trapped; mark 1 XP and the
-GM makes a Move.
+- **7+:** 아래 하나를 고릅니다.
+- **10+:** 또한 이 지역·목표와 관련된 중요한 사람, 장소, 기회를 만납니다.
+  - 생각보다 오래 걸립니다; 위협(Threat)이 악화됩니다
+  - 길이 괴롭거나 불쾌합니다; 모두 조건을 표시합니다
+  - 위험한 무언가를 만나지만, 당신들이 먼저 알아챕니다
+- **6-:** 길에서 위험에게 매복당합니다. 보통 리더에게서 시작합니다; 경험치 1을 표시하고 GM이 마스터 액션을 합니다.
 
-Influence Choice
-When you convince or manipulate an NPC into doing what you
-want, choose an approach below and roll+CHA:
+## **비밀을 파헤치다**(Unearth Secrets)
 
-◆ If you persuade them openly and honestly, they might ask for a
+**팽팽하거나 신비한 상황이나 장소를 자세히 살필 때**, GM에게 “여기서 발견할 비밀이 있나요?”라고 묻습니다. 예이면 **+지 판정**을 합니다. 무엇이 나오든 항상 무언가는 발견합니다—GM이 무엇인지 말합니다(답, 문, 길, 보물, 아군, 적, 소굴, 던전 등).
 
-promise or payment, or only partly follow through.
+- **10+:** 발견이 분명하고 중요합니다.
+- **7–9:** 발견에 관해 아래 하나를 고릅니다.
+  - 발견물이거나 찾는 과정이 조건을 표시하게 합니다
+  - 더 큰 무언가에 대한 단서이지만 그 자체로는 크지 않습니다; 그 단서로 행동할 때 처음 굴림에 **유리(ADV)**
+  - 즉시 위험에 처합니다; 이걸 고른 뒤 GM이 어떻게인지 말합니다(매복, 덫, 낙하 등)
+- **6-:** 발견이 유난히 위험해서 찾지 않았으면 할 텐데 싶을 정도입니다; 경험치 1을 표시하고 GM이 마스터 액션을 합니다.
 
-◆ If you deceive them with false words or sleight of hand, they might
+PC를 설득하거나 조종하려면, 어떻게면 성공할지 그들에게 묻고, 그들은 답하거나 속뜻 읽기를 하라고 할 수 있습니다.
 
-introduce a twist or learn something about you.
-
-◆ If you threaten their safety or interests, they might go back on
-their word later, escalate the conflict, or look to escape.
-
-*On a 7+ they will do what you want. *On a 7-9 the GM will add a
-complication based on your approach. \*On a 6- they don’t react
-well; mark 1 XP and the GM makes a Move.
-
-Undertake Journey
-When you gather your party and venture forth on a significant
-journey together, do each of the following:
-
-1. State your destination. If it’s is very distant, obscure, or
-
-protected, the GM may split your journey into smaller ‘legs’,
-each of which requires you to make this move.
-
-2. Choose your leader. This is the PC in charge, and who tends
-
-to suffer the brunt of the consequences from travel. If an NPC
-is leading or guiding you, choose a PC to act as interpreter, go-
-between, or second-in-command (and to roll the dice).
-
-3. Determine your route. If it’s safe and familiar, you may
-   choose to forgo rolling and treat the result as a 7-9. If it’s
-   dangerous or unfamiliar, the leader marks a condition or has
-   DIS on the roll. If you don’t have a route at all, you first need
-   to find a map, hire a guide, Recall Knowledge about a route,
-   or similar.
-
-4. State your method of travel. If traveling cautiously, the leader
-
-rolls+INT. If traveling quickly, the leader rolls+DEX.
-
-*On a 7+ choose one below. *On a 10+ you also encounter a
-significant person, place, or opportunity related to the area and/
-or your goals.
-
-◆ It takes longer than you thought; a Threat worsens
-◆ The trip is woeful or unpleasant; everyone marks a condition
-◆ You encounter something dangerous, but you notice it first
-
-\*On a 6- a danger ambushes you along the way, usually starting
-with the leader; they mark 1 XP and the GM makes a Move.
-
-Unearth Secrets
-When you closely examine a tense or mysterious situation or
-location, ask the GM, “Are there secrets to be discovered here?”
-If yes, roll+INT. No matter what you roll, you always discover
-something; the GM will tell you what it is (an answer, door, path,
-treasure, friend, enemy, lair, dungeon, etc.). *On a 10+ your
-discovery is clear and significant. *On a 7-9 choose one about your
-discovery:
-
-◆ It, or the process of finding it, makes you mark a condition
-◆ It is a clue to something greater, but not significant by itself;
-gain ADV the first time you roll when acting on the clue
-
-◆ It puts you at immediate risk; the GM will say how after you
-choose this (enemy ambush, hidden trap, sudden drop, etc.)
-
-If you want to convince or manipulate a PC, ask them how you could
-succeed and they will either answer or ask you to Sense Motive.
-
-\*On a 6- your discovery is exceptionally dangerous and you may
-wish you hadn’t found it; mark 1 XP and the GM makes a Move.
-
-If there are obstacles or dangers present, you may first need to
-overcome them before unearthing secrets.
+장애나 위험이 앞에 있으면, 비밀을 파내기 전에 먼저 헤쳐 나가야 할 수 있습니다.

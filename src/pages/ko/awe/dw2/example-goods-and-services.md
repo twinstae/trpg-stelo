@@ -1,61 +1,29 @@
+---
+title: "던전월드 2 · 상품·서비스 예시"
+description: "가격과 예시 목록."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: example-goods-and-services | source lines 1960-2019 | approx book page ? -->
 
-Example Goods & Services
+## 상품·서비스 예시
 
-Tags
+아래는 태그(재화 비용)를 붙인 예시입니다. 실제 가격은 이야기와 장소에 맞게 조정하면 됩니다.
 
-Good or Service
-
-1 Treasure
-
-2 Treasure
-
-3 Treasure
-
-A week’s stay at...
-
-a shared room in a simple
-
-separate rooms at a
-
-a noble’s manor or palace
-
-inn
-
-luxurious inn
-
-wing
-
-Buying or building a...
-
-simple one-room cottage
-
-comfortable multi-room
-
-large homestead or manor
-
-house
-
-Guided passage through an
-
-inconvenient or unpleasant
-
-dangerous or unforgiving
-
-deadly or unfathomable
-
-area that is...
-
-A night of song, dance, or
-
-someone ordinary
-
-someone prestigious or
-
-someone royal, magical, or
-
-companionship with..
-
-elusive
-
-divine
+| **재화·서비스**                    | **보물 1**                | **보물 2**                           | **보물 3**                              |
+| ---------------------------------- | ------------------------- | ------------------------------------ | --------------------------------------- |
+| **일주일 숙박 …**                  | 단출한 여관 다인실        | 쾌적한 여관 별실                     | 귀족 저택·궁전 날개동                   |
+| **집 사기·짓기 …**                 | 단출한 단칸 오두막        | 편한 여러 방 집                      | 큰 농가나 저택                          |
+| **안내 받고 지역 통과 … (지역이)** | 불편하거나 불쾌한         | 위험하거나 가혹한                    | 치명적이거나 헤아리기 어려운            |
+| **노래·춤·동행의 밤 … (상대가)**   | 평범한 사람, 잘 안 잡히는 | 명망 있는 사람, 신성한               | 왕족·마법적이거나 신비한                |
+| **조직에 접근 … (조직이)**         | 일상적 동호회·협회        | 귀족 궁정·두각을 나타내는 길드       | 비밀 결사·전설적인 단체                 |
+| **정보 … (대상이)**                | 공인·최근 사건            | 사적인 인물·낯선 역사                | 그림자 배후·고대의 수수께끼             |
+| **수리 … (대상이)**                | 보통 장비·작은 집         | 명품 장비·대부분 마법 아이템·저택    | 유물·고대 마법·궁전·요새                |
+| **벌금·현상금·뇌물 … (죄가)**      | 소액·소매치기 등          | 중대·폭행·방화 등                    | 중죄·살인·반역 등                       |
+| **탈것 … (종류가)**                | 단순 마차·카누            | 승용 짐승·6인승 보트·장갑 마차       | 훈련·무장 전마나 좋은 소형선            |
+| **용역 … (인력이)**                | 흔한 깡패·보초·조수       | 훈련된 병사·학자·첩자                | 정예 마법사·고문·경호                   |
+| **식음료로 …**                     | 친구 몇 명 모임           | 시끌벅적한 연회                      | 성대한 만찬                             |
+| **복장·스타일로 …**                | 평민에게 섞이기           | 평민에게 인상 주기 / 상류층에 섞이기 | 상류층·왕실에 인상 주기 / 왕실에 섞이기 |
+| **치료·회복 … (대상이)**           | 흔한 상처·가벼운 병       | 마법적 상처·불구의 병                | 저주·어둠의 악질                        |

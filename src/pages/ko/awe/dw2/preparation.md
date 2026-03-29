@@ -1,65 +1,33 @@
+---
+title: "던전월드 2 · 준비"
+description: "GM 사전 준비."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: preparation | source lines 8994-9058 | approx book page 55 -->
 
-Preparation
+모험가 주변을 즉석에서 묘사해야 할 때도 있지만, 미리 준비해 두는 편이 나을 때도 있습니다. GM의 준비가 PC의 선택과 맞물릴 때 생기는 놀라움은 던전월드 2를 마스터링하는 재미의 한 부분입니다. 그래서 GM은 언제나 어느 정도 즉흥이 필요하지만, 그 비율은 편안함과 준비의 세부·이해 수준에 따라 달라집니다.
 
-Sometimes you need to describe the adventurers’ surroundings
-in-the-moment, but other times it may be better to prepare (aka
-“prep”) it beforehand. The surprises that occur when GM prep
-meets PC decisions are a part of the fun of GMing Dungeon
-World 2. Because of that, being a GM always requires some
-improvisation, but how much can vary based on your comfort
-level and your prep’s level of detail and comprehension.
+편한 만큼만 준비하십시오. 어떤 GM은 큰 줄기만 적어 두고, 어떤 GM은 상세한 지도·묘사·NPC·장애물·보물까지 갖춥니다. 얼마나 준비했느냐보다 무엇을 준비했느냐가 중요합니다. 지도만 잔뜩 있어도, PC가 NPC를 협박했을 때 그 NPC가 어떻게 반응할지 헤매면 소용없습니다.
 
-Prep what you need to feel comfortable. Some GMs only prep
-broad ideas while others have detailed maps, descriptions, NPCs,
-obstacles, and treasure. What you prep is more important than
-how much you prep; a bunch of maps won’t help you when trying
-to figure out how an NPC reacts to a PC threatening them.
+던전월드 2는 서로 보완하는 준비 방법을 여럿 제시하며, 모두 모험가와 그들이 겪는 일을 중심에 둡니다. 전부 쓰거나, 마음에 드는 몇 가지만 골라도 됩니다.
 
-Dungeon World 2 provides several complementary ways to prep,
-all centered on the adventurers and what they experience. You
-can use all of them together, or just a few that appeal to you.
+- 장면(Scene): 함께 처한 상황으로, 설득력 있는 이야기를 만듭니다.
+- NPC: 상호작용하는 인물·생물이며, 기억에 남게 만드는 요소입니다.
+- 위협(Threat): PC가 막지 않으면 세계가 의도적으로든 아니든 나빠지는 방식입니다.
+- 장소(Location): 그들이 가는 대부분의 곳이며, 흥미롭고 여운 있게 만드는 요소입니다.
+- 던전(Dungeon): 그들이 가는 다른 종류의 장소이며, 다르고 위험하게 만드는 요소입니다.
 
-◆ Scenes are the situations they find themselves in together
+## 준비하는 이유
 
-create a compelling narrative
+준비로 무엇을 얻는지 알면, 그에 맞춰 준비를 조정하기 쉽습니다. 예시는 다음과 같습니다.
 
-◆ NPCs are the characters and creatures they interact with, and
+- 재미있는 말을 하기 위해—즉흥이 서툴거나, 적어 둔 아이디어가 더 살아 있을 때.
+- 멈춤을 줄이기 위해—세션 중간에 NPC를 새로 짜기 싫거나, 결과를 골라내는 데 너무 오래 걸릴까 두려울 때.
+- 맹점·약점을 보완하기 위해—매번 특정 아군 NPC를 잊거나, 전투·액션 묘사를 늘리고 싶을 때.
+- 위협을 복선으로 깔기 위해—즉흥만으로는 특정 방식으로 드러내기 어려울 때.
+- 마음이 편해지기 위해—준비가 많을수록 덜 불안하다면 그것도 충분한 이유입니다. GM의 재미도 중요합니다.
 
-what make them memorable
-
-◆ Threats are the ways the world might get worse, deliberately
-
-or not, unless the PCs stop them
-
-◆ Locations are most places they go, and what makes them
-
-interesting and evocative
-
-◆ Dungeons are the other places they go, and what makes them
-
-different and dangerous
-
-Reasons For Preparation
-It’s always good to know what benefits you get out of prep, and
-then tailor your prep to provide them. Here are some examples:
-
-◆ To say interesting things. Maybe you aren’t comfortable with
-fully improvising, or your prepped ideas feel more interesting.
-
-◆ To reduce pauses. Perhaps you don’t want to make an NPC in
-the middle of a session, or you are worried about taking too
-long to think of what a consequence might be.
-
-◆ To account for blind spots or weaknesses. It could be that
-you always forget about a certain allied NPC in the moment,
-or you want to improve your combat and action descriptions.
-
-◆ To foreshadow a Threat. Maybe you want to showcase it in a
-
-specific way that can’t easily be improvised.
-
-◆ To feel better about the game. If you feel more comfortable
-or less anxious with more prep, that’s fine! Your fun matters.
-
-55
+<!-- p.55 -->

@@ -1,3 +1,11 @@
+---
+title: "던전월드 2 · 유물"
+description: "유물."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: artifacts | source lines 8426-8739 | approx book page 52 -->
 
 Artifacts
@@ -24,32 +32,32 @@ your next roll.
 When you Make Camp with five souls stored, you can
 release them all at once to gain one of the Moves below.
 
-☐ Seance
-When you ask a stored soul a question, you may converse
-with them as if they were alive. Then their soul is released.
+- [ ] Seance
+      When you ask a stored soul a question, you may converse
+      with them as if they were alive. Then their soul is released.
 
-☐ Spiritual Successor
-When you empower yourself with a soul, release it and say
-what ability it had that you can now do for the rest of the
-scene. The GM will then say what risk or cost comes with it.
+- [ ] Spiritual Successor
+      When you empower yourself with a soul, release it and say
+      what ability it had that you can now do for the rest of the
+      scene. The GM will then say what risk or cost comes with it.
 
-☐ Soulburn
-When you release a soul to ignite the blade with ghostfire,
-your next attack with the blade inflicts +1 damage and is
-Piercing. You can release more souls to keep the fire going.
+- [ ] Soulburn
+      When you release a soul to ignite the blade with ghostfire,
+      your next attack with the blade inflicts +1 damage and is
+      Piercing. You can release more souls to keep the fire going.
 
-☐ Solid Soul Drive
-The blade can now store up to nine souls, instead of five.
+- [ ] Solid Soul Drive
+      The blade can now store up to nine souls, instead of five.
 
-☐ Guardian Spirit
-When you empower the blade with one or more souls
-from within it, it acts and fights on its own in your stead,
-becoming an NPC with 5 HP that deals 2 damage that lasts
-for the rest of the scene. Choose one per soul consumed.
+- [ ] Guardian Spirit
+      When you empower the blade with one or more souls
+      from within it, it acts and fights on its own in your stead,
+      becoming an NPC with 5 HP that deals 2 damage that lasts
+      for the rest of the scene. Choose one per soul consumed.
 
-◆ It has +3 HP and deals +1 Damage
-◆ It has an ability of one of the consumed souls
-◆ It will remain animated for the rest of the session
+- It has +3 HP and deals +1 Damage
+- It has an ability of one of the consumed souls
+- It will remain animated for the rest of the session
 
 52
 
@@ -71,25 +79,25 @@ will become truly strong. What does your mark look like?
 
 Choose one location for your initial tattoo:
 
-◆ Arms - You can manifest reptilian razor sharp claws and
-use them as a weapon (2 dmg alone, 3 dmg together,
-light, piercing). You can retract, dismiss, or otherwise
-hide these claws at any time.
+- Arms - You can manifest reptilian razor sharp claws and
+  use them as a weapon (2 dmg alone, 3 dmg together,
+  light, piercing). You can retract, dismiss, or otherwise
+  hide these claws at any time.
 
-◆ Back - You can manifest scaled wings that let you
+- Back - You can manifest scaled wings that let you
 
 traverse the skies effortlessly.
 
-◆ Torso - Once per scene, you can breath fire. When
+- Torso - Once per scene, you can breath fire. When
 
 fighting someone with your fiery breath (2 dmg, area,
 vicious, messy), treat it like magic and roll+Pride (max 3)
 instead of another stat.
 
-◆ Face - You fluently understand the ancient tongue
-spoken by dragons and other primeval forces.
+- Face - You fluently understand the ancient tongue
+  spoken by dragons and other primeval forces.
 
-◆ Legs - Your body is much more resilient than before, you
+- Legs - Your body is much more resilient than before, you
 
 have +1 Armor.
 
@@ -116,41 +124,41 @@ lock it to gain 1 Dominion.
 When you Make Camp with 3 or more Dominion, reduce
 Dominion by 3 and gain an Advanced Move below.
 
-☐ Enforce Will
-When you touch someone skin-to-skin and force your
-mind upon theirs, roll+WIS. *On a 7+ choose one below.
-*On a 7-9 mark a condition due to the effort. \*On a 6- mark 1
-XP and they choose one for you instead.
+- [ ] Enforce Will
+      When you touch someone skin-to-skin and force your
+      mind upon theirs, roll+WIS. *On a 7+ choose one below.
+      *On a 7-9 mark a condition due to the effort. \*On a 6- mark 1
+      XP and they choose one for you instead.
 
-◆ You immediately ask them two questions as if you
+- You immediately ask them two questions as if you
 
 Sensed Motive.
 
-◆ They forget a past or present memory.
-◆ They follow a simple command until the scene ends.
+- They forget a past or present memory.
+- They follow a simple command until the scene ends.
 
-☐ Tap Collective Subconcience
-When you listen to the mind of the world itself, roll+WIS.
-*On a 7+ you the GM will tell you the details of a Threat. *On
-a 7-9 you also choose one below. \*On a 6- the backlash is too
-much, mark 1 XP and the GM makes a move.
+- [ ] Tap Collective Subconcience
+      When you listen to the mind of the world itself, roll+WIS.
+      *On a 7+ you the GM will tell you the details of a Threat. *On
+      a 7-9 you also choose one below. \*On a 6- the backlash is too
+      much, mark 1 XP and the GM makes a move.
 
-◆ The collective stares back, mark two conditions due to
+- The collective stares back, mark two conditions due to
 
 horror, strain, etc.
 
-◆ Your glimpse is limited, the GM tells you partial or
+- Your glimpse is limited, the GM tells you partial or
 
 obscured information.
 
-☐ Mind Blast
-When you unleash a psychic attack on someone nearby,
-roll+WIS. *On a 10+ choose two. *On a 7-9 choose one. \*On a
-6- they resist it; mark 1 XP and the GM makes a Move.
+- [ ] Mind Blast
+      When you unleash a psychic attack on someone nearby,
+      roll+WIS. *On a 10+ choose two. *On a 7-9 choose one. \*On a
+      6- they resist it; mark 1 XP and the GM makes a Move.
 
-◆ They can’t act until they’re harmed or the scene ends
-◆ They suffer 5 damage from the mental overload
-◆ You can use this again this scene (otherwise you can’t)
+- They can’t act until they’re harmed or the scene ends
+- They suffer 5 damage from the mental overload
+- You can use this again this scene (otherwise you can’t)
 
 Holy Avenger
 
@@ -170,53 +178,53 @@ elaborate instructions and diagrams.
 When you do any of the following while wielding this
 blade, regain all HP and gain an advancement below.
 
-☐ Swear in your heart of hearts to be a champion for good
+- [ ] Swear in your heart of hearts to be a champion for good
 
-☐ Defeat a demon or undead central to a Threat
+- [ ] Defeat a demon or undead central to a Threat
 
-☐ Save or redeem someone believed lost
+- [ ] Save or redeem someone believed lost
 
-☐ Face Death on behalf of another
+- [ ] Face Death on behalf of another
 
-☐ Brightest Day, Blackest Night
-When you raise the sword into the sky and cry out for light,
-a ball of sunlight erupts from the blade and illuminates
-everything you can see for a few minutes; roll+CHA. *On a
-10+ choose two. *On a 7-9 choose one.
+- [ ] Brightest Day, Blackest Night
+      When you raise the sword into the sky and cry out for light,
+      a ball of sunlight erupts from the blade and illuminates
+      everything you can see for a few minutes; roll+CHA. *On a
+      10+ choose two. *On a 7-9 choose one.
 
-◆ It burns all demons and undead nearby, forcing weaker
+- It burns all demons and undead nearby, forcing weaker
 
 ones to flee
 
-◆ It heals all allies, including yourself, for 1 HP each
-◆ Its light illuminates a secret, treasure, or opportunity
-◆ It lasts a few hours, not minutes
+- It heals all allies, including yourself, for 1 HP each
+- Its light illuminates a secret, treasure, or opportunity
+- It lasts a few hours, not minutes
 
 \*On a 6- the light draws the ire of dark forces; mark 1 XP and
 the GM makes a move.
 
-☐ Lay on Hands
-When you touch someone and pray for them, roll+WIS.
-*On a 7+ they heal for 2 HP. *On a 10+ choose one:
+- [ ] Lay on Hands
+      When you touch someone and pray for them, roll+WIS.
+      *On a 7+ they heal for 2 HP. *On a 10+ choose one:
 
-◆ If they’re a PC, they gain ADV on their next roll
-◆ If they’re an NPC, you gain ADV on your next roll that
+- If they’re a PC, they gain ADV on their next roll
+- If they’re an NPC, you gain ADV on your next roll that
 
 involves them (protecting, convincing, etc.)
 
-◆ You or they regain 1 HP
+- You or they regain 1 HP
 
 \*On a 6- the healing drains you or draws a foe’s attention;
 mark 1 XP and the GM makes a Move.
 
-☐ Nightblood
-When you defeat evil foes with this blade, it ignites their
-soul with holy fire and utterly destroys them, preventing any
-sort of return or resurrection.
+- [ ] Nightblood
+      When you defeat evil foes with this blade, it ignites their
+      soul with holy fire and utterly destroys them, preventing any
+      sort of return or resurrection.
 
-☐ Templar
-Gain a Paladin Path of your choice, beyond normal Path
-limits.
+- [ ] Templar
+      Gain a Paladin Path of your choice, beyond normal Path
+      limits.
 
 When you first attune to this staff, you learn one Subject and
 one Verb below. These work similar to Subjects and Verbs
@@ -241,28 +249,28 @@ When Make Camp having marked all known Subjects and
 Verbs, clear them, learn one new Subject and Verb each,
 and gain an advancement below.
 
-☐ Absorb Magic
-When you absorb magic with the staff, you can Defy Danger
-against it with INT. Additonally, on a 10+ the GM will tell you
-one Subject or Verb that’s core to the magic. You may treat it
-as known until you next cast a spell.
+- [ ] Absorb Magic
+      When you absorb magic with the staff, you can Defy Danger
+      against it with INT. Additonally, on a 10+ the GM will tell you
+      one Subject or Verb that’s core to the magic. You may treat it
+      as known until you next cast a spell.
 
-☐ Attunement Ritual
-After you successfully Make Camp, you may switch one
-learned Subject or Verb for another of the same type.
+- [ ] Attunement Ritual
+      After you successfully Make Camp, you may switch one
+      learned Subject or Verb for another of the same type.
 
-☐ Great Balls of Fire
-When you unleash magic of magnitude 1 or greater, on a
-12+ clear a condition.
+- [ ] Great Balls of Fire
+      When you unleash magic of magnitude 1 or greater, on a
+      12+ clear a condition.
 
-☐ Retributive Strike
-When you intentionally shatter the staff, it explodes. For
-each unmarked Subject and Verb, deal 1 damage to everyone
-in Near range and mark it, then roll+INT. *On a 7+ the staff
-is repairable or the magic teleports you to safety nearby,
-your choice which. *On a 10 + both occur. \*On a 6- the staff
-teleports you to a random location throughout existence;
-mark 1 XP and the GM makes a Move.
+- [ ] Retributive Strike
+      When you intentionally shatter the staff, it explodes. For
+      each unmarked Subject and Verb, deal 1 damage to everyone
+      in Near range and mark it, then roll+INT. *On a 7+ the staff
+      is repairable or the magic teleports you to safety nearby,
+      your choice which. *On a 10 + both occur. \*On a 6- the staff
+      teleports you to a random location throughout existence;
+      mark 1 XP and the GM makes a Move.
 
 When you set your mind to building a golem, choose a
 material base for it and note down its required Progress:
@@ -279,35 +287,35 @@ maintain one golem at a time.
 Once per session, when you Enjoy Downtime, you may also
 do the following activity:
 
-◆ Build or Enhance Golem. Spend up to 3 Treasure on
-materials, then roll+Treasure spent. *On a 10+ gain 2
-Progress. *On a 7-9 gain 1 Progress. \*On a 6- it didn’t help
-much; gain 0 Progress if you spent 1 or more Treasure on
-this, and lose 1 Progress if you spent 0 Treasure.
+- Build or Enhance Golem. Spend up to 3 Treasure on
+  materials, then roll+Treasure spent. *On a 10+ gain 2
+  Progress. *On a 7-9 gain 1 Progress. \*On a 6- it didn’t help
+  much; gain 0 Progress if you spent 1 or more Treasure on
+  this, and lose 1 Progress if you spent 0 Treasure.
 
 Once you have created a golem, you can keep gaining
 Progress and spending it on the following upgrades for it.
 
-☐ Goliath
-Requires 3 Progress. Double the golem’s size. This can only
-be done once per golem.
+- [ ] Goliath
+      Requires 3 Progress. Double the golem’s size. This can only
+      be done once per golem.
 
-☐ Pinnochio
-Requires 5 Progress. The golem is now fully sentient and
-capable of speech.
+- [ ] Pinnochio
+      Requires 5 Progress. The golem is now fully sentient and
+      capable of speech.
 
-☐ Magic Resistance
-Requires 4 Progress. Hostile magic is weak against the
-golem, and it is immune to magic that would alter its form.
+- [ ] Magic Resistance
+      Requires 4 Progress. Hostile magic is weak against the
+      golem, and it is immune to magic that would alter its form.
 
-☐ Augmentation
-Requires 4 Progress. The golem gains a unique ability, such
-as enhanced speed, lightning absorption, poison breath, or
-detachable limbs. You can choose this multiple times, but it
-requires 1 additional Progress each time.
+- [ ] Augmentation
+      Requires 4 Progress. The golem gains a unique ability, such
+      as enhanced speed, lightning absorption, poison breath, or
+      detachable limbs. You can choose this multiple times, but it
+      requires 1 additional Progress each time.
 
-☐ Android
-Requires 5 Progress. The golem seems like a person under
-all but the most thorough scrutiny.
+- [ ] Android
+      Requires 5 Progress. The golem seems like a person under
+      all but the most thorough scrutiny.
 
 53

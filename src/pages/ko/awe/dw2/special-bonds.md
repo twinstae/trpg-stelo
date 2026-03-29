@@ -1,160 +1,98 @@
+---
+title: "던전월드 2 · 특수 유대"
+description: "특수 유대."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: special-bonds | source lines 7183-7342 | approx book page 44 -->
 
-Special Bonds
+## 경멸의 유대(Bond of Disdain)
 
-Bond of Disdain
-It’s a wonder the two of you work together at all, considering
-how little you can stand of each other.
+_둘이 대체 어떻게 함께 일하는지 신기할 정도로, 서로를 못 참는 사이입니다._
 
-Bond of Divinity
-Your connection with your deity is especially personal. As you
-grow closer do they seem increasingly understandable, or alien?
+**특수:** 이 유대는 서로 이로운 관계가 아니라, 상대의 손실에서 이득을 취하는 파괴적이고 독성 있는 유대입니다. 다른 유대처럼 맺을 수 있지만, 맺기 전에 테이블의 모든 참가자에게 확인해 이것이 게임의 일부가 되는 것을 모두 괜찮게 여기는지 확인하십시오. 이 유대는 _플레이어 캐릭터_ 사이의 갈등이지 _플레이어_ 사이의 갈등이 아님을 기억하세요. 이 유대의 액션을 쓰기 전후에 모두가 여전히 같은 마음이고 게임을 즐기고 있는지 확인하십시오. 그렇지 않다면 기대를 이야기하거나, 사건을 되돌리거나, 규칙을 바꾸는 등 필요한 조치를 하십시오.
 
-Bond of Grief
-You were close with them once. Then they died, abandoned you,
-or worse. Now you’re only left with your memories of them.
+### 방해 공작(Sabotage)
 
-Special: This Bond is not about a mutually beneficial
-relationship, but a destructive and arguably toxic one where
-you gain from their loss. It can be taken like any Bond, but
-before taking it check with everyone at the table to make
-sure they are all okay with this being a part of the game.
-Remember that this bond is about conflict between player
-characters, not players themselves. Before and after a move
-from this Bond is used, check with everyone to see if they’re
-still on the same page and enjoying the game. If they
-aren’t, do what is needed to help them get there - talk about
-expectations, retcon events, change the rules, etc.
+**유대 상대에게 간접적으로 불리하게 행동할 때**, 그들의 액션에 어려움을 추가하거나 판정에 불리를 줄 수 있습니다. 그렇게 하면 조건 하나를 지웁니다.
 
-Sabotage
-When you indirectly work against your bondmate, you
-may add a complication to their move or give them DIS to a
-roll. If you do, clear a condition.
+다른 유대와 달리 이 유대의 향상 액션은 개인 소유이며 공유되지 않습니다. 유대 상대가 이 유대에서 액션 하나를 얻으면 당신은 경험치 2를 표시합니다.
 
-Unlike the others, advanced moves from this Bond are
-individual, not shared. When your bondmate gains a move
-from this Bond, you mark 2 XP.
+- [ ] **퍼붓기**(Lay Into Them)
+      **유대 상대와 말다툼한 뒤**, 아래 질문에 답하고 "예"마다 +1을 더해 굴립니다.
 
-☐ Lay Into Them
-After you argue with your bondmate, answer the following
-questions, then roll with +1 for each “Yes”.
+- 대부분의 탓이나 비난을 그들에게 돌렸나?
+- 그들의 갈등(Conflict)을 건드리거나 모욕했나?
+- 말다툼에서 이겼다고 느끼나?
+- 지금 **야영** 중인가?
 
-◆ Did you put most of the fault or blame on them?
-◆ Did you challenge or insult their Conflict?
-◆ Do you feel that you won the argument?
-◆ Are you currently Making Camp?
+어떤 결과든 조건 하나를 지웁니다. *10+이면 조건을 하나 더 지우거나 그들과의 관계 깊이 1을 얻습니다(선택). *6-이면 그들이 조건 하나를 표시하거나 당신과의 관계 깊이 1을 잃습니다(그들의 선택).
 
-On any result you clear a condition. *On a 10+ you clear
-another condition or gain 1 Depth with them, your choice.
-*On a 6- they mark a condition or lose 1 Depth with you,
-their choice.
+- [ ] **나만 그런 건 아닐걸**(I Can't Be the Only One)
+      **속뜻 읽기** 를 할 때, 결과와 관계없이 항상 "내 유대 상대에 대해 어떻게 생각하나?"도 물을 수 있습니다. 그들이 당신보다 유대 상대를 더 싫어하면 조건 하나를 지웁니다.
 
-☐ I Can’t Be the Only One
-When you Sense Motive, no matter the result you can always
-ask them “How do you feel about my bondmate?” in addition
-to the normal questions. If they dislike your bondmate more
-than they do you, clear a condition.
+- [ ] **차악**(The Lesser Evil)
+      **서로를 향한 경멸을 잠시 내려놓고 공동의 목표를 향해 함께 일할 때**, 장면이 끝날 때까지 유대 상대와의 관계 깊이 1을 써서 판정 결과를 6-에서 7–9로, 또는 7–9에서 10+으로 올릴 수 있습니다.
 
-☐ The Lesser Evil
-When you put your mutual distain aside and work together
-toward a common goal, until the end of the scene you can
-spend 1 Depth with your bondmate to upgrade a roll from
-6- to 7-9 or 7-9 to 10+.
+## 신성의 유대(Bond of Divinity)
 
-44
+_신과의 연결이 유난히 개인적입니다. 가까워질수록 신이 점점 더 이해할 수 있게 느껴지나요, 아니면 더 이질적으로 느껴지나요?_
 
-Special: This Bond can only be gained from the move The
-Creation of Adam within the Cleric’s Anointed One Path.
-While others Bonds are between two PCs, this is between a
-PC and their diety (controlled by the GM).
+**특수:** 이 유대는 성직자의 _기름 부음 받은 자_ 길에 있는 **인간의 창조**(The Creation of Man) 액션으로만 얻을 수 있습니다. 다른 유대는 두 PC 사이에 맺어지지만, 이것은 PC와 그의 신(GM이 조종) 사이에 맺어집니다.
 
-Altar of the Heart
-When you End the Session, if you aided your deity’s (other)
-worshippers, defeated their enemies, or strengthened their
-domains, then gain 1 Depth with them.
+### 마음의 제단(Altar of the Heart)
 
-When you Invoke Miracles, after the roll you may spend 1
-Depth to treat a 6- as a 7-9, or a 7-9 as a 10+.
+**세션을 마친다** 를 할 때, 그 세션 동안 신의 (다른) 숭배자를 도왔거나, 적을 물리쳤거나, 신의 영역을 강화했다면 신과의 관계 깊이 1을 얻습니다.
 
-☐ Transfiguration
-Choose a feature associated with your deity (e.g. rending
-claws, sapphire wings, an all-seeing third eye, ). In
-recognition of your devotion and faith, your deity bestows
-this gift upon you. Work with your GM to decide what the
-feature looks like, if it is always present or only sometimes,
-and what you might do with it.
+**기적을 부르다** 를 할 때, 판정 후 관계 깊이 1을 써서 6-을 7–9로, 또는 7–9를 10+으로 올릴 수 있습니다.
 
-☐ Thaumaturgy
-When you petition your deity to perform a great wonder that
-pertains to their domains, tell the GM what you desire; they
-will give you a number based on the guidelines below, or
-say no. Divide that number between conditions marked and
-Depth spent, then the wonder manifests here and now.
+- [ ] **변모**(Transfiguration)
+      신과 연관된 특징을 하나 고릅니다(예: 찢어발기는 발톱, 사파이어 날개, 모든 것을 보는 제3의 눈 등). 당신의 헌신과 믿음을 인정해 신이 이 선물을 내립니다. GM과 함께 그 특징의 모습, 항상 나타나는지 때때로만인지, 그것으로 무엇을 할 수 있는지를 정합니다.
 
-◆ 1 Condition - Feed a large crowd
-◆ 2 Conditions - Calm a raging storm
-◆ 3 Conditions - Foresee an Ominous Force
-◆ 4 Conditions - Summon a divine envoy
-◆ 5 Conditions - Destroy or reshape a land
-☐ Apotheosis
-You learn your deity’s greatest secret and how to use it.
-Choose the effect its use will have, or create a new one,
-then work with the GM to define what this secret is, how
-you learned it, and what you need to do to use it. How does
-this affect your view of them? Do they know that you know?
+- [ ] **기적 행함**(Thaumaturgy)
+      **신의 영역에 속하는 위대한 기적을 신에게 청할 때**, GM에게 원하는 것을 말합니다; GM이 아래 기준에 따라 숫자를 주거나 거부합니다. 그 숫자를 표시한 조건과 쓴 관계 깊이 사이에 나누면 기적이 지금 여기에 나타납니다.
 
-◆ It will destroy or imprison your deity
-◆ You will ascend to become a deity yourself
-◆ You can fundamentally alter the world in a way related to
+- 1 조건 — 많은 군중을 먹인다
+- 2 조건 — 성난 폭풍을 잠재운다
+- 3 조건 — 불길한 세력을 예견한다
+- 4 조건 — 신의 사자를 소환한다
+- 5 조건 — 땅을 파괴하거나 재형성한다
 
-your deity’s domains
+- [ ] **신격화**(Apotheosis)
+      신의 가장 큰 비밀과 그 사용법을 알게 됩니다. 그것을 쓸 때 일어날 효과를 아래에서 고르거나 새로 만들고, GM과 함께 그 비밀이 무엇인지, 어떻게 알게 되었는지, 쓰려면 무엇이 필요한지를 정합니다. 이것이 신에 대한 당신의 시각을 어떻게 바꾸나요? 그들은 당신이 안다는 걸 알고 있나요?
 
-Special: When a PC you have a Bond with leaves the
-adventure, instead of erasing your Bond with them you may
-change it to this one. Any references to your “bondmate”
-below refer to your former companion. Anything said about
-your bondmate below may be as accurate or twisted as you
-wish - they are your memories of them after all, not their
-true self, even if their player is still present.
+- 신을 파괴하거나 가둘 수 있다
+- 당신 자신이 신으로 승격할 수 있다
+- 신의 영역과 관련된 방식으로 세계를 근본적으로 바꿀 수 있다
 
-Never Truly Gone
-When you gain this Bond, write down each Bond Move you
-once shared with your bondmate. While you have this Bond,
-your Relationships to other PCs require 1 extra Depth to
-Forge a Bond (their Relationships to you aren’t affected).
+## 애도의 유대(Bond of Grief)
 
-You start with 0 Grief. When you indulge memories of your
-bondmate, describe one such memory (accurate or not),
-gain 1 Grief, then use a Bond move you once shared with
-them, as if they were still here. When you reach 4 Grief,
-either lose this Bond entirely or gain a Bond move below
-and reset to 0 Grief.
+_한때 가까운 사이였습니다. 그 후 그들이 죽었거나, 떠났거나, 더 나쁜 일이 있었습니다. 이제 남은 것은 그들에 대한 기억뿐입니다._
 
-☐ Executor of Wills
-When you declare a goal was important to your bondmate
-(destroy an enemy, protect a person, etc.), write it down.
+**특수:** 유대를 맺은 PC가 모험을 떠날 때, 그들과의 유대를 지우는 대신 이 유대로 바꿀 수 있습니다. 아래에서 "유대 상대"라 적힌 곳은 이전 동행자를 가리킵니다. 아래에서 유대 상대에 대해 말하는 것은 원하는 만큼 정확할 수도 왜곡될 수도 있습니다—어쨌든 그들에 대한 _당신의 기억_ 이지, 그 플레이어가 여전히 있더라도 진짜 그 사람은 아닙니다.
 
-While directly pursuing the goal, you may Aid yourself, and
-you may also choose the following Aid benefit:
+### 영원히 떠나지 않는(Never Truly Gone)
 
-◆ If this move deals damage to an enemy, deal +1 damage
-☐ Together Forever
-When you conduct a ritual to summon or resurrect your
-bondmate, choose what to sacrifice for the ritual, then roll
-with +0 to +3 depending on the scale and severity of the
-sacrifice (GM’s call). *On a 7+ your bondmate returns just as
-you wished. *On a 7-9 choose one:
+**이 유대를 얻으면**, 한때 유대 상대와 공유했던 유대 액션을 모두 적습니다. 이 유대를 가진 동안, 다른 PC와 **유대를 맺는다** 에 필요한 관계 깊이가 1 더 듭니다(상대 쪽에서 당신과 맺는 것은 영향 없음).
 
-◆ They can only stay until you next Make Camp
-◆ They seem exactly how you remember, no matter how
+슬픔(Grief) 0으로 시작합니다. **유대 상대의 기억에 잠길 때**, 그런 기억 하나를 묘사하고(정확하든 아니든) 슬픔 1을 얻은 뒤, 한때 그들과 공유했던 유대 액션 하나를 그들이 아직 여기 있는 것처럼 씁니다. 슬픔이 4에 도달하면 이 유대를 완전히 잃거나 아래 향상 액션 하나를 얻고 슬픔을 0으로 되돌립니다.
 
-twisted those memories have become. The GM controls
-them like a new NPC.
+- [ ] **유언 집행자**(Executor of Wills)
+      **유대 상대에게 중요했던 목표를 선언할 때**(적을 처치, 누군가를 지키기 등), 적어 둡니다.
 
-\*On a 6- something horrifying is brought back instead; mark
-1 XP and the GM makes a Move.
+**그 목표를 직접적으로 추구하는 동안** 스스로를 **동료 돕기** 할 수 있으며, 다음 **동료 돕기** 이익도 고를 수 있습니다:
 
-☐ Let It All Out
-When you privately release your grief while Making Camp
-(talking as if they’re there, meditating on a memory, having
-a cry), then after you finish camping clear a condition.
+- 이 액션이 적에게 피해를 준다면 +1 피해
+
+- [ ] **영원히 함께**(Together Forever)
+      **유대 상대를 소환하거나 부활시키는 의식을 행할 때**, 의식에 무엇을 바칠지 정한 뒤 희생의 규모와 심각성에 따라 +0에서 +3으로 굴립니다(GM이 판단). *7+이면 유대 상대가 원하는 대로 돌아옵니다. *7–9이면 하나를 고릅니다:
+
+- 다음 **야영** 까지만 머물 수 있다
+- 기억하는 그대로의 모습이지만, 그 기억이 얼마나 뒤틀렸든 상관없다. GM이 새 NPC처럼 조종한다.
+
+\*6-이면 끔찍한 무언가가 대신 돌아옵니다; 경험치 1을 표시하고 GM이 마스터 액션을 합니다.
+
+- [ ] **다 놓아 버리기**(Let It All Out)
+      **야영 중 홀로 슬픔을 풀어낼 때**(그들이 있는 것처럼 말하거나, 기억을 되새기거나, 울거나), 야영을 마친 뒤 조건 하나를 지웁니다.

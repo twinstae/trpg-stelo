@@ -1,371 +1,287 @@
+---
+title: "던전월드 2 · 레인저"
+description: "길잡이이자 사냥꾼인 레인저 직업."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: the-ranger | source lines 4981-5352 | approx book page ? -->
 
-The Ranger
+당신은 길잡이이자 사냥꾼, 사람과 짐승·안전과 위험의 경계를 밟는 자입니다. 비밀 길을 대로 삼고, 숨겨진 곳을 보금자리로 삼았습니다. 무기를 챙기고, 식량을 확인하고, 신발끈을 조이십시오. 아무도 감히 가지 않는 곳으로 나아가야 하니까요.
 
-You are the guide and the hunter, the creature that stalks the border
-between man and beast, between safety and peril. You have made the
-secret paths your highways, the hidden places your refuge. So ready
-your weapon, check your rations, and fasten your boots: for you
-venture where no one else dares.
+## 기원
 
-Origins Consider first, then answer in introductions and play
+먼저 생각한 뒤, 소개와 플레이에서 답합니다.
 
-I am a
-E.g. elf, dwarf, lizardfolk, myconid. How does this affect your biology,
-behavior, and communication? How does it affect how you traverse?
+나는  
+예: 엘프, 드워프, 도마뱀인간, 균류인. 생물학·행동·소통에 어떤 영향이 있나? 다니는 방식에는 무엇이 다른가?
 
-I spent my youth among
-E.g. forests of giant trees, ruin-filled deserts, everstorming islands.
-Who else was with you? What did they teach you, directly or not?
+어린 시절을 보낸 곳은  
+예: 거목의 숲, 폐허로 가득한 사막, 늘 폭풍이 치는 섬. 누가 함께했나? 그들이 직접이든 아니든 무엇을 가르쳐 주었나?
 
-People came to know me as a
-E.g. wandering guide, seasoned monster hunter, foraging herbalist.
-When did you once fail someone? What lesson did you learn from it?
+사람들은 나를 이렇게 알았다  
+예: 떠도는 길잡이, 노련한 괴물 사냥꾼, 채집하는 약초꾼. 한번은 누구에게 실패했나? 그때 무슨 교훈을 얻었나?
 
-I started adventuring after
-E.g. my lands became too civilized, an old foe resurfaced, I broke a
-major law. Who waits for you back home? How did you leave them?
+모험을 시작한 계기는  
+예: 내 땅이 너무 문명화되었다, 옛 원수가 다시 나타났다, 큰 법을 어겼다. 고향에 누가 기다리나? 그들을 어떻게 두고 떠났나?
 
-Relationships
-Fill in for each other PC based on how well you already know them
+## 시작 액션: 사냥감 추적(Hunt Quarry)
 
-Name
+**개체를 사냥에 집중하면** 그들이 당신의 사냥감(Quarry) 이 됩니다. 이름이나 별명을 적습니다. 이미 사냥감이 있었다면 조건 하나를 표시하고 옛 사냥감을 지웁니다. 사냥감과 맞닿을 때 아래 이익을 얻습니다.
 
-Details
+- 직접 쫓는 동안—달아나거나, 숨거나, 멀리 있을 때 등—유리로 굴립니다.
+- 그들에 관해 **지식 더듬기** 를 할 때 굴림에 +1입니다.
+- 장면마다 한 번, 그들에게 **우위를 확보한다** 를 할 때 7+이면 선택지를 하나가 아니라 둘 고릅니다.
 
-Name
+연결된 레인저의 길이 있으면 또한 아래를 얻습니다.
 
-Details
+- (수호자) 그들에게 덫 도구를 쓸 때 피해 +1이고, 당신이나 동료를 방해하거나 위태롭게 하지 않습니다.
+- (야수조련사) 동료 짐승이 그들에 관해 **비밀을 파헤치거나** **속뜻 읽기** 로 당신을 도울 때, 7–9를 10+처럼 취급합니다.
+- (명사수) 그들에게 **우위를 확보한다** 를 할 때 10+이면 **적을 붙잡다** 의 선택지 하나도 추가로 고릅니다.
 
-Name
+**그들을 쓰러뜨리면** 조건 하나를 지우고 사냥감을 지웁니다.
 
-Details
+---
 
-Name
+이름  
+호칭
 
-Details
-
-Depth
-
-Depth
-
-Depth
-
-Depth
-
-Example Relationships
-They don’t know the meaning of subtlety, and refuse to learn.
-
-I know some things better than them, even if they can’t stand it.
-
-I helped them out of a bind once, and they never thanked me.
-
-Starting Move:
-Hunt Quarry
-When you focus on hunting an individual, they become your
-Quarry. Write down their name or a moniker. If you already had a
-Quarry, mark a condition and clear your old Quarry. You have the
-following benefits when interacting with your Quarry.
-
-◆ While in direct pursuit of them, such as if they are running,
-
-hiding, or distant, roll with ADV.
-
-◆ When you Recall Lore about them, gain +1 to the roll.
-◆ Once per scene, when you Secure an Edge against them, on a
-
-7+ choose two instead of one.
-
-If you have the related Ranger Path, you also gain its benefit below.
-
-◆ (Warden) When you employ a Trap Kit against them, it deals
-
-+1 damage and doesn’t impede or endanger you or your allies.
-
-◆ (Beastmaster) When your companion helps you Unearth
-Secrets or Sense Motive about them, treat a 7-9 as a 10+.
-
-◆ (Deadeye) When you Secure an Edge against them, on a 10+
-
-you also choose one from Keep Them Busy.
-
-When you defeat them, clear a condition and clear your Quarry.
-
-Name
-
-& Pronouns
-
-Throndir, Ysolt, Dianna, Celion, Eloise, Gendrig, a nickname
+예: 쓰론디르, 이솔트, 디아나, 셀리온, 엘로이즈, 겐드리그, 별명
 
 HP
 
-STR
+근력(STR) · 민첩(DEX) · 지능(INT) · 지혜(WIS) · 매력(CHA)
 
-DEX
+최대 8
 
-INT
+피투성이 · 지침 · 겁먹음 · 분노 · 산만 · 불안
 
-WIS
+경험치(XP):
 
-CHA
+레벨:
 
-Max 8
+경험치 칸을 다섯 번 채우면 경험 칸을 비우고, 레벨을 1 올리며 향상 하나를 얻습니다.
 
-Bloodied
+---
 
-Exhausted
+## 장비
 
-Frightened
+무기를 고릅니다(GM과 새 무기를 만들어도 됩니다).
 
-Angry
+- [ ] 복합 활(피해 2, 가까움, 멀리, 정밀, 탄약, 양손)
+- [ ] 믿을 만한 지팡이(피해 1, 손, 근접, 양손)와 새총(피해 1, 가까움, 정밀, 재장전)
+- [ ] 쌍 손도끼(하나만 2 피해, 둘 다 3 피해, 근접, 경량)
 
-Distracted
+아래 두 가지를 고릅니다.
 
-Insecure
+- [ ] 모험 도구(사용 3). 쓸 만한 잡동사니를 뒤질 때 사용을 표시해 손에 넣습니다.
+- [ ] 가벼운 갑옷(사용 3, 근력이 1 미만이면 민첩에 불리). 공격으로 받은 피해 1을 무시하려 사용 하나를 씁니다.
+- [ ] 의약(사용 2). 몇 분 쓸 때 사용을 표시해 불편 하나를 지우거나, 다음에 회복되는 HP를 두 배로 합니다.
+- [ ] 덫 도구(사용 2). 미리 설치하면 범위에 들어온 이에게 위험한 방해, 보통 피해 2.
 
-XP:
+## 외모
 
-Level:
+행마다 하나(또는 다른 것).
 
-When you mark your 5th XP, clear the Experience track, increase
-your Level by one, and gain one Advancement.
+- [ ] 두건 망토
+- [ ] 따뜻한 가죽
+- [ ] 튼튼한 가죽
+- [ ] 괴물 전리품
+- [ ] 이야기 많은 흉터
+- [ ] 자연 위장
 
-Advancements
+## 시작 능력치
 
-When you Level Up, choose one of the following:
+아래 한 줄을 고릅니다.
 
-☐ Gain a Path from your Class
+- [ ] STR 1, DEX 1, INT 2, WIS -1, CHA 0
+- [ ] STR -1, DEX 2, INT 1, WIS 0, CHA 1
 
-☐ ☐ +1 to any Stat (max. 2)
+---
 
-Equipment
-Choose your weapon (or create a new one with the GM):
+## 발전
 
-∞ Gain a Conflict if you don’t currently have one (pg XX)
+레벨업할 때 아래 하나를 고릅니다.
 
-∞ Gain an Advanced Move from one of your Paths
+- [ ] 직업에서 길(Path) 하나 얻기
+- [ ] 아무 능력치 +1(최대 2)
+- [ ] 지금 갈등이 없다면 갈등 하나 얻기(해당 장)
+- [ ] 가진 길 중 하나에서 고급 액션 하나 얻기
+- [ ] 새 직업으로 바꾸기
 
-☐ Composite Bow (2 dmg, near, far, precise, ammo, two-handed)
+레벨 5부터 또한 아래에서 고를 수 있습니다.
 
-◆ Change to a new Class
+- [ ] 직업에서 길 하나 더 얻기
+- [ ] 아무 능력치 +1(최대 2)
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 마법 아이템 하나 얻기
 
-☐ Reliable Staff (1 dmg, hand, close, two-handed) and Sling (1
-dmg, near, precise, reload)
+레벨 10부터 또한 아래에서 고를 수 있습니다.
 
-From Level 5 onwards, you can also choose from the following:
+- [ ] 아무 능력치 +1(최대 3)
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 유물 하나를 고른다(유물 장) 또는 GM과 새 유물을 만든다. 이후 GM이 단서를 줍니다.
 
-☐ Gain another Path from your Class
+### 갈등을 해소할 때
 
-☐ Dual Handaxes (2 dmg alone, 3 dmg together, close, light)
+아래 하나를 고릅니다.
 
-☐ +1 to any Stat (max. 2)
+- [ ] 대사냥(Great Hunt) 을 얻습니다. **사냥감 추적** 할 때 한 사람 대신 서로 연결된 무리를 사냥감으로 삼을 수 있습니다—비밀 교단 구성원, 어두운 동굴 주민, 강력한 유물을 훔친 도둑들 따위입니다. 사냥감을 쓰러뜨린 것으로 치려면 구성원 전부를 쓰러뜨려야 합니다.
+- [ ] 영웅의 순간을 해금합니다. 쓸 때 서사를 온전히 잡고, 세계나 다른 PC를 극적으로 바꾸는 마지막 업적을 묘사한 뒤, 원하는 대로 이야기에서 빠집니다(은퇴·죽음 등).
 
-Choose two items below:
+---
 
-☐ Multiclass — Gain a new Path from a Class not being played
+## 관계
 
-☐ Adventuring Gear (3 uses OOO). When you rummage through
-this for a useful mundane item, mark a use and acquire it.
+다른 PC마다 이미 아는 만큼 채웁니다.
 
-☐ Light Armor (3 uses OOO, DIS to DEX if STR<1). You may mark
-a use to ignore 1 damage from an attack.
+깊이(Depth)
 
-☐ Medicine (2 uses OO). When you apply it for a few minutes,
-mark a use to clear an affliction or double the next HP restored.
+### 관계 예시
 
-☐ Trap Kit (2 uses OO). When you spend time setting it up in
-advance, it becomes a dangerous, impeding hazard for anyone
-that enters its range, typically dealing 2 damage.
+- 미묘함이 무엇인지도 모르고, 배우려 하지도 않는다.
+- 나는 그들보다 잘 아는 것도 있는데, 그들은 도저히 못 참는다.
+- 한번 곤경에서 빼 줬는데, 고맙다는 말도 없었다.
+- 위험한 괴물을 함께 쓰러뜨렸다. 그래서 가족이다.
+- 야생에 재능이 보인다. 아는 만큼 가르치겠다.
+- 가까이 지켜보겠다. 곤란을 찾아오거나 몰고 오면 대비하려고.
 
-For your appearance, choose one per row (or something else):
-☐ hooded cloak, ☐ warm hides, ☐ sturdy leathers
-☐ monstrous trophy, ☐ storied scars, ☐ natural camouflage
+---
 
-☐ Gain a Magic Item
+## 수호자(Warden)
 
-From Level 10 onwards, you can also choose from the following:
+### 선행 정찰(Scout Ahead)
 
-☐ +1 to any Stat (max. 3)
+**동료에서 떨어져 위험한 구역을 살필 때**, 캠프로 돌아온 뒤로 앞당겨 진행합니다. GM이 본 것을 묘사한 뒤 +민 판정을 합니다.
 
-☐ Multiclass — Gain a new Path from a Class not being played
+- 10+: 아래 셋을 고릅니다.
+- 7–9: 둘만 고릅니다.
+- 6-: 하나만 고르지만, 무언가 위험한 것이 따라왔습니다; 경험치 1, GM이 마스터 액션을 합니다.
 
-☐ Choose an Artifact (page 52) or work with the GM to create a
-new one. Then the GM will give you a lead on where to find it.
+- 알아낸 것이 있습니다; 본 것에 관해 GM에게 질문 하나(여러 번 고를 수 있음)
+- 쓸 만한 것을 가져왔습니다. 무엇인지 말하면, GM이 혼자 들고 오기 어려웠다고 할 수 있음
+- 그 구역에 덫을 놓은 것처럼 덫 도구 사용 한 번을 쓴 것과 같음
+- 잠재적 동맹, 기회, 약점을 발견했습니다; GM이 무엇인지 말함
 
-When you resolve a Conflict, choose one below:
+### 채집꾼(Forager)
 
-☐ Gain Great Hunt: When you Hunt Quarry, you may make a
-group of connected individuals your Quarry instead of a single
-individual, such as members of a secret cult, inhabitants of a dark
-cave, or thieves of a powerful relic. You only count as defeating
-your Quarry when you defeat all of its members.
+**자연 풍경에서 자원을 찾을 때** +지 판정을 합니다.
 
-☐ Unlock your Moment of Heroism. When you use it, take total
-control of the narrative, describe one last feat you accomplish
-that dramatically changes the world or other PCs, then exit the
-narrative however you wish (eg. retirement, death, etc.)
+- 7+: 사용 2를 얻어 모험 도구, 의약, 보급에 나눠 넣습니다.
+- 7–9: 땅이 메말랐거나 다루기 어렵습니다; 조건 하나를 표시하거나 얻는 사용 수를 1 줄입니다.
+- 6-: 위험한 것을 찾았거나 그것이 당신을 찾았습니다; 경험치 1, GM이 마스터 액션을 합니다.
 
-29
+### 자연 백과(Natural Encyclopedia)
 
-We defeated a dangerous monster together. That makes us family.
+식물, 짐승, 괴물에 관해 **지식 더듬기** 를 할 때 7+이면 질문 하나를 추가로 합니다. 싸울 수 있으면 GM이 HP와 피해도 말합니다.
 
-They show potential with the wilderness; I will teach what I can.
+### 남은 건 내 거(Scavenger)
 
-I’ll keep a close watch on them, in case they find or bring trouble.
+**비밀을 파헤치다** 를 할 때, 굴림 결과와 관계없이 “내가 모르는 값진 것이 여기 있나?” 도 물을 수 있습니다. 예이면 그것을 쫓는 다음 굴림에 유리입니다.
 
-Starting Stats Choose one below
-☐ STR 1 DEX 1 INT 2 WIS -1 CHA 0
-☐ STR -1 DEX 2 INT 1 WIS 0 CHA 1
+### 길 안내자(Trail Guide)
 
-Ranger Paths
+**여정을 떠나다** 할 때 당신이 안내하면 조건 둘을 지웁니다. 다른 PC가 안내하면 그들과 **깊이** 1을 얻습니다.
 
-☐ Warden
-Scout Ahead
-When you survey a dangerous area away from your
-companions, skip foward to when you return to camp. The
-GM will describe what you saw, then you roll+DEX. *On a
-10+ choose three. *On a 7-9 choose two. \*On a 6- choose one,
-but something dangerous followed you back; mark 1 XP and
-the GM makes a Move.
+---
 
-◆ You learned something; ask the GM any one question
+## 야수조련사(Beastmaster)
 
-about what you saw (you can choose this multiple times)
+### 동물 친구(Animal Companion)
 
-◆ You brought something useful back. Say what it is, the
-GM might say that was too difficult to carry back alone
+중간 크기 이하 자연의 짐승과 긴밀히 협력합니다. 예: 늑대, 곰, 여우, 까마귀·레이븐 등. 그룹에게 누구인지, 어떻게 생겼는지, 어떻게 맺어졌는지 말합니다.
 
-◆ You set a trap in that area, as if spending a Trap Kit use
-◆ You discovered a potential ally, opportunity, or
+특성 둘을 고릅니다:
 
-weakness, the GM will say what
+- [ ] 비행,
+- [ ] 수생,
+- [ ] 큰 덩치,
+- [ ] 은밀,
+- [ ] 힘센,
+- [ ] 땅굴,
+- [ ] 갑옷 같은 비늘·껍질,
+- [ ] 위압,
+- [ ] 영리,
+- [ ] 매력적
 
-☐ Forager
-When you search a natural landscape for resources,
-roll+INT. *On a 7+ gain 2 Uses, split between Adventuring
-Gear, Medicine, and Supplies. *On a 7-9 the landscape is
-barren or difficult; mark a condition or reduce the number
-of Uses gained by 1. \*On a 6- you find something dangerous
-or it finds you; mark 1 XP and the GM makes a Move.
+약점 하나를 고릅니다:
 
-☐ Natural Encyclopedia
-When you Recall Lore about a plant, beast, or monster, on
-a 7+ ask an additional question. If it can fight, the GM will
-also tell you its HP and Damage.
+- [ ] 거만,
+- [ ] 잔혹,
+- [ ] 혼돈적,
+- [ ] 산만,
+- [ ] 연약,
+- [ ] 탐욕,
+- [ ] 원칙 고집,
+- [ ] 반항적
 
-☐ Scavenger
-When you Unearth Secrets, no matter the roll’s outcome
-you may also ask, “Are there valuables here I don’t know
-about?.” If yes, gain ADV on your next roll to pursue them.
+동물 친구가 함께 있으면 보통 당신이 선택과 행동을 묘사·통제합니다. 없을 때는 GM이 조종합니다. 어느 쪽이든 특성에 맞고 때로는 약점에도 맞게 행동합니다.
 
-☐ Trail Guide
-When you Undertake a Journey, if you’re the leader, clear
-two conditions. If another PC is the leader, gain 1 Depth with
-them.
+동물 친구가 **돕게 하면**, 어떻게 돕는지와 어떤 특성이 맞는지 말합니다(GM 판단). 그다음 각각 하나씩 고릅니다.
 
-30
+- 기회를 만들거나 작은 장애를 넘깁니다
+- 관련 굴림에 유리를 줍니다
+- 약점이 요구나 복잡함을 만들지 않습니다
+- 이 장면 안에서 다시 도울 수 있게 여전히 할 만하고 원합니다
 
-☐ Beastmaster
-Animal Companion ☐
-You work closely with a medium-sized or smaller natural
-beast. Examples include wolf, bear, fox, raven/crow, etc..
-Tell the group who your animal companion is, what do they
-look like, and how you bonded.
+동물 친구는 HP가 없습니다. 다치면 조건을 표시하거나 장면에서 어떻게 빠지는지 말합니다.
 
-Choose two Qualities they have: ☐ Flying, ☐ Aquatic,
-☐ Large, ☐ Stealthy, ☐ Strong, ☐ Burrowing, ☐ Armored,
-☐ Intimidating, ☐ Intelligent, ☐ Charming
+길 고급 액션으로 한 번, 특성 둘을 더 얻습니다.
 
-And one Drawback: ☐ Arrogant, ☐ Brutal, ☐ Chaotic,
-☐ Distracted, ☐ Fragile, ☐ Greedy, ☐ Principled, ☐ Rebellious
+### 독립 행동(Independent)
 
-When your animal companion is with you, you usually
-control and describe their choices and actions. When they
-aren’t with you, the GM controls them. Either way, they act
-according to their Qualities and sometimes their Drawback.
+**동물 친구에게 혼자 움직이라고 할 때**도 당신이 조종하고, (합리적이면) 당신과 같은 액션을 쓸 수 있습니다. 굴릴 때 능력치는 관련 특성의 수(최대 3)와 같고, 약점이 해당되면 -1입니다.
 
-When your animal companion assists you, say how and
-which Qualities are relevant (GM’s call), then choose one for
-each:
+### 충성의 시련(Loyalty Mission)
 
-◆ They create an opportunity or overcome a small obstacle
-◆ They grant you ADV on an associated roll
-◆ Their Drawback doesn’t create a demand or complication
-◆ They remain able and willing to to assist again this scene
+**동물 친구의 약점과 맞서고 난 뒤** 충성 1을 얻습니다(최대 3). 충성을 써서 평소엔 해당 없는 특성을 관련 있는 것처럼 취급할 수 있습니다.
 
-Your animal companion doesn’t have HP. When they get
-hurt, mark a condition or say how they leave the scene.
+### 구조자(Rescuer)
 
-Once, as a Path Advanced Move, gain two more Qualities.
+**황천길** 할 때 아래도 고를 수 있습니다.
 
-☐ Independent
-When you order your animal companion to act alone, you
-retain control of them and they have (reasonable) access to
-the same moves as you. If they roll, their stat is equal to the
-relevant Qualities (max 3), -1 if their Drawback is relevant.
+- 구조됨. 동물 친구가 살렸지만 **야영** 할 때까지 다시 돕지 못합니다. HP를 1로 돌립니다.
 
-☐ Loyalty Mission
-After you contend with your animal companion’s
-Drawback, gain 1 Loyalty (max 3). You may spend Loyalty
-to treat a Quality as relevant when it normally wouldn’t be.
+---
 
-☐ Rescuer
-When you Face Death, you may also choose this option.
+## 명사수(Deadeye)
 
-◆ Rescued. Your animal companion saves you, but
+### 트릭샷(Trick Shot)
 
-becomes unable to help until you Make Camp. Restore
-your HP to 1.
+**싸움에 들어서거나** **우위를 확보한다** 를 할 때(결과와 관계없이), 싸움이 끝날 때까지 통찰(Insight) 1을 얻습니다. **원거리 무기** 를 쓰는 동안 통찰을 1대1로 써 다음 전투 액션을 아래처럼 강화할 수 있습니다.
 
-☐ Deadeye
-Trick Shot
-When you enter a Battle or Secure an Edge (no matter the
-roll), gain 1 Insight until the end of the battle. While you
-wield a ranged weapon, you may spend Insight 1-for-1 to
-empower your next Battle Move in the following ways:
+- 관통을 얻어 엄폐와 은신을 무시합니다
+- 산성, 눈부심, 화염, 성스러움 중 하나가 됩니다—약병 띠 아이템과 비슷합니다
+- 빠르고 은밀해져 눈에 띔과 재장전을 잃습니다
 
-◆ It gains Piercing and ignores cover and concealment
-◆ It becomes Acidic, Flashy, Fiery, or Holy, similar to the
+### 대물 사냥꾼(Big Game Hunter)
 
-Bandolier of Vials item
+다룰 위험이 항상 근처에 있습니다. **구역에 사나운 짐승이나 괴물이 있다고 선언하면**, 아래 질문 셋에 답하고 GM은 나머지 셋을 비밀에 답합니다.
 
-◆ It’s both rapid and stealthy, losing Distinctive and Reload
+- 얼마나 큰가?
+- 몇 마리인가?
+- 소굴은 어디인가?
+- 방어는 무엇인가?
+- 무엇을 할 수 있는가?
+- 어떤 전리품이 있을까?
 
-☐ Big Game Hunter
-There is always some danger nearby to deal with. When
-you declare there’s a fierce creature or monster in the
-area, answer three of the questions below, and the GM will
-answer the remaining three questions in secret.
+위협을 처리했다는 증거를 당국에 보이면 재물 3을 줍니다.
 
-◆ How big is it?
-◆ How many are there?
-◆ Where is its lair?
+### 엄호 사격(Covering Fire)
 
-◆ What are its defenses?
-◆ What can it do?
-◆ What loot might it have?
+**싸움에 들어설 때** 통찰을 하나 더 얻습니다. 싸움 중 **동료 돕기** 를 할 때 조건 대신 통찰을 쓸 수 있습니다.
 
-When you show authorities proof that the threat is dealt
-with, they will award you with 3 Treasure.
+### 저격수(Sniper)
 
-☐ Covering Fire
-Gain 1 additional Insight when you enter a Battle. When you
-Aid a Companion in Battle, you may spend Insight instead
-of marking a condition.
+원거리 무기로 **적을 붙잡다** 를 할 때 “서로 피해를 맞바꾼다” 도 고를 수 있습니다.
 
-☐ Sniper
-When you use a ranged weapon to Keep Them Busy, you
-may also choose “exchange damage with them”.
+아주 먼 거리, 높은 곳, 요새화된 위치 등에서 피해를 맞바꾸면, 주는 피해를 1 줄이고 받는 피해를 3 줄입니다.
 
-When you exchange damage from a great distance, high
-ground, fortified position, or similar, reduce the damage
-you deal by 1 and the damage you take by 3.
+### 태양을 가리리라(Blot Out the Sun)
 
-☐ Blot Out the Sun
-When you roll a 10+ to Secure an Edge, gain an additional
-Insight. While in Battle, you may spend Insight to empower
-Battle Moves in these additional ways:
+**우위를 확보한다** 에서 10+가 나오면 통찰을 하나 더 얻습니다. 싸움 중 통찰을 써 전투 액션을 추가로 이렇게 강화할 수 있습니다.
 
-◆ It gains the Area tag
-◆ It gains an additional range tag (Hand, Close, Near, Far)
-◆ It damages or destroys a part of the environment
+- 범위 태그를 얻습니다
+- 사거리 태그를 하나 더 얻습니다(손, 근접, 가까움, 멀리)
+- 환경의 한 부분에 피해를 주거나 부숩니다

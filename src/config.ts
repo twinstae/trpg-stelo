@@ -69,8 +69,7 @@ export const SIDEBAR: Sidebar = {
       { text: "3장 캐릭터 제작", link: "/3-character-creation" },
       { text: "4장 면모와 운명점", link: "/4-aspects-and-fate-points" },
     ]),
-    Topic("던전월드 2 파이널 알파", "/awe/dw2", [
-      { text: "표지·목차", link: "/00-front-matter" },
+    Topic("던전월드 2", "/awe/dw2", [
       { text: "소개", link: "/introduction" },
       { text: "시작하기", link: "/getting-started" },
       { text: "게임 플레이", link: "/playing-the-game" },

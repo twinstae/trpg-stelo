@@ -1,192 +1,55 @@
+---
+title: "던전월드 2 · 태그"
+description: "장비·공격 태그."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: tags | source lines 2020-2211 | approx book page ? -->
 
-Range
-◆ Hand: It’s useful when they’re close enough to grab.
-◆ Close: It’s useful when they’re a few feet away, close enough to
+보물 비용이 붙은 상품·용역 사다리는 상품·서비스 예시 장을 보세요. 여기서는 장비와 공격에 쓰이는 태그만 정리합니다.
 
-read each other’s expressions.
+## 사거리
 
-◆ Near: It’s useful when they’re close enough to speak with, even
+- **손(Hand):** 잡을 만큼 가까울 때 쓸 만합니다.
 
-if you have to raise your voice a bit to be heard clearly.
+- **근접(Close):** 몇 발자국 떨어져 있어도, 서로 표정을 읽을 만큼 가까울 때 쓸 만합니다.
 
-◆ Far: It’s useful when they’re close enough to see clearly, or to
+- **가까움(Near):** 말을 걸 만큼 가깝고, 조금 크게 말해도 들릴 때 쓸 만합니다.
 
-hear you yell at the top of your lungs.
+- **멀리(Far):** 또렷이 볼 만큼 가깝거나, 목청껏 외쳐 들릴 때 쓸 만합니다.
 
-General
-◆ X Cost - it takes X Treasure to purchase.
-◆ X Uses - it can be used X times before you must refresh it.
-◆ X Dmg - it deals X damage when used to exchange damage
-◆ Ammo: It needs ammunition. By default you always have
+## 일반
 
-Access to an organization
+- **X 비용(X Cost)** — 사려면 보물 X가 듭니다.
 
-an everyday club or
+- **X 사용(X Uses)** — X번 쓴 뒤에는 보급(다시 채움)해야 합니다.
 
-a noble court or prominent
+- **X 피해(X Dmg)** — 피해를 주고받을 때 X만큼 줍니다.
 
-a secret cabal or legendary
+- **탄약(Ammo):** 탄이 필요합니다. 기본적으로는 항상 충분히 갖고 있지만, GM이 액션의 일부로 떨어졌다고 할 수 있습니다.
 
-enough, but the GM might say you run out as part of a Move.
+- **범위(Area):** 가까이 붙은 여러 목표를 맞출 수 있습니다.
 
-that is...
+- **서툼(Clumsy):** 특히 무겁거나 느리거나 다루기 어렵습니다. 들고 있을 때 민첩 굴림에 불리입니다.
 
-assocation
+- **눈에 띔(Distinctive):** 쓸 때 분명하고 독특한 소리·모습·인상이 납니다.
 
-guild
+- **강타(Forceful):** 강한 타격으로 밀쳐 넘어뜨립니다.
 
-group
+- **무한(Infinite):** 한 개가 아니라 “셀 수 없을 만큼 많은 묶음”입니다. GM이 액션의 일부로 떨어진다고 하면 그럴 수도 있습니다.
 
-Information about...
+- **경량(Light):** 한 손으로 편하게 쓰거나, 둘 다 있으면 양손으로 씁니다.
 
-a public figure or recent
+- **지저분(Messy):** 고통스럽고 잔혹한 상처를 내어 불구나 극심한 고통을 줍니다.
 
-a private figure or obscure
+- **관통(Piercing):** 두꺼운 갑옷·방호를 뚫거나 우회합니다.
 
-a shadowy mastermind or
+- **정밀(Precise):** 빠르고 조심스럽게 조준해야 잘 씁니다.
 
-event
+- **재장전(Reload):** 재장전·재무장·재충전에 시간을 쓰기 전에는 다시 쓸 수 없습니다.
 
-history
+- **양손(Two-Handed):** 제대로 쓰려면 양손이 필요합니다. 보통 피해나 사거리가 더 큽니다.
 
-ancient mystery
-
-Repair of...
-
-standard, ordinary
-
-masterwork equipment or
-
-artifacts, ancient magical
-
-◆ Area: It can hit multiple targets in close proximity.
-◆ Clumsy: It’s especially heavy, slow or unwieldy, you have DIS
-
-to DEX while wielding it.
-
-◆ Distinctive: It has an obvious and unique sound, appearance,
-
-or impression when used.
-
-equipment, a small house
-
-most magical items, a mano
-
-items, a palace or fortress
-
-◆ Forceful: It inflicts powerful, crushing blows that knock
-
-A fine, bounty, or bribe
-
-small crime, such as
-
-signficant crime, such as
-
-capital crime, such as
-
-for a...
-
-pickpocketing
-
-assault or arson
-
-murder or treason
-
-A vehicle like a....
-
-simple wagon or canoe
-
-riding animal, six-person
-
-trained and armored war
-
-boat, or armored carriage
-
-mount or fine small ship
-
-The services of a...
-
-common thug, sentry, or
-
-well-trained soldier, scholar,
-
-elite magician, advisor, or
-
-assistant
-
-or spy
-
-bodyguard
-
-Enough food and drinks to
-
-gathering with a handful of
-
-boisterous feast
-
-grand banquet
-
-supply a...
-
-friends
-
-An outfit and style to...
-
-blend in with ordinary
-
-impress ordinary citizens
-
-impress the upper class or
-
-citizens
-
-or blend in with the upper
-
-blend in with royalty
-
-class
-
-Treatment and healing
-for...
-
-mundane wounds and
-
-magical wounds and
-
-curses and other dark
-
-simple illnesses
-
-debilitating illnesses
-
-maladies
-
-targets back and down.
-
-◆ Infinite: Rather than one item, this is a bundle of “too many of
-them to keep count”. You might still run out if the GM says so
-as part of a Move.
-
-◆ Light: Comfortably used in either hand, or both if you have
-
-two.
-
-◆ Messy: It inflicts painful, grisly blows that cause debilitating
-
-pain or lost limbs.
-
-◆ Piercing: It cuts or bypasses thick armor and shielding.
-◆ Precise: It requires quick and careful aim to use well.
-◆ Reload: You can’t use it again until you spend time reloading,
-
-rearming, or recharging it.
-
-◆ Two-Handed: It requires two hands to use properly. Usually
-
-also paired with increased damage or range.
-
-◆ Vicious: It is especially deadly to vulnerable areas. When
-dealing damage while exploiting an edge, deal +1 damage.
-
-13
+- **흉포(Vicious):** 약한 부위에 특히 치명적입니다. 우위를 노린 피해를 줄 때 **+1 피해**를 줍니다.

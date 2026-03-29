@@ -1,178 +1,116 @@
+---
+title: "던전월드 2 · 캐릭터 액션"
+description: "캐릭터 공통 액션."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: character-moves | source lines 1612-1789 | approx book page ? -->
 
-Character Moves
+## **위로와 격려**(Comfort or Support)
 
-Comfort or Support
-After you provide comfort or support to a companion, answer
-the following questions, then roll with +1 for each “Yes”.
+**동료를 위로하거나 버티게 한 뒤**, 아래 질문에 답하고, “예”마다 +1을 더해 굴립니다.
 
-◆ Did you change or reinforce a Relationship or shared Bond?
-◆ Did you ask or answer something new about a Conflict?
-◆ Did they open up about a condition they’re feeling?
-◆ Are you currently Making Camp?
+- 관계나 함께 쓰는 유대(Bond)를 바꾸거나 다지었나?
+- 갈등에 관해 새로 묻거나 답했나?
+- 그들이 느끼는 조건에 대해 털어 놓았나?
+- 지금 야영(Make Camp) 중인가?
 
-On any result they clear a condition. *On a 10+ they clear another
-condition or gain 1 Depth with you, their choice. *On a 6- you
-mark a condition or lose 1 Depth with them, your choice.
+어느 결과든 그들은 조건 하나를 지웁니다.
 
-Reach Your Limit
-When you mark your last condition, after moves related to
-marking it are resolved, choose one below, then clear up to two
-conditions at the end of the scene. If you don’t have a Conflict, you
-can only choose the last one.
+- _10+:_ 또 다른 조건을 지우거나 당신과의 깊이 1을 얻습니다. 그들이 고릅니다.
+- _6-:_ 당신이 조건을 표시하거나 그들과의 깊이 1을 잃습니다. 당신이 고릅니다.
 
-◆ Confess a terrible truth about your Conflict, in-character or
-not. The GM will introduce a twist, danger, or obstacle based
-on your confession, now or when the time is right.
+## **한계에 다다른다**(Reach Your Limit)
 
-◆ Test your resolve. Roll+nothing. You may erase up to 3 Depth
-across your Relationships, gaining +1 to the roll for each.
-*On a 10+ you surpass your limits, ignoring penalties from
-conditions for the scene and gaining an opportunity described
-by the GM. *On a 7-9 you bottle it up for now, locking one
-condition. \*On a 6- you give up, flee, or make things much
-worse, now or when your companions next need you.
+**마지막 조건 칸을 표시할 때**, 그 조건과 관련된 액션 처리가 끝난 뒤 아래 하나를 고르고, 장면이 끝날 때 조건을 최대 둘까지 지웁니다. 갈등이 없으면 마지막 항목만 고를 수 있습니다.
 
-Locked conditions can only be cleared by effects that specify clearing
-locked conditions, such as Enjoy Downtime.
+- **갈등에 관한 끔찍한 진실을 고백합니다.** 캐릭터로 또는 캐릭터 밖에서 말합니다. GM이 그 고백을 바탕으로 반전, 위험, 장애를 지금 또는 때가 되면 끼워 넣습니다.
 
-Face Death
-When you reach 0 HP, choose one below:
+- **결기를 시험합니다.** 아무 수정도 없이 굴립니다. 관계의 깊이를 합쳐 최대 3까지 지우고, 지운 깊이마다 굴림에 +1합니다.
+  - _10+:_ 한계를 넘습니다. 이번 장면 동안 조건 페널티를 무시하고, GM이 묘사하는 기회를 얻습니다.
+  - _7–9:_ 지금은 삼킵니다. 조건 하나를 잠금합니다.
+  - _6-:_ 포기하거나 도망치거나 일을 훨씬 나쁘게 만듭니다. 지금 또는 동료가 다음에 당신을 필요로 할 때입니다.
 
-◆ Blaze of Glory. You briefly take control of the scene and
+잠긴 조건은 잠긴 조건을 지운다고 적힌 효과로만 지울 수 있습니다. 예: **휴식을 즐긴다(Enjoy Downtime).**
 
-describe one last accomplishment you achieve. Then you die.
+## **황천길**(Face Death)
 
-◆ Broken & Beaten. Choose one condition you currently have. If
-you don’t have any, you may mark one now and choose it. That
-condition becomes locked.
+**HP가 0이 될 때**, 아래 하나를 고릅니다.
 
-◆ Gamble with Death. Roll+nothing. Other PCs can Aid you, but
-it takes their full effort and attention for some time. *On a 10+
-you’ll live—for now. *On a 7-9 the GM says what part of you
-doesn’t survive; accept the loss and live, or hold on to that part
-and die. \*On a 6- you’ll die before this scene ends—what do
-you see as you pass, and what are your last words?
+- **영광의 불꽃(Blaze of Glory).** 잠시 장면을 당신이 이끄고, 마지막으로 이룬 한 가지를 묘사합니다. 그다음 죽습니다.
 
-If you survive, you remain at 0 HP. While at 0 HP, you cannot
-take significant action unless you receive Aid, though you can
-Aid a Companion, and any further damage will kill you for sure.
+- **부서지고 짓밟힘(Broken & Beaten).** 지금 가진 조건 하나를 고릅니다. 없으면 지금 하나 표시하고 그걸 고릅니다. 그 조건이 잠금이 됩니다.
 
-Make Camp
-When you unwind together while adventuring, cooperatively
-describe what each PC is up to during this extended scene.
-Feel free to discuss situations, events, or emotions. Not all
-conversations have to be in a group; one person can go off on
-their own or pull an ally aside for a 1-on-1. Other Moves might
-happen while you Make Camp, such as Comfort or Support or
-Sense Motive.
+- **죽음과 내기(Gamble with Death).** 수정 없이 굴립니다. 다른 PC가 돕을 수 있지만, 한동안 온 정신과 힘을 쏟아야 합니다.
+  - _10+:_ 당분간 삽니다.
+  - _7–9:_ GM이 살아남지 못한 부분을 말합니다—손실을 받아들이고 살거나, 그 부분을 붙잡고 죽거나 합니다.
+  - _6-:_ 이 장면이 끝나기 전에 죽습니다—넘어가며 무엇을 보나요, 마지막 말은 무엇인가요?
 
-Threats in the world worsen each time you Make Camp, sometimes
-in obvious ways, others in more subtle ones that might require
-investigation. Urgent Threats may even interrupt this camp.
+살아남으면 HP 0인 채로 남습니다. HP 0인 동안 다른 이의 도움(Aid) 없이는 큰 행동을 할 수 없지만 **동료 돕기**는 할 수 있으며, 추가 피해를 받으면 반드시 죽습니다.
 
-If you’re somewhere wild or dangerous, the GM might ask who
-is Keeping Watch. If your relaxation is interrupted, you need to
-resume and finish it to heal.
+## **야영**(Make Camp)
 
-When you finish relaxing, each PC regains HP equal to half their
-maximum.
+**모험 중 함께 긴장을 풀 때**, 협력하여 각 PC가 이 긴 장면 동안 무엇을 하는지 묘사합니다. 상황·사건·감정을 이야기해도 좋습니다. 모두가 한 무리일 필요는 없고, 혼자 가거나 동료를 따로 불러 1:1로 해도 됩니다. 야영 도중에 **위로와 격려**, **속뜻 읽기** 같은 다른 액션이 일어날 수 있습니다.
 
-Keep Watch
-When you Make Camp somewhere wild, dangerous, or
-vulnerable, anytime during the extended scene the GM may say,
-“Something approaches, which of you is watching for danger?” Say
-who, then then GM describes what they see and the volunteer
-rolls+INT. If multiple PCs volunteer, they can Aid each other as
-normal. *On a 10+ choose two below. *On a 7-9 choose one:
+세계의 위협은 야영할 때마다 악화됩니다. 드러나게도, 조사해야 알 만큼 은밀하게도. 긴급한 위협은 야영을 끊을 수도 있습니다.
 
-◆ Alert others. Mark a condition to ensure your companions are
+야생이나 위험한 곳이면 GM이 누가 **파수(Keep Watch)** 하는지 물을 수 있습니다. 휴식이 끊기면 다시 이어서 끝내야 회복합니다.
 
-all ready by the time it arrives.
+휴식을 마치면 각 PC는 최대 HP의 절반만큼 HP를 회복합니다.
 
-◆ Confront it. Get the drop on it at a nearby location of your
+## **파수**(Keep Watch)
 
-choice.
+**야생이나 위험하거나 취약한 곳에서 야영할 때**, 긴 장면 중 GM이 “**무언가 다가옵니다. 누가 위험을 보나요?**”라고 할 수 있습니다. 누군지 말하면 GM이 그가 본 것을 묘사하고, 자원한 이는 **+지 판정**을 합니다. 여럿이 자원하면 평소처럼 서로 돕을 수 있습니다.
 
-◆ Watch carefully. Ask the GM any two questions about what’s
+- _10+:_ 아래 둘을 고릅니다.
+- _7–9:_ 아래 하나를 고릅니다.
+  - **다른 이에게 알립니다.** 조건을 표시해 도착할 때쯤 동료가 모두 준비하게 합니다.
+  - **맞서 싸웁니다.** 당신이 고른 가까운 곳에서 선제로 잡습니다.
+  - **가만히 봅니다.** 그것이 닿기 전에 GM에게 질문 둘을 합니다.
+- _6-:_ 최선을 다해도 당신이 당합니다. 친절이든 적이든. GM이 마스터 액션을 하고 경험치 1을 표시합니다.
 
-coming before it reaches you.
+## **휴식을 즐긴다**(Enjoy Downtime)
 
-\*On a 6- it gets the drop on you, friendly or otherwise, despite
-your best efforts. The GM makes a Move and you mark 1 XP.
+**안전한 정착지에서 며칠 쉴 때**, 아래를 원하는 만큼 할 수 있습니다.
 
-Enjoy Downtime
-When you spend days resting in a safe settlement, you may do as
-many as you’d like of the following:
+- **쉰다.** 재물(Treasure) 1을 쓰고, 야영하되 HP를 가득 채웁니다.
+- **들끓인다.** 관련 PC마다 재물 1을 쓰고, 잠긴 조건 하나를 지우거나 함께 한 다른 PC와 깊이 1을 얻습니다.
+- **구합니다.** 재물을 써서 장비를 고치고, 물건을 사고, 용역을 씁니다. 기본 가격은 13–14쪽.
+- **보급한다.** 항목을 원하는 만큼 고르고, 그만큼 재물을 쓴 뒤, 그 항목들의 사용 횟수를 모두 채웁니다.
+- **연마한다.** 재물을 쓰고, 쓴 만큼 각 PC가 경험치를 표시합니다.
 
-◆ Relax. Spend 1 Treasure, then Make Camp but heal to full.
-◆ Carouse. For each involved PC, spend 1 Treasure, then clear a
-locked Condition or gain 1 Depth with another involved PC.
+## **유대를 맺는다**(Forge a Bond)
 
-◆ Procure. Spend Treasure to repair equipment, purchase
-items, and enlist services. See page 13-14 for default costs.
+**어떤 관계에 깊이 3을 표시할 때**, 그 관계가 묶인 PC의 플레이어와 이야기한 뒤 아래 하나를 함께 고르고, 원하면 둘이 세부 내용(Details)을 다시 쓰고, 그들에 대한 당신의 깊이를 모두 지웁니다(그들 쪽 세부나 당신에 대한 깊이는 바꾸지 않습니다).
 
-◆ Resupply. Choose any number of items, spend an equal
-amount of Treasure, then refresh all uses on those items
+- 서로 새 유대(Bond) 하나를 고르고 그 시작 액션을 얻습니다. 옛 유대를 같이 썼다면 지웁니다; 둘 다 그 유대의 고급 액션마다 경험치 1을 얻습니다.
+- 있는 유대를 다집니다. 그 안에서 고급 액션 하나를 고릅니다; 둘 다 그 액션을 쓸 수 있게 됩니다.
+- **속뜻 읽기**로 **7–9**가 나온 것처럼, 서로 캐릭터의 생각·감정·동기에 관해 질문 하나씩 합니다. 그다음 둘 다 경험치 1을 표시합니다.
 
-◆ Train. Spend Treasure and each PC marks XP per one spent.
+관계와 깊이는 PC마다 따로 씁니다만, 유대는 둘 사이에 공유됩니다. 한 PC가 어떤 관계에 깊이 3에 도달하면, 둘이 나눈 유대에 기여합니다.
 
-Forge a Bond
-When you mark your 3rd Depth in a Relationship, discuss it with
-the Player of the PC it’s tied to, choose one below together, rewrite
-your Details with them if you wish, then erase all of your Depth
-with them (don’t change their Details or Depth with you).
+## **레벨업**(Level Up)
 
-◆ Choose a new shared Bond with each other and gain its
+**경험치 5를 표시하면** 경험치 칸을 비우고, 레벨을 1 올리고, 발전(Advancement) 하나를 얻습니다.
 
-starting move. If you shared an old Bond erase it; you both
-gain 1 XP for each advanced move it had.
+## **세션을 마친다**(End the Session)
 
-◆ Reinforce an existing Bond. Choosing an advanced move from
+**세션을 끝낼 때**, 아래 질문에 답합니다.
 
-it; you both gain access to it.
+- 큰 위험을 무릅썼거나 능력을 새 방식으로 드러냈나? 그렇다면 경험치 1을 표시합니다.
+- 갈등에 관해 새로 배우거나 표현했나? 그렇다면 경험치 1을 표시합니다.
+- 동료와 새로운 다툼이나 연결이 있었나? 그렇다면 그들과의 관계에 깊이 1을 더합니다. 그에 맞게 세부를 고쳐 쓸 수 있으며, 그렇게 하면 경험치 1을 표시합니다.
 
-◆ Ask them one question about their character’s thoughts,
+## **감정 쏟아내기**(Vent Emotions) (선택)
 
-feelings or motivations as if you rolled a 7-9 to Sense Motive.
-Then they do the same to you. Then you both mark 1 XP.
+**표시된 조건의 감정에 따라 아래처럼 단호하게 행동할 때**, 그 조건을 지웁니다.
 
-Each PC tracks Relationships and Depth individually, but Bonds are
-shared between two PCs. When a PC reaches 3 Depth on a Relationship,
-it contributes to the Bond they both share.
+- **지침:** 중요한 순간에 무너지거나 포기한다
+- **겁먹음:** 위험에서 숨거나 도망친다
+- **분노:** 동료에게 화를 퍼붓거나 무언가를 부순다
+- **산만:** 혼자 멀리 가거나 뻔한 것을 놓친다
+- **불안:** 과시하거나 누군가를 비난한다
 
-Level Up
-When you mark your 5th XP, clear the Experience track, increase
-your Level by one, and gain one Advancement.
-
-End the Session
-When you end the session, answer the following questions:
-
-◆ Did you take a big risk or express your capabilities in a new
-
-way? If so, mark 1 XP.
-
-◆ Did you learn or express something new about your Conflict?
-
-If so, mark 1 XP.
-
-◆ Did you have a new dispute or connection with a companion?
-If so, your Relationship with them gains 1 Depth. You may
-rewrite its Details to reflect this change; mark 1 XP if you do.
-
-Vent Emotions (Optional)
-When you decisively act on the emotions of a marked
-condition in a way listed below, clear that condition.
-
-◆ Exhausted: collapse or give up when it matters
-◆ Frightened: hide or flee from danger
-◆ Angry: lash out at your allies or break something
-◆ Distracted: wander off alone or miss something obvious
-◆ Insecure: overcompensate or criticize someone
-
-This move adds a greater focus on conditions in the middle of
-adventure, but might be forgotten by those new to the game. The
-list above isn’t strictly limited, but an action should introduce
-risk, harm, or a complication in some way to clear a condition.
-
-11
+이 액션은 모험 한가운데 조건에 무게를 실어 주지만, 게임에 익숙하지 않은 이는 잊기 쉽습니다. 위 목록에 한정되지는 않지만, 조건을 지우려면 행동이 어떤 식으로든 위험·해·골칫거리를 불러야 합니다.

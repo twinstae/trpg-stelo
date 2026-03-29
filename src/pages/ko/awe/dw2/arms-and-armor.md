@@ -1,57 +1,43 @@
+---
+title: "던전월드 2 · 무기와 방어구"
+description: "무기, 방패, 갑옷."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: arms-and-armor | source lines 2212-2267 | approx book page 14 -->
 
-Arms & Armor
+## 갑옷
 
-Armor
-◆ Light/Medium/Heavy Armor: 3 Uses, 1/2/3 Cost, Clumsy if
-STR below 1/2/3. You may mark a use to ignore up to 1/2/3
-damage from an attack.
+- **경갑/중갑/중장갑:** 사용 3, 비용 1/2/3, 근력이 1/2/3 미만이면 서툼. 사용 하나를 표시해 공격으로 받은 피해를 최대 1/2/3까지 무시할 수 있습니다.
 
-◆ Shield: 1 Use, 1 Cost. You may mark a use to ignore all damage
+- **방패:** 사용 1, 비용 1. 사용 하나를 표시해 공격으로 받은 피해를 전부 무시할 수 있습니다.
 
-from an attack.
+## 근접 무기 예시
 
-Example Melee
-◆ Unarmed (1 Dmg, Hand, Light, 0 Cost)
-◆ Dagger (1 Dmg, Precise, Vicious, Hand, Near, Light, 1 Cost)
-◆ Hidden Knives (1 Dmg, Precise, Vicious, Hand, Near, Light,
+- **맨손** _(피해 1, 손, 경량, 비용 0)_
+- **단검** _(피해 1, 정밀, 흉포, 손, 가까움, 경량, 비용 1)_
+- **숨긴 칼들** _(피해 1, 정밀, 흉포, 손, 가까움, 경량, 무한, 비용 2)_
+- **레이피어** _(피해 2, 근접, 정밀, 비용 1)_
+- **검, 손도끼** _(피해 2, 근접, 경량, 비용 1)_
+- **채찍** _(피해 1, 정밀, 근접, 가까움, 눈에 띔, 비용 1)_
+- **너클** _(피해 1, 손, 경량, 비용 1)_
+- **전쟁망치** _(피해 2, 손, 강타, 비용 1)_
+- **플레일** _(피해 2, 근접, 서툼, 지저분, 강타, 비용 1)_
+- **단창** _(피해 2, 손, 근접, 비용 1)_
+- **지팡이** _(피해 1, 손, 근접, 양손, 비용 1)_
+- **대형 망치** _(피해 3, 근접, 서툼, 양손, 강타, 비용 1)_
+- **긴 창** _(피해 2, 근접, 가까움, 양손, 비용 1)_
+- **대검** _(피해 2, 근접, 양손, 비용 1)_
+- **전투 도끼** _(피해 3, 근접, 서툼, 양손, 지저분, 비용 1)_
 
-Infinite, 2 Cost)
+## 원거리 무기 예시
 
-◆ Rapier (2 Dmg, Close, Precise, 1 Cost)
-◆ Sword, Hatchet (2 Dmg, Close, Light, 1 Cost)
-◆ Whip (1 Dmg, Precise, Close, Near, Distinctive, 1 Cost)
-◆ Brass Knuckles (1 Dmg, Hand, Light, 1 Cost)
-◆ Warhammer (2 Dmg, Hand, Forceful, 1 Cost)
-◆ Flail (2 Dmg, Close, Clumsy, Messy, Forceful, 1 Cost)
-◆ Shortspear (2 Dmg, Hand, Close, 1 Cost)
-◆ Staff (1 Dmg, Hand, Close, Two-Handed, 1 Cost)
-◆ Greathammer (3 Dmg, Close, Clumsy, Two-Handed, Forceful,
-
-1 Cost)
-
-◆ Longspear (2 Dmg, Close, Near, Two-Handed, 1 Cost)
-◆ Greatsword (2 Dmg, Close, Two-Handed, 1 Cost)
-◆ Battle Axe (3 Dmg, Close, Clumsy, Two-Handed, Messy, 1 Cost)
-
-Example Ranged
-◆ Hand Crossbow (1 Dmg, Near, Precise, Ammo, Light, Reload,
-
-Distinctive, 2 Cost)
-
-◆ Sling (1 Dmg, Near, Precise, Reload, 1 Cost)
-◆ Bundle Of Javelins (1 Dmg, Close, Near, Infinite, 2 Cost)
-◆ Bow (2 Dmg, Near, Far, Precise, Ammo, Two-Handed, 2 Cost)
-◆ Crossbow (2 Dmg, Near, Far, Precise, Piercing, Two-Handed,
-
-Reload, Ammo, 2 Cost)
-
-◆ Arbalest (3 Dmg, Near, Far, Precise, Piercing, Forceful, Two-
-
-Handed, Reload, Ammo, 2 Cost)
-
-◆ Greatbow (3 Dmg, Near, Far, Clumsy, Piercing, Two-Handed,
-
-Forceful, Ammo, 2 Cost)
-
-14
+- **손 쇠뇌** _(피해 1, 가까움, 정밀, 탄약, 경량, 재장전, 눈에 띔, 비용 2)_
+- **투석구** _(피해 1, 가까움, 정밀, 재장전, 비용 1)_
+- **투창 묶음** _(피해 1, 근접, 가까움, 무한, 비용 2)_
+- **활** _(피해 2, 가까움, 멀리, 정밀, 탄약, 양손, 비용 2)_
+- **쇠뇌** _(피해 2, 가까움, 멀리, 정밀, 관통, 양손, 재장전, 탄약, 비용 2)_
+- **아발레스트** _(피해 3, 가까움, 멀리, 정밀, 관통, 강타, 양손, 재장전, 탄약, 비용 2)_
+- **대궁** _(피해 3, 가까움, 멀리, 서툼, 관통, 양손, 강타, 탄약, 비용 2)_

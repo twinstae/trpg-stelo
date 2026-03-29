@@ -1,232 +1,107 @@
-<!-- split from dw2.md: threats | source lines 10299-10530 | approx book page ? -->
+---
+title: "던전월드 2 · 위협"
+description: "위협."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
 
-Threats
+<!-- split from dw2.md: threats | source lines 10299-10530 | approx book page 63 -->
 
-Threats are forces that endanger what the PCs care about, drive
-them to adventure, and challenge them during play. They may be
-things that will happen in the future or things happening right
-now, but either way the PCs probably want to stop them from
-happening.
+# 위협
 
-Threats are made up of several components:
+위협은 PC가 소중히 여기는 것을 위험에 빠뜨리고, 모험으로 몰아가고, 플레이 도중에 도전을 주는 세력입니다. 미래에 벌어질 일일 수도 있고 지금 벌어지고 있는 일일 수도 있지만, 어느 쪽이든 PC가 막으려 할 것입니다.
 
-◆ Name — What the Threat is. This could be an infesting
+위협은 다음 요소로 구성됩니다.
 
-curse, an ambitious organization, a corrupting influence, an
-encroaching army, an invading plane, a collapsing society, an
-awakening titan, etc.
+- **이름** — 그 위협이 무엇인지. 번지는 저주, 야심 찬 조직, 부패하는 영향력, 밀려오는 군대, 침공하는 차원, 붕괴하는 사회, 깨어나는 거신 등이 될 수 있습니다.
 
-◆ Description — A sentence or two adding context and details
+- **설명** — 이름에 맥락과 세부를 더하는 한두 문장.
 
-to the name
+- **목표** — 그 위협이 세계를 어떻게 나쁘게 바꿀 것인지. 의도적이든 아니든.
 
-◆ Goal — How the Threat will change the world for the worse,
+- **자산** — 위협이 등장하기 전부터 위협에 유리하게 작용하는 것들. 중요한 장소, NPC, 물건, 비밀, 또는 더 기이한 것들이 해당합니다. 플레이 도중 PC가 이 자산들을 알아내고 위협의 통제에서 빼낼 수 있습니다.
 
-intentionally or not.
+- **전개** — 목표를 향해 준비하고 나아가기 위해 위협이 하는 일들. 전개가 충분히 완료되면 목표가 달성됩니다. 위협과 이야기에 따라 전개가 모두 완료되어야 할 수도 있고, 일부만으로 충분할 수도 있습니다.
 
-◆ Assets — Things it has going for it before it’s introduced,
+- **반응** — 세션 도중 PC가 위협을 방해했을 때 위협이 할 수 있는 일들. 주로 부정적인 결과나 마스터 액션으로 나타납니다.
 
-such as important locations, NPCs, objects, secrets, or even
-stranger things. During play the PCs may learn about these
-Assets and act to remove them from the Threat’s control.
+여기에 더해, 위협에는 아래가 있을 수도 있습니다.
 
-◆ Developments — Things it will do to prepare for and reach
+- 위협과 관련해 일어날 수 있는 **장면** 목록
+- 위협에 관해 발견하거나 드러낼 수 있는 **비밀**
+- 위협이 끝난 뒤에도 세계에 남을 수 있는 잔재를 적은 **잔향**
 
-towards its Goal. Once enough Developments are completed,
-the goal is achieved. Maybe all Developments need to be
-completed, maybe just some of them, depending on the
-Threat and fiction.
+## 전개
 
-◆ Reactions — Things the Threat might do during a session
-in response to the PCs impeding it, often as a negative
-consequence or GM move
+전개는 게임 도중 장면을 일으키기 위한 것입니다. 주로 긴장과 행동이 수반되며, 다음에 어떤 무서운 일이 벌어질지를 보여줍니다. 일반적으로 초반 전개는 위협을 PC에게 소개하면서 부드럽고 가볍게 하고, 나중 전개로 갈수록 판돈을 올리고 목표를 밀어붙이며 위협 자체의 운명을 봉인하는 것이 좋습니다.
 
-Optionally, a Threat may also have:
+나중 전개를 앞선 전개보다 먼저 시작하는 것도 때로는 괜찮습니다. 이야기 속에서 합리적인 흐름을 따르고, 게임의 호흡이 좋아지는 쪽을 택하십시오. 아래 예시 위협에는 필요한 것보다 많은 전개가 들어 있지만, 준비할 때 가장 적절하고 흥미로운 것을 골라 쓰면 됩니다.
 
-◆ Scenes listed that may happen in relation to the Threat
-◆ Secrets that can be discovered or revealed about the Threat
-◆ Echoes listing how the Threat’s remnants might affect the
+기본적으로 모든 목표와 전개는 "PC가 개입하지 않으면 일어날 일"이며, 따라서 PC만이 이를 저지할 수 있습니다. 세계의 다른 인물이 위협을 지연시킬 수는 있지만, 도움 없이 완전히 격파할 수 있다면 그것은 애초에 진짜 위협이 아니었던 것입니다.
 
-world even after it’s stopped
+## 위협의 변경과 종결
 
-Developments
-Developments are meant to prompt scenes during the game,
-usually ones involving tension and action regarding what
-terrible things might happen next. Generally, you want early
-Developments to be softer and lighter while introducing the
-Threat to the PCs, and later Developments to really raise the
-stakes, push the goal forward, and seal the fate of the Threat itself.
+어느 시점에서 PC는 위협에 맞서 행동할 것입니다. 전개를 저지하거나 자산을 제거하는 식으로, 위협의 일부가 더 이상 이치에 맞지 않거나 실현 불가능하게 만들 수 있습니다. 이런 일이 일어나면 두 가지 중 하나를 택할 수 있습니다.
 
-You might sometimes start a later Development before resolving
-an earlier one. Follow what makes sense in the narrative and what
-makes for a better paced game. The example Threat below has
-far more Developments than needed, but when prepping you can
-pick and choose which are the most fitting and interesting.
+- **다시 쓴다.** 위협이 목표에 도달할 새로운 전개를 찾아 만듭니다. 위협이 특히 질기다면 목표 자체를 수정할 수도 있습니다. 여전히 세계와 PC에게 문제가 되어야 하지만, PC가 그 문제의 양상을 바꾼 것입니다. 약해졌거나 더 절박해졌을 수도 있고, 작은 위협 둘이 합류했을 수도 있으며, 위협의 목표가 훨씬 더 복수심에 가득 찰 수도 있습니다.
 
-By default, all Goals and Developments are ‘what will happen if
+- **끝낸다.** 위협의 목표가 이제 불가능하거나, 중요하지 않거나, 흥미롭지 않다면 위협에서 제거합니다. 이 위협에 잔향이 있다면 위협이 사라졌을 때 무슨 일이 벌어지는지 보여 주는 데 활용하십시오. 자산은 어떻게 되었습니까? 숨겨져 있던 비밀이 드러날 수 있습니까?
 
-the PCs don’t intervene’, and so can only be thwarted by the PCs.
-Other characters in the world can stall Threats, but if they can
-fully defeat them without help then those weren’t real Threats to
-begin with.
+## 전개를 몇 개나 준비할까?
 
-the fear of the other gangs - the White Fox, the Rrawlins, and
-the Three River Club.
+위협에 들어가는 전개의 수는 그 위협의 범위, 목표의 복잡도, 게임에 얼마나 오래 등장시킬 것인지에 따라 달라집니다. 아래를 참고하십시오.
 
-◆ Umbra, a remote fortress, highly defensible and tricky to
+- 지역 위협, 단순한 일회성 모험, 한 세션에 해결: 전개 **2–3**개
+- 광역 위협, 직선적인 단계별 목표, 2–5세션에 해결: 전개 **4–6**개
+- 세계적 위협, 복잡한 음모, 6세션 이상에 해결: 전개 **7–10**개
 
-sneak into
+위협에는 보통 전개 수의 대략 절반만큼 자산과 반응이 각각 있습니다. 전개가 7개인 위협이라면 자산 4개, 반응 3개 정도입니다.
 
-Changing and Ending a Threat
-At some point the PCs will probably act against a Threat, such as
-stopping a Development or removing an Asset, and stop some
-of it from making sense or being feasible anymore. When this
-happens, you can either:
+## 예시 위협: 그림자 수장
 
-◆ Rewrite it. Find and create new Developments for the Threat
-to reach its goal. If the Threat is particularly tenacious you
-could even tweak the Goal itself. It should still be a problem
-for the world and PCs, but the PCs have changed how those
-problems manifest. Maybe they’re weaker or more desperate,
-maybe two small Threats join forces, or maybe the Threat’s
-goals become much more vengeful.
+_이 마을들이 흩어져 있는 지방의 산적단들은 예전에는 뿔뿔이 흩어져 서로 싸우기 일쑤였지만, 지금은 수수께끼의 우두머리 아래 모두 통합되었다. 이 지방에는 갈수록 강도와 매복이 들끓지만, 가장 무서운 일은 아직 오지 않았다._
 
-◆ End it. If the Threat’s goal is now impossible, unimportant,
+**목표:** 도전받지 않고 땅을 지배하며, 원하는 자에게서 원하는 것을 대놓고 가져간다
 
-and/or uninteresting, then remove it as a Threat. If this Threat
-has Echoes then maybe use some of them to show what
-happens when the Threat ceases to be. What happened to its
-Assets? Will any latent Secrets get revealed?
+**자산:**
 
-How Many Developments to Prep?
-The number of Developments in a Threat can vary depending on
-how wide-reaching it is, how complicated its Goal is, and how
-long you intend them to be in the game. Here are some guidelines.
+- "본대" 산적단인 더스크하운드의 충성, 그리고 나머지 산적단들—백여우, 롤린즈, 삼강회—이 품고 있는 공포
+- 움브라, 외진 요새. 방비가 철저하고 잠입이 까다롭다
+- 지방 전역에 흩어진 여러 보조 야영지와 은신처
+- 특히 두렵고 악명 높은 우두머리
 
-◆ Local Threat, simple adventure of the week, resolved in one
+**전개:**
 
-session: 2-3 Developments
+- 싸우려는 자들을 대부분 포섭하거나 제거한다
+- 경비대장에게 본보기를 보내 다른 쪽을 보게 한다
+- 요구에 공개적으로 저항하는 클리어브룩의 시장을 본보기로 죽인다
+- 골칫거리 경비대원들을 사냥해서 처리한다
+- 주변 모든 정착지에 공개적인 복종을 요구한다
+- 계속 저항하는 클리어브룩을 잿더미로 만든다
 
-◆ Regional Threat, straightforward steps Goal, resolved in 2-5
+**반응:**
 
-sessions: 4-6 Developments
+- 몰래 PC의 것을 파괴하거나 훔친다
+- PC를 매수하거나 포섭하려 한다
+- 잔인할 만큼 불공평한 싸움에서 PC를 매복하거나 함정에 빠뜨린다
 
-◆ Global Threat, complex machinations to Goal, resolved in 6+
+**장면:**
 
-sessions: 7-10 Developments
+- 누군가 도움을 간청한다
+- 산적단이 마을 한복판에서까지 공개적으로 조공을 거두어간다
+- 지역 민병대 지도자가 착취에 저항하려 한다
 
-A Threat typically has a number of Assets and Reactions each
-loosely equal to half its number of Developments. So a Threat
-with 7 Developments might have 4 Assets and 3 Reactions.
+**비밀:**
 
-◆ Several secondary camps and hideouts across the region
-◆ An especially fearsome and infamous leader
+- 그림자 수장은 이계의 힘을 부린다. 많은 이들이 그가 사람이 아닐지도 모른다는 생각에 두려움이나 경외를 느낀다.
+- 경비대장은 밝혀지면 파멸할 어둠의 비밀을 갖고 있고, 더스크레이더가 이를 약점으로 잡아 협박하고 있다.
 
-Developments:
+**잔향:**
 
-◆ Recruit or destroy most who want to fight
-◆ Send a message to the Watch Commander, forcing them to
+- 한동안 잠잠하다가, 잔존 산적들이 다시 조직 없이 나타난다
+- 이계의 힘은 사라지지 않고, 그림자 수장과 함께—또는 그가 쓰러진 자리에—남는다
 
-look the other way
+_[향후 거대 괴물(잠든, 감금된, 깨어나 날뛰는, 통제된), 밀려오는 군대, 사교, 비밀결사, 침략 국가, 암흑 마법, 언데드 역병, 차원 침입자, 악의적 타락자, 불안정한 위기 등의 예시 위협이 추가될 예정입니다.]_
 
-◆ Kill the mayor of Clearbrook, who openly resist their
-
-demands, as an example
-
-◆ Hunt down and kill troublesome Watch members
-◆ Demand open loyalty from all nearby settlements
-◆ Raze Clearbrook to the ground, which continues to resist
-
-Reactions:
-
-◆ Secretly sabotage or steal from the PCs
-◆ Try to bribe or recruit the PCs
-◆ Ambush or trap the PCs in a brutally unfair fight
-
-Scenes:
-
-◆ Someone pleading for help
-◆ The gangs openly taking tribute from even town centers
-◆ A local militia leader trying to resist a shakedown
-
-Secrets:
-
-◆ The Shadow Chief commands otherworldly power, and many
-
-fear or revere the idea that they aren’t a person at all.
-
-◆ The Watch Commander has a dark secret that would ruin
-them if it got out, and the Duskraiders are using it as
-blackmail.
-
-Echoes:
-
-Example Threat: The Shadow Chief
-The bandit gangs of this village-dotted region, formerly disjointed and
-frequently warring, have all unified under a mysterious leader. Now
-the region is increasingly infested with robbery and ambush, but the
-worst is yet to come.
-
-Goal: rule the land unchallenged, openly taking what they want
-from who they want
-
-Assets:
-
-◆ The loyalty of the ‘main’ gang of bandits, the Duskhounds, and
-
-◆ After laying low for a time, remnant disorganized bandits crop
-
-up again
-
-◆ The otherworldly power doesn’t dissipate, but instead remains
-
-with the Shadow Chief or wherever they fell
-
-[In the future, more example Threats will be added such as Giant
-Monster (sleeping, imprisoned, awake and raging, controlled),
-Encroaching Army, Cult, Cabal, Invading Nation, Dark Magic,
-Undead Plague, Planar Invaders, Malicious Corruptors, Unstable
-Crisis, etc.]
-
-63
-
-Discoveries:
-
-◆ Twisted Visage — fish-person survivor, rapidly visibly mutating,
-becoming more predatory, dangerous thrashing, hearing
-voices, carries a glowing gem fragment.
-
-◆ Hunting Devourer — honeycombing tunnels, thick grasping
-kelp and drifting jellyfish, prowling shark with a strange
-ability, small herbivore fish with strange appearance.
-
-◆ Glinting Rust — Worn grate opening and closing in rhythm,
-
-worn magical sigil barely keeping it active, gleaming treasure
-behind it, school of minnows that now eat flesh.
-
-◆ Ancient Barracks — Nearly-sealed door to a once-dry room.
-
-Remains of ancient almost-survivors. Barebones living space.
-Once-hoarded salvage. Electric eel.
-
-◆ Sigil Network — spherical room lined with hundreds of magical
-symbols, most damaged and inactive, wild magical effects,
-dangerous elements, briefly conjured creatures.
-
-◆ Repair Bay — the only dry place in the dungeon, damaged
-
-entrance, remains of ancient engineer, untouched
-reconstructors, formidable security sentinel
-
-Culminations:
-
-◆ Central Core — Cavernous chamber, enormous glowing
-
-gemstone, crackles with energy, produces reality-warping
-pulses, hundreds of electrical jellyfish, kraken-like octopus
-that is immune to their stings
-
-[In the future we want to add more sections to the GM chapter, such
-as Asking Interesting Questions, handling long journeys and travel,
-managing traps and puzzles, and other miscellaneous tips and advice.]
+<!-- p.63 -->

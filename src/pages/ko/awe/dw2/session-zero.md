@@ -1,67 +1,53 @@
+---
+title: "던전월드 2 · 첫 세션"
+description: "캠페인 시작 전 세션 제로."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: session-zero | source lines 1182-1248 | approx book page ? -->
 
-Session Zero
+던전월드 2를 시작하기 전에, 어떤 게임이 될지 모두가 같은 그림을 그리도록 충분히 이야기하세요. 게임 몇 주 전 채팅방에서 할 수도 있고, 첫 세션의 첫 한두 시간을 대면으로 잡을 수도 있습니다.
 
-Before you start playing Dungeon World 2, discuss the game at
-length to get everyone on the same page for what kind of game
-this will be. This might be a group chat in the weeks leading up
-to the game, or an in-person sit-down for the first hour or two of
-the first session.
+서로 솔직하고 친절하게, 경청하고, 모두가 말할 수 있게 하세요. 모두가 끌리는 무언가를 함께 만들고, 누군가 아니라고 하면 그 말을 들으세요. 이 이야기는 게임 시작에만 국한되지 않으니, 나중에 다시 다뤄도 됩니다.
 
-Be honest with and kind to each other, listen respectfully,
-and make sure everyone has a voice. Work together to create
-something that you’re all interested in, and listen if someone says
-no. This discussion is not restricted to the start of the game, feel
-free to revisit it in the future.
+## 게임에 대해 이야기하기
 
-Talk About the Game
-◆ What subtypes of fantasy are you interested in?
-◆ What ideas do you have for the game?
-◆ What types of adventures would you like to have?
-◆ What story tones and world types feel compelling?
-◆ How long would you like the session or campaign to last?
-◆ What things you’d like to be off-limits?
-◆ What do and don’t you want to see in it?
-◆ What Safety Tools do you want to use?
-◆ What kinds of characters do you want to play?
+- 어떤 부류의 판타지에 끌리나요?
 
-Talk About the World
-Establish a clear vision of the world you’re adventuring in. Perhaps
-it’s a custom world of the GM’s creation, or a world from a book or
-movie, or a world you co-create together here and now.
+- 게임에 대해 어떤 생각이 있나요?
 
-Don’t establish everything about the world right now. Instead,
-focus on what you need to start adventuring, and add in anything
-else you find interesting as you play. Make sure to leave plenty of
-compelling mysteries, unanswered questions, and empty spaces
-that can be later filled in.
+- 어떤 유형의 모험을 하고 싶나요?
 
-Some example questions to discuss are listed below. The last
-question of each is meant to create opportunities for adventure.
-Feel free to discuss whichever ones interest your group.
+- 어떤 이야기 톤과 세계가 끌리나요?
 
-◆ What is the nearby landscape like? The weather? What strange
+- 세션이나 캠페인을 얼마나 길게 하고 싶나요?
 
-phenomenon is unique to this area?
+- 절대 다루기 싫은 것은 무엇인가요?
 
-◆ What ancestries coexist here? How peaceful is that
+- 보고 싶은 것·보기 싫은 것은 무엇인가요?
 
-coexistence? How common are humans in the world? Which
-ancestry recently appeared in the world, or vanished from it?
+- 어떤 안전 도구를 쓰고 싶나요?
 
-◆ What gods are revered or worshipped? Are they plainly real,
-or is their existence a matter of faith? What rumors or secrets
-follow them or their followers?
+- 어떤 캐릭터를 하고 싶나요?
 
-◆ Who rules or governs this land? How have they maintained
+## 세계에 대해 이야기하기
 
-power or authority? Who works to undermine them?
+모험하는 세계의 그림을 분명히 잡으세요. GM이 만든 자작 세계일 수도, 책이나 영화의 세계일 수도, 지금 이 자리에서 함께 만드는 세계일 수도 있습니다.
 
-◆ What cultural arts or practices are unique to this area?
+지금 세계의 모든 것을 정하지는 마세요. 대신 모험을 시작하는 데 필요한 것에 집중하고, 플레이하며 흥미로운 것을 더해 나가세요. 매력적인 미스터리, 풀리지 않은 질문, 나중에 채울 빈자리를 충분히 남겨 두세요.
 
-How are stories, traditions, and lessons remembered and
-maintained? Who’s trying to twist or silence them?
+아래는 이야기해 볼 만한 예시 질문입니다. 각 항목의 마지막 질문은 모험의 실마리를 만들기 위한 것입니다. **팀**에 맞는 것만 골라 다루면 됩니다.
 
-◆ How accepted is magic in this area? Is it seen as a convenient
-tool, mysterious wonder, or unstable danger? How common is
-its practice? What magical curse or catastrophe shapes this area?
+- 근처 지형은 어떤가요? 날씨는요? 이 지역만의 이상한 현상은 무엇인가요?
+
+- 어떤 혈통(ancestries)이 함께 살까요? 공존은 평화로운 편인가요? 세계에서 인간은 흔한가요? 최근에 세계에 나타난 혹은 사라진 혈통은 무엇인가요?
+
+- 어떤 신이 공경받거나 숭배받나요? 그 존재는 명백한가요, 아니면 믿음의 문제인가요? 신이나 그 추종자를 둘러싼 소문이나 비밀은 무엇인가요?
+
+- 이 땅을 다스리거나 통치하는 이는 누구인가요? 권력이나 권위를 어떻게 유지해 왔나요? 누가 그들을 흔들려 하나요?
+
+- 이 지역만의 문화·예술·관습은 무엇인가요? 이야기, 전통, 교훈은 어떻게 기억되고 이어지나요? 그것을 비틀거나 침묵시키려는 이는 누구인가요?
+
+- 이 지역에서 마법은 얼마나 받아들여지나요? 편리한 도구, 신비한 경이, 불안한 위험 중 무엇에 가깝나요? 실제로 쓰는 일은 흔한가요? 이 지역을 형성한 마법적 저주나 재앙은 무엇인가요?

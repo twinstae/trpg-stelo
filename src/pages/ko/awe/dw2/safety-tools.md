@@ -1,115 +1,55 @@
+---
+title: "던전월드 2 · 안전 도구"
+description: "세션 안전과 경계, 안전 도구 사용."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: safety-tools | source lines 1068-1181 | approx book page 8 -->
 
-Safety Tools
+이 절에서는 가능한 한 모두가 안전하도록, 이야기가 격해지는 순간에도 팀이 최대한 즐겁게 플레이할 수 있도록 돕는 도구를 몇 가지 제시합니다. 게임을 시작하기 전에 팀 전체가 안전 도구에 대해 이야기해야 하며, 그중 일부를 쓰지 않기로 해도 그 점은 같습니다.
 
-This section aims to provide you with several tools to make sure
-everyone is as safe as possible, to help the group have the most
-fun, even during intense moments in the narrative. Everyone as
-a group should talk about safety tools before starting the game,
-even if you choose not to engage with some of them.
+어떤 도구는 게임 전에 피하고 싶은 이야기 요소를 정하는 데 쓰이고, 다른 도구는 세션 중에 어려운 순간이 닥쳤을 때 더 나게 넘기는 데 쓰입니다.
 
-Some of these tools are used before the game to establish what
-narrative elements should be avoided, while others are used
-during a session to better navigate difficult moments if and when
-they occur.
+**여기 있는 도구는 모두가 친절하고 공감하는 마음으로 임할 때만 효과가 있습니다.** 의도적으로 상대를 무시하거나 나쁘게 구는 행동을 고쳐 주지는 못합니다.
 
-The tools here only work if everyone approaches them from a
-kind and empathetic perspective. They will not fix intentionally
-bad or uncaring behaviour.
+누구도 마음을 읽을 수 없고, 당신도 남의 마음을 읽을 수 없습니다. 자기 즐거움은 솔직하고 정중하게 말하고, 모두가 할 말을 할 기회를 갖게 하세요.
 
-No one can read your mind, nor can you read others. Honestly
-and respectfully advocate for your own enjoyment, and make
-sure everyone has the chance to say their piece.
+이것은 다수결이 아니며, 한 사람의 “아니오”가 여러 사람의 “예”보다 우선해야 합니다. 모두를 위한 자리를 함께 만들고, 서로의 감수성을 존중하고 고려하는 것을 목표로 하세요.
 
-This shouldn’t be a majority vote, and a single “no” should override
-several “yes”s. Work together to make space for everyone and aim
-to respect and consider everyone’s sensibilities.
+그래도 안전 도구를 써도 맞지 않는 조합이 남을 수 있습니다. 괜찮습니다. 나쁜 플레이보다는 플레이를 하지 않는 편이 나을 때가 많습니다. 게임을 나가거나, 누군가에게 나가 달라고 하거나, 아예 다른 것을 하자고 하는 데 부끄러움이 없어야 합니다.
 
-However, even with safety tools in place sometimes there can be
-incompatibilities that can’t be overcome. That’s okay: often no
-game experience is better than a bad game experience. There is
-no shame in leaving the game, in asking someone else to leave the
-game, or in playing something else altogether.
+## 안전 도구와 관련 용어
 
-Safety Tools and Related Terms
-Lines and Veils are used to set boundaries on content in a game.
-Lines are hard limits, things that the participants don’t want to
-engage with. Setting up a line means that content won’t show
-up in the game at all. Veils are soft limits, things that are okay
-“behind a curtain” or that, when they appear, the fiction “cuts to
-black”. Setting up a veil means that the content might be in the
-game, but not spotlighted or described in great detail. Lines and
-Veils can be adjusted as needed throughout play.
+**선(Line)과 베일(Veil)** 은 게임에서 다룰 내용의 경계를 정할 때 씁니다. 선은 절대 넘지 않을 단단한 한계입니다. 선을 긋는다는 것은 그 내용이 게임에 전혀 나오지 않는다는 뜻입니다. 베일은 부드러운 한계로, “커튼 뒤”에서만 다루거나 나올 때 **이야기 속 현실(the fiction)** 이 암전처럼 넘어가도 된다는 식입니다. 베일을 쓴다는 것은 그 내용이 게임에 있을 수는 있지만 스포트라이트를 받거나 디테일하게 묘사되지는 않는다는 뜻입니다. 선과 베일은 플레이를 이어 가며 필요에 따라 조정할 수 있습니다.
 
-Script Ratings are used to set tone and boundaries for your game.
-Using film ratings (or your own), you can outline what “audience”
-this narrative would be appropriate for (e.g. PG-13 vs R). The
-rating also addresses what content participants do and don’t want
-to see. Make sure to set the lowest rating chosen by a participant
-for the game as a whole; i.e. if someone wants a PG-13 game,
-and everyone else wants a higher rating, the fiction should work
-within the bounds and parameters of a PG-13 movie . Ratings can
-be adjusted as needed throughout the game.
+**등급(Script Ratings)** 은 게임의 톤과 경계를 정할 때 씁니다. 영화 등급(또는 팀만의 기준)으로, 이 이야기가 어떤 관객에게 적합한지 틀을 잡습니다(예: PG-13 대 R). 등급은 참가자가 보고 싶은 것·보기 싫은 것도 다룹니다. 게임 전체 등급은 참가자 중 가장 낮게 잡은 등급에 맞추세요. 즉 누군가 PG-13을 원하고 나머지가 더 높은 등급을 원해도, 이야기 속에서 일어나는 일은 PG-13 영화의 범위 안에서 돌아가게 맞추는 식입니다. 등급은 게임을 하며 필요에 따라 바꿀 수 있습니다.
 
-The Open Door is the assurance that someone can leave or
-take a break from the game for their own safety and well-being
-without being judged. State this at the beginning and periodically
-throughout the game session(s).
+**열린 문(Open Door)** 은 누구나 자기 안녕을 위해 게임을 나가거나 쉬어도 판단받지 않는다는 약속입니다. 처음에 말해 두고, 세션을 이어 가며 가끔 다시 일깨워 주세요.
 
-Bleed occurs when emotions and stress from the game and
+**블리드(Bleed)** 는 게임과 캐릭터에서 온 감정·스트레스가 참가자에게 실제 고통으로 이어질 때입니다. 플레이의 즐거움과, 플레이 밖의 관계에도 영향을 줄 수 있으니 풀어 가야 합니다. 게임이 어디서 시작하고 끝나는지 솔직하게 말하고, 어떤 감정이 실제 삶에서 오는지 연기에서 오는지 의식하는 것이 도움이 됩니다.
 
-8
+## X, N, O 카드
 
-characters cause real distress in the participants. This can affect
-the enjoyment of the game, as well as out-of-game relationships
-between participants if not worked through. Being open and
-honest about where the game begins and ends, and conscious
-of which feelings are caused by real life situations and which are
-caused by roleplaying, can help to mitigate these effects.
+이 카드들은 점검 도구입니다. 실물 카드를 두드리거나, 채팅에 글자를 치거나, 손짓으로 쓸 수 있습니다. 게임 시작 전에 쓸 수 있다는 것과 쓰는 법을 다시 알려 주세요.
 
-X, N, and O Cards
-These cards are check-in tools. They can be used by tapping
-physical cards, typing the letter into chat, or using hand signals.
-Before the game begins, remind everyone that they are available
-and how to use them.
+**X 카드**는 지금 진행 중인 내용이 불편할 때 언제든 쓸 수 있습니다. 플레이어가 X 카드를 요청하면 GM은 게임을 멈추고 무엇이 방아쇠였는지 확인합니다. 그다음 (선과 베일을 쓰는 중이면) 선을 추가하거나, 앞으로 피할 내용을 메모합니다. X 카드가 쓰이면 팀은 그 내용을 바꾸거나 되감거나 건너뛸 수 있습니다.
 
-The X-Card can be used at any point if a participant is
-uncomfortable with the content happening at the moment in-
-game. When a Player calls for the X-Card, the GM stops the game
-and makes sure they know what triggered it. They then add a Line
-(if Lines and Veils are in place) or make a note of the content to
-avoid. When the X-Card is used, the group can change, rewind or
-skip the content.
+**N 카드**는 X 카드를 부를 만한 쪽으로 가고 있다고 느낄 때 언제든 쓸 수 있습니다. N 카드가 쓰이면 팀은 내용을 바꾸거나 장면을 암전(fade to black) 할 수 있습니다.
 
-The N-Card can be used at any point if a participant feels like
-they are headed towards something that would call for an X-Card.
-When the N-card is used, the group can change the content or
-have the scene “fade to black”.
+**O 카드**는 지금 내용을 이어 가고 싶은데, 다른 참가자도 괜찮은지 확인하고 싶을 때 언제든 쓸 수 있습니다. “O?”라고 말하거나 채팅에 써서 여전히 괜찮은지 정기적으로 물을 수도 있습니다.
 
-The O-Card can be used at any point if a participant wants to
-continue with the current content and wants to check in with the
-rest of the participants to see if they’re OK with doing so. They can
-also regularly be prompted by asking “O?” out loud or in chat to
-check-in if everyone is still okay.
+## 스크립트 체인지 도구상자(Script Change Toolbox)
 
-Script Change Toolbox
-This is a set of cinema-themed terms that can be used to adjust
-play and content as discussed.
+플레이와 내용을 조정할 때 쓰는 영화 비유 용어 모음입니다.
 
-Rewind can be used when something happens in play that makes
-a participant uncomfortable. When Rewind is used, be clear
-about what content is being adjusted, rewind to a point before it
-happened, and start playing again.
+**되감기(Rewind)** — 플레이 중 무언가가 참가자를 불편하게 했을 때 씁니다. 무엇을 조정하는지 분명히 하고, 그 일이 일어나기 전으로 되돌린 뒤 다시 플레이합니다.
 
-Fast Forward can be used when someone wants to skip past
-uncomfortable content or to the next part of the fiction. When it
-is used, skip forward to a new spot in the fiction that everyone in
-the game agrees on.
+**빨리 감기(Fast Forward)** — 불편한 구간을 건너뛰거나 이야기 속의 다음 부분으로 가고 싶을 때 씁니다. 쓰면, 게임에 있는 모두가 동의하는 새 지점까지 앞으로 넘깁니다.
 
-Pause can be used when things are too intense, but you still want
-to continue playing the scene. When used, you can take a break
-and/or discuss the content as needed. After that, you can resume
-play, or use Rewind or Fast Forward.
+**일시 정지(Pause)** — 여전히 장면을 이어 가고 싶지만 너무 격할 때 씁니다. 쓰면 쉬거나 필요한 만큼 내용을 이야기한 뒤, 다시 하거나 되감기나 빨리 감기를 쓸 수 있습니다.
 
-Further Tools
-Visit ttrpgsafetytoolkit.com for more tools beyond what is here.
+## 더 보기
+
+여기보다 많은 도구는 [ttrpgsafetytoolkit.com](https://ttrpgsafetytoolkit.com)을 참고하세요.

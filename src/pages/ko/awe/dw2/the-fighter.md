@@ -1,356 +1,284 @@
+---
+title: "던전월드 2 · 파이터"
+description: "무기와 갑옷으로 전장을 견디고 끝까지 서 있는 파이터 직업."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
+
 <!-- split from dw2.md: the-fighter | source lines 4232-4588 | approx book page ? -->
 
-The Fighter
+고마운 일도 아닙니다. 팔의 힘과 간발의 차이로 하루하루를 버팁니다. 흉터는 자랑스럽게, 검은 손에 익게, 갑옷은 몸에 밴 대로 걸칩니다. 위험이 마음껏 당신을 시험하게 두십시오. 결국 마지막까지 선 이는 당신뿐입니다.
 
-It’s a thankless job, living day to day by the strength of your arm and
-the skin of your teeth. You bear your scars with pride, sharpen your
-sword with precision, and don your armor with practiced ease. Let
-every danger test itself against you. In the end, you’ll be the last one
-standing.
+## 기원
 
-Starting Move:
-Fighting Styles
-You’re especially good with certain weapons and stances. Choose
-one now. When you gain a Fighter Path, gain its associated Style.
+먼저 생각한 뒤, 소개와 플레이에서 답합니다.
 
-◆ Heavy Weapons: Ignore Clumsy on weapons. You can use use
-Two-handed weapons with one hand, but they deal -1 damage.
+나는  
+예: 엘프, 용족, 켄타우로스, 골렘. 생물학·행동·소통에 어떤 영향이 있나? 싸움에는 어떻게 스며드나?
 
-Name
+싸움은 ~ 에서 배웠다  
+예: 검투사의 투기장, 잔혹한 전쟁, 이름난 수련장. 어떤 금언이 몸에 박혔나? 어떤 흉터를 남겼나?
 
-& Pronouns
+이름을 알린 것은 ~였다  
+예: 거물의 경호, 힘센 용병, 존경받는 교관. 그 역할에 뜻밖의 시련은?
 
-Hawk, Finnegan, Cadeus, Lenna, Brianne, Tas, an old name
+모험을 시작한 계기는  
+예: 동료가 배신했다, 끔찍한 적에게 졌다, 악몽이 쫓았다. 모험으로 무엇을 찾고 싶나?
 
-HP
+## 시작 액션: 전투 양식(Fighting Styles)
 
-STR
+특정 무기와 자세에 특히 능합니다. 지금 하나를 고릅니다. 파이터의 길을 얻을 때, 그 길에 묶인 양식도 얻습니다.
 
-DEX
+- 무거운 무기: 무기의 서툼을 무시합니다. 양손 무기를 한 손으로 쓸 수 있지만, 그때는 피해 -1입니다.
 
-INT
+- 방어 자세: 한 손 근접 무기만 쓰고 방패 유무와 관계없이, 받는 피해를 1 줄입니다.
 
-WIS
+- 쌍수: 경량 무기 둘을 쥐는 동안 공격은 흉포이고, 이미 흉포이면 관통입니다.
 
-CHA
+파이터의 길을 얻을 때 아래 연결 양식도 얻습니다.
 
-Origins Consider first, then answer in introductions and play
+- (난투꾼) 검투사: 전투 액션을 쓸 때, 선택지 목록에 “모두의 주목을 받는다”를 추가합니다.
 
-I am a
-E.g. elf, dragonfolk, centaur, golem. How does this affect your biology,
-behavior, and communication? How does it affect how you fight?
+- (무기 대가) 걸작: 명무에 강화 둘을 더 붙입니다.
 
-I learned to fight in
-E.g. a gladitorial arena, a brutal war, a renowned training centre.
-What maxim did this beat into you? What scars did you receive?
+- (베테랑) 전술: 전투 액션을 쓸 때, 선택지 목록에 “속뜻 읽기한 것처럼 질문 하나 한다”를 추가합니다.
 
-I made a name for myself as a
-E.g. prominent figure’s bodyguard, powerful hired sword, respected
-training officer. What unexpected challenges came with this role?
+## 관계
 
-I started adventuring after
-E.g. a comrade betrayed me, a terrible foe defeated me, a nightmare
-haunted me. What do you hope to find through your adventures?
+다른 PC마다 이미 아는 만큼 채웁니다.
 
-◆ Defensive Stance: While using a single one-handed melee
-weapon, with a shield or not, reduce damage taken by 1.
+이름
 
-◆ Dual Wielding: Your attacks are Vicious while you wield two
+내용
 
-light weapons, or Piercing if they are already Vicious.
+이름
 
-When you gain a Fighter Path, gain its associated style below.
+내용
 
-◆ (Brawler) Gladiator: When you use a Battle Move, add
-“Become the center of attention” to the list of choices.
+이름
 
-◆ (Armsmaster) Masterpiece: Your Signature Weapon has two
+내용
 
-additional enhancements.
+이름
 
-◆ (Veteran) Tactics: When you use a Battle Move, add “Ask them
+내용
 
-a question as if you Sensed Motive” to the list of choices.
+깊이(Depth)
 
-Max 10
+깊이
 
-Bloodied
+깊이
 
-Exhausted
+깊이
 
-Frightened
+### 관계 예시
 
-Angry
+- 제대로 싸우는 법을 모른다; 가르칠 것이다.
+- 라이벌이다; 언젠가 내 우월함을 인정하게 될 것이다.
+- 사랑하지만, 내 마음이 닿지 않을지도 모른다.
+- 무력하고, 지켜 주는 것이 내 몫이다.
+- 내가 중요한 사람을 죽이는 것을 봤다.
+- 목숨을 빚졌다, 본인이 인정하든 말든.
 
-Distracted
+## 장비
 
-Insecure
+무기를 고릅니다(GM과 새 무기를 만들어도 됩니다).
 
-XP:
+- [ ] 각인 단창(피해 2, 손, 근접)과 방패(사용 1, 들고 있을 때 사용을 표시해 공격 피해 전부 무시)
+- [ ] 위압적인 대형 도끼(피해 3, 근접, 양손, 지저분)
+- [ ] 쌍 시미터(하나만 1 피해, 둘 다 2 피해, 근접, 경량, 정밀)
 
-Level:
+갑옷을 고릅니다.
 
-When you mark your 5th XP, clear the Experience track, increase
-your Level by one, and gain one Advancement.
+- [ ] 중갑(사용 3, STR 2 미만이면 민첩에 불리). 사용을 표시해 공격에서 받는 피해 최대 2까지 무시할 수 있습니다.
+- [ ] 가벼운 장갑(사용 3, STR 1 미만이면 민첩에 불리). 사용을 표시해 공격 피해 1을 무시할 수 있습니다.
 
-Advancements
+아래 하나를 고릅니다.
 
-When you Level Up, choose one of the following:
+- [ ] 투창 묶음(피해 1, 근접, 가까움, 무한).
+- [ ] 보급(사용 3). 위로하거나 버티게 하다로 질문에 답할 때 사용으로 “아니오”를 “예”처럼 씁니다.
+- [ ] 약품(사용 2). 몇 분간 바르면 사용을 표시해 병환 하나를 지우거나 다음 HP 회복을 두 배로 합니다.
 
-Equipment
-Choose your weapon (or create a new one with the GM):
+## 외모
 
-☐ Gain a Path from your Class
+행마다 하나(또는 다른 것).
 
-☐ ☐ +1 to any Stat (max. 2)
+- [ ] 윤 나는 흉갑
+- [ ] 스터드 가죽
+- [ ] 낡은 사슬
+- [ ] 사악한 흉터
+- [ ] 인상적인 투구
+- [ ] 휘날리는 망토
 
-Relationships
-Fill in for each other PC based on how well you already know them
+## 시작 능력치
 
-☐ Inscribed Shortspear (2 dmg, hand, close) and shield (1 use O
-mark it to ignore all damage from an attack)
+아래 한 줄을 고릅니다.
 
-Name
+- [ ] STR 2, DEX 1, INT 0, WIS 1, CHA -1
+- [ ] STR 1, DEX 2, INT -1, WIS 0, CHA 1
 
-Details
+---
 
-Name
+## 시트
 
-Details
+이름  
+호칭
 
-Name
+예: 호크, 피네건, 카데우스, 레나, 브리앤, 타스, 오래된 이름
 
-Details
+HP (최대 10)
 
-Name
+근력(STR) · 민첩(DEX) · 지능(INT) · 지혜(WIS) · 매력(CHA)
 
-Details
+피투성이 · 지침 · 겁먹음 · 분노 · 산만 · 불안
 
-Depth
+경험치(XP):
 
-Depth
+레벨:
 
-Depth
+경험치 칸을 다섯 번 채우면 경험 칸을 비우고, 레벨을 1 올리며 향상 하나를 얻습니다.
 
-Depth
+---
 
-Example Relationships
-They don’t know how to fight properly; I will teach them.
+## 발전
 
-We’re rivals; one day they’ll recognize my superiority.
+레벨업할 때 아래 하나를 고릅니다.
 
-I’m in love with them, but my feelings may be unrequited.
+- [ ] 직업에서 길(Path) 하나 얻기
+- [ ] 아무 능력치 +1(최대 2까지, 레벨 10 이후 옵션에서 3까지)
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 마법 아이템 하나 얻기
+- [ ] 지금 갈등이 없다면 갈등 하나 얻기(갈등 장)
+- [ ] 가진 길 중 하나에서 고급 액션 하나 얻기
+- [ ] 새 직업으로 바꾸기
 
-They are helpless, and it’s my job to keep them safe.
+레벨 5부터 또한 아래에서 고를 수 있습니다.
 
-They saw me kill someone important.
+- [ ] 직업에서 길 하나 더 얻기
+- [ ] 아무 능력치 +1(최대 2)
 
-They owe me their life, whether they admit it or not.
+레벨 10부터 또한 아래에서 고를 수 있습니다.
 
-☐ Intimidating Greataxe (3 dmg, close, two-handed, messy)
+- [ ] 아무 능력치 +1(최대 3)
+- [ ] 멀티클래스 — 플레이 중이 아닌 직업에서 길 하나 얻기
+- [ ] 유물 하나를 고른다(유물 장) 또는 GM과 새 유물을 만든다. 이후 GM이 단서를 줍니다.
 
-☐ Twin Scimitars (1 dmg alone, 2 dmg together, close, light,
-precise)
+### 갈등을 해소할 때
 
-Choose your armor:
+아래 하나를 고릅니다.
 
-☐ Medium Armor (3 uses OOO, DIS to DEX if STR<2). You may
-mark a use to ignore up to 2 damage from an attack.
+- [ ] 손댈 수 없는 자(Untouchable) 를 얻습니다. 전력 공격할 때 12+이면 적에게 받는 피해 전부도 피합니다.
+- [ ] 영웅의 순간을 해금합니다. 쓸 때 서사를 온전히 잡고, 세계나 다른 PC를 극적으로 바꾸는 마지막 업적을 묘사한 뒤, 원하는 대로 이야기에서 빠집니다(은퇴·죽음 등).
 
-∞ Gain a Conflict if you don’t currently have one (pg XX)
+---
 
-∞ Gain an Advanced Move from one of your Paths
+## 난투꾼(Brawler)
 
-◆ Change to a new Class
+### 낡은 장화처럼 질기다(Tough as Old Boots)
 
-From Level 5 onwards, you can also choose from the following:
+피투성이 때문에 전투 액션에 생기는 불이익을 전부 무시합니다.
 
-☐ Gain another Path from your Class
+### 너는 나만 늦출 뿐(You’ll Only Slow Me Down)
 
-☐ +1 to any Stat (max. 2)
+도움이나 아군 없이 **적을 붙잡다** 를 할 때 유리로 굴리고, 12+이면 둘 다—추가 선택지 하나 그리고 그들의 반격을 피함(둘 중 하나가 아니라 둘 다).
 
-☐ Multiclass — Gain a new Path from a Class not being played
+### 재기의 숨결(Second Wind)
 
-☐ Light Armor (3 uses OOO, DIS to DEX if STR<1). You may mark
-a use to ignore 1 damage from an attack.
+- [ ] 사용 1
 
-☐ Gain a Magic Item
+이를 악물고 고통을 뚫고 나갈 때, 재기의 숨결 사용을 표시하고 최대 HP의 절반을 회복하며 피투성이와 다른 조건 하나를 지웁니다. 야영(Make Camp) 에 성공한 뒤 이 액션의 사용을 되살립니다.
 
-Choose one item below:
+### 파괴의 눈(Eye for Destruction)
 
-☐ Bundle of Javelins. (1 damage, close, near infinite).
+무언가(건물, 장애물, 마법 유물 등)를 부수겠다고 마음먹으면 GM에게 의도를 말합니다. 언제나 가능하지만, GM은 아래 요건을 1~4개—“그리고”나 “또는”으로 이어—제시합니다.
 
-☐ Supplies (3 uses OOO). When you Comfort or Support and
-answer questions, you may spend a use to treat a “no” as a “yes”.
+- 시간이 몇 시간/며칠/몇 주 걸린다
+- 누군가·무언가가 지키거나 주장하려 한다
+- 고치기가 쉽다/어렵다/불가능하다
+- 피할 수 없는 부수적 피해가 있다
+- 먼저 X를 해야 한다
+- 누군가 복수할 것이다
+- X의 도움이 필요하다
+- X를 다 쓰거나 닳게 한다
 
-☐ Medicine (2 uses OO). When you apply it for a few minutes,
-mark a use to clear an affliction or double the next HP restored.
+### 함부로 건드리지 마라(Not to be Trifled With)
 
-For your appearance, choose one per row (or something else):
+더 이상 참지 않을 때, 원하는 만큼 조건을 표시할 수 있습니다. 표시한 조건마다 범위, 강타, 지저분, 정밀, 흉포 중 하나를 고릅니다. 고른 태그를 모두 장면이 끝날 때까지 전투 액션에 붙입니다.
 
-☐ polished breastplate, ☐ studded leather, ☐ worn chainmail
-☐ wicked scar, ☐ iconic helmet, ☐ flowing cape
+---
 
-Starting Stats Choose one below
-☐ STR 2 DEX 1 INT 0 WIS 1 CHA -1
-☐ STR 1 DEX 2 INT -1 WIS 0 CHA 1
+## 무기 대가(Armsmaster)
 
-From Level 10 onwards, you can also choose from the following:
+### 명무(Signature Weapon)
 
-☐ +1 to any Stat (max. 3)
+평범한 무기·갑옷 외에 독특한 파괴의 도구를 씁니다. 먼저 기본 형태를 고릅니다.
 
-☐ Multiclass — Gain a new Path from a Class not being played
+- 작은 쌍: 하나만 피해 1, 둘 다 피해 2, 손, 경량
+- 중간·다용도: 피해 2, 근접
+- 크고 강함: 피해 3, 근접, 양손, 서툼
+- 원거리: 정밀, 가까움, 탄약, 재장전, 눈에 띔 가능
 
-☐ Choose an Artifact (page 52) or work with the GM to create a
-new one. Then the GM will give you a lead on where to find it.
+그다음 강화 둘을 고릅니다.
 
-When you resolve a Conflict, choose one below:
+- 관통이다
+- 부술 수 없다
+- 사거리 태그가 하나 더 있다
+- 특정 것(피, 비밀 등)을 감지한다
+- 지저분이거나 강타다
+- 정밀이다
+- 흉포이다
+- 재장전이나 눈에 띔을 잃는다
 
-☐ Gain Untouchable. When you All Out Attack, on a 12+ you also
-avoid all damage from your enemy.
+휴식을 즐긴다(Enjoy Downtime) 할 때, “보물 1을 쓰고, 예전에 이식한 아이템을 떼어 낸 뒤, 유물이나 마법 아이템을 이식해 명무에 마법을 부여한다. 그 아이템은 명무의 일부가 되어 그 속성·액션·알맞은 태그를 명무가 얻는다”고 할 수 있습니다.
 
-☐ Unlock your Moment of Heroism. When you use it, take total
-control of the narrative, describe one last feat you accomplish
-that dramatically changes the world or other PCs, then exit the
-narrative however you wish (eg. retirement, death, etc.)
+### 방벽(Bulwark)
 
-25
+- [ ] 갑옷
+- [ ] 방패
 
-Fighter Paths
+갑옷과 방패의 사용 수가 각각 1씩 늘어납니다. 사용을 표시해 자신 대신 가까이 있는 다른 이에게 적용할 수 있습니다.
 
-☐ Brawler
-Tough as Old Boots
-Ignore all penalties to Battle Moves from being Bloodied.
+### 무기 호위(Armiger)
 
-☐ You’ll Only Slow Me Down
-When you Keep Them Busy without aid or allies, roll with
-ADV, and on a 12+ you both make an extra choice and avoid
-their retaliation (rather than one or the other).
+갑옷의 서툼을 피하기 위한 근력 요구치가 1 줄어듭니다. 야영에 성공하면 갑옷 사용 하나를 지웁니다.
 
-☐ Second Wind O 1 Use
-When you grit your teeth and force yourself through the
-pain, mark your use of Second Wind, restore half of your
-maximum HP, and clear Bloodied and one other condition.
-After you successfully Make Camp, refresh this move’s use.
+### 걸어 다니는 무기고(Walking Armory)
 
-☐ Eye for Destruction
-When you set your mind to destroying something (building,
-obstacle, magical artifact, etc.), tell the GM your intentions.
-It is always possible, but the GM will give you 1 to 4 of the
-following requirements (separated by “and”s or “or”s).
+지금 모험 도구 한 세트를 얻습니다. 모험 도구로 평범한 무기를 꺼낼 수 있습니다. 경량은 사용 1, 양손은 사용 3, 그 밖의 무기는 사용 2입니다.
 
-◆ It’s going to take hours/
+### 칼날 꺾기(Snap the Blade)
 
-days/weeks
+무기로 적에게 피해를 줄 때, 무기가 부술 수 없음이 아니면 더는 쓸 수 없을 만큼 부술 수 있고, 그 대신 준 피해를 1 올립니다.
 
-◆ Someone/something will
-try to protect or claim it
+야영할 때, 쓸 수 없을 만큼 부서진 명무 또는 평범한 아이템 하나를 고쳐 다시 쓸 수 있습니다.
 
-◆ It will be easy/difficult/
-impossible to repair
+---
 
-◆ There’ll be unavoidable
+## 베테랑(Veteran)
 
-collateral damage
+### 태그 팀(Tag Team)
 
-◆ First you must X
-◆ Someone will avenge it
+동료 돕기를 하거나 도움을 받을 때, 둘 중 어느 쪽이든 피해를 입으면 원하는 대로 둘 사이에 피해를 나눌 수 있습니다. 둘 다 갑옷·방패·액션 등으로 그 피해를 줄일 수 있습니다.
 
-◆ You’ll need help from X
-◆ It will use up/wear out X
+### 전장의 약사(Battlefield Medic)
 
-☐ Not to be Trifled With
-When you stop holding back, you may mark as many
-conditions as you’d like. For each condition marked, choose
-Area, Forceful, Messy, Precise or Vicious. Add all chosen tags to
-your Battle Moves until the end of the scene.
+지금 약품 아이템을 얻습니다. 약품을 쓸 때 몇 분이 아니라 순식간이 걸리고, 다른 선택 대신 “HP 3 회복”을 고를 수 있습니다.
 
-26
+### 대마법 훈련(Anti-Magic Training)
 
-☐ Armsmaster
-Signature Weapon
-In addition to your normal arms and armor, you wield a
-unique implement of destruction. First choosing its base:
+마법적인 위험을 힘으로 끊어 낼 때 **위험 돌파** 를 하면 유리로 굴리고, 12+이면 선택지 0개를 고릅니다.
 
-◆ Small Pair: 1 dmg alone, 2 dmg together, hand, light
-◆ Medium and versatile: 2 dmg, close
-◆ Large and powerful: 3 dmg, close, two-handed, clumsy
-◆ Ranged: Precise, Near, Ammo, Reload, maybe Distinctive
+마법으로 싸우는 적에게 선택지가 있는 전투 액션을 쓸 때 7+이면 조건을 표시해 추가 선택지 하나를 고를 수 있습니다.
 
-Then choose two enhancements it has:
-◆ It’s Piercing
-◆ It’s unbreakable
-◆ It has an extra Range Tag
-◆ It detects a specific thing
-(blood, secrets, etc.)
+### 옛 동지와 적(Old Friends & Enemies)
 
-◆ It’s Messy or Powerful
-◆ It’s Precise
-◆ It’s Vicious
-◆ It loses Reload or
+과거 전장에서 아는 이—아군이든 적이든—를 찾아 나설 때, 아래에서 하나를 고릅니다. 그들에게 빚이 있거나 위험에 빠뜨렸다면(당신 판단) 둘을 고릅니다.
 
-Distinctive
+- 지금 갈등에 도와주겠다고 한다
+- 한동안 조언·안내·안식을 준다
+- 중요한 비밀이나 기회를 드러낸다
 
-When you Enjoy Downtime, you may “Spend 1 Treasure,
-separate any previously grafted items, then enchant your
-Signature Weapon by grafting an artifact or magic item onto
-it. The item becomes part of your Signature Weapon, which
-gains its properties, moves, and sensible tags.”
+### 벼려진 본능(Honed Instincts)
 
-☐ Bulwark O Armor O Shield
-Your armor and shields have one extra use each. You can
-mark a use to affect someone near you instead of yourself.
-
-☐ Armiger
-Decrease the STR demand of armor to avoid Clumsy by 1.
-When you successfully Make Camp, clear a use of armor.
-
-☐ Walking Armory
-Gain a set of Adventuring Gear now. You may use
-Adventuring Gear to withdraw mundane weapons. Light
-weapons cost 1 use, Two-Handed weapons cost 3 uses, and
-other weapons cost 2 uses.
-
-☐ Snap the Blade
-When you use a weapon to inflict damage to an enemy,
-if the weapon isn’t Unbreakable, you may break it beyond
-further use in order to increase your damage dealt by 1.
-
-When you Make Camp, you may repair your Signature
-Weapon, or one mundane item, that has been broken
-beyond use.
-
-☐ Veteran
-Tag Team
-When you Aid a Companion or receive Aid, and either of
-you suffers damage, you may split the damage up between
-the two of you however you’d like. You may both use armor,
-shields, moves, and similar to reduce this damage.
-
-☐ Battlefield Medic
-Gain a Medicine item now. When you use Medicine, it takes
-mere moments instead of minutes, and you can choose
-“They restore 3 HP” instead of another choice.
-
-☐ Anti-Magic Training
-When you Defy a magical Danger by interrupting its
-creation by force, roll with ADV and, on a 12+, choose 0.
-
-When you use a Battle Move (with choices) against an
-enemy that fights with magic, on a 7+ you may mark a
-condition to make an additional choice.
-
-☐ Old Friends & Enemies
-When you go looking for someone you know from a past
-battle, friend or foe, choose one from the following list—or
-two if you owe them or put them at risk (your call):
-
-◆ They’re willing to assist you with a current conflict
-◆ They offer guidance, advice, or safety for some time
-◆ They reveal a significant secret or opportunity
-
-☐ Honed Instincts
-When you get a bad feeling about an upcoming situation
-(your call), ask the GM how to avoid or prepare for it and
-they will give you one piece of advice; clear a condition if
-you follow it.
+다가올 상황이 불길하게 느껴진다면(당신 판단), GM에게 피하거나 대비하는 법을 물으면 조언 한 가지를 줍니다. 그대로 따르면 조건 하나를 지웁니다.

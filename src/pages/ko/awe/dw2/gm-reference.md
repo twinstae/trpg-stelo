@@ -1,217 +1,130 @@
-<!-- split from dw2.md: gm-reference | source lines 10665-10879 | approx book page ? -->
+---
+title: "던전월드 2 · GM 레퍼런스"
+description: "게임 마스터 요약 레퍼런스."
+layout: ../../../../layouts/MainLayout.astro
+createdAt: "2026-03-29T12:00:00.000Z"
+publish: true
+---
 
-GM Reference
+<!-- split from dw2.md: gm-reference | source lines 10665-10879 | approx book page 65 -->
 
-Agendas
-◆ Portray a fantastic yet authentic world
-◆ Fill the player characters’ lives with adventure
-◆ Play to find out how things change
+# GM 레퍼런스
 
-◆ Bring the World to Life
-Principles
-◆ Pace Things Cinematically
-◆ Bring the world to life
-◆ Pace things cinematically
+## 강령
 
-◆ Hit the Ground Running
-GM Moves
-◆ Introduce Something New
-Pacing
-◆ Hit the Ground Running
-◆ Judge a Move’s Trigger
-◆ Introduce Something
-◆ State the Consequences and
+- 환상적이면서도 진짜 같은 세계를 그린다
+- 플레이어 캐릭터들의 삶을 모험으로 채운다
+- 일이 어떻게 바뀌는지 알아가며 플레이한다
 
-New
+## 원칙
 
-Check
-Tension
-◆ Require a Cost or
-◆ Judge a Move’s Trigger
-Opportunity
-◆ State the Consequences
-◆ Set Up an Immediate Risk
+- 세계에 생명을 불어넣으십시오
+- 영화처럼 호흡을 잡으십시오
+- 흥미진진한 위험을 권하십시오
+- 공적·사적 위험을 균형 있게 다루십시오
 
-and Check
+## 마스터 액션
 
-◆ Require a Cost or
-◆ Hurt them
-Opportunity
-◆ Advance a Threat
-◆ Set Up an Immediate
-◆ Use a Reaction
-Consequence
-◆ Hurt them
-◆ Advance a Threat
-◆ Use a Reaction
+### 호흡
 
-◆ Encourage Exciting Risks
-◆ Balance Public and
-◆ Encourage exciting risks
-Personal Stakes
-◆ Balance public and
-personal stakes
+- 단숨에 시작한다
+- 새로운 것을 소개한다
+- 잠시 속도를 늦춘다
+- 때로는 원하는 것을 준다
 
-Risk
+### 긴장
 
-◆ Slow Down For a Bit
-◆ Sometimes, Give Them
-What They Want
-◆ Slow Down For a Bit
-◆ Spotlight a Conflict
-◆ Sometimes, Give Them
-What They Want
-◆ Make Them Choose
-◆ Change the Environment
-◆ Escalate a Situation
-◆ Spotlight a Conflict
-◆ Foreshadow a Threat
-◆ Make Them Choose
-◆ Change the Environment
-◆ Take Something Away
-◆ Escalate a Situation
-◆ Separate Them
-◆ Foreshadow a Threat
-◆ Have it Backfire
-◆ Take Something Away
-◆ Separate Them
-◆ Have it Backfire
+- 액션의 발동을 판단한다
+- 결과를 선언하고 확인한다
+- 대가나 기회를 요구한다
+- 즉각적인 위험을 세운다
+- 갈등에 조명을 비춘다
+- 선택을 강요한다
+- 환경을 바꾼다
+- 상황을 고조시킨다
+- 위협을 예고한다
 
-2. Player(s) describe their response. What does it look like
+### 결과
 
-when they act? What do they hope to accomplish?
+- 해를 가한다
+- 위협을 진전시킨다
+- 반응을 사용한다
+- 무언가를 빼앗는다
+- 갈라놓는다
+- 역효과를 일으킨다
 
-3. Is a Move triggered? If so, continue. If not, return to the start.
+---
 
-4. Is a roll involved? If not, follow the Move, then go back to the
-   start. If so, roll what the Move says. Freely remind the PCs
-   they can Aid each other. Remember that conditions and being
-   Bloodied can affect rolls.
+## 플레이 순서
 
-5. What was the roll result? Follow what the Move says happens.
-   10+ (10 or higher) means a full success, as close to clean as can
-   be expected.
-   7-9 (7, 8, or 9) is still a success but messier, with a milder
-   consequence, drawback, or reduced effect.
-   6- (6 or lower) means things go badly. Most of the time that
-   means the GM makes a Move and the rolling Player gains XP,
-   but a few Moves say something else.
+1. **GM이 마스터 액션을 한다.** GM 원칙에 맞춰 상황을 세우고, 보통 "어떻게 하나요?"로 이어진다.
+2. **플레이어가 반응을 묘사한다.** 행동이 어떻게 보이는지, 무엇을 이루려는지.
+3. **액션이 발동하는가?** 예 → 계속. 아니오 → 1로 돌아간다.
+4. **굴림이 있는가?** 아니오 → 액션대로 처리하고 1로. 예 → 액션에 적힌 대로 굴린다. PC가 서로 **동료 돕기** 할 수 있음을 상기시킨다. 조건과 **피투성이** 가 굴림에 영향을 준다.
+5. **결과는?** 액션 문구대로 처리한다.
+   - **10+:** 가능한 한 깔끔한 완전 성공.
+   - **7–9:** 성공이지만 덜 깔끔 — 약한 대가·단점·효과 감소.
+   - **6-:** 일이 나쁘게 흘러간다. 대개 GM이 마스터 액션을 하고 굴린 플레이어는 경험치를 얻는다. 일부 액션은 달리 말한다.
+6. **GM이 마스터 액션을 하는가?** 다른 결과가 나왔거나 굴림이 없었어도, GM은 이야기를 밀고 이야기 속 현실에 맞는 결과를 붙인다. 6-이면 보통 결과가 더 나빠지고 사태가 악화된다.
+7. **피해를 주고받는가?** 아니오 → 다음으로. 예 → 받는 이 각각 피해를 정해 HP에서 뺀다. PC에게 장갑·방패 사용을 상기시키고, 피해 후 **피투성이** 인지 확인한다.
+8. **PC가 조건을 전부 표시했거나 HP가 0인가?** 아니오 → 다음으로. 예 → **한계에 다다른다**(조건) 또는 **황천길**(HP 0).
+9. **1로 돌아간다.**
 
-6. Does the GM make a Move? Even if a different outcome was
-   rolled, or no roll at all happened, then the GM still evolves
-   the narrative and applies consequences appropriate to the
-   established fiction. If a 6- was rolled, this usually means the
-   consequences are worse and things get more dire.
+---
 
-7. Is damage being exchanged or dealt? If not, continue. If so,
-   for each entity receiving damage, determine how much and
-   reduce their HP by that amounts. Remind PCs they can spend
-   Armor or Shield uses to reduce damage taken. Remember to
-   check if anyone becomes Bloody after damage is dealt.
+## 「시체를 뒤진다」
 
-8. Has any PC marked all conditions or reached 0 HP? If not,
-   continue. If so, they trigger Reach Your Limit (for conditions)
-   or Face Death (for HP).
+**굴림: 2d6 + NPC 피해** — NPC가 유난히 부유하거나 가난하면 유리/불리로 굴린다.
 
-9. Return to the start.
+| 합  | 전리품                                                        |
+| --- | ------------------------------------------------------------- |
+| 3   | 낚싯대 또는 비용 1 근접 무기, 멀쩡한 상태                     |
+| 4   | 재료나 전문 도구로 보물 1                                     |
+| 5   | 경갑 또는 비용 1 원거리 무기                                  |
+| 6   | 보급에 해당하는 식량 또는 성대한 만찬                         |
+| 7   | 중갑 또는 비용 2 무기                                         |
+| 8   | 모험 도구 또는 덫 도구                                        |
+| 9   | 향신료 모음이나 반짝이는 장신구로 보물 2                      |
+| 10  | **주목할 만한 발견** 하나 (16쪽)                              |
+| 11  | 약재나 독제 조제 세트에 쓸 허브·약품                          |
+| 12  | 약병 띠 또는 책 가방                                          |
+| 13  | 치유 물약                                                     |
+| 14  | 보물 1짜리 동전과 주목할 만한 발견 하나                       |
+| 15  | 사치스러운 의복이나 깎은 보석으로 보물 3                      |
+| 16+ | **주목할 만한 발견** 또는 **마법 아이템** (45쪽) 후 다시 굴림 |
 
-“I Loot the Body”
-Roll 2d6+NPC’s Damage, with ADV/DIS if the NPC is notably wealthy/poor.
+---
 
-3.
+## NPC 만들기
 
-Fishing rod or a 1-cost melee weapon, good as new
+1. 이야기 속에서 누구이고 어떤 역할인가? 필요한 만큼 **묘사** 로 적는다.
+2. (선택) 어떻게 생겼는가? 눈에 띄는 특징 한두 가지. **외형** 으로 적는다.
+3. 지키거나 이루려는 핵심 목표·욕구는? **동기** 로 적는다.
+4. 동기를 쫓는 데 무엇을 쓰는가? 태도·도구·방법·무기 등. **자원** 으로 적는다.
+5. (선택) 무엇에 특히 방비하거나 대비하는가? **저항** 으로 적는다.
+6. (선택) 비밀·악습·유대·과거가 있는가? **소문** 으로 적는다. **속뜻 읽기**, **지식 더듬기**, **비밀을 파헤치다** 에서 반전을 붙이는 용도.
+7. 싸움에서 만만치 않은가? 아니라면 완성! 그렇다면 계속.
+8. **보통 어떻게 사냥·전투하는가?** 하나를 고른다.
+   - 큰 무리(6–20): 피해 1, HP 1(각각)
+   - 작은 무리(대략 2–5): 피해 2, HP 2(각각)
+   - 홀로: 피해 4, HP 8
+9. **덩치는?** 하나를 고른다.
+   - 집고양이보다 작음: **손**, 피해 -1
+   - 하플링~사람 크기: **근접**
+   - 수레만 함: **가까움**, HP +2
+   - 수레보다 훨씬 큼: **가까움**, **멀리**, HP +4, 피해 +1
+   - 배나 집째 삼킬 만큼 큼: **멀리**, HP +8, 피해 +3
+10. **가장 중요한 방어는?** 하나를 고른다.
+    - 천이나 살: HP +0
+    - 가죽이나 두꺼운 피부: HP +2
+    - 사슬이나 비늘: HP +4
+    - 판금이나 뼈: HP +6
+    - 마법적 보호: HP +8 및/또는 저항에 더함
+11. **절박할 때 전투가 크게 바뀌려면?** 아이디어를 하나 이상 **고조** 로 적는다.
+12. **아래에 해당하는가?** 해당하는 것 모두 고른다.
+    - 특히 치명적이다: 피해 +1
+    - 방패 등으로 적극 방어한다: HP +2
+    - 보통 원거리로 공격한다: **가까움**, **멀리**, 또는 둘 다
+    - 폭력을 혐오하거나 특히 연약하다: 피해 -1
 
-10. A Notable Find (page 16)
-
-11. Raw goods or specialized tools worth 1 Treasure
-
-12. Herbs and chemicals to for Medicine or a Poisoner’s Kit
-
-13.
-
-14.
-
-Light armor or a 1-cost ranged weapon
-
-12. A Bandolier of Vials or Bag of Books
-
-Enough food to count as Supplies or a Hearty Feast
-
-13. A Healing Potion
-
-14. Medium armor or a 2-cost weapon
-
-15. Coins worth 1 Treasure and a Notable Find
-
-16. Adventuring Gear or Trap Kit
-
-17. Extravagant garments or cut gemstones worth 3 Treasure
-
-18. Assorted spices or glittering jewelry worth 2 Treasure
-
-16+. A Notable Find or Magic Item (page 45) and roll again
-
-2.  (Optional) What do they look like? What is a defining
-
-characteristic or two? If they are a person, how do they style
-themselves? Any notable ornaments, tattoos, jewelry, or
-scars? Write as much or as little down as their Appearance.
-
-3.  What core goal or desire do they protect or advance? Write
-
-that down as their Drive.
-
-4.  What do they use to pursue their Drive? These could be
-
-approaches, tools, methods, weapons, or other things. Write
-these down as their Resources.
-
-5.  (Optional) What are they particularly defended against or
-
-prepared for? Write this down as what they Resist.
-
-6.  (Optional) What secrets, vices, bonds, or histories might
-
-they have? Write these down as Rumors, which are potential
-ways to add an appropriate twist when someone uses Sense
-Motive, Recalls Lore, or Unearth Secrets.
-
-7.  Are they a formidable in a fight? If not, you’ve finished
-
-creating them! If so, continue on.
-
-8.  How do they usually hunt or fight? Choose one:
-
-- In large groups (6-20): 1 damage, 1 HP each
-- In small groups (about 2–5): 2 damage, 2 HP each
-- All by its lonesome: 4 damage, 8 HP
-
-9.  How big is it? Choose one:
-
-- Smaller than a house cat: hand, -1 dmg
-- Between halfling and human sized: close
-- As big as a cart: near, +2 HP
-- Much larger than a cart: near, far, +4 HP, +1 dmg
-- Can devour ships or houses whole: far, +8 HP, +3 dmg
-
-10. What is its most important defense? Choose one:
-
-- Cloth or flesh: +0 HP
-- Leathers or thick hide: +2 HP
-- Mail or scales: +4 HP
-- Plate or bone: +6 HP
-- Magical protection: +8 HP and/or add to what it Resists
-
-11. How might it significantly change a fight when desperate?
-
-Write one or more ideas down as Escalations.
-
-12. Which of these describe it? Choose all that apply:
-
-- It’s especially deadly: +1 dmg
-- It actively defends itself with a shield or similar: +2 HP
-- It usually attacks at range: near, far, or both (your call)
-- It abhors violence or is especially frail: -1 dmg
-
-65
+<!-- p.65 -->
