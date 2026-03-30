@@ -8,8 +8,6 @@ publish: true
 
 <!-- split from dw2.md: npc-examples | source lines 9815-10144 | approx book page 60 -->
 
-# NPC 예시
-
 ### 거대 용
 
 _압도적인 힘과 잔인한 교활함으로, 이 존재가 더 큰 세계에 남긴 파문은 수세기 동안 울려 왔다._

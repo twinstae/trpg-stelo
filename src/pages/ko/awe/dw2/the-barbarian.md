@@ -147,9 +147,7 @@ HP
 
 ---
 
-##
-
-- [ ] 정복자(Conqueror)
+## 정복자(Conqueror)
 
 ### 채울 수 없는 욕망(Insatiable Appetite)
 

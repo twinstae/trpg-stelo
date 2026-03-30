@@ -8,8 +8,6 @@ publish: true
 
 <!-- split from dw2.md: magic-trinkets | source lines 8289-8425 | approx book page 51 -->
 
-# 마법 잡화
-
 이 마법 아이템들은 효과가 특히 사소하지만, 어떤 게임에든 넣으면 재미있고 편리합니다.
 
 ## 1. 식료품

@@ -96,7 +96,6 @@ export const SIDEBAR: Sidebar = {
       { text: "도적", link: "/the-rogue" },
       { text: "마법사", link: "/the-wizard" },
       { text: "향상", link: "/advancements" },
-      { text: "메모", link: "/notes" },
       { text: "갈등", link: "/conflicts" },
       { text: "관계", link: "/relationships" },
       { text: "유대", link: "/bonds" },

@@ -8,8 +8,6 @@ publish: true
 
 <!-- split from dw2.md: npc-sample-traits | source lines 10145-10298 | approx book page 62 -->
 
-# NPC 특성 예시
-
 ## 동기
 
 - 값을 치르더라도 복수
