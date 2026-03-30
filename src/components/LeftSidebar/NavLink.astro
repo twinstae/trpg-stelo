@@ -2,6 +2,7 @@
 type Props = {
 	link: string;
   text: string;
+  sectionOpen?: boolean;
 };
 
 const props = Astro.props as Props;
@@ -15,7 +16,11 @@ const url = Astro.site?.pathname + props.link;
 ---
 
 <li class="nav-link">
-  <a href={url} aria-current={currentPageMatch === props.link ? 'page' : false} tabindex="-1">
+  <a
+    href={url}
+    aria-current={currentPageMatch === props.link ? 'page' : false}
+    tabindex={props.sectionOpen ? 0 : -1}
+  >
     {props.text}
   </a>
 </li>

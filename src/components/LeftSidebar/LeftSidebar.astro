@@ -10,6 +10,19 @@ type Props = {
 const { currentPage } = Astro.props as Props;
 const langCode = getLanguageFromURL(currentPage);
 const sidebar = SIDEBAR[langCode];
+
+function pathnameForSidebarMatch(pathname: string): string {
+  if (pathname.endsWith('/') && pathname.length > 1) {
+    return pathname.slice(0, -1);
+  }
+  return pathname;
+}
+
+const pathnameForMatch = pathnameForSidebarMatch(Astro.url.pathname);
+
+function groupContainsCurrentPage(children: { link: string }[]): boolean {
+  return children.some((child) => pathnameForMatch === `/${child.link}`);
+}
 ---
 
 <nav aria-labelledby="grid-left" class="fixed top-10 w-full h-full md:max-h-fit md:max-w-fit bg-base-100">
@@ -17,7 +30,9 @@ const sidebar = SIDEBAR[langCode];
     <NavLink link="ko/welcome" text="입구" />
     <br />
     {
-      Object.entries(sidebar).map(([groupTitle, children], index) => (
+      Object.entries(sidebar).map(([groupTitle, children], index) => {
+        const groupOpen = groupContainsCurrentPage(children);
+        return (
         <li class="border-2 focus-within:border-primary border-base-100 rounded-lg m-0">
           <div class="nav-group" aria-labelledby={'nav-group-header-' + index}>
             <div class="collapse collapse-arrow">
@@ -29,21 +44,22 @@ const sidebar = SIDEBAR[langCode];
                 Array.from(links).forEach(link => {
                   link.setAttribute('tabindex', tabindex);
                 });
-              `} checked={!children.every(child => '/' + child.link !== Astro.url.pathname)}/>
+              `} checked={groupOpen}/>
               <label for={'nav-group-checkbox-'+index} class="collapse-title cursor-pointer">
                 <header id={'nav-group-header-' + index} class="mb-0 text-3xl font-bold">{groupTitle}</header>
               </label>
               <div class="collapse-content">
                 <ul id={'nav-group-list-' + index} aria-labelledby={'nav-group-header-' + index}>
                   {children.map((child) => (
-                    <NavLink {...child} />
+                    <NavLink {...child} sectionOpen={groupOpen} />
                   ))}
                 </ul>
               </div>
             </div>
           </div>
         </li>
-      ))
+        );
+      })
     }
   </ul>
 </nav>
