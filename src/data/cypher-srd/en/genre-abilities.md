@@ -1,0 +1,45 @@
+# Genre Character Abilities from Types and Foci
+
+Your type and focus give you abilities---unique things your character can do. For instance, if you're a Barbarian, you have Wounded Fury, which improves one of your attacks each round if you're hurt.
+
+An ability has a simple description and statistics. Here's how to understand what it's telling you.
+
+**Name and Cost:** Every ability has a unique name, like "Frenzy" or "Wounded Fury." This is just a game term so you and the GM know what abilities you have. Your character might have a different name for it, or not have a name for it at all.
+
+Sometimes your type and focus might give you the same ability, such as Wounded Fury from the Barbarian type and from the Howls at the Moon focus. Taking both of those abilities (or two abilities with different names that provide the same effect) doesn't give you any extra benefit, so don't choose an ability that's a duplicate of something you already have.
+
+If you must spend Pool points to activate an ability, the number of points and the Pool name appear after the ability name, such as "1+ Intellect" after Frenzy. This part is omitted if the ability has no cost.
+
+Whenever an ability grants a choice between two Pools, each time you use that ability you can decide which of those two Pools to spend your points from. You can't split the cost between both Pools.
+
+If an ability has a + sign after the Pool point cost, it means you can spend additional points or levels of Effort in a special way, such as affecting additional targets or increasing the duration. The exact benefit is explained later in the ability in a separate *Effort* section.
+
+**Effect:** This is what the ability does. If the ability has more than one effect or option, each is listed as a new paragraph. Some abilities have improved effects if a character using the ability is tier 3 or higher, as noted at the end.
+
+In general, to affect an unwilling target with an ability, you have to make some kind of attack roll against them.
+
+You can always end one of your abilities (including effects provided by cyphers) with an ongoing effect as an extra action on your turn, at no cost.
+
+*Effort:* Each option in this section costs one level of Effort. Unless indicated otherwise, at higher tiers you can apply more than one level of Effort to further increase the base benefit. For example, if one level of Effort allows you to increase the maximum level of the foe you can affect by 1, two levels of Effort would increase the level of the foe you can affect by 2, and so on.
+
+Even if an ability doesn't have a + in the cost, you can usually still apply Effort to ease the ability's attack roll or skill roll, or to deal extra damage with an attack roll.
+
+If there are multiple options, you have to use separate levels of Effort for each. For example, if the ability says "additional target" and "increase range," affecting an additional target costs one level of Effort, increasing the range costs one level of Effort, and doing both for the same activation costs a total of two levels of Effort. If the option costs points instead of a level of Effort, the point cost is listed in parentheses after the option, like "additional target (2 Intellect)."
+
+**Action or Enabler:** The last part of the ability description tells you how much time it takes to activate the ability.
+
+*Action.* You use your action to gain the effect.
+
+*First action.* You can use the ability as a First action or an action.
+
+*Last action.* You can only use the ability as a Last action.
+
+*Enabler.* The ability works whenever you want it to without using an action.
+
+*Hours or Minutes.* Similar to an "action" ability, but activating it takes the listed number of minutes or hours instead of just an action.
+
+*Perpetual.* Similar to an enabler ability, but it constantly affects you (such as letting you breathe water) or permanently modifies you (such as adding +1 to your crossbow damage). If an ability doesn't state that it's an action or enabler, it's perpetual.
+
+Abilities whose effects persist until you take a recovery end immediately, not when the benefits of the recovery are gained after ten minutes, an hour, and so on.
+
+You can always end one of your abilities with an ongoing effect as an extra action on your turn, at no cost.

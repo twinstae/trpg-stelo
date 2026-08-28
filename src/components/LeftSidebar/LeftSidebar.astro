@@ -46,7 +46,7 @@ function groupContainsCurrentPage(children: { link: string }[]): boolean {
                 });
               `} checked={groupOpen}/>
               <label for={'nav-group-checkbox-'+index} class="collapse-title cursor-pointer">
-                <header id={'nav-group-header-' + index} class="mb-0 text-3xl font-bold">{groupTitle}</header>
+                <header id={'nav-group-header-' + index} class="mb-0 text-xl font-bold">{groupTitle}</header>
               </label>
               <div class="collapse-content">
                 <ul id={'nav-group-list-' + index} aria-labelledby={'nav-group-header-' + index}>
@@ -87,13 +87,6 @@ function groupContainsCurrentPage(children: { link: string }[]): boolean {
     margin-bottom: var(--theme-navbar-height);
   }
 
-  .nav-group-title {
-    font-size: 1rem;
-    font-weight: 700;
-    padding: 0.1rem 1rem;
-    text-transform: uppercase;
-    margin-bottom: 0.5rem;
-  }
 
   @media (min-width: 50em) {
     .nav-groups {

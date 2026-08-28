@@ -1,3 +1,5 @@
+import { CYPHER_SRD_CHAPTERS } from "./data/cypher-srd/chapters";
+
 export const SITE = {
   title: "탐정토끼의 토끼굴",
   description: "서로 다른 이들이 함께 나아가는 TRPG를 탐구하는 블로그",
@@ -38,6 +40,13 @@ export type Sidebar = Record<
 >;
 export const SIDEBAR: Sidebar = {
   ko: Language("ko", [
+    Topic("사이퍼 SRD 2026", "/cypher-srd", [
+      { text: "목차", link: "" },
+      ...CYPHER_SRD_CHAPTERS.filter((chapter) => chapter.status === "translated").map((chapter) => ({
+        text: chapter.titleKo,
+        link: `/${chapter.slug}`,
+      })),
+    ]),
     Topic("사이퍼 SRD", "/cypher-open", [
       { text: "소개", link: "/introduction" },
       { text: "플레이 하는 법", link: "/how-to-play" },

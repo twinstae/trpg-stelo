@@ -1,0 +1,54 @@
+---
+import BilingualLayout from '../../../layouts/BilingualLayout.astro';
+import { pairChapterBlocks } from '../../../utils/pairChapterBlocks';
+import { CYPHER_SRD_CHAPTERS, type ChapterMeta } from '../../../data/cypher-srd/chapters';
+
+// import.meta.glob resolves to build-safe static imports, unlike fs.readFileSync with
+// import.meta.url, which breaks once Astro relocates this route into a build chunk.
+const enSources = import.meta.glob('../../../data/cypher-srd/en/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+const koSources = import.meta.glob('../../../data/cypher-srd/ko/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+
+function sourceFor(sources: Record<string, string>, dir: 'en' | 'ko', slug: string): string {
+	const path = `../../../data/cypher-srd/${dir}/${slug}.md`;
+	const source = sources[path];
+	if (!source) {
+		throw new Error(`[cypher-srd:${slug}] ${dir} source not found at ${path}`);
+	}
+	return source;
+}
+
+export function getStaticPaths() {
+	const translated = CYPHER_SRD_CHAPTERS.filter((chapter) => chapter.status === 'translated');
+
+	return translated.map((chapter, index) => ({
+		params: { slug: chapter.slug },
+		props: {
+			chapter,
+			prev: translated[index - 1] ?? null,
+			next: translated[index + 1] ?? null,
+		} satisfies { chapter: ChapterMeta; prev: ChapterMeta | null; next: ChapterMeta | null },
+	}));
+}
+
+type Props = {
+	chapter: ChapterMeta;
+	prev: ChapterMeta | null;
+	next: ChapterMeta | null;
+};
+
+const { chapter, prev, next } = Astro.props as Props;
+
+const enSource = sourceFor(enSources, 'en', chapter.slug);
+const koSource = sourceFor(koSources, 'ko', chapter.slug);
+
+const { rows, headings } = pairChapterBlocks(chapter.slug, enSource, koSource);
+---
+
+<BilingualLayout
+	titleEn={chapter.titleEn}
+	titleKo={chapter.titleKo}
+	rows={rows}
+	headings={headings}
+	prev={prev}
+	next={next}
+/>
