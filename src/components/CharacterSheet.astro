@@ -8,157 +8,144 @@ interface Props {
 const { character } = Astro.props;
 ---
 
-<div class="flex flex-col md:flex-row w-full text-center gap-1 py-4" style="aspect-ratio: 297 / 210">
-  <div class="column">
-    <div class="p-2 overflow-auto">
-      <h3>특수 능력</h3>
-      <ul class="flex flex-col gap-1 text-left">
+<div class="cypher-sheet">
+  <div class="cs-column">
+    <section class="cs-card cs-card--grow">
+      <h3 class="cs-ribbon">특수 능력</h3>
+      <ul class="cs-list">
         {
           character.specialAbilities.map((specialAbility) => (
-            <li class="text-xs w-full">
-              <h4 class="text-sm inline font-semibold">
-                {specialAbility.title}
-              </h4>{' '}
-              {specialAbility.description}
+            <li class="cs-list-item">
+              <span class="cs-list-title">{specialAbility.title}</span>{' '}
+              <span class="cs-list-desc">{specialAbility.description}</span>
             </li>
           ))
         }
       </ul>
-    </div>
-    <div class="p-2">
-      <h3>사이퍼</h3>
-      <p class="text-xs italic">
+    </section>
+    <section class="cs-card">
+      <h3 class="cs-ribbon">사이퍼</h3>
+      <p class="cs-note">
         사이퍼는 일회용 아이템입니다. 사용하고 나면 시트에서 사선을 그으십시오.
         걱정하지 마세요, 새로운 걸 더 찾게 될 겁니다.
       </p>
-      <ul class="flex flex-col gap-2 text-left">
+      <ul class="cs-list">
         {
           character.cyphers.map((cypher) => (
-            <li class="text-xs">
-              <h4 class="text-sm inline font-semibold">{cypher.title}</h4>{' '}
-              {cypher.description}{' '}
-              <label class="whitespace-nowrap">
+            <li class="cs-list-item">
+              <span class="cs-list-title">{cypher.title}</span>{' '}
+              <span class="cs-list-desc">{cypher.description}</span>{' '}
+              <label class="cs-check">
                 사용
-                <input
-                  type="checkbox"
-                  class="checkbox checkbox-primary align-bottom"
-                />
+                <input type="checkbox" class="cs-checkbox" />
               </label>
             </li>
           ))
         }
       </ul>
-      <p class="text-right">
+      <p class="cs-limit">
         제한 {character.cyphers.filter((c) => c.used === false).length} / {
           character.cypherLimit
         }
       </p>
-    </div>
+    </section>
   </div>
-  <div class="column justify-between">
-    <div class="flex flex-col justify-center gap-1 text-2xl">
-      <div class="text-4xl">{character.name}</div>
-      <div>{character.statement.descriptor} {character.statement.type}이며</div>
-      <div>{character.statement.focus}</div>
-      <div>
+
+  <div class="cs-column cs-column--center">
+    <div class="cs-identity">
+      <div class="cs-field cs-field--name">
+        <span class="cs-field-label">이름</span>
+        <div class="cs-field-value cs-field-value--name">{character.name}</div>
+      </div>
+      <div class="cs-identity-row">
+        <div class="cs-field">
+          <span class="cs-field-label">수식어</span>
+          <div class="cs-field-value">{character.statement.descriptor}</div>
+        </div>
+        <div class="cs-field">
+          <span class="cs-field-label">유형</span>
+          <div class="cs-field-value">{character.statement.type}</div>
+        </div>
+      </div>
+      <div class="cs-field">
+        <span class="cs-field-label">특징</span>
+        <div class="cs-field-value">{character.statement.focus}</div>
+      </div>
+      <div class="cs-background">
         {
           character.background
             .split('\n')
-            .map((line) => <p class="text-xs text-left p-1 m-0">{line}</p>)
+            .map((line) => <p>{line}</p>)
         }
       </div>
     </div>
-    <ul class="flex flex-row justify-between p-1 gap-1">
-      <li class="w-1/3 flex flex-col align-middle gap-2 border-red-400 border-2">
-        <label class="flex flex-col text-xs w-24 h-24 p-2">
-          <h4>힘</h4>
+
+    <ul class="cs-stats">
+      <li class="cs-stat">
+        <label class="cs-stat-current">
+          <span class="cs-stat-label">힘</span>
           <input
             type="number"
-            class="w-16 text-4xl text-center"
             min="0"
             max={character.stats.might.pool}
             value={character.stats.might.current}
           />
         </label>
-        <div class="flex flex-row gap-1">
-          <label class="flex flex-col text-xs w-10 h-10">
-            <h5 class="m-0">역량</h5>
-            <input
-              type="number"
-              class="w-8 text-sm text-center"
-              min="0"
-              value={character.stats.might.pool}
-            />
+        <div class="cs-stat-sub">
+          <label>
+            <span>역량</span>
+            <input type="number" min="0" value={character.stats.might.pool} />
           </label>
-          <label class="flex flex-col text-xs w-10 h-10">
-            <h5 class="m-0">재능</h5>
-            <input
-              type="number"
-              class="w-8 text-sm text-center"
-              min="0"
-              value={character.stats.might.edge}
-            />
+          <label>
+            <span>재능</span>
+            <input type="number" min="0" value={character.stats.might.edge} />
           </label>
         </div>
       </li>
-      <li class="w-1/3 flex flex-col align-middle gap-2 border-yellow-400 border-2">
-        <label class="flex flex-col text-xs w-24 h-24 p-2">
-          <h4>속력</h4>
+      <li class="cs-stat">
+        <label class="cs-stat-current">
+          <span class="cs-stat-label">속력</span>
           <input
             type="number"
-            class="w-16 text-4xl text-center"
             min="0"
             max={character.stats.speed.pool}
             value={character.stats.speed.current}
           />
         </label>
-        <div class="flex flex-row gap-1">
-          <label class="flex flex-col text-xs w-10 h-10">
-            <h5 class="m-0">역량</h5>
-            <input
-              type="number"
-              class="w-8 text-sm text-center"
-              min="0"
-              value={character.stats.speed.pool}
-            />
+        <div class="cs-stat-sub">
+          <label>
+            <span>역량</span>
+            <input type="number" min="0" value={character.stats.speed.pool} />
           </label>
-          <label class="flex flex-col text-xs w-10 h-10">
-            <h5 class="m-0">재능</h5>
-            <input
-              type="number"
-              class="w-8 text-sm text-center"
-              min="0"
-              value={character.stats.speed.edge}
-            />
+          <label>
+            <span>재능</span>
+            <input type="number" min="0" value={character.stats.speed.edge} />
           </label>
         </div>
       </li>
-      <li class="w-1/3 flex flex-col align-middle gap-2 border-blue-400 border-2">
-        <label class="flex flex-col text-xs w-24 h-24 p-2">
-          <h4>지성</h4>
+      <li class="cs-stat">
+        <label class="cs-stat-current">
+          <span class="cs-stat-label">지성</span>
           <input
             type="number"
-            class="w-16 text-4xl text-center"
             min="0"
             max={character.stats.intellect.pool}
             value={character.stats.intellect.current}
           />
         </label>
-        <div class="flex flex-row gap-1">
-          <label class="flex flex-col text-xs w-10 h-10">
-            <h5 class="m-0">역량</h5>
+        <div class="cs-stat-sub">
+          <label>
+            <span>역량</span>
             <input
               type="number"
-              class="w-8 text-sm text-center"
               min="0"
               value={character.stats.intellect.pool}
             />
           </label>
-          <label class="flex flex-col text-xs w-10 h-10">
-            <h5 class="m-0">재능</h5>
+          <label>
+            <span>재능</span>
             <input
               type="number"
-              class="w-8 text-sm text-center"
               min="0"
               value={character.stats.intellect.edge}
             />
@@ -166,152 +153,575 @@ const { character } = Astro.props;
         </div>
       </li>
     </ul>
-    <div class="px-2 pb-2">
-      <div class="flex flex-row justify-between">
-        <label class="flex flex-col text-xs w-16 h-14 p-1">
+
+    <div class="cs-meta-block">
+      <div class="cs-meta-row">
+        <label class="cs-meta-box">
           <span>등급</span>
-          <input type="number" class="w-8 text-2xl" min="1" max="6" value="1" />
+          <input type="number" min="1" max="6" value="1" />
         </label>
-        <label class="flex flex-col text-xs w-16 h-14 p-1">
+        <label class="cs-meta-box">
           <span>분발</span>
-          <input
-            type="number"
-            class="w-8 text-2xl text-center"
-            min="1"
-            max="6"
-            value="1"
-          />
+          <input type="number" min="1" max="6" value="1" />
         </label>
-        <label class="flex flex-col text-xs w-16 h-14 p-1">
+        <label class="cs-meta-box">
           <span>경험치</span>
-          <input
-            type="number"
-            class="w-12 text-2xl"
-            min="0"
-            max="16"
-            value="0"
-          />
+          <input type="number" min="0" max="16" value="0" />
         </label>
       </div>
-      <h3 class="text-base mt-0 mb-0">회복</h3>
-      <ul class="flex flex-row justify-between px-2">
-        <li>
-          <label class="flex flex-col text-xs">
-            <span>행동 하나</span>
-            <input type="checkbox" />
-          </label>
-        </li>
-        <li>
-          <label class="flex flex-col text-xs">
-            <span>10 분</span>
-            <input type="checkbox" />
-          </label>
-        </li>
-        <li>
-          <label class="flex flex-col text-xs">
-            <span>1시간</span>
-            <input type="checkbox" />
-          </label>
-        </li>
-        <li>
-          <label class="flex flex-col text-xs">
-            <span>10시간</span>
-            <input type="checkbox" />
-          </label>
-        </li>
-      </ul>
+      <section class="cs-card">
+        <h3 class="cs-ribbon cs-ribbon--tight">회복</h3>
+        <ul class="cs-recovery">
+          <li>
+            <label>
+              <span>행동 하나</span>
+              <input type="checkbox" class="cs-checkbox" />
+            </label>
+          </li>
+          <li>
+            <label>
+              <span>10 분</span>
+              <input type="checkbox" class="cs-checkbox" />
+            </label>
+          </li>
+          <li>
+            <label>
+              <span>1시간</span>
+              <input type="checkbox" class="cs-checkbox" />
+            </label>
+          </li>
+          <li>
+            <label>
+              <span>10시간</span>
+              <input type="checkbox" class="cs-checkbox" />
+            </label>
+          </li>
+        </ul>
+      </section>
     </div>
   </div>
-  <div class="column">
-    <div class="p-2">
-      <h3>기능/무능</h3>
-      <div class="flex flex-row justify-between gap-2">
-        <ul class="flex flex-col w-1/2 gap-1">
+
+  <div class="cs-column">
+    <section class="cs-card">
+      <h3 class="cs-ribbon">기능 / 무능</h3>
+      <div class="cs-skills">
+        <ul class="cs-list cs-list--skills">
           {
             character.skills
               .filter((skill) => skill.level !== 'inability')
               .map((skill) => (
-                <li class="text-xs flex flex-row justify-between w-full">
-                  <div>{skill.title}</div>
-                  <div class="text-green-700">
+                <li class="cs-skill-row">
+                  <span>{skill.title}</span>
+                  <span class="cs-skill-tag">
                     ({skill.level === 'trained' ? '익숙' : '능숙'})
-                  </div>
+                  </span>
                 </li>
               ))
           }
         </ul>
-        <ul class="flex flex-col w-1/2 gap-1">
+        <ul class="cs-list cs-list--skills">
           {
             character.skills
               .filter((skill) => skill.level === 'inability')
               .map((skill) => (
-                <li class="text-xs flex flex-row justify-between w-full">
-                  <div>{skill.title}</div>
-                  <div class="text-red-500">(무능)</div>
+                <li class="cs-skill-row">
+                  <span>{skill.title}</span>
+                  <span class="cs-skill-tag cs-skill-tag--inability">
+                    (무능)
+                  </span>
                 </li>
               ))
           }
         </ul>
       </div>
-    </div>
-    <div class="p-2">
-      <h3>장비</h3>
-      <ul class="flex flex-col gap-1 text-left">
+    </section>
+    <section class="cs-card">
+      <h3 class="cs-ribbon">장비</h3>
+      <ul class="cs-list">
         {
           character.equipments.map((equipment) => (
-            <li class="text-xs w-full">
-              <h4 class="text-xs inline font-normal">{equipment.title}</h4>{' '}
-              {equipment.description}
+            <li class="cs-list-item">
+              <span class="cs-list-title cs-list-title--plain">
+                {equipment.title}
+              </span>{' '}
+              <span class="cs-list-desc">{equipment.description}</span>
             </li>
           ))
         }
       </ul>
-      <label class="w-full">
-        <input
-          type="number"
-          value={character.shins}
-          class="w-16 text-right"
-        />쉰
+      <label class="cs-shins">
+        <input type="number" value={character.shins} />
+        쉰
       </label>
-    </div>
-    <div class="p-2">
-      <h3>공격</h3>
-      <p class="text-xs italic text-left">
+    </section>
+    <section class="cs-card cs-card--grow">
+      <h3 class="cs-ribbon">공격</h3>
+      <p class="cs-note">
         공격을 하고 지근거리를 하나의 행동으로 움직일 수 있습니다.
       </p>
-      <ul class="flex flex-col gap-2 text-left">
+      <ul class="cs-list">
         {
           character.attacks.map((attack) => (
-            <li class="text-xs w-full">
-              <h4 class="text-sm inline font-semibold">{attack.title}</h4>{' '}
+            <li class="cs-list-item">
+              <span class="cs-list-title">{attack.title}</span>{' '}
               {attack.modifier !== 0 ? `(난이도 ${attack.modifier})` : null}{' '}
-              {attack.damage} 피해. {attack.description}
+              <span class="cs-list-desc">{attack.damage} 피해. {attack.description}</span>
             </li>
           ))
         }
       </ul>
-    </div>
+    </section>
   </div>
 </div>
 
 <style>
-  .column {
-    width: 100%;
-    height: 100%;
+  .cypher-sheet {
+    /* Page background — where cards float, giving them breathing room */
+    --cs-page-bg: #ffffff;
+    /* Card fill (blush) */
+    --cs-card-bg: #fbf0ea;
+    /* High-contrast readout plates: name, pool numbers, tier/effort/xp */
+    --cs-plate-bg: #ffffff;
+    --cs-border: #7a2e29;
+    --cs-border-soft: color-mix(in oklab, var(--cs-border) 30%, transparent);
+    --cs-ribbon-bg: #7a2e29;
+    --cs-ribbon-text: #ffffff;
+    --cs-text: #181110;
+    --cs-text-muted: #7d6a63;
+    --cs-accent: #7a2e29;
+
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
-    font-family: 'Pretendard';
-    justify-content: space-between;
-    border-width: 2px;
-    --tw-border-opacity: 0.3;
-    border-color: hsl(var(--pc) / var(--tw-border-opacity));
+    gap: 0.65rem;
+    width: 100%;
+    background: var(--cs-page-bg);
+    color: var(--cs-text);
+    font-family: var(--font-body);
+    border: 1px solid var(--cs-border-soft);
+    border-radius: 12px;
+    padding: 0.65rem;
+  }
+
+  :global(.theme-dark) .cypher-sheet {
+    --cs-page-bg: #1a1210;
+    --cs-card-bg: #2c1c18;
+    --cs-plate-bg: #3a231e;
+    --cs-border: #c8917f;
+    --cs-ribbon-bg: #5c2a24;
+    --cs-ribbon-text: #f7ece5;
+    --cs-text: #f7ece5;
+    --cs-text-muted: #bb968a;
+    --cs-accent: #e2ab97;
   }
 
   @media (min-width: 1024px) {
-    .column {
-      width: 33.333333%;
-      max-width: 100%;
+    .cypher-sheet {
+      flex-direction: row;
+      aspect-ratio: 297 / 210;
     }
+  }
+
+  .cs-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.6rem;
+    text-align: left;
+  }
+
+  @media (min-width: 1024px) {
+    .cs-column {
+      width: 33.3333%;
+    }
+  }
+
+  .cs-column--center {
+    justify-content: flex-start;
+  }
+
+  /* Cards: separated panels with visible gaps between them */
+  .cs-card {
+    background: var(--cs-card-bg);
+    border: 1.5px solid var(--cs-border);
+    border-radius: 10px;
+    padding: 0.6rem 0.75rem 0.7rem;
+  }
+
+  @media (min-width: 1024px) {
+    .cs-card--grow {
+      flex: 1;
+      overflow: auto;
+    }
+  }
+
+  /* Ribbon section headers */
+  .cs-ribbon {
+    background: var(--cs-ribbon-bg);
+    color: var(--cs-ribbon-text);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    line-height: 1;
+    padding: 0.35rem 0.7rem;
+    margin: -0.6rem -0.75rem 0.5rem -0.75rem;
+    border-radius: 8px 999px 999px 8px;
+    width: fit-content;
+    min-width: 40%;
+  }
+
+  .cs-ribbon--tight {
+    margin-top: -0.6rem;
+  }
+
+  /* Identity block: name / descriptor / type / focus, each its own field */
+  .cs-identity {
+    padding: 0.15rem 0.25rem 0.25rem;
+  }
+
+  .cs-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    margin-bottom: 0.45rem;
+  }
+
+  .cs-field-label {
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--cs-accent);
+  }
+
+  .cs-field-value {
+    background: var(--cs-plate-bg);
+    border: 1.5px solid var(--cs-border);
+    border-radius: 6px;
+    padding: 0.25rem 0.55rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--cs-text);
+  }
+
+  .cs-field-value--name {
+    font-size: 1.55rem;
+    font-weight: 800;
+    padding: 0.2rem 0.6rem;
+  }
+
+  .cs-identity-row {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  .cs-identity-row .cs-field {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .cs-background {
+    margin-top: 0.5rem;
+  }
+
+  .cs-background p {
+    font-size: 0.68rem;
+    line-height: 1.35;
+    color: var(--cs-text-muted);
+    margin-bottom: 0.35rem;
+  }
+
+  /* Stat boxes: high-contrast plates, sit directly on the page */
+  .cs-stats {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    padding: 0 0.25rem;
+    list-style: none;
+  }
+
+  .cs-stat {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--cs-border);
+    border-radius: 8px;
+    background: var(--cs-plate-bg);
+    overflow: hidden;
+  }
+
+  .cs-stat-current {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.15rem;
+    padding: 0.4rem 0.25rem 0.3rem;
+  }
+
+  .cs-stat-label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--cs-accent);
+  }
+
+  .cs-stat-current input {
+    width: 100%;
+    font-size: 1.9rem;
+    font-weight: 800;
+    text-align: center;
+    background: transparent;
+    color: var(--cs-text);
+  }
+
+  .cs-stat-sub {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px dashed var(--cs-border-soft);
+  }
+
+  .cs-stat-sub label {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+    padding: 0.25rem 0.1rem;
+  }
+
+  .cs-stat-sub label:first-child {
+    border-right: 1px dashed var(--cs-border-soft);
+  }
+
+  .cs-stat-sub label span {
+    font-size: 0.6rem;
+    color: var(--cs-text-muted);
+    letter-spacing: 0.04em;
+  }
+
+  .cs-stat-sub input {
+    width: 2rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-align: center;
+    background: transparent;
+    color: var(--cs-text);
+  }
+
+  /* Tier / Effort / XP: high-contrast plates */
+  .cs-meta-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 0 0.25rem;
+  }
+
+  .cs-meta-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.4rem;
+  }
+
+  .cs-meta-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.15rem;
+    border: 2px solid var(--cs-border);
+    border-radius: 8px;
+    padding: 0.3rem 0.2rem;
+    background: var(--cs-plate-bg);
+  }
+
+  .cs-meta-box span {
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--cs-accent);
+  }
+
+  .cs-meta-box input {
+    width: 2rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-align: center;
+    background: transparent;
+    color: var(--cs-text);
+  }
+
+  .cs-recovery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 0.2rem;
+  }
+
+  .cs-recovery label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+  }
+
+  .cs-recovery span {
+    font-size: 0.62rem;
+    color: var(--cs-text-muted);
+    white-space: nowrap;
+  }
+
+  /* Generic lists */
+  .cs-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+
+  .cs-list-item {
+    font-size: 0.72rem;
+    line-height: 1.35;
+    padding: 0.3rem 0;
+    border-bottom: 1px dotted var(--cs-border-soft);
+  }
+
+  .cs-list-item:last-child {
+    border-bottom: none;
+  }
+
+  .cs-list-title {
+    font-weight: 700;
+    color: var(--cs-accent);
+  }
+
+  .cs-list-title--plain {
+    font-weight: 600;
+    color: var(--cs-text);
+  }
+
+  .cs-list-desc {
+    color: var(--cs-text);
+  }
+
+  .cs-note {
+    font-size: 0.66rem;
+    font-style: italic;
+    color: var(--cs-text-muted);
+    margin-bottom: 0.4rem;
+  }
+
+  .cs-check {
+    float: right;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.65rem;
+    color: var(--cs-text-muted);
+    white-space: nowrap;
+  }
+
+  .cs-limit {
+    text-align: right;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--cs-accent);
+    margin-top: 0.35rem;
+  }
+
+  /* Skills */
+  .cs-skills {
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+  }
+
+  .cs-list--skills {
+    width: 50%;
+  }
+
+  .cs-skill-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.3rem;
+    font-size: 0.68rem;
+    padding: 0.2rem 0;
+    border-bottom: 1px dotted var(--cs-border-soft);
+  }
+
+  .cs-skill-row:last-child {
+    border-bottom: none;
+  }
+
+  .cs-skill-tag {
+    font-size: 0.62rem;
+    font-weight: 700;
+    color: var(--cs-accent);
+    white-space: nowrap;
+  }
+
+  .cs-skill-tag--inability {
+    color: var(--cs-text-muted);
+    font-weight: 400;
+  }
+
+  .cs-shins {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 0.25rem;
+    font-size: 0.75rem;
+    margin-top: 0.4rem;
+    color: var(--cs-text-muted);
+  }
+
+  .cs-shins input {
+    width: 2.5rem;
+    text-align: right;
+    background: transparent;
+    border-bottom: 1px dotted var(--cs-border-soft);
+    color: var(--cs-text);
+    font-weight: 700;
+  }
+
+  /* Inputs & checkboxes shared reset */
+  .cypher-sheet input[type='number'] {
+    border: none;
+    outline: none;
+    -moz-appearance: textfield;
+  }
+
+  .cypher-sheet input[type='number']::-webkit-outer-spin-button,
+  .cypher-sheet input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .cypher-sheet input:focus {
+    outline: 1px dashed var(--cs-accent);
+    outline-offset: 1px;
+  }
+
+  .cs-checkbox {
+    appearance: none;
+    width: 0.85rem;
+    height: 0.85rem;
+    border: 1.5px solid var(--cs-border);
+    border-radius: 2px;
+    background: var(--cs-plate-bg);
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  .cs-checkbox:checked {
+    background: var(--cs-accent);
+  }
+
+  .cs-recovery .cs-checkbox {
+    width: 1rem;
+    height: 1rem;
   }
 </style>
