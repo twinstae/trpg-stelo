@@ -169,6 +169,42 @@ const { character } = Astro.props;
           <input type="number" min="0" max="16" value="0" />
         </label>
       </div>
+      {
+        character.stats.wounds && (
+          <section class="cs-card">
+            <h3 class="cs-ribbon cs-ribbon--tight">부상</h3>
+            <p class="cs-note cs-note--wounds">
+              중간 부상 마지막 칸: 방해 · 심각한 부상 마지막 칸: 사망
+            </p>
+            <ul class="cs-wounds">
+              <li>
+                <span class="cs-wounds-label">가벼운</span>
+                <span class="cs-wounds-boxes">
+                  {Array.from({ length: character.stats.wounds.light }).map(() => (
+                    <input type="checkbox" class="cs-checkbox" />
+                  ))}
+                </span>
+              </li>
+              <li>
+                <span class="cs-wounds-label">중간</span>
+                <span class="cs-wounds-boxes">
+                  {Array.from({ length: character.stats.wounds.medium }).map(() => (
+                    <input type="checkbox" class="cs-checkbox" />
+                  ))}
+                </span>
+              </li>
+              <li>
+                <span class="cs-wounds-label">심각한</span>
+                <span class="cs-wounds-boxes">
+                  {Array.from({ length: character.stats.wounds.severe }).map(() => (
+                    <input type="checkbox" class="cs-checkbox" />
+                  ))}
+                </span>
+              </li>
+            </ul>
+          </section>
+        )
+      }
       <section class="cs-card">
         <h3 class="cs-ribbon cs-ribbon--tight">회복</h3>
         <ul class="cs-recovery">
@@ -251,7 +287,7 @@ const { character } = Astro.props;
       </ul>
       <label class="cs-shins">
         <input type="number" value={character.shins} />
-        쉰
+        {character.currencyLabel ?? '쉰'}
       </label>
     </section>
     <section class="cs-card cs-card--grow">
@@ -550,6 +586,39 @@ const { character } = Astro.props;
     text-align: center;
     background: transparent;
     color: var(--cs-text);
+  }
+
+  .cs-note--wounds {
+    margin-bottom: 0.35rem;
+  }
+
+  .cs-wounds {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .cs-wounds li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.4rem;
+  }
+
+  .cs-wounds-label {
+    font-size: 0.68rem;
+    color: var(--cs-text-muted);
+    white-space: nowrap;
+  }
+
+  .cs-wounds-boxes {
+    display: flex;
+    gap: 0.2rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
 
   .cs-recovery {

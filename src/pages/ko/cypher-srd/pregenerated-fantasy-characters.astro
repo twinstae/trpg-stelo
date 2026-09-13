@@ -1,0 +1,68 @@
+---
+import CharacterSheet from '../../../components/CharacterSheet.astro';
+import SheetLayout from '../../../layouts/SheetLayout.astro';
+import { dungeonFantasyCharacters } from '../../../data/cypher-pregens/dungeon-fantasy-characters';
+import { swordSorceryCharacters } from '../../../data/cypher-pregens/sword-sorcery-characters';
+import { epicFantasyCharacters } from '../../../data/cypher-pregens/epic-fantasy-characters';
+
+const frontmatter = {
+  title: '사전 제작 캐릭터 : 사이퍼 시스템 2판 판타지',
+  description: '',
+  layout: '../../../layouts/MainLayout.astro',
+  createdAt: '2026-09-10T00:00:00.000Z',
+};
+
+const sections = [
+  { id: 'dungeon-fantasy', title: '던전 판타지', characters: dungeonFantasyCharacters },
+  { id: 'sword-sorcery', title: '소드 앤 소서리', characters: swordSorceryCharacters },
+  { id: 'epic-fantasy', title: '에픽 판타지', characters: epicFantasyCharacters },
+];
+---
+
+<SheetLayout frontmatter={frontmatter} headings={[]}>
+  <nav class="pregen-nav">
+    <span>바로가기:</span>
+    {sections.map((section) => <a href={`#${section.id}`}>{section.title}</a>)}
+  </nav>
+
+  {
+    sections.map((section) => (
+      <section id={section.id} class="pregen-section">
+        <h2 class="pregen-heading">{section.title}</h2>
+        {section.characters.map((character) => (
+          <CharacterSheet character={character} />
+        ))}
+      </section>
+    ))
+  }
+</SheetLayout>
+
+<style>
+  .pregen-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .pregen-nav a {
+    text-decoration: underline;
+  }
+
+  .pregen-heading {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin: 1.5rem 0 0.75rem;
+    padding: 0 0.5rem;
+  }
+
+  .pregen-section {
+    scroll-margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+  }
+</style>

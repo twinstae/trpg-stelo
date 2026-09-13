@@ -23,6 +23,13 @@ export interface Character {
       "oneHour": boolean,
       "tenHour": boolean,
     }
+    // Cypher System 2E wound track (light/medium/severe boxes). Optional so
+    // 1E sheets (which track damage as pool loss instead) are unaffected.
+    wounds?: {
+      light: number
+      medium: number
+      severe: number
+    }
   }
   advancements: {
     increaseCapabilities: boolean,
@@ -38,6 +45,8 @@ export interface Character {
   cyphers: Cypher[]
   equipments: Equipment[]
   shins: number
+  // Display label for the shins count (e.g. "쉰", "은화"). Defaults to "쉰".
+  currencyLabel?: string
   artifacts: Artifact[]
   oddities: Equipment[]
   background: string

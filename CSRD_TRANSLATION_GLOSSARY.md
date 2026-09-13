@@ -95,7 +95,7 @@ This glossary defines canonical terminology for `src/pages/ko/cypher-open/` and 
 - Keep mechanics exact (costs, ranges, tiers, options, numbers, limits).
 - Korean bold spacing rule: write particles outside bold.
   - Correct: `**재능 강화** 를`
-  - Wrong: `**재능 강화**를`
+  - Wrong: `**재능 강화** 를`
 - Never insert spaces inside bold markers.
   - Wrong: `** 재능 강화**`, `**재능 강화 **`
 
