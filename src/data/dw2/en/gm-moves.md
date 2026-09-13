@@ -32,7 +32,9 @@ A GM Move can be described as “hard” or “soft” based on the severity of 
 
 A **hard Move** is when **something changes in the fiction in a way that can’t easily be undone**, such as an ally getting seriously wounded, a treasure getting lost or stolen, or an enemy escaping the PC’s grasp. Hard Moves are typically described with the full consequences, with the PCs only being asked “*What do you do*?” **after** this happens, rather than before or during the resolution of the Move. 
 
-For example: *“The elementalist raises a crackling orb high in one hand, and even as you dive for her, a bolt of lightning arcs straight into the market center, detonating several barrels in a fiery explosion”*.  In this case, the unrecoverable consequence here is the explosion.
+For example: *“The elementalist raises a crackling orb high in one hand, and even as you dive for her, a bolt of lightning arcs straight into the market center, detonating several barrels in a fiery explosion”*.
+
+In this case, the unrecoverable consequence here is the explosion.
 
 #### Soft Moves
 

@@ -27,7 +27,13 @@ PC’s Name		   Relationship					              ◯ ◯ ◯
 
 #### Relationship Examples
 
-*I frequently need to mediate on their behalf*  ✦ *My deity showed me their destiny*  ✦ *We share very similar beliefs* ✦ *They follow a power who opposes my deity* ✦ *They have a history with a sworn enemy of my deity* ✦ *They have lost their way; I need to help them* ✦ *They knew me from before I found my faith* 
+*I frequently need to mediate on their behalf*
+* *My deity showed me their destiny*
+* *We share very similar beliefs*
+* *They follow a power who opposes my deity*
+* *They have a history with a sworn enemy of my deity*
+* *They have lost their way; I need to help them*
+* *They knew me from before I found my faith*
 
 ### Starting Move
 
@@ -85,7 +91,7 @@ When you [**Level Up**](/ko/awe/dw2/extra-moves#level-up), choose one of the fol
 ☐ Gain a Path from your Class (and its Starting Move)  
 ☐ Reveal a Struggle  
 ☐ ☐ ☐ ☐ Gain a Path Move  
-✦ Change your Class
+* Change your Class
 
 From **Level 5 onwards**, you can also choose from the following:  
 ☐ \+1 to any Stat (max \+2)  
@@ -98,7 +104,9 @@ From **Level 5 onwards**, you can also choose from the following:
 From **Level 10 onwards**, you can also choose from the following:  
 ☐ \+1 to any Stat (max \+3)  
 ☐  **Multiclass** — Unlock a Path from another Class  
-☐ Obtain an *Artifact*. Choose from those available or work with your GM to create one.  
+☐ Obtain an *Artifact*.
+
+Choose from those available or work with your GM to create one.
 ☐ ☐ ☐ ☐ Gain a Path Move
 
 ### Caregiver
@@ -135,16 +143,18 @@ Gain the [Invoke the Divine](#invoke-the-divine-—-name-\(pro/nouns\):-___) Cle
 
 #### ☐ A Moth to the Sacred Flame
 
-When you willingly expose yourself to an enemy attack, roll+CHA; if you’re vulnerable while doing so, roll with adv. \
-* **10+:** they boast and babble at you, and you can ask any two questions about them or their superiors. \
-* **7–9:** you can ask one question, but after answering they’ll turn to violence. \
+When you willingly expose yourself to an enemy attack, roll+CHA; if you’re vulnerable while doing so, roll with adv.
+
+* **10+:** they boast and babble at you, and you can ask any two questions about them or their superiors.
+* **7–9:** you can ask one question, but after answering they’ll turn to violence.
 * **6-:** they’re far more cunning or powerful than they appear (GM’s call); mark 1 XP and the GM makes a Move.
 
 #### ☐ Haruspication
 
-When you ritually sacrifice something important, ask your deity one question about your sacrifice or something associated with it (owners, loved ones, history, etc.), and roll+WIS. \
-* **10+:** your deity shows you a vivid vision that answers your question fully. \
-* **7–9:** the vision is cryptic and needs deciphering. \
+When you ritually sacrifice something important, ask your deity one question about your sacrifice or something associated with it (owners, loved ones, history, etc.), and roll+WIS.
+
+* **10+:** your deity shows you a vivid vision that answers your question fully.
+* **7–9:** the vision is cryptic and needs deciphering.
 * **6-:** your vision includes an omen of doom; mark 1 XP and the GM makes a Move.
 
 #### ☐ Sacred Truth
@@ -173,7 +183,9 @@ When you condemn someone for their evil ways, instead of gaining 1 Depth with yo
 
 #### ☐ Not the End
 
-When you [Face Death](/ko/awe/dw2/extra-moves#face-death), you can also choose the following option: *Divine Intervention*. Your deity miraculously saves your life, banishes a danger, enemy or obstacle, then restores all your HP. You’re no longer Helpless. You still lock a Condition after [Facing Death](/ko/awe/dw2/extra-moves#face-death).
+When you [Face Death](/ko/awe/dw2/extra-moves#face-death), you can also choose the following option: *Divine Intervention*.
+
+Your deity miraculously saves your life, banishes a danger, enemy or obstacle, then restores all your HP. You’re no longer Helpless. You still lock a Condition after [Facing Death](/ko/awe/dw2/extra-moves#face-death).
 
 #### ☐ Spiritual Weapon
 

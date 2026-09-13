@@ -20,7 +20,9 @@ Being a Game Master (GM) is an important part of the game, and it can be extreme
 * **Your NPCs are NOT the protagonists**. They can still be awesome, some can be around frequently, but their most memorable moments should draw the game's focus back to the PCs in some way.  
 * **You are NOT responsible for everyone’s fun**. This is a collaborative game, and everyone is equally responsible for being mature, kind, and respectful to each other.   
 * **You are here to have fun too\!** Collaboration is a two-way street, so feel free to inject your ideas into the world, or suggest an idea to a Player (after asking if they are okay with you doing so, of course).  
-* **You are NOT the “author of a story”**. This is a shared game about an evolving conversation that creates something like a story *ex post facto*. If you go in with a fixed “plot” in mind, then we assure you everything will become more difficult and less fun for everyone. Lean into the unexpected and let yourself be surprised. PLAY TO FIND OUT\!  
+* **You are NOT the “author of a story”**. This is a shared game about an evolving conversation that creates something like a story *ex post facto*.
+
+If you go in with a fixed “plot” in mind, then we assure you everything will become more difficult and less fun for everyone. Lean into the unexpected and let yourself be surprised. PLAY TO FIND OUT\!
 * **You are NOT the organizer**. It’s up to everyone in the group to decide how to handle things like session scheduling, group behavior, snacks, and what to do if someone is late or can’t make it. Don’t overburden yourself with these tasks, and learn to delegate them as much as possible.  
 * **You are NOT infallible**, so don’t sweat over the small stuff. If you make a mistake, or have trouble coming up with ideas, that’s okay. Feel free to ask for help from others in your gaming group, or outside of it.
 

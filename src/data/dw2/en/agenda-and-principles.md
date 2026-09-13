@@ -31,7 +31,9 @@ This back and forth creates a wonderful unknown that is discovered, through play
 
 Fantasy fiction and games—and DW2 is no different—include many elements that do not and could never exist in our world, such as magic, nonhuman sapient beings, and other dimensions that can’t usually be accessed physically, among many others. “Fantasy” may seem like an obvious concept these days, but such worlds have become so filled with mundanity as to not feel truly fantastical anymore. 
 
-We believe that what makes fantasy worlds amazing is the right mixture of *wonder* and *believability*. If you focus on wonder too much, the world (and game) often feels inconsistent and driven by whim, which can reduce the emotional impact of events and consequences. On the other hand, focusing purely on believability will make the world feel predictable, sterile, or boring— too close to what we are already familiar with. As such, we recommend you don't try to rationalize or unnecessarily justify the fantastical elements in the world, and instead leave room for new and peculiar forms of the impossible to appear later.
+We believe that what makes fantasy worlds amazing is the right mixture of *wonder* and *believability*.
+
+If you focus on wonder too much, the world (and game) often feels inconsistent and driven by whim, which can reduce the emotional impact of events and consequences. On the other hand, focusing purely on believability will make the world feel predictable, sterile, or boring— too close to what we are already familiar with. As such, we recommend you don't try to rationalize or unnecessarily justify the fantastical elements in the world, and instead leave room for new and peculiar forms of the impossible to appear later.
 
 The abstract ideal lies in a balance between the two. The specific proportions will depend on you and your group’s preferences, so you’ll probably need to discuss this with them during [**Session Zero**](/ko/awe/dw2/session-zero#session-zero) procedures, but here are some ideas for adding both to your world.
 
@@ -43,9 +45,15 @@ To make your world more wondrous:
 
 To make your world feel more believable:
 
-* *Describe what the PCs see and hear, yes, but also what they smell, touch, and more*. How warm is the fire? What does the room smell like after a magical lightning is unleashed within it?  
-* *Give its inhabitants human emotions and struggles*. Maybe elves don't sleep or age, but they still struggle with love, loss, and fear, even if they might express it in unusual ways.  
-* *Show how the passage of time affects people and places*. This could be as simple as a holiday festival, or a change in leadership, an ongoing project, or a collapsing building. Change, growth, and decay all overlap
+* *Describe what the PCs see and hear, yes, but also what they smell, touch, and more*.
+
+How warm is the fire? What does the room smell like after a magical lightning is unleashed within it?
+* *Give its inhabitants human emotions and struggles*.
+
+Maybe elves don't sleep or age, but they still struggle with love, loss, and fear, even if they might express it in unusual ways.
+* *Show how the passage of time affects people and places*.
+
+This could be as simple as a holiday festival, or a change in leadership, an ongoing project, or a collapsing building. Change, growth, and decay all overlap
 
 ## <a id="principles"></a>Principles
 
@@ -73,11 +81,15 @@ In contrast, we think that the best way to communicate larger scale situations i
 
 ### Give every NPC a motivation
 
-Non-player characters (NPCs) are your characters in the game. As such, the best advice we can offer on how to portray them better is to *know why they do what they do*. In writing, this is often referred to as a character’s motivation, desire, or goal. We use the term **Drive** in our NPC statblocks. The idea is the same: knowing a character’s underlying reason for acting the way they do will make it easier for you to roleplay them.  Additionally, if the PCs come to learn that reason, it will add a sense of believability to the fantasy world you’re all building together.
+Non-player characters (NPCs) are your characters in the game. As such, the best advice we can offer on how to portray them better is to *know why they do what they do*.
+
+In writing, this is often referred to as a character’s motivation, desire, or goal. We use the term **Drive** in our NPC statblocks. The idea is the same: knowing a character’s underlying reason for acting the way they do will make it easier for you to roleplay them.  Additionally, if the PCs come to learn that reason, it will add a sense of believability to the fantasy world you’re all building together.
 
 ### Let the Players roleplay with each other
 
-One of the most common foibles among GMs is that *we just speak too much*. We want to “fill the silence,” so to speak, to keep things moving, and to make the whole game as entertaining as possible for everyone involved. The “problem” is that part of the fun of playing a TTRPG is roleplaying PC-PC interactions when you are a Player. DW2, even more so, has as a core part of its vision the idea that PCs are encouraged to form deep Bonds with each other. And even though that may happen mechanically without that much actual roleplay, the ideal is that the Players feel that their characters are getting closer to one another in the fiction. 
+One of the most common foibles among GMs is that *we just speak too much*.
+
+We want to “fill the silence,” so to speak, to keep things moving, and to make the whole game as entertaining as possible for everyone involved. The “problem” is that part of the fun of playing a TTRPG is roleplaying PC-PC interactions when you are a Player. DW2, even more so, has as a core part of its vision the idea that PCs are encouraged to form deep Bonds with each other. And even though that may happen mechanically without that much actual roleplay, the ideal is that the Players feel that their characters are getting closer to one another in the fiction.
 
 So, in short: every once in a while just shut up, sit back, and enjoy your Players roleplaying with each other. Let it happen naturally, and don’t intervene unless you’re required to. The adventure will be ready when they are.
 

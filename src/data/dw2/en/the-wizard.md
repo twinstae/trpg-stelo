@@ -27,20 +27,26 @@ PC’s Name		   Relationship					              ◯ ◯ ◯
 
 #### Relationship Examples
 
-*I hurt them with a spell* ✦ *They have a mind for magic, but lack the discipline* ✦ *They believe a bunch of superstitious nonsense* ✦ *They think I’m a power-hungry megalomaniac* ✦ *They’re keeping an arcane secret from me* ✦ *They’re my willing test subject* ✦ *We share a niche interest and endlessly chat about it*
+*I hurt them with a spell*
+* *They have a mind for magic, but lack the discipline*
+* *They believe a bunch of superstitious nonsense*
+* *They think I’m a power-hungry megalomaniac*
+* *They’re keeping an arcane secret from me*
+* *They’re my willing test subject*
+* *We share a niche interest and endlessly chat about it*
 
 ### Starting Move
 
 #### ☑ <a id="weave-the-arcane"></a>Weave the Arcane
 
-You start with 3 Schools of Magic Prepared; mark them now. When you finish [Making Camp](/ko/awe/dw2/extra-moves#make-camp), you can change which Schools you have Prepared. \
-Abjuration (substance: magic itself; verbs: temporarily disable; protect from) \
-Conjuration (substance: objects or outsiders; verbs: briefly create; momentarily summon) \
-Divination (substance: past, present, and future visions; verbs: convey; discern) \
-Enchantment (substance: sapient beings; verbs: modify emotions; temporarily charm) \
-Evocation (substance: elemental energies; verbs: lesser sculpt; minor channel) \
-Illusion (substance: sight and/or sounds; verbs: cloak; disguise) \
-Necromancy (substance: unlife; verbs: briefly bestow; radiate) \
+You start with 3 Schools of Magic Prepared; mark them now. When you finish [Making Camp](/ko/awe/dw2/extra-moves#make-camp), you can change which Schools you have Prepared.  \
+Abjuration (substance: magic itself; verbs: temporarily disable; protect from)  \
+Conjuration (substance: objects or outsiders; verbs: briefly create; momentarily summon)  \
+Divination (substance: past, present, and future visions; verbs: convey; discern)  \
+Enchantment (substance: sapient beings; verbs: modify emotions; temporarily charm)  \
+Evocation (substance: elemental energies; verbs: lesser sculpt; minor channel)  \
+Illusion (substance: sight and/or sounds; verbs: cloak; disguise)  \
+Necromancy (substance: unlife; verbs: briefly bestow; radiate)  \
 Transmutation (substance: matter; verbs: momentarily alter; repair) You can [Cast a Spell](/ko/awe/dw2/core-moves#cast-a-spell-\(+variable\))\+INT by combining a verb and a substance from your Prepared Schools to create an effect, as long as you have your arcane focus, both hands otherwise free, and the ability to speak aloud. You can combine verbs and substances from different Prepared Schools. When you [Cast a Spell](/ko/awe/dw2/core-moves#cast-a-spell-\(+variable\)) this way, your unique 7-9 option is: forget a Prepared School until you next [Make Camp](/ko/awe/dw2/extra-moves#make-camp)
 
 ### Equipment & Appearance
@@ -84,7 +90,7 @@ When you [**Level Up**](/ko/awe/dw2/extra-moves#level-up), choose one of the fol
 ☐ Gain a Path from your Class (and its Starting Move)  
 ☐ Reveal a Struggle  
 ☐ ☐ ☐ ☐ Gain a Path Move  
-✦ Change your Class
+* Change your Class
 
 From **Level 5 onwards**, you can also choose from the following:  
 ☐ \+1 to any Stat (max \+2)  
@@ -97,7 +103,9 @@ From **Level 5 onwards**, you can also choose from the following:
 From **Level 10 onwards**, you can also choose from the following:  
 ☐ \+1 to any Stat (max \+3)  
 ☐  **Multiclass** — Unlock a Path from another Class  
-☐ Obtain an *Artifact*. Choose from those available or work with your GM to create one.  
+☐ Obtain an *Artifact*.
+
+Choose from those available or work with your GM to create one.
 ☐ ☐ ☐ ☐ Gain a Path Move
 
 ### Evoker
@@ -106,8 +114,7 @@ From **Level 10 onwards**, you can also choose from the following:
 
 #### ☑ Evocation Magic
 
-Gain the [Weave the Arcane](#weave-the-arcane) Wizard Starting Move, though you only have access to \
-Evocation (substance: elemental energies; verbs: lesser sculpt; minor channel). If you already have this Move, instead add the verbs detonate and magnify to the Evocation School's repertoire, and when you [Make Camp](/ko/awe/dw2/extra-moves#make-camp) you can always mark Evocation in addition to your normal 3 Prepared Schools. *Mental Reserves* — You can mark a Condition to instantly Prepare a School of Magic, up to your normal limit.
+Gain the [Weave the Arcane](#weave-the-arcane) Wizard Starting Move, though you only have access to Evocation (substance: elemental energies; verbs: lesser sculpt; minor channel). If you already have this Move, instead add the verbs detonate and magnify to the Evocation School's repertoire, and when you [Make Camp](/ko/awe/dw2/extra-moves#make-camp) you can always mark Evocation in addition to your normal 3 Prepared Schools. *Mental Reserves* — You can mark a Condition to instantly Prepare a School of Magic, up to your normal limit.
 
 #### ☐ Contingency
 
@@ -123,9 +130,10 @@ Mark 1-3 Conditions, then a `#near` target and everyone `#close` to them suffers
 
 #### ☐ Power Weapon
 
-When you shape an elemental energy in the form of a weapon, mark 1-3 Conditions then roll+Conditions marked. \
-* **10+:** choose two of the following tags. \
-* **7–9:** only one: `#close` `#piercing` By default the weapon inflicts 1d6 dmg, is `#hand`, and has ◯◯◯ uses. When you Trade Blows with this weapon, roll+INT (instead of \+STR or \+DEX) and mark one use. \
+When you shape an elemental energy in the form of a weapon, mark 1-3 Conditions then roll+Conditions marked.
+
+* **10+:** choose two of the following tags.
+* **7–9:** only one: `#close` `#piercing` By default the weapon inflicts 1d6 dmg, is `#hand`, and has ◯◯◯ uses. When you Trade Blows with this weapon, roll+INT (instead of \+STR or \+DEX) and mark one use.
 * **6-:** the element breaks free; mark 1 XP and the GM makes a Move.
 
 ### Illusionist
@@ -134,8 +142,7 @@ When you shape an elemental energy in the form of a weapon, mark 1-3 Conditions 
 
 #### ☑ Illusion Magic
 
-Gain the [Weave the Arcane](#weave-the-arcane) Wizard Starting Move, though you only have access to \
-Illusion (substance: sights and/or sounds; verbs: cloak; disguise) School. If you already have this Move, instead add the verbs make permanent and substantiate to the Illusion School's repertoire, and when you [Make Camp](/ko/awe/dw2/extra-moves#make-camp) you can always mark Illusion in addition to your normal 3 Prepared Schools. *Trickster* — Once per scene, when someone believes a lie because of one of your illusions, clear a Condition.
+Gain the [Weave the Arcane](#weave-the-arcane) Wizard Starting Move, though you only have access to Illusion (substance: sights and/or sounds; verbs: cloak; disguise) School. If you already have this Move, instead add the verbs make permanent and substantiate to the Illusion School's repertoire, and when you [Make Camp](/ko/awe/dw2/extra-moves#make-camp) you can always mark Illusion in addition to your normal 3 Prepared Schools. *Trickster* — Once per scene, when someone believes a lie because of one of your illusions, clear a Condition.
 
 #### ☐ Alter Perception
 
@@ -159,8 +166,7 @@ The first time each NPC falls for one of your illusions, you may ask them one qu
 
 #### ☑ Necromantic Magic
 
-Gain the [Weave the Arcane](#weave-the-arcane) Wizard Starting Move, though you only have access to \
-Necromancy (substance: unlife; verbs: briefly bestow; radiate). If you already have this Move, instead add the verbs corrupt and drain to the Necromancy School's repertoire, and when you [Make Camp](/ko/awe/dw2/extra-moves#make-camp) you can always mark Necromancy in addition to your normal 3 Prepared Schools. *Rise and Serve* — When you kill a living creature with a spell, you can create a ghoul, skeleton, or zombie from their body (2 HP, inflicts 1 dmg).Undead you create are loyal to you and follow your commands, though only `#intelligent` ones (which these are not) can understand complex tasks.
+Gain the [Weave the Arcane](#weave-the-arcane) Wizard Starting Move, though you only have access to Necromancy (substance: unlife; verbs: briefly bestow; radiate). If you already have this Move, instead add the verbs corrupt and drain to the Necromancy School's repertoire, and when you [Make Camp](/ko/awe/dw2/extra-moves#make-camp) you can always mark Necromancy in addition to your normal 3 Prepared Schools. *Rise and Serve* — When you kill a living creature with a spell, you can create a ghoul, skeleton, or zombie from their body (2 HP, inflicts 1 dmg).Undead you create are loyal to you and follow your commands, though only `#intelligent` ones (which these are not) can understand complex tasks.
 
 #### ☐ A Ghost at the Feast
 
@@ -168,8 +174,7 @@ When you kill a living creature with a spell, instead of creating something from
 
 #### ☐ Lifeforce Is a Resource
 
-When you [Cast a Spell](/ko/awe/dw2/core-moves#cast-a-spell-\(+variable\)), \
-* **7–9:** you can instead choose this: *it drains your lifeforce*; take 1 dmg `#piercing` When you attune yourself to the ethereal shackles that bind your undead to your will, you may mark a Condition, then redestribute HP between yourself and any of your `#near` undead as you see fit.
+When you [Cast a Spell](/ko/awe/dw2/core-moves#cast-a-spell-\(+variable\)), On a 7-9 you can instead choose this: *it drains your lifeforce*; take 1 dmg `#piercing` When you attune yourself to the ethereal shackles that bind your undead to your will, you may mark a Condition, then redestribute HP between yourself and any of your `#near` undead as you see fit.
 
 #### ☐ Sanctum to Unlife
 

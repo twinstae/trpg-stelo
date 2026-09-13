@@ -32,7 +32,7 @@ export const DW2_CHAPTERS: Dw2ChapterMeta[] = [
   { slug: "the-fighter", titleEn: "The Fighter", titleKo: "파이터", part: "직업", status: "translated" },
   { slug: "the-rogue", titleEn: "The Rogue", titleKo: "도적", part: "직업", status: "translated" },
   { slug: "the-wizard", titleEn: "The Wizard", titleKo: "마법사", part: "직업", status: "translated" },
-  { slug: "behind-the-screen", titleEn: "Behind the Screen", titleKo: "화면 뒤에서", part: "마스터", status: "translated" },
+  { slug: "behind-the-screen", titleEn: "Behind the Screen", titleKo: "스크린 뒤에서", part: "마스터", status: "translated" },
   { slug: "agenda-and-principles", titleEn: "Agenda & Principles", titleKo: "강령과 원칙", part: "마스터", status: "translated" },
   { slug: "gm-moves", titleEn: "GM Moves", titleKo: "마스터 액션", part: "마스터", status: "translated" },
   { slug: "preparing-a-session", titleEn: "Preparing a Session", titleKo: "세션 준비", part: "마스터", status: "translated" },

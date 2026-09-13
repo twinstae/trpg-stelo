@@ -10,25 +10,27 @@ While you're wearing it, any time you would suffer max dmg, instead they just ro
 
 *A seemingly-ordinary 1 gallon ceramic jug*
 
-When you speak its magic word, one of the following liquids fills the jug (your call): \
-✦ acid \
-✦ basic poison \
-✦ beer \
-✦ fresh water \
-✦ mayonnaise \
-✦ oil \
-✦ saltwater \
-✦ vinegar \
-✦ wine
+When you speak its magic word, one of the following liquids fills the jug (your call):
+
+* acid
+* basic poison
+* beer
+* fresh water
+* mayonnaise
+* oil
+* saltwater
+* vinegar
+* wine
 
 #### animated rope
 
 *A rope that listens and sometimes wags one of its ends like a tail. Does tricks, too, like a smart and more obedient snake might*
 
-When you command the rope to perform a simple action (within its capabilities), it does so. Example orders include: \
-✦ coil \
-✦ come here \
-✦ slack
+When you command the rope to perform a simple action (within its capabilities), it does so. Example orders include:
+
+* coil
+* come here
+* slack
 
 #### animated shield — ◯ use
 
@@ -40,14 +42,15 @@ This shield floats near you, and protects you of its own volition without you ne
 
 `#cursed` *This golden suit of armor never needs to be polished* 
 
-Choose one type of dmg from the following: divine, magical, or physical. While you're wearing it, you suffer only half the dmg of the chosen type. *Cursed*. You cannot take this armor off unless you find a way to lift its curse. While you're wearing it, you suffer double the dmg of any type not chosen above.
+Choose one type of dmg from the following: divine, magical, or physical. While you're wearing it, you suffer only half the dmg of the chosen type. *Cursed*.
+
+You cannot take this armor off unless you find a way to lift its curse. While you're wearing it, you suffer double the dmg of any type not chosen above.
 
 #### arrow of \_\_\_ slaying
 
 *This arrow is a magic weapon meant to slay a specific kind of creature*
 
-Examples include: angel, demon, devil, dragon, or giant, just to name a few. Against such a creature the *arrow* has `#piercing` and, \
-🟎on a 12+ when you [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\)), it kills the creature immediately and the *arrow*’s magic is gone.
+Examples include: angel, demon, devil, dragon, or giant, just to name a few. Against such a creature the *arrow* has `#piercing` and, on a 12+ when you [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\)), it kills the creature immediately and the *arrow*’s magic is gone.
 
 #### arrows of acheron — ◯◯◯ uses
 
@@ -77,7 +80,9 @@ Typically, 1d4+4 beads of force are found together. You can throw it up to `#nea
 
 `#cursed` *This giant, double-headed axe has a bloodstain that always look fresh—and can’t be rubbed away*
 
-While you wield this axe, you get \+1 to your dmg rolls and your max HP increases by your STR (min 1). *Cursed*. You cannot wield any other weapon or let go of the axe unless you find a way to lift its curse. While you're wielding it, any time you deal dmg you or one of your allies (your call) suffers the same amount.
+While you wield this axe, you get \+1 to your dmg rolls and your max HP increases by your STR (min 1). *Cursed*.
+
+You cannot wield any other weapon or let go of the axe unless you find a way to lift its curse. While you're wielding it, any time you deal dmg you or one of your allies (your call) suffers the same amount.
 
 #### dancing sword
 
@@ -95,18 +100,22 @@ When you throw the dust into the air, you and each creature and object within `#
 
 *This magical sand contains a mote from the earth dimension* 
 
-This small packet contains 1d6+4 pinches of *dust*. When you sprinkle a pinch over a cube of water it transforms into one marble-sized pellet. The pellet's weight is negligible. You can smash the pellet against a hard surface, causing the pellet to shatter and the water to be released. When you expose a creature mostly composed of water to a pinch of *dust,* you need to [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\))\+DEX. \
-* **12+:** the creature’s destroyed. \
-* **10+:** you inflict 2d6 dmg `#piercing` on them. \
+This small packet contains 1d6+4 pinches of *dust*.
+
+When you sprinkle a pinch over a cube of water it transforms into one marble-sized pellet. The pellet's weight is negligible. You can smash the pellet against a hard surface, causing the pellet to shatter and the water to be released. When you expose a creature mostly composed of water to a pinch of *dust,* you need to [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\))\+DEX.
+
+* **12+:** the creature’s destroyed.
+* **10+:** you inflict 2d6 dmg `#piercing` on them.
 * **7–9:** you inflict only 1d6 dmg `#piercing`.
 
 #### dust of sneezing and choking — ◯ use
 
 `#cursed` *This powder appears to be dust of disappearance*
 
-When you throw the dust into the air, you and each creature and object within `#close` of you that needs to breathe become unable to do so while sneezing uncontrollably. You roll+DEX for everyone involved. \
-* **10+:** everyone escapes quickly, each suffering only 1d6 dmg `#piercing`. \
-* **7–9:** the escape takes longer, so everyone suffers 2d6 dmg `#piercing`. \
+When you throw the dust into the air, you and each creature and object within `#close` of you that needs to breathe become unable to do so while sneezing uncontrollably. You roll+DEX for everyone involved.
+
+* **10+:** everyone escapes quickly, each suffering only 1d6 dmg `#piercing`.
+* **7–9:** the escape takes longer, so everyone suffers 2d6 dmg `#piercing`.
 * **6-:** everyone is at 1 HP and you all become unconscious; mark 1 XP and the GM makes a Move.
 
 #### earworm wax — ◯ ◯ ◯ uses
@@ -149,9 +158,12 @@ While wearing this helm you can mark a Condition to understand the literal meani
 
 *This silver horn bears the enchantment of the thunder rune*
 
-When you speak a command word and blow the horn, mark a Condition to have it emit a thunderous blast. Then, roll+CHA. \
-* **10+:** all your enemies `#near` suffer 1d6 dmg `#piercing` and are deafened until the end of the scene, and all your allies clear a Condition. \
-* **7–9:** choose one or the other. \
+When you speak a command word and blow the horn, mark a Condition to have it emit a thunderous blast.
+
+Then, roll+CHA.
+
+* **10+:** all your enemies `#near` suffer 1d6 dmg `#piercing` and are deafened until the end of the scene, and all your allies clear a Condition.
+* **7–9:** choose one or the other.
 * **6-:** you get both but the horn explodes, causing you to suffer the same dmg as your enemies and losing all its magic permanently; mark 1 XP and the GM makes a Move.
 
 #### immovable rod — ◯ use
@@ -266,9 +278,10 @@ When you drink this potion, you become invisible until you Cast a Spell, inflict
 
 `#cursed` *This concoction looks, smells, and tastes like a potion of healing or other beneficial potion*
 
-When you drink this potion, roll+STR. \
+When you drink this potion, roll+STR.
+
 * **10+:** you were able to withstand most of the poison’s effect; suffer only 1d6 dmg `#piercing`.
-* **7–9:** you suffer 2d6 dmg `#piercing` and are `#poisoned` (dis to all rolls until you stop being poisoned). \
+* **7–9:** you suffer 2d6 dmg `#piercing` and are `#poisoned` (dis to all rolls until you stop being poisoned).
 * **6-:** you need to Face Death; mark 1 XP and the GM makes a Move.
 
 #### potion of \_\_\_ resistance — ◯ use
@@ -317,23 +330,24 @@ When found, a container has 1d6+1 uses left. One use can cover a 1-foot square s
 
 *An ancient-looking parchment scroll sealed with a pale-white ribbon and a golden wax seal impressed with an unknown symbol*
 
-When you read this scroll, its magic is consumed and you can [Cast a Spell](/ko/awe/dw2/core-moves#cast-a-spell-\(+variable\))\+INT with an effect of mag 0 or 1\. The spell scroll is considered a magic item you can use and \
-🟎on a 7-9, it doesn’t grant you a unique option.
+When you read this scroll, its magic is consumed and you can [Cast a Spell](/ko/awe/dw2/core-moves#cast-a-spell-\(+variable\))\+INT with an effect of mag 0 or 1\. The spell scroll is considered a magic item you can use and on a 7-9, it doesn’t grant you a unique option.
 
 #### staff of the adder
 
 *A wood staff carved into the face of a snake*
 
-When you wield and command this staff, it transforms into a venomous snake which understands and follows your commands until the end of the scene. Venomous Snake — 3 HP, 1 Armor (bark-like skin), 1d4 dmg (bite). *Poison*. PCs bitten must roll+STR. \
-* **7–9:** they suffer 1d4 extra poison dmg. \
+When you wield and command this staff, it transforms into a venomous snake which understands and follows your commands until the end of the scene. Venomous Snake — 3 HP, 1 Armor (bark-like skin), 1d4 dmg (bite). *Poison*.
+
+PCs bitten must roll+STR.
+
+* **7–9:** they suffer 1d4 extra poison dmg.
 * **6-:** they suffer 2d4 extra poison dmg
 
 #### sword of life stealing
 
 *This blade’s crossguard and pommel are ornate, decorated with skull motifs. The grip is wrapped in black material with red accents and tied with red ribbons*
 
-While you wield this sword when you Trade Blows, \
-🟎on a 12+, you inflict \+1d6 dmg as long as your opponent isn’t a construct or undead, and you regain HP equal to the total dmg you inflicted.
+While you wield this sword when you Trade Blows, on a 12+, you inflict \+1d6 dmg as long as your opponent isn’t a construct or undead, and you regain HP equal to the total dmg you inflicted.
 
 #### tears of Annalise
 
@@ -345,9 +359,10 @@ When you and another PC each swallow a tear, you can feel the other’s strong e
 
 *This trident has a staff made of dark, weathered wood, adorned with rough, organic textures and sharp, dark green barnacle-like growths near the base*
 
-While you wield this trident, you can mark a use and roll+WIS to telepathically connect with a beast native to water. \
-* **10+:** you take total control of the creature’s actions until the end of the scene. \
-* **7–9:** you can give the creature a single, simple command that they’ll follow to the best of their ability. \
+While you wield this trident, you can mark a use and roll+WIS to telepathically connect with a beast native to water.
+
+* **10+:** you take total control of the creature’s actions until the end of the scene.
+* **7–9:** you can give the creature a single, simple command that they’ll follow to the best of their ability.
 * **6-:** the creature sees you as a menace; mark 1 XP and the GM makes a Move.
 
 #### universal solvent — ◯ use
@@ -360,5 +375,4 @@ When you mark a use and pour the contents of the tube onto a surface within reac
 
 *A weapon with an ornate gold basket hilt and a long, thin steel blade*
 
-While you wield this weapon when you [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\)), \
-🟎on a 12+, you inflict \+1d6 dmg.
+While you wield this weapon when you [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\)), on a 12+, you inflict \+1d6 dmg.

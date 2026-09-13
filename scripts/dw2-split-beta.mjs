@@ -93,36 +93,200 @@ for (let i = 0; i < lineCount; i++) {
 const unescape = (s) => s.replace(/\\(.)/g, "$1");
 
 // --- 2.5 레이아웃 정리 --------------------------------------------------
-// 원문은 무브 본문을 `| ... |\n| :---- |` 껍데기로 감싸 두었다(PDF 변환 잔재).
-// 그대로 두면 영어 쪽만 회색 표로 렌더되어 한국어 번역(문단·목록)과 어긋나므로 풀어낸다.
-// 구분선이 한 열짜리일 때만 풀고, 두 열 이상(진짜 표: 피해 주사위·마법 아이템·재물 등)은 그대로 둔다.
+// 원문은 Word 문서를 Markdown으로 바꾼 것이라, 무브 본문을 1열 표 껍데기
+// (`| … |` + `| :---- |`)로 감싸 두었고, 셀 안에 있던 여러 줄(무브 이름·선택지·
+// 굴림 결과·체크 항목)을 한 줄로 눌러 버렸다. 그대로 두면 영어 쪽만 회색 표로
+// 렌더되거나(고치기 전) 무브 하나가 통째로 한 문단이 된다. 셀 안에 남은 단서로
+// 줄 구조를 되살린다. 구분선이 두 열 이상인 진짜 표(피해 주사위·마법 아이템
+// 예시·재물 등)는 건드리지 않는다.
+//
+//   🟎/✦/✶ + `On a 10+,`  … 진짜 굴림 결과 → `* **10+:** …` 목록 항목
+//   🟎/✶ (굴림이 아니면)    … 문장 안 기호 → 지운다
+//   ✦ (목록 기호일 때)      … `* …` 목록 항목
+//   ☐/☑ `이름 (설명)` 3개 이상 … `- ☐ …` 목록 항목
+//   `\+STR if you …` 선택지  … `* …` 목록 항목
+//   `이름 (substance: …)` 2개 이상 … 문단 안 줄바꿈
+//   `*선택지 —*`            … `* …` 목록 항목
+//   `*이름*.` / `이름. When you …` … 새 문단 (무브·선택지 이름)
+//
+// 중간 표시(아래 PB·LB·IB)는 최종 원고에 남지 않는다.
+const PB = "\u0001"; // 문단 나눔
+const LB = "\u0002"; // 문단 안 줄바꿈(하드 브레이크)
+const IB = "\u0003"; // 목록 항목
+
 const SINGLE_COL_SEP_RE = /^\|\s*:?-{3,}:?\s*\|\s*$/;
 let wrappersUnwrapped = 0;
 
-const hardBreak = (s) =>
-  s
-    // 잃어버린 줄바꿈을 마커 앞에서 되살린다.
-    .replace(/\s+(🟎|✦|✶)/g, "  \\\n$1")
-    .replace(/\s+(\\\+[A-Z]{3} if you\b)/g, "  \\\n$1")
-    // 마법사 계열처럼 `이름 (substance: …)`가 연달아 붙은 줄도 나눈다.
-    .replace(/\s+(?=[A-Z][A-Za-z'’-]+ \(substance:)/g, "  \\\n")
-    .replace(/[ \t]{2,}/g, " ")
-    .trim();
+const ROLL_R = "(?:[0-9]+\\s*[–-]\\s*[0-9]+\\+?|[0-9]+\\+|[0-9]+-)";
+// 굴림 결과는 `On a 10+,`처럼 굴림 뒤에 쉼표·콜론이 온다. `🟎10+ list`나
+// `🟎On a 12+ when you`처럼 구두점이 없으면 문장 안 기호다.
+const ROLL_CUE_RE = new RegExp(`[ \\t]*[🟎✦✶][ \\t]*(?:On[ \\t]+a[ \\t]*)?(${ROLL_R})[ \\t]*[,:][ \\t]*`, "gu");
+const DIAMOND_RE = /[ \t]*◆[ \t]*/gu;
+const GLYPH_RE = /[🟎✶]/gu;
+const OPTION_RE = /[ \t]+(?=\\\+[A-Z]{3}[ \t]+if[ \t]+you\b)/g;
+// `*작은 한 쌍 —*`처럼 이탤릭 선택지 이름 뒤에 설명이 붙는 꼴.
+const ITALIC_LABEL_RE = /[ \t]+(?=\*[^*\n]{1,45}—\*)/g;
+// `*Spit in Death's Face*.` 뒤에는 그 선택지의 설명이 이어진다.
+// 굵은 글씨를 닫는 `**`(예: `**Cast a Spell**.`)를 이탤릭으로 오해하지 않게 앞 별을 배제한다.
+const ITALIC_ITEM_END_RE = /(?<!\*)(\*\.[ \t]+)(?=[A-Z])/g;
+const STEP_RE = /[ \t]+(?=(?:Then|Finally|Next|Lastly),)/g;
+// 무브 이름은 `이름. When you …` 꼴로 문장이 시작된다. Word 원본에서는 이름이
+// 굵게(+체크 상자) 잡혀 있었는데 변환기가 놓쳤다 — 굵기와 문단만 되살린다.
+// 앞이 문장 끝일 때만 자른다 — `the GM makes a Move. If …` 같은 문장은 건드리지 않는다.
+// 체크 상자 뒤에 오는 이름(`☐ Ward Words of Wisdom. Once per …`)도 있다.
+const MOVE_TRIGGER_SRC =
+  "(?:When|Once|Each|While|If|After|Until|Either|On|You|Anyone|Any|Sometimes|Choose|Roll|Say|Ask)\\b";
+const MOVE_NAME_SRC = "((?:[A-Z][A-Za-z'’-]*(?:[ \\t]+(?:[a-z]{1,3}|&|[A-Z][A-Za-z'’-]*)){0,4})\\.)";
+const MOVE_NAME_RE = new RegExp(`(?<=[.!?:☐☑])[ \\t]+${MOVE_NAME_SRC}(?=[ \\t]+${MOVE_TRIGGER_SRC})`, "g");
+// 표 셀 맨 앞에서 시작하는 첫 무브 이름(`Back to Back. When you …`).
+const MOVE_NAME_START_RE = new RegExp(`^${MOVE_NAME_SRC}(?=[ \\t]+${MOVE_TRIGGER_SRC})`);
+// 한국어는 번역할 때 무브·선택지 이름을 `**이름.**`으로 굵게 적어 두었다.
+const KO_MOVE_NAME_RE = /(?<=[.!?)\u2019"\u201d])[ \t]+(?=\*\*[^*\n]{1,40}\.\*\*)/g;
+// 괄호 안 설명. `\(`처럼 이스케이프된 괄호와 링크 주소의 괄호는 먼저 감춰 두므로
+// (maskLinks) 괄호·이스케이프 문자만 피하면 된다.
+const PAREN_BAL = "(?:\\\\.|[^()\\\\])*";
+// 설명을 닫는 괄호가 `\)`처럼 이스케이프된 곳도 있다(`increase dmg by 1\)`).
+const PAREN_CLOSE = "\\\\?\\)";
+const BALLOT_ITEM_RE = new RegExp(`([☐☑][ \\t]*(?:\\*[^*\\n]+\\*|[^\\s(]+)[ \\t]*\\(${PAREN_BAL}${PAREN_CLOSE})`, "g");
+const SUBSTANCE_ITEM_RE = new RegExp(`([A-Z][a-z]+[ \\t]*\\(substance:${PAREN_BAL}\\))`, "g");
 
-function unwrapPseudoTables(bodyLines) {
-  const out = [];
-  for (const line of bodyLines) {
-    if (SINGLE_COL_SEP_RE.test(line) && out.length && /^\|/.test(out[out.length - 1])) {
-      const raw = out.pop().trim();
-      const inner = raw.startsWith("|") ? raw.slice(1) : raw;
-      const content = inner.endsWith("|") ? inner.slice(0, -1) : inner;
-      out.push(hardBreak(content));
-      wrappersUnwrapped++;
+// Markdown 링크 주소(`](#anchor-\(x\)`)에는 진짜 괄호가 섞여 있어 항목 경계 판단을
+// 흔든다. 규칙을 돌리는 동안만 감추고 마지막에 되돌린다.
+const LINK_DEST_RE = /\]\(#(?:\\.|[^)\\])*\)/g;
+const MASK = "\u0004";
+let maskedLinks = [];
+const maskLinks = (s) => s.replace(LINK_DEST_RE, (m) => `${MASK}${maskedLinks.push(m) - 1}${MASK}`);
+const unmaskLinks = (s) => s.replace(/\u0004(\d+)\u0004/g, (_m, i) => maskedLinks[+i]);
+
+/** 사이에 PB·LB·IB 말고 다른 글자가 없으면 같은 목록 묶음으로 본다. */
+const spaceOnlyBetween = (sep) => sep.replace(/[\u0001\u0002\u0003]/g, "").trim() === "";
+
+/** `이름 (설명)` 꼴 항목이 minCount개 이상 이어지면 각각 목록 항목으로 띄운다. */
+function splitItemRuns(s, re, minCount, prefix, join) {
+  const matches = [...s.matchAll(re)];
+  if (!matches.length) return s;
+  const groups = [];
+  let cur = [];
+  for (const m of matches) {
+    const prevEnd = cur.length ? cur[cur.length - 1].index + cur[cur.length - 1][0].length : 0;
+    if (cur.length && spaceOnlyBetween(s.slice(prevEnd, m.index))) cur.push(m);
+    else {
+      if (cur.length >= minCount) groups.push(cur);
+      cur = [m];
+    }
+  }
+  if (cur.length >= minCount) groups.push(cur);
+  if (!groups.length) return s;
+  let out = "";
+  let last = 0;
+  for (const g of groups) {
+    const start = g[0].index;
+    const end = g[g.length - 1].index + g[g.length - 1][0].length;
+    const head = s.slice(last, start);
+    // 이미 문단을 띄운 자리면 다시 띄우지 않는다(멱등).
+    out += head + (head.endsWith(PB) ? "" : PB) + g.map((m) => prefix + m[1].trim()).join(join);
+    last = end;
+  }
+  return out + s.slice(last);
+}
+
+/**
+ * ✦는 목록 기호로도(PDF의 불릿), 문장 안 기호로도 쓰인다. 요소마다 첫 ✦ 앞 글자를
+ * 보고 하나로 정한다 — 앞이 문장 끝이면 목록, 아니면(예: `Add ✦ *a* and ✦ *b*`)
+ * 문장 안 기호라 지운다.
+ */
+function markStarBullets(s) {
+  if (!s.includes("✦")) return s;
+  const first = s.indexOf("✦");
+  // ✦ 바로 앞에는 공백이 온다. 실제 앞 글자를 보려면 공백을 건너뛰어야 한다.
+  const before = s.slice(0, first).replace(/[ \t]+$/, "").slice(-1);
+  if (before && !".!?:*".includes(before)) return s.replace(/[ \t]*✦[ \t]*/gu, " ");
+  let out = s.replace(/[ \t]*✦[ \t]*/gu, `${IB}* `);
+  // 첫 항목도 같은 목록이다. 콜론으로 끝나는 도입 문장(`… following Skills: ✦ a ✦ b`)은 문단으로 남긴다.
+  const head = out.slice(0, out.indexOf(IB)).trim();
+  if (head && !head.endsWith(":")) out = `${IB}* ${out}`;
+  return out;
+}
+
+/** 이탤릭 선택지 이름(`*작은 한 쌍 —*`)을 목록 항목으로 띄운다. */
+function markItalicLabels(s) {
+  return s.replace(ITALIC_LABEL_RE, (m, offset) => {
+    // 이미 목록 기호 뒤에 온 것이면(`* *작은 한 쌍 —* …`) 그대로 둔다.
+    const before = s.slice(0, offset).replace(/[ \t]+$/, "");
+    return /(?:^|[\u0001\u0002\u0003])[-*+]$/.test(before) ? m : `${IB}* `;
+  });
+}
+
+/** PB·LB·IB 표시를 실제 Markdown 줄로 바꾼다. */
+function assembleBlocks(marked, fromCell) {
+  const parts = marked.split(/([\u0001\u0002\u0003])/);
+  const blocks = [];
+  let cur = null;
+  const flush = () => {
+    if (cur) blocks.push(cur);
+    cur = null;
+  };
+  let prev = null;
+  for (let i = 0; i < parts.length; i++) {
+    if (i % 2 === 1) {
+      prev = parts[i];
       continue;
     }
-    out.push(line);
+    // 셀 안은 줄바꿈 자리가 사라지며 공백이 겹친 곳이 많다.
+    const text = (fromCell ? parts[i].replace(/[ \t]{2,}/g, " ") : parts[i]).trim();
+    if (!text) continue;
+    if (prev === IB) {
+      if (cur?.list) cur.lines.push(text);
+      else {
+        flush();
+        cur = { list: true, lines: [text] };
+      }
+    } else if (prev === PB || !cur) {
+      flush();
+      cur = { list: false, lines: [text] };
+    } else if (prev === LB) {
+      if (cur.list) {
+        flush();
+        cur = { list: false, lines: [text] };
+      } else cur.lines.push(text);
+    } else cur.lines.push(text);
+    prev = parts[i];
+  }
+  flush();
+  // 블록 사이는 빈 줄로 띄운다. 목록과 문단이 붙어 있으면 Markdown이 문단을 목록 항목으로 삼킨다.
+  const out = [];
+  for (const b of blocks) {
+    if (out.length) out.push("");
+    out.push(b.list ? b.lines.join("\n") : b.lines.join("  \\\n"));
   }
   return out;
+}
+
+/** 한 요소(원문 한 줄, 또는 1열 표 셀 하나)를 Markdown 줄 여러 개로 편다. */
+function layoutElement(line, lang, fromCell) {
+  if (!line.trim()) return [line];
+  maskedLinks = [];
+  let s = maskLinks(line.replace(/\u200b/g, "").replace(/\r/g, ""));
+  s = s.replace(ROLL_CUE_RE, (_m, roll) => `${IB}* **${dashOf(roll)}:** `);
+  s = s.replace(/\u000b/g, PB); // Word의 줄바꿈(세로 탭)
+  s = s.replace(DIAMOND_RE, `${IB}  - `);
+  s = splitItemRuns(s, SUBSTANCE_ITEM_RE, 2, LB, "");
+  s = s.replace(OPTION_RE, `${IB}* `);
+  s = splitItemRuns(s, BALLOT_ITEM_RE, 3, `${IB}- `, "");
+  s = markStarBullets(s);
+  s = s.replace(GLYPH_RE, "");
+  s = markItalicLabels(s);
+  s = s.replace(ITALIC_ITEM_END_RE, `$1${PB}`);
+  s = s.replace(STEP_RE, PB);
+  if (lang === "ko") s = s.replace(KO_MOVE_NAME_RE, PB);
+  else {
+    s = s.replace(MOVE_NAME_RE, `${PB}**$1**`);
+    if (fromCell) s = s.replace(MOVE_NAME_START_RE, "**$1**");
+  }
+  s = unmaskLinks(s);
+  // 나눌 단서가 없는 줄은 그대로 둔다 — 표·시트처럼 탭과 띄어쓰기가 뜻을 지니는 줄을 건드리지 않는다.
+  if (!fromCell && !/[\u0001\u0002\u0003]/.test(s)) return [s];
+  return assembleBlocks(s, fromCell);
 }
 
 // --- 3. 링크 재작성 ------------------------------------------------------
@@ -310,12 +474,22 @@ function nestSublists(bodyLines) {
   return out;
 }
 
+/** 원문 줄들을 레이아웃 정리 → 헤딩·체크 변환 → 굴림 표기 통일 순으로 다듬는다. */
 function convertBody(bodyLines, lang) {
-  return nestSublists(
-    unwrapPseudoTables(bodyLines.map(codeTags))
-      .map(convertLine)
-      .map((line) => normalizeRolls(line, lang)),
-  );
+  const expanded = [];
+  for (let i = 0; i < bodyLines.length; i++) {
+    const line = codeTags(bodyLines[i]);
+    // 1열 표 껍데기면 셀 내용을 꺼내 줄 구조를 되살리고, 구분선은 버린다.
+    if (/^\|/.test(line) && SINGLE_COL_SEP_RE.test(bodyLines[i + 1] ?? "")) {
+      const inner = line.trim().replace(/^\|/, "").replace(/\|$/, "");
+      expanded.push(...layoutElement(inner, lang, true));
+      wrappersUnwrapped++;
+      i++;
+      continue;
+    }
+    expanded.push(...layoutElement(line, lang, false));
+  }
+  return nestSublists(expanded.map(convertLine).map((line) => normalizeRolls(line, lang)));
 }
 
 // --- 4. 영어 원고 쓰기 ---------------------------------------------------
@@ -382,7 +556,7 @@ writeFileSync(
 console.log(`원문 ${lineCount}줄 → 영어 원고 ${RANGES.length}개 (src/data/dw2/en/)`);
 console.log(`헤딩 앵커 ${anchorsKept}개 보존, 장 대제목 ${headingsDropped}개는 머리말로 이동, 장 간 링크 ${linksRewritten}개 재작성`);
 console.log(`시트 줄 ${sheetRowsDemoted}개를 헤딩에서 내림, 체크 항목 ${taskItemsConverted}개를 ☐/☑로 변환, 목록 헤딩 ${listHeadingsFixed}개 정리`);
-console.log(`무브를 감싼 1열 가짜 표 ${wrappersUnwrapped}개를 풀어 문단으로 정리`);
+console.log(`무브를 감싼 1열 가짜 표 ${wrappersUnwrapped}개를 풀어 셀 안 줄 구조를 되살림`);
 console.log(`굴림 결과 표기 ${rollsNormalized}개를 목록·문장으로 통일`);
 if (koFixed.length) console.log(`한국어 원고 정규화: ${koFixed.join(", ")}`);
 console.log("\n장별 상태:");

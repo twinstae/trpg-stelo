@@ -211,18 +211,12 @@ strong {
 /* Supporting Content */
 
 code {
-  --border-radius: 3px;
-  --padding-block: 0.2rem;
-  --padding-inline: 0.33rem;
-
-  font-family: var(--font-mono);
-  font-size: 0.85em;
-  color: inherit;
-  background-color: var(--color-secondary);
-  padding: var(--padding-block) var(--padding-inline);
-  margin: calc(var(--padding-block) * -1) -0.125em;
-  border-radius: var(--border-radius);
-  word-break: break-word;
+    background-color: var(--color-muted,
+    color-mix(in oklab, currentColor 8%, transparent));
+    font-family: var(--typeset-font-mono);
+    border-radius: min(calc(var(--radius, .5em) * .6), .35em);
+    padding: .125em .3em;
+    font-size: .85em;
 }
 
 pre.astro-code > code {

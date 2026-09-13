@@ -27,13 +27,37 @@ PC’s Name		   Relationship					              ◯ ◯ ◯
 
 #### Relationship Examples
 
-*They desperately need training* ✦ *We have a kill count competition going* ✦ *They saw me defeated and afraid* ✦ *I look to them for guidance* ✦ *They owe me their life* ✦ *They knew me from before* ✦ *They will get us all killed*
+*They desperately need training*
+* *We have a kill count competition going*
+* *They saw me defeated and afraid*
+* *I look to them for guidance*
+* *They owe me their life*
+* *They knew me from before*
+* *They will get us all killed*
 
 ### Starting Move
 
 #### ☑ <a id="signature-weapon-—-name:-___"></a>Signature Weapon — Name: \_\_\_
 
-You wield a unique, distinctive weapon. To start with, choose its base (or create a new one with the GM): *a small pair —* 1d4 dmg `#hand` `#precise` `#light` adv on dmg rolls *medium-sized & versatile —* 1d6 dmg `#close` *large-sized & powerful —* 1d8 dmg `#close` `#two-handed` *Ranged —* 1d6 dmg `#near` `#ammo` `#reload` `#two-handed` Then, choose two enhancements: ☐ adaptable (choose an extra range: `#hand`, `#close`, `#near`, `#far`) ☐ adamantine (it’s indestructible) ☐ alarming (glows in the presence of one creature type) ☐ grappling (after dealing dmg, you can pull a target closer to you) ☐ `#piercing` (ignores armor) ☐ pinning (after damaging a creature your size or smaller, you can briefly immobilize them) ☐ `#precise` (can [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\))\+DEX) ☐ sharp (increase dmg by 1\) Finally, give your weapon a name. Examples include: *Ataraxia, Cryptbreaker, Moonshadow, Sigil, Tempest, The Last Breath, The Rustbucket, Torrents of Blood*
+You wield a unique, distinctive weapon. To start with, choose its base (or create a new one with the GM):
+
+* *a small pair —* 1d4 dmg `#hand` `#precise` `#light` adv on dmg rolls
+* *medium-sized & versatile —* 1d6 dmg `#close`
+* *large-sized & powerful —* 1d8 dmg `#close` `#two-handed`
+* *Ranged —* 1d6 dmg `#near` `#ammo` `#reload` `#two-handed`
+
+Then, choose two enhancements:
+
+- ☐ adaptable (choose an extra range: `#hand`, `#close`, `#near`, `#far`)
+- ☐ adamantine (it’s indestructible)
+- ☐ alarming (glows in the presence of one creature type)
+- ☐ grappling (after dealing dmg, you can pull a target closer to you)
+- ☐ `#piercing` (ignores armor)
+- ☐ pinning (after damaging a creature your size or smaller, you can briefly immobilize them)
+- ☐ `#precise` (can [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\))\+DEX)
+- ☐ sharp (increase dmg by 1\)
+
+Finally, give your weapon a name. Examples include: *Ataraxia, Cryptbreaker, Moonshadow, Sigil, Tempest, The Last Breath, The Rustbucket, Torrents of Blood*
 
 ### Equipment & Appearance
 
@@ -77,7 +101,7 @@ When you [**Level Up**](/ko/awe/dw2/extra-moves#level-up), choose one of the fol
 ☐ Gain a Path from your Class (and its Starting Move)  
 ☐ Reveal a Struggle  
 ☐ ☐ ☐ ☐ Gain a Path Move  
-✦ Change your Class
+* Change your Class
 
 From **Level 5 onwards**, you can also choose from the following:  
 ☐ \+1 to any Stat (max \+2)  
@@ -90,7 +114,9 @@ From **Level 5 onwards**, you can also choose from the following:
 From **Level 10 onwards**, you can also choose from the following:  
 ☐ \+1 to any Stat (max \+3)  
 ☐  **Multiclass** — Unlock a Path from another Class  
-☐ Obtain an *Artifact*. Choose from those available or work with your GM to create one.  
+☐ Obtain an *Artifact*.
+
+Choose from those available or work with your GM to create one.
 ☐ ☐ ☐ ☐ Gain a Path Move
 
 ### Bulwark
@@ -103,15 +129,24 @@ Once per session, when you suffer dmg that isn't `#piercing`, you may ignore it 
 
 #### ☐ Armiger
 
-You know how to customize your armor and bring the best out of it. Choose one enhancement now: ☐ `#concealed` (it looks and sounds like mundane clothing) ☐ reinforced (increase the dmg reduction by 1\) ☐ spiked (when a foe deals dmg to you, they take 1 dmg `#piercing` in return) ☐ warded (choose a non-physical dmg type such as acid or fire; it's never `#piercing` for you) When you successfully [Make Camp](/ko/awe/dw2/extra-moves#make-camp), you may clear a use of a shield or change which enhancement your armor has.
+You know how to customize your armor and bring the best out of it. Choose one enhancement now:
+
+- ☐ `#concealed` (it looks and sounds like mundane clothing)
+- ☐ reinforced (increase the dmg reduction by 1\)
+- ☐ spiked (when a foe deals dmg to you, they take 1 dmg `#piercing` in return)
+- ☐ warded (choose a non-physical dmg type such as acid or fire; it's never `#piercing` for you) When you successfully [Make Camp](/ko/awe/dw2/extra-moves#make-camp), you may clear a use of a shield or change which enhancement your armor has.
 
 #### ☐ Second Wind
 
-When you [Face Death](/ko/awe/dw2/extra-moves#face-death), you also have access to the following option: *Not as Bad As It Looks*. Grit your teeth, force yourself through the pain, and get back up with 1 HP. You're no longer Helpless and you don't lock a Condition, but you can't choose this option again until after you successfully [Make Camp](/ko/awe/dw2/extra-moves#make-camp).
+When you [Face Death](/ko/awe/dw2/extra-moves#face-death), you also have access to the following option: *Not as Bad As It Looks*.
+
+Grit your teeth, force yourself through the pain, and get back up with 1 HP. You're no longer Helpless and you don't lock a Condition, but you can't choose this option again until after you successfully [Make Camp](/ko/awe/dw2/extra-moves#make-camp).
 
 #### ☐ Silent Protector
 
-When a combat situation begins, choose an ally (PC or NPC) `#near` you and gain the following benefits until the battle ends: *Retaliate.* When they get hurt for 2 or more dmg, gain adv on your next roll against the dmg source *Watchful Eye*. You can always appear `#near` them in a pinch, no matter where you were before. If you were in a tough spot, the GM will say how it's developed since you left
+When a combat situation begins, choose an ally (PC or NPC) `#near` you and gain the following benefits until the battle ends: *Retaliate.* When they get hurt for 2 or more dmg, gain adv on your next roll against the dmg source *Watchful Eye*.
+
+You can always appear `#near` them in a pinch, no matter where you were before. If you were in a tough spot, the GM will say how it's developed since you left
 
 #### ☐ Taunting Shout
 
@@ -123,11 +158,21 @@ When you cry out a challenge to your enemies, name one among them. For now, they
 
 #### ☑ The Blade Reforged
 
-Gain a [Signature Weapon](#signature-weapon-—-name:-___), following the Fighter's Starting Move of the same name. If you already have a [Signature Weapon](#signature-weapon-—-name:-___), either give it two more enhancements or gain a second Signature Weapon. When you [Enjoy Downtime](/ko/awe/dw2/campaign-moves#enjoy-downtime), you may also do the following: *Enhance*. Spend 1 Treasure and choose a *magic item* or *Artifact*. It becomes part of your Signature Weapon, which gains the item's properties, Moves, and whichever `#tags` make sense. A Signature Weapon may only be grafted with one item at a time; a previously-grafted item can be split as part of this activity.
+Gain a [Signature Weapon](#signature-weapon-—-name:-___), following the Fighter's Starting Move of the same name. If you already have a [Signature Weapon](#signature-weapon-—-name:-___), either give it two more enhancements or gain a second Signature Weapon. When you [Enjoy Downtime](/ko/awe/dw2/campaign-moves#enjoy-downtime), you may also do the following: *Enhance*.
+
+Spend 1 Treasure and choose a *magic item* or *Artifact*.
+
+It becomes part of your Signature Weapon, which gains the item's properties, Moves, and whichever `#tags` make sense. A Signature Weapon may only be grafted with one item at a time; a previously-grafted item can be split as part of this activity.
 
 #### ☐ Advanced Fighting Styles
 
-You've mastered an especially difficult or obscure fighting style. Choose one below: *Might of Arms*. You can comfortably wield `#two-handed` melee weapons in one hand, and even dual-wield them *Point Blank*. All ranged weapons you wield gain `#hand` and `#close`. While using oneup `#close` or closer, deal \+1 dmg *Spellbreaker*. When a `#close` NPC tries to create a magical effect, you may interrupt and stop it; mark a Condition from backlash
+You've mastered an especially difficult or obscure fighting style. Choose one below: *Might of Arms*.
+
+You can comfortably wield `#two-handed` melee weapons in one hand, and even dual-wield them *Point Blank*.
+
+All ranged weapons you wield gain `#hand` and `#close`. While using oneup `#close` or closer, deal \+1 dmg *Spellbreaker*.
+
+When a `#close` NPC tries to create a magical effect, you may interrupt and stop it; mark a Condition from backlash
 
 #### ☐ Boot Knife
 
@@ -135,8 +180,9 @@ Gain a set of adventuring gear (even if you already have one). You may mark a us
 
 #### ☐ Secret Weapon
 
-*The Hand That Wields* — When you [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\)) with an ordinary weapon, or no weapon at all, \
-* **10+:** you may instead choose to clear a Condition and, \
+*The Hand That Wields* — When you [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\)) with an ordinary weapon, or no weapon at all,
+
+* **10+:** you may instead choose to clear a Condition and,
 * **6-:** mark 2 XP instead of 1\. *Cometh the Hour…* — When you finally draw your Signature Weapon after trying to defeat a foe without it, until the fight ends, after you roll to [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\)) you may mark a Condition to increase the result by one step (6- → 7-9 → 10+).
 
 #### ☐ Snap the Blade

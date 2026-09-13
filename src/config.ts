@@ -85,8 +85,6 @@ export const SIDEBAR: Sidebar = {
         text: chapter.status === "translated" ? chapter.titleKo : `${chapter.titleKo} (원문)`,
         link: `/${chapter.slug}`,
       })),
-      { text: "용어집", link: "/GLOSSARY" },
-      { text: "번역 지침", link: "/TRANSLATION-GUIDE" },
     ]),
     Topic("철의 맹세", "/ironsworn", [
       // { text: '소개', link: '/introduction' },

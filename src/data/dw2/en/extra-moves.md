@@ -12,9 +12,10 @@ If it's not clear if a threat counts as “dangerous”, a location counts as �
 
 ### <a id="face-death"></a>Face Death
 
-When you reach 0 HP, you’re Helpless until you recover HP or the Scene ends. While Helpless, if you lose any HP, you die. When you recover any HP, lock one of your Conditions and you're no longer Helpless. When you take decisive action while Helpless, choose one before resolving the action: *Gamble with Death*; roll+nothing. \
-* **10+:** you push past the pain; recover half your max HP (rounded down) then resolve your action. \
-* **7–9:** the GM says what part of you won't survive; accept the loss and recover 1 HP, or hold on to it and die after acting. \
+When you reach 0 HP, you’re Helpless until you recover HP or the Scene ends. While Helpless, if you lose any HP, you die. When you recover any HP, lock one of your Conditions and you're no longer Helpless. When you take decisive action while Helpless, choose one before resolving the action: *Gamble with Death*; roll+nothing.
+
+* **10+:** you push past the pain; recover half your max HP (rounded down) then resolve your action.
+* **7–9:** the GM says what part of you won't survive; accept the loss and recover 1 HP, or hold on to it and die after acting.
 * **6-:** you're too hurt to act and will die before this Scene ends; you say when. *What are your last words?* *Go Out in a Blaze of Glory*; briefly take control of the Scene, describe one last deed you accomplish, then die.
 
 While Helpless you may or may not be unconscious, but you can't feasibly do anything big (i.e. most Moves) without it counting as “decisive action”. Maybe you can talk, but not eloquently enough to [**Pull Strings**](/ko/awe/dw2/core-moves#pull-strings-\(+cha\)). Maybe you can remember things, but you can't wrack your brain enough to [**Spout Lore**](/ko/awe/dw2/core-moves#spout-lore-\(+questions\)).
@@ -51,9 +52,10 @@ When you mark your last Condition, clear all your marked Conditions then choose 
 
 ### Undertake a Perilous Journey
 
-When you travel through hostile territory, choose a destination, a leader, and a method of travel: *Quickly, risking it all* — Everyone marks a Condition and you’ll arrive earlier than expected; roll-1 *Regular pace* — Only the leader marks a Condition and you’ll arrive when expected; roll+1 *Slow & careful* — You’ll arrive later than expected; roll+2 Then the leader rolls with the corresponding modifier. \
-* **10+:** you arrive with a boon; the GM will tell you what. \
-* **7–9:** you’ll get there but choose one: Someone’s following you; let them, or everyone marks a Condition to lose them Something unpleasant awaits at your destination You encounter a danger along the way, but you have the drop on them \
+When you travel through hostile territory, choose a destination, a leader, and a method of travel: *Quickly, risking it all* — Everyone marks a Condition and you’ll arrive earlier than expected; roll-1 *Regular pace* — Only the leader marks a Condition and you’ll arrive when expected; roll+1 *Slow & careful* — You’ll arrive later than expected; roll+2 Then the leader rolls with the corresponding modifier.
+
+* **10+:** you arrive with a boon; the GM will tell you what.
+* **7–9:** you’ll get there but choose one: Someone’s following you; let them, or everyone marks a Condition to lose them Something unpleasant awaits at your destination You encounter a danger along the way, but you have the drop on them
 * **6-:** a danger surprises you; everyone marks 1 XP and the GM makes a Move.
 
 You need to have a specific destination in mind for this Move to trigger. If you're just wandering, exploring, or surveying the land, then either another Move might trigger (**Unearth Secrets** maybe) or the GM will just make a Move and say what happens.

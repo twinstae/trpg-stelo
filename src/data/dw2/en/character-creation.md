@@ -29,7 +29,11 @@ The three aspects that make up your Origins are:
 
 ### <a id="ancestry"></a>Ancestry
 
-This is usually who your parents were or who created you. Classic options in fantasy worlds include *dwarf, elf, human*, and *halfling*. More modern popular choices include *construct*, *dragonborn*, and *tiefling*. These days, Players seem to love *catfolk*, *fungiperson*, and *goblin*, just to name a few. 
+This is usually who your parents were or who created you. Classic options in fantasy worlds include *dwarf, elf, human*, and *halfling*.
+
+More modern popular choices include *construct*, *dragonborn*, and *tiefling*.
+
+These days, Players seem to love *catfolk*, *fungiperson*, and *goblin*, just to name a few.
 
 ### <a id="community"></a>Community
 
@@ -110,7 +114,9 @@ Most damage falls within between 1d4 and 1d10, but some can get much larger.
 
 #### Resistance
 
-When a PC or NPC has preparations for, defenses against, or immunity to an effect, approach, or source of damage, they **Resist** it, meaning it's nearly useless against them. Resistance does not provide dmg reduction like armor does, but instead influences the [Fictional Positioning](/ko/awe/dw2/playing-the-game#fictional-positioning) and whether dmg (and Moves) would be rolled *at all*. Overcoming such resistance usually requires imagination, special circumstances, or overwhelming power. 
+When a PC or NPC has preparations for, defenses against, or immunity to an effect, approach, or source of damage, they **Resist** it, meaning it's nearly useless against them. Resistance does not provide dmg reduction like armor does, but instead influences the [Fictional Positioning](/ko/awe/dw2/playing-the-game#fictional-positioning) and whether dmg (and Moves) would be rolled *at all*.
+
+Overcoming such resistance usually requires imagination, special circumstances, or overwhelming power.
 
 When an NPC Resists a PC's efforts, the GM has a golden opportunity to make a Move. Similarly, when a PC Resists something an NPC does, the GM should usually give that PC a similar opportunity.
 

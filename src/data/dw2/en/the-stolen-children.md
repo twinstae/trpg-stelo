@@ -200,7 +200,8 @@ A handful of assorted coins and a tiny, beautifully intricate black wooden box w
 
 *Whip with nine lashes that finish in claws of great birds, killed by careless mortal hands* 
 
-When you [Trades Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\)) with the *hawk*, you can divide your dmg with up to nine different targets. \
+When you [Trades Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\)) with the *hawk*, you can divide your dmg with up to nine different targets.
+
 * **10+:** you can choose to restrain and trap up to nine different targets instead.
 
 #### many-feathered mantle

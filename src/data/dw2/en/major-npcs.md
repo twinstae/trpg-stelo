@@ -31,7 +31,9 @@ When time passes, such as when the PCs [**Make Camp**](/ko/awe/dw2/extra-moves#m
 2. *What core goal or desire do they protect or advance?* Write that down as their **Drive**  
 3. *What do they use to pursue their Drive?* These could be approaches, tools, methods, weapons, or other things; write these down as their **Resources**
 
-   *For a dragon this could be* teeth, claws, and fire*. A merchant might use* an always-friendly face, an eye for appraisal, *and* connections with everyone
+*For a dragon this could be* teeth, claws, and fire*.
+
+A merchant might use* an always-friendly face, an eye for appraisal, *and* connections with everyone
 
 4. *What are they particularly defended against or prepared for?* Write this down as what they **Resist**
 

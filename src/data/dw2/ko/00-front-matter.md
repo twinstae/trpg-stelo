@@ -74,7 +74,7 @@
 
 [**게임 진행 79**](/ko/awe/dw2/behind-the-screen#running-the-game)
 
-[화면 뒤에서 79](/ko/awe/dw2/behind-the-screen#behind-the-screen)
+[스크린 뒤에서 79](/ko/awe/dw2/behind-the-screen#behind-the-screen)
 
 [마스터의 역할 79](/ko/awe/dw2/behind-the-screen#the-role-of-the-gm)
 

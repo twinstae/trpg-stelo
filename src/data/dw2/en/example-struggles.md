@@ -4,7 +4,9 @@
 
 *You have no memory of your past. You know one thing, though: you may not want to remember it.*
 
-Questions: *Where did you wake up without memory? What places, behaviours, or people feel familiar? What new identity are you building for yourself?* Shards (+)(-) — Once per session, when you would mark your last Condition (thus [Reaching Your Limit](/ko/awe/dw2/extra-moves#reach-your-limit)), you can instead mark Memories and *Have a Flashback*. When you do, you discover an important part of your past; mark 1 XP and the GM advances a Threat. When you reach 5 Memories, the picture of your past is complete; confess a truth as terrible or wonderful as you wish, then resolve this Struggle. (see [Reveal Your Struggle](/ko/awe/dw2/campaign-moves#reveal-your-struggle) for details).
+Questions: *Where did you wake up without memory? What places, behaviours, or people feel familiar? What new identity are you building for yourself?* Shards (+)(-) — Once per session, when you would mark your last Condition (thus [Reaching Your Limit](/ko/awe/dw2/extra-moves#reach-your-limit)), you can instead mark Memories and *Have a Flashback*.
+
+When you do, you discover an important part of your past; mark 1 XP and the GM advances a Threat. When you reach 5 Memories, the picture of your past is complete; confess a truth as terrible or wonderful as you wish, then resolve this Struggle. (see [Reveal Your Struggle](/ko/awe/dw2/campaign-moves#reveal-your-struggle) for details).
 
 #### Betrayed
 
@@ -28,9 +30,10 @@ Questions: *Who did you once abandon? How do you try to fight your fears? How do
 
 *A voice tells you truths you couldn’t know—and lies you can’t discern* 
 
-Questions: *How does the voice communicate with you? Which other PC did they warn you about? How did they help you when no one else could?* Shoulder Devil (+) — Your Dark Whisperer is an NPC that no one else can perceive and that you can’t [Sense Motive](/ko/awe/dw2/core-moves#sense-motive-\(+wis\)) against. When you ask your Dark Whisperer a question, they will usually tell you the truth or what they want you to do next. If you accept their words, gain adv on your next roll, but mark a Whisper (max 5). Shadow Puppet (-) — When you try to reject your Dark Whisperer’s words, roll+Whispers, then erase your Whispers. \
-* **6-:** you shut them down; mark 1 XP. \
-* **7–9:** their words echo in your mind; mark two Conditions. \
+Questions: *How does the voice communicate with you? Which other PC did they warn you about? How did they help you when no one else could?* Shoulder Devil (+) — Your Dark Whisperer is an NPC that no one else can perceive and that you can’t [Sense Motive](/ko/awe/dw2/core-moves#sense-motive-\(+wis\)) against. When you ask your Dark Whisperer a question, they will usually tell you the truth or what they want you to do next. If you accept their words, gain adv on your next roll, but mark a Whisper (max 5). Shadow Puppet (-) — When you try to reject your Dark Whisperer’s words, roll+Whispers, then erase your Whispers.
+
+* **6-:** you shut them down; mark 1 XP.
+* **7–9:** their words echo in your mind; mark two Conditions.
 * **10+:** you obey them, perhaps without realizing it; mark XP and the GM makes a Move.
 
 #### Disillusioned
@@ -49,13 +52,18 @@ Questions: *How were you afflicted? What are the symptoms so far? What dubious l
 
 *Your past was dark, violent, and still haunts you. Were you a victim or a perpetrator?*
 
-Questions: *What other PC was affected by your dark past? How do you calm down or cope with the stress? What mystery from your past was never answered??* Don't Provoke Me (+) — You have adv on rolls intended to directly prevent or de-escalate violence. Instincts (-) — Once per scene, when you get hurt or witness unexpected violence, choose one instinct below. Until the violence is over or the scene ends, when you act in a way that doesn't follow this instinct, mark a Condition. ◆ Fight: *charge, attack, throw, destroy* ◆ Flee: *hide, escape, run, fortify* ◆ Freeze: *stop, stare, follow orders, hold tightly*
+Questions: *What other PC was affected by your dark past? How do you calm down or cope with the stress? What mystery from your past was never answered??* Don't Provoke Me (+) — You have adv on rolls intended to directly prevent or de-escalate violence. Instincts (-) — Once per scene, when you get hurt or witness unexpected violence, choose one instinct below. Until the violence is over or the scene ends, when you act in a way that doesn't follow this instinct, mark a Condition.
+
+- Fight: *charge, attack, throw, destroy*
+- Flee: *hide, escape, run, fortify*
+- Freeze: *stop, stare, follow orders, hold tightly*
 
 #### Folk Hero
 
 *You once saved a humble community all on your own, and some now see you as a symbol of hope*
 
-Questions: *What heroic deed did you accomplish in your community? What did you lose? What prophecy of your heroic future have you heard?* Inspiring Presence (+) — Anybody who isn’t a noble or someone with power will treat you as family, offering you shelter & whatever resources they have. When you [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\)) to defend ordinary people, \
+Questions: *What heroic deed did you accomplish in your community? What did you lose? What prophecy of your heroic future have you heard?* Inspiring Presence (+) — Anybody who isn’t a noble or someone with power will treat you as family, offering you shelter & whatever resources they have. When you [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\)) to defend ordinary people,
+
 * **10+:** you can have another PC clear a Condition (instead of the other options). Burdened (-) — When you refuse a chance to help the common folk, mark a Condition.
 
 #### Forbidden Romance
@@ -68,18 +76,20 @@ Questions: *Who is your loved one? What impossible obstacle stands in your way? 
 
 *A powerful individual or organization is actively hunting you down.*
 
-Questions: *Who leads the hunt for you? How did they once almost catch you? What have you sacrificed to escape them?* Catch Me If You Can (+) — When you would mark a Condition, you may instead mark Heat. *How do you leave evidence of your presence behind?* When you [Enjoy Downtime](/ko/awe/dw2/campaign-moves#enjoy-downtime), you may spend 1 Treasure to erase your Heat. Reckoning (-) — When you reach 3 Heat, or [Make Camp](/ko/awe/dw2/extra-moves#make-camp) with 1 or more Heat, roll+Heat then erase your Heat. \
-* **10+:** hunters arrive in force here and now. \
-* **7–9:** hunters arrive, but you have a chance to act before they spot you. \
+Questions: *Who leads the hunt for you? How did they once almost catch you? What have you sacrificed to escape them?* Catch Me If You Can (+) — When you would mark a Condition, you may instead mark Heat. *How do you leave evidence of your presence behind?* When you [Enjoy Downtime](/ko/awe/dw2/campaign-moves#enjoy-downtime), you may spend 1 Treasure to erase your Heat. Reckoning (-) — When you reach 3 Heat, or [Make Camp](/ko/awe/dw2/extra-moves#make-camp) with 1 or more Heat, roll+Heat then erase your Heat.
+
+* **10+:** hunters arrive in force here and now.
+* **7–9:** hunters arrive, but you have a chance to act before they spot you.
 * **6-:** hunters get distressingly close to finding you, but you slip away; mark 1 XP.
 
 #### Indebted — Debt ☐ ☐ ☐ ☐ ☐
 
 *You owe a steep debt to  some very dangerous people.*
 
-Questions: *Who do you owe? What makes them so dangerous? Who or what did they take as collateral?* Keep Digging (+) — When you would spend Treasure, you may instead mark an equal amount of Debt, which represents additional dues beyond what you initially owed. When you give your creditor something they really want (GM's call), reset Debt to 0\. Collectors (-) — After you [Enjoy Downtime](/ko/awe/dw2/campaign-moves#enjoy-downtime), agents of your creditor approach; roll+Debt. \
-* **6-:** they only want to remind you of your dues; mark XP. \
-* **7–9:** they want a small favor or item; mark a Condition if you refuse them. \
+Questions: *Who do you owe? What makes them so dangerous? Who or what did they take as collateral?* Keep Digging (+) — When you would spend Treasure, you may instead mark an equal amount of Debt, which represents additional dues beyond what you initially owed. When you give your creditor something they really want (GM's call), reset Debt to 0\. Collectors (-) — After you [Enjoy Downtime](/ko/awe/dw2/campaign-moves#enjoy-downtime), agents of your creditor approach; roll+Debt.
+
+* **6-:** they only want to remind you of your dues; mark XP.
+* **7–9:** they want a small favor or item; mark a Condition if you refuse them.
 * **10+:** they want something big, and are prepared to force your hand.
 
 #### Innocent
@@ -122,8 +132,7 @@ Questions: *Which PC used to be your enemy? Who doesn’t think you've changed? 
 
 *Stories of your exploits have spread far and wide. Some are true, others are brazenly false.*
 
-Questions: *How do the stories depict you? What's the most difficult part to live up to? What other PC is a frequent side character?* Rumors & Legends (+-) — Your Fame starts at 1\. At the start of each session, tell the group a story someone heard about you. If your Fame is 2 or more, the GM may then add a twist or complication someone else heard. When you [End the Session](/ko/awe/dw2/extra-moves#end-the-session), if you lived up to the story (GM's final say), gain 1 Fame (max 3). Otherwise, lose 1 Fame (min \-1) and mark a Condition. Larger Than Life (+) — When you interact with the public, or try to live up to this session's story, you may roll+Fame instead of another stat. If you do, \
-🟎on a 9 or lower, you also reduce your Fame by 1\.
+Questions: *How do the stories depict you? What's the most difficult part to live up to? What other PC is a frequent side character?* Rumors & Legends (+-) — Your Fame starts at 1\. At the start of each session, tell the group a story someone heard about you. If your Fame is 2 or more, the GM may then add a twist or complication someone else heard. When you [End the Session](/ko/awe/dw2/extra-moves#end-the-session), if you lived up to the story (GM's final say), gain 1 Fame (max 3). Otherwise, lose 1 Fame (min \-1) and mark a Condition. Larger Than Life (+) — When you interact with the public, or try to live up to this session's story, you may roll+Fame instead of another stat. If you do, on a 9 or lower, you also reduce your Fame by 1\.
 
 #### Secret Identity
 

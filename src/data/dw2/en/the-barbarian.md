@@ -29,7 +29,14 @@ PC’s Name		   Relationship					              ◯ ◯ ◯
 
 #### Relationship Examples
 
-*I delight in their company; I wanna spend more time with them* ✦*I hurt or abandoned them in a moment of rage or overindulgence* ✦ *I’m teaching them about my ways, whether they like it or not* ✦ *They are weak and pathetic; I will make them strong* ✦ *They showed me a new comfort of these lands; I want more of it\!* ✦ *They’re the only one I’d trust with my life* ✦ *They’ve seen my homeland more recently than me* ✦ 
+*I delight in their company; I wanna spend more time with them*
+* *I hurt or abandoned them in a moment of rage or overindulgence*
+* *I’m teaching them about my ways, whether they like it or not*
+* *They are weak and pathetic; I will make them strong*
+* *They showed me a new comfort of these lands; I want more of it\!*
+* *They’re the only one I’d trust with my life*
+* *They’ve seen my homeland more recently than me*
+*
 
 ### Starting Move
 
@@ -79,7 +86,7 @@ When you [**Level Up**](/ko/awe/dw2/extra-moves#level-up), increase your HP by 1
 ☐ Gain a Path from your Class (and its Starting Move)  
 ☐ Reveal a Struggle  
 ☐ ☐ ☐ ☐ Gain a Path Move  
-✦ Change your Class
+* Change your Class
 
 From **Level 5 onwards**, you can also choose from the following:  
 ☐ \+1 to any Stat (max \+2)  
@@ -92,7 +99,9 @@ From **Level 5 onwards**, you can also choose from the following:
 From **Level 10 onwards**, you can also choose from the following:  
 ☐ \+1 to any Stat (max \+3)  
 ☐  **Multiclass** — Unlock a Path from another Class  
-☐ Obtain an *Artifact*. Choose from those available or work with your GM to create one  
+☐ Obtain an *Artifact*.
+
+Choose from those available or work with your GM to create one
 ☐ ☐ ☐ ☐ Gain a Path Move
 
 ### Berserker
@@ -113,11 +122,19 @@ When you [Pull Strings](/ko/awe/dw2/core-moves#pull-strings-\(+cha\)) by physica
 
 #### ☐ The Beast Within
 
-When you unleash the beast inside while Angry, you shapeshift into a hybrid form between yours and one of following animals: *Bear*. You Resist mundane weapons and fire *Boar*. You Resist fear, terror, and intimidation, even from supernatural sources *Wolf*. Increase your [dmg dice size](/ko/awe/dw2/character-creation#damage-dice-size) one step To put the beast back under requires a great effort; mark a Condition.
+When you unleash the beast inside while Angry, you shapeshift into a hybrid form between yours and one of following animals: *Bear*.
+
+You Resist mundane weapons and fire *Boar*.
+
+You Resist fear, terror, and intimidation, even from supernatural sources *Wolf*.
+
+Increase your [dmg dice size](/ko/awe/dw2/character-creation#damage-dice-size) one step To put the beast back under requires a great effort; mark a Condition.
 
 #### When It Earns Me
 
-When you [Face Death](/ko/awe/dw2/extra-moves#face-death) while Angry, you may also choose the option below. *Spit in Death’s Face*. Recover all HP and you don’t become Helpless. Don't lock a Condition either. When you do, lose access to this Move until you gain it as an advancement again.
+When you [Face Death](/ko/awe/dw2/extra-moves#face-death) while Angry, you may also choose the option below. *Spit in Death’s Face*.
+
+Recover all HP and you don’t become Helpless. Don't lock a Condition either. When you do, lose access to this Move until you gain it as an advancement again.
 
 ### Outlander
 
@@ -133,9 +150,10 @@ When you Sense the Motive of a group of people, you may ask an extra question be
 
 #### ☐ Sacrificial Rite
 
-When you ritually sacrifice something significant to your homeland’s wardens (be it ancestors, deities, spirits, totem, etc.), roll+WIS. \
-* **10+:** choose all three. \
-* **7–9:** only two. Ask the GM a question about an enemy; they’ll answer honestly Everyone who participated in the ritual clears a Condition Gain a blessing proportional to the offering you made. ask for what you want, the GM will say what you get \
+When you ritually sacrifice something significant to your homeland’s wardens (be it ancestors, deities, spirits, totem, etc.), roll+WIS.
+
+* **10+:** choose all three.
+* **7–9:** only two. Ask the GM a question about an enemy; they’ll answer honestly Everyone who participated in the ritual clears a Condition Gain a blessing proportional to the offering you made. ask for what you want, the GM will say what you get
 * **6-:** choose one, but the wardens will not accept your sacrifices again until you’ve fulfilled a demand; mark 1 XP and the GM makes a Move.
 
 #### ☐ Tread the Jeweled Thrones
@@ -144,9 +162,10 @@ When you [Sense the Motive](/ko/awe/dw2/core-moves#sense-motive-\(+wis\)) of som
 
 #### ☐ Unerring Intuition
 
-When you arrive at a place you haven’t visited before, your instincts tell you more than your senses ever could; roll+WIS. \
-* **10+:** the GM will tell you what’s terribly wrong here; ask a follow-up question and gain adv to the first Move you roll when acting on the answer. \
-* **7–9:** as a 10+ but the answer disturbs or unsettles you; mark a Condition. \
+When you arrive at a place you haven’t visited before, your instincts tell you more than your senses ever could; roll+WIS.
+
+* **10+:** the GM will tell you what’s terribly wrong here; ask a follow-up question and gain adv to the first Move you roll when acting on the answer.
+* **7–9:** as a 10+ but the answer disturbs or unsettles you; mark a Condition.
 * **6-:** you get a cryptic hint…And nothing more; mark 1 XP and the GM makes a Move.
 
 ### Hedonist
@@ -163,9 +182,10 @@ When you satiate an appetite to the extreme (destroy something precious, gain en
 
 #### ☐ Forthright Speech
 
-When you smash through social etiquette to call something what it really is, roll+CHA. \
-* **10+:** name someone here who agrees and is willing to help, and clear a Condition. \
-* **7–9:** you find an ally or clear a Condition (your call). \
+When you smash through social etiquette to call something what it really is, roll+CHA.
+
+* **10+:** name someone here who agrees and is willing to help, and clear a Condition.
+* **7–9:** you find an ally or clear a Condition (your call).
 * **6-:** you’ll regret your honesty; mark 1 XP and the GM makes a Move.
 
 #### ☐ Insatiable — Appetite\_\_\_
