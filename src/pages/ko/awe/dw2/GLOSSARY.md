@@ -347,4 +347,54 @@ Champions **용사들**, Comrades in Arms **전우**, Enthusiasts **동호인**,
 
 ---
 
+## L. 마스터부·캠페인·모험에서 새로 정한 말
+
+### 위협(Threat)
+
+| English | 한국어 | 비고 |
+| --- | --- | --- |
+| Goal | **목표** | 위협이 세상을 더 나쁘게 바꾸는 방식 |
+| Assets | **자산** | 위협이 이미 지닌 이점. 훼손하면 전개·반응이 흔들린다 |
+| Developments | **전개** | 목표로 가는 단계. 순서대로 일어난다 |
+| Reactions | **반응** | PC를 방해할 때 취하는 마스터 액션 |
+| Scenes / Secrets | **장면 / 비밀** | 위협에 딸린 요소(선택) |
+| Local / Regional / World Threat | **국지적 / 지역 / 세계적 위협** | 전개 2~3 / 4~6 / 7~10개 |
+
+### 캠페인·유대·갈등
+
+| English | 한국어 | 비고 |
+| --- | --- | --- |
+| Bond Advanced Move | **유대 상급 액션** | 유대를 맺거나 더 단단히 하며 해금 |
+| Upper Hand | **우세** | 라이벌 유대의 승부 표시. 둘 중 하나만 지닌다 |
+| Miniaturized Adventure | **작은 모험** | 한 장짜리로 압축한 모험 형식 |
+| Starting Move | **시작 액션** | 직업·유대의 첫 액션 |
+| Drives / Escalations | **동기 / 격화** | NPC 특성. 조건을 표시하면 격화한다 |
+
+### 갈등(Struggle) 트랙 이름
+
+| English | 한국어 | 쓰는 갈등 |
+| --- | --- | --- |
+| Memories | **기억** | 기억 상실 |
+| Whispers | **속삭임** | 어둠의 속삭임 |
+| Doom | **파멸** | 파멸할 운명 |
+| Guilt | **죄책감** | 개심한 악당 |
+| Fame | **명성** | 명망 |
+| Leads | **단서** | 보물 집착 |
+| Heat | **추격** | 사냥감 |
+| Wyrd | **예지** | 불길한 꿈 |
+
+### 갈등 이름 (2.1 신규)
+
+보호자(Caretaker), 파멸할 운명(Doomed), 마음의 상처(Emotionally Scarred), 민중의 영웅(Folk Hero), 금지된 사랑(Forbidden Romance), 순수한 이(Innocent), 잃어버린 혈통(Lost Heritage), 명망(Renowned), 비밀 정체(Secret Identity), 복수심(Vengeful). 기존 12종(기억 상실, 겁쟁이, 어둠의 속삭임, 배신당한 전우, 환멸, 사냥감, 빚쟁이, 불길한 꿈, 천덕꾸러기, 개심한 악당, 고독한 방랑자, 보물 집착)은 그대로 잇는다.
+
+### 마법 아이템 태그
+
+`#cursed` **저주받음**, `#consumable` **소모품**, `#hidden` **숨김**, `#warded` **보호됨**, `#incorporeal` **비물질**, `#poisoned` **중독**, `#fire` **불**, `#afraid` → 조건 **겁먹음**.
+
+### 작은 모험 「빼앗긴 아이들」 고유명
+
+글렌카르(Glen-kar), 슬루스 숲(Sleuth Wood), 뒤덮인 궁전(The Shrouded Palace), 잎사귀 섬(Leafy Island), 속삭이는 나무 숲(Grove of Murmuring Trees), 노래의 전당(Hall of Song), 서 있는 돌(Standing Stones), 그림자실 잣는 이(Spinster of Shadows’ Threads), 침묵의 불협화음(Cacophony of Silence), 야생의 심장(Wildheart Willingly Tamed), 울타리 수호대(Hedge Guard), 깨어난 나무(Awakened Trees), 폐허 거두기 의식(The Ruinreap Ritual), 키엘라 데르 리아딘(Kiela der Liadin), 리리 그랜드브랜드(Riri Grandbrand), 본린 허도바(Bonlyn Herdovar), 모스본즈(Mossbones), 카리온(Carrion), 미레이(Myrrei), 렉심(Wrexim).
+
+추가로 정한 것: 대의(Cause), 혼령 그릇(Phylactery), 높은 곳의 친구 등 유대 액션 이름은 `src/data/dw2/ko/bonds.md` 참고.
+
 _이 용어집은 [`TRANSLATION-GUIDE.md`](./TRANSLATION-GUIDE.md)와 함께 갱신합니다._
