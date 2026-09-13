@@ -2,7 +2,7 @@
 
 ## <a id="about-this-release"></a>About This Release
 
-This release introduces **Dungeon World 2** (DW2) to both GMs and Players. It uses the Beta rules of DW2, which are still in development. This document does not include all of the rules, classes, or similar materials from the full version of the game; those will be released in the near future at [**dungeon-world.com**](http://dungeon-world.com). **Changes since the previous beta will be colored in red like this.**
+This release introduces **Dungeon World 2** (DW2) to both GMs and Players. It uses the Beta rules of DW2, which are still in development. This document does not include all of the rules, classes, or similar materials from the full version of the game; those will be released in the near future at [**dungeon-world.com**](http://dungeon-world.com).
 
 ## <a id="what-is-dw2?"></a>What is DW2?
 
@@ -115,4 +115,4 @@ This is a set of cinema-themed terms, developed by Beau Jágr Sheldon, that can 
 
 ### Further Tools
 
-Visit [**ttrpgsafetytoolkit.com**](http://ttrpgsafetytoolkit.com) for more tools beyond what is present here. 
+Visit [**ttrpgsafetytoolkit.com**](http://ttrpgsafetytoolkit.com) for more tools beyond what is present here.
