@@ -33,9 +33,9 @@ This showcases what the flow of a game of **Dungeon World 2** typically looks li
 3. **Is a Move triggered?** If so, proceed to \#3. If not, go back to \#1.  
 4. **Is there a roll involved?** If not, resolve the Move and then go back to the start. If so, roll what the Move says. Freely remind the PCs they can **Aɪᴅ** each other. Also, remember that Conditions affect rolls.  
 5. **What was the roll’s result?** Follow what the Move says happens.   
-* A 10 or higher (10+) means a full success, as close to clean as can be expected   
-* A 7, 8, or 9 (7-9) is still a success but messier, with a cost, drawback, or milder consequence   
-* A 6 or lower (6-) means things go badly. Most of the time that means the GM makes a Move and the rolling Player gains XP, but a few Moves say something else.  
+   * A 10 or higher (10+) means a full success, as close to clean as can be expected   
+   * A 7, 8, or 9 (7-9) is still a success but messier, with a cost, drawback, or milder consequence   
+   * A 6 or lower (6-) means things go badly. Most of the time that means the GM makes a Move and the rolling Player gains XP, but a few Moves say something else.  
 6. **What now?** After every Move’s resolved you need to update the fiction to reflect the change that happened.   
 7. **Has any PC marked all Conditions or reached 0 HP?** If so, they [**Reach Their Limit**](/ko/awe/dw2/extra-moves#reach-your-limit) (for Conditions) or [**Face Death**](/ko/awe/dw2/extra-moves#face-death) (if they reached 0 HP).  
 8. Go back to \#1\!

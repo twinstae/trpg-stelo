@@ -287,10 +287,35 @@ function codeTags(s) {
   return s.replace(/\\+#([가-힣a-z][가-힣a-z-]*)/g, "`#$1`");
 }
 
+// 번호 목록 항목 바로 뒤에 들여쓰기 없이 온 목록 기호는 그 항목의 하위 목록으로 본다.
+// 그대로 두면 목록이 끊겨 `<ol>…(끝)</ol><ul>…</ul><ol start="6">`처럼 쪼개지고
+// (진행 순서 흐름도가 그렇다) 한국어 번역의 중첩 목록과 모양이 달라진다.
+function nestSublists(bodyLines) {
+  const out = [];
+  let inSublist = false;
+  for (const line of bodyLines) {
+    if (/^\d+\.\s/.test(line)) {
+      inSublist = false;
+      out.push(line);
+      continue;
+    }
+    if (/^[-*+]\s/.test(line) && (inSublist || /^\d+\.\s/.test(out[out.length - 1] ?? ""))) {
+      inSublist = true;
+      out.push("   " + line);
+      continue;
+    }
+    inSublist = false;
+    out.push(line);
+  }
+  return out;
+}
+
 function convertBody(bodyLines, lang) {
-  return unwrapPseudoTables(bodyLines.map(codeTags))
-    .map(convertLine)
-    .map((line) => normalizeRolls(line, lang));
+  return nestSublists(
+    unwrapPseudoTables(bodyLines.map(codeTags))
+      .map(convertLine)
+      .map((line) => normalizeRolls(line, lang)),
+  );
 }
 
 // --- 4. 영어 원고 쓰기 ---------------------------------------------------
