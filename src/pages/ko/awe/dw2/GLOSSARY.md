@@ -1,308 +1,350 @@
 ---
 title: "던전월드 2 용어집"
-description: "영한 용어와 1판 공개판 정렬."
+description: "2.1 베타 영한 용어와 1판 공개판 정렬."
 layout: ../../../../layouts/MainLayout.astro
 createdAt: "2026-03-29T12:00:00.000Z"
 publish: true
 ---
 
-2 ↔ Korean glossary (1판 공개판 정렬)
+**던전월드 2 Beta v2.1** 번역의 영한 용어집입니다. 문체·표기·마크다운 규칙은 [`TRANSLATION-GUIDE.md`](./TRANSLATION-GUIDE.md)를 보십시오. 진행 상황은 저장소 루트의 `DW2_BETA_TRANSLATION_CHECKLIST.md`에 있습니다.
 
-This glossary aligns **DW2 Final Alpha** (English source in this repo) with the **Dungeon World Korean SRD** ([던전월드 한국어 공개판](https://sites.google.com/view/dwtemporary)).  
-**Bold** Korean = preferred translation for this project when terms match. DW2-only entries note _DW2_.
-
-**For agents:** When in doubt, open the linked 1판 pages and match their phrasing. Update this file when you coin or change a term; see [`TRANSLATION-GUIDE.md`](./TRANSLATION-GUIDE.md) for register and markdown rules.
+* **굵게** = 확정 표기.
+* _기울임_ = 파일럿 리뷰에서 확정할 잠정 표기.
+* 정렬 기준: [던전월드 한국어 공개판](https://sites.google.com/view/dwtemporary)(1판).
+* 새 용어를 만들면 **여기에 한 줄 추가**하고, 같은 커밋에서 기존 파일을 grep해 통일합니다.
 
 ---
 
-## 이야기 속 현실 (fiction) — 허브 용어
+## 0. 이야기 속 현실 (the fiction)
 
-영어권에서는 *fiction*이 규칙 논의에서 흔히 쓰이지만, 한국어 1판 공개판은 **고정된 합성어** 보다 **“이야기 속 …”** 구문을 자연스럽게 씁니다.
+영어권에서는 *fiction*을 규칙 논의에서 흔히 쓰지만, 1판 공개판은 고정 합성어보다 **“이야기 속 …”** 구문을 씁니다.
 
-| English (원문)                                   | 한국어 (본문 표기)                                                                                                 | 병기 규칙                                                                                                                                  |
-| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| the fiction / fiction (shared imaginative space) | **이야기 속 현실** (개념 정의·첫 도입) / 문맥에 따라 **이야기 속에서**, **이야기 속의 상황**, **이야기 속의 세계** | 개념을 **명시적으로** 소개할 때만: **이야기 속 현실(the fiction)** (파일당 첫 등장). 그 외에는 1판처럼 풀어 써도 됨.                       |
-| narrative                                        | **이야기** / **내러티브**                                                                                          | 흐름·서사 → **이야기** 우선. 규칙 용어로 강조할 때만 첫 등장에 **내러티브(narrative)**.                                                    |
-| Fictional positioning                            | **이야기 속 위치**                                                                                                 | 파일당 첫 등장: **이야기 속 위치(Fictional positioning)**. 이후 **이야기 속에서의 위치**, **지금 캐릭터가 처한 상황** 등으로 풀어 써도 됨. |
+| English | 한국어 | 병기 규칙 |
+| --- | --- | --- |
+| the fiction / fiction | **이야기 속 현실**(개념 정의·첫 도입) / 문맥에 따라 **이야기 속에서**, **이야기 속의 상황**, **이야기 속의 세계** | 개념을 명시적으로 소개할 때만 **이야기 속 현실(the fiction)**. 파일당 첫 등장 한 번 |
+| narrative | **이야기** / **내러티브** | 흐름·서사는 **이야기** 우선. 규칙 용어로 강조할 때만 첫 등장에 **내러티브(narrative)** |
+| Fictional positioning | **이야기 속 위치** | 파일당 첫 등장 **이야기 속 위치(Fictional positioning)**, 이후 풀어 써도 됨 |
 
-**원칙:** **이야기 속 현실**·**이야기 속 위치** 처럼 영어를 붙이는 **공식 용어** 는, 같은 마크다운 파일 안에서 **각각 첫 등장 한 번** 에만 `(영어)` 병기. 이후 같은 파일에서는 **한국어만**. 다른 파일이면 그 파일에서 다시 적용.
+1판 예: “여기서 ‘이야기 속’이라는 말은, 액션을 일으키는 일도 액션의 효과도 **캐릭터들이 사는 세상에서** 일어나는 일이라는 뜻입니다.”
 
-**1판 문장 예 (플레이 하는 법):**
+**픽션**은 기본 표기로 쓰지 않습니다.
 
-> “여기서 ‘이야기 속’이라는 말은, 액션을 일으키는 일도 액션의 효과도 **캐릭터들이 사는 세상에서** 일어나는 일이라는 뜻입니다.”
+---
 
-**DW2 번역 예 (개념 첫 등장):**
+## A. 사람과 역할
+
+| English | 한국어 | 비고 |
+| --- | --- | --- |
+| Game Master (GM) | **마스터** / GM | 1판 본문은 “마스터”. 괄호로 GM 병기 가능 |
+| Player | **플레이어** | |
+| Player character (PC) | **플레이어 캐릭터** / **PC** | |
+| Participant | **참가자** | 안전 도구 등 메타 논의에서 플레이어·마스터 포함 |
+| NPC | **NPC** | 필요 시 “NPC(비플레이어 인물)” |
+| The play group (table) | **팀** | 실제 플레이 집단. 이야기 속 **일행**과 구분 |
+| The adventuring party | **일행** | 캐릭터들의 무리 |
+
+---
+
+## B. 핵심 개념
+
+| English | 한국어 | 비고 |
+| --- | --- | --- |
+| Move | **액션** | 병기: “액션(Move)”. 1판 표준 |
+| Core Moves | **핵심 액션** | |
+| Extra Moves | **추가 액션** | |
+| Campaign Moves | **캠페인 액션** | |
+| Class | **직업** | |
+| Character sheet | **캐릭터 시트** | |
+| Level / Level up | **레벨** / **레벨업** | |
+| Experience (XP) | **경험치** / XP | |
+| Roll | **판정** | “+근 판정을 합니다” 식이 1판 표준 |
+| Trigger | **발동** / **발동 조건** | 무브 첫 줄 “When you…” → “~할 때” |
+| Advantage / Disadvantage | **유리(adv)** / **불리(dis)** | 파일 첫 등장만 영어 병기 |
+| Path / Path Move | **길(Path)** / **상급 액션** | |
+| Advancements | _향상_ (대안: 발전) | 파일럿에서 확정. 알파 직업 파일은 “발전”을 썼음 |
+| Multiclass | **다중 직업** | |
+| Prep | **예비(Prep)** | 2.1에는 Hold가 없으므로 예비는 Prep 전용 |
+
+---
+
+## C. 능력치 (2.1은 다섯)
+
+| English | 한국어 | 비고 |
+| --- | --- | --- |
+| Strength (STR) | **근력(STR)** | |
+| Dexterity (DEX) | **민첩성(DEX)** | 1판 **민첩성** |
+| Intelligence (INT) | **지능(INT)** | |
+| Wisdom (WIS) | **지혜(WIS)** | |
+| Charisma (CHA) | **매력(CHA)** | |
+| Constitution (CON) | — | 2.1 기본 능력치 아님 |
+
+판정 표기는 **+근 판정**, **+민 판정**, **+지 판정**, **+혜 판정**, **+매 판정**. 풀표기(2d6+근력)는 주사위 설명 절에서만.
+
+---
+
+## D. 조건과 상태
+
+2.1의 PC 조건은 **다섯**입니다. 알파 시트의 다섯 조건과 그대로 이어집니다.
+
+| English | 한국어 | 페널티 |
+| --- | --- | --- |
+| Angry | **분노** | +지 판정에 불리 |
+| Distracted | **산만** | +혜 판정에 불리 |
+| Exhausted | **지침** | +근 판정에 불리 |
+| Frightened | **겁먹음** | +민 판정에 불리 |
+| Insecure | **불안** | +매 판정에 불리 |
+| Unsatisfied | **미충족** | 야만인 쾌락주의자 길의 추가 조건 |
+
+| English | 한국어 | 비고 |
+| --- | --- | --- |
+| Clear / Marked / Locked | **지워짐 / 표시됨 / 잠김** | 동사는 지웁니다·표시합니다·**잠급니다** |
+| Bloodied | **피투성이** | 2.1에서는 조건이 아니라 **HP가 최대치 절반 이하인 상태** |
+| Helpless | _무방비_ (대안: 속수무책) | HP 0 상태. 파일럿에서 확정 |
+| HP | **HP** / 히트포인트 | 첫 등장 병기 가능 |
+| Damage (dmg) | **피해** | 최소 피해 / 최대 피해 |
+| Damage dice size | **피해 주사위 단계** | |
+| Armor | **장갑** | |
+| Shield | **방패** | |
+| Resistance / Resist | **저항(한다)** / **저항** | 피해 감소가 아니라 이야기 속 위치를 바꾸는 것 |
+| Heal / healing | **치유** | |
+| Uses | **사용**(◯) | 식량·독 등 회분 단위는 **회분** |
+
+### 장비 태그
+
+| English | 한국어 | English | 한국어 |
+| --- | --- | --- | --- |
+| `\#hand` | **손** | `\#piercing` | **관통** |
+| `\#close` | **근접** | `\#precise` | **정밀** |
+| `\#near` | **가까움** | `\#reload` | **재장전** |
+| `\#far` | **멀리** | `\#two-handed` | **양손** |
+| `\#ammo` | **탄약** | `\#concealed` | **은닉** |
+| `\#area` | **범위** | `\#distinctive` | **눈에 띔** |
+| `\#forceful` | **강타** | `\#holy` | **신성** |
+| `\#light` | **경량** | `\#versatile` | **양용** (원문 태그 설명에만 등장) |
+
+---
+
+## E. 액션 (2.1 확정안)
+
+제목 형식은 **`한글(English)`**, 영어 병기는 파일당 첫 등장 한 번.
+
+### 핵심 액션
+
+| English | 한국어 | 비고 |
+| --- | --- | --- |
+| Aid a PC | **동료 돕기** | 1판 “협조 또는 방해” 계열. 알파 표기 유지 |
+| Cast a Spell | **주문 시전** | 1판 명칭 그대로 |
+| Comfort or Support | **위로와 격려** | |
+| Defy Danger | **위험 돌파** | 1판 그대로 |
+| Pull Strings | _마음 움직이기_ | 대안: 줄을 당기다 / 협상. 속임·설득·협박 3갈래를 아우름 |
+| Sense Motive | **속뜻 읽기** | |
+| Sneak Past | **몰래 지나가기** | |
+| Spout Lore | **지식 더듬기** | 1판 명칭 복귀 (2.0 알파의 Recall Lore와 같은 한글) |
+| Trade Blows | _주고받기_ | 대안: 맞붙기 / 격돌. 1판 접근전·사격의 자리를 잇는 이름 |
+| Unearth Secrets | **비밀을 파헤치다** | |
+
+### 추가 액션
+
+| English | 한국어 |
+| --- | --- |
+| End the Session | **세션을 마친다** |
+| Face Death | **황천길**(Face Death) |
+| Level Up | **레벨업** |
+| Make Camp | **야영** |
+| Perform a Ritual | **의식을 행한다** |
+| Reach Your Limit | **한계에 다다른다** |
+| Undertake a Perilous Journey | **험난한 여정**(Undertake a Perilous Journey) |
+
+### 캠페인 액션
+
+| English | 한국어 |
+| --- | --- |
+| Enjoy Downtime | **휴식을 즐긴다** |
+| Forge a Bond | **유대를 맺는다** |
+| Reveal Your Struggle | **갈등을 드러내다** |
+
+### 1판 대응
+
+| 1판 | English (DW1) | 2.1 |
+| --- | --- | --- |
+| 접근전 · 사격 | Hack and slash, Volley | **주고받기(Trade Blows)** 로 통합 |
+| 위험 돌파 | Defy Danger | **위험 돌파** (동일) |
+| 지식 더듬기 | Spout lore | **지식 더듬기(Spout Lore)** |
+| 협상 | Parley | **마음 움직이기(Pull Strings)** / 맥락상 **협상** |
+| 협조 또는 방해 | Aid or interfere | **동료 돕기(Aid a PC)** |
+| 황천길 | Last breath | **황천길(Face Death)** |
+| 야영 · 파수 | Make camp, Take watch | **야영** / 파수는 서술로 |
+| 험난한 여정 | Undertake a journey | **험난한 여정** |
+
+---
+
+## F. 캐릭터 관계 (2.1 모델)
+
+| English | 한국어 | 비고 |
+| --- | --- | --- |
+| Relationship | **관계** | PC 사이의 믿음·사건·감정. 시트에서 개별 관리 |
+| Depth | **깊이(Depth)** | 관계마다 쌓이는 수치 |
+| Bond | **유대** | 두 PC가 함께 쓰는 미니 플레이북. 1판 **인연**과 구분해 첫 등장 **유대(Bond)** |
+| Bondmate | **유대 상대** | 같은 유대를 함께 쓰는 다른 PC |
+| Panache | **허세** | 음유시인·허풍선이. 매력만큼 회복되는 자원 |
+| Struggle | _갈등_ (대안: 고난) | 2.0 알파의 Conflicts=갈등을 이어받음 |
+| Benefit / Drawback | **이익(+) / 대가(-)** | 갈등이 주는 것 |
+| Domain (deity) | **영역** | 사제. 공예·법·빛·자연·여행·생명·지식·전쟁 |
+| Drive | **동기** | NPC 특성 |
+| Resource | **자원** | NPC 특성 |
+| Escalation | **격화** | NPC가 조건을 표시하고 판을 키우는 동작 |
+| Debt | **빚** | 음유시인·외교관. NPC가 PC에게 진 것 |
+| Luck | **운** | 도적·털이꾼. 지혜만큼 얻는 자원 |
+| Mask | **가면** | 도적·첩자. 변장의 내구도 |
+| Worshipper | **신도** | 사제의 신을 따르는 이들 |
+| Arcane focus | **비전의 매개체** | 마법사가 주문을 시전할 때 드는 도구 |
+| Phylactery | **혼령 그릇** | 리치의 영혼 그릇. *마법 아이템* 참조 |
+| Roguish Skill | **도적 솜씨** | 도적의 숨은 솜씨. 소리 탐지·덫 찾기/해체·그림자에 숨기 등 |
+| undead / undying | **언데드** | 사령술사 |
+
+---
+
+## G. 마법
+
+| English | 한국어 | 비고 |
+| --- | --- | --- |
+| Magnitude (mag) | **위력(Mag)** | 2.0 알파 `magic.md` 표기 그대로 |
+| verb / substance | **동사 / 재료** | 마법사 `비전 엮기`: 계열마다 동사와 재료가 정해져 있다 |
+| Prepared School | **준비한 계열** | 야영하면 바꿀 수 있다. 전술가의 예비(Prep)와 구분 |
+| Casting Stat | **시전 능력치** | |
+| School (of magic) | **계열** | 마법사 |
+| Abjuration | **방호** | 재료: 마법 자체 |
+| Conjuration | **소환** | 재료: 물건이나 외부 존재 |
+| Divination | **예지** | 재료: 과거·현재·미래의 환영 |
+| Enchantment | **매혹** | 재료: 지성 있는 존재 |
+| Evocation | **정령술** | 재료: 원소 에너지. 길 이름 정령술사와 같은 어근 |
+| Illusion | **환영** | 재료: 시야나 소리 |
+| Necromancy | **사령술** | 재료: 불사 |
+| Transmutation | **변환** | 재료: 물질 |
+| Cast a Spell | **주문 시전** | |
+| Perform a Ritual | **의식을 행한다** | 모든 PC 가능 |
+| Font of power | **힘의 원천** | |
+
+---
+
+## H. 마스터
+
+| English | 한국어 | 비고 |
+| --- | --- | --- |
+| Agenda | **강령** | |
+| Principle | **원칙** | |
+| GM Move | **마스터 액션** | |
+| Soft move / Hard move | **약한 액션** / **강한 액션** | |
+| GM Class Moves | **직업별 마스터 액션** | |
+| Play Order Flowchart | **진행 순서 흐름도** | |
+| Threat | **위협** | |
+| Development | **전개** | |
+| Rewards | **보상** | |
+| Major NPC | **주요 NPC** | |
+| Conditions / Drives / Escalations / Resources / Resists | **조건 / 동기 / 격화 / 자원 / 저항** | NPC 특성 5종 |
+| Strong Start | **강한 첫 장면** | |
+| Prep (session) | **준비** | 세션 준비 |
+| Spotlight | **조명** | “PC에게 조명을 비추다” |
+
+**강령 세 줄**: 플레이어 캐릭터의 삶을 모험으로 채운다 / **무슨 일이 일어나는지 보려고 플레이한다** / 의미 있는 판타지 세계를 그려 낸다.
+
+---
+
+## I. 캠페인 모드
+
+| English | 한국어 | 비고 |
+| --- | --- | --- |
+| Treasure | **재물** | 추상화된 화폐 단위. “1 재물”, “3 재물” |
+| treasure (in-fiction) | **보물** | 이야기 속 물건으로서의 보물 |
+| Wealth | **부**(Wealth) | 살 수 있는 것과 신경 쓸 지출의 정도 |
+| Wealth Standing | **부 등급** | |
+| Broke / Poor / Modest / Comfortable / Rich / Aristocratic | **무일푼 / 가난 / 보통 / 넉넉 / 부유 / 귀족** | |
+| Treasure Track | **재물 트랙** | |
+| Campaign Mode | **캠페인 모드** | |
+
+---
+
+## J. 직업
+
+| English | 한국어 |
+| --- | --- |
+| Barbarian | **야만인** |
+| Bard | **음유시인** |
+| Cleric | **사제** |
+| Fighter | **파이터** |
+| Rogue | **도적** |
+| Wizard | **마법사** |
+
+2.1에 없는 직업: 드루이드, 성기사, 레인저 (2.0 알파 번역에만 존재).
+
+### 길(Path)
+
+| 직업 | English | 한국어 |
+| --- | --- | --- |
+| 야만인 | Berserker / Outlander / Hedonist | **광전사 / 외지인 / 쾌락주의자** |
+| 음유시인 | Dabbler / Diplomat / Swashbuckler | **견습생 / 외교관 / 허풍선이** |
+| 사제 | Caregiver / Oracle / Warpriest | **돌보는 이 / 예언자 / 전쟁사제** |
+| 파이터 | Bulwark / Weaponmaster / Tactician | **방벽 / 무기 대가 / 전술가** |
+| 도적 | Assassin / Burglar / Spy | **암살자 / 털이꾼 / 첩자** |
+| 마법사 | Evoker / Illusionist / Necromancer | **정령술사 / 환영술사 / 사령술사** |
+
+### 직업 시작 액션·길(Path) 액션
+
+| English | 한국어 | 직업 |
+| --- | --- | --- |
+| Rage! | **격노(Rage)!** | 야만인 |
+| Trance-Like Fury / Red Nails / Spine-Chilling Countenance / The Beast Within / When It Earns Me | **황홀한 격노 / 붉은 손톱 / 오싹한 얼굴 / 내면의 짐승 / 그럴 자격이 될 때** | 야만인·광전사 |
+| Where I Come From… / Pack Reader / Sacrificial Rite / Tread the Jeweled Thrones / Unerring Intuition | **내가 온 곳은… / 무리 읽기 / 제물 의식 / 보석 왕좌를 밟다 / 틀리지 않는 직감** | 야만인·외지인 |
+| Herculean Appetite / Basking in Victory / Forthright Speech / Insatiable / Strong as a Bull | **엄청난 욕망 / 승리에 젖기 / 거침없는 말 / 채워지지 않는 / 소처럼 강하게** | 야만인·쾌락주의자 |
+| Perform Your Art | **예술 펼치기** | 음유시인 |
+| Bardic Lore / A Kind of Magic / A Knave, a Rascal / Artisan's Apprentice / Virtuoso's Mind | **음유 지식 / 일종의 마법 / 건달, 악당 / 장인의 도제 / 거장의 머리** | 음유시인·견습생 |
+| The Oldest Game / Cards on the Table / Countercharm / Friends in High Places / Parley! | **가장 오래된 게임 / 패를 드러내다 / 주문 되받기 / 높은 곳의 친구들 / 협상!** | 음유시인·외교관 |
+| Style Is Everything / Fly Into the Face of Danger / *I* Am Not Left-Handed! / Very Intricate Backstory / Watch Me Shine | **멋이 전부다 / 위험에 뛰어들기 / *나는* 왼손잡이가 아니다! / 더 빈틈없는 배경 이야기 / 빛나는 나를 봐** | 음유시인·허풍선이 |
+| The Greatest Miracle / Awake! The Shadow Is Gone / Face of an Angel / I'll Carry it For You / Mass Cure Wounds | **가장 큰 기적 / 깨어라! 그림자는 사라졌다 / 천사의 얼굴 / 내가 대신 짊어지겠다 / 대규모 상처 치유** | 사제·돌보는 이 |
+| Visions From Above / A Moth to the Sacred Flame / Haruspication / Sacred Truth / True Colors | **위로부터의 계시 / 성스러운 불꽃에 이끌리는 나방 / 내장 점 / 성스러운 진실 / 본색** | 사제·예언자 |
+| Punishment Divine / Divine Intuition / Drink From the Cup of Wrath / Not the End / Spiritual Weapon | **신의 응징 / 신성한 직감 / 분노의 잔을 들이켜다 / 끝이 아니다 / 영적 무기** | 사제·전쟁사제 |
+| Signature Weapon | **전용 무기** | 파이터 |
+| Stalwart Protector / Armiger / Second Wind / Silent Protector / Taunting Shout | **굳건한 수호자 / 갑주지기 / 재기 / 말없는 수호자 / 도발의 함성** | 파이터·방벽 |
+| The Blade Reforged / Advanced Fighting Styles / Boot Knife / Secret Weapon / Snap the Blade | **다시 벼려진 칼날 / 상급 전투 양식 / 장화 속 칼 / 비장의 무기 / 칼날 부러뜨리기** | 파이터·무기 대가 |
+| Plans Within Plans / Eye for Destruction / Honed Instincts / Old Comrades & Former Foes / Veteran of a Hundred Battles | **예비 전술 / 파괴의 눈 / 벼려진 본능 / 옛 전우와 옛 적 / 백전노장** | 파이터·전술가. **예비(Prep)** 자원을 쓴다 |
+| Dirty Deeds / Always a Way Out / Backstab / Poisoncraft / Stalker in Shadows | **더러운 일 / 빠져나갈 길은 있다 / 뒤치기 / 독 조제 / 그림자 속의 추적자** | 도적·암살자 |
+| Expert Treasure-hunter / Better Lucky Than Good / Breaking & Entering / Quick on the Draw / Vanishing Act | **노련한 보물 사냥꾼 / 실력보다 운 / 침입과 잠입 / 빠른 손놀림 / 사라지기** | 도적·털이꾼 |
+| The One for the Job / Hand Trick / Maven Saboteur / Underworld Connections / You Know My Name | **적임자 / 손버릇 / 파괴공작의 대가 / 암시장 인맥 / 내 이름을 아는군** | 도적·첩자 |
+| Weave the Arcane | **비전 엮기** | 마법사 |
+| Evocation Magic / Contingency / Elemental Cloak / Instant Fireball! / Power Weapon | **정령술 마법 / 대비책 / 원소 망토 / 즉석 화염구! / 힘의 무기** | 마법사·정령술사 |
+| Illusion Magic / Alter Perception / Fool Me Once… / Mirror Image / The Mirror Stares Back | **환영 마법 / 인식 바꾸기 / 한 번 속으면… / 분신 / 거울이 되돌아본다** | 마법사·환영술사 |
+| Necromantic Magic / A Ghost at the Feast / Lifeforce Is a Resource / Sanctum to Unlife / Shed this Mortal Coil | **사령술 마법 / 잔치의 유령 / 생명력도 자원이다 / 불사의 성소 / 이 필멸의 껍질을 벗어던지다** | 마법사·사령술사 |
+| Invoke the Divine | **신의 뜻 청하기** | 사제 |
+| Fighting Styles / Plans Within Plans | **전투 양식 / 예비 전술** | 파이터 |
+| Tricks of the Trade / Roguish Skills | **숨은 솜씨 / 도적 솜씨** | 도적 |
+| Weave the Arcane | **비전 엮기** | 마법사 |
+
+### 장갑
+
+**경장갑**(Light) / **중간 장갑**(Medium) / **중장갑**(Heavy). 피해 감소는 각각 1·2·3이며, 요구 근력은 +1·+2·+3입니다.
+
+### 갈등(Struggle) 이름 — 2.0 알파 번역 재사용
+
+2.0 알파 `conflicts.md`의 번역을 그대로 잇습니다: 기억 상실(Amnesia), 겁쟁이(Coward), 어둠의 속삭임(Dark Whisperer), 환멸(Disillusioned), 사냥감(Hunted), 빚쟁이(Indebted), 불길한 꿈(Ominous Dreams), 천덕꾸러기(Pariah), 개심한 악당(Reformed), 배신당한 전우(Betrayed), 고독한 방랑자(Loner), 보물 집착(Treasure Obsession) 등.
+
+### 유대(Bond) 이름
+
+Champions **용사들**, Comrades in Arms **전우**, Enthusiasts **동호인**, Mentor & Ward **스승과 제자**, Rivals **라이벌**, Siblings **형제자매**, True Lovers **진실한 연인**.
+
+---
+
+## K. 예시 문장 (톤 기준)
+
+1판:
+
+> “근거리 전투에서 적을 공격하면 +근 판정을 합니다. 10+이면 적에게 피해를 주고 자기는 공격을 피합니다.”
+
+2.1 번역:
+
+> “전투에서 적과 맞붙을 때, 근거리면 **+근 판정**, 원거리면 **+민 판정**을 합니다. **10+** 이면 아래 하나를 고릅니다.”
 
 > “액션이 끝나면 앞으로의 **이야기 속 현실(the fiction)** 에 무엇이 바뀌었는지 반영합니다.”
 
-**DW2 번역 예 (이후 문단 — 굳이 ‘현실’을 반복하지 않음):**
-
-> “룰을 쓰고 나면 항상 **이야기 속으로** 되돌아가십시오.” (1판 원문과 같은 층위)
-
 ---
 
-## A. Roles and people
-
-| English (DW2 / common)              | Korean (1판·권장)            | Notes                                                                                                                                                                                                                                                               |
-| ----------------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Game Master (GM)                    | **마스터** / GM              | 1판 본문은 “마스터”. 괄호로 **GM** 병기 가능.                                                                                                                                                                                                                       |
-| Player                              | **플레이어**                 |                                                                                                                                                                                                                                                                     |
-| Player character (PC)               | **플레이어 캐릭터** / **PC** |                                                                                                                                                                                                                                                                     |
-| Participant                         | **참가자**                   | _DW2_ 메타 논의(안전 도구 등)에서 플레이어·GM 포함.                                                                                                                                                                                                                 |
-| NPC                                 | **NPC**                      | 필요 시 “NPC(비플레이어 인물)”.                                                                                                                                                                                                                                     |
-| The play group (table, real people) | **팀**                       | GM과 플레이어가 함께하는 실제 플레이 집단(이야기 속 **일행** 과 구분). 예: “**팀** 전체가 일정을 정합니다.” 커뮤니티에서는 **탁(卓)·테이블** 로도 부르지만, 본 프로젝트는 **팀** 으로 통일한다. **파티** 는 PC 무리(일행)와 겹치기 쉬워 메타 집단 표기에는 쓰지 않는다. |
-| The adventuring party (in-fiction)  | **일행**                     | 캐릭터들의 무리. 예: “**일행** 중 한 명을 길잡이로 정합니다.” (1판 「험난한 여정」)                                                                                                                                                                                 |
-
----
-
-## B. Core concepts
-
-| English               | Korean (1판·권장)         | Notes                                                                                                    |
-| --------------------- | ------------------------- | -------------------------------------------------------------------------------------------------------- |
-| Move                  | **액션**                  | DW2도 “move”; 1판 한국어는 **액션** 이 표준. 병기: “액션(Move)”.                                          |
-| Basic move            | **기본 액션**             |                                                                                                          |
-| Special move          | **특수 액션**             |                                                                                                          |
-| Class                 | **직업**                  |                                                                                                          |
-| Character sheet       | **캐릭터 시트**           |                                                                                                          |
-| Level / Level up      | **레벨** / **레벨업**     |                                                                                                          |
-| Experience (XP)       | **경험치**                |                                                                                                          |
-| Roll                  | **판정**                  | 본문에서는 **“+근 판정을 합니다”** 식이 1판 표준(§ [`TRANSLATION-GUIDE.md`](./TRANSLATION-GUIDE.md) §5). |
-| 10+                   | **10+**                   |                                                                                                          |
-| 7–9                   | **7–9** 또는 **7~9**      | 표기는 가이드에서 통일.                                                                                  |
-| 6-                    | **6-**                    |                                                                                                          |
-| the fiction / fiction | **이야기 속 현실** 등     | 위 **「이야기 속 현실」** 절 참고. **픽션** 은 기본 표기로 쓰지 않음.                                     |
-| narrative             | **이야기** / **내러티브** | 규칙 용어로 강조할 때만 **내러티브(narrative)** 병기.                                                    |
-| Fictional positioning | **이야기 속 위치**        | 파일당 첫 등장 병기 규칙 위와 동일.                                                                      |
-| Trigger               | **발동** / **발동 조건**  | 무브 첫 줄 “When you…” → **“~할 때”**.                                                                   |
-| Tag (equipment)       | **태그**                  | 아래 **「L. 태그」** 및 [`tags.md`](./tags.md).                                                          |
-
----
-
-## B2. 자주 나오는 기계어 (1판 공개판 그대로 유지)
-
-에이전트는 아래를 **DW2 본문에 그대로** 쓰되, 영어 원문이 바뀌어도 한국어는 1판 습관을 우선합니다.
-
-| English / 개념        | Korean (1판)       | 예문 (1판 인용)                                                     |
-| --------------------- | ------------------ | ------------------------------------------------------------------- |
-| Hold                  | **예비**           | “10+이면 **예비** 3점을, 7~9이면 **예비** 1점을 받습니다.” (방어)   |
-| +1 forward            | **다음 판정에 +1** | “…다음 **판정** 에 +1을 받습니다.”                                   |
-| +1 ongoing            | **계속 +1**        | “**사격 판정** 에 **계속 +1**” 식(1판 플레이 하는 법).               |
-| Load / encumbrance    | **하중**           | “**하중** 은 9+근입니다.” (도적 장비)                                |
-| Weight                | **무게**           | “무게 1”, “무게 0”                                                  |
-| Ammo uses             | **발수**           | “화살 한 다발 (**발수** 3, 무게 1)”                                 |
-| Uses (doses, rations) | **회분**           | “독 3**회분**”, “식량 (5**회분**)”                                  |
-| Debility (DW1)        | **약화**           | 1판: 무기력(+근), 경련(+민) 등. DW2는 **조건** 위주 — 아래 **F절**. |
-| Stun damage           | **충격 피해**      | 1판 플레이 하는 법. DW2에 해당 규칙이 있으면 동일 한글 유지.        |
-
----
-
-## C. Stats (DW2 has five)
-
-1판은 **근·체·민·지·혜·매** 여섯; DW2는 **체력(CON) 없음** — 근력 설명에 지구력·버티기가 들어가면 1판 독자에게 혼동이 줄어듭니다.
-
-| English            | Korean          | Notes                                   |
-| ------------------ | --------------- | --------------------------------------- |
-| Strength (STR)     | **근력(STR)**   |                                         |
-| Dexterity (DEX)    | **민첩성(DEX)** | 1판 **민첩성**.                         |
-| Intelligence (INT) | **지능(INT)**   |                                         |
-| Wisdom (WIS)       | **지혜(WIS)**   |                                         |
-| Charisma (CHA)     | **매력(CHA)**   |                                         |
-| Constitution (CON) | —               | DW2 본편 기본 스탯 아님; 옵션·레거시만. |
-
-**판정 표기 (1판 패턴):** **+근 판정**, **+민 판정**, **+지 판정**, **+혜 판정**, **+매 판정** — “2d6+근력” 풀표기는 주사위 설명 절에서만.
-
-**Modifier (legacy phrasing):** **능력수정치** — 예: +민 → **민첩 수정치** / **DEX 수정치**.
-
----
-
-## D. DW2 액션명 (본 프로젝트 확정안)
-
-**형식:** 제목 줄 **한글(English)** — 같은 파일에서 무브명 **첫 등장** 에만 영어 병기해도 됨.
-
-### D0. 액션 제목 짓기 규칙 (1판과 맞추기)
-
-1판은 **짧은 명사형** 이 많습니다: **접근전**, **사격**, **방어**, **야영**, **파수**, **지식 더듬기**, **상황 파악**.
-
-| 우선순위 | 형식           | 예 (1판)                   | DW2 적용 예                                                |
-| -------- | -------------- | -------------------------- | ---------------------------------------------------------- |
-| 1        | **명사만**     | 야영, 파수, 레벨업         | **야영**, **파수**, **레벨업**, **전력 공격**              |
-| 2        | **~기**        | 지식 더듬기, 몰래 지나가기 | **동료 돕기**, **몰래 지나가기**, **감정 쏟아내기**        |
-| 3        | **~다** 문장형 | (드묾) 여정을 떠나다       | **여정을 떠나다**, **한계에 다다른다** — ~기가 어색할 때만 |
-
-한 파일 안에서 **섞어도 되지만**, 같은 유형(모험/캐릭터/전투)끼리는 가능하면 **한 가지 리듬** 으로 맞춥니다.
-
-### 모험 액션 (`adventure-moves.md`)
-
-| English             | 한국어               | 1판·비고                                                                                                                           |
-| ------------------- | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Aid Companion       | **동료 돕기**        | 1판: 협조 또는 방해(대응 개념).                                                                                                    |
-| Defy Danger         | **위험 돌파**        | 동일.                                                                                                                              |
-| Recall Lore         | **지식 더듬기**      | 1판 Spout Lore와 같은 역할. 영어만 Recall로 바뀜 — 한글은 **유지** 해 독자 연속성 확보. (대안: 지식 되짚기 — 새 이름을 강조할 때만) |
-| Sense Motive        | **속뜻 읽기**        | 신규.                                                                                                                              |
-| Sneak Past          | **몰래 지나가기**    | 신규.                                                                                                                              |
-| Influence Choice    | **선택에 영향 주기** | 1판 Parley는 **협상**; 맥락상 NPC 설득이면 **협상** 병용 가능. 문학적 표현 **선택을 흔들기** 는 피하고, 규칙서 톤은 **직설** 우선.  |
-| Undertake a Journey | **여정을 떠나다**    | 1판: 험난한 여정(개념 대응).                                                                                                       |
-| Unearth Secrets     | **비밀을 파헤치다**  | 신규.                                                                                                                              |
-
-### 캐릭터 액션 (`character-moves.md`)
-
-| English            | 한국어              | 1판·비고                                                                        |
-| ------------------ | ------------------- | ------------------------------------------------------------------------------- |
-| Comfort or Support | **위로와 격려**     | 짧은 제목(1판 스타일). 긴 서술형 “위로하거나 버티게 하다”는 본문 설명에 사용.   |
-| Reach Your Limit   | **한계에 다다른다** |                                                                                 |
-| Face Death         | **황천길**          | 1판 Last Breath = **황천길** — 감성·용어 통일. 첫 등장: **황천길(Face Death)**. |
-| Make Camp          | **야영**            | 동일.                                                                           |
-| Keep Watch         | **파수**            | 동일.                                                                           |
-| Enjoy Downtime     | **휴식을 즐긴다**   |                                                                                 |
-| Forge a Bond       | **유대를 맺는다**   | 1판 **인연** 과 구분 — DW2 **유대** 는 미니 플레이북(§G).                         |
-| Level Up           | **레벨업**          | 동일.                                                                           |
-| End the Session    | **세션을 마친다**   | 1판: 세션 종료.                                                                 |
-| Vent Emotions      | **감정 쏟아내기**   |                                                                                 |
-
-### 전투 액션 (`battle-moves.md`)
-
-| English        | 한국어              |
-| -------------- | ------------------- | ---------------------------------- |
-| Wrest Control  | **주도권을 쥐다**   |
-| Keep Them Busy | **적을 붙잡다**     | _대안:_ 바쁘게 만든다 — 더 구어체. |
-| Secure an Edge | **우위를 확보한다** |
-| All Out Attack | **전력 공격**       |
-
-### 1판 대응 참고 (DW2에서 이름·구조가 바뀐 경우)
-
-| 1판 한국어     | English (DW1)          | DW2                                           |
-| -------------- | ---------------------- | --------------------------------------------- |
-| 접근전·사격 등 | Hack and slash, Volley | **전투 액션** 으로 재구성                      |
-| 지식 더듬기    | Spout lore             | **지식 더듬기(Recall Lore)** — 한글 유지 권장 |
-| 협상           | Parley                 | **선택에 영향 주기** / 맥락상 **협상**        |
-| 협조 또는 방해 | Aid or interfere       | **동료 돕기**                                 |
-| 황천길         | Last breath            | **황천길(Face Death)**                        |
-
-**레거시 언급:** 규칙 해설문에 **Engage a Threat** 가 남아 있으면 → **위협에 맞서다(Engage a Threat)** (해당 파일 첫 등장에만 영어 병기).
-
----
-
-## E. GM: agenda, principles, moves
-
-| English               | Korean (1판)                  | Notes                                    |
-| --------------------- | ----------------------------- | ---------------------------------------- |
-| Agenda                | **강령**                      | “플레이를 해서 알아낸다” 등 세 줄.       |
-| Principle             | **원칙**                      |                                          |
-| GM move               | **마스터 액션**               | 1판 “액션의 이름을 밝히지 않는다” 등.    |
-| Soft move / Hard move | **약한 액션** / **강한 액션** |                                          |
-| Dungeon move          | **던전 액션**                 |                                          |
-| Front                 | _(1판 ‘국면’)_                | DW2에서 **Front** 미사용이면 번역 안 함. |
-| Threat                | **위협** / **위험**           | 맥락에 따라.                             |
-
----
-
-## F. Damage, HP, conditions (edition mix)
-
-| English            | Korean (1판)            | DW2 notes                                                                       |
-| ------------------ | ----------------------- | ------------------------------------------------------------------------------- |
-| HP                 | **HP** / **히트포인트** | 첫 등장 병기 가능.                                                              |
-| Damage             | **피해**                |                                                                                 |
-| Armor              | **장갑**                | DW2는 장갑 규칙이 다를 수 있음 — 수치는 DW2 따름.                               |
-| Heal / healing     | **치유**                |                                                                                 |
-| Bloodied           | **피투성이**            | _DW2_ 조건 이름으로 시트에 등장 — **중상** 등으로 바꾸지 말고 시트·용어집 통일. |
-| Disadvantage (DIS) | **불리**                | _DW2_; 첫 등장 **불리한 판정(DIS)** 가능.                                       |
-| Advantage (ADV)    | **유리**                |                                                                                 |
-
-### DW2 조건(conditions) 예시 — 시트와 동일하게 유지
-
-`the-rogue.md` 등에 이미 쓰인 경우 그대로 용어집에 고정합니다.
-
-| 한글 (시트)  | English (참고)       | Notes             |
-| ------------ | -------------------- | ----------------- |
-| **피투성이** | Bloodied             |                   |
-| **지침**     | Weary / similar      | 원문 태그에 맞춤. |
-| **겁먹음**   | Frightened / similar |                   |
-| **분노**     | Angry / similar      |                   |
-| **산만**     | Distracted / similar |                   |
-| **불안**     | Anxious / similar    |                   |
-
-새 직업·조건이 나오면 **한 줄 추가** 하고 영어 원어를 병기합니다.
-
----
-
-## G. Character — 1판 고유 (DW2 대응 시만)
-
-| English / concept | Korean (1판) | DW2                                                                  |
-| ----------------- | ------------ | -------------------------------------------------------------------- |
-| Bond              | **인연**     | DW2는 **Relationship** + **Bond**(미니 플레이북) 이원화 — 아래 참고. |
-| Alignment / drive | **가치관**   | DW2 **Conflict** 등으로 대체 가능.                                   |
-| Hireling          | **고용인**   | DW2 본문 유무 확인.                                                  |
-
-### DW2 relationship model (_필수 신규_)
-
-| English                  | Korean (권장 초안)       | Notes                                                               |
-| ------------------------ | ------------------------ | ------------------------------------------------------------------- |
-| Relationship             | **관계**                 | PC 간 믿음·사건·감정 등.                                            |
-| Relationship Depth       | **관계 깊이**            |                                                                     |
-| Bond (DW2 mini-playbook) | **유대** / **결속**      | 1판 **인연** 과 혼동 방지 — **유대(DW2 Bond)** 로 첫 등장 병기 권장. |
-| Conflict                 | **갈등** / **내적 갈등** | _DW2_ Ambition 대체.                                                |
-| Origin(s)                | **기원** / **출신 질문** | 캐릭터 만들기 프롬프트.                                             |
-| Path                     | **길(Path)**             | 클래스 하위 경로. 첫 등장 시 영어 병기 권장.                        |
-| Advancement              | **향상** / **발전**      | 레벨업 때 고르는 선택지. 시트에는 **향상** 통일 권장.               |
-
----
-
-## H. Play procedures
-
-| English         | Korean (1판·권장)                                                        | Notes                         |
-| --------------- | ------------------------------------------------------------------------ | ----------------------------- |
-| What do you do? | **어떻게 하나요?** / **그래서 어떻게 하나요?** / **이제 어떻게 하나요?** | GM 훅.                        |
-| Session zero    | **첫 세션**                                                              |                               |
-| Safety tools    | **안전 도구**                                                            |                               |
-| Spotlight       | **조명** / **스포트라이트**                                              | 메타: “PC에게 조명을 비추다”. |
-
----
-
-## I. Class names (1판)
-
-| English   | Korean     | 비고                                                                                                                                    |
-| --------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Barbarian | **야만인** | 1판 표기. 현대 독자에게는 뉘앙스가 거칠 수 있음 — 프로젝트에서 **바바리안**(차용어) 등으로 바꿀 경우 **전 직업 파일 일괄**·용어집 갱신. |
-| Bard      | 음유시인   |                                                                                                                                         |
-| Cleric    | 사제       |                                                                                                                                         |
-| Druid     | 드루이드   |                                                                                                                                         |
-| Fighter   | 전사       |                                                                                                                                         |
-| Paladin   | 성기사     |                                                                                                                                         |
-| Ranger    | 레인저     |                                                                                                                                         |
-| Rogue     | 도적       |                                                                                                                                         |
-| Wizard    | 마법사     |                                                                                                                                         |
-
-DW2에만 있는 클래스는 이 표에 **행 추가**.
-
----
-
-## J. Example names (도적)
-
-1판 공개판 예시 이름은 직업 파일 번역 시 **그대로 쓰거나**, DW2 예시로 교체 시 용어집에 주석.
-
----
-
-## L. 태그 (장비·거리) — 1판과 DW2 혼용 시
-
-1판 도적 예: **반걸음**, **한걸음**, **중거리**, **투척**, **정밀**.  
-DW2 변환본에는 **가까움**, **멀리**, **손**, **근접** 등이 나올 수 있습니다.
-
-**에이전트 지침:**
-
-1. **`tags.md`를 번역할 때** 한 벌의 표로 **통일** 하고, 이 절에는 **줄만** 추가합니다.
-2. **직업 파일** 은 `tags.md`의 확정 번역을 따릅니다.
-3. 1판과 DW2 영어 태그가 다르면 **영어 원문→한글** 매핑을 용어집에 명시합니다 (예: _close_ → 프로젝트에서 통일한 한 글자).
-
----
-
-## K. Quick reference: phrases from Korean SRD
-
-- **“룰을 따른다”** — 플레이 절차.
-- **“액션을 한다”** — 무브 실행.
-- **“이야기 속에서”** — 1판에서 가장 흔한 표현.
-- **“이야기 속의 현실을 기준으로 생각하십시오”** — 1판 짐(특수 액션) 설명.
-- **“마스터 액션의 이름을 말해서는 안 됩니다”** — GM 교육 문장 그대로 인용 시 출처·라이선스 유의.
-
----
-
-_End of glossary. Keep in sync with [`TRANSLATION-GUIDE.md`](./TRANSLATION-GUIDE.md)._
+_이 용어집은 [`TRANSLATION-GUIDE.md`](./TRANSLATION-GUIDE.md)와 함께 갱신합니다._

@@ -10,28 +10,53 @@ import ScrollTopButton from '../components/ScrollTopButton.astro';
 import AddHeadingScript from '../components/AddHeadingScript.astro';
 import * as CONFIG from '../config';
 import type { PairedBlock, ChapterHeading } from '../utils/pairChapterBlocks';
-import type { ChapterMeta } from '../data/cypher-srd/chapters';
+
+type NavChapter = { slug: string; titleKo: string };
 
 type Props = {
 	titleEn: string;
 	titleKo: string;
 	rows: PairedBlock[];
 	headings: ChapterHeading[];
-	prev: ChapterMeta | null;
-	next: ChapterMeta | null;
+	prev: NavChapter | null;
+	next: NavChapter | null;
+	/** 이전/다음 장 링크의 기본 경로. 기본값은 사이퍼 SRD. */
+	basePath?: string;
+	/** 페이지 제목 뒤에 붙는 말머리. 기본값은 "[CSRD 2026]". */
+	titleSuffix?: string;
+	description?: string;
+	/** 수정 링크가 가리킬 파일. 기본값은 사이퍼 SRD 한국어 원고. */
+	editPath?: string;
+	showTitle?: boolean;
+	bilingual?: boolean;
+	pendingNotice?: boolean;
 };
 
-const { titleEn, titleKo, rows, headings, prev, next } = Astro.props as Props;
+const {
+	titleEn,
+	titleKo,
+	rows,
+	headings,
+	prev,
+	next,
+	basePath = '/ko/cypher-srd',
+	titleSuffix = '[CSRD 2026]',
+	description,
+	editPath = `src/data/cypher-srd/ko/${Astro.params.slug}.md`,
+	showTitle = false,
+	bilingual = true,
+	pendingNotice = false,
+} = Astro.props as Props;
 
 const frontmatter: CONFIG.Frontmatter = {
-	title: `${titleKo} [CSRD 2026]`,
-	description: `사이퍼 시스템 레퍼런스 문서(2026-07-29판) "${titleEn}" 챕터`,
+	title: `${titleKo} ${titleSuffix}`,
+	description: description ?? `사이퍼 시스템 레퍼런스 문서(2026-07-29판) "${titleEn}" 챕터`,
 	layout: '',
 };
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const currentPage = Astro.url.pathname;
-const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/src/data/cypher-srd/ko/${Astro.params.slug}.md`;
+const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${editPath}`;
 
 // astro:content style MarkdownHeading shape for the mobile/desktop TOC component
 const tocHeadings = headings.map((h) => ({ depth: h.depth, slug: h.slug, text: h.text }));
@@ -154,6 +179,10 @@ const tocHeadings = headings.map((h) => ({ depth: h.depth, slug: h.slug, text: h
 						githubEditUrl={githubEditUrl}
 						prev={prev}
 						next={next}
+						basePath={basePath}
+						showTitle={showTitle}
+						bilingual={bilingual}
+						pendingNotice={pendingNotice}
 					/>
 				</div>
 				<aside id="grid-right" class="grid-sidebar">

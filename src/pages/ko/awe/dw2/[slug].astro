@@ -1,0 +1,59 @@
+---
+import BilingualLayout from '../../../../layouts/BilingualLayout.astro';
+import { pairDw2Sections } from '../../../../utils/pairDw2Sections';
+import { DW2_CHAPTERS, DW2_SOURCE, type Dw2ChapterMeta } from '../../../../data/dw2/chapters';
+
+// import.meta.glob은 빌드 청크로 옮겨져도 안전한 정적 import다.
+const enSources = import.meta.glob('../../../../data/dw2/en/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+const koSources = import.meta.glob('../../../../data/dw2/ko/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+
+function sourceFor(sources: Record<string, string>, dir: 'en' | 'ko', slug: string): string {
+  const source = sources[`../../../../data/dw2/${dir}/${slug}.md`];
+  if (source === undefined) {
+    if (dir === 'ko') return ''; // 아직 번역하지 않은 장
+    throw new Error(`[dw2:${slug}] en 원고가 없습니다`);
+  }
+  return source;
+}
+
+export function getStaticPaths() {
+  return DW2_CHAPTERS.map((chapter, index) => ({
+    params: { slug: chapter.slug },
+    props: {
+      chapter,
+      prev: DW2_CHAPTERS[index - 1] ?? null,
+      next: DW2_CHAPTERS[index + 1] ?? null,
+    } satisfies { chapter: Dw2ChapterMeta; prev: Dw2ChapterMeta | null; next: Dw2ChapterMeta | null },
+  }));
+}
+
+type Props = {
+  chapter: Dw2ChapterMeta;
+  prev: Dw2ChapterMeta | null;
+  next: Dw2ChapterMeta | null;
+};
+
+const { chapter, prev, next } = Astro.props as Props;
+
+const enSource = sourceFor(enSources, 'en', chapter.slug);
+const koSource = sourceFor(koSources, 'ko', chapter.slug);
+const translated = koSource.trim().length > 0;
+
+const { rows, headings } = pairDw2Sections(chapter.slug, enSource, koSource);
+---
+
+<BilingualLayout
+  titleEn={chapter.titleEn}
+  titleKo={chapter.titleKo}
+  titleSuffix="[DW2 2.1]"
+  description={`던전월드 2 Beta v2.1(${DW2_SOURCE.date}) "${chapter.titleEn}" 장의 영어 원문과 한국어 번역 대역`}
+  basePath="/ko/awe/dw2"
+  editPath={translated ? `src/data/dw2/ko/${chapter.slug}.md` : `src/data/dw2/en/${chapter.slug}.md`}
+  rows={rows}
+  headings={headings}
+  prev={prev}
+  next={next}
+  showTitle
+  bilingual={translated}
+  pendingNotice={!translated}
+/>

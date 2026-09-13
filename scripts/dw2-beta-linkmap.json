@@ -1,0 +1,228 @@
+{
+  "source": "Dungeon World 2 Beta v2.1.md",
+  "sourceLines": 3655,
+  "anchorCount": 103,
+  "files": {
+    "00-front-matter": {
+      "start": 1,
+      "end": 122
+    },
+    "introduction": {
+      "start": 123,
+      "end": 241
+    },
+    "playing-the-game": {
+      "start": 242,
+      "end": 336
+    },
+    "session-zero": {
+      "start": 337,
+      "end": 393
+    },
+    "moves-crash-course": {
+      "start": 394,
+      "end": 452
+    },
+    "character-creation": {
+      "start": 453,
+      "end": 639
+    },
+    "core-moves": {
+      "start": 640,
+      "end": 752
+    },
+    "extra-moves": {
+      "start": 753,
+      "end": 817
+    },
+    "the-barbarian": {
+      "start": 818,
+      "end": 1002
+    },
+    "the-bard": {
+      "start": 1003,
+      "end": 1187
+    },
+    "the-cleric": {
+      "start": 1188,
+      "end": 1380
+    },
+    "the-fighter": {
+      "start": 1381,
+      "end": 1563
+    },
+    "the-rogue": {
+      "start": 1564,
+      "end": 1748
+    },
+    "the-wizard": {
+      "start": 1749,
+      "end": 1930
+    },
+    "behind-the-screen": {
+      "start": 1931,
+      "end": 1972
+    },
+    "agenda-and-principles": {
+      "start": 1973,
+      "end": 2059
+    },
+    "gm-moves": {
+      "start": 2060,
+      "end": 2159
+    },
+    "preparing-a-session": {
+      "start": 2160,
+      "end": 2342
+    },
+    "major-npcs": {
+      "start": 2343,
+      "end": 2476
+    },
+    "npc-traits": {
+      "start": 2477,
+      "end": 2598
+    },
+    "threats": {
+      "start": 2599,
+      "end": 2687
+    },
+    "magic-items": {
+      "start": 2688,
+      "end": 2714
+    },
+    "example-magic-items": {
+      "start": 2715,
+      "end": 3101
+    },
+    "campaign-moves": {
+      "start": 3102,
+      "end": 3138
+    },
+    "bonds": {
+      "start": 3139,
+      "end": 3200
+    },
+    "struggles": {
+      "start": 3201,
+      "end": 3233
+    },
+    "example-struggles": {
+      "start": 3234,
+      "end": 3389
+    },
+    "treasure-and-wealth": {
+      "start": 3390,
+      "end": 3437
+    },
+    "the-stolen-children": {
+      "start": 3438,
+      "end": 3655
+    }
+  },
+  "anchors": {
+    "about-this-release": "introduction",
+    "accept-losses-gracefully": "playing-the-game",
+    "agenda": "agenda-and-principles",
+    "aid-a-pc-(n/a)": "core-moves",
+    "ancestry": "character-creation",
+    "armor-&-shields": "character-creation",
+    "background": "character-creation",
+    "behind-the-screen": "behind-the-screen",
+    "bonds": "bonds",
+    "campaign-mode": "campaign-moves",
+    "campaign-moves": "campaign-moves",
+    "cast-a-spell-(+variable)": "core-moves",
+    "character-creation": "character-creation",
+    "character-creation-cheat-sheet": "character-creation",
+    "class": "character-creation",
+    "comfort-or-support": "core-moves",
+    "community": "character-creation",
+    "conditions": "character-creation",
+    "core-moves": "core-moves",
+    "crash-course-in-(understanding-&-using)-moves": "moves-crash-course",
+    "damage-dice-size": "character-creation",
+    "defy-danger-(+variable)": "core-moves",
+    "detail-fantastic-locations": "preparing-a-session",
+    "develop-important-npcs": "preparing-a-session",
+    "end-the-session": "extra-moves",
+    "enjoy-downtime": "campaign-moves",
+    "equipment-&-#tags": "character-creation",
+    "example-bonds": "bonds",
+    "example-magic-items": "example-magic-items",
+    "extra-moves": "extra-moves",
+    "face-death": "extra-moves",
+    "fictional-positioning": "playing-the-game",
+    "forge-a-bond": "campaign-moves",
+    "gm-background": "the-stolen-children",
+    "gm-class-moves": "gm-moves",
+    "gm-core-moves": "gm-moves",
+    "gm-moves": "gm-moves",
+    "hard-&-soft-moves": "gm-moves",
+    "hit-points-&-damage": "character-creation",
+    "introduction": "introduction",
+    "invoke-the-divine-—-name-(pro/nouns):-___": "the-cleric",
+    "level-up": "extra-moves",
+    "locations": "the-stolen-children",
+    "magic-items": "magic-items",
+    "major-npcs": "major-npcs",
+    "make-camp": "extra-moves",
+    "make-the-situation-worse": "gm-moves",
+    "miniaturized-adventure:-the-stolen-children": "the-stolen-children",
+    "npcs": "the-stolen-children",
+    "origins": "character-creation",
+    "outline-other-potential-scenes": "preparing-a-session",
+    "perform-a-ritual": "extra-moves",
+    "perform-your-art": "the-bard",
+    "phylactery": "example-magic-items",
+    "plans-within-plans-—-prep-☐-☐-☐": "the-fighter",
+    "play-order-flowchart": "behind-the-screen",
+    "play-to-find-out": "playing-the-game",
+    "player’s-best-practices": "playing-the-game",
+    "playing-the-game": "playing-the-game",
+    "prepare-rewards": "preparing-a-session",
+    "preparing-a-session-cheat-sheet": "preparing-a-session",
+    "principles": "agenda-and-principles",
+    "pull-strings-(+cha)": "core-moves",
+    "rage!": "the-barbarian",
+    "reach-your-limit": "extra-moves",
+    "reveal-your-struggle": "campaign-moves",
+    "rewards": "magic-items",
+    "rewards-1": "the-stolen-children",
+    "running-the-game": "behind-the-screen",
+    "safety-tools": "introduction",
+    "safety-tools-and-related-terms": "introduction",
+    "scenes": "playing-the-game",
+    "sense-motive-(+wis)": "core-moves",
+    "session-zero": "session-zero",
+    "setup": "the-stolen-children",
+    "signature-weapon-—-name:-___": "the-fighter",
+    "sneak-past-(+dex)": "core-moves",
+    "spout-lore-(+questions)": "core-moves",
+    "starting-move": "character-creation",
+    "stats": "character-creation",
+    "struggles": "struggles",
+    "the-barbarian": "the-barbarian",
+    "the-bard": "the-bard",
+    "the-classes": "the-barbarian",
+    "the-cleric": "the-cleric",
+    "the-conversation": "playing-the-game",
+    "the-fighter": "the-fighter",
+    "the-game-master": "introduction",
+    "the-group": "introduction",
+    "the-moves": "core-moves",
+    "the-players": "introduction",
+    "the-rogue": "the-rogue",
+    "the-role-of-the-gm": "behind-the-screen",
+    "the-threat:-the-ruinreap-ritual": "the-stolen-children",
+    "the-wizard": "the-wizard",
+    "threats": "threats",
+    "trade-blows-(+str-or-+dex)": "core-moves",
+    "treasure-&-wealth": "treasure-and-wealth",
+    "tricks-of-the-trade": "the-rogue",
+    "unearth-secrets-(+int)": "core-moves",
+    "weave-the-arcane": "the-wizard",
+    "what-is-dw2?": "introduction",
+    "xp,-level,-and-advancements": "character-creation"
+  }
+}

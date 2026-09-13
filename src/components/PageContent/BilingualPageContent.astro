@@ -2,7 +2,8 @@
 import MoreMenu from '../RightSidebar/MoreMenu.astro';
 import TableOfContents from '../RightSidebar/TableOfContents';
 import type { PairedBlock, ChapterHeading } from '../../utils/pairChapterBlocks';
-import type { ChapterMeta } from '../../data/cypher-srd/chapters';
+
+type NavChapter = { slug: string; titleKo: string };
 
 type Props = {
 	titleEn: string;
@@ -10,37 +11,76 @@ type Props = {
 	rows: PairedBlock[];
 	headings: ChapterHeading[];
 	githubEditUrl: string;
-	prev: ChapterMeta | null;
-	next: ChapterMeta | null;
+	prev: NavChapter | null;
+	next: NavChapter | null;
+	/** 이전/다음 장 링크의 기본 경로. 기본값은 사이퍼 SRD. */
+	basePath?: string;
+	/** true면 페이지 제목(h1)을 본문 맨 위에 렌더한다. */
+	showTitle?: boolean;
+	/** false면 한국어 열 없이 원문만 렌더한다(번역 전 장). */
+	bilingual?: boolean;
+	/** true면 "아직 번역하지 않았습니다" 안내를 보여 준다. */
+	pendingNotice?: boolean;
 };
 
-const { rows, headings, githubEditUrl, prev, next } = Astro.props as Props;
+const {
+	titleEn,
+	titleKo,
+	rows,
+	headings,
+	githubEditUrl,
+	prev,
+	next,
+	basePath = '/ko/cypher-srd',
+	showTitle = false,
+	bilingual = true,
+	pendingNotice = false,
+} = Astro.props as Props;
 ---
 
 <article id="article" class="content bilingual-content">
 	<section class="main-section">
-		<div class="bilingual-lang-labels" aria-hidden="true">
-			<span>English (원문)</span>
-			<span>한국어 (번역)</span>
-		</div>
+		{
+			showTitle && (
+				<h1 class="content-title" id="overview">
+					{titleKo} <span class="title-en">{titleEn}</span>
+				</h1>
+			)
+		}
+		{/*
+			bilingual=false일 때는 스타일 변수만 바꾸면 되므로 클래스로 처리한다.
+		*/
+		}
+		{pendingNotice && (
+			<p class="pending-notice">
+				이 장은 아직 번역하지 않았습니다. 지금은 영어 원문만 보입니다. 진행 상황은{' '}
+				<a href="/ko/awe/dw2">던전월드 2 목차</a>에서 볼 수 있습니다.
+			</p>
+		)}
+		{bilingual && (
+			<div class="bilingual-lang-labels" aria-hidden="true">
+				<span>English (원문)</span>
+				<span>한국어 (번역)</span>
+			</div>
+		)}
 		<nav class="block sm:hidden">
 			<TableOfContents client:media="(max-width: 50em)" headings={headings} />
 		</nav>
 		{
 			rows.map((row) => (
-				<div class:list={['bilingual-row', `kind-${row.kind}`]}>
+				<div class:list={['bilingual-row', `kind-${row.kind}`, { 'en-only': !bilingual }]}>
 					<div class="en" set:html={row.enHtml} />
-					<div class="ko" set:html={row.koHtml} />
+					{bilingual && <div class="ko" set:html={row.koHtml} />}
 				</div>
 			))
 		}
 		{
 			(prev || next) && (
 				<nav class="chapter-nav" aria-label="챕터 이동">
-					<a class:list={['chapter-nav-link', 'prev', { disabled: !prev }]} href={prev ? `/ko/cypher-srd/${prev.slug}` : undefined}>
+					<a class:list={['chapter-nav-link', 'prev', { disabled: !prev }]} href={prev ? `${basePath}/${prev.slug}` : undefined}>
 						{prev ? `← ${prev.titleKo}` : ''}
 					</a>
-					<a class:list={['chapter-nav-link', 'next', { disabled: !next }]} href={next ? `/ko/cypher-srd/${next.slug}` : undefined}>
+					<a class:list={['chapter-nav-link', 'next', { disabled: !next }]} href={next ? `${basePath}/${next.slug}` : undefined}>
 						{next ? `${next.titleKo} →` : ''}
 					</a>
 				</nav>
@@ -88,10 +128,32 @@ const { rows, headings, githubEditUrl, prev, next } = Astro.props as Props;
 		padding-top: 1.5rem;
 	}
 
+	.bilingual-row.kind-preamble {
+		padding-block: 0.5rem 0;
+	}
+
+	.bilingual-row.kind-preamble .ko {
+		border-top: none;
+		padding-top: 0;
+	}
+
 	.bilingual-row .ko {
 		border-top: 1px dashed var(--color-base-300, currentColor);
 		padding-top: 0.5rem;
 		opacity: 1;
+	}
+
+	.title-en {
+		opacity: 0.5;
+		font-size: 0.7em;
+	}
+
+	.pending-notice {
+		margin-bottom: 1.5rem;
+		padding: 0.75rem 1rem;
+		border-radius: 0.5rem;
+		background-color: var(--color-base-200);
+		font-size: 0.95em;
 	}
 
 	.chapter-nav {
@@ -118,6 +180,10 @@ const { rows, headings, githubEditUrl, prev, next } = Astro.props as Props;
 	@media (min-width: 50em) {
 		.sm\:hidden {
 			display: none;
+		}
+
+		.bilingual-row.en-only {
+			grid-template-columns: 1fr;
 		}
 
 		.bilingual-lang-labels {

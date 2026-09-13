@@ -1,0 +1,93 @@
+---
+import MainLayout from '../../../../layouts/MainLayout.astro';
+import { DW2_CHAPTERS, DW2_SOURCE } from '../../../../data/dw2/chapters';
+
+const frontmatter = {
+  title: '던전월드 2 베타 2.1 (영/한 대역)',
+  description:
+    '던전월드 2 Beta v2.1(2026-09-08)을 장별로 나눠, 왼쪽에 영어 원문·오른쪽에 한국어 번역을 나란히 보여주는 대역으로 번역합니다.',
+  layout: '',
+};
+
+const translatedCount = DW2_CHAPTERS.filter((chapter) => chapter.status === 'translated').length;
+
+const parts: { part: string; chapters: typeof DW2_CHAPTERS }[] = [];
+for (const chapter of DW2_CHAPTERS) {
+  const group = parts.find((entry) => entry.part === chapter.part);
+  if (group) group.chapters.push(chapter);
+  else parts.push({ part: chapter.part, chapters: [chapter] });
+}
+---
+
+<MainLayout frontmatter={frontmatter} headings={[]}>
+  <p>
+    <strong>{DW2_SOURCE.title}</strong>({DW2_SOURCE.date})을 장별로 나눠 번역합니다. <a
+      href="https://github.com/zerobased-co/muchtrans">muchtrans</a
+    > 방식을 참고해, 왼쪽에는 영어 원문을 오른쪽에는 한국어 번역을 절 단위로 나란히 보여줍니다. 아래 목차에서 번역이
+    끝난 장부터 순서대로 볼 수 있습니다.
+  </p>
+  <p>
+    번역 톤과 용어는 <a href="https://sites.google.com/view/dwtemporary">던전월드 1판 한국어 공개판</a>에 맞추고 있습니다.
+    용어는 <a href="/ko/awe/dw2/GLOSSARY">용어집</a>, 표기 규칙은
+    <a href="/ko/awe/dw2/TRANSLATION-GUIDE">번역 지침</a>을 보십시오. 현재 {DW2_CHAPTERS.length}장 가운데 {translatedCount}장의
+    번역을 마쳤습니다.
+  </p>
+
+  {
+    parts.map(({ part, chapters }) => (
+      <section class="part">
+        <h2>{part}</h2>
+        <ol class="chapter-list">
+          {chapters.map((chapter) => (
+            <li>
+              <a href={`/ko/awe/dw2/${chapter.slug}`}>
+                {chapter.titleKo} <span class="title-en">{chapter.titleEn}</span>
+              </a>
+              {chapter.status === 'pending' && <span class="status-badge">원문만</span>}
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))
+  }
+</MainLayout>
+
+<style>
+  .part {
+    margin-top: 2rem;
+  }
+
+  .part h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .chapter-list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .chapter-list li {
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-base-200);
+  }
+
+  .title-en {
+    opacity: 0.6;
+    font-size: 0.9em;
+    margin-left: 0.25em;
+  }
+
+  .status-badge {
+    margin-left: 0.5em;
+    font-size: 0.7em;
+    letter-spacing: 0.05em;
+    padding: 0.1em 0.5em;
+    border-radius: 999em;
+    background-color: var(--color-base-300);
+  }
+</style>
