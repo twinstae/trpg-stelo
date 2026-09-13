@@ -161,7 +161,7 @@ publish: true
 | --- | --- |
 | Enjoy Downtime | **휴식을 즐긴다** |
 | Forge a Bond | **유대를 맺는다** |
-| Reveal Your Struggle | **갈등을 드러내다** |
+| Reveal Your Struggle | **갈등을 드러낸다** |
 
 ### 1판 대응
 
