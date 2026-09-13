@@ -8,7 +8,7 @@ import { toString as mdastToString } from "mdast-util-to-string";
 import GithubSlugger from "github-slugger";
 import type { Root, RootContent, Heading } from "mdast";
 
-export type Dw2Row = {
+export type PairedSectionRow = {
   /** "heading" | "preamble" */
   kind: string;
   depth?: number;
@@ -17,15 +17,15 @@ export type Dw2Row = {
   koHtml: string;
 };
 
-export type Dw2Heading = {
+export type PairedSectionHeading = {
   depth: number;
   slug: string;
   text: string;
 };
 
-export type Dw2PairedChapter = {
-  rows: Dw2Row[];
-  headings: Dw2Heading[];
+export type PairedSections = {
+  rows: PairedSectionRow[];
+  headings: PairedSectionHeading[];
 };
 
 const parser = unified().use(remarkParse).use(remarkGfm);
@@ -56,8 +56,8 @@ function anchorOf(heading: RootContent): string | undefined {
   if (heading.type !== "heading") return undefined;
   for (const child of heading.children) {
     if (child.type === "html") {
-      const m = child.value.match(/<a\s+id="([^"]+)"/);
-      if (m) return m[1].replace(/&amp;/g, "&").replace(/&quot;/g, '"');
+      const anchor = child.value.match(/<a\s+id="([^"]+)"/)?.[1];
+      if (anchor) return anchor.replace(/&amp;/g, "&").replace(/&quot;/g, '"');
     }
   }
   return undefined;
@@ -69,7 +69,7 @@ function headingText(heading: RootContent): string {
 }
 
 type Section = {
-  heading: { depth: number; text: string; id?: string } | null;
+  heading: { depth: number; text: string; id?: string | undefined } | null;
   from: number;
   to: number;
 };
@@ -77,7 +77,7 @@ type Section = {
 type ParsedSection = Section & { html: string };
 
 /**
- * h2 이상 헤딩마다 새 절을 연다. 첫 헤딩 앞에 남는 블록(머리말 앵커 등)은 preamble 절이 된다.
+ * h2 이상 헤딩마다 새 절을 연다. 첫 헤딩 앞에 남는 블록(머리말·도입 문단)은 preamble 절이 된다.
  */
 function toSections(source: string): ParsedSection[] {
   const nodes = parse(source);
@@ -115,13 +115,19 @@ function preview(source: string, section: ParsedSection | undefined): string {
 }
 
 /**
- * 던전월드 2 대역 뷰용 짝짓기.
+ * 영/한 대역 뷰용 절 짝짓기.
  *
- * cypher-srd는 최상위 블록을 1:1로 짝짓지만, DW2 원문은 무브가 표로 감싸여 있고 번역은
- * 문단·목록으로 정규화하므로 블록 단위로는 맞지 않는다. 대신 **헤딩(## 이상) 절 단위**로
- * 짝짓는다. 두 원고의 절 개수와 헤딩 깊이가 같아야 하며, 다르면 명확히 실패한다.
+ * cypher-srd는 최상위 블록을 1:1로 짝짓지만, 원문과 번역의 블록 구조가 다른 문서(표를 문단으로
+ * 정규화한 던전월드 2, 머리말 구조가 다른 게으른 GM 자료집 등)는 블록 단위로 맞지 않는다.
+ * 대신 **헤딩(## 이상) 절 단위**로 짝짓는다. 두 원고의 절 개수와 헤딩 깊이가 같아야 하며,
+ * 다르면 어느 절이 어긋났는지 `label`과 함께 알려 주며 실패한다.
  */
-export function pairDw2Sections(chapterSlug: string, enSource: string, koSource: string): Dw2PairedChapter {
+export function pairSections(
+  chapterSlug: string,
+  enSource: string,
+  koSource: string,
+  label = "dw2",
+): PairedSections {
   const enSections = toSections(enSource);
   const translated = koSource.trim().length > 0;
   const koSections = translated ? toSections(koSource) : [];
@@ -129,7 +135,7 @@ export function pairDw2Sections(chapterSlug: string, enSource: string, koSource:
   if (translated && enSections.length !== koSections.length) {
     const i = Math.min(enSections.length, koSections.length);
     throw new Error(
-      `[dw2:${chapterSlug}] 절 개수가 다릅니다: EN ${enSections.length}개, KO ${koSections.length}개. ` +
+      `[${label}:${chapterSlug}] 절 개수가 다릅니다: EN ${enSections.length}개, KO ${koSections.length}개. ` +
         `두 원고의 헤딩 구조를 맞춰 주세요.\n` +
         `  EN[${i}]: ${preview(enSource, enSections[i])}\n` +
         `  KO[${i}]: ${preview(koSource, koSections[i])}`,
@@ -137,9 +143,9 @@ export function pairDw2Sections(chapterSlug: string, enSource: string, koSource:
   }
 
   const slugger = new GithubSlugger();
-  const headings: Dw2Heading[] = [];
+  const headings: PairedSectionHeading[] = [];
 
-  const rows: Dw2Row[] = enSections.map((enSection, i) => {
+  const rows: PairedSectionRow[] = enSections.map((enSection, i) => {
     const koSection = translated ? koSections[i] : undefined;
 
     if (!enSection.heading) {
@@ -149,7 +155,7 @@ export function pairDw2Sections(chapterSlug: string, enSource: string, koSource:
     const koHeading = koSection?.heading;
     if (translated && koHeading && koHeading.depth !== enSection.heading.depth) {
       throw new Error(
-        `[dw2:${chapterSlug}] ${i}번째 절의 헤딩 깊이가 다릅니다: EN h${enSection.heading.depth}, KO h${koHeading.depth}`,
+        `[${label}:${chapterSlug}] ${i}번째 절의 헤딩 깊이가 다릅니다: EN h${enSection.heading.depth}, KO h${koHeading.depth}`,
       );
     }
 

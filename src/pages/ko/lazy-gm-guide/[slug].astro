@@ -1,0 +1,80 @@
+---
+import BilingualLayout from '../../../layouts/BilingualLayout.astro';
+import { pairSections } from '../../../utils/pairSections';
+import { LAZY_GM_GUIDE_CHAPTERS, LAZY_GM_GUIDE_SOURCE, type GoodReadChapterMeta } from '../../../data/lazy-gm-guide/chapters';
+
+// import.meta.glob은 빌드 청크로 옮겨져도 안전한 정적 import다.
+const enSources = import.meta.glob('../../../data/lazy-gm-guide/en/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+const koSources = import.meta.glob('../../../data/lazy-gm-guide/ko/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+
+function sourceFor(sources: Record<string, string>, dir: 'en' | 'ko', slug: string): string {
+	const source = sources[`../../../data/lazy-gm-guide/${dir}/${slug}.md`];
+	if (source === undefined) {
+		if (dir === 'ko') return ''; // 아직 번역하지 않은 절
+		throw new Error(`[lazy-gm-guide:${slug}] en 원문이 없습니다`);
+	}
+	return source;
+}
+
+/** 원문 저장소의 `NN-이름.md` 링크를 사이트 경로로 바꾼다. 영어·한국어 양쪽에 같은 규칙을 적용한다. */
+const LINK_MAP = new Map(LAZY_GM_GUIDE_CHAPTERS.map((chapter) => [`${chapter.source}.md`, `/ko/lazy-gm-guide/${chapter.slug}`]));
+
+function rewriteLinks(source: string): string {
+	return source.replace(/\]\((\d{2}-[a-z0-9-]+)\.md\)/g, (match, file: string) => {
+		const to = LINK_MAP.get(`${file}.md`);
+		return to ? `](${to})` : match;
+	});
+}
+
+/**
+ * 절마다 `# 제목`이 붙어 있는데, 페이지 머리말(showTitle)이 제목을 대신하므로 본문에서는 뺀다.
+ * 남은 도입 문단은 대역 짝짓기에서 preamble 절이 된다.
+ */
+function stripHeading(source: string): string {
+	return source.replace(/^#\s+.*\r?\n+/, '');
+}
+
+export function getStaticPaths() {
+	return LAZY_GM_GUIDE_CHAPTERS.map((chapter, index) => ({
+		params: { slug: chapter.slug },
+		props: {
+			chapter,
+			prev: LAZY_GM_GUIDE_CHAPTERS[index - 1] ?? null,
+			next: LAZY_GM_GUIDE_CHAPTERS[index + 1] ?? null,
+		} satisfies { chapter: GoodReadChapterMeta; prev: GoodReadChapterMeta | null; next: GoodReadChapterMeta | null },
+	}));
+}
+
+type Props = {
+	chapter: GoodReadChapterMeta;
+	prev: GoodReadChapterMeta | null;
+	next: GoodReadChapterMeta | null;
+};
+
+const { chapter, prev, next } = Astro.props as Props;
+
+const enSource = rewriteLinks(stripHeading(sourceFor(enSources, 'en', chapter.slug)));
+const koSource = rewriteLinks(sourceFor(koSources, 'ko', chapter.slug));
+const translated = koSource.trim().length > 0;
+
+const { rows, headings } = pairSections(chapter.slug, enSource, koSource, 'lazy-gm-guide');
+---
+
+<BilingualLayout
+	titleEn={chapter.titleEn}
+	titleKo={chapter.titleKo}
+	titleSuffix="[게으른 GM 자료집]"
+	description={`${LAZY_GM_GUIDE_SOURCE.titleKo}(${LAZY_GM_GUIDE_SOURCE.title}, ${LAZY_GM_GUIDE_SOURCE.author}) "${chapter.titleEn}" 절의 영어 원문과 한국어 번역 대역`}
+	basePath="/ko/lazy-gm-guide"
+	editPath={translated ? `src/data/lazy-gm-guide/ko/${chapter.slug}.md` : `src/data/lazy-gm-guide/en/${chapter.slug}.md`}
+	rows={rows}
+	headings={headings}
+	prev={prev}
+	next={next}
+	showTitle
+	bilingual={translated}
+	pendingNotice={!translated}
+	pendingNoticeHref="/ko/lazy-gm-guide"
+	pendingNoticeLabel="게으른 GM 자료집 목차"
+	pendingNoticeSubject="이 절"
+/>

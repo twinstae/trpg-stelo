@@ -1,6 +1,6 @@
 ---
 import BilingualLayout from '../../../../layouts/BilingualLayout.astro';
-import { pairDw2Sections } from '../../../../utils/pairDw2Sections';
+import { pairSections } from '../../../../utils/pairSections';
 import { DW2_CHAPTERS, DW2_SOURCE, type Dw2ChapterMeta } from '../../../../data/dw2/chapters';
 
 // import.meta.glob은 빌드 청크로 옮겨져도 안전한 정적 import다.
@@ -39,7 +39,7 @@ const enSource = sourceFor(enSources, 'en', chapter.slug);
 const koSource = sourceFor(koSources, 'ko', chapter.slug);
 const translated = koSource.trim().length > 0;
 
-const { rows, headings } = pairDw2Sections(chapter.slug, enSource, koSource);
+const { rows, headings } = pairSections(chapter.slug, enSource, koSource);
 ---
 
 <BilingualLayout

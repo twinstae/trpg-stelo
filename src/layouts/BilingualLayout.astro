@@ -30,6 +30,12 @@ type Props = {
 	showTitle?: boolean;
 	bilingual?: boolean;
 	pendingNotice?: boolean;
+	/** 번역 진행 상황 링크. 기본값은 던전월드 2 목차. */
+	pendingNoticeHref?: string;
+	/** 번역 진행 상황 링크의 이름. 기본값은 "던전월드 2 목차". */
+	pendingNoticeLabel?: string;
+	/** 안내문에서 가리킬 단위. 기본값은 "이 장". */
+	pendingNoticeSubject?: string;
 };
 
 const {
@@ -46,6 +52,9 @@ const {
 	showTitle = false,
 	bilingual = true,
 	pendingNotice = false,
+	pendingNoticeHref = '/ko/awe/dw2',
+	pendingNoticeLabel = '던전월드 2 목차',
+	pendingNoticeSubject = '이 장',
 } = Astro.props as Props;
 
 const frontmatter: CONFIG.Frontmatter = {
@@ -183,6 +192,9 @@ const tocHeadings = headings.map((h) => ({ depth: h.depth, slug: h.slug, text: h
 						showTitle={showTitle}
 						bilingual={bilingual}
 						pendingNotice={pendingNotice}
+						pendingNoticeHref={pendingNoticeHref}
+						pendingNoticeLabel={pendingNoticeLabel}
+						pendingNoticeSubject={pendingNoticeSubject}
 					/>
 				</div>
 				<aside id="grid-right" class="grid-sidebar">
