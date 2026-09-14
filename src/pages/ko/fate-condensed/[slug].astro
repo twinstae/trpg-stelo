@@ -1,0 +1,62 @@
+---
+import BilingualLayout from '../../../layouts/BilingualLayout.astro';
+import { pairSections } from '../../../utils/pairSections';
+import { FATE_CONDENSED_CHAPTERS, FATE_CONDENSED_SOURCE, type FateCondensedChapterMeta } from '../../../data/fate-condensed/chapters';
+
+// import.meta.glob은 빌드 청크로 옮겨져도 안전한 정적 import다.
+const enSources = import.meta.glob('../../../data/fate-condensed/en/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+const koSources = import.meta.glob('../../../data/fate-condensed/ko/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+
+function sourceFor(sources: Record<string, string>, dir: 'en' | 'ko', slug: string): string {
+  const source = sources[`../../../data/fate-condensed/${dir}/${slug}.md`];
+  if (source === undefined) {
+    if (dir === 'ko') return ''; // 아직 번역하지 않은 장
+    throw new Error(`[fate-condensed:${slug}] en 원문이 없습니다`);
+  }
+  return source;
+}
+
+export function getStaticPaths() {
+  return FATE_CONDENSED_CHAPTERS.map((chapter, index) => ({
+    params: { slug: chapter.slug },
+    props: {
+      chapter,
+      prev: FATE_CONDENSED_CHAPTERS[index - 1] ?? null,
+      next: FATE_CONDENSED_CHAPTERS[index + 1] ?? null,
+    } satisfies { chapter: FateCondensedChapterMeta; prev: FateCondensedChapterMeta | null; next: FateCondensedChapterMeta | null },
+  }));
+}
+
+type Props = {
+  chapter: FateCondensedChapterMeta;
+  prev: FateCondensedChapterMeta | null;
+  next: FateCondensedChapterMeta | null;
+};
+
+const { chapter, prev, next } = Astro.props as Props;
+
+const enSource = sourceFor(enSources, 'en', chapter.slug);
+const koSource = sourceFor(koSources, 'ko', chapter.slug);
+const translated = koSource.trim().length > 0;
+
+const { rows, headings } = pairSections(chapter.slug, enSource, koSource, 'fate-condensed');
+---
+
+<BilingualLayout
+  titleEn={chapter.titleEn}
+  titleKo={chapter.titleKo}
+  titleSuffix="[Fate Condensed]"
+  description={`압축형 페이트(${FATE_CONDENSED_SOURCE.title}) "${chapter.titleEn}" 장의 영어 원문과 한국어 번역 대역`}
+  basePath="/ko/fate-condensed"
+  editPath={translated ? `src/data/fate-condensed/ko/${chapter.slug}.md` : `src/data/fate-condensed/en/${chapter.slug}.md`}
+  rows={rows}
+  headings={headings}
+  prev={prev}
+  next={next}
+  showTitle
+  bilingual={translated}
+  pendingNotice={!translated}
+  pendingNoticeHref="/ko/fate-condensed"
+  pendingNoticeLabel="압축형 페이트 목차"
+  pendingNoticeSubject="이 장"
+/>

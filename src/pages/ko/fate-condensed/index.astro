@@ -1,0 +1,114 @@
+---
+import MainLayout from '../../../layouts/MainLayout.astro';
+import { FATE_CONDENSED_CHAPTERS, FATE_CONDENSED_SOURCE } from '../../../data/fate-condensed/chapters';
+
+const frontmatter = {
+  title: '압축형 페이트 (영/한 대역)',
+  description:
+    'Evil Hat Productions의 Fate Condensed를 8개 장으로 나눠, 왼쪽에 영어 원문·오른쪽에 한국어 번역을 나란히 보여주는 대역으로 번역합니다.',
+  layout: '',
+};
+
+const translatedCount = FATE_CONDENSED_CHAPTERS.filter((chapter) => chapter.status === 'translated').length;
+---
+
+<MainLayout frontmatter={frontmatter} headings={[]}>
+  <p>
+    <strong>{FATE_CONDENSED_SOURCE.titleKo}</strong>(<a href={FATE_CONDENSED_SOURCE.site}>{FATE_CONDENSED_SOURCE.title}</a
+    >)는 PK Sullivan이 개발한, 페이트 코어 시스템을 가장 압축된 형태로 담은 단독 플레이용 룰북입니다.{' '}
+    <a href="https://github.com/zerobased-co/muchtrans">muchtrans</a> 방식을 참고해, 왼쪽에는 영어 원문을 오른쪽에는 한국어 번역을
+    절 단위로 나란히 보여줍니다. 아래 목차에서 번역이 끝난 장부터 순서대로 볼 수 있습니다. 현재
+    {FATE_CONDENSED_CHAPTERS.length}장 가운데 {translatedCount}장의 번역을 마쳤습니다.
+  </p>
+  <p>
+    용어는 이 사이트의 <a href="/ko/fate-core/introduction">페이트 코어 한국어 공개판</a>의 번역(면모, 운명점, 발현, 역발현 등)에
+    맞추고 있습니다.
+  </p>
+
+  <section class="notice">
+    <h2>출처와 라이선스</h2>
+    <p>
+      원문은 Evil Hat Productions의 <a href={FATE_CONDENSED_SOURCE.site}>Fate Condensed</a>이며,{' '}
+      <a href={FATE_CONDENSED_SOURCE.licenseUrl}>{FATE_CONDENSED_SOURCE.license}</a> 라이선스로 공개되어 있습니다.
+    </p>
+    <blockquote>
+      This work is based on <a href={FATE_CONDENSED_SOURCE.site}>Fate Condensed</a> (found at
+      <a href="https://www.faterpg.com/">http://www.faterpg.com/</a>), a product of Evil Hat Productions, LLC, developed, authored,
+      and edited by PK Sullivan, and licensed for our use under the{' '}
+      <a href={FATE_CONDENSED_SOURCE.licenseUrl}>Creative Commons Attribution 3.0 Unported license</a>.
+    </blockquote>
+    <p class="credit">
+      이 작업은 Evil Hat Productions, LLC의 <i>Fate Condensed</i> 가운데, 크리에이티브 커먼즈 저작자표시 3.0 국제 라이선스로
+      제공되는 내용을 담고 있습니다.
+    </p>
+  </section>
+
+  <ol class="chapter-list">
+    {
+      FATE_CONDENSED_CHAPTERS.map((chapter) => (
+        <li>
+          <a href={`/ko/fate-condensed/${chapter.slug}`}>
+            {chapter.titleKo} <span class="title-en">{chapter.titleEn}</span>
+          </a>
+          {chapter.status === 'pending' && <span class="status-badge">원문만</span>}
+        </li>
+      ))
+    }
+  </ol>
+</MainLayout>
+
+<style>
+  .notice {
+    margin-top: 2rem;
+    padding: 1rem 1.25rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-base-200);
+    font-size: 0.95em;
+  }
+
+  .notice h2 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .notice blockquote {
+    margin: 0.75rem 0;
+    padding-left: 1rem;
+    border-left: 3px solid var(--color-base-300);
+    opacity: 0.85;
+  }
+
+  .credit {
+    opacity: 0.75;
+  }
+
+  .chapter-list {
+    margin-top: 2rem;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .chapter-list li {
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-base-200);
+  }
+
+  .title-en {
+    opacity: 0.6;
+    font-size: 0.9em;
+    margin-left: 0.25em;
+  }
+
+  .status-badge {
+    margin-left: 0.5em;
+    font-size: 0.7em;
+    letter-spacing: 0.05em;
+    padding: 0.1em 0.5em;
+    border-radius: 999em;
+    background-color: var(--color-base-300);
+  }
+</style>
