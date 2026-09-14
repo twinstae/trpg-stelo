@@ -80,8 +80,24 @@ However, your character is more than these mechanical bits. You are the protagon
 
 To learn more about creating your character and the components that make up your character, see page 31.
 
+<br/>
+
+---
+
+<br/>
+
+#### Character Sheet
+
 Your vows (page 35) are your sacred oaths to complete perilous quests. Each vow has a rank and is managed through a progress track.
+
+You have five stats (page 33) which represent the core aspects of your character. These are often added as a bonus when you take action.
+
+As you fulfill vows, you earn experience (page 44). You spend experience to gain new assets.
+
+![](/ironsworn-character-sheet.png)
 
 As you take action, you build or lose momentum (page 11). Positive momentum can help improve the result of an action. Negative momentum can undermine an otherwise successful action.
 
-> You have five stats (page 33) which represent the core aspects of your character. These are often added as a bonus when you take action. As you fulfill vows, you earn experience (page 44). You spend experience to gain new assets. You suffer debilities (page 36) as you face harrowing challenges. Some debilities are temporary and easily mended; others are permanent. You have status tracks for health, spirit, and supply (page 33). These represent your current condition and readiness.
+You suffer debilities (page 36) as you face harrowing challenges. Some debilities are temporary and easily mended; others are permanent.
+
+You have status tracks for health, spirit, and supply (page 33). These represent your current condition and readiness.

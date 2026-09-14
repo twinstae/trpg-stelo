@@ -34,7 +34,8 @@ There are three key aspects of using the fate moves:
 | 78-85 | A surprising development complicates your quest. |
 | 86-90 | It wastes resources. |
 | 91-94 | It forces you to act against your best intentions. |
-| 95-98 | A friend, companion, or ally is put in harm’s way (or you are, if alone). Roll twice more on this table. Both results occur. If they are the same result, make it worse. |
+| 95-98 | A friend, companion, or ally is put in harm’s way (or you are, if alone). |
+| 99-00 | Roll twice more on this table. Both results occur. If they are the same result, make it worse. |
 
 This is one of the most common moves in Ironsworn. Make this move when directed to by the outcome of another move, or when the current situation naturally leads to a cost through your choices or actions.
 
