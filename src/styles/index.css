@@ -386,7 +386,7 @@ table {
 
 table :where(th, td) {
   vertical-align: middle;
-  padding-block: 0.75rem;
+  padding-block: 0.25rem;
   padding-inline: 1rem;
 }
 

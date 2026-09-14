@@ -117,7 +117,7 @@ const RANGES = [
   { slug: "more-oracles", titleEn: "More Oracles", titleKo: "오라클 더 만들기", part: PARTS.oracles, chapter: "ORACLES", from: "MORE ORACLES" },
 
   { slug: "starting-your-campaign", titleEn: "Starting Your Campaign", titleKo: "캠페인 시작하기", part: PARTS.depth, chapter: "GAMEPLAY IN DEPTH", from: "STARTING YOUR CAMPAIGN" },
-  { slug: "mechanics-and-the-fiction", titleEn: "The Mechanics and the Fiction", titleKo: "기계와 이야기", part: PARTS.depth, chapter: "GAMEPLAY IN DEPTH", from: "THE MECHANICS AND THE FICTION" },
+  { slug: "mechanics-and-the-fiction", titleEn: "The Mechanics and the Fiction", titleKo: "규칙과 이야기 속 현실", part: PARTS.depth, chapter: "GAMEPLAY IN DEPTH", from: "THE MECHANICS AND THE FICTION" },
   { slug: "managing-your-quests", titleEn: "Managing Your Quests", titleKo: "임무 관리하기", part: PARTS.depth, chapter: "GAMEPLAY IN DEPTH", from: "MANAGING YOUR QUESTS" },
   { slug: "principles", titleEn: "Principles", titleKo: "원칙", part: PARTS.depth, chapter: "GAMEPLAY IN DEPTH", from: "PRINCIPLES" },
   { slug: "gameplay-options", titleEn: "Gameplay Options", titleKo: "플레이 선택 규칙", part: PARTS.depth, chapter: "GAMEPLAY IN DEPTH", from: "GAMEPLAY OPTIONS" },

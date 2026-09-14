@@ -68,7 +68,7 @@ export const IRONSWORN_CHAPTERS: IronswornChapterMeta[] = [
   { slug: "oracles-role-to-rank", titleEn: "Oracles 10–19: Character Role to Challenge Rank", titleKo: "오라클 10–19: 인물 역할에서 도전 등급까지", part: "6장 오라클", status: "translated" },
   { slug: "more-oracles", titleEn: "More Oracles", titleKo: "오라클 더 만들기", part: "6장 오라클", status: "translated" },
   { slug: "starting-your-campaign", titleEn: "Starting Your Campaign", titleKo: "캠페인 시작하기", part: "7장 심화", status: "translated" },
-  { slug: "mechanics-and-the-fiction", titleEn: "The Mechanics and the Fiction", titleKo: "기계와 이야기", part: "7장 심화", status: "translated" },
+  { slug: "mechanics-and-the-fiction", titleEn: "The Mechanics and the Fiction", titleKo: "규칙과 이야기 속 현실", part: "7장 심화", status: "translated" },
   { slug: "managing-your-quests", titleEn: "Managing Your Quests", titleKo: "임무 관리하기", part: "7장 심화", status: "translated" },
   { slug: "principles", titleEn: "Principles", titleKo: "원칙", part: "7장 심화", status: "translated" },
   { slug: "gameplay-options", titleEn: "Gameplay Options", titleKo: "플레이 선택 규칙", part: "7장 심화", status: "translated" },
