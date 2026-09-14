@@ -5,6 +5,9 @@ dist/
 # dependencies
 node_modules/
 
+# 원천 PDF (철의 맹세 규칙서 등) — scripts/ironsworn-extract-rulebook.mjs가 읽는다
+Ironsworn-*.pdf
+
 # logs
 npm-debug.log*
 yarn-debug.log*

@@ -1,6 +1,7 @@
 import { CYPHER_SRD_CHAPTERS } from "./data/cypher-srd/chapters";
 import { DW2_CHAPTERS } from "./data/dw2/chapters";
 import { LAZY_GM_GUIDE_CHAPTERS } from "./data/lazy-gm-guide/chapters";
+import { IRONSWORN_CHAPTERS } from "./data/ironsworn/chapters";
 
 export const SITE = {
   title: "탐정토끼의 토끼굴",
@@ -103,10 +104,13 @@ export const SIDEBAR: Sidebar = {
     //   { text: "3장 캐릭터 제작", link: "/3-character-creation" },
     //   { text: "4장 면모와 운명점", link: "/4-aspects-and-fate-points" },
     // ]),
-    // Topic("철의 맹세", "/ironsworn", [
-    //   // { text: '소개', link: '/introduction' },
-    //   { text: "1장 기초", link: "/1-the-basics" },
-    // ]),
+    Topic("철의 맹세", "/ironsworn", [
+      { text: "목차", link: "" },
+      ...IRONSWORN_CHAPTERS.map((chapter) => ({
+        text: chapter.status === "translated" ? chapter.titleKo : `${chapter.titleKo} (원문)`,
+        link: `/${chapter.slug}`,
+      })),
+    ]),
     Topic("자작 자료", "/numenera", [
       { text: "조화: 확장 규칙", link: "/harmony" },
       // 	{ text: '일레인: 공동체', link: '/elaine-community' },
