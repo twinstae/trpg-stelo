@@ -1,6 +1,7 @@
 ---
 import '../styles/theme.css';
 import '../styles/index.css';
+import { DAISY_THEMES, STORAGE_KEY } from '../utils/theme';
 ---
 
 <!-- Global Metadata -->
@@ -22,14 +23,17 @@ import '../styles/index.css';
 </script>
 
 <!-- This is intentionally inlined to avoid FOUC -->
-<script is:inline>
+<script is:inline define:vars={{ DAISY_THEMES, STORAGE_KEY }}>
 	const root = document.documentElement;
-	const theme = localStorage.getItem('theme');
-	if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-		root.classList.add('theme-dark');
-	} else {
-		root.classList.remove('theme-dark');
+	let stored = null;
+	try {
+		stored = localStorage.getItem(STORAGE_KEY);
+	} catch (e) {
+		/* storage blocked */
 	}
+	const isDark = stored === 'dark' || (stored !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+	root.classList.toggle('theme-dark', isDark);
+	root.setAttribute('data-theme', isDark ? DAISY_THEMES.dark : DAISY_THEMES.light);
 </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

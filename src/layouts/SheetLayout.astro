@@ -2,6 +2,7 @@
 import HeadCommon from '../components/HeadCommon.astro';
 import HeadSEO from '../components/HeadSEO.astro';
 import * as CONFIG from '../config';
+import { DAISY_THEMES } from '../utils/theme';
 import type { MarkdownHeading } from 'astro';
 
 type Props = {
@@ -13,7 +14,7 @@ const { frontmatter } = Astro.props as Props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
-<html dir={frontmatter.dir ?? 'ltr'} lang={frontmatter.lang ?? 'en-us'} class="initial" data-theme="bumblebee">
+<html dir={frontmatter.dir ?? 'ltr'} lang={frontmatter.lang ?? 'en-us'} class="initial" data-theme={DAISY_THEMES.light}>
 	<head>
 		<HeadCommon />
 		<HeadSEO frontmatter={frontmatter} canonicalUrl={canonicalURL} />

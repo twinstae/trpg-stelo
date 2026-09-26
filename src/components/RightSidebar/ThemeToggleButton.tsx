@@ -2,6 +2,7 @@
 
 import type { FunctionalComponent } from "preact";
 import { useEffect, useState } from "preact/hooks";
+import { applyTheme, resolveTheme, storeTheme, type Theme } from "../../utils/theme";
 import "./ThemeToggleButton.css";
 
 const SunIcon = (
@@ -32,33 +33,17 @@ const MoonIcon = (
   </svg>
 );
 
-const themes = ["light", "dark"];
+const themes: Theme[] = ["light", "dark"];
 
 const icons = [SunIcon, MoonIcon];
 
 const ThemeToggle: FunctionalComponent = () => {
-  const [theme, setTheme] = useState(() => {
-    if (import.meta.env.SSR) {
-      return undefined;
-    }
-    if (typeof localStorage !== undefined && localStorage.getItem("theme")) {
-      return localStorage.getItem("theme");
-    }
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      return "dark";
-    }
-    return "light";
-  });
+  const [theme, setTheme] = useState<Theme>(() =>
+    import.meta.env.SSR ? "light" : resolveTheme(),
+  );
 
   useEffect(() => {
-    const root = document.documentElement;
-    if (theme === "light") {
-      root.classList.remove("theme-dark");
-      root.setAttribute('data-theme', "bumblebee")
-    } else {
-      root.classList.add("theme-dark");
-      root.setAttribute('data-theme', "halloween")
-    }
+    applyTheme(theme);
   }, [theme]);
 
   return (
@@ -67,7 +52,7 @@ const ThemeToggle: FunctionalComponent = () => {
         const icon = icons[i];
         const checked = t === theme;
         return (
-          <label className={checked ? " checked" : ""}>
+          <label key={t} className={checked ? " checked" : ""}>
             {icon}
             <input
               type="radio"
@@ -77,7 +62,7 @@ const ThemeToggle: FunctionalComponent = () => {
               title={`Use ${t} theme`}
               aria-label={`Use ${t} theme`}
               onChange={() => {
-                localStorage.setItem("theme", t);
+                storeTheme(t);
                 setTheme(t);
               }}
             />
