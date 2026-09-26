@@ -1,0 +1,213 @@
+---
+import SheetLayout from '../../../layouts/SheetLayout.astro';
+import ThirteenthAgeSheet from '../../../components/Sheets/ThirteenthAgeSheet.astro';
+import { THIRTEENTH_AGE_PREGENS } from '../../../data/13th-age/pregen-characters';
+
+const frontmatter = {
+  title: '사전 제작 캐릭터 : 13시대 2판',
+  description:
+    '13시대 2판 직업별 캐릭터 시트를 한국어로 옮긴 사전 제작 캐릭터. 광신자 야만전사(2레벨 하플링)를 담았습니다.',
+  layout: '../../../layouts/MainLayout.astro',
+  createdAt: '2026-09-27T00:00:00.000Z',
+};
+
+/** 한국어 1판 시트를 따른 용어 대조표. */
+const GLOSSARY: [string, string][] = [
+  ['Strength · Dexterity · Constitution · Intelligence · Wisdom · Charisma', '근력 · 민첩성 · 건강 · 지능 · 통찰 · 매력'],
+  ['Armor Class · Physical Defense · Mental Defense', '장갑 · 신방 · 정방'],
+  ['Hit Points · Recoveries · Recovery', '체력 · 원기 · 회복량'],
+  ['One Unique Thing', '한가지 특별한 것'],
+  ['Icon Relationships', '표상 관계'],
+  ['Backgrounds', '출신'],
+  ['Class Features · Talents · Feats', '클래스 특징 · 재능 · 특기'],
+  ['Powers & Spells · Magic Items', '능력과 주문 · 마법 물품'],
+  ['Incremental Advances', '점진적 성장'],
+  ['Melee · Ranged · Hit · Miss', '근접 · 원거리 · 명중 · 빗나감'],
+];
+---
+
+<SheetLayout frontmatter={frontmatter} headings={[]}>
+  <div class="pregen-wrap">
+    <nav class="pregen-nav" aria-label="이동">
+      <a href="/ko/numenera/pregenerated-characters">← 누메네라 사전 제작 캐릭터</a>
+      <span class="pregen-nav-links">
+        {THIRTEENTH_AGE_PREGENS.map((character) => (
+          <a href={`#${character.slug}`}>
+            {character.className} {character.buildName}
+          </a>
+        ))}
+      </span>
+    </nav>
+
+    <header class="pregen-intro">
+      <h1 class="pregen-title">13시대 2판 사전 제작 캐릭터</h1>
+      <p>
+        펠그레인 프레스가 연재하는 13시대 2판 사전 제작 빌드를, 2판 직업별 캐릭터
+        시트(미겔 프리히날 디자인) 모양 그대로 한국어로 옮겼습니다. 지금은 야만전사 하나를
+        담았고, 나머지 직업도 같은 구조로 이어 붙일 수 있습니다.
+      </p>
+      <p>
+        출신·표상 관계·한가지 특별한 것은 원 시트에서도 비워 둡니다. 빌드는 규칙 요소만
+        갖추었으니, 모험에 맞게 플레이어가 직접 채우십시오. 시트에 적은 값과 표시는
+        브라우저에 저장되어, 페이지를 다시 열어도 그대로 남습니다.
+      </p>
+      <p class="pregen-term-note">
+        용어는 2013년 한국어 1판 시트를 따랐습니다. 특히 <strong>통찰</strong>(Wisdom),
+        <strong>장갑·신방·정방</strong>(Armor Class·Physical·Mental Defense),
+        <strong>원기</strong>(Recoveries), <strong>출신</strong>(Backgrounds),
+        <strong>재능·특기</strong>(Talents·Feats)를 그대로 씁니다.
+      </p>
+    </header>
+
+    {
+      THIRTEENTH_AGE_PREGENS.map((character) => (
+        <section id={character.slug} class="pregen-section">
+          <h2 class="pregen-heading">
+            {character.className} · {character.buildName}
+            <span>
+              {character.classNameEn} {character.buildNameEn} {character.level}레벨{' '}
+              {character.kinEn}
+            </span>
+          </h2>
+          <ThirteenthAgeSheet character={character} />
+        </section>
+      ))
+    }
+
+    <section class="pregen-glossary">
+      <h2 class="pregen-heading">용어 대조</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>영문</th>
+            <th>한국어</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            GLOSSARY.map(([en, ko]) => (
+              <tr>
+                <td>{en}</td>
+                <td>{ko}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </section>
+
+    <footer class="pregen-credit">
+      <p>
+        원문: 13th Age Second Edition 사전 제작 캐릭터 빌드 연재(펠그레인 프레스) · 시트
+        디자인: Miguel Friginal · © 2025 Fire Opal Media, Inc. &amp; Pelgrane Press Ltd.
+        개인적 사용을 위한 복제만 허가됨.
+      </p>
+    </footer>
+  </div>
+</SheetLayout>
+
+<style>
+  .pregen-wrap {
+    width: 100%;
+    padding: 2rem 0.75rem 3rem;
+  }
+
+  .pregen-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .pregen-nav a {
+    color: var(--color-primary);
+  }
+
+  .pregen-nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+  }
+
+  .pregen-intro p {
+    max-width: 60ch;
+    line-height: 1.7;
+    margin-bottom: 0.6rem;
+  }
+
+  .pregen-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+  }
+
+  .pregen-term-note {
+    font-size: 0.9rem;
+    opacity: 0.85;
+  }
+
+  .pregen-section {
+    scroll-margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    margin-top: 2rem;
+  }
+
+  .pregen-heading {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin: 0 0 0.25rem;
+  }
+
+  .pregen-heading span {
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    opacity: 0.7;
+  }
+
+  .pregen-glossary {
+    margin-top: 2.5rem;
+  }
+
+  .pregen-glossary table {
+    width: 100%;
+    max-width: 52rem;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+
+  .pregen-glossary th {
+    text-align: left;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.7;
+    padding: 0 0.5rem 0.3rem 0;
+    border-bottom: 1px solid currentColor;
+  }
+
+  .pregen-glossary td {
+    padding: 0.3rem 0.5rem 0.3rem 0;
+    border-bottom: 1px dotted color-mix(in oklab, currentColor 25%, transparent);
+    vertical-align: top;
+  }
+
+  .pregen-credit {
+    margin-top: 2.5rem;
+    font-size: 0.72rem;
+    opacity: 0.7;
+  }
+
+  .pregen-credit p {
+    max-width: 70ch;
+    line-height: 1.6;
+  }
+</style>

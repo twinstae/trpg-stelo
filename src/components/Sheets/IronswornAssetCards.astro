@@ -1,0 +1,482 @@
+---
+import RichText from './RichText.astro';
+import type { IronswornAssetCard, IronswornAssetKind } from './ironswornSheet';
+import { IRONSWORN_ASSETS } from '../../data/ironsworn/assetCards';
+
+interface Props {
+  assets?: Readonly<IronswornAssetCard[]>;
+}
+
+const { assets = IRONSWORN_ASSETS } = Astro.props;
+
+/** 애셋 종류 이름. GLOSSARY.md 의 표를 그대로 쓴다. */
+const KIND_LABEL: Record<IronswornAssetKind, { ko: string; en: string }> = {
+  companion: { ko: '동반자', en: 'Companion' },
+  path: { ko: '경로', en: 'Path' },
+  combat: { ko: '전투 재능', en: 'Combat Talent' },
+  ritual: { ko: '의례', en: 'Ritual' },
+};
+
+/** 카드 위쪽 띠에 들어가는 아이콘. 인쇄 카드의 실루엣을 간단한 도형으로 옮겼다. */
+const KIND_ICON: Record<IronswornAssetKind, string> = {
+  companion:
+    '<circle cx="12" cy="15.4" r="4.2"/><circle cx="6" cy="11.2" r="2"/><circle cx="18" cy="11.2" r="2"/><circle cx="9.4" cy="6.4" r="1.7"/><circle cx="14.6" cy="6.4" r="1.7"/>',
+  path: '<path d="M12 4.4 20.6 19.6 H3.4 Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>',
+  combat:
+    '<path d="M5.2 5.2 18.8 18.8 M18.8 5.2 5.2 18.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>',
+  ritual:
+    '<path d="M12 3.4 14.2 9.8 20.6 12 14.2 14.2 12 20.6 9.8 14.2 3.4 12 9.8 9.8 Z"/>',
+};
+
+/** 직접 적어 넣는 빈 카드에 넣을 능력 줄 수. */
+const BLANK_ABILITIES = 3;
+---
+
+<div class="iw3-grid" data-iw-sheet="assets" aria-label="애셋 카드">
+  {
+    assets.map((asset) => (
+      <article class="iw3-card" data-sheet-section={asset.nameEn}>
+        <header class="iw3-band">
+          <span class="iw3-kind">
+            {KIND_LABEL[asset.kind].ko} <em>{KIND_LABEL[asset.kind].en}</em>
+          </span>
+          <span class="iw3-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <Fragment set:html={KIND_ICON[asset.kind]} />
+            </svg>
+          </span>
+        </header>
+
+        <div class="iw3-body">
+          <h3 class="iw3-name">
+            <span>{asset.name}</span>
+            <em>{asset.nameEn}</em>
+          </h3>
+
+          {asset.nameLine && (
+            <label class="iw3-nameline">
+              <span>이름</span>
+              <input type="text" class="iw3-input" aria-label={`${asset.name} 동반자 이름`} />
+            </label>
+          )}
+
+          {asset.lead && <p class="iw3-lead">{asset.lead}</p>}
+
+          <ul class="iw3-abilities">
+            {asset.abilities.map((ability, index) => (
+              <li class="iw3-ability">
+                <label class="iw3-ability-label">
+                  <input
+                    type="checkbox"
+                    class="iw3-tick"
+                    checked={ability.starting}
+                    aria-label={`${asset.name} 능력 ${index + 1}`}
+                  />
+                  <span class="iw3-ability-text">
+                    <RichText text={ability.text} />
+                  </span>
+                </label>
+              </li>
+            ))}
+          </ul>
+
+          {asset.track && (
+            <div class="iw3-track">
+              <span class="iw3-track-label">
+                {asset.track.label} <em>{asset.track.labelEn}</em>
+              </span>
+              <span class="iw3-track-cells">
+                {asset.track.values.map((value) => (
+                  <label class="iw3-track-cell">
+                    <input
+                      type="radio"
+                      class="iw3-sr"
+                      name={`iw3-track-${asset.slug}`}
+                      aria-label={`${asset.name} ${asset.track!.label} ${value}`}
+                    />
+                    <span>{value}</span>
+                  </label>
+                ))}
+              </span>
+            </div>
+          )}
+        </div>
+      </article>
+    ))
+  }
+
+  <article class="iw3-card iw3-card--blank" data-sheet-section="내 애셋">
+    <header class="iw3-band">
+      <span class="iw3-kind">내 애셋 <em>Custom Asset</em></span>
+      <span class="iw3-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M12 5v14M5 12h14" stroke-linecap="round"></path>
+        </svg>
+      </span>
+    </header>
+
+    <div class="iw3-body">
+      <label class="iw3-nameline iw3-nameline--blank">
+        <span>이름</span>
+        <input type="text" class="iw3-input" aria-label="내 애셋 이름" />
+      </label>
+
+      <ul class="iw3-abilities">
+        {
+          Array.from({ length: BLANK_ABILITIES }).map((_, index) => (
+            <li class="iw3-ability">
+              <label class="iw3-ability-label">
+                <input
+                  type="checkbox"
+                  class="iw3-tick"
+                  aria-label={`내 애셋 능력 ${index + 1} 표시`}
+                />
+                <textarea
+                  class="iw3-textarea"
+                  rows="2"
+                  aria-label={`내 애셋 능력 ${index + 1}`}
+                  placeholder="능력을 적으십시오"
+                />
+              </label>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </article>
+</div>
+
+<script>
+  import { persistSheet, wireClearableChoices } from '../../utils/sheetStorage';
+
+  document.querySelectorAll<HTMLElement>('[data-iw-sheet="assets"]').forEach((grid) => {
+    persistSheet(grid, { prefix: 'iw-sheet:v1:', key: 'assets' });
+    // 동반자 건강 같은 트랙은 값 하나만 표시한다.
+    wireClearableChoices(grid, 'input[type="radio"]');
+  });
+</script>
+
+<style is:global>
+  .iw3-grid {
+    --iw3-paper: #ffffff;
+    --iw3-ink: #141414;
+    --iw3-ink-soft: #5f5f5f;
+    --iw3-band: #141414;
+    --iw3-band-ink: #ffffff;
+    --iw3-rule-soft: color-mix(in oklab, var(--iw3-ink) 30%, transparent);
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr));
+    gap: 0.9rem;
+    width: 100%;
+    color: var(--iw3-ink);
+    font-family: var(--font-body);
+  }
+
+  .theme-dark .iw3-grid {
+    --iw3-paper: #141414;
+    --iw3-ink: #f2f2f2;
+    --iw3-ink-soft: #a5a5a5;
+    --iw3-band: #f2f2f2;
+    --iw3-band-ink: #141414;
+  }
+
+  .iw3-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--iw3-paper);
+    border: 1px solid var(--iw3-ink);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  /* ---- 위쪽 띠 ---- */
+
+  .iw3-band {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 1.7rem;
+    padding: 0.3rem 2.3rem 0.3rem 0.6rem;
+    background: var(--iw3-band);
+    color: var(--iw3-band-ink);
+  }
+
+  .iw3-kind {
+    font-size: 0.6rem;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+
+  .iw3-kind em {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.5rem;
+    letter-spacing: 0.16em;
+    opacity: 0.75;
+  }
+
+  .iw3-icon {
+    position: absolute;
+    top: 50%;
+    right: 0.45rem;
+    display: grid;
+    place-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: var(--iw3-paper);
+    color: var(--iw3-band);
+  }
+
+  .iw3-icon svg {
+    width: 0.95rem;
+    height: 0.95rem;
+  }
+
+  /* ---- 카드 몸통 ---- */
+
+  .iw3-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    flex: 1;
+    padding: 0.55rem 0.7rem 0.7rem;
+  }
+
+  .iw3-name {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+  }
+
+  .iw3-name em {
+    font-family: var(--font-body);
+    font-style: normal;
+    font-size: 0.52rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--iw3-ink-soft);
+  }
+
+  .iw3-nameline {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    color: var(--iw3-ink-soft);
+  }
+
+  .iw3-nameline .iw3-input {
+    flex: 1;
+    border-bottom: 1px solid var(--iw3-rule-soft);
+  }
+
+  .iw3-nameline--blank {
+    margin-top: 0.1rem;
+  }
+
+  .iw3-lead {
+    margin: 0;
+    font-size: 0.66rem;
+    font-style: italic;
+    line-height: 1.45;
+    color: var(--iw3-ink-soft);
+  }
+
+  /* ---- 능력 ---- */
+
+  .iw3-abilities {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    list-style: none;
+    margin: 0.15rem 0 0;
+    padding: 0;
+  }
+
+  .iw3-ability-label {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 0.4rem;
+    align-items: start;
+    cursor: pointer;
+  }
+
+  .iw3-ability-text {
+    font-size: 0.68rem;
+    line-height: 1.5;
+  }
+
+  /* 능력 표시는 카드처럼 동그라미로. 칠해지면 얻은 능력이다. */
+  .iw3-tick {
+    appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    flex: none;
+    width: 0.78rem;
+    height: 0.78rem;
+    margin-top: 0.15rem;
+    border: 1.5px solid var(--iw3-ink);
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .iw3-tick:checked {
+    background: var(--iw3-ink);
+  }
+
+  .iw3-tick:checked::after {
+    content: '';
+    position: absolute;
+    inset: 22%;
+    border-radius: 50%;
+    background: var(--iw3-paper);
+  }
+
+  .iw3-tick:focus-visible {
+    outline: 2px solid var(--iw3-ink);
+    outline-offset: 1px;
+  }
+
+  .iw3-input {
+    width: 100%;
+    min-width: 0;
+    border: none;
+    background: transparent;
+    color: var(--iw3-ink);
+    font: inherit;
+    font-size: 0.72rem;
+    padding: 0.05rem 0.1rem;
+  }
+
+  .iw3-input:focus-visible {
+    outline: 2px solid var(--iw3-ink);
+    outline-offset: 1px;
+  }
+
+  .iw3-textarea {
+    width: 100%;
+    min-height: 2.2rem;
+    border: none;
+    background: transparent;
+    color: var(--iw3-ink);
+    font: inherit;
+    font-size: 0.68rem;
+    line-height: 1.5rem;
+    /* 빈 카드에는 잉크 대신 연한 줄을 그어 둔다. */
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 1.5rem,
+      var(--iw3-rule-soft) 1.5rem,
+      var(--iw3-rule-soft) calc(1.5rem + 1px)
+    );
+    resize: vertical;
+  }
+
+  .iw3-textarea:focus-visible {
+    outline: none;
+  }
+
+  /* ---- 트랙 ---- */
+
+  .iw3-track {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: auto;
+    padding-top: 0.4rem;
+  }
+
+  .iw3-track-label {
+    font-size: 0.52rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--iw3-ink-soft);
+  }
+
+  .iw3-track-label em {
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.7;
+  }
+
+  .iw3-track-cells {
+    display: flex;
+    flex: 1;
+    border: 1px solid var(--iw3-ink);
+  }
+
+  .iw3-track-cell {
+    flex: 1;
+    cursor: pointer;
+  }
+
+  .iw3-track-cell + .iw3-track-cell {
+    border-left: 1px solid var(--iw3-ink);
+  }
+
+  .iw3-track-cell span {
+    display: block;
+    padding: 0.1rem 0.05rem;
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: 700;
+  }
+
+  .iw3-track-cell:has(input:checked) span {
+    background: var(--iw3-ink);
+    color: var(--iw3-paper);
+  }
+
+  .iw3-track-cell:hover span {
+    background: color-mix(in oklab, var(--iw3-ink) 12%, transparent);
+  }
+
+  .iw3-track-cell:has(input:checked):hover span {
+    background: var(--iw3-ink);
+  }
+
+  .iw3-track-cell:has(input:focus-visible) {
+    outline: 2px solid var(--iw3-ink);
+    outline-offset: -2px;
+  }
+
+  .iw3-sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  @media print {
+    .iw3-grid {
+      --iw3-paper: #ffffff;
+      --iw3-ink: #000000;
+      --iw3-ink-soft: #444444;
+      --iw3-band: #000000;
+      --iw3-band-ink: #ffffff;
+    }
+
+    .iw3-card {
+      break-inside: avoid;
+    }
+  }
+</style>

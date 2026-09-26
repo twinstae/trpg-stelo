@@ -1,0 +1,394 @@
+---
+import RichText from './RichText.astro';
+import type {
+  IronswornTruthCategory,
+  IronswornTruthsNotes,
+  IronswornTruthsPage,
+} from './ironswornTruths';
+import {
+  IRONSWORN_TRUTHS_NOTES,
+  IRONSWORN_TRUTHS_WORKBOOK,
+  IRONSWORN_TRUTH_BLANKS,
+} from '../../data/ironsworn/truths';
+
+interface Props {
+  pages?: Readonly<IronswornTruthsPage[]>;
+  notes?: IronswornTruthsNotes;
+}
+
+const { pages = IRONSWORN_TRUTHS_WORKBOOK, notes = IRONSWORN_TRUTHS_NOTES } = Astro.props;
+
+/** 갈래마다 두는 빈 진실 칸. 인쇄본처럼 둘을 둔다. */
+const blankCells = (category: IronswornTruthCategory) =>
+  Array.from({ length: category.blanks ?? IRONSWORN_TRUTH_BLANKS });
+---
+
+<div class="iwt-book" data-iw-sheet="truths" aria-label="당신의 세계 진실 워크북">
+  {
+    pages.map((page) => (
+      <article class="iwt-page">
+        <header class="iwt-page-head">
+          <span class="iwt-page-tab" aria-hidden="true" />
+          <p class="iwt-page-title">
+            당신의 세계 — 진실 워크북 <em>Your World — Truths Workbook</em>
+          </p>
+          <span class="iwt-page-number">{page.page}</span>
+        </header>
+
+        {page.categories.map((category) => (
+          <section
+            class="iwt-category"
+            id={`truths-${category.slug}`}
+            data-sheet-section={category.label}
+          >
+            <h3 class="iwt-category-title">
+              <span>{category.label}</span>
+              <em>{category.labelEn}</em>
+            </h3>
+
+            <ul class="iwt-truths">
+              {category.options.map((option, index) => (
+                <li class="iwt-truth">
+                  <label class="iwt-choice">
+                    <input
+                      type="checkbox"
+                      class="iwt-mark"
+                      aria-label={`${category.label} 진실 ${index + 1}`}
+                    />
+                    <span class="iwt-text">
+                      <RichText text={option.text} />
+                    </span>
+                  </label>
+
+                  <p class="iwt-quest">
+                    <strong>임무 씨앗</strong> <RichText text={option.quest} />
+                  </p>
+                </li>
+              ))}
+
+              {blankCells(category).map((_, index) => (
+                <li class="iwt-truth iwt-truth--blank">
+                  <label class="iwt-choice">
+                    <input
+                      type="checkbox"
+                      class="iwt-mark"
+                      aria-label={`${category.label} 직접 쓴 진실 ${index + 1} 표시`}
+                    />
+                    <textarea
+                      class="iwt-write"
+                      rows="3"
+                      aria-label={`${category.label} 직접 쓴 진실 ${index + 1}`}
+                      placeholder="직접 만든 진실을 적으십시오"
+                    />
+                  </label>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+
+        {page.notes && (
+          <section class="iwt-category iwt-category--notes" data-sheet-section={notes.label}>
+            <h3 class="iwt-category-title">
+              <span>{notes.label}</span>
+              <em>{notes.labelEn}</em>
+            </h3>
+            <textarea
+              class="iwt-write iwt-write--notes"
+              rows={notes.lines}
+              aria-label={notes.label}
+              placeholder="캠페인에 관해 남기고 싶은 것을 적으십시오"
+            />
+          </section>
+        )}
+      </article>
+    ))
+  }
+</div>
+
+<script>
+  import { persistSheet } from '../../utils/sheetStorage';
+
+  document.querySelectorAll<HTMLElement>('[data-iw-sheet="truths"]').forEach((book) => {
+    // 쪽 번호와 갈래 이름을 열쇠에 넣어, 갈래를 늘리거나 옮겨도 표시가 따라가지 않게 한다.
+    persistSheet(book, {
+      prefix: 'iw-sheet:v1:',
+      key: 'truths',
+      pageSelector: '.iwt-page',
+    });
+  });
+</script>
+
+<style is:global>
+  .iwt-book {
+    /* 인쇄물처럼 흰 종이에 검은 잉크만 쓴다. */
+    --iwt-paper: #ffffff;
+    --iwt-ink: #141414;
+    --iwt-ink-soft: #5f5f5f;
+    --iwt-rule: #141414;
+    --iwt-rule-soft: color-mix(in oklab, var(--iwt-rule) 38%, transparent);
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    width: 100%;
+    color: var(--iwt-ink);
+    font-family: var(--font-body);
+  }
+
+  .theme-dark .iwt-book {
+    --iwt-paper: #141414;
+    --iwt-ink: #f2f2f2;
+    --iwt-ink-soft: #a5a5a5;
+    --iwt-rule: #f2f2f2;
+  }
+
+  .iwt-book *,
+  .iwt-book *::before,
+  .iwt-book *::after {
+    box-sizing: border-box;
+  }
+
+  /* ---- 한 쪽 ---- */
+
+  .iwt-page {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    padding: 1rem 1.2rem 1.5rem;
+    background: var(--iwt-paper);
+    border: 1px solid var(--iwt-rule);
+    border-radius: 2px;
+  }
+
+  .iwt-page-head {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--iwt-rule);
+  }
+
+  /* 인쇄본 쪽 머리에 찍힌 검은 탭. */
+  .iwt-page-tab {
+    flex: none;
+    width: 1.5rem;
+    height: 0.72rem;
+    background: var(--iwt-ink);
+  }
+
+  .iwt-page-title {
+    margin: 0;
+    font-size: 0.66rem;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  .iwt-page-title em {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.54rem;
+    letter-spacing: 0.16em;
+    color: var(--iwt-ink-soft);
+  }
+
+  .iwt-page-number {
+    margin-left: auto;
+    font-family: var(--font-serif);
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+
+  /* ---- 갈래 ---- */
+
+  .iwt-category {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    scroll-margin-top: 1rem;
+  }
+
+  .iwt-category-title {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin: 0;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid var(--iwt-rule-soft);
+    font-size: 1.05rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+  }
+
+  .iwt-category-title em {
+    font-style: normal;
+    font-size: 0.56rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--iwt-ink-soft);
+  }
+
+  .iwt-truths {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* ---- 진실 하나 ---- */
+
+  .iwt-truth {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    break-inside: avoid;
+  }
+
+  .iwt-choice {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 0.45rem;
+    align-items: start;
+    cursor: pointer;
+  }
+
+  .iwt-text {
+    font-size: 0.82rem;
+    line-height: 1.55;
+  }
+
+  /* 워크북처럼 동그라미를 채워 고른다. 여러 개를 골라도 된다. */
+  .iwt-mark {
+    appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    flex: none;
+    width: 0.82rem;
+    height: 0.82rem;
+    margin-top: 0.28rem;
+    border: 1.5px solid var(--iwt-rule);
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .iwt-mark:checked {
+    background: var(--iwt-ink);
+  }
+
+  .iwt-mark:focus-visible {
+    outline: 2px solid var(--iwt-rule);
+    outline-offset: 1px;
+  }
+
+  /* ---- 임무 씨앗 ---- */
+
+  .iwt-quest {
+    margin: 0;
+    /* 동그라미 너비만큼 들여 본문과 줄을 맞춘다. */
+    padding-left: calc(0.82rem + 0.45rem);
+    font-size: 0.78rem;
+    font-style: italic;
+    line-height: 1.5;
+    color: var(--iwt-ink-soft);
+  }
+
+  .iwt-quest strong {
+    font-weight: 800;
+    letter-spacing: 0.04em;
+  }
+
+  /* ---- 직접 쓰는 칸 ---- */
+
+  .iwt-write {
+    width: 100%;
+    min-height: 3.4rem;
+    border: none;
+    background: transparent;
+    color: var(--iwt-ink);
+    font: inherit;
+    font-size: 0.82rem;
+    /* 적은 글자가 미리 그어 둔 줄 위에 앉도록 줄 간격과 줄을 맞춘다. */
+    line-height: 1.6rem;
+    padding: 0;
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 1.6rem,
+      var(--iwt-rule-soft) 1.6rem,
+      var(--iwt-rule-soft) calc(1.6rem + 1px)
+    );
+    resize: vertical;
+  }
+
+  .iwt-write::placeholder {
+    color: var(--iwt-ink-soft);
+    font-style: italic;
+    font-size: 0.72rem;
+  }
+
+  .iwt-write:focus-visible {
+    outline: none;
+  }
+
+  .iwt-write--notes {
+    min-height: 12rem;
+  }
+
+  .iwt-category--notes .iwt-write {
+    overflow: hidden;
+  }
+
+  /* ---- 인쇄 ---- */
+
+  @media print {
+    /* 한 쪽에 갈래 둘이 들어가도록 여백을 좁게 잡는다. */
+    @page {
+      margin: 14mm;
+    }
+
+    .iwt-book {
+      display: block;
+      --iwt-paper: #ffffff;
+      --iwt-ink: #000000;
+      --iwt-ink-soft: #444444;
+      --iwt-rule: #000000;
+    }
+
+    .iwt-page {
+      border: none;
+      border-radius: 0;
+      padding: 0;
+      gap: 0.9rem;
+      /* 쪽마다 종이를 새로 갈아 끼운다. */
+      break-before: page;
+    }
+
+    .iwt-page:first-child {
+      break-before: auto;
+    }
+
+    /* 갈래는 중간에서 잘리지 않는다. */
+    .iwt-category {
+      break-inside: avoid;
+    }
+
+    .iwt-truths {
+      gap: 0.5rem;
+    }
+
+    .iwt-write {
+      resize: none;
+    }
+
+    /* 안내 문구는 종이에 남기지 않는다. */
+    .iwt-write::placeholder {
+      color: transparent;
+    }
+  }
+</style>

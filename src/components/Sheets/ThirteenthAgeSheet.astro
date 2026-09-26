@@ -1,0 +1,2524 @@
+---
+import type { ThirteenthAgeCharacter, TaPower } from './thirteenthAgeCharacter';
+import { abilityModifier, signed } from '../../utils/thirteenthAge';
+
+interface Props {
+  character: Readonly<ThirteenthAgeCharacter>;
+}
+
+const { character } = Astro.props;
+
+/** 시트에 인쇄된 행동 표시를 한국어로 옮긴다. */
+const ACTION_KO: Record<string, string> = {
+  Free: '자유',
+  Std: '표준',
+  Move: '이동',
+  Int: '교전',
+  Quick: '빠른',
+  '—': '—',
+};
+
+const actionKo = (action: string) => ACTION_KO[action] ?? action;
+
+/** 사용 상자에 실리는 줄만 골라낸다. */
+function usageRows(list: TaPower[]): TaPower[] {
+  return list.filter(
+    (power) => power.usage && (power.usage.atWill || power.usage.perBattle || power.usage.perArc),
+  );
+}
+
+const frontUsage = usageRows(character.powers);
+const backUsage = usageRows(character.morePowers);
+---
+
+<div class="ta-sheet" data-ta-sheet={character.slug}>
+  <!-- ───────────── 앞면 ───────────── -->
+  <article class="ta-page" aria-label={`${character.className} ${character.buildName} 캐릭터 시트 앞면`}>
+    <header class="ta-masthead">
+      <div class="ta-identity">
+        <label class="ta-field">
+          <span class="ta-field-label">이름 <em>Name</em></span>
+          <input
+            type="text"
+            class="ta-input ta-input--name"
+            value={character.name}
+            aria-label="이름"
+          />
+        </label>
+        <div class="ta-kin">
+          <span class="ta-field-label">종족 <em>Kin</em></span>
+          <span class="ta-kin-value">
+            {character.kin} <em>{character.kinEn}</em>
+          </span>
+        </div>
+      </div>
+
+      <div class="ta-class">
+        <p class="ta-build">
+          {character.buildName} <em>{character.buildNameEn}</em> 빌드
+        </p>
+        <h2 class="ta-class-title">
+          {character.className} <span>{character.classNameEn}</span>
+        </h2>
+      </div>
+
+      <label class="ta-field ta-field--level">
+        <span class="ta-field-label">레벨 <em>Level</em></span>
+        <input
+          type="number"
+          class="ta-input ta-input--level"
+          min="1"
+          max="10"
+          value={character.level}
+          aria-label="레벨"
+        />
+      </label>
+    </header>
+
+    <label class="ta-field ta-field--wide">
+      <span class="ta-field-label">설명 <em>Description</em></span>
+      <input type="text" class="ta-input" value={character.description} aria-label="설명" />
+    </label>
+
+    <div class="ta-columns">
+      <!-- 왼쪽 열 -->
+      <div class="ta-col">
+        <section class="ta-card">
+          <h3 class="ta-ribbon">한가지 특별한 것 <span>One Unique Thing</span></h3>
+          <textarea class="ta-textarea ta-textarea--tall" aria-label="한가지 특별한 것"
+            >{character.oneUniqueThing}</textarea
+          >
+        </section>
+
+        <section class="ta-card">
+          <h3 class="ta-ribbon">분노와 해골 <span>Rage &amp; Skulls</span></h3>
+          <div class="ta-rage">
+            <label class="ta-token">
+              <input
+                type="checkbox"
+                class="ta-tick ta-tick--round ta-tick--lg ta-token-mark"
+                aria-label="격노 표시"
+              />
+              <span class="ta-token-label">격노</span>
+            </label>
+            <ul class="ta-rage-rules">
+              {character.rage.rules.map((rule) => <li>{rule}</li>)}
+            </ul>
+          </div>
+          <p class="ta-rage-ends">{character.rage.ends}</p>
+
+          <ul class="ta-skulls">
+            {
+              Array.from({ length: character.rage.skulls }).map((_, index) => (
+                <>
+                  <li class="ta-skull">
+                    <input
+                      type="checkbox"
+                      class="ta-tick ta-tick--skull"
+                      aria-label={`해골 ${index + 1}`}
+                    />
+                  </li>
+                  {character.rage.skullMarks[index] && (
+                    <li class="ta-skull-mark">{character.rage.skullMarks[index]}</li>
+                  )}
+                </>
+              ))
+            }
+          </ul>
+          <p class="ta-hint">{character.rage.determination}</p>
+        </section>
+
+        <section class="ta-card">
+          <h3 class="ta-ribbon">출신 <span>Backgrounds</span></h3>
+          <div class="ta-backgrounds-head">
+            <span>출신</span>
+            <span>보너스</span>
+          </div>
+          <ul class="ta-backgrounds">
+            {
+              Array.from({ length: character.backgroundRows }).map((_, index) => (
+                <li class="ta-background">
+                  <input
+                    type="text"
+                    class="ta-input"
+                    value={character.backgrounds[index]?.title ?? ''}
+                    aria-label={`출신 ${index + 1}`}
+                  />
+                  <input
+                    type="number"
+                    class="ta-input ta-input--bonus"
+                    value={character.backgrounds[index]?.bonus ?? ''}
+                    aria-label={`출신 ${index + 1} 보너스`}
+                  />
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+
+        <section class="ta-card">
+          <h3 class="ta-ribbon">기능 판정 <span>Skill Check</span></h3>
+          <p class="ta-skillcheck">
+            <span class="ta-skillcheck-value">{character.level}</span>
+            <span class="ta-skillcheck-label">레벨</span>
+            <span class="ta-skillcheck-plus">+</span>
+            <span class="ta-skillcheck-label">능력 수정치</span>
+            <span class="ta-skillcheck-plus">+</span>
+            <span class="ta-skillcheck-label">출신</span>
+          </p>
+          <p class="ta-hint">{character.skillCheckNote}</p>
+          <p class="ta-note-line">{character.prowessNote}</p>
+        </section>
+
+        <section class="ta-card ta-card--grow">
+          <h3 class="ta-ribbon">표상 관계 <span>Icon Relationships</span></h3>
+          <div class="ta-icons-head">
+            <span>d6</span>
+            <span>+/±/−</span>
+            <span>표상</span>
+            <span>사용</span>
+          </div>
+          <ul class="ta-icons">
+            {
+              Array.from({ length: character.iconRows }).map((_, row) => (
+                <li class="ta-icon-row">
+                  <input type="number" class="ta-input ta-input--d6" aria-label="d6" />
+                  <span class="ta-icon-signs">
+                    {['+', '±', '−'].map((sign) => (
+                      <label class="ta-sign">
+                        <input
+                          type="radio"
+                          class="ta-tick ta-tick--round"
+                          name={`ta-icon-${character.slug}-${row}`}
+                          aria-label={sign}
+                        />
+                        <span>{sign}</span>
+                      </label>
+                    ))}
+                  </span>
+                  <input type="text" class="ta-input" aria-label={`표상 ${row + 1}`} />
+                  <span class="ta-icon-marks">
+                    {Array.from({ length: character.iconMarks }).map(() => (
+                      <input type="checkbox" class="ta-tick" aria-label="사용" />
+                    ))}
+                  </span>
+                </li>
+              ))
+            }
+          </ul>
+          <p class="ta-hint">+ 우호적, ± 갈등, − 적대적 관계.</p>
+        </section>
+      </div>
+
+      <!-- 가운데 열 -->
+      <div class="ta-col">
+        <section class="ta-card">
+          <h3 class="ta-ribbon">능력치 <span>Ability Scores</span></h3>
+          <p class="ta-rule-label">
+            <span>장갑 <em>Armor Class</em></span>
+          </p>
+          <ul class="ta-abilities">
+            {
+              character.abilities.map((ability) => (
+                <li class="ta-ability">
+                  <span class="ta-ability-plate">
+                    <span class="ta-ability-box">
+                      <span class="ta-ability-tag">점수</span>
+                      <input
+                        type="number"
+                        class="ta-input ta-ability-score"
+                        value={ability.score}
+                        aria-label={`${ability.label} 점수`}
+                      />
+                    </span>
+                    <span class="ta-ability-circle">
+                      <span class="ta-ability-mod" title="점수에서 계산되는 값입니다">
+                        {signed(abilityModifier(ability.score))}
+                      </span>
+                      <span class="ta-ability-mod-label">수정치</span>
+                    </span>
+                  </span>
+                  <span class="ta-ability-name">{ability.label}</span>
+                  <span class="ta-ability-name-en">{ability.labelEn}</span>
+                </li>
+              ))
+            }
+          </ul>
+          <div class="ta-defense-groups">
+            <span class="ta-defense-group">신방 <em>Physical Defense</em></span>
+            <span class="ta-defense-group">정방 <em>Mental Defense</em></span>
+          </div>
+        </section>
+
+        <section class="ta-card">
+          <h3 class="ta-ribbon">방어와 행동 순서 <span>Defenses &amp; Initiative</span></h3>
+          <div class="ta-defenses">
+            <label class="ta-defense">
+              <input
+                type="number"
+                class="ta-input ta-input--big"
+                value={character.defenses.armorClass}
+                aria-label="장갑"
+              />
+              <span class="ta-defense-name">장갑 <em>Armor Class</em></span>
+            </label>
+            <label class="ta-defense">
+              <input
+                type="number"
+                class="ta-input ta-input--big"
+                value={character.defenses.physical}
+                aria-label="신방"
+              />
+              <span class="ta-defense-name">신방 <em>Physical</em></span>
+            </label>
+            <label class="ta-defense">
+              <input
+                type="number"
+                class="ta-input ta-input--big"
+                value={character.defenses.mental}
+                aria-label="정방"
+              />
+              <span class="ta-defense-name">정방 <em>Mental</em></span>
+            </label>
+            <label class="ta-defense">
+              <input
+                type="number"
+                class="ta-input ta-input--big"
+                value={character.defenses.initiative}
+                aria-label="행동 순서"
+              />
+              <span class="ta-defense-name">행동 순서 <em>Initiative</em></span>
+            </label>
+          </div>
+          <ul class="ta-derivation">
+            {character.defenses.derivation.map((line) => <li>{line}</li>)}
+          </ul>
+        </section>
+
+        <section class="ta-card">
+          <h3 class="ta-ribbon">격노 공격 <span>Raging Strike &amp; Throw</span></h3>
+          <div class="ta-raging">
+            <div class="ta-raging-box">
+              <span class="ta-raging-value">{character.ragingAttack.crit}</span>
+              <span class="ta-raging-label">치명타</span>
+            </div>
+            <div class="ta-raging-box">
+              <span class="ta-raging-value">{character.ragingAttack.miss}</span>
+              <span class="ta-raging-label">빗나감</span>
+            </div>
+          </div>
+          <p class="ta-hint">{character.ragingAttack.note}</p>
+        </section>
+
+        {
+          [character.meleeAttack, character.rangedAttack].map((attack) => (
+            <section class="ta-card">
+              <h3 class="ta-ribbon">
+                {attack === character.meleeAttack ? '기본 근접 공격' : '기본 원거리 공격'}
+                <span>{attack === character.meleeAttack ? 'Basic Melee Attack' : 'Basic Ranged Attack'}</span>
+              </h3>
+              <div class="ta-attack">
+                <div class="ta-attack-name">
+                  <strong>{attack.title}</strong>
+                  {attack.titleEn && <em>{attack.titleEn}</em>}
+                  <span class="ta-attack-kind">{attack.kind}</span>
+                </div>
+                <div class="ta-attack-stats">
+                  <span class="ta-attack-cell">
+                    <span class="ta-attack-value">{attack.damage}</span>
+                    <span class="ta-attack-label">피해</span>
+                  </span>
+                  <span class="ta-attack-cell">
+                    <span class="ta-attack-value">{attack.average}</span>
+                    <span class="ta-attack-label">평균</span>
+                  </span>
+                  <span class="ta-attack-cell">
+                    <span class="ta-attack-value">{attack.miss}</span>
+                    <span class="ta-attack-label">빗나감</span>
+                  </span>
+                  <span class="ta-attack-cell ta-attack-cell--attack">
+                    <span class="ta-attack-value">{signed(attack.attack)}</span>
+                    <span class="ta-attack-label">{attack.target}</span>
+                  </span>
+                </div>
+              </div>
+            </section>
+          ))
+        }
+
+        <section class="ta-card ta-card--grow">
+          <h3 class="ta-ribbon">특징 · 재능 · 능력 <span>Features, Talents &amp; Powers</span></h3>
+          <table class="ta-powers">
+            <thead>
+              <tr>
+                <th>행동</th>
+                <th>이름</th>
+                <th>발동 · 대상 · 효과</th>
+                <th>쪽</th>
+              </tr>
+            </thead>
+            <tbody>
+              {
+                character.powers.map((power) => (
+                  <tr class:list={[{ 'ta-power--indent': power.indent }]}>
+                    <td class="ta-power-action">
+                      {power.indent ? '' : actionKo(power.action)}
+                    </td>
+                    <td class="ta-power-name">
+                      {power.title}
+                      {(power.tag || power.indent) && (
+                        <span class="ta-power-parent">{power.tag ?? '야수 상'}</span>
+                      )}
+                    </td>
+                    <td class="ta-power-effect">{power.effect}</td>
+                    <td class="ta-power-page">{power.page ?? ''}</td>
+                  </tr>
+                ))
+              }
+            </tbody>
+          </table>
+        </section>
+      </div>
+
+      <!-- 오른쪽 열 -->
+      <div class="ta-col">
+        <section class="ta-card">
+          <h3 class="ta-ribbon">체력과 원기 <span>Hit Points &amp; Recoveries</span></h3>
+          <div class="ta-hp">
+            <label class="ta-hp-main">
+              <input
+                type="number"
+                class="ta-input ta-input--hp"
+                value={character.hp.max}
+                aria-label="최대 체력"
+              />
+              <span class="ta-hp-label">최대 체력 <em>Max HP</em></span>
+            </label>
+            <label class="ta-hp-side">
+              <input
+                type="number"
+                class="ta-input"
+                value={character.hp.staggered}
+                aria-label="휘청"
+              />
+              <span>휘청 <em>Staggered</em></span>
+            </label>
+            <label class="ta-hp-side">
+              <input
+                type="number"
+                class="ta-input"
+                value={character.hp.dead}
+                aria-label="죽음"
+              />
+              <span>죽음 <em>Dead</em></span>
+            </label>
+            <div class="ta-recoveries">
+              <label>
+                <input
+                  type="number"
+                  class="ta-input"
+                  value={character.hp.maxRecoveries}
+                  aria-label="최대 원기"
+                />
+                <span>최대 원기</span>
+              </label>
+              <ul class="ta-recovery-track">
+                {
+                  Array.from({ length: character.hp.maxRecoveries }).map(() => (
+                    <li>
+                      <input type="checkbox" class="ta-tick" aria-label="원기 사용" />
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+          </div>
+
+          <div class="ta-hp-extra">
+            <label class="ta-field">
+              <span class="ta-field-label">현재 체력 <em>Current HP</em></span>
+              <input type="number" class="ta-input" aria-label="현재 체력" />
+            </label>
+            <label class="ta-field">
+              <span class="ta-field-label">임시 체력 <em>Temp HP</em></span>
+              <input type="number" class="ta-input" aria-label="임시 체력" />
+            </label>
+            <label class="ta-field">
+              <span class="ta-field-label">회복 주사위 <em>Recovery Dice</em></span>
+              <span class="ta-recovery-dice">{character.hp.recoveryDice}</span>
+            </label>
+            <label class="ta-field">
+              <span class="ta-field-label">회복량 평균 <em>Average</em></span>
+              <span class="ta-recovery-average">{character.hp.recoveryAverage}</span>
+            </label>
+          </div>
+
+          <div class="ta-ongoing">
+            <span class="ta-field-label">지속 피해 <em>Ongoing</em></span>
+            <input type="text" class="ta-input" aria-label="지속 피해" />
+            <span class="ta-field-label">종류 <em>Type</em></span>
+            <input type="text" class="ta-input" aria-label="종류" />
+            <span class="ta-field-label">내성 <em>Save</em></span>
+            <input type="checkbox" class="ta-tick" aria-label="지속 피해 내성" />
+          </div>
+        </section>
+
+        <section class="ta-card">
+          <h3 class="ta-ribbon">사용 <span>Usage</span></h3>
+          <div class="ta-usage-head">
+            <span />
+            <span>상시·재충전</span>
+            <span>전투당</span>
+            <span>장당</span>
+          </div>
+          <ul class="ta-usage">
+            {
+              frontUsage.map((power) => (
+                <li class:list={['ta-usage-row', { 'ta-usage-row--indent': power.indent }]}>
+                  <span class="ta-usage-name">{power.title}</span>
+                  <span class="ta-usage-cell">
+                    {power.usage?.atWill && (
+                      <input
+                        type="checkbox"
+                        class="ta-tick"
+                        aria-label={`${power.title} 상시·재충전`}
+                      />
+                    )}
+                  </span>
+                  <span class="ta-usage-cell">
+                    {power.usage?.perBattle && (
+                      <input
+                        type="checkbox"
+                        class="ta-tick"
+                        aria-label={`${power.title} 전투당`}
+                      />
+                    )}
+                  </span>
+                  <span class="ta-usage-cell">
+                    {power.usage?.perArc && (
+                      <input
+                        type="checkbox"
+                        class="ta-tick"
+                        aria-label={`${power.title} 장당`}
+                      />
+                    )}
+                  </span>
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+
+        <section class="ta-card ta-card--grow">
+          <h3 class="ta-ribbon">조건 및 기타 효과 <span>Conditions &amp; Other Effects</span></h3>
+          <div class="ta-conditions-head">
+            <span>조건</span>
+            <span>내성</span>
+          </div>
+          <ul class="ta-conditions">
+            {
+              Array.from({ length: 6 }).map(() => (
+                <li class="ta-condition">
+                  <input type="text" class="ta-input" aria-label="조건" />
+                  <input type="checkbox" class="ta-tick" aria-label="내성" />
+                </li>
+              ))
+            }
+          </ul>
+          <p class="ta-turnline">
+            당신의 턴: 표준 행동 하나 · 이동 행동 하나 · 빠른 행동 하나, 그리고 자유 행동은 원하는
+            만큼. 턴 사이에 교전 행동 하나.
+          </p>
+        </section>
+      </div>
+    </div>
+  </article>
+
+  <!-- ───────────── 뒷면 ───────────── -->
+  <article class="ta-page" aria-label={`${character.className} ${character.buildName} 캐릭터 시트 뒷면`}>
+    <div class="ta-columns">
+      <!-- 왼쪽 열 -->
+      <div class="ta-col">
+        <section class="ta-card">
+          <h3 class="ta-ribbon">마법 물품 <span>Magic Items</span></h3>
+          <div class="ta-attunement">
+            <input
+              type="number"
+              class="ta-input ta-input--hp"
+              value={character.magicItemAttunement}
+              aria-label="최대 각성"
+            />
+            <span>최대 각성 <em>Max Attuned</em></span>
+          </div>
+          <ul class="ta-lines">
+            {Array.from({ length: 5 }).map(() => (
+              <li>
+                <input type="text" class="ta-input" aria-label="마법 물품" />
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section class="ta-card">
+          <h3 class="ta-ribbon">물약과 룬 <span>Potions &amp; Runes</span></h3>
+          <ul class="ta-potions">
+            {
+              character.potions.map((potion) => (
+                <li class="ta-potion">
+                  <input type="checkbox" class="ta-tick" aria-label={potion.title} />
+                  <span>
+                    <strong>{potion.title}</strong>: {potion.effect}
+                  </span>
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+
+        <section class="ta-card ta-card--grow">
+          <h3 class="ta-ribbon">기타 특징 <span>Miscellaneous Features</span></h3>
+          <ul class="ta-misc">
+            {character.miscFeatures.map((feature) => <li>{feature}</li>)}
+          </ul>
+        </section>
+      </div>
+
+      <!-- 가운데 열 -->
+      <div class="ta-col">
+        <section class="ta-card">
+          <h3 class="ta-ribbon">더 많은 특징 · 재능 · 능력 <span>More Features, Talents &amp; Powers</span></h3>
+          <table class="ta-powers">
+            <thead>
+              <tr>
+                <th>행동</th>
+                <th>이름</th>
+                <th>발동 · 대상 · 효과</th>
+                <th>쪽</th>
+              </tr>
+            </thead>
+            <tbody>
+              {
+                character.morePowers.map((power) => (
+                  <tr>
+                    <td class="ta-power-action">{actionKo(power.action)}</td>
+                    <td class="ta-power-name">
+                      {power.title}
+                      {power.tag && <span class="ta-power-parent">{power.tag}</span>}
+                    </td>
+                    <td class="ta-power-effect">{power.effect}</td>
+                    <td class="ta-power-page">{power.page ?? ''}</td>
+                  </tr>
+                ))
+              }
+            </tbody>
+          </table>
+          <p class="ta-turnline">
+            당신의 턴: 표준 행동 하나 · 이동 행동 하나 · 빠른 행동 하나, 그리고 자유 행동은 원하는
+            만큼. 턴 사이에 교전 행동 하나.
+          </p>
+        </section>
+
+        <section class="ta-card ta-card--grow">
+          <h3 class="ta-ribbon">장비와 기록 <span>Gear &amp; Notes</span></h3>
+          <div class="ta-gear">
+            <label class="ta-gear-cell">
+              <input
+                type="number"
+                class="ta-input ta-input--big"
+                value={character.gear.armorBonus}
+                aria-label="갑옷 기본 장갑"
+              />
+              <span>갑옷</span>
+            </label>
+            <span class="ta-gear-plus">+</span>
+            <label class="ta-gear-cell">
+              <input
+                type="number"
+                class="ta-input ta-input--big"
+                value={character.gear.shieldBonus}
+                aria-label="방패"
+              />
+              <span>방패</span>
+            </label>
+            <span class="ta-gear-plus">=</span>
+            <label class="ta-gear-cell">
+              <input
+                type="number"
+                class="ta-input ta-input--big"
+                value={character.gear.baseArmorClass}
+                aria-label="기본 장갑"
+              />
+              <span>기본 장갑</span>
+            </label>
+            <label class="ta-gold">
+              <span class="ta-field-label">금화 <em>Gold</em></span>
+              <input type="text" class="ta-input" value={character.gear.gold} aria-label="금화" />
+            </label>
+          </div>
+          <ul class="ta-gear-items">
+            {
+              character.gear.items.map((item) => (
+                <li>
+                  <strong>{item.title}</strong> <span>{item.kind}</span>
+                </li>
+              ))
+            }
+          </ul>
+          <textarea class="ta-textarea" aria-label="기록" />
+        </section>
+      </div>
+
+      <!-- 오른쪽 열 -->
+      <div class="ta-col">
+        <section class="ta-card">
+          <h3 class="ta-ribbon">사용 <span>Usage</span></h3>
+          <div class="ta-usage-head">
+            <span />
+            <span>상시·재충전</span>
+            <span>전투당</span>
+            <span>장당</span>
+          </div>
+          <ul class="ta-usage">
+            {
+              backUsage.map((power) => (
+                <li class="ta-usage-row">
+                  <span class="ta-usage-name">{power.title}</span>
+                  <span class="ta-usage-cell">
+                    {power.usage?.atWill && (
+                      <input
+                        type="checkbox"
+                        class="ta-tick"
+                        aria-label={`${power.title} 상시·재충전`}
+                      />
+                    )}
+                  </span>
+                  <span class="ta-usage-cell">
+                    {power.usage?.perBattle && (
+                      <input
+                        type="checkbox"
+                        class="ta-tick"
+                        aria-label={`${power.title} 전투당`}
+                      />
+                    )}
+                  </span>
+                  <span class="ta-usage-cell">
+                    {power.usage?.perArc && (
+                      <input
+                        type="checkbox"
+                        class="ta-tick"
+                        aria-label={`${power.title} 장당`}
+                      />
+                    )}
+                  </span>
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+
+        <section class="ta-card">
+          <h3 class="ta-ribbon">특기 <span>Feats</span></h3>
+          <div class="ta-feats-head">
+            <span>특기</span>
+            <span>등급</span>
+          </div>
+          <ul class="ta-feats">
+            {
+              character.feats.map((feat) => (
+                <li class="ta-feat">
+                  <span class="ta-feat-name">
+                    {feat.title}
+                    {feat.note && <em>{feat.note}</em>}
+                  </span>
+                  <span class="ta-feat-tier">
+                    <input
+                      type="radio"
+                      class="ta-tick ta-tick--round"
+                      name={`ta-feat-${character.slug}-${feat.titleEn ?? feat.title}`}
+                      checked
+                      aria-label={feat.tier}
+                    />
+                    <span class="ta-feat-letter">{feat.tier}</span>
+                  </span>
+                </li>
+              ))
+            }
+            {
+              Array.from({ length: Math.max(0, 8 - character.feats.length) }).map(() => (
+                <li class="ta-feat">
+                  <span class="ta-feat-name">
+                    <input type="text" class="ta-input" aria-label="특기" />
+                  </span>
+                  <span class="ta-feat-tier">
+                    {['A', 'C', 'E'].map((tier) => (
+                      <label class="ta-feat-letter">
+                        <input type="checkbox" class="ta-tick ta-tick--round" aria-label={tier} />
+                        {tier}
+                      </label>
+                    ))}
+                  </span>
+                </li>
+              ))
+            }
+          </ul>
+          <p class="ta-hint">A = 모험가 등급(1~4레벨), C = 투사 등급(5~7), E = 서사시 등급(8~10).</p>
+        </section>
+
+        <section class="ta-card ta-card--grow">
+          <h3 class="ta-ribbon">점진적 성장 <span>Incremental Advances</span></h3>
+          <ul class="ta-advances">
+            {
+              character.incrementalAdvances.map((advance) => (
+                <li class="ta-advance">
+                  <input type="checkbox" class="ta-tick" aria-label={advance} />
+                  <span>{advance}</span>
+                </li>
+              ))
+            }
+          </ul>
+          <p class="ta-hint">
+            특기·능력·재능을 얻는 항목은 무엇을 얻었는지 이 시트의 해당 칸에 함께 적어 두십시오.
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <!-- 아래쪽 표 -->
+    <div class="ta-tables">
+      <section class="ta-table-block">
+        <h3 class="ta-ribbon">{character.className} 기본 장갑 <span>Base Armor</span></h3>
+        <table class="ta-data-table">
+          <thead>
+            <tr>
+              <th>갑옷</th>
+              <th>기본 장갑</th>
+              <th>공격 페널티</th>
+            </tr>
+          </thead>
+          <tbody>
+            {
+              character.armorTable.map((row) => (
+                <tr class:list={[{ 'ta-row--active': row.active }]}>
+                  <td>{row.armor}</td>
+                  <td>{row.baseAc}</td>
+                  <td>{row.penalty}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </section>
+
+      <section class="ta-table-block">
+        <h3 class="ta-ribbon">
+          {character.className} 무기 피해 / 공격 페널티 <span>Weapon Damage / Attack Penalty</span>
+        </h3>
+        <table class="ta-data-table ta-data-table--weapons">
+          <thead>
+            <tr>
+              <th>무기</th>
+              <th>한 손</th>
+              <th>두 손</th>
+              <th>투척</th>
+              <th>활</th>
+              <th>석궁</th>
+            </tr>
+          </thead>
+          <tbody>
+            {
+              character.weaponTable.map((row) => (
+                <tr class:list={[{ 'ta-row--active': row.active }]}>
+                  <td>{row.weapon}</td>
+                  <td>{row.oneHand}</td>
+                  <td>{row.twoHand}</td>
+                  <td>{row.thrown}</td>
+                  <td>{row.bow}</td>
+                  <td>{row.crossbow}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+    <footer class="ta-footer">
+      <ul class="ta-legend">
+        {
+          character.legend.map((item, index) => (
+            <li>
+              <span class="ta-legend-mark">{['✳', '✧', '↻', '✖'][index] ?? '•'}</span>
+              {item}
+            </li>
+          ))
+        }
+      </ul>
+      <p class="ta-credit">{character.credit}</p>
+    </footer>
+  </article>
+</div>
+
+<script>
+  import { modifierLabel } from '../../utils/thirteenthAge';
+
+  // 시트에 적은 값과 표시를 브라우저에 남겨 둔다.
+  //
+  // 열쇠를 요소 순서로 만들면 시트 모양을 고칠 때마다 저장해 둔 값이 엉뚱한 칸으로
+  // 옮겨 간다. 그래서 '쪽 + 칸 이름 + 꼬리표'로 열쇠를 만든다.
+  const STORAGE_PREFIX = 'ta-sheet:v2:';
+
+  type SheetControl = HTMLInputElement | HTMLTextAreaElement;
+
+  function isToggle(control: SheetControl): control is HTMLInputElement {
+    return (
+      control instanceof HTMLInputElement &&
+      (control.type === 'checkbox' || control.type === 'radio')
+    );
+  }
+
+  /** 컨트롤마다 안정적인 열쇠를 만든다. 꼬리표가 겹치면 같은 칸 안에서 번호를 붙인다. */
+  function keysFor(sheet: HTMLElement): string[] {
+    const pages = Array.from(sheet.querySelectorAll('.ta-page'));
+    const seen = new Map<string, number>();
+
+    return Array.from(sheet.querySelectorAll<SheetControl>('input, textarea')).map((control) => {
+      const page = control.closest('.ta-page');
+      const section = control.closest('.ta-card')?.querySelector('.ta-ribbon')?.firstChild?.textContent?.trim() ?? '';
+      const label =
+        control.getAttribute('aria-label') ?? control.getAttribute('name') ?? control.type;
+      const base = `p${page ? pages.indexOf(page) + 1 : 0}|${section}|${label}`;
+      const count = (seen.get(base) ?? 0) + 1;
+      seen.set(base, count);
+      return count === 1 ? base : `${base}#${count}`;
+    });
+  }
+
+  function restore(sheet: HTMLElement) {
+    const slug = sheet.dataset.taSheet;
+    if (!slug) return;
+
+    const storageKey = STORAGE_PREFIX + slug;
+    const controls = Array.from(sheet.querySelectorAll<SheetControl>('input, textarea'));
+    const keys = keysFor(sheet);
+
+    let saved: Record<string, string | boolean> = {};
+    try {
+      saved = JSON.parse(localStorage.getItem(storageKey) ?? '{}') as Record<
+        string,
+        string | boolean
+      >;
+    } catch {
+      saved = {};
+    }
+
+    controls.forEach((control, index) => {
+      const value = saved[keys[index]];
+      if (value === undefined) return;
+      if (isToggle(control)) {
+        if (value === true) control.checked = true;
+      } else {
+        control.value = String(value);
+      }
+    });
+
+    const save = () => {
+      const next: Record<string, string | boolean> = {};
+      controls.forEach((control, index) => {
+        next[keys[index]] = isToggle(control) ? control.checked : control.value;
+      });
+      try {
+        localStorage.setItem(storageKey, JSON.stringify(next));
+      } catch {
+        /* 저장할 수 없는 환경(사생활 보호 모드 등)에서는 조용히 넘어간다. */
+      }
+    };
+
+    sheet.addEventListener('input', save);
+    sheet.addEventListener('change', save);
+  }
+
+  /** 능력치 점수를 고치면 수정치를 규칙대로 다시 계산해 보여 준다. */
+  function wireAbilityScores(sheet: HTMLElement) {
+    sheet.querySelectorAll<HTMLInputElement>('.ta-ability-score').forEach((input) => {
+      const sync = () => {
+        const output = input.closest('.ta-ability-plate')?.querySelector('.ta-ability-mod');
+        if (output) output.textContent = modifierLabel(input.value);
+      };
+
+      // 저장해 둔 점수를 되살린 뒤에도 수정치가 점수와 맞도록 한 번 맞춰 둔다.
+      sync();
+      input.addEventListener('input', sync);
+    });
+  }
+
+  document.querySelectorAll<HTMLElement>('[data-ta-sheet]').forEach((sheet) => {
+    restore(sheet);
+    wireAbilityScores(sheet);
+  });
+</script>
+
+<style is:global>
+  .ta-sheet {
+    /* 13시대 직업 시트처럼 진홍색 잉크와 종이색을 쓴다. */
+    --ta-paper: #ffffff;
+    --ta-paper-soft: #fdf3f3;
+    --ta-ink: #1b1214;
+    --ta-ink-soft: #6b5357;
+    --ta-rule: #8e1f2f;
+    --ta-rule-soft: color-mix(in oklab, var(--ta-rule) 26%, transparent);
+    --ta-faint: #e6d3d6;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    color: var(--ta-ink);
+    font-family: var(--font-body);
+  }
+
+  .theme-dark .ta-sheet {
+    --ta-paper: #191214;
+    --ta-paper-soft: #241a1c;
+    --ta-ink: #f6eaec;
+    --ta-ink-soft: #c09aa1;
+    --ta-rule: #e08394;
+    --ta-faint: #43292e;
+  }
+
+  /* ---- 페이지 ---- */
+
+  .ta-page {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 0.9rem 1rem 1rem;
+    background: var(--ta-paper);
+    border: 1px solid var(--ta-rule);
+    border-radius: 4px;
+  }
+
+  /* ---- 머리말 ---- */
+
+  .ta-masthead {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+    align-items: end;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--ta-rule);
+  }
+
+  @media (min-width: 768px) {
+    .ta-masthead {
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.6fr) auto;
+    }
+  }
+
+  .ta-identity {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.8rem;
+  }
+
+  .ta-class {
+    text-align: left;
+  }
+
+  @media (min-width: 768px) {
+    .ta-class {
+      text-align: center;
+    }
+  }
+
+  .ta-build {
+    margin: 0;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ta-ink-soft);
+  }
+
+  .ta-build em {
+    font-style: normal;
+    letter-spacing: 0.06em;
+  }
+
+  .ta-class-title {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 0.55rem;
+    flex-wrap: wrap;
+    margin: 0.1rem 0 0;
+    font-family: var(--font-serif);
+    font-size: clamp(1.5rem, 3.4vw, 2.2rem);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    line-height: 1.05;
+  }
+
+  .ta-class-title span {
+    font-family: var(--font-body);
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--ta-rule);
+  }
+
+  .ta-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    min-width: 0;
+  }
+
+  .ta-field--level {
+    align-items: flex-end;
+  }
+
+  .ta-field-label {
+    font-size: 0.58rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ta-rule);
+    white-space: nowrap;
+  }
+
+  .ta-field-label em {
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: var(--ta-ink-soft);
+  }
+
+  .ta-kin {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .ta-kin-value {
+    font-size: 0.9rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .ta-kin-value em {
+    font-style: normal;
+    font-size: 0.66rem;
+    font-weight: 400;
+    color: var(--ta-ink-soft);
+  }
+
+  /* ---- 입력 ---- */
+
+  .ta-input {
+    width: 100%;
+    min-width: 0;
+    border: none;
+    border-bottom: 1px solid var(--ta-rule-soft);
+    background: transparent;
+    color: var(--ta-ink);
+    font: inherit;
+    font-size: 0.78rem;
+    padding: 0.05rem 0.1rem;
+    -moz-appearance: textfield;
+  }
+
+  .ta-input--name {
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
+    font-weight: 700;
+    border-bottom-width: 2px;
+    border-bottom-color: var(--ta-rule);
+  }
+
+  .ta-input--level {
+    width: 3rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    border: 2px solid var(--ta-rule);
+    border-radius: 50%;
+    aspect-ratio: 1;
+    padding: 0;
+  }
+
+  .ta-input::-webkit-outer-spin-button,
+  .ta-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .ta-input:focus {
+    outline: 2px solid var(--ta-rule);
+    outline-offset: 1px;
+    border-radius: 2px;
+  }
+
+  .ta-textarea {
+    width: 100%;
+    min-height: 4.5rem;
+    border: none;
+    background: transparent;
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 1.35rem,
+      var(--ta-faint) 1.35rem,
+      var(--ta-faint) calc(1.35rem + 1px)
+    );
+    color: var(--ta-ink);
+    font: inherit;
+    font-size: 0.75rem;
+    line-height: 1.35rem;
+    resize: vertical;
+  }
+
+  .ta-textarea--tall {
+    min-height: 7rem;
+  }
+
+  /* 남는 자리는 빈 상자가 아니라 적을 수 있는 줄로 채운다. */
+  .ta-card--grow .ta-textarea {
+    flex: 1;
+  }
+
+  .ta-textarea:focus {
+    outline: none;
+  }
+
+  .ta-tick {
+    appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    flex: none;
+    width: 0.8rem;
+    height: 0.8rem;
+    margin: 0;
+    border: 1.5px solid var(--ta-rule);
+    border-radius: 0;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .ta-tick--round {
+    border-radius: 50%;
+  }
+
+  .ta-tick--lg {
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+
+  .ta-tick:checked {
+    background: var(--ta-rule);
+  }
+
+  .ta-tick:checked::after {
+    content: '✕';
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.55rem;
+    line-height: 1;
+    color: var(--ta-paper);
+  }
+
+  .ta-tick--round:checked::after {
+    content: none;
+  }
+
+  .ta-tick--skull {
+    width: 1.05rem;
+    height: 1.05rem;
+  }
+
+  /* 해골 칸은 비어 있을 때도 해골 모양이 보이게 한다. */
+  .ta-tick--skull::before {
+    content: '☠';
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.66rem;
+    line-height: 1;
+    color: var(--ta-faint);
+  }
+
+  .ta-tick--skull:checked::before {
+    color: var(--ta-paper);
+  }
+
+  .ta-tick--skull:checked::after {
+    content: none;
+  }
+
+  .ta-tick:focus-visible {
+    outline: 2px solid var(--ta-rule);
+    outline-offset: 1px;
+  }
+
+  /* ---- 열 ---- */
+
+  .ta-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+  }
+
+  @media (min-width: 1024px) {
+    .ta-columns {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr) minmax(0, 1fr);
+    }
+  }
+
+  .ta-col {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    min-width: 0;
+  }
+
+  /* ---- 카드와 리본 ---- */
+
+  .ta-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ta-card--grow {
+    flex: 1;
+  }
+
+  .ta-ribbon {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 0.45rem;
+    flex-wrap: wrap;
+    margin: 0 0 0.5rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid var(--ta-rule);
+    font-family: var(--font-serif);
+    font-size: 0.86rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: var(--ta-rule);
+    text-align: center;
+  }
+
+  .ta-ribbon span {
+    font-family: var(--font-body);
+    font-size: 0.52rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ta-ink-soft);
+  }
+
+  /* ---- 글 ---- */
+
+  .ta-hint {
+    margin: 0.35rem 0 0;
+    font-size: 0.62rem;
+    font-style: italic;
+    line-height: 1.4;
+    color: var(--ta-ink-soft);
+  }
+
+  .ta-note-line {
+    margin: 0.3rem 0 0;
+    font-size: 0.66rem;
+    line-height: 1.4;
+  }
+
+  .ta-turnline {
+    margin: 0.5rem 0 0;
+    font-size: 0.6rem;
+    line-height: 1.4;
+    text-align: center;
+    color: var(--ta-ink-soft);
+  }
+
+  .ta-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.3rem 1rem;
+    padding-top: 0.4rem;
+    border-top: 1px solid var(--ta-rule-soft);
+  }
+
+  .ta-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.15rem 0.9rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.58rem;
+    color: var(--ta-ink-soft);
+  }
+
+  .ta-legend-mark {
+    color: var(--ta-rule);
+    margin-right: 0.15rem;
+  }
+
+  .ta-credit {
+    margin: 0;
+    font-size: 0.55rem;
+    color: var(--ta-ink-soft);
+  }
+
+  /* ---- 분노와 해골 ---- */
+
+  .ta-rage {
+    display: grid;
+    grid-template-columns: 4.2rem minmax(0, 1fr);
+    gap: 0.6rem;
+    align-items: start;
+  }
+
+  .ta-token {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    padding: 0.5rem 0.25rem;
+    border: 2px dashed var(--ta-rule);
+    border-radius: 50%;
+    aspect-ratio: 1;
+    cursor: pointer;
+  }
+
+  /* 격노 표시는 동그라미 테두리에 걸친 토큰처럼 보이게 한다. */
+  .ta-token-mark {
+    position: absolute;
+    top: -0.2rem;
+    right: -0.15rem;
+    background: var(--ta-paper);
+  }
+
+  .ta-token-label {
+    font-family: var(--font-serif);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--ta-rule);
+  }
+
+  .ta-rage-rules {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.66rem;
+    line-height: 1.4;
+  }
+
+  .ta-rage-rules li {
+    position: relative;
+    padding-left: 0.7rem;
+  }
+
+  .ta-rage-rules li::before {
+    content: '◆';
+    position: absolute;
+    left: 0;
+    top: 0.32rem;
+    font-size: 0.42rem;
+    color: var(--ta-rule);
+  }
+
+  .ta-rage-ends {
+    margin: 0.45rem 0 0;
+    font-size: 0.63rem;
+    line-height: 1.4;
+    color: var(--ta-ink-soft);
+  }
+
+  .ta-skulls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.2rem;
+    list-style: none;
+    padding: 0.5rem 0 0;
+    margin: 0;
+  }
+
+  .ta-skull-mark {
+    flex: 1;
+    text-align: center;
+    font-size: 0.46rem;
+    letter-spacing: 0.02em;
+    color: var(--ta-ink-soft);
+    border-bottom: 1px solid var(--ta-rule-soft);
+    padding-bottom: 0.05rem;
+    white-space: nowrap;
+  }
+
+  /* ---- 출신 ---- */
+
+  .ta-backgrounds-head {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 3rem;
+    gap: 0.4rem;
+    font-size: 0.48rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ta-rule);
+    padding-bottom: 0.15rem;
+    border-bottom: 1px solid var(--ta-rule);
+  }
+
+  .ta-backgrounds-head span:last-child {
+    text-align: center;
+  }
+
+  .ta-backgrounds {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    list-style: none;
+    padding: 0;
+    margin: 0.4rem 0 0;
+  }
+
+  .ta-background {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 3rem;
+    gap: 0.4rem;
+  }
+
+  .ta-input--bonus {
+    text-align: center;
+  }
+
+  .ta-derivation {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    font-size: 0.58rem;
+    line-height: 1.4;
+    color: var(--ta-ink-soft);
+  }
+
+  .ta-derivation li {
+    position: relative;
+    padding-left: 0.7rem;
+  }
+
+  .ta-derivation li::before {
+    content: '=';
+    position: absolute;
+    left: 0;
+    color: var(--ta-rule-soft);
+  }
+
+  /* ---- 기술 판정 ---- */
+
+  .ta-skillcheck {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .ta-skillcheck-value {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.9rem;
+    height: 1.9rem;
+    border: 2px solid var(--ta-rule);
+    border-radius: 50%;
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--ta-rule);
+  }
+
+  .ta-skillcheck-label {
+    font-size: 0.58rem;
+    color: var(--ta-ink-soft);
+  }
+
+  .ta-skillcheck-plus {
+    font-weight: 700;
+    color: var(--ta-rule);
+  }
+
+  /* ---- 표상 관계 ---- */
+
+  .ta-icons-head {
+    display: grid;
+    grid-template-columns: 3rem minmax(0, 4.6rem) minmax(0, 1fr) minmax(0, 4.4rem);
+    gap: 0.3rem;
+    font-size: 0.52rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ta-rule);
+    padding-bottom: 0.15rem;
+    border-bottom: 1px solid var(--ta-rule-soft);
+  }
+
+  .ta-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ta-icon-row {
+    display: grid;
+    grid-template-columns: 3rem minmax(0, 4.6rem) minmax(0, 1fr) minmax(0, 4.4rem);
+    gap: 0.3rem;
+    align-items: center;
+    padding: 0.28rem 0;
+    border-bottom: 1px dotted var(--ta-faint);
+  }
+
+  .ta-icon-row:last-child {
+    border-bottom: none;
+  }
+
+  .ta-input--d6 {
+    text-align: center;
+  }
+
+  .ta-icon-signs {
+    display: inline-flex;
+    justify-content: space-around;
+  }
+
+  .ta-sign {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.15rem;
+    font-size: 0.62rem;
+    cursor: pointer;
+  }
+
+  .ta-icon-marks {
+    display: inline-flex;
+    gap: 0.16rem;
+    justify-content: flex-end;
+  }
+
+  /* ---- 능력치 ---- */
+
+  /* 가운데에 라벨이 끼어 있는 가는 가로줄. */
+  .ta-rule-label {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin: 0 0 0.55rem;
+  }
+
+  .ta-rule-label::before,
+  .ta-rule-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ta-rule-soft);
+  }
+
+  .ta-rule-label span {
+    font-size: 0.5rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ta-ink-soft);
+    white-space: nowrap;
+  }
+
+  .ta-rule-label em {
+    font-style: normal;
+    color: var(--ta-rule);
+  }
+
+  .ta-abilities {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 0.3rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .ta-ability {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+    min-width: 0;
+  }
+
+  /* 점수 네모 상자 뒤로 수정치 동그라미가 겹쳐 나오는 모양. */
+  .ta-ability-plate {
+    position: relative;
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1.08;
+    margin: 0.25rem 0 0.25rem;
+  }
+
+  .ta-ability-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 24%;
+    bottom: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 동그라미가 덮는 오른쪽 아래를 비켜 숫자를 놓는다. */
+    padding: 0 0.6rem 0.6rem 0;
+    border: 2px solid var(--ta-rule);
+    border-radius: 2px;
+  }
+
+  .ta-ability-tag {
+    position: absolute;
+    top: -0.35rem;
+    left: 0.1rem;
+    padding: 0 0.12rem;
+    background: var(--ta-paper);
+    font-size: 0.4rem;
+    letter-spacing: 0.06em;
+    color: var(--ta-ink-soft);
+  }
+
+  .ta-ability-score {
+    width: 100%;
+    padding: 0;
+    border-bottom: none;
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .ta-ability-circle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 66%;
+    aspect-ratio: 1;
+    border: 2px solid var(--ta-rule);
+    border-radius: 50%;
+    background: var(--ta-paper);
+  }
+
+  .ta-ability-mod {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: var(--font-serif);
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    color: var(--ta-rule);
+  }
+
+  .ta-ability-mod-label {
+    font-size: 0.38rem;
+    letter-spacing: 0.08em;
+    color: var(--ta-ink-soft);
+  }
+
+  .ta-ability-name {
+    font-family: var(--font-serif);
+    font-size: 0.66rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--ta-rule);
+    white-space: nowrap;
+  }
+
+  .ta-ability-name-en {
+    font-size: 0.4rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ta-ink-soft);
+    white-space: nowrap;
+  }
+
+  /* 앞의 세 능력치 밑에 신방, 뒤의 세 능력치 밑에 정방. */
+  .ta-defense-groups {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 0.5rem;
+    margin-top: 0.6rem;
+  }
+
+  .ta-defense-group {
+    position: relative;
+    padding-top: 0.3rem;
+    text-align: center;
+    font-size: 0.5rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ta-rule);
+  }
+
+  .ta-defense-group::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: var(--ta-rule-soft);
+  }
+
+  .ta-defense-group em {
+    font-style: normal;
+    letter-spacing: 0.08em;
+    color: var(--ta-ink-soft);
+  }
+
+  /* ---- 방어와 행동 순서 ---- */
+
+  .ta-defenses {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.4rem;
+  }
+
+  .ta-defense {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.15rem;
+  }
+
+  .ta-input--big {
+    text-align: center;
+    font-size: 1.35rem;
+    font-weight: 800;
+  }
+
+  .ta-defense .ta-input--big {
+    width: 100%;
+    border: 2px solid var(--ta-rule);
+    border-radius: 6px;
+    padding: 0.1rem 0;
+  }
+
+  .ta-defense-name {
+    font-size: 0.55rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--ta-rule);
+  }
+
+  .ta-defense-name em {
+    display: block;
+    font-style: normal;
+    font-size: 0.45rem;
+    font-weight: 400;
+    color: var(--ta-ink-soft);
+  }
+
+  /* ---- 격노 공격 ---- */
+
+  .ta-raging {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.4rem;
+  }
+
+  .ta-raging-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+    padding: 0.3rem 0.2rem;
+    border: 1.5px dashed var(--ta-rule);
+    border-radius: 6px;
+  }
+
+  .ta-raging-value {
+    font-family: var(--font-serif);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--ta-rule);
+    line-height: 1;
+  }
+
+  .ta-raging-label {
+    font-size: 0.55rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ta-ink-soft);
+  }
+
+  /* ---- 기본 공격 ---- */
+
+  .ta-attack-name {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    font-size: 0.82rem;
+  }
+
+  .ta-attack-name em {
+    font-style: normal;
+    font-size: 0.58rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ta-ink-soft);
+  }
+
+  .ta-attack-kind {
+    font-size: 0.58rem;
+    color: var(--ta-ink-soft);
+  }
+
+  .ta-attack-stats {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.3rem;
+    margin-top: 0.4rem;
+  }
+
+  .ta-attack-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.05rem;
+    padding: 0.25rem 0.1rem;
+    border: 1px solid var(--ta-rule-soft);
+    border-radius: 6px;
+  }
+
+  .ta-attack-cell--attack {
+    border: 2px solid var(--ta-rule);
+  }
+
+  .ta-attack-value {
+    font-size: 0.95rem;
+    font-weight: 800;
+  }
+
+  .ta-attack-label {
+    font-size: 0.5rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ta-ink-soft);
+  }
+
+  /* ---- 능력 표 ---- */
+
+  .ta-powers {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.66rem;
+    line-height: 1.35;
+  }
+
+  .ta-powers th {
+    font-size: 0.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: left;
+    color: var(--ta-rule);
+    padding: 0 0.25rem 0.2rem;
+    border-bottom: 1px solid var(--ta-rule);
+  }
+
+  .ta-powers td {
+    padding: 0.28rem 0.25rem;
+    border-bottom: 1px dotted var(--ta-faint);
+    vertical-align: top;
+  }
+
+  .ta-powers tr:last-child td {
+    border-bottom: none;
+  }
+
+  .ta-powers th:first-child,
+  .ta-powers td:first-child {
+    width: 2.6rem;
+  }
+
+  .ta-powers th:last-child,
+  .ta-powers td:last-child {
+    width: 2.4rem;
+    text-align: right;
+  }
+
+  .ta-power-action {
+    font-weight: 700;
+    color: var(--ta-rule);
+    white-space: nowrap;
+  }
+
+  .ta-power-name {
+    font-weight: 700;
+  }
+
+  .ta-power--indent .ta-power-name {
+    font-weight: 400;
+    padding-left: 0.5rem;
+  }
+
+  .ta-power--indent .ta-power-effect {
+    padding-left: 0.5rem;
+  }
+
+  .ta-power-parent {
+    display: block;
+    font-size: 0.5rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: var(--ta-ink-soft);
+  }
+
+  .ta-power-page {
+    color: var(--ta-ink-soft);
+    white-space: nowrap;
+  }
+
+  /* ---- 체력과 원기 ---- */
+
+  .ta-hp {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.4rem;
+    align-items: center;
+  }
+
+  .ta-hp-main,
+  .ta-hp-side,
+  .ta-recoveries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+  }
+
+  .ta-hp-side span,
+  .ta-recoveries span {
+    font-size: 0.5rem;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--ta-ink-soft);
+  }
+
+  .ta-hp-side em,
+  .ta-recoveries em {
+    display: block;
+    font-style: normal;
+  }
+
+  .ta-hp-label {
+    font-size: 0.55rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: var(--ta-rule);
+  }
+
+  .ta-hp-label em {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--ta-ink-soft);
+  }
+
+  .ta-input--hp {
+    text-align: center;
+    font-family: var(--font-serif);
+    font-size: 1.7rem;
+    font-weight: 700;
+    border-bottom: none;
+  }
+
+  .ta-hp-main,
+  .ta-hp-side {
+    padding: 0.25rem 0.1rem;
+    border: 2px solid var(--ta-rule);
+    border-radius: 50% 50% 6px 6px / 40% 40% 6px 6px;
+  }
+
+  .ta-hp-side {
+    border-radius: 6px;
+  }
+
+  .ta-hp-side .ta-input {
+    text-align: center;
+    font-size: 0.95rem;
+    font-weight: 800;
+  }
+
+  .ta-recoveries {
+    gap: 0.2rem;
+  }
+
+  .ta-recoveries .ta-input {
+    text-align: center;
+    font-size: 0.95rem;
+    font-weight: 800;
+    border: 1.5px solid var(--ta-rule);
+    border-radius: 6px;
+  }
+
+  .ta-recovery-track {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.16rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .ta-hp-extra {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+    margin-top: 0.6rem;
+  }
+
+  .ta-recovery-dice,
+  .ta-recovery-average {
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+
+  .ta-recovery-average {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    border: 2px solid var(--ta-rule);
+    border-radius: 50%;
+    color: var(--ta-rule);
+  }
+
+  .ta-ongoing {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto minmax(0, 1fr) auto auto;
+    gap: 0.3rem;
+    align-items: center;
+    margin-top: 0.6rem;
+    padding-top: 0.4rem;
+    border-top: 1px dotted var(--ta-faint);
+  }
+
+  /* ---- 사용 ---- */
+
+  .ta-usage-head {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) repeat(3, 2.8rem);
+    gap: 0.2rem;
+    font-size: 0.48rem;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--ta-rule);
+    padding-bottom: 0.15rem;
+    border-bottom: 1px solid var(--ta-rule);
+  }
+
+  .ta-usage-head span:first-child {
+    text-align: left;
+  }
+
+  .ta-usage-head span:not(:first-child) {
+    border-left: 1px solid var(--ta-rule-soft);
+  }
+
+  .ta-usage {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ta-usage-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) repeat(3, 2.8rem);
+    gap: 0.2rem;
+    align-items: center;
+    padding: 0.22rem 0;
+    border-bottom: 1px dotted var(--ta-faint);
+    font-size: 0.66rem;
+  }
+
+  .ta-usage-row:last-child {
+    border-bottom: none;
+  }
+
+  .ta-usage-row--indent .ta-usage-name {
+    padding-left: 0.6rem;
+    font-size: 0.62rem;
+  }
+
+  .ta-usage-cell {
+    display: inline-flex;
+    justify-content: center;
+    align-self: stretch;
+    align-items: center;
+    border-left: 1px dotted var(--ta-faint);
+  }
+
+  /* ---- 조건 ---- */
+
+  .ta-conditions-head {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 2.4rem;
+    gap: 0.3rem;
+    font-size: 0.48rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ta-rule);
+    padding-bottom: 0.15rem;
+    border-bottom: 1px solid var(--ta-rule);
+  }
+
+  .ta-conditions-head span:last-child {
+    text-align: center;
+  }
+
+  .ta-conditions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .ta-condition {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 2.4rem;
+    gap: 0.3rem;
+    align-items: center;
+    padding: 0.3rem 0;
+    border-bottom: 1px dotted var(--ta-faint);
+  }
+
+  .ta-condition:last-child {
+    border-bottom: none;
+  }
+
+  .ta-condition .ta-tick {
+    justify-self: center;
+  }
+
+  /* ---- 마법 물품 / 물약 ---- */
+
+  .ta-attunement {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .ta-attunement .ta-input--hp {
+    width: 2.6rem;
+    border: 2px solid var(--ta-rule);
+    border-radius: 6px;
+  }
+
+  .ta-attunement span {
+    font-size: 0.55rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ta-rule);
+  }
+
+  .ta-attunement em {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    color: var(--ta-ink-soft);
+  }
+
+  .ta-lines {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+  }
+
+  .ta-potions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .ta-potion {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.4rem;
+    font-size: 0.68rem;
+    line-height: 1.4;
+  }
+
+  .ta-potion .ta-tick {
+    margin-top: 0.15rem;
+  }
+
+  .ta-misc {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    font-size: 0.7rem;
+    line-height: 1.45;
+  }
+
+  .ta-misc li {
+    position: relative;
+    padding-left: 0.8rem;
+  }
+
+  .ta-misc li::before {
+    content: '◆';
+    position: absolute;
+    left: 0;
+    top: 0.3rem;
+    font-size: 0.45rem;
+    color: var(--ta-rule);
+  }
+
+  /* ---- 장비 ---- */
+
+  .ta-gear {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto minmax(0, 1fr);
+    gap: 0.35rem;
+    align-items: center;
+    margin-bottom: 0.6rem;
+  }
+
+  .ta-gear-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+    padding: 0.3rem 0.4rem;
+    border: 2px solid var(--ta-rule);
+    border-radius: 6px;
+  }
+
+  .ta-gear-cell span {
+    font-size: 0.5rem;
+    color: var(--ta-ink-soft);
+    white-space: nowrap;
+  }
+
+  .ta-gear-cell .ta-input--big {
+    width: 2.6rem;
+  }
+
+  .ta-gear-plus {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--ta-rule);
+  }
+
+  .ta-gold {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .ta-gear-items {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    font-size: 0.7rem;
+  }
+
+  .ta-gear-items span {
+    color: var(--ta-ink-soft);
+  }
+
+  /* ---- 특기 ---- */
+
+  .ta-feats-head {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 5rem;
+    gap: 0.3rem;
+    font-size: 0.48rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ta-rule);
+    padding-bottom: 0.15rem;
+    border-bottom: 1px solid var(--ta-rule);
+  }
+
+  .ta-feats {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ta-feat {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 5rem;
+    gap: 0.3rem;
+    align-items: center;
+    padding: 0.25rem 0;
+    border-bottom: 1px dotted var(--ta-faint);
+  }
+
+  .ta-feat:last-child {
+    border-bottom: none;
+  }
+
+  .ta-feat-name {
+    font-size: 0.72rem;
+    font-weight: 700;
+  }
+
+  .ta-feat-name em {
+    display: block;
+    font-style: normal;
+    font-size: 0.55rem;
+    font-weight: 400;
+    color: var(--ta-ink-soft);
+  }
+
+  .ta-feat-tier {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+  }
+
+  .ta-feat-letter {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+    font-size: 0.58rem;
+    color: var(--ta-ink-soft);
+  }
+
+  /* ---- 점진적 성장 ---- */
+
+  .ta-advances {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .ta-advance {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.4rem;
+    font-size: 0.62rem;
+    line-height: 1.35;
+  }
+
+  .ta-advance .ta-tick {
+    margin-top: 0.1rem;
+  }
+
+  /* ---- 아래쪽 표 ---- */
+
+  .ta-tables {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+  }
+
+  @media (min-width: 1024px) {
+    .ta-tables {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    }
+  }
+
+  .ta-data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.66rem;
+  }
+
+  .ta-data-table th {
+    font-size: 0.5rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: left;
+    color: var(--ta-rule);
+    padding: 0 0.25rem 0.2rem;
+  }
+
+  .ta-data-table td {
+    padding: 0.22rem 0.25rem;
+    border-bottom: 1px dotted var(--ta-faint);
+  }
+
+  .ta-data-table tbody tr:first-child td {
+    border-top: 1px solid var(--ta-rule-soft);
+  }
+
+  .ta-row--active td {
+    background: var(--ta-paper-soft);
+    font-weight: 700;
+  }
+
+  .ta-data-table--weapons td:first-child {
+    white-space: nowrap;
+  }
+
+  @media print {
+    .ta-page {
+      border: none;
+      break-inside: avoid;
+      print-color-adjust: exact;
+      -webkit-print-color-adjust: exact;
+    }
+  }
+</style>

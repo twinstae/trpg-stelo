@@ -1,0 +1,239 @@
+---
+import SheetLayout from '../../../layouts/SheetLayout.astro';
+import IronswornTruthsWorkbook from '../../../components/Sheets/IronswornTruthsWorkbook.astro';
+import { IRONSWORN_TRUTHS_WORKBOOK } from '../../../data/ironsworn/truths';
+import { IRONSWORN_SOURCE } from '../../../data/ironsworn/chapters';
+
+const frontmatter = {
+  title: '당신의 세계 — 진실 워크북 : 철의 맹세',
+  description:
+    '철의 맹세 《Your World — Truths Workbook》을 인쇄본 모양 그대로 한국어로 옮긴 페이지. 갈래마다 진실 하나를 골라 동그라미를 채우고, 직접 만든 진실은 빈 줄에 적습니다. 표시와 글은 브라우저에 저장됩니다.',
+  layout: '../../../layouts/MainLayout.astro',
+  createdAt: '2026-09-27T00:00:00.000Z',
+};
+
+/** 갈래마다 인쇄된 진실 수와 빈 칸 수. 안내 글에 쓴다. */
+const CATEGORIES = IRONSWORN_TRUTHS_WORKBOOK.flatMap((page) => page.categories);
+
+const PRINTED_TRUTHS = CATEGORIES.reduce((count, category) => count + category.options.length, 0);
+
+const HOW_TO = [
+  '갈래마다 세 가지 진실 가운데 하나를 골라, 왼쪽 동그라미를 눌러 채웁니다. 규칙서도 말하듯 여러 개를 골라도 됩니다.',
+  '인쇄된 어느 것도 마음에 들지 않으면, 갈래 끝의 빈 줄에 자기만의 진실을 적고 그 동그라미를 채웁니다.',
+  '임무 씨앗은 그 진실이 캠페인에서 어떤 맹세로 이어질 수 있는지 알려 주는 물음입니다. 지금 답하지 않아도 됩니다.',
+  '고르고 적은 것은 이 브라우저에 남아, 페이지를 다시 열어도 그대로 있습니다. 인쇄하기를 누르면 워크북만 종이에 담깁니다.',
+];
+---
+
+<SheetLayout frontmatter={frontmatter} headings={[]}>
+  <div class="sheet-wrap">
+    <nav class="sheet-nav" aria-label="이동">
+      <a href="/ko/ironsworn">← 철의 맹세 목차</a>
+      <span class="sheet-nav-links">
+        <a href="/ko/ironsworn/your-truths">당신의 진실</a>
+        <a href="/ko/ironsworn/sheets">시트와 애셋 카드</a>
+        <a href="/ko/ironsworn/GLOSSARY">용어집</a>
+      </span>
+      <button type="button" class="sheet-print" data-sheet-print>인쇄하기</button>
+    </nav>
+
+    <header class="sheet-intro">
+      <h1 class="sheet-title">
+        당신의 세계 — 진실 워크북 <span>Your World — Truths Workbook</span>
+      </h1>
+      <p>
+        숀 톰킨의 <strong>{IRONSWORN_SOURCE.titleKo}</strong>(<em>Ironsworn</em>)에는 플레이하기 전에
+        함께 세계를 세우는 절이 있습니다. 갈래마다 세 가지 진실 가운데 하나를 골라 <em>당신의</em>{' '}
+        철의 땅을 만드는 것이지요. 이는 그 절에 딸린 별책 워크북{' '}
+        <em>Your World — Truths Workbook</em>을 인쇄본 모양 그대로 옮긴 것으로, 갈래 열한 가지에 걸쳐
+        진실 {PRINTED_TRUTHS}가지를 담았습니다.
+      </p>
+      <p>
+        워크북은 종이와 펜을 들고 하는 일이지만, 이 페이지에서도 그대로 하실 수 있습니다. 시트처럼
+        동그라미를 눌러 고르고 빈 줄에 적으면 됩니다. 규칙서 대역의{' '}
+        <a href="/ko/ironsworn/your-truths">당신의 진실</a> 절과 나란히 두고 보십시오.
+      </p>
+    </header>
+
+    <section class="sheet-howto">
+      <h2>쓰는 법</h2>
+      <ol>
+        {
+          HOW_TO.map((line) => (
+            <li>
+              <span>{line}</span>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+
+    <nav class="sheet-chips" aria-label="갈래">
+      {
+        CATEGORIES.map((category) => (
+          <a href={`#truths-${category.slug}`}>
+            {category.label} <span>{category.labelEn}</span>
+          </a>
+        ))
+      }
+    </nav>
+
+    <IronswornTruthsWorkbook />
+
+    <footer class="sheet-credit">
+      <p>
+        원문은 숀 톰킨의 <a href={IRONSWORN_SOURCE.site}>Ironsworn</a>이며{' '}
+        <a href={IRONSWORN_SOURCE.licenseUrl}>{IRONSWORN_SOURCE.license}</a> 라이선스로 공개되어
+        있습니다. 이 워크북은 같은 저작자의 <em>Your World — Truths Workbook</em>(CC BY-NC-SA 4.0)을
+        옮긴 것이며, 번역문도 같은 조건을 따릅니다. 이 작업은 크리에이티브 커먼즈
+        저작자표시-비영리-동일조건변경허락 4.0 국제 라이선스로 제공되는 내용을 담고 있습니다.
+      </p>
+    </footer>
+  </div>
+</SheetLayout>
+
+<script>
+  // 워크북만 종이에 담을 수 있도록 인쇄 단추를 붙인다.
+  document.querySelectorAll<HTMLButtonElement>('[data-sheet-print]').forEach((button) => {
+    button.addEventListener('click', () => window.print());
+  });
+</script>
+
+<style>
+  .sheet-wrap {
+    width: 100%;
+    padding: 2rem 0.75rem 3rem;
+  }
+
+  .sheet-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1.25rem;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .sheet-nav a {
+    color: var(--color-primary);
+  }
+
+  .sheet-nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+  }
+
+  .sheet-print {
+    margin-left: auto;
+    padding: 0.25rem 0.7rem;
+    border: 1px solid currentColor;
+    border-radius: 999em;
+    background: transparent;
+    font: inherit;
+    font-size: 0.75rem;
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  .sheet-print:hover {
+    opacity: 1;
+  }
+
+  .sheet-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+  }
+
+  .sheet-title span {
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+
+  .sheet-intro p {
+    max-width: 62ch;
+    line-height: 1.7;
+    margin-bottom: 0.6rem;
+  }
+
+  .sheet-howto {
+    margin: 1.5rem 0 1.25rem;
+    padding: 0.9rem 1.1rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-base-200);
+  }
+
+  .sheet-howto h2 {
+    font-size: 0.95rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+  }
+
+  .sheet-howto ol {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    max-width: 68ch;
+    margin: 0;
+    padding-left: 1.2rem;
+    font-size: 0.82rem;
+    line-height: 1.6;
+  }
+
+  .sheet-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .sheet-chips a {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.3rem;
+    padding: 0.25rem 0.7rem;
+    border: 1px solid color-mix(in oklab, currentColor 35%, transparent);
+    border-radius: 999em;
+    font-size: 0.75rem;
+  }
+
+  .sheet-chips span {
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.65;
+  }
+
+  .sheet-credit {
+    margin-top: 2.5rem;
+    font-size: 0.72rem;
+    opacity: 0.7;
+  }
+
+  .sheet-credit p {
+    max-width: 70ch;
+    line-height: 1.6;
+  }
+
+  @media print {
+    .sheet-wrap {
+      padding: 0;
+    }
+
+    .sheet-nav,
+    .sheet-intro,
+    .sheet-howto,
+    .sheet-chips,
+    .sheet-credit {
+      display: none;
+    }
+  }
+</style>

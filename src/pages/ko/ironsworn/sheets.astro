@@ -1,0 +1,331 @@
+---
+import SheetLayout from '../../../layouts/SheetLayout.astro';
+import IronswornSheet from '../../../components/Sheets/IronswornSheet.astro';
+import IronswornMovesSheet from '../../../components/Sheets/IronswornMovesSheet.astro';
+import IronswornAssetCards from '../../../components/Sheets/IronswornAssetCards.astro';
+import { IRONSWORN_MOVE_SHEETS } from '../../../data/ironsworn/actionSheets';
+import { IRONSWORN_SOURCE } from '../../../data/ironsworn/chapters';
+
+const frontmatter = {
+  title: '캐릭터 시트 · 액션 레퍼런스 · 애셋 카드 : 철의 맹세',
+  description:
+    '철의 맹세 캐릭터 시트와 모험 액션 레퍼런스, 애셋 카드를 인쇄용 모양 그대로 한국어로 옮긴 페이지. 시트에 적은 값과 표시는 브라우저에 저장되어 다시 열면 그대로 남습니다.',
+  layout: '../../../layouts/MainLayout.astro',
+  createdAt: '2026-09-27T00:00:00.000Z',
+};
+
+/** 시트에 인쇄된 영어와 한국어 표기를 맞춰 둔 대조표. */
+const GLOSSARY: [string, string][] = [
+  ['Edge · Heart · Iron · Shadow · Wits', '기민 · 심지 · 강철 · 그림자 · 지혜'],
+  ['Health · Spirit · Supply', '건강 · 정신 · 보급'],
+  ['Momentum · Max Momentum · Momentum Reset', '모멘텀 · 최대 모멘텀 · 초기화 값'],
+  ['Strong Hit · Weak Hit · Miss', '강타 · 약타 · 실패'],
+  ['Vow · Bond · Progress Track', '맹세 · 유대 · 진행 트랙'],
+  ['Debility · Condition · Bane · Burden', '결점 · 조건 · 재앙 · 부담'],
+  ['Asset · Path · Companion · Combat Talent · Ritual', '애셋 · 경로 · 동반자 · 전투 재능 · 의례'],
+];
+
+const SECTIONS = [
+  { id: 'character', ko: '캐릭터 시트', en: 'Character Sheet' },
+  { id: 'moves', ko: '액션 레퍼런스', en: 'Move Reference' },
+  { id: 'assets', ko: '애셋 카드', en: 'Asset Cards' },
+];
+---
+
+<SheetLayout frontmatter={frontmatter} headings={[]}>
+  <div class="sheet-wrap">
+    <nav class="sheet-nav" aria-label="이동">
+      <a href="/ko/ironsworn">← 철의 맹세 목차</a>
+      <span class="sheet-nav-links">
+        {SECTIONS.map((section) => <a href={`#${section.id}`}>{section.ko}</a>)}
+        <a href="/ko/ironsworn/truths-workbook">진실 워크북</a>
+      </span>
+      <button type="button" class="sheet-print" data-sheet-print>인쇄하기</button>
+    </nav>
+
+    <header class="sheet-intro">
+      <h1 class="sheet-title">철의 맹세 시트 모음</h1>
+      <p>
+        숀 톰킨의 <strong>{IRONSWORN_SOURCE.titleKo}</strong>(<em>Ironsworn</em>)에 딸린 인쇄용
+        시트를 한국어로 옮겼습니다. 캐릭터 시트는 《철의 맹세》 플레이킷을 따르고, 액션
+        레퍼런스는 규칙서 대역에서 액션 상자를 그대로 뽑아 여섯 갈래로 나눴으며, 애셋 카드는{' '}
+        <em>Ironsworn Assets</em> 인쇄용 카드 가운데 아홉 장을 골라 담았습니다.
+      </p>
+      <p>
+        세계를 세우는 <a href="/ko/ironsworn/truths-workbook">당신의 세계 — 진실 워크북</a>은
+        따로 한 쪽에 담았습니다. 시트에 적은 값과 표시는 여러분의 브라우저(localStorage)에 저장되어,
+        페이지를 다시 열어도 그대로 남습니다. 능력치처럼 직접 적는 칸은 물론, 동그라미와 네모, 모멘텀 사다리처럼
+        표시하는 칸도 모두 눌러서 채울 수 있습니다. 트랙처럼 값 하나만 표시하는 칸은 표시된
+        곳을 한 번 더 누르면 지워집니다.
+      </p>
+      <p class="sheet-term-note">
+        시트는 인쇄해 손에 들고 쓰도록 만들었습니다. 위의 <strong>인쇄하기</strong> 단추를
+        누르면 안내 글과 이동 링크를 빼고 시트만 인쇄됩니다. 용어는{' '}
+        <a href="/ko/ironsworn/GLOSSARY">용어집</a>을 따랐습니다.
+      </p>
+    </header>
+
+    <section id="character" class="sheet-section">
+      <h2 class="sheet-heading">캐릭터 시트 <span>Character Sheet</span></h2>
+      <p class="sheet-lead">
+        능력치와 경험, 유대와 맹세, 결점을 적고 건강·정신·보급과 모멘텀을 표시합니다. 맹세마다
+        등급을 고르면 그 등급이 이정표마다 표시하는 진척을 아래에 적어 두었습니다.
+      </p>
+      <IronswornSheet />
+    </section>
+
+    <section id="moves" class="sheet-section">
+      <h2 class="sheet-heading">액션 레퍼런스 <span>Move Reference</span></h2>
+      <p class="sheet-lead">
+        여섯 갈래 액션을 인쇄용 레퍼런스처럼 담았습니다. 액션 이름과 결과 문구는 규칙서
+        대역에서 그대로 가져오므로, 자세한 설명과 플레이 예시는{' '}
+        <a href="/ko/ironsworn/adventure-moves">모험 액션</a>,{' '}
+        <a href="/ko/ironsworn/relationship-moves">관계 액션</a>,{' '}
+        <a href="/ko/ironsworn/combat-moves">전투 액션</a>,{' '}
+        <a href="/ko/ironsworn/suffer-moves">고난 액션</a>,{' '}
+        <a href="/ko/ironsworn/quest-moves">임무 액션</a>,{' '}
+        <a href="/ko/ironsworn/fate-moves">운명 액션</a>에서 영어 원문과 나란히 볼 수 있습니다.
+      </p>
+      <nav class="sheet-chips" aria-label="액션 갈래">
+        {
+          IRONSWORN_MOVE_SHEETS.map((sheet) => (
+            <a href={`#moves-${sheet.slug}`}>
+              {sheet.title} <span>{sheet.titleEn}</span>
+            </a>
+          ))
+        }
+      </nav>
+      <IronswornMovesSheet />
+    </section>
+
+    <section id="assets" class="sheet-section">
+      <h2 class="sheet-heading">애셋 카드 <span>Asset Cards</span></h2>
+      <p class="sheet-lead">
+        카드에 인쇄된 능력은 동그라미를 눌러 표시합니다. 카드에는 기본 능력 하나가 이미 칠해져
+        있으니, 경험을 써서 강화할 때마다 나머지 동그라미를 채우십시오. 동반자를 얻으면 이름을
+        지어 적고, 카드 아래 트랙에 건강이나 전투력을 표시하십시오. 맨 끝의 빈 카드는 직접 만든
+        애셋을 적는 자리입니다.
+      </p>
+      <IronswornAssetCards />
+    </section>
+
+    <section class="sheet-glossary">
+      <h2 class="sheet-heading">용어 대조</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>영문</th>
+            <th>한국어</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            GLOSSARY.map(([en, ko]) => (
+              <tr>
+                <td>{en}</td>
+                <td>{ko}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </section>
+
+    <footer class="sheet-credit">
+      <p>
+        원문은 숀 톰킨의 <a href={IRONSWORN_SOURCE.site}>Ironsworn</a>이며{' '}
+        <a href={IRONSWORN_SOURCE.licenseUrl}>{IRONSWORN_SOURCE.license}</a> 라이선스로 공개되어
+        있습니다. 시트는 《철의 맹세》 플레이킷(CC BY-NC-SA 4.0) 한국어판을, 애셋 카드는 같은
+        저작자의 <em>Ironsworn Assets</em>(CC BY 4.0)를 옮긴 것입니다. 번역문도 같은 조건을
+        따릅니다.
+      </p>
+    </footer>
+  </div>
+</SheetLayout>
+
+<script>
+  // 시트만 종이에 담을 수 있도록 인쇄 단추를 붙인다.
+  document.querySelectorAll<HTMLButtonElement>('[data-sheet-print]').forEach((button) => {
+    button.addEventListener('click', () => window.print());
+  });
+</script>
+
+<style>
+  .sheet-wrap {
+    width: 100%;
+    padding: 2rem 0.75rem 3rem;
+  }
+
+  .sheet-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1.25rem;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .sheet-nav a {
+    color: var(--color-primary);
+  }
+
+  .sheet-nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+  }
+
+  .sheet-print {
+    margin-left: auto;
+    padding: 0.25rem 0.7rem;
+    border: 1px solid currentColor;
+    border-radius: 999em;
+    background: transparent;
+    font: inherit;
+    font-size: 0.75rem;
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  .sheet-print:hover {
+    opacity: 1;
+  }
+
+  .sheet-intro p {
+    max-width: 62ch;
+    line-height: 1.7;
+    margin-bottom: 0.6rem;
+  }
+
+  .sheet-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+  }
+
+  .sheet-term-note {
+    font-size: 0.9rem;
+    opacity: 0.85;
+  }
+
+  .sheet-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    margin-top: 2.25rem;
+    scroll-margin-top: 1rem;
+  }
+
+  .sheet-heading {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  .sheet-heading span {
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+
+  .sheet-lead {
+    max-width: 62ch;
+    font-size: 0.85rem;
+    line-height: 1.65;
+    opacity: 0.85;
+  }
+
+  .sheet-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .sheet-chips a {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.3rem;
+    padding: 0.25rem 0.7rem;
+    border: 1px solid color-mix(in oklab, currentColor 35%, transparent);
+    border-radius: 999em;
+    font-size: 0.75rem;
+  }
+
+  .sheet-chips span {
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.65;
+  }
+
+  .sheet-glossary {
+    margin-top: 2.5rem;
+  }
+
+  .sheet-glossary table {
+    width: 100%;
+    max-width: 52rem;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+
+  .sheet-glossary th {
+    text-align: left;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.7;
+    padding: 0 0.5rem 0.3rem 0;
+    border-bottom: 1px solid currentColor;
+  }
+
+  .sheet-glossary td {
+    padding: 0.3rem 0.5rem 0.3rem 0;
+    border-bottom: 1px dotted color-mix(in oklab, currentColor 25%, transparent);
+    vertical-align: top;
+  }
+
+  .sheet-credit {
+    margin-top: 2.5rem;
+    font-size: 0.72rem;
+    opacity: 0.7;
+  }
+
+  .sheet-credit p {
+    max-width: 70ch;
+    line-height: 1.6;
+  }
+
+  @media print {
+    .sheet-wrap {
+      padding: 0;
+    }
+
+    .sheet-nav,
+    .sheet-intro,
+    .sheet-lead,
+    .sheet-glossary,
+    .sheet-credit {
+      display: none;
+    }
+
+    .sheet-section {
+      margin-top: 0;
+      break-before: page;
+    }
+
+    .sheet-section:first-of-type {
+      break-before: auto;
+    }
+
+    .sheet-heading {
+      font-size: 1rem;
+    }
+  }
+</style>

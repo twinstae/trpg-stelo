@@ -1,0 +1,382 @@
+---
+import RichText from './RichText.astro';
+import type { IronswornMoveSheet } from './ironswornSheet';
+import { IRONSWORN_MOVE_SHEETS } from '../../data/ironsworn/actionSheets';
+
+interface Props {
+  sheets?: Readonly<IronswornMoveSheet[]>;
+}
+
+const { sheets = IRONSWORN_MOVE_SHEETS } = Astro.props;
+
+/** 액션을 두 단으로 나눠 담는다. 인쇄용 레퍼런스와 같은 흐름이다. */
+function splitColumns<T>(items: readonly T[]): [T[], T[]] {
+  const half = Math.ceil(items.length / 2);
+  return [items.slice(0, half), items.slice(half)];
+}
+---
+
+{
+  sheets.map((sheet) => {
+    const columns = splitColumns(sheet.moves);
+
+    return (
+      <article
+        class="iw2-sheet"
+        id={`moves-${sheet.slug}`}
+        data-sheet-section={sheet.title}
+        aria-label={`${sheet.title} 레퍼런스`}
+      >
+        <header class="iw2-head">
+          <h3 class="iw2-title">
+            <span>{sheet.title}</span>
+            <em>{sheet.titleEn}</em>
+          </h3>
+          {sheet.note && <p class="iw2-note">{sheet.note}</p>}
+        </header>
+
+        <div class="iw2-columns">
+          {columns.map((moves) => (
+            <div class="iw2-col">
+              {moves.map((move) => (
+                <section class="iw2-move" id={`${sheet.slug}-${move.slug}`}>
+                  <h4 class="iw2-move-title">
+                    <span>{move.title}</span>
+                    <em>{move.titleEn}</em>
+                    {move.tag && (
+                      <span class="iw2-tag">
+                        {move.tag}
+                        {move.tagEn && <em>{move.tagEn}</em>}
+                      </span>
+                    )}
+                  </h4>
+
+                  {move.blocks.map((block) => (
+                    <>
+                      <p class:list={['iw2-block', `iw2-block--${block.kind}`]}>
+                        <RichText text={block.text} />
+                      </p>
+                      {block.bullets && (
+                        <ul class="iw2-bullets">
+                          {block.bullets.map((bullet) => (
+                            <li>
+                              <RichText text={bullet} />
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </>
+                  ))}
+
+                  {move.table && (
+                    <table class="iw2-table">
+                      <thead>
+                        <tr>
+                          {move.table.columns.map((column) => (
+                            <th>{column}</th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {move.table.rows.map((row) => (
+                          <tr>
+                            {row.map((cell) => (
+                              <td>
+                                <RichText text={cell} />
+                              </td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  )}
+                </section>
+              ))}
+            </div>
+          ))}
+        </div>
+
+        {sheet.extra && (
+          <section class="iw2-extra">
+            <h4 class="iw2-extra-title">
+              <span>{sheet.extra.title}</span>
+              <em>{sheet.extra.titleEn}</em>
+            </h4>
+            <ul class="iw2-extra-items">
+              {sheet.extra.items.map((item) => (
+                <li>
+                  <strong>{item.label}</strong>
+                  {item.labelEn && <em> {item.labelEn}</em>}: <RichText text={item.text} />
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+      </article>
+    );
+  })
+}
+
+<style is:global>
+  .iw2-sheet {
+    --iw2-paper: #ffffff;
+    --iw2-ink: #141414;
+    --iw2-ink-soft: #5f5f5f;
+    --iw2-band: #141414;
+    --iw2-band-ink: #ffffff;
+    --iw2-rule-soft: color-mix(in oklab, var(--iw2-ink) 24%, transparent);
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    width: 100%;
+    padding: 0 0 1.3rem;
+    background: var(--iw2-paper);
+    color: var(--iw2-ink);
+    font-family: var(--font-body);
+    border: 1px solid var(--iw2-ink);
+    border-radius: 2px;
+    scroll-margin-top: 1rem;
+  }
+
+  .theme-dark .iw2-sheet {
+    --iw2-paper: #141414;
+    --iw2-ink: #f2f2f2;
+    --iw2-ink-soft: #a5a5a5;
+    --iw2-band: #f2f2f2;
+    --iw2-band-ink: #141414;
+  }
+
+  /* ---- 머리 띠 ---- */
+
+  .iw2-head {
+    padding: 0.7rem 1.1rem 0.75rem;
+    background: var(--iw2-band);
+    color: var(--iw2-band-ink);
+  }
+
+  .iw2-title {
+    display: flex;
+    align-items: baseline;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+  }
+
+  .iw2-title em {
+    font-style: normal;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.26em;
+    opacity: 0.75;
+  }
+
+  .iw2-note {
+    margin: 0.3rem 0 0;
+    font-size: 0.72rem;
+    line-height: 1.55;
+    opacity: 0.88;
+  }
+
+  /* ---- 두 단 ---- */
+
+  .iw2-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem 2rem;
+    padding: 0 1.1rem;
+  }
+
+  @media (min-width: 760px) {
+    .iw2-columns {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      /* 액션 수가 홀수일 때 왼쪽 단에 더 담아 두 단의 높이를 맞춘다. */
+      align-items: start;
+    }
+  }
+
+  .iw2-col {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  /* 액션 사이는 넉넉히 띄우고 가는 줄로 경계를 보여 준다. */
+  .iw2-move {
+    break-inside: avoid;
+    scroll-margin-top: 1rem;
+  }
+
+  .iw2-move + .iw2-move {
+    margin-top: 1.6rem;
+    padding-top: 1.6rem;
+  }
+
+  .iw2-move-title {
+    display: flex;
+    align-items: baseline;
+    gap: 0.55rem;
+    flex-wrap: wrap;
+    margin: 0 0 0.4rem;
+    font-size: 1.15rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .iw2-move-title em {
+    font-style: normal;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: var(--iw2-ink-soft);
+  }
+
+  .iw2-tag {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.25rem;
+    padding: 0.08rem 0.45rem;
+    border: 1px solid var(--iw2-ink-soft);
+    border-radius: 999em;
+    font-size: 0.55rem;
+    letter-spacing: 0.14em;
+    color: var(--iw2-ink-soft);
+  }
+
+  .iw2-tag em {
+    font-size: 0.5rem;
+    letter-spacing: 0.12em;
+  }
+
+  .iw2-block {
+    margin: 0.35rem 0 0;
+    font-size: 0.78rem;
+    line-height: 1.6;
+  }
+
+  .iw2-block strong {
+    font-weight: 800;
+  }
+
+  /* 머물기의 「회복하기」처럼 묶음 이름으로 쓰는 줄. */
+  .iw2-block--label {
+    margin-top: 0.6rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+  }
+
+  .iw2-bullets {
+    margin: 0.3rem 0 0;
+    padding-left: 0.95rem;
+    font-size: 0.78rem;
+    line-height: 1.6;
+  }
+
+  .iw2-bullets li + li {
+    margin-top: 0.2rem;
+  }
+
+  /* ---- 굴림 표 ---- */
+
+  .iw2-table {
+    width: 100%;
+    margin-top: 0.5rem;
+    border-collapse: collapse;
+    font-size: 0.7rem;
+    line-height: 1.5;
+  }
+
+  .iw2-table th {
+    padding: 0.2rem 0.4rem;
+    text-align: left;
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 1.5px solid var(--iw2-ink);
+  }
+
+  .iw2-table th:first-child,
+  .iw2-table td:first-child {
+    width: 5.5rem;
+    white-space: nowrap;
+  }
+
+  .iw2-table td {
+    padding: 0.28rem 0.4rem;
+    vertical-align: top;
+    border-bottom: 1px solid var(--iw2-rule-soft);
+  }
+
+  /* ---- 시트 끝 덧붙임 ---- */
+
+  .iw2-extra {
+    margin: 0 1.1rem;
+    padding-top: 0.9rem;
+    border-top: 3px double var(--iw2-ink);
+  }
+
+  .iw2-extra-title {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    margin: 0 0 0.5rem;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  .iw2-extra-title em {
+    font-style: normal;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    color: var(--iw2-ink-soft);
+  }
+
+  .iw2-extra-items {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.4rem 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.74rem;
+    line-height: 1.55;
+  }
+
+  @media (min-width: 760px) {
+    .iw2-extra-items {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  .iw2-extra-items strong {
+    font-weight: 800;
+  }
+
+  .iw2-extra-items em {
+    font-style: italic;
+    color: var(--iw2-ink-soft);
+  }
+
+  @media print {
+    .iw2-sheet {
+      --iw2-paper: #ffffff;
+      --iw2-ink: #000000;
+      --iw2-ink-soft: #444444;
+      --iw2-band: #000000;
+      --iw2-band-ink: #ffffff;
+      border: none;
+    }
+
+    .iw2-columns {
+      gap: 1rem 1.4rem;
+    }
+  }
+</style>

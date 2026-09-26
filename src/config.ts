@@ -74,6 +74,9 @@ export const SIDEBAR: Sidebar = {
       { text: "플레이의 예", link: "/example-of-play" },
       //  { text: '사냥하는 소리의 첨탑: 퀵스타트', link: '/the-spire-of-the-hunting-sound' },
     ]),
+    Topic("13시대 2판", "/13th-age", [
+      { text: "사전 제작 캐릭터", link: "/pregenerated-characters" },
+    ]),
     Topic("던전월드 2 (2.1 베타)", "/awe/dw2", [
       { text: "목차", link: "" },
       ...DW2_CHAPTERS.filter((chapter) => chapter.slug !== "00-front-matter").map((chapter) => ({
@@ -110,6 +113,8 @@ export const SIDEBAR: Sidebar = {
     // ]),
     Topic("철의 맹세", "/ironsworn", [
       { text: "목차", link: "" },
+      { text: "시트와 애셋 카드", link: "/sheets" },
+      { text: "진실 워크북", link: "/truths-workbook" },
       ...IRONSWORN_CHAPTERS.map((chapter) => ({
         text: chapter.status === "translated" ? chapter.titleKo : `${chapter.titleKo} (원문)`,
         link: `/${chapter.slug}`,
