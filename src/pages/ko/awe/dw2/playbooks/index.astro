@@ -1,0 +1,78 @@
+---
+import MainLayout from '../../../../../layouts/MainLayout.astro';
+import { DW2_PLAYBOOKS } from '../../../../../data/dw2/playbooks';
+
+const frontmatter = {
+  title: '직업 캐릭터 시트 [DW2 2.1]',
+  description:
+    '던전월드 2 Beta v2.1의 직업 플레이북을 인쇄용 캐릭터 시트 모양으로 정리한 페이지 모음.',
+  layout: '',
+  createdAt: '2026-09-26T00:00:00.000Z',
+};
+---
+
+<MainLayout frontmatter={frontmatter} headings={[]}>
+  <p>
+    던전월드 2의 여섯 직업 플레이북을 인쇄 시트 모양으로 옮겼습니다. 각 시트는 원고의 기원·관계·시작
+    액션·장비·능력치·향상에 더해, 그 직업이 열어 주는 길 세 개까지 함께 담습니다.
+  </p>
+  <p>
+    시트에 적은 값과 표시는 브라우저에 저장되어, 페이지를 다시 열어도 그대로 남습니다.
+  </p>
+
+  <ul class="playbook-list">
+    {
+      DW2_PLAYBOOKS.map((playbook) => (
+        <li>
+          <a href={`/ko/awe/dw2/playbooks/${playbook.slug}`}>
+            <span class="playbook-title">
+              {playbook.titleKo} <span class="playbook-title-en">{playbook.titleEn}</span>
+            </span>
+            <span class="playbook-tagline">{playbook.tagline}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <p>
+    원문과 대역은 <a href="/ko/awe/dw2">던전월드 2 목차</a>에서 볼 수 있습니다.
+  </p>
+</MainLayout>
+
+<style>
+  .playbook-list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin: 1.5rem 0;
+  }
+
+  .playbook-list a {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    padding: 0.7rem 0.9rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-base-200);
+  }
+
+  .playbook-title {
+    font-weight: 700;
+  }
+
+  .playbook-title-en {
+    opacity: 0.6;
+    font-size: 0.85em;
+    font-weight: 400;
+    margin-left: 0.25em;
+    letter-spacing: 0.04em;
+  }
+
+  .playbook-tagline {
+    font-size: 0.85em;
+    opacity: 0.75;
+  }
+</style>

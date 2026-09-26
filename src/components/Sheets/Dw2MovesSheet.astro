@@ -1,0 +1,133 @@
+---
+import Dw2MoveEntry from './Dw2MoveEntry.astro';
+import RichText from './RichText.astro';
+import type { Dw2MoveSheetGroup } from './dw2MoveSheet';
+
+interface Props {
+  group: Readonly<Dw2MoveSheetGroup>;
+}
+
+const { group } = Astro.props;
+---
+
+<article class="dw2-movesheet" data-dw2-sheet={group.slug} aria-label={`${group.titleKo} 액션 시트`}>
+  <header class="dmv-masthead">
+    <h2 class="dmv-title">
+      <span class="dmv-title-ko">{group.titleKo}</span>
+      <span class="dmv-title-en">{group.titleEn}</span>
+    </h2>
+    {group.intro && <p class="dmv-intro"><RichText text={group.intro} /></p>}
+  </header>
+
+  <div class="dmv-columns">
+    {
+      // 액션 수를 균등하게 세로로 나눠 3단에 흘려 넣는다.
+      [0, 1, 2].map((column) => {
+        const per = Math.ceil(group.moves.length / 3);
+        const slice = group.moves.slice(column * per, (column + 1) * per);
+        return (
+          <div class="dmv-col">
+            {slice.map((move) => (
+              <Dw2MoveEntry move={move} />
+            ))}
+          </div>
+        );
+      })
+    }
+  </div>
+</article>
+
+<style>
+  .dw2-movesheet {
+    --dw-paper: #ffffff;
+    --dw-ink: #141414;
+    --dw-ink-soft: #5c5c5c;
+    --dw-rule: #141414;
+    --dw-faint: #c9c9c9;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    width: 100%;
+    padding: 1.25rem 1.4rem 1.4rem;
+    background: var(--dw-paper);
+    color: var(--dw-ink);
+    font-family: var(--font-body);
+    border: 1px solid var(--dw-rule);
+    border-radius: 0;
+  }
+
+  :global(.theme-dark) .dw2-movesheet {
+    --dw-paper: #151515;
+    --dw-ink: #f2f2f2;
+    --dw-ink-soft: #a8a8a8;
+    --dw-rule: #f2f2f2;
+    --dw-faint: #454545;
+  }
+
+  /* ---- Masthead ---- */
+
+  .dmv-masthead {
+    padding-bottom: 0.7rem;
+    border-bottom: 3px double var(--dw-rule);
+  }
+
+  .dmv-title {
+    display: flex;
+    align-items: baseline;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+    font-family: var(--font-serif);
+    font-size: clamp(1.8rem, 3.4vw, 2.5rem);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.06em;
+    margin: 0;
+  }
+
+  .dmv-title-en {
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--dw-ink-soft);
+  }
+
+  .dmv-intro {
+    font-size: 0.75rem;
+    line-height: 1.45;
+    color: var(--dw-ink-soft);
+    margin: 0.5rem 0 0;
+  }
+
+  /* ---- Columns ---- */
+
+  .dmv-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+    align-items: start;
+  }
+
+  @media (min-width: 1024px) {
+    .dmv-columns {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  .dmv-col {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  @media print {
+    .dw2-movesheet {
+      border: none;
+      padding: 0;
+      print-color-adjust: exact;
+      -webkit-print-color-adjust: exact;
+    }
+  }
+</style>

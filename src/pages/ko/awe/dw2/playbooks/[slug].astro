@@ -1,0 +1,98 @@
+---
+import SheetLayout from '../../../../../layouts/SheetLayout.astro';
+import Dw2PlaybookSheet from '../../../../../components/Sheets/Dw2PlaybookSheet.astro';
+import Dw2MovesSheet from '../../../../../components/Sheets/Dw2MovesSheet.astro';
+import { DW2_PLAYBOOKS } from '../../../../../data/dw2/playbooks';
+import { DW2_MOVE_SHEETS } from '../../../../../data/dw2/moves';
+
+export function getStaticPaths() {
+  const playbookPages = DW2_PLAYBOOKS.map((playbook) => ({
+    params: { slug: playbook.slug },
+    props: { kind: 'playbook' as const, playbook },
+  }));
+  const movePages = DW2_MOVE_SHEETS.map((group) => ({
+    params: { slug: group.slug },
+    props: { kind: 'moves' as const, moves: group },
+  }));
+  return [...playbookPages, ...movePages];
+}
+
+const { kind, playbook, moves } = Astro.props as {
+  kind: 'playbook' | 'moves';
+  playbook?: (typeof DW2_PLAYBOOKS)[number];
+  moves?: (typeof DW2_MOVE_SHEETS)[number];
+};
+
+const title =
+  kind === 'playbook'
+    ? `${playbook!.titleKo} 캐릭터 시트 [DW2 2.1]`
+    : `${moves!.titleKo} 액션 시트 [DW2 2.1]`;
+const description =
+  kind === 'playbook'
+    ? `던전월드 2 Beta v2.1 "${playbook!.titleEn}" 직업 플레이북을 캐릭터 시트로 정리한 페이지`
+    : `던전월드 2 Beta v2.1 "${moves!.titleEn}" 액션 참조 시트`;
+
+const frontmatter = {
+  title,
+  description,
+  layout: '../../../../../layouts/SheetLayout.astro',
+  createdAt: '2026-09-26T00:00:00.000Z',
+};
+---
+
+<SheetLayout frontmatter={frontmatter} headings={[]}>
+  <div class="sheet-wrap">
+    <nav class="sheet-nav" aria-label="이동">
+      {kind === 'playbook' ? (
+        <a href={`/ko/awe/dw2/${playbook!.slug}`}>← {playbook!.titleKo} 장으로</a>
+      ) : (
+        <a href={`/ko/awe/dw2/${moves!.slug}`}>← {moves!.titleKo} 장으로</a>
+      )}
+      <span class="sheet-nav-links">
+        <a href="/ko/awe/dw2/playbooks/core-moves">핵심 액션</a>
+        <a href="/ko/awe/dw2/playbooks/extra-moves">추가 액션</a>
+        <a href="/ko/awe/dw2/playbooks/magnitude">위력</a>
+        {DW2_PLAYBOOKS.map((p) => (
+          <a href={`/ko/awe/dw2/playbooks/${p.slug}`}>{p.titleKo}</a>
+        ))}
+        <a href="/ko/awe/dw2">던전월드 2 목차</a>
+      </span>
+    </nav>
+    <p class="sheet-hint">
+      시트에 적은 값과 표시는 이 브라우저에 저장되어, 페이지를 다시 열어도 그대로 남습니다.
+    </p>
+    {kind === 'playbook' ? <Dw2PlaybookSheet playbook={playbook!} /> : <Dw2MovesSheet group={moves!} />}
+  </div>
+</SheetLayout>
+
+<style>
+  .sheet-wrap {
+    width: 100%;
+    padding: 2rem 0.75rem 3rem;
+  }
+
+  .sheet-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem 1.5rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.85rem;
+  }
+
+  .sheet-nav a {
+    color: var(--color-primary);
+  }
+
+  .sheet-nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+  }
+
+  .sheet-hint {
+    margin: 0 0 1rem;
+    font-size: 0.8rem;
+    opacity: 0.7;
+  }
+</style>

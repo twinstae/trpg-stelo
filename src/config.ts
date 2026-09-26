@@ -80,6 +80,10 @@ export const SIDEBAR: Sidebar = {
         text: chapter.status === "translated" ? chapter.titleKo : `${chapter.titleKo} (원문)`,
         link: `/${chapter.slug}`,
       })),
+      { text: "직업 캐릭터 시트", link: "/playbooks" },
+      { text: "핵심 액션 시트", link: "/playbooks/core-moves" },
+      { text: "추가 액션 시트", link: "/playbooks/extra-moves" },
+      { text: "위력 시트", link: "/playbooks/magnitude" },
     ]),
     Topic("게으른 GM 자료집", "/lazy-gm-guide", [
       ...LAZY_GM_GUIDE_CHAPTERS.map((chapter) => ({

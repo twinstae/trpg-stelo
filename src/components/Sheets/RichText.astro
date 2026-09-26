@@ -1,0 +1,26 @@
+---
+interface Props {
+  /** `**강조**`와 `*기울임*` 표기가 섞인 한 줄짜리 문장. */
+  text: string;
+}
+
+const { text } = Astro.props;
+
+/**
+ * `**강조**`와 `*기울임*`을 HTML로 바꾼다. 이탤릭 별표는 굵은 별표를 먼저
+ * 치환한 뒤에 처리해 겹친 표기를 안전하게 넘긴다.
+ */
+function toInlineHtml(source: string): string {
+  const escaped = source
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+  return escaped
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>');
+}
+
+const html = toInlineHtml(text);
+---
+
+<Fragment set:html={html} />

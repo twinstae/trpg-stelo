@@ -1,0 +1,142 @@
+---
+import RichText from './RichText.astro';
+import type { Dw2MoveEntry } from './dw2MoveSheet';
+
+interface Props {
+  move: Readonly<Dw2MoveEntry>;
+}
+
+const { move } = Astro.props;
+---
+
+<article class="dmv-move">
+  <h4 class="dmv-move-title">
+    {move.title}
+    {move.stat && <span class="dmv-move-stat">({move.stat})</span>}
+    {move.titleEn && <span class="dmv-move-en">{move.titleEn}</span>}
+  </h4>
+
+  {move.description && <p class="dmv-move-desc"><RichText text={move.description} /></p>}
+
+  {
+    move.bullets && (
+      <ul class="dmv-bullets">
+        {move.bullets.map((bullet) => (
+          <li>
+            <RichText text={bullet} />
+          </li>
+        ))}
+      </ul>
+    )
+  }
+
+  {
+    move.rolls && (
+      <ul class="dmv-rolls">
+        {move.rolls.map((roll) => (
+          <li class="dmv-roll">
+            <span class="dmv-roll-label">{roll.label}</span>
+            <span>
+              <RichText text={roll.text} />
+            </span>
+          </li>
+        ))}
+      </ul>
+    )
+  }
+
+  {
+    move.afterword &&
+      move.afterword.split('\n').map((paragraph) => (
+        <p class="dmv-move-desc">
+          <RichText text={paragraph} />
+        </p>
+      ))
+  }
+</article>
+
+<style>
+  .dmv-move {
+    font-size: 0.7rem;
+    line-height: 1.42;
+    padding: 0.45rem 0 0.3rem;
+    break-inside: avoid;
+  }
+
+  .dmv-move + .dmv-move {
+    border-top: 1px solid var(--dw-faint);
+  }
+
+  .dmv-move-title {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    margin: 0;
+  }
+
+  .dmv-move-stat {
+    font-weight: 700;
+  }
+
+  .dmv-move-en {
+    font-size: 0.56rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--dw-ink-soft);
+    margin-left: 0.35rem;
+  }
+
+  .dmv-move-desc {
+    margin: 0.25rem 0 0;
+  }
+
+  .dmv-move-desc strong,
+  .dmv-bullets strong,
+  .dmv-rolls strong {
+    font-weight: 700;
+  }
+
+  .dmv-bullets {
+    list-style: none;
+    padding: 0;
+    margin: 0.25rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.12rem;
+  }
+
+  .dmv-bullets li {
+    position: relative;
+    padding-left: 0.8rem;
+  }
+
+  .dmv-bullets li::before {
+    content: '◆';
+    position: absolute;
+    left: 0;
+    top: 0.3rem;
+    font-size: 0.5rem;
+    line-height: 1;
+  }
+
+  .dmv-rolls {
+    list-style: none;
+    padding: 0;
+    margin: 0.25rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .dmv-roll {
+    display: flex;
+    gap: 0.4rem;
+  }
+
+  .dmv-roll-label {
+    flex: none;
+    min-width: 1.9rem;
+    font-weight: 700;
+  }
+</style>

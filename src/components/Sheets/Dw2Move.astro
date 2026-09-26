@@ -1,0 +1,136 @@
+---
+import RichText from './RichText.astro';
+import type { Dw2PlaybookMove } from './dw2Playbook';
+
+interface Props {
+  move: Readonly<Dw2PlaybookMove>;
+}
+
+const { move } = Astro.props;
+
+type AfterBlock = { kind: 'p' | 'ul'; lines: string[] };
+
+/** 액션 뒤에 오는 글을 문단과 `- ` 목록으로 나눈다. */
+function splitAfterword(text: string): AfterBlock[] {
+  const blocks: AfterBlock[] = [];
+  for (const raw of text.split('\n')) {
+    const line = raw.trim();
+    if (line.length === 0) continue;
+    if (line.startsWith('- ')) {
+      const last = blocks[blocks.length - 1];
+      if (last && last.kind === 'ul') last.lines.push(line.slice(2));
+      else blocks.push({ kind: 'ul', lines: [line.slice(2)] });
+    } else {
+      blocks.push({ kind: 'p', lines: [line] });
+    }
+  }
+  return blocks;
+}
+
+const afterBlocks = move.afterword ? splitAfterword(move.afterword) : [];
+---
+
+<div class="dw2-move-head">
+  <label class="dw2-move-pick">
+    <input type="checkbox" class="dw2-tick" checked={move.starting} />
+    <span class="dw2-move-title">{move.title}</span>
+  </label>
+  {
+    move.tracker ? (
+      <span class="dw2-move-side">
+        <span>{move.tracker.label}</span>
+        <span class="dw2-tracker">
+          {Array.from({ length: move.tracker.boxes }).map(() => (
+            <input type="checkbox" class="dw2-tick" aria-label={`${move.tracker!.label} 사용`} />
+          ))}
+        </span>
+      </span>
+    ) : move.sideNote ? (
+      <span class="dw2-move-side">
+        {move.sideNoteMark && <input type="checkbox" class="dw2-tick dw2-tick--round" />}
+        <span>{move.sideNote}</span>
+      </span>
+    ) : null
+  }
+</div>
+
+{
+  move.description && (
+    <p class="dw2-move-desc">
+      <RichText text={move.description} />
+    </p>
+  )
+}
+
+{move.callout && <p class="dw2-move-callout">{move.callout}</p>}
+
+{
+  move.choiceRows && (
+    <div class="dw2-choice-rows">
+      {move.choiceRows.map((row) => (
+        <div class="dw2-choice-row">
+          <span class="dw2-choice-label">{row.label}</span>
+          {row.options.map((option) => (
+            <label class="dw2-choice">
+              <input type="checkbox" class="dw2-tick" />
+              <span>{option}</span>
+            </label>
+          ))}
+        </div>
+      ))}
+    </div>
+  )
+}
+
+{
+  move.rolls && (
+    <ul class="dw2-rolls">
+      {move.rolls.map((roll) => (
+        <li class="dw2-roll">
+          <span class="dw2-roll-label">{roll.label}</span>
+          <span>
+            <RichText text={roll.text} />
+          </span>
+        </li>
+      ))}
+    </ul>
+  )
+}
+
+{
+  move.note && (
+    <p class="dw2-move-note">
+      <RichText text={move.note} />
+    </p>
+  )
+}
+
+{
+  move.bullets && (
+    <ul class="dw2-bullets">
+      {move.bullets.map((bullet) => (
+        <li>
+          <RichText text={bullet} />
+        </li>
+      ))}
+    </ul>
+  )
+}
+
+{
+  afterBlocks.map((block) =>
+    block.kind === 'ul' ? (
+      <ul class="dw2-bullets">
+        {block.lines.map((line) => (
+          <li>
+            <RichText text={line} />
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="dw2-move-desc">
+        <RichText text={block.lines[0]} />
+      </p>
+    ),
+  )
+}

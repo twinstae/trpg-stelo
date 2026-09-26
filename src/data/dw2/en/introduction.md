@@ -18,16 +18,16 @@ In DW2, **one** person takes on the role of **Game Master (GM**) and **everyone 
 
 In this way, the conversation structure usually looks like this: 
 
-* The GM describes a situation in the fiction, such as, *“You* (the PCs) *are in front of a locked door.”*  
-* The GM finishes by asking one or more of the Players, *“What do you do?”* (or something similar)  
-* One or more of the Players, considering what their PC would do in such situation (AKA “roleplaying”), either says something (in 1st or 3rd person; i.e. *“I think…”* or *“My character thinks”*) and/or proposes a course of action (*“I try to pick the lock…”* or *“My character/Slick tries to pick the lock”*).  
-* The GM decides whether a mechanic is needed. This most often happens when the result of a proposed action is uncertain (can Slick’s lockpicking ability overcome the door’s lock?).  
-* When a mechanic is needed, in the case of DW2 and games like it (Powered by the Apocalypse or PbtA, in case you’re interested) that is likely a **Move**.  
-* In this case, the GM thinks the Player’s proposed action does fit the requirements, and immediately remembers that Slick, being a Rogue, has access to the Move **Tricks of the Trade** that includes Roguish Skills, one of which is “pick locks”.  
-* Considering that, the GM says to Slick’s Player, *“That sounds to me like you’re picking locks, so that’ll trigger your* **Tricks of the Trade***, right?”*  
-* The Player agrees, so the GM says, “*In that case, you need to roll+DEX*”.  
-* The Player rolls and, depending on the result, the GM incorporates the result into the conversation. For the sake of this example, let us say that Slick’s Player rolls well enough to pick the lock open.  
-* Now that the door is unlocked, the Players decide to open it and go forward, so now the GM needs to describe the new situation… Bringing us back to the beginning.
+- The GM describes a situation in the fiction, such as, *“You* (the PCs) *are in front of a locked door.”*  
+- The GM finishes by asking one or more of the Players, *“What do you do?”* (or something similar)  
+- One or more of the Players, considering what their PC would do in such situation (AKA “roleplaying”), either says something (in 1st or 3rd person; i.e. *“I think…”* or *“My character thinks”*) and/or proposes a course of action (*“I try to pick the lock…”* or *“My character/Slick tries to pick the lock”*).  
+- The GM decides whether a mechanic is needed. This most often happens when the result of a proposed action is uncertain (can Slick’s lockpicking ability overcome the door’s lock?).  
+- When a mechanic is needed, in the case of DW2 and games like it (Powered by the Apocalypse or PbtA, in case you’re interested) that is likely a **Move**.  
+- In this case, the GM thinks the Player’s proposed action does fit the requirements, and immediately remembers that Slick, being a Rogue, has access to the Move **Tricks of the Trade** that includes Roguish Skills, one of which is “pick locks”.  
+- Considering that, the GM says to Slick’s Player, *“That sounds to me like you’re picking locks, so that’ll trigger your* **Tricks of the Trade***, right?”*  
+- The Player agrees, so the GM says, “*In that case, you need to roll+DEX*”.  
+- The Player rolls and, depending on the result, the GM incorporates the result into the conversation. For the sake of this example, let us say that Slick’s Player rolls well enough to pick the lock open.  
+- Now that the door is unlocked, the Players decide to open it and go forward, so now the GM needs to describe the new situation… Bringing us back to the beginning.
 
 This may sound like a lot but, in essence, it can be summarized into five simple steps:
 

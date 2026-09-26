@@ -1,0 +1,1248 @@
+---
+import Dw2Move from './Dw2Move.astro';
+import RichText from './RichText.astro';
+import type { Dw2Playbook } from './dw2Playbook';
+
+interface Props {
+  playbook: Readonly<Dw2Playbook>;
+}
+
+const { playbook } = Astro.props;
+
+/** `___` 빈칸을 기준으로 문장을 나눈다. 조각 사이에 입력 칸을 그린다. */
+function splitBlank(text: string): string[] {
+  return text.split('___');
+}
+
+/** HP 오른쪽에 놓이는 능력치 이름들. */
+const STAT_LABELS = ['근력', '민첩성', '지능', '지혜', '매력'];
+---
+
+<article class="dw2-sheet" data-dw2-sheet={playbook.slug} aria-label={`${playbook.titleKo} 캐릭터 시트`}>
+  <header class="dw2-masthead">
+    <div>
+      <h2 class="dw2-title">
+        <span class="dw2-title-ko">{playbook.titleKo}</span>
+        <span class="dw2-title-en">{playbook.titleEn}</span>
+      </h2>
+      <p class="dw2-tagline">{playbook.tagline}</p>
+    </div>
+    <label class="dw2-name">
+      <span class="dw2-label">이름 · Name &amp; Pronouns</span>
+      <input type="text" class="dw2-line dw2-line--lg" />
+      <span class="dw2-hint">{playbook.nameExamples}</span>
+    </label>
+  </header>
+
+  <div class="dw2-columns">
+    <!-- 왼쪽 열 -->
+    <div class="dw2-col">
+      <section class="dw2-block">
+        <h3 class="dw2-heading">기원 <span>Origins</span></h3>
+        <ul class="dw2-origins">
+          {
+            playbook.origins.map((origin) => (
+              <li>
+                <p class="dw2-origin-line">
+                  <span class="dw2-origin-label">{origin.label}</span>{' '}
+                  {splitBlank(origin.prompt).map((part, index, parts) => (
+                    <>
+                      {part}
+                      {index < parts.length - 1 && (
+                        <input
+                          type="text"
+                          class="dw2-blank"
+                          aria-label={`${origin.label} 빈칸`}
+                        />
+                      )}
+                    </>
+                  ))}
+                </p>
+                <p class="dw2-hint">{origin.example}</p>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+
+      <section class="dw2-block">
+        <h3 class="dw2-heading">관계 <span>Relationships</span></h3>
+        <ul class="dw2-rels">
+          {
+            Array.from({ length: playbook.relationshipRows }).map(() => (
+              <li class="dw2-rel">
+                <input type="text" class="dw2-line" aria-label="PC 이름" />
+                <input type="text" class="dw2-line" aria-label="관계" />
+                <span class="dw2-depth">
+                  {Array.from({ length: 3 }).map(() => (
+                    <input type="checkbox" class="dw2-tick dw2-tick--round" aria-label="깊이" />
+                  ))}
+                </span>
+              </li>
+            ))
+          }
+        </ul>
+        <p class="dw2-rel-caption">깊이 <span>Depth</span></p>
+
+        <h4 class="dw2-subheading">관계 예시</h4>
+        <ul class="dw2-examples">
+          {
+            playbook.relationshipExamples.map((example) => (
+              <li>
+                <RichText text={example} />
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+
+      <section class="dw2-block dw2-block--grow">
+        <h3 class="dw2-heading">노트 <span>Notes</span></h3>
+        <textarea class="dw2-notes" aria-label="노트"></textarea>
+      </section>
+    </div>
+
+    <!-- 가운데 열 -->
+    <div class="dw2-col">
+      <section class="dw2-block">
+        <h3 class="dw2-heading">시작 액션 <span>Starting Move</span></h3>
+        <div class="dw2-move-list">
+          <div class="dw2-move dw2-move--starting">
+            <Dw2Move move={playbook.startingMove} />
+          </div>
+        </div>
+      </section>
+
+      <section class="dw2-block dw2-block--grow">
+        <h3 class="dw2-heading">장비와 외모 <span>Equipment &amp; Appearance</span></h3>
+
+        <p class="dw2-note">
+          <RichText text={playbook.weaponPrompt} />
+        </p>
+        <ul class="dw2-options">
+          {
+            playbook.weapons.map((weapon) => (
+              <li class="dw2-option">
+                <input type="checkbox" class="dw2-tick" aria-label={weapon.name} />
+                <span class="dw2-option-name">{weapon.name}</span>
+                {weapon.damage && <span class="dw2-option-damage">{weapon.damage}</span>}
+                {weapon.tags?.map((tag) => (
+                  <span class="dw2-tag">#{tag}</span>
+                ))}
+                {weapon.shield && (
+                  <span class="dw2-option-shield">
+                    방패
+                    <input type="checkbox" class="dw2-tick dw2-tick--round" aria-label="방패 사용" />
+                    사용
+                  </span>
+                )}
+                {weapon.note && (
+                  <span class="dw2-option-note">
+                    <RichText text={weapon.note} />
+                  </span>
+                )}
+              </li>
+            ))
+          }
+        </ul>
+
+        <p class="dw2-note">
+          <RichText text={playbook.equipmentPrompt} />
+        </p>
+        <ul class="dw2-options">
+          {
+            playbook.equipment.map((item) => (
+              <li class="dw2-option">
+                <input type="checkbox" class="dw2-tick" aria-label={item.name} />
+                <span class="dw2-option-name">{item.name}</span>
+                {item.uses && (
+                  <span class="dw2-uses">
+                    {Array.from({ length: item.uses }).map(() => (
+                      <input type="checkbox" class="dw2-tick dw2-tick--round" aria-label={`${item.name} 사용`} />
+                    ))}
+                  </span>
+                )}
+                {item.note && (
+                  <span class="dw2-option-note">
+                    <RichText text={item.note} />
+                  </span>
+                )}
+              </li>
+            ))
+          }
+        </ul>
+
+        <p class="dw2-note">
+          <RichText text={playbook.appearancePrompt} />
+        </p>
+        <ul class="dw2-appearance">
+          {
+            playbook.appearanceRows.map((row) => (
+              <li class="dw2-appearance-row">
+                {row.map((choice) => (
+                  <label class="dw2-choice">
+                    <input type="checkbox" class="dw2-tick" />
+                    <span>{choice}</span>
+                  </label>
+                ))}
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+    </div>
+
+    <!-- 오른쪽 열 -->
+    <div class="dw2-col">
+      <section class="dw2-block">
+        <div class="dw2-level">
+          <span class="dw2-label">레벨</span>
+          <input type="number" class="dw2-num dw2-num--sm" min="1" max="10" aria-label="레벨" />
+          <span class="dw2-label">경험치</span>
+          <span class="dw2-xp">
+            {Array.from({ length: 5 }).map(() => (
+              <input type="checkbox" class="dw2-tick dw2-tick--round" aria-label="경험치" />
+            ))}
+          </span>
+        </div>
+      </section>
+
+      <section class="dw2-block">
+        <h3 class="dw2-heading">능력치와 HP <span>Stats &amp; HP</span></h3>
+        <p class="dw2-note">
+          <RichText text={playbook.statsNote} />
+        </p>
+        <div class="dw2-stat-grid">
+          <div class="dw2-stat dw2-stat--hp">
+            <span class="dw2-glyph" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round">
+                <path d="M12 20.3 4.6 12.9a4.7 4.7 0 0 1 0-6.6 4.7 4.7 0 0 1 6.6 0l.8.8.8-.8a4.7 4.7 0 0 1 6.6 0 4.7 4.7 0 0 1 0 6.6z" />
+              </svg>
+            </span>
+            <input
+              type="number"
+              class="dw2-num"
+              min="0"
+              value={playbook.hpAtLevelOne}
+              aria-label="HP"
+            />
+            <span class="dw2-stat-caption">HP</span>
+          </div>
+          {
+            STAT_LABELS.map((label) => (
+              <div class="dw2-stat">
+                <span class="dw2-spacer" aria-hidden="true" />
+                <input type="number" class="dw2-num" aria-label={label} />
+                <span class="dw2-stat-caption">{label}</span>
+              </div>
+            ))
+          }
+        </div>
+        <div class="dw2-condition-grid">
+          <div class="dw2-condition">
+            <span class="dw2-glyph" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round">
+                <path d="M12 3.2 19 6v6.1c0 4.3-2.9 7.3-7 8.7-4.1-1.4-7-4.4-7-8.7V6z" />
+              </svg>
+            </span>
+            <span class="dw2-stat-caption">장갑</span>
+          </div>
+          {
+            playbook.conditions.map((condition) => (
+              <label class="dw2-condition">
+                <input type="checkbox" class="dw2-tick dw2-tick--round dw2-tick--lg" />
+                <span class="dw2-stat-caption">{condition}</span>
+              </label>
+            ))
+          }
+        </div>
+      </section>
+
+      <section class="dw2-block">
+        <h3 class="dw2-heading">향상 <span>Advancements</span></h3>
+        <p class="dw2-note">
+          <RichText text={playbook.advancements.trigger} />
+        </p>
+        {
+          playbook.advancements.groups.map((group) => (
+            <>
+              {group.heading && (
+                <p class="dw2-note dw2-note--heading">
+                  <RichText text={group.heading} />
+                </p>
+              )}
+              <ul class="dw2-adv">
+                {group.options.map((option) => (
+                  <li class:list={['dw2-adv-item', { 'dw2-adv-item--italic': option.italic }]}>
+                    {option.boxes > 0 && (
+                      <span class="dw2-adv-boxes">
+                        {Array.from({ length: option.boxes }).map(() => (
+                          <input type="checkbox" class="dw2-tick" />
+                        ))}
+                      </span>
+                    )}
+                    <span>
+                      <RichText text={option.label} />
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </>
+          ))
+        }
+      </section>
+    </div>
+  </div>
+
+  <section class="dw2-paths">
+    <h3 class="dw2-heading">길 <span>Paths</span></h3>
+    <p class="dw2-note">
+      직업이 열어 주는 길입니다. 셋 가운데 하나를 골라 표시하고, 이미 얻은 시작 액션(☑)은 표시해 두었습니다.
+    </p>
+    <div class="dw2-path-grid">
+      {
+        playbook.paths.map((path) => (
+          <article class="dw2-path">
+            <header class="dw2-path-head">
+              <div class="dw2-path-head-top">
+                <h4 class="dw2-path-title">
+                  {path.title} <span>{path.titleEn}</span>
+                </h4>
+                <label class="dw2-path-pick">
+                  <input
+                    type="radio"
+                    class="dw2-radio"
+                    name={`dw2-path:${playbook.slug}`}
+                    value={path.title}
+                  />
+                  <span class="dw2-pick-off">이 길 선택</span>
+                  <span class="dw2-pick-on">선택됨</span>
+                </label>
+              </div>
+              <p class="dw2-hint">{path.tagline}</p>
+            </header>
+            <ul class="dw2-move-list">
+              {path.moves.map((move) => (
+                <li class:list={['dw2-move', { 'dw2-move--starting': move.starting }]}>
+                  <Dw2Move move={move} />
+                </li>
+              ))}
+            </ul>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+</article>
+
+<script>
+  // 시트에 적은 값과 표시를 브라우저에 남겨 둔다. 요소 순서를 키로 쓴다.
+  const STORAGE_PREFIX = 'dw2-sheet:v1:';
+
+  type SheetControl = HTMLInputElement | HTMLTextAreaElement;
+
+  function isToggle(control: SheetControl): control is HTMLInputElement {
+    return control instanceof HTMLInputElement && (control.type === 'checkbox' || control.type === 'radio');
+  }
+
+  function restore(sheet: HTMLElement) {
+    const slug = sheet.dataset.dw2Sheet;
+    if (!slug) return;
+
+    const storageKey = STORAGE_PREFIX + slug;
+    const controls = Array.from(sheet.querySelectorAll<SheetControl>('input, textarea'));
+
+    let saved: Record<string, string | boolean> = {};
+    try {
+      saved = JSON.parse(localStorage.getItem(storageKey) ?? '{}') as Record<string, string | boolean>;
+    } catch {
+      saved = {};
+    }
+
+    controls.forEach((control, index) => {
+      const value = saved[String(index)];
+      if (value === undefined) return;
+      if (isToggle(control)) {
+        if (value === true) control.checked = true;
+      } else {
+        control.value = String(value);
+      }
+    });
+
+    const save = () => {
+      const next: Record<string, string | boolean> = {};
+      controls.forEach((control, index) => {
+        next[String(index)] = isToggle(control) ? control.checked : control.value;
+      });
+      try {
+        localStorage.setItem(storageKey, JSON.stringify(next));
+      } catch {
+        /* 저장할 수 없는 환경(사생활 보호 모드 등)에서는 조용히 넘어간다. */
+      }
+    };
+
+    sheet.addEventListener('input', save);
+    sheet.addEventListener('change', save);
+  }
+
+  document.querySelectorAll<HTMLElement>('[data-dw2-sheet]').forEach(restore);
+</script>
+
+<!-- 액션(Dw2Move)까지 함께 그리는 스타일이라 컴포넌트 밖으로 열어 둔다. -->
+<style is:global>
+  .dw2-sheet {
+    --dw-paper: #ffffff;
+    --dw-paper-soft: #f5f5f5;
+    --dw-ink: #141414;
+    --dw-ink-soft: #5c5c5c;
+    --dw-rule: #141414;
+    --dw-faint: #c9c9c9;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    width: 100%;
+    padding: 1.25rem 1.4rem 1.6rem;
+    background: var(--dw-paper);
+    color: var(--dw-ink);
+    font-family: var(--font-body);
+    border: 1px solid var(--dw-rule);
+    border-radius: 0;
+  }
+
+  .theme-dark .dw2-sheet {
+    --dw-paper: #151515;
+    --dw-paper-soft: #1e1e1e;
+    --dw-ink: #f2f2f2;
+    --dw-ink-soft: #a8a8a8;
+    --dw-rule: #f2f2f2;
+    --dw-faint: #454545;
+  }
+
+  /* ---- Masthead ---- */
+
+  .dw2-masthead {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 0.75rem 2rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 3px double var(--dw-rule);
+  }
+
+  .dw2-title {
+    display: flex;
+    align-items: baseline;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+    font-family: var(--font-serif);
+    font-size: clamp(1.9rem, 3.6vw, 2.7rem);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    margin: 0;
+  }
+
+  .dw2-title-en {
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--dw-ink-soft);
+  }
+
+  .dw2-tagline {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 0.95rem;
+    color: var(--dw-ink-soft);
+    margin: 0.35rem 0 0;
+  }
+
+  .dw2-name {
+    flex: 1 1 20rem;
+    max-width: 26rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  /* ---- Generic type ---- */
+
+  .dw2-label {
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--dw-ink);
+  }
+
+  .dw2-hint {
+    font-size: 0.68rem;
+    font-style: italic;
+    line-height: 1.35;
+    color: var(--dw-ink-soft);
+    margin: 0.15rem 0 0;
+  }
+
+  .dw2-note {
+    font-size: 0.73rem;
+    line-height: 1.45;
+    color: var(--dw-ink-soft);
+    margin: 0 0 0.45rem;
+  }
+
+  .dw2-note--heading {
+    font-weight: 700;
+    color: var(--dw-ink);
+  }
+
+  /* ---- Columns ---- */
+
+  .dw2-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+    align-items: start;
+  }
+
+  @media (min-width: 1024px) {
+    .dw2-columns {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  .dw2-col {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    min-width: 0;
+  }
+
+  .dw2-block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dw2-block--grow {
+    flex: 1;
+  }
+
+  .dw2-heading {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin: 0 0 0.55rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid var(--dw-ink);
+  }
+
+  .dw2-heading span {
+    font-family: var(--font-body);
+    font-size: 0.58rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--dw-ink-soft);
+  }
+
+  .dw2-subheading {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    margin: 0.8rem 0 0.35rem;
+  }
+
+  /* ---- Inputs ---- */
+
+  .dw2-line {
+    border: none;
+    border-bottom: 1px solid var(--dw-rule);
+    background: transparent;
+    color: var(--dw-ink);
+    font: inherit;
+    font-size: 0.8rem;
+    padding: 0.1rem 0.15rem;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .dw2-line--lg {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  .dw2-blank {
+    border: none;
+    border-bottom: 1px solid var(--dw-rule);
+    background: transparent;
+    color: var(--dw-ink);
+    font: inherit;
+    font-size: 0.82rem;
+    width: 5.5rem;
+    padding: 0 0.15rem;
+  }
+
+  .dw2-line:focus,
+  .dw2-blank:focus {
+    outline: none;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+  }
+
+  .dw2-num {
+    width: 100%;
+    border: none;
+    background: transparent;
+    color: var(--dw-ink);
+    font: inherit;
+    font-size: 1.05rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.1rem 0;
+    -moz-appearance: textfield;
+  }
+
+  .dw2-num--sm {
+    width: 2.6rem;
+    font-size: 0.95rem;
+  }
+
+  .dw2-num::-webkit-outer-spin-button,
+  .dw2-num::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .dw2-num:focus {
+    outline: none;
+  }
+
+  .dw2-tick {
+    appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    flex: none;
+    width: 0.78rem;
+    height: 0.78rem;
+    margin: 0;
+    border: 1.5px solid var(--dw-rule);
+    border-radius: 0;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .dw2-tick--round {
+    border-radius: 50%;
+  }
+
+  .dw2-tick--lg {
+    width: 1.15rem;
+    height: 1.15rem;
+  }
+
+  .dw2-tick:checked {
+    background: var(--dw-ink);
+    border-color: var(--dw-ink);
+  }
+
+  .dw2-tick:checked::after {
+    content: '✔';
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.58rem;
+    line-height: 1;
+    color: var(--dw-paper);
+  }
+
+  .dw2-tick--round:checked::after {
+    content: none;
+  }
+
+  .dw2-tick:focus-visible {
+    outline: 2px solid var(--dw-ink);
+    outline-offset: 1px;
+  }
+
+  /* ---- Origins ---- */
+
+  .dw2-origins {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+
+  .dw2-origin-line {
+    font-size: 0.82rem;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .dw2-origin-label {
+    font-weight: 700;
+    color: var(--dw-ink);
+  }
+
+  /* ---- Relationships ---- */
+
+  .dw2-rels {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .dw2-rel {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 0.45rem;
+  }
+
+  .dw2-depth,
+  .dw2-uses,
+  .dw2-xp {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.22rem;
+  }
+
+  .dw2-rel-caption {
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    text-align: right;
+    color: var(--dw-ink);
+    margin: 0.35rem 0 0;
+  }
+
+  .dw2-rel-caption span {
+    color: var(--dw-ink-soft);
+    text-transform: uppercase;
+  }
+
+  .dw2-examples {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.72rem;
+    line-height: 1.4;
+    color: var(--dw-ink-soft);
+  }
+
+  .dw2-examples li,
+  .dw2-bullets li {
+    position: relative;
+    padding-left: 0.85rem;
+  }
+
+  .dw2-examples li::before,
+  .dw2-bullets li::before {
+    content: '◆';
+    position: absolute;
+    left: 0;
+    top: 0.32rem;
+    font-size: 0.5rem;
+    line-height: 1;
+    color: var(--dw-ink);
+  }
+
+  /* ---- Notes ---- */
+
+  .dw2-notes {
+    flex: 1;
+    width: 100%;
+    min-height: 8rem;
+    border: none;
+    background-color: transparent;
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 1.6rem,
+      var(--dw-faint) 1.6rem,
+      var(--dw-faint) calc(1.6rem + 1px)
+    );
+    color: var(--dw-ink);
+    font: inherit;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    padding: 0;
+    resize: vertical;
+  }
+
+  .dw2-notes:focus {
+    outline: none;
+  }
+
+  /* ---- Moves ---- */
+
+  .dw2-move-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dw2-move {
+    font-size: 0.74rem;
+    line-height: 1.45;
+    padding: 0.45rem 0;
+    border-bottom: 1px solid var(--dw-faint);
+  }
+
+  .dw2-move:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .dw2-move-head {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .dw2-move-pick {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+  }
+
+  .dw2-tracker {
+    display: inline-flex;
+    gap: 0.16rem;
+  }
+
+  .dw2-move-note {
+    margin: 0.35rem 0 0;
+    font-size: 0.68rem;
+    font-style: italic;
+    color: var(--dw-ink-soft);
+  }
+
+  .dw2-choice-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-top: 0.45rem;
+  }
+
+  .dw2-choice-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem 0.8rem;
+  }
+
+  .dw2-choice-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
+
+  .dw2-move-title {
+    font-size: 0.82rem;
+    font-weight: 700;
+  }
+
+  .dw2-move-side {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-left: auto;
+    font-size: 0.68rem;
+    color: var(--dw-ink-soft);
+    white-space: nowrap;
+  }
+
+  .dw2-move-desc {
+    margin: 0.3rem 0 0;
+  }
+
+  .dw2-move-callout {
+    margin: 0.35rem 0 0;
+    padding-left: 0.6rem;
+    border-left: 2px solid var(--dw-ink);
+    font-style: italic;
+    color: var(--dw-ink);
+  }
+
+  .dw2-bullets {
+    list-style: none;
+    padding: 0;
+    margin: 0.3rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .dw2-rolls {
+    list-style: none;
+    padding: 0;
+    margin: 0.3rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .dw2-roll {
+    display: flex;
+    gap: 0.45rem;
+  }
+
+  .dw2-roll-label {
+    flex: none;
+    min-width: 2rem;
+    font-weight: 700;
+    color: var(--dw-ink);
+  }
+
+  /* ---- Equipment & appearance ---- */
+
+  .dw2-options {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .dw2-options:last-child {
+    margin-bottom: 0;
+  }
+
+  .dw2-option {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.3rem;
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+
+  .dw2-option-name,
+  .dw2-option-damage {
+    font-weight: 700;
+  }
+
+  .dw2-option-shield {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.7rem;
+  }
+
+  .dw2-tag {
+    font-size: 0.62rem;
+    letter-spacing: 0.02em;
+    color: var(--dw-ink);
+    border: 1px solid var(--dw-rule);
+    border-radius: 0;
+    padding: 0 0.35rem;
+  }
+
+  .dw2-option-note {
+    flex-basis: 100%;
+    padding-left: 1.1rem;
+    font-size: 0.7rem;
+    color: var(--dw-ink-soft);
+  }
+
+  .dw2-appearance {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .dw2-appearance-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 0.9rem;
+  }
+
+  .dw2-choice {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.73rem;
+    cursor: pointer;
+  }
+
+  /* ---- Level / stats ---- */
+
+  .dw2-level {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.3rem 0.5rem;
+  }
+
+  .dw2-stat-grid,
+  .dw2-condition-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 0.32rem;
+  }
+
+  .dw2-condition-grid {
+    margin-top: 0.45rem;
+  }
+
+  .dw2-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+    padding: 0.3rem 0.1rem 0.22rem;
+    border: 1.5px solid var(--dw-rule);
+    border-radius: 0;
+  }
+
+  .dw2-stat--hp {
+    border-width: 2px;
+  }
+
+  .dw2-glyph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.15rem;
+    font-size: 1rem;
+    line-height: 1;
+    color: var(--dw-ink);
+  }
+
+  .dw2-glyph svg {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .dw2-spacer {
+    display: block;
+    height: 1.15rem;
+  }
+
+  .dw2-stat-caption {
+    font-size: 0.58rem;
+    letter-spacing: 0.02em;
+    color: var(--dw-ink-soft);
+    text-align: center;
+  }
+
+  .dw2-stat--hp .dw2-stat-caption {
+    color: var(--dw-ink);
+    font-weight: 700;
+  }
+
+  .dw2-condition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.18rem;
+    cursor: pointer;
+  }
+
+  /* ---- Advancements ---- */
+
+  .dw2-adv {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .dw2-adv-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.4rem;
+    font-size: 0.73rem;
+    line-height: 1.4;
+  }
+
+  .dw2-adv-boxes {
+    display: inline-flex;
+    flex: none;
+    gap: 0.16rem;
+    padding-top: 0.1rem;
+  }
+
+  .dw2-adv-item--italic {
+    font-style: italic;
+    color: var(--dw-ink-soft);
+  }
+
+  .dw2-adv-item--italic::before {
+    content: '◆';
+    flex: none;
+    padding-top: 0.12rem;
+    font-size: 0.5rem;
+    font-style: normal;
+    color: var(--dw-ink);
+  }
+
+  /* ---- Paths ---- */
+
+  .dw2-paths {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.4rem;
+    border-top: 3px double var(--dw-rule);
+  }
+
+  .dw2-path-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  @media (min-width: 1024px) {
+    .dw2-path-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  .dw2-path {
+    border: 1px solid var(--dw-rule);
+    border-radius: 0;
+    padding: 0.7rem 0.85rem 0.5rem;
+    background: var(--dw-paper-soft);
+  }
+
+  .dw2-path-head {
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.35rem;
+    border-bottom: 1px solid var(--dw-rule);
+  }
+
+  .dw2-path-head-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .dw2-path-pick {
+    display: inline-flex;
+    flex: none;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.62rem;
+    letter-spacing: 0.04em;
+    color: var(--dw-ink-soft);
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+  .dw2-radio {
+    appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    flex: none;
+    width: 0.85rem;
+    height: 0.85rem;
+    margin: 0;
+    border: 1.5px solid var(--dw-rule);
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .dw2-radio:checked {
+    border-color: var(--dw-ink);
+  }
+
+  .dw2-radio:checked::after {
+    content: '';
+    position: absolute;
+    inset: 0.16rem;
+    border-radius: 50%;
+    background: var(--dw-ink);
+  }
+
+  .dw2-radio:focus-visible {
+    outline: 2px solid var(--dw-ink);
+    outline-offset: 1px;
+  }
+
+  .dw2-pick-on {
+    display: none;
+  }
+
+  .dw2-path:has(.dw2-radio:checked) {
+    outline: 2px solid var(--dw-ink);
+    outline-offset: 1px;
+  }
+
+  .dw2-path:has(.dw2-radio:checked) .dw2-path-pick {
+    color: var(--dw-ink);
+    font-weight: 700;
+  }
+
+  .dw2-path:has(.dw2-radio:checked) .dw2-pick-on {
+    display: inline;
+  }
+
+  .dw2-path:has(.dw2-radio:checked) .dw2-pick-off {
+    display: none;
+  }
+
+  .dw2-path-title {
+    display: flex;
+    align-items: baseline;
+    gap: 0.45rem;
+    flex-wrap: wrap;
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 0;
+  }
+
+  .dw2-path-title span {
+    font-family: var(--font-body);
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--dw-ink-soft);
+  }
+
+  @media print {
+    .dw2-sheet {
+      border: none;
+      box-shadow: none;
+      padding: 0;
+      print-color-adjust: exact;
+      -webkit-print-color-adjust: exact;
+    }
+
+    .dw2-path,
+    .dw2-columns {
+      break-inside: avoid;
+    }
+  }
+</style>
