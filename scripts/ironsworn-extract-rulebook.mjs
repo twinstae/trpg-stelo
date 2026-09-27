@@ -793,7 +793,7 @@ function pageItems(page, headings, chapterTitles) {
 
   const candidates = afterTables.filter((block) => !numbered.has(block));
 
-  // 나란한 이름표 줄(‘강타/약타/실패’)은 그림 속 이름표를 버리기 전에 읽는다.
+  // 나란한 이름표 줄(‘강한 성공/약한 성공/실패’)은 그림 속 이름표를 버리기 전에 읽는다.
   const rows = sheet ? [] : readColumnRows(candidates);
   const rowBlocks = new Set(rows.flatMap((cells) => cells.flatMap((cell) => [cell.label, ...cell.body])));
 

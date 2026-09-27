@@ -20,11 +20,9 @@ You can envision your character however you like—unbound by geography, lineage
 
 The default setting is human-centric, and these rules do not include specific options to play fantasy races. However, you can adjust to your liking. The mechanics of your character are relatively light and can be themed to support several types of fantasy or historical fiction.
 
-WHERE TO START?
+### WHERE TO START?
 
 You can build your world, build your character, or do both in tandem. If you have a clear idea for your character, start there and build your world around them, as if you’re building a set to suit your actor. If you need inspiration, start with the world. Chapter 4 (page 111) includes prompts for situations and quests to help you envision your character and your place in the Ironlands.
-
-## Momentum
 
 > - Name: Your hawk can aid you when it is aloft.
 > - Far-seeing: When you Undertake a Journey, or when you Resupply by hunting for small game, add +1.

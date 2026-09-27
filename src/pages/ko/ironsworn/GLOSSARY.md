@@ -38,12 +38,12 @@ publish: true
 | action score | 액션 점수 | 10을 넘지 않음 |
 | stat | 능력치 | |
 | adds | 수정치 | |
-| strong hit | **강타** | 첫 등장에 `강타(strong hit)` |
-| weak hit | **약타** | |
+| strong hit | **강한 성공** | |
+| weak hit | **약한 성공** | |
 | miss | **실패** | |
 | match | 눈 맞음 | 도전 주사위가 같은 눈 |
 | roll +iron | **+강철** 판정 | 능력치 표기는 2절 아래 표 |
-| on a strong hit | **강타**면 | 약타·실패도 같은 꼴 |
+| on a strong hit | **강한 성공** 이면 | 약한 성공·실패도 같은 꼴 |
 | take +2 momentum | +2 모멘텀을 얻습니다 | |
 | suffer -1 momentum | -1 모멘텀을 겪습니다 | |
 | Pay the Price | 값을 치르기 | 액션 이름 |

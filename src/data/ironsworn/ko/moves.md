@@ -27,8 +27,8 @@
 <p class="move-anatomy__title"><span class="mav-pin" data-mav="1" aria-hidden="true">1</span>정보 모으기</p>
 <p><span class="mav-pin" data-mav="2" aria-hidden="true">2</span>주변을 수색하거나, 질문을 던지거나, 조사를 벌이거나, 흔적을 따라갈 때 <strong>+지혜</strong>로 굴립니다.</p>
 <p><span class="mav-pin" data-mav="3" aria-hidden="true">3</span>공동체 안에서 행동하거나, 유대를 맺은 사람에게 질문한다면 <strong>+1</strong>을 더합니다.</p>
-<p><span class="mav-pin" data-mav="4" aria-hidden="true">4</span><strong>강타</strong>면 도움이 되고 구체적인 무언가를 알아냅니다. 진척을 위해 따라야 할 길이나 해야 할 일이 분명해집니다. 알아낸 것을 그려 보고(확신이 안 서면 <em>오라클에게 물어보십시오</em>), <strong>+2 모멘텀</strong>을 얻습니다.</p>
-<p><strong>약타</strong>면 그 정보가 임무를 복잡하게 만들거나 새로운 위험을 불러옵니다. 알아낸 것을 그려 보고(확신이 안 서면 <em>오라클에게 물어보십시오</em>), <strong>+1 모멘텀</strong>을 얻습니다.</p>
+<p><span class="mav-pin" data-mav="4" aria-hidden="true">4</span><strong>강한 성공</strong>이면 도움이 되고 구체적인 무언가를 알아냅니다. 진척을 위해 따라야 할 길이나 해야 할 일이 분명해집니다. 알아낸 것을 그려 보고(확신이 안 서면 <em>오라클에게 물어보십시오</em>), <strong>+2 모멘텀</strong>을 얻습니다.</p>
+<p><strong>약한 성공</strong>이면 그 정보가 임무를 복잡하게 만들거나 새로운 위험을 불러옵니다. 알아낸 것을 그려 보고(확신이 안 서면 <em>오라클에게 물어보십시오</em>), <strong>+1 모멘텀</strong>을 얻습니다.</p>
 <p><strong>실패</strong>면 당신의 조사가 무서운 위협을 파헤치거나, 임무를 흔드는 불편한 진실을 드러냅니다.</p>
 <p><span class="mav-pin" data-mav="5" aria-hidden="true">5</span><em>값을 치르십시오</em>.</p>
 </div>
@@ -36,7 +36,7 @@
 <p class="move-anatomy__note" data-mav="1">이것이 액션의 <strong>이름</strong>입니다.<span class="mav-note__mark" aria-hidden="true">1</span></p>
 <p class="move-anatomy__note" data-mav="2">이것이 액션의 <strong>발동 조건</strong>입니다. 당신이 이 일을 하거나 이 상황을 마주치면, 이 액션을 합니다.<span class="mav-note__mark" aria-hidden="true">2</span></p>
 <p class="move-anatomy__note" data-mav="3"><strong>액션 판정</strong>이 필요한 액션은 어느 <strong>능력치</strong>를 더하라고 알려 주고, 다른 보너스(<strong>수정치</strong>라고 부릅니다)를 더할 선택지를 주기도 합니다.<span class="mav-note__mark" aria-hidden="true">3</span></p>
-<p class="move-anatomy__note" data-mav="4">액션 판정을 쓰는 액션에는 세 단계의 결과가 있습니다. <strong>강타</strong>, <strong>약타</strong>, <strong>실패</strong>입니다.<span class="mav-note__mark" aria-hidden="true">4</span></p>
+<p class="move-anatomy__note" data-mav="4">액션 판정을 쓰는 액션에는 세 단계의 결과가 있습니다. <strong>강한 성공</strong>, <strong>약한 성공</strong>, <strong>실패</strong>입니다.<span class="mav-note__mark" aria-hidden="true">4</span></p>
 <p class="move-anatomy__note" data-mav="5">어떤 액션이 다른 액션 안에서 언급되면 <em>기울임꼴</em>로 보입니다.<span class="mav-note__mark" aria-hidden="true">5</span></p>
 </div>
 </div>

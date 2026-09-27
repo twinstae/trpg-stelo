@@ -156,8 +156,8 @@ function parseTable(body: readonly string[]): IronswornMoveTable | undefined {
 }
 
 function blockKind(text: string, index: number, hasBullets: boolean): IronswornMoveBlockKind {
-  if (text.startsWith('**강타**')) return 'strong';
-  if (text.startsWith('**약타**')) return 'weak';
+  if (text.startsWith('**강한 성공**')) return 'strong';
+  if (text.startsWith('**약한 성공**')) return 'weak';
   if (text.startsWith('**실패**')) return 'miss';
   // 짧은 줄이 글머리 목록을 거느리면 문단이 아니라 묶음 이름이다(머물기의 「회복하기」).
   if (hasBullets && text.length <= 14 && !/[.!?…]$/.test(text)) return 'label';
