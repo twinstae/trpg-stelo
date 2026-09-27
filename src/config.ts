@@ -113,12 +113,12 @@ export const SIDEBAR: Sidebar = {
     // ]),
     Topic("철의 맹세", "/ironsworn", [
       { text: "목차", link: "" },
-      { text: "시트와 애셋 카드", link: "/sheets" },
-      { text: "진실 워크북", link: "/truths-workbook" },
       ...IRONSWORN_CHAPTERS.map((chapter) => ({
         text: chapter.status === "translated" ? chapter.titleKo : `${chapter.titleKo} (원문)`,
         link: `/${chapter.slug}`,
       })),
+      { text: "시트와 애셋 카드", link: "/sheets" },
+      { text: "진실 워크북", link: "/truths-workbook" },
     ]),
     Topic("자작 자료", "/numenera", [
       { text: "조화: 확장 규칙", link: "/harmony" },

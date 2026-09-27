@@ -60,3 +60,248 @@ const { rows, headings } = pairSections(chapter.slug, enSource, koSource, 'irons
   pendingNoticeLabel="철의 맹세 목차"
   pendingNoticeSubject="이 장"
 />
+
+<style>
+    .bilingual-content .bilingual-row :global(h2),
+	.bilingual-content .bilingual-row :global(h3) {
+		line-height: 1.1;
+		padding-bottom: 0;
+		border-bottom: 0.14em solid currentColor;
+	}
+</style>
+
+{/*
+	규칙서 7쪽 「액션의 해부」는 무브 상자 둘레에 이름표를 두고 지시선을 끌어 각 부분을
+	설명한다. PDF를 마크다운으로 옮기면서 그 구조가 사라졌으므로, 대역 원고는 같은 내용을
+	HTML로 적고 조판·지시선은 여기서 맡는다. 상자에 찍힌 번호와 이름표의 번호가 짝이다
+	(지시선을 그릴 수 없는 좁은 칸에서도 뜻이 남도록).
+*/}
+<style is:global>
+	.move-anatomy {
+		margin: 1.75rem 0;
+		/* 이름표를 옆에 둘지 아래로 내릴지 이 상자의 폭으로 정한다. */
+		container-type: inline-size;
+	}
+
+	.move-anatomy__board {
+		position: relative;
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		gap: 1.5rem;
+	}
+
+	.move-anatomy__card,
+	.move-anatomy__notes {
+		position: relative;
+		z-index: 1;
+	}
+
+	.move-anatomy__card {
+		border: 2px solid currentColor;
+		padding: 2rem 1.15rem;
+	}
+
+	/*
+		왼쪽에 번호가 설 자리를 늘 비워 두고, 번호가 있는 문단만 첫 줄을 그만큼 내어 쓴다.
+		번호는 줄 첫머리에 서고 지시선은 빈 자리를 지나 바로 번호에 닿는다.
+	*/
+	.move-anatomy__card p {
+		line-height: 1.65;
+		padding-left: 1.05em;
+	}
+
+	.move-anatomy__card p + p {
+		margin-top: 0.65rem;
+	}
+
+	.move-anatomy__title {
+		font-family: var(--font-body);
+		font-size: 1.05em;
+		font-weight: 700;
+		letter-spacing: 0.02em;
+		margin-bottom: 0.75rem;
+	}
+
+	/* 기울임꼴은 액션 이름을 가리키는 표시라 색을 바꾸지 않고 그대로 둔다. */
+	.move-anatomy em {
+		color: inherit;
+	}
+
+	.bilingual-row .en .move-anatomy__title {
+		text-transform: uppercase;
+	}
+
+	.mav-pin,
+	.mav-note__mark {
+		display: inline-flex;
+		flex: none;
+		align-items: center;
+		justify-content: center;
+		width: 1.2em;
+		height: 1.2em;
+		border: 0.09em solid currentColor;
+		border-radius: 50%;
+		font-family: var(--font-body);
+		font-size: 0.62em;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 1;
+		opacity: 0.7;
+	}
+
+	.mav-pin {
+		margin-inline: 0 0.45em;
+		vertical-align: 0.12em;
+	}
+
+	/* 이름표의 번호는 글 끝에 달고, 지시선은 그 번호 오른쪽 빈 자리에서 상자로 간다. */
+	.mav-note__mark {
+		margin-inline: 0.45em 0;
+		vertical-align: -0.05em;
+	}
+
+	.move-anatomy__notes {
+		display: grid;
+		/* 좁은 칸에서는 이름표를 두 칸으로 나눠 세로 길이를 줄인다. */
+		grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+		align-content: start;
+		gap: 0.85rem 1.5rem;
+		font-size: 0.88em;
+	}
+
+	.move-anatomy__note {
+		margin: 0;
+		line-height: 1.55;
+	}
+
+	.move-anatomy__lines {
+		position: absolute;
+		inset: 0;
+		z-index: 0;
+		width: 100%;
+		height: 100%;
+		overflow: visible;
+		pointer-events: none;
+		opacity: 0.55;
+	}
+
+	.move-anatomy__lines path {
+		fill: none;
+		stroke: currentColor;
+		stroke-width: 1.6;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+		vector-effect: non-scaling-stroke;
+	}
+
+	/*
+		이름표를 옆에 둘 만큼 넓을 때: 이름표를 왼쪽에 세워 지시선이 지날 틈을 주고,
+		상자는 오른쪽에 둔다(번호가 문단 첫머리에 있으니 선은 늘 줄머리로 들어간다).
+	*/
+	@container (min-width: 28rem) {
+		.move-anatomy__board {
+			grid-template-columns: minmax(8rem, 1fr) minmax(0, 1.7fr);
+			align-items: start;
+			gap: 2.5rem;
+		}
+
+		/* 원고는 상자 → 이름표 순이니, 나란히 세울 때만 자리를 뒤집는다. */
+		.move-anatomy__card {
+			grid-column: 2;
+			grid-row: 1;
+		}
+
+		.move-anatomy__notes {
+			grid-column: 1;
+			grid-row: 1;
+			grid-template-columns: minmax(0, 1fr);
+		}
+	}
+</style>
+
+<script>
+	/*
+		이름표와 상자에 찍은 번호를 잇는 지시선을 SVG로 그린다. 좌표는 글자 흐름에 따라
+		달라지므로(영/한 길이가 다르다) 자리를 재어 그리고, 글꼴이 늦게 실리거나 창이
+		바뀌면 다시 그린다. 이름표가 상자 아래로 내려가는 좁은 칸에서는 그리지 않는다.
+	*/
+	const SVG_NS = 'http://www.w3.org/2000/svg';
+	/* 지시선이 원 둘레에 닿도록 조금 파고든다(끝이 원 앞에서 뜨지 않게). */
+	const TOUCH = 1;
+
+	function drawFigure(figure) {
+		const board = figure.querySelector('.move-anatomy__board');
+		const card = figure.querySelector('.move-anatomy__card');
+		const notes = figure.querySelector('.move-anatomy__notes');
+		if (!board || !card || !notes) return;
+
+		let svg = board.querySelector('.move-anatomy__lines');
+		// 이름표가 상자 아래로 내려간 좁은 칸에서는 지시선 대신 번호로만 짝을 맞춘다.
+		const sideBySide = notes.getBoundingClientRect().right <= card.getBoundingClientRect().left;
+		if (!sideBySide) {
+			svg?.remove();
+			return;
+		}
+
+		if (!(svg instanceof SVGSVGElement)) {
+			svg = document.createElementNS(SVG_NS, 'svg');
+			svg.setAttribute('class', 'move-anatomy__lines');
+			svg.setAttribute('aria-hidden', 'true');
+			board.prepend(svg);
+		}
+		svg.replaceChildren();
+
+		const boardBox = board.getBoundingClientRect();
+		// 세로로 내려갈 자리는 이름표와 상자 사이 틈의 한가운데로 잡는다.
+		const elbowX = (notes.getBoundingClientRect().right + card.getBoundingClientRect().left) / 2 - boardBox.left;
+
+		for (const note of figure.querySelectorAll('.move-anatomy__note[data-mav]')) {
+			const key = note.getAttribute('data-mav');
+			const pin = figure.querySelector(`.mav-pin[data-mav="${key}"]`);
+			const mark = note.querySelector('.mav-note__mark');
+			if (!pin || !mark) continue;
+
+			const markBox = mark.getBoundingClientRect();
+			const pinBox = pin.getBoundingClientRect();
+			const startX = markBox.right - boardBox.left + TOUCH;
+			const startY = markBox.top + markBox.height / 2 - boardBox.top;
+			const endX = pinBox.left - boardBox.left - TOUCH;
+			const endY = pinBox.top + pinBox.height / 2 - boardBox.top;
+			const d =
+				Math.abs(endY - startY) < 2
+					? `M ${startX} ${startY} H ${endX}`
+					: `M ${startX} ${startY} H ${elbowX} V ${endY} H ${endX}`;
+
+			const path = document.createElementNS(SVG_NS, 'path');
+			path.setAttribute('d', d);
+			svg.append(path);
+		}
+
+		if (!svg.childElementCount) svg.remove();
+	}
+
+	function drawAll() {
+		for (const figure of document.querySelectorAll('figure.move-anatomy')) drawFigure(figure);
+	}
+
+	let queued = false;
+	function scheduleDraw() {
+		if (queued) return;
+		queued = true;
+		requestAnimationFrame(() => {
+			queued = false;
+			drawAll();
+		});
+	}
+
+	scheduleDraw();
+	// 웹폰트나 사이드바가 늦게 자리를 잡으면 글자 위치가 또 달라진다.
+	document.fonts?.ready.then(scheduleDraw);
+	window.addEventListener('load', scheduleDraw);
+	window.addEventListener('resize', scheduleDraw);
+	for (const delay of [150, 450, 1200]) setTimeout(scheduleDraw, delay);
+	if (typeof ResizeObserver !== 'undefined') {
+		const observer = new ResizeObserver(scheduleDraw);
+		for (const figure of document.querySelectorAll('figure.move-anatomy')) observer.observe(figure);
+	}
+</script>

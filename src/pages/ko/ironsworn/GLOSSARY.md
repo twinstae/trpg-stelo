@@ -37,7 +37,7 @@ publish: true
 | oracle dice (2d10) | 오라클 주사위 | |
 | action score | 액션 점수 | 10을 넘지 않음 |
 | stat | 능력치 | |
-| adds | 애드 | 원문 그대로 |
+| adds | 수정치 | |
 | strong hit | **강타** | 첫 등장에 `강타(strong hit)` |
 | weak hit | **약타** | |
 | miss | **실패** | |

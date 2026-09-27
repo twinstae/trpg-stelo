@@ -136,7 +136,7 @@ export const IRONSWORN_ASSETS: IronswornAssetCard[] = [
     abilities: [
       {
         starting: true,
-        text: '유대를 나눈 덕에 애드를 받는 액션을 할 때 +1을 더 받습니다.',
+        text: '유대를 나눈 덕에 수정치를 받는 액션을 할 때 +1을 더 받습니다.',
       },
       {
         text: '유대 진행 트랙의 칸을 모두 채울 때, 그 관계가 당신에게 무엇을 가르쳤는지 그려 보십시오. 그런 다음 경험 1과 +2 모멘텀을 얻습니다.',

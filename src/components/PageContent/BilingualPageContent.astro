@@ -152,6 +152,66 @@ const {
 		opacity: 1;
 	}
 
+	/*
+		대역 본문의 조판은 원본 책(철의 맹세 PDF)을 따른다: 명조체 본문, 넉넉한 행간,
+		글자에 딱 붙는 헤딩 밑줄, 어두운 인용 상자.
+		set:html로 넣은 마크다운에는 스코프 속성이 붙지 않으므로 :global()로 잡는다.
+	*/
+	.bilingual-content .bilingual-row .en,
+	.bilingual-content .bilingual-row .ko {
+		font-family: var(--font-reading);
+	}
+
+	.bilingual-content .bilingual-row :global(p),
+	.bilingual-content .bilingual-row :global(li) {
+		line-height: 1.75;
+	}
+
+	/* 헤딩은 본문과 달리 산세리프를 쓴다. */
+	.bilingual-content .bilingual-row :global(h2),
+	.bilingual-content .bilingual-row :global(h3),
+	.bilingual-content .bilingual-row :global(h4),
+	.bilingual-content .bilingual-row :global(h5),
+	.bilingual-content .bilingual-row :global(h6) {
+		font-family: var(--font-body);
+	}
+
+	/* 밑줄이 글자에 딱 붙도록 행간을 좁히고 아래 여백을 없앤다. */
+	.bilingual-content .bilingual-row :global(h2),
+	.bilingual-content .bilingual-row :global(h3) {
+		line-height: 1.1;
+		padding-bottom: 0;
+	}
+
+	.bilingual-content .bilingual-row .en :global(h2),
+	.bilingual-content .bilingual-row .en :global(h3) {
+		text-transform: uppercase;
+	}
+
+	.bilingual-content .bilingual-row :global(table) {
+		line-height: 1.5;
+	}
+
+	.bilingual-content .bilingual-row :global(blockquote) {
+		/* 원본은 어두운 네모 상자에 흰 기울임꼴을 얹는다. */
+		margin: 1.5rem 0;
+		padding: 1.1em 1.25em;
+		border: 0;
+		border-radius: 0;
+		background-color: var(--color-neutral);
+		color: var(--color-neutral-content);
+	}
+
+	/* 한글은 기울이면 글자가 비뚤어 보이므로, 기울임꼴은 원문 열에만 쓴다. */
+	.bilingual-content .bilingual-row .en :global(blockquote) {
+		font-style: italic;
+		font-weight: 600;
+	}
+
+	.bilingual-content .bilingual-row :global(blockquote p) {
+		line-height: 1.6;
+	}
+
 	.title-en {
 		opacity: 0.5;
 		font-size: 0.7em;
