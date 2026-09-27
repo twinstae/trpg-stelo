@@ -1,5 +1,5 @@
 /**
- * 철의 맹세(Ironsworn) 캐릭터 시트·액션 레퍼런스·애셋 카드를 그리기 위한 자료 구조.
+ * 철의 맹세(Ironsworn) 캐릭터 시트·액션 레퍼런스·자산 카드를 그리기 위한 자료 구조.
  *
  * 용어는 `src/pages/ko/ironsworn/GLOSSARY.md` 를 따르고, 시트에 인쇄된 표기는 같은
  * 저작자의 《철의 맹세》 플레이킷 한국어판과 맞췄다.
@@ -118,10 +118,10 @@ export interface IronswornMoveSheet {
   extra?: IronswornMoveExtra;
 }
 
-/** 애셋 종류. 카드 위쪽 띠에 적는다. */
+/** 자산 종류. 카드 위쪽 띠에 적는다. */
 export type IronswornAssetKind = 'companion' | 'path' | 'combat' | 'ritual';
 
-/** 애셋 카드의 능력 하나. */
+/** 자산 카드의 능력 하나. */
 export interface IronswornAssetAbility {
   /** `**굵게**` 표기를 쓸 수 있다. */
   text: string;
@@ -136,7 +136,7 @@ export interface IronswornAssetTrack {
   values: string[];
 }
 
-/** 애셋 카드 한 장. */
+/** 자산 카드 한 장. */
 export interface IronswornAssetCard {
   slug: string;
   name: string;

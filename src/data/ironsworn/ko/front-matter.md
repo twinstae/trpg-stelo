@@ -1,12 +1,10 @@
-위험한 임무를 다루는 테이블탑 RPG
+# 철의 맹세
 
-> **션 톰킨(Shawn Tomkin) 지음**
-
-#### 철의 맹세
-
-> 위험한 임무를 다루는 테이블탑 RPG
-
-Copyright ©2018 Shawn Tomkin.
+> 위험한 여정에 대한 테이블탑 RPG
+> 
+> 션 톰킨(Shawn Tomkin) 지음
+>
+> Copyright ©2018 Shawn Tomkin.
 
 이 저작물의 본문은 크리에이티브 커먼즈 저작자표시-비영리-동일조건변경허락 4.0 국제 라이선스(CC BY-NC-SA 4.0)에 따라 이용할 수 있습니다. 라이선스와 철의 맹세 시스템 참조 문서(SRD)에 관해서는 ironswornrpg.com을 보십시오.
 

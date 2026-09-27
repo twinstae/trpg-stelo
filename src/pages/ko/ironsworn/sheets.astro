@@ -7,9 +7,9 @@ import { IRONSWORN_MOVE_SHEETS } from '../../../data/ironsworn/actionSheets';
 import { IRONSWORN_SOURCE } from '../../../data/ironsworn/chapters';
 
 const frontmatter = {
-  title: '캐릭터 시트 · 액션 레퍼런스 · 애셋 카드 : 철의 맹세',
+  title: '캐릭터 시트 · 액션 레퍼런스 · 자산 카드 : 철의 맹세',
   description:
-    '철의 맹세 캐릭터 시트와 모험 액션 레퍼런스, 애셋 카드를 인쇄용 모양 그대로 한국어로 옮긴 페이지. 시트에 적은 값과 표시는 브라우저에 저장되어 다시 열면 그대로 남습니다.',
+    '철의 맹세 캐릭터 시트와 모험 액션 레퍼런스, 자산 카드를 인쇄용 모양 그대로 한국어로 옮긴 페이지. 시트에 적은 값과 표시는 브라우저에 저장되어 다시 열면 그대로 남습니다.',
   layout: '../../../layouts/MainLayout.astro',
   createdAt: '2026-09-27T00:00:00.000Z',
 };
@@ -22,13 +22,13 @@ const GLOSSARY: [string, string][] = [
   ['Strong Hit · Weak Hit · Miss', '강타 · 약타 · 실패'],
   ['Vow · Bond · Progress Track', '맹세 · 유대 · 진행 트랙'],
   ['Debility · Condition · Bane · Burden', '결점 · 조건 · 재앙 · 부담'],
-  ['Asset · Path · Companion · Combat Talent · Ritual', '애셋 · 경로 · 동반자 · 전투 재능 · 의례'],
+  ['Asset · Path · Companion · Combat Talent · Ritual', '자산 · 경로 · 동반자 · 전투 재능 · 의례'],
 ];
 
 const SECTIONS = [
   { id: 'character', ko: '캐릭터 시트', en: 'Character Sheet' },
   { id: 'moves', ko: '액션 레퍼런스', en: 'Move Reference' },
-  { id: 'assets', ko: '애셋 카드', en: 'Asset Cards' },
+  { id: 'assets', ko: '자산 카드', en: 'Asset Cards' },
 ];
 ---
 
@@ -48,7 +48,7 @@ const SECTIONS = [
       <p>
         숀 톰킨의 <strong>{IRONSWORN_SOURCE.titleKo}</strong>(<em>Ironsworn</em>)에 딸린 인쇄용
         시트를 한국어로 옮겼습니다. 캐릭터 시트는 《철의 맹세》 플레이킷을 따르고, 액션
-        레퍼런스는 규칙서 대역에서 액션 상자를 그대로 뽑아 여섯 갈래로 나눴으며, 애셋 카드는{' '}
+        레퍼런스는 규칙서 대역에서 액션 상자를 그대로 뽑아 여섯 갈래로 나눴으며, 자산 카드는{' '}
         <em>Ironsworn Assets</em> 인쇄용 카드 가운데 아홉 장을 골라 담았습니다.
       </p>
       <p>
@@ -99,12 +99,12 @@ const SECTIONS = [
     </section>
 
     <section id="assets" class="sheet-section">
-      <h2 class="sheet-heading">애셋 카드 <span>Asset Cards</span></h2>
+      <h2 class="sheet-heading">자산 카드 <span>Asset Cards</span></h2>
       <p class="sheet-lead">
         카드에 인쇄된 능력은 동그라미를 눌러 표시합니다. 카드에는 기본 능력 하나가 이미 칠해져
         있으니, 경험을 써서 강화할 때마다 나머지 동그라미를 채우십시오. 동반자를 얻으면 이름을
         지어 적고, 카드 아래 트랙에 건강이나 전투력을 표시하십시오. 맨 끝의 빈 카드는 직접 만든
-        애셋을 적는 자리입니다.
+        자산을 적는 자리입니다.
       </p>
       <IronswornAssetCards />
     </section>
@@ -135,7 +135,7 @@ const SECTIONS = [
       <p>
         원문은 숀 톰킨의 <a href={IRONSWORN_SOURCE.site}>Ironsworn</a>이며{' '}
         <a href={IRONSWORN_SOURCE.licenseUrl}>{IRONSWORN_SOURCE.license}</a> 라이선스로 공개되어
-        있습니다. 시트는 《철의 맹세》 플레이킷(CC BY-NC-SA 4.0) 한국어판을, 애셋 카드는 같은
+        있습니다. 시트는 《철의 맹세》 플레이킷(CC BY-NC-SA 4.0) 한국어판을, 자산 카드는 같은
         저작자의 <em>Ironsworn Assets</em>(CC BY 4.0)를 옮긴 것입니다. 번역문도 같은 조건을
         따릅니다.
       </p>

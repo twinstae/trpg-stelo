@@ -75,7 +75,7 @@ export function persistSheet(sheet: HTMLElement, options: SheetStorageOptions): 
     const value = saved[key];
     if (value === undefined) return;
     if (isToggle(control)) {
-      // 기본값으로 켜져 있는 칸(애셋의 기본 능력)은 저장된 false 도 그대로 되살린다.
+      // 기본값으로 켜져 있는 칸(자산의 기본 능력)은 저장된 false 도 그대로 되살린다.
       control.checked = value === true;
     } else {
       control.value = String(value);

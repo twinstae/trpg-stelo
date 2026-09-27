@@ -76,7 +76,7 @@ const RANGES = [
   { slug: "momentum", titleEn: "Momentum", titleKo: "모멘텀", part: PARTS.basics, chapter: "THE BASICS", from: "MOMENTUM" },
   { slug: "progress-tracks", titleEn: "Progress Tracks", titleKo: "진행 트랙", part: PARTS.basics, chapter: "THE BASICS", from: "PROGRESS TRACKS" },
   { slug: "harm-and-stress", titleEn: "Harm and Stress", titleKo: "피해와 스트레스", part: PARTS.basics, chapter: "THE BASICS", from: "HARM" },
-  { slug: "assets-in-brief", titleEn: "Assets in Brief", titleKo: "애셋 개요", part: PARTS.basics, chapter: "THE BASICS", from: "ASSETS" },
+  { slug: "assets-in-brief", titleEn: "Assets in Brief", titleKo: "자산 개요", part: PARTS.basics, chapter: "THE BASICS", from: "ASSETS" },
   { slug: "oracles-in-brief", titleEn: "Oracles in Brief", titleKo: "오라클 개요", part: PARTS.basics, chapter: "THE BASICS", from: "ORACLES" },
   { slug: "bonds-and-allies", titleEn: "Bonds and Allies", titleKo: "유대와 동료", part: PARTS.basics, chapter: "THE BASICS", from: "BONDS" },
   { slug: "equipment", titleEn: "Equipment", titleKo: "장비", part: PARTS.basics, chapter: "THE BASICS", from: "EQUIPMENT" },
@@ -85,7 +85,7 @@ const RANGES = [
   { slug: "you-are-ironsworn", titleEn: "You Are Ironsworn", titleKo: "당신은 철의 맹세자", part: PARTS.character, chapter: "YOUR CHARACTER", from: "YOU ARE IRONSWORN" },
   { slug: "character-basics", titleEn: "Character Basics", titleKo: "캐릭터 기초", part: PARTS.character, chapter: "YOUR CHARACTER", from: "CHARACTER BASICS" },
   { slug: "vows-bonds-debilities", titleEn: "Vows, Bonds, and Debilities", titleKo: "맹세와 유대와 결점", part: PARTS.character, chapter: "YOUR CHARACTER", from: "VOWS" },
-  { slug: "assets", titleEn: "Assets", titleKo: "애셋", part: PARTS.character, chapter: "YOUR CHARACTER", from: "ASSETS" },
+  { slug: "assets", titleEn: "Assets", titleKo: "자산", part: PARTS.character, chapter: "YOUR CHARACTER", from: "ASSETS" },
   { slug: "experience-and-equipment", titleEn: "Experience and Equipment", titleKo: "경험과 장비", part: PARTS.character, chapter: "YOUR CHARACTER", from: "EXPERIENCE" },
   { slug: "becoming-ironsworn", titleEn: "Becoming Ironsworn", titleKo: "철의 맹세자가 되기", part: PARTS.character, chapter: "YOUR CHARACTER", from: "BECOMING IRONSWORN" },
 
@@ -1203,7 +1203,7 @@ function toBlocks(items, headings, moveNames) {
     }
   }
 
-  // 어느 길로 왔든 `•`로 나뉜 문단은 목록으로 푼다(지역·애셋 카드의 글머리 목록).
+  // 어느 길로 왔든 `•`로 나뉜 문단은 목록으로 푼다(지역·자산 카드의 글머리 목록).
   const expanded = [];
   for (const block of blocks) {
     const bullets = block.kind === "p" ? bulletItems(block.text) : null;

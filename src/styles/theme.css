@@ -57,3 +57,29 @@
 ::selection {
   background-color: color-mix(in oklab, var(--color-primary) 50%, transparent);
 }
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4px;
+    margin-bottom: 1rem;
+
+    @media (min-width: 50em) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.two-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4px;
+    margin-bottom: 1rem;
+
+    @media (min-width: 50em) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.bilingual-content hr {
+    margin: 1rem 0;
+}

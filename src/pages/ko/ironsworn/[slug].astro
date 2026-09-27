@@ -61,15 +61,6 @@ const { rows, headings } = pairSections(chapter.slug, enSource, koSource, 'irons
   pendingNoticeSubject="이 장"
 />
 
-<style>
-    .bilingual-content .bilingual-row :global(h2),
-	.bilingual-content .bilingual-row :global(h3) {
-		line-height: 1.1;
-		padding-bottom: 0;
-		border-bottom: 0.14em solid currentColor;
-	}
-</style>
-
 {/*
 	규칙서 7쪽 「액션의 해부」는 무브 상자 둘레에 이름표를 두고 지시선을 끌어 각 부분을
 	설명한다. PDF를 마크다운으로 옮기면서 그 구조가 사라졌으므로, 대역 원고는 같은 내용을
@@ -77,6 +68,13 @@ const { rows, headings } = pairSections(chapter.slug, enSource, koSource, 'irons
 	(지시선을 그릴 수 없는 좁은 칸에서도 뜻이 남도록).
 */}
 <style is:global>
+    .bilingual-content .bilingual-row h2,
+	.bilingual-content .bilingual-row h3 {
+		line-height: 1.1;
+		padding-bottom: 0;
+		border-bottom: 0.14em solid currentColor;
+	}
+
 	.move-anatomy {
 		margin: 1.75rem 0;
 		/* 이름표를 옆에 둘지 아래로 내릴지 이 상자의 폭으로 정한다. */

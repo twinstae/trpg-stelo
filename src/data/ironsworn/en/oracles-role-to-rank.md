@@ -1,5 +1,7 @@
 ### Oracle 10: Character Role
 
+<div class="three-col">
+
 | d100 | Result |
 | --- | --- |
 | 1-2 | Criminal |
@@ -39,7 +41,11 @@
 | 95-99 | Farmer |
 | 00 | Unusual role |
 
+</div>
+
 ### Oracle 11: Character Goal
+
+<div class="two-col">
 
 | d100 | Result |
 | --- | --- |
@@ -79,8 +85,13 @@
 | 91-92 | Escape from something |
 | 93-95 | Resolve a dispute |
 | 96-00 | Roll twice |
+| . | . |
+
+</div>
 
 ### Oracle 12: Character Descriptor
+
+<div class="three-col">
 
 | d100 | Result |
 | --- | --- |
@@ -190,8 +201,14 @@
 | 98 | Obsessed |
 | 99 | Careless |
 | 00 | Ironsworn |
+| . | . |
+| . | . |
+
+</div>
 
 ### Oracle 13: Ironlander Names
+
+<div class="three-col">
 
 | d100 | Result |
 | --- | --- |
@@ -301,6 +318,12 @@
 | 98 | Bas |
 | 99 | Sabine |
 | 00 | Tallus |
+| . | . |
+| . | . |
+
+</div>
+
+<div class="three-col">
 
 | d100 | Result |
 | --- | --- |
@@ -410,8 +433,14 @@
 | 98 | Kayu |
 | 99 | Bevan |
 | 00 | Chandra |
+| . | . |
+| . | . |
+
+</div>
 
 ### Oracle 14: Elf Names
+
+<div class="three-col">
 
 | d100 | Result |
 | --- | --- |
@@ -471,6 +500,9 @@
 | 95-96 | Otani |
 | 97-98 | Ditani |
 | 99-00 | Faraza |
+| . | . |
+
+</div>
 
 ### Oracle 15: Other Names
 

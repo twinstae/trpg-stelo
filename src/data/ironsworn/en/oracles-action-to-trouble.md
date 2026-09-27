@@ -1,5 +1,7 @@
 ### Oracle 1: Action
 
+<div class="three-col">
+
 | d100 | Result |
 | --- | --- |
 | 1 | Scheme |
@@ -108,8 +110,14 @@
 | 98 | Search |
 | 99 | Charge |
 | 00 | Summon |
+| . | . |
+| . | . |
+
+</div>
 
 ### Oracle 2: Theme
+
+<div class="three-col">
 
 | d100 | Result |
 | --- | --- |
@@ -219,6 +227,10 @@
 | 98 | Home |
 | 99 | Strategy |
 | 00 | Supply |
+| . | . |
+| . | . |
+
+</div>
 
 ### Oracle 3: Region
 
@@ -239,6 +251,8 @@
 | 00 | Elsewhere |
 
 ### Oracle 4: Location
+
+<div class="three-col">
 
 | d100 | Result |
 | --- | --- |
@@ -300,7 +314,11 @@
 | 94-99 | Woods |
 | 00 | Anomaly |
 
+</div>
+
 ### Oracle 5: Coastal Waters Location
+
+<div class="three-col">
 
 | d100 | Result |
 | --- | --- |
@@ -327,8 +345,13 @@
 | 71-85 | Island |
 | 86-99 | Open Water |
 | 00 | Anomaly |
+| . | . |
+
+</div>
 
 ### Oracle 6: Location Descriptor
+
+<div class="three-col">
 
 | d100 | Result |
 | --- | --- |
@@ -388,14 +411,17 @@
 | 95-96 | Civilized |
 | 97-98 | Desolate |
 | 99-00 | Isolated |
+| . | . |
+
+</div>
 
 ### Oracle 7: Settlement Name
 
-> A feature of the landscape. Envision what it is. What makes it unusual or distinctive?
+**01-15** A feature of the landscape. Envision what it is. What makes it unusual or distinctive?
 
-01-15
+Examples:
 
-> Examples:
+<div class="two-col">
 
 | d100 | Result |
 | --- | --- |
@@ -413,11 +439,17 @@
 | 81-90 | Graycliff |
 | 91-00 | Three Rivers |
 
-> A manmade edifice. What is it? Why is it important to this settlement’s history?
+</div>
 
-16-30
+---
 
-> Examples:
+**16-30** A manmade edifice. What is it? Why is it important to this settlement’s history?
+
+
+
+Examples:
+
+<div class="two-col">
 
 | d100 | Result |
 | --- | --- |
@@ -435,11 +467,16 @@
 | 81-90 | Cinderhome |
 | 91-00 | Fallowfield |
 
-> A creature. Why have the people of this settlement chosen this creature as their totem? How is it represented in art or rituals?
+</div>
 
-31-45
+---
 
-> Examples:
+**31-45** A creature. Why have the people of this settlement chosen this creature as their totem? How is it represented in art or rituals?
+
+
+Examples:
+
+<div class="two-col">
 
 | d100 | Result |
 | --- | --- |
@@ -457,11 +494,15 @@
 | 81-90 | Elkfield |
 | 91-00 | Dragonshadow |
 
-> A historical event. What happened here? What place or practice commemorates this event?
+</div>
 
-46-60
+---
 
-> Examples:
+**46-60** A historical event. What happened here? What place or practice commemorates this event?
+
+Examples:
+
+<div class="two-col">
 
 | d100 | Result |
 | --- | --- |
@@ -479,11 +520,15 @@
 | 81-90 | Lastmarch |
 | 91-00 | Rockfall |
 
-A word in an Old World language. What culture is represented by this word? What does it translate to?
+</div>
 
-61-75
+---
+
+**61-75** A word in an Old World language. What culture is represented by this word? What does it translate to?
 
 Examples:
+
+<div class="two-col">
 
 | d100 | Result |
 | --- | --- |
@@ -501,15 +546,13 @@ Examples:
 | 81-90 | Nabuma |
 | 91-00 | Tiza |
 
-A season or environmental aspect. What influence does the weather have on this settlement?
+</div>
 
-76-90
+**76-90** A season or environmental aspect. What influence does the weather have on this settlement?
 
 Examples:
 
-| d100 | Result |
-| --- | --- |
-| 91-100 | Something Else.... |
+<div class="two-col">
 
 | d100 | Result |
 | --- | --- |
@@ -527,7 +570,21 @@ Examples:
 | 81-90 | Icebreak |
 | 91-00 | Summersong |
 
-Examples: 1-10 A trade good (Ironhome) 11-20 An Old World city (New Arkesh) 21-30 A founder or famous settler (Kei&apos;s Hall) 31-40 A god (Elisora) 41-50 A historical item (Blackhelm)
+</div>
+
+**91-100** Something Else...
+
+Examples: 
+
+<div class="two-col">
+
+| d100 | Result |
+| --- | --- |
+| 1-10 | A trade good (Ironhome) |
+| 11-20 |  An Old World city (New Arkesh) |
+| 21-30 | A founder (Kei's Hall) |
+| 31-40 | A god (Elisora) |
+| 41-50 | A historical item (Blackhelm) |
 
 | d100 | Result |
 | --- | --- |
@@ -536,6 +593,8 @@ Examples: 1-10 A trade good (Ironhome) 11-20 An Old World city (New Arkesh) 21-3
 | 71-80 | A mythic belief or event (Ghostwalk) |
 | 81-90 | A positive term (Hope) |
 | 91-00 | A negative term (Forsaken) |
+
+</div>
 
 ### Oracle 8: Quick Settlement Name Generator
 
@@ -572,6 +631,8 @@ Examples: 1-10 A trade good (Ironhome) 11-20 An Old World city (New Arkesh) 21-3
 
 ### Oracle 9: Settlement Trouble
 
+<div class="two-col">
+
 | d100 | Result |
 | --- | --- |
 | 1-2 | Outsiders rejected |
@@ -597,10 +658,10 @@ Examples: 1-10 A trade good (Ironhome) 11-20 An Old World city (New Arkesh) 21-3
 | 41-42 | Cursed past |
 | 43-44 | An innocent is accused |
 | 45-46 | Corrupted by dark magic |
-| 47-48 | Isolated by brutal weather |
 
 | d100 | Result |
 | --- | --- |
+| 47-48 | Isolated by brutal weather |
 | 49-50 | Provisions are scarce |
 | 51-52 | Sickness run amok |
 | 53-54 | Allies become enemies |
@@ -623,3 +684,5 @@ Examples: 1-10 A trade good (Ironhome) 11-20 An Old World city (New Arkesh) 21-3
 | 87-88 | Important event threatened |
 | 89-90 | Dangerous tradition |
 | 91-00 | Roll twice |
+
+</div>

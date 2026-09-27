@@ -1,13 +1,10 @@
-A TABLETOP RPG OF PERILOUS QUESTS
-
-> **By Shawn Tomkin**
->
-
-#### Ironsworn
+# Ironsworn
 
 > A TABLETOP RPG OF PERILOUS QUESTS
-
-Copyright ©2018 Shawn Tomkin.
+>
+> By Shawn Tomkin
+>
+> Copyright ©2018 Shawn Tomkin.
 
 The text of this work is licensed under the Creative Commons Attribution- NonCommercial-ShareAlike 4.0 International license. For details on licenses and the Ironsworn System Reference Document, visit ironswornrpg.com.
 

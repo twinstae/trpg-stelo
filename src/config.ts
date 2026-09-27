@@ -117,7 +117,7 @@ export const SIDEBAR: Sidebar = {
         text: chapter.status === "translated" ? chapter.titleKo : `${chapter.titleKo} (원문)`,
         link: `/${chapter.slug}`,
       })),
-      { text: "시트와 애셋 카드", link: "/sheets" },
+      { text: "시트와 자산 카드", link: "/sheets" },
       { text: "진실 워크북", link: "/truths-workbook" },
     ]),
     Topic("자작 자료", "/numenera", [

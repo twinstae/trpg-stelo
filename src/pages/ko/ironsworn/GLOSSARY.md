@@ -90,8 +90,8 @@ publish: true
 | gamemaster (GM) | **마스터** | 던전월드 대역과 같은 표기 |
 | guided / cooperative (co-op) / solo | **안내 / 협동(코-옵) / 혼자** | 플레이 방식 |
 | ally | 동료 | |
-| companion | 동반자 | 애셋 종류 |
-| asset | **애셋** | path·companion·combat talent·ritual |
+| companion | 동반자 | 자산 종류 |
+| asset | **자산** | path·companion·combat talent·ritual |
 | bond | **유대** | |
 | NPC | NPC | 그대로 |
 | pack | 무리 | 적 여럿을 묶은 진행 트랙 |
@@ -162,13 +162,13 @@ publish: true
 * 트랙 값은 부호를 살립니다: **+6**, **-2**, **0**.
 * 액션 이름을 문장 안에서 가리킬 때는 겹화살괄호 없이 그냥 씁니다: “위험 맞서기를 하십시오.”
 
-## 8. 애셋 이름
+## 8. 자산 이름
 
-애셋 카드는 [시트 모음](/ko/ironsworn/sheets)에서 옮깁니다. 카드 이름과 카드 안에서만 쓰는 말은 다음과 같습니다.
+자산 카드는 [시트 모음](/ko/ironsworn/sheets)에서 옮깁니다. 카드 이름과 카드 안에서만 쓰는 말은 다음과 같습니다.
 
 | 영어 | 한국어 | 비고 |
 | --- | --- | --- |
-| companion / path / combat talent / ritual | 동반자 / 경로 / 전투 재능 / 의례 | 애셋 종류 |
+| companion / path / combat talent / ritual | 동반자 / 경로 / 전투 재능 / 의례 | 자산 종류 |
 | young wyvern | 어린 와이번 | 동반자 |
 | alchemist | 연금술사 | 경로 |
 | elixir | 비약 | 연금술사가 만드는 것 |

@@ -1,16 +1,16 @@
 ## Playing Ironsworn
 
-In the Ironsworn tabletop roleplaying game, you are a hero sworn to undertake perilous quests in the dark fantasy setting of the Ironlands. You will explore untracked wilds, fight desperate battles, forge bonds with isolated communities, and reveal the secrets of this harsh land. Most importantly, you will swear iron vows and see them fulfilled—no matter the cost.
+In the _Ironsworn_ tabletop roleplaying game, you are a hero sworn to undertake perilous quests in the dark fantasy setting of the Ironlands. You will explore untracked wilds, fight desperate battles, forge bonds with isolated communities, and reveal the secrets of this harsh land. Most importantly, you will swear iron vows and see them fulfilled—no matter the cost.
 
-To play Ironsworn, you create your character, make some decisions about the world you inhabit, and set the story in motion. When you encounter something dangerous or uncertain, your choices and the dice determine the outcome.
+To play _Ironsworn_, you create your character, make some decisions about the world you inhabit, and set the story in motion. When you encounter something dangerous or uncertain, your choices and the dice determine the outcome.
 
-Ironsworn supports three modes of play.
+_Ironsworn_ supports three modes of play.
 
-- Guided: One or more players take the role of their characters, the protagonists in your story, while a gamemaster (GM) moderates the session. The GM helps bring the world to life, portrays the people and creatures you encounter, and makes decisions about the outcome of your actions.
-- Cooperative (Co-Op): You and one or more friends play together to overcome challenges and complete quests. A GM is not required. The Ironsworn game system will help you explore the dramatic stories of your characters and their fateful vows.
-- Solo: As with cooperative play, no GM is necessary. You portray a lone heroic character in a dangerous world. Good luck!
+- **Guided**: One or more players take the role of their characters, the protagonists in your story, while a gamemaster (GM) moderates the session. The GM helps bring the world to life, portrays the people and creatures you encounter, and makes decisions about the outcome of your actions.
+- **Cooperative (Co-Op)**: You and one or more friends play together to overcome challenges and complete quests. A GM is not required. The _Ironsworn_ game system will help you explore the dramatic stories of your characters and their fateful vows.
+- **Solo**: As with cooperative play, no GM is necessary. You portray a lone heroic character in a dangerous world. Good luck!
 
-> Ironsworn is primarily intended for solo and small group play. One to four players (plus a GM in guided mode) is ideal. The characters portrayed by other players are referred to in these rules as your allies.
+> _Ironsworn_ is primarily intended for solo and small group play. One to four players (plus a GM in guided mode) is ideal. The characters portrayed by other players are referred to in these rules as your allies.
 
 ### What You Need
 
@@ -20,25 +20,25 @@ If you’re playing with one or more friends—either guided or co-op—you prob
 
 Make sure you have:
 
-- Two ten-sided dice (d10) for each player. These are your challenge dice.
-- One six-sided die (d6) for each player. This is your action die.
-- Optionally, another pair of ten-sided dice to use as your oracle dice.
-- A printed character sheet for each player and printed asset cards (available at ironswornrpg.com).
+- Two ten-sided dice (d10) for each player. These are your **challenge dice**.
+- One six-sided die (d6) for each player. This is your **action die**.
+- Optionally, another pair of ten-sided dice to use as your **oracle dice**.
+- A printed **character sheet** for each player and printed **asset cards** (available at ironswornrpg.com).
 - Some counters for marking status tracks on your character sheet. You can use paper clips, beads, dice, coins, tokens from other games, or whatever is convenient.
 
-> Not required, but helpful: Printed reference sheets for moves, the blank Ironlands map, and other worksheets available at ironswornrpg.com.
+> Not required, but helpful: Printed reference sheets for moves, the blank Ironlands map, and other worksheets available at [ironswornrpg.com](https://ironswornrpg.com).
 
 ### Mechanics and the Fiction
 
-Ironsworn uses various mechanics, such as rolling dice and managing the stats and resources on your character sheet. As a player, you will often make decisions based on a desired mechanical outcome. For example, you might choose a particular action to get a bonus on your die roll. The basic mechanics of Ironsworn are introduced in this chapter.
+_Ironsworn_ uses various mechanics, such as rolling dice and managing the stats and resources on your character sheet. As a player, you will often make decisions based on a desired mechanical outcome. For example, you might choose a particular action to get a bonus on your die roll. The basic mechanics of _Ironsworn_ are introduced in this chapter.
 
-Ironsworn is also heavily reliant on the fiction, which is the imagined characters, situations, and places within your game. You will play from the perspective of your character. You will interpret actions and events in a way that is consistent with the dramatic, fictional reality you have forged for your story and your world.
+_Ironsworn_ is also heavily reliant on the fiction, which is the imagined characters, situations, and places within your game. You will play from the perspective of your character. You will interpret actions and events in a way that is consistent with the dramatic, fictional reality you have forged for your story and your world.
 
-To learn more about how the mechanics and fiction interact, see page 203.
+To learn more about how the mechanics and fiction interact, see [page 203](/ko/ironsworn/mechanics-and-the-fiction).
 
 ### The Setting
 
-The default setting for your adventures is the Ironlands. It is a rugged peninsula of isolated communities and untracked wilds on the frontier of the known world. You can learn more about the setting starting on page 111. For now, here’s a summary of some default assumptions.
+The default setting for your adventures is the **Ironlands**. It is a rugged peninsula of isolated communities and untracked wilds on the frontier of the known world. You can learn more about the setting starting on page 111. For now, here’s a summary of some default assumptions.
 
 - Two generations ago, your people were driven to the Ironlands from their former homes in the Old World.
 - The weather here is harsh. Winters are brutal. The rugged terrain makes travel and trade difficult and dangerous.
@@ -54,31 +54,31 @@ The default setting for your adventures is the Ironlands. It is a rugged peninsu
 - Magic is subtle and mysterious. Mystics seek to ward away the darkness through the practice of magic, but often succumb to it. Rituals are performed as blessings and to gain insight.
 - Supernatural creatures and beasts are rare, frightening, and dangerous.
 
-You are encouraged to make Ironsworn your own, and to bend the setting to your liking. Your version of the Ironlands will be unique because you’ll define aspects such as the history of your people, magic, mythic beasts, and more. The choices you make will help inspire the personal vows driving your character.
+You are encouraged to make _Ironsworn_ your own, and to bend the setting to your liking. Your version of the Ironlands will be unique because you’ll define aspects such as the history of your people, magic, mythic beasts, and more. The choices you make will help inspire the personal vows driving your character.
 
-You can also ignore the Ironlands entirely and play in your own world, or explore a setting inspired by media, history, or another roleplaying game. The Ironsworn rules are flexible enough to accommodate many forms of gritty fantasy or historical fiction.
+You can also ignore the Ironlands entirely and play in your own world, or explore a setting inspired by media, history, or another roleplaying game. The _Ironsworn_ rules are flexible enough to accommodate many forms of gritty fantasy or historical fiction.
 
-With a bit of work, you can even adapt these rules to different genres. See page 237 for more on hacking Ironsworn.
+With a bit of work, you can even adapt these rules to different genres. See [page 237](/ko/ironsworn/hacking-ironsworn) for more on hacking _Ironsworn_.
 
 ### Iron Vows
 
-In the Ironlands, a vow is sacred. When you declare your solemn promise to serve or aid someone, or to complete a personal quest, your honor is bound to that vow. Abandoning or recanting an oath is the worst sort of failure.
+In the Ironlands, a **vow** is sacred. When you declare your solemn promise to serve or aid someone, or to complete a personal quest, your honor is bound to that vow. Abandoning or recanting an oath is the worst sort of failure.
 
 When you swear a vow, you touch a piece of iron. It can be an iron coin, a weapon, or your armor. It’s an old tradition. Some say the iron, a piece of the primal world, serves as a conduit to the old gods—so they may better hear your promise.
 
 Vows are the core of playing Ironsworn. It is your vows that drive you. These goals create the context for your adventures and challenges. As you complete vows, you gain experience and new abilities.
 
-When you create your character, you start with a background vow. When you setup your campaign, you envision or encounter an inciting incident which triggers a new vow. There are several prompts for vows associated with the details of the world in chapter 4 (page 111), and with foes and encounters in chapter 5 (page 133). You can select something which fits your vision for the world and your character’s goals, or just come up with something yourself. If you are playing in co-op mode, you and your fellow players may have shared vows and personal vows.
+When you create your character, you start with a **background vow**. When you setup your campaign, you envision or encounter an **inciting incident** which triggers a new vow. There are several prompts for vows associated with the details of the world in [chapter 4 (page 111)](/ko/ironsworn/welcome-to-the-ironlands), and with foes and encounters in [chapter 5 (page 133)](/ko/ironsworn/npcs-in-the-ironlands). You can select something which fits your vision for the world and your character’s goals, or just come up with something yourself. If you are playing in co-op mode, you and your fellow players may have shared vows and personal vows.
 
-To learn more about your first vows and starting your campaign, see page 193.
+To learn more about your first vows and starting your campaign, see [page 193](/ko/ironsworn/starting-your-campaign).
 
 ### Your Character
 
-You use your character sheet to track your stats, overall condition, and progress in your quests. You also have assets (page 21), which are abilities you choose when you create your character and when you gain experience. These components help you determine the outcome when things get dangerous or uncertain.
+You use your character sheet to track your stats, overall condition, and progress in your quests. You also have [assets (page 21)](/ko/ironsworn/assets-in-brief), which are abilities you choose when you create your character and when you gain experience. These components help you determine the outcome when things get dangerous or uncertain.
 
 However, your character is more than these mechanical bits. You are the protagonist in a rich story. You have hopes and fears, virtues and failings. You have a history. You are, or were, part of a community. This is the fiction of your character. Consider a few of these details as you create your character, but don’t sweat it. You’ll evolve it through play. At the start of your game, put your character on stage to see what happens. Fill in the blanks—for your character and your world—as you go.
 
-To learn more about creating your character and the components that make up your character, see page 31.
+To learn more about creating your character and the components that make up your character, see [page 31](/ko/ironsworn/you-are-ironsworn).
 
 <br/>
 

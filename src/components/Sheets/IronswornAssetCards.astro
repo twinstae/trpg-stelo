@@ -9,7 +9,7 @@ interface Props {
 
 const { assets = IRONSWORN_ASSETS } = Astro.props;
 
-/** 애셋 종류 이름. GLOSSARY.md 의 표를 그대로 쓴다. */
+/** 자산 종류 이름. GLOSSARY.md 의 표를 그대로 쓴다. */
 const KIND_LABEL: Record<IronswornAssetKind, { ko: string; en: string }> = {
   companion: { ko: '동반자', en: 'Companion' },
   path: { ko: '경로', en: 'Path' },
@@ -32,7 +32,7 @@ const KIND_ICON: Record<IronswornAssetKind, string> = {
 const BLANK_ABILITIES = 3;
 ---
 
-<div class="iw3-grid" data-iw-sheet="assets" aria-label="애셋 카드">
+<div class="iw3-grid" data-iw-sheet="assets" aria-label="자산 카드">
   {
     assets.map((asset) => (
       <article class="iw3-card" data-sheet-section={asset.nameEn}>
@@ -105,9 +105,9 @@ const BLANK_ABILITIES = 3;
     ))
   }
 
-  <article class="iw3-card iw3-card--blank" data-sheet-section="내 애셋">
+  <article class="iw3-card iw3-card--blank" data-sheet-section="내 자산">
     <header class="iw3-band">
-      <span class="iw3-kind">내 애셋 <em>Custom Asset</em></span>
+      <span class="iw3-kind">내 자산 <em>Custom Asset</em></span>
       <span class="iw3-icon" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
           <path d="M12 5v14M5 12h14" stroke-linecap="round"></path>
@@ -118,7 +118,7 @@ const BLANK_ABILITIES = 3;
     <div class="iw3-body">
       <label class="iw3-nameline iw3-nameline--blank">
         <span>이름</span>
-        <input type="text" class="iw3-input" aria-label="내 애셋 이름" />
+        <input type="text" class="iw3-input" aria-label="내 자산 이름" />
       </label>
 
       <ul class="iw3-abilities">
@@ -129,12 +129,12 @@ const BLANK_ABILITIES = 3;
                 <input
                   type="checkbox"
                   class="iw3-tick"
-                  aria-label={`내 애셋 능력 ${index + 1} 표시`}
+                  aria-label={`내 자산 능력 ${index + 1} 표시`}
                 />
                 <textarea
                   class="iw3-textarea"
                   rows="2"
-                  aria-label={`내 애셋 능력 ${index + 1}`}
+                  aria-label={`내 자산 능력 ${index + 1}`}
                   placeholder="능력을 적으십시오"
                 />
               </label>

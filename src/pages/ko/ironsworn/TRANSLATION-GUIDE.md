@@ -98,4 +98,4 @@ bun run build                                       # 대역 짝짓기 검사 + 
 
 ## 6. 라이선스
 
-원문은 숀 톰킨의 *Ironsworn*이며 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)으로 공개되어 있습니다. 인쇄용 애셋 카드는 *Ironsworn Assets*(CC BY 4.0)에서 가져옵니다. 번역문도 같은 조건을 따릅니다.
+원문은 숀 톰킨의 *Ironsworn*이며 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)으로 공개되어 있습니다. 인쇄용 자산 카드는 *Ironsworn Assets*(CC BY 4.0)에서 가져옵니다. 번역문도 같은 조건을 따릅니다.
