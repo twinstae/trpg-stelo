@@ -399,6 +399,10 @@ table tr td {
   max-width: 70ch;
 }
 
+table tr td:first-child {
+  white-space: nowrap;
+}
+
 .numenera-box {
   border-width: 4px;
   border-style: solid;
