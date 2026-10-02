@@ -87,6 +87,7 @@ export const SIDEBAR: Sidebar = {
       { text: "핵심 액션 시트", link: "/playbooks/core-moves" },
       { text: "추가 액션 시트", link: "/playbooks/extra-moves" },
       { text: "위력 시트", link: "/playbooks/magnitude" },
+      { text: "시나리오 시트 (빼앗긴 아이들)", link: "/scenarios/the-stolen-children" },
     ]),
     Topic("게으른 GM 자료집", "/lazy-gm-guide", [
       ...LAZY_GM_GUIDE_CHAPTERS.map((chapter) => ({

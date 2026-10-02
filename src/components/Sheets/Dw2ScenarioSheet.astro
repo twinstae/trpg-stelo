@@ -1,0 +1,487 @@
+---
+import RichText from './RichText.astro';
+import type { Dw2ScenarioBlock, Dw2ScenarioSheet } from './dw2ScenarioSheet';
+
+interface Props {
+  scenario: Readonly<Dw2ScenarioSheet>;
+}
+
+const { scenario } = Astro.props;
+
+/**
+ * `**강조**`·`*기울임*`은 RichText와 같고, `☐`는 실제 체크박스 입력으로,
+ * `#태그`는 태그 칩으로 바꾼다. 입력은 data-dw2-sheet 안에 있어 저장
+ * 스크립트가 순서대로 값을 되돌린다.
+ */
+function toHtml(source: string): string {
+  const escaped = source.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const tagged = escaped
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    .replace(/#([^\s#]+)/g, '<span class="dsc-tag">#$1</span>');
+  return tagged.replace(
+    /☐/g,
+    '<input type="checkbox" class="dsc-tick" aria-label="표시" />',
+  );
+}
+---
+
+<article class="dw2-scenario" data-dw2-sheet={scenario.slug} aria-label={`${scenario.titleKo} 시나리오 시트`}>
+  <header class="dsc-masthead">
+    <p class="dsc-kicker">작은 모험 <span>Miniaturized Adventure</span></p>
+    <h2 class="dsc-title">{scenario.titleKo}</h2>
+    {scenario.note && <p class="dsc-note-warn" set:html={toHtml(scenario.note)} />}
+    {scenario.intro && <p class="dsc-intro" set:html={toHtml(scenario.intro)} />}
+  </header>
+
+  <div class="dsc-columns">
+    {
+      scenario.blocks.map((block: Dw2ScenarioBlock) => {
+        if (block.kind === 'heading') {
+          const Tag = (block.level === 2 ? 'h4' : 'h3') as 'h3' | 'h4';
+          return <Tag class:list={['dsc-heading', { 'dsc-heading--sub': block.level === 2 }]}>{block.text}</Tag>;
+        }
+        if (block.kind === 'prose') {
+          return <p class:list={['dsc-prose', { 'dsc-prose--italic': block.italic }]} set:html={toHtml(block.text)} />;
+        }
+        if (block.kind === 'list') {
+          return (
+            <div class="dsc-block">
+              {block.note && <p class="dsc-note" set:html={toHtml(block.note)} />}
+              <ul class:list={['dsc-list', { 'dsc-list--check': block.check }]}>
+                {block.items.map((item) => (
+                  <li>
+                    {block.check && <input type="checkbox" class="dsc-tick" aria-label="표시" />}
+                    <span set:html={toHtml(item)} />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          );
+        }
+        if (block.kind === 'npc') {
+          return (
+            <section class="dsc-npc">
+              <h4 class="dsc-npc-title">{block.npc.title}</h4>
+              <p class="dsc-desc" set:html={toHtml(block.npc.description)} />
+              {block.npc.lines.map((line) => (
+                <p class="dsc-line">
+                  <strong class="dsc-line-label">{line.label}</strong>
+                  <span set:html={toHtml(line.text)} />
+                </p>
+              ))}
+              <p class="dsc-cond-label"><em>조건</em> 과 <strong>격화</strong></p>
+              <ul class="dsc-list dsc-list--check">
+                {block.npc.conditions.map((condition) => (
+                  <li>
+                    <input type="checkbox" class="dsc-tick" aria-label="표시" />
+                    <span set:html={toHtml(condition)} />
+                  </li>
+                ))}
+              </ul>
+            </section>
+          );
+        }
+        if (block.kind === 'location') {
+          return (
+            <section class="dsc-location">
+              <h4 class="dsc-npc-title">{block.location.title}</h4>
+              {block.location.traits && <p class="dsc-traits">{block.location.traits}</p>}
+              <p class="dsc-desc" set:html={toHtml(block.location.description)} />
+              <p class="dsc-sublabel">특징</p>
+              <ul class="dsc-list">
+                {block.location.features.map((feature) => (
+                  <li set:html={toHtml(feature)} />
+                ))}
+              </ul>
+              <p class="dsc-sublabel">관련 장소와 NPC</p>
+              <ul class="dsc-list">
+                {block.location.related.map((related) => (
+                  <li set:html={toHtml(related)} />
+                ))}
+              </ul>
+            </section>
+          );
+        }
+        return (
+          <section class="dsc-item">
+            <h4 class="dsc-item-title">{block.item.title}</h4>
+            <p class="dsc-desc" set:html={toHtml(block.item.description)} />
+            <div class="dsc-rulebox">
+              {block.item.rules.map((rule) => (
+                <p set:html={toHtml(rule)} />
+              ))}
+            </div>
+          </section>
+        );
+      })
+    }
+  </div>
+</article>
+
+<script>
+  // 시트에 표시한 체크박스를 브라우저에 남겨 둔다. 요소 순서를 키로 쓴다.
+  const STORAGE_PREFIX = 'dw2-scenario:v1:';
+
+  function restore(sheet: HTMLElement) {
+    const slug = sheet.dataset.dw2Sheet;
+    if (!slug) return;
+
+    const storageKey = STORAGE_PREFIX + slug;
+    const controls = Array.from(sheet.querySelectorAll<HTMLInputElement>('input[type="checkbox"]'));
+
+    let saved: Record<string, boolean> = {};
+    try {
+      saved = JSON.parse(localStorage.getItem(storageKey) ?? '{}') as Record<string, boolean>;
+    } catch {
+      saved = {};
+    }
+
+    controls.forEach((control, index) => {
+      if (saved[String(index)] === true) control.checked = true;
+    });
+
+    const save = () => {
+      const next: Record<string, boolean> = {};
+      controls.forEach((control, index) => {
+        next[String(index)] = control.checked;
+      });
+      try {
+        localStorage.setItem(storageKey, JSON.stringify(next));
+      } catch {
+        /* 저장할 수 없는 환경에서는 조용히 넘어간다. */
+      }
+    };
+
+    sheet.addEventListener('change', save);
+  }
+
+  document.querySelectorAll<HTMLElement>('[data-dw2-sheet]').forEach((sheet) => {
+    if (sheet.dataset.dscBooted) return;
+    sheet.dataset.dscBooted = '1';
+    restore(sheet);
+  });
+</script>
+
+<style is:global>
+  .dw2-scenario {
+    --dw-paper: #ffffff;
+    --dw-ink: #141414;
+    --dw-ink-soft: #5c5c5c;
+    --dw-rule: #141414;
+    --dw-faint: #c9c9c9;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    width: 100%;
+    padding: 1.25rem 1.4rem 1.4rem;
+    background: var(--dw-paper);
+    color: var(--dw-ink);
+    font-family: var(--font-body);
+    border: 1px solid var(--dw-rule);
+  }
+
+  .theme-dark .dw2-scenario {
+    --dw-paper: #151515;
+    --dw-ink: #f2f2f2;
+    --dw-ink-soft: #a8a8a8;
+    --dw-rule: #f2f2f2;
+    --dw-faint: #454545;
+  }
+
+  /* ---- Masthead ---- */
+
+  .dsc-masthead {
+    text-align: center;
+    padding-bottom: 0.7rem;
+    border-bottom: 3px double var(--dw-rule);
+  }
+
+  .dsc-kicker {
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--dw-ink-soft);
+    margin: 0;
+  }
+
+  .dsc-kicker span {
+    margin-left: 0.5rem;
+    font-weight: 400;
+  }
+
+  .dsc-title {
+    font-family: var(--font-serif);
+    font-size: clamp(1.7rem, 3.4vw, 2.4rem);
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    line-height: 1.1;
+    margin: 0.3rem 0 0;
+  }
+
+  .dsc-note-warn {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    margin: 0.45rem 0 0;
+  }
+
+  .dsc-intro {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 0.82rem;
+    line-height: 1.55;
+    text-align: left;
+    margin: 0.6rem auto 0;
+    max-width: 62rem;
+  }
+
+  /* ---- Columns ---- */
+
+  .dsc-columns {
+    columns: 1;
+    column-gap: 1.6rem;
+    font-size: 0.76rem;
+    line-height: 1.5;
+  }
+
+  @media (min-width: 768px) {
+    .dsc-columns {
+      columns: 2;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .dsc-columns {
+      columns: 3;
+      column-rule: 1px solid var(--dw-faint);
+    }
+  }
+
+  .dsc-columns > * {
+    break-inside: avoid;
+  }
+
+  /* ---- Headings & text ---- */
+
+  .dsc-heading {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    margin: 1rem 0 0.4rem;
+    break-after: avoid;
+  }
+
+  .dsc-columns > .dsc-heading:first-child {
+    margin-top: 0;
+  }
+
+  .dsc-heading--sub {
+    font-size: 0.92rem;
+  }
+
+  .dsc-prose {
+    margin: 0.4rem 0;
+  }
+
+  .dsc-prose--italic {
+    font-style: italic;
+  }
+
+  .dsc-note {
+    font-style: italic;
+    font-size: 0.72rem;
+    color: var(--dw-ink-soft);
+    margin: 0.35rem 0 0.15rem;
+  }
+
+  .dsc-block {
+    break-inside: avoid;
+  }
+
+  .dsc-sublabel {
+    font-size: 0.72rem;
+    font-style: italic;
+    font-weight: 700;
+    margin: 0.5rem 0 0.1rem;
+    break-after: avoid;
+  }
+
+  /* ---- Lists ---- */
+
+  .dsc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.25rem 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.28rem;
+  }
+
+  .dsc-list li {
+    position: relative;
+    padding-left: 0.9rem;
+    break-inside: avoid;
+  }
+
+  .dsc-list li::before {
+    content: '◆';
+    position: absolute;
+    left: 0;
+    top: 0.35rem;
+    font-size: 0.5rem;
+    line-height: 1;
+  }
+
+  .dsc-list--check li {
+    padding-left: 1.15rem;
+  }
+
+  .dsc-list--check li::before {
+    content: none;
+  }
+
+  .dsc-list--check li > .dsc-tick {
+    margin-left: -1.15rem;
+    margin-right: 0.4rem;
+    vertical-align: -2px;
+  }
+
+  /* ---- NPC / location / item ---- */
+
+  .dsc-npc,
+  .dsc-location,
+  .dsc-item {
+    break-inside: avoid;
+    margin-top: 0.55rem;
+  }
+
+  .dsc-npc-title {
+    font-family: var(--font-serif);
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 0.7rem 0 0.15rem;
+    break-after: avoid;
+  }
+
+  .dsc-item-title {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 0.92rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    margin: 0.7rem 0 0.15rem;
+    break-after: avoid;
+  }
+
+  .dsc-desc {
+    font-style: italic;
+    margin: 0.15rem 0;
+  }
+
+  .dsc-traits {
+    font-size: 0.72rem;
+    color: var(--dw-ink-soft);
+    margin: 0.15rem 0;
+  }
+
+  .dsc-line {
+    margin: 0.2rem 0;
+  }
+
+  .dsc-line-label {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 700;
+    margin-right: 0.35rem;
+  }
+
+  .dsc-cond-label {
+    font-family: var(--font-serif);
+    font-size: 0.8rem;
+    margin: 0.45rem 0 0.1rem;
+    break-after: avoid;
+  }
+
+  .dsc-rulebox {
+    border: 1px solid var(--dw-rule);
+    padding: 0.5rem 0.65rem;
+    margin-top: 0.35rem;
+    break-inside: avoid;
+  }
+
+  .dsc-rulebox p {
+    margin: 0;
+  }
+
+  .dsc-rulebox p + p {
+    margin-top: 0.35rem;
+  }
+
+  /* ---- Checkboxes & tags ---- */
+
+  .dsc-tick {
+    appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    display: inline-block;
+    flex: none;
+    width: 0.78rem;
+    height: 0.78rem;
+    margin: 0;
+    border: 1.5px solid var(--dw-rule);
+    background: transparent;
+    cursor: pointer;
+    vertical-align: -1px;
+  }
+
+  .dsc-tick:checked {
+    background: var(--dw-ink);
+    border-color: var(--dw-ink);
+  }
+
+  .dsc-tick:checked::after {
+    content: '✔';
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.58rem;
+    line-height: 1;
+    color: var(--dw-paper);
+  }
+
+  .dsc-tick:focus-visible {
+    outline: 2px solid var(--dw-ink);
+    outline-offset: 1px;
+  }
+
+  .dsc-tag {
+    display: inline-block;
+    font-size: 0.62rem;
+    letter-spacing: 0.02em;
+    border: 1px solid var(--dw-rule);
+    padding: 0 0.3rem;
+    margin: 0 0.1rem;
+    white-space: nowrap;
+  }
+
+  @media print {
+    .dw2-scenario {
+      border: none;
+      padding: 0;
+      print-color-adjust: exact;
+      -webkit-print-color-adjust: exact;
+    }
+
+    .dsc-columns {
+      columns: 3;
+      column-rule: 1px solid var(--dw-faint);
+    }
+  }
+</style>

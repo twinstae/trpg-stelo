@@ -1,0 +1,70 @@
+---
+import SheetLayout from '../../../../../layouts/SheetLayout.astro';
+import Dw2ScenarioSheet from '../../../../../components/Sheets/Dw2ScenarioSheet.astro';
+import { DW2_SCENARIOS } from '../../../../../data/dw2/scenarios';
+
+export function getStaticPaths() {
+  return DW2_SCENARIOS.map((scenario) => ({
+    params: { slug: scenario.slug },
+    props: { scenario },
+  }));
+}
+
+const { scenario } = Astro.props as { scenario: (typeof DW2_SCENARIOS)[number] };
+
+const frontmatter = {
+  title: `${scenario.titleKo} 시나리오 시트 [DW2 2.1]`,
+  description: `던전월드 2 Beta v2.1 작은 모험 "${scenario.titleEn}"을 시나리오 시트로 정리한 페이지`,
+  layout: '../../../../../layouts/SheetLayout.astro',
+  createdAt: '2026-10-02T00:00:00.000Z',
+};
+---
+
+<SheetLayout frontmatter={frontmatter} headings={[]}>
+  <div class="sheet-wrap">
+    <nav class="sheet-nav" aria-label="이동">
+      <a href={`/ko/awe/dw2/${scenario.slug}`}>← {scenario.titleKo} 장으로</a>
+      <span class="sheet-nav-links">
+        <a href="/ko/awe/dw2/playbooks/core-moves">핵심 액션</a>
+        <a href="/ko/awe/dw2/playbooks">직업 캐릭터 시트</a>
+        <a href="/ko/awe/dw2">던전월드 2 목차</a>
+      </span>
+    </nav>
+    <p class="sheet-hint">
+      체크박스 표시는 이 브라우저에 저장되어, 페이지를 다시 열어도 그대로 남습니다.
+    </p>
+    <Dw2ScenarioSheet scenario={scenario} />
+  </div>
+</SheetLayout>
+
+<style>
+  .sheet-wrap {
+    width: 100%;
+    padding: 2rem 0.75rem 3rem;
+  }
+
+  .sheet-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem 1.5rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.85rem;
+  }
+
+  .sheet-nav a {
+    color: var(--color-primary);
+  }
+
+  .sheet-nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+  }
+
+  .sheet-hint {
+    margin: 0 0 1rem;
+    font-size: 0.8rem;
+    opacity: 0.7;
+  }
+</style>
