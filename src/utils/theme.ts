@@ -5,20 +5,13 @@
  * - the pre-render `<script is:inline>` in `HeadCommon.astro` (avoids FOUC)
  * - the Preact toggle in `RightSidebar/ThemeToggleButton.tsx`
  *
- * daisyUI v5 only emits CSS for the themes listed in `src/styles/index.css`, so
- * the values in `DAISY_THEMES` must match that list or the toggle silently does
- * nothing.
+ * The theme is `<html data-theme="light|dark">`; colors for each live in
+ * `src/styles/tokens.css`.
  */
 
 export type Theme = "light" | "dark";
 
 export const STORAGE_KEY = "theme";
-
-/** daisyUI themes from `src/styles/index.css` applied via `<html data-theme="…">`. */
-export const DAISY_THEMES: Record<Theme, string> = {
-  light: "emerald",
-  dark: "forest",
-};
 
 export function isTheme(value: unknown): value is Theme {
   return value === "light" || value === "dark";
@@ -52,6 +45,5 @@ export function storeTheme(theme: Theme) {
 
 export function applyTheme(theme: Theme) {
   const root = document.documentElement;
-  root.classList.toggle("theme-dark", theme === "dark");
-  root.setAttribute("data-theme", DAISY_THEMES[theme]);
+  root.setAttribute("data-theme", theme);
 }

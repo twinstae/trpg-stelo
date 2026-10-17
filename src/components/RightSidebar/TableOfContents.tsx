@@ -1,67 +1,50 @@
 /** @jsxImportSource preact */
 
 import type { FunctionalComponent } from 'preact';
-import { useState, useEffect, useRef } from 'preact/hooks';
+import { useState, useEffect } from 'preact/hooks';
 import type { MarkdownHeading } from 'astro';
 
-type ItemOffsets = {
-	id: string;
-	text: string;
-	topOffset: number;
-};
+/** 오른쪽 "이 페이지" 목차. 스크롤하면 지금 읽는 제목을 진하게 표시한다. */
+const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({ headings = [] }) => {
+	const items = headings.filter(({ depth }) => depth > 1 && depth < 4);
+	const [activeId, setActiveId] = useState<string>(items[0]?.slug ?? '');
 
-const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
-	headings = [],
-}) => {
-	const itemOffsets = useRef<ItemOffsets[]>([]);
-	// FIXME: Not sure what this state is doing. It was never set to anything truthy.
-	const [activeId, setActiveId] = useState<string>('');
 	useEffect(() => {
-		const getItemOffsets = () => {
-			const titles = document.querySelectorAll('article :is(h1, h2, h3)');
-			const base = titles[0]?.getBoundingClientRect().top || 0
-			itemOffsets.current = Array.from(titles).slice(2).map((title) => ({
-				id: title.id,
-				text: title.textContent ?? '',
-				topOffset: title.getBoundingClientRect().top - base + 150,
-			}));
-		};
+		const targets = items
+			.map(({ slug }) => document.getElementById(slug))
+			.filter((element): element is HTMLElement => element !== null);
+		if (!targets.length) return;
 
 		const onScroll = () => {
-			const id = itemOffsets.current.find(item => item.topOffset > window.scrollY)?.id || 'overview';
-			setActiveId(id);
+			// 화면 위쪽 1/4을 지난 마지막 제목이 지금 읽는 곳이다.
+			const line = window.innerHeight / 4;
+			let current = targets[0]!.id;
+			for (const target of targets) {
+				if (target.getBoundingClientRect().top > line) break;
+				current = target.id;
+			}
+			setActiveId(current);
 		};
 
-		getItemOffsets();
-
-		window.addEventListener("scroll", onScroll)
-		window.addEventListener('resize', getItemOffsets);
-
-		return () => {
-			window.removeEventListener('resize', getItemOffsets);
-			window.removeEventListener("scroll", onScroll)
-		};
+		onScroll();
+		window.addEventListener('scroll', onScroll, { passive: true });
+		return () => window.removeEventListener('scroll', onScroll);
 	}, []);
 
+	if (!items.length) return null;
+
 	return (
-		<div className="overflow-y-scroll h-full">
-			<h2 className="heading">목차</h2>
-			<ul>
-				<li className={`heading-link depth-2 ${activeId === 'overview' ? 'active' : ''}`.trim()}>
-					<a href="#overview" className="no-underline">도입</a>
-				</li>
-				{headings
-					.filter(({ depth }) => depth > 1 && depth < 4)
-					.map((heading) => (
-						<li
-							className={`heading-link depth-${heading.depth} ${
-								activeId === heading.slug ? 'active' : ''
-							}`.trim()}
-						>
-							<a href={`#${heading.slug}`} className="no-underline break-words max-w-xs">{heading.text}</a>
-						</li>
-					))}
-			</ul>
+		<div class="toc">
+			<p class="toc-title">이 페이지</p>
+			<ol>
+				{items.map((heading) => (
+					<li class={`depth-${heading.depth}`}>
+						<a href={`#${heading.slug}`} aria-current={activeId === heading.slug ? 'true' : undefined}>
+							{heading.text}
+						</a>
+					</li>
+				))}
+			</ol>
 		</div>
 	);
 };

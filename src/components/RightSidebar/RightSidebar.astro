@@ -1,6 +1,5 @@
 ---
 import TableOfContents from './TableOfContents';
-import MoreMenu from './MoreMenu.astro';
 import type { MarkdownHeading } from 'astro';
 
 type Props = {
@@ -11,30 +10,69 @@ type Props = {
 const { headings, githubEditUrl } = Astro.props as Props;
 ---
 
-<nav class="sidebar-nav">
-	<div class="sidebar-nav-inner">
-		<TableOfContents client:media="(min-width: 50em)" headings={headings} />
-		<MoreMenu editHref={githubEditUrl} />		
+<nav class="page-toc" aria-label="이 페이지 목차">
+	<TableOfContents client:media="(min-width: 72em)" headings={headings} />
+	<div class="page-tools">
+		{githubEditUrl && (
+			<a href={githubEditUrl} target="_blank" rel="noopener">
+				수정 제안하기
+			</a>
+		)}
+		<a href="#top">↑ 맨 위로</a>
 	</div>
 </nav>
 
 <style>
-	.sidebar-nav {
-		width: 100%;
-  		position: fixed;
-		top: 0;
-		z-index: 12;
-
-		a {
-			text-decoration: none;
-		}
+	.page-toc {
+		font-size: 0.8125rem;
 	}
 
-	.sidebar-nav-inner {
-		max-height: 100vh;
+	.page-toc :global(.toc-title) {
+		margin: 0 0 0.625rem;
+		font-size: 0.6875rem;
+		font-weight: 700;
+		letter-spacing: 0.12em;
+		color: var(--accent);
+	}
+
+	.page-toc :global(.toc ol) {
+		margin: 0;
 		padding: 0;
-		padding-bottom: 8rem;
-		padding-top: var(--doc-padding);
-		overflow: auto;
+		list-style: none;
+	}
+
+	.page-toc :global(.toc a) {
+		display: block;
+		padding: 0.25rem 0;
+		line-height: 1.45;
+		color: var(--muted);
+	}
+
+	.page-toc :global(.toc .depth-3 a) {
+		padding-left: 0.875rem;
+		font-size: 0.78125rem;
+	}
+
+	.page-toc :global(.toc a:hover) {
+		color: var(--text);
+	}
+
+	.page-toc :global(.toc a[aria-current]) {
+		color: var(--text);
+		font-weight: 700;
+	}
+
+	.page-tools {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+		margin-top: 1.125rem;
+		padding-top: 0.75rem;
+		border-top: 1px solid var(--rule);
+		color: var(--muted);
+	}
+
+	.page-tools a:hover {
+		color: var(--text);
 	}
 </style>

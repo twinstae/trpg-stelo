@@ -134,14 +134,13 @@ publish: false
 >
 > 통계를 사랑하는 분들을 위해, 여기 특정 결과가 나올 확률들을 정리했습니다.
 >
-> <table class="table table-compact table-zebra" aria-labelledby="difficulty-table-title"> <thead><tr><th>결과</th><th>확률</th><th>그 이상이 나올 확률</th></tr></thead>  <tbody>    <tr><td>-4</td><td>	1.23% </td><td>	100% </td></tr>    <tr><td>-3</td><td>	4.94% </td><td>	98.77% </td></tr>    <tr><td>-2</td><td>	12.35% </td><td>	93.83% </td></tr>    <tr><td>-1</td><td>	19.75% </td><td>	81.48% </td></tr>    <tr><td>0	</td><td>23.46% </td><td>	61.73% </td></tr>    <tr><td>1	</td><td>19.75% </td><td>	38.27% </td></tr>    <tr><td>2	</td><td>12.35% </td><td>	18.52% </td></tr>    <tr><td>3	</td><td>4.94% </td><td>	6.17% </td></tr>    <tr><td>4	</td><td>1.23% </td><td>	1.23% </td></tr>  </tbody></table>
+> <table aria-labelledby="difficulty-table-title"> <thead><tr><th>결과</th><th>확률</th><th>그 이상이 나올 확률</th></tr></thead>  <tbody>    <tr><td>-4</td><td>	1.23% </td><td>	100% </td></tr>    <tr><td>-3</td><td>	4.94% </td><td>	98.77% </td></tr>    <tr><td>-2</td><td>	12.35% </td><td>	93.83% </td></tr>    <tr><td>-1</td><td>	19.75% </td><td>	81.48% </td></tr>    <tr><td>0	</td><td>23.46% </td><td>	61.73% </td></tr>    <tr><td>1	</td><td>19.75% </td><td>	38.27% </td></tr>    <tr><td>2	</td><td>12.35% </td><td>	18.52% </td></tr>    <tr><td>3	</td><td>4.94% </td><td>	6.17% </td></tr>    <tr><td>4	</td><td>1.23% </td><td>	1.23% </td></tr>  </tbody></table>
 
 ### 난이도 단계
 
 페이트에서는 말과 수치로 이루어진 난이도 단계를 사용하여 판정에 나온 값을 평가합니다.
 
 <table
-  class="table table-compact table-zebra"
   aria-labelledby="difficulty-table-title"
 >
   <thead>

@@ -2,6 +2,7 @@ import { CYPHER_SRD_CHAPTERS } from "./data/cypher-srd/chapters";
 import { DW2_CHAPTERS } from "./data/dw2/chapters";
 import { LAZY_GM_GUIDE_CHAPTERS } from "./data/lazy-gm-guide/chapters";
 import { IRONSWORN_CHAPTERS } from "./data/ironsworn/chapters";
+import type { NavItem, NavLink, NavTopic } from "./navigation";
 
 export const SITE = {
   title: "탐정토끼의 토끼굴",
@@ -37,10 +38,7 @@ export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
 export const GITHUB_EDIT_URL = "https://github.com/twinstae/trpg-stelo/tree/master";
 
-export type Sidebar = Record<
-  (typeof KNOWN_LANGUAGE_CODES)[number],
-  Record<string, { text: string; link: string }[]>
->;
+export type Sidebar = Record<(typeof KNOWN_LANGUAGE_CODES)[number], NavTopic[]>;
 export const SIDEBAR: Sidebar = {
   ko: Language("ko", [
     Topic("사이퍼 SRD 2026", "/cypher-srd", [
@@ -79,15 +77,16 @@ export const SIDEBAR: Sidebar = {
     ]),
     Topic("던전월드 2 (v3 베타)", "/awe/dw2", [
       { text: "목차", link: "" },
-      ...DW2_CHAPTERS.filter((chapter) => chapter.slug !== "00-front-matter").map((chapter) => ({
-        text: chapter.status === "translated" ? chapter.titleKo : `${chapter.titleKo} (원문)`,
-        link: `/${chapter.slug}`,
-      })),
-      { text: "직업 캐릭터 시트", link: "/playbooks" },
-      { text: "핵심 액션 시트", link: "/playbooks/core-moves" },
-      { text: "추가 액션 시트", link: "/playbooks/extra-moves" },
-      { text: "위력 시트", link: "/playbooks/magnitude" },
-      { text: "시나리오 시트 (빼앗긴 아이들)", link: "/scenarios/the-stolen-children" },
+      ...bookSections(
+        DW2_CHAPTERS.filter((chapter) => chapter.slug !== "00-front-matter"),
+      ),
+      Section("시트", [
+        { text: "직업 캐릭터 시트", link: "/playbooks" },
+        { text: "핵심 액션 시트", link: "/playbooks/core-moves" },
+        { text: "추가 액션 시트", link: "/playbooks/extra-moves" },
+        { text: "위력 시트", link: "/playbooks/magnitude" },
+        { text: "시나리오 시트 (빼앗긴 아이들)", link: "/scenarios/the-stolen-children" },
+      ]),
     ]),
     Topic("게으른 GM 자료집", "/lazy-gm-guide", [
       ...LAZY_GM_GUIDE_CHAPTERS.map((chapter) => ({
@@ -114,12 +113,11 @@ export const SIDEBAR: Sidebar = {
     // ]),
     Topic("철의 맹세", "/ironsworn", [
       { text: "목차", link: "" },
-      ...IRONSWORN_CHAPTERS.map((chapter) => ({
-        text: chapter.status === "translated" ? chapter.titleKo : `${chapter.titleKo} (원문)`,
-        link: `/${chapter.slug}`,
-      })),
-      { text: "시트와 자산 카드", link: "/sheets" },
-      { text: "진실 워크북", link: "/truths-workbook" },
+      ...bookSections(IRONSWORN_CHAPTERS),
+      Section("시트", [
+        { text: "시트와 자산 카드", link: "/sheets" },
+        { text: "진실 워크북", link: "/truths-workbook" },
+      ]),
     ]),
     Topic("자작 자료", "/numenera", [
       { text: "조화: 확장 규칙", link: "/harmony" },
@@ -164,29 +162,52 @@ export const SIDEBAR: Sidebar = {
   ]),
 };
 
-type Child = {
-  text: string;
-  link: string;
-};
+type Chapter = { slug: string; titleKo: string; status: "translated" | "pending" };
 
-function Language(base: string, topicList: [string, Child[]][]) {
-  return Object.fromEntries(
-    topicList.map(([label, children]) => [
-      label,
-      children.map((child) => ({
-        ...child,
-        link: base + child.link,
-      })),
-    ]),
-  );
+function chapterLink(chapter: Chapter): NavLink {
+  return {
+    text: chapter.status === "translated" ? chapter.titleKo : `${chapter.titleKo} (원문)`,
+    link: `/${chapter.slug}`,
+  };
 }
 
-function Topic(label: string, base: string, children: Child[]): [string, Child[]] {
-  return [
+/** 장 목록을 책의 큰 부분(part)마다 섹션으로 묶는다. 순서는 장 목록을 따른다. */
+function bookSections(chapters: (Chapter & { part: string })[]): NavItem[] {
+  const sections: { section: string; items: NavLink[] }[] = [];
+  for (const chapter of chapters) {
+    const last = sections.at(-1);
+    if (last?.section === chapter.part) last.items.push(chapterLink(chapter));
+    else sections.push({ section: chapter.part, items: [chapterLink(chapter)] });
+  }
+  return sections;
+}
+
+function Section(section: string, items: NavLink[]): NavItem {
+  return { section, items };
+}
+
+function Language(lang: string, topics: NavTopic[]): NavTopic[] {
+  const prefix = (link: string) => lang + link;
+  return topics.map((topic) => ({
+    ...topic,
+    base: prefix(topic.base),
+    items: topic.items.map((item) =>
+      "section" in item
+        ? { ...item, items: item.items.map((child) => ({ ...child, link: prefix(child.link) })) }
+        : { ...item, link: prefix(item.link) },
+    ),
+  }));
+}
+
+function Topic(label: string, base: string, items: NavItem[]): NavTopic {
+  const join = (link: string) => base + link;
+  return {
     label,
-    children.map((child) => ({
-      ...child,
-      link: base + child.link,
-    })),
-  ];
+    base,
+    items: items.map((item) =>
+      "section" in item
+        ? { ...item, items: item.items.map((child) => ({ ...child, link: join(child.link) })) }
+        : { ...item, link: join(item.link) },
+    ),
+  };
 }

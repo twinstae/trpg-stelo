@@ -46,12 +46,11 @@ createdAt: "2022-11-17T07:31:02.290Z"
 
 이는 일을 세 가지 범주로 일반화할 수 있다는 뜻입니다: 힘 행동, 속력 행동, 그리고 지성 행동입니다. 마찬가지로 판정 역시 세 가지 범주로 일반화할 수 있습니다: 힘 판정, 속력 판정, 그리고 지성 판정입니다. 일이나 판정의 범주는 그 판정에 어떤 분발을 해야 하는지 결정합니다.
 
-<div class="difficulty-table card">
+<div class="difficulty-table">
   
   ### 일 난이도 표
 
   <table
-    class="table table-compact table-zebra"
     aria-labelledby="difficulty-table-title"
   >
     <thead>

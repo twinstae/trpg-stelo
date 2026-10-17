@@ -25,16 +25,14 @@ const HOW_TO = [
 ];
 ---
 
-<SheetLayout frontmatter={frontmatter} headings={[]}>
+<SheetLayout frontmatter={frontmatter} headings={[]} backHref="/ko/ironsworn" backLabel="철의 맹세 목차">
   <div class="sheet-wrap">
     <nav class="sheet-nav" aria-label="이동">
-      <a href="/ko/ironsworn">← 철의 맹세 목차</a>
       <span class="sheet-nav-links">
         <a href="/ko/ironsworn/your-truths">당신의 진실</a>
         <a href="/ko/ironsworn/sheets">시트와 자산 카드</a>
         <a href="/ko/ironsworn/GLOSSARY">용어집</a>
       </span>
-      <button type="button" class="sheet-print" data-sheet-print>인쇄하기</button>
     </nav>
 
     <header class="sheet-intro">
@@ -115,7 +113,7 @@ const HOW_TO = [
   }
 
   .sheet-nav a {
-    color: var(--color-primary);
+    color: var(--accent);
   }
 
   .sheet-nav-links {
@@ -168,7 +166,7 @@ const HOW_TO = [
     margin: 1.5rem 0 1.25rem;
     padding: 0.9rem 1.1rem;
     border-radius: 0.5rem;
-    background-color: var(--color-base-200);
+    background-color: var(--surface);
   }
 
   .sheet-howto h2 {

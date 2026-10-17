@@ -52,12 +52,10 @@ const { group } = Astro.props;
     padding: 1.25rem 1.4rem 1.4rem;
     background: var(--dw-paper);
     color: var(--dw-ink);
-    font-family: var(--font-body);
-    border: 1px solid var(--dw-rule);
-    border-radius: 0;
+    font-family: var(--font-sans);
   }
 
-  :global(.theme-dark) .dw2-movesheet {
+  :global([data-theme="dark"]) .dw2-movesheet {
     --dw-paper: #151515;
     --dw-ink: #f2f2f2;
     --dw-ink-soft: #a8a8a8;
@@ -86,7 +84,7 @@ const { group } = Astro.props;
   }
 
   .dmv-title-en {
-    font-family: var(--font-body);
+    font-family: var(--font-sans);
     font-size: 0.72rem;
     font-weight: 700;
     letter-spacing: 0.28em;
@@ -122,12 +120,26 @@ const { group } = Astro.props;
     min-width: 0;
   }
 
+  /* 인쇄: 핵심 액션 시트처럼 A4 가로에 세 단으로 싣는다. */
+  @page dw2-movesheet {
+    size: A4 landscape;
+    margin: 8mm 9mm;
+  }
+
   @media print {
+    :global(:root:has(.dw2-movesheet)) {
+      font-size: 12px;
+    }
+
     .dw2-movesheet {
-      border: none;
+      page: dw2-movesheet;
       padding: 0;
       print-color-adjust: exact;
       -webkit-print-color-adjust: exact;
+    }
+
+    .dmv-columns {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 </style>

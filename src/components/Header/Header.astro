@@ -1,107 +1,165 @@
 ---
-import { getLanguageFromURL, KNOWN_LANGUAGE_CODES } from '../../languages';
 import * as CONFIG from '../../config';
-import StarIcon from './StarIcon.astro';
+import type { Crumb } from '../../navigation';
 import SkipToContent from './SkipToContent.astro';
 import SidebarToggle from './SidebarToggle';
-import LanguageSelect from './LanguageSelect';
 import SearchDialog from './SearchDialog';
+import ThemeToggleButton from './ThemeToggleButton';
 
 type Props = {
 	currentPage: string;
+	crumbs: Crumb[];
 };
 
-const { currentPage } = Astro.props as Props;
-const lang = getLanguageFromURL(currentPage);
+const { currentPage, crumbs } = Astro.props as Props;
 ---
 
-<header class="bg-base-100">
+<header class="site-header no-print">
 	<SkipToContent />
-	<nav class="nav-wrapper" title="Top Navigation">
-		<div class="menu-toggle">
-			<SidebarToggle client:idle />
-		</div>
-		<div class="logo flex">
-			<a href="/ko/welcome">
-				<StarIcon size={40} />
-				<h1 class="w-full">{CONFIG.SITE.title ?? 'Documentation'}</h1>
-			</a>
-		</div>
-		<div style="flex-grow: 1;"></div>
-		<SearchDialog pathname={currentPage} client:idle />
-		{KNOWN_LANGUAGE_CODES.length > 1 && <LanguageSelect lang={lang} client:idle />}
+	<div class="menu-toggle">
+		<SidebarToggle client:idle />
+	</div>
+	<a class="brand" href="/ko/welcome">{CONFIG.SITE.title}</a>
+	<nav class="crumbs" aria-label="현재 위치">
+		<ol>
+			{
+				crumbs.map((crumb, index) => (
+					<li>
+						{crumb.href ? (
+							<a href={crumb.href}>{crumb.text}</a>
+						) : (
+							<span aria-current={index === crumbs.length - 1 ? 'page' : undefined}>{crumb.text}</span>
+						)}
+					</li>
+				))
+			}
+		</ol>
 	</nav>
+	<div class="actions">
+		<SearchDialog pathname={currentPage} client:idle />
+		<ThemeToggleButton client:load />
+	</div>
 </header>
 
 <style>
-	header {
-		z-index: 11;
-		width: 100%;
+	.site-header {
+		position: sticky;
+		top: 0;
+		z-index: 30;
 		display: flex;
 		align-items: center;
-		justify-content: center;
-		overflow: hidden;
-		height: 6rem;
+		gap: 1.5rem;
+		height: var(--header-h);
+		padding: 0 1.75rem;
+		border-bottom: 1px solid var(--text);
+		background: var(--bg);
 	}
 
-	.logo {
-		flex: 1;
-		display: flex;
-		overflow: hidden;
-		font-size: 2rem;
+	.brand {
+		flex: none;
+		font-family: var(--font-serif);
 		font-weight: 600;
-		line-height: 1;
-		color: hsla(var(--color-base-white), 100%, 1);
-		gap: 0.25em;
-		z-index: -1;
+		font-size: 1.0625rem;
+		white-space: nowrap;
 	}
 
-	.logo a {
-		display: flex;
-		padding: 0.5em 0.25em;
-		margin: -0.5em -0.25em;
-		text-decoration: none;
-		font-weight: bold;
+	.crumbs {
+		flex: 1;
+		min-width: 0;
+		font-size: 0.84375rem;
+		color: var(--muted);
 	}
 
-	.logo a {
-		transition: color 100ms ease-out;
-		color: var(--color-base-content);
-	}
-
-	.logo a:hover,
-	.logo a:focus {
-		color: var(--color-primary);
-	}
-
-	.logo h1 {
-		font: inherit;
-		color: inherit;
-		margin: 0;
-	}
-
-	.nav-wrapper {
+	.crumbs ol {
 		display: flex;
 		align-items: center;
-		justify-content: flex-end;
-		gap: 1em;
-		width: 100%;
-		padding: 0 1rem;
+		gap: 0.5rem;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		white-space: nowrap;
+		overflow: hidden;
 	}
 
-	@media (min-width: 50em) {
-		header {
-			position: static;
-			padding: 2rem 0rem;
+	.crumbs li {
+		display: flex;
+		gap: 0.5rem;
+		min-width: 0;
+	}
+
+	.crumbs li + li::before {
+		content: '›';
+		color: var(--faint);
+	}
+
+	.crumbs li:last-child {
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.crumbs a:hover {
+		color: var(--text);
+	}
+
+	.crumbs [aria-current] {
+		color: var(--text);
+		font-weight: 700;
+	}
+
+	.actions {
+		display: flex;
+		align-items: center;
+		gap: 0.25rem;
+		flex: none;
+	}
+
+	.menu-toggle {
+		display: none;
+		margin-left: -0.75rem;
+	}
+
+	@media (max-width: 50em) {
+		.site-header {
+			flex-wrap: wrap;
+			gap: 0 0.25rem;
+			height: auto;
+			min-height: var(--header-h);
+			padding: 0 0.5rem 0 1rem;
 		}
 
-		.logo {
-			width: auto;
-			margin: 0;
-			z-index: 0;
+		.site-header > * {
+			min-height: var(--header-h);
+			display: flex;
+			align-items: center;
 		}
 
 		.menu-toggle {
+			display: block;
+			order: 3;
+			margin: 0;
+		}
+
+		.brand {
+			flex: 1;
+		}
+
+		/* 좁은 화면에서는 경로를 머리글 아래 줄로 내린다. */
+		.site-header > .crumbs {
+			order: 10;
+			flex-basis: calc(100% + 1.5rem);
+			min-height: 0;
+			margin: 0 -0.5rem 0 -1rem;
+			padding: 0.5rem 1rem;
+			background: var(--surface);
+			font-size: 0.8125rem;
+		}
+
+		.crumbs ol {
+			overflow-x: auto;
+		}
+
+		/* 서랍을 열면 머리글 높이를 한 줄로 고정해 서랍이 바로 아래에 붙게 한다. */
+		:global(body.nav-open) .site-header > .crumbs {
 			display: none;
 		}
 	}

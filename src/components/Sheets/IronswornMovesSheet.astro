@@ -133,13 +133,13 @@ function splitColumns<T>(items: readonly T[]): [T[], T[]] {
     padding: 0 0 1.3rem;
     background: var(--iw2-paper);
     color: var(--iw2-ink);
-    font-family: var(--font-body);
+    font-family: var(--font-sans);
     border: 1px solid var(--iw2-ink);
     border-radius: 2px;
     scroll-margin-top: 1rem;
   }
 
-  .theme-dark .iw2-sheet {
+  [data-theme="dark"] .iw2-sheet {
     --iw2-paper: #141414;
     --iw2-ink: #f2f2f2;
     --iw2-ink-soft: #a5a5a5;

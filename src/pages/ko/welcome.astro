@@ -1,5 +1,22 @@
 ---
 import MainLayout from '../../layouts/MainLayout.astro';
+import { SIDEBAR } from '../../config';
+import { isSection, topicHref, topicIndex, topicLinks } from '../../navigation';
+
+const topics = SIDEBAR.ko.map((topic) => {
+  const index = topicIndex(topic);
+  return {
+    label: topic.label,
+    href: topicHref(topic),
+    count: topicLinks(topic).filter((link) => link !== index).length,
+    sections: topic.items.filter(isSection).map((item) => item.section),
+  };
+});
+
+const games =
+  '누메네라, 사이퍼 시스템, 크툴루 컨피덴셜, 아포칼립스 월드, 던전월드, 밤의 마녀들, 목마른 레즈비언 검객들, 크툴루의 부름, 겁스, 13시대, 페이트 코어, 포도원의 파수견'.split(
+    ', ',
+  );
 ---
 
 <MainLayout
@@ -8,76 +25,122 @@ import MainLayout from '../../layouts/MainLayout.astro';
     description: '지금은 누메네라를 주로 하면서, 관련 자료를 번역하고 있습니다.',
     layout: '',
   }}
-  headings={[]}
+  headings={[
+    { depth: 2, slug: '자료실', text: '자료실' },
+    { depth: 2, slug: '탐정토끼', text: '탐정토끼' },
+  ]}
 >
-  <article
-    class="card w-full max-w-xl bg-base-100 border-2 border-base-300 shadow-2xl m-auto"
-  >
-    <figure class="relative">
-      <img
-        class="w-full h-64 object-cover"
-        src="https://numenera.com/wp-content/uploads/2026/02/N3-BK-Art-and-Graphics-for-Sharing-Art-with-Logo-4x3-3.jpg"
-      />
-      <p class="text-white text-xs absolute bottom-2 right-2">
-        누메네라 Into the Night. TM and © 2022 Monte Cook Games, LLC.
-      </p>
-    </figure>
-    <div class="card-body">
-      <label class="swap swap-flip rounded-full absolute top-40">
-        <!-- this hidden checkbox controls the state -->
-        <input type="checkbox" checked="true" />
 
-        <div class="swap-on">
-          <img
-            src="https://pbs.twimg.com/profile_images/1935293539300065280/IcF92Blp_400x400.jpg"
-            class="w-32 rounded-full"
-          />
-        </div>
-        <div class="swap-off">
-          <img
-            src="https://cdn.masto.host/dicecamp/media_attachments/files/109/420/420/627/707/860/original/b66368942d22f863.pnhttps://cdn.masto.host/dicecamp/media_attachments/files/109/420/420/627/707/860/original/b66368942d22f863.png"
-            class="w-32 h-32 rounded-full object-center"
-          />
-        </div>
-      </label>
-      <h2 style="margin-top: 1rem !important;">탐정토끼</h2>
-      <p>
-        서로 다른 이들이 갈등을 풀어나가고, 신기한 걸 만나고 발견하는 이야기를
-        좋아합니다. 일단 괴물을 죽이고 보기 보다는, 창의적으로 문제를 해결하는
-        방법을 찾고, 주어지고, 제안할 수 있는 플레이를 합니다.
-      </p>
-      지금은 누메네라를 주로 하면서, 관련 자료를 번역하고 있습니다.
-      <blockquote>
-        "데스티니는 어떻게 보면, 길고 어두운 터널 끝의 빛과 같습니다. 제9세계는
-        어둡고 위험한 곳이지만, 이 충분히 용기 있고 유능한 이들은 닥쳐올 난관을
-        극복하고 세상을 - 최소한 구석의 작은 부분이라해도 - 더 밝은 미래로
-        이끄는 것입니다."<br /> - [누메네라 : 데스티니] 몬티 쿡
-      </blockquote>
-      <div class="flex flex-wrap gap-2">
-        <li class="badge badge-outline">누메네라</li>
-        <li class="badge badge-outline">사이퍼 시스템</li>
-        <li class="badge badge-outline">크툴루 컨피덴셜</li>
-        {
-          `아포칼립스 월드, 던전월드, 밤의 마녀들, 목마른 레즈비언 검객들, 크툴루의 부름, 겁스, 13시대, 페이트 코어, 포도원의 파수견`
-            .split(', ')
-            .map((rule) => <li class="badge badge-outline">{rule}</li>)
-        }
-        <li class="badge badge-outline">등등...</li>
-      </div>
-      <ul>
-        <li>마스터링과 플레이어를 모두 합니다.</li>
+  <h2 id="탐정토끼">탐정토끼</h2>
+  <figure class="profile not-prose">
+    <img src="https://pbs.twimg.com/profile_images/1935293539300065280/IcF92Blp_400x400.jpg" alt="탐정토끼 프로필 그림" width="96" height="96" />
+    <figcaption>
+      서로 다른 이들이 갈등을 풀어나가고, 신기한 걸 만나고 발견하는 이야기를 좋아합니다. 일단 괴물을 죽이고 보기 보다는, 창의적으로 문제를 해결하는
+      방법을 찾고, 주어지고, 제안할 수 있는 플레이를 합니다. 지금은 누메네라를 주로 하면서, 관련 자료를 번역하고 있습니다.
+    </figcaption>
+  </figure>
+
+  <blockquote>
+    <p>
+      "데스티니는 어떻게 보면, 길고 어두운 터널 끝의 빛과 같습니다. 제9세계는 어둡고 위험한 곳이지만, 이 충분히 용기 있고 유능한 이들은 닥쳐올 난관을
+      극복하고 세상을 - 최소한 구석의 작은 부분이라해도 - 더 밝은 미래로 이끄는 것입니다."
+    </p>
+    <p>- [누메네라 : 데스티니] 몬티 쿡</p>
+  </blockquote>
+
+  <p><strong>해 본 게임</strong> · {games.join(', ')} 등등…</p>
+  <ul>
+    <li>마스터링과 플레이어를 모두 합니다.</li>
+    <li>주로 롤20에서 텍스트 채팅으로 플레이를 하지만, 보이스도 가능하고, 오프라인에서도 종종 플레이합니다.</li>
+  </ul>
+
+  <h2 id="자료실">자료실</h2>
+  <ol class="library not-prose">
+    {
+      topics.map((topic, i) => (
         <li>
-          주로 롤20에서 텍스트 채팅으로 플레이를 하지만, 보이스도 가능하고,
-          오프라인에서도 종종 플레이합니다.
+          <a href={topic.href}>
+            <span class="no">{i + 1}</span>
+            <span class="name">{topic.label}</span>
+            <span class="count">{topic.count}개 문서</span>
+          </a>
+          {topic.sections.length > 0 && <p class="sections">{topic.sections.join(' · ')}</p>}
         </li>
-      </ul>
-
-      <div
-        class="tooltip hover:tooltip-open tooltip-bottom"
-        data-tip="노동자, 여성, 흑인, 장애인, 이주민, 동성애자, 트랜스젠더, 비인간동물, 체형과 신경다양인 등 약자, 소수자를 차별하거나, 혹은 연대하지 않는 분은 뒤로가기를 눌러주세요."
-      >
-        <p class="underline">자유롭고 평등한 세상을 위해 노력합니다.</p>
-      </div>
-    </div>
-  </article>
+      ))
+    }
+  </ol>
 </MainLayout>
+
+<style>
+  .library {
+    margin: 1rem 0 0;
+    padding: 0;
+    list-style: none;
+    border-top: 2px solid var(--text);
+    border-bottom: 2px solid var(--text);
+  }
+
+  .library li + li {
+    border-top: 1px solid var(--rule);
+  }
+
+  .library li {
+    padding: 0.75rem 0;
+  }
+
+  .library a {
+    display: flex;
+    align-items: baseline;
+    gap: 0.875rem;
+  }
+
+  .library a:hover .name {
+    color: var(--accent);
+  }
+
+  .no {
+    width: 1.25rem;
+    flex: none;
+    font-size: 0.8125rem;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .name {
+    flex: 1;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 1.125rem;
+  }
+
+  .count {
+    font-size: 0.8125rem;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
+  .sections {
+    margin: 0.25rem 0 0 2.125rem;
+    font-size: 0.8125rem;
+    line-height: 1.6;
+    color: var(--muted);
+  }
+
+  .profile {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+    margin: 1rem 0;
+  }
+
+  .profile img {
+    flex: none;
+    margin: 0.25rem 0 0;
+  }
+
+  @media (max-width: 40rem) {
+    .profile {
+      flex-direction: column;
+    }
+  }
+</style>

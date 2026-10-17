@@ -1,0 +1,119 @@
+---
+/**
+ * 목차 페이지의 장 목록. 섹션(책의 큰 부분)마다 1부터 번호를 붙이고,
+ * 한국어 제목과 영어 제목을 나란히 보여 준다.
+ */
+export type IndexChapter = {
+	href?: string;
+	titleKo: string;
+	titleEn?: string;
+	/** 번역 전이면 붙이는 표시. 예: "원문만" */
+	status?: string;
+};
+
+export type IndexGroup = { title?: string; chapters: IndexChapter[] };
+
+type Props = {
+	groups: IndexGroup[];
+};
+
+const { groups } = Astro.props as Props;
+---
+
+<div class="chapter-index not-prose">
+	{
+		groups.map((group) => (
+			<section>
+				{group.title && <h2>{group.title}</h2>}
+				<ol>
+					{group.chapters.map((chapter, i) => {
+						const Tag = chapter.href ? 'a' : 'span';
+						return (
+							<li>
+								<Tag href={chapter.href} class:list={['entry', { pending: !chapter.href }]}>
+									<span class="no">{i + 1}</span>
+									<span class="ko">{chapter.titleKo}</span>
+									{chapter.titleEn && (
+										<span class="en" lang="en">
+											{chapter.titleEn}
+										</span>
+									)}
+									{chapter.status && <span class="status">{chapter.status}</span>}
+								</Tag>
+							</li>
+						);
+					})}
+				</ol>
+			</section>
+		))
+	}
+</div>
+
+<style>
+	.chapter-index {
+		margin-top: 2rem;
+	}
+
+	section + section {
+		margin-top: 2rem;
+	}
+
+	h2 {
+		margin: 0 0 0.25rem;
+		font-family: var(--font-serif);
+		font-weight: 600;
+		font-size: 1.25rem;
+	}
+
+	ol {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		border-top: 2px solid var(--text);
+		border-bottom: 2px solid var(--text);
+	}
+
+	li + li {
+		border-top: 1px solid var(--rule);
+	}
+
+	.entry {
+		display: flex;
+		align-items: baseline;
+		flex-wrap: wrap;
+		gap: 0.25rem 0.75rem;
+		padding: 0.5rem 0;
+	}
+
+	.no {
+		width: 1.25rem;
+		flex: none;
+		font-size: 0.8125rem;
+		color: var(--accent);
+		font-variant-numeric: tabular-nums;
+	}
+
+	.ko {
+		font-weight: 700;
+	}
+
+	a.entry:hover .ko {
+		color: var(--accent);
+	}
+
+	.en {
+		font-size: 0.875rem;
+		color: var(--muted);
+	}
+
+	.status {
+		margin-left: auto;
+		font-size: 0.75rem;
+		font-weight: 700;
+		color: var(--faint);
+	}
+
+	.pending .ko {
+		color: var(--muted);
+	}
+</style>

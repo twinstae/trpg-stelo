@@ -405,12 +405,10 @@ const STAT_LABELS = ['근력', '민첩성', '지능', '지혜', '매력'];
     padding: 1.25rem 1.4rem 1.6rem;
     background: var(--dw-paper);
     color: var(--dw-ink);
-    font-family: var(--font-body);
-    border: 1px solid var(--dw-rule);
-    border-radius: 0;
+    font-family: var(--font-sans);
   }
 
-  .theme-dark .dw2-sheet {
+  [data-theme="dark"] .dw2-sheet {
     --dw-paper: #151515;
     --dw-paper-soft: #1e1e1e;
     --dw-ink: #f2f2f2;
@@ -445,7 +443,7 @@ const STAT_LABELS = ['근력', '민첩성', '지능', '지혜', '매력'];
   }
 
   .dw2-title-en {
-    font-family: var(--font-body);
+    font-family: var(--font-sans);
     font-size: 0.72rem;
     font-weight: 700;
     letter-spacing: 0.28em;
@@ -539,12 +537,12 @@ const STAT_LABELS = ['근력', '민첩성', '지능', '지혜', '매력'];
     font-weight: 700;
     letter-spacing: 0.1em;
     margin: 0 0 0.55rem;
-    padding-bottom: 0.3rem;
-    border-bottom: 2px solid var(--dw-ink);
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid var(--dw-ink);
   }
 
   .dw2-heading span {
-    font-family: var(--font-body);
+    font-family: var(--font-sans);
     font-size: 0.58rem;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -804,12 +802,10 @@ const STAT_LABELS = ['근력', '민첩성', '지능', '지혜', '매력'];
   .dw2-move {
     font-size: 0.74rem;
     line-height: 1.45;
-    padding: 0.45rem 0;
-    border-bottom: 1px solid var(--dw-faint);
+    padding: 0.4rem 0;
   }
 
   .dw2-move:last-child {
-    border-bottom: none;
     padding-bottom: 0;
   }
 
@@ -878,8 +874,7 @@ const STAT_LABELS = ['근력', '민첩성', '지능', '지혜', '매력'];
 
   .dw2-move-callout {
     margin: 0.35rem 0 0;
-    padding-left: 0.6rem;
-    border-left: 2px solid var(--dw-ink);
+    padding-left: 0.75rem;
     font-style: italic;
     color: var(--dw-ink);
   }
@@ -953,10 +948,7 @@ const STAT_LABELS = ['근력', '민첩성', '지능', '지혜', '매력'];
   .dw2-tag {
     font-size: 0.62rem;
     letter-spacing: 0.02em;
-    color: var(--dw-ink);
-    border: 1px solid var(--dw-rule);
-    border-radius: 0;
-    padding: 0 0.35rem;
+    color: var(--dw-ink-soft);
   }
 
   .dw2-option-note {
@@ -1110,7 +1102,6 @@ const STAT_LABELS = ['근력', '민첩성', '지능', '지혜', '매력'];
     display: flex;
     flex-direction: column;
     padding-top: 0.4rem;
-    border-top: 3px double var(--dw-rule);
   }
 
   .dw2-path-grid {
@@ -1126,16 +1117,12 @@ const STAT_LABELS = ['근력', '민첩성', '지능', '지혜', '매력'];
   }
 
   .dw2-path {
-    border: 1px solid var(--dw-rule);
-    border-radius: 0;
-    padding: 0.7rem 0.85rem 0.5rem;
-    background: var(--dw-paper-soft);
+    padding: 0.25rem 0 0.5rem;
   }
 
   .dw2-path-head {
-    padding-bottom: 0.4rem;
-    margin-bottom: 0.35rem;
-    border-bottom: 1px solid var(--dw-rule);
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.25rem;
   }
 
   .dw2-path-head-top {
@@ -1192,11 +1179,6 @@ const STAT_LABELS = ['근력', '민첩성', '지능', '지혜', '매력'];
     display: none;
   }
 
-  .dw2-path:has(.dw2-radio:checked) {
-    outline: 2px solid var(--dw-ink);
-    outline-offset: 1px;
-  }
-
   .dw2-path:has(.dw2-radio:checked) .dw2-path-pick {
     color: var(--dw-ink);
     font-weight: 700;
@@ -1223,7 +1205,7 @@ const STAT_LABELS = ['근력', '민첩성', '지능', '지혜', '매력'];
   }
 
   .dw2-path-title span {
-    font-family: var(--font-body);
+    font-family: var(--font-sans);
     font-size: 0.6rem;
     font-weight: 700;
     letter-spacing: 0.18em;
@@ -1231,17 +1213,44 @@ const STAT_LABELS = ['근력', '민첩성', '지능', '지혜', '매력'];
     color: var(--dw-ink-soft);
   }
 
+  /*
+    인쇄: A4 가로 두 장. 앞면은 캐릭터(세 단), 뒷면은 길(세 단).
+    화면 폭과 상관없이 세 단을 유지하고, 글자를 조금 줄여 한 면에 맞춘다.
+  */
+  @page dw2-sheet {
+    size: A4 landscape;
+    margin: 8mm 9mm;
+  }
+
   @media print {
+    :root:has(.dw2-sheet) {
+      font-size: 11px;
+    }
+
     .dw2-sheet {
-      border: none;
-      box-shadow: none;
+      page: dw2-sheet;
+      gap: 0.7rem;
       padding: 0;
       print-color-adjust: exact;
       -webkit-print-color-adjust: exact;
     }
 
+    .dw2-columns,
+    .dw2-path-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+    }
+
+    .dw2-col {
+      gap: 0.8rem;
+    }
+
+    .dw2-paths {
+      break-before: page;
+    }
+
     .dw2-path,
-    .dw2-columns {
+    .dw2-block {
       break-inside: avoid;
     }
   }

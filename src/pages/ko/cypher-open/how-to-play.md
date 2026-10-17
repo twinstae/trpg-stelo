@@ -42,12 +42,11 @@ publish: true
 
 주사위를 굴리지 않으면 실패할 위험도 없지만, 특수 효과를 얻을 기회도 없습니다. (순수 19, 20의 효과는 [게임의 규칙](/ko/cypher-open/rules-of-the-game#특수-효과-굴림)을 참조하세요.)
 
-<div class="difficulty-table card">
+<div class="difficulty-table">
   <h2 id="difficulty-table-title" class="text-lg font-bold mb-4">
     일 난이도 표
   </h2>
   <table
-    class="table table-compact table-zebra"
     aria-labelledby="difficulty-table-title"
   >
     <thead>

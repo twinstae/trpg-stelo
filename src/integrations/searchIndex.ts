@@ -23,6 +23,7 @@ import {
 	type SearchSectionFile,
 } from '../search/shared';
 import { SIDEBAR } from '../config';
+import { topicLinks } from '../navigation';
 
 /** 글 흐름 안에 머무는 요소. 나머지 요소는 모두 새 덩어리를 연다. */
 const INLINE = new Set([
@@ -146,8 +147,8 @@ function commonPath(links: string[]): string {
  */
 function sectionTitle(section: string, indexTitle: string | undefined): string {
 	for (const [lang, topics] of Object.entries(SIDEBAR)) {
-		for (const [label, children] of Object.entries(topics)) {
-			if (commonPath(children.map((child) => child.link)) === `${lang}/${section}`) return label;
+		for (const topic of topics) {
+			if (commonPath(topicLinks(topic).map((child) => child.link)) === `${lang}/${section}`) return topic.label;
 		}
 	}
 	return indexTitle ?? section;

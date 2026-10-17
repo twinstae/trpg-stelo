@@ -1,30 +1,29 @@
 ---
-import '../styles/theme.css';
 import '../styles/index.css';
-import { DAISY_THEMES, STORAGE_KEY } from '../utils/theme';
+import { STORAGE_KEY } from '../utils/theme';
 ---
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="generator" content={Astro.generator} />
 
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
 <link rel="sitemap" href="/sitemap.xml" />
 
-<!-- Preload Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<!-- 본문 글꼴 Pretendard (제목용 마루부리는 styles/fonts.css) -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+/>
 
 <!-- Scrollable a11y code helper -->
-<script src="/make-scrollable-code-focusable.js" is:inline>
+<script src="/make-scrollable-code-focusable.js" is:inline></script>
 
-</script>
-
-<!-- This is intentionally inlined to avoid FOUC -->
-<script is:inline define:vars={{ DAISY_THEMES, STORAGE_KEY }}>
-	const root = document.documentElement;
+<!-- 깜빡임 없이 저장된 테마(없으면 운영체제 설정)를 먼저 적용한다. -->
+<script is:inline define:vars={{ STORAGE_KEY }}>
 	let stored = null;
 	try {
 		stored = localStorage.getItem(STORAGE_KEY);
@@ -32,15 +31,5 @@ import { DAISY_THEMES, STORAGE_KEY } from '../utils/theme';
 		/* storage blocked */
 	}
 	const isDark = stored === 'dark' || (stored !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
-	root.classList.toggle('theme-dark', isDark);
-	root.setAttribute('data-theme', isDark ? DAISY_THEMES.dark : DAISY_THEMES.light);
+	document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
 </script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-TEL60V1WM9" is:inline></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-TEL60V1WM9');
-</script> -->

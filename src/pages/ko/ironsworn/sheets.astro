@@ -32,15 +32,13 @@ const SECTIONS = [
 ];
 ---
 
-<SheetLayout frontmatter={frontmatter} headings={[]}>
+<SheetLayout frontmatter={frontmatter} headings={[]} backHref="/ko/ironsworn" backLabel="철의 맹세 목차">
   <div class="sheet-wrap">
     <nav class="sheet-nav" aria-label="이동">
-      <a href="/ko/ironsworn">← 철의 맹세 목차</a>
       <span class="sheet-nav-links">
         {SECTIONS.map((section) => <a href={`#${section.id}`}>{section.ko}</a>)}
         <a href="/ko/ironsworn/truths-workbook">진실 워크북</a>
       </span>
-      <button type="button" class="sheet-print" data-sheet-print>인쇄하기</button>
     </nav>
 
     <header class="sheet-intro">
@@ -166,7 +164,7 @@ const SECTIONS = [
   }
 
   .sheet-nav a {
-    color: var(--color-primary);
+    color: var(--accent);
   }
 
   .sheet-nav-links {

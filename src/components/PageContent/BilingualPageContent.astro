@@ -1,6 +1,8 @@
 ---
-import MoreMenu from '../RightSidebar/MoreMenu.astro';
-import TableOfContents from '../RightSidebar/TableOfContents';
+import MobileToc from './MobileToc.astro';
+import Pager from './Pager.astro';
+import { SIDEBAR } from '../../config';
+import { locate, neighbors, type Neighbor } from '../../navigation';
 import type { PairedBlock, ChapterHeading } from '../../utils/pairChapterBlocks';
 
 type NavChapter = { slug: string; titleKo: string };
@@ -10,12 +12,11 @@ type Props = {
 	titleKo: string;
 	rows: PairedBlock[];
 	headings: ChapterHeading[];
-	githubEditUrl: string;
 	prev: NavChapter | null;
 	next: NavChapter | null;
-	/** 이전/다음 장 링크의 기본 경로. 기본값은 사이퍼 SRD. */
+	/** 메뉴에 없는 장일 때 이전/다음 장 링크의 기본 경로. 기본값은 사이퍼 SRD. */
 	basePath?: string;
-	/** true면 페이지 제목(h1)을 본문 맨 위에 렌더한다. */
+	/** true면 페이지 제목(영어 | 한국어)을 본문 맨 위에 렌더한다. */
 	showTitle?: boolean;
 	/** false면 한국어 열 없이 원문만 렌더한다(번역 전 장). */
 	bilingual?: boolean;
@@ -34,7 +35,6 @@ const {
 	titleKo,
 	rows,
 	headings,
-	githubEditUrl,
 	prev,
 	next,
 	basePath = '/ko/cypher-srd',
@@ -45,242 +45,294 @@ const {
 	pendingNoticeLabel = '던전월드 2 목차',
 	pendingNoticeSubject = '이 장',
 } = Astro.props as Props;
+
+const location = locate(SIDEBAR.ko, Astro.url.pathname);
+const kicker = location?.section ?? location?.topic.label;
+
+// 메뉴에 있는 장이면 메뉴 순서를, 아니면 넘겨받은 이전/다음 장을 쓴다.
+const fromNav = neighbors(location);
+const fromProps = (chapter: NavChapter | null): Neighbor | undefined =>
+	chapter ? { href: `${basePath}/${chapter.slug}`, text: chapter.titleKo } : undefined;
+const pager = location?.link ? fromNav : { prev: fromProps(prev), next: fromProps(next) };
+
+// 앵커(<a id>)만 있는 덩어리는 화면에 보이는 글이 없으므로 이름표·여백을 붙이지 않는다.
+const isBlank = (html: string) => html.replace(/<a\s+id="[^"]*"\s*><\/a>/g, '').trim() === '';
 ---
 
-<article id="article" class="content bilingual-content">
-	<section class="main-section">
+<article id="article" class="bilingual" data-view="both" data-bilingual={bilingual ? 'true' : 'false'}>
+	<header class="bi-head">
+		{kicker && <p class="kicker">{kicker}</p>}
 		{
 			showTitle && (
-				<h1 class="content-title" id="overview">
-					{titleKo} <span class="title-en">{titleEn}</span>
-				</h1>
+				<div class="bi-titles">
+					<p class="bi-title" lang="en">
+						{titleEn}
+					</p>
+					<h1 class="bi-title" id="overview">
+						{titleKo}
+					</h1>
+				</div>
 			)
 		}
-		{/*
-			bilingual=false일 때는 스타일 변수만 바꾸면 되므로 클래스로 처리한다.
-		*/
-		}
-		{pendingNotice && (
+	</header>
+
+	{
+		pendingNotice && (
 			<p class="pending-notice">
 				{pendingNoticeSubject}은 아직 번역하지 않았습니다. 지금은 영어 원문만 보입니다. 진행 상황은{' '}
 				<a href={pendingNoticeHref}>{pendingNoticeLabel}</a>에서 볼 수 있습니다.
 			</p>
-		)}
-		{bilingual && (
-			<div class="bilingual-lang-labels" aria-hidden="true">
-				<span>English (원문)</span>
-				<span>한국어 (번역)</span>
-			</div>
-		)}
-		<nav class="block sm:hidden">
-			<TableOfContents client:media="(max-width: 50em)" headings={headings} />
-		</nav>
-		{
-			rows.map((row) => (
-				<div class:list={['bilingual-row', `kind-${row.kind}`, { 'en-only': !bilingual }]}>
-					<div class="en" set:html={row.enHtml} />
-					{bilingual && <div class="ko" set:html={row.koHtml} />}
+		)
+	}
+
+	{
+		bilingual && (
+			<div class="bi-toolbar no-print">
+				<div class="bi-view" role="group" aria-label="보기 방식">
+					<button type="button" data-view-option="both" aria-pressed="true">
+						대역
+					</button>
+					<button type="button" data-view-option="en" aria-pressed="false">
+						English
+					</button>
+					<button type="button" data-view-option="ko" aria-pressed="false">
+						한국어
+					</button>
 				</div>
-			))
-		}
-		{
-			(prev || next) && (
-				<nav class="chapter-nav" aria-label="챕터 이동">
-					<a class:list={['chapter-nav-link', 'prev', { disabled: !prev }]} href={prev ? `${basePath}/${prev.slug}` : undefined}>
-						{prev ? `← ${prev.titleKo}` : ''}
-					</a>
-					<a class:list={['chapter-nav-link', 'next', { disabled: !next }]} href={next ? `${basePath}/${next.slug}` : undefined}>
-						{next ? `${next.titleKo} →` : ''}
-					</a>
-				</nav>
-			)
-		}
-	</section>
-	<nav class="block sm:hidden">
-		<MoreMenu editHref={githubEditUrl} />
-	</nav>
+			</div>
+		)
+	}
+
+	<MobileToc headings={headings} />
+
+	{
+		bilingual && (
+			<div class="bi-row bi-labels" aria-hidden="true">
+				<span class="en">ENGLISH · 원문</span>
+				<span class="ko">한국어 · 번역</span>
+			</div>
+		)
+	}
+
+	{
+		rows.map((row) => (
+			<div class:list={['bi-row', `kind-${row.kind}`, { 'is-blank': isBlank(row.enHtml) && isBlank(row.koHtml) }]}>
+				<div class="en prose" lang="en" set:html={row.enHtml} />
+				{bilingual && <div class="ko prose" set:html={row.koHtml} />}
+			</div>
+		))
+	}
+
+	<Pager prev={pager.prev} next={pager.next} />
 </article>
 
+<script>
+	const STORAGE_KEY = 'bilingual-view';
+	const VIEWS = ['both', 'en', 'ko'];
+
+	function apply(article: HTMLElement, view: string) {
+		article.dataset.view = view;
+		for (const button of article.querySelectorAll<HTMLButtonElement>('[data-view-option]')) {
+			button.setAttribute('aria-pressed', String(button.dataset.viewOption === view));
+		}
+	}
+
+	for (const article of document.querySelectorAll<HTMLElement>('.bilingual[data-bilingual="true"]')) {
+		let stored: string | null = null;
+		try {
+			stored = localStorage.getItem(STORAGE_KEY);
+		} catch {
+			// 저장소를 못 쓰면 기본값(대역)으로 둔다.
+		}
+		if (stored && VIEWS.includes(stored)) apply(article, stored);
+
+		article.addEventListener('click', (event) => {
+			const button = (event.target as HTMLElement).closest<HTMLButtonElement>('[data-view-option]');
+			if (!button?.dataset.viewOption) return;
+			apply(article, button.dataset.viewOption);
+			try {
+				localStorage.setItem(STORAGE_KEY, button.dataset.viewOption);
+			} catch {
+				// 이번 페이지에서만 바뀐다.
+			}
+		});
+	}
+</script>
+
 <style>
-	.content {
-		padding: 0;
-		width: 100%;
-		height: 100%;
-		display: flex;
-		flex-direction: column;
+	.bi-head {
+		margin-bottom: 1.25rem;
 	}
 
-	.bilingual-content {
-		max-width: 100%;
-	}
-
-	.content > section {
-		margin-bottom: 4rem;
-	}
-
-	.block {
-		display: block;
-	}
-
-	.bilingual-lang-labels {
-		display: none;
-	}
-
-	.bilingual-row {
+	.bi-titles {
 		display: grid;
-		grid-template-columns: 1fr;
-		gap: 0.25rem 2rem;
-		padding-block: 0.5rem;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 3rem;
+		padding-bottom: 1.125rem;
+		border-bottom: 3px double var(--text);
 	}
 
-	.bilingual-row.kind-heading {
-		padding-top: 1.5rem;
-	}
-
-	.bilingual-row.kind-preamble {
-		padding-block: 0.5rem 0;
-	}
-
-	.bilingual-row.kind-preamble .ko {
-		border-top: none;
-		padding-top: 0;
-	}
-
-	.bilingual-row .ko {
-		border-top: 1px dashed var(--color-base-300, currentColor);
-		padding-top: 0.5rem;
-		opacity: 1;
-	}
-
-	/*
-		대역 본문의 조판은 원본 책(철의 맹세 PDF)을 따른다: 명조체 본문, 넉넉한 행간,
-		글자에 딱 붙는 헤딩 밑줄, 어두운 인용 상자.
-		set:html로 넣은 마크다운에는 스코프 속성이 붙지 않으므로 :global()로 잡는다.
-	*/
-	.bilingual-content .bilingual-row .en,
-	.bilingual-content .bilingual-row .ko {
-		font-family: var(--font-reading);
-	}
-
-	.bilingual-content .bilingual-row :global(p),
-	.bilingual-content .bilingual-row :global(li) {
-		line-height: 1.75;
-	}
-
-	/* 헤딩은 본문과 달리 산세리프를 쓴다. */
-	.bilingual-content .bilingual-row :global(h2),
-	.bilingual-content .bilingual-row :global(h3),
-	.bilingual-content .bilingual-row :global(h4),
-	.bilingual-content .bilingual-row :global(h5),
-	.bilingual-content .bilingual-row :global(h6) {
-		font-family: var(--font-body);
-	}
-
-	/* 밑줄이 글자에 딱 붙도록 행간을 좁히고 아래 여백을 없앤다. */
-	.bilingual-content .bilingual-row :global(h2),
-	.bilingual-content .bilingual-row :global(h3) {
-		line-height: 1.1;
-		padding-bottom: 0;
-	}
-
-	.bilingual-content .bilingual-row .en :global(h2),
-	.bilingual-content .bilingual-row .en :global(h3) {
-		text-transform: uppercase;
-	}
-
-	.bilingual-content .bilingual-row :global(table) {
-		line-height: 1.5;
-	}
-
-	.bilingual-content .bilingual-row :global(blockquote) {
-		/* 원본은 어두운 네모 상자에 흰 기울임꼴을 얹는다. */
-		margin: 1.5rem 0;
-		padding: 1.1em 1.25em;
-		border: 0;
-		border-radius: 0;
-		background-color: var(--color-neutral);
-		color: var(--color-neutral-content);
-	}
-
-	/* 한글은 기울이면 글자가 비뚤어 보이므로, 기울임꼴은 원문 열에만 쓴다. */
-	.bilingual-content .bilingual-row .en :global(blockquote) {
-		font-style: italic;
+	.bi-title {
+		margin: 0;
+		font-family: var(--font-serif);
 		font-weight: 600;
-	}
-
-	.bilingual-content .bilingual-row :global(blockquote p) {
-		line-height: 1.6;
-	}
-
-	.title-en {
-		opacity: 0.5;
-		font-size: 0.7em;
+		font-size: clamp(1.75rem, 1.4rem + 1.4vw, 2.5rem);
+		line-height: 1.25;
+		letter-spacing: -0.03em;
 	}
 
 	.pending-notice {
-		margin-bottom: 1.5rem;
-		padding: 0.75rem 1rem;
-		border-radius: 0.5rem;
-		background-color: var(--color-base-200);
-		font-size: 0.95em;
+		margin: 0 0 1.5rem;
+		padding: 0.875rem 1.125rem;
+		border-top: 2px solid var(--accent);
+		background: var(--surface);
+		font-size: 0.9375rem;
 	}
 
-	.chapter-nav {
+	.pending-notice a {
+		color: var(--accent);
+		text-decoration: underline;
+		text-underline-offset: 0.2em;
+	}
+
+	.bi-toolbar {
 		display: flex;
+		align-items: center;
 		justify-content: space-between;
-		gap: 1rem;
-		margin-top: 3rem;
-		padding-top: 1.5rem;
-		border-top: 1px solid var(--color-base-300, currentColor);
+		margin: 0 0 1.5rem;
 	}
 
-	.chapter-nav-link {
-		flex: 1;
+	/* 링크가 가리키는 앵커는 남겨 둔다. */
+	.bi-row.is-blank {
+		display: block;
+		height: 0;
+		overflow: hidden;
 	}
 
-	.chapter-nav-link.next {
-		text-align: right;
+	.bi-view {
+		display: inline-flex;
+		padding: 0.1875rem;
+		background: var(--surface);
 	}
 
-	.chapter-nav-link.disabled {
-		visibility: hidden;
+	.bi-view button {
+		min-height: 2.25rem;
+		padding: 0 0.875rem;
+		border: 0;
+		background: transparent;
+		font-size: 0.8125rem;
+		color: var(--muted);
 	}
 
-	@media (min-width: 50em) {
-		.sm\:hidden {
+	.bi-view button[aria-pressed='true'] {
+		background: var(--bg);
+		color: var(--text);
+		font-weight: 700;
+	}
+
+	.bi-row {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+		column-gap: 3rem;
+	}
+
+	.bi-labels {
+		padding: 0.5rem 0;
+		margin-bottom: 0.5rem;
+		font-size: 0.6875rem;
+		font-weight: 700;
+		letter-spacing: 0.12em;
+		color: var(--faint);
+		border-bottom: 1px solid var(--rule);
+	}
+
+	/*
+		원고의 절(또는 덩어리) 단위로 짝을 맞춘다. 각 열 안의 여백은 .prose가 맡고,
+		제목이 아닌 덩어리만 앞 덩어리와 문단 간격을 띄운다.
+	*/
+	.bi-row .prose > :global(:first-child:not(h1, h2, h3, h4, h5, h6)) {
+		margin-top: 0.875em;
+	}
+
+	.bi-row.kind-preamble .prose > :global(:first-child) {
+		margin-top: 0;
+	}
+
+	/* 한 언어만 보기 */
+	.bilingual[data-view='en'] .bi-row .ko,
+	.bilingual[data-view='ko'] .bi-row .en {
+		display: none;
+	}
+
+	.bilingual[data-view='en'] .bi-row,
+	.bilingual[data-view='ko'] .bi-row,
+	.bilingual[data-bilingual='false'] .bi-row {
+		grid-template-columns: minmax(0, 1fr);
+		max-width: var(--measure);
+	}
+
+	.bilingual[data-view='en'] .bi-labels,
+	.bilingual[data-view='ko'] .bi-labels {
+		display: none;
+	}
+
+	.bilingual[data-view='ko'] .bi-titles .bi-title[lang='en'] {
+		display: none;
+	}
+
+	/* 좁은 화면: 문단마다 영어, 한국어 순으로 쌓는다. 두 언어는 같은 크기·같은 색이다. */
+	@media (max-width: 60em) {
+		.bi-titles {
+			grid-template-columns: minmax(0, 1fr);
+		}
+
+		.bi-titles .bi-title + .bi-title {
+			margin-top: 0.125rem;
+		}
+
+		.bi-row {
+			grid-template-columns: minmax(0, 1fr);
+		}
+
+		.bi-labels {
 			display: none;
 		}
 
-		.bilingual-row.en-only {
-			grid-template-columns: 1fr;
+		.bilingual[data-view='both'][data-bilingual='true'] .bi-row:not(.bi-labels) {
+			padding-bottom: 1rem;
+			border-bottom: 1px solid var(--rule);
 		}
 
-		.bilingual-lang-labels {
-			display: grid;
-			grid-template-columns: 1fr 1fr;
-			gap: 2rem;
-			font-size: 0.8rem;
-			text-transform: uppercase;
-			letter-spacing: 0.05em;
-			opacity: 0.6;
-			padding-bottom: 0.5rem;
-			border-bottom: 1px solid var(--color-base-300, currentColor);
-			margin-bottom: 1rem;
-			position: sticky;
-			top: 0;
-			background: var(--color-base-100, inherit);
-			z-index: 1;
+		.bilingual[data-view='both'][data-bilingual='true'] .bi-row .prose::before {
+			display: block;
+			margin-top: 1rem;
+			font-size: 0.65625rem;
+			font-weight: 700;
+			letter-spacing: 0.12em;
+			color: var(--faint);
 		}
 
-		.bilingual-row {
-			grid-template-columns: 1fr 1fr;
+		.bilingual[data-view='both'][data-bilingual='true'] .bi-row .en::before {
+			content: 'EN';
 		}
 
-		.bilingual-row .ko {
-			border-top: none;
-			border-left: 1px dashed var(--color-base-300, currentColor);
-			padding-top: 0;
-			padding-left: 2rem;
+		.bilingual[data-view='both'][data-bilingual='true'] .bi-row .ko::before {
+			content: 'KO';
+		}
+
+		/* 쌓을 때는 이름표 바로 아래에서 시작한다. */
+		.bilingual[data-view='both'][data-bilingual='true'] .bi-row .prose > :global(:first-child) {
+			margin-top: 0.25em;
+		}
+
+		.bi-view {
+			display: flex;
+			width: 100%;
+		}
+
+		.bi-view button {
+			flex: 1;
+			min-height: 2.5rem;
 		}
 	}
 </style>

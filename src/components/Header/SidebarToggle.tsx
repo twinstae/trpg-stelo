@@ -2,41 +2,32 @@
 import type { FunctionalComponent } from 'preact';
 import { useState, useEffect } from 'preact/hooks';
 
+/** 좁은 화면에서 왼쪽 메뉴를 서랍처럼 연다. <body class="nav-open">을 레이아웃 CSS가 읽는다. */
 const MenuToggle: FunctionalComponent = () => {
-	const [sidebarShown, setSidebarShown] = useState(false);
+	const [open, setOpen] = useState(false);
 
 	useEffect(() => {
-		const body = document.querySelector('body')!;
-		if (sidebarShown) {
-			body.classList.add('mobile-sidebar-toggle');
-		} else {
-			body.classList.remove('mobile-sidebar-toggle');
-		}
-	}, [sidebarShown]);
+		document.body.classList.toggle('nav-open', open);
+		if (!open) return;
+		const onKey = (event: KeyboardEvent) => {
+			if (event.key === 'Escape') setOpen(false);
+		};
+		window.addEventListener('keydown', onKey);
+		return () => window.removeEventListener('keydown', onKey);
+	}, [open]);
 
 	return (
 		<button
 			type="button"
-			aria-pressed={sidebarShown ? 'true' : 'false'}
-			id="menu-toggle"
-			onClick={() => setSidebarShown(!sidebarShown)}
+			class="icon-button"
+			aria-expanded={open ? 'true' : 'false'}
+			aria-controls="site-nav"
+			aria-label={open ? '메뉴 닫기' : '메뉴 열기'}
+			onClick={() => setOpen(!open)}
 		>
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				width="2em"
-				height="2em"
-				fill="none"
-				viewBox="0 0 24 24"
-				stroke="currentColor"
-			>
-				<path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="2"
-					d="M4 6h16M4 12h16M4 18h16"
-				/>
+			<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+				{open ? <path d="M6 6l12 12M18 6L6 18" /> : <path d="M4 7h16M4 12h16M4 17h16" />}
 			</svg>
-			<span className="sr-only">Toggle sidebar</span>
 		</button>
 	);
 };

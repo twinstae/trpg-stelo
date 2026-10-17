@@ -32,6 +32,14 @@ const description =
     ? `던전월드 2 Beta v3 "${playbook!.titleEn}" 직업 플레이북을 캐릭터 시트로 정리한 페이지`
     : `던전월드 2 Beta v3 "${moves!.titleEn}" 액션 참조 시트`;
 
+const chapterSlug = kind === 'playbook' ? playbook!.slug : moves!.slug;
+const sheets = [
+  { slug: 'core-moves', label: '핵심 액션 시트' },
+  { slug: 'extra-moves', label: '추가 액션 시트' },
+  { slug: 'magnitude', label: '위력 시트' },
+  ...DW2_PLAYBOOKS.map((p) => ({ slug: p.slug, label: `${p.titleKo} 캐릭터 시트` })),
+].map((sheet) => ({ ...sheet, href: `/ko/awe/dw2/playbooks/${sheet.slug}` }));
+
 const frontmatter = {
   title,
   description,
@@ -40,59 +48,41 @@ const frontmatter = {
 };
 ---
 
-<SheetLayout frontmatter={frontmatter} headings={[]}>
-  <div class="sheet-wrap">
-    <nav class="sheet-nav" aria-label="이동">
-      {kind === 'playbook' ? (
-        <a href={`/ko/awe/dw2/${playbook!.slug}`}>← {playbook!.titleKo} 장으로</a>
-      ) : (
-        <a href={`/ko/awe/dw2/${moves!.slug}`}>← {moves!.titleKo} 장으로</a>
-      )}
-      <span class="sheet-nav-links">
-        <a href="/ko/awe/dw2/playbooks/core-moves">핵심 액션</a>
-        <a href="/ko/awe/dw2/playbooks/extra-moves">추가 액션</a>
-        <a href="/ko/awe/dw2/playbooks/magnitude">위력</a>
-        {DW2_PLAYBOOKS.map((p) => (
-          <a href={`/ko/awe/dw2/playbooks/${p.slug}`}>{p.titleKo}</a>
-        ))}
-        <a href="/ko/awe/dw2">던전월드 2 목차</a>
-      </span>
-    </nav>
-    <p class="sheet-hint">
-      시트에 적은 값과 표시는 이 브라우저에 저장되어, 페이지를 다시 열어도 그대로 남습니다.
-    </p>
-    {kind === 'playbook' ? <Dw2PlaybookSheet playbook={playbook!} /> : <Dw2MovesSheet group={moves!} />}
-  </div>
+<SheetLayout
+  frontmatter={frontmatter}
+  headings={[]}
+  backHref={`/ko/awe/dw2/${chapterSlug}`}
+  backLabel={`${kind === 'playbook' ? playbook!.titleKo : moves!.titleKo} 장으로`}
+  pageTitle={kind === 'playbook' ? `${playbook!.titleKo} 캐릭터 시트` : `${moves!.titleKo} 액션 시트`}
+>
+  <label slot="tools" class="sheet-switch">
+    <span class="sr-only">다른 시트로 가기</span>
+    <select onchange="location.href = this.value">
+      {sheets.map((sheet) => (
+        <option value={sheet.href} selected={sheet.slug === Astro.params.slug}>
+          {sheet.label}
+        </option>
+      ))}
+    </select>
+  </label>
+  <p class="sheet-hint no-print">
+    시트에 적은 값과 표시는 이 브라우저에 저장되어, 페이지를 다시 열어도 그대로 남습니다.
+  </p>
+  {kind === 'playbook' ? <Dw2PlaybookSheet playbook={playbook!} /> : <Dw2MovesSheet group={moves!} />}
 </SheetLayout>
 
 <style>
-  .sheet-wrap {
-    width: 100%;
-    padding: 2rem 0.75rem 3rem;
-  }
-
-  .sheet-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 0.5rem 1.5rem;
-    margin-bottom: 0.75rem;
-    font-size: 0.85rem;
-  }
-
-  .sheet-nav a {
-    color: var(--color-primary);
-  }
-
-  .sheet-nav-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.25rem 1rem;
+  .sheet-switch select {
+    height: 2.25rem;
+    padding: 0 0.5rem;
+    border: 0;
+    background: var(--bg);
+    font-size: 0.875rem;
   }
 
   .sheet-hint {
     margin: 0 0 1rem;
-    font-size: 0.8rem;
-    opacity: 0.7;
+    font-size: 0.8125rem;
+    color: var(--muted);
   }
 </style>

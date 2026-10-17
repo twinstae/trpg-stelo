@@ -15,7 +15,6 @@
     "@astrojs/mdx": "^7.0.8",
     "@astrojs/preact": "^6.0.4",
     "astro": "^7.2.8",
-    "daisyui": "^5.7.22",
     "flexsearch": "^0.8.212",
     "github-slugger": "^2.0.0",
     "hast-util-from-html": "^2.0.3",

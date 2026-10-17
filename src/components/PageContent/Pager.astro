@@ -1,0 +1,29 @@
+---
+import type { Neighbor } from '../../navigation';
+
+type Props = {
+	prev?: Neighbor;
+	next?: Neighbor;
+};
+
+const { prev, next } = Astro.props as Props;
+---
+
+{
+	(prev || next) && (
+		<nav class="pager no-print" aria-label="이전, 다음 문서">
+			{prev && (
+				<a class="pager-prev" href={prev.href}>
+					<small>← 이전{prev.section && ` · ${prev.section}`}</small>
+					{prev.text}
+				</a>
+			)}
+			{next && (
+				<a class="pager-next" href={next.href}>
+					<small>{next.section && `${next.section} · `}다음 →</small>
+					{next.text}
+				</a>
+			)}
+		</nav>
+	)
+}

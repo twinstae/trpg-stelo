@@ -1,4 +1,5 @@
 ---
+import ChapterIndex from '../../../components/PageContent/ChapterIndex.astro';
 import MainLayout from '../../../layouts/MainLayout.astro';
 import { FATE_CONDENSED_CHAPTERS, FATE_CONDENSED_SOURCE } from '../../../data/fate-condensed/chapters';
 
@@ -42,73 +43,16 @@ const translatedCount = FATE_CONDENSED_CHAPTERS.filter((chapter) => chapter.stat
       제공되는 내용을 담고 있습니다.
     </p>
   </section>
-
-  <ol class="chapter-list">
-    {
-      FATE_CONDENSED_CHAPTERS.map((chapter) => (
-        <li>
-          <a href={`/ko/fate-condensed/${chapter.slug}`}>
-            {chapter.titleKo} <span class="title-en">{chapter.titleEn}</span>
-          </a>
-          {chapter.status === 'pending' && <span class="status-badge">원문만</span>}
-        </li>
-      ))
-    }
-  </ol>
+  <ChapterIndex
+    groups={[
+      {
+        chapters: FATE_CONDENSED_CHAPTERS.map((chapter) => ({
+          href: `/ko/fate-condensed/${chapter.slug}`,
+          titleKo: chapter.titleKo,
+          titleEn: chapter.titleEn,
+          status: chapter.status === 'pending' ? '원문만' : undefined,
+        })),
+      },
+    ]}
+  />
 </MainLayout>
-
-<style>
-  .notice {
-    margin-top: 2rem;
-    padding: 1rem 1.25rem;
-    border-radius: 0.5rem;
-    background-color: var(--color-base-200);
-    font-size: 0.95em;
-  }
-
-  .notice h2 {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .notice blockquote {
-    margin: 0.75rem 0;
-    padding-left: 1rem;
-    border-left: 3px solid var(--color-base-300);
-    opacity: 0.85;
-  }
-
-  .credit {
-    opacity: 0.75;
-  }
-
-  .chapter-list {
-    margin-top: 2rem;
-    list-style: none;
-    padding-left: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .chapter-list li {
-    padding: 0.5rem 0.75rem;
-    border-radius: 0.5rem;
-    background-color: var(--color-base-200);
-  }
-
-  .title-en {
-    opacity: 0.6;
-    font-size: 0.9em;
-    margin-left: 0.25em;
-  }
-
-  .status-badge {
-    margin-left: 0.5em;
-    font-size: 0.7em;
-    letter-spacing: 0.05em;
-    padding: 0.1em 0.5em;
-    border-radius: 999em;
-    background-color: var(--color-base-300);
-  }
-</style>

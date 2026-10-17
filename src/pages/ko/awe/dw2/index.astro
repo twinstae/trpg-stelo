@@ -1,4 +1,5 @@
 ---
+import ChapterIndex from '../../../../components/PageContent/ChapterIndex.astro';
 import MainLayout from '../../../../layouts/MainLayout.astro';
 import { DW2_CHAPTERS, DW2_SOURCE } from '../../../../data/dw2/chapters';
 
@@ -33,61 +34,15 @@ for (const chapter of DW2_CHAPTERS) {
     번역을 마쳤습니다.
   </p>
 
-  {
-    parts.map(({ part, chapters }) => (
-      <section class="part">
-        <h2>{part}</h2>
-        <ol class="chapter-list">
-          {chapters.map((chapter) => (
-            <li>
-              <a href={`/ko/awe/dw2/${chapter.slug}`}>
-                {chapter.titleKo} <span class="title-en">{chapter.titleEn}</span>
-              </a>
-              {chapter.status === 'pending' && <span class="status-badge">원문만</span>}
-            </li>
-          ))}
-        </ol>
-      </section>
-    ))
-  }
+  <ChapterIndex
+    groups={parts.map(({ part, chapters }) => ({
+      title: part,
+      chapters: chapters.map((chapter) => ({
+        href: `/ko/awe/dw2/${chapter.slug}`,
+        titleKo: chapter.titleKo,
+        titleEn: chapter.titleEn,
+        status: chapter.status === 'pending' ? '원문만' : undefined,
+      })),
+    }))}
+  />
 </MainLayout>
-
-<style>
-  .part {
-    margin-top: 2rem;
-  }
-
-  .part h2 {
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .chapter-list {
-    list-style: none;
-    padding-left: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .chapter-list li {
-    padding: 0.5rem 0.75rem;
-    border-radius: 0.5rem;
-    background-color: var(--color-base-200);
-  }
-
-  .title-en {
-    opacity: 0.6;
-    font-size: 0.9em;
-    margin-left: 0.25em;
-  }
-
-  .status-badge {
-    margin-left: 0.5em;
-    font-size: 0.7em;
-    letter-spacing: 0.05em;
-    padding: 0.1em 0.5em;
-    border-radius: 999em;
-    background-color: var(--color-base-300);
-  }
-</style>

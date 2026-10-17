@@ -20,16 +20,13 @@ const frontmatter = {
 };
 ---
 
-<SheetLayout frontmatter={frontmatter} headings={[]}>
+<SheetLayout
+  frontmatter={frontmatter}
+  headings={[]}
+  backHref={`/ko/awe/dw2/${scenario.slug}`}
+  backLabel={`${scenario.titleKo} 장으로`}
+>
   <div class="sheet-wrap">
-    <nav class="sheet-nav" aria-label="이동">
-      <a href={`/ko/awe/dw2/${scenario.slug}`}>← {scenario.titleKo} 장으로</a>
-      <span class="sheet-nav-links">
-        <a href="/ko/awe/dw2/playbooks/core-moves">핵심 액션</a>
-        <a href="/ko/awe/dw2/playbooks">직업 캐릭터 시트</a>
-        <a href="/ko/awe/dw2">던전월드 2 목차</a>
-      </span>
-    </nav>
     <p class="sheet-hint">
       체크박스 표시는 이 브라우저에 저장되어, 페이지를 다시 열어도 그대로 남습니다.
     </p>
@@ -53,7 +50,7 @@ const frontmatter = {
   }
 
   .sheet-nav a {
-    color: var(--color-primary);
+    color: var(--accent);
   }
 
   .sheet-nav-links {

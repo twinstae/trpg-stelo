@@ -11,6 +11,7 @@ import {
 	type SearchPage,
 	type SearchSectionFile,
 } from '../../search/shared';
+import './SearchDialog.css';
 
 type LoadedSection = { key: string; pages: SearchPage[]; index: Document<SearchBlock> };
 type Result = { key: string; page: SearchPage; block: SearchBlock };
@@ -195,25 +196,19 @@ export default function SearchDialog({ pathname }: { pathname: string }) {
 
 	return (
 		<>
-			<button
-				type="button"
-				class="btn btn-sm btn-ghost border-base-300 bg-base-200/50 text-base-content/60 hover:text-base-content h-9 justify-start gap-2 font-normal max-sm:btn-square sm:w-56"
-				onClick={show}
-				aria-label="검색"
-			>
-				<SearchIcon className="size-4 shrink-0" />
-				<span class="max-sm:hidden grow text-left">검색…</span>
-				<kbd class="kbd kbd-sm max-sm:hidden">{isMac ? '⌘' : 'Ctrl'} K</kbd>
+			<button type="button" class="search-trigger" onClick={show} aria-label="검색">
+				<SearchIcon className="search-icon" />
+				<span class="search-trigger-label">검색</span>
+				<kbd>{isMac ? '⌘' : 'Ctrl'} K</kbd>
 			</button>
 
-			<dialog ref={dialogRef} class="modal items-start pt-[12vh]" onClose={() => setOpen(false)} aria-label="사이트 검색">
-				<div class="modal-box w-[calc(100%-2rem)] max-w-xl overflow-hidden rounded-xl border border-base-300 p-0 shadow-2xl">
-					<div class="flex items-center gap-2 border-b border-base-300 px-3">
-						<SearchIcon className="size-4 shrink-0 opacity-50" />
+			<dialog ref={dialogRef} class="search-dialog" onClose={() => setOpen(false)} aria-label="사이트 검색">
+				<div class="search-panel">
+					<div class="search-field">
+						<SearchIcon className="search-icon" />
 						<input
 							ref={inputRef}
 							type="text"
-							class="h-12 w-full grow bg-transparent text-base outline-none placeholder:text-base-content/50"
 							placeholder={scope ? `${scope}에서 검색…` : '검색…'}
 							value={query}
 							onInput={(event) => setQuery((event.target as HTMLInputElement).value)}
@@ -225,54 +220,53 @@ export default function SearchDialog({ pathname }: { pathname: string }) {
 							autocomplete="off"
 							spellcheck={false}
 						/>
-						{scope && <span class="badge badge-soft badge-primary badge-sm shrink-0 whitespace-nowrap">{scope}</span>}
+						{scope && <span class="search-scope">{scope}</span>}
 					</div>
 
 					{status ? (
-						<p class="py-10 text-center text-sm text-base-content/60">{status}</p>
+						<p class="search-status">{status}</p>
 					) : (
-						<ul ref={listRef} id="search-results" role="listbox" class="max-h-[min(60vh,28rem)] overflow-y-auto p-1.5">
+						<ul ref={listRef} id="search-results" role="listbox" class="search-results">
 							{results.map((result, i) => (
 								<li key={`${result.key}:${result.block.id}`} role="option" id={`search-result-${i}`} aria-selected={i === active} data-index={i}>
 									<a
 										href={hrefOf(result)}
-										/* 전역 a 스타일(밑줄·색)이 레이어 밖에 있어 !로 덮는다. */
-										class={`block rounded-md px-3 py-2 text-base-content! no-underline! outline-none! ${i === active ? 'bg-base-content/10' : ''}`}
+										class={i === active ? 'is-active' : undefined}
 										onMouseMove={() => setActive(i)}
 										onClick={(event) => {
 											event.preventDefault();
 											go(result);
 										}}
 									>
-										<div class="flex items-baseline gap-1.5 text-xs text-base-content/60">
-											<span class="truncate font-semibold">{result.page.title}</span>
+										<span class="search-result-path">
+											<strong>{result.page.title}</strong>
 											{result.block.h && (
 												<>
 													<span aria-hidden="true">›</span>
-													<span class="truncate">{result.block.h}</span>
+													<span>{result.block.h}</span>
 												</>
 											)}
-										</div>
-										<p class="mt-0.5 line-clamp-2 text-sm leading-snug">
+										</span>
+										<span class="search-result-text">
 											{highlight(result.block.t, trimmed).map((segment) =>
-												segment.mark ? <mark class="rounded-sm bg-warning/40 px-0.5 text-inherit">{segment.text}</mark> : segment.text,
+												segment.mark ? <mark>{segment.text}</mark> : segment.text,
 											)}
-										</p>
+										</span>
 									</a>
 								</li>
 							))}
 						</ul>
 					)}
 
-					<div class="flex items-center gap-3 border-t border-base-300 px-3 py-2 text-xs text-base-content/50">
-						<span><kbd class="kbd kbd-xs">↑</kbd> <kbd class="kbd kbd-xs">↓</kbd> 이동</span>
-						<span><kbd class="kbd kbd-xs">Enter</kbd> 열기</span>
-						<span><kbd class="kbd kbd-xs">Esc</kbd> 닫기</span>
-						{results.length > 0 && <span class="ml-auto">상위 {results.length}개</span>}
+					<div class="search-help">
+						<span><kbd>↑</kbd> <kbd>↓</kbd> 이동</span>
+						<span><kbd>Enter</kbd> 열기</span>
+						<span><kbd>Esc</kbd> 닫기</span>
+						{results.length > 0 && <span class="search-count">상위 {results.length}개</span>}
 					</div>
 				</div>
-				<form method="dialog" class="modal-backdrop">
-					<button type="submit">닫기</button>
+				<form method="dialog" class="search-backdrop">
+					<button type="submit" tabIndex={-1}>닫기</button>
 				</form>
 			</dialog>
 		</>

@@ -1,4 +1,5 @@
 ---
+import ChapterIndex from '../../../components/PageContent/ChapterIndex.astro';
 import MainLayout from '../../../layouts/MainLayout.astro';
 import { CYPHER_SRD_CHAPTERS } from '../../../data/cypher-srd/chapters';
 
@@ -19,59 +20,16 @@ const frontmatter = {
 		구판 SRD 번역은 <a href="/ko/cypher-open">사이퍼 SRD</a>에서 계속 볼 수 있습니다. 신판은 챕터 구성이 크게 바뀌어서
 		(생물 챕터가 사라지고, 캐릭터 유형·수식어·특징·특수능력이 장르별로 재구성됨) 별도 섹션으로 새로 번역하고 있습니다.
 	</p>
-
-	<ol class="chapter-list">
-		{
-			CYPHER_SRD_CHAPTERS.map((chapter, index) => (
-				<li>
-					{chapter.status === 'translated' ? (
-						<a href={`/ko/cypher-srd/${chapter.slug}`}>
-							{index + 1}. {chapter.titleKo} <span class="title-en">{chapter.titleEn}</span>
-						</a>
-					) : (
-						<span class="pending">
-							{index + 1}. {chapter.titleKo} <span class="title-en">{chapter.titleEn}</span>
-							<span class="status-badge">번역 예정</span>
-						</span>
-					)}
-				</li>
-			))
-		}
-	</ol>
+  <ChapterIndex
+    groups={[
+      {
+        chapters: CYPHER_SRD_CHAPTERS.map((chapter) => ({
+          href: chapter.status === 'translated' ? `/ko/cypher-srd/${chapter.slug}` : undefined,
+          titleKo: chapter.titleKo,
+          titleEn: chapter.titleEn,
+          status: chapter.status === 'pending' ? '번역 예정' : undefined,
+        })),
+      },
+    ]}
+  />
 </MainLayout>
-
-<style>
-	.chapter-list {
-		list-style: none;
-		padding-left: 0;
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-	}
-
-	.chapter-list li {
-		padding: 0.5rem 0.75rem;
-		border-radius: 0.5rem;
-		background-color: var(--color-base-200);
-	}
-
-	.title-en {
-		opacity: 0.6;
-		font-size: 0.9em;
-		margin-left: 0.25em;
-	}
-
-	.pending {
-		opacity: 0.6;
-	}
-
-	.status-badge {
-		margin-left: 0.5em;
-		font-size: 0.75em;
-		text-transform: uppercase;
-		letter-spacing: 0.05em;
-		padding: 0.1em 0.5em;
-		border-radius: 999em;
-		background-color: var(--color-base-300);
-	}
-</style>

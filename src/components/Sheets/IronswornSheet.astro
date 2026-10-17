@@ -308,12 +308,12 @@ const pageRange = (count: number) => Array.from({ length: count });
     padding: 0.7rem 0.8rem 0.8rem;
     background: var(--iw-paper);
     color: var(--iw-ink);
-    font-family: var(--font-body);
+    font-family: var(--font-sans);
     border: 2px solid var(--iw-rule);
     border-radius: 2px;
   }
 
-  .theme-dark .iw-sheet {
+  [data-theme="dark"] .iw-sheet {
     --iw-paper: #141414;
     --iw-paper-soft: #2b2b2b;
     --iw-ink: #f2f2f2;
@@ -840,7 +840,7 @@ const pageRange = (count: number) => Array.from({ length: count });
     padding: 0;
     font-size: 0.68rem;
     line-height: 1.5;
-    color: var(--color-base-content, inherit);
+    color: var(--text);
     opacity: 0.8;
   }
 

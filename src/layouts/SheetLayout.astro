@@ -1,32 +1,160 @@
 ---
+/**
+ * 캐릭터 시트처럼 인쇄해서 쓰는 페이지. 화면에서는 위에 도구 막대(돌아가기 · 경로 · 인쇄)가 붙고,
+ * 인쇄하면 도구 막대 없이 시트만 나온다. 페이지별 도구는 slot="tools"로 넣는다.
+ */
 import HeadCommon from '../components/HeadCommon.astro';
 import HeadSEO from '../components/HeadSEO.astro';
+import ThemeToggleButton from '../components/Header/ThemeToggleButton';
 import * as CONFIG from '../config';
-import { DAISY_THEMES } from '../utils/theme';
+import { breadcrumb, locate, topicHref } from '../navigation';
 import type { MarkdownHeading } from 'astro';
 
 type Props = {
 	frontmatter: CONFIG.Frontmatter;
 	headings: MarkdownHeading[];
+	/** 돌아가기 링크. 기본값은 시트가 속한 자료의 첫 페이지. */
+	backHref?: string;
+	backLabel?: string;
+	/** 경로 표시의 마지막 칸. 기본값은 메뉴의 이름 또는 페이지 제목. */
+	pageTitle?: string;
 };
 
-const { frontmatter } = Astro.props as Props;
+const { frontmatter, backHref, backLabel, pageTitle } = Astro.props as Props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const location = locate(CONFIG.SIDEBAR.ko, Astro.url.pathname);
+const crumbs = breadcrumb(location, pageTitle ?? frontmatter.title).slice(1);
+const back = backHref ?? (location ? topicHref(location.topic) : '/ko/welcome');
 ---
 
-<html dir={frontmatter.dir ?? 'ltr'} lang={frontmatter.lang ?? 'en-us'} class="initial" data-theme={DAISY_THEMES.light}>
+<html dir={frontmatter.dir ?? 'ltr'} lang={frontmatter.lang ?? 'ko'}>
 	<head>
 		<HeadCommon />
 		<HeadSEO frontmatter={frontmatter} canonicalUrl={canonicalURL} />
 		<link rel="me" href="https://dice.camp/@stelo" />
-		<title>
-			{frontmatter.title ? `${frontmatter.title} 🚀 ${CONFIG.SITE.title}` : CONFIG.SITE.title}
-		</title>
+		<title>{frontmatter.title ? `${frontmatter.title} 🚀 ${CONFIG.SITE.title}` : CONFIG.SITE.title}</title>
 	</head>
 
-	<body>
-		<main class="flex flex-col w-full h-fit max-w-6xl mx-auto">
+	<body class="sheet-page">
+		<div class="sheet-toolbar no-print" role="toolbar" aria-label="시트 도구">
+			<a class="sheet-back" href={back}>
+				<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+					<path d="M15 6l-6 6 6 6"></path>
+				</svg>
+				{backLabel ?? '돌아가기'}
+			</a>
+			<nav class="sheet-crumbs" aria-label="현재 위치">
+				{
+					crumbs.map((crumb, index) =>
+						crumb.href ? (
+							<a href={crumb.href}>{crumb.text}</a>
+						) : (
+							<span aria-current={index === crumbs.length - 1 ? 'page' : undefined}>{crumb.text}</span>
+						),
+					)
+				}
+			</nav>
+			<div class="sheet-tools">
+				<slot name="tools" />
+				<ThemeToggleButton client:load />
+				<button type="button" class="button button--primary" onclick="window.print()">
+					<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+						<path d="M7 9V3h10v6M7 18H4v-7h16v7h-3M7 14h10v7H7z"></path>
+					</svg>
+					인쇄
+				</button>
+			</div>
+		</div>
+		<main id="article" class="sheet-main">
 			<slot />
 		</main>
 	</body>
 </html>
+
+<style>
+	.sheet-toolbar {
+		position: sticky;
+		top: 0;
+		z-index: 30;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.5rem 1rem;
+		min-height: var(--header-h);
+		padding: 0.5rem 1.5rem;
+		background: var(--surface);
+		font-size: 0.875rem;
+	}
+
+	.sheet-back {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.25rem;
+		min-height: 2.25rem;
+		color: var(--muted);
+	}
+
+	.sheet-back:hover {
+		color: var(--text);
+	}
+
+	.sheet-crumbs {
+		display: flex;
+		flex: 1;
+		min-width: 0;
+		gap: 0.5rem;
+		color: var(--muted);
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	.sheet-crumbs > * + *::before {
+		content: '›';
+		margin-right: 0.5rem;
+		color: var(--faint);
+	}
+
+	.sheet-crumbs a:hover {
+		color: var(--text);
+	}
+
+	.sheet-crumbs [aria-current] {
+		color: var(--text);
+		font-weight: 700;
+	}
+
+	.sheet-tools {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	.sheet-main {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		max-width: 72rem;
+		margin: 0 auto;
+		padding: 2rem 1rem 4rem;
+	}
+
+	@media (max-width: 50em) {
+		.sheet-toolbar {
+			padding: 0.5rem 1rem;
+		}
+
+		.sheet-crumbs {
+			order: 3;
+			flex-basis: 100%;
+			overflow-x: auto;
+		}
+	}
+
+	@media print {
+		.sheet-main {
+			max-width: none;
+			padding: 0;
+		}
+	}
+</style>

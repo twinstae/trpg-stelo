@@ -3,7 +3,6 @@ import HeadCommon from '../components/HeadCommon.astro';
 import HeadSEO from '../components/HeadSEO.astro';
 import * as CONFIG from '../config';
 import type { MarkdownHeading } from 'astro';
-import '../styles/global.css';
 
 type Props = {
 	frontmatter: CONFIG.Frontmatter;
@@ -14,7 +13,7 @@ const { frontmatter } = Astro.props as Props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
-<html dir={frontmatter.dir ?? 'ltr'} lang={frontmatter.lang ?? 'en-us'} class="initial" data-theme="garden">
+<html dir={frontmatter.dir ?? 'ltr'} lang={frontmatter.lang ?? 'ko'}>
 	<head>
 		<HeadCommon />
 		<HeadSEO frontmatter={frontmatter} canonicalUrl={canonicalURL} />
