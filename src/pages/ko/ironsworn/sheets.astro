@@ -41,49 +41,13 @@ const SECTIONS = [
       </span>
     </nav>
 
-    <header class="sheet-intro">
-      <h1 class="sheet-title">철의 맹세 시트 모음</h1>
-      <p>
-        숀 톰킨의 <strong>{IRONSWORN_SOURCE.titleKo}</strong>(<em>Ironsworn</em>)에 딸린 인쇄용
-        시트를 한국어로 옮겼습니다. 캐릭터 시트는 《철의 맹세》 플레이킷을 따르고, 액션
-        레퍼런스는 규칙서 대역에서 액션 상자를 그대로 뽑아 여섯 갈래로 나눴으며, 자산 카드는{' '}
-        <em>Ironsworn Assets</em> 인쇄용 카드 가운데 아홉 장을 골라 담았습니다.
-      </p>
-      <p>
-        세계를 세우는 <a href="/ko/ironsworn/truths-workbook">당신의 세계 — 진실 워크북</a>은
-        따로 한 쪽에 담았습니다. 시트에 적은 값과 표시는 여러분의 브라우저(localStorage)에 저장되어,
-        페이지를 다시 열어도 그대로 남습니다. 능력치처럼 직접 적는 칸은 물론, 동그라미와 네모, 모멘텀 사다리처럼
-        표시하는 칸도 모두 눌러서 채울 수 있습니다. 트랙처럼 값 하나만 표시하는 칸은 표시된
-        곳을 한 번 더 누르면 지워집니다.
-      </p>
-      <p class="sheet-term-note">
-        시트는 인쇄해 손에 들고 쓰도록 만들었습니다. 위의 <strong>인쇄하기</strong> 단추를
-        누르면 안내 글과 이동 링크를 빼고 시트만 인쇄됩니다. 용어는{' '}
-        <a href="/ko/ironsworn/GLOSSARY">용어집</a>을 따랐습니다.
-      </p>
-    </header>
-
     <section id="character" class="sheet-section">
       <h2 class="sheet-heading">캐릭터 시트 <span>Character Sheet</span></h2>
-      <p class="sheet-lead">
-        능력치와 경험, 유대와 맹세, 결점을 적고 건강·정신·보급과 모멘텀을 표시합니다. 맹세마다
-        등급을 고르면 그 등급이 이정표마다 표시하는 진척을 아래에 적어 두었습니다.
-      </p>
       <IronswornSheet />
     </section>
 
     <section id="moves" class="sheet-section">
       <h2 class="sheet-heading">액션 레퍼런스 <span>Move Reference</span></h2>
-      <p class="sheet-lead">
-        여섯 갈래 액션을 인쇄용 레퍼런스처럼 담았습니다. 액션 이름과 결과 문구는 규칙서
-        대역에서 그대로 가져오므로, 자세한 설명과 플레이 예시는{' '}
-        <a href="/ko/ironsworn/adventure-moves">모험 액션</a>,{' '}
-        <a href="/ko/ironsworn/relationship-moves">관계 액션</a>,{' '}
-        <a href="/ko/ironsworn/combat-moves">전투 액션</a>,{' '}
-        <a href="/ko/ironsworn/suffer-moves">고난 액션</a>,{' '}
-        <a href="/ko/ironsworn/quest-moves">임무 액션</a>,{' '}
-        <a href="/ko/ironsworn/fate-moves">운명 액션</a>에서 영어 원문과 나란히 볼 수 있습니다.
-      </p>
       <nav class="sheet-chips" aria-label="액션 갈래">
         {
           IRONSWORN_MOVE_SHEETS.map((sheet) => (
@@ -105,28 +69,6 @@ const SECTIONS = [
         자산을 적는 자리입니다.
       </p>
       <IronswornAssetCards />
-    </section>
-
-    <section class="sheet-glossary">
-      <h2 class="sheet-heading">용어 대조</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>영문</th>
-            <th>한국어</th>
-          </tr>
-        </thead>
-        <tbody>
-          {
-            GLOSSARY.map(([en, ko]) => (
-              <tr>
-                <td>{en}</td>
-                <td>{ko}</td>
-              </tr>
-            ))
-          }
-        </tbody>
-      </table>
     </section>
 
     <footer class="sheet-credit">

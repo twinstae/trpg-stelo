@@ -72,6 +72,11 @@ export const SIDEBAR: Sidebar = {
       { text: "플레이의 예", link: "/example-of-play" },
       //  { text: '사냥하는 소리의 첨탑: 퀵스타트', link: '/the-spire-of-the-hunting-sound' },
     ]),
+    Topic("자작 자료", "/numenera", [
+      { text: "조화: 확장 규칙", link: "/harmony" },
+      // 	{ text: '일레인: 공동체', link: '/elaine-community' },
+      // 	{ text: '죽은 새들의 언어: 시나리오', link: '/dead-birds-language' },
+    ]),
     Topic("13시대 2판", "/13th-age", [
       { text: "사전 제작 캐릭터", link: "/pregenerated-characters" },
     ]),
@@ -119,19 +124,14 @@ export const SIDEBAR: Sidebar = {
         { text: "진실 워크북", link: "/truths-workbook" },
       ]),
     ]),
-    Topic("자작 자료", "/numenera", [
-      { text: "조화: 확장 규칙", link: "/harmony" },
-      // 	{ text: '일레인: 공동체', link: '/elaine-community' },
-      // 	{ text: '죽은 새들의 언어: 시나리오', link: '/dead-birds-language' },
-    ]),
     // Topic('리뷰', '/numenera/reviews', [
     // 	{ text: '구매 안내서', link: '/buy-guide' },
     // 	{ text: '누메네라 코어북', link: '/core-book' },
     // ]),
-    Topic("기록", "/numenera/records", [
-      { text: "2022년 4분기", link: "/2022-4q" },
-      { text: "1년 간의 제9세계 일주", link: "/around-the-ninth-world-in-one-year" },
-    ]),
+    // Topic("기록", "/numenera/records", [
+    //   { text: "2022년 4분기", link: "/2022-4q" },
+    //   { text: "1년 간의 제9세계 일주", link: "/around-the-ninth-world-in-one-year" },
+    // ]),
     // Topic('약을 전하는 여행', '/fellowship-of-the-medicine', [
     // 	{ text: '소개', link: '/introduction' },
     // 	{ text: '겁스 경량판 어댑터', link: '/gurps-light' },
@@ -147,9 +147,9 @@ export const SIDEBAR: Sidebar = {
     // ]),
     Topic("노트", "/note", [
       { text: "이론, 놀이, 이야기", link: "/theory-game-story" },
-      { text: "구경 책임제", link: "/diameter-responsibility-rule" },
-      { text: "개념적 거리", link: "/conceptual-distance" },
-      { text: "정의, 가족 유사성, 분류", link: "/definition-family-resemblance-classification" },
+      // { text: "구경 책임제", link: "/diameter-responsibility-rule" },
+      // { text: "개념적 거리", link: "/conceptual-distance" },
+      // { text: "정의, 가족 유사성, 분류", link: "/definition-family-resemblance-classification" },
       // { text: '이야기 속 현실과 논리', link: '/reality-and-logic' },
       // { text: '이야기 속 현실 사전', link: '/realistic-story-dict' },
       // { text: '불가능 부수기', link: '/breaking-impossible' },

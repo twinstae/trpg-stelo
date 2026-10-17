@@ -184,3 +184,26 @@ publish: true
 | warband strength | 전투력 | 전우단 트랙(0–+4) |
 | dancer | 춤꾼 | 경로 |
 | face desolation | 황폐함 맞서기 | 액션 이름(5절) |
+| cave lion / giant spider / hawk / horse / hound | 동굴 사자 / 거대 거미 / 매 / 말 / 사냥개 | 동반자 |
+| kindred / mammoth / owl / raven | 동지 / 매머드 / 올빼미 / 갈까마귀 | 동반자 |
+| devotant / empowered / fated / fortune hunter | 신봉자 / 권세 있는 자 / 운명 지어진 자 / 보물 사냥꾼 | 경로 |
+| wealth | 재산 | 보물 사냥꾼 트랙(0–+5) |
+| herbalist / honorbound / improviser / infiltrator | 약초꾼 / 명예에 묶인 자 / 임기응변가 / 침투자 | 경로 |
+| lorekeeper / loyalist / masked / oathbreaker | 전승지기 / 충직한 자 / 가면 쓴 자 / 맹세를 깬 자 | 경로 |
+| elderwood (thunderwood / bloodwood / ghostwood / whisperwood) | 장로나무(천둥나무 / 핏빛나무 / 유령나무 / 속삭임나무) | 가면 쓴 자의 가면 재료 |
+| outcast / pretender / revenant / rider / ritualist | 추방자 / 사칭자 / 돌아온 자 / 기수 / 의례술사 | 경로 |
+| shadow-kin / sighted / slayer / spirit-bound | 그림자 혈족 / 보는 자 / 학살자 / 영에 묶인 자 | 경로 |
+| storyweaver / trickster / veteran / waterborn | 이야기꾼 / 협잡꾼 / 노병 / 물의 자식 | 경로 |
+| wayfinder / weaponmaster / wildblood / wright | 길잡이 / 무기의 달인 / 야생의 피 / 장인 | 경로 |
+| horror | 공포 | 언데드 존재(7장) |
+| Check Your Gear | 장비 확인하기 | 임기응변가 카드에만 나오는 액션 이름 |
+| archer / berserker / brawler / cutthroat / duelist | 궁수 / 광전사 / 싸움꾼 / 칼잡이 / 결투가 | 전투 재능 |
+| fletcher / ironclad / long-arm / shield-bearer | 화살장이 / 철갑 / 장봉술 / 방패병 | 전투 재능 |
+| lightly armored / geared for war | 가벼운 무장 / 전쟁 채비 | 철갑의 두 상태 |
+| skirmisher / slinger / sunderer / swordmaster / thunder-bringer | 척후병 / 투석병 / 도끼잡이 / 검의 달인 / 천둥을 부르는 자 | 전투 재능 |
+| augur / awakening / bind / communion / divination | 새점 / 깨움 / 묶기 / 영혼과의 교감 / 점술 | 의례 |
+| simulacrum | 인형 | 깨움으로 만드는 창조물 |
+| invoke / keen / leech / lightbearer / scry | 불러내기 / 애가 / 흡혈 / 빛을 든 자 / 불점 | 의례 |
+| essence / light | 정수 / 빛 | 불러내기·빛을 든 자의 트랙(0–+6) |
+| shadow-walk / sway / talisman / tether | 그림자 걷기 / 바람의 속삭임 / 부적 / 매어 두기 | 의례 |
+| totem / visage / ward | 토템 / 탈 / 결계 | 의례 |

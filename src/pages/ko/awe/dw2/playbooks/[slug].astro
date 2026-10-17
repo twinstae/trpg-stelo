@@ -65,9 +65,6 @@ const frontmatter = {
       ))}
     </select>
   </label>
-  <p class="sheet-hint no-print">
-    시트에 적은 값과 표시는 이 브라우저에 저장되어, 페이지를 다시 열어도 그대로 남습니다.
-  </p>
   {kind === 'playbook' ? <Dw2PlaybookSheet playbook={playbook!} /> : <Dw2MovesSheet group={moves!} />}
 </SheetLayout>
 
