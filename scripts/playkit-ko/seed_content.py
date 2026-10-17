@@ -129,7 +129,7 @@ LABELS: dict[str, str] = {
     "CHARACTER": "캐릭터",
     "EXPERIENCE": "경험",
     "EDGE": "기민",
-    "HEART": "심지",
+    "HEART": "심장",
     "IRON": "강철",
     "SHADOW": "그림자",
     "WITS": "지혜",

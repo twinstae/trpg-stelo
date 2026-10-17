@@ -122,7 +122,7 @@ const RANGES = [
   { slug: "principles", titleEn: "Principles", titleKo: "원칙", part: PARTS.depth, chapter: "GAMEPLAY IN DEPTH", from: "PRINCIPLES" },
   { slug: "gameplay-options", titleEn: "Gameplay Options", titleKo: "플레이 선택 규칙", part: PARTS.depth, chapter: "GAMEPLAY IN DEPTH", from: "GAMEPLAY OPTIONS" },
   { slug: "hacking-ironsworn", titleEn: "Hacking Ironsworn", titleKo: "철의 맹세 변형하기", part: PARTS.depth, chapter: "GAMEPLAY IN DEPTH", from: "HACKING IRONSWORN" },
-  { slug: "extended-example-of-play", titleEn: "Extended Example of Play", titleKo: "확장 플레이 예시", part: PARTS.depth, chapter: "GAMEPLAY IN DEPTH", from: "EXTENDED EXAMPLE OF PLAY" },
+  { slug: "extended-example-of-play", titleEn: "Extended Example of Play", titleKo: "긴 플레이 예시", part: PARTS.depth, chapter: "GAMEPLAY IN DEPTH", from: "EXTENDED EXAMPLE OF PLAY" },
 ];
 
 /** 목차에서 들여쓰기가 잘못 찍힌 절들 — 목차 대신 실제 책 구조를 따른다. */

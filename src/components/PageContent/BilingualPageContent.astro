@@ -116,7 +116,14 @@ const isBlank = (html: string) => html.replace(/<a\s+id="[^"]*"\s*><\/a>/g, '').
 
 	{
 		rows.map((row) => (
-			<div class:list={['bi-row', `kind-${row.kind}`, { 'is-blank': isBlank(row.enHtml) && isBlank(row.koHtml) }]}>
+			<div
+				class:list={[
+					'bi-row',
+					`kind-${row.kind}`,
+					row.gap && `gap-${row.gap}`,
+					{ 'is-blank': isBlank(row.enHtml) && isBlank(row.koHtml) },
+				]}
+			>
 				<div class="en prose" lang="en" set:html={row.enHtml} />
 				{bilingual && <div class="ko prose" set:html={row.koHtml} />}
 			</div>
@@ -258,6 +265,32 @@ const isBlank = (html: string) => html.replace(/<a\s+id="[^"]*"\s*><\/a>/g, '').
 		margin-top: 0;
 	}
 
+	/*
+		절을 문단(덩어리) 단위 행으로 나눈 경우. 행마다 두 열의 높이가 같아져 문단 머리가 나란히
+		선다. 격자 칸 안의 여백은 이웃 행과 겹치지(collapse) 않으므로, 칸 안 위아래 여백은 지우고
+		한 열로 흐를 때 겹쳐서 남았을 간격을 행의 위 여백으로 준다.
+	*/
+	.bi-row:has(+ .bi-row.kind-block) .prose > :global(:last-child) {
+		margin-bottom: 0;
+	}
+
+	.bi-row.kind-block .prose > :global(:first-child) {
+		margin-top: 0;
+	}
+
+	.bi-row.kind-block {
+		padding-top: 0.875em;
+	}
+
+	/* 인용(.prose blockquote)과 그림·카드 같은 HTML 상자는 문단보다 넓게 띄운다. */
+	.bi-row.gap-quote {
+		padding-top: 1.75em;
+	}
+
+	.bi-row.gap-html {
+		padding-top: 1.5em;
+	}
+
 	/* 한 언어만 보기 */
 	.bilingual[data-view='en'] .bi-row .ko,
 	.bilingual[data-view='ko'] .bi-row .en {
@@ -318,6 +351,11 @@ const isBlank = (html: string) => html.replace(/<a\s+id="[^"]*"\s*><\/a>/g, '').
 
 		.bilingual[data-view='both'][data-bilingual='true'] .bi-row .ko::before {
 			content: 'KO';
+		}
+
+		/* 쌓을 때는 행마다 테두리로 나뉘므로 덩어리 행의 위 여백은 이름표가 맡는다. */
+		.bilingual[data-view='both'][data-bilingual='true'] .bi-row.kind-block {
+			padding-top: 0;
 		}
 
 		/* 쌓을 때는 이름표 바로 아래에서 시작한다. */

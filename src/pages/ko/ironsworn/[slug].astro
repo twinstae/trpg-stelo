@@ -1,6 +1,7 @@
 ---
 import BilingualLayout from '../../../layouts/BilingualLayout.astro';
 import { pairSections } from '../../../utils/pairSections';
+import { expandRollFigures } from '../../../utils/ironswornRollFigures';
 import { IRONSWORN_CHAPTERS, IRONSWORN_SOURCE, type IronswornChapterMeta } from '../../../data/ironsworn/chapters';
 
 // import.meta.glob은 빌드 청크로 옮겨져도 안전한 정적 import다.
@@ -35,8 +36,8 @@ type Props = {
 
 const { chapter, prev, next } = Astro.props as Props;
 
-const enSource = sourceFor(enSources, 'en', chapter.slug);
-const koSource = sourceFor(koSources, 'ko', chapter.slug);
+const enSource = expandRollFigures(sourceFor(enSources, 'en', chapter.slug), 'en');
+const koSource = expandRollFigures(sourceFor(koSources, 'ko', chapter.slug), 'ko');
 const translated = koSource.trim().length > 0;
 
 const { rows, headings } = pairSections(chapter.slug, enSource, koSource, 'ironsworn');
@@ -110,6 +111,36 @@ const { rows, headings } = pairSections(chapter.slug, enSource, koSource, 'irons
 
 	.move-anatomy__card p + p {
 		margin-top: 0.65rem;
+	}
+
+	/* 카드 안의 글머리 목록과 표(여정 떠나기·오라클에게 묻기). */
+	.prose .move-anatomy__card ul {
+		margin: 0.45rem 0;
+		padding-inline-start: 2.1em;
+	}
+
+	.prose .move-anatomy__card li {
+		margin: 0.15rem 0;
+	}
+
+	.prose .move-anatomy__card table {
+		margin: 0.65rem 0 0.65rem 1.05em;
+		width: calc(100% - 1.05em);
+		font-size: 0.92em;
+	}
+
+	/* 자산 카드를 해부 그림의 상자로 쓸 때(자산 개요). 카드가 스스로 테두리와 띠를 갖는다. */
+	.move-anatomy__card.iw-asset {
+		max-width: none;
+		margin: 0;
+		padding: 0;
+		border: 2px solid var(--text);
+	}
+
+	.prose .iw-asset__abilities ul {
+		margin: 0.25rem 0 0;
+		padding-inline-start: 1.1em;
+		list-style: disc;
 	}
 
 	.move-anatomy__title {
@@ -195,25 +226,757 @@ const { rows, headings } = pairSections(chapter.slug, enSource, koSource, 'irons
 	/*
 		이름표를 옆에 둘 만큼 넓을 때: 이름표를 왼쪽에 세워 지시선이 지날 틈을 주고,
 		상자는 오른쪽에 둔다(번호가 문단 첫머리에 있으니 선은 늘 줄머리로 들어간다).
+		대역 보기의 한 열은 데스크톱에서도 24rem 안팎이라 문턱을 낮게 잡고 글자와 여백을
+		줄인다. 이보다 좁은(휴대폰) 칸에서만 이름표를 아래로 내린다.
 	*/
-	@container (min-width: 28rem) {
+	@container (min-width: 21rem) {
 		.move-anatomy__board {
-			grid-template-columns: minmax(8rem, 1fr) minmax(0, 1.7fr);
+			grid-template-columns: minmax(6.5rem, 1fr) minmax(0, 2fr);
 			align-items: start;
-			gap: 2.5rem;
+			gap: 1.6rem;
 		}
 
 		/* 원고는 상자 → 이름표 순이니, 나란히 세울 때만 자리를 뒤집는다. */
 		.move-anatomy__card {
 			grid-column: 2;
 			grid-row: 1;
+			padding: 1.25rem 0.9rem;
+			font-size: 0.9em;
 		}
 
 		.move-anatomy__notes {
 			grid-column: 1;
 			grid-row: 1;
 			grid-template-columns: minmax(0, 1fr);
+			font-size: 0.8em;
 		}
+	}
+
+	/* 한 언어만 볼 때처럼 칸이 넉넉하면 책에 가깝게 여유를 둔다. */
+	@container (min-width: 32rem) {
+		.move-anatomy__board {
+			grid-template-columns: minmax(8rem, 1fr) minmax(0, 1.7fr);
+			gap: 2.5rem;
+		}
+
+		.move-anatomy__card {
+			padding: 2rem 1.15rem;
+			font-size: 1em;
+		}
+
+		.move-anatomy__notes {
+			font-size: 0.88em;
+		}
+	}
+
+	/*
+		「긴 플레이 예시」의 판정 띠(utils/ironswornRollFigures.ts가 펼친다). 책처럼 어두운 띠
+		위에 주사위와 값을 한 줄로 늘어놓고, 칸 폭에 맞춰 띠 전체를 함께 줄인다.
+	*/
+	.iw-roll {
+		margin: 1.5rem 0;
+		container-type: inline-size;
+	}
+
+	.iw-roll__band {
+		--iw-roll-bg: #3b3b3b;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		gap: 0.3em 0.3em;
+		padding: 1.7em 0.9em 0.7em;
+		background: var(--iw-roll-bg);
+		color: #fff;
+		font-family: var(--font-sans);
+		font-size: clamp(0.7rem, 4cqi, 1.5rem);
+		font-weight: 700;
+		line-height: 1;
+	}
+
+	/* 주사위 그림(판정 띠와 1장 설명 그림이 함께 쓴다). */
+	.iw-die {
+		display: block;
+		overflow: visible;
+	}
+
+	.iw-die text {
+		font-family: var(--font-sans);
+		font-size: 19px;
+		font-weight: 700;
+		fill: #2a2a2a;
+	}
+
+	.iw-die--d10 text {
+		font-size: 16px;
+	}
+
+	.iw-die--d10 text.is-small {
+		font-size: 12px;
+		letter-spacing: -0.04em;
+	}
+
+	/* 배지 테두리는 바탕색과 같게 둬 주사위에서 떨어져 보이게 한다. */
+	.iw-die__badge {
+		fill: #fff;
+		stroke: var(--iw-die-gap, var(--bg));
+		stroke-width: 2.5;
+	}
+
+	.iw-die__mark path {
+		fill: none;
+		stroke: #333;
+		stroke-width: 2.6;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+	}
+
+	.iw-die.is-crossed .iw-die__body {
+		opacity: 0.4;
+	}
+
+	.iw-die__cross {
+		stroke: #6f6f6f;
+		stroke-width: 7;
+		opacity: 0.8;
+	}
+
+	.iw-roll__band .iw-die__badge {
+		--iw-die-gap: var(--iw-roll-bg);
+	}
+
+	.iw-roll__d6 {
+		width: 2.9em;
+		height: 2.9em;
+	}
+
+	.iw-roll__d10 {
+		width: 3.5em;
+		height: 3.5em;
+	}
+
+	.iw-roll__challenge {
+		display: inline-flex;
+		gap: 0.35em;
+		margin-inline-start: 0.4em;
+	}
+
+	.iw-roll__op,
+	.iw-roll__num {
+		font-size: 1.5em;
+	}
+
+	/* 이름표는 값 위에 띄워, 연산자와 값이 한 줄에 가지런히 서게 한다. */
+	.iw-roll__term {
+		position: relative;
+		display: inline-flex;
+		justify-content: center;
+		min-width: 2.2em;
+	}
+
+	.iw-roll__label {
+		position: absolute;
+		bottom: calc(100% + 0.45em);
+		left: 50%;
+		translate: -50% 0;
+		font-size: 0.78em;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		white-space: nowrap;
+	}
+
+	.iw-roll__total {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 1.75em;
+		height: 1.75em;
+		border: 0.12em solid currentColor;
+		border-radius: 50%;
+		font-size: 1.35em;
+	}
+
+	/* 진행 판정: 원 안의 진척 점수 위에 이름표만 단다. */
+	.iw-roll__num.iw-roll__total {
+		font-size: 1.35em;
+	}
+
+	.iw-roll__caption,
+	.iw-sr {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+		clip-path: inset(50%);
+		white-space: nowrap;
+	}
+
+	/* 1장의 공식 그림(액션 주사위 + 능력치 + 수정치 = 액션 점수)은 어두운 띠 없이 본문 바탕에 둔다. */
+	.iw-roll--plain .iw-roll__band {
+		background: none;
+		color: var(--text);
+		padding-inline: 0;
+		font-size: clamp(0.9rem, 5cqi, 1.5rem);
+	}
+
+	/* 합 위의 「액션 점수」는 책처럼 두 줄로 접어 옆 이름표와 겹치지 않게 한다. */
+	.iw-roll__term:has(> .iw-roll__total) .iw-roll__label {
+		width: 4.5em;
+		white-space: normal;
+		text-align: center;
+		line-height: 1.1;
+	}
+
+	.iw-roll--plain .iw-die__body > :not(text) {
+		stroke: #4a4a4a;
+		stroke-width: 1.6;
+		stroke-linejoin: round;
+	}
+
+	/*
+		1장 설명 그림(주사위·모멘텀 트랙·진행 칸). 책처럼 밝은 바탕에 굵은 윤곽선을 두르고,
+		이름표는 대문자 고딕으로 단다.
+	*/
+	.iw-fig {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		gap: 0.9rem 1rem;
+		margin: 1.75rem 0;
+		font-family: var(--font-sans);
+		line-height: 1.35;
+	}
+
+	.iw-fig .iw-die,
+	.iw-oracle-dice .iw-die {
+		width: 3.6rem;
+		height: 3.6rem;
+	}
+
+	:is(.iw-fig, .iw-oracle-dice) .iw-die__body > :not(text) {
+		stroke: #4a4a4a;
+		stroke-width: 1.6;
+		stroke-linejoin: round;
+	}
+
+	.iw-fig__group,
+	.iw-fig__die {
+		display: inline-flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 0.4rem;
+	}
+
+	.iw-fig__die {
+		max-width: 5.5rem;
+	}
+
+	.iw-fig__compare {
+		max-width: 4.5rem;
+	}
+
+	.iw-fig__dice {
+		display: inline-flex;
+		align-items: flex-start;
+		gap: 0.75rem;
+	}
+
+	.iw-fig__label {
+		color: var(--muted);
+		font-size: 0.8rem;
+		font-weight: 800;
+		letter-spacing: 0.05em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.iw-fig__note {
+		font-size: 0.78rem;
+		text-align: center;
+	}
+
+	/* 도전 주사위 둘을 묶는 꺾쇠. --under는 주사위 아래, --over는 위에 단다. */
+	.iw-fig__bracket {
+		display: flex;
+		align-self: stretch;
+		align-items: center;
+		gap: 0.6em;
+	}
+
+	.iw-fig__bracket::before,
+	.iw-fig__bracket::after {
+		content: "";
+		flex: 1;
+		min-width: 1rem;
+		height: 0.6em;
+		border: 0 solid currentColor;
+	}
+
+	.iw-fig__bracket--under::before,
+	.iw-fig__bracket--under::after {
+		border-bottom-width: 2px;
+		translate: 0 -0.3em;
+	}
+
+	.iw-fig__bracket--over::before,
+	.iw-fig__bracket--over::after {
+		border-top-width: 2px;
+		translate: 0 0.3em;
+	}
+
+	.iw-fig__bracket::before {
+		border-left-width: 2px;
+	}
+
+	.iw-fig__bracket::after {
+		border-right-width: 2px;
+	}
+
+	.iw-fig__score {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 3rem;
+		height: 3rem;
+		border: 3px solid currentColor;
+		border-radius: 50%;
+		font-size: 1.6rem;
+		font-weight: 800;
+	}
+
+	.iw-fig__arrow {
+		width: 2.2rem;
+		height: auto;
+		color: var(--muted);
+		fill: none;
+		stroke: currentColor;
+		stroke-width: 1.6;
+	}
+
+	.iw-fig__equals {
+		color: var(--muted);
+		font-size: 3rem;
+		font-weight: 800;
+	}
+
+	.iw-fig--stack {
+		flex-direction: column;
+		gap: 0.75rem;
+	}
+
+	.iw-fig__row {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+	}
+
+	/* 모멘텀 트랙 한 토막. 지금 값은 클립을 끼운 것처럼 트랙 밖으로 튀어나온 고리로 두른다. */
+	.iw-track {
+		display: flex;
+		flex-direction: column;
+		width: 4.4rem;
+		border: 2px solid var(--text);
+		border-left-width: 1.1rem;
+		font-weight: 800;
+		text-align: center;
+	}
+
+	.iw-track__cell {
+		padding: 0.3rem 0;
+	}
+
+	.iw-track__cell + .iw-track__cell {
+		border-top: 1px solid var(--rule);
+	}
+
+	.iw-track__cell.is-marked {
+		margin-inline: -1.6rem -0.6rem;
+		border: 3px solid var(--muted);
+		border-radius: 0.8rem;
+	}
+
+	/* 진행 칸. 틱은 \ → / → | → — 순으로 그어진다. */
+	.iw-boxes {
+		display: block;
+		overflow: visible;
+	}
+
+	.iw-boxes .iw-box__frame {
+		fill: none;
+		stroke: var(--text);
+		stroke-width: 1;
+	}
+
+	.iw-boxes .iw-box__ticks {
+		fill: none;
+		stroke: var(--text);
+		stroke-width: 1.8;
+	}
+
+	.iw-boxes--track {
+		width: 100%;
+		max-width: 26rem;
+		height: auto;
+	}
+
+	.iw-fig--ranks {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr));
+		gap: 1rem 1.25rem;
+	}
+
+	.iw-rank {
+		display: flex;
+		align-items: flex-start;
+		gap: 0.55rem;
+	}
+
+	.iw-boxes--rank {
+		flex: none;
+		width: auto;
+		height: 2rem;
+	}
+
+	.iw-rank__text {
+		font-size: 0.85rem;
+	}
+
+	.iw-rank__text strong {
+		display: block;
+	}
+
+	/* 결과 셋(✓✓ 강한 성공, ✓✕ 약한 성공, ✕✕ 실패). */
+	.iw-marks {
+		display: inline-flex;
+		gap: 0.15rem;
+	}
+
+	.iw-mark {
+		width: 2.1rem;
+		height: 2.1rem;
+	}
+
+	.iw-mark circle,
+	.iw-mark path {
+		fill: none;
+		stroke: var(--text);
+		stroke-linecap: round;
+		stroke-linejoin: round;
+	}
+
+	.iw-mark circle {
+		stroke-width: 1.6;
+	}
+
+	.iw-mark path {
+		stroke-width: 2.2;
+	}
+
+	.iw-outcomes {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 0.9rem;
+		margin: 1.5rem 0;
+		font-size: 0.88em;
+		line-height: 1.55;
+	}
+
+	.prose .iw-outcome p {
+		margin: 0.25rem 0 0;
+	}
+
+	.prose .iw-outcome p:first-child {
+		margin: 0;
+	}
+
+	/* 오라클 주사위 두 벌과 설명. */
+	.iw-oracle-dice {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+		gap: 1.25rem 1.5rem;
+		margin: 1.5rem 0;
+	}
+
+	.prose .iw-oracle-dice figure {
+		margin: 0;
+	}
+
+	.iw-oracle-dice__dice {
+		display: flex;
+		gap: 0.6rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.iw-oracle-dice figcaption {
+		font-size: 0.92em;
+	}
+
+	/* 예시에 곁들인 자산 카드. 자산 장(IronswornAssetCards)의 카드를 읽기 전용으로 옮긴 모양이다. */
+	.iw-asset {
+		max-width: 22rem;
+		margin: 1.5rem auto;
+		border: 2px solid var(--text);
+		background: var(--bg);
+		font-size: 0.9em;
+		line-height: 1.5;
+	}
+
+	.iw-asset__band {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0.35rem 0.75rem;
+		background: var(--text);
+		color: var(--bg);
+		font-family: var(--font-sans);
+		font-size: 0.8em;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+
+	.iw-asset__icon {
+		width: 1.6em;
+		height: 1.6em;
+	}
+
+	.iw-asset__body {
+		padding: 0.75rem 0.9rem 0.9rem;
+	}
+
+	.prose .iw-asset p,
+	.prose .iw-asset ul,
+	.prose .iw-asset ol {
+		margin: 0;
+	}
+
+	.iw-asset__name {
+		font-family: var(--font-sans);
+		font-size: 1.15em;
+		font-weight: 800;
+		text-transform: uppercase;
+	}
+
+	.prose p.iw-asset__nameline {
+		margin-top: 0.15rem;
+		border-bottom: 1px solid var(--muted);
+		font-size: 0.9em;
+	}
+
+	.iw-asset__hand {
+		margin-inline-start: 0.3em;
+		font-family: "Segoe Print", "Bradley Hand", "Nanum Pen Script", cursive;
+		font-size: 1.35em;
+	}
+
+	.prose p.iw-asset__lead {
+		margin-top: 0.6rem;
+	}
+
+	.prose ul.iw-asset__abilities {
+		margin-top: 0.4rem;
+		padding: 0;
+		list-style: none;
+	}
+
+	/* 책처럼 고른 능력은 채운 원, 고르지 않은 능력은 빈 원으로 표시한다. */
+	.prose .iw-asset__abilities > li {
+		position: relative;
+		margin: 0.3rem 0 0;
+		padding-inline-start: 1.2em;
+	}
+
+	.prose .iw-asset__abilities > li::before {
+		content: "";
+		position: absolute;
+		top: 0.45em;
+		left: 0.1em;
+		width: 0.62em;
+		height: 0.62em;
+		border: 1.5px solid currentColor;
+		border-radius: 50%;
+		background: none;
+	}
+
+	.prose .iw-asset__abilities > li.is-marked::before {
+		background: currentColor;
+	}
+
+	.iw-asset em {
+		color: inherit;
+	}
+
+	.prose ol.iw-asset__track {
+		display: grid;
+		grid-auto-columns: minmax(0, 1fr);
+		grid-auto-flow: column;
+		margin-top: 0.9rem;
+		padding: 0;
+		border: 1.5px solid var(--text);
+		list-style: none;
+		font-family: var(--font-sans);
+		font-size: 0.85em;
+		font-weight: 700;
+		text-align: center;
+	}
+
+	.prose .iw-asset__track li {
+		margin: 0;
+		padding: 0.3rem 0;
+	}
+
+	.prose .iw-asset__track li + li {
+		border-inline-start: 1.5px solid var(--text);
+	}
+
+	/*
+		「플레이의 흐름」 순서도. 상자는 격자에 놓고, 화살표는 스크립트가 상자 자리를 재어 SVG로
+		그린다(영/한 글 길이에 따라 상자 높이가 달라진다). 양옆 여백은 되돌아가는 화살표 자리다.
+	*/
+	.iw-flow {
+		--iw-flow-box: #3b3b3b;
+		margin: 1.75rem 0;
+	}
+
+	.iw-flow__grid {
+		position: relative;
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		grid-template-areas:
+			"start . ."
+			"envision ask ask"
+			"move move move"
+			"strong weak miss"
+			"next-you next-world next-world";
+		gap: 1.75rem 0.75rem;
+		padding-inline: 1.5rem;
+		font-family: var(--font-sans);
+		font-size: 0.8em;
+		line-height: 1.4;
+	}
+
+	.iw-flow [data-flow="start"] { grid-area: start; }
+	.iw-flow [data-flow="envision"] { grid-area: envision; }
+	.iw-flow [data-flow="ask"] { grid-area: ask; }
+	.iw-flow [data-flow="move"] { grid-area: move; }
+	.iw-flow [data-flow="strong"] { grid-area: strong; }
+	.iw-flow [data-flow="weak"] { grid-area: weak; }
+	.iw-flow [data-flow="miss"] { grid-area: miss; }
+	.iw-flow [data-flow="next-you"] { grid-area: next-you; }
+	.iw-flow [data-flow="next-world"] { grid-area: next-world; }
+
+	/* 생각하기 ↔ 묻기 사이에는 양방향 화살표가 지나가므로 조금 더 띄운다. */
+	.iw-flow [data-flow="ask"] {
+		margin-inline-start: 1.5rem;
+	}
+
+	.iw-flow [data-flow="move"] {
+		justify-self: center;
+		width: 78%;
+	}
+
+	.iw-flow [data-flow="next-world"] {
+		justify-self: center;
+		width: 75%;
+	}
+
+	.prose p.iw-flow__box {
+		position: relative;
+		z-index: 1;
+		/* 글 안의 <em> 따위가 따로 떨어지지 않도록 flex 대신 블록 그대로 세로 가운데에 둔다. */
+		align-content: center;
+		margin: 0;
+		padding: 0.6rem 0.55rem;
+		background: var(--iw-flow-box);
+		color: #fff;
+		font-weight: 600;
+		text-align: center;
+		text-wrap: balance;
+	}
+
+	.iw-flow__title {
+		display: block;
+		margin-bottom: 0.25rem;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+	}
+
+	.iw-flow em {
+		color: inherit;
+	}
+
+	.iw-flow__lines {
+		position: absolute;
+		inset: 0;
+		z-index: 0;
+		width: 100%;
+		height: 100%;
+		overflow: visible;
+		pointer-events: none;
+		color: var(--muted);
+	}
+
+	.iw-flow__lines path {
+		fill: none;
+		stroke: currentColor;
+		stroke-width: 2.5;
+		stroke-linejoin: round;
+	}
+
+	/* 「다음은」의 단계 목록. 책처럼 큰 원 번호를 왼쪽에 세운다. */
+	.prose .iw-steps ol {
+		padding: 0;
+		list-style: none;
+		counter-reset: iw-step;
+	}
+
+	.prose .iw-steps li {
+		position: relative;
+		min-height: 2.4em;
+		margin: 1rem 0 0;
+		padding-inline-start: 3.2em;
+		counter-increment: iw-step;
+	}
+
+	.prose .iw-steps li::before {
+		content: counter(iw-step);
+		position: absolute;
+		top: 0.1em;
+		left: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 2.3em;
+		height: 2.3em;
+		border-radius: 50%;
+		background: var(--muted);
+		color: var(--bg);
+		font-family: var(--font-sans);
+		font-size: 1.05em;
+		font-weight: 800;
+	}
+
+	/* 장 끝의 짧은 이야기. 책에서는 어두운 면에 흰 기울임 글씨로 따로 실린다. */
+	.iw-coda {
+		margin: 2.5rem 0 0;
+		padding: 1.75rem 1.5rem;
+		background: #262626;
+		color: #f2f2f2;
+		font-family: var(--font-serif);
+		font-weight: 600;
+	}
+
+	.iw-coda:lang(en) {
+		font-style: italic;
+	}
+
+	.prose .iw-coda > :first-child {
+		margin-top: 0;
+	}
+
+	.prose .iw-coda > :last-child {
+		margin-bottom: 0;
 	}
 </style>
 
@@ -278,8 +1041,85 @@ const { rows, headings } = pairSections(chapter.slug, enSource, koSource, 'irons
 		if (!svg.childElementCount) svg.remove();
 	}
 
+	/*
+		순서도 화살표. 상자 테두리의 점(위·아래 가운데, 왼·오른쪽 가운데)을 이어 꺾은선을 긋는다.
+		선끝은 상자 바로 앞에서 멈추고 화살촉(marker)을 단다.
+	*/
+	let flowCount = 0;
+
+	function drawFlow(figure) {
+		const grid = figure.querySelector('.iw-flow__grid');
+		if (!grid) return;
+		const origin = grid.getBoundingClientRect();
+		const box = (name) => {
+			const el = grid.querySelector(`[data-flow="${name}"]`);
+			if (!el) return null;
+			const r = el.getBoundingClientRect();
+			const left = r.left - origin.left;
+			const top = r.top - origin.top;
+			return { left, top, right: left + r.width, bottom: top + r.height, cx: left + r.width / 2, cy: top + r.height / 2 };
+		};
+		const b = Object.fromEntries(
+			['start', 'envision', 'ask', 'move', 'strong', 'weak', 'miss', 'next-you', 'next-world'].map((name) => [name, box(name)]),
+		);
+		if (Object.values(b).some((value) => !value)) return;
+
+		let svg = grid.querySelector('.iw-flow__lines');
+		if (!(svg instanceof SVGSVGElement)) {
+			svg = document.createElementNS(SVG_NS, 'svg');
+			svg.setAttribute('class', 'iw-flow__lines');
+			svg.setAttribute('aria-hidden', 'true');
+			svg.dataset.marker = `iw-flow-arrow-${flowCount++}`;
+			grid.prepend(svg);
+		}
+		const marker = svg.dataset.marker;
+		svg.innerHTML =
+			`<defs><marker id="${marker}" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" ` +
+			`orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="currentColor" stroke="none"/></marker></defs>`;
+
+		const GAP = 3; // 화살촉이 상자에 닿기 전 남기는 틈
+		const line = (d, both = false) => {
+			const path = document.createElementNS(SVG_NS, 'path');
+			path.setAttribute('d', d);
+			path.setAttribute('marker-end', `url(#${marker})`);
+			if (both) path.setAttribute('marker-start', `url(#${marker})`);
+			svg.append(path);
+		};
+		const down = (from, x, to) => line(`M ${x} ${from.bottom} V ${to.top - GAP}`);
+		const middle = (upper, lower) => (upper.bottom + lower.top) / 2;
+
+		// 시작 → 생각하기, 생각하기 ↔ 묻기
+		down(b.start, b.envision.cx, b.envision);
+		line(`M ${b.envision.right + GAP} ${b.envision.cy} H ${b.ask.left - GAP}`, true);
+
+		// 생각하기·묻기 → 액션: 두 갈래가 액션 상자 위에서 만난다.
+		const toMove = middle(b.envision, b.move);
+		line(`M ${b.envision.cx} ${b.envision.bottom} V ${toMove} H ${b.move.cx - 14} V ${b.move.top - GAP}`);
+		line(`M ${b.ask.cx} ${b.ask.bottom} V ${toMove} H ${b.move.cx + 14} V ${b.move.top - GAP}`);
+
+		// 액션 → 강한 성공·약한 성공·실패
+		const branch = middle(b.move, b.weak);
+		for (const outcome of [b.strong, b.weak, b.miss]) {
+			line(`M ${b.move.cx} ${b.move.bottom} V ${branch} H ${outcome.cx} V ${outcome.top - GAP}`);
+		}
+
+		// 강한 성공 → 다음에 무엇을 하나, 약한 성공·실패 → 다음에 무슨 일이
+		down(b.strong, b.strong.cx, b['next-you']);
+		const merge = middle(b.weak, b['next-world']);
+		const world = b['next-world'];
+		const inset = Math.min(18, (world.right - world.left) / 4);
+		line(`M ${b.weak.cx} ${b.weak.bottom} V ${merge} H ${world.cx - inset} V ${world.top - GAP}`);
+		line(`M ${b.miss.cx} ${b.miss.bottom} V ${merge} H ${world.cx + inset} V ${world.top - GAP}`);
+
+		// 되돌아가기: 양옆 여백을 타고 올라가 처음 두 상자로 돌아간다.
+		const gutter = Math.min(b.envision.left, origin.width - b.ask.right) / 2;
+		line(`M ${b['next-you'].left} ${b['next-you'].cy} H ${gutter} V ${b.envision.cy} H ${b.envision.left - GAP}`);
+		line(`M ${world.right} ${world.cy} H ${origin.width - gutter} V ${b.ask.cy} H ${b.ask.right + GAP}`);
+	}
+
 	function drawAll() {
 		for (const figure of document.querySelectorAll('figure.move-anatomy')) drawFigure(figure);
+		for (const figure of document.querySelectorAll('figure.iw-flow')) drawFlow(figure);
 	}
 
 	let queued = false;
@@ -300,6 +1140,6 @@ const { rows, headings } = pairSections(chapter.slug, enSource, koSource, 'irons
 	for (const delay of [150, 450, 1200]) setTimeout(scheduleDraw, delay);
 	if (typeof ResizeObserver !== 'undefined') {
 		const observer = new ResizeObserver(scheduleDraw);
-		for (const figure of document.querySelectorAll('figure.move-anatomy')) observer.observe(figure);
+		for (const figure of document.querySelectorAll('figure.move-anatomy, figure.iw-flow')) observer.observe(figure);
 	}
 </script>

@@ -2,32 +2,26 @@
 
 When you make a move representing a risky or uncertain action, you roll three dice at once.
 
-- Challenge dice: Two ten-sided dice (D10)
-- Action die: A six-sided die (D6)
+- **Challenge dice**: Two ten-sided dice (D10)
+- **Action die**: A six-sided die (D6)
 
-Add your relevant stat to your action die. The move will tell you which stat to add, or may give you a choice. Some moves will tell you to use one of your tracks, such as health or supply, in place of a stat. Based on the move or your character’s assets, you may also have an opportunity to apply one or more bonuses called adds. The total of your action die, your stat, and any adds is your action score. Your action score is never greater than 10—anything over that is ignored.
+<iw-dice-intro challenge="4 8" action="3"></iw-dice-intro>
+
+Add your relevant stat to your action die. The move will tell you which stat to add, or may give you a choice. Some moves will tell you to use one of your tracks, such as health or supply, in place of a stat. Based on the move or your character’s assets, you may also have an opportunity to apply one or more bonuses called **adds**. The total of your action die, your stat, and any adds is your **action score**. Your action score is never greater than 10—anything over that is ignored.
+
+<iw-roll plain action="3" stat-value="2" adds="1"></iw-roll>
 
 To determine the outcome of your move, compare the action score to each of the challenge dice. You want it to be greater than the individual value of those dice.
 
-#### Action Score
-
-**Greater than**
-
-**NOT greater than**
+<iw-compare score="6" challenge="4 8"></iw-compare>
 
 There are three possible results for a move.
 
-**Strong Hit**
-
-Your action score is greater than both the challenge dice. You succeed at what you are trying to do.
-
-**Weak Hit**
-
-Your action score is greater than only one of the challenge dice. You probably succeeded, but with a lesser effect or cost.
-
-**Miss**
-
-Your action score isn’t greater than either of the challenge dice. You failed, or need to make some serious concessions.
+<div class="iw-outcomes">
+<div class="iw-outcome"><p><iw-marks value="hit hit"></iw-marks></p><p><strong>Strong Hit</strong></p><p>Your action score is greater than both the challenge dice. You succeed at what you are trying to do.</p></div>
+<div class="iw-outcome"><p><iw-marks value="hit miss"></iw-marks></p><p><strong>Weak Hit</strong></p><p>Your action score is greater than only one of the challenge dice. You probably succeeded, but with a lesser effect or cost.</p></div>
+<div class="iw-outcome"><p><iw-marks value="miss miss"></iw-marks></p><p><strong>Miss</strong></p><p>Your action score isn’t greater than either of the challenge dice. You failed, or need to make some serious concessions.</p></div>
+</div>
 
 The move will tell you how to interpret the outcome of your action, or offer a choice. The result may include mechanical changes to your character’s status and narrative changes to the current situation.
 
@@ -39,12 +33,14 @@ The main thing to remember on a miss: Something always happens. The situation ge
 
 ### Matches
 
-When you roll for a move, you should be on the lookout for a match on the challenge dice. In cooperative and solo play, this is your trigger to add a twist, create a new complication, or otherwise mix things up. Something interesting, unexpected, or unusual happens. If you’re unsure, you Ask the Oracle, which is a move you use to ask questions or check for inspiration. If you’re playing with a GM, a match on the challenge dice can be their prompt to introduce a surprising turn of events.
+<iw-match face="5"></iw-match>
+
+When you roll for a move, you should be on the lookout for a **match** on the challenge dice. In cooperative and solo play, this is your trigger to add a twist, create a new complication, or otherwise mix things up. Something interesting, unexpected, or unusual happens. If you’re unsure, you Ask the Oracle, which is a move you use to ask questions or check for inspiration. If you’re playing with a GM, a match on the challenge dice can be their prompt to introduce a surprising turn of events.
 
 The outcome of a match should be evaluated based on the result of your move.
 
-- Strong hit: The match should represent a twist in the narrative, something interesting, or a new opportunity.
-- Miss: The match should represent a heightened negative outcome, a complication, or new danger. Things get worse for you in an unexpected way.
+- **Strong hit**: The match should represent a twist in the narrative, something interesting, or a new opportunity.
+- **Miss**: The match should represent a heightened negative outcome, a complication, or new danger. Things get worse for you in an unexpected way.
 
 You can also let the intensity of your success or failure frame how you interpret a match. Rolling matched 10’s on your challenge dice should prompt you to introduce a harrowing turn of events or a dire failure. It’s as bad as things get.
 

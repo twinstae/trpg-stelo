@@ -10,38 +10,36 @@ Scoring a strong hit on a move means you are in control. You’re driving the na
 
 A weak hit or a miss means you don’t have control of the situation. Instead of acting, you react. What happens next? If you’re playing with a GM, they’ll determine how the world responds. Otherwise, you rely on your intuition and occasional oracle rolls to drive the narrative.
 
-> **Start**
->
-> Envision the current situation and what your character is doing.
->
-> When your action or the current situation triggers a move, make that move.
->
-> **STRONG HIT**
->
-> You’ve succeeded. You are in control.
->
-> **WEAK HIT**
->
-> You’ve made progress, but aren’t in control.
->
-> **MISS**
->
-> You’ve failed, or encounter a costly turn of events.
-
-What do you do next?
-
-> Ask and answer questions about the world, other characters, and what happens next (or Ask the Oracle). What happens next?
+<figure class="iw-flow">
+<div class="iw-flow__grid">
+<p class="iw-flow__box" data-flow="start"><strong class="iw-flow__title">Start</strong></p>
+<p class="iw-flow__box" data-flow="envision">Envision the current situation and what your character is doing.</p>
+<p class="iw-flow__box" data-flow="ask">Ask and answer questions about the world, other characters, and what happens next (or <em>Ask the Oracle</em>).</p>
+<p class="iw-flow__box" data-flow="move">When your action or the current situation triggers a move, make that move.</p>
+<p class="iw-flow__box" data-flow="strong"><strong class="iw-flow__title">Strong hit</strong> You’ve succeeded. You are in control.</p>
+<p class="iw-flow__box" data-flow="weak"><strong class="iw-flow__title">Weak hit</strong> You’ve made progress, but aren’t in control.</p>
+<p class="iw-flow__box" data-flow="miss"><strong class="iw-flow__title">Miss</strong> You’ve failed, or encounter a costly turn of events.</p>
+<p class="iw-flow__box" data-flow="next-you">What do you do next?</p>
+<p class="iw-flow__box" data-flow="next-world">What happens next?</p>
+</div>
+</figure>
 
 ## What’s Next
 
-That’s the basics of playing Ironsworn. You’ll see these concepts referenced and expanded throughout this rulebook, but it’s not necessary to read or understand it all before playing. To get started:
+That’s the basics of playing _Ironsworn_. You’ll see these concepts referenced and expanded throughout this rulebook, but it’s not necessary to read or understand it all before playing. To get started:
 
-1. Create your character (page 31). Set your stats, select your assets, and consider your background and personality.
-2. Build your world (page 111). Take a tour of the Ironlands, create your unique vision of the setting, and find inspirational prompts for vows and quests. Or, start playing in your own world.
-3. Review the moves (page 49). It’ll be helpful to get a basic understanding of the moves and how you resolve your character’s actions and intent. You can start by printing out the move reference sheets, available at ironswornrpg.com. Then, refer to chapter 3 when you have a question or want further detail.
-4. Review the example of play (page 241). See Ironsworn in action to help understand the basic die roll mechanics, how to interpret moves and outcomes, and how to use creative prompts to drive your story forward.
-5. Swear an Iron Vow (page 98). Play to see what happens. When you have questions about moves, see page 49. When you need a foe or encounter, see page 133. When you seek answers from an oracle, see page 165.
-6. Dig deeper (page 193). When you’re ready to explore campaign setup guides, additional gameplay options, and best practices, see chapter 7.
+<div class="iw-steps">
+
+1. **Create your character (page 31).** Set your stats, select your assets, and consider your background and personality.
+2. **Build your world (page 111).** Take a tour of the Ironlands, create your unique vision of the setting, and find inspirational prompts for vows and quests. Or, start playing in your own world.
+3. **Review the moves (page 49).** It’ll be helpful to get a basic understanding of the moves and how you resolve your character’s actions and intent. You can start by printing out the move reference sheets, available at ironswornrpg.com. Then, refer to chapter 3 when you have a question or want further detail.
+4. **Review the example of play (page 241).** See _Ironsworn_ in action to help understand the basic die roll mechanics, how to interpret moves and outcomes, and how to use creative prompts to drive your story forward.
+5. **_Swear an Iron Vow_ (page 98).** Play to see what happens. When you have questions about moves, see page 49. When you need a foe or encounter, see page 133. When you seek answers from an oracle, see page 165.
+6. **Dig deeper (page 193).** When you’re ready to explore campaign setup guides, additional gameplay options, and best practices, see chapter 7.
+
+</div>
+
+<div class="iw-coda">
 
 The mother asked the seer to divine her new baby’s fate. The old mystic came and looked at the sleeping child. She tilted her head, closed her eyes. Then, she drew back, frowning. No need to ask the gods. No need to roll the stones.
 
@@ -54,3 +52,5 @@ That night, the mother wept, for she knew her child would grow to live apart fro
 Whether consumed by duty or vengeance, wanderlust or love, it was all the same. The trackless wilds would call, the blade and shadow would whisper their secrets, and her child would leave.
 
 She cried for the life her child would live, and she cried for the knowing of it.
+
+</div>

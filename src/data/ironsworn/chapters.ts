@@ -73,5 +73,5 @@ export const IRONSWORN_CHAPTERS: IronswornChapterMeta[] = [
   { slug: "principles", titleEn: "Principles", titleKo: "원칙", part: "7장 심화", status: "translated" },
   { slug: "gameplay-options", titleEn: "Gameplay Options", titleKo: "플레이 선택 규칙", part: "7장 심화", status: "translated" },
   { slug: "hacking-ironsworn", titleEn: "Hacking Ironsworn", titleKo: "철의 맹세 변형하기", part: "7장 심화", status: "translated" },
-  { slug: "extended-example-of-play", titleEn: "Extended Example of Play", titleKo: "확장 플레이 예시", part: "7장 심화", status: "translated" },
+  { slug: "extended-example-of-play", titleEn: "Extended Example of Play", titleKo: "긴 플레이 예시", part: "7장 심화", status: "translated" },
 ];

@@ -12,6 +12,8 @@ export type PairedBlock = {
   kind: string;
   depth?: number;
   id?: string;
+  /** 앞 행과 띄울 간격(pairSections가 절을 덩어리로 나눴을 때만). */
+  gap?: "text" | "quote" | "html";
   enHtml: string;
   koHtml: string;
 };
