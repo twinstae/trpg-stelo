@@ -54,14 +54,14 @@ You have a close connection with a deity who empowers you to spread their ideals
 **Choose a blunt weapon** (or create a new one with the GM):
 
 - ☐ consecrated mace 1d6 dmg `#hand` \+ shield ◯ use. Mark to ignore all dmg from one attack  
-- ☐ plain quarterstaff 1d6 dmg `#close` `#hand`  
+- ☐ plain quarterstaff 1d6 dmg `#close` `#hand` `#two-handed` 
 - ☐ reinforced net 0 dmg `#close` `#hand` ◯ use. Mark to trap one medium or some small creatures under it
 
 **Mark two of the items below**:
 
 - ☐ holy water vials `#close` `#holy` ◯◯◯ uses. Mark to ignore all Resists of an enemy of your deity until the end of the Scene  
 - ☐ leather armor dmg reduction 1 (reduces all incoming dmg by 1, to a min of 1). Min STR+1 to use properly  
-- ☐ medicine ◯◯ uses. Mark to have someone double the HP they recover next or clear one Condition/affliction  
+- ☐ medicine ◯◯ uses. Mark to have someone double the HP they recover next or clear one Condition/affliction or to cure a minor disease or poison
 - ☐ pious supplies  ◯◯◯ uses. Mark to rummage through and find an item used in your deity’s worship, such as candles, censer, incense, or holy vestments    
 - ☐ provisions ◯◯◯ uses. Mark once while you [**Comfort or Support**](/ko/awe/dw2/core-moves#comfort-or-support) to turn a “No” into a “Yes”
 

@@ -11,7 +11,7 @@
 *e.g. peaceful farmers, self-sacrificing miners, tough sailors, etc. Did they appreciate fighting prowess? Why?*
 
 **Background**: I used to be a \_\_\_  
-*e.g. feral child, healer, miner, etc. What cause made you leave your former life of peace behind?*
+*e.g. feral child, respected miner, tireless healer, etc. What cause made you leave your former life of peace behind?*
 
 Relationships Depth
 

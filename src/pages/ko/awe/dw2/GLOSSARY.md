@@ -1,12 +1,12 @@
 ---
 title: "던전월드 2 용어집"
-description: "2.1 베타 영한 용어와 1판 공개판 정렬."
+description: "v3 베타 영한 용어와 1판 공개판 정렬."
 layout: ../../../../layouts/MainLayout.astro
 createdAt: "2026-03-29T12:00:00.000Z"
 publish: true
 ---
 
-**던전월드 2 Beta v2.1** 번역의 영한 용어집입니다. 문체·표기·마크다운 규칙은 [`TRANSLATION-GUIDE.md`](./TRANSLATION-GUIDE.md)를 보십시오. 진행 상황은 저장소 루트의 `DW2_BETA_TRANSLATION_CHECKLIST.md`에 있습니다.
+**던전월드 2 Beta v3** 번역의 영한 용어집입니다. 문체·표기·마크다운 규칙은 [`TRANSLATION-GUIDE.md`](./TRANSLATION-GUIDE.md)를 보십시오. 진행 상황은 저장소 루트의 `DW2_BETA_TRANSLATION_CHECKLIST.md`에 있습니다.
 
 * **굵게** = 확정 표기.
 * _기울임_ = 파일럿 리뷰에서 확정할 잠정 표기.
@@ -63,11 +63,11 @@ publish: true
 | Path / Path Move | **길(Path)** / **상급 액션** | |
 | Advancements | _향상_ (대안: 발전) | 파일럿에서 확정. 알파 직업 파일은 “발전”을 썼음 |
 | Multiclass | **다중 직업** | |
-| Prep | **예비(Prep)** | 2.1에는 Hold가 없으므로 예비는 Prep 전용 |
+| Prep | **예비(Prep)** | v3에는 Hold가 없으므로 예비는 Prep 전용 |
 
 ---
 
-## C. 능력치 (2.1은 다섯)
+## C. 능력치 (v3은 다섯)
 
 | English | 한국어 | 비고 |
 | --- | --- | --- |
@@ -76,7 +76,7 @@ publish: true
 | Intelligence (INT) | **지능(INT)** | |
 | Wisdom (WIS) | **지혜(WIS)** | |
 | Charisma (CHA) | **매력(CHA)** | |
-| Constitution (CON) | — | 2.1 기본 능력치 아님 |
+| Constitution (CON) | — | v3 기본 능력치 아님 |
 
 판정 표기는 **+근 판정**, **+민 판정**, **+지 판정**, **+혜 판정**, **+매 판정**. 풀표기(2d6+근력)는 주사위 설명 절에서만.
 
@@ -84,7 +84,7 @@ publish: true
 
 ## D. 조건과 상태
 
-2.1의 PC 조건은 **다섯**입니다. 알파 시트의 다섯 조건과 그대로 이어집니다.
+v3의 PC 조건은 **다섯**입니다. 알파 시트의 다섯 조건과 그대로 이어집니다.
 
 | English | 한국어 | 페널티 |
 | --- | --- | --- |
@@ -98,7 +98,7 @@ publish: true
 | English | 한국어 | 비고 |
 | --- | --- | --- |
 | Clear / Marked / Locked | **지워짐 / 표시됨 / 잠김** | 동사는 지웁니다·표시합니다·**잠급니다** |
-| Bloodied | **피투성이** | 2.1에서는 조건이 아니라 **HP가 최대치 절반 이하인 상태** |
+| Bloodied | **피투성이** | v3에서는 조건이 아니라 **HP가 최대치 절반 이하인 상태** |
 | Helpless | _무방비_ (대안: 속수무책) | HP 0 상태. 파일럿에서 확정 |
 | HP | **HP** / 히트포인트 | 첫 등장 병기 가능 |
 | Damage (dmg) | **피해** | 최소 피해 / 최대 피해 |
@@ -121,10 +121,11 @@ publish: true
 | `\#area` | **범위** | `\#distinctive` | **눈에 띔** |
 | `\#forceful` | **강타** | `\#holy` | **신성** |
 | `\#light` | **경량** | `\#versatile` | **양용** (원문 태그 설명에만 등장) |
+| `\#thrown` | **투척** | `\#dangerous` | **위험** |
 
 ---
 
-## E. 액션 (2.1 확정안)
+## E. 액션 (v3 확정안)
 
 제목 형식은 **`한글(English)`**, 영어 병기는 파일당 첫 등장 한 번.
 
@@ -165,7 +166,7 @@ publish: true
 
 ### 1판 대응
 
-| 1판 | English (DW1) | 2.1 |
+| 1판 | English (DW1) | v3 |
 | --- | --- | --- |
 | 접근전 · 사격 | Hack and slash, Volley | **주고받기(Trade Blows)** 로 통합 |
 | 위험 돌파 | Defy Danger | **위험 돌파** (동일) |
@@ -178,7 +179,7 @@ publish: true
 
 ---
 
-## F. 캐릭터 관계 (2.1 모델)
+## F. 캐릭터 관계 (v3 모델)
 
 | English | 한국어 | 비고 |
 | --- | --- | --- |
@@ -257,7 +258,11 @@ publish: true
 | Treasure | **재물** | 추상화된 화폐 단위. “1 재물”, “3 재물” |
 | treasure (in-fiction) | **보물** | 이야기 속 물건으로서의 보물 |
 | Wealth | **부**(Wealth) | 살 수 있는 것과 신경 쓸 지출의 정도 |
-| Wealth Standing | **부 등급** | |
+| Wealth Standing / Wealth tier | **부 등급** | |
+| Making a Purchase / Selling Items | **물건 사기 / 물건 팔기** | |
+| Items & Costs / Services | **물건과 값 / 용역** | |
+| Changing Classes | **직업 바꾸기** | |
+| Artifact (In Control) | **아티팩트**(**장악**) | 청금석 용 구슬 |
 | Broke / Poor / Modest / Comfortable / Rich / Aristocratic | **무일푼 / 가난 / 보통 / 넉넉 / 부유 / 귀족** | |
 | Treasure Track | **재물 트랙** | |
 | Campaign Mode | **캠페인 모드** | |
@@ -271,11 +276,14 @@ publish: true
 | Barbarian | **야만인** |
 | Bard | **음유시인** |
 | Cleric | **사제** |
+| Druid | **드루이드** |
 | Fighter | **파이터** |
+| Paladin | **성기사** |
+| Ranger | **레인저** |
 | Rogue | **도적** |
 | Wizard | **마법사** |
 
-2.1에 없는 직업: 드루이드, 성기사, 레인저 (2.0 알파 번역에만 존재).
+드루이드·성기사·레인저는 Beta v3에서 추가되었습니다. 이름은 1판 공개판 표기를 따릅니다.
 
 ### 길(Path)
 
@@ -287,6 +295,9 @@ publish: true
 | 파이터 | Bulwark / Weaponmaster / Tactician | **방벽 / 무기 대가 / 전술가** |
 | 도적 | Assassin / Burglar / Spy | **암살자 / 털이꾼 / 첩자** |
 | 마법사 | Evoker / Illusionist / Necromancer | **정령술사 / 환영술사 / 사령술사** |
+| 드루이드 | Animist / Stargazer / Wildheart | **신령술사 / 별지기 / 야생의 심장** |
+| 성기사 | Inquisitor / Paragon / Questing Knight | **이단심문관 / 귀감 / 편력 기사** |
+| 레인저 | Beastmaster / Deadeye / Scout | **야수 조련사 / 명사수 / 정찰병** |
 
 ### 직업 시작 액션·길(Path) 액션
 
@@ -314,6 +325,18 @@ publish: true
 | Evocation Magic / Contingency / Elemental Cloak / Instant Fireball! / Power Weapon | **정령술 마법 / 대비책 / 원소 망토 / 즉석 화염구! / 힘의 무기** | 마법사·정령술사 |
 | Illusion Magic / Alter Perception / Fool Me Once… / Mirror Image / The Mirror Stares Back | **환영 마법 / 인식 바꾸기 / 한 번 속으면… / 분신 / 거울이 되돌아본다** | 마법사·환영술사 |
 | Necromantic Magic / A Ghost at the Feast / Lifeforce Is a Resource / Sanctum to Unlife / Shed this Mortal Coil | **사령술 마법 / 잔치의 유령 / 생명력도 자원이다 / 불사의 성소 / 이 필멸의 껍질을 벗어던지다** | 마법사·사령술사 |
+| Shapeshift | **변신** | 드루이드. 적응: 빠르고 날렵함 / 기동성과 적응력 / 작거나 위장함 / 튼튼하고 강함 |
+| Anima Mundi / Back to Basics / Commune with Nature / Death & Regrowth / Eye of the Storm | **세계의 영혼 / 기본으로 돌아가라 / 자연과의 교감 / 죽음과 재생 / 폭풍의 눈** | 드루이드·신령술사. **생명력**(Lifeforce) |
+| Eye in the Sky / Augury / Doomsayer / Forecaster / Scion of Sunrise and Sunset | **하늘의 눈 / 점성술 / 파멸의 예언자 / 날씨 예언자 / 새벽과 황혼의 후예** | 드루이드·별지기 |
+| Primeval Whisperer / Call of the Wild / Raised by Wolves / Rumour From the Earth / Together as One | **태고의 속삭임 / 야생의 부름 / 늑대가 키운 아이 / 땅에서 들려오는 소문 / 하나 되어** | 드루이드·야생의 심장. wild creature = **야생 생물** |
+| Oaths of Conviction | **신념의 맹세** | 성기사. Liege **주군**, oath **맹세**: Bravery **용맹** / Mercy **자비** / Protection **수호** / Purity **순결** / Retribution **응징** / Castigation **징벌**. evildoer **악행자**, evil intent **악의** |
+| Beware My Power / By the Power Invested in Me… / Mystical Imprisonment / Nomosmancy / Public Condemnation | **내 힘을 두려워하라 / 내게 주어진 권능으로… / 신비한 구속 / 율법술 / 공개 규탄** | 성기사·이단심문관. Smite Evil **악을 응징하라** |
+| Safeguard the Helpless / A Shot at Redemption / “For the Honor of…” / Inspiring Presence / You Will Not Break Me | **힘없는 이의 방패 / 속죄의 기회 / “…의 명예를 위하여” / 고무하는 존재 / 나는 꺾이지 않는다** | 성기사·귀감. Hold the Line **전선을 지켜라** |
+| On a Mission / I Dub Thee… / The Great Uniter / Throw Down the Gauntlet / Trusted Squire | **임무 수행 중 / 그대를 기사로 서임하노라… / 위대한 통합자 / 결투 신청 / 믿음직한 종자** | 성기사·편력 기사. quest **임무**, blessing **축복** |
+| Animal Companion | **동물 친구** | 레인저. Quality **자질**, Drawback **약점**, Special Training **특수 훈련** |
+| No Mere Creature / In this Together / Kindred Spirits / Superior Companion / Warbeast | **그저 짐승이 아니다 / 함께라면 / 닮은 영혼 / 뛰어난 동물 친구 / 전투 야수** | 레인저·야수 조련사. **충성**(Loyalty) |
+| Death from Afar / Find Weakness / Sniper Nest / Spotter / Trick Arrows | **먼 곳의 죽음 / 약점 찾기 / 저격 둥지 / 관측수 / 특수 화살** | 레인저·명사수. **조준**(Aim) |
+| Lay of the Land / Hunter’s Mark / Peerless Wayfarer / The Wild Provides / Natural Historian | **땅의 형세 / 사냥꾼의 표식 / 비길 데 없는 나그네 / 야생이 베푼다 / 자연사학자** | 레인저·정찰병. Quarry **사냥감** |
 | Invoke the Divine | **신의 뜻 청하기** | 사제 |
 | Fighting Styles / Plans Within Plans | **전투 양식 / 예비 전술** | 파이터 |
 | Tricks of the Trade / Roguish Skills | **숨은 솜씨 / 도적 솜씨** | 도적 |
@@ -329,7 +352,7 @@ publish: true
 
 ### 유대(Bond) 이름
 
-Champions **용사들**, Comrades in Arms **전우**, Enthusiasts **동호인**, Mentor & Ward **스승과 제자**, Rivals **라이벌**, Siblings **형제자매**, True Lovers **진실한 연인**.
+Champions **용사들**, Comrades in Arms **전우**, Enthusiasts **동호인**, Student & Teacher **제자와 스승**(2.1의 Mentor & Ward), Rivals **라이벌**, Siblings **형제자매**, Romantic Partners **연인**(2.1의 True Lovers).
 
 ---
 
@@ -339,7 +362,7 @@ Champions **용사들**, Comrades in Arms **전우**, Enthusiasts **동호인**,
 
 > “근거리 전투에서 적을 공격하면 +근 판정을 합니다. 10+이면 적에게 피해를 주고 자기는 공격을 피합니다.”
 
-2.1 번역:
+v3 번역:
 
 > “전투에서 적과 맞붙을 때, 근거리면 **+근 판정**, 원거리면 **+민 판정**을 합니다. **10+** 이면 아래 하나를 고릅니다.”
 

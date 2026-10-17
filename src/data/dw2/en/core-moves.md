@@ -44,7 +44,7 @@ This is the main way PCs clear Conditions and grow closer together. Each PC can 
 
 ### <a id="defy-danger-(+variable)"></a>Defy Danger (+Variable)
 
-When you contend with a risk, threat, or obstacle—and no other Move fits better—describe how you do it, then the GM chooses one:
+When you contend with a risk, threat, or obstacle—and no other Move fits—describe how you do it, then the GM chooses one and you roll:
 
 * \+STR if you power through, physically endure, or break it
 * \+DEX if you dodge, outpace, or target it precisely
@@ -113,6 +113,14 @@ When you rack your brain for information about a specific subject, ask the GM on
 Everyone has their own past experiences with the world. While many other fantasy TTRPGs have you rely on your Intelligence or similar to recall information, here we mostly ask how central it is to your character. 
 
 If you've never had a [**Struggle**](/ko/awe/dw2/struggles#struggles), then the answer to the third question is always “No”. If it's relevant to an already-resolved Struggle, then the answer can still be “Yes”.
+
+Some example questions include:
+
+* *Where is \_\_\_ located?*
+* *What could have caused \_\_\_?*
+* *What might be the best way to accomplish \_\_\_?*
+* *What have I heard or read about \_\_\_?*
+* *How might I gain access to \_\_\_?*
 
 ### <a id="trade-blows-(+str-or-+dex)"></a>Trade Blows (+STR or \+DEX)
 

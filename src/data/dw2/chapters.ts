@@ -11,10 +11,9 @@ export type Dw2ChapterMeta = {
 };
 
 export const DW2_SOURCE = {
-  title: "Dungeon World 2 Beta v2.1",
-  date: "2026-09-08",
-  file: "Dungeon World 2 Beta v2.1.md",
-  lineCount: 3655,
+  title: "Dungeon World 2 Beta v3",
+  date: "2026-10-09",
+  file: "Dungeon World 2 Beta v3.md",
 };
 
 export const DW2_CHAPTERS: Dw2ChapterMeta[] = [
@@ -29,7 +28,10 @@ export const DW2_CHAPTERS: Dw2ChapterMeta[] = [
   { slug: "the-barbarian", titleEn: "The Barbarian", titleKo: "야만인", part: "직업", status: "translated" },
   { slug: "the-bard", titleEn: "The Bard", titleKo: "음유시인", part: "직업", status: "translated" },
   { slug: "the-cleric", titleEn: "The Cleric", titleKo: "사제", part: "직업", status: "translated" },
+  { slug: "the-druid", titleEn: "The Druid", titleKo: "드루이드", part: "직업", status: "translated" },
   { slug: "the-fighter", titleEn: "The Fighter", titleKo: "파이터", part: "직업", status: "translated" },
+  { slug: "the-paladin", titleEn: "The Paladin", titleKo: "성기사", part: "직업", status: "translated" },
+  { slug: "the-ranger", titleEn: "The Ranger", titleKo: "레인저", part: "직업", status: "translated" },
   { slug: "the-rogue", titleEn: "The Rogue", titleKo: "도적", part: "직업", status: "translated" },
   { slug: "the-wizard", titleEn: "The Wizard", titleKo: "마법사", part: "직업", status: "translated" },
   { slug: "behind-the-screen", titleEn: "Behind the Screen", titleKo: "스크린 뒤에서", part: "마스터", status: "translated" },

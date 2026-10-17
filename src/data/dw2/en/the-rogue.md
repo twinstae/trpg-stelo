@@ -11,7 +11,7 @@
 *e.g. denizens of the Underdark, a street gang, privileged pricks, etc. Did you experience a lot of crime firsthand?*
 
 **Background**: I used to be a \_\_\_  
-*e.g. criminal, squire, teacher, etc. Was it a slippery slope or a conscious decision to become who you are now?*
+*e.g. beloved teacher, faithful squire, heartless criminal, etc. Was it a slippery slope or a conscious decision to become who you are now?*
 
 Relationships Depth
 
@@ -57,7 +57,7 @@ When you [Defy Danger](/ko/awe/dw2/core-moves#defy-danger-\(+variable\)) or [Sne
 
 * **10+:** you can choose to have the target drop something they’re holding, or grab one of their extremities
 
-**Mark two of the items below**:
+**Choose two of the items below**:
 
 - ☐ adventuring gear ◯◯◯ uses. Mark to rummage through and find a useful mundane item  
 - ☐ alchemical vials ◯◯◯ uses. Mark to withdraw of any of the following types: acid, fire, or smoke  

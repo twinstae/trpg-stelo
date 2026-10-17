@@ -21,7 +21,19 @@ You start with a \+2, \+1, 0, 0, and \-1. Your Class will guide you on how to as
 
 ## <a id="class"></a>Class
 
-For this version of the Beta, only [**The Barbarian**](/ko/awe/dw2/the-barbarian#the-barbarian), [**The Bard**](/ko/awe/dw2/the-bard#the-bard), [**The Cleric**](/ko/awe/dw2/the-cleric#the-cleric), [**The Fighter**](/ko/awe/dw2/the-fighter#the-fighter), [**The Rogue**](/ko/awe/dw2/the-rogue#the-rogue), and [**The Wizard**](/ko/awe/dw2/the-wizard#the-wizard) Classes are available. More will be added later on in the Beta, and you can always find the most updated version of them at [**dungeon-world.com**](http://dungeon-world.com).
+The Classes available in DW2 are: [**The Barbarian**](/ko/awe/dw2/the-barbarian#the-barbarian), [**The Bard**](/ko/awe/dw2/the-bard#the-bard), [**The Cleric**](/ko/awe/dw2/the-cleric#the-cleric), [**The Druid**](/ko/awe/dw2/the-druid#the-druid), [**The Fighter**](/ko/awe/dw2/the-fighter#the-fighter), [**The Paladin**](/ko/awe/dw2/the-paladin#the-paladin), [**The Ranger**](/ko/awe/dw2/the-ranger#the-ranger), [**The Rogue**](/ko/awe/dw2/the-rogue#the-rogue), and [**The Wizard**](/ko/awe/dw2/the-wizard#the-wizard).
+
+### <a id="changing-class"></a>Changing Classes
+
+When your character has changed significantly due to choice, consequence, or circumstance, it may be time to change their Class. Changing a character's Class typically represents a new chapter in their life. They may not have forgotten the past and how they used to do things, but they’ve left a significant part of that behind. You can change Classes when you [**Level Up**](/ko/awe/dw2/extra-moves#level-up).
+
+1. **Choose your new Class.** For example, Erinyette the level 5 Rogue resolved her Reformed Struggle, and decided to change to the Paladin Class to represent her determination to fight for what’s right.
+2. **Assign your Stats** as if you were creating a new character. You can use your old Stats as guidance or completely ignore them and use this opportunity to start with a clean slate.
+3. **Gain your new Class Starting Move.** Lose the one from your old Class.
+4. **Reassign your Advancements.** Count the number of advancements you had from your old Class, and gain the same number in your old Class.  
+   *Erinyette had 4 Advancements as a Rogue. Her Player decides to keep the Burglar Path and it’s Starting Move, Expert Treasure-hunter as a Multiclass, but she’ll use the other 3 Advancements to improve her WIS, unlock the Inquisitor Path (their nemesis has hidden devotees everywhere), and to reveal a new Struggle: Vengeful.*
+5. **Your XP, Level, and Treasure Track remain unchanged.**
+6. **Your max HP changes** to that of your new Class, modified by your per Level bonus (\+1 per Level beyond 1, max \+10). Your current HP goes up or down by the same amount (this can't lower it below 1).
 
 ## <a id="origins"></a>Origins
 

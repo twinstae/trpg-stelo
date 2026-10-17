@@ -57,7 +57,7 @@ Transmutation (substance: matter; verbs: momentarily alter; repair) You can [Cas
 - ☐ delicate grimoire. Once per session, you may reference or study it to Prepare a School instantly  
 - ☐ unwieldy staff 1d6 dmg `#close` `#hand` `#two-handed`
 
-**Mark two of the items below**:
+**Choose two of the items below**:
 
 - ☐ adventuring gear ◯◯◯ uses. Mark to rummage through and find a useful mundane item  
 - ☐ bag of books ◯◯◯ uses. Mark to find a record of relevant information  

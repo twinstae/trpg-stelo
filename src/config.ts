@@ -77,7 +77,7 @@ export const SIDEBAR: Sidebar = {
     Topic("13시대 2판", "/13th-age", [
       { text: "사전 제작 캐릭터", link: "/pregenerated-characters" },
     ]),
-    Topic("던전월드 2 (2.1 베타)", "/awe/dw2", [
+    Topic("던전월드 2 (v3 베타)", "/awe/dw2", [
       { text: "목차", link: "" },
       ...DW2_CHAPTERS.filter((chapter) => chapter.slug !== "00-front-matter").map((chapter) => ({
         text: chapter.status === "translated" ? chapter.titleKo : `${chapter.titleKo} (원문)`,

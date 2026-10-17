@@ -21,7 +21,19 @@
 
 ## <a id="class"></a>직업
 
-이번 베타에서는 [**야만인**](/ko/awe/dw2/the-barbarian#the-barbarian), [**음유시인**](/ko/awe/dw2/the-bard#the-bard), [**사제**](/ko/awe/dw2/the-cleric#the-cleric), [**파이터**](/ko/awe/dw2/the-fighter#the-fighter), [**도적**](/ko/awe/dw2/the-rogue#the-rogue), [**마법사**](/ko/awe/dw2/the-wizard#the-wizard) 직업만 쓸 수 있습니다. 베타가 진행되면서 더 추가될 예정이며, 가장 최신판은 [**dungeon-world.com**](http://dungeon-world.com)에서 볼 수 있습니다.
+DW2에서 쓸 수 있는 직업은 [**야만인**](/ko/awe/dw2/the-barbarian#the-barbarian), [**음유시인**](/ko/awe/dw2/the-bard#the-bard), [**사제**](/ko/awe/dw2/the-cleric#the-cleric), [**드루이드**](/ko/awe/dw2/the-druid#the-druid), [**파이터**](/ko/awe/dw2/the-fighter#the-fighter), [**성기사**](/ko/awe/dw2/the-paladin#the-paladin), [**레인저**](/ko/awe/dw2/the-ranger#the-ranger), [**도적**](/ko/awe/dw2/the-rogue#the-rogue), [**마법사**](/ko/awe/dw2/the-wizard#the-wizard)입니다.
+
+### <a id="changing-class"></a>직업 바꾸기
+
+선택이나 결과, 상황 때문에 캐릭터가 크게 달라졌다면, 직업을 바꿀 때가 되었을 수 있습니다. 직업을 바꾸는 것은 대개 캐릭터 삶의 새 장을 뜻합니다. 지난날과 예전에 일을 처리하던 방식을 잊지는 않았겠지만, 그 가운데 큰 부분을 뒤로하고 떠나온 것입니다. 직업은 [**레벨업**](/ko/awe/dw2/extra-moves#level-up) 할 때 바꿀 수 있습니다.
+
+1. **새 직업을 고릅니다.** 예를 들어 5레벨 도적 에리니예트는 개심한 악당 갈등을 해소하고, 옳은 것을 위해 싸우겠다는 결의를 나타내려고 성기사로 직업을 바꾸기로 합니다.
+2. **새 캐릭터를 만들 때처럼 능력치를 배분합니다.** 예전 능력치를 참고해도 되고, 완전히 무시하고 이번 기회에 백지에서 시작해도 됩니다.
+3. **새 직업의 시작 액션을 얻습니다.** 예전 직업의 시작 액션은 잃습니다.
+4. **향상을 다시 배분합니다.** 예전 직업에서 얻은 향상의 수를 세고, 같은 수만큼 새로 얻습니다.  \
+   *에리니예트는 도적으로서 향상 4개를 얻었습니다. 플레이어는 털이꾼 길과 그 시작 액션인 노련한 보물 사냥꾼을 다중 직업으로 남기기로 하고, 나머지 향상 3개로는 지혜를 올리고, 이단심문관 길을 열고(숙적의 숨은 신봉자가 어디에나 있으니까요), 새 갈등인 복수심을 드러냅니다.*
+5. **경험치, 레벨, 재물 트랙은 그대로입니다.**
+6. **최대 HP가 새 직업의 것으로 바뀝니다.** 여기에 레벨에 따른 보너스(1레벨 넘는 레벨마다 +1, 최대 +10)를 더합니다. 현재 HP도 같은 만큼 오르거나 내립니다(다만 1 아래로 내려가지는 않습니다).
 
 ## <a id="origins"></a>기원
 

@@ -12,7 +12,13 @@ When you do, you discover an important part of your past; mark 1 XP and the GM a
 
 *A dearly beloved double-crossed you, and you’ve never been able to trust again*
 
-Questions: *Who was the betrayer to you? How did they betray you? How can you heal that wound?* Driven & Hurting (+) — You can suffer 1d4 dmg `#piercing` to ignore all Condition penalties for your next roll. When you [Comfort or Support](/ko/awe/dw2/core-moves#comfort-or-support) (or receive it), you may also ask, “*Did I tell them about my betrayer?*”. If “Yes”, the comforted gets an extra option. Guarded (-) — When you gain Depth with another PC, mark a Condition.
+Questions: *Who was the betrayer to you? How did they betray you? How can you heal that wound?*
+
+**Driven (+)** — You can suffer 1d4 dmg `#piercing` to ignore all Condition penalties for your next roll.
+
+**Hurting (+)** — When you [Comfort or Support](/ko/awe/dw2/core-moves#comfort-or-support) (or receive it), you may also ask, “*Did I tell them about my betrayer?*”. If “Yes”, the comforted gets an extra option.
+
+**Wary (-)** — When you gain Depth with another PC, mark a Condition.
 
 #### Caretaker
 
@@ -86,7 +92,11 @@ Questions: *Who leads the hunt for you? How did they once almost catch you? What
 
 *You owe a steep debt to  some very dangerous people.*
 
-Questions: *Who do you owe? What makes them so dangerous? Who or what did they take as collateral?* Keep Digging (+) — When you would spend Treasure, you may instead mark an equal amount of Debt, which represents additional dues beyond what you initially owed. When you give your creditor something they really want (GM's call), reset Debt to 0\. Collectors (-) — After you [Enjoy Downtime](/ko/awe/dw2/campaign-moves#enjoy-downtime), agents of your creditor approach; roll+Debt.
+Questions: *Who do you owe? What makes them so dangerous? Who or what did they take as collateral?*
+
+**Keep Digging (+)** — When you would spend Treasure, you may instead mark an equal amount of Debt, which represents additional dues beyond what you initially owed. You can also buy items beyond your current Wealth tier by marking 1 Debt per tier difference. When you give your creditor something they really want (GM's call), reset Debt to 0.
+
+**Collectors (-)** — After you [Enjoy Downtime](/ko/awe/dw2/campaign-moves#enjoy-downtime), agents of your creditor approach; roll+Debt.
 
 * **6-:** they only want to remind you of your dues; mark XP.
 * **7–9:** they want a small favor or item; mark a Condition if you refuse them.
@@ -114,7 +124,11 @@ Questions: *Who or what took your people away? How did you manage to escape and/
 
 *You’ve begun experiencing confusing visions of an upcoming danger or catastrophic event*
 
-Questions: *What one aspect of your prophetic dreams is consistently clear? Do you know who sends you these visions? Who among your beloved is in danger in them?* Saw It Coming (+) — When you finish [Making Camp](/ko/awe/dw2/extra-moves#make-camp) successfully, gain Wyrd equal to your WIS. When something terrible happens to another PC (your call), you may spend 1 or 2 Wyrd to allow their Player to re-roll that number of dice *after* making a roll. No Rest for the All-Seeing (-) — When you finish [Making Camp](/ko/awe/dw2/extra-moves#make-camp) successfully, you recover only half the amount of HP you normally would (rounded down).
+Questions: *What one aspect of your prophetic dreams is consistently clear? Do you know who sends you these visions? Who close to you do they depict as in danger?*
+
+**Saw It Coming (+)** — When you finish [Making Camp](/ko/awe/dw2/extra-moves#make-camp) successfully, gain Wyrd equal to your WIS. When something terrible happens to another PC (your call), you may spend 1 or 2 Wyrd to allow their Player to re-roll that number of dice *after* making a roll and seeing the consequences. The new result is what really happens.
+
+**No Rest for the All-Seeing (-)** — When you finish [Making Camp](/ko/awe/dw2/extra-moves#make-camp) successfully, you recover only half the amount of HP you normally would (rounded down).
 
 #### Pariah
 
@@ -138,7 +152,11 @@ Questions: *How do the stories depict you? What's the most difficult part to liv
 
 *You've been keeping your true identity a secret this whole time, and the wrong people are looking for you*
 
-Questions: *What’s your real name and appearance? Who are “the wrong people”? What nefarious scheme do they want you for?* Scion (+) — Once per session, you can mark one of the following to get temporary access to: ☐ ancient lore ☐ bountiful resources ☐ iconic treasure ☐ powerful allies ☐ unique magic source. When you assume your real identity, clear one of the boxes. Unmasked (-) — When your real identity is revealed, the GM may have the wrong people get news of you or the GM advances a Threat (GM’s call).
+Questions: *What’s your real name and appearance? Who are “the wrong people”? What nefarious scheme do they want you for?*
+
+**Scion (+)** — Once per session, you can mark one of the following to get temporary access to: ☐ ancient lore ☐ bountiful resources ☐ iconic treasure ☐ powerful allies ☐ unique magic source. When you assume your real identity, clear one of the boxes.
+
+**Unmasked (-)** — When your real identity is revealed to someone new, the GM may have the wrong people get news of you or the GM advances a Threat (GM’s call).
 
 #### Treasure Obsession — Leads ☐ ☐ ☐ ☐ ☐ 
 
@@ -148,6 +166,10 @@ Questions: *What is the treasure and what the legends say about it? Why is it so
 
 #### Vengeful
 
-*There’s no justice in this world, but the one you make*
+*There’s no justice in this world, but the one you will wield against your archenemy*
 
-Questions: *Who’s your archenemy? What did they take from you? What stands between you and satisfaction?* Unwavering (+) — When you [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\)) with your archenemy (or anyone associated with them), roll dmg with adv. Once per session, while pursuing your archenemy, when you would [Face Death](/ko/awe/dw2/extra-moves#face-death), you instead stay at 1 HP. Consumed (-) — When you would take a course of action that pulls you away from vengeance against your archenemy, mark a Condition.
+Questions: *Who’s your archenemy? What did they take from you? What stands between you and satisfaction?*
+
+**Unwavering (+)** — When you [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\)) with your archenemy (or anyone associated with them), roll dmg with adv. Once per session, while pursuing your archenemy, when you would [Face Death](/ko/awe/dw2/extra-moves#face-death), you instead stay at 1 HP.
+
+**Consumed (-)** — When you would take a course of action that pulls you away from vengeance against your archenemy, mark a Condition.

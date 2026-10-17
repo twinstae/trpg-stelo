@@ -1,6 +1,6 @@
 import type { Dw2ScenarioSheet } from '../../components/Sheets/dw2ScenarioSheet';
 
-// 던전월드 2 (2.1 베타) 작은 모험 시나리오 시트 — 빼앗긴 아이들.
+// 던전월드 2 (v3 베타) 작은 모험 시나리오 시트 — 빼앗긴 아이들.
 // 원고: src/data/dw2/ko/the-stolen-children.md 를 시트 배치에 맞게 정리한 값.
 
 const STOLEN_CHILDREN: Dw2ScenarioSheet = {

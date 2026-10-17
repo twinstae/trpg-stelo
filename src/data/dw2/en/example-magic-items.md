@@ -376,3 +376,108 @@ When you mark a use and pour the contents of the tube onto a surface within reac
 *A weapon with an ornate gold basket hilt and a long, thin steel blade*
 
 While you wield this weapon when you [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\)), on a 12+, you inflict \+1d6 dmg.
+
+### <a id="example-artifacts"></a>Example Artifacts
+
+#### Alveric’s Soulstealer Blade — Trapped Souls ☐ ☐ ☐ ☐ ☐
+
+*This obsidian, rune-engraved weapon is rumored to be more than a mere instrument of destruction*
+
+**Devourer of Souls.** When you take a person's life with Soulstealer, it absorbs their soul; mark a box in the Trapped Souls track above. When you mark the fifth box, clear the track and unlock one of the Moves below.
+
+While wielding it, you can replace your STR stat with the number of Soulstealer Moves you have unlocked (min. \+1, max. \+4).
+
+- ☐ **Gravity-Defying Menace.** Clear one Trapped Soul to have Soulstealer fight on its own or fly to your hand from afar.
+- ☐ **Reality Rifter.** When you use Soulstealer to open a rift in reality, connecting the world you’re currently in with another you know of, treat it as [Perform a Ritual](/ko/awe/dw2/extra-moves#perform-a-ritual) with the blade as the font of magical power. After the GM tells you the requirements you may clear Trapped Souls, 1-for-1, to profanely fulfill them.
+- ☐ **The Great Banisher.** When you [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\)) while wielding Soulstealer, and your opponent is a Bloodied outsider, on a 10+, you can banish them from the Material world permanently. Mark a box in the Trapped Souls track. They cannot manifest again until you die or that box is cleared.
+
+#### Caliburnus, The Sword That Heals — Ruin ☐ ☐ ☐ ☐ ☐
+
+*A legendary sword that can only wielded by those the weapon deems worthy*
+
+**Rightful Touch.** When you touch someone you deem worthy with Caliburnus’ flat side, mark Ruin so they recover Xd6 HP, where X equals your CHA. When you mark the fifth box, clear the track and unlock one of the Moves below. Caliburnus is virtually indestructible.
+
+While wielding it, you can replace your CHA stat with the number of Caliburnus Moves you have available (min \+1, max \+4).
+
+- ☐ **A New Dawn.** When you raise Caliburnus towards the sky and cry out for light, the blade lights up with the radiance of thirty torches; mark Ruin and roll+CHA.
+    * **10+:** choose two from below.
+    * **7–9:** only one.
+    * **6-:** the light draws the ire of evil forces; mark 1 XP and the GM makes a Move.
+    - The shining light illuminates a secret, treasure, or opportunity
+    - You and all your allies up to `#far` clear a Condition
+    - Each evildoer up to `#far` suffers 1d6 `#holy` `#piercing` dmg
+- ☐ **Bright Eyes.** You may mark Ruin to see through any concealment, deception, or illusion, as well as feel the presence of magic all around you.
+- ☐ **Promised Victory.** When you would [Face Death](/ko/awe/dw2/extra-moves#face-death), you can mark Ruin equal to your CHA and remain at 1 HP instead.
+
+If you ever reach 5 Ruin and have no further Moves to take, your ruin has finally come. Your character must leave the Material world and Caliburnus must be returned to its keeper.
+
+#### Elleovene’s Circlet of Supreme Mesmerism — Stone Heart ☐ ☐ ☐ ☐ ☐
+
+*An apparently simple silver circlet with a blue jewel at its center*
+
+**Awakened Mind.** You can read sapient beings’ superficial thoughts and you can focus on someone `#near` to delve into their deeper mind. For the purposes of [Sensing Motive](/ko/awe/dw2/core-moves#sense-motive-\(+wis\)) of someone `#near`, this focus counts as intimate or prying conversation.
+
+You no longer mark Conditions. When instructed to do so, you can either mark Stone Heart above or lock a Condition. When you mark the fifth Stone Heart box, clear the track and unlock one of the Moves below.
+
+- ☐ **Master of Puppets.** When you touch someone skin-to-skin and force your mind on them, roll+WIS. On a 7+, choose one below. On a 7–9, mark Stone Heart due to the effort. On a 6-, mark 1 XP and they choose one for you instead.
+    * They answer two of your questions as if you [Sensed their Motive](/ko/awe/dw2/core-moves#sense-motive-\(+wis\))
+    * They follow a simple command until the scene ends
+    * They forget a memory
+- ☐ **Spy the World’s Mind Web.** When you expand your mind to sense all of the Material world’s mind, roll+WIS. On a 7+, the GM will tell you one detail of a Threat (Asset, Development, or Reaction). On a 7–9, you also choose one below. On a 6-, something or someone’s blocking you; mark 1 XP and the GM makes a Move.
+    * Somebody unwelcome knows of your spying
+    * You suffer from psychic whiplash; mark 2 Stone Heart boxes
+- ☐ **Willbreaker.** When you unleash your mind's power upon someone `#near`, roll+WIS. On a 10+, choose two from below. On a 7–9, only one. On a 6-, they were somehow ready for you; mark 1 XP and the GM makes a Move.
+    * They can’t act until they’re harmed or the scene ends
+    * They suffer 1d10 `#piercing` dmg from mental overload
+    * You can use this again this scene (otherwise you can’t)
+
+If you would ever mark the fifth box and you have no further Moves to take, you lose your character, as you become an NPC that’s transcended the mortal condition.
+
+#### Indelible Mark of Drakon — Spreading Scales ☐ ☐ ☐ ☐ ☐
+
+*A gleaming, draconic scale made of an unknown, indestructible metal, forever searching for a new worthy host*
+
+**Draconic Desires.** After you get the Mark embedded in your body (willingly or unwillingly), you feel its influence. You mark Spreading Scales when any of the following is true:
+
+* You [End the Session](/ko/awe/dw2/extra-moves#end-the-session) without having spent or gained Depth
+* You [Reach Your Limit](/ko/awe/dw2/extra-moves#reach-your-limit)
+* You refuse [Comfort or Support](/ko/awe/dw2/core-moves#comfort-or-support)
+
+When you mark the fifth box, clear the track and unlock one of the Moves below.
+
+You get extra HP equal to the number of Mark Moves you have available (min. \+1, max. \+4). You can clear a marked Spreading Scales to reduce dmg you suffer to min (even if it was max).
+
+- ☐ **Claws Like Steel.** Reptilian, razor sharp talons replace your usual hands and feet. When you [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\)) with them, you can clear a marked Spreading Scale to inflict 1d6 dmg `#piercing` (and roll dmg with adv if you attack with both).
+- ☐ **Fire Tongue.** You now know the ancient tongue of dragons. You can clear a marked Spreading Scale to spew flames, inflicting 1d12 dmg `#piercing` `#close`.
+- ☐ **Sinewy Wings.** Additional draconic appendages materialize on your back. You can clear a marked Spreading Scale to fly freely until the end of the scene.
+
+If you would ever mark the fifth box and you have no further Moves to take, you lose your character. They become an NPC dragon under the GM’s control.
+
+#### Gwendolen’s Branch of the Green — Growth ☐ ☐ ☐ ☐ ☐
+
+*An everchanging, seemingly innocuous tree branch which contains the unbound power of Nature*
+
+**Spring’s Saplings.** While holding this youthful wand, you can mark Growth to [Shapeshift](/ko/awe/dw2/the-druid#shapeshift) (as per the Druid Starting Move) as if you rolled a 10+. If you already have Shapeshift, you can now transform into a hybrid form between mortal and beast, that grants you both the benefits of the chosen adaptation and all your normal capacities.
+
+When you mark the fifth Growth box, clear the track and unlock the next Move in order from top to bottom. Clear the previous Move this branch had; the cycle is eternal.
+
+- ☐ **Summer’s Blooms.** While holding this now robust staff, you can mark Growth to intervene and miraculously save someone who shouldn’t die yet who’s [Facing Death](/ko/awe/dw2/extra-moves#face-death) `#close` to you. They regain 1 HP.
+- ☐ **Autumn’s Fruits.** While holding this now diminished rod, you can mark Growth to [Cast a Spell](/ko/awe/dw2/core-moves#cast-a-spell-\(+variable\)) by entreating the natural spirits for aid (as per the [Anima Mundi](/ko/awe/dw2/the-druid#anima-mundi) in the Animist Druid Path). Once per session, you can also ignore the questions and treat the result as if you rolled a 10+ with mag up to your WIS.
+- ☐ **Winter’s Solace.** While holding this now withered wand, you can mark Growth to end an unnatural creature’s life who’s Bloodied. When you mark the fifth Growth box, the Branch crumbles to ashes until only a seedling remains. You need to plant the seed so someone else can have access to a new Branch in the future.
+
+#### Lazurite Dragon Orb — Mastery ☐ ☐ ☐ ☐ ☐
+
+*An etched crystal globe with blue mist whirling inside*
+
+Once per session, when you confront the blue dragon trapped in the Orb, roll+INT.
+
+* **10+:** mark 3 Mastery over them.
+* **7–9:** only 2.
+* **6-:** mark 1, but the dragon clouds your mind; lock Angry.
+
+When you mark the fifth box, clear the track and unlock one of the Moves below. As long as you have any Mastery marked, you’re considered to be In Control.
+
+- ☐ **Draconic Might.** As long as you’re In Control, you can clear Mastery to improve a [Defy Danger](/ko/awe/dw2/core-moves#defy-danger-\(+variable\)) or [Trade Blows](/ko/awe/dw2/core-moves#trade-blows-\(+str-or-+dex\)) by a number of steps equal to the number of boxes cleared (min 1, max 2). You can also clear Mastery to ignore all dmg from a draconic source.
+- ☐ **Draconic Magic.** As long as you’re In Control, you can [Cast a Spell](/ko/awe/dw2/core-moves#cast-a-spell-\(+variable\))\+INT by changing reality through words of draconic power; clear Mastery equal to the spell’s mag (min 1, max 4).
+- ☐ **Draconic Power.** As long as you’re In Control, you can unleash a jumping lightning bolt that inflicts Xd6 `#piercing` dmg to X creatures up to `#far`, where X is the amount of Mastery boxes cleared. You can also clear a Mastery box to ignore all dmg from a dragon’s breath.
+- ☐ **Draconic Sway.** As long as you’re In Control, you can give an undeniable order to a dragon up to `#far`. To do so, clear a number of Mastery boxes equal to a dragon’s power (min 1, max 4); then it must follow the order. You can also clear a Mastery box to know whether there are any dragons up to 10 miles away.
