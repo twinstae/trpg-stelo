@@ -30,7 +30,7 @@ export const epicFantasyCharacters: Character[] = [
     ],
     skills: [
       { title: '지각', level: 'trained' },
-      { title: '우선권', level: 'trained' },
+      { title: '행동 순서', level: 'trained' },
       { title: '항법', level: 'trained' },
       { title: '매력', level: 'inability' },
     ],

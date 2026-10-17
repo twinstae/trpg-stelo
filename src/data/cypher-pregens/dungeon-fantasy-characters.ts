@@ -423,7 +423,7 @@ export const dungeonFantasyCharacters: Character[] = [
       { title: '에너지 폭발', modifier: 0, damage: 4, description: '특수 능력. 단거리. 지성 1점+.' },
     ],
     skills: [
-      { title: '우선권', level: 'trained' },
+      { title: '행동 순서', level: 'trained' },
       { title: '마법 지식', level: 'trained' },
       { title: '지각', level: 'trained' },
       { title: '육체 활동', level: 'inability' },

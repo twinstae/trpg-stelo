@@ -321,7 +321,7 @@ export const swordSorceryCharacters: Character[] = [
     },
     attacks: [{ title: '전투도끼', modifier: 0, damage: 4, description: '중형 무기. 지근거리.' }],
     skills: [
-      { title: '우선권', level: 'trained' },
+      { title: '행동 순서', level: 'trained' },
       { title: '종교 지식', level: 'trained' },
       { title: '치유', level: 'trained' },
       { title: '잠입', level: 'inability' },
