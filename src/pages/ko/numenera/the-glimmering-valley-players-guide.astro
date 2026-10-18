@@ -1,0 +1,23 @@
+---
+import BilingualLayout from '../../../layouts/BilingualLayout.astro';
+import { pairSections } from '../../../utils/pairSections';
+
+import enSource from '../../../data/glimmering-valley/en/players-guide.md?raw';
+import koSource from '../../../data/glimmering-valley/ko/players-guide.md?raw';
+
+const { rows, headings } = pairSections('players-guide', enSource, koSource, 'glimmering-valley');
+---
+
+<BilingualLayout
+	titleEn="The Glimmering Valley: Player's Guide"
+	titleKo="글리머링 밸리 플레이어 가이드"
+	titleSuffix="[누메네라]"
+	description="몬테 쿡 게임즈의 누메네라 캠페인 북 《The Glimmering Valley》 무료 배포 자료 ‘The Glimmering Valley: Player's Guide’(2023)의 영어 원문과 한국어 번역 대역"
+	basePath="/ko/numenera"
+	editPath="src/data/glimmering-valley/ko/players-guide.md"
+	rows={rows}
+	headings={headings}
+	prev={null}
+	next={null}
+	showTitle
+/>

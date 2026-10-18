@@ -70,6 +70,7 @@ export const SIDEBAR: Sidebar = {
       { text: "캐릭터 이해하기", link: "/understanding-your-character" },
       { text: "누메네라를 플레이하는 법", link: "/how-to-play-numenera" },
       { text: "플레이의 예", link: "/example-of-play" },
+      { text: "글리머링 밸리 플레이어 가이드", link: "/the-glimmering-valley-players-guide" },
       //  { text: '사냥하는 소리의 첨탑: 퀵스타트', link: '/the-spire-of-the-hunting-sound' },
     ]),
     Topic("자작 자료", "/numenera", [
