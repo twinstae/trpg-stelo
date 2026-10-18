@@ -69,7 +69,6 @@
 
 /* 한글은 기울이면 글자가 비뚤어 보이므로, 기울임 대신 색으로 구분한다. */
 .prose em:lang(ko) {
-  font-style: normal;
   color: var(--muted);
 }
 

@@ -2,6 +2,7 @@ import { CYPHER_SRD_CHAPTERS } from "./data/cypher-srd/chapters";
 import { DW2_CHAPTERS } from "./data/dw2/chapters";
 import { LAZY_GM_GUIDE_CHAPTERS } from "./data/lazy-gm-guide/chapters";
 import { IRONSWORN_CHAPTERS } from "./data/ironsworn/chapters";
+import { PTOLUS_CHAPTERS } from "./data/ptolus/chapters";
 import type { NavItem, NavLink, NavTopic } from "./navigation";
 
 export const SITE = {
@@ -109,6 +110,10 @@ export const SIDEBAR: Sidebar = {
       { text: "성장", link: "/advancement" },
       { text: "게임 마스터가 되는 법", link: "/being-game-master" },
       { text: "선택 규칙", link: "/optional-rules" },
+    ]),
+    Topic("톨러스", "/ptolus", [
+      { text: "목차", link: "" },
+      ...bookSections(PTOLUS_CHAPTERS),
     ]),
     // Topic("페이트 코어", "/fate-core", [
     //   { text: "소개", link: "/introduction" },
