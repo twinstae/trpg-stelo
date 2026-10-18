@@ -477,17 +477,17 @@ PC가 사이퍼를 탐색하면 이 테이블에서 한 번 굴립니다. PC가 
 
 ## 광고
 
-바다의 재를 재미있게 즐기셨다면 [누메네라 코어북]과 서플리먼트도 구매해보세요. 플레이어 분들에게도 소개해주시길 바랍니다. 한국에서는 도서출판 초여명에서 번역하고 출판하고 있습니다. 초여명의 자매 온라인 상점인 [알피지 스토어](https://www.rpgstore.kr/front/product/product_list.php?pinid=24201)를 비롯해 시중의 오프라인 / 온라인 서점에서도 구매할 수 있습니다. 영어판도 몬티 쿡 게임즈의 [자체 온라인 스토어](https://www.montecookgames.com/store/) 등에서 구매하실 수 있습니다.
+바다의 재를 재미있게 즐기셨다면 [누메네라 코어북]과 서플리먼트도 구매해보세요. 플레이어 분들에게도 소개해주시길 바랍니다. 한국에서는 도서출판 초여명에서 번역하고 출판하고 있습니다. 초여명의 자매 온라인 상점인 [알피지 스토어](https://www.rpgstore.kr/goods/goods_list.php?cateCd=001004)를 비롯해 시중의 오프라인 / 온라인 서점에서도 구매할 수 있습니다. 영어판도 몬티 쿡 게임즈의 [자체 온라인 스토어](https://www.montecookgames.com/store/) 등에서 구매하실 수 있습니다.
 
 번역을 허락해주신 도서출판 초여명 출판사 분들께 다시 한 번 감사드립니다. (광고의 내용은 역자가 임의로 알피지 스토어와 초여명 사이트의 소개 문구를 토대로 가져왔습니다.)
 
 ### 누메네라 플레이어 가이드
 
-<a href="https://www.rpgstore.kr/front/product/product_detail.php?seq=11654&pinid=24201" target="_blank">
-  <img src="https://www.rpgstore.kr/upload/product/img4/6_291.jpeg?t=1642991229" alt="누메네라 플레이어 가이드 표지. 가슴에 빛나는 기계를 달고, 붉은 망토를 쓴 남자가 공중에 떠 있고, 그 앞에는 초록 링을 들고 은빛 사자 같은 머리를 한 여자가 오른쪽으로 달려가고 있으며, 휘어진 청록 칼날이 달린 장대무기를 든 청록 모히칸 머리에 눈가를 붉게 칠하고 노란 벌레 껍질 같은 갑옷을 입은 남자가 왼쪽으로 달리고 있다." style="float: center;"/>
+<a href="https://www.rpgstore.kr/goods/goods_view.php?goodsNo=1000000036" target="_blank">
+  <img src="https://godomall-storage.cdn-nhncommerce.com/779e01b9dddb1640fae9a963a3bf3b7c/goods/1000000036/image/main/1000000036_main_08.jpeg" alt="누메네라 플레이어 가이드 표지. 가슴에 빛나는 기계를 달고, 붉은 망토를 쓴 남자가 공중에 떠 있고, 그 앞에는 초록 링을 들고 은빛 사자 같은 머리를 한 여자가 오른쪽으로 달려가고 있으며, 휘어진 청록 칼날이 달린 장대무기를 든 청록 모히칸 머리에 눈가를 붉게 칠하고 노란 벌레 껍질 같은 갑옷을 입은 남자가 왼쪽으로 달리고 있다." style="float: center;"/>
   알피지 스토어에서 한국어판 구매하기.
 
-정가 13,000원
+정가 11,700원
 </a>
 
 - ISBN 9788988060285 93690
@@ -512,11 +512,11 @@ PC가 사이퍼를 탐색하면 이 테이블에서 한 번 굴립니다. PC가 
 
 ### 누메네라 코어북
 
-<a href="https://www.rpgstore.kr/front/product/product_detail.php?seq=11630&pinid=24201" target="_blank">
-  <img src="https://www.rpgstore.kr/upload/product/img4/6_261.jpeg?t=1642991229" alt="누메네라 코어북 표지. 주황색 호박석 거탑을 배경으로 기계 장치를 쓴 사람과 파충류, 하늘을 나는 칼날과 비룡을 탄 사람들이 보인다." style="float: center;"/>
+<a href="https://www.rpgstore.kr/goods/goods_view.php?goodsNo=1000000034" target="_blank">
+  <img src="https://godomall-storage.cdn-nhncommerce.com/779e01b9dddb1640fae9a963a3bf3b7c/goods/1000000034/image/main/1000000034_main_026.jpeg" alt="누메네라 코어북 표지. 주황색 호박석 거탑을 배경으로 기계 장치를 쓴 사람과 파충류, 하늘을 나는 칼날과 비룡을 탄 사람들이 보인다." style="float: center;"/>
   알피지 스토어에서 한국어판 구매하기.
 
-정가 46,000원.
+정가 41,400원.
 </a>
 
 - ISBN 9788988060278 93690

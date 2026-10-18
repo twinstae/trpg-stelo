@@ -24,6 +24,6 @@ The Fate Core font is © Evil Hat Productions, LLC and is used with permission. 
 
 시중의 오프라인, 온라인 서점이나 알피지 스토어 등에서 구매하실 수 있습니다. 아래 이미지를 클릭하시면 알피지 스토어로 이동합니다.
 
-<a href="https://www.rpgstore.kr/front/product/product_detail.php?seq=11622&pinid=24199">
-  <img class="mx-auto w-full max-w-sm" src="https://www.rpgstore.kr/upload/product/img4/6_shop1_792730.jpg?t=1642991229" alt="페이트 코어 시스템 표지. 알피지 스토어로 이동하기" />
+<a href="https://www.rpgstore.kr/goods/goods_view.php?goodsNo=1000000063">
+  <img class="mx-auto w-full max-w-sm" src="https://godomall-storage.cdn-nhncommerce.com/779e01b9dddb1640fae9a963a3bf3b7c/goods/1000000063/image/main/1000000063_main_053.jpg" alt="페이트 코어 시스템 표지. 알피지 스토어로 이동하기" />
 </a>
