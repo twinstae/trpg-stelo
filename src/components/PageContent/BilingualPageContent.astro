@@ -57,6 +57,34 @@ const pager = location?.link ? fromNav : { prev: fromProps(prev), next: fromProp
 
 // 앵커(<a id>)만 있는 덩어리는 화면에 보이는 글이 없으므로 이름표·여백을 붙이지 않는다.
 const isBlank = (html: string) => html.replace(/<a\s+id="[^"]*"\s*><\/a>/g, '').trim() === '';
+
+/*
+	두 열에 같은 id가 있으면 문서에 id가 둘이 되어 #링크가 듣지 않는다. 한쪽 열에만 남기면 한 언어만
+	보기에서 그 열이 숨겨질 때 다시 깨지므로, 겹치는 id는 두 열에서 지우고 행으로 옮긴다.
+	헤딩 id는 행 자체의 id가 되고, 나머지 앵커는 행 맨 위에 둔다.
+*/
+const ID_RE = /\sid="([^"]*)"/g;
+const idsOf = (html: string) => [...html.matchAll(ID_RE)].map((match) => match[1]!);
+const escapeRe = (text: string) => text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const stripIds = (html: string, ids: string[]) =>
+	ids.reduce((out, id) => {
+		const value = escapeRe(id);
+		return out.replace(new RegExp(`<a\\s+id="${value}"\\s*></a>`, 'g'), '').replace(new RegExp(`\\sid="${value}"`, 'g'), '');
+	}, html);
+const decodeId = (id: string) => id.replace(/&quot;/g, '"').replace(/&amp;/g, '&');
+
+const displayRows = rows.map((row) => {
+	const koIds = new Set(bilingual ? idsOf(row.koHtml) : []);
+	const shared = idsOf(row.enHtml).filter((id) => koIds.has(id));
+	const moved = [...new Set([...shared, ...(row.id ? [row.id] : [])])];
+	return {
+		...row,
+		blank: isBlank(row.enHtml) && isBlank(row.koHtml),
+		enHtml: stripIds(row.enHtml, moved),
+		koHtml: stripIds(row.koHtml, moved),
+		anchors: moved.filter((id) => id !== row.id).map(decodeId),
+	};
+});
 ---
 
 <article id="article" class="bilingual" data-view="both" data-bilingual={bilingual ? 'true' : 'false'}>
@@ -115,15 +143,14 @@ const isBlank = (html: string) => html.replace(/<a\s+id="[^"]*"\s*><\/a>/g, '').
 	}
 
 	{
-		rows.map((row) => (
+		displayRows.map((row) => (
 			<div
-				class:list={[
-					'bi-row',
-					`kind-${row.kind}`,
-					row.gap && `gap-${row.gap}`,
-					{ 'is-blank': isBlank(row.enHtml) && isBlank(row.koHtml) },
-				]}
+				id={row.id}
+				class:list={['bi-row', `kind-${row.kind}`, row.gap && `gap-${row.gap}`, { 'is-blank': row.blank }]}
 			>
+				{row.anchors.map((id) => (
+					<a id={id} class="bi-anchor" />
+				))}
 				<div class="en prose" lang="en" set:html={row.enHtml} />
 				{bilingual && <div class="ko prose" set:html={row.koHtml} />}
 			</div>
@@ -238,9 +265,16 @@ const isBlank = (html: string) => html.replace(/<a\s+id="[^"]*"\s*><\/a>/g, '').
 	}
 
 	.bi-row {
+		position: relative;
 		display: grid;
 		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 		column-gap: 3rem;
+	}
+
+	/* 두 열에서 옮겨 온 앵커. 격자 칸을 차지하지 않고 행 맨 위를 가리킨다. */
+	.bi-anchor {
+		position: absolute;
+		top: 0;
 	}
 
 	.bi-labels {
