@@ -1,10 +1,13 @@
 <script>
   [...document.getElementById('article')?.querySelectorAll(':is(h1,h2,h3,h4)') ?? []]
     .forEach((heading) => {
+      // 대역 페이지는 헤딩 대신 그 헤딩이 든 행(.bi-row)이 id를 가진다.
+      const id = heading.id || heading.closest('.bi-row')?.id;
+      if (!id) return;
       heading.classList.add('group')
       const anchor = document.createElement('A');
       anchor.innerText = '#';
-      anchor.setAttribute('href', '#' + heading.id);
+      anchor.setAttribute('href', '#' + id);
       anchor.setAttribute('class', 'hidden group-hover:inline');
       anchor.onclick = () => {
         navigator.clipboard.writeText(encodeURI(location.origin + location.pathname  + anchor.getAttribute('href')))
