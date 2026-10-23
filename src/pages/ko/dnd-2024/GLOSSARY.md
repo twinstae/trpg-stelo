@@ -312,3 +312,54 @@ publish: true
 ### 9.3 이미 쓴 주문·물건 이름
 
 베이직 표기: **화염구**(Fireball), **번개**(Lightning Bolt), **사자 소생**(Raise Dead), **재활성화**(Revivify), **상처 치료**(Cure Wounds), **타오르는 손길**(Burning Hands), **춤추는 빛**(Dancing Lights), **요술**(Prestidigitation), **마법 탐지**(Detect Magic), **인간형 포박**(Hold Person), **단순마술**(Thaumaturgy), **하급 환영**(Minor Illusion), **안개 걸음**(Misty Step), **독 분사**(Poison Spray), **화염 화살**(Fire Bolt), **저주 해제**(Remove Curse), **상급 회복**(Greater Restoration), **치유의 물약**(Potion of Healing). 주문 단계(6단계)에서 나머지를 표로 만듭니다.
+
+## 10. 장비와 클래스 (4–5단계 시작 전)
+
+베이직 룰 한국어판 본문 텍스트는 저장소 밖 `.freebuff/dnd-basic-ko.txt`(git에 넣지 않음)에 있습니다. 이름이 의심스러우면 `grep "영어 이름" .freebuff/dnd-basic-ko.txt`로 공식 표기를 먼저 찾으십시오. 베이직은 대개 `한국어 English` 순서로 병기합니다.
+
+### 10.1 무기·갑옷
+
+* 무기는 **음역**합니다(베이직): 클럽, 대거, 그레이트클럽, 핸드액스, 자벨린, 라이트 해머, 메이스, 쿼터스태프, 시클, 스피어, 다트, 라이트 크로스보우, 숏보우, 슬링, 배틀액스, 플레일, 글레이브, 그레이트액스, 그레이트소드, 할버드, 랜스, 롱소드, 마울, 모닝스타, 파이크, 레이피어, 시미터, 숏소드, 트라이던트, 워 픽, 워해머, 윕, 블로우건, 핸드 크로스보우, 헤비 크로스보우, 롱보우, 넷.
+* 갑옷도 음역합니다(베이직): 패디드, 레더, 스터디드 레더, 하이드, 체인 셔츠, 스케일 메일, 브레스트플레이트, 하프 플레이트, 링 메일, 체인 메일, 스플린트, 플레이트, 방패. 글에서는 “레더 아머”, “체인 메일”처럼 씁니다.
+* 무기 속성(베이직): Ammunition **탄환**, Finesse **교묘함**, Heavy **중량형**, Light **경량**, Loading **장전**, Range **사거리**, Reach **간격**, Thrown **투척**, Two-Handed **양손**, Versatile **다용도**.
+* Weapon Mastery는 _무기 통달_(신규; 베이직의 Spell Mastery **주문 통달**에 맞춤. Expertise **숙달**과 겹치지 않게). 통달 속성(신규): Cleave _가르기_, Graze _스치기_, Nick _연속 타격_, Push _밀쳐내기_, Sap _기력 빼앗기_, Slow _둔화_, Topple _넘어뜨리기_, Vex _괴롭히기_.
+* 꾸러미·도구(베이직): Burglar's Pack **도둑의 꾸러미**, Dungeoneer's Pack **던전 탐색자의 꾸러미**, Explorer's Pack **탐험가의 꾸러미**, Scholar's Pack **학자의 꾸러미**, Component Pouch **구성요소 주머니**, Arcane Focus **비전 매개체**, Holy Symbol **성표**, Spellbook **주문책**, Crowbar **쇠지렛대**. 나머지는 베이직을 grep해 보고, 없으면 쉬운 우리말로.
+
+### 10.2 클래스 공통
+
+| 영어 | 한국어 | 근거 |
+| --- | --- | --- |
+| Core [Class] Traits | **[클래스] 핵심 특성** | 신규 |
+| Primary Ability | _주 능력치_ | 신규 |
+| Hit Point Die | **히트 다이스** | 베이직 |
+| Becoming a [Class] … / As a Level 1 Character / As a Multiclass Character | _[클래스]가 되려면 … / 1레벨 캐릭터라면 / 멀티클래스 캐릭터라면_ | 신규 |
+| [Class] Class Features | **[클래스] 클래스 요소** | 베이직 |
+| Level 1: Rage (요소 헤딩) | **1레벨: 격노** | 형식 |
+| [Class] Subclass: X | **[클래스] 하위클래스: X** | 신규 |
+| Ability Score Improvement | **능력치 점수 상승** | 베이직 |
+| Epic Boon | _서사적 은혜_ | 신규 |
+| Extra Attack | **추가 공격** | 베이직 |
+| Fighting Style / Additional Fighting Style | **전투 유파** / **추가 전투 유파** | 베이직 |
+| Spellcasting / Spell List | **주문시전** / **주문 목록** | 베이직 |
+| Evasion | **회피기동** | 베이직 |
+| Unarmored Defense | _비무장 방어_ | 신규(바바리안·몽크 공통) |
+| Expertise | **숙달** | 베이직 |
+
+### 10.3 베이직에 있는 클래스 요소
+
+* 파이터: Second Wind **재기의 바람**, Action Surge **행동 연쇄**, Indomitable **불요불굴**, Champion **챔피언**, Improved Critical **향상된 치명타**, Remarkable Athlete **뛰어난 운동능력**, Superior Critical **우월한 치명타**, Survivor **생존의 대가**, Fighting Styles: Archery **궁술**, Defense **방어술**, Dueling **결투술**, Great Weapon Fighting **대형 무기 전투술**, Protection **보호술**, Two-Weapon Fighting **쌍수 전투술**.
+* 로그: Sneak Attack **암습 공격**, Thieves' Cant **도둑의 속어**, Cunning Action **교활한 행동**, Uncanny Dodge **놀라운 회피**, Reliable Talent **믿음직한 재능**, Elusive **회피본능**, Slippery Mind **유연한 마음가짐**, Stroke of Luck **행운의 한 방**, Thief **시프**, Fast Hands **빠른 손놀림**, Second Story Work **오르내리기**, Supreme Sneak **뛰어난 은신술**, Use Magic Device **마법 도구 사용**, Thief's Reflexes **도둑의 반사신경**.
+* 클레릭: Channel Divinity **신성 변환**, Turn Undead **언데드 퇴치**, Destroy Undead **언데드 파괴**, Divine Intervention **신의 간섭**, Divine Strike **신성한 일격**, Divine Domain **신성 권역**, Domain Spells **권역 주문**, Life Domain **생명 권역**, Disciple of Life **생명의 사도**, Preserve Life **생명 보존**, Blessed Healer **축복받은 치유사**, Supreme Healing **최상의 치유력**.
+* 위저드: Arcane Recovery **비전 회복**, Arcane Tradition **비전 전통**, Spell Mastery **주문 통달**, Signature Spells **대표 주문**, School of Evocation **방출학파**, Evocation Savant **방출계 전공**, Sculpt Spells **주문 조정**, Potent Cantrip **강화된 소마법**, Empowered Evocation **강화된 방출**, Overchannel **과전환**.
+* 바바리안(5판 관례): Rage _격노_, Reckless Attack _무모한 공격_, Danger Sense _위험 감지_, Path of the Berserker _광전사의 길_, Frenzy _광란_.
+
+### 10.4 탈것과 고용인 (2사이클에서 정함)
+
+* **탈것**(mount)과 **승용물**(vehicle)을 구분합니다. 근거는 베이직의 절 제목 “탈것과 승용물”과 그 본문(“좋은 탈것이 있으면 …”, “승용물 (지상 혹은 수상용)”). 2사이클 초고에서 둘을 거꾸로 썼으므로 원고를 바로잡았습니다.
+  * mount **탈것**(탈것에 타다, 탈것 조종하기), 타고 다니는 동물은 **탈것 동물**.
+  * vehicle **승용물**(대형 승용물, 마구·마갑·끄는 승용물, 수상 승용물).
+* 마갑은 **마갑**(Barding, 베이직), 안장은 **안장**(군용 / 특수 / 승마용).
+* 고용인: Skilled hireling **숙련된 고용인**, Unskilled hireling **비숙련 고용인**(베이직).
+* Lifestyle Expenses **생활수준 지출**, Wretched/Squalid/Poor/Modest/Comfortable/Wealthy/Noble **극빈층 / 누추함 / 가난함 / 평범함 / 편안함 / 부유함 / 귀족적**(베이직).
+* Calligrapher's Supplies **서예가의 도구**(베이직에 없어 “서예 도구”로 쓰던 배경 원고도 함께 통일). Artisan's Tools **장인의 도구**, Tool Proficiency **도구 숙련**, Utilize **사용 행동**.
+* 복사·학자 배경의 “서예가의 도구”처럼 도구 이름은 **○○의 도구** 꼴을 지킵니다.
