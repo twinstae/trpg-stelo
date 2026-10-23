@@ -61,7 +61,7 @@ export const DND_2024_CHAPTERS: Dnd2024ChapterMeta[] = [
   { slug: "magic-items-and-crafting", titleEn: "Magic Items and Crafting", titleKo: "마법 물건과 제작", part: "장비", status: "translated" },
   { slug: "spellcasting", titleEn: "Spellcasting", titleKo: "주문 시전", part: "주문", status: "translated" },
   { slug: "spells-a", titleEn: "Spells A", titleKo: "주문 A", part: "주문", status: "translated", tocDepth: 4 },
-  { slug: "spells-b-c", titleEn: "Spells B–C", titleKo: "주문 B–C", part: "주문", status: "pending", tocDepth: 4 },
+  { slug: "spells-b-c", titleEn: "Spells B–C", titleKo: "주문 B–C", part: "주문", status: "translated", tocDepth: 4 },
   { slug: "spells-d-e", titleEn: "Spells D–E", titleKo: "주문 D–E", part: "주문", status: "pending", tocDepth: 4 },
   { slug: "spells-f-g", titleEn: "Spells F–G", titleKo: "주문 F–G", part: "주문", status: "pending", tocDepth: 4 },
   { slug: "spells-h-l", titleEn: "Spells H–L", titleKo: "주문 H–L", part: "주문", status: "pending", tocDepth: 4 },
