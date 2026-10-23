@@ -363,3 +363,145 @@ publish: true
 * Lifestyle Expenses **생활수준 지출**, Wretched/Squalid/Poor/Modest/Comfortable/Wealthy/Noble **극빈층 / 누추함 / 가난함 / 평범함 / 편안함 / 부유함 / 귀족적**(베이직).
 * Calligrapher's Supplies **서예가의 도구**(베이직에 없어 “서예 도구”로 쓰던 배경 원고도 함께 통일). Artisan's Tools **장인의 도구**, Tool Proficiency **도구 숙련**, Utilize **사용 행동**.
 * 복사·학자 배경의 “서예가의 도구”처럼 도구 이름은 **○○의 도구** 꼴을 지킵니다.
+
+## 11. 주문시전 클래스 (3사이클에서 정함)
+
+베이직 룰에 실린 클래스는 클레릭·파이터·로그·위저드뿐이라, 나머지 8개 클래스의 요소 이름은 여기서 새로 정했습니다. 같은 꼴을 지키도록 몇 가지 규칙을 둡니다.
+
+* 클래스 요소는 **짧은 명사구**로 짓고, `1레벨: ○○` 꼴의 헤딩과 본문에서 같은 말을 씁니다.
+* `Channel Divinity` **신성 변환**, `Divine Intervention` **신의 간섭**, `Unarmored Defense` **비무장 방어**, `Ability Score Improvement` **능력치 점수 상승**, `Epic Boon` **서사적 은혜**는 클래스가 달라도 같은 말을 씁니다.
+* `Spellcasting` **주문시전**, `Spell Slots` **주문 슬롯**, `Slot Level` **슬롯 레벨**, `Cantrips` **소마법**, `Prepared Spells` **준비된 주문**.
+* 클래스마다 “X Features” 표는 **X 요소**, “Core X Traits”는 **X 핵심 특성**.
+* 요소 선택지가 둘인 곳(`Divine Order`, `Primal Order`, `Blessed Strikes`, `Elemental Fury`, `Hunter's Prey`, `Defensive Tactics`)은 원문처럼 `_선택지._ 설명` 꼴의 기울임 머리로 나눕니다.
+
+### 11.1 바드
+
+Bardic Inspiration **바드의 영감**, Bardic Die **영감 주사위**, Jack of All Trades **만능꾼**, Font of Inspiration **영감의 원천**, Countercharm **마법 방해**, Magical Secrets **마법의 비밀**, Superior Inspiration **뛰어난 영감**, Words of Creation **창조의 말씀**, College of Lore **지식의 전당**, Cutting Words **깎아내리는 말**, Magical Discoveries **마법의 발견**, Peerless Skill **비할 데 없는 솜씨**.
+
+### 11.2 클레릭
+
+Divine Order **신성 계율**(Protector **수호자** / Thaumaturge **기적술사**), Divine Spark **신성한 불씨**, Sear Undead **언데드 소각**, Blessed Strikes **축복받은 일격**(Divine Strike **신성한 일격** / Potent Spellcasting **강력한 주문시전**), Improved Blessed Strikes **향상된 축복받은 일격**, Greater Divine Intervention **상급 신의 간섭**, Life Domain **생명 권역**.
+
+### 11.3 드루이드
+
+Primal Order **원초의 계율**(Magician **마법사** / Warden **수호자**), Druidic **드루이드어**, Wild Shape **야생 변신**(Known Forms **아는 형상**, Beast Shapes **야수 형상**), Wild Companion **야생의 동반자**, Wild Resurgence **야생의 부활**, Elemental Fury **원소의 분노**(Primal Strike **원초의 일격**), Beast Spells **야수 주문**, Archdruid **대드루이드**, Circle of the Land **대지의 서클**(서클 주문, 대지의 도움, 자연 회복, 자연의 수호, 자연의 성역).
+
+### 11.4 팔라딘
+
+Lay On Hands **손을 얹기**, Paladin's Smite **팔라딘의 강타**, Faithful Steed **충실한 탈것**, Aura of Protection **보호의 오오라**, Abjure Foes **적 퇴치**, Aura of Courage **용기의 오오라**, Radiant Strikes **광휘의 일격**, Restoring Touch **회복의 손길**, Aura Expansion **오오라 확장**, Oath of Devotion **헌신의 맹세**, Sacred Weapon **신성한 무기**, Aura of Devotion **헌신의 오오라**, Smite of Protection **보호의 강타**, Holy Nimbus **거룩한 후광**, Divine Sense **신성 감지**, Blessed Warrior **축복받은 전사**.
+
+### 11.5 레인저
+
+Favored Enemy **천적**, Deft Explorer **노련한 탐험가**, Roving **방랑**, Tireless **지치지 않는 몸**, Relentless Hunter **집요한 사냥꾼**, Nature's Veil **자연의 장막**, Precise Hunter **정확한 사냥꾼**, Feral Senses **야성의 감각**, Foe Slayer **적 처단자**, Hunter **사냥꾼**, Hunter's Lore **사냥꾼의 지식**, Hunter's Prey **사냥꾼의 먹잇감**(Colossus Slayer **거상 사냥꾼** / Horde Breaker **무리 격파**), Defensive Tactics **방어 전술**(Escape the Horde **무리에서 벗어나기** / Multiattack Defense **연속 공격 방어**), Druidic Warrior **드루이드 전사**.
+
+### 11.6 소서러
+
+Sorcery Points **마법 점수**, Innate Sorcery **타고난 마법**, Font of Magic **마법의 원천**, Metamagic **초마법**, Sorcerous Restoration **마법 회복**, Sorcery Incarnate **마법의 화신**, Arcane Apotheosis **비전의 신격**, Draconic Sorcery **용의 마법**, Draconic Resilience **용의 회복력**, Elemental Affinity **원소 친화**, Dragon Wings **용의 날개**, Dragon Companion **용의 동반자**.
+
+초마법 선택지: Careful **신중한**, Distant **거리 확장**, Empowered **강화된**, Extended **시간 연장**, Heightened **고양된**, Quickened **신속한**, Seeking **추적하는**, Subtle **미묘한**, Transmuted **변환된**, Twinned **쌍둥이** + 주문.
+
+### 11.7 워락
+
+Eldritch Invocations **섬뜩한 계시**(Eldritch **섬뜩한**으로 통일: 섬뜩한 폭발·강타·창·정신), Pact Magic **계약 마법**, Magical Cunning **마법의 교활함**, Contact Patron **후견인과 접촉**, Mystic Arcanum **신비의 비급**, Eldritch Master **섬뜩한 대가**, Fiend Patron **악마 후견인**, Book of Shadows **그림자의 책**, pact weapon **계약 무기**, Lower Planes **하계**, Dark One's Blessing **어둠의 존재의 축복**, Fiendish Resilience **악마의 회복력**, Hurl Through Hell **지옥으로 내던지기**, Recharge 제한 **재충전 5–6**.
+
+계시 선택지: Agonizing **고통스러운**, Repelling **밀어내는**, Eldritch **섬뜩한** + 폭발 / Armor of Shadows **그림자 갑옷** / Ascendant Step **승천의 걸음** / Devil's Sight **악마의 시야** / Devouring Blade **삼키는 칼날** / Fiendish Vigor **악마의 활력** / Gaze of Two Minds **두 정신의 눈길** / Gift of the Depths **심연의 선물** / Gift of the Protectors **수호자의 선물** / Investment of the Chain Master **사슬 군주의 투자** / Lessons of the First Ones **태초의 교훈** / Lifedrinker **생명을 마시는 자** / Mask of Many Faces **만 가지 얼굴의 가면** / Master of Myriad Forms **무수한 형상의 대가** / Misty Visions **안개 같은 환영** / One with Shadows **그림자와 하나 되기** / Otherworldly Leap **저세상의 도약** / Thirsting Blade **목마른 칼날** / Visions of Distant Realms **먼 영역의 환상** / Whispers of the Grave **무덤의 속삭임** / Witch Sight **마녀의 시야** / Pact of the Blade **칼날의 계약**, of the Chain **사슬의 계약**, of the Tome **책의 계약**.
+* 3레벨 사슬의 계약에 나오는 괴물 이름(임프, 슈도드래곤, 콰지트, 스켈레톤, 경이의 스핑크스, 스프라이트, 독사)은 괴물 단계에서 이름 표로 확정합니다.
+
+### 11.8 위저드
+
+Ritual Adept **의식의 달인**, Arcane Recovery **비전 회복**, Scholar **박학**(배경 “학자(Sage)”와 겹치지 않게), Memorize Spell **주문 암기**, Spell Mastery **주문 통달**, Signature Spells **대표 주문**, Evoker **방출술사**, Evocation Savant **방출계 전공**.
+
+### 11.9 주문 목록 표
+
+각 클래스의 주문 목록은 `| 주문 | 학파 | 특수 |` 세 칸으로 옮기고, 학파는 **○○계**(예: 환혹계), 특수는 원문 기호 **C / R / M** 을 그대로 둡니다. 목록의 주문 이름은 반드시 [`SPELL-NAMES.md`](./SPELL-NAMES.md) 표기를 씁니다.
+
+## 11. 괴물 자료 상자 번역 견본 (7단계 시작 전)
+
+괴물·동물 단위는 자료 상자 330개가 같은 틀을 되풀이합니다. 아래 라벨과 견본을 **그대로** 따르십시오. 괴물 이름과 자주 나오는 특징·행동 이름은 [괴물 이름 표](./MONSTER-NAMES.md)에 있습니다. 베이직 자료 상자는 “감각능력”, “다중공격”, “전설적 저항력 (3/일)”, “피해 면역·상태 면역”처럼 씁니다.
+
+### 11.1 라벨
+
+| 원문 | 한국어 | 비고 |
+| --- | --- | --- |
+| `**AC**` / `**Initiative**` / `**HP**` / `**Speed**` | `**방어도**` / `**우선권**` / `**히트 포인트**` / `**이동속도**` | 베이직 |
+| `**Skills**` / `**Senses**` / `**Languages**` / `**Gear**` | `**기술**` / `**감각능력**` / `**언어**` / `**장비**` | 베이직(감각능력) |
+| `**Resistances**` / `**Vulnerabilities**` / `**Immunities**` | `**저항**` / `**취약성**` / `**면역**` | 2024는 피해·상태 면역을 한 줄에 씀 |
+| `**CR**` | `**도전 지수**` | `(XP 5,900, 둥지에서는 7,200; PB +4)` |
+| 표 머리 `MOD` / `SAVE`, 칸 `**STR**` … `**CHA**` | `수정치` / `내성`, `**근력**` `**민첩**` `**건강**` `**지능**` `**지혜**` `**매력**` | 표 모양·숫자·`−` 그대로 |
+| Burrow / Climb / Fly / Swim, (hover) | 굴착 / 등반 / 비행 / 수영, (공중 정지) | `10ft, 수영 40ft` |
+| `_Melee Attack Roll:_` / `_Ranged Attack Roll:_` / `_Melee or Ranged Attack Roll:_` | `_근접 명중 굴림:_` / `_장거리 명중 굴림:_` / `_근접 또는 장거리 명중 굴림:_` | |
+| `_Hit:_` / `_Hit or Miss:_` | `_명중시:_` / `_명중 또는 빗나감:_` | 베이직 “명중시” |
+| `_Strength Saving Throw:_` … | `_근력 내성 굴림:_` … | |
+| `_Failure:_` / `_Success:_` / `_Failure or Success:_` | `_실패시:_` / `_성공시:_` / `_실패시 또는 성공시:_` | |
+| `_First Failure:_` / `_Second Failure:_` / `_Subsequent Failures:_` | `_첫 실패시:_` / `_두 번째 실패시:_` / `_이후 실패시:_` | |
+| `_Trigger:_` / `_Response:_` | `_계기:_` / `_대응:_` | 반응행동 |
+| `(2/Day)`, `(Recharge 5–6)`, `(3/Day, or 4/Day in Lair)` | `(하루 2회)`, `(재충전 5–6)`, `(하루 3회, 둥지에서는 하루 4회)` | lair = **둥지** |
+| `reach 15 ft.` / `range 80/320 ft.` | `간격 15ft` / `사거리 80/320ft` | |
+| `12 (2d6 + 5) Bludgeoning damage` | `12(2d6 + 5)점의 타격 피해` | 베이직 어투 |
+| `has the Grappled condition (escape DC 14)` | `붙잡힘 상태가 됩니다(탈출 DC 14)` | |
+| `Half damage.` | `절반 피해.` | |
+
+* `<br>`, 줄 첫머리의 `&emsp;`, 절 아래 `<hr>`은 **한 글자도 바꾸지 않고** 그대로 둡니다. 카드 레이아웃이 이 모양에 기댑니다.
+* 괴물을 가리키는 “the aboleth”는 **이름**으로 받습니다(“아볼레스는”). “it”은 문맥에 따라 이름이나 “그 크리쳐”로 씁니다.
+* 굵은기울임 이름 `**_Tentacle._**`, 기울임 라벨은 모양을 바꾸지 않고 글만 옮깁니다.
+
+### 11.2 견본: 아볼레스(Aboleth) 자료 상자
+
+```markdown
+### 아볼레스
+
+_대형 기괴체, 질서 악_
+
+**방어도** 17 **우선권** +7 (17) <br>
+**히트 포인트** 150 (20d10 + 40) <br>
+**이동속도** 10ft, 수영 40ft <br>
+
+|  |  | 수정치 | 내성 |  |  | 수정치 | 내성 |  |  | 수정치 | 내성 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **근력** | 21 | +5 | +5 | **민첩** | 9 | −1 | +3 | **건강** | 15 | +2 | +6 |
+| **지능** | 18 | +4 | +8 | **지혜** | 15 | +2 | +6 | **매력** | 18 | +4 | +4 |
+
+**기술** 역사 +12, 감지 +10<br>
+**감각능력** 암시야 120ft; 상시 감지 20<br>
+**언어** 지저어; 정신감응 120ft<br>
+**도전 지수** 10 (XP 5,900, 둥지에서는 7,200; PB +4)
+
+#### 특징
+
+<hr>
+
+**_수륙양용._** 아볼레스는 공기와 물 모두로 숨 쉴 수 있습니다.
+
+**_섬뜩한 복원._** 아볼레스가 파괴되면 5d10일 뒤 새 몸을 얻어, 히트 포인트를 모두 회복한 채 머나먼 영역이나 GM이 고른 다른 장소에서 되살아납니다.
+
+**_전설적 저항력 (하루 3회, 둥지에서는 하루 4회)._** 아볼레스가 내성 굴림에 실패하면, 대신 성공하기로 할 수 있습니다.
+
+**_점액 구름._** 물속에 있는 동안 아볼레스는 점액에 둘러싸여 있습니다. _건강 내성 굴림:_ DC 14, 아볼레스의 턴이 끝날 때 아볼레스를 기점으로 한 5ft 발산형 안의 모든 크리쳐. _실패시:_ 목표는 저주를 받습니다. 저주가 끝날 때까지 목표의 피부는 미끈거리게 변하고, 목표는 공기와 물 모두로 숨 쉴 수 있으며, 물속에 있지 않으면 히트 포인트를 회복할 수 없습니다. <br>
+&emsp;저주받은 크리쳐가 물 밖에 있는 동안, 그 크리쳐는 10분이 끝날 때마다 6(1d12)점의 산성 피해를 받습니다. 단, 그 10분이 지나기 전에 피부에 물기를 적셔 주면 피해를 받지 않습니다.
+
+**_탐색하는 정신감응._** 아볼레스가 볼 수 있는 크리쳐가 아볼레스와 정신감응으로 소통하면, 아볼레스는 그 크리쳐의 가장 큰 욕망을 알게 됩니다.
+
+#### 행동
+
+<hr>
+
+**_다중공격._** 아볼레스는 촉수 공격을 두 번 하고, 쓸 수 있다면 기억 삼키기나 정신 지배 중 하나를 사용합니다.
+
+**_촉수._** _근접 명중 굴림:_ +9, 간격 15ft. _명중시:_ 12(2d6 + 5)점의 타격 피해. 목표가 대형 이하의 크리쳐라면, 네 촉수 중 하나에 붙잡힘 상태가 됩니다(탈출 DC 14).
+
+**_기억 삼키기._** _지능 내성 굴림:_ DC 16, 아볼레스에게서 30ft 이내에 있으며 아볼레스에게 매혹 상태이거나 붙잡힘 상태인 크리쳐 하나. _실패시:_ 10(3d6)점의 정신 피해. <br>
+&emsp;_성공시:_ 절반 피해. _실패시 또는 성공시:_ 목표가 인간형이고 이 행동으로 히트 포인트가 0이 되면, 아볼레스는 목표의 기억을 얻습니다.
+
+**_정신 지배 (하루 2회)._** _지혜 내성 굴림:_ DC 16, 아볼레스가 볼 수 있는 30ft 이내의 크리쳐 하나. _실패시:_ 아볼레스가 죽거나 목표와 다른 세계에 있게 될 때까지 목표는 매혹 상태가 됩니다. 매혹 상태인 동안 목표는 아볼레스의 아군으로 행동하며, 아볼레스에게서 60ft 이내에 있는 동안 아볼레스의 통제를 받습니다. 또한 아볼레스와 목표는 거리에 상관없이 정신감응으로 서로 소통할 수 있습니다. <br>
+&emsp;목표는 피해를 받을 때마다, 그리고 아볼레스에게서 1마일 이상 떨어진 곳에서 24시간을 보낼 때마다 내성 굴림을 다시 하며, 성공하면 자신에게 걸린 효과를 끝냅니다.
+
+#### 전설적 행동
+
+<hr>
+
+_전설적 행동 사용 횟수: 3 (둥지에서는 4). 다른 크리쳐의 턴이 끝난 직후, 아볼레스는 사용 횟수 하나를 소모해 아래 행동 중 하나를 할 수 있습니다. 아볼레스는 자기 턴이 시작될 때마다 소모한 사용 횟수를 모두 되찾습니다._
+
+**_채찍질._** 아볼레스는 촉수 공격을 한 번 합니다.
+
+**_정신 흡수._** 아볼레스에게 매혹 상태이거나 붙잡힘 상태인 크리쳐가 하나 이상 있으면, 아볼레스는 기억 삼키기를 사용하고 5(1d10)점의 히트 포인트를 회복합니다.
+```
