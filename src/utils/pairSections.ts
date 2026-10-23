@@ -225,6 +225,8 @@ export function pairSections(
   enSource: string,
   koSource: string,
   label = "dw2",
+  /** 오른쪽 목차에 넣을 헤딩 깊이. 항목이 h4인 목록(주문·마법 물품 등)은 4로 올린다. */
+  tocDepth = 3,
 ): PairedSections {
   const enSections = toSections(enSource);
   const translated = koSource.trim().length > 0;
@@ -278,7 +280,7 @@ export function pairSections(
     // 원문 앵커가 있으면 그대로 id로 쓴다 — 문서 안의 링크가 이 앵커를 가리킨다.
     const id = koHeading?.id ?? enSection.heading.id ?? slugger.slug(text);
 
-    if (depth <= 3) headings.push({ depth, slug: id, text });
+    if (depth <= tocDepth) headings.push({ depth, slug: id, text });
 
     const enHtml = split ? renderRange(enSource, enSection.from, enSection.headingTo) : enSection.html;
     const koHtml = split ? renderRange(koSource, koSection!.from, koSection!.headingTo) : (koSection?.html ?? "");

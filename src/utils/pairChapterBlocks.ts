@@ -14,6 +14,8 @@ export type PairedBlock = {
   id?: string;
   /** 앞 행과 띄울 간격(pairSections가 절을 덩어리로 나눴을 때만). */
   gap?: "text" | "quote" | "html";
+  /** 자료마다 행에 덧붙이는 클래스(괴물 자료 상자·주문 항목 묶기 등). */
+  className?: string;
   enHtml: string;
   koHtml: string;
 };

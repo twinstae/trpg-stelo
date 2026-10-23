@@ -1,0 +1,65 @@
+---
+import BilingualLayout from '../../../layouts/BilingualLayout.astro';
+import { pairSections } from '../../../utils/pairSections';
+import { markDndEntries } from '../../../utils/dndEntries';
+import { DND_2024_CHAPTERS, DND_2024_SOURCE, type Dnd2024ChapterMeta } from '../../../data/dnd-2024/chapters';
+
+// import.meta.glob은 빌드 청크로 옮겨져도 안전한 정적 import다.
+const enSources = import.meta.glob('../../../data/dnd-2024/en/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+const koSources = import.meta.glob('../../../data/dnd-2024/ko/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+
+function sourceFor(sources: Record<string, string>, dir: 'en' | 'ko', slug: string): string {
+  const source = sources[`../../../data/dnd-2024/${dir}/${slug}.md`];
+  if (source === undefined) {
+    if (dir === 'ko') return ''; // 아직 번역하지 않은 단위
+    throw new Error(`[dnd-2024:${slug}] en 원문이 없습니다`);
+  }
+  return source;
+}
+
+export function getStaticPaths() {
+  return DND_2024_CHAPTERS.map((chapter, index) => ({
+    params: { slug: chapter.slug },
+    props: {
+      chapter,
+      prev: DND_2024_CHAPTERS[index - 1] ?? null,
+      next: DND_2024_CHAPTERS[index + 1] ?? null,
+    } satisfies { chapter: Dnd2024ChapterMeta; prev: Dnd2024ChapterMeta | null; next: Dnd2024ChapterMeta | null },
+  }));
+}
+
+type Props = {
+  chapter: Dnd2024ChapterMeta;
+  prev: Dnd2024ChapterMeta | null;
+  next: Dnd2024ChapterMeta | null;
+};
+
+const { chapter, prev, next } = Astro.props as Props;
+
+const enSource = sourceFor(enSources, 'en', chapter.slug);
+const koSource = sourceFor(koSources, 'ko', chapter.slug);
+const translated = koSource.trim().length > 0;
+
+const paired = pairSections(chapter.slug, enSource, koSource, 'dnd-2024', chapter.tocDepth);
+// 목차 컴포넌트는 h3까지만 그린다. 항목이 h4인 목록은 h3 자리에 올려 보여 준다.
+const headings = paired.headings.map((heading) => ({ ...heading, depth: Math.min(heading.depth, 3) }));
+---
+
+<BilingualLayout
+  titleEn={chapter.titleEn}
+  titleKo={chapter.titleKo}
+  titleSuffix="[D&D 2024 SRD]"
+  description={`${DND_2024_SOURCE.titleKo}(${DND_2024_SOURCE.title}, ${DND_2024_SOURCE.publisher}) "${chapter.titleEn}"의 영어 원문과 한국어 번역 대역`}
+  basePath="/ko/dnd-2024"
+  editPath={translated ? `src/data/dnd-2024/ko/${chapter.slug}.md` : `src/data/dnd-2024/en/${chapter.slug}.md`}
+  rows={markDndEntries(chapter.slug, paired.rows)}
+  headings={headings}
+  prev={prev}
+  next={next}
+  showTitle
+  bilingual={translated}
+  pendingNotice={!translated}
+  pendingNoticeHref="/ko/dnd-2024"
+  pendingNoticeLabel="D&D 2024 SRD 목차"
+  pendingNoticeSubject="이 단위"
+/>

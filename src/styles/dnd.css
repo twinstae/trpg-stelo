@@ -1,0 +1,228 @@
+/*
+ * D&D 2024 SRD 목록 항목. src/utils/dndEntries.ts가 행에 단 클래스를 쓴다.
+ *
+ * 항목 하나가 여러 대역 행에 걸치므로, 넓은 화면에서는 열(.en / .ko)마다 위아래 행을 이어
+ * 카드 하나처럼 그린다. 그래서 행 사이 간격(padding-top)을 행이 아니라 칸 안으로 옮긴다.
+ * 좁은 화면에서는 한 행에 영어·한국어를 쌓으므로 행 자체를 카드로 삼는다.
+ */
+:root {
+  --dnd-monster-bg: #f6f1e7;
+  --dnd-monster-edge: #c9b99a;
+  --dnd-monster-title: #8f2318;
+  --dnd-monster-rule: #7a4a3a;
+  --dnd-stat-a: #ebe1d0;
+  --dnd-stat-b: #ded3c0;
+  --dnd-spell: #6a3fb5;
+  --dnd-item: #2a5db0;
+  --dnd-gold: #b8963e;
+}
+
+:root[data-theme="dark"] {
+  --dnd-monster-bg: #221d17;
+  --dnd-monster-edge: #4a3f30;
+  --dnd-monster-title: #e4846f;
+  --dnd-monster-rule: #9a6a58;
+  --dnd-stat-a: #2c261e;
+  --dnd-stat-b: #352d23;
+  --dnd-spell: #b49af0;
+  --dnd-item: #85aef0;
+  --dnd-gold: #c9a95a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --dnd-monster-bg: #221d17;
+    --dnd-monster-edge: #4a3f30;
+    --dnd-monster-title: #e4846f;
+    --dnd-monster-rule: #9a6a58;
+    --dnd-stat-a: #2c261e;
+    --dnd-stat-b: #352d23;
+    --dnd-spell: #b49af0;
+    --dnd-item: #85aef0;
+    --dnd-gold: #c9a95a;
+  }
+}
+
+/* ---------- 공통: 항목 이름과 분류 줄 ---------- */
+
+.bilingual .bi-row.entry-start .prose > :is(h2, h3, h4):first-child {
+  margin-top: 0;
+}
+
+.bilingual .bi-row.entry-start .prose > :is(h2, h3, h4) + p > em:only-child,
+.bilingual .bi-row.entry-subtitle .prose > p > em:only-child {
+  color: var(--muted);
+}
+
+.bilingual .bi-row.entry-subtitle .prose > p:first-child {
+  margin-top: 0.125em;
+}
+
+/* ---------- 괴물 자료 상자: 열마다 이어진 카드 ---------- */
+
+/* 행 간격 규칙(.bi-row.kind-block, .gap-html …)보다 앞서도록 클래스를 하나 더 겹친다. */
+.bilingual .bi-row.entry.entry-monster {
+  padding-top: 0;
+}
+
+/* 이름 아래 가로줄(<hr>)만 든 행은 절 헤딩 밑줄과 겹치므로 통째로 감춘다. */
+.bilingual .bi-row.entry.entry-monster:has(> .prose > hr:only-child) {
+  display: none;
+}
+
+.bilingual .bi-row.entry-monster > .prose {
+  padding: 0.875em 1.125rem 0;
+  background: var(--dnd-monster-bg);
+  border-inline: 1px solid var(--dnd-monster-edge);
+}
+
+.bilingual .bi-row.entry-monster.entry-start {
+  margin-top: 1.5rem;
+}
+
+.bilingual .bi-row.entry-monster.entry-start > .prose {
+  padding-top: 1rem;
+  border-top: 1px solid var(--dnd-monster-edge);
+  border-radius: 4px 4px 0 0;
+}
+
+.bilingual .bi-row.entry-monster.entry-end {
+  margin-bottom: 1.75rem;
+}
+
+.bilingual .bi-row.entry-monster.entry-end > .prose {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--dnd-monster-edge);
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.08);
+}
+
+.bilingual .bi-row.entry-monster.entry-start.entry-end > .prose {
+  border-radius: 4px;
+}
+
+.bilingual .bi-row.entry-monster .prose > :last-child {
+  margin-bottom: 0;
+}
+
+.bilingual .bi-row.entry-monster.entry-start .prose > :is(h2, h3):first-child {
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--dnd-monster-rule);
+  color: var(--dnd-monster-title);
+  font-family: var(--font-sans);
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+/* 특징·행동·전설적 행동 */
+.bilingual .bi-row.entry-monster.entry-section .prose > :is(h3, h4):first-child {
+  margin-top: 0.25em;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid var(--dnd-monster-rule);
+  color: var(--dnd-monster-title);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  font-weight: 600;
+}
+
+.bilingual .bi-row.entry-monster .prose hr {
+  display: none;
+}
+
+/* 능력치 표: 머리(MOD/SAVE)는 작게, 능력치 셋씩 면을 나눈다. */
+.bilingual .bi-row.entry-monster .prose table {
+  width: 100%;
+  border: 0;
+  font-size: 0.8125rem;
+  text-align: center;
+}
+
+.bilingual .bi-row.entry-monster .prose :is(th, td) {
+  padding: 0.25em 0.2em;
+  border: 0;
+  white-space: nowrap;
+}
+
+.bilingual .bi-row.entry-monster .prose th {
+  color: var(--muted);
+  font-size: 0.625rem;
+  letter-spacing: 0;
+}
+
+.bilingual .bi-row.entry-monster .prose td {
+  background: var(--dnd-stat-a);
+}
+
+.bilingual .bi-row.entry-monster .prose td:is(:nth-child(4n + 3), :nth-child(4n)) {
+  background: var(--dnd-stat-b);
+}
+
+/* ---------- 주문: 보라색 이름, 항목 사이 구분선 ---------- */
+
+.bilingual .bi-row.entry-spell.entry-start {
+  margin-top: 1.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+}
+
+.bilingual .bi-row.entry-spell.entry-start .prose > h4:first-child,
+.bilingual .bi-row.entry-item.entry-start .prose > h4:first-child {
+  font-family: var(--font-sans);
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.bilingual .bi-row.entry-spell.entry-start .prose > h4:first-child {
+  color: var(--dnd-spell);
+}
+
+/* 주문 안에 든 자료 상자 절(움직이는 물체의 행동 등) */
+.bilingual .bi-row.entry-spell.entry-section .prose > h4:first-child,
+.bilingual .bi-row.entry-item.entry-section .prose > h4:first-child {
+  font-size: 0.9375rem;
+  color: var(--muted);
+}
+
+/* ---------- 마법 물건: 파란 이름, 분류 줄 아래 금색 선 ---------- */
+
+.bilingual .bi-row.entry-item.entry-start {
+  margin-top: 1.75rem;
+}
+
+.bilingual .bi-row.entry-item.entry-start .prose > h4:first-child {
+  color: var(--dnd-item);
+}
+
+.bilingual .bi-row.entry-item.entry-start .prose > h4 + p:has(> em:only-child),
+.bilingual .bi-row.entry-item.entry-subtitle .prose > p:first-child {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--dnd-gold);
+}
+
+/* ---------- 좁은 화면: 행 하나를 카드로 ---------- */
+
+@media (max-width: 60em) {
+  .bilingual .bi-row.entry-monster {
+    padding-inline: 1rem;
+    background: var(--dnd-monster-bg);
+    border-inline: 1px solid var(--dnd-monster-edge);
+  }
+
+  .bilingual .bi-row.entry-monster > .prose {
+    padding-inline: 0;
+    background: none;
+    border: 0;
+    box-shadow: none;
+  }
+
+  .bilingual .bi-row.entry-monster.entry-start {
+    border-top: 1px solid var(--dnd-monster-edge);
+  }
+
+  .bilingual .bi-row.entry-monster.entry-end {
+    border-bottom: 1px solid var(--dnd-monster-edge);
+  }
+}

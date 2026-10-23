@@ -146,7 +146,7 @@ const displayRows = rows.map((row) => {
 		displayRows.map((row) => (
 			<div
 				id={row.id}
-				class:list={['bi-row', `kind-${row.kind}`, row.gap && `gap-${row.gap}`, { 'is-blank': row.blank }]}
+				class:list={['bi-row', `kind-${row.kind}`, row.gap && `gap-${row.gap}`, row.className, { 'is-blank': row.blank }]}
 			>
 				{row.anchors.map((id) => (
 					<a id={id} class="bi-anchor" />

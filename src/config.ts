@@ -3,6 +3,7 @@ import { DW2_CHAPTERS } from "./data/dw2/chapters";
 import { LAZY_GM_GUIDE_CHAPTERS } from "./data/lazy-gm-guide/chapters";
 import { IRONSWORN_CHAPTERS } from "./data/ironsworn/chapters";
 import { PTOLUS_CHAPTERS } from "./data/ptolus/chapters";
+import { DND_2024_CHAPTERS } from "./data/dnd-2024/chapters";
 import type { NavItem, NavLink, NavTopic } from "./navigation";
 
 export const SITE = {
@@ -110,6 +111,10 @@ export const SIDEBAR: Sidebar = {
       { text: "성장", link: "/advancement" },
       { text: "게임 마스터가 되는 법", link: "/being-game-master" },
       { text: "선택 규칙", link: "/optional-rules" },
+    ]),
+    Topic("D&D 2024 SRD", "/dnd-2024", [
+      { text: "목차", link: "" },
+      ...bookSections(DND_2024_CHAPTERS),
     ]),
     Topic("톨러스", "/ptolus", [
       { text: "목차", link: "" },
