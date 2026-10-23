@@ -571,7 +571,20 @@ _전설적 행동 사용 횟수: 3 (둥지에서는 4). 다른 크리쳐의 턴�
 * 본문의 물건·주문 이름은 원문처럼 기울임으로 씁니다: `_소지의 가방_`, `_화염구_`.
 * charges **충전**, “regains 1d6 + 4 expended charges daily at dawn” **매일 새벽 소모한 충전을 1d6 + 4 회복합니다**, “the next dawn” **다음 새벽**, attune **조율하다**, curse **저주**, sentient item **지성 있는 물건**(신규).
 
-### 14.2 견본
+### 14.2 마법 물건 번역에서 정한 표기
+
+| 원문 | 한국어 | 근거 |
+| --- | --- | --- |
+| Elemental Plane(s) / of Air / Earth / Fire / Water | **원소계** / **대기의 원소계** / **대지의 원소계** / **불의 원소계** / **물의 원소계** | 베이직(원소계, 불의 원소계) |
+| Astral Plane / Ethereal Plane / Material Plane / Feywild / Shadowfell | **아스트랄계** / **에테르계** / **물질계** / **요정계** / _그림자계_ | 베이직(그림자계만 신규) |
+| Outer Planes (Hades, Ysgard, Mechanus …) | 음역: _하데스_, _이스가르드_, _메커누스_ … | 신규 |
+| Potion of Healing greater / superior / supreme | _상급 / 최상급 / 최고급_ | 신규 |
+| charges | **충전** (`충전 1–3개를 소모`) | |
+| bearer / wielder | _소지자_ | 신규 |
+| Forceful Bash | _강력한 일격_ | “강타”는 Smite 계열 |
+| 범위 숫자 | `2–5lbs`, `12–15인치` | “~” 대신 en dash, inch는 **인치** |
+
+### 14.3 견본
 
 ```markdown
 #### 아다만틴 갑옷
