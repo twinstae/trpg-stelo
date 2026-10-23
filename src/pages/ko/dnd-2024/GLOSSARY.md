@@ -458,7 +458,24 @@ Ritual Adept **의식의 달인**, Arcane Recovery **비전 회복**, Scholar **
 * 괴물을 가리키는 “the aboleth”는 **이름**으로 받습니다(“아볼레스는”). “it”은 문맥에 따라 이름이나 “그 크리쳐”로 씁니다.
 * 굵은기울임 이름 `**_Tentacle._**`, 기울임 라벨은 모양을 바꾸지 않고 글만 옮깁니다.
 
-### 13.2 견본: 아볼레스(Aboleth) 자료 상자
+### 13.2 1웨이브에서 정한 표기
+
+| 원문 | 한국어 | 비고 |
+| --- | --- | --- |
+| `**At Will:**` / `**1/Day Each:**` / `**2/Day Each:**` (주문시전 목록) | `**언제든지:**` / `**각각 하루 1회:**` / `**각각 하루 2회:**` | |
+| Chromatic / Metallic (용족 하위 유형) | `_대형 용족 (색채), 질서 악_` / `(금속)` | Demon/Devil/Angel/Genie는 `(데몬)` `(데빌)` `(천사)` `(지니)` |
+| Primordial (Auran/Aquan/Ignan/Terran) | `원시어(아우란)` / `원시어(아쿠안)` / `원시어(이그난)` / `원시어(테란)` | 캐릭터 만들기와 같음 |
+| Undercommon / Thieves' Cant | `지하공용어` / `도둑의 속어` | 베이직 |
+| Leather / Studded Leather Armor | `레더 아머` / `스터디드 레더 아머` | “가죽 갑옷” 아님 |
+| Pistol / Musket | `권총` / `머스킷` | 장비 단위와 같음 |
+| Pincer | `집게` | |
+| Berserk (골렘) | `폭주` | Frenzy **광란**과 구분 |
+| Nine Hells / Abyss / Mount Celestia | `아홉 지옥` / `심연` / `셀레스티아 산` | |
+| Ethereal Plane / Elemental Plane of Fire | `에테르계` / `화염 원소 차원` | |
+| `_Miss:_` | `_빗나감시:_` | |
+| “the target” | `목표` | “대상” 아님 |
+
+### 13.3 견본: 아볼레스(Aboleth) 자료 상자
 
 ```markdown
 ### 아볼레스
