@@ -474,6 +474,16 @@ Ritual Adept **의식의 달인**, Arcane Recovery **비전 회복**, Scholar **
 | Ethereal Plane / Elemental Plane of Fire | `에테르계` / `화염 원소 차원` | |
 | `_Miss:_` | `_빗나감시:_` | |
 | “the target” | `목표` | “대상” 아님 |
+| Wand (장비) | `마법봉` | 베이직. Staff **지팡이**와 구분 |
+| Agile | `날렵함` | 능력치 **민첩**과 구분 |
+| Bloodied Fury / Bloodied Frenzy | `빈사 격분` / `빈사 광란` | Rage **격노**와 구분 |
+| Diabolical Restoration / Fiendish Restoration | `악마의 복귀` / `마귀의 복귀` | |
+| Divine Awareness | `신성한 인지` | |
+| Unnerving Gaze / Frightening Gaze / Petrifying Gaze | `섬뜩한 응시` / `공포의 시선` / `석화의 시선` | |
+| Storm Bolt | `폭풍 화살` | |
+| Aura (특징 이름) | `오오라` | 베이직 “성스러운 오오라” |
+| `_Failure by 5 or More:_` | `_5 이상 차이로 실패시:_` | |
+| Lycanthrope (하위 유형) | `(인수 변신체)` | |
 
 ### 13.3 견본: 아볼레스(Aboleth) 자료 상자
 
