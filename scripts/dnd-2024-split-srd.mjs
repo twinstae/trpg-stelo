@@ -220,6 +220,32 @@ function convertTables(markdown, stats) {
   });
 }
 
+/**
+ * 원천 변환본의 능력치 표가 깨진 곳. 칸이 밀리거나 값 두 개가 한 칸에 붙어 있어, 같은 표의 값으로
+ * 복원한다(SRD 5.2.1 PDF와 같은 값). 표를 마크다운으로 바꾼 뒤의 줄을 통째로 바꾼다.
+ */
+const ERRATA = {
+  "monsters-A-Z": [
+    // Ancient Red Dragon
+    ["| **STR** | 30 | +10 +10 | DEX | **DEX** | 10 +0 | +7 | CON 29 | **CON** | 29 | +9 +9 | INT |", "| **STR** | 30 | +10 | +10 | **DEX** | 10 | +0 | +7 | **CON** | 29 | +9 | +9 |"],
+    ["| **INT** | 18 | +4 +4 | WIS | **WIS** | 15 +2 | +9 | CHA 27 | **CHA** | 27 | +8 +8 | +8 +8 |", "| **INT** | 18 | +4 | +4 | **WIS** | 15 | +2 | +9 | **CHA** | 27 | +8 | +8 |"],
+    // Remorhaz
+    ["| **STR** | 24 | +7 +7 | DEX | **DEX** | 13 +1 | +1 | CON 21 | **CON** | 21 | +5 +5 | INT |", "| **STR** | 24 | +7 | +7 | **DEX** | 13 | +1 | +1 | **CON** | 21 | +5 | +5 |"],
+    ["| **INT** | 4 | −3 −3 | WIS | **WIS** | 10 +0 | +0 | CHA 5 | **CHA** | 5 | −3 −3 | −3 −3 |", "| **INT** | 4 | −3 | −3 | **WIS** | 10 | +0 | +0 | **CHA** | 5 | −3 | −3 |"],
+    // Young White Dragon
+    ["| **INT** | 6 | −2 | 2 | **WIS** | 11 | +0 | +3 | **CHA** | 12 | +1 | +1 |", "| **INT** | 6 | −2 | −2 | **WIS** | 11 | +0 | +3 | **CHA** | 12 | +1 | +1 |"],
+    // Will-o'-Wisp
+    ["| **STR** | -5 | -5 | DEX | **DEX** | 28 | +9 | +9 | **CON** | 10 | +0 | +0 |", "| **STR** | 1 | −5 | −5 | **DEX** | 28 | +9 | +9 | **CON** | 10 | +0 | +0 |"],
+  ],
+};
+
+function applyErrata(file, markdown) {
+  return (ERRATA[file] ?? []).reduce((text, [broken, fixed]) => {
+    if (!text.includes(broken)) throw new Error(`[${file}] 보정할 줄을 찾지 못했습니다: ${broken}`);
+    return text.replace(broken, fixed);
+  }, markdown);
+}
+
 // ---------------------------------------------------------------------------
 // 3. 단위로 나누기
 // ---------------------------------------------------------------------------
@@ -355,7 +381,7 @@ const units = new Map();
 for (const file of files) {
   const source = (await loadSource(file)).replace(/\r\n/g, "\n");
   // 장 제목(# …)은 대역 페이지 머리말이 대신한다.
-  const body = convertTables(source.replace(/^# .*\n+/, ""), stats);
+  const body = applyErrata(file, convertTables(source.replace(/^# .*\n+/, ""), stats));
   const lines = body.split("\n");
   for (const { range, lines: unitLines } of splitFile(file, lines, RANGES.filter((r) => r.file === file))) {
     units.set(range.slug, `${addAnchors(keepLabelLines(unitLines)).join("\n").trim()}\n`);
@@ -368,12 +394,20 @@ if (!checkOnly) {
 }
 
 const report = [];
+// 여럿이 함께 번역하는 중이면 쓰다 만 원고가 있다. 영어 원고는 끝까지 쓰고, 한국어 구조 오류는 모아서 마지막에 알린다.
+const koErrors = [];
 for (const range of RANGES) {
   const markdown = units.get(range.slug);
   if (!checkOnly) fs.writeFileSync(path.join(EN_DIR, `${range.slug}.md`), markdown);
   const koPath = path.join(KO_DIR, `${range.slug}.md`);
   const ko = fs.existsSync(koPath) ? fs.readFileSync(koPath, "utf8") : null;
-  if (ko !== null) checkKoStructure(range.slug, markdown, ko);
+  if (ko !== null) {
+    try {
+      checkKoStructure(range.slug, markdown, ko);
+    } catch (error) {
+      koErrors.push(error.message);
+    }
+  }
   report.push({
     ...range,
     headingCount: headingDepths(markdown).length,
@@ -384,6 +418,12 @@ for (const range of RANGES) {
 
 for (const stale of fs.readdirSync(EN_DIR)) {
   if (!slugs.has(stale.replace(/\.md$/, ""))) console.warn(`경고: RANGES에 없는 영어 원고 ${rel(path.join(EN_DIR, stale))}`);
+}
+
+if (koErrors.length > 0) {
+  console.error(`\n한국어 원고 구조 오류 ${koErrors.length}개 (chapters.ts는 갱신하지 않음):`);
+  for (const message of koErrors) console.error(`  ${message}`);
+  process.exit(1);
 }
 
 if (!checkOnly) writeChaptersFile(report);

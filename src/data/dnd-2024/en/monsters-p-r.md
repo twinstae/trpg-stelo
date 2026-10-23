@@ -599,8 +599,8 @@ _Gargantuan Dragon (Chromatic), Chaotic Evil_
 
 |  |  | MOD | SAVE |  |  | MOD | SAVE |  |  | MOD | SAVE |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **STR** | 30 | +10 +10 | DEX | **DEX** | 10 +0 | +7 | CON 29 | **CON** | 29 | +9 +9 | INT |
-| **INT** | 18 | +4 +4 | WIS | **WIS** | 15 +2 | +9 | CHA 27 | **CHA** | 27 | +8 +8 | +8 +8 |
+| **STR** | 30 | +10 | +10 | **DEX** | 10 | +0 | +7 | **CON** | 29 | +9 | +9 |
+| **INT** | 18 | +4 | +4 | **WIS** | 15 | +2 | +9 | **CHA** | 27 | +8 | +8 |
 
 **Skills** Perception +16, Stealth +7<br>
 **Immunities** Fire<br>
@@ -652,8 +652,8 @@ _Huge Monstrosity, Unaligned_
 
 |  |  | MOD | SAVE |  |  | MOD | SAVE |  |  | MOD | SAVE |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **STR** | 24 | +7 +7 | DEX | **DEX** | 13 +1 | +1 | CON 21 | **CON** | 21 | +5 +5 | INT |
-| **INT** | 4 | −3 −3 | WIS | **WIS** | 10 +0 | +0 | CHA 5 | **CHA** | 5 | −3 −3 | −3 −3 |
+| **STR** | 24 | +7 | +7 | **DEX** | 13 | +1 | +1 | **CON** | 21 | +5 | +5 |
+| **INT** | 4 | −3 | −3 | **WIS** | 10 | +0 | +0 | **CHA** | 5 | −3 | −3 |
 
 **Immunities** Cold, Fire<br>
 **Senses** Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 10<br>

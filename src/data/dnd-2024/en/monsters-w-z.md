@@ -355,7 +355,7 @@ _Large Dragon (Chromatic), Chaotic Evil_
 |  |  | MOD | SAVE |  |  | MOD | SAVE |  |  | MOD | SAVE |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **STR** | 18 | +4 | +4 | **DEX** | 10 | +0 | +3 | **CON** | 18 | +4 | +4 |
-| **INT** | 6 | −2 | 2 | **WIS** | 11 | +0 | +3 | **CHA** | 12 | +1 | +1 |
+| **INT** | 6 | −2 | −2 | **WIS** | 11 | +0 | +3 | **CHA** | 12 | +1 | +1 |
 
 **Skills** Perception +6, Stealth +3<br>
 **Immunities** Cold<br>
@@ -531,7 +531,7 @@ _Tiny Undead, Chaotic Evil_
 
 |  |  | MOD | SAVE |  |  | MOD | SAVE |  |  | MOD | SAVE |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **STR** | -5 | -5 | DEX | **DEX** | 28 | +9 | +9 | **CON** | 10 | +0 | +0 |
+| **STR** | 1 | −5 | −5 | **DEX** | 28 | +9 | +9 | **CON** | 10 | +0 | +0 |
 | **INT** | 13 | +1 | +1 | **WIS** | 14 | +2 | +2 | **CHA** | 11 | +0 | +0 |
 
 **Resistances** Acid, Bludgeoning, Cold, Fire, Necrotic, Piercing, Slashing<br>
