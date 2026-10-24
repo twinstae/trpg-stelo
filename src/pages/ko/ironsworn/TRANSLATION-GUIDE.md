@@ -3,7 +3,7 @@ title: "철의 맹세 번역 지침"
 description: "원고 구조, 표기 규칙, PDF에서 뽑은 원문을 다루는 법."
 layout: ../../../layouts/MainLayout.astro
 createdAt: "2026-09-14T12:00:00.000Z"
-publish: true
+publish: false
 ---
 
 이 문서는 **철의 맹세(Ironsworn)** 규칙서 영/한 대역의 작업 규칙입니다. 용어는 [`GLOSSARY.md`](./GLOSSARY.md), 진행 상황은 [목차](/ko/ironsworn)를 보십시오.

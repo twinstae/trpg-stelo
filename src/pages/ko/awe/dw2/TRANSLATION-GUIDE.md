@@ -3,7 +3,7 @@ title: "던전월드 2 번역 지침"
 description: "1판 공개판 톤 정렬, 표기 규칙, 마크다운 처리 규칙."
 layout: ../../../../layouts/MainLayout.astro
 createdAt: "2026-09-13T12:00:00.000Z"
-publish: true
+publish: false
 ---
 
 이 문서는 **던전월드 2 Beta v3** 번역 규칙입니다. 용어는 [`GLOSSARY.md`](./GLOSSARY.md), 진행 상황은 저장소 루트의 `DW2_BETA_TRANSLATION_CHECKLIST.md`를 보십시오.

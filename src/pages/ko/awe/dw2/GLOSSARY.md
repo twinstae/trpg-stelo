@@ -3,7 +3,7 @@ title: "던전월드 2 용어집"
 description: "v3 베타 영한 용어와 1판 공개판 정렬."
 layout: ../../../../layouts/MainLayout.astro
 createdAt: "2026-03-29T12:00:00.000Z"
-publish: true
+publish: false
 ---
 
 **던전월드 2 Beta v3** 번역의 영한 용어집입니다. 문체·표기·마크다운 규칙은 [`TRANSLATION-GUIDE.md`](./TRANSLATION-GUIDE.md)를 보십시오. 진행 상황은 저장소 루트의 `DW2_BETA_TRANSLATION_CHECKLIST.md`에 있습니다.

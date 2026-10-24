@@ -3,7 +3,7 @@ title: "철의 맹세 용어집"
 description: "Ironsworn 영/한 대역에 쓰는 한국어 표기."
 layout: ../../../layouts/MainLayout.astro
 createdAt: "2026-09-14T12:00:00.000Z"
-publish: true
+publish: false
 ---
 
 이 문서는 **철의 맹세(Ironsworn)** 영/한 대역에 쓰는 용어입니다. 표기 규칙은 [`TRANSLATION-GUIDE.md`](./TRANSLATION-GUIDE.md), 진행 상황은 [목차](/ko/ironsworn)를 보십시오.

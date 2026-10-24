@@ -3,7 +3,7 @@ title: "D&D 2024 SRD 용어집"
 description: "SRD 5.2.1 영/한 대역에 쓰는 한국어 표기."
 layout: ../../../layouts/MainLayout.astro
 createdAt: "2026-10-24T12:00:00.000Z"
-publish: true
+publish: false
 ---
 
 이 문서는 **D&D 2024 SRD 5.2.1** 영/한 대역에 쓰는 용어입니다. 표기 규칙과 작업 계획은 [`TRANSLATION-GUIDE.md`](./TRANSLATION-GUIDE.md), 진행 상황은 [목차](/ko/dnd-2024)를 보십시오.

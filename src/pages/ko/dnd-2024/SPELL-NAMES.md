@@ -3,7 +3,7 @@ title: "D&D 2024 SRD 주문 이름 표"
 description: "SRD 5.2.1 주문의 영한 이름. 베이직 룰 한국어판 표기를 우선한다."
 layout: ../../../layouts/MainLayout.astro
 createdAt: "2026-10-24T12:00:00.000Z"
-publish: true
+publish: false
 ---
 
 근거가 **베이직**인 이름은 공식 베이직 룰 한국어판의 표기를 그대로 가져왔고, **신규**는 베이직 표기를 따라 이 번역에서 새로 정한 이름입니다. [용어집](./GLOSSARY.md)과 번역 지침이 함께 적용되며, 주문 이름은 이 표를 따라 옮깁니다.
