@@ -114,7 +114,7 @@ publish: false
 | Resistance / Vulnerability / Immunity | **저항** / **취약성** / **면역** | 베이직 | |
 | damage type | **피해 종류** | 베이직 | |
 | Cover (Half / Three-Quarters / Total) | **엄폐** (**절반 / 3/4 / 완전 엄폐**) | 베이직 | |
-| Difficult Terrain | **어려운 지형** | 베이직 | “험지” 아님 |
+| Difficult Terrain | **험지** | 실사용 | 베이직은 “어려운 지형” |
 | Speed | **이동속도** | 베이직 | 붙여 씀 |
 | Travel Pace | **여행 속도** | 베이직 | |
 | Lightly / Heavily Obscured | **가볍게 가려진** / **심하게 가려진** | 베이직 | |

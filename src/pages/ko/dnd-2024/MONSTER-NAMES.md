@@ -8,7 +8,7 @@ publish: false
 
 이 문서는 SRD 5.2.1의 괴물과 동물 이름을 한국어로 통일하려고 모은 표입니다. 베이직 룰 한국어판 부록에 영어가 병기된 이름은 그대로 따랐고(`베이직`), 베이직 룰에 없는 이름은 베이직의 어투(유명한 D&D 괴물은 음역, 일반 동물과 설명형 이름은 우리말)에 맞춰 새로 지었습니다(`신규`). `실사용`은 2026-10-27에 네이버 블로그·카페에서 D&D 맥락의 실제 글을 조사해 베이직·신규 표기보다 널리 쓰이는 표기로 바꾼 이름입니다(예: 사후아긴, 웨어울프, 콰짓, 핏 핀드, 해그). 번역할 때는 이 표의 이름을 그대로 복사해 쓰고, 새 이름을 만들면 같은 커밋에서 이 표에 한 줄을 추가합니다.
 
-**표기 규칙**: 데빌(Devil)이 붙은 이름은 음역에 베이직의 “데빌”을 붙이고(체인 데빌), 데몬은 고유 이름을 음역합니다(발로르, 마릴리스). 드래곤은 “색 드래곤 연령”으로 쓰며 Wyrmling **웜링**, Young **성체**, Adult **원숙체**, Ancient **고룡**입니다(성체·원숙체는 베이직, 웜링·고룡은 신규). 같은 이름의 개체가 여럿 묶인 복수형 제목(Cultists, Guards 등)은 “~들”을 붙이고, 개체 이름과 겹치지 않는 제목(Goblins, Mephits, Dragons)은 그대로 씁니다. 베이직 룰 한국어판의 “Thug”은 2024의 Tough에 대응시켰습니다.
+**표기 규칙**: 데빌(Devil)이 붙은 이름은 음역에 베이직의 “데빌”을 붙이되(바브드 데빌), 실제로 우리말 이름이 쓰이는 것은 “악마”로 옮깁니다(사슬 악마, 수염 악마), 데몬은 고유 이름을 음역합니다(발로르, 마릴리스). 색 드래곤은 “연령 색 용”으로 씁니다: Wyrmling **새끼**, Young **어린**, Adult **성체**, Ancient **고대**, 색은 Black **검은**, Blue **푸른**, Green **녹색**, Red **붉은**, White **흰**, Brass **황동**, Bronze **청동**, Copper **구리**, Gold **황금**, Silver **은빛**(예: 고대 푸른 용, Blue Dragons는 “푸른 용”). 드래곤 터틀, 하프 드래곤, 슈도드래곤은 그대로 둡니다. 같은 이름의 개체가 여럿 묶인 복수형 제목(Cultists, Guards 등)은 “~들”을 붙이고, 개체 이름과 겹치지 않는 제목(Goblins, Mephits, Dragons)은 그대로 씁니다. 베이직 룰 한국어판의 “Thug”은 2024의 Tough에 대응시켰습니다.
 
 ## 크리처
 
@@ -17,33 +17,33 @@ publish: false
 | English | 한국어 | 단위(slug) | 근거 |
 | --- | --- | --- | --- |
 | Aboleth | 아볼레스 | aboleth | 신규 |
-| Adult Black Dragon | 블랙 드래곤 원숙체 | adult-black-dragon | 신규 |
-| Adult Blue Dragon | 블루 드래곤 원숙체 | adult-blue-dragon | 신규 |
-| Adult Brass Dragon | 브래스 드래곤 원숙체 | adult-brass-dragon | 신규 |
-| Adult Bronze Dragon | 브론즈 드래곤 원숙체 | adult-bronze-dragon | 신규 |
-| Adult Copper Dragon | 카퍼 드래곤 원숙체 | adult-copper-dragon | 신규 |
-| Adult Gold Dragon | 골드 드래곤 원숙체 | adult-gold-dragon | 신규 |
-| Adult Green Dragon | 그린 드래곤 원숙체 | adult-green-dragon | 신규 |
-| Adult Red Dragon | 레드 드래곤 원숙체 | adult-red-dragon | 베이직 |
-| Adult Silver Dragon | 실버 드래곤 원숙체 | adult-silver-dragon | 신규 |
-| Adult White Dragon | 화이트 드래곤 원숙체 | adult-white-dragon | 신규 |
+| Adult Black Dragon | 성체 검은 용 | adult-black-dragon | 신규 |
+| Adult Blue Dragon | 성체 푸른 용 | adult-blue-dragon | 신규 |
+| Adult Brass Dragon | 성체 황동 용 | adult-brass-dragon | 신규 |
+| Adult Bronze Dragon | 성체 청동 용 | adult-bronze-dragon | 신규 |
+| Adult Copper Dragon | 성체 구리 용 | adult-copper-dragon | 신규 |
+| Adult Gold Dragon | 성체 황금 용 | adult-gold-dragon | 신규 |
+| Adult Green Dragon | 성체 녹색 용 | adult-green-dragon | 신규 |
+| Adult Red Dragon | 성체 붉은 용 | adult-red-dragon | 신규 |
+| Adult Silver Dragon | 성체 은빛 용 | adult-silver-dragon | 신규 |
+| Adult White Dragon | 성체 흰 용 | adult-white-dragon | 신규 |
 | Air Elemental | 공기 원소 | air-elemental | 실사용 |
 | Allosaurus | 알로사우르스 | allosaurus | 베이직 |
-| Ancient Black Dragon | 블랙 드래곤 고룡 | ancient-black-dragon | 신규 |
-| Ancient Blue Dragon | 블루 드래곤 고룡 | ancient-blue-dragon | 신규 |
-| Ancient Brass Dragon | 브래스 드래곤 고룡 | ancient-brass-dragon | 신규 |
-| Ancient Bronze Dragon | 브론즈 드래곤 고룡 | ancient-bronze-dragon | 신규 |
-| Ancient Copper Dragon | 카퍼 드래곤 고룡 | ancient-copper-dragon | 신규 |
-| Ancient Gold Dragon | 골드 드래곤 고룡 | ancient-gold-dragon | 신규 |
-| Ancient Green Dragon | 그린 드래곤 고룡 | ancient-green-dragon | 신규 |
-| Ancient Red Dragon | 레드 드래곤 고룡 | ancient-red-dragon | 신규 |
-| Ancient Silver Dragon | 실버 드래곤 고룡 | ancient-silver-dragon | 신규 |
-| Ancient White Dragon | 화이트 드래곤 고룡 | ancient-white-dragon | 신규 |
+| Ancient Black Dragon | 고대 검은 용 | ancient-black-dragon | 신규 |
+| Ancient Blue Dragon | 고대 푸른 용 | ancient-blue-dragon | 신규 |
+| Ancient Brass Dragon | 고대 황동 용 | ancient-brass-dragon | 신규 |
+| Ancient Bronze Dragon | 고대 청동 용 | ancient-bronze-dragon | 신규 |
+| Ancient Copper Dragon | 고대 구리 용 | ancient-copper-dragon | 신규 |
+| Ancient Gold Dragon | 고대 황금 용 | ancient-gold-dragon | 신규 |
+| Ancient Green Dragon | 고대 녹색 용 | ancient-green-dragon | 신규 |
+| Ancient Red Dragon | 고대 붉은 용 | ancient-red-dragon | 신규 |
+| Ancient Silver Dragon | 고대 은빛 용 | ancient-silver-dragon | 신규 |
+| Ancient White Dragon | 고대 흰 용 | ancient-white-dragon | 신규 |
 | Animated Armor | 움직이는 갑옷 | animated-armor | 베이직 |
 | Animated Flying Sword | 움직이는 날아다니는 검 | animated-flying-sword | 신규 |
 | Animated Objects | 움직이는 물체 | animated-objects | 신규 |
 | Animated Rug of Smothering | 움직이는 질식 양탄자 | animated-rug-of-smothering | 신규 |
-| Ankheg | 앵크헤그 | ankheg | 신규 |
+| Ankheg | 앙크헤그 | ankheg | 실사용 |
 | Ankylosaurus | 앤킬로사우르스 | ankylosaurus | 베이직 |
 | Ape | 유인원 | ape | 베이직 |
 | Archelon | 아르켈론 | archelon | 신규 |
@@ -64,23 +64,23 @@ publish: false
 | Barbed Devil | 바브드 데빌 | barbed-devil | 신규 |
 | Basilisk | 바실리스크 | basilisk | 베이직 |
 | Bat | 박쥐 | bat | 베이직 |
-| Bearded Devil | 비어디드 데빌 | bearded-devil | 신규 |
+| Bearded Devil | 수염 악마 | bearded-devil | 실사용 |
 | Behir | 베히르 | behir | 신규 |
 | Berserker | 광전사 | berserker | 베이직 |
 | Black Bear | 검은 곰 | black-bear | 베이직 |
-| Black Dragon Wyrmling | 블랙 드래곤 웜링 | black-dragon-wyrmling | 실사용 |
-| Black Dragons | 블랙 드래곤 | black-dragons | 베이직 |
+| Black Dragon Wyrmling | 새끼 검은 용 | black-dragon-wyrmling | 신규 |
+| Black Dragons | 검은 용 | black-dragons | 신규 |
 | Black Pudding | 블랙 푸딩 | black-pudding | 신규 |
 | Blink Dog | 점멸견 | blink-dog | 베이직 |
 | Blood Hawk | 피의 매 | blood-hawk | 베이직 |
-| Blue Dragon Wyrmling | 블루 드래곤 웜링 | blue-dragon-wyrmling | 실사용 |
-| Blue Dragons | 블루 드래곤 | blue-dragons | 베이직 |
+| Blue Dragon Wyrmling | 새끼 푸른 용 | blue-dragon-wyrmling | 신규 |
+| Blue Dragons | 푸른 용 | blue-dragons | 신규 |
 | Boar | 멧돼지 | boar | 베이직 |
 | Bone Devil | 본 데빌 | bone-devil | 신규 |
-| Brass Dragon Wyrmling | 브래스 드래곤 웜링 | brass-dragon-wyrmling | 실사용 |
-| Brass Dragons | 브래스 드래곤 | brass-dragons | 신규 |
-| Bronze Dragon Wyrmling | 브론즈 드래곤 웜링 | bronze-dragon-wyrmling | 실사용 |
-| Bronze Dragons | 브론즈 드래곤 | bronze-dragons | 신규 |
+| Brass Dragon Wyrmling | 새끼 황동 용 | brass-dragon-wyrmling | 신규 |
+| Brass Dragons | 황동 용 | brass-dragons | 신규 |
+| Bronze Dragon Wyrmling | 새끼 청동 용 | bronze-dragon-wyrmling | 신규 |
+| Bronze Dragons | 청동 용 | bronze-dragons | 신규 |
 | Brown Bear | 갈색 곰 | brown-bear | 베이직 |
 | Bugbear Stalker | 버그베어 추적자 | bugbear-stalker | 신규 |
 | Bugbear Warrior | 버그베어 전사 | bugbear-warrior | 신규 |
@@ -90,7 +90,7 @@ publish: false
 | Cat | 고양이 | cat | 베이직 |
 | Centaur | 켄타우로스 | centaur | 실사용 |
 | Centaur Trooper | 켄타우로스 병사 | centaur-trooper | 실사용 |
-| Chain Devil | 체인 데빌 | chain-devil | 신규 |
+| Chain Devil | 사슬 악마 | chain-devil | 실사용 |
 | Chimera | 키마이라 | chimera | 베이직 |
 | Chuul | 추울 | chuul | 신규 |
 | Clay Golem | 점토 골렘 | clay-golem | 신규 |
@@ -99,8 +99,8 @@ publish: false
 | Cockatrice | 코카트리스 | cockatrice | 베이직 |
 | Commoner | 일반인 | commoner | 베이직 |
 | Constrictor Snake | 보아뱀 | constrictor-snake | 실사용 |
-| Copper Dragon Wyrmling | 카퍼 드래곤 웜링 | copper-dragon-wyrmling | 실사용 |
-| Copper Dragons | 카퍼 드래곤 | copper-dragons | 베이직 |
+| Copper Dragon Wyrmling | 새끼 구리 용 | copper-dragon-wyrmling | 신규 |
+| Copper Dragons | 구리 용 | copper-dragons | 신규 |
 | Couatl | 코아틀 | couatl | 실사용 |
 | Crab | 게 | crab | 베이직 |
 | Crawling Claw | 기어다니는 손 | crawling-claw | 신규 |
@@ -180,12 +180,12 @@ publish: false
 | Goblin Minion | 고블린 하수인 | goblin-minion | 신규 |
 | Goblin Warrior | 고블린 전사 | goblin-warrior | 신규 |
 | Goblins | 고블린 | goblins | 신규 |
-| Gold Dragon Wyrmling | 골드 드래곤 웜링 | gold-dragon-wyrmling | 실사용 |
-| Gold Dragons | 골드 드래곤 | gold-dragons | 베이직 |
+| Gold Dragon Wyrmling | 새끼 황금 용 | gold-dragon-wyrmling | 신규 |
+| Gold Dragons | 황금 용 | gold-dragons | 신규 |
 | Gorgon | 고르곤 | gorgon | 신규 |
 | Gray Ooze | 그레이 우즈 | gray-ooze | 실사용 |
-| Green Dragon Wyrmling | 그린 드래곤 웜링 | green-dragon-wyrmling | 실사용 |
-| Green Dragons | 그린 드래곤 | green-dragons | 베이직 |
+| Green Dragon Wyrmling | 새끼 녹색 용 | green-dragon-wyrmling | 신규 |
+| Green Dragons | 녹색 용 | green-dragons | 신규 |
 | Green Hag | 그린 해그 | green-hag | 실사용 |
 | Grick | 그릭 | grick | 베이직 |
 | Griffon | 그리폰 | griffon | 베이직 |
@@ -256,7 +256,7 @@ publish: false
 | Ogre | 오우거 | ogre | 베이직 |
 | Ogre Zombie | 오우거 좀비 | ogre-zombie | 신규 |
 | Oni | 오니 | oni | 신규 |
-| Otyugh | 오티우 | otyugh | 신규 |
+| Otyugh | 오튜그 | otyugh | 실사용 |
 | Owl | 부엉이 | owl | 베이직 |
 | Owlbear | 아울베어 | owlbear | 베이직 |
 | Panther | 표범 | panther | 베이직 |
@@ -276,13 +276,13 @@ publish: false
 | Priests | 사제들 | priests | 신규 |
 | Pseudodragon | 슈도드래곤 | pseudodragon | 신규 |
 | Pteranodon | 프테라노돈 | pteranodon | 베이직 |
-| Purple Worm | 퍼플 웜 | purple-worm | 신규 |
+| Purple Worm | 보라 벌레 | purple-worm | 실사용 |
 | Quasit | 콰짓 | quasit | 실사용 |
 | Rakshasa | 락샤사 | rakshasa | 신규 |
 | Rat | 쥐 | rat | 베이직 |
 | Raven | 까마귀 | raven | 베이직 |
-| Red Dragon Wyrmling | 레드 드래곤 웜링 | red-dragon-wyrmling | 실사용 |
-| Red Dragons | 레드 드래곤 | red-dragons | 베이직 |
+| Red Dragon Wyrmling | 새끼 붉은 용 | red-dragon-wyrmling | 신규 |
+| Red Dragons | 붉은 용 | red-dragons | 신규 |
 | Reef Shark | 산호 상어 | reef-shark | 베이직 |
 | Remorhaz | 레모라즈 | remorhaz | 신규 |
 | Rhinoceros | 코뿔소 | rhinoceros | 베이직 |
@@ -303,8 +303,8 @@ publish: false
 | Shambling Mound | 섐블링 마운드 | shambling-mound | 실사용 |
 | Shield Guardian | 방패 수호자 | shield-guardian | 신규 |
 | Shrieker Fungus | 비명 버섯 | shrieker-fungus | 신규 |
-| Silver Dragon Wyrmling | 실버 드래곤 웜링 | silver-dragon-wyrmling | 실사용 |
-| Silver Dragons | 실버 드래곤 | silver-dragons | 신규 |
+| Silver Dragon Wyrmling | 새끼 은빛 용 | silver-dragon-wyrmling | 신규 |
+| Silver Dragons | 은빛 용 | silver-dragons | 신규 |
 | Skeleton | 스켈레톤 | skeleton | 베이직 |
 | Skeletons | 스켈레톤들 | skeletons | 신규 |
 | Solar | 솔라 | solar | 신규 |
@@ -361,8 +361,8 @@ publish: false
 | Wererat | 웨어랫 | wererat | 실사용 |
 | Weretiger | 웨어타이거 | weretiger | 실사용 |
 | Werewolf | 웨어울프 | werewolf | 실사용 |
-| White Dragon Wyrmling | 화이트 드래곤 웜링 | white-dragon-wyrmling | 실사용 |
-| White Dragons | 화이트 드래곤 | white-dragons | 신규 |
+| White Dragon Wyrmling | 새끼 흰 용 | white-dragon-wyrmling | 신규 |
+| White Dragons | 흰 용 | white-dragons | 신규 |
 | Wight | 와이트 | wight | 베이직 |
 | Will-o'-Wisp | 도깨비불 | will-o-wisp | 신규 |
 | Winter Wolf | 겨울 늑대 | winter-wolf | 베이직 |
@@ -371,16 +371,16 @@ publish: false
 | Wraith | 레이스 | wraith | 신규 |
 | Wyvern | 와이번 | wyvern | 베이직 |
 | Xorn | 조른 | xorn | 신규 |
-| Young Black Dragon | 블랙 드래곤 성체 | young-black-dragon | 신규 |
-| Young Blue Dragon | 블루 드래곤 성체 | young-blue-dragon | 신규 |
-| Young Brass Dragon | 브래스 드래곤 성체 | young-brass-dragon | 신규 |
-| Young Bronze Dragon | 브론즈 드래곤 성체 | young-bronze-dragon | 신규 |
-| Young Copper Dragon | 카퍼 드래곤 성체 | young-copper-dragon | 신규 |
-| Young Gold Dragon | 골드 드래곤 성체 | young-gold-dragon | 신규 |
-| Young Green Dragon | 그린 드래곤 성체 | young-green-dragon | 베이직 |
-| Young Red Dragon | 레드 드래곤 성체 | young-red-dragon | 신규 |
-| Young Silver Dragon | 실버 드래곤 성체 | young-silver-dragon | 신규 |
-| Young White Dragon | 화이트 드래곤 성체 | young-white-dragon | 신규 |
+| Young Black Dragon | 어린 검은 용 | young-black-dragon | 신규 |
+| Young Blue Dragon | 어린 푸른 용 | young-blue-dragon | 신규 |
+| Young Brass Dragon | 어린 황동 용 | young-brass-dragon | 신규 |
+| Young Bronze Dragon | 어린 청동 용 | young-bronze-dragon | 신규 |
+| Young Copper Dragon | 어린 구리 용 | young-copper-dragon | 신규 |
+| Young Gold Dragon | 어린 황금 용 | young-gold-dragon | 신규 |
+| Young Green Dragon | 어린 녹색 용 | young-green-dragon | 신규 |
+| Young Red Dragon | 어린 붉은 용 | young-red-dragon | 신규 |
+| Young Silver Dragon | 어린 은빛 용 | young-silver-dragon | 신규 |
+| Young White Dragon | 어린 흰 용 | young-white-dragon | 신규 |
 | Zombie | 좀비 | zombie | 베이직 |
 | Zombies | 좀비들 | zombies | 신규 |
 
