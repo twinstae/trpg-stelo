@@ -8,7 +8,7 @@ publish: false
 
 이 문서는 SRD 5.2.1의 괴물과 동물 이름을 한국어로 통일하려고 모은 표입니다. 베이직 룰 한국어판 부록에 영어가 병기된 이름은 그대로 따랐고(`베이직`), 베이직 룰에 없는 이름은 베이직의 어투(유명한 D&D 괴물은 음역, 일반 동물과 설명형 이름은 우리말)에 맞춰 새로 지었습니다(`신규`). `실사용`은 2026-10-27에 네이버 블로그·카페에서 D&D 맥락의 실제 글을 조사해 베이직·신규 표기보다 널리 쓰이는 표기로 바꾼 이름입니다(예: 사후아긴, 웨어울프, 콰짓, 핏 핀드, 해그). 번역할 때는 이 표의 이름을 그대로 복사해 쓰고, 새 이름을 만들면 같은 커밋에서 이 표에 한 줄을 추가합니다.
 
-**표기 규칙**: 데빌(Devil)이 붙은 이름은 음역에 베이직의 “데빌”을 붙이되(바브드 데빌), 실제로 우리말 이름이 쓰이는 것은 “악마”로 옮깁니다(사슬 악마, 수염 악마), 데몬은 고유 이름을 음역합니다(발로르, 마릴리스). 색 드래곤은 “연령 색 용”으로 씁니다: Wyrmling **새끼**, Young **어린**, Adult **성체**, Ancient **고대**, 색은 Black **검은**, Blue **푸른**, Green **녹색**, Red **붉은**, White **흰**, Brass **황동**, Bronze **청동**, Copper **구리**, Gold **황금**, Silver **은빛**(예: 고대 푸른 용, Blue Dragons는 “푸른 용”). 드래곤 터틀, 하프 드래곤, 슈도드래곤은 그대로 둡니다. 같은 이름의 개체가 여럿 묶인 복수형 제목(Cultists, Guards 등)은 “~들”을 붙이고, 개체 이름과 겹치지 않는 제목(Goblins, Mephits, Dragons)은 그대로 씁니다. 베이직 룰 한국어판의 “Thug”은 2024의 Tough에 대응시켰습니다.
+**표기 규칙**: 데빌(Devil)이 붙은 이름은 앞말을 우리말로 옮기고 “악마”를 붙입니다(사슬 악마, 가시 악마). 자료 상자의 하위 유형은 데몬과 구별하려고 `악마 (데빌)`로 둡니다, 데몬은 고유 이름을 음역합니다(발로르, 마릴리스). 색 드래곤은 “연령 색 용”으로 씁니다: Wyrmling **새끼**, Young **어린**, Adult **성체**, Ancient **고대**, 색은 Black **검은**, Blue **푸른**, Green **녹색**, Red **붉은**, White **흰**, Brass **황동**, Bronze **청동**, Copper **구리**, Gold **황금**, Silver **은빛**(예: 고대 푸른 용, Blue Dragons는 “푸른 용”). 드래곤 터틀, 하프 드래곤, 슈도드래곤은 그대로 둡니다. 같은 이름의 개체가 여럿 묶인 복수형 제목(Cultists, Guards 등)은 “~들”을 붙이고, 개체 이름과 겹치지 않는 제목(Goblins, Mephits, Dragons)은 그대로 씁니다. 베이직 룰 한국어판의 “Thug”은 2024의 Tough에 대응시켰습니다.
 
 ## 크리처
 
@@ -61,7 +61,7 @@ publish: false
 | Bandit | 도적 | bandit | 베이직 |
 | Bandit Captain | 도적 대장 | bandit-captain | 신규 |
 | Bandits | 도적들 | bandits | 신규 |
-| Barbed Devil | 바브드 데빌 | barbed-devil | 신규 |
+| Barbed Devil | 가시 악마 | barbed-devil | 신규 |
 | Basilisk | 바실리스크 | basilisk | 베이직 |
 | Bat | 박쥐 | bat | 베이직 |
 | Bearded Devil | 수염 악마 | bearded-devil | 실사용 |
@@ -76,7 +76,7 @@ publish: false
 | Blue Dragon Wyrmling | 새끼 푸른 용 | blue-dragon-wyrmling | 신규 |
 | Blue Dragons | 푸른 용 | blue-dragons | 신규 |
 | Boar | 멧돼지 | boar | 베이직 |
-| Bone Devil | 본 데빌 | bone-devil | 신규 |
+| Bone Devil | 뼈 악마 | bone-devil | 신규 |
 | Brass Dragon Wyrmling | 새끼 황동 용 | brass-dragon-wyrmling | 신규 |
 | Brass Dragons | 황동 용 | brass-dragons | 신규 |
 | Bronze Dragon Wyrmling | 새끼 청동 용 | bronze-dragon-wyrmling | 신규 |
@@ -206,11 +206,11 @@ publish: false
 | Hobgoblin Warrior | 홉고블린 전사 | hobgoblin-warrior | 신규 |
 | Hobgoblins | 홉고블린 | hobgoblins | 신규 |
 | Homunculus | 호문쿨루스 | homunculus | 신규 |
-| Horned Devil | 혼드 데빌 | horned-devil | 신규 |
+| Horned Devil | 뿔 악마 | horned-devil | 신규 |
 | Hunter Shark | 사냥꾼 상어 | hunter-shark | 베이직 |
 | Hydra | 히드라 | hydra | 베이직 |
 | Hyena | 하이에나 | hyena | 베이직 |
-| Ice Devil | 아이스 데빌 | ice-devil | 신규 |
+| Ice Devil | 얼음 악마 | ice-devil | 신규 |
 | Ice Mephit | 얼음 메피트 | ice-mephit | 신규 |
 | Imp | 임프 | imp | 신규 |
 | Incubus | 인큐버스 | incubus | 신규 |
