@@ -261,7 +261,7 @@ publish: false
 
 ### 7.1 크리처 종류
 
-모두 베이직에서 확인했습니다. 2024 원문은 단수형(Aberration)이지만 같은 말을 씁니다.
+Fiend만 **핀드**(실사용 음역, 핏 핀드와 같게)이고 나머지는 베이직에서 확인했습니다. 2024 원문은 단수형(Aberration)이지만 같은 말을 씁니다. 데빌 이름은 “○○ 악마”(사슬 악마)이므로 Fiend를 “악마”로 쓰지 않습니다.
 
 | 영어 | 한국어 | 영어 | 한국어 |
 | --- | --- | --- | --- |
@@ -271,7 +271,7 @@ publish: false
 | Construct | **구조물** | Ooze | **점액류** |
 | Dragon | **용족** | Plant | **식물류** |
 | Elemental | **원소** | Undead | **언데드** |
-| Fey | **요정** | Fiend | **악마** |
+| Fey | **요정** | Fiend | **핀드** |
 
 ## 9. 1–3단계 번역에서 정한 말
 
@@ -403,9 +403,9 @@ Sorcery Points **마법 점수**, Innate Sorcery **타고난 마법**, Font of M
 
 ### 11.7 워락
 
-Eldritch Invocations **섬뜩한 계시**(Eldritch **섬뜩한**으로 통일: 섬뜩한 폭발·강타·창·정신), Pact Magic **계약 마법**, Magical Cunning **마법의 교활함**, Contact Patron **후견인과 접촉**, Mystic Arcanum **신비의 비급**, Eldritch Master **섬뜩한 대가**, Fiend Patron **악마 후견인**, Book of Shadows **그림자의 책**, pact weapon **계약 무기**, Lower Planes **하계**, Dark One's Blessing **어둠의 존재의 축복**, Fiendish Resilience **악마의 회복력**, Hurl Through Hell **지옥으로 내던지기**, Recharge 제한 **재충전 5–6**.
+Eldritch Invocations **섬뜩한 계시**(Eldritch **섬뜩한**으로 통일: 섬뜩한 폭발·강타·창·정신), Pact Magic **계약 마법**, Magical Cunning **마법의 교활함**, Contact Patron **후견인과 접촉**, Mystic Arcanum **신비의 비급**, Eldritch Master **섬뜩한 대가**, Fiend Patron **핀드 후견인**, Book of Shadows **그림자의 책**, pact weapon **계약 무기**, Lower Planes **하계**, Dark One's Blessing **어둠의 존재의 축복**, Fiendish Resilience **핀드의 회복력**, Hurl Through Hell **지옥으로 내던지기**, Recharge 제한 **재충전 5–6**.
 
-계시 선택지: Agonizing **고통스러운**, Repelling **밀어내는**, Eldritch **섬뜩한** + 폭발 / Armor of Shadows **그림자 갑옷** / Ascendant Step **승천의 걸음** / Devil's Sight **악마의 시야** / Devouring Blade **삼키는 칼날** / Fiendish Vigor **악마의 활력** / Gaze of Two Minds **두 정신의 눈길** / Gift of the Depths **심연의 선물** / Gift of the Protectors **수호자의 선물** / Investment of the Chain Master **사슬 군주의 투자** / Lessons of the First Ones **태초의 교훈** / Lifedrinker **생명을 마시는 자** / Mask of Many Faces **만 가지 얼굴의 가면** / Master of Myriad Forms **무수한 형상의 대가** / Misty Visions **안개 같은 환영** / One with Shadows **그림자와 하나 되기** / Otherworldly Leap **저세상의 도약** / Thirsting Blade **목마른 칼날** / Visions of Distant Realms **먼 영역의 환상** / Whispers of the Grave **무덤의 속삭임** / Witch Sight **마녀의 시야** / Pact of the Blade **칼날의 계약**, of the Chain **사슬의 계약**, of the Tome **책의 계약**.
+계시 선택지: Agonizing **고통스러운**, Repelling **밀어내는**, Eldritch **섬뜩한** + 폭발 / Armor of Shadows **그림자 갑옷** / Ascendant Step **승천의 걸음** / Devil's Sight **악마의 시야** / Devouring Blade **삼키는 칼날** / Fiendish Vigor **핀드의 활력** / Gaze of Two Minds **두 정신의 눈길** / Gift of the Depths **심연의 선물** / Gift of the Protectors **수호자의 선물** / Investment of the Chain Master **사슬 군주의 투자** / Lessons of the First Ones **태초의 교훈** / Lifedrinker **생명을 마시는 자** / Mask of Many Faces **만 가지 얼굴의 가면** / Master of Myriad Forms **무수한 형상의 대가** / Misty Visions **안개 같은 환영** / One with Shadows **그림자와 하나 되기** / Otherworldly Leap **저세상의 도약** / Thirsting Blade **목마른 칼날** / Visions of Distant Realms **먼 영역의 환상** / Whispers of the Grave **무덤의 속삭임** / Witch Sight **마녀의 시야** / Pact of the Blade **칼날의 계약**, of the Chain **사슬의 계약**, of the Tome **책의 계약**.
 * 3레벨 사슬의 계약에 나오는 괴물 이름(임프, 슈도드래곤, 콰지트, 스켈레톤, 경이의 스핑크스, 스프라이트, 독사)은 괴물 단계에서 이름 표로 확정합니다.
 
 ### 11.8 위저드
@@ -478,7 +478,7 @@ Ritual Adept **의식의 달인**, Arcane Recovery **비전 회복**, Scholar **
 | Wand (장비) | `마법봉` | 베이직. Staff **지팡이**와 구분 |
 | Agile | `날렵함` | 능력치 **민첩**과 구분 |
 | Bloodied Fury / Bloodied Frenzy | `빈사 격분` / `빈사 광란` | Rage **격노**와 구분 |
-| Diabolical Restoration / Fiendish Restoration | `악마의 복귀` / `마귀의 복귀` | |
+| Diabolical Restoration / Fiendish Restoration | `악마의 복귀` / `핀드의 복귀` | |
 | Divine Awareness | `신성한 인지` | |
 | Unnerving Gaze / Frightening Gaze / Petrifying Gaze | `섬뜩한 응시` / `공포의 시선` / `석화의 시선` | |
 | Storm Bolt | `폭풍 화살` | |

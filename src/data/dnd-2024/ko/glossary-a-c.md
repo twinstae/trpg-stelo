@@ -330,7 +330,7 @@ _행동불능 또는 사망._ 당신이 행동불능 상태(Incapacitated)이거
     </tr>
     <tr>
       <td>천상체</td>
-      <td>악마</td>
+      <td>핀드</td>
       <td>식물류</td>
     </tr>
     <tr>
