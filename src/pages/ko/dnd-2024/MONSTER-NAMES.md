@@ -6,11 +6,11 @@ createdAt: "2026-10-24T12:00:00.000Z"
 publish: false
 ---
 
-이 문서는 SRD 5.2.1의 괴물과 동물 이름을 한국어로 통일하려고 모은 표입니다. 베이직 룰 한국어판 부록에 영어가 병기된 이름은 그대로 따랐고(`베이직`), 베이직 룰에 없는 이름은 베이직의 어투(유명한 D&D 괴물은 음역, 일반 동물과 설명형 이름은 우리말)에 맞춰 새로 지었습니다(`신규`). 번역할 때는 이 표의 이름을 그대로 복사해 쓰고, 새 이름을 만들면 같은 커밋에서 이 표에 한 줄을 추가합니다.
+이 문서는 SRD 5.2.1의 괴물과 동물 이름을 한국어로 통일하려고 모은 표입니다. 베이직 룰 한국어판 부록에 영어가 병기된 이름은 그대로 따랐고(`베이직`), 베이직 룰에 없는 이름은 베이직의 어투(유명한 D&D 괴물은 음역, 일반 동물과 설명형 이름은 우리말)에 맞춰 새로 지었습니다(`신규`). `실사용`은 2026-10-27에 네이버 블로그·카페에서 D&D 맥락의 실제 글을 조사해 베이직·신규 표기보다 널리 쓰이는 표기로 바꾼 이름입니다(예: 사후아긴, 웨어울프, 콰짓, 핏 핀드, 해그). 번역할 때는 이 표의 이름을 그대로 복사해 쓰고, 새 이름을 만들면 같은 커밋에서 이 표에 한 줄을 추가합니다.
 
-**표기 규칙**: 데빌(Devil)이 붙은 이름은 음역에 베이직의 “데빌”을 붙이고(체인 데빌), 데몬은 고유 이름을 음역합니다(발로르, 마릴리스). 드래곤은 “색 드래곤 연령”으로 쓰며 Wyrmling **와이엄링**, Young **성체**, Adult **원숙체**, Ancient **고룡**입니다(성체·원숙체는 베이직, 와이엄링·고룡은 신규). 같은 이름의 개체가 여럿 묶인 복수형 제목(Cultists, Guards 등)은 “~들”을 붙이고, 개체 이름과 겹치지 않는 제목(Goblins, Mephits, Dragons)은 그대로 씁니다. 베이직 룰 한국어판의 “Thug”은 2024의 Tough에 대응시켰습니다.
+**표기 규칙**: 데빌(Devil)이 붙은 이름은 음역에 베이직의 “데빌”을 붙이고(체인 데빌), 데몬은 고유 이름을 음역합니다(발로르, 마릴리스). 드래곤은 “색 드래곤 연령”으로 쓰며 Wyrmling **웜링**, Young **성체**, Adult **원숙체**, Ancient **고룡**입니다(성체·원숙체는 베이직, 웜링·고룡은 신규). 같은 이름의 개체가 여럿 묶인 복수형 제목(Cultists, Guards 등)은 “~들”을 붙이고, 개체 이름과 겹치지 않는 제목(Goblins, Mephits, Dragons)은 그대로 씁니다. 베이직 룰 한국어판의 “Thug”은 2024의 Tough에 대응시켰습니다.
 
-## 크리쳐
+## 크리처
 
 단위(slug)는 영어 원문 `## ` 또는 `### ` 제목의 id입니다.
 
@@ -27,7 +27,7 @@ publish: false
 | Adult Red Dragon | 레드 드래곤 원숙체 | adult-red-dragon | 베이직 |
 | Adult Silver Dragon | 실버 드래곤 원숙체 | adult-silver-dragon | 신규 |
 | Adult White Dragon | 화이트 드래곤 원숙체 | adult-white-dragon | 신규 |
-| Air Elemental | 대기 원소 | air-elemental | 베이직 |
+| Air Elemental | 공기 원소 | air-elemental | 실사용 |
 | Allosaurus | 알로사우르스 | allosaurus | 베이직 |
 | Ancient Black Dragon | 블랙 드래곤 고룡 | ancient-black-dragon | 신규 |
 | Ancient Blue Dragon | 블루 드래곤 고룡 | ancient-blue-dragon | 신규 |
@@ -68,18 +68,18 @@ publish: false
 | Behir | 베히르 | behir | 신규 |
 | Berserker | 광전사 | berserker | 베이직 |
 | Black Bear | 검은 곰 | black-bear | 베이직 |
-| Black Dragon Wyrmling | 블랙 드래곤 와이엄링 | black-dragon-wyrmling | 신규 |
+| Black Dragon Wyrmling | 블랙 드래곤 웜링 | black-dragon-wyrmling | 실사용 |
 | Black Dragons | 블랙 드래곤 | black-dragons | 베이직 |
 | Black Pudding | 블랙 푸딩 | black-pudding | 신규 |
 | Blink Dog | 점멸견 | blink-dog | 베이직 |
 | Blood Hawk | 피의 매 | blood-hawk | 베이직 |
-| Blue Dragon Wyrmling | 블루 드래곤 와이엄링 | blue-dragon-wyrmling | 신규 |
+| Blue Dragon Wyrmling | 블루 드래곤 웜링 | blue-dragon-wyrmling | 실사용 |
 | Blue Dragons | 블루 드래곤 | blue-dragons | 베이직 |
 | Boar | 멧돼지 | boar | 베이직 |
 | Bone Devil | 본 데빌 | bone-devil | 신규 |
-| Brass Dragon Wyrmling | 브래스 드래곤 와이엄링 | brass-dragon-wyrmling | 신규 |
+| Brass Dragon Wyrmling | 브래스 드래곤 웜링 | brass-dragon-wyrmling | 실사용 |
 | Brass Dragons | 브래스 드래곤 | brass-dragons | 신규 |
-| Bronze Dragon Wyrmling | 브론즈 드래곤 와이엄링 | bronze-dragon-wyrmling | 신규 |
+| Bronze Dragon Wyrmling | 브론즈 드래곤 웜링 | bronze-dragon-wyrmling | 실사용 |
 | Bronze Dragons | 브론즈 드래곤 | bronze-dragons | 신규 |
 | Brown Bear | 갈색 곰 | brown-bear | 베이직 |
 | Bugbear Stalker | 버그베어 추적자 | bugbear-stalker | 신규 |
@@ -88,8 +88,8 @@ publish: false
 | Bulette | 불레트 | bulette | 신규 |
 | Camel | 낙타 | camel | 베이직 |
 | Cat | 고양이 | cat | 베이직 |
-| Centaur | 켄타우르스 | centaur | 베이직 |
-| Centaur Trooper | 켄타우르스 병사 | centaur-trooper | 신규 |
+| Centaur | 켄타우로스 | centaur | 실사용 |
+| Centaur Trooper | 켄타우로스 병사 | centaur-trooper | 실사용 |
 | Chain Devil | 체인 데빌 | chain-devil | 신규 |
 | Chimera | 키마이라 | chimera | 베이직 |
 | Chuul | 추울 | chuul | 신규 |
@@ -98,10 +98,10 @@ publish: false
 | Cloud Giant | 구름 거인 | cloud-giant | 신규 |
 | Cockatrice | 코카트리스 | cockatrice | 베이직 |
 | Commoner | 일반인 | commoner | 베이직 |
-| Constrictor Snake | 구렁이류 뱀 | constrictor-snake | 베이직 |
-| Copper Dragon Wyrmling | 카퍼 드래곤 와이엄링 | copper-dragon-wyrmling | 신규 |
+| Constrictor Snake | 보아뱀 | constrictor-snake | 실사용 |
+| Copper Dragon Wyrmling | 카퍼 드래곤 웜링 | copper-dragon-wyrmling | 실사용 |
 | Copper Dragons | 카퍼 드래곤 | copper-dragons | 베이직 |
-| Couatl | 쿠아틀 | couatl | 신규 |
+| Couatl | 코아틀 | couatl | 실사용 |
 | Crab | 게 | crab | 베이직 |
 | Crawling Claw | 기어다니는 손 | crawling-claw | 신규 |
 | Crocodile | 악어 | crocodile | 베이직 |
@@ -116,7 +116,7 @@ publish: false
 | Djinni | 지니 | djinni | 신규 |
 | Doppelganger | 도플갱어 | doppelganger | 베이직 |
 | Draft Horse | 짐말 | draft-horse | 베이직 |
-| Dragon Turtle | 드래곤 거북 | dragon-turtle | 신규 |
+| Dragon Turtle | 드래곤 터틀 | dragon-turtle | 실사용 |
 | Dretch | 드레치 | dretch | 신규 |
 | Drider | 드라이더 | drider | 신규 |
 | Druid | 드루이드 | druid | 신규 |
@@ -147,7 +147,7 @@ publish: false
 | Giant Bat | 거대 박쥐 | giant-bat | 베이직 |
 | Giant Boar | 거대 멧돼지 | giant-boar | 베이직 |
 | Giant Centipede | 거대 지네 | giant-centipede | 베이직 |
-| Giant Constrictor Snake | 거대 구렁이류 뱀 | giant-constrictor-snake | 베이직 |
+| Giant Constrictor Snake | 거대 보아뱀 | giant-constrictor-snake | 실사용 |
 | Giant Crab | 거대 게 | giant-crab | 베이직 |
 | Giant Crocodile | 거대 악어 | giant-crocodile | 베이직 |
 | Giant Eagle | 거대 독수리 | giant-eagle | 베이직 |
@@ -170,7 +170,7 @@ publish: false
 | Giant Wasp | 거대 말벌 | giant-wasp | 베이직 |
 | Giant Weasel | 거대 족제비 | giant-weasel | 베이직 |
 | Giant Wolf Spider | 거대 늑대 거미 | giant-wolf-spider | 베이직 |
-| Gibbering Mouther | 지껄이는 입 | gibbering-mouther | 신규 |
+| Gibbering Mouther | 기버링 마우서 | gibbering-mouther | 실사용 |
 | Glabrezu | 글라브레주 | glabrezu | 신규 |
 | Gladiator | 검투사 | gladiator | 신규 |
 | Gnoll | 놀 | gnoll | 베이직 |
@@ -180,13 +180,13 @@ publish: false
 | Goblin Minion | 고블린 하수인 | goblin-minion | 신규 |
 | Goblin Warrior | 고블린 전사 | goblin-warrior | 신규 |
 | Goblins | 고블린 | goblins | 신규 |
-| Gold Dragon Wyrmling | 골드 드래곤 와이엄링 | gold-dragon-wyrmling | 신규 |
+| Gold Dragon Wyrmling | 골드 드래곤 웜링 | gold-dragon-wyrmling | 실사용 |
 | Gold Dragons | 골드 드래곤 | gold-dragons | 베이직 |
 | Gorgon | 고르곤 | gorgon | 신규 |
-| Gray Ooze | 회색 점액 | gray-ooze | 신규 |
-| Green Dragon Wyrmling | 그린 드래곤 와이엄링 | green-dragon-wyrmling | 신규 |
+| Gray Ooze | 그레이 우즈 | gray-ooze | 실사용 |
+| Green Dragon Wyrmling | 그린 드래곤 웜링 | green-dragon-wyrmling | 실사용 |
 | Green Dragons | 그린 드래곤 | green-dragons | 베이직 |
-| Green Hag | 그린 하그 | green-hag | 신규 |
+| Green Hag | 그린 해그 | green-hag | 실사용 |
 | Grick | 그릭 | grick | 베이직 |
 | Griffon | 그리폰 | griffon | 베이직 |
 | Grimlock | 그림록 | grimlock | 신규 |
@@ -248,7 +248,7 @@ publish: false
 | Mummy | 미이라 | mummy | 베이직 |
 | Mummy Lord | 미이라 군주 | mummy-lord | 신규 |
 | Nalfeshnee | 날페쉬니 | nalfeshnee | 신규 |
-| Night Hag | 나이트 하그 | night-hag | 신규 |
+| Night Hag | 나이트 해그 | night-hag | 실사용 |
 | Nightmare | 나이트메어 | nightmare | 신규 |
 | Noble | 귀족 | noble | 베이직 |
 | Ochre Jelly | 오커 젤리 | ochre-jelly | 베이직 |
@@ -260,13 +260,13 @@ publish: false
 | Owl | 부엉이 | owl | 베이직 |
 | Owlbear | 아울베어 | owlbear | 베이직 |
 | Panther | 표범 | panther | 베이직 |
-| Pegasus | 페가서스 | pegasus | 베이직 |
+| Pegasus | 페가수스 | pegasus | 실사용 |
 | Phase Spider | 위상 거미 | phase-spider | 베이직 |
 | Piranha | 피라냐 | piranha | 신규 |
 | Pirate | 해적 | pirate | 신규 |
 | Pirate Captain | 해적 선장 | pirate-captain | 신규 |
 | Pirates | 해적들 | pirates | 신규 |
-| Pit Fiend | 핏 피엔드 | pit-fiend | 신규 |
+| Pit Fiend | 핏 핀드 | pit-fiend | 실사용 |
 | Planetar | 플라네타르 | planetar | 신규 |
 | Plesiosaurus | 플레시오사우르스 | plesiosaurus | 베이직 |
 | Polar Bear | 북극곰 | polar-bear | 베이직 |
@@ -277,11 +277,11 @@ publish: false
 | Pseudodragon | 슈도드래곤 | pseudodragon | 신규 |
 | Pteranodon | 프테라노돈 | pteranodon | 베이직 |
 | Purple Worm | 퍼플 웜 | purple-worm | 신규 |
-| Quasit | 쿼싯 | quasit | 신규 |
+| Quasit | 콰짓 | quasit | 실사용 |
 | Rakshasa | 락샤사 | rakshasa | 신규 |
 | Rat | 쥐 | rat | 베이직 |
 | Raven | 까마귀 | raven | 베이직 |
-| Red Dragon Wyrmling | 레드 드래곤 와이엄링 | red-dragon-wyrmling | 신규 |
+| Red Dragon Wyrmling | 레드 드래곤 웜링 | red-dragon-wyrmling | 실사용 |
 | Red Dragons | 레드 드래곤 | red-dragons | 베이직 |
 | Reef Shark | 산호 상어 | reef-shark | 베이직 |
 | Remorhaz | 레모라즈 | remorhaz | 신규 |
@@ -291,19 +291,19 @@ publish: false
 | Roper | 로퍼 | roper | 신규 |
 | Rust Monster | 러스트 몬스터 | rust-monster | 신규 |
 | Saber-Toothed Tiger | 검치호 | saber-toothed-tiger | 베이직 |
-| Sahuagin | 사후긴 | sahuagin | 신규 |
-| Sahuagin Warrior | 사후긴 전사 | sahuagin-warrior | 신규 |
+| Sahuagin | 사후아긴 | sahuagin | 실사용 |
+| Sahuagin Warrior | 사후아긴 전사 | sahuagin-warrior | 실사용 |
 | Salamander | 샐러맨더 | salamander | 신규 |
 | Satyr | 사티로스 | satyr | 베이직 |
 | Scorpion | 전갈 | scorpion | 베이직 |
 | Scout | 정찰병 | scout | 신규 |
-| Sea Hag | 시 하그 | sea-hag | 신규 |
+| Sea Hag | 시 해그 | sea-hag | 실사용 |
 | Seahorse | 해마 | seahorse | 신규 |
 | Shadow | 그림자 | shadow | 신규 |
-| Shambling Mound | 쉠블링 마운드 | shambling-mound | 신규 |
+| Shambling Mound | 섐블링 마운드 | shambling-mound | 실사용 |
 | Shield Guardian | 방패 수호자 | shield-guardian | 신규 |
 | Shrieker Fungus | 비명 버섯 | shrieker-fungus | 신규 |
-| Silver Dragon Wyrmling | 실버 드래곤 와이엄링 | silver-dragon-wyrmling | 신규 |
+| Silver Dragon Wyrmling | 실버 드래곤 웜링 | silver-dragon-wyrmling | 실사용 |
 | Silver Dragons | 실버 드래곤 | silver-dragons | 신규 |
 | Skeleton | 스켈레톤 | skeleton | 베이직 |
 | Skeletons | 스켈레톤들 | skeletons | 신규 |
@@ -356,12 +356,12 @@ publish: false
 | Warriors | 전사들 | warriors | 신규 |
 | Water Elemental | 물의 원소 | water-elemental | 베이직 |
 | Weasel | 족제비 | weasel | 베이직 |
-| Werebear | 위어베어 | werebear | 신규 |
-| Wereboar | 위어보어 | wereboar | 신규 |
-| Wererat | 위어랫 | wererat | 신규 |
-| Weretiger | 위어타이거 | weretiger | 신규 |
-| Werewolf | 위어울프 | werewolf | 베이직 |
-| White Dragon Wyrmling | 화이트 드래곤 와이엄링 | white-dragon-wyrmling | 신규 |
+| Werebear | 웨어베어 | werebear | 실사용 |
+| Wereboar | 웨어보어 | wereboar | 실사용 |
+| Wererat | 웨어랫 | wererat | 실사용 |
+| Weretiger | 웨어타이거 | weretiger | 실사용 |
+| Werewolf | 웨어울프 | werewolf | 실사용 |
+| White Dragon Wyrmling | 화이트 드래곤 웜링 | white-dragon-wyrmling | 실사용 |
 | White Dragons | 화이트 드래곤 | white-dragons | 신규 |
 | Wight | 와이트 | wight | 베이직 |
 | Will-o'-Wisp | 도깨비불 | will-o-wisp | 신규 |

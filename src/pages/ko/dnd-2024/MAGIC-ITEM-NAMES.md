@@ -46,7 +46,7 @@ publish: false
 | Candle of Invocation | 기원의 양초 | 기타 물건 | magic-items-c-d | 신규 |
 | Cape of the Mountebank | 사기꾼의 망토 | 기타 물건 | magic-items-c-d | 신규 |
 | Carpet of Flying | 비행 양탄자 | 기타 물건 | magic-items-c-d | 신규 |
-| Censer of Controlling Air Elementals | 대기 원소 통제의 향로 | 기타 물건 | magic-items-c-d | 신규 |
+| Censer of Controlling Air Elementals | 공기 원소 통제의 향로 | 기타 물건 | magic-items-c-d | 신규 |
 | Chime of Opening | 열림의 종 | 기타 물건 | magic-items-c-d | 신규 |
 | Circlet of Blasting | 폭파의 서클릿 | 기타 물건 | magic-items-c-d | 신규 |
 | Cloak of Arachnida | 거미류의 망토 | 기타 물건 | magic-items-c-d | 신규 |

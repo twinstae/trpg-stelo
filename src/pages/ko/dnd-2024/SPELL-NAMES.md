@@ -201,7 +201,7 @@ publish: false
 | Light | 빛 | 소마법·방출계 | 베이직 |
 | Lightning Bolt | 번개 | 3레벨·방출계 | 베이직 |
 | Locate Animals or Plants | 동식물 위치파악 | 2레벨·예지계 | 신규 |
-| Locate Creature | 크리쳐 위치파악 | 4레벨·예지계 | 베이직 |
+| Locate Creature | 크리처 위치파악 | 4레벨·예지계 | 베이직 |
 | Locate Object | 물체 위치파악 | 2레벨·예지계 | 신규 |
 | Longstrider | 성큼걸음 | 1레벨·변환계 | 신규 |
 | Mage Armor | 마법 갑주 | 1레벨·방호계 | 베이직 |
